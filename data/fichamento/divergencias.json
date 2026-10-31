@@ -1,0 +1,1000 @@
+{
+  "_meta": {
+    "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
+    "total": 26
+  },
+  "divergencias": [
+    {
+      "orixa": "exu",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "segunda-feira (com Omolu)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 120",
+          "registro": "exu-035"
+        },
+        {
+          "valor": "segunda-feira (com Omolu)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "exu-036"
+        },
+        {
+          "valor": "segunda-feira (como Bará)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "exu-037"
+        },
+        {
+          "valor": "semana iorubá de 4 dias ligada aos pontos cardeais: Exu a leste",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "África iorubá (esquema de Frobenius, citado por Bastide)",
+          "fonte": "frobenius-1912-afrika",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "exu-041"
+        }
+      ]
+    },
+    {
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Legba / Elegbara (vodum dos fons)",
+          "tradicoes": [
+            "vodun_benim",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 47",
+          "registro": "exu-001"
+        },
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "verger-1981-orixas",
+          "via": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "registro": "exu-023"
+        },
+        {
+          "valor": "Legba (nome daomeano usado na Bahia)",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_jeje",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 121, nota 84",
+          "registro": "exu-040"
+        },
+        {
+          "valor": "Legba (África, Cuba, Haiti)",
+          "tradicoes": [
+            "vodun_benim",
+            "vodou_haiti",
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 289",
+          "registro": "exu-044"
+        }
+      ]
+    },
+    {
+      "orixa": "exu",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "padê: homenagem a Exu no início de toda cerimônia",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "bastide-1958-candomble",
+          "via": "prandi-2001-exu-diabo",
+          "localizacao": "p. 58",
+          "registro": "exu-026"
+        },
+        {
+          "valor": "festa anual do Gantois: sacrifício propiciatório e segunda-feira para Exu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+          "fonte": "nina-rodrigues-1900-animisme",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, p. 106",
+          "registro": "exu-038"
+        },
+        {
+          "valor": "24 de agosto",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 289",
+          "registro": "exu-046"
+        }
+      ]
+    },
+    {
+      "orixa": "exu",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "o gorro de duas cores que separa dois amigos",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 49",
+          "registro": "exu-009"
+        },
+        {
+          "valor": "Exu se desloca no tempo e no espaço pelos quatro pontos cardeais com seu bastão",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "silva-2012-exu-brasil",
+          "via": null,
+          "localizacao": "p. 1100",
+          "registro": "exu-060"
+        }
+      ]
+    },
+    {
+      "orixa": "exu",
+      "atributo": "qualidades",
+      "versoes": [
+        {
+          "valor": "Exu múltiplo: um guardião para cada casa, rua, cidade, mercado e pessoa",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "pp. 54–55",
+          "registro": "exu-020"
+        },
+        {
+          "valor": "cada pessoa e cada orixá tem seu Exu; ao menos 21, conforme o terreiro",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 290",
+          "registro": "exu-048"
+        },
+        {
+          "valor": "menos de uma dezena de avatares no candomblé (Tiriri, Lonã, Marabô...); legiões na Umbanda",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "silva-2012-exu-brasil",
+          "via": null,
+          "localizacao": "p. 1089",
+          "registro": "exu-057"
+        }
+      ]
+    },
+    {
+      "orixa": "exu",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "tridente de ferro (assentamento); garfo-de-exu",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 57",
+          "registro": "exu-025"
+        },
+        {
+          "valor": "laterita; montículo de terra com falo (ogó); estátua com búzios; cajado fálico",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "silva-2012-exu-brasil",
+          "via": null,
+          "localizacao": "p. 1087",
+          "registro": "exu-051"
+        },
+        {
+          "valor": "encruzilhada em X para Exu, em T para Pombagira (Umbanda)",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "silva-2012-exu-brasil",
+          "via": null,
+          "localizacao": "p. 1100",
+          "registro": "exu-061"
+        }
+      ]
+    },
+    {
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Diabo (contraponto ao Oxalá-Jesus no modelo bem × mal)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 51",
+          "registro": "exu-015"
+        },
+        {
+          "valor": "São Bartolomeu, Santo Antônio, São Gabriel ou São Pedro, conforme terreiro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 289",
+          "registro": "exu-045"
+        },
+        {
+          "valor": "Menino Jesus (Cuba); Santo Antônio, São Gabriel, São Benedito, São Pedro (Brasil) — face mensageira",
+          "tradicoes": [
+            "lucumi",
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "silva-2012-exu-brasil",
+          "via": null,
+          "localizacao": "p. 1088",
+          "registro": "exu-055"
+        },
+        {
+          "valor": "diabo e espíritos dos mortos ('encostos', 'eguns') — face trickster",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "silva-2012-exu-brasil",
+          "via": null,
+          "localizacao": "p. 1088",
+          "registro": "exu-056"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "sábado (com Oxum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 120, 124",
+          "registro": "iemanja-013"
+        },
+        {
+          "valor": "sábado (com Oxum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 128",
+          "registro": "iemanja-014"
+        },
+        {
+          "valor": "sexta-feira (com Odé, 'o filho que ela traz ao colo')",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "iemanja-015"
+        },
+        {
+          "valor": "sábado",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 237",
+          "registro": "iemanja-024"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "elementos",
+      "versoes": [
+        {
+          "valor": "água salgada (Oxum: água doce)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 124",
+          "registro": "iemanja-016"
+        },
+        {
+          "valor": "águas do mar",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 226",
+          "registro": "iemanja-020"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "presente de Iemanjá junto da festa da Purificação (Oxum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé derivado do 'Língua de Vaca' (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 124",
+          "registro": "iemanja-017"
+        },
+        {
+          "valor": "datas variam por região (31 de dezembro, 8 de fevereiro); presentes levados ao mar",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 237",
+          "registro": "iemanja-025"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "filha de Oxalá; mãe de vários orixás",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 125",
+          "registro": "iemanja-018"
+        },
+        {
+          "valor": "esposa de Oxalá; mãe de Xangô; às vezes mãe de todos os orixás (exceto Exu)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 236",
+          "registro": "iemanja-021"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Nossa Senhora",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 63",
+          "registro": "iemanja-001"
+        },
+        {
+          "valor": "Nossa Senhora da Imaculada Conceição (8 de dezembro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 105, nota",
+          "registro": "iemanja-019"
+        },
+        {
+          "valor": "Virgem Maria (Virgem com o Menino)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 236",
+          "registro": "iemanja-022"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "quinta-feira (com Oxóssi)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 120",
+          "registro": "ogum-009"
+        },
+        {
+          "valor": "terça-feira (com Nanã e Oxumarê)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "ogum-010"
+        },
+        {
+          "valor": "quinta-feira",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "ogum-011"
+        },
+        {
+          "valor": "semana iorubá de 4 dias: Ogum ao norte",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "África iorubá (esquema de Frobenius, citado por Bastide)",
+          "fonte": "frobenius-1912-afrika",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "ogum-015"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "qualidades",
+      "versoes": [
+        {
+          "valor": "Ogum Xoroquê — qualidade ligada a Exu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 62",
+          "registro": "ogum-001"
+        },
+        {
+          "valor": "Ogunjá — Ogum que mora com Oxóssi e Exu e come comida crua",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "carneiro-1948-candombles",
+          "via": "prandi-2001-exu-diabo",
+          "localizacao": "p. 62",
+          "registro": "ogum-002"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "emblema de ferro com 7, 14 ou 21 pontas",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 266",
+          "registro": "ogum-022"
+        },
+        {
+          "valor": "espada-de-ogum / espada-de-são-jorge (Sansevieria) — uso litúrgico",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 267",
+          "registro": "ogum-023"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "São Jorge e São João (calendário de terreiro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 105, nota",
+          "registro": "ogum-014"
+        },
+        {
+          "valor": "São Jorge",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 266",
+          "registro": "ogum-019"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "quinta-feira (com Ogum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 120",
+          "registro": "oxossi-006"
+        },
+        {
+          "valor": "quinta-feira (só Oxóssi)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 128",
+          "registro": "oxossi-007"
+        },
+        {
+          "valor": "segunda-feira (como Odé, com Bará, Ossaim e Otim) e sexta-feira (com Iemanjá)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "oxossi-008"
+        },
+        {
+          "valor": "quinta-feira (Gantois, fim do séc. XIX)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+          "fonte": "nina-rodrigues-1900-animisme",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, p. 106",
+          "registro": "oxossi-009"
+        },
+        {
+          "valor": "quinta-feira",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "oxossi-018"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "Oxóssi médico que aprende o segredo das plantas com Ossaim",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "oxossi-023"
+        },
+        {
+          "valor": "o caçador de uma só flecha (versão de Verger) — recusada por um informante",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 260",
+          "registro": "oxossi-024"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "Oxóssi, Ogum (Ogunjá) e Exu cultuados juntos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "carneiro-1948-candombles",
+          "via": "prandi-2001-exu-diabo",
+          "localizacao": "p. 62",
+          "registro": "oxossi-001"
+        },
+        {
+          "valor": "irmão de Ogum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 123, nota 91",
+          "registro": "oxossi-011"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "quarta-feira (com Iansã)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 120, 123",
+          "registro": "xango-007"
+        },
+        {
+          "valor": "quarta-feira (com Iansã)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "xango-008"
+        },
+        {
+          "valor": "terça-feira (com Oiá/Iansã)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "xango-009"
+        },
+        {
+          "valor": "quinta-feira (Recife)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "xango-010"
+        },
+        {
+          "valor": "quarta-feira (Gantois, fim do séc. XIX)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+          "fonte": "nina-rodrigues-1900-animisme",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, p. 106",
+          "registro": "xango-011"
+        },
+        {
+          "valor": "semana iorubá de 4 dias: Xangô a oeste",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "África iorubá (esquema de Frobenius, citado por Bastide)",
+          "fonte": "frobenius-1912-afrika",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "xango-019"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "elementos",
+      "versoes": [
+        {
+          "valor": "fogo / raio",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 122–123",
+          "registro": "xango-018"
+        },
+        {
+          "valor": "trovão, fogo, raio",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 226",
+          "registro": "xango-020"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "Iansã rouba a magia de Xangô de lançar fogo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 122–123",
+          "registro": "xango-015"
+        },
+        {
+          "valor": "Xangô e Iansã diante dos malês",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife",
+          "fonte": "ribeiro-1952-recife",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, p. 123",
+          "registro": "xango-016"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "origem",
+      "versoes": [
+        {
+          "valor": "rei humano divinizado",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 59",
+          "registro": "xango-001"
+        },
+        {
+          "valor": "terceiro ou quarto alafin de Oyó, divinizado por feitos guerreiros",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 240",
+          "registro": "xango-021"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "esposas: Iansã (principal), Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "registro": "xango-014"
+        },
+        {
+          "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 239",
+          "registro": "xango-022"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "baiani: capacete de couro colorido com búzios e guizos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Gantois (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 107, nota 57",
+          "registro": "xango-013"
+        },
+        {
+          "valor": "oxê (machado); metais/matérias: cobre e pedra",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 240",
+          "registro": "xango-025"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "São Jerônimo (30 de setembro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Gantois (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 107",
+          "registro": "xango-012"
+        },
+        {
+          "valor": "São Jerônimo (pelo carneiro) e São João",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 240",
+          "registro": "xango-026"
+        }
+      ]
+    }
+  ]
+}

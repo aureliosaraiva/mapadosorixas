@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-10-31",
-    "total": 163
+    "total": 164
   },
   "fontes": [
     {
@@ -1355,6 +1355,28 @@
       "url": null,
       "identificadores": {},
       "editora": "Grandvaux"
+    },
+    {
+      "id": "dopamu-1990-esu",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "P. Adelumo Dopamu"
+      ],
+      "titulo": "Esu: the invisible foe of man",
+      "ano": 1990,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Citado por Silva (2012, p. 1087) sobre a tradução de 'Demônio' por 'Exu'. Título, autor e ano a conferir.",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "url": null,
+      "identificadores": {}
     },
     {
       "id": "drewal-1989-nine",
@@ -3102,7 +3124,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Subtítulo a conferir. Discute Exu como mensageiro/ordenador e como trickster, em Candomblé e Umbanda.",
+      "observacoes": "Revista de Antropologia (USP), v. 55, n. 2, 2012, pp. 1085–1106 (conferir página final). Subtítulo confirmado no PDF. Lido parcialmente (pp. 1085–1090, 1100) em 2026-10-31.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://periodicos.usp.br/ra/article/download/59309/62347/76341"

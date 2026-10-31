@@ -2,10 +2,10 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 50,
+    "total": 61,
     "por_status": {
-      "fichado": 48,
-      "pre_fichamento": 2,
+      "fichado": 60,
+      "pre_fichamento": 1,
       "revisado": 0
     }
   },
@@ -659,27 +659,6 @@
       "id": "exu-034",
       "orixa": "exu",
       "atributo": "interpretacao_academica",
-      "valor": "mensageiro ordenador × trickster",
-      "tradicoes": [
-        "ioruba_nigeria",
-        "candomble_ketu",
-        "umbanda"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "silva-2012-exu-brasil",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Silva descreve a figura de Exu na África Ocidental como dividida entre um mediador que mantém a ordem e um trickster que provoca o caos, o que gerou várias faces no Brasil.",
-      "nota": null,
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
-      ]
-    },
-    {
-      "id": "exu-035",
-      "orixa": "exu",
-      "atributo": "interpretacao_academica",
       "valor": "de orixá a egum: ressignificação de Exu na Umbanda",
       "tradicoes": [
         "umbanda"
@@ -696,7 +675,7 @@
       ]
     },
     {
-      "id": "exu-036",
+      "id": "exu-035",
       "orixa": "exu",
       "atributo": "dia_semana",
       "valor": "segunda-feira (com Omolu)",
@@ -715,7 +694,7 @@
       ]
     },
     {
-      "id": "exu-037",
+      "id": "exu-036",
       "orixa": "exu",
       "atributo": "dia_semana",
       "valor": "segunda-feira (com Omolu)",
@@ -734,7 +713,7 @@
       ]
     },
     {
-      "id": "exu-038",
+      "id": "exu-037",
       "orixa": "exu",
       "atributo": "dia_semana",
       "valor": "segunda-feira (como Bará)",
@@ -753,7 +732,7 @@
       ]
     },
     {
-      "id": "exu-039",
+      "id": "exu-038",
       "orixa": "exu",
       "atributo": "festas",
       "valor": "festa anual do Gantois: sacrifício propiciatório e segunda-feira para Exu",
@@ -772,7 +751,7 @@
       ]
     },
     {
-      "id": "exu-040",
+      "id": "exu-039",
       "orixa": "exu",
       "atributo": "funcoes",
       "valor": "deus das 'aberturas': guarda a porta do terreiro e a entrada do tempo",
@@ -791,7 +770,7 @@
       ]
     },
     {
-      "id": "exu-041",
+      "id": "exu-040",
       "orixa": "exu",
       "atributo": "equivalencias",
       "valor": "Legba (nome daomeano usado na Bahia)",
@@ -812,14 +791,14 @@
       ]
     },
     {
-      "id": "exu-042",
+      "id": "exu-041",
       "orixa": "exu",
       "atributo": "dia_semana",
       "valor": "semana iorubá de 4 dias ligada aos pontos cardeais: Exu a leste",
       "tradicoes": [
         "ioruba_nigeria"
       ],
-      "casa_ou_regiao": "Bahia (Salvador)",
+      "casa_ou_regiao": "África iorubá (esquema de Frobenius, citado por Bastide)",
       "source_id": "frobenius-1912-afrika",
       "via_source_id": "bastide-1958-candomble",
       "localizacao": "ed. pt 1961, p. 127",
@@ -831,7 +810,7 @@
       ]
     },
     {
-      "id": "exu-043",
+      "id": "exu-042",
       "orixa": "exu",
       "atributo": "cores",
       "valor": "vermelho e preto",
@@ -851,7 +830,7 @@
       ]
     },
     {
-      "id": "exu-044",
+      "id": "exu-043",
       "orixa": "exu",
       "atributo": "iconografia",
       "valor": "figura negra com chifres e sexo evidente; ou monte de terra fálico",
@@ -871,7 +850,7 @@
       ]
     },
     {
-      "id": "exu-045",
+      "id": "exu-044",
       "orixa": "exu",
       "atributo": "equivalencias",
       "valor": "Legba (África, Cuba, Haiti)",
@@ -892,7 +871,7 @@
       ]
     },
     {
-      "id": "exu-046",
+      "id": "exu-045",
       "orixa": "exu",
       "atributo": "sincretismo",
       "valor": "São Bartolomeu, Santo Antônio, São Gabriel ou São Pedro, conforme terreiro",
@@ -912,7 +891,7 @@
       ]
     },
     {
-      "id": "exu-047",
+      "id": "exu-046",
       "orixa": "exu",
       "atributo": "festas",
       "valor": "24 de agosto",
@@ -932,7 +911,7 @@
       ]
     },
     {
-      "id": "exu-048",
+      "id": "exu-047",
       "orixa": "exu",
       "atributo": "historia_culto",
       "valor": "raramente tratado como orixá; poucos terreiros iniciam para Exu; 'carga' de sete anos",
@@ -951,7 +930,7 @@
       ]
     },
     {
-      "id": "exu-049",
+      "id": "exu-048",
       "orixa": "exu",
       "atributo": "qualidades",
       "valor": "cada pessoa e cada orixá tem seu Exu; ao menos 21, conforme o terreiro",
@@ -970,7 +949,7 @@
       ]
     },
     {
-      "id": "exu-050",
+      "id": "exu-049",
       "orixa": "exu",
       "atributo": "funcoes",
       "valor": "mensageiro; padê antes de toda festa",
@@ -988,6 +967,243 @@
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
+    },
+    {
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "mensageiro; guardião da ordem e, como trickster, da desordem; participou da Criação",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1087",
+      "parafrase": "Entre fons e iorubás, Legba ou Exu é um deus mensageiro, ligado à fertilidade e ao dinamismo, que tomou parte na criação do mundo; guarda a ordem e, por ser trickster, também a desordem, e é saudado sempre em primeiro lugar.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-050"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "simbolos",
+      "valor": "laterita; montículo de terra com falo (ogó); estátua com búzios; cajado fálico",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1087",
+      "parafrase": "Na África Ocidental, Exu é cultuado numa pedra de laterita, num monte de terra em forma de cabeça com grande falo, ou numa estátua com búzios; leva um cajado fálico com que se desloca.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-051"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "animais",
+      "valor": "bodes, galos pretos, cães e porcos (sacrifício na África Ocidental)",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1087",
+      "parafrase": "Na África Ocidental, Exu recebe sangue de bodes, galos pretos, cães e porcos, além de bebidas alcoólicas e azeite de dendê.",
+      "nota": "Informação etnográfica geral; não detalhar ritos.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-052"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "dominios",
+      "valor": "encruzilhadas, limites das casas e mercados",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1087",
+      "parafrase": "O culto de Exu se faz de preferência nas encruzilhadas, nos limites das casas (lugares de passagem) e nos mercados (lugares de troca).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-053"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "nomes",
+      "valor": "'Exu' usado para traduzir 'Demônio' na Bíblia em iorubá",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1087",
+      "parafrase": "Um efeito da leitura cristã foi o uso de 'Exu' para traduzir 'Demônio' na Bíblia em iorubá (e 'Iblis'/'Shaitan' no Alcorão em iorubá).",
+      "nota": "Silva apoia-se em Dopamu (1990, p. 20) — fonte a catalogar.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-054"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "Menino Jesus (Cuba); Santo Antônio, São Gabriel, São Benedito, São Pedro (Brasil) — face mensageira",
+      "tradicoes": [
+        "lucumi",
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1088",
+      "parafrase": "Quando prevaleceu seu lado de mensageiro, Exu foi associado a mediadores católicos: em Cuba, ao Menino Jesus; no Brasil, a Santo Antônio, São Gabriel, São Benedito e São Pedro, santos ligados a abrir caminhos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-055"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "diabo e espíritos dos mortos ('encostos', 'eguns') — face trickster",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1088",
+      "parafrase": "Quando prevaleceu seu lado trickster, Exu foi associado ao diabo e aos espíritos de mortos que 'fecham caminhos' e precisam ser despachados.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-056"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "qualidades",
+      "valor": "menos de uma dezena de avatares no candomblé (Tiriri, Lonã, Marabô...); legiões na Umbanda",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1089",
+      "parafrase": "No candomblé há menos de dez avatares de Exu, como Tiriri, Lonã e Marabô; na Umbanda, há legiões de exus com nomes de demônios bíblicos ou dos domínios que regem.",
+      "nota": "DIVERGÊNCIA de contagem com Chiousse (pelo menos 21, segundo terreiros) e com a lista de Ferreira/Prandi.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-057"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "dominios",
+      "valor": "espaços públicos de passagem: encruzilhadas, matas, cemitérios, estradas, praias, mercados, entradas de lojas",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1100",
+      "parafrase": "Além do terreiro, Exu é louvado em lugares-limite: encruzilhadas, matas, cemitérios, estradas de terra, praias, mercados e portas de lojas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-058"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "assentamento de Bará no Mercado Público de Porto Alegre",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS)",
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1100",
+      "parafrase": "Segundo a tradição oral, um assentamento de Bará (Exu) foi enterrado no cruzamento dos corredores do Mercado de Porto Alegre, construído por escravizados no séc. XIX; fiéis deixam ali uma moeda e iniciados visitam o mercado após a iniciação.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-059"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "itans",
+      "valor": "Exu se desloca no tempo e no espaço pelos quatro pontos cardeais com seu bastão",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1100",
+      "parafrase": "Segundo o mito, Exu circula pelo tempo e pelo espaço, nas quatro direções, por meio do bastão que carrega; por isso a encruzilhada é lugar preferido de suas oferendas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-060"
+    },
+    {
+      "orixa": "exu",
+      "atributo": "simbolos",
+      "valor": "encruzilhada em X para Exu, em T para Pombagira (Umbanda)",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "p. 1100",
+      "parafrase": "Na Umbanda costuma-se dizer que as encruzilhadas em X são de Exu e as em T, de Pombagira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ],
+      "id": "exu-061"
     }
   ]
 }
