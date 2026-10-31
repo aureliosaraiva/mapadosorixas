@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 5,
+    "total": 11,
     "por_status": {
-      "fichado": 1,
+      "fichado": 7,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -105,6 +105,120 @@
       "status": "pre_fichamento",
       "evidencias": [
         "https://pt.wikipedia.org/wiki/Ox%C3%B3ssi"
+      ]
+    },
+    {
+      "id": "oxossi-006",
+      "orixa": "oxossi",
+      "atributo": "dia_semana",
+      "valor": "quinta-feira (com Ogum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 120",
+      "parafrase": "Na ordem baiana mais comum, a quinta-feira é de Oxóssi e Ogum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxossi-007",
+      "orixa": "oxossi",
+      "atributo": "dia_semana",
+      "valor": "quinta-feira (só Oxóssi)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 128",
+      "parafrase": "No Opô Afonjá, a quinta-feira é dedicada apenas a Oxóssi.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxossi-008",
+      "orixa": "oxossi",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (como Odé, com Bará, Ossaim e Otim) e sexta-feira (com Iemanjá)",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Na lista de Porto Alegre, Odé aparece na segunda-feira com Bará, Ossaim e Otim, e novamente na sexta, como filho de Iemanjá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxossi-009",
+      "orixa": "oxossi",
+      "atributo": "dia_semana",
+      "valor": "quinta-feira (Gantois, fim do séc. XIX)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+      "source_id": "nina-rodrigues-1900-animisme",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 106",
+      "parafrase": "Na festa do Gantois registrada por Nina Rodrigues, a quinta-feira era de Oxóssi.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxossi-010",
+      "orixa": "oxossi",
+      "atributo": "dominios",
+      "valor": "patrono dos caçadores; divindade 'do ar livre'",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 123",
+      "parafrase": "Oxóssi é o patrono dos caçadores e, com Ogum, tem seus objetos sagrados assentados fora do peji, ao ar livre.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxossi-011",
+      "orixa": "oxossi",
+      "atributo": "parentesco",
+      "valor": "irmão de Ogum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 123, nota 91",
+      "parafrase": "Oxóssi e Ogum são irmãos segundo mito citado por Bastide.",
+      "nota": "Mito em Ribeiro (1952, p. 49).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
       ]
     }
   ]

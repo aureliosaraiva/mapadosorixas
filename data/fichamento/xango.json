@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 6,
+    "total": 19,
     "por_status": {
-      "fichado": 1,
+      "fichado": 14,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -123,6 +123,254 @@
       "status": "pre_fichamento",
       "evidencias": [
         "https://agenciadecomunicacao.uneb.br/wp-content/uploads/2018/09/Leituras-de-Letras-de-Cultura.pdf"
+      ]
+    },
+    {
+      "id": "xango-007",
+      "orixa": "xango",
+      "atributo": "dia_semana",
+      "valor": "quarta-feira (com Iansã)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 120, 123",
+      "parafrase": "Na Bahia, a quarta-feira pertence a Xangô e a Iansã; Bastide a chama de dia do fogo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-008",
+      "orixa": "xango",
+      "atributo": "dia_semana",
+      "valor": "quarta-feira (com Iansã)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 127",
+      "parafrase": "No Opô Afonjá, a quarta-feira é de Xangô e de Iansã, sua mulher, associação que também existe na região iorubá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-009",
+      "orixa": "xango",
+      "atributo": "dia_semana",
+      "valor": "terça-feira (com Oiá/Iansã)",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Em Porto Alegre, Xangô e Oiá ficam na terça-feira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-010",
+      "orixa": "xango",
+      "atributo": "dia_semana",
+      "valor": "quinta-feira (Recife)",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "No Recife, Xangô e sua mulher passam da quarta para a quinta-feira, e a quarta fica para os Ibeji; há ainda variações de casa para casa.",
+      "nota": "Bastide apoia-se em René Ribeiro (1952, p. 113).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-011",
+      "orixa": "xango",
+      "atributo": "dia_semana",
+      "valor": "quarta-feira (Gantois, fim do séc. XIX)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+      "source_id": "nina-rodrigues-1900-animisme",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 106",
+      "parafrase": "Na sequência da festa do Gantois registrada por Nina Rodrigues, a quarta-feira era de Xangô.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-012",
+      "orixa": "xango",
+      "atributo": "sincretismo",
+      "valor": "São Jerônimo (30 de setembro)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Gantois (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 107",
+      "parafrase": "São Jerônimo, festejado em 30 de setembro, é um dos equivalentes católicos de Xangô; no Gantois, a cerimônia de encerramento do ano (baiani) é feita o mais perto possível dessa data.",
+      "nota": "'Um dos equivalentes': registrar outros (ex.: Santa Bárbara em Cuba) com fonte própria.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-013",
+      "orixa": "xango",
+      "atributo": "simbolos",
+      "valor": "baiani: capacete de couro colorido com búzios e guizos",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Gantois (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 107, nota 57",
+      "parafrase": "Na cerimônia do baiani os fiéis levam na cabeça um capacete de couro de várias cores, enfeitado com búzios e guizos, ligado a Xangô.",
+      "nota": "Bastide cita Câmara Cascudo e Verger (Notes, pp. 325–6); registra que em Cuba Balani seria irmã de Xangô (Cabrera).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-014",
+      "orixa": "xango",
+      "atributo": "parentesco",
+      "valor": "esposas: Iansã (principal), Obá e Oxum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 122",
+      "parafrase": "Xangô tem três esposas — Iansã, a principal e companheira no lançamento dos raios, além de Obá e Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-015",
+      "orixa": "xango",
+      "atributo": "itans",
+      "valor": "Iansã rouba a magia de Xangô de lançar fogo",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 122–123",
+      "parafrase": "Num mito, Xangô cuspia fogo graças a uma magia que Iansã lhe tomou, passando a imitar o raio com sua espada.",
+      "nota": "DIVERGÊNCIA: no Rio de Janeiro, a versão atribui o roubo a Oxum (fonte citada por Bastide). Mito de origem Frobenius.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-016",
+      "orixa": "xango",
+      "atributo": "itans",
+      "valor": "Xangô e Iansã diante dos malês",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife",
+      "source_id": "ribeiro-1952-recife",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 123",
+      "parafrase": "Num mito recolhido no Recife, Xangô e Iansã vão à terra dos malês (muçulmanos), que os ignoram; ele lança o raio, ela o relâmpago, e os malês, assustados, reconhecem a chefia de Xangô.",
+      "nota": "Ribeiro (1952, pp. 50–1). Resumo próprio.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-017",
+      "orixa": "xango",
+      "atributo": "dominios",
+      "valor": "justiça; a morte pelo raio como castigo",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 126, nota 94",
+      "parafrase": "Tanto na Bahia quanto na África, morrer atingido por raio é visto como punição por más ações, e no Brasil Xangô é considerado deus da justiça.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-018",
+      "orixa": "xango",
+      "atributo": "elementos",
+      "valor": "fogo / raio",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 122–123",
+      "parafrase": "Xangô é o deus do raio, e seu dia é o da adoração do fogo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-019",
+      "orixa": "xango",
+      "atributo": "dia_semana",
+      "valor": "semana iorubá de 4 dias: Xangô a oeste",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "frobenius-1912-afrika",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 127",
+      "parafrase": "No esquema de Frobenius citado por Bastide, Xangô corresponde ao dia ligado ao oeste.",
+      "nota": "Fonte colonial; conferir.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
       ]
     }
   ]

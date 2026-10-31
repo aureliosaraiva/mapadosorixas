@@ -2,10 +2,10 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 36,
+    "total": 42,
     "por_status": {
-      "fichado": 33,
-      "pre_fichamento": 3,
+      "fichado": 40,
+      "pre_fichamento": 2,
       "revisado": 0
     }
   },
@@ -680,25 +680,6 @@
       "id": "exu-035",
       "orixa": "exu",
       "atributo": "interpretacao_academica",
-      "valor": "leitura de Exu como trickster pelos etnólogos europeus",
-      "tradicoes": [
-        "candomble_ketu"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "bastide-1958-candomble",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Bastide observa que os primeiros etnólogos europeus enquadraram Exu como trickster por causa de sua malícia e de seu gosto pela zombaria.",
-      "nota": "Visto indiretamente (citado como Bastide 1961, ed. pt); confirmar página.",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://revistas.ufpr.br/relegens/article/view/42260"
-      ]
-    },
-    {
-      "id": "exu-036",
-      "orixa": "exu",
-      "atributo": "interpretacao_academica",
       "valor": "de orixá a egum: ressignificação de Exu na Umbanda",
       "tradicoes": [
         "umbanda"
@@ -712,6 +693,141 @@
       "status": "pre_fichamento",
       "evidencias": [
         "https://bdtd.ibict.br/vufind/Record/UFG-2_e1053cd960e7d9b7708f9988dcbb0a4f"
+      ]
+    },
+    {
+      "id": "exu-036",
+      "orixa": "exu",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (com Omolu)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 120",
+      "parafrase": "Na distribuição mais comum nos candomblés baianos, a segunda-feira é dedicada a Exu e a Omolu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "exu-037",
+      "orixa": "exu",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (com Omolu)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 127",
+      "parafrase": "No Opô Afonjá, a segunda-feira é de Exu (e de Omolu).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "exu-038",
+      "orixa": "exu",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (como Bará)",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Em Porto Alegre, Bará (correspondente a Exu) abre a semana, na segunda-feira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "exu-039",
+      "orixa": "exu",
+      "atributo": "festas",
+      "valor": "festa anual do Gantois: sacrifício propiciatório e segunda-feira para Exu",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+      "source_id": "nina-rodrigues-1900-animisme",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 106",
+      "parafrase": "Na festa anual do Gantois descrita por Nina Rodrigues, o ciclo começa com um sacrifício a Exu e a primeira segunda-feira lhe é consagrada.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "exu-040",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "deus das 'aberturas': guarda a porta do terreiro e a entrada do tempo",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 120",
+      "parafrase": "Exu abre a semana porque é o deus das aberturas: vigia a porta do candomblé e também a entrada do tempo, e como intermediário recebe o primeiro sacrifício.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "exu-041",
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "valor": "Legba (nome daomeano usado na Bahia)",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_jeje",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 121, nota 84",
+      "parafrase": "Bastide anota que Legba é o nome daomeano de Exu usado na Bahia e associa Exu-Legba ao espaço, seguindo Frobenius.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "exu-042",
+      "orixa": "exu",
+      "atributo": "dia_semana",
+      "valor": "semana iorubá de 4 dias ligada aos pontos cardeais: Exu a leste",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "frobenius-1912-afrika",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 127",
+      "parafrase": "Segundo Frobenius, citado por Bastide, os quatro dias da semana africana ligam-se aos pontos cardeais: Exu a leste, Ogum ao norte, Xangô a oeste e Oxalá ao sul.",
+      "nota": "Fonte colonial (Frobenius); conferir com estudos iorubás (ex.: Abimbola, Idowu).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
       ]
     }
   ]

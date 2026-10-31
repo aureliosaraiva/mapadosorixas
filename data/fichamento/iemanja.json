@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 12,
+    "total": 19,
     "por_status": {
-      "fichado": 2,
+      "fichado": 9,
       "pre_fichamento": 10,
       "revisado": 0
     }
@@ -241,6 +241,139 @@
       "status": "pre_fichamento",
       "evidencias": [
         "https://www.maxwell.vrac.puc-rio.br/55769/55769.PDF"
+      ]
+    },
+    {
+      "id": "iemanja-013",
+      "orixa": "iemanja",
+      "atributo": "dia_semana",
+      "valor": "sábado (com Oxum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 120, 124",
+      "parafrase": "Na Bahia, o sábado é dedicado a Iemanjá e Oxum, como dia da água.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iemanja-014",
+      "orixa": "iemanja",
+      "atributo": "dia_semana",
+      "valor": "sábado (com Oxum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 128",
+      "parafrase": "No Opô Afonjá, o sábado é de Iemanjá e Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iemanja-015",
+      "orixa": "iemanja",
+      "atributo": "dia_semana",
+      "valor": "sexta-feira (com Odé, 'o filho que ela traz ao colo')",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Em Porto Alegre, Iemanjá fica na sexta-feira, junto com Odé, descrito como o filho que ela carrega no colo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iemanja-016",
+      "orixa": "iemanja",
+      "atributo": "elementos",
+      "valor": "água salgada (Oxum: água doce)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 124",
+      "parafrase": "No sábado baiano, a água é cultuada de dois modos: a salgada com Iemanjá e a doce com Oxum, que a gente da Bahia une facilmente no mesmo culto.",
+      "nota": "Compare com a origem fluvial (rio Ògùn) na Nigéria.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iemanja-017",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "presente de Iemanjá junto da festa da Purificação (Oxum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé derivado do 'Língua de Vaca' (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 124",
+      "parafrase": "Num candomblé ligado ao 'Língua de Vaca', a festa da Purificação, dedicada a Oxum, é também a do presente de Iemanjá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iemanja-018",
+      "orixa": "iemanja",
+      "atributo": "parentesco",
+      "valor": "filha de Oxalá; mãe de vários orixás",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 125",
+      "parafrase": "Bastide menciona Oxalá como pai de Iemanjá e observa que 'todos os filhos de Iemanjá' aparecem antes dela na semana.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iemanja-019",
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "valor": "Nossa Senhora da Imaculada Conceição (8 de dezembro)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 105, nota",
+      "parafrase": "No calendário de um terreiro baiano citado por Bastide, 8 de dezembro é a festa de Iemanjá, associada à Imaculada Conceição.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
       ]
     }
   ]

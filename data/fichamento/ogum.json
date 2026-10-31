@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 8,
+    "total": 15,
     "por_status": {
-      "fichado": 2,
+      "fichado": 9,
       "pre_fichamento": 6,
       "revisado": 0
     }
@@ -165,6 +165,139 @@
       "status": "pre_fichamento",
       "evidencias": [
         "https://search.alexanderstreet.com/view/work/bibliographic_entity%7Cdocument%7C3935790"
+      ]
+    },
+    {
+      "id": "ogum-009",
+      "orixa": "ogum",
+      "atributo": "dia_semana",
+      "valor": "quinta-feira (com Oxóssi)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 120",
+      "parafrase": "Na ordem baiana mais comum, Ogum divide a quinta-feira com Oxóssi.",
+      "nota": "DIVERGÊNCIA: no Opô Afonjá, Ogum fica na terça (p. 127); em muitas fontes atuais, terça.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-010",
+      "orixa": "ogum",
+      "atributo": "dia_semana",
+      "valor": "terça-feira (com Nanã e Oxumarê)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 127",
+      "parafrase": "No Opô Afonjá, a terça-feira é o dia de Ogum, ao lado de Nanã e Oxumarê.",
+      "nota": "Bastide relaciona essa ordem à semana africana de quatro dias (Exu, Ogum, Xangô, Obatalá).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-011",
+      "orixa": "ogum",
+      "atributo": "dia_semana",
+      "valor": "quinta-feira",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Em Porto Alegre, a quinta-feira é de Ogum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-012",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "patrono dos ferreiros; divindade 'do ar livre'",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 123",
+      "parafrase": "Ogum é o patrono dos ferreiros; com Oxóssi, é uma divindade 'do ar livre', cujas pedras ficam fora do peji.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-013",
+      "orixa": "ogum",
+      "atributo": "parentesco",
+      "valor": "irmão de Oxóssi",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 123, nota 91",
+      "parafrase": "Ogum e Oxóssi são irmãos segundo um mito citado por Bastide.",
+      "nota": "Mito em Ribeiro (1952, p. 49).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-014",
+      "orixa": "ogum",
+      "atributo": "sincretismo",
+      "valor": "São Jorge e São João (calendário de terreiro)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 105, nota",
+      "parafrase": "No mesmo calendário de terreiro, Ogum aparece associado a São Jorge e a São João (24 de junho).",
+      "nota": "OCR do trecho confuso; confirmar datas no exemplar.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-015",
+      "orixa": "ogum",
+      "atributo": "dia_semana",
+      "valor": "semana iorubá de 4 dias: Ogum ao norte",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "frobenius-1912-afrika",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 127",
+      "parafrase": "No esquema de Frobenius citado por Bastide, Ogum corresponde ao dia ligado ao norte.",
+      "nota": "Fonte colonial; conferir.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
       ]
     }
   ]
