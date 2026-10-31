@@ -68,7 +68,7 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | 🔴 | Capítulos de Augras (1989) e Ferreira (2000): obras coletivas conferidas, mas título e páginas dos capítulos não | sumário das obras (exemplar ou catálogo de biblioteca) | P3 |
 | 🔴 | Lista completa da Coleção Orixás (Pallas) | site ou contato com a editora | P2 |
 | 🔴 | exu-062: Nogueira (2017, p. 22) fala em "candomblés" sem nação; o registro usa `candomble_ketu` como aproximação | revisor confirma ou ajusta a tradição | P3 |
-| 🔴 | Revisão das fichas por praticantes e pesquisadores | formar o conselho consultivo (Fase 4 do plano) | **P1** |
+| 🟡 | Revisão das fichas por praticantes e pesquisadores | preparação feita em [`docs/conselho/`](../conselho/); falta o contato (§3c) | **P1** |
 | 🔴 | Decidir o que é público em "tabus" e "alimentos" (hoje retidos das fichas: exu-012, oxossi-018) | conselho consultivo | P1 |
 | 🟡 | Tradições: 13 de 19 já têm fonte; faltam benim, candomble_efon, xango_sergipe, palo_monte, arara, orisha_trinidad (obras no §2). `benim` é rótulo editorial do catálogo: decidir se funde com `vodun_benim`/`ioruba_nigeria` | autor decide sobre `benim`; revisão das 13 descrições pelo conselho | P2 |
 | 🔴 | Glossário: decidir se entram **quizila/ewó**, **bori** e **kelê** (as fontes abertas os definem, mas tocam tabu ou iniciação) e revisar as 47 definições | conselho consultivo | P2 |
@@ -85,6 +85,21 @@ O protótipo em `site/` (Astro) compila no CI, mas **não está publicado**. Nad
 | 🔴 | Licenças de código, textos e dados | sugestão do plano: MIT, CC BY-SA 4.0, CC BY 4.0 (ou NC), a confirmar com o conselho. O rodapé do site diz "a definir" | P2 |
 | 🔴 | Indexação | o site sai com `<meta name="robots" content="noindex">` enquanto for rascunho. Retirar só depois da revisão das fichas | P1 (no lançamento) |
 | 🔴 | Revisão de acessibilidade com leitor de tela real e Lighthouse | conferido só com Playwright (sem estouro horizontal em 360 px, sem erros de console, conteúdo textual sem JS). Falta auditoria humana (NVDA/VoiceOver) e Lighthouse ≥ 90 | P2 |
+
+## 3c. Conselho consultivo (Fase 4): depende do autor
+
+Material pronto em [`docs/conselho/`](../conselho/). **Nenhuma pessoa ou instituição foi contatada.**
+
+| Status | Item | O que fazer | Prioridade |
+|:-:|---|---|:-:|
+| 🔴 | Convidar pesquisadores | escolher 1–3 em [`candidatos.md`](../conselho/candidatos.md) §1 (sugestão: Parés para Jeje/voduns, Castro ou Nei Lopes para Angola, Oro para Batuque, Pérez ou Otero para Lucumí); conferir a página institucional antes de escrever; usar o convite de [`kit-revisao.md`](../conselho/kit-revisao.md) §4 | **P1** |
+| 🔴 | Convidar praticantes (≥2 nações) | contatar **instituições** de [`candidatos.md`](../conselho/candidatos.md) §2 (terreiros tombados, federações, CEAO/UFBA, NER/UFRGS) e pedir indicação; olorisha lucumí com o convite em espanhol (§5 do kit) | **P1** |
+| 🔴 | Confirmar vida e atividade dos marcados ❓ | Monique Augras, Norton F. Corrêa, Indira Mones Guevara, Juana Elbein dos Santos; falecimento de Rita Amaral é só inferido | P2 |
+| 🔴 | Conflito de interesse | Prandi e V. G. da Silva são as fontes mais citadas; decidir se revisam fichas que se baseiam na própria obra | P2 |
+| 🔴 | Termo de consentimento | revisão jurídica rápida (RGPD art. 9 / LGPD art. 11: religião é dado sensível); traduzir guia e termo para o espanhol | P2 |
+| 🔴 | Decisões da proposta de registro | aprovar `revisoes` por registro; critério para tirar o selo "Rascunho" (ficha inteira × atributo); aceitar ou não `comunicacao_pessoal` como fonte ([`proposta-registro-revisao.md`](../conselho/proposta-registro-revisao.md) §4) | P1 |
+| 🔴 | Tombamentos não confirmados | Sítio de Pai Adão (Recife) e Tumba Junsara (Salvador): conferir no portal do IPHAN (junto com as datas do §3) | P3 |
+| 🔴 | Lacunas de diversidade | sem caminho institucional verificado para Umbanda (federação nacional), sacerdotisas lucumís e casas lucumís na Espanha; pedir indicação aos primeiros conselheiros | P2 |
 
 ## 4. Resolvidos
 

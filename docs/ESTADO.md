@@ -6,7 +6,7 @@
 
 ## Onde estamos
 
-**Fase 1 — Levantamento e fichamento** (em andamento), **Fase 2 — Modelo de dados** (iniciada: esquemas, fichas geradas e grafo) e **Fase 5 — Site estático: protótipo feito** (`site/`, Astro + Cytoscape.js + Pagefind; compila no CI, sem deploy). Ver [`PLANO.md`](PLANO.md). Fases 3, 4, 6 e 7 ainda não começaram.
+**Fase 1 — Levantamento e fichamento** (em andamento), **Fase 2 — Modelo de dados** (iniciada: esquemas, fichas geradas e grafo) e **Fase 5 — Site estático: protótipo feito** (`site/`, Astro + Cytoscape.js + Pagefind; compila no CI, sem deploy). Ver [`PLANO.md`](PLANO.md). **Fase 4 — Conselho: preparação feita** ([`conselho/`](conselho/): candidatos, kit do revisor, proposta do campo `revisao`); contato e convites dependem do autor. Fases 3, 6 e 7 ainda não começaram.
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
@@ -35,7 +35,7 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 5. **Fase 2 (restante):** as 6 tradições sem fonte (Efon, Xangô de Sergipe, Palo Monte, Arará, Orisha de Trinidad e o rótulo `benim`) e os termos pendentes do glossário. Dependem de Dantas 1988, Barnet 1995, Cabrera 1954 e de uma obra sobre o Orisha de Trinidad; Mones 2024 e Arango 2018 estão bloqueados neste ambiente → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md). *(Tradições com fonte (13) e glossário (47 termos): feitos em 2026-10-31, ver [`fichamento-05`](pesquisa/fichamento-05.md).)*
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
 7. **Site (Fase 5, restante):** glossário e página Sobre/Créditos (dependem de `glossario.json` com fonte); mini-grafo local na ficha; download dos dados; versões es/en (Fase 7). Deploy, domínio e licenças dependem do autor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
-8. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
+8. **Conselho consultivo:** o autor contata os candidatos ([`conselho/candidatos.md`](conselho/candidatos.md): 29 pesquisadores e caminhos institucionais para praticantes) com os modelos de [`conselho/kit-revisao.md`](conselho/kit-revisao.md). Antes da primeira revisão, implementar os passos 1–3 de [`conselho/proposta-registro-revisao.md`](conselho/proposta-registro-revisao.md) (campo `revisoes` por registro, `revisores.json`, regras no validador) → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3c. *(Preparação: feita em 2026-10-31.)*
 
 **Sugestões da sessão do glossário:** (a) ler Prandi 2005, *Nas pegadas dos voduns*, inteiro (36 p., aberto): pode adiantar a tarefa 2 (voduns equivalentes no Tambor de Mina); (b) repetir o anti-cópia com referências para as obras das rodadas 1–4 que ainda não passaram por ele (Nogueira 2017, Pinheiro 2011, Costa 2007, Blass 2007 etc.); (c) o site pode mostrar o glossário com links a partir das fichas (campo `ver_tambem`).
 
@@ -65,6 +65,8 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 - **Tradições `com_fonte`** exigem fontes `conferido_web` ou acima (checado por `validar_fichas.py`). O que a fonte não sustenta sai da descrição e vai para `nota` ou PENDENCIAS.
 - **Anti-cópia com referências:** ao ler uma obra, salvar o `.txt` fora do repo e rodar `ANTICOPIA_REFS=<pasta> python3 scripts/anticopia.py`. A checagem sem referências não pega cópia de obra.
 
+- **Conselho (proposta, não implementada):** a aprovação fica no **registro de fichamento** (`revisoes`: revisor, data, tradição, parecer, hash do registro), não na ficha gerada; aprovação vale só para a tradição de quem revisou; `contestado` não apaga versão; `nao_publicar` retira da ficha pública. Nome de revisor só com termo de consentimento; contatos e termos assinados ficam fora do repositório. Praticantes são procurados **por instituição** (terreiro tombado, federação, núcleo universitário), nunca listados por nome.
+
 ## Sessões em paralelo
 
 - **Podem rodar juntas:** sessões que editam arquivos diferentes, por exemplo um orixá cada (`data/fichamento/<orixa>.json`).
@@ -92,6 +94,7 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 | `data/glossario.json` | glossário (esquema `schemas/glossario.schema.json`) |
 | `scripts/` | validação e geração |
 | `site/` | protótipo do site (Astro); ver `site/README.md` |
+| `docs/conselho/` | Fase 4: candidatos a revisor, kit do revisor (guia, sigilo, termo, convites pt/es), proposta de registro da revisão |
 | `docs/screenshots/` | capturas das páginas principais (`site/scripts/screenshots.cjs`) |
 
 ## Pedido de abertura sugerido
