@@ -19,7 +19,7 @@
 | Tradições (`data/tradicoes.json`) | 19: 13 `com_fonte`, 6 `rascunho_sem_fonte` (benim, efon, xango_sergipe, palo_monte, arara, orisha_trinidad) | idem |
 | Glossário (`data/glossario.json`) | 47 termos com fonte e página; 6 pendentes em `_meta.pendentes` | idem |
 | Anti-cópia | 0 erros, também contra o texto das 8 obras lidas na rodada do glossário (4 paráfrases antigas reescritas); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
-| Site (`site/`) | 11 páginas: início com busca, catálogo, 5 fichas (com mini-grafo), grafo, fontes, metodologia, baixar dados (+ 11 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
+| Site (`site/`) | 11 páginas: início com busca, catálogo, 5 fichas (com mini-grafo), grafo, fontes, metodologia, baixar dados (+ 12 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
 | QA do site | 187/187 versões batem com `data/orixas`; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1200 links e âncoras internos sem 404; axe-core sem violações (11 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
 | Idiomas no catálogo | pt, en, es, fr, de, it, yo | — |
 
