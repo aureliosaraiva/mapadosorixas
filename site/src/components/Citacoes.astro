@@ -1,0 +1,17 @@
+---
+// Lista de fontes de um item (termo do glossário, tradição): autor (ano), título,
+// página, com link para a linha da fonte na página Fontes.
+import { fontePorId, autorCurto, url } from '../lib/dados.js';
+interface Props { sources: { id: string; loc: string; via?: string | null }[] }
+const { sources } = Astro.props;
+---
+<span class="citacoes">
+  {sources.map((s, i) => {
+    const f = fontePorId[s.id];
+    if (!f) throw new Error(`Fonte fora do catálogo: ${s.id}`);
+    const via = s.via ? fontePorId[s.via] : null;
+    return (
+      <span class="citacao" data-fonte={s.id}>{i > 0 && '; '}<a href={url(`fontes#fonte-${s.id}`)}>{autorCurto(f)} ({f.ano ?? 's.d.'})</a>, <cite>{f.titulo}</cite>{via && <>, citado por <a href={url(`fontes#fonte-${s.via}`)}>{autorCurto(via)} ({via.ano ?? 's.d.'})</a></>}, <span class="loc">{s.loc}</span></span>
+    );
+  })}.
+</span>

@@ -1,13 +1,18 @@
 ---
-import { rotuloTradicaoCurto, rotuloTradicao, grupoTradicao, ROTULO_GRUPO } from '../lib/dados.js';
-interface Props { ids: string[] }
-const { ids } = Astro.props;
+import { rotuloTradicaoCurto, rotuloTradicao, grupoTradicao, ROTULO_GRUPO, tradicaoPorId, url } from '../lib/dados.js';
+// `link`: etiquetas viram links para a página Tradições. Usado só nos resumos
+// (cabeçalho da ficha, cartões do catálogo) para não encher a ficha de paradas de Tab.
+interface Props { ids: string[]; link?: boolean }
+const { ids, link = false } = Astro.props;
 ---
 {ids.length > 0 && (
   <span class="tradicoes">
     <span class="visualmente-oculto">Tradições: </span>
-    {ids.map((t) => (
-      <span class={`etiqueta g-${grupoTradicao(t)}`} title={`${rotuloTradicao(t)} — ${ROTULO_GRUPO[grupoTradicao(t)] ?? ''}`}>{rotuloTradicaoCurto(t)}</span>
-    ))}
+    {ids.map((t) => {
+      const titulo = `${rotuloTradicao(t)} — ${ROTULO_GRUPO[grupoTradicao(t)] ?? ''}`;
+      return link && tradicaoPorId[t]
+        ? <a class={`etiqueta g-${grupoTradicao(t)}`} href={url(`tradicoes#t-${t}`)} title={titulo}>{rotuloTradicaoCurto(t)}</a>
+        : <span class={`etiqueta g-${grupoTradicao(t)}`} title={titulo}>{rotuloTradicaoCurto(t)}</span>;
+    })}
   </span>
 )}

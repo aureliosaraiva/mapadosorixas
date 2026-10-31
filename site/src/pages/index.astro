@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { fichas, fontes, conexoes, divergencias, registros, usoDasFontes, totalVersoes, url } from '../lib/dados.js';
+import { fichas, fontes, conexoes, divergencias, registros, usoDasFontes, tradicoes, glossario, totalVersoes, url } from '../lib/dados.js';
 
 const versoes = fichas.reduce((n, f) => n + totalVersoes(f), 0);
 const fontesUsadas = Object.keys(usoDasFontes).length;
@@ -37,10 +37,18 @@ const fontesUsadas = Object.keys(usoDasFontes).length;
       <h3><a href={url('metodologia')}>Metodologia e limitações</a></h3>
       <p>Como os dados são levantados e conferidos, o que fica de fora e por quê. São {registros.length} registros de fichamento até agora.</p>
     </section>
+    <section class="cartao">
+      <h3><a href={url('tradicoes')}>Tradições</a></h3>
+      <p>As {tradicoes.length} tradições citadas nas fichas, agrupadas: nações do Candomblé, Umbanda, outras religiões afro-brasileiras, culto na África e diáspora caribenha.</p>
+    </section>
+    <section class="cartao">
+      <h3><a href={url('glossario')}>Glossário</a></h3>
+      <p>{glossario.length} termos com definição, fonte e página.</p>
+    </section>
   </div>
 
   <h2 id="busca-titulo">Buscar</h2>
-  <label for="busca-campo" class="so-js rotulo-busca">Termo de busca (fichas, fontes e metodologia)</label>
+  <label for="busca-campo" class="so-js rotulo-busca">Termo de busca (fichas, fontes, glossário, tradições e metodologia)</label>
   <div id="busca" class="so-js"></div>
   <noscript><p>A busca precisa de JavaScript. Sem ele, navegue pelo <a href={url('catalogo')}>catálogo</a> ou pelas <a href={url('fontes')}>fontes</a>.</p></noscript>
   <p class="nota-caixa">A busca é gerada pelo Pagefind no <code>npm run build</code>. No modo de desenvolvimento (<code>npm run dev</code>) ela não aparece.</p>

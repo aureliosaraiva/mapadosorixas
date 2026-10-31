@@ -14,6 +14,9 @@ const paginas = [
   ['metodologia', '/metodologia/'],
   ['baixar-dados', '/baixar-dados/'],
   ['ficha-xango-conexoes', '/orixas/xango/#conexoes'],
+  ['glossario', '/glossario/'],
+  ['tradicoes', '/tradicoes/'],
+  ['sobre', '/sobre/'],
 ];
 (async () => {
   const browser = await chromium.launch();
@@ -23,11 +26,25 @@ const paginas = [
     page.on('pageerror', (e) => erros.push(`${page.url()}: ${e.message}`));
     page.on('console', (m) => { if (m.type() === 'error') erros.push(`${page.url()}: ${m.text()}`); });
     for (const [nome, p] of paginas) {
-      if (sufixo && !['inicio', 'ficha-xango', 'grafo'].includes(nome)) continue;
+      if (sufixo && !['inicio', 'ficha-xango', 'grafo', 'glossario', 'tradicoes'].includes(nome)) continue;
       await page.goto(BASE + p, { waitUntil: 'networkidle' });
       await page.waitForTimeout(nome === 'grafo' || nome.includes('conexoes') ? 1500 : 300);
       await page.screenshot({ path: `${SAIDA}/${nome}${sufixo}.png`, fullPage: nome !== 'grafo' && nome !== 'fontes' && !p.includes('#') });
     }
+    await page.close();
+  }
+  // dica do glossário aberta por foco de teclado numa ficha
+  {
+    const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+    await page.goto(BASE + '/orixas/exu/', { waitUntil: 'networkidle' });
+    const termo = page.locator('a.termo-gl').first();
+    await termo.scrollIntoViewIfNeeded();
+    await termo.focus();
+    await page.waitForTimeout(200);
+    if (!(await page.locator('.dica-gl').isVisible())) erros.push('dica do glossário não apareceu ao focar o termo');
+    await page.screenshot({ path: `${SAIDA}/ficha-exu-dica-glossario.png` });
+    await page.keyboard.press('Escape');
+    if (await page.locator('.dica-gl').isVisible()) erros.push('dica do glossário não fechou com Esc');
     await page.close();
   }
   // sem JavaScript: o conteúdo textual precisa continuar lá

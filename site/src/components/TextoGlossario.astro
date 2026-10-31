@@ -1,0 +1,12 @@
+---
+// Texto com a primeira ocorrência de cada termo do glossário ligada à página
+// Glossário. O texto exibido é idêntico ao original (só ganha links).
+// O link aponta, via aria-describedby, para a definição listada na seção
+// "Termos do glossário nesta página" (id `def-<termo>`), que precisa existir na página.
+import { url } from '../lib/dados.js';
+interface Props { partes: { texto: string; termo?: string }[] }
+const { partes } = Astro.props;
+---
+{partes.map((p) => p.termo
+  ? <a class="termo-gl" href={url(`glossario#termo-${p.termo}`)} aria-describedby={`def-${p.termo}`} data-termo={p.termo}>{p.texto}</a>
+  : p.texto)}

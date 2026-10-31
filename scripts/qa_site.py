@@ -16,6 +16,17 @@ Confere, sem rede e só com a biblioteca padrão:
    existentes na página de destino.
 5. /dados/: cópias idênticas a data/ (exceto tradicoes.json, que só pode perder
    descrições sem fonte, e LEIAME.txt), com aviso de licença.
+6. Glossário: todos os termos de data/glossario.json exibidos, com definição,
+   divergências e nota idênticas ao JSON e cada fonte (link, ano e página)
+   conferida; nenhum termo sem fonte ou fora do JSON exibido; pendentes sem
+   definição. Termos ligados nas fichas existem no glossário e a definição
+   referenciada por aria-describedby é a do JSON.
+7. Tradições: todas exibidas no grupo certo; `com_fonte` com descrição e fontes
+   idênticas ao JSON; `rascunho_sem_fonte` com o aviso "Descrição pendente de
+   fonte" e o texto do rascunho (descrição e nota) ausente de TODAS as páginas.
+   Fichas e catálogo linkam para a página Tradições.
+8. Sobre: canal de contribuição pelas issues do repositório, link para Fontes,
+   aviso de que licenças, domínio e autoria dependem do autor e nenhum e-mail.
 
 Uso: python3 scripts/qa_site.py [--dist site/dist]
 Respeita SITE_BASE (o mesmo do build) para resolver links absolutos.
@@ -182,7 +193,7 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
             nota_fich = li.primeiro("p", "nota")
             if (v.get("nota") or None) and (nota_fich is None or norm(v["nota"]) not in norm(nota_fich.texto())):
                 erro(f"[versão] {oid}/{reg}: nota do fichamento ausente ou diferente")
-            ref = li.primeiro("a")
+            ref = next((a for a in li.busca("a") if (a.attrs.get("href") or "").startswith("#nota-")), None)
             m = re.fullmatch(r"#nota-(\d+)", (ref.attrs.get("href") if ref else "") or "")
             if not m or int(m.group(1)) not in notas:
                 erro(f"[versão] {oid}/{reg}: chamada de nota quebrada")
@@ -374,6 +385,217 @@ def conferir_downloads(dist: Path) -> int:
     return len(publicados)
 
 
+# ----------------------------------------------------------------- 6, 7, 8: glossário, tradições, sobre
+
+def conferir_citacoes(cont, sources: list, fontes: dict, onde: str) -> None:
+    """Cada fonte de `sources` aparece em `cont` como span.citacao com link para
+    a fonte, ano e página; nenhuma citação extra."""
+    cits = [c for c in cont.busca("span", "citacao")]
+    if len(cits) != len(sources):
+        erro(f"{onde}: {len(cits)} citação(ões) exibidas, {len(sources)} no JSON")
+    for i, s in enumerate(sources):
+        c = next((x for x in cits if x.attrs.get("data-fonte") == s["id"]), None)
+        if c is None:
+            erro(f"{onde}: fonte {s['id']} não exibida")
+            continue
+        hrefs = [a.attrs.get("href", "") for a in c.busca("a")]
+        if not any(h.endswith(f"fontes#fonte-{s['id']}") for h in hrefs):
+            erro(f"{onde}: fonte {s['id']} sem link para a página Fontes")
+        if s.get("via") and not any(h.endswith(f"fontes#fonte-{s['via']}") for h in hrefs):
+            erro(f"{onde}: fonte intermediária {s['via']} sem link")
+        loc = c.primeiro("span", "loc")
+        if loc is None or norm(loc.texto()) != norm(s["loc"]):
+            erro(f"{onde}: página '{s['loc']}' de {s['id']} difere do JSON")
+        f = fontes.get(s["id"])
+        if f is None:
+            erro(f"{onde}: fonte {s['id']} fora do catálogo")
+        elif f.get("status_verificacao") not in ("conferido_web", "verificado", "fichado", "revisado"):
+            erro(f"{onde}: fonte {s['id']} com status {f.get("status_verificacao")} (exige conferido_web ou acima)")
+        elif str(f.get("ano") or "s.d.") not in norm(c.texto()):
+            erro(f"{onde}: ano de {s['id']} não aparece")
+
+
+def conferir_glossario(dist: Path, fontes: dict) -> tuple[int, int]:
+    g = json.loads((DATA / "glossario.json").read_text(encoding="utf-8"))
+    termos = {t["id"]: t for t in g["termos"]}
+    arq = dist / "glossario" / "index.html"
+    if not arq.exists():
+        erro("[glossário] página glossario/ não foi gerada")
+        return 0, 0
+    doc = parse(arq)
+    exibidos = {n.attrs.get("data-termo"): n for n in doc.busca("div", "termo")}
+    for tid in sorted(set(exibidos) - set(termos)):
+        erro(f"[glossário] termo exibido '{tid}' não existe em data/glossario.json")
+    for tid, t in termos.items():
+        onde = f"[glossário] {tid}"
+        n = exibidos.get(tid)
+        semfonte = t.get("status") != "com_fonte" or not t.get("sources")
+        if semfonte:
+            if n is not None:
+                erro(f"{onde}: termo sem fonte exibido")
+            continue
+        if n is None:
+            erro(f"{onde}: termo não exibido")
+            continue
+        if n.attrs.get("id") != f"termo-{tid}":
+            erro(f"{onde}: âncora termo-{tid} ausente")
+        nome = n.primeiro("span", "termo-nome")
+        if nome is None or norm(nome.texto()) != norm(t["termo"]):
+            erro(f"{onde}: nome do termo difere do JSON")
+        d = n.primeiro("p", "definicao")
+        if d is None or norm(d.texto()) != norm(t["definicao"]):
+            erro(f"{onde}: definição difere do JSON")
+        fp = n.primeiro("p", "fontes-termo")
+        if fp is None:
+            erro(f"{onde}: sem bloco de fontes")
+        else:
+            conferir_citacoes(fp, t["sources"], fontes, onde)
+        divs = list(n.busca("li", "divergencia-termo"))
+        if len(divs) != len(t.get("divergencias") or []):
+            erro(f"{onde}: {len(divs)} divergência(s) exibidas, {len(t.get('divergencias') or [])} no JSON")
+        for li, dv in zip(divs, t.get("divergencias") or []):
+            tx = li.primeiro("span", "texto")
+            if tx is None or norm(tx.texto()) != norm(dv["texto"]):
+                erro(f"{onde}: texto de divergência difere do JSON")
+            conferir_citacoes(li.primeiro("span", "fontes-div") or li, dv["sources"], fontes, f"{onde} (divergência)")
+        nota = n.primeiro("p", "nota")
+        if (t.get("nota") or None) and (nota is None or norm(t["nota"]) not in norm(nota.texto())):
+            erro(f"{onde}: nota ausente ou diferente")
+        vt = n.primeiro("p", "ver-tambem")
+        alvos = {a.attrs.get("href", "") for a in (vt.busca("a") if vt else [])}
+        for v in t["ver_tambem"]:
+            if f"#termo-{v}" not in alvos:
+                erro(f"{onde}: 'ver também' {v} sem link")
+    # pendentes: listados, mas nunca como termo definido
+    pend = doc.primeiro("ul", "pendentes-glossario")
+    for p in g["_meta"].get("pendentes", []):
+        if pend is None or norm(p["termo"]) not in norm(pend.texto()):
+            erro(f"[glossário] pendente '{p['termo']}' não listado")
+
+    # termos ligados nas fichas (e em qualquer página)
+    nligados = 0
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        d = parse(pag)
+        defs = {n.attrs["id"]: n for n in d.todos() if "id" in n.attrs}
+        for a in d.busca("a", "termo-gl"):
+            nligados += 1
+            tid = a.attrs.get("data-termo")
+            rel = pag.relative_to(dist)
+            t = termos.get(tid)
+            if t is None or t.get("status") != "com_fonte":
+                erro(f"[glossário] {rel}: termo ligado '{tid}' não está no glossário com fonte")
+                continue
+            if not (a.attrs.get("href") or "").endswith(f"glossario#termo-{tid}"):
+                erro(f"[glossário] {rel}: link do termo '{tid}' não aponta para o glossário")
+            alvo = defs.get(a.attrs.get("aria-describedby") or "")
+            if alvo is None or norm(alvo.texto()) != norm(t["definicao"]):
+                erro(f"[glossário] {rel}: aria-describedby de '{tid}' ausente ou com definição diferente do JSON")
+    return len(exibidos), nligados
+
+
+def conferir_tradicoes(dist: Path, fontes: dict) -> tuple[int, int]:
+    trads = json.loads((DATA / "tradicoes.json").read_text(encoding="utf-8"))["tradicoes"]
+    arq = dist / "tradicoes" / "index.html"
+    if not arq.exists():
+        erro("[tradições] página tradicoes/ não foi gerada")
+        return 0, 0
+    doc = parse(arq)
+    itens = {n.attrs.get("id", "")[2:]: n for n in doc.busca("li", "tradicao")}
+    ids = {t["id"] for t in trads}
+    for tid in sorted(set(itens) - ids):
+        erro(f"[tradições] tradição exibida '{tid}' não existe em data/tradicoes.json")
+    for n in doc.busca(None, "descricao"):
+        li = n
+        while li is not None and not (li.tag == "li" and "tradicao" in li.classes()):
+            li = li.pai
+        t = next((x for x in trads if li is not None and li.attrs.get("id") == f"t-{x['id']}"), None)
+        if t is None or t["status"] != "com_fonte" or not t.get("sources"):
+            erro(f"[tradições] descrição exibida fora de uma tradição com fonte: '{norm(n.texto())[:50]}'")
+    rascunhos = []
+    for t in trads:
+        onde = f"[tradições] {t['id']}"
+        n = itens.get(t["id"])
+        if n is None:
+            erro(f"{onde}: não exibida")
+            continue
+        sec = n
+        while sec is not None and sec.tag != "section":
+            sec = sec.pai
+        if sec is None or sec.attrs.get("aria-labelledby") != f"grupo-{t['grupo']}":
+            erro(f"{onde}: fora do grupo '{t['grupo']}'")
+        h3 = n.primeiro("h3")
+        if h3 is None or norm(h3.texto()) != norm(t["nome"]):
+            erro(f"{onde}: nome difere do JSON")
+        pendente = n.primeiro("p", "pendente-fonte")
+        if t["status"] == "com_fonte":
+            d = n.primeiro("p", "descricao")
+            if d is None or norm(d.texto()) != norm(t["descricao"]):
+                erro(f"{onde}: descrição difere do JSON")
+            fp = n.primeiro("p", "fontes-tradicao")
+            if fp is None:
+                erro(f"{onde}: sem bloco de fontes")
+            else:
+                conferir_citacoes(fp, t["sources"], fontes, onde)
+            if (t.get("nota") or None):
+                nota = n.primeiro("p", "nota")
+                if nota is None or norm(t["nota"]) not in norm(nota.texto()):
+                    erro(f"{onde}: nota ausente ou diferente")
+            if pendente is not None:
+                erro(f"{onde}: tradição com fonte marcada como pendente")
+        else:
+            rascunhos.append(t)
+            if pendente is None or "Descrição pendente de fonte" not in norm(pendente.texto()):
+                erro(f"{onde}: falta o aviso 'Descrição pendente de fonte'")
+            if n.primeiro("span", "citacao") is not None or n.primeiro("p", "nota") is not None:
+                erro(f"{onde}: tradição sem fonte exibe citação ou nota")
+    # o texto dos rascunhos não pode aparecer em nenhuma página
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        txt = norm(re.sub(r"<[^>]+>", " ", pag.read_text(encoding="utf-8")))
+        for t in rascunhos:
+            for campo in ("descricao", "nota"):
+                v = norm(t.get(campo) or "")
+                if len(v) >= 12 and v in txt:
+                    erro(f"[tradições] texto sem fonte de {t['id']} ({campo}) aparece em {pag.relative_to(dist)}")
+    # fichas e catálogo linkam para a página Tradições
+    for rel in ["catalogo/index.html"] + [f"orixas/{p.stem}/index.html" for p in (DATA / "orixas").glob("*.json")]:
+        p = dist / rel
+        if p.exists() and not any("tradicoes" in (a.attrs.get("href") or "") for a in parse(p).busca("a")):
+            erro(f"[tradições] {rel} não linka para a página Tradições")
+    return len(itens), len(rascunhos)
+
+
+def conferir_sobre(dist: Path) -> None:
+    arq = dist / "sobre" / "index.html"
+    if not arq.exists():
+        erro("[sobre] página sobre/ não foi gerada")
+        return
+    bruto = arq.read_text(encoding="utf-8")
+    doc = parse(arq)
+    hrefs = [a.attrs.get("href", "") for a in doc.busca("a")]
+    if not any(re.search(r"github\.com/[^/]+/[^/]+/issues", h) for h in hrefs):
+        erro("[sobre] falta link para as issues do repositório")
+    if not any(h.rstrip("/").endswith("fontes") for h in hrefs):
+        erro("[sobre] falta link para a página Fontes")
+    txt = norm(doc.texto())
+    for k in ("licenças", "domínio", "autoria", "dependem do autor"):
+        if k not in txt.lower():
+            erro(f"[sobre] falta o aviso sobre '{k}'")
+    if SELO not in txt:
+        erro("[sobre] falta o aviso de rascunho")
+    if doc.primeiro("section", id="contribuir") is None and 'id="contribuir"' not in bruto:
+        erro("[sobre] falta a seção #contribuir")
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        b = pag.read_text(encoding="utf-8")
+        if "mailto:" in b or re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", re.sub(r"<[^>]+>", " ", b)):
+            erro(f"[sobre] e-mail exposto em {pag.relative_to(dist)}")
+
+
 def main():
     dist = RAIZ / "site" / "dist"
     if "--dist" in sys.argv:
@@ -385,10 +607,14 @@ def main():
     npro = conferir_proibidos(dist, fichas, registros)
     npag, nlinks = conferir_paginas_e_links(dist)
     ndados = conferir_downloads(dist)
+    ntermos, nligados = conferir_glossario(dist, fontes)
+    ntrad, nrasc = conferir_tradicoes(dist, fontes)
+    conferir_sobre(dist)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
     print(f"QA do site: {len(fichas)} fichas, {nv}/{total} versões conferidas contra data/orixas; "
           f"{npro} registros proibidos (pré-fichamento/retidos) procurados; {npag} páginas, {nlinks} links internos; "
-          f"{ndados} arquivos em dados/")
+          f"{ndados} arquivos em dados/; glossário: {ntermos} termos, {nligados} links de termo nas páginas; "
+          f"tradições: {ntrad} exibidas, {nrasc} com descrição pendente de fonte (texto ausente do site)")
     if erros:
         print(f"\n{len(erros)} erro(s):")
         for e in erros:

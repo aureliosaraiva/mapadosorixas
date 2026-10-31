@@ -88,7 +88,7 @@ const repo = 'https://github.com/aureliosaraiva/mapadosorixas';
     <li>Em João Pessoa, um terreiro de Umbanda usa verde e vermelho nas festas de Ogum <Ref registro="ogum-030" />. Para o mesmo autor, o candomblé baiano usa azul-marinho e verde <Ref registro="ogum-031" />.</li>
     <li>Em Pernambuco, “xangô” é também o nome de uma religião de culto aos orixás <Ref registro="xango-005" />.</li>
   </ul>
-  <p class="nota-caixa">{tradicoesMeta.aviso} As {tradicoes.length} tradições aparecem no site só pelo nome, sem descrição.</p>
+  <p class="nota-caixa">{tradicoesMeta.aviso} Das {tradicoes.length} tradições, {tradicoes.filter((t) => t.status === 'com_fonte').length} têm descrição com fonte na página <a href={url('tradicoes')}>Tradições</a>; as demais aparecem só pelo nome, com a descrição marcada como pendente de fonte.</p>
 
   <h2 id="sigilo">6. Sigilo, tabus e alimentos rituais</h2>
   <p>Parte do conhecimento religioso é reservada a iniciados. O projeto <strong>não detalha tabus nem alimentos rituais</strong> até que o conselho consultivo decida o que pode ser público. Hoje {retidos.length} registros desse tipo já estão fichados, mas ficam fora das fichas (retidos até decisão do conselho). Cada ficha informa quantos estão retidos, sem mostrar o conteúdo. Notas como “não detalhar ritos” acompanham registros etnográficos gerais.</p>

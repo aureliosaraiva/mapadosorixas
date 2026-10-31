@@ -14,8 +14,9 @@ export const LICENCA = 'Licença dos dados: a definir pelo autor. Enquanto não 
 
 const ler = (rel) => readFileSync(path.join(DATA, rel));
 
-// Tradições: as descrições ainda estão sem fonte (status rascunho_sem_fonte) e
-// não são exibidas no site; o arquivo publicado leva só id, nome e grupo delas.
+// Tradições: descrições com status rascunho_sem_fonte não têm fonte lida e não são
+// exibidas no site (a página Tradições mostra "descrição pendente de fonte");
+// no arquivo publicado elas ficam com descricao: null.
 function tradicoesPublicas() {
   const t = JSON.parse(ler('tradicoes.json').toString('utf-8'));
   const tradicoes = t.tradicoes.map((x) => {

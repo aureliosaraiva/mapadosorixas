@@ -5,6 +5,7 @@ import conexoesJson from '../../../data/conexoes.json';
 import entidadesJson from '../../../data/entidades_equivalentes.json';
 import tradicoesJson from '../../../data/tradicoes.json';
 import divergenciasJson from '../../../data/fichamento/divergencias.json';
+import glossarioJson from '../../../data/glossario.json';
 
 const fichasMod = import.meta.glob('../../../data/orixas/*.json', { eager: true });
 const fichamentoMod = import.meta.glob('../../../data/fichamento/*.json', { eager: true });
@@ -30,6 +31,9 @@ export const tradicoes = tradicoesJson.tradicoes;
 export const tradicoesMeta = tradicoesJson._meta;
 export const tradicaoPorId = Object.fromEntries(tradicoes.map((t) => [t.id, t]));
 export const divergencias = divergenciasJson.divergencias;
+export const glossario = [...glossarioJson.termos].sort((a, b) => a.termo.localeCompare(b.termo, 'pt-BR'));
+export const glossarioMeta = glossarioJson._meta;
+export const termoPorId = Object.fromEntries(glossario.map((t) => [t.id, t]));
 
 // Registros de fichamento (para números da metodologia)
 export const registros = Object.entries(fichamentoMod)
@@ -70,6 +74,21 @@ export const ROTULO_GRUPO = {
   afro_brasileira_regional: 'Religiões afro-brasileiras regionais',
   umbanda: 'Umbanda',
   diaspora_caribenha: 'Diáspora caribenha',
+};
+
+// Ordem de exibição dos grupos na página Tradições: Candomblé (nações), demais
+// religiões afro-brasileiras, Umbanda, culto na África, diáspora caribenha.
+export const ORDEM_GRUPOS = ['candomble', 'afro_brasileira_regional', 'umbanda', 'culto_africano', 'diaspora_caribenha'];
+
+export const ROTULO_CATEGORIA_GLOSSARIO = {
+  divindade_e_entidade: 'Divindades e entidades',
+  cargo_e_pessoa: 'Cargos e pessoas',
+  religiao_e_grupo: 'Religiões e grupos',
+  lugar_e_objeto: 'Lugares e objetos',
+  rito_e_oferenda: 'Ritos e oferendas',
+  musica_e_danca: 'Música, dança e louvação',
+  adivinhacao: 'Adivinhação',
+  conceito: 'Conceitos',
 };
 
 export const rotuloTradicao = (id) => {
@@ -188,4 +207,48 @@ export function fontesDaFicha(ficha) {
 export function rotuloNo(id) {
   const n = conexoes.nos.find((x) => x.id === id);
   return n ? n.rotulo : id;
+}
+
+// ---------------------------------------------------------------- glossário nas fichas
+
+const escapar = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+// Formas procuradas no texto: termo e variantes, das mais longas às mais curtas.
+// Ficam de fora formas com parêntese ("exu (entidade de Umbanda)") e formas que
+// coincidem com nomes de orixá nas fichas (ex.: "exus"), para não ligar o orixá
+// à entidade de Umbanda. Também ficam de fora variantes que são palavras comuns do
+// português com outro sentido ("lado", "despacho", "invocação", "avatar").
+const FORMAS_COMUNS = new Set(['lado', 'despacho', 'invocação', 'avatar']);
+// Formas ambíguas (iguais em dois termos, como "ita" para itã e otá) também ficam de fora.
+const contagemFormas = {};
+for (const t of glossario) for (const f of new Set([t.termo, ...t.variantes].map((x) => x.toLocaleLowerCase('pt-BR')))) contagemFormas[f] = (contagemFormas[f] || 0) + 1;
+const FORMAS_GLOSSARIO = glossario
+  .flatMap((t) => [t.termo, ...t.variantes].map((f) => ({ f, id: t.id })))
+  .filter(({ f }) => contagemFormas[f.toLocaleLowerCase('pt-BR')] === 1)
+  .filter(({ f, id }) => !f.includes('(') && id !== 'exu-entidade' && f.length >= 3 && !FORMAS_COMUNS.has(f.toLocaleLowerCase('pt-BR')))
+  .sort((a, b) => b.f.length - a.f.length);
+const RE_GLOSSARIO = new RegExp(
+  `(?<![\\p{L}\\p{N}])(${FORMAS_GLOSSARIO.map((x) => escapar(x.f)).join('|')})(?:s|es)?(?![\\p{L}\\p{N}])`,
+  'giu',
+);
+const idDaForma = Object.fromEntries(FORMAS_GLOSSARIO.map(({ f, id }) => [f.toLocaleLowerCase('pt-BR'), id]));
+
+/**
+ * Divide um texto em pedaços [{texto}|{texto, termo}] marcando a PRIMEIRA ocorrência
+ * de cada termo do glossário ainda não marcado na página (`vistos` é compartilhado
+ * entre as chamadas da mesma página). O texto em si não muda.
+ */
+export function marcarGlossario(texto, vistos) {
+  if (!texto) return [];
+  const partes = [];
+  let ultimo = 0;
+  for (const m of texto.matchAll(RE_GLOSSARIO)) {
+    const id = idDaForma[m[1].toLocaleLowerCase('pt-BR')];
+    if (!id || vistos.has(id)) continue;
+    vistos.add(id);
+    if (m.index > ultimo) partes.push({ texto: texto.slice(ultimo, m.index) });
+    partes.push({ texto: m[0], termo: id });
+    ultimo = m.index + m[0].length;
+  }
+  if (ultimo < texto.length) partes.push({ texto: texto.slice(ultimo) });
+  return partes;
 }

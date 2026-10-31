@@ -113,3 +113,26 @@ sup.ref a:hover { text-decoration: underline; }
 .tabela-rolagem { position: relative; }
 .grafo-caixa.mini { height: 26rem; min-height: 18rem; max-height: 60vh; }
 .rotulo-busca { font-weight: 600; margin-bottom: .3rem; }
+
+/* Glossário, tradições e termos nas fichas */
+a.termo-gl { text-decoration-style: dotted; text-decoration-thickness: 2px; }
+.dica-gl { position: absolute; z-index: 20; background: var(--texto); color: #fff; padding: .5rem .7rem; border-radius: var(--raio); font-size: .88rem; line-height: 1.4; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.termos-pagina dt { font-weight: 700; margin-top: .6rem; }
+.termos-pagina dd { margin: .1rem 0 0 0; }
+.glossario { margin: 0; }
+.glossario .termo { background: #fff; border: 1px solid var(--borda); border-radius: var(--raio); padding: .7rem .9rem; margin: .7rem 0; scroll-margin-top: 1rem; }
+.glossario .termo:target, .tradicao:target { background: #fff6d6; outline: 2px solid var(--aviso-borda); }
+.glossario dt .termo-nome { font-weight: 700; font-size: 1.1rem; font-family: Georgia, serif; }
+.glossario dd { margin: .2rem 0 0 0; }
+.glossario dd p { margin: .3rem 0; }
+.glossario .meta, .tradicao .meta { font-size: .88rem; color: var(--texto-2); }
+.glossario .nota, .tradicao .nota { font-size: .9rem; color: var(--texto-2); }
+.glossario-letra h3 { font-size: 1.4rem; }
+.tradicoes-lista { list-style: none; padding: 0; display: grid; gap: .8rem; }
+.tradicao { background: #fff; border: 1px solid var(--borda); border-radius: var(--raio); padding: .7rem .9rem; scroll-margin-top: 1rem; }
+.tradicao h3 { margin: 0 0 .3rem; }
+.tradicao h3 .etiqueta { font-size: 1.05rem; white-space: normal; padding: .1rem .6rem; }
+.tradicao p { margin: .3rem 0; }
+.pendente-fonte { border: 2px dashed var(--aviso-borda); background: var(--aviso-fundo); color: #3d3000; padding: .5rem .7rem; border-radius: var(--raio); }
+a.etiqueta { text-decoration: none; }
+a.etiqueta:hover { text-decoration: underline; color: var(--texto); }

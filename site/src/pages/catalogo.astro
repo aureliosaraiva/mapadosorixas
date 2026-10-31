@@ -24,7 +24,7 @@ const atributosUsados = ORDEM_ATRIBUTOS.filter((a) => cartoes.some((c) => c.atri
 ---
 <Base titulo="Catálogo" descricao="Catálogo das fichas de orixás, com filtros por tradição e atributo.">
   <h1>Catálogo</h1>
-  <p>Fichas dos {fichas.length} orixás do MVP. Cada número abaixo conta só versões <strong>lidas na fonte e com página</strong>. Atributos sem fonte aparecem na própria ficha como pendência.</p>
+  <p>Fichas dos {fichas.length} orixás do MVP. Cada número abaixo conta só versões <strong>lidas na fonte e com página</strong>. Atributos sem fonte aparecem na própria ficha como pendência. As etiquetas de tradição levam à página <a href={url('tradicoes')}>Tradições</a>; termos como orixá, nação e terreiro estão no <a href={url('glossario')}>Glossário</a>.</p>
 
   <form class="filtros so-js" id="filtros-catalogo" aria-label="Filtrar orixás" onsubmit="return false">
     <div>
@@ -55,7 +55,7 @@ const atributosUsados = ORDEM_ATRIBUTOS.filter((a) => cartoes.some((c) => c.atri
         <h2><a href={url(`orixas/${c.f.id}`)}>{c.f.rotulo}</a></h2>
         <p class="numeros">{c.versoes} versões · {c.nFontes} fontes · {c.nDiv} atributos com divergência · {c.semFonte} atributos ainda sem fonte</p>
         <p><strong>Atributos com fonte:</strong> {c.atributos.map(rotuloAtributo).join(', ')}.</p>
-        <p><strong>Tradições citadas:</strong> <Tradicoes ids={c.trads} /></p>
+        <p><strong>Tradições citadas:</strong> <Tradicoes ids={c.trads} link /></p>
       </li>
     ))}
   </ul>

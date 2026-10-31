@@ -30,4 +30,7 @@ Deploy e domínio ainda não estão configurados (ver `docs/pesquisa/PENDENCIAS.
 | Grafo | `src/pages/grafo.astro` |
 | Fontes | `src/pages/fontes.astro` |
 | Baixar dados | `src/pages/baixar-dados.astro` + `src/pages/dados/[...arquivo].js` (lista em `src/lib/downloads.js`; não publica o fichamento bruto) |
+| Tradições | `src/pages/tradicoes.astro` (descrição só quando `com_fonte`; sem fonte, "descrição pendente de fonte") |
+| Glossário | `src/pages/glossario.astro`; termos ligados nas fichas por `marcarGlossario` (`src/lib/dados.js`), `TextoGlossario.astro` e a dica `src/lib/dica-glossario.ts` |
+| Sobre e créditos | `src/pages/sobre.astro` (contribuições pelas issues do repositório) |
 | Metodologia e limitações | `src/pages/metodologia.astro` (cita registros via `src/components/Ref.astro`; o build falha se o registro não existir ou não estiver fichado) |

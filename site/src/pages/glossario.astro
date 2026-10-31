@@ -1,0 +1,83 @@
+---
+import Base from '../layouts/Base.astro';
+import Tradicoes from '../components/Tradicoes.astro';
+import Citacoes from '../components/Citacoes.astro';
+import { glossario, glossarioMeta, termoPorId, ROTULO_CATEGORIA_GLOSSARIO, url } from '../lib/dados.js';
+
+// Só entra termo com fonte (o validador já exige; aqui o build falha se não).
+for (const t of glossario) {
+  if (t.status !== 'com_fonte' || !t.sources?.length) throw new Error(`Termo sem fonte no glossário: ${t.id}`);
+  for (const v of t.ver_tambem) if (!termoPorId[v]) throw new Error(`ver_tambem inexistente em ${t.id}: ${v}`);
+}
+const inicial = (t) => t.termo.normalize('NFD').replace(/\p{M}/gu, '').charAt(0).toUpperCase();
+const letras = [...new Set(glossario.map(inicial))];
+const categorias = Object.entries(ROTULO_CATEGORIA_GLOSSARIO)
+  .map(([c, r]) => [c, r, glossario.filter((t) => t.categoria === c)])
+  .filter(([, , ts]) => ts.length);
+---
+<Base titulo="Glossário" descricao="Glossário de termos do Candomblé, da Umbanda e do culto aos orixás, com fonte e página para cada definição." indexar>
+  <h1>Glossário</h1>
+  <p>{glossario.length} termos usados nas fichas, no fichamento e nas tradições. Cada definição é uma paráfrase com <strong>fonte e página</strong>; quando as fontes dão sentidos diferentes, eles aparecem lado a lado, sem eleger o “correto”. Nas fichas, a primeira ocorrência de cada termo leva a esta página.</p>
+  <p class="nota-caixa">{glossarioMeta.aviso}</p>
+
+  <nav aria-label="Índice do glossário">
+    <p><strong>Por letra:</strong></p>
+    <ul class="sumario">
+      {letras.map((l) => <li><a href={`#letra-${l}`}>{l}</a></li>)}
+    </ul>
+    <p><strong>Por categoria:</strong></p>
+    <ul class="sumario">
+      {categorias.map(([c, r, ts]) => <li><a href={`#cat-${c}`}>{r} ({ts.length})</a></li>)}
+    </ul>
+  </nav>
+
+  <h2 id="termos">Termos de A a Z</h2>
+  {letras.map((l) => (
+    <section aria-labelledby={`letra-${l}`} class="glossario-letra">
+      <h3 id={`letra-${l}`}>{l}</h3>
+      <dl class="glossario">
+        {glossario.filter((t) => inicial(t) === l).map((t) => (
+          <div class="termo" id={`termo-${t.id}`} data-termo={t.id}>
+            <dt>
+              <span class="termo-nome">{t.termo}</span>
+              {t.variantes.length > 0 && <span class="meta"> — também: {t.variantes.join(', ')}</span>}
+            </dt>
+            <dd>
+              <p class="meta">{ROTULO_CATEGORIA_GLOSSARIO[t.categoria] ?? t.categoria}{t.tradicoes.length > 0 && <> · <Tradicoes ids={t.tradicoes} /></>}</p>
+              <p class="definicao">{t.definicao}</p>
+              <p class="fontes-termo"><strong>Fonte{t.sources.length > 1 ? 's' : ''}:</strong> <Citacoes sources={t.sources} /></p>
+              {t.divergencias?.length > 0 && (
+                <div class="divergencias-termo">
+                  <p><strong>Outros sentidos registrados</strong> (lado a lado, sem hierarquia):</p>
+                  <ul>
+                    {t.divergencias.map((d) => (
+                      <li class="divergencia-termo"><span class="texto">{d.texto}</span> <span class="fontes-div">(<Citacoes sources={d.sources} />)</span></li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {t.nota && <p class="nota"><strong>Nota:</strong> {t.nota}</p>}
+              {t.ver_tambem.length > 0 && (
+                <p class="ver-tambem"><strong>Ver também:</strong> {t.ver_tambem.map((v, i) => <>{i > 0 && ', '}<a href={`#termo-${v}`}>{termoPorId[v].termo}</a></>)}</p>
+              )}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  ))}
+
+  <h2 id="categorias">Termos por categoria</h2>
+  {categorias.map(([c, r, ts]) => (
+    <section aria-labelledby={`cat-${c}`}>
+      <h3 id={`cat-${c}`}>{r}</h3>
+      <p>{ts.map((t, i) => <>{i > 0 && ' · '}<a href={`#termo-${t.id}`}>{t.termo}</a></>)}</p>
+    </section>
+  ))}
+
+  <h2 id="pendentes">Termos pendentes</h2>
+  <p>Termos que ainda não entraram, com o motivo. Nenhum deles tem definição publicada aqui.</p>
+  <ul class="pendentes-glossario">
+    {glossarioMeta.pendentes.map((p) => <li><strong>{p.termo}</strong>: {p.motivo}.</li>)}
+  </ul>
+</Base>
