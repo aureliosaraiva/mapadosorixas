@@ -173,7 +173,7 @@ A partir dos registros, gera-se automaticamente a **matriz de divergências** (m
 4. **Planilha de triagem** (opcional) para pistas ainda não verificadas.
 5. **Pesquisa assistida por IA**: agentes podem varrer bases e propor entradas, mas **toda entrada nasce com `status_verificacao: "a_verificar"`** e só muda após conferência humana em catálogo (WorldCat/ISBN/DOI) ou no próprio documento.
 
-**Fluxo de uma fonte:** `pista` → `a_verificar` → `verificado` (metadados conferidos) → `fichado` (atributos extraídos) → `revisado` (segunda pessoa conferiu o fichamento).
+**Fluxo de uma fonte:** `pista` (dados incompletos) → `a_verificar` → `conferido_web` (metadados batidos com ao menos uma página de catálogo/editora/periódico, registrada em `evidencias`; ainda sem conferência humana) → `verificado` (conferência humana) → `fichado` (atributos extraídos) → `revisado` (segunda pessoa conferiu o fichamento).
 
 ### 1.8 Direitos autorais e ética na coleta
 
@@ -186,7 +186,7 @@ A partir dos registros, gera-se automaticamente a **matriz de divergências** (m
 
 | Semana | Atividade | Saída |
 |--------|-----------|-------|
-| 1 | Configurar Zotero, JSON Schema, script de validação; carregar catálogo-semente (`data/fontes/catalogo-semente.json`) | Infra de catalogação |
+| 1 | Configurar Zotero, JSON Schema, script de validação; carregar catálogo inicial (`data/fontes/catalogo.json`) | Infra de catalogação |
 | 2–3 | Verificar o catálogo-semente; varrer catálogos (WorldCat, BN, BnF, BNE) e Wikipédia multilíngue (referências) | ~150 fontes `a_verificar` |
 | 3–4 | Varredura acadêmica (Scholar, SciELO, Redalyc, Dialnet, JSTOR, CAIRN) e teses (BDTD, CAPES, ProQuest, theses.fr) | ~300 fontes; lista de periódicos |
 | 4–5 | Acervos, patrimônio, audiovisual; Cuba/Trinidad/Haiti/Nigéria/Benim | `acervos.md`, cobertura por tradição |
@@ -318,6 +318,6 @@ Para cada um de Exu, Ogum, Oxóssi, Xangô e Iemanjá:
 
 1. Aprovar este plano (ou ajustar escopo/cronograma).
 2. Criar `schemas/fonte.schema.json` e `schemas/fichamento.schema.json` + script de validação.
-3. Verificar o catálogo-semente (`data/fontes/catalogo-semente.json`) — todas as entradas estão marcadas como `a_verificar`.
+3. Verificar o catálogo (`data/fontes/catalogo.json`). Andamento: ver `docs/pesquisa/relatorio-varredura-*.md`.
 4. Iniciar a varredura sistemática da seção 1.3, começando por WorldCat + Google Scholar + Wikipédia multilíngue.
 5. Começar a montar a lista de potenciais revisores.
