@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 19,
+    "total": 29,
     "por_status": {
-      "fichado": 14,
+      "fichado": 24,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -371,6 +371,205 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "xango-020",
+      "orixa": "xango",
+      "atributo": "elementos",
+      "valor": "trovão, fogo, raio",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 226",
+      "parafrase": "Num mito de origem conhecido pelos cultos afro-brasileiros, Oxalá distribui os elementos: Xangô recebe o trovão, o fogo e o raio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-021",
+      "orixa": "xango",
+      "atributo": "origem",
+      "valor": "terceiro ou quarto alafin de Oyó, divinizado por feitos guerreiros",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 240",
+      "parafrase": "Xangô é um dos raros orixás com vida humana conhecida: teria sido o terceiro ou o quarto alafin (rei) de Oyó, divinizado por seus feitos de guerreiro.",
+      "nota": "A própria fonte registra a dúvida 3º/4º.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-022",
+      "orixa": "xango",
+      "atributo": "parentesco",
+      "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 239",
+      "parafrase": "Pela filiação mais citada, Xangô é filho de Iemanjá e Oxalá e marido de Iansã, Obá e Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-023",
+      "orixa": "xango",
+      "atributo": "dominios",
+      "valor": "virilidade, força física, poder; fogo, raio e relâmpago",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 240",
+      "parafrase": "Xangô representa o homem, a virilidade e a força, e é senhor do fogo, do raio e do relâmpago.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-024",
+      "orixa": "xango",
+      "atributo": "cores",
+      "valor": "vermelho",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 240",
+      "parafrase": "A cor de Xangô é o vermelho.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-025",
+      "orixa": "xango",
+      "atributo": "simbolos",
+      "valor": "oxê (machado); metais/matérias: cobre e pedra",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 240",
+      "parafrase": "Xangô leva sempre uma espécie de machado chamado oxê; suas matérias são o cobre e a pedra.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-026",
+      "orixa": "xango",
+      "atributo": "sincretismo",
+      "valor": "São Jerônimo (pelo carneiro) e São João",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 240",
+      "parafrase": "Xangô é associado a São Jerônimo, frequentemente representado com um carneiro — animal sacrificado a Xangô — e em algumas casas a São João.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-027",
+      "orixa": "xango",
+      "atributo": "festas",
+      "valor": "24 de junho, 30 de setembro ou 6 de janeiro, conforme o terreiro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 240",
+      "parafrase": "A festa de Xangô varia por terreiro: 24 de junho, 30 de setembro ou 6 de janeiro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-028",
+      "orixa": "xango",
+      "atributo": "qualidades",
+      "valor": "Agodô e Aganju (velho × jovem), ligados a São Jerônimo e São João",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 241",
+      "parafrase": "Um pai de santo explicou que as duas associações católicas correspondem a duas qualidades — um Xangô velho e um jovem (Agodô e Aganju) —, mas hesitou ao dizer qual era qual.",
+      "nota": "Exemplo, registrado pela autora, de como a tradição oral varia até dentro de uma mesma fala; útil para a página de metodologia.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-029",
+      "orixa": "xango",
+      "atributo": "animais",
+      "valor": "carneiro (animal sacrificado a Xangô)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 240",
+      "parafrase": "O carneiro é o animal sacrificado a Xangô, o que explicaria a associação com São Jerônimo.",
+      "nota": "Informação pública geral; não detalhar ritos.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

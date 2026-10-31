@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 15,
+    "total": 23,
     "por_status": {
-      "fichado": 9,
+      "fichado": 17,
       "pre_fichamento": 6,
       "revisado": 0
     }
@@ -298,6 +298,165 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-016",
+      "orixa": "ogum",
+      "atributo": "elementos",
+      "valor": "ferro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 226",
+      "parafrase": "No mito da distribuição dos elementos, Ogum recebe o ferro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-017",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "ferro e aço; ferreiros, agricultores, cirurgiões e todos que usam instrumentos de metal",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 266",
+      "parafrase": "Ogum é o orixá do ferro e do aço e de todos que trabalham com instrumentos de metal, de ferreiros e agricultores a cirurgiões.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-018",
+      "orixa": "ogum",
+      "atributo": "interpretacao_academica",
+      "valor": "guerreiro, mas força disciplinada; senso de equidade",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 266",
+      "parafrase": "Como Xangô, Ogum é guerreiro, mas representa a força disciplinada e obediente; por seu senso de justiça é invocado em processos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-019",
+      "orixa": "ogum",
+      "atributo": "sincretismo",
+      "valor": "São Jorge",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 266",
+      "parafrase": "Ogum é geralmente associado a São Jorge.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-020",
+      "orixa": "ogum",
+      "atributo": "festas",
+      "valor": "23 de abril ou 13 de junho",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 266",
+      "parafrase": "Ogum é festejado em 23 de abril ou em 13 de junho.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-021",
+      "orixa": "ogum",
+      "atributo": "cores",
+      "valor": "azul-escuro (Ketu); verde e vermelho (nagôs)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 266",
+      "parafrase": "A cor de Ogum é o azul-escuro nos candomblés Ketu, e verde e vermelho entre os nagôs.",
+      "nota": "A própria fonte já registra a DIVERGÊNCIA entre casas; 'nagôs' aqui = denominação usada pelos informantes.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-022",
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "valor": "emblema de ferro com 7, 14 ou 21 pontas",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 266",
+      "parafrase": "Ogum porta um emblema de ferro do qual saem sete, catorze ou vinte e uma pontas metálicas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-023",
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "valor": "espada-de-ogum / espada-de-são-jorge (Sansevieria) — uso litúrgico",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 267",
+      "parafrase": "A planta espada-de-ogum ou de-são-jorge enfeita altar e terreiro nas festas de Ogum e entra nos banhos de seus filhos; os sacerdotes consultados não lhe atribuíam virtude terapêutica.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

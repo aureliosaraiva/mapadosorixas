@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 42,
+    "total": 50,
     "por_status": {
-      "fichado": 40,
+      "fichado": 48,
       "pre_fichamento": 2,
       "revisado": 0
     }
@@ -828,6 +828,165 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "exu-043",
+      "orixa": "exu",
+      "atributo": "cores",
+      "valor": "vermelho e preto",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 289",
+      "parafrase": "Exu é geralmente representado pelas cores vermelha e preta.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "exu-044",
+      "orixa": "exu",
+      "atributo": "iconografia",
+      "valor": "figura negra com chifres e sexo evidente; ou monte de terra fálico",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 289",
+      "parafrase": "Exu aparece como figura negra com dois chifres e sexo em evidência, à imagem do diabo, ou simplesmente como um monte de terra que representa um falo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "exu-045",
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "valor": "Legba (África, Cuba, Haiti)",
+      "tradicoes": [
+        "vodun_benim",
+        "vodou_haiti",
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 289",
+      "parafrase": "Na África, em Cuba e no Haiti, Exu é reconhecido sobretudo sob o nome de Legba.",
+      "nota": "Generalização da autora; em Cuba o nome mais usual é Elegguá — conferir em fontes lucumís.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "exu-046",
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "São Bartolomeu, Santo Antônio, São Gabriel ou São Pedro, conforme terreiro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 289",
+      "parafrase": "Conforme as circunstâncias e o terreiro, Exu é identificado com São Bartolomeu, Santo Antônio, São Gabriel ou até São Pedro.",
+      "nota": "DIVERGÊNCIA com Prandi (2001): associação ao Diabo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "exu-047",
+      "orixa": "exu",
+      "atributo": "festas",
+      "valor": "24 de agosto",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 289",
+      "parafrase": "Exu é festejado particularmente em 24 de agosto.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "exu-048",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "raramente tratado como orixá; poucos terreiros iniciam para Exu; 'carga' de sete anos",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 289–290",
+      "parafrase": "Exu raramente é visto como orixá pleno, não figura entre os dezesseis filhos de Iemanjá e quase não há filhos de santo de Exu; fala-se em 'carga' de Exu, que dura sete anos, e não em iniciação.",
+      "nota": "Compare com Carneiro/Bastide via Prandi (carrego de Exu).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "exu-049",
+      "orixa": "exu",
+      "atributo": "qualidades",
+      "valor": "cada pessoa e cada orixá tem seu Exu; ao menos 21, conforme o terreiro",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 290",
+      "parafrase": "Cada pessoa e cada orixá teria seu próprio Exu, existindo uma multidão deles — ao menos 21, segundo alguns terreiros —, e Exu aparece como servidor do orixá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "exu-050",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "mensageiro; padê antes de toda festa",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 291",
+      "parafrase": "Exu é o mensageiro que permite a comunicação entre orixás e entre humanos e o divino; por isso nenhuma festa começa sem a oferenda do padê.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

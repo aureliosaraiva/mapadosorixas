@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 19,
+    "total": 28,
     "por_status": {
-      "fichado": 9,
+      "fichado": 18,
       "pre_fichamento": 10,
       "revisado": 0
     }
@@ -374,6 +374,186 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iemanja-020",
+      "orixa": "iemanja",
+      "atributo": "elementos",
+      "valor": "águas do mar",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 226",
+      "parafrase": "No mesmo mito da distribuição dos elementos, Iemanjá recebe as águas do mar (Oxum as dos rios, Nanã as da chuva).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-021",
+      "orixa": "iemanja",
+      "atributo": "parentesco",
+      "valor": "esposa de Oxalá; mãe de Xangô; às vezes mãe de todos os orixás (exceto Exu)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 236",
+      "parafrase": "Iemanjá aparece como esposa de Oxalá e mãe de Xangô; em alguns mitos, todos os dezesseis orixás teriam nascido dela — Exu raramente incluído.",
+      "nota": "DIVERGÊNCIA: outras versões fazem dela mãe dos Ibeji, fruto de incesto com Xangô (mesma página). Comparar com Bastide (filha de Oxalá).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-022",
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "valor": "Virgem Maria (Virgem com o Menino)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 236",
+      "parafrase": "Por ser vista como mãe dos orixás, Iemanjá é associada à Virgem Maria e representada como a Virgem com o Menino.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-023",
+      "orixa": "iemanja",
+      "atributo": "dominios",
+      "valor": "mares e oceanos; proteção de pescadores e marinheiros; maternidade",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 236",
+      "parafrase": "Iemanjá reina sobre mares e oceanos, protege pescadores e marinheiros e representa sobretudo a mãe; diz-se também que é possessiva e pode atrair os filhos para o afogamento.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-024",
+      "orixa": "iemanja",
+      "atributo": "dia_semana",
+      "valor": "sábado",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 237",
+      "parafrase": "O sábado é dedicado a Iemanjá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-025",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "datas variam por região (31 de dezembro, 8 de fevereiro); presentes levados ao mar",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 237",
+      "parafrase": "As festas de Iemanjá ocorrem em datas que variam conforme a região, com procissões até a praia e oferendas de flores, perfumes e espelhos; se o mar aceita o presente, o pedido será atendido.",
+      "nota": "A data '8 de fevereiro' está assim no original — conferir (o usual em Salvador é 2 de fevereiro).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-026",
+      "orixa": "iemanja",
+      "atributo": "cores",
+      "valor": "azul-claro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 237",
+      "parafrase": "A cor de Iemanjá é o azul-claro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-027",
+      "orixa": "iemanja",
+      "atributo": "simbolos",
+      "valor": "metal: prata; emblema de lua crescente com estrela",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 237",
+      "parafrase": "A matéria de Iemanjá é a prata, e seu emblema é uma lua crescente encimada por uma estrela.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-028",
+      "orixa": "iemanja",
+      "atributo": "funcoes",
+      "valor": "'orixá do bom conselho'; 'mãe curandeira'",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 238",
+      "parafrase": "Como mãe, Iemanjá é conhecida como orixá do bom conselho e chamada de mãe curandeira; atribuem-lhe cuidado com o aparelho respiratório.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 11,
+    "total": 25,
     "por_status": {
-      "fichado": 7,
+      "fichado": 21,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -219,6 +219,283 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxossi-012",
+      "orixa": "oxossi",
+      "atributo": "dominios",
+      "valor": "florestas (atribuição posterior ao mito de origem)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 226",
+      "parafrase": "Chiousse observa que atribuições ausentes do mito original foram acrescentadas depois, como as florestas para Oxóssi.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-013",
+      "orixa": "oxossi",
+      "atributo": "dominios",
+      "valor": "caça e floresta; fauna e flora",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Oxóssi é a divindade da caça e da floresta, e reina sobre os animais e as plantas desses lugares.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-014",
+      "orixa": "oxossi",
+      "atributo": "cores",
+      "valor": "verde",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "A cor de Oxóssi é o verde.",
+      "nota": "DIVERGÊNCIA conhecida: azul-claro em casas Ketu (fonte a localizar).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-015",
+      "orixa": "oxossi",
+      "atributo": "simbolos",
+      "valor": "arco e flecha; eruquerê (espanta-moscas de rabo de boi, atributo real)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "O emblema de Oxóssi é o arco e flecha; ele também porta o eruquerê, espanta-moscas de rabo de boi que é insígnia real.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-016",
+      "orixa": "oxossi",
+      "atributo": "sincretismo",
+      "valor": "São Sebastião",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Pelo arco e flechas, Oxóssi é associado a São Sebastião, representado amarrado a uma árvore e crivado de flechas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-017",
+      "orixa": "oxossi",
+      "atributo": "festas",
+      "valor": "20 de janeiro (São Sebastião)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Oxóssi é festejado em 20 de janeiro, dia de São Sebastião.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-018",
+      "orixa": "oxossi",
+      "atributo": "dia_semana",
+      "valor": "quinta-feira",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "A quinta-feira é dedicada a Oxóssi.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-019",
+      "orixa": "oxossi",
+      "atributo": "alimentos",
+      "valor": "axoxô (prato preferido, segundo informantes)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Diz-se que o axoxô é o prato preferido de Oxóssi.",
+      "nota": "Sem receita ritual.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-020",
+      "orixa": "oxossi",
+      "atributo": "qualidades",
+      "valor": "Oxóssi, Odé, Inlé e Logunedé (filho de Oxóssi e Oxum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Alguns informantes distinguem quatro formas de Oxóssi — Oxóssi, Odé, Inlé e Logunedé, este provavelmente visto como filho de Oxóssi e Oxum.",
+      "nota": "DIVERGÊNCIA: em muitas casas Logunedé é orixá distinto (ver Lopes 2006).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-021",
+      "orixa": "oxossi",
+      "atributo": "origem",
+      "valor": "rei de Ketu",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "No itã mais lembrado, Oxóssi foi rei de um grande território africano; em certos candomblés é o rei de Ketu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-022",
+      "orixa": "oxossi",
+      "atributo": "equivalencias",
+      "valor": "senhor dos caboclos (candomblé de caboclo)",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Nos candomblés de caboclo, Oxóssi torna-se o senhor dos caboclos, espíritos indígenas da floresta.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-023",
+      "orixa": "oxossi",
+      "atributo": "itans",
+      "valor": "Oxóssi médico que aprende o segredo das plantas com Ossaim",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Em outra versão, contada por um pai de santo, Oxóssi era médico na cidade e, após a morte dos pais, foi para a floresta, onde Ossaim lhe ensinou o segredo das plantas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-024",
+      "orixa": "oxossi",
+      "atributo": "itans",
+      "valor": "o caçador de uma só flecha (versão de Verger) — recusada por um informante",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 260",
+      "parafrase": "Na versão de Verger, uma ave gigante ameaça a festa dos inhames novos do rei de Ifé; caçadores com vinte e quarenta flechas falham, e um jovem de Irema, com uma única flecha e após oferenda feita pela mãe, abate a ave; de 'caçador de uma flecha só' viria o nome Oxóssi.",
+      "nota": "O pai de santo 'Papai' rejeitava essa versão. DIVERGÊNCIA entre fonte escrita e tradição de casa.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-025",
+      "orixa": "oxossi",
+      "atributo": "interpretacao_academica",
+      "valor": "jovem, impulsivo, independente; orixá das questões urgentes",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 260",
+      "parafrase": "Há consenso entre informantes de que Oxóssi é jovem, impulsivo, inovador e muito independente, invocado para acelerar negócios e curas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]
