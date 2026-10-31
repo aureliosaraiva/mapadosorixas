@@ -54,7 +54,9 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | Status | Item | Como resolver | Prioridade |
 |:-:|---|---|:-:|
 | 🔴 | Datas de tombamento do IPHAN (Alaketu: 2004, 2005 ou 2008; Gantois, Bate Folha, Casa das Minas: 2005 ou 2006) | consultar Livro do Tombo / banco de pareceres do IPHAN | P2 |
-| 🔴 | 95 fontes com status `a_verificar` e 13 `pista` no catálogo | conferir no WorldCat, ISBN ou DOI, começando pelas usadas no fichamento | P2 |
+| 🟡 | 81 fontes `a_verificar` e 10 `pista` no catálogo, nenhuma usada no fichamento (as 17 usadas foram conferidas em 2026-10-31) | conferir no WorldCat, ISBN ou DOI quando entrarem no fichamento | P3 |
+| 🔴 | Vallado, *Iemanjá: a grande mãe africana do Brasil*: Open Library registra a ed. de 2002 (ISBN 85-347-0246-2); Queiroga & Nascimento citam 2008 | conferir no exemplar ou na Pallas se 2008 é reedição; ajustar `ano`/id se for a mesma edição | P3 |
+| 🔴 | Capítulos de Augras (1989) e Ferreira (2000): obras coletivas conferidas, mas título e páginas dos capítulos não | sumário das obras (exemplar ou catálogo de biblioteca) | P3 |
 | 🔴 | Lista completa da Coleção Orixás (Pallas) | site ou contato com a editora | P2 |
 | 🔴 | Revisão das fichas por praticantes e pesquisadores | formar o conselho consultivo (Fase 4 do plano) | **P1** |
 | 🔴 | Decidir o que é público em "tabus" e "alimentos" (hoje retidos das fichas: exu-012, oxossi-018) | conselho consultivo | P1 |
@@ -64,5 +66,6 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 
 | Data | Item | Como |
 |---|---|---|
+| 2026-10-31 | Metadados das 17 fontes `a_verificar`/`pista` usadas no fichamento | Open Library, Internet Archive, Crossref, repositórios UFG/UFPB; autores das teses identificados (Nogueira 2017, Pinheiro 2011) e título de Costa 2007 (DOI 10.9771/aa.v0i36.21145) |
 | 2026-10-31 | Acesso a USP, UFRJ, HAL, Crossref, BDTD, theses.fr, Open Library | domínios liberados pelo autor nas configurações do ambiente |
 | 2026-10-31 | Divergência aparente entre Bastide e Chiousse sobre a espada-de-ogum | Bastide, p. 165: registra o uso diurético; p. 192: o vínculo religioso vem da forma. Sem contradição |

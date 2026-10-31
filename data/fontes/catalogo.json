@@ -204,11 +204,14 @@
     {
       "id": "augras-1989-yiami",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
+        "https://openlibrary.org/works/OL23474881W"
       ],
       "url": null,
-      "identificadores": {},
-      "status_verificacao": "a_verificar",
+      "identificadores": {
+        "oclc_obra": "23532288"
+      },
+      "status_verificacao": "conferido_web",
       "tipo": "capitulo",
       "categoria": "academica",
       "autores": [
@@ -224,7 +227,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Em C. E. Marcondes de Moura (org.), Meu sinal está no teu corpo, pp. 14–36. Atenuação de atributos das Grandes Mães (Iemanjá, Oxum) no Brasil."
+      "observacoes": "Em C. E. Marcondes de Moura (org.), Meu sinal está no teu corpo, pp. 14–36. Atenuação de atributos das Grandes Mães (Iemanjá, Oxum) no Brasil. | Conferido (2026-10-31): a obra coletiva existe — Meu sinal está no teu corpo: escritos sobre a religião dos orixás, org. C. E. Marcondes de Moura, São Paulo, EDICON/EDUSP, 1989. Título e páginas do capítulo de Augras ainda não conferidos no sumário."
     },
     {
       "id": "awolalu-1979-beliefs",
@@ -487,11 +490,12 @@
     {
       "id": "baudin-1884-fetichisme",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
+        "https://openlibrary.org/works/OL6848552W"
       ],
       "url": null,
       "identificadores": {},
-      "observacoes": "Padre católico da Sociedade das Missões Africanas de Lyon, missionário na Costa dos Escravos. Segundo Prandi (2001, p. 48), primeiro livro a tratar sistematicamente da religião iorubá; fonte pioneira, mas com interpretação cristã devastadora sobre Exu. Prenome a conferir (R. P. = Révérend Père). Nível C: documento do olhar missionário.",
+      "observacoes": "Padre católico da Sociedade das Missões Africanas de Lyon, missionário na Costa dos Escravos. Segundo Prandi (2001, p. 48), primeiro livro a tratar sistematicamente da religião iorubá; fonte pioneira, mas com interpretação cristã devastadora sobre Exu. Prenome a conferir (R. P. = Révérend Père). Nível C: documento do olhar missionário. | Conferido (2026-10-31): Open Library registra a ed. de 1884, Séminaire des Missions Africaines / Bureaux des Missions Catholiques.",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
@@ -504,7 +508,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "status_verificacao": "a_verificar",
+      "status_verificacao": "conferido_web",
       "local": "Lyon",
       "editora": "Séminaire des Missions Africaines – Bureau des Missions Catholiques"
     },
@@ -741,26 +745,27 @@
     {
       "id": "bowen-1857-adventures",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
+        "https://archive.org/details/centralafricaadv00bowe_0"
       ],
       "url": null,
       "identificadores": {},
-      "status_verificacao": "a_verificar",
+      "status_verificacao": "conferido_web",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
         "Thomas Jefferson Bowen"
       ],
-      "titulo": "Adventures and Missionary Labors in Several Countries in the Interior of Africa",
+      "titulo": "Central Africa: Adventures and Missionary Labors in Several Countries in the Interior of Africa, from 1849 to 1856",
       "ano": 1857,
       "idioma": "en",
-      "local": "Charleston",
+      "local": "Charleston (S.C.)",
       "editora": "Southern Baptist Publication Society",
       "tradicoes": [
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Pastor batista; identifica Exu ao diabo. Reed. Londres, Cass, 1968. Domínio público."
+      "observacoes": "Pastor batista; identifica Exu ao diabo. Reed. Londres, Cass, 1968. Domínio público. | Conferido (2026-10-31): título completo começa por 'Central Africa' (Internet Archive, ed. 1857)."
     },
     {
       "id": "brivio-2024-making-vodun",
@@ -896,11 +901,15 @@
     {
       "id": "burton-1863-abeokuta",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
+        "https://openlibrary.org/works/OL676131W",
+        "https://archive.org/details/abeokutaandcama00burtgoog"
       ],
       "url": null,
-      "identificadores": {},
-      "status_verificacao": "a_verificar",
+      "identificadores": {
+        "oclc": "2054549"
+      },
+      "status_verificacao": "conferido_web",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
@@ -915,7 +924,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "2 vols. Relato de viagem a Abeokuta (cidade ligada ao culto de Iemanjá). Domínio público. Título exato a conferir."
+      "observacoes": "2 vols. Relato de viagem a Abeokuta (cidade ligada ao culto de Iemanjá). Domínio público. Título exato a conferir. | Conferido (2026-10-31): 2 volumes, Londres, Tinsley Brothers, 1863."
     },
     {
       "id": "cabrera-1954-monte",
@@ -1086,11 +1095,15 @@
         "candomble_jeje"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": " | Conferido (2026-10-31): Open Library registra edições de 1948, 1954, 1961, 1977 e 1986; editora da 1ª ed. não confirmada.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1246656W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "oclc": "690551"
+      }
     },
     {
       "id": "carybe-1980-iconografia",
@@ -1222,24 +1235,27 @@
     {
       "id": "costa-2007-xango-pe",
       "evidencias": [
-        "https://www.redalyc.org/pdf/770/77011144006.pdf"
+        "https://www.redalyc.org/pdf/770/77011144006.pdf",
+        "https://doi.org/10.9771/aa.v0i36.21145"
       ],
-      "url": null,
-      "identificadores": {},
-      "observacoes": "Explica que em Pernambuco 'xangô' designa tanto a religião quanto o orixá do trovão.",
+      "url": "https://doi.org/10.9771/aa.v0i36.21145",
+      "identificadores": {
+        "doi": "10.9771/aa.v0i36.21145"
+      },
+      "observacoes": "Explica que em Pernambuco 'xangô' designa tanto a religião quanto o orixá do trovão. | Conferido (2026-10-31) no Crossref: Afro-Ásia, n. 36, 2007.",
       "tipo": "artigo",
       "categoria": "academica",
       "autores": [
         "Valéria Gomes Costa"
       ],
-      "titulo": "(título a conferir) — terreiro de xangô em Pernambuco",
+      "titulo": "Práticas culturais femininas e constituição de espaços num terreiro de xangô de nação xambá",
       "ano": 2007,
       "idioma": "pt",
       "tradicoes": [
         "xango_pernambuco"
       ],
       "confiabilidade_preliminar": "A",
-      "status_verificacao": "pista",
+      "status_verificacao": "conferido_web",
       "periodico": "Afro-Ásia"
     },
     {
@@ -1545,11 +1561,15 @@
     {
       "id": "ferreira-2000-exu",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
+        "https://openlibrary.org/works/OL18552563W"
       ],
       "url": null,
-      "identificadores": {},
-      "status_verificacao": "a_verificar",
+      "identificadores": {
+        "isbn_obra": "8534702012",
+        "oclc_obra": "46468320"
+      },
+      "status_verificacao": "conferido_web",
       "tipo": "capitulo",
       "categoria": "praticante",
       "autores": [
@@ -1564,7 +1584,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Em Cléo Martins e Raul Lody (orgs.), Faraimará: o caçador traz alegria, pp. 15–23. Ogã; lista de nomes-qualidades de Exu."
+      "observacoes": "Em Cléo Martins e Raul Lody (orgs.), Faraimará: o caçador traz alegria, pp. 15–23. Ogã; lista de nomes-qualidades de Exu. | Conferido (2026-10-31): a obra coletiva existe — Faraimará, o caçador traz alegria: Mãe Stella, 60 anos de iniciação (Pallas, 2000). Páginas do capítulo ainda não conferidas no sumário."
     },
     {
       "id": "ferretti-1985-querebenta",
@@ -1657,11 +1677,18 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Olhar colonial; tem tradução en 'The Voice of Africa' (1913).",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Olhar colonial; tem tradução en 'The Voice of Africa' (1913). | Conferido (2026-10-31): Berlim, Vita, 1912 (há volumes de 1912–1913).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1433240W",
+        "https://archive.org/details/undafrikasprachb00frob"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "oclc": "2474507"
+      },
+      "editora": "Vita, Deutsches Verlagshaus",
+      "local": "Berlim"
     },
     {
       "id": "gabani-serbena-2015-exu-trickster",
@@ -2284,11 +2311,16 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Artigos de 1896 na Revista Brasileira; edição pt 'O animismo fetichista dos negros baianos'. Olhar racialista/evolucionista: usar com crítica. Domínio público.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Artigos de 1896 na Revista Brasileira; edição pt 'O animismo fetichista dos negros baianos'. Olhar racialista/evolucionista: usar com crítica. Domínio público. | Conferido (2026-10-31): Open Library registra a ed. de 1900, editora Reis (Bahia).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL42789682W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "oclc": "14780382"
+      },
+      "editora": "Reis"
     },
     {
       "id": "nina-rodrigues-1932-africanos",
@@ -2305,11 +2337,16 @@
         "candomble_jeje"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Póstumo. Viés racialista; valor documental.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Póstumo. Viés racialista; valor documental. | Conferido (2026-10-31): 1ª ed. póstuma, São Paulo, Companhia Editora Nacional, 1932.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/osafricanosnobrasil",
+        "https://openlibrary.org/works/OL117390W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {},
+      "editora": "Companhia Editora Nacional",
+      "local": "São Paulo"
     },
     {
       "id": "odonile-2023-ogum",
@@ -2631,25 +2668,30 @@
     {
       "id": "pommegorge-1789-nigritie",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
+        "https://archive.org/details/descriptiondela00pommgoog",
+        "https://openlibrary.org/works/OL44459623W"
       ],
       "url": null,
-      "identificadores": {},
-      "status_verificacao": "a_verificar",
+      "identificadores": {
+        "oclc": "23617958"
+      },
+      "status_verificacao": "conferido_web",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
-        "Pruneau de Pommegorge"
+        "Antoine Edme Pruneau de Pommegorge"
       ],
       "titulo": "Description de la Nigritie",
       "ano": 1789,
       "idioma": "fr",
-      "local": "Amsterdam",
+      "local": "Amsterdã; Paris",
       "tradicoes": [
         "vodun_benim"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Relato de viagem; um dos primeiros escritos sobre Legba (estátua fálica daomeana). Citado via Verger (1999) e Prandi (2001). Domínio público."
+      "observacoes": "Relato de viagem; um dos primeiros escritos sobre Legba (estátua fálica daomeana). Citado via Verger (1999) e Prandi (2001). Domínio público. | Conferido (2026-10-31): Amsterdã / Paris, chez Maradan, 1789.",
+      "editora": "Maradan"
     },
     {
       "id": "prandi-1991-sp",
@@ -2926,11 +2968,15 @@
         "xango_pernambuco"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": " | Conferido (2026-10-31): ed. de 1952 no Open Library (sem editora); reed. 1978, MEC / Instituto Joaquim Nabuco.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL7493592W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "oclc": "2860383"
+      }
     },
     {
       "id": "romeu-2006-genero",
@@ -3572,7 +3618,7 @@
       "tipo": "tese",
       "categoria": "tese",
       "autores": [
-        "(autor a identificar)"
+        "Léo Carrer Nogueira"
       ],
       "titulo": "Da África para o Brasil, de orixá a egum: as ressignificações de Exu no discurso umbandista",
       "ano": 2017,
@@ -3581,20 +3627,22 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Doutorado em História (UFG), 410 f. Bom material para distinguir Exu (Candomblé) de exus (Umbanda).",
-      "status_verificacao": "pista",
+      "observacoes": "Doutorado em História (UFG), 410 f. Bom material para distinguir Exu (Candomblé) de exus (Umbanda). | Conferido (2026-10-31): autor Léo Carrer Nogueira, tese de doutorado em História, UFG, Goiânia, 2017.",
+      "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://bdtd.ibict.br/vufind/Record/UFG-2_e1053cd960e7d9b7708f9988dcbb0a4f"
+        "https://bdtd.ibict.br/vufind/Record/UFG-2_e1053cd960e7d9b7708f9988dcbb0a4f",
+        "https://repositorio.bc.ufg.br/tede/handle/tede/7148"
       ],
-      "url": null,
-      "identificadores": {}
+      "url": "https://repositorio.bc.ufg.br/tede/handle/tede/7148",
+      "identificadores": {},
+      "local": "Goiânia"
     },
     {
       "id": "ufpb-2011-sao-jorge",
       "tipo": "dissertacao",
       "categoria": "tese",
       "autores": [
-        "(autor a identificar)"
+        "Roncalli Dantas Pinheiro"
       ],
       "titulo": "São Jorge: performance nômade de uma voz entre Europa, África e Brasil nos terreiros afro-brasileiros em João Pessoa",
       "ano": 2011,
@@ -3604,13 +3652,14 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Mestrado (UFPB), orient. Beliza Áurea de Arruda Mello. Ogum/São Jorge, enfoque linguístico.",
-      "status_verificacao": "pista",
+      "observacoes": "Mestrado (UFPB), orient. Beliza Áurea de Arruda Mello. Ogum/São Jorge, enfoque linguístico. | Conferido (2026-10-31): autor Roncalli Dantas Pinheiro, mestrado em Linguística, UFPB, defesa 2011-03-24.",
+      "status_verificacao": "conferido_web",
       "evidencias": [
         "https://repositorio.ufpb.br/jspui/handle/tede/6454"
       ],
-      "url": null,
-      "identificadores": {}
+      "url": "https://repositorio.ufpb.br/jspui/handle/tede/6454",
+      "identificadores": {},
+      "local": "João Pessoa"
     },
     {
       "id": "unesco-ifa",
@@ -3679,8 +3728,11 @@
     {
       "id": "vallado-2008-iemanja",
       "url": null,
-      "identificadores": {},
-      "observacoes": "Citado como Vallado (2008) por Queiroga & Nascimento (2019) — confirma a existência do volume de Iemanjá na Coleção Orixás (Pallas); título exato a conferir.",
+      "identificadores": {
+        "isbn": "8534702462",
+        "oclc": "51167871"
+      },
+      "observacoes": "Citado como Vallado (2008) por Queiroga & Nascimento (2019) — confirma a existência do volume de Iemanjá na Coleção Orixás (Pallas); título exato a conferir. | Conferido (2026-10-31): título 'Iemanjá: a grande mãe africana do Brasil' confirmado (Pallas, 260 p.), mas Open Library registra a ed. de 2002. A citação de Queiroga & Nascimento usa 2008 — provável reedição; ano mantido como citado até conferir a edição.",
       "tipo": "livro",
       "categoria": "academica",
       "autores": [
@@ -3696,17 +3748,23 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "status_verificacao": "a_verificar",
+      "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888",
+        "https://openlibrary.org/works/OL6054663W"
       ]
     },
     {
       "id": "verger-1954-dieux",
-      "evidencias": [],
+      "evidencias": [
+        "https://openlibrary.org/works/OL1163833W",
+        "https://archive.org/details/dieuxdafriquecul0000verg"
+      ],
       "url": null,
-      "identificadores": {},
-      "observacoes": "Livro de fotografias com textos. Ano da 1ª ed. a conferir (algumas citações dão 1964). Muito citado (às vezes de 2ª mão) sobre a origem egbá do culto de Iemanjá.",
+      "identificadores": {
+        "oclc": "1135026"
+      },
+      "observacoes": "Livro de fotografias com textos. Ano da 1ª ed. a conferir (algumas citações dão 1964). Muito citado (às vezes de 2ª mão) sobre a origem egbá do culto de Iemanjá. | Conferido (2026-10-31): Paris, Paul Hartmann, 1954; reed. Revue Noire, 1995 (ISBN 2909571130).",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
@@ -3721,7 +3779,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "status_verificacao": "a_verificar",
+      "status_verificacao": "conferido_web",
       "editora": "Paul Hartmann",
       "local": "Paris"
     },
@@ -3780,8 +3838,10 @@
     {
       "id": "verger-1985-lendas",
       "url": null,
-      "identificadores": {},
-      "observacoes": "Ilustrações de Carybé. Ano da 1ª ed. a conferir; Souza (2020) usa a 4ª ed. (1997).",
+      "identificadores": {
+        "oclc": "21593328"
+      },
+      "observacoes": "Ilustrações de Carybé. Ano da 1ª ed. a conferir; Souza (2020) usa a 4ª ed. (1997). | Conferido (2026-10-31): Corrupio, 1985; ed. bilíngue 2009 (ISBN 8586551260).",
       "tipo": "livro",
       "categoria": "corpus_oral",
       "autores": [
@@ -3797,9 +3857,10 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "status_verificacao": "a_verificar",
+      "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
+        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585",
+        "https://openlibrary.org/works/OL1163813W"
       ]
     },
     {

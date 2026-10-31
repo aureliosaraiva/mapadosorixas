@@ -10,7 +10,7 @@
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
-| Fontes no catálogo | 168 (60 `conferido_web`, 95 `a_verificar`, 13 `pista`) | `python3 scripts/validar_fontes.py` |
+| Fontes no catálogo | 168 (77 `conferido_web`, 81 `a_verificar`, 10 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima** | `python3 scripts/validar_fontes.py` |
 | Registros de fichamento | 198 (179 `fichado`, 19 `pre_fichamento`, 0 `revisado`) | `python3 scripts/validar_fichamento.py` |
 | Atributos com versões divergentes | 31 | `python3 scripts/divergencias.py` |
 | Fichas geradas (`data/orixas/`) | 5 fichas, 177 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
@@ -29,7 +29,7 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 1. **Saudações, itãs e origem africana** dos 5 orixás. Depende de Verger, Prandi (*Mitologia*), Cacciatore e Beniste, que precisam de exemplar → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §2.
 2. **Equivalências com inquices e voduns.** Depende de Castro 2001, Parés 2006 e Lopes 1988 (exemplar).
 3. **Resolver os 19 `pre_fichamento`.** São fontes pagas ou fora do ar (Tishken 2009, Brown 1989, Pérez 2013, Barnes 1989, Beier 1970, teses PUC-SP/UFPB/UFG).
-4. **Conferir as fontes `a_verificar`** usadas no fichamento (WorldCat, ISBN, DOI).
+4. **Ler as 3 fontes recém-localizadas** que sustentam `pre_fichamento` e têm texto aberto: Nogueira 2017 (UFG, exu-034), Pinheiro 2011 (UFPB, ogum-006) e Costa 2007 (*Afro-Ásia*, xango-005). Fazer isso fecha parte da tarefa 3. *(Conferência das 17 fontes `a_verificar`/`pista` do fichamento: feita em 2026-10-31.)*
 5. **Fase 2 (restante):** dar fonte às descrições de `data/tradicoes.json` e criar `glossario.json`. Ambos dependem de fichar definições em obra de referência; não redigir sem fonte. *(Esquemas, fichas, grafo, entidades equivalentes, validador, anti-cópia e CI: feitos em 2026-10-31.)*
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
 7. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
@@ -49,6 +49,7 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 - **Entidades equivalentes** são geradas das arestas de equivalência; nomes que a fonte não atribui a fon ou banto ficam como `nome_fon_ou_banto`.
 - **Anti-cópia:** citação entre aspas com 15+ palavras é erro. Para comparar com o texto das obras, aponte `ANTICOPIA_REFS` para uma pasta de `.txt` **fora do repo**; qualquer sequência idêntica de 8 palavras é erro.
 - **CI** (`.github/workflows/validar.yml`) roda todos os validadores a cada push e PR.
+- **Conferência de metadados:** Open Library, Internet Archive, Crossref e repositórios institucionais valem como evidência para `conferido_web`; a URL vai em `evidencias`. Divergência de edição ou ano é anotada em `observacoes`, sem trocar o ano citado. WorldCat (429), Gallica (403) e Google Books (cota) não respondem neste ambiente.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
 
 ## Sessões em paralelo
