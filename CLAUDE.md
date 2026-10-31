@@ -50,3 +50,6 @@ A definir. Sugestão inicial: site estático (ex.: Astro ou Next.js export) + da
 
 ## Idioma de trabalho
 Responder e documentar em português do Brasil.
+
+## Registro de bloqueios
+- Todo acesso bloqueado (domínio inacessível, 403/404, paywall, obra só impressa) ou conferência que dependa de pessoa deve ser registrado em `docs/pesquisa/PENDENCIAS.md`, com status, o que está atrás do bloqueio e prioridade. O autor resolve depois; não substituir por conteúdo inventado.

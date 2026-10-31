@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 28,
+    "total": 29,
     "por_status": {
-      "fichado": 22,
+      "fichado": 23,
       "pre_fichamento": 6,
       "revisado": 0
     }
@@ -528,7 +528,7 @@
       "via_source_id": null,
       "localizacao": "ed. pt 1961, p. 192",
       "parafrase": "A planta espada-de-ogum pertence ao deus da guerra por causa da forma, não por propriedades medicinais; Bastide insiste que o uso religioso das plantas não segue o uso terapêutico.",
-      "nota": "Contraste com Chiousse (p. 267), que cita Bastide (1958, p. 117) atribuindo-lhe virtude diurética — conferir.",
+      "nota": "Sem contradição: na p. 165 Bastide registra a função terapêutica (diurética) e o uso em banhos dos filhos de Ogum; na p. 192 explica que o vínculo religioso vem da forma. Chiousse (p. 267) cita a ed. francesa (1958, p. 117).",
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
@@ -553,6 +553,25 @@
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
       "id": "ogum-028"
+    },
+    {
+      "id": "ogum-029",
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "valor": "espada-de-ogum (Sansevieria): banhos de amaci dos filhos de Ogum; uso terapêutico diurético",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 165",
+      "parafrase": "Na lista de plantas, a espada-de-ogum aparece usada nos banhos de amaci dos filhos de Ogum e, ao que parece, nos de iniciação; como uso terapêutico, Bastide anota a ação diurética.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
     }
   ]
 }
