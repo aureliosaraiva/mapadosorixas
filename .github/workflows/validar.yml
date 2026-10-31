@@ -42,3 +42,5 @@ jobs:
       - run: npm ci
       - name: Build do site (Astro + Pagefind)
         run: npm run build
+      - name: QA do site (versões x data/orixas, pré-fichamento/retidos, selo, links e âncoras, downloads)
+        run: python3 ../scripts/qa_site.py

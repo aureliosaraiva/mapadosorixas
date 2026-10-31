@@ -19,7 +19,8 @@
 | Tradições (`data/tradicoes.json`) | 19: 13 `com_fonte`, 6 `rascunho_sem_fonte` (benim, efon, xango_sergipe, palo_monte, arara, orisha_trinidad) | idem |
 | Glossário (`data/glossario.json`) | 47 termos com fonte e página; 6 pendentes em `_meta.pendentes` | idem |
 | Anti-cópia | 0 erros, também contra o texto das 8 obras lidas na rodada do glossário (4 paráfrases antigas reescritas); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
-| Site (`site/`) | 10 páginas: início com busca, catálogo, 5 fichas, grafo, fontes, metodologia. Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
+| Site (`site/`) | 11 páginas: início com busca, catálogo, 5 fichas (com mini-grafo), grafo, fontes, metodologia, baixar dados (+ 11 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
+| QA do site | 187/187 versões batem com `data/orixas`; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1200 links e âncoras internos sem 404; axe-core sem violações (11 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
 | Idiomas no catálogo | pt, en, es, fr, de, it, yo | — |
 
 Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 27.
@@ -34,7 +35,7 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 4. **Procurar texto aberto para os `pre_fichamento` restantes**, por exemplo a dissertação de Ribas 2010 em outro espelho e capítulos de Tishken 2009 e Barnes 1989 em repositórios de autores. *(Leitura de Nogueira 2017, Pinheiro 2011 e Costa 2007: feita em 2026-10-31; exu-034 e xango-005 confirmados, ogum-006 corrigido, 7 registros novos.)*
 5. **Fase 2 (restante):** as 6 tradições sem fonte (Efon, Xangô de Sergipe, Palo Monte, Arará, Orisha de Trinidad e o rótulo `benim`) e os termos pendentes do glossário. Dependem de Dantas 1988, Barnet 1995, Cabrera 1954 e de uma obra sobre o Orisha de Trinidad; Mones 2024 e Arango 2018 estão bloqueados neste ambiente → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md). *(Tradições com fonte (13) e glossário (47 termos): feitos em 2026-10-31, ver [`fichamento-05`](pesquisa/fichamento-05.md).)*
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
-7. **Site (Fase 5, restante):** glossário e página Sobre/Créditos (dependem de `glossario.json` com fonte); mini-grafo local na ficha; download dos dados; versões es/en (Fase 7). Deploy, domínio e licenças dependem do autor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
+7. **Site (Fase 5, restante):** glossário e página Sobre/Créditos (dependem de `glossario.json` com fonte); versões es/en (Fase 7). *(Mini-grafo na ficha, Baixar dados e QA de conteúdo/links/acessibilidade: feitos em 2026-10-31.)* Deploy, domínio e licenças dependem do autor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
 8. **Conselho consultivo:** o autor contata os candidatos ([`conselho/candidatos.md`](conselho/candidatos.md): 29 pesquisadores e caminhos institucionais para praticantes) com os modelos de [`conselho/kit-revisao.md`](conselho/kit-revisao.md). Antes da primeira revisão, implementar os passos 1–3 de [`conselho/proposta-registro-revisao.md`](conselho/proposta-registro-revisao.md) (campo `revisoes` por registro, `revisores.json`, regras no validador) → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3c. *(Preparação: feita em 2026-10-31.)*
 
 **Sugestões da sessão do glossário:** (a) ler Prandi 2005, *Nas pegadas dos voduns*, inteiro (36 p., aberto): pode adiantar a tarefa 2 (voduns equivalentes no Tambor de Mina); (b) repetir o anti-cópia com referências para as obras das rodadas 1–4 que ainda não passaram por ele (Nogueira 2017, Pinheiro 2011, Costa 2007, Blass 2007 etc.); (c) o site pode mostrar o glossário com links a partir das fichas (campo `ver_tambem`).
@@ -55,6 +56,8 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 - **Anti-cópia:** citação entre aspas com 15+ palavras é erro. Para comparar com o texto das obras, aponte `ANTICOPIA_REFS` para uma pasta de `.txt` **fora do repo**; qualquer sequência idêntica de 8 palavras é erro.
 - **CI** (`.github/workflows/validar.yml`) roda todos os validadores e o build do site a cada push e PR.
 - **Site só exibe dados:** `site/` lê `data/` em tempo de build; nenhum texto sobre orixás é escrito no código. Afirmações da página de Metodologia citam registros pelo componente `Ref.astro`, e o build falha se o registro não existir ou não estiver `fichado`. Tradições aparecem só pelo nome, porque as descrições ainda estavam sem fonte (desde a sessão do glossário, 13 das 19 têm `status: com_fonte`; o site pode passar a exibi-las).
+- **QA do site:** `scripts/qa_site.py` roda após o build (também no CI) e confere todas as versões exibidas contra `data/orixas`, ausência de pré-fichamento e retidos em qualquer arquivo publicado, selo, `noindex`, links/âncoras e cópias de `/dados/`. Acessibilidade: `site/scripts/acessibilidade.cjs` (axe-core; falha em violação `serious`/`critical`), local, fora do CI. Rodar os dois no fechamento de sessões que mexem no site.
+- **Baixar dados:** `/dados/` publica só dados públicos gerados (fichas, grafo, entidades, divergências, catálogo) `glossario.json` e `tradicoes.json` (sem as descrições ainda `rascunho_sem_fonte`); **nunca** o fichamento bruto. Licença "a definir pelo autor".
 - **Site:** Astro 7 (Node ≥ 22.23), saída estática, `SITE_BASE` para subcaminho. Selo "Rascunho — aguardando revisão de praticantes e pesquisadores" em todas as fichas e `noindex` em todas as páginas até a revisão. Etiquetas de Umbanda com borda tracejada, para distinguir de Candomblé sem depender de cor. Filtros e grafo são aprimoramento progressivo: sem JS, aparecem tabelas e listas completas.
 - **Conferência de metadados:** Open Library, Internet Archive, Crossref e repositórios institucionais valem como evidência para `conferido_web`; a URL vai em `evidencias`. Divergência de edição ou ano é anotada em `observacoes`, sem trocar o ano citado. WorldCat (429), Gallica (403) e Google Books (cota) não respondem neste ambiente.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
@@ -92,7 +95,7 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 | `data/entidades_equivalentes.json` | voduns, inquices etc. (gerado; esquema `schemas/entidade.schema.json`) |
 | `data/tradicoes.json` | tradições (esquema `schemas/tradicao.schema.json`) |
 | `data/glossario.json` | glossário (esquema `schemas/glossario.schema.json`) |
-| `scripts/` | validação e geração |
+| `scripts/` | validação e geração; `qa_site.py` confere o site gerado |
 | `site/` | protótipo do site (Astro); ver `site/README.md` |
 | `docs/conselho/` | Fase 4: candidatos a revisor, kit do revisor (guia, sigilo, termo, convites pt/es), proposta de registro da revisão |
 | `docs/screenshots/` | capturas das páginas principais (`site/scripts/screenshots.cjs`) |

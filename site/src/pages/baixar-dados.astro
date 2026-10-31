@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import { arquivosDados, LICENCA } from '../lib/downloads.js';
+import { url } from '../lib/dados.js';
+
+const kb = (n) => `${(n / 1024).toLocaleString('pt-BR', { maximumFractionDigits: 1 })} KB`;
+---
+<Base titulo="Baixar dados" descricao="Cópias dos dados do Mapa dos Orixás em JSON: fichas, grafo, divergências e fontes.">
+  <h1>Baixar dados</h1>
+  <p class="selo" role="note">{LICENCA}<small>Os dados são um rascunho: ainda não foram revisados por praticantes nem por pesquisadores.</small></p>
+  <p>Estes arquivos são cópias, feitas a cada build do site, dos dados versionados no <a href="https://github.com/aureliosaraiva/mapadosorixas">repositório</a>. Cada versão de uma ficha traz a fonte (<code>source_id</code>, que remete a <code>fontes.json</code>) e a página (<code>localizacao</code>).</p>
+  <p class="nota-caixa">Não estão incluídos o fichamento bruto, os registros em pré-fichamento (fonte ainda não lida no original) e os registros retidos até decisão do conselho (tabus e alimentos rituais). As descrições das tradições também ficam de fora enquanto não tiverem fonte.</p>
+
+  <div class="tabela-rolagem">
+    <table>
+      <caption>{arquivosDados.length} arquivos</caption>
+      <thead><tr><th scope="col">Arquivo</th><th scope="col">Conteúdo</th><th scope="col">Tamanho</th><th scope="col">Origem no repositório</th></tr></thead>
+      <tbody>
+        {arquivosDados.map((a) => (
+          <tr>
+            <td><a href={url(`dados/${a.caminho}`)} download><code>{a.caminho}</code></a></td>
+            <td>{a.descricao}</td>
+            <td>{kb(a.bytes)}</td>
+            <td><code>{a.origem}</code></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p>Os esquemas JSON ficam em <code>schemas/</code> no repositório. As somas SHA-256 estão no <a href={url('dados/LEIAME.txt')}>LEIAME.txt</a>.</p>
+</Base>

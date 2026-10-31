@@ -12,6 +12,7 @@ const menu = [
   ['grafo', 'Grafo'],
   ['fontes', 'Fontes'],
   ['metodologia', 'Metodologia'],
+  ['baixar-dados', 'Baixar dados'],
 ];
 const ativo = (p: string) => {
   const alvo = url(p).replace(/\/$/, '');
@@ -50,7 +51,7 @@ const ativo = (p: string) => {
     <footer class="rodape">
       <div class="interno">
         <p><strong>Protótipo em rascunho.</strong> Nenhum conteúdo foi revisado ainda por praticantes (babalorixás, iyalorixás) ou pesquisadores. O site só exibe os dados versionados no repositório (<code>data/</code>); cada afirmação remete a uma fonte do catálogo.</p>
-        <p>Licenças de código, textos e dados: a definir (ver <a href="https://github.com/aureliosaraiva/mapadosorixas">repositório</a>).</p>
+        <p>Licenças de código, textos e dados: a definir pelo autor (ver <a href="https://github.com/aureliosaraiva/mapadosorixas">repositório</a>). Cópias dos dados em JSON: <a href={url('baixar-dados')}>Baixar dados</a>.</p>
       </div>
     </footer>
   </body>

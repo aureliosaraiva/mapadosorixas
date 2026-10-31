@@ -5,25 +5,8 @@ import {
   conexoes, entidades, entidadesMeta, fichaPorId, fontePorId, autorCurto, tradicoes, ROTULO_GRUPO,
   ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, rotuloNo, url,
 } from '../lib/dados.js';
+import { CORES_ARESTA, FORMA_NO, ROTULO_LINHA, tradDaAresta, elementosCytoscape } from '../lib/grafo.js';
 
-const CORES_ARESTA = {
-  parentesco: { cor: '#6b3b8f', estilo: 'solid' },
-  equivalencia: { cor: '#1d6b4a', estilo: 'dashed' },
-  sincretismo: { cor: '#22578f', estilo: 'dotted' },
-  companheiro_de_culto: { cor: '#8a5a00', estilo: 'solid' },
-  associacao: { cor: '#555555', estilo: 'dashed' },
-};
-const FORMA_NO = {
-  orixa: { forma: 'ellipse', cor: '#7a3b12', rotulo: 'círculo' },
-  santo_catolico: { forma: 'round-rectangle', cor: '#22578f', rotulo: 'retângulo' },
-  figura_crista: { forma: 'diamond', cor: '#22578f', rotulo: 'losango' },
-  vodum: { forma: 'hexagon', cor: '#1d6b4a', rotulo: 'hexágono' },
-  inquice: { forma: 'triangle', cor: '#1d6b4a', rotulo: 'triângulo' },
-  nome_fon_ou_banto: { forma: 'vee', cor: '#4f6b5e', rotulo: 'seta (V)' },
-  entidade: { forma: 'octagon', cor: '#8a5a00', rotulo: 'octógono' },
-};
-
-const tradDaAresta = (e) => [...new Set(e.versoes.flatMap((v) => v.tradicoes))];
 const tiposAresta = Object.keys(conexoes._meta.por_tipo);
 const tiposNo = [...new Set(conexoes.nos.map((n) => n.tipo))];
 const tradsUsadas = new Set(conexoes.arestas.flatMap(tradDaAresta));
@@ -31,23 +14,7 @@ const grupos = Object.entries(ROTULO_GRUPO)
   .map(([g, rot]) => [rot, tradicoes.filter((t) => t.grupo === g && tradsUsadas.has(t.id))])
   .filter(([, ts]) => ts.length);
 
-const elementos = [
-  ...conexoes.nos.map((n) => ({
-    data: {
-      id: n.id, label: n.rotulo, tipo: n.tipo,
-      cor: FORMA_NO[n.tipo]?.cor ?? '#666', forma: FORMA_NO[n.tipo]?.forma ?? 'ellipse',
-      href: fichaPorId[n.id] ? url(`orixas/${n.id}`) : '',
-    },
-  })),
-  ...conexoes.arestas.map((e) => ({
-    data: {
-      id: e.id, source: e.origem, target: e.destino, tipo: e.tipo,
-      cor: CORES_ARESTA[e.tipo]?.cor ?? '#555', estilo: CORES_ARESTA[e.tipo]?.estilo ?? 'solid',
-      seta: e.direcionada ? 'triangle' : 'none',
-      tradicoes: tradDaAresta(e),
-    },
-  })),
-];
+const elementos = elementosCytoscape(conexoes.nos, conexoes.arestas);
 
 const fonteCurta = (v) => {
   const f = fontePorId[v.source_id];
@@ -102,7 +69,7 @@ const fonteCurta = (v) => {
   <h3>Conexões</h3>
   <ul class="legenda">
     {tiposAresta.map((t) => (
-      <li><span class="linha" style={`border-top-style:${CORES_ARESTA[t].estilo};border-top-color:${CORES_ARESTA[t].cor}`}></span>{ROTULO_ARESTA[t]} — linha {({ solid: 'contínua', dashed: 'tracejada', dotted: 'pontilhada' })[CORES_ARESTA[t].estilo]}</li>
+      <li><span class="linha" style={`border-top-style:${CORES_ARESTA[t].estilo};border-top-color:${CORES_ARESTA[t].cor}`}></span>{ROTULO_ARESTA[t]} — linha {ROTULO_LINHA[CORES_ARESTA[t].estilo]}</li>
     ))}
   </ul>
 
@@ -165,6 +132,7 @@ const fonteCurta = (v) => {
   <script type="application/json" id="dados-grafo" set:html={JSON.stringify(elementos)}></script>
   <script>
     import cytoscape from 'cytoscape';
+    import { estiloCytoscape } from '../lib/estilo-cytoscape';
 
     const elementos = JSON.parse(document.getElementById('dados-grafo')!.textContent!);
     const cy = cytoscape({
@@ -173,22 +141,7 @@ const fonteCurta = (v) => {
       minZoom: 0.3,
       maxZoom: 3,
       wheelSensitivity: 0.3,
-      style: [
-        { selector: 'node', style: {
-          'background-color': 'data(cor)', shape: 'data(forma)' as any, label: 'data(label)',
-          'font-size': 11, color: '#1f1a17', 'text-valign': 'bottom', 'text-margin-y': 4,
-          'text-wrap': 'wrap', 'text-max-width': '110px', width: 22, height: 22,
-          'text-background-color': '#ffffff', 'text-background-opacity': 0.8, 'text-background-padding': '1px',
-        } },
-        { selector: 'node[tipo = "orixa"]', style: { width: 40, height: 40, 'font-size': 14, 'font-weight': 'bold' } },
-        { selector: 'node[href != ""]', style: { 'border-width': 3, 'border-color': '#f2c14e' } },
-        { selector: 'edge', style: {
-          width: 2, 'line-color': 'data(cor)', 'line-style': 'data(estilo)' as any,
-          'target-arrow-shape': 'data(seta)' as any, 'target-arrow-color': 'data(cor)', 'curve-style': 'bezier',
-        } },
-        { selector: '.oculto', style: { display: 'none' } },
-        { selector: '.realce', style: { 'border-width': 4, 'border-color': '#0b5cad' } },
-      ],
+      style: estiloCytoscape,
       layout: { name: 'cose', animate: false, nodeRepulsion: () => 9000, idealEdgeLength: () => 90, padding: 20 } as any,
     });
 

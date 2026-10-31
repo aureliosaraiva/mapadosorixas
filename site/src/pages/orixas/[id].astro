@@ -4,8 +4,9 @@ import Selo from '../../components/Selo.astro';
 import Tradicoes from '../../components/Tradicoes.astro';
 import {
   fichas, fontePorId, divergencias, conexoes, ORDEM_ATRIBUTOS, rotuloAtributo, autorCurto,
-  tradicoesDaFicha, totalVersoes, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, url,
+  tradicoesDaFicha, totalVersoes, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, url,
 } from '../../lib/dados.js';
+import { elementosCytoscape, vizinhanca, FORMA_NO, CORES_ARESTA, ROTULO_LINHA } from '../../lib/grafo.js';
 
 export function getStaticPaths() {
   return fichas.map((f) => ({ params: { id: f.id } }));
@@ -26,7 +27,11 @@ for (const a of atributos) {
 }
 
 const divs = divergencias.filter((d) => d.orixa === id);
-const arestas = conexoes.arestas.filter((e) => e.origem === id || e.destino === id);
+const viz = vizinhanca(id);
+const arestas = viz.arestas;
+const elementosMini = elementosCytoscape(viz.nos, viz.arestas);
+const tiposNoMini = [...new Set(viz.nos.map((n) => n.tipo))];
+const tiposArestaMini = [...new Set(viz.arestas.map((e) => e.tipo))];
 const pend = ficha.pendencias;
 const preFich = Object.entries(pend.so_pre_fichamento);
 const retidos = Object.entries(pend.retidos_ate_conselho);
@@ -110,7 +115,12 @@ const retidos = Object.entries(pend.retidos_ate_conselho);
     <h2 id="conexoes">Conexões</h2>
     {arestas.length === 0 ? <p>Nenhuma conexão registrada.</p> : (
       <>
-        <p>Conexões com fonte em que {ficha.rotulo} aparece. Veja todas no <a href={url('grafo')}>grafo</a>.</p>
+        <p>Conexões com fonte em que {ficha.rotulo} aparece ({arestas.length} conexões com {viz.nos.length - 1} nós vizinhos). Veja todas no <a href={url('grafo')}>grafo completo</a>.</p>
+        <div class="grafo-caixa mini so-js">
+          <div id="mini-grafo" role="img" aria-label={`Mini-grafo dos vizinhos diretos de ${ficha.rotulo}. A lista abaixo descreve as mesmas conexões, com as fontes.`}></div>
+        </div>
+        <p class="meta so-js">Legenda — nós: {tiposNoMini.map((t) => `${ROTULO_NO[t] ?? t} (${FORMA_NO[t]?.rotulo})`).join('; ')}. Conexões: {tiposArestaMini.map((t) => `${ROTULO_ARESTA[t] ?? t} (linha ${ROTULO_LINHA[CORES_ARESTA[t]?.estilo]})`).join('; ')}. Nós com borda dourada têm ficha: clique para abrir.</p>
+        <h3 id="lista-conexoes">Lista de conexões</h3>
         <ul>
           {arestas.map((e) => {
             const no = (x) => (fichaPorId[x] && x !== id ? <a href={url(`orixas/${x}`)}>{rotuloNo(x)}</a> : rotuloNo(x));
@@ -171,4 +181,32 @@ const retidos = Object.entries(pend.retidos_ate_conselho);
       })}
     </ol>
   </section>
+  {arestas.length > 0 && (
+    <script type="application/json" id="dados-mini-grafo" data-centro={id} set:html={JSON.stringify(elementosMini)}></script>
+  )}
+  <script>
+    import cytoscape from 'cytoscape';
+    import { estiloCytoscape } from '../../lib/estilo-cytoscape';
+
+    const dados = document.getElementById('dados-mini-grafo');
+    const caixa = document.getElementById('mini-grafo');
+    if (dados && caixa) {
+      const centro = dados.dataset.centro!;
+      const cy = cytoscape({
+        container: caixa,
+        elements: JSON.parse(dados.textContent!),
+        minZoom: 0.4,
+        maxZoom: 2.5,
+        userZoomingEnabled: false,
+        style: [...estiloCytoscape, { selector: `node[id = "${centro}"]`, style: { 'border-width': 4, 'border-color': '#0b5cad', width: 52, height: 52 } }],
+        layout: { name: 'concentric', concentric: (n: any) => (n.id() === centro ? 2 : 1), levelWidth: () => 1, minNodeSpacing: 40, padding: 24, animate: false } as any,
+      });
+      cy.on('tap', 'node', (ev) => {
+        const href = ev.target.data('href');
+        if (href && ev.target.id() !== centro) window.location.href = href;
+      });
+      cy.on('mouseover', 'node[href != ""]', (ev) => { if (ev.target.id() !== centro) (cy.container() as HTMLElement).style.cursor = 'pointer'; });
+      cy.on('mouseout', 'node', () => { (cy.container() as HTMLElement).style.cursor = ''; });
+    }
+  </script>
 </Base>

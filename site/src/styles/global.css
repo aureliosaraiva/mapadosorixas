@@ -92,7 +92,7 @@ sup.ref a:hover { text-decoration: underline; }
 .sumario { display: flex; flex-wrap: wrap; gap: .3rem .9rem; padding: 0; list-style: none; font-size: .95rem; }
 
 .grafo-caixa { position: relative; height: 70vh; min-height: 22rem; border: 1px solid var(--borda); border-radius: var(--raio); background: #fff; }
-#grafo { position: absolute; inset: 0; }
+#grafo, #mini-grafo { position: absolute; inset: 0; }
 .legenda { display: flex; flex-wrap: wrap; gap: .3rem 1rem; padding: 0; list-style: none; font-size: .9rem; }
 .legenda .amostra { display: inline-block; width: 1.6rem; height: .9rem; vertical-align: middle; margin-right: .3rem; border: 1px solid #555; }
 .legenda .linha { display: inline-block; width: 1.8rem; vertical-align: middle; margin-right: .3rem; border-top-width: 3px; }
@@ -111,3 +111,5 @@ sup.ref a:hover { text-decoration: underline; }
 .filtros select { width: 100%; }
 .grafo-caixa { overflow: hidden; }
 .tabela-rolagem { position: relative; }
+.grafo-caixa.mini { height: 26rem; min-height: 18rem; max-height: 60vh; }
+.rotulo-busca { font-weight: 600; margin-bottom: .3rem; }

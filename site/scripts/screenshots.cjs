@@ -12,6 +12,8 @@ const paginas = [
   ['grafo', '/grafo/'],
   ['fontes', '/fontes/'],
   ['metodologia', '/metodologia/'],
+  ['baixar-dados', '/baixar-dados/'],
+  ['ficha-xango-conexoes', '/orixas/xango/#conexoes'],
 ];
 (async () => {
   const browser = await chromium.launch();
@@ -23,7 +25,7 @@ const paginas = [
     for (const [nome, p] of paginas) {
       if (sufixo && !['inicio', 'ficha-xango', 'grafo'].includes(nome)) continue;
       await page.goto(BASE + p, { waitUntil: 'networkidle' });
-      await page.waitForTimeout(nome === 'grafo' ? 1500 : 300);
+      await page.waitForTimeout(nome === 'grafo' || nome.includes('conexoes') ? 1500 : 300);
       await page.screenshot({ path: `${SAIDA}/${nome}${sufixo}.png`, fullPage: nome !== 'grafo' && nome !== 'fontes' && !p.includes('#') });
     }
     await page.close();

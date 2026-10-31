@@ -11,5 +11,8 @@
     "astro": "^7.4.4",
     "cytoscape": "^3.34.4",
     "pagefind": "^1.5.2"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0"
   }
 }

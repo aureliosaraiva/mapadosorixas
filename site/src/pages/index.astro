@@ -40,7 +40,8 @@ const fontesUsadas = Object.keys(usoDasFontes).length;
   </div>
 
   <h2 id="busca-titulo">Buscar</h2>
-  <div id="busca" class="so-js" aria-labelledby="busca-titulo"></div>
+  <label for="busca-campo" class="so-js rotulo-busca">Termo de busca (fichas, fontes e metodologia)</label>
+  <div id="busca" class="so-js"></div>
   <noscript><p>A busca precisa de JavaScript. Sem ele, navegue pelo <a href={url('catalogo')}>catálogo</a> ou pelas <a href={url('fontes')}>fontes</a>.</p></noscript>
   <p class="nota-caixa">A busca é gerada pelo Pagefind no <code>npm run build</code>. No modo de desenvolvimento (<code>npm run dev</code>) ela não aparece.</p>
 
@@ -53,6 +54,12 @@ const fontesUsadas = Object.keys(usoDasFontes).length;
     s.onload = () => {
       // eslint-disable-next-line no-undef
       new PagefindUI({ element: '#busca', showSubResults: true, translations: { placeholder: 'Buscar nas fichas, fontes e metodologia', zero_results: 'Nenhum resultado para [SEARCH_TERM]' } });
+      // rótulo visível ligado ao campo criado pelo Pagefind (axe: label-title-only)
+      const ligar = () => {
+        const campo = document.querySelector('#busca input[type="text"], #busca input:not([type])');
+        if (campo) campo.id = 'busca-campo'; else requestAnimationFrame(ligar);
+      };
+      ligar();
     };
     s.onerror = () => { document.getElementById('busca').textContent = 'Índice de busca indisponível (rode npm run build).'; };
     document.head.appendChild(s);
