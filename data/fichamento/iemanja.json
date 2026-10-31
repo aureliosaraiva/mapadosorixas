@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 28,
+    "total": 36,
     "por_status": {
-      "fichado": 18,
+      "fichado": 26,
       "pre_fichamento": 10,
       "revisado": 0
     }
@@ -555,6 +555,159 @@
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "na dança, penteia os cabelos de algas",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 30",
+      "parafrase": "Na dança dos orixás, Iemanjá surge como quem penteia seus cabelos de algas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-029"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "simbolos",
+      "valor": "otá: seixo marítimo",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 90, nota 28",
+      "parafrase": "A pedra consagrada de Iemanjá é um seixo do mar.",
+      "nota": "Bastide apoia-se em Oneyda Alvarenga.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-030"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "'sala do tanque de Iemanjá' nos terreiros",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 90",
+      "parafrase": "Nos terreiros, o quarto de Iemanjá pode ser chamado de sala do tanque.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-031"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "simbolos",
+      "valor": "folha 'olhos de Santa Luzia' pertence a Iemanjá",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 191",
+      "parafrase": "A planta olhos-de-santa-luzia é atribuída a Iemanjá porque suas flores lembram pedacinhos de mar refletindo o céu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-032"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "presentes (sabões, perfumes, flores, espelhos, pentes) lançados da margem ou de barco; 'presente de Iemanjá' (2 de fevereiro)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 92–93",
+      "parafrase": "Os cultos de Iemanjá e Oxum pedem oferendas lançadas da margem ou de um barco em alto-mar — sabões, água-de-colônia, flores, espelhinhos e pentes, pois ambas são vaidosas; a grande festa do presente de Iemanjá leva ao mar um barco com filhas de santo e tambores em torno de um cesto de presentes.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-033"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "locais na Bahia: Dique, Montserrat, praia do Rio Vermelho",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 93",
+      "parafrase": "Nem todo ponto da praia serve para as oferendas; há lugares privilegiados, como o Dique, Montserrat e a praia do Rio Vermelho.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-034"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "presente de Iemanjá em Recife e Porto Alegre retomado pela Umbanda; expansão no Rio, Porto Alegre e Santos (anos 1940–50)",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Recife, Porto Alegre, Rio de Janeiro, Santos",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 93, nota 37",
+      "parafrase": "A festa do presente de Iemanjá existia também em Recife e Porto Alegre, mas caíra em desuso; retomada pela Umbanda, cresceu muito no Rio de Janeiro, em Porto Alegre e chegou a Santos nos anos 1950.",
+      "nota": "Base histórica para distinguir a festa umbandista da tradição baiana.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-035"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "dominios",
+      "valor": "água salgada (com Oxum: água doce); divindade vaidosa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 92",
+      "parafrase": "Bastide chama Iemanjá e Oxum de deusas da água salgada e da água doce, ambas vaidosas, o que explica o tipo de presente que recebem.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "iemanja-036"
     }
   ]
 }

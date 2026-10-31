@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 26
+    "total": 30
   },
   "divergencias": [
     {
@@ -422,6 +422,40 @@
           "via": null,
           "localizacao": "p. 237",
           "registro": "iemanja-025"
+        },
+        {
+          "valor": "presentes (sabões, perfumes, flores, espelhos, pentes) lançados da margem ou de barco; 'presente de Iemanjá' (2 de fevereiro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 92–93",
+          "registro": "iemanja-033"
+        },
+        {
+          "valor": "locais na Bahia: Dique, Montserrat, praia do Rio Vermelho",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 93",
+          "registro": "iemanja-034"
+        },
+        {
+          "valor": "presente de Iemanjá em Recife e Porto Alegre retomado pela Umbanda; expansão no Rio, Porto Alegre e Santos (anos 1940–50)",
+          "tradicoes": [
+            "umbanda",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Recife, Porto Alegre, Rio de Janeiro, Santos",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 93, nota 37",
+          "registro": "iemanja-035"
         }
       ]
     },
@@ -451,6 +485,46 @@
           "via": null,
           "localizacao": "p. 236",
           "registro": "iemanja-021"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "metal: prata; emblema de lua crescente com estrela",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 237",
+          "registro": "iemanja-027"
+        },
+        {
+          "valor": "otá: seixo marítimo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 90, nota 28",
+          "registro": "iemanja-030"
+        },
+        {
+          "valor": "folha 'olhos de Santa Luzia' pertence a Iemanjá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 191",
+          "registro": "iemanja-032"
         }
       ]
     },
@@ -546,6 +620,35 @@
     },
     {
       "orixa": "ogum",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "23 de abril ou 13 de junho",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 266",
+          "registro": "ogum-020"
+        },
+        {
+          "valor": "no xiré, costuma vir entre os primeiros (divindades jovens e violentas)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 26",
+          "registro": "ogum-025"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
       "atributo": "qualidades",
       "versoes": [
         {
@@ -599,6 +702,17 @@
           "via": null,
           "localizacao": "p. 267",
           "registro": "ogum-023"
+        },
+        {
+          "valor": "espada-de-ogum ligada à guerra pela forma",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 192",
+          "registro": "ogum-027"
         }
       ]
     },
@@ -628,6 +742,35 @@
           "via": null,
           "localizacao": "p. 266",
           "registro": "ogum-019"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "verde",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "oxossi-014"
+        },
+        {
+          "valor": "contas verdes (colar)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 32",
+          "registro": "oxossi-026"
         }
       ]
     },
@@ -747,6 +890,35 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 123, nota 91",
           "registro": "oxossi-011"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "vermelho",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 240",
+          "registro": "xango-024"
+        },
+        {
+          "valor": "contas alternadas brancas e vermelhas (colar)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 32",
+          "registro": "xango-030"
         }
       ]
     },
@@ -964,6 +1136,17 @@
           "via": null,
           "localizacao": "p. 240",
           "registro": "xango-025"
+        },
+        {
+          "valor": "otá: pedra de raio",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 90, nota 28",
+          "registro": "xango-033"
         }
       ]
     },

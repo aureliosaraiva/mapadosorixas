@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 29,
+    "total": 34,
     "por_status": {
-      "fichado": 24,
+      "fichado": 29,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -571,6 +571,101 @@
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "cores",
+      "valor": "contas alternadas brancas e vermelhas (colar)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 32",
+      "parafrase": "O colar de cada fiel tem as cores da sua divindade: para Xangô, contas alternadas brancas e vermelhas.",
+      "nota": "Compare com Chiousse (p. 240): vermelho.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "xango-030"
+    },
+    {
+      "orixa": "xango",
+      "atributo": "iconografia",
+      "valor": "vestido de vermelho e branco na dança",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 30",
+      "parafrase": "Na dança pública, Xangô aparece vestido de vermelho e branco.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "xango-031"
+    },
+    {
+      "orixa": "xango",
+      "atributo": "iconografia",
+      "valor": "traços de orgulho real no transe",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 182",
+      "parafrase": "No transe, o rosto de quem recebe Xangô assume uma expressão de orgulho real.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "xango-032"
+    },
+    {
+      "orixa": "xango",
+      "atributo": "simbolos",
+      "valor": "otá: pedra de raio",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 90, nota 28",
+      "parafrase": "A pedra consagrada de Xangô é uma pedra de raio.",
+      "nota": "Bastide apoia-se em Oneyda Alvarenga.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "xango-033"
+    },
+    {
+      "orixa": "xango",
+      "atributo": "historia_culto",
+      "valor": "'sala do trono de Xangô' nos terreiros",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 90",
+      "parafrase": "Nos terreiros, o quarto de Xangô pode receber o nome de sala do trono.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "xango-034"
     }
   ]
 }

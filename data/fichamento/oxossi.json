@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 25,
+    "total": 26,
     "por_status": {
-      "fichado": 21,
+      "fichado": 22,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -497,6 +497,25 @@
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "cores",
+      "valor": "contas verdes (colar)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 32",
+      "parafrase": "No colar de contas, a cor de Oxóssi é o verde.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "oxossi-026"
     }
   ]
 }

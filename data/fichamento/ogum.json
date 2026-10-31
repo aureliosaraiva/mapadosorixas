@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 23,
+    "total": 28,
     "por_status": {
-      "fichado": 17,
+      "fichado": 22,
       "pre_fichamento": 6,
       "revisado": 0
     }
@@ -458,6 +458,101 @@
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "iconografia",
+      "valor": "guerreiro colérico na dança; rosto contraído em traços duros",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 30, 182",
+      "parafrase": "Na dança e no transe, Ogum aparece como guerreiro tomado de cólera, com o rosto contraído em traços duros.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "ogum-024"
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "festas",
+      "valor": "no xiré, costuma vir entre os primeiros (divindades jovens e violentas)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 26",
+      "parafrase": "Na ordem dos cânticos, muitas vezes se começa pelas divindades mais jovens ou mais impetuosas, como Ogum, indo depois às mais velhas e calmas; cada orixá recebe no mínimo três cânticos.",
+      "nota": "O próprio autor ressalva que a ordem intermediária do xiré varia muito.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "ogum-025"
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "'pedra de Ogum' fora do terreiro (fim do séc. XIX)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "nina-rodrigues-1900-animisme",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, p. 91–92",
+      "parafrase": "Nina Rodrigues descreveu uma grande pedra à beira de uma estrada, perto de Salvador, consagrada a Ogum e cuidada por uma ialorixá, onde se deixavam restos de oferendas; ali foi depositada, por ordem de Ogum manifestado, a arma de um homem que tentara matar a esposa.",
+      "nota": "Nina Rodrigues, Animismo, pp. 47–49. Bastide acrescenta que antigamente se ofereciam ao peji de Ogum as armas usadas em crimes.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "ogum-026"
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "valor": "espada-de-ogum ligada à guerra pela forma",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 192",
+      "parafrase": "A planta espada-de-ogum pertence ao deus da guerra por causa da forma, não por propriedades medicinais; Bastide insiste que o uso religioso das plantas não segue o uso terapêutico.",
+      "nota": "Contraste com Chiousse (p. 267), que cita Bastide (1958, p. 117) atribuindo-lhe virtude diurética — conferir.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "ogum-027"
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "interpretacao_academica",
+      "valor": "divindade 'de luta' (classificação dos perfumes das folhas)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 191",
+      "parafrase": "Na correspondência entre perfumes de folhas e caráter dos orixás, Ogum é a divindade da luta (Oxalá, da purificação; Oxum, da sensualidade).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
+      "id": "ogum-028"
     }
   ]
 }
