@@ -1,0 +1,1391 @@
+{
+  "_meta": {
+    "descricao": "Catálogo-semente de fontes para a Fase 1. Montado a partir de conhecimento prévio, SEM verificação em catálogo. Todo item deve ser conferido (WorldCat/ISBN/DOI/exemplar) antes de sustentar qualquer ficha.",
+    "gerado_em": "2026-10-31",
+    "total": 78
+  },
+  "fontes": [
+    {
+      "id": "nina-rodrigues-1900-animisme",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Raimundo Nina Rodrigues"
+      ],
+      "titulo": "L'animisme fétichiste des nègres de Bahia",
+      "ano": 1900,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Artigos de 1896 na Revista Brasileira; edição pt 'O animismo fetichista dos negros baianos'. Olhar racialista/evolucionista: usar com crítica. Domínio público.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "nina-rodrigues-1932-africanos",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Raimundo Nina Rodrigues"
+      ],
+      "titulo": "Os africanos no Brasil",
+      "ano": 1932,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Póstumo. Viés racialista; valor documental.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "ramos-1934-negro",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Arthur Ramos"
+      ],
+      "titulo": "O negro brasileiro",
+      "ano": 1934,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "carneiro-1936-religioes",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Edison Carneiro"
+      ],
+      "titulo": "Religiões negras",
+      "ano": 1936,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "carneiro-1948-candombles",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Edison Carneiro"
+      ],
+      "titulo": "Candomblés da Bahia",
+      "ano": 1948,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "landes-1947-city",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Ruth Landes"
+      ],
+      "titulo": "The City of Women",
+      "ano": 1947,
+      "idioma": "en",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Ed. pt 'A cidade das mulheres'.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "ribeiro-1952-recife",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "René Ribeiro"
+      ],
+      "titulo": "Cultos afrobrasileiros do Recife: um estudo de ajustamento social",
+      "ano": 1952,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "verger-1957-notes",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Pierre Fatumbi Verger"
+      ],
+      "titulo": "Notes sur le culte des Orisa et Vodun à Bahia, la Baie de tous les Saints, au Brésil et à l'ancienne Côte des Esclaves en Afrique",
+      "ano": 1957,
+      "idioma": "fr",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim",
+        "candomble_ketu",
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Mémoires de l'IFAN n. 51 (Dakar). Ed. pt 'Notas sobre o culto aos orixás e voduns' (Edusp, 1999).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "verger-1981-orixas",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Pierre Fatumbi Verger"
+      ],
+      "titulo": "Orixás: deuses iorubás na África e no Novo Mundo",
+      "ano": 1981,
+      "idioma": "pt",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim",
+        "candomble_ketu",
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Ed. fr 'Orisha: les dieux yorouba en Afrique et au Nouveau Monde' (Métailié, 1982).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "verger-1995-ewe",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Pierre Fatumbi Verger"
+      ],
+      "titulo": "Ewé: o uso das plantas na sociedade iorubá",
+      "ano": 1995,
+      "idioma": "pt",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "bastide-1958-candomble",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Roger Bastide"
+      ],
+      "titulo": "Le candomblé de Bahia (rite nagô)",
+      "ano": 1958,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Ed. pt 'O candomblé da Bahia: rito nagô'.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "bastide-1960-religions",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Roger Bastide"
+      ],
+      "titulo": "Les religions africaines au Brésil",
+      "ano": 1960,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola",
+        "xango_pernambuco",
+        "batuque_rs",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Ed. pt 'As religiões africanas no Brasil' (1971).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "santos-1976-nago",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Juana Elbein dos Santos"
+      ],
+      "titulo": "Os Nàgô e a morte: Pàde, Àsèsè e o culto Égun na Bahia",
+      "ano": 1976,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Tese defendida na França (Sorbonne). Autora próxima ao Axé Opô Afonjá.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "costa-lima-1977-familia",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Vivaldo da Costa Lima"
+      ],
+      "titulo": "A família de santo nos candomblés jejes-nagôs da Bahia: um estudo de relações intragrupais",
+      "ano": 1977,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Dissertação UFBA; publicada em livro (Corrupio, 2003).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "cacciatore-1977-dicionario",
+      "tipo": "livro",
+      "categoria": "enciclopedia",
+      "autores": [
+        "Olga Gudolle Cacciatore"
+      ],
+      "titulo": "Dicionário de cultos afro-brasileiros",
+      "ano": 1977,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "ortiz-r-1978-morte",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Renato Ortiz"
+      ],
+      "titulo": "A morte branca do feiticeiro negro: Umbanda, integração de uma religião numa sociedade de classes",
+      "ano": 1978,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Referência para distinguir Umbanda de Candomblé.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "carybe-1980-iconografia",
+      "tipo": "livro",
+      "categoria": "iconografia",
+      "autores": [
+        "Carybé"
+      ],
+      "titulo": "Iconografia dos deuses africanos no candomblé da Bahia",
+      "ano": 1980,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Iconografia; direitos autorais sobre imagens.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "augras-1983-duplo",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Monique Augras"
+      ],
+      "titulo": "O duplo e a metamorfose: a identidade mítica em comunidades nagô",
+      "ano": 1983,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "dantas-1988-vovo",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Beatriz Góis Dantas"
+      ],
+      "titulo": "Vovó nagô e papai branco: usos e abusos da África no Brasil",
+      "ano": 1988,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "xango_sergipe"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Crítica ao 'nagocentrismo' — essencial para a página de metodologia.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "ferretti-1985-querebenta",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Sérgio Figueiredo Ferretti"
+      ],
+      "titulo": "Querebentã de Zomadônu: etnografia da Casa das Minas",
+      "ano": 1985,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Voduns no Maranhão. Conferir ano da 1ª edição.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "silva-1994-candomble-umbanda",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Vagner Gonçalves da Silva"
+      ],
+      "titulo": "Candomblé e Umbanda: caminhos da devoção brasileira",
+      "ano": 1994,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "prandi-1991-sp",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Os candomblés de São Paulo: a velha magia na metrópole nova",
+      "ano": 1991,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "prandi-2001-mitologia",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Mitologia dos Orixás",
+      "ano": 2001,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria",
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Compilação de ~300 mitos de fontes africanas, cubanas e brasileiras. NUNCA copiar trechos; só parafrasear.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "prandi-2005-segredos",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Segredos guardados: orixás na alma brasileira",
+      "ano": 2005,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "serra-1995-aguas",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Ordep Serra"
+      ],
+      "titulo": "Águas do rei",
+      "ano": 1995,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "segato-1995-santos",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Rita Laura Segato"
+      ],
+      "titulo": "Santos e daimones: o politeísmo afro-brasileiro e a tradição arquetipal",
+      "ano": 1995,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "negrao-1996-cruz",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Lísias Nogueira Negrão"
+      ],
+      "titulo": "Entre a cruz e a encruzilhada: formação do campo umbandista em São Paulo",
+      "ano": 1996,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "correa-1992-batuque",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Norton Figueiredo Corrêa"
+      ],
+      "titulo": "O batuque do Rio Grande do Sul: antropologia de uma religião afro-rio-grandense",
+      "ano": 1992,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "beniste-1997-orun",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "José Beniste"
+      ],
+      "titulo": "Òrun – Àiyé: o encontro de dois mundos",
+      "ano": 1997,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "santos-ms-1993-tempo",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Maria Stella de Azevedo Santos (Mãe Stella de Oxóssi)"
+      ],
+      "titulo": "Meu tempo é agora",
+      "ano": 1993,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Iyalorixá do Ilê Axé Opô Afonjá.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "castro-2001-falares",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Yeda Pessoa de Castro"
+      ],
+      "titulo": "Falares africanos na Bahia: um vocabulário afro-brasileiro",
+      "ano": 2001,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_ketu",
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Etimologia de nomes; crucial para inquices bantos.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "lopes-2004-enciclopedia",
+      "tipo": "livro",
+      "categoria": "enciclopedia",
+      "autores": [
+        "Nei Lopes"
+      ],
+      "titulo": "Enciclopédia brasileira da diáspora africana",
+      "ano": 2004,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "pares-2006-formacao",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Luis Nicolau Parés"
+      ],
+      "titulo": "A formação do candomblé: história e ritual da nação jeje na Bahia",
+      "ano": 2006,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_jeje",
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Ed. en 'The Formation of Candomblé' (UNC Press, 2013).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "silveira-2006-barroquinha",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Renato da Silveira"
+      ],
+      "titulo": "O candomblé da Barroquinha: processo de constituição do primeiro terreiro baiano de keto",
+      "ano": 2006,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "castillo-2008-oralidade",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Lisa Earl Castillo"
+      ],
+      "titulo": "Entre a oralidade e a escrita: a etnografia nos candomblés da Bahia",
+      "ano": 2008,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Metodologia: relação entre escrita etnográfica e tradição oral.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "brown-d-1986-umbanda",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Diana DeGroat Brown"
+      ],
+      "titulo": "Umbanda: Religion and Politics in Urban Brazil",
+      "ano": 1986,
+      "idioma": "en",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "matory-2005-black",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "J. Lorand Matory"
+      ],
+      "titulo": "Black Atlantic Religion: Tradition, Transnationalism, and Matriarchy in the Afro-Brazilian Candomblé",
+      "ano": 2005,
+      "idioma": "en",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "matory-1994-sex",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "J. Lorand Matory"
+      ],
+      "titulo": "Sex and the Empire That Is No More: Gender and the Politics of Metaphor in Oyo Yoruba Religion",
+      "ano": 1994,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Culto de Xangô em Oyó.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "ellis-1894-yoruba",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "A. B. Ellis"
+      ],
+      "titulo": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+      "ano": 1894,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Olhar colonial; domínio público; usar só com crítica.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "frobenius-1912-afrika",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Leo Frobenius"
+      ],
+      "titulo": "Und Afrika sprach",
+      "ano": 1912,
+      "idioma": "de",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Olhar colonial; tem tradução en 'The Voice of Africa' (1913).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "johnson-1921-history",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Samuel Johnson"
+      ],
+      "titulo": "The History of the Yorubas",
+      "ano": 1921,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Historiador iorubá; tradições orais de Oyó (Xangô como alafin).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "idowu-1962-olodumare",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "E. Bolaji Idowu"
+      ],
+      "titulo": "Olódùmarè: God in Yoruba Belief",
+      "ano": 1962,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "bascom-1969-ifa",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "William Bascom"
+      ],
+      "titulo": "Ifa Divination: Communication between Gods and Men in West Africa",
+      "ano": 1969,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Versos de Ifá transcritos e traduzidos.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "bascom-1980-cowries",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "William Bascom"
+      ],
+      "titulo": "Sixteen Cowries: Yoruba Divination from Africa to the New World",
+      "ano": 1980,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "abimbola-1975-sixteen",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Wándé Abímbọ́lá"
+      ],
+      "titulo": "Sixteen Great Poems of Ifá",
+      "ano": 1975,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "UNESCO. Bilíngue iorubá-inglês.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "abimbola-1976-ifa",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Wándé Abímbọ́lá"
+      ],
+      "titulo": "Ifá: An Exposition of Ifá Literary Corpus",
+      "ano": 1976,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "awolalu-1979-beliefs",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "J. Ọmọṣade Awolalu"
+      ],
+      "titulo": "Yoruba Beliefs and Sacrificial Rites",
+      "ano": 1979,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "beier-1980-myths",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Ulli Beier"
+      ],
+      "titulo": "Yoruba Myths",
+      "ano": 1980,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "law-1977-oyo",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Robin Law"
+      ],
+      "titulo": "The Oyo Empire c.1600–c.1836",
+      "ano": 1977,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Contexto histórico de Oyó e de Xangô.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "thompson-1983-flash",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Robert Farris Thompson"
+      ],
+      "titulo": "Flash of the Spirit: African and Afro-American Art and Philosophy",
+      "ano": 1983,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "kongo",
+        "lucumi",
+        "candomble_ketu",
+        "vodou_haiti"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "drewal-1989-nine",
+      "tipo": "livro",
+      "categoria": "iconografia",
+      "autores": [
+        "Henry John Drewal",
+        "John Pemberton III",
+        "Rowland Abiodun"
+      ],
+      "titulo": "Yoruba: Nine Centuries of African Art and Thought",
+      "ano": 1989,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "barnes-1989-ogun",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Sandra T. Barnes (org.)"
+      ],
+      "titulo": "Africa's Ogun: Old World and New",
+      "ano": 1989,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu",
+        "lucumi",
+        "vodou_haiti"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "2ª ed. ampliada 1997. Coletânea dedicada a Ogum.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "peel-2000-encounter",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "J. D. Y. Peel"
+      ],
+      "titulo": "Religious Encounter and the Making of the Yoruba",
+      "ano": 2000,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "murphy-sanford-2001-osun",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Joseph M. Murphy (org.)",
+        "Mei-Mei Sanford (org.)"
+      ],
+      "titulo": "Ọ̀ṣun across the Waters: A Yoruba Goddess in Africa and the Americas",
+      "ano": 2001,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Útil na expansão (Oxum).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "falola-genova-2005-orisa",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Toyin Falola (org.)",
+        "Ann Genova (org.)"
+      ],
+      "titulo": "Orisa: Yoruba Gods and Spiritual Identity in Africa and the Diaspora",
+      "ano": 2005,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi",
+        "candomble_ketu",
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "olupona-rey-2008-orisa",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Jacob K. Olupona (org.)",
+        "Terry Rey (org.)"
+      ],
+      "titulo": "Òrìṣà Devotion as World Religion: The Globalization of Yorùbá Religious Culture",
+      "ano": 2008,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi",
+        "candomble_ketu",
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "abiodun-2014-art",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Rowland Abiodun"
+      ],
+      "titulo": "Yoruba Art and Language: Seeking the African in African Art",
+      "ano": 2014,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "herskovits-1938-dahomey",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Melville J. Herskovits"
+      ],
+      "titulo": "Dahomey: An Ancient West African Kingdom",
+      "ano": 1938,
+      "idioma": "en",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Base para voduns (equivalências jeje).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "blier-1995-vodun",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Suzanne Preston Blier"
+      ],
+      "titulo": "African Vodun: Art, Psychology, and Power",
+      "ano": 1995,
+      "idioma": "en",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "macgaffey-1986-religion",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Wyatt MacGaffey"
+      ],
+      "titulo": "Religion and Society in Central Africa: The BaKongo of Lower Zaire",
+      "ano": 1986,
+      "idioma": "en",
+      "tradicoes": [
+        "kongo"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Contexto banto (minkisi → inquices).",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "ortiz-f-1906-brujos",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Fernando Ortiz"
+      ],
+      "titulo": "Los negros brujos",
+      "ano": 1906,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Olhar criminológico/positivista; valor histórico.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "lachatanere-1938-yemaya",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Rómulo Lachatañeré"
+      ],
+      "titulo": "¡¡Oh, mío Yemayá!!",
+      "ano": 1938,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Patakís cubanos.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "lachatanere-1942-manual",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Rómulo Lachatañeré"
+      ],
+      "titulo": "Manual de Santería",
+      "ano": 1942,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "cabrera-1954-monte",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Lydia Cabrera"
+      ],
+      "titulo": "El Monte",
+      "ano": 1954,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi",
+        "palo_monte",
+        "arara"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Obra fundamental da Santería e do Palo.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "cabrera-1957-anago",
+      "tipo": "livro",
+      "categoria": "enciclopedia",
+      "autores": [
+        "Lydia Cabrera"
+      ],
+      "titulo": "Anagó: vocabulario lucumí (el yoruba que se habla en Cuba)",
+      "ano": 1957,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "cabrera-1974-yemaya",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Lydia Cabrera"
+      ],
+      "titulo": "Yemayá y Ochún",
+      "ano": 1974,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "murphy-1988-santeria",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Joseph M. Murphy"
+      ],
+      "titulo": "Santería: An African Religion in America",
+      "ano": 1988,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "bolivar-1990-orishas",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Natalia Bolívar Aróstegui"
+      ],
+      "titulo": "Los orishas en Cuba",
+      "ano": 1990,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "brown-dh-2003-santeria",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "David H. Brown"
+      ],
+      "titulo": "Santería Enthroned: Art, Ritual, and Innovation in an Afro-Cuban Religion",
+      "ano": 2003,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "palmie-2013-cooking",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Stephan Palmié"
+      ],
+      "titulo": "The Cooking of History: How Not to Study Afro-Cuban Religion",
+      "ano": 2013,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Metodologia e crítica historiográfica.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "deren-1953-horsemen",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Maya Deren"
+      ],
+      "titulo": "Divine Horsemen: The Living Gods of Haiti",
+      "ano": 1953,
+      "idioma": "en",
+      "tradicoes": [
+        "vodou_haiti"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "metraux-1958-vaudou",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Alfred Métraux"
+      ],
+      "titulo": "Le vaudou haïtien",
+      "ano": 1958,
+      "idioma": "fr",
+      "tradicoes": [
+        "vodou_haiti"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "houk-1995-spirits",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "James T. Houk"
+      ],
+      "titulo": "Spirits, Blood, and Drums: The Orisha Religion in Trinidad",
+      "ano": 1995,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "henry-2003-reclaiming",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Frances Henry"
+      ],
+      "titulo": "Reclaiming African Religions in Trinidad",
+      "ano": 2003,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "museu-afro-digital-ufba",
+      "tipo": "site",
+      "categoria": "acervo",
+      "autores": [
+        "Museu Afro Digital da Bahia (UFBA)"
+      ],
+      "titulo": "Orixás",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "https://museuafrodigitalufba.org/orixas-2/ — mais imagem/acervo que texto.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "unesco-ifa",
+      "tipo": "site",
+      "categoria": "patrimonio",
+      "autores": [
+        "UNESCO"
+      ],
+      "titulo": "Ifa divination system (Patrimônio Cultural Imaterial)",
+      "ano": 2008,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Proclamado Obra-Prima em 2005; inscrito na Lista Representativa em 2008. Conferir datas.",
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "unesco-osun-osogbo",
+      "tipo": "site",
+      "categoria": "patrimonio",
+      "autores": [
+        "UNESCO"
+      ],
+      "titulo": "Osun-Osogbo Sacred Grove (Patrimônio Mundial)",
+      "ano": 2005,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "a_verificar"
+    },
+    {
+      "id": "iphan-terreiros",
+      "tipo": "site",
+      "categoria": "patrimonio",
+      "autores": [
+        "IPHAN"
+      ],
+      "titulo": "Processos de tombamento de terreiros (Casa Branca, Gantois, Opô Afonjá, Alaketu, Bate Folha, Casa das Minas etc.)",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola",
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Levantar cada processo com número e ano.",
+      "status_verificacao": "a_verificar"
+    }
+  ]
+}
