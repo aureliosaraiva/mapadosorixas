@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "orixa": "ogum",
+    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
+    "total": 6
+  },
+  "registros": [
+    {
+      "id": "ogum-001",
+      "orixa": "ogum",
+      "atributo": "equivalencias",
+      "valor": "Ogou (lwa do Vodou haitiano) e Gu (vodum fon)",
+      "tradicoes": [
+        "vodou_haiti",
+        "vodun_benim",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "brown-k-1989-ogou",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Brown liga o Ogou haitiano tanto ao Gu dos povos do antigo Daomé quanto ao Ogum iorubá.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://muse.jhu.edu/books/9780253113818/9780253113818-11.pdf"
+      ]
+    },
+    {
+      "id": "ogum-002",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "no Haiti, perfil político-militar e mediação de forças opostas",
+      "tradicoes": [
+        "vodou_haiti"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "brown-k-1989-ogou",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Para Brown, a centralidade de Ogou no Vodou urbano reflete séculos de turbulência política e militar no Haiti, e ele atua como mediador entre forças opostas da vida haitiana.",
+      "nota": "Diferença regional relevante para a seção de divergências.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://muse.jhu.edu/books/9780253113818/9780253113818-11.pdf"
+      ]
+    },
+    {
+      "id": "ogum-003",
+      "orixa": "ogum",
+      "atributo": "sincretismo",
+      "valor": "São Jorge",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Paulo",
+      "source_id": "ribas-2010-sarava-ogum",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "A dissertação estuda a procissão umbandista de São Jorge/Ogum em São Paulo, usada também como afirmação da liberdade religiosa.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://oasisbr.ibict.br/vufind/Record/PUC_SP-1_0dda0b0e32991126c7627dbd91cc69ae"
+      ]
+    },
+    {
+      "id": "ogum-004",
+      "orixa": "ogum",
+      "atributo": "sincretismo",
+      "valor": "São Jorge",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "João Pessoa (PB)",
+      "source_id": "ufpb-2011-sao-jorge",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Trabalho sobre a figura de São Jorge, associada a Ogum, nos terreiros afro-brasileiros de João Pessoa.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://repositorio.ufpb.br/jspui/handle/tede/6454"
+      ]
+    },
+    {
+      "id": "ogum-005",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "ìjálá — poesia dos caçadores",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "beier-1970-poetry",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "A antologia de Beier apresenta o ìjálá como o gênero poético dos caçadores iorubás.",
+      "nota": "A ligação do ìjálá com o louvor a Ogum aparece em outras fontes — confirmar em Beier e em Barber (1991).",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://jacket2.org/commentary/twenty-six-items-special-collections-v"
+      ]
+    },
+    {
+      "id": "ogum-006",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "culto de Ogum nas Américas",
+      "tradicoes": [
+        "candomble_ketu",
+        "lucumi",
+        "vodou_haiti"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "barnes-1989-ogun",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "A 2ª edição da coletânea de Barnes (1997) acrescentou ensaios dedicados sobretudo ao culto de Ogum no Novo Mundo.",
+      "nota": "Fonte central para equivalências Ogum/Ogún/Ogou; ler sumário e capítulos.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://search.alexanderstreet.com/view/work/bibliographic_entity%7Cdocument%7C3935790"
+      ]
+    }
+  ]
+}

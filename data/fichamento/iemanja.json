@@ -1,0 +1,203 @@
+{
+  "_meta": {
+    "orixa": "iemanja",
+    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
+    "total": 10
+  },
+  "registros": [
+    {
+      "id": "iemanja-001",
+      "orixa": "iemanja",
+      "atributo": "origem",
+      "valor": "culto egbá, primeiro entre Ifé e Ibadan, depois no rio Ògùn (Abeokuta)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1954-dieux",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Verger situa o culto de Iemanjá entre os egbás, inicialmente numa região entre Ifé e Ibadan onde há um rio com seu nome; com a migração forçada pelas guerras do início do séc. XIX para Abeokuta, o rio Ògùn passou a ser sua morada.",
+      "nota": "Visto só em reproduções de 2ª mão; ler em Verger (Dieux d'Afrique e/ou Orixás) e fixar página.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://orixasdeluz.blogspot.com/2009/04/iemanja.html"
+      ]
+    },
+    {
+      "id": "iemanja-002",
+      "orixa": "iemanja",
+      "atributo": "nomes",
+      "valor": "rio Ògùn ≠ orixá Ògún",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1954-dieux",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Verger adverte que o rio Ògùn, ligado a Iemanjá, não deve ser confundido com Ògún, o orixá do ferro.",
+      "nota": "Confirmar na fonte.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://orixasdeluz.blogspot.com/2009/04/iemanja.html"
+      ]
+    },
+    {
+      "id": "iemanja-003",
+      "orixa": "iemanja",
+      "atributo": "qualidades",
+      "valor": "várias Iemanjás na Bahia (sete ou oito, segundo Verger)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1981-orixas",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Verger contou sete, talvez oito, formas de Iemanjá na Bahia; Bastide concordava que eram várias, sem fixar o número.",
+      "nota": "Lido via verbete acadêmico; confirmar em Verger e em Bastide (1958/1961).",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://core.ac.uk/download/213811235.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-004",
+      "orixa": "iemanja",
+      "atributo": "elementos",
+      "valor": "águas doces e salgadas",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1981-orixas",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Em leitura de Verger reproduzida por artigo da PUC-SP, Iemanjá seria originalmente divindade tanto das águas doces quanto das salgadas.",
+      "nota": "DIVERGÊNCIA com a versão rio (Nigéria) × mar (Brasil): conferir o que Verger diz exatamente.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/ultimoandar/article/download/37240/25387/103327"
+      ]
+    },
+    {
+      "id": "iemanja-005",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "chegada ao Brasil com ebás, depois oyós e ijexás",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "nina-rodrigues-1932-africanos",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Nina Rodrigues registrou que o culto chegou à Bahia primeiro com os ebás e, mais tarde, com oyós e ijexás, até meados do séc. XIX.",
+      "nota": "Citado por artigo da UFMG como Rodrigues (1933/1977); conferir edição e página.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ]
+    },
+    {
+      "id": "iemanja-006",
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "valor": "Virgem de Regla (Cuba)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba",
+      "source_id": "perez-2013-nobodys-mammy",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Pérez relaciona Yemayá à Virgem de Regla e argumenta que as concepções cubanas do orixá se formaram no séc. XIX, em meio a discursos sobre raça, maternidade, concubinato e escravidão.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://www.religion.ucsb.edu/wp-content/uploads/Perez-Nobodys-Mammy.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-007",
+      "orixa": "iemanja",
+      "atributo": "parentesco",
+      "valor": "mãe de Changó na mitologia lucumí",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "perez-2013-nobodys-mammy",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Na mitologia cubana, Yemayá tem papel destacado nas histórias de seu filho Changó.",
+      "nota": "Comparar com versões brasileiras de parentesco.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://www.religion.ucsb.edu/wp-content/uploads/Perez-Nobodys-Mammy.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-008",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "2 de fevereiro no Rio Vermelho (Salvador), organizada por pescadores",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Salvador (BA)",
+      "source_id": "blass-2007-iemanja",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Blass analisa os rituais da festa de 2 de fevereiro no Rio Vermelho e o sentido que ela tem para a colônia de pescadores que a organiza.",
+      "nota": "Origem da festa: 1923 ou c. 1910 conforme a fonte (não acadêmicas) — buscar fonte A/B.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
+      ]
+    },
+    {
+      "id": "iemanja-009",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "Festival de Iemanjá em Belém",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Belém (PA)",
+      "source_id": "cardoso-filho-2015-iemanja",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Tese acompanha o Festival de Iemanjá em Belém entre 1995 e 2013, em suas dimensões sociais, políticas e religiosas.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://ppgsa.propesp.ufpa.br/ARQUIVOS/teses/TESE - JOÃO SIMÕES CARDOSO FILHO 2015.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-010",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "presente de Iemanjá no Mercadão de Madureira",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Rio de Janeiro (RJ)",
+      "source_id": "teixeira-2021-iemanja",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Tese etnográfica sobre a devoção e a festa do presente de Iemanjá organizada a partir do Mercadão de Madureira.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://www.maxwell.vrac.puc-rio.br/55769/55769.PDF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/fichamento.schema.json",
+  "title": "Registro de fichamento (afirmação atômica sobre um orixá)",
+  "type": "object",
+  "required": ["id", "orixa", "atributo", "valor", "tradicoes", "source_id", "localizacao", "parafrase", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z]+-[0-9]{3}$" },
+    "orixa": { "enum": ["exu", "ogum", "oxossi", "xango", "iemanja"] },
+    "atributo": {
+      "enum": ["nomes", "origem", "dominios", "funcoes", "elementos", "cores", "dia_semana", "saudacao", "simbolos", "alimentos", "animais", "qualidades", "parentesco", "equivalencias", "sincretismo", "itans", "tabus", "festas", "historia_culto", "iconografia", "interpretacao_academica"]
+    },
+    "valor": { "type": "string", "minLength": 1 },
+    "tradicoes": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "casa_ou_regiao": { "type": ["string", "null"] },
+    "source_id": { "type": "string" },
+    "via_source_id": { "type": ["string", "null"], "description": "Quando a afirmação foi lida numa fonte secundária que cita a primária (ex.: Prandi citando Baudin)." },
+    "localizacao": { "type": "string", "description": "Página/capítulo. 'a conferir' enquanto não lido na fonte." },
+    "parafrase": { "type": "string", "minLength": 1 },
+    "nota": { "type": ["string", "null"] },
+    "status": { "enum": ["pre_fichamento", "fichado", "revisado"] },
+    "evidencias": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-10-31",
-    "total": 151
+    "total": 155
   },
   "fontes": [
     {
@@ -458,6 +458,28 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "baudin-1884-fetichisme",
+      "evidencias": [],
+      "url": null,
+      "identificadores": {},
+      "observacoes": "Texto missionário católico citado por Prandi (2001) como exemplo da demonização de Exu. Olhar colonial; usar só como documento do olhar europeu.",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Noël Baudin"
+      ],
+      "titulo": "Fétichisme et féticheurs",
+      "ano": 1884,
+      "idioma": "fr",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "status_verificacao": "a_verificar",
+      "local": "Lyon",
+      "editora": "Missions Africaines"
     },
     {
       "id": "beier-1970-poetry",
@@ -1097,6 +1119,29 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "costa-2007-xango-pe",
+      "evidencias": [
+        "https://www.redalyc.org/pdf/770/77011144006.pdf"
+      ],
+      "url": null,
+      "identificadores": {},
+      "observacoes": "Explica que em Pernambuco 'xangô' designa tanto a religião quanto o orixá do trovão.",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Valéria Gomes Costa"
+      ],
+      "titulo": "(título a conferir) — terreiro de xangô em Pernambuco",
+      "ano": 2007,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "status_verificacao": "pista",
+      "periodico": "Afro-Ásia"
     },
     {
       "id": "costa-lima-1977-familia",
@@ -1949,6 +1994,29 @@
       "url": "https://scielo.org.mx/pdf/crca/v31n89/2448-8488-crca-31-89-133.pdf",
       "identificadores": {},
       "periodico": "Cuicuilco. Revista de Ciencias Antropológicas"
+    },
+    {
+      "id": "mosaico-2020-oxossi",
+      "evidencias": [
+        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
+      ],
+      "url": null,
+      "identificadores": {},
+      "observacoes": "v. 13, p. 57–63. Leitura junguiana do mito do caçador de uma flecha só; cita Verger (1997).",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "Oxóssi: o herói de uma flecha só",
+      "ano": 2020,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "status_verificacao": "pista",
+      "periodico": "Revista Mosaico (PUC Goiás)"
     },
     {
       "id": "murphy-1988-santeria",
@@ -3337,6 +3405,30 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "verger-1954-dieux",
+      "evidencias": [],
+      "url": null,
+      "identificadores": {},
+      "observacoes": "Livro de fotografias com textos. Ano da 1ª ed. a conferir (algumas citações dão 1964). Muito citado (às vezes de 2ª mão) sobre a origem egbá do culto de Iemanjá.",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Pierre Fatumbi Verger"
+      ],
+      "titulo": "Dieux d'Afrique: culte des Orishas et Vodouns à l'ancienne Côte des Esclaves en Afrique et à Bahia, la Baie de Tous les Saints au Brésil",
+      "ano": 1954,
+      "idioma": "fr",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "status_verificacao": "a_verificar",
+      "editora": "Paul Hartmann",
+      "local": "Paris"
     },
     {
       "id": "verger-1957-notes",

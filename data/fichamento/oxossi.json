@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "orixa": "oxossi",
+    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
+    "total": 4
+  },
+  "registros": [
+    {
+      "id": "oxossi-001",
+      "orixa": "oxossi",
+      "atributo": "dominios",
+      "valor": "caça, florestas e fartura",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-silvaneto-2025-oxossi",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Segundo a apresentação do livro, entre os iorubás Oxóssi está ligado à caça, à mata e à abundância.",
+      "nota": "Lido na divulgação da editora; confirmar no texto.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://www.publishnews.com.br/materias/2025/12/02/colecao-orixas-e-ampliada-com-livros-dedicados-a-ossaim-e-oxossi"
+      ]
+    },
+    {
+      "id": "oxossi-002",
+      "orixa": "oxossi",
+      "atributo": "origem",
+      "valor": "Ketu, com discussão sobre Ilê-Ifé e Oyó",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-silvaneto-2025-oxossi",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "O livro reconstrói a trajetória do caçador desde a África Ocidental, discutindo suas relações com Ketu, Ifé e Oyó, até sua centralidade nos terreiros brasileiros.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://www.publishnews.com.br/materias/2025/12/02/colecao-orixas-e-ampliada-com-livros-dedicados-a-ossaim-e-oxossi"
+      ]
+    },
+    {
+      "id": "oxossi-003",
+      "orixa": "oxossi",
+      "atributo": "itans",
+      "valor": "o caçador de uma flecha só",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "mosaico-2020-oxossi",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Artigo analisa o mito em que Oxóssi, com uma única flecha, abate uma ave ameaçadora, como narrativa de herói recontada nas casas de candomblé.",
+      "nota": "Resumo de itã: redigir versão própria a partir de várias fontes (Verger, Prandi) antes de publicar.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
+      ]
+    },
+    {
+      "id": "oxossi-004",
+      "orixa": "oxossi",
+      "atributo": "historia_culto",
+      "valor": "culto praticamente desaparecido em Ketu (África) — afirmação atribuída a Verger e contestada",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1981-orixas",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Atribui-se a Verger a observação de que o culto a Oxóssi quase desapareceu na própria Ketu africana; outras fontes contestam essa afirmação.",
+      "nota": "DIVERGÊNCIA a documentar: localizar a passagem exata em Verger e as fontes da contestação (só vistas em blog/Wikipédia).",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://pt.wikipedia.org/wiki/Ox%C3%B3ssi"
+      ]
+    }
+  ]
+}

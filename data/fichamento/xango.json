@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "orixa": "xango",
+    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
+    "total": 5
+  },
+  "registros": [
+    {
+      "id": "xango-001",
+      "orixa": "xango",
+      "atributo": "origem",
+      "valor": "rei de Oyó deificado (tradição oral de Oyó)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "tishken-2009-sango",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Na tradição oral de Oyó, Xangô é lembrado como um dos primeiros alafins (reis) da cidade, divinizado depois.",
+      "nota": "DIVERGÊNCIA: fontes dizem 3º ou 4º alafin — registrar ambas com fonte.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://iupress.org/9780253220943/sango-in-africa-and-the-african-diaspora"
+      ]
+    },
+    {
+      "id": "xango-002",
+      "orixa": "xango",
+      "atributo": "historia_culto",
+      "valor": "visto como estrangeiro no leste iorubá até o fim do séc. XIX",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "tishken-2009-sango",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Uma resenha da coletânea critica sua visão pan-iorubá, lembrando que em boa parte do leste iorubá Xangô foi considerado divindade alheia e intrusiva até o final do século XIX.",
+      "nota": "Lido via resenha em Africa (Cambridge); identificar autor da resenha. DIVERGÊNCIA regional dentro do território iorubá.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://iupress.org/9780253220943/sango-in-africa-and-the-african-diaspora"
+      ]
+    },
+    {
+      "id": "xango-003",
+      "orixa": "xango",
+      "atributo": "historia_culto",
+      "valor": "disputa com outras divindades do trovão (Ara)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "tishken-2009-sango",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "A coletânea inclui estudo sobre divindades do trovão e soberania que contrapõe Ara a Xangô, indicando que Xangô não foi a única figura do trovão no mundo iorubá.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://iupress.org/9780253220943/sango-in-africa-and-the-african-diaspora"
+      ]
+    },
+    {
+      "id": "xango-004",
+      "orixa": "xango",
+      "atributo": "nomes",
+      "valor": "'xangô' como nome da religião em Pernambuco",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "costa-2007-xango-pe",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Em Pernambuco, a palavra xangô designa tanto a religião de culto aos orixás quanto o orixá do trovão.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://www.redalyc.org/pdf/770/77011144006.pdf"
+      ]
+    },
+    {
+      "id": "xango-005",
+      "orixa": "xango",
+      "atributo": "interpretacao_academica",
+      "valor": "orixá visto como o mais tipicamente africano na Bahia",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "carneiro-1948-candombles",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Edison Carneiro considerava Xangô o orixá de feição mais claramente africana entre os cultuados na Bahia.",
+      "nota": "Visto indiretamente (citado em coletânea da UNEB sobre a tese de Gildeci Leite); confirmar obra e página de Carneiro.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://agenciadecomunicacao.uneb.br/wp-content/uploads/2018/09/Leituras-de-Letras-de-Cultura.pdf"
+      ]
+    }
+  ]
+}

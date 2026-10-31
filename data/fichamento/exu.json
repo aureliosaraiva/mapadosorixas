@@ -1,0 +1,204 @@
+{
+  "_meta": {
+    "orixa": "exu",
+    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
+    "total": 10
+  },
+  "registros": [
+    {
+      "id": "exu-001",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "mensageiro, transportador, transformador, repositor e doador",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Prandi organiza as atribuições de Exu em cinco papéis: leva mensagens, transporta oferendas, transforma, repõe e doa.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/view/35275"
+      ]
+    },
+    {
+      "id": "exu-002",
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "valor": "Legba / Elegbara (vodum fon)",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Entre os fons, a divindade correspondente é cultuada como o vodum Legba ou Elegbara, associado ao poder de transformação e ao princípio do movimento.",
+      "nota": "Equivalência não é identidade; registrar também a perspectiva jeje brasileira.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/view/35275"
+      ]
+    },
+    {
+      "id": "exu-003",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "demonização por observadores europeus (Priapo + diabo)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Os primeiros europeus que viram o culto de Exu na África Ocidental o leram por duas chaves: como um deus fálico à maneira de Priapo e como o diabo cristão.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/view/35275"
+      ]
+    },
+    {
+      "id": "exu-004",
+      "orixa": "exu",
+      "atributo": "iconografia",
+      "valor": "estatuetas com grande falo, banhadas em dendê e sangue (descrição missionária do séc. XIX)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "baudin-1884-fetichisme",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "a conferir",
+      "parafrase": "Um missionário católico do séc. XIX descreveu representações de Exu como imagens humanas com falo proeminente, untadas de azeite de dendê e sangue de ave, em tom de repulsa.",
+      "nota": "Documento do olhar colonial, não descrição neutra do culto.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/view/35275"
+      ]
+    },
+    {
+      "id": "exu-005",
+      "orixa": "exu",
+      "atributo": "iconografia",
+      "valor": "estatuetas de ferro com chifres e rabo; dimensão fálica dissimulada no Brasil",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "No Brasil a dimensão sexual de Exu foi reprimida e disfarçada; na iconografia afro-brasileira aparecem figuras masculinas de ferro com chifres e cauda, à moda do diabo.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/view/35275"
+      ]
+    },
+    {
+      "id": "exu-006",
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "Diabo cristão",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Pelo sincretismo, enquanto Oxalá foi aproximado de Jesus, Exu foi empurrado para o lugar do Diabo no imaginário cristão.",
+      "nota": "Lido via resenha na revista Plura (2024); confirmar no original.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistaplura.emnuvens.com.br/plura/article/download/2273/1799/8954"
+      ]
+    },
+    {
+      "id": "exu-007",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "esforço de recuperação dos atributos africanos de Exu",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Prandi aponta que Verger, Bastide e Juana Elbein dos Santos procuraram resgatar características africanas de Exu que no Brasil ficaram encobertas.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/view/35275"
+      ]
+    },
+    {
+      "id": "exu-008",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "mensageiro ordenador × trickster",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "silva-2012-exu-brasil",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Silva descreve a figura de Exu na África Ocidental como dividida entre um mediador que mantém a ordem e um trickster que provoca o caos, o que gerou várias faces no Brasil.",
+      "nota": null,
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
+      ]
+    },
+    {
+      "id": "exu-009",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "leitura de Exu como trickster pelos etnólogos europeus",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Bastide observa que os primeiros etnólogos europeus enquadraram Exu como trickster por causa de sua malícia e de seu gosto pela zombaria.",
+      "nota": "Visto indiretamente (citado como Bastide 1961, ed. pt); confirmar página.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://revistas.ufpr.br/relegens/article/view/42260"
+      ]
+    },
+    {
+      "id": "exu-010",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "de orixá a egum: ressignificação de Exu na Umbanda",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "ufg-2017-exu-umbanda",
+      "via_source_id": null,
+      "localizacao": "a conferir",
+      "parafrase": "Tese mostra como o discurso umbandista transformou Exu de orixá em espírito de mortos (egum), distinto do orixá cultuado no Candomblé.",
+      "nota": "Base para a distinção obrigatória Candomblé × Umbanda na ficha.",
+      "status": "pre_fichamento",
+      "evidencias": [
+        "https://bdtd.ibict.br/vufind/Record/UFG-2_e1053cd960e7d9b7708f9988dcbb0a4f"
+      ]
+    }
+  ]
+}
