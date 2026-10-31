@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-10-31",
-    "total": 164
+    "total": 168
   },
   "fontes": [
     {
@@ -638,7 +638,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Revista Nures n. 5 (PUC-SP). Festa do Rio Vermelho (Salvador) e a colônia de pescadores. Origem da festa datada de 1923 ou c. 1910 conforme a fonte.",
+      "observacoes": "Revista Nures n. 5, jan./abr. 2007 (sem paginação impressa; usar página do PDF). Campo: festa de fevereiro de 2000 no Rio Vermelho. Lido em 2026-10-31.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
@@ -2171,11 +2171,11 @@
       ],
       "url": null,
       "identificadores": {},
-      "observacoes": "v. 13, p. 57–63. Leitura junguiana do mito do caçador de uma flecha só; cita Verger (1997).",
+      "observacoes": "Revista Mosaico (PUC Goiás), v. 13, pp. 57–63, 2020. Leitura junguiana; reproduz o mito do caçador de uma flecha só segundo Verger (Lendas africanas dos orixás, 4ª ed., 1997).",
       "tipo": "artigo",
       "categoria": "academica",
       "autores": [
-        "(autor a identificar)"
+        "João Marcos Souza"
       ],
       "titulo": "Oxóssi: o herói de uma flecha só",
       "ano": 2020,
@@ -2184,7 +2184,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "status_verificacao": "pista",
+      "status_verificacao": "conferido_web",
       "periodico": "Revista Mosaico (PUC Goiás)"
     },
     {
@@ -2844,6 +2844,32 @@
       "identificadores": {}
     },
     {
+      "id": "queiroga-nascimento-2019-iemanja",
+      "url": null,
+      "identificadores": {},
+      "observacoes": "Memorandum 36, 2019. Sem paginação impressa (usar página do PDF). Traz lista de nomes, qualidades e sincretismos de Iemanjá recolhida no cancioneiro.",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Luanda do Carmo Queiroga",
+        "Adriano Roberto Afonso do Nascimento"
+      ],
+      "titulo": "Senhora das águas e da canção: representação social de Iemanjá na música popular brasileira",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda",
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "status_verificacao": "conferido_web",
+      "periodico": "Memorandum (UFMG)",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ]
+    },
+    {
       "id": "ramos-1934-negro",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -3039,6 +3065,32 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "seixas-2018-maria-iemanja",
+      "url": null,
+      "identificadores": {
+        "doi": "10.23925/1980-8305.2018v1i1p112-125"
+      },
+      "observacoes": "n. 31, 2018, pp. 112–125. Leitura junguiana do sincretismo; cita Verger (Notas, Edusp 2000).",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Leda Maria Perillo Seixas"
+      ],
+      "titulo": "Maria e Iemanjá: duas faces – um arquétipo",
+      "ano": 2018,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "status_verificacao": "conferido_web",
+      "periodico": "Revista Último Andar (PUC-SP)",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/ultimoandar/article/download/37240/25387/103327"
+      ]
     },
     {
       "id": "serra-1995-aguas",
@@ -3625,6 +3677,31 @@
       "identificadores": {}
     },
     {
+      "id": "vallado-2008-iemanja",
+      "url": null,
+      "identificadores": {},
+      "observacoes": "Citado como Vallado (2008) por Queiroga & Nascimento (2019) — confirma a existência do volume de Iemanjá na Coleção Orixás (Pallas); título exato a conferir.",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Armando Vallado"
+      ],
+      "titulo": "Iemanjá, a grande mãe africana do Brasil",
+      "ano": 2008,
+      "idioma": "pt",
+      "editora": "Pallas",
+      "local": "Rio de Janeiro",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ]
+    },
+    {
       "id": "verger-1954-dieux",
       "evidencias": [],
       "url": null,
@@ -3699,6 +3776,31 @@
       "identificadores": {},
       "editora": "Corrupio",
       "local": "Salvador"
+    },
+    {
+      "id": "verger-1985-lendas",
+      "url": null,
+      "identificadores": {},
+      "observacoes": "Ilustrações de Carybé. Ano da 1ª ed. a conferir; Souza (2020) usa a 4ª ed. (1997).",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Pierre Fatumbi Verger"
+      ],
+      "titulo": "Lendas africanas dos orixás",
+      "ano": 1985,
+      "idioma": "pt",
+      "editora": "Corrupio",
+      "local": "Salvador",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
+      ]
     },
     {
       "id": "verger-1995-ewe",

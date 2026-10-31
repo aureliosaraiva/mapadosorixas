@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 30
+    "total": 31
   },
   "divergencias": [
     {
@@ -329,7 +329,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 120, 124",
-          "registro": "iemanja-013"
+          "registro": "iemanja-009"
         },
         {
           "valor": "sábado (com Oxum)",
@@ -340,7 +340,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 128",
-          "registro": "iemanja-014"
+          "registro": "iemanja-010"
         },
         {
           "valor": "sexta-feira (com Odé, 'o filho que ela traz ao colo')",
@@ -351,7 +351,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 119, nota 79",
-          "registro": "iemanja-015"
+          "registro": "iemanja-011"
         },
         {
           "valor": "sábado",
@@ -363,7 +363,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 237",
-          "registro": "iemanja-024"
+          "registro": "iemanja-020"
         }
       ]
     },
@@ -380,7 +380,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 124",
-          "registro": "iemanja-016"
+          "registro": "iemanja-012"
         },
         {
           "valor": "águas do mar",
@@ -392,7 +392,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 226",
-          "registro": "iemanja-020"
+          "registro": "iemanja-016"
         }
       ]
     },
@@ -409,7 +409,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 124",
-          "registro": "iemanja-017"
+          "registro": "iemanja-013"
         },
         {
           "valor": "datas variam por região (31 de dezembro, 8 de fevereiro); presentes levados ao mar",
@@ -421,7 +421,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 237",
-          "registro": "iemanja-025"
+          "registro": "iemanja-021"
         },
         {
           "valor": "presentes (sabões, perfumes, flores, espelhos, pentes) lançados da margem ou de barco; 'presente de Iemanjá' (2 de fevereiro)",
@@ -432,7 +432,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 92–93",
-          "registro": "iemanja-033"
+          "registro": "iemanja-029"
         },
         {
           "valor": "locais na Bahia: Dique, Montserrat, praia do Rio Vermelho",
@@ -443,7 +443,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 93",
-          "registro": "iemanja-034"
+          "registro": "iemanja-030"
         },
         {
           "valor": "presente de Iemanjá em Recife e Porto Alegre retomado pela Umbanda; expansão no Rio, Porto Alegre e Santos (anos 1940–50)",
@@ -455,7 +455,29 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 93, nota 37",
-          "registro": "iemanja-035"
+          "registro": "iemanja-031"
+        },
+        {
+          "valor": "2 de fevereiro no Rio Vermelho: começa à meia-noite no Dique do Tororó (oferenda a Oxum); alvorada às 5h; presentes até as 16h",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador — praia do Rio Vermelho",
+          "fonte": "blass-2007-iemanja",
+          "via": null,
+          "localizacao": "PDF p. 6",
+          "registro": "iemanja-033"
+        },
+        {
+          "valor": "presentes em balaios levados por cortejo de barcos; casa de Iemanjá ao lado da Igreja de Sant'Ana",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador — praia do Rio Vermelho",
+          "fonte": "blass-2007-iemanja",
+          "via": null,
+          "localizacao": "PDF pp. 4, 7",
+          "registro": "iemanja-034"
         }
       ]
     },
@@ -472,7 +494,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 125",
-          "registro": "iemanja-018"
+          "registro": "iemanja-014"
         },
         {
           "valor": "esposa de Oxalá; mãe de Xangô; às vezes mãe de todos os orixás (exceto Exu)",
@@ -484,7 +506,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 236",
-          "registro": "iemanja-021"
+          "registro": "iemanja-017"
         }
       ]
     },
@@ -502,7 +524,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 237",
-          "registro": "iemanja-027"
+          "registro": "iemanja-023"
         },
         {
           "valor": "otá: seixo marítimo",
@@ -513,7 +535,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 90, nota 28",
-          "registro": "iemanja-030"
+          "registro": "iemanja-026"
         },
         {
           "valor": "folha 'olhos de Santa Luzia' pertence a Iemanjá",
@@ -524,7 +546,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 191",
-          "registro": "iemanja-032"
+          "registro": "iemanja-028"
         }
       ]
     },
@@ -552,7 +574,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 105, nota",
-          "registro": "iemanja-019"
+          "registro": "iemanja-015"
         },
         {
           "valor": "Virgem Maria (Virgem com o Menino)",
@@ -564,7 +586,19 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 236",
-          "registro": "iemanja-022"
+          "registro": "iemanja-018"
+        },
+        {
+          "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "queiroga-nascimento-2019-iemanja",
+          "via": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "registro": "iemanja-047"
         }
       ]
     },
@@ -759,7 +793,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 259",
-          "registro": "oxossi-014"
+          "registro": "oxossi-013"
         },
         {
           "valor": "contas verdes (colar)",
@@ -770,7 +804,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 32",
-          "registro": "oxossi-026"
+          "registro": "oxossi-025"
         }
       ]
     },
@@ -787,7 +821,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 120",
-          "registro": "oxossi-006"
+          "registro": "oxossi-005"
         },
         {
           "valor": "quinta-feira (só Oxóssi)",
@@ -798,7 +832,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 128",
-          "registro": "oxossi-007"
+          "registro": "oxossi-006"
         },
         {
           "valor": "segunda-feira (como Odé, com Bará, Ossaim e Otim) e sexta-feira (com Iemanjá)",
@@ -809,7 +843,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 119, nota 79",
-          "registro": "oxossi-008"
+          "registro": "oxossi-007"
         },
         {
           "valor": "quinta-feira (Gantois, fim do séc. XIX)",
@@ -820,7 +854,7 @@
           "fonte": "nina-rodrigues-1900-animisme",
           "via": "bastide-1958-candomble",
           "localizacao": "ed. pt 1961, p. 106",
-          "registro": "oxossi-009"
+          "registro": "oxossi-008"
         },
         {
           "valor": "quinta-feira",
@@ -832,7 +866,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 259",
-          "registro": "oxossi-018"
+          "registro": "oxossi-017"
         }
       ]
     },
@@ -849,7 +883,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 259",
-          "registro": "oxossi-023"
+          "registro": "oxossi-022"
         },
         {
           "valor": "o caçador de uma só flecha (versão de Verger) — recusada por um informante",
@@ -861,7 +895,47 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 260",
-          "registro": "oxossi-024"
+          "registro": "oxossi-023"
+        },
+        {
+          "valor": "o caçador de uma flecha só (Oxotokanxoxô, de Iremã) na festa dos inhames de Olofin",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "verger-1985-lendas",
+          "via": "mosaico-2020-oxossi",
+          "localizacao": "p. 58–59 (Souza); Verger, Lendas africanas dos orixás, 4ª ed. 1997",
+          "registro": "oxossi-026"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "origem",
+      "versoes": [
+        {
+          "valor": "rei de Ketu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "oxossi-020"
+        },
+        {
+          "valor": "caçador, rei de Ketu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "mosaico-2020-oxossi",
+          "via": null,
+          "localizacao": "p. 58",
+          "registro": "oxossi-027"
         }
       ]
     },
@@ -889,7 +963,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 123, nota 91",
-          "registro": "oxossi-011"
+          "registro": "oxossi-010"
         }
       ]
     },

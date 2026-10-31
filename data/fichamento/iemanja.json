@@ -2,10 +2,10 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 36,
+    "total": 47,
     "por_status": {
-      "fichado": 26,
-      "pre_fichamento": 10,
+      "fichado": 41,
+      "pre_fichamento": 6,
       "revisado": 0
     }
   },
@@ -90,64 +90,6 @@
     {
       "id": "iemanja-005",
       "orixa": "iemanja",
-      "atributo": "qualidades",
-      "valor": "várias Iemanjás na Bahia (sete ou oito, segundo Verger)",
-      "tradicoes": [
-        "candomble_ketu"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "verger-1981-orixas",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Verger contou sete, talvez oito, formas de Iemanjá na Bahia; Bastide concordava que eram várias, sem fixar o número.",
-      "nota": "Lido via verbete acadêmico; confirmar em Verger e em Bastide (1958/1961).",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://core.ac.uk/download/213811235.pdf"
-      ]
-    },
-    {
-      "id": "iemanja-006",
-      "orixa": "iemanja",
-      "atributo": "elementos",
-      "valor": "águas doces e salgadas",
-      "tradicoes": [
-        "ioruba_nigeria",
-        "candomble_ketu"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "verger-1981-orixas",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Em leitura de Verger reproduzida por artigo da PUC-SP, Iemanjá seria originalmente divindade tanto das águas doces quanto das salgadas.",
-      "nota": "DIVERGÊNCIA com a versão rio (Nigéria) × mar (Brasil): conferir o que Verger diz exatamente.",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://revistas.pucsp.br/index.php/ultimoandar/article/download/37240/25387/103327"
-      ]
-    },
-    {
-      "id": "iemanja-007",
-      "orixa": "iemanja",
-      "atributo": "historia_culto",
-      "valor": "chegada ao Brasil com ebás, depois oyós e ijexás",
-      "tradicoes": [
-        "candomble_ketu"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "nina-rodrigues-1932-africanos",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Nina Rodrigues registrou que o culto chegou à Bahia primeiro com os ebás e, mais tarde, com oyós e ijexás, até meados do séc. XIX.",
-      "nota": "Citado por artigo da UFMG como Rodrigues (1933/1977); conferir edição e página.",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
-      ]
-    },
-    {
-      "id": "iemanja-008",
-      "orixa": "iemanja",
       "atributo": "sincretismo",
       "valor": "Virgem de Regla (Cuba)",
       "tradicoes": [
@@ -165,7 +107,7 @@
       ]
     },
     {
-      "id": "iemanja-009",
+      "id": "iemanja-006",
       "orixa": "iemanja",
       "atributo": "parentesco",
       "valor": "mãe de Changó na mitologia lucumí",
@@ -184,27 +126,7 @@
       ]
     },
     {
-      "id": "iemanja-010",
-      "orixa": "iemanja",
-      "atributo": "festas",
-      "valor": "2 de fevereiro no Rio Vermelho (Salvador), organizada por pescadores",
-      "tradicoes": [
-        "candomble_ketu",
-        "umbanda"
-      ],
-      "casa_ou_regiao": "Salvador (BA)",
-      "source_id": "blass-2007-iemanja",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Blass analisa os rituais da festa de 2 de fevereiro no Rio Vermelho e o sentido que ela tem para a colônia de pescadores que a organiza.",
-      "nota": "Origem da festa: 1923 ou c. 1910 conforme a fonte (não acadêmicas) — buscar fonte A/B.",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
-      ]
-    },
-    {
-      "id": "iemanja-011",
+      "id": "iemanja-007",
       "orixa": "iemanja",
       "atributo": "festas",
       "valor": "Festival de Iemanjá em Belém",
@@ -224,7 +146,7 @@
       ]
     },
     {
-      "id": "iemanja-012",
+      "id": "iemanja-008",
       "orixa": "iemanja",
       "atributo": "festas",
       "valor": "presente de Iemanjá no Mercadão de Madureira",
@@ -244,7 +166,7 @@
       ]
     },
     {
-      "id": "iemanja-013",
+      "id": "iemanja-009",
       "orixa": "iemanja",
       "atributo": "dia_semana",
       "valor": "sábado (com Oxum)",
@@ -263,7 +185,7 @@
       ]
     },
     {
-      "id": "iemanja-014",
+      "id": "iemanja-010",
       "orixa": "iemanja",
       "atributo": "dia_semana",
       "valor": "sábado (com Oxum)",
@@ -282,7 +204,7 @@
       ]
     },
     {
-      "id": "iemanja-015",
+      "id": "iemanja-011",
       "orixa": "iemanja",
       "atributo": "dia_semana",
       "valor": "sexta-feira (com Odé, 'o filho que ela traz ao colo')",
@@ -301,7 +223,7 @@
       ]
     },
     {
-      "id": "iemanja-016",
+      "id": "iemanja-012",
       "orixa": "iemanja",
       "atributo": "elementos",
       "valor": "água salgada (Oxum: água doce)",
@@ -320,7 +242,7 @@
       ]
     },
     {
-      "id": "iemanja-017",
+      "id": "iemanja-013",
       "orixa": "iemanja",
       "atributo": "festas",
       "valor": "presente de Iemanjá junto da festa da Purificação (Oxum)",
@@ -339,7 +261,7 @@
       ]
     },
     {
-      "id": "iemanja-018",
+      "id": "iemanja-014",
       "orixa": "iemanja",
       "atributo": "parentesco",
       "valor": "filha de Oxalá; mãe de vários orixás",
@@ -358,7 +280,7 @@
       ]
     },
     {
-      "id": "iemanja-019",
+      "id": "iemanja-015",
       "orixa": "iemanja",
       "atributo": "sincretismo",
       "valor": "Nossa Senhora da Imaculada Conceição (8 de dezembro)",
@@ -377,7 +299,7 @@
       ]
     },
     {
-      "id": "iemanja-020",
+      "id": "iemanja-016",
       "orixa": "iemanja",
       "atributo": "elementos",
       "valor": "águas do mar",
@@ -397,7 +319,7 @@
       ]
     },
     {
-      "id": "iemanja-021",
+      "id": "iemanja-017",
       "orixa": "iemanja",
       "atributo": "parentesco",
       "valor": "esposa de Oxalá; mãe de Xangô; às vezes mãe de todos os orixás (exceto Exu)",
@@ -417,7 +339,7 @@
       ]
     },
     {
-      "id": "iemanja-022",
+      "id": "iemanja-018",
       "orixa": "iemanja",
       "atributo": "sincretismo",
       "valor": "Virgem Maria (Virgem com o Menino)",
@@ -437,7 +359,7 @@
       ]
     },
     {
-      "id": "iemanja-023",
+      "id": "iemanja-019",
       "orixa": "iemanja",
       "atributo": "dominios",
       "valor": "mares e oceanos; proteção de pescadores e marinheiros; maternidade",
@@ -457,7 +379,7 @@
       ]
     },
     {
-      "id": "iemanja-024",
+      "id": "iemanja-020",
       "orixa": "iemanja",
       "atributo": "dia_semana",
       "valor": "sábado",
@@ -477,7 +399,7 @@
       ]
     },
     {
-      "id": "iemanja-025",
+      "id": "iemanja-021",
       "orixa": "iemanja",
       "atributo": "festas",
       "valor": "datas variam por região (31 de dezembro, 8 de fevereiro); presentes levados ao mar",
@@ -497,7 +419,7 @@
       ]
     },
     {
-      "id": "iemanja-026",
+      "id": "iemanja-022",
       "orixa": "iemanja",
       "atributo": "cores",
       "valor": "azul-claro",
@@ -517,7 +439,7 @@
       ]
     },
     {
-      "id": "iemanja-027",
+      "id": "iemanja-023",
       "orixa": "iemanja",
       "atributo": "simbolos",
       "valor": "metal: prata; emblema de lua crescente com estrela",
@@ -537,7 +459,7 @@
       ]
     },
     {
-      "id": "iemanja-028",
+      "id": "iemanja-024",
       "orixa": "iemanja",
       "atributo": "funcoes",
       "valor": "'orixá do bom conselho'; 'mãe curandeira'",
@@ -573,7 +495,7 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
-      "id": "iemanja-029"
+      "id": "iemanja-025"
     },
     {
       "orixa": "iemanja",
@@ -592,7 +514,7 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
-      "id": "iemanja-030"
+      "id": "iemanja-026"
     },
     {
       "orixa": "iemanja",
@@ -611,7 +533,7 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
-      "id": "iemanja-031"
+      "id": "iemanja-027"
     },
     {
       "orixa": "iemanja",
@@ -630,7 +552,7 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
-      "id": "iemanja-032"
+      "id": "iemanja-028"
     },
     {
       "orixa": "iemanja",
@@ -649,7 +571,7 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
-      "id": "iemanja-033"
+      "id": "iemanja-029"
     },
     {
       "orixa": "iemanja",
@@ -668,7 +590,7 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
-      "id": "iemanja-034"
+      "id": "iemanja-030"
     },
     {
       "orixa": "iemanja",
@@ -688,7 +610,7 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
-      "id": "iemanja-035"
+      "id": "iemanja-031"
     },
     {
       "orixa": "iemanja",
@@ -707,7 +629,296 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
+      "id": "iemanja-032"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "2 de fevereiro no Rio Vermelho: começa à meia-noite no Dique do Tororó (oferenda a Oxum); alvorada às 5h; presentes até as 16h",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Salvador — praia do Rio Vermelho",
+      "source_id": "blass-2007-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 6",
+      "parafrase": "A festa começa logo após a meia-noite de 2 de fevereiro, no Dique do Tororó, com a entrega de uma oferenda a Oxum feita só pelos pescadores da Colônia; às cinco da manhã, fogos no Rio Vermelho abrem a entrega de presentes pelo público, que segue até a tarde.",
+      "nota": "Observação de campo em fevereiro de 2000.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
+      ],
+      "id": "iemanja-033"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "presentes em balaios levados por cortejo de barcos; casa de Iemanjá ao lado da Igreja de Sant'Ana",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Salvador — praia do Rio Vermelho",
+      "source_id": "blass-2007-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF pp. 4, 7",
+      "parafrase": "Os presentes são reunidos em grandes balaios de palha e levados ao mar por um cortejo de barcos e canoas, a partir da sede da Colônia de Pescadores, onde fica a 'morada' de Iemanjá em terra, ao lado da Igreja de Sant'Ana.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
+      ],
+      "id": "iemanja-034"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "festa promovida pela Colônia de Pescadores; pescadores também celebram São Pedro (29 de junho)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Salvador — praia do Rio Vermelho",
+      "source_id": "blass-2007-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 1",
+      "parafrase": "A festa de 2 de fevereiro é promovida pelos pescadores da Colônia do Rio Vermelho, que, pelos mesmos motivos de proteção no mar, participam da missa de São Pedro em 29 de junho na igreja vizinha.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
+      ],
+      "id": "iemanja-035"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "festa ausente do registro de Verger sobre Salvador em meados do séc. XIX",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Salvador",
+      "source_id": "blass-2007-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 4",
+      "parafrase": "Blass observa que Verger, ao descrever o ciclo de festas de Salvador em meados do séc. XIX, não menciona uma festa dedicada exclusivamente a Iemanjá.",
+      "nota": "Indício para a data de origem da festa (fontes não acadêmicas falam em 1923 ou c. 1910).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
+      ],
       "id": "iemanja-036"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "sereia (escultura de Manoel do Bonfim na casa de Iemanjá)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Salvador — praia do Rio Vermelho",
+      "source_id": "blass-2007-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 4",
+      "parafrase": "No pátio da casa de Iemanjá no Rio Vermelho, uma escultura de Manoel do Bonfim a representa como sereia.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
+      ],
+      "id": "iemanja-037"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "dominios",
+      "valor": "o mais poderoso dos orixás, porque preside as águas (segundo Verger)",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1957-notes",
+      "via_source_id": "seixas-2018-maria-iemanja",
+      "localizacao": "p. 115 (Seixas); Verger, Notas (Edusp 2000), p. 293",
+      "parafrase": "Segundo Verger, Iemanjá seria o mais poderoso dos orixás, porque governa as águas, sem as quais nada se faz.",
+      "nota": "CORRIGE pré-registro: a frase 'divindade das águas doces e salgadas' é da autora Seixas, não de Verger.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/ultimoandar/article/download/37240/25387/103327"
+      ],
+      "id": "iemanja-038"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "imagem de pele amarelada, cabelos azuis, colar de contas brancas e roupa listrada (Burton, séc. XIX)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "burton-1863-abeokuta",
+      "via_source_id": "seixas-2018-maria-iemanja",
+      "localizacao": "p. 115 (Seixas); Verger, Notas (2000), p. 295",
+      "parafrase": "Burton descreveu uma imagem de Iemanjá com pele amarelada, cabelos azuis, colar de contas brancas e roupa listrada — detalhes que talvez aludam à água.",
+      "nota": "Cadeia: Burton → Verger → Seixas. Conferir em Verger.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/ultimoandar/article/download/37240/25387/103327"
+      ],
+      "id": "iemanja-039"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "nomes",
+      "valor": "Yemọja: 'mãe dos filhos peixes' (etimologia)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "vallado-2008-iemanja",
+      "via_source_id": "queiroga-nascimento-2019-iemanja",
+      "localizacao": "PDF p. 2",
+      "parafrase": "O nome Iemanjá viria do iorubá para 'mãe cujos filhos são peixes'.",
+      "nota": "Etimologia corrente; conferir com dicionário (Beniste 2011).",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-040"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "origem",
+      "valor": "templo principal em Abeokuta (estado de Ogun, Nigéria); imagem de mulher de seios grandes com tigela na cabeça; em Ibadan, mulher grávida",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1957-notes",
+      "via_source_id": "queiroga-nascimento-2019-iemanja",
+      "localizacao": "PDF p. 2",
+      "parafrase": "O principal templo de Iemanjá fica em Abeokuta, onde ela é representada por uma escultura feminina de seios grandes que leva na cabeça uma tigela para os objetos sagrados; em Ibadan, é figurada como mulher grávida.",
+      "nota": "Citado como Verger (1951/1999). Conferir em Verger.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-041"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "dominios",
+      "valor": "culto original ligado ao plantio e colheita do inhame e à pesca",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "vallado-2008-iemanja",
+      "via_source_id": "queiroga-nascimento-2019-iemanja",
+      "localizacao": "PDF p. 2",
+      "parafrase": "O culto original de Iemanjá também a liga ao plantio e à colheita do inhame e à pesca.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-042"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "chegada ao Brasil com ebás, depois oyós e ijexás (Bahia, até meados do séc. XIX)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "nina-rodrigues-1932-africanos",
+      "via_source_id": "queiroga-nascimento-2019-iemanja",
+      "localizacao": "PDF p. 2",
+      "parafrase": "Nina Rodrigues registrou que o culto chegou à Bahia primeiro com os ebás e depois com oyós e ijexás, até meados do séc. XIX.",
+      "nota": "Citado como Rodrigues (1933/1977), 5ª ed.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-043"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "equivalencias",
+      "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "queiroga-nascimento-2019-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 8, nota 5",
+      "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
+      "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-044"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "qualidades",
+      "valor": "Awoyó, Oketé/Ogunté, Mayaleo, Ayabá/Assabá, Konlé/Akuara, Asesu, Apará",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "queiroga-nascimento-2019-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 8, nota 5",
+      "parafrase": "As autoras listam como qualidades de Iemanjá Awoyó, Ogunté, Mayaleo, Assabá, Konlá, Asesu e Apará, entre outras.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-045"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "saudacao",
+      "valor": "Odoyá; Odô Fiaba",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "queiroga-nascimento-2019-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 8, nota 5",
+      "parafrase": "Entre os termos ligados a Iemanjá nas canções, as autoras identificam as saudações Odoyá e Odô Fiaba.",
+      "nota": "Primeira saudação registrada no fichamento; buscar confirmação em fonte etnográfica/dicionário.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-046"
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "queiroga-nascimento-2019-iemanja",
+      "via_source_id": null,
+      "localizacao": "PDF p. 8, nota 5",
+      "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888"
+      ],
+      "id": "iemanja-047"
     }
   ]
 }

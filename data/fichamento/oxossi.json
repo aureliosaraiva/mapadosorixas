@@ -2,10 +2,10 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 26,
+    "total": 27,
     "por_status": {
-      "fichado": 22,
-      "pre_fichamento": 4,
+      "fichado": 24,
+      "pre_fichamento": 3,
       "revisado": 0
     }
   },
@@ -72,25 +72,6 @@
     {
       "id": "oxossi-004",
       "orixa": "oxossi",
-      "atributo": "itans",
-      "valor": "o caçador de uma flecha só",
-      "tradicoes": [
-        "candomble_ketu"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "mosaico-2020-oxossi",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Artigo analisa o mito em que Oxóssi, com uma única flecha, abate uma ave ameaçadora, como narrativa de herói recontada nas casas de candomblé.",
-      "nota": "Resumo de itã: redigir versão própria a partir de várias fontes (Verger, Prandi) antes de publicar.",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
-      ]
-    },
-    {
-      "id": "oxossi-005",
-      "orixa": "oxossi",
       "atributo": "historia_culto",
       "valor": "culto praticamente desaparecido em Ketu (África) — afirmação atribuída a Verger e contestada",
       "tradicoes": [
@@ -108,7 +89,7 @@
       ]
     },
     {
-      "id": "oxossi-006",
+      "id": "oxossi-005",
       "orixa": "oxossi",
       "atributo": "dia_semana",
       "valor": "quinta-feira (com Ogum)",
@@ -127,7 +108,7 @@
       ]
     },
     {
-      "id": "oxossi-007",
+      "id": "oxossi-006",
       "orixa": "oxossi",
       "atributo": "dia_semana",
       "valor": "quinta-feira (só Oxóssi)",
@@ -146,7 +127,7 @@
       ]
     },
     {
-      "id": "oxossi-008",
+      "id": "oxossi-007",
       "orixa": "oxossi",
       "atributo": "dia_semana",
       "valor": "segunda-feira (como Odé, com Bará, Ossaim e Otim) e sexta-feira (com Iemanjá)",
@@ -165,7 +146,7 @@
       ]
     },
     {
-      "id": "oxossi-009",
+      "id": "oxossi-008",
       "orixa": "oxossi",
       "atributo": "dia_semana",
       "valor": "quinta-feira (Gantois, fim do séc. XIX)",
@@ -184,7 +165,7 @@
       ]
     },
     {
-      "id": "oxossi-010",
+      "id": "oxossi-009",
       "orixa": "oxossi",
       "atributo": "dominios",
       "valor": "patrono dos caçadores; divindade 'do ar livre'",
@@ -203,7 +184,7 @@
       ]
     },
     {
-      "id": "oxossi-011",
+      "id": "oxossi-010",
       "orixa": "oxossi",
       "atributo": "parentesco",
       "valor": "irmão de Ogum",
@@ -222,7 +203,7 @@
       ]
     },
     {
-      "id": "oxossi-012",
+      "id": "oxossi-011",
       "orixa": "oxossi",
       "atributo": "dominios",
       "valor": "florestas (atribuição posterior ao mito de origem)",
@@ -242,7 +223,7 @@
       ]
     },
     {
-      "id": "oxossi-013",
+      "id": "oxossi-012",
       "orixa": "oxossi",
       "atributo": "dominios",
       "valor": "caça e floresta; fauna e flora",
@@ -262,7 +243,7 @@
       ]
     },
     {
-      "id": "oxossi-014",
+      "id": "oxossi-013",
       "orixa": "oxossi",
       "atributo": "cores",
       "valor": "verde",
@@ -282,7 +263,7 @@
       ]
     },
     {
-      "id": "oxossi-015",
+      "id": "oxossi-014",
       "orixa": "oxossi",
       "atributo": "simbolos",
       "valor": "arco e flecha; eruquerê (espanta-moscas de rabo de boi, atributo real)",
@@ -302,7 +283,7 @@
       ]
     },
     {
-      "id": "oxossi-016",
+      "id": "oxossi-015",
       "orixa": "oxossi",
       "atributo": "sincretismo",
       "valor": "São Sebastião",
@@ -322,7 +303,7 @@
       ]
     },
     {
-      "id": "oxossi-017",
+      "id": "oxossi-016",
       "orixa": "oxossi",
       "atributo": "festas",
       "valor": "20 de janeiro (São Sebastião)",
@@ -342,7 +323,7 @@
       ]
     },
     {
-      "id": "oxossi-018",
+      "id": "oxossi-017",
       "orixa": "oxossi",
       "atributo": "dia_semana",
       "valor": "quinta-feira",
@@ -362,7 +343,7 @@
       ]
     },
     {
-      "id": "oxossi-019",
+      "id": "oxossi-018",
       "orixa": "oxossi",
       "atributo": "alimentos",
       "valor": "axoxô (prato preferido, segundo informantes)",
@@ -382,7 +363,7 @@
       ]
     },
     {
-      "id": "oxossi-020",
+      "id": "oxossi-019",
       "orixa": "oxossi",
       "atributo": "qualidades",
       "valor": "Oxóssi, Odé, Inlé e Logunedé (filho de Oxóssi e Oxum)",
@@ -401,7 +382,7 @@
       ]
     },
     {
-      "id": "oxossi-021",
+      "id": "oxossi-020",
       "orixa": "oxossi",
       "atributo": "origem",
       "valor": "rei de Ketu",
@@ -420,7 +401,7 @@
       ]
     },
     {
-      "id": "oxossi-022",
+      "id": "oxossi-021",
       "orixa": "oxossi",
       "atributo": "equivalencias",
       "valor": "senhor dos caboclos (candomblé de caboclo)",
@@ -440,7 +421,7 @@
       ]
     },
     {
-      "id": "oxossi-023",
+      "id": "oxossi-022",
       "orixa": "oxossi",
       "atributo": "itans",
       "valor": "Oxóssi médico que aprende o segredo das plantas com Ossaim",
@@ -459,7 +440,7 @@
       ]
     },
     {
-      "id": "oxossi-024",
+      "id": "oxossi-023",
       "orixa": "oxossi",
       "atributo": "itans",
       "valor": "o caçador de uma só flecha (versão de Verger) — recusada por um informante",
@@ -479,7 +460,7 @@
       ]
     },
     {
-      "id": "oxossi-025",
+      "id": "oxossi-024",
       "orixa": "oxossi",
       "atributo": "interpretacao_academica",
       "valor": "jovem, impulsivo, independente; orixá das questões urgentes",
@@ -515,7 +496,46 @@
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
+      "id": "oxossi-025"
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "itans",
+      "valor": "o caçador de uma flecha só (Oxotokanxoxô, de Iremã) na festa dos inhames de Olofin",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1985-lendas",
+      "via_source_id": "mosaico-2020-oxossi",
+      "localizacao": "p. 58–59 (Souza); Verger, Lendas africanas dos orixás, 4ª ed. 1997",
+      "parafrase": "Na versão de Verger, uma ave enorme pousa no palácio de Olofin durante a festa dos inhames novos; caçadores com vinte, quarenta e cinquenta flechas falham e são punidos; um caçador de Iremã, com uma só flecha e protegido por oferenda feita pela mãe, abate a ave.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
+      ],
       "id": "oxossi-026"
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "origem",
+      "valor": "caçador, rei de Ketu",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "mosaico-2020-oxossi",
+      "via_source_id": null,
+      "localizacao": "p. 58",
+      "parafrase": "O artigo parte da narrativa de Oxóssi como caçador e rei de Ketu, recontada nas casas de candomblé.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
+      ],
+      "id": "oxossi-027"
     }
   ]
 }
