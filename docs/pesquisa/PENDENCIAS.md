@@ -81,7 +81,7 @@ O protótipo em `site/` (Astro) compila no CI, mas **não está publicado**. Nad
 | Status | Item | O que decidir ou fazer | Prioridade |
 |:-:|---|---|:-:|
 | 🔴 | Deploy | escolher Cloudflare Pages, GitHub Pages ou Vercel e conectar a conta. Para GitHub Pages, buildar com `SITE_BASE=/mapadosorixas` (ver `site/README.md`) | P2 |
-| 🔴 | Domínio | registrar `.org`/`.com` (ver candidatos no `CLAUDE.md`; `.com.br` exige CPF/CNPJ) e apontar para o deploy | P2 |
+| 🔴 | Domínio | registrar `.org`/`.com` (`.com.br` exige CPF/CNPJ). **Consulta RDAP em 2026-10-31: sem registro (provavelmente livres) — `mapadosorixas.org`, `mapadosorixas.com`, `atlasdosorixas.org`, `atlasdosorixas.com`, `enciclopediaorixas.org`, `enciclopediaorixas.com`, `orixas.wiki`, `orixas.info`, `panteaoorixa.com`. Já registrados: `orixas.com`, `orixa.org`.** Confirmar no registrador antes de comprar e apontar para o deploy | P2 |
 | 🔴 | Licenças de código, textos e dados | sugestão do plano: MIT, CC BY-SA 4.0, CC BY 4.0 (ou NC), a confirmar com o conselho. O rodapé do site diz "a definir" | P2 |
 | 🔴 | Indexação | o site sai com `<meta name="robots" content="noindex">` enquanto for rascunho. Retirar só depois da revisão das fichas | P1 (no lançamento) |
 | 🟡 | Revisão de acessibilidade com leitor de tela real e Lighthouse | automatizado feito: axe-core (WCAG 2.1 A/AA + boas práticas) em todas as 14 páginas, 1280 e 390 px, sem violações (`site/scripts/acessibilidade.cjs`; em 2026-10-31 corrigido o campo de busca sem rótulo visível). Falta auditoria humana (NVDA/VoiceOver), em especial do mini-grafo e do grafo (canvas: o leitor de tela recebe só o `aria-label` e a lista/tabela equivalente), e Lighthouse ≥ 90 | P2 |
