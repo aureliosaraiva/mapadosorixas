@@ -2,9 +2,31 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-10-31",
-    "total": 117
+    "total": 151
   },
   "fontes": [
+    {
+      "id": "abimbola-1968-ijinle",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Wándé Abímbọ́lá"
+      ],
+      "titulo": "Ìjìnlẹ̀ ohùn ẹnu Ifá, apá kìíní",
+      "ano": 1968,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Em iorubá. Edições divergentes (Collins, Glasgow, 1968; Aim, 1983; 2006). Apá kejì: 2014.",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://pierreverger.org/br/a-fundacao/o-biblioteca-acervo/a-biblioteca/divinacao/ifa.html"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
     {
       "id": "abimbola-1975-sixteen",
       "tipo": "livro",
@@ -46,6 +68,30 @@
       "identificadores": {}
     },
     {
+      "id": "abimbola-1977-poetry",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Wándé Abímbọ́lá"
+      ],
+      "titulo": "Ifá Divination Poetry",
+      "ano": 1977,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Tradução com comentário.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://glottolog.org/resource/reference/id/eballiso2009:16243"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Nok Publishers",
+      "local": "New York"
+    },
+    {
       "id": "abiodun-2014-art",
       "tipo": "livro",
       "categoria": "academica",
@@ -62,6 +108,53 @@
       "observacoes": null,
       "status_verificacao": "a_verificar",
       "evidencias": [],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "amaral-silva-2006-musica",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Rita Amaral",
+        "Vagner Gonçalves da Silva"
+      ],
+      "titulo": "Foi conta para todo canto: as religiões afro-brasileiras nas letras do repertório musical popular brasileiro",
+      "ano": 2006,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Subtítulo a conferir.",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://www.redalyc.org/pdf/770/77003407.pdf"
+      ],
+      "url": null,
+      "identificadores": {},
+      "periodico": "Afro-Ásia"
+    },
+    {
+      "id": "arango-2018-ache",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Sebastián Arango Hincapié"
+      ],
+      "titulo": "¡Soy Aché! Historias de vida para comprender la devoción a los orichas en la Santería cubana o Regla de Ocha en Medellín",
+      "ano": 2018,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Mestrado em Antropologia (Universidad de Antioquia). Diáspora na Colômbia.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://bibliotecadigital.udea.edu.co/bitstream/10495/10244/1/ArangoSebastian_2018_AcheHistoriasVida.pdf"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -127,6 +220,32 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "barba-2020-santi",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Bruno Barba"
+      ],
+      "titulo": "Santi, demoni e orixás",
+      "ano": 2020,
+      "idioma": "it",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "223 p. Abordagem antropológica não confirmada.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.macrolibrarsi.it/libri/__santi-demoni-e-orixas.php"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "8862886314"
+      },
+      "editora": "Odoya"
     },
     {
       "id": "barber-1991-oriki",
@@ -284,9 +403,11 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Ed. pt 'O candomblé da Bahia: rito nagô'.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Ed. pt 'O candomblé da Bahia (rito nagô)', Companhia Editora Nacional, 1961 (Brasiliana v. 313), trad. Maria Isaura Pereira de Queiroz. Cópia digitalizada no repositório da UFRJ.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -454,6 +575,30 @@
       "local": "Rio de Janeiro"
     },
     {
+      "id": "blass-2007-iemanja",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Leila Maria da Silva Blass"
+      ],
+      "titulo": "Dois de fevereiro, Dia de Iemanjá, dia de festa no mar",
+      "ano": 2007,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Revista Nures n. 5 (PUC-SP). Festa do Rio Vermelho (Salvador) e a colônia de pescadores. Origem da festa datada de 1923 ou c. 1910 conforme a fonte.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://revistas.pucsp.br/index.php/nures/article/download/7334/5330/17912"
+      ],
+      "url": null,
+      "identificadores": {},
+      "periodico": "Revista Nures"
+    },
+    {
       "id": "blier-1995-vodun",
       "tipo": "livro",
       "categoria": "academica",
@@ -487,11 +632,16 @@
         "lucumi"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Reed. 1994. Considerada obra de referência ('bíblia') da Regla de Ocha.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://colectivo.uloyola.es/Record/ELB79244",
+        "https://americareadsspanish.org/new-releases/11358-los-orishas-en-cuba.html"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {},
+      "editora": "Ediciones Unión",
+      "local": "La Habana"
     },
     {
       "id": "botao-2007-angola",
@@ -573,6 +723,74 @@
       ],
       "confiabilidade_preliminar": "A",
       "observacoes": null,
+      "status_verificacao": "a_verificar",
+      "evidencias": [],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "brown-k-1989-ogou",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Karen McCarthy Brown"
+      ],
+      "titulo": "Systematic Remembering, Systematic Forgetting: Ogou in Haiti",
+      "ano": 1989,
+      "idioma": "en",
+      "tradicoes": [
+        "vodou_haiti",
+        "vodun_benim",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Capítulo em Barnes (org.), Africa's Ogun. Ogou haitiano com raízes no Gu fon e no Ogum iorubá; papel político-militar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://muse.jhu.edu/books/9780253113818/9780253113818-11.pdf"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "brown-k-1991-mama-lola",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Karen McCarthy Brown"
+      ],
+      "titulo": "Mama Lola: A Vodou Priestess in Brooklyn",
+      "ano": 1991,
+      "idioma": "en",
+      "tradicoes": [
+        "vodou_haiti"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Etnografia/biografia espiritual; Ogou tem papel central.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.ucpress.edu/books/mama-lola-2/paper"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "University of California Press",
+      "local": "Berkeley"
+    },
+    {
+      "id": "brumana-2007-reflexos",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Fernando Giobellina Brumana"
+      ],
+      "titulo": "Reflexos negros em olhos brancos",
+      "ano": 2007,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Crítica ao papel da academia na 'africanização' do candomblé — útil para a página de metodologia. Periódico a conferir (Afro-Ásia?).",
       "status_verificacao": "a_verificar",
       "evidencias": [],
       "url": null,
@@ -662,6 +880,28 @@
       "observacoes": null,
       "status_verificacao": "a_verificar",
       "evidencias": [],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "candomble-food-italy-brazil",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "Candomblé rituals and food practices in Italy and Brazil: an ethnographic comparison",
+      "ano": null,
+      "idioma": "en",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Candomblé na Itália.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openaccess.library.uitm.edu.my/Record/doaj-76c6243634b14525a9999a55629be134"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -794,6 +1034,29 @@
       "identificadores": {}
     },
     {
+      "id": "chiousse-1995-divins",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Sylvie Chiousse"
+      ],
+      "titulo": "Divins thérapeutes: la santé au Brésil revue et corrigée par les orixás",
+      "ano": 1995,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Doutorado em antropologia social (EHESS). Acesso aberto no HAL.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ],
+      "url": "https://halshs.archives-ouvertes.fr/tel-00003395",
+      "identificadores": {}
+    },
+    {
       "id": "correa-1992-batuque",
       "tipo": "livro",
       "categoria": "academica",
@@ -810,6 +1073,28 @@
       "observacoes": null,
       "status_verificacao": "a_verificar",
       "evidencias": [],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "correia-2011-goiania",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Paulo Petronilio Correia"
+      ],
+      "titulo": "Essa terra aqui é de Oxum, Xangô e Oxóssi: um estudo sobre o candomblé na cidade de Goiânia",
+      "ano": 2011,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Mestrado em História (UFG).",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://repositorio.bc.ufg.br/tede/bitstreams/634b2e4f-0325-40a2-aa77-17df7adf4414/download"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -970,6 +1255,52 @@
       "identificadores": {}
     },
     {
+      "id": "ellis-2015-comida",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Riley Ellis"
+      ],
+      "titulo": "La comida y los orishas de Santería: alimentando el bienestar de los creyentes",
+      "ano": 2015,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Colorado State University. Ochún, Yemayá, Changó, Orula.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://mountainscholar.org/items/4cf1dc27-f963-4ee2-9f11-c218e6ebebff"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "erfahrung-der-orixas",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "Die Erfahrung der Orixás: eine Studie über die religiöse Erfahrung im Candomblé",
+      "ano": null,
+      "idioma": "de",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Tese em alemão (XIII, 344 p.); interface com teologia da libertação. ISBN 3-923946-28-7.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://relbib.de/Record/191158976"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "3923946287"
+      }
+    },
+    {
       "id": "falola-2013-esu",
       "tipo": "livro",
       "categoria": "academica",
@@ -1045,6 +1376,58 @@
       "identificadores": {},
       "editora": "EDUFMA",
       "local": "São Luís"
+    },
+    {
+      "id": "fichte-1976-xango",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Hubert Fichte"
+      ],
+      "titulo": "Xango: Die afroamerikanischen Religionen II — Bahia, Haiti, Trinidad",
+      "ano": 1976,
+      "idioma": "de",
+      "tradicoes": [
+        "candomble_ketu",
+        "vodou_haiti",
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Volume de texto (357 p.); vol. I é o livro de fotos de Leonore Mau. Etnografia literária; resenha de 1976 critica o enquadramento.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://biblio.co.nz/book/xango-die-afroamerikanischen-religionen-ii-bahia/d/1584317265",
+        "https://www.humanistische-union.de/publikationen/vorgaenge/24-vorgaenge/publikation/xango-kultur-im-schatten/?pdf=1"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "3100207017"
+      },
+      "editora": "S. Fischer",
+      "local": "Frankfurt am Main"
+    },
+    {
+      "id": "figueiredo-2005-verger",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Rodolfo Aquino Figueiredo"
+      ],
+      "titulo": "Pierre Verger e o culto dos orixás",
+      "ano": 2005,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Mestrado (UNESP). Analisa duas obras centrais de Verger — útil para avaliar a fonte.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://acervodigital.unesp.br/handle/11449/86649"
+      ],
+      "url": null,
+      "identificadores": {}
     },
     {
       "id": "frobenius-1912-afrika",
@@ -1224,16 +1607,19 @@
       "autores": [
         "Rómulo Lachatañeré"
       ],
-      "titulo": "¡¡Oh, mío Yemayá!!",
+      "titulo": "¡¡Oh, mío Yemayá!! Cuentos y cantos negros",
       "ano": 1938,
       "idioma": "es",
       "tradicoes": [
         "lucumi"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Patakís cubanos.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "21 patakís recolhidos sobretudo em Havana e Santiago. 2ª ed. 1992 (Editorial de Ciencias Sociales, intr. Fernando Ortiz). Ed. en 'Afro-Cuban Myths: Yemaya and Other Orishas' (Markus Wiener, 2014).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.ecured.cu/%C2%A1%C2%A1Oh,_m%C3%ADo_Yemay%C3%A1!!_Cuentos_y_cantos_negros",
+        "https://markuswiener.com/books/afro-cuban-myths-yemaya-and-other-orishas/"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -1251,9 +1637,11 @@
         "lucumi"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
+      "observacoes": "Ano 1942 confirmado (EcuRed); editora e local não confirmados. Tido como primeira tentativa acadêmica de entender a Santería como religião.",
       "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "evidencias": [
+        "https://www.ecured.cu/%C2%A1%C2%A1Oh,_m%C3%ADo_Yemay%C3%A1!!_Cuentos_y_cantos_negros"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -1364,6 +1752,30 @@
       "identificadores": {}
     },
     {
+      "id": "lopes-2006-logunede",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Nei Lopes"
+      ],
+      "titulo": "Logunedé: santo menino que velho respeita",
+      "ano": 2006,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Coleção Orixás (Pallas), vol. 1.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://pallaseditora.com.br/produto/logunede/"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Pallas",
+      "local": "Rio de Janeiro"
+    },
+    {
       "id": "macgaffey-1986-religion",
       "tipo": "livro",
       "categoria": "academica",
@@ -1447,6 +1859,33 @@
       "identificadores": {}
     },
     {
+      "id": "mau-1976-xango",
+      "tipo": "livro",
+      "categoria": "iconografia",
+      "autores": [
+        "Leonore Mau",
+        "Hubert Fichte"
+      ],
+      "titulo": "Xango: Die afroamerikanischen Religionen I (Bildband)",
+      "ano": 1976,
+      "idioma": "de",
+      "tradicoes": [
+        "candomble_ketu",
+        "vodou_haiti",
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Livro de fotografias (56 coloridas, 47 p&b), textos de Fichte. Direitos de imagem.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.humanistische-union.de/publikationen/vorgaenge/24-vorgaenge/publikation/xango-kultur-im-schatten/?pdf=1"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "S. Fischer",
+      "local": "Frankfurt am Main"
+    },
+    {
       "id": "mckenzie-1997-hail-orisha",
       "tipo": "livro",
       "categoria": "academica",
@@ -1487,6 +1926,29 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "mones-2024-ocha",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Indira Mones Guevara"
+      ],
+      "titulo": "La Ocha o Santería cubana: diálogos bibliográficos de algunos conceptos fundamentales",
+      "ano": 2024,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Cuicuilco n. 89. Revisão de conceitos: aché, 'persona', mito, oráculo, moyugba.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://scielo.org.mx/pdf/crca/v31n89/2448-8488-crca-31-89-133.pdf"
+      ],
+      "url": "https://scielo.org.mx/pdf/crca/v31n89/2448-8488-crca-31-89-133.pdf",
+      "identificadores": {},
+      "periodico": "Cuicuilco. Revista de Ciencias Antropológicas"
     },
     {
       "id": "murphy-1988-santeria",
@@ -1906,6 +2368,30 @@
       "identificadores": {}
     },
     {
+      "id": "poli-antropologia-orixas",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Ivan Poli"
+      ],
+      "titulo": "Antropologia dos orixás: a civilização iorubá a partir de seus mitos, seus orikis e sua diáspora",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Ano a conferir. Foco nos oríkìs.",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://www.casasbahia.com.br/antropologia-dos-orixas/p/1527717534"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Pallas"
+    },
+    {
       "id": "prandi-1991-sp",
       "tipo": "livro",
       "categoria": "academica",
@@ -1980,6 +2466,31 @@
       "local": "São Paulo"
     },
     {
+      "id": "prandi-2003-xango-trovao",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Xangô, o trovão",
+      "ano": 2003,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Infantojuvenil, baseado em 'Mitologia dos Orixás'. Trilogia com 'Ifá, o adivinho' e 'Oxumarê, o arco-íris'.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.companhiadasletras.com.br/livro/9788574061580/xango-o-trovao"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788574061580"
+      },
+      "editora": "Companhia das Letrinhas"
+    },
+    {
       "id": "prandi-2005-segredos",
       "tipo": "livro",
       "categoria": "academica",
@@ -2001,6 +2512,77 @@
       "identificadores": {}
     },
     {
+      "id": "prandi-2025-orixas",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Orixás",
+      "ano": 2025,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Mitos de origem iorubá organizados em 18 orixás; 256 p.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.companhiadasletras.com.br/livro/9788535942576/orixas"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788535942576"
+      },
+      "editora": "Companhia das Letras",
+      "local": "São Paulo"
+    },
+    {
+      "id": "pucsp-2018-exu-abdias",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "Quem disse que Exu não monta? Abdias Nascimento, o cavalo do santo no terreiro da história",
+      "ano": 2018,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Doutorado em Ciência da Religião (PUC-SP).",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://oasisbr.ibict.br/vufind/Record/PUC_SP-1_f1e454d4323229d4d00162ece2f9ee72"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "pucsp-2021-exu-feminino",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "Exu feminino e o matriarcado nagô: indagações sobre o princípio feminino de Exu na tradição dos candomblés yorubá-nagô e a emancipação das 'Exu de saia'",
+      "ano": 2021,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Doutorado em Ciência da Religião (PUC-SP).",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://oasisbr.ibict.br/vufind/Record/PUC_SP-1_2562f4256365d3ab79eff59cdf8b930f"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
       "id": "ramos-1934-negro",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -2018,6 +2600,28 @@
       "observacoes": null,
       "status_verificacao": "a_verificar",
       "evidencias": [],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "ribas-2010-sarava-ogum",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "José Dalmo Ribeiro Ribas"
+      ],
+      "titulo": "Saravá Ogum: a umbanda em procissão",
+      "ano": 2010,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Mestrado em Ciências da Religião (PUC-SP). Procissão de São Jorge/Ogum em São Paulo; sincretismo e liberdade religiosa.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://oasisbr.ibict.br/vufind/Record/PUC_SP-1_0dda0b0e32991126c7627dbd91cc69ae"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -2065,6 +2669,28 @@
       "periodico": "Revista Mexicana de Ciencias Políticas y Sociales"
     },
     {
+      "id": "rossbach-orichas-alemania",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Lioba Rossbach de Olmos"
+      ],
+      "titulo": "Cruces y entrecruzamientos en los caminos de los orichas",
+      "ano": null,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Santería na Alemanha. Ano e periódico a conferir.",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://www.redalyc.org/pdf/2470/247033484001.pdf"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
       "id": "santos-1976-nago",
       "tipo": "livro",
       "categoria": "academica",
@@ -2078,11 +2704,16 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Tese defendida na França (Sorbonne). Autora próxima ao Axé Opô Afonjá.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Originalmente tese na Sorbonne (1972); fontes divergem se doutorado ou mestrado (saiu na 'Coleção Mestrado', v. 4, da Vozes). Tradução pela UFBA. 14ª ed. 2012. Autora próxima ao Axé Opô Afonjá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://folio.caval.edu.au/Record/c000235671/Description",
+        "https://www.martinsfontespaulista.com.br/os-nago-e-a-morte-195777/p"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {},
+      "editora": "Vozes",
+      "local": "Petrópolis"
     },
     {
       "id": "santos-ms-1993-tempo",
@@ -2098,9 +2729,33 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Iyalorixá do Ilê Axé Opô Afonjá.",
+      "observacoes": "Iyalorixá do Ilê Axé Opô Afonjá. Ano diverge entre fontes (1992, 1993, 1995); ed. 2010; nova ed. pela Assembleia Legislativa da Bahia (2025). Editora da 1ª ed. não confirmada.",
       "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "evidencias": [
+        "https://www.al.ba.gov.br/fserver/:imagensAlbanet:upload:Ata20SesEsp_22_05_2025.pdf"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "sao-bernardo-kalunga-direito",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Augusto Sérgio dos Santos de São Bernardo"
+      ],
+      "titulo": "Kalunga e o direito",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Tese citada em artigo sobre a 'justiça de Xangô' (revista Dike, UFS). Ano e instituição a conferir.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://periodicos.ufs.br/dike/article/download/22981/17064/74679"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -2269,6 +2924,28 @@
       "local": "São Paulo"
     },
     {
+      "id": "silva-g-2019-exu-performatividade",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Genilson Leite da Silva"
+      ],
+      "titulo": "(título a conferir) — performatividade do orixá Exu no candomblé de Ketu",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Mestrado (UERJ).",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://www.bdtd.uerj.br:8443/bitstream/1/16813/2/Dissertacao%20-%20Genilson%20Leite%20da%20Silva%20-%202019%20-%20Completa.pdf"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
       "id": "silva-silvaneto-2025-oxossi",
       "tipo": "livro",
       "categoria": "academica",
@@ -2314,6 +2991,50 @@
       "identificadores": {}
     },
     {
+      "id": "soares-2008-exu-educacao",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Emanoel Luís Roque Soares"
+      ],
+      "titulo": "As vinte e uma faces de Exu na filosofia afrodescendente da educação",
+      "ano": 2008,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Doutorado em Educação (UFC). Nome do autor e título inferidos — conferir no repositório.",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://repositorio.ufc.br/handle/riufc/3198"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "tabu-sensibilita-candomble",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "Tabù e sensibilità: le precauzioni rituali nel candomblé",
+      "ano": null,
+      "idioma": "it",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": null,
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://library.kab.ac.ug/Record/doaj-art-84579dd0d015491d83da591b3d36ebf9/Similar"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
       "id": "tavares-2006-xango",
       "tipo": "livro",
       "categoria": "praticante",
@@ -2337,6 +3058,28 @@
       "editora": "Pallas"
     },
     {
+      "id": "teisenhoffer-2007-umbanda",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Viola Teisenhoffer"
+      ],
+      "titulo": "Umbanda, New Age et psychothérapie",
+      "ano": 2007,
+      "idioma": "fr",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Título e nome completo a conferir.",
+      "status_verificacao": "a_verificar",
+      "evidencias": [
+        "https://orbi.uliege.be/bitstream/2268/334557/1/Teisenhoffer2007UmbandaNewAge%26Psychotherapie.pdf"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
       "id": "teixeira-2021-iemanja",
       "tipo": "tese",
       "categoria": "tese",
@@ -2358,6 +3101,32 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "theodoro-2010-iansa",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Helena Theodoro"
+      ],
+      "titulo": "Iansã: rainha dos ventos e tempestades",
+      "ano": 2010,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Coleção Orixás (Pallas), vol. 8. A autora coordena a série.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.pallaseditora.com.br/produto/Iansa/185/"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788534704076"
+      },
+      "editora": "Pallas",
+      "local": "Rio de Janeiro"
     },
     {
       "id": "thompson-1983-flash",
@@ -2456,6 +3225,51 @@
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://rima.ufrrj.br/jspui/bitstream/20.500.14407/11537/3/2019%20-%20Justes%20Axel%20Samba%20Tomba.pdf"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "ufg-2017-exu-umbanda",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "Da África para o Brasil, de orixá a egum: as ressignificações de Exu no discurso umbandista",
+      "ano": 2017,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Doutorado em História (UFG), 410 f. Bom material para distinguir Exu (Candomblé) de exus (Umbanda).",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://bdtd.ibict.br/vufind/Record/UFG-2_e1053cd960e7d9b7708f9988dcbb0a4f"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
+      "id": "ufpb-2011-sao-jorge",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "(autor a identificar)"
+      ],
+      "titulo": "São Jorge: performance nômade de uma voz entre Europa, África e Brasil nos terreiros afro-brasileiros em João Pessoa",
+      "ano": 2011,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Mestrado (UFPB), orient. Beliza Áurea de Arruda Mello. Ogum/São Jorge, enfoque linguístico.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://repositorio.ufpb.br/jspui/handle/tede/6454"
       ],
       "url": null,
       "identificadores": {}
@@ -2566,11 +3380,15 @@
         "lucumi"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Ed. fr 'Orisha: les dieux yorouba en Afrique et au Nouveau Monde' (Métailié, 1982).",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "1ª ed. brasileira 1981 (Corrupio). Ed. fr 'Orisha: les dieux yorouba en Afrique et au Nouveau Monde' (Métailié, 1982). Reedição com prefácio de Mãe Stella de Oxóssi.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.tribunapr.com.br/mais-pop/um-dos-principais-livros-de-fotos-de-pierre-verger-ganha-nova-edicao/amp/"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {},
+      "editora": "Corrupio",
+      "local": "Salvador"
     },
     {
       "id": "verger-1995-ewe",

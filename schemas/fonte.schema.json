@@ -7,7 +7,7 @@
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
     "tipo": { "enum": ["livro", "capitulo", "artigo", "tese", "dissertacao", "site", "audiovisual", "acervo", "documento"] },
-    "categoria": { "enum": ["etno_classica", "academica", "tese", "corpus_oral", "praticante", "enciclopedia", "acervo", "patrimonio", "web_divulgacao", "audiovisual", "iconografia"] },
+    "categoria": { "enum": ["etno_classica", "academica", "tese", "corpus_oral", "praticante", "enciclopedia", "acervo", "patrimonio", "web_divulgacao", "divulgacao", "audiovisual", "iconografia"] },
     "autores": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
     "titulo": { "type": "string", "minLength": 1 },
     "ano": { "type": ["integer", "null"], "minimum": 1500, "maximum": 2100 },
