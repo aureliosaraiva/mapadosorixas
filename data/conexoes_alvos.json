@@ -77,6 +77,7 @@
       {"tipo": "sincretismo", "destino": "entidade:espiritos-dos-mortos"}
     ],
     "ogum-013": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "oxossi"}],
+    "ogum-006": [{"tipo": "sincretismo", "destino": "santo:sao-jorge"}],
     "ogum-014": [
       {"tipo": "sincretismo", "destino": "santo:sao-jorge"},
       {"tipo": "sincretismo", "destino": "santo:sao-joao"}

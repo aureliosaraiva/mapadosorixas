@@ -1744,6 +1744,27 @@
       "direcionada": true,
       "versoes": [
         {
+          "valor": "São Jorge",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "João Pessoa (PB): gongás de casas de Umbanda, entre elas o Centro de Umbanda Nossa Senhora do Carmo (bairro da Torre)",
+          "sources": [
+            {
+              "id": "ufpb-2011-sao-jorge",
+              "loc": "pp. 34, 36, 83",
+              "via": null
+            }
+          ],
+          "source_id": "ufpb-2011-sao-jorge",
+          "via_source_id": null,
+          "localizacao": "pp. 34, 36, 83",
+          "parafrase": "Pinheiro observa que, em João Pessoa, a ligação entre Ogum e São Jorge é forte a ponto de imagens do santo aparecerem habitualmente nos gongás (oratórios) das casas de Umbanda, ao lado de santos e orixás; no terreiro da Torre a imagem circula tanto no espaço da Jurema quanto no dos orixás. Uma filha de Ogum da casa resume a relação dizendo que Ogum é São Jorge.",
+          "nota": "Corrigido: o registro trazia 'candomble_ketu', que a fonte não sustenta. As duas casas estudadas são um terreiro de Umbanda (Torre) e um de Candomblé de nação Jeje (Kwe Ceja Azirin, Valentina, p. 39); a p. 34 fala também em 'gongás de iniciados' sem indicar nação. Fonte de nível C (mestrado em Linguística).",
+          "registro": "ogum-006",
+          "status": "fichado"
+        },
+        {
           "valor": "São Jorge e São João (calendário de terreiro)",
           "tradicoes": [
             "candomble_ketu"

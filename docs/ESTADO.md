@@ -10,26 +10,26 @@
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
-| Fontes no catálogo | 168 (77 `conferido_web`, 81 `a_verificar`, 10 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima** | `python3 scripts/validar_fontes.py` |
-| Registros de fichamento | 198 (179 `fichado`, 19 `pre_fichamento`, 0 `revisado`) | `python3 scripts/validar_fichamento.py` |
-| Atributos com versões divergentes | 31 | `python3 scripts/divergencias.py` |
-| Fichas geradas (`data/orixas/`) | 5 fichas, 177 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
+| Fontes no catálogo | 168 (79 `conferido_web`, 79 `a_verificar`, 10 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima** | `python3 scripts/validar_fontes.py` |
+| Registros de fichamento | 205 (189 `fichado`, 16 `pre_fichamento`, 0 `revisado`) | `python3 scripts/validar_fichamento.py` |
+| Atributos com versões divergentes | 32 | `python3 scripts/divergencias.py` |
+| Fichas geradas (`data/orixas/`) | 5 fichas, 187 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
 | Grafo (`data/conexoes.json`) | 40 nós, 43 arestas (20 sincretismo, 11 equivalência, 8 parentesco, 3 companheiro de culto, 1 associação) | idem |
 | Entidades equivalentes (`data/entidades_equivalentes.json`) | 11 (1 vodum, 3 inquices, 7 nomes fon/banto não classificados) | idem |
 | Tradições (`data/tradicoes.json`) | 19, todas `rascunho_sem_fonte` | idem |
-| Anti-cópia | 0 erros; 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
+| Anti-cópia | 0 erros (também contra o texto das 3 fontes desta rodada); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
 | Idiomas no catálogo | pt, en, es, fr, de, it, yo | — |
 
-Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 27.
+Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 27.
 
-**Fontes já lidas no original:** Prandi 2001; Bastide 1961 (pp. 26–32, 89–128, 165, 182–192); Chiousse 1995 (pp. 225–291); Silva 2012 (parcial); Blass 2007; Seixas 2018; Queiroga & Nascimento 2019; Souza 2020; resumos de Cardoso Filho 2015 e Teixeira 2021.
+**Fontes já lidas no original:** Prandi 2001; Bastide 1961 (pp. 26–32, 89–128, 165, 182–192); Chiousse 1995 (pp. 225–291); Silva 2012 (parcial); Blass 2007; Seixas 2018; Queiroga & Nascimento 2019; Souza 2020; resumos de Cardoso Filho 2015 e Teixeira 2021; Nogueira 2017 (pp. 9, 16–22, 195–197, 382–385); Pinheiro 2011 (pp. 28–41, 61–72, 83–84); Costa 2007 (integral). Ver [`fichamento-04`](pesquisa/fichamento-04.md).
 
 ## Próximas tarefas (em ordem)
 
 1. **Saudações, itãs e origem africana** dos 5 orixás. Depende de Verger, Prandi (*Mitologia*), Cacciatore e Beniste, que precisam de exemplar → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §2.
 2. **Equivalências com inquices e voduns.** Depende de Castro 2001, Parés 2006 e Lopes 1988 (exemplar).
-3. **Resolver os 19 `pre_fichamento`.** São fontes pagas ou fora do ar (Tishken 2009, Brown 1989, Pérez 2013, Barnes 1989, Beier 1970, teses PUC-SP/UFPB/UFG).
-4. **Ler as 3 fontes recém-localizadas** que sustentam `pre_fichamento` e têm texto aberto: Nogueira 2017 (UFG, exu-034), Pinheiro 2011 (UFPB, ogum-006) e Costa 2007 (*Afro-Ásia*, xango-005). Fazer isso fecha parte da tarefa 3. *(Conferência das 17 fontes `a_verificar`/`pista` do fichamento: feita em 2026-10-31.)*
+3. **Resolver os 16 `pre_fichamento`.** As fontes são pagas, impressas ou estão fora do ar: Tishken 2009 (3), Brown 1989 (2), Silva & Silva Neto 2025 (2), Verger 1954 (2), Pérez 2013 (2), Ribas 2010 (1, oasisbr fora do ar), Beier 1970, Barnes 1989, Verger 1981 e Carneiro 1948 (1 cada).
+4. **Procurar texto aberto para os `pre_fichamento` restantes**, por exemplo a dissertação de Ribas 2010 em outro espelho e capítulos de Tishken 2009 e Barnes 1989 em repositórios de autores. *(Leitura de Nogueira 2017, Pinheiro 2011 e Costa 2007: feita em 2026-10-31; exu-034 e xango-005 confirmados, ogum-006 corrigido, 7 registros novos.)*
 5. **Fase 2 (restante):** dar fonte às descrições de `data/tradicoes.json` e criar `glossario.json`. Ambos dependem de fichar definições em obra de referência; não redigir sem fonte. *(Esquemas, fichas, grafo, entidades equivalentes, validador, anti-cópia e CI: feitos em 2026-10-31.)*
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
 7. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
@@ -51,6 +51,9 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 - **CI** (`.github/workflows/validar.yml`) roda todos os validadores a cada push e PR.
 - **Conferência de metadados:** Open Library, Internet Archive, Crossref e repositórios institucionais valem como evidência para `conferido_web`; a URL vai em `evidencias`. Divergência de edição ou ano é anotada em `observacoes`, sem trocar o ano citado. WorldCat (429), Gallica (403) e Google Books (cota) não respondem neste ambiente.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
+- **Página nos registros é a página impressa**, não a do PDF. Quando as duas diferem, a relação é anotada no relatório da rodada.
+- **Tradição só entra se a fonte disser.** Exemplo: ogum-006 perdeu `candomble_ketu` porque Pinheiro documenta o sincretismo em casas de Umbanda e a casa de Candomblé estudada é Jeje. Se a fonte diz "candomblé" sem nação, o registro anota a aproximação em `nota`.
+- Fonte primária de registro de 2ª mão (`source_id` com `via_source_id`) também é conferida em catálogo (Open Library etc.) antes de entrar como `fichado`.
 
 ## Sessões em paralelo
 

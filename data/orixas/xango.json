@@ -3,13 +3,36 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/xango.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 29,
-    "registros_pre_fichamento_excluidos": 5,
+    "registros_usados": 30,
+    "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
   "id": "xango",
   "rotulo": "Xangô",
   "atributos": {
+    "nomes": [
+      {
+        "valor": "'xangô' como nome da religião em Pernambuco",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Pernambuco",
+        "sources": [
+          {
+            "id": "costa-2007-xango-pe",
+            "loc": "pp. 199–200",
+            "via": null
+          }
+        ],
+        "source_id": "costa-2007-xango-pe",
+        "via_source_id": null,
+        "localizacao": "pp. 199–200",
+        "parafrase": "Costa explica que, em Pernambuco, a palavra xangô ganhou vários sentidos: nomeia a religião de culto aos orixás, o próprio orixá do trovão, o terreiro e também as festas ou toques ali realizados. Acrescenta que no Nordeste (Alagoas, Paraíba, Rio Grande do Norte e Pernambuco) a religião recebeu esse nome, enquanto na Bahia e no Sudeste prevaleceu 'candomblé'.",
+        "nota": "Segundo a autora (p. 199, nota 1), muitos adeptos, sobretudo os mais jovens, também passaram a usar 'candomblé', porque 'xangô' ficou estigmatizado pela repressão policial dos anos 1930.",
+        "registro": "xango-005",
+        "status": "fichado"
+      }
+    ],
     "origem": [
       {
         "valor": "rei humano divinizado",
@@ -668,9 +691,6 @@
       "tabus"
     ],
     "so_pre_fichamento": {
-      "nomes": [
-        "xango-005"
-      ],
       "interpretacao_academica": [
         "xango-006"
       ]

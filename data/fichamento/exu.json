@@ -2,10 +2,10 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 61,
+    "total": 64,
     "por_status": {
-      "fichado": 60,
-      "pre_fichamento": 1,
+      "fichado": 64,
+      "pre_fichamento": 0,
       "revisado": 0
     }
   },
@@ -659,19 +659,19 @@
       "id": "exu-034",
       "orixa": "exu",
       "atributo": "interpretacao_academica",
-      "valor": "de orixá a egum: ressignificação de Exu na Umbanda",
+      "valor": "de orixá a egum: na Umbanda (e Quimbanda) Exu deixa de ser orixá e passa a ser espírito de pessoa falecida",
       "tradicoes": [
         "umbanda"
       ],
-      "casa_ou_regiao": null,
+      "casa_ou_regiao": "Rio de Janeiro (literatura umbandista, séc. XX)",
       "source_id": "ufg-2017-exu-umbanda",
       "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Tese mostra como o discurso umbandista transformou Exu de orixá em espírito de mortos (egum), distinto do orixá cultuado no Candomblé.",
-      "nota": "Base para a distinção obrigatória Candomblé × Umbanda na ficha.",
-      "status": "pre_fichamento",
+      "localizacao": "p. 9 (resumo); pp. 196, 385",
+      "parafrase": "Nogueira sustenta que, no percurso da África aos terreiros brasileiros, Exu foi reinterpretado: nos terreiros de Umbanda e Quimbanda ele já não é tratado como orixá, e sim como egum, isto é, alma de um morto que se manifesta para ajudar os vivos. Segundo o autor, esse Exu-egum surge sem que desapareça o Exu-orixá dos candomblés mais tradicionais, e a diferença entre o Exu da Umbanda e o do Candomblé foi se acentuando ao longo do século XX, em parte por obra dos escritores umbandistas.",
+      "nota": "Base para a distinção Candomblé × Umbanda na ficha. O autor trata a Quimbanda como parte do campo umbandista (p. 16, nota 2).",
+      "status": "fichado",
       "evidencias": [
-        "https://bdtd.ibict.br/vufind/Record/UFG-2_e1053cd960e7d9b7708f9988dcbb0a4f"
+        "https://repositorio.bc.ufg.br/tede/handle/tede/7148"
       ]
     },
     {
@@ -1204,6 +1204,65 @@
         "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
       ],
       "id": "exu-061"
+    },
+    {
+      "id": "exu-062",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "três estatutos de Exu: orixá (África e alguns candomblés), escravo dos orixás (maioria dos candomblés), egum (Umbanda e Quimbanda)",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "ufg-2017-exu-umbanda",
+      "via_source_id": null,
+      "localizacao": "p. 22, nota 5",
+      "parafrase": "Para Nogueira, Exu acumula três estatutos conforme a religião: é divindade (orixá) entre os iorubás e em parte dos candomblés; na maior parte dos candomblés é tido como escravo ou servidor dos orixás; e nos terreiros de Umbanda e Quimbanda é um egum, espírito de morto. O autor liga a isso a visão negativa que muitos candomblecistas têm da Umbanda, vista como culto aos mortos.",
+      "nota": "A fonte fala em 'candomblés' sem indicar nação; 'candomble_ketu' é aproximação, a conferir na revisão.",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.bc.ufg.br/tede/handle/tede/7148"
+      ]
+    },
+    {
+      "id": "exu-063",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "Exu-egum formado no início do séc. XX, no trânsito entre candomblé baiano, macumbas cariocas e espiritismo; já presente como entidade na 1ª obra umbandista (1933)",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Rio de Janeiro e Salvador",
+      "source_id": "ufg-2017-exu-umbanda",
+      "via_source_id": null,
+      "localizacao": "pp. 384–385",
+      "parafrase": "Nogueira propõe que o Exu entendido como espírito de morto se formou nas primeiras décadas do século XX, na troca entre os terreiros baianos, de onde vinham os orixás, e as macumbas do Rio, onde circulavam ideias espíritas. Quando Leal de Souza publicou a primeira codificação umbandista, em 1933, Exu já aparecia como entidade, ligado a uma 'linha negra' que o autor separava da Umbanda; mesmo assim, em muitos terreiros cariocas Exu era cultuado junto de pretos-velhos e caboclos.",
+      "nota": "Hipótese do autor ('é provável', 'teria se formado'). Leal de Souza (1933) e João de Freitas (1941) não estão no catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.bc.ufg.br/tede/handle/tede/7148"
+      ]
+    },
+    {
+      "id": "exu-064",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "guardião do terreiro: assentamento na entrada afasta maus espíritos",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador), anos 1930–40",
+      "source_id": "landes-1947-city",
+      "via_source_id": "ufg-2017-exu-umbanda",
+      "localizacao": "p. 384",
+      "parafrase": "Apoiado na obra de Ruth Landes (escrita em 1947), Nogueira aponta como nova função de Exu a de vigia do terreiro e dos fiéis: seu assentamento junto à entrada da casa serviria para barrar espíritos ruins que perturbassem os rituais.",
+      "nota": "2ª mão: Nogueira cita Landes pela ed. brasileira de 2002 (A cidade das mulheres), sem página. Converge com exu-039 (Bastide).",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.bc.ufg.br/tede/handle/tede/7148"
+      ]
     }
   ]
 }

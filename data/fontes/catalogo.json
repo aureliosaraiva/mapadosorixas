@@ -1900,9 +1900,11 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Ed. pt 'A cidade das mulheres'.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Ed. pt 'A cidade das mulheres'. | Conferido (2026-10-31) na Open Library: Ruth Landes, 1947 (Macmillan); reed. University of New Mexico Press. Ed. brasileira 'A cidade das mulheres' citada por Nogueira (2017) como 2002.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL2687066W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -2497,9 +2499,11 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Referência para distinguir Umbanda de Candomblé.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Referência para distinguir Umbanda de Candomblé. | Conferido (2026-10-31) na Open Library: Renato Ortiz, 1ª ed. 1978 (Vozes); reedições 1991 (Brasiliense). Pinheiro (2011) cita ed. de 1999.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL2155730W"
+      ],
       "url": null,
       "identificadores": {}
     },

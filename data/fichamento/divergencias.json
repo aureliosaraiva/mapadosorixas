@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 31
+    "total": 32
   },
   "divergencias": [
     {
@@ -629,6 +629,46 @@
     },
     {
       "orixa": "ogum",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "azul-escuro (Ketu); verde e vermelho (nagôs)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 266",
+          "registro": "ogum-021"
+        },
+        {
+          "valor": "verde e vermelho nas festas de Ogum; azul quase ausente",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "João Pessoa (PB): Centro de Umbanda Nossa Senhora do Carmo (Torre), campo de 2011",
+          "fonte": "ufpb-2011-sao-jorge",
+          "via": null,
+          "localizacao": "pp. 69–70",
+          "registro": "ogum-030"
+        },
+        {
+          "valor": "azul (azul-marinho) e verde",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": "Bahia (segundo o autor: candomblé nagô, jeje e ketu)",
+          "fonte": "ufpb-2011-sao-jorge",
+          "via": null,
+          "localizacao": "pp. 69–70",
+          "registro": "ogum-031"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
       "atributo": "dia_semana",
       "versoes": [
         {
@@ -731,6 +771,17 @@
           "via": "prandi-2001-exu-diabo",
           "localizacao": "p. 62",
           "registro": "ogum-002"
+        },
+        {
+          "valor": "linha de Ogum na Umbanda com sete legiões: Matinata, Iara, Beira-Mar, de Lei, Rompe-Mato, Megê e Malê",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "ortiz-r-1978-morte",
+          "via": "ufpb-2011-sao-jorge",
+          "localizacao": "p. 83",
+          "registro": "ogum-033"
         }
       ]
     },
@@ -783,6 +834,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 165",
           "registro": "ogum-029"
+        },
+        {
+          "valor": "capacete e espada em estilo romano (iconografia de São Jorge)",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "João Pessoa (PB)",
+          "fonte": "ufpb-2011-sao-jorge",
+          "via": null,
+          "localizacao": "p. 71",
+          "registro": "ogum-032"
         }
       ]
     },
@@ -790,6 +852,17 @@
       "orixa": "ogum",
       "atributo": "sincretismo",
       "versoes": [
+        {
+          "valor": "São Jorge",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "João Pessoa (PB): gongás de casas de Umbanda, entre elas o Centro de Umbanda Nossa Senhora do Carmo (bairro da Torre)",
+          "fonte": "ufpb-2011-sao-jorge",
+          "via": null,
+          "localizacao": "pp. 34, 36, 83",
+          "registro": "ogum-006"
+        },
         {
           "valor": "São Jorge e São João (calendário de terreiro)",
           "tradicoes": [

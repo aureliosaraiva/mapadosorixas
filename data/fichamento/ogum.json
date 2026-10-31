@@ -2,10 +2,10 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 29,
+    "total": 33,
     "por_status": {
-      "fichado": 23,
-      "pre_fichamento": 6,
+      "fichado": 28,
+      "pre_fichamento": 5,
       "revisado": 0
     }
   },
@@ -113,18 +113,17 @@
       "atributo": "sincretismo",
       "valor": "São Jorge",
       "tradicoes": [
-        "umbanda",
-        "candomble_ketu"
+        "umbanda"
       ],
-      "casa_ou_regiao": "João Pessoa (PB)",
+      "casa_ou_regiao": "João Pessoa (PB): gongás de casas de Umbanda, entre elas o Centro de Umbanda Nossa Senhora do Carmo (bairro da Torre)",
       "source_id": "ufpb-2011-sao-jorge",
       "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Trabalho sobre a figura de São Jorge, associada a Ogum, nos terreiros afro-brasileiros de João Pessoa.",
-      "nota": null,
-      "status": "pre_fichamento",
+      "localizacao": "pp. 34, 36, 83",
+      "parafrase": "Pinheiro observa que, em João Pessoa, a ligação entre Ogum e São Jorge é forte a ponto de imagens do santo aparecerem habitualmente nos gongás (oratórios) das casas de Umbanda, ao lado de santos e orixás; no terreiro da Torre a imagem circula tanto no espaço da Jurema quanto no dos orixás. Uma filha de Ogum da casa resume a relação dizendo que Ogum é São Jorge.",
+      "nota": "Corrigido: o registro trazia 'candomble_ketu', que a fonte não sustenta. As duas casas estudadas são um terreiro de Umbanda (Torre) e um de Candomblé de nação Jeje (Kwe Ceja Azirin, Valentina, p. 39); a p. 34 fala também em 'gongás de iniciados' sem indicar nação. Fonte de nível C (mestrado em Linguística).",
+      "status": "fichado",
       "evidencias": [
-        "https://repositorio.ufpb.br/jspui/handle/tede/6454"
+        "https://repositorio.ufpb.br/jspui/bitstream/tede/6454/1/arquivototal.pdf"
       ]
     },
     {
@@ -571,6 +570,83 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ogum-030",
+      "orixa": "ogum",
+      "atributo": "cores",
+      "valor": "verde e vermelho nas festas de Ogum; azul quase ausente",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "João Pessoa (PB): Centro de Umbanda Nossa Senhora do Carmo (Torre), campo de 2011",
+      "source_id": "ufpb-2011-sao-jorge",
+      "via_source_id": null,
+      "localizacao": "pp. 69–70",
+      "parafrase": "No terreiro de Umbanda observado por Pinheiro, as festas de Ogum são dominadas pelo verde e pelo vermelho, e o azul quase não aparece nos fios de contas, embora esteja nas paredes da casa. O autor levanta a hipótese de que o vermelho venha da associação com São Jorge, cuja bandeira leva essa cor.",
+      "nota": "Hipótese do autor sobre o vermelho. Comparar com ogum-021 (Chiousse: verde e vermelho entre os nagôs).",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.ufpb.br/jspui/bitstream/tede/6454/1/arquivototal.pdf"
+      ]
+    },
+    {
+      "id": "ogum-031",
+      "orixa": "ogum",
+      "atributo": "cores",
+      "valor": "azul (azul-marinho) e verde",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_jeje"
+      ],
+      "casa_ou_regiao": "Bahia (segundo o autor: candomblé nagô, jeje e ketu)",
+      "source_id": "ufpb-2011-sao-jorge",
+      "via_source_id": null,
+      "localizacao": "pp. 69–70",
+      "parafrase": "Pinheiro afirma que, no Candomblé, Ogum é tradicionalmente representado pelo azul, ligado a uma conta africana azul-escura chamada segui, e que nas casas baianas de nação nagô, jeje e ketu predominam o azul-marinho e o verde.",
+      "nota": "Afirmação do autor sem fonte explícita no trecho; fonte de nível C. Ver ogum-021 (Chiousse: azul-escuro no Ketu).",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.ufpb.br/jspui/bitstream/tede/6454/1/arquivototal.pdf"
+      ]
+    },
+    {
+      "id": "ogum-032",
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "valor": "capacete e espada em estilo romano (iconografia de São Jorge)",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "João Pessoa (PB)",
+      "source_id": "ufpb-2011-sao-jorge",
+      "via_source_id": null,
+      "localizacao": "p. 71",
+      "parafrase": "Segundo Pinheiro, nas performances de Ogum em João Pessoa é comum o uso de capacete e espada de estilo romano, traço que ele atribui à entrada da simbologia europeia de São Jorge; a espada difere do formato africano fotografado por Verger em aldeias iorubás.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.ufpb.br/jspui/bitstream/tede/6454/1/arquivototal.pdf"
+      ]
+    },
+    {
+      "id": "ogum-033",
+      "orixa": "ogum",
+      "atributo": "qualidades",
+      "valor": "linha de Ogum na Umbanda com sete legiões: Matinata, Iara, Beira-Mar, de Lei, Rompe-Mato, Megê e Malê",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "ortiz-r-1978-morte",
+      "via_source_id": "ufpb-2011-sao-jorge",
+      "localizacao": "p. 83",
+      "parafrase": "Pinheiro, seguindo Renato Ortiz, descreve a linha de Ogum na Umbanda como dividida em sete legiões, cada uma subdividida em falanges, com nomes como Ogum Beira-Mar, Ogum Iara e Ogum Rompe-Mato. Em João Pessoa, porém, os praticantes ouvidos pelo autor conheciam pouco essa classificação.",
+      "nota": "2ª mão: Pinheiro cita Ortiz pela ed. de 1999, sem página para a lista. Ortiz (1978) está 'a_verificar' no catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.ufpb.br/jspui/bitstream/tede/6454/1/arquivototal.pdf"
       ]
     }
   ]
