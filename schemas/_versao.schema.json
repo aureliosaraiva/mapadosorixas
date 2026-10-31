@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/_versao.schema.json",
+  "title": "Versão de um valor factual",
+  "description": "Regra estrutural do projeto: todo valor factual é uma lista de versões. Divergências aparecem como várias versões, sem hierarquia entre elas. Cada versão vem de um registro de fichamento 'fichado' ou 'revisado'.",
+  "type": "object",
+  "required": ["valor", "tradicoes", "casa_ou_regiao", "sources", "source_id", "via_source_id", "localizacao", "registro", "status"],
+  "properties": {
+    "valor": { "type": "string", "minLength": 1 },
+    "tradicoes": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[a-z_]+$" } },
+    "casa_ou_regiao": { "type": ["string", "null"] },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "loc"],
+        "properties": {
+          "id": { "type": "string", "description": "id da fonte no catálogo (data/fontes/catalogo.json)" },
+          "loc": { "type": "string", "minLength": 1, "description": "página/capítulo" },
+          "via": { "type": ["string", "null"], "description": "fonte intermediária efetivamente lida, quando a afirmação é de 2ª mão" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_id": { "type": "string" },
+    "via_source_id": { "type": ["string", "null"] },
+    "localizacao": { "type": "string", "minLength": 1 },
+    "parafrase": { "type": "string" },
+    "nota": { "type": ["string", "null"] },
+    "registro": { "type": "string", "pattern": "^[a-z]+-[0-9]{3}$", "description": "id do registro de fichamento de origem" },
+    "status": { "enum": ["fichado", "revisado"] }
+  },
+  "additionalProperties": false
+}

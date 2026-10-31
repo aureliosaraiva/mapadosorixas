@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "descricao": "Mapa manual: para cada registro de fichamento de parentesco, equivalencias ou sincretismo, quais arestas ele sustenta. É só a leitura estruturada do campo 'valor' do registro — não acrescentar alvo que o valor não diga. Usado por scripts/gerar_fichas.py para gerar data/conexoes.json. 'tradicoes' numa aresta restringe as tradições do registro (ex.: parte do valor vale só para Cuba). Registros sem entrada aqui são listados como 'sem_mapa' pelo gerador.",
+    "convencoes": "parentesco/filho_de: origem é filho(a) do destino. irmao_de, conjuge_de e companheiro_de_culto são simétricas. Nós que não são orixás levam prefixo: vodum:, inquice:, nome:, santo:, figura:, entidade:."
+  },
+  "nos": {
+    "exu": {"rotulo": "Exu", "tipo": "orixa"},
+    "ogum": {"rotulo": "Ogum", "tipo": "orixa"},
+    "oxossi": {"rotulo": "Oxóssi", "tipo": "orixa"},
+    "xango": {"rotulo": "Xangô", "tipo": "orixa"},
+    "iemanja": {"rotulo": "Iemanjá", "tipo": "orixa"},
+    "oxala": {"rotulo": "Oxalá", "tipo": "orixa"},
+    "iansa": {"rotulo": "Iansã", "tipo": "orixa"},
+    "oba": {"rotulo": "Obá", "tipo": "orixa"},
+    "oxum": {"rotulo": "Oxum", "tipo": "orixa"},
+    "vodum:legba": {"rotulo": "Legba / Elegbara", "tipo": "vodum"},
+    "inquice:dandalunda": {"rotulo": "Dandalunda", "tipo": "inquice"},
+    "inquice:quissimbe": {"rotulo": "Quissimbe", "tipo": "inquice"},
+    "inquice:kayala": {"rotulo": "Kayala", "tipo": "inquice"},
+    "nome:tiriri": {"rotulo": "Tiriri", "tipo": "nome_fon_ou_banto"},
+    "nome:jelebara": {"rotulo": "Jelebara", "tipo": "nome_fon_ou_banto"},
+    "nome:jiguidi": {"rotulo": "Jiguidi", "tipo": "nome_fon_ou_banto"},
+    "nome:mavambo": {"rotulo": "Mavambo", "tipo": "nome_fon_ou_banto"},
+    "nome:emberequete": {"rotulo": "Emberequetê", "tipo": "nome_fon_ou_banto"},
+    "nome:sinza-muzila": {"rotulo": "Sinza Muzila", "tipo": "nome_fon_ou_banto"},
+    "nome:barabo": {"rotulo": "Barabô", "tipo": "nome_fon_ou_banto"},
+    "entidade:caboclos": {"rotulo": "Caboclos", "tipo": "entidade"},
+    "entidade:espiritos-dos-mortos": {"rotulo": "Espíritos dos mortos (encostos, eguns)", "tipo": "entidade"},
+    "figura:diabo": {"rotulo": "Diabo", "tipo": "figura_crista"},
+    "figura:menino-jesus": {"rotulo": "Menino Jesus", "tipo": "figura_crista"},
+    "santo:sao-bartolomeu": {"rotulo": "São Bartolomeu", "tipo": "santo_catolico"},
+    "santo:santo-antonio": {"rotulo": "Santo Antônio", "tipo": "santo_catolico"},
+    "santo:sao-gabriel": {"rotulo": "São Gabriel", "tipo": "santo_catolico"},
+    "santo:sao-pedro": {"rotulo": "São Pedro", "tipo": "santo_catolico"},
+    "santo:sao-benedito": {"rotulo": "São Benedito", "tipo": "santo_catolico"},
+    "santo:sao-jorge": {"rotulo": "São Jorge", "tipo": "santo_catolico"},
+    "santo:sao-joao": {"rotulo": "São João", "tipo": "santo_catolico"},
+    "santo:sao-sebastiao": {"rotulo": "São Sebastião", "tipo": "santo_catolico"},
+    "santo:sao-jeronimo": {"rotulo": "São Jerônimo", "tipo": "santo_catolico"},
+    "santo:nossa-senhora": {"rotulo": "Nossa Senhora", "tipo": "santo_catolico"},
+    "santo:virgem-maria": {"rotulo": "Virgem Maria", "tipo": "santo_catolico"},
+    "santo:ns-conceicao": {"rotulo": "Nossa Senhora da (Imaculada) Conceição", "tipo": "santo_catolico"},
+    "santo:ns-candeias": {"rotulo": "Nossa Senhora das Candeias", "tipo": "santo_catolico"},
+    "santo:ns-navegantes": {"rotulo": "Nossa Senhora dos Navegantes", "tipo": "santo_catolico"},
+    "santo:ns-piedade": {"rotulo": "Nossa Senhora da Piedade", "tipo": "santo_catolico"},
+    "santo:ns-cabecas": {"rotulo": "Nossa Senhora das Cabeças", "tipo": "santo_catolico"}
+  },
+  "registros": {
+    "exu-001": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
+    "exu-015": [{"tipo": "sincretismo", "destino": "figura:diabo"}],
+    "exu-023": [
+      {"tipo": "equivalencia", "destino": "nome:tiriri"},
+      {"tipo": "equivalencia", "destino": "nome:jelebara"},
+      {"tipo": "equivalencia", "destino": "nome:jiguidi"},
+      {"tipo": "equivalencia", "destino": "nome:mavambo"},
+      {"tipo": "equivalencia", "destino": "nome:emberequete"},
+      {"tipo": "equivalencia", "destino": "nome:sinza-muzila"},
+      {"tipo": "equivalencia", "destino": "nome:barabo"}
+    ],
+    "exu-040": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
+    "exu-044": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
+    "exu-045": [
+      {"tipo": "sincretismo", "destino": "santo:sao-bartolomeu"},
+      {"tipo": "sincretismo", "destino": "santo:santo-antonio"},
+      {"tipo": "sincretismo", "destino": "santo:sao-gabriel"},
+      {"tipo": "sincretismo", "destino": "santo:sao-pedro"}
+    ],
+    "exu-055": [
+      {"tipo": "sincretismo", "destino": "figura:menino-jesus", "tradicoes": ["lucumi"]},
+      {"tipo": "sincretismo", "destino": "santo:santo-antonio", "tradicoes": ["candomble_ketu", "umbanda"]},
+      {"tipo": "sincretismo", "destino": "santo:sao-gabriel", "tradicoes": ["candomble_ketu", "umbanda"]},
+      {"tipo": "sincretismo", "destino": "santo:sao-benedito", "tradicoes": ["candomble_ketu", "umbanda"]},
+      {"tipo": "sincretismo", "destino": "santo:sao-pedro", "tradicoes": ["candomble_ketu", "umbanda"]}
+    ],
+    "exu-056": [
+      {"tipo": "sincretismo", "destino": "figura:diabo"},
+      {"tipo": "sincretismo", "destino": "entidade:espiritos-dos-mortos"}
+    ],
+    "ogum-013": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "oxossi"}],
+    "ogum-014": [
+      {"tipo": "sincretismo", "destino": "santo:sao-jorge"},
+      {"tipo": "sincretismo", "destino": "santo:sao-joao"}
+    ],
+    "ogum-019": [{"tipo": "sincretismo", "destino": "santo:sao-jorge"}],
+    "oxossi-001": [
+      {"tipo": "companheiro_de_culto", "destino": "ogum"},
+      {"tipo": "companheiro_de_culto", "destino": "exu"},
+      {"tipo": "companheiro_de_culto", "origem": "ogum", "destino": "exu"}
+    ],
+    "oxossi-010": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "ogum"}],
+    "oxossi-015": [{"tipo": "sincretismo", "destino": "santo:sao-sebastiao"}],
+    "oxossi-021": [{"tipo": "associacao", "subtipo": "senhor_de", "destino": "entidade:caboclos"}],
+    "xango-012": [{"tipo": "sincretismo", "destino": "santo:sao-jeronimo"}],
+    "xango-014": [
+      {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "iansa"},
+      {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oba"},
+      {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oxum"}
+    ],
+    "xango-022": [
+      {"tipo": "parentesco", "subtipo": "filho_de", "destino": "iemanja"},
+      {"tipo": "parentesco", "subtipo": "filho_de", "destino": "oxala"},
+      {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "iansa"},
+      {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oba"},
+      {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oxum"}
+    ],
+    "xango-026": [
+      {"tipo": "sincretismo", "destino": "santo:sao-jeronimo"},
+      {"tipo": "sincretismo", "destino": "santo:sao-joao"}
+    ],
+    "iemanja-001": [{"tipo": "sincretismo", "destino": "santo:nossa-senhora"}],
+    "iemanja-012": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "oxala"}],
+    "iemanja-013": [{"tipo": "sincretismo", "destino": "santo:ns-conceicao"}],
+    "iemanja-015": [
+      {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oxala"},
+      {"tipo": "parentesco", "subtipo": "filho_de", "origem": "xango", "destino": "iemanja"}
+    ],
+    "iemanja-016": [{"tipo": "sincretismo", "destino": "santo:virgem-maria"}],
+    "iemanja-042": [
+      {"tipo": "equivalencia", "destino": "inquice:dandalunda"},
+      {"tipo": "equivalencia", "destino": "inquice:quissimbe"},
+      {"tipo": "equivalencia", "destino": "inquice:kayala"}
+    ],
+    "iemanja-045": [
+      {"tipo": "sincretismo", "destino": "santo:ns-candeias"},
+      {"tipo": "sincretismo", "destino": "santo:ns-navegantes"},
+      {"tipo": "sincretismo", "destino": "santo:ns-conceicao"},
+      {"tipo": "sincretismo", "destino": "santo:ns-piedade"},
+      {"tipo": "sincretismo", "destino": "santo:ns-cabecas"},
+      {"tipo": "sincretismo", "destino": "santo:virgem-maria"}
+    ]
+  }
+}

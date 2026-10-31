@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/orixa.schema.json",
+  "title": "Ficha de orixá",
+  "description": "Gerada por scripts/gerar_fichas.py a partir de data/fichamento/<orixa>.json. Não editar à mão: corrigir o fichamento e regenerar.",
+  "type": "object",
+  "required": ["_meta", "id", "rotulo", "atributos", "pendencias", "revisao"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["gerado_por", "fichamento", "registros_usados", "registros_pre_fichamento_excluidos"],
+      "properties": {
+        "gerado_por": { "type": "string" },
+        "fichamento": { "type": "string" },
+        "aviso": { "type": "string" },
+        "registros_usados": { "type": "integer", "minimum": 0 },
+        "registros_pre_fichamento_excluidos": { "type": "integer", "minimum": 0 },
+        "registros_retidos": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "id": { "enum": ["exu", "ogum", "oxossi", "xango", "iemanja"] },
+    "rotulo": { "type": "string", "description": "Rótulo de exibição em pt-BR (grafia usual no Brasil). Os nomes por tradição ficam em atributos.nomes." },
+    "atributos": {
+      "type": "object",
+      "description": "Chaves = atributos do fichamento (ver schemas/fichamento.schema.json). Só aparecem atributos com ao menos uma versão.",
+      "propertyNames": {
+        "enum": ["nomes", "origem", "dominios", "funcoes", "elementos", "cores", "dia_semana", "saudacao", "simbolos", "alimentos", "animais", "qualidades", "parentesco", "equivalencias", "sincretismo", "itans", "tabus", "festas", "historia_culto", "iconografia", "interpretacao_academica"]
+      },
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "$ref": "_versao.schema.json" }
+      }
+    },
+    "pendencias": {
+      "type": "object",
+      "required": ["sem_registro", "so_pre_fichamento", "retidos_ate_conselho"],
+      "properties": {
+        "sem_registro": { "type": "array", "items": { "type": "string" }, "description": "atributos sem nenhum registro no fichamento" },
+        "so_pre_fichamento": {
+          "type": "object",
+          "description": "atributos cujos únicos registros estão em pre_fichamento (não lidos na fonte): atributo → ids dos registros",
+          "additionalProperties": { "type": "array", "items": { "type": "string" } }
+        },
+        "retidos_ate_conselho": {
+          "type": "object",
+          "description": "atributos fichados mas mantidos fora da ficha pública até decisão do conselho consultivo (tabus, alimentos): atributo → ids",
+          "additionalProperties": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "additionalProperties": false
+    },
+    "revisao": {
+      "type": "array",
+      "description": "Aprovações do conselho (Fase 4): quem, quando, tradição; nome público só com consentimento.",
+      "items": {
+        "type": "object",
+        "required": ["revisor", "data", "tradicao"],
+        "properties": {
+          "revisor": { "type": "string" },
+          "data": { "type": "string", "format": "date" },
+          "tradicao": { "type": "string" },
+          "nome_publico": { "type": "boolean" },
+          "observacoes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,547 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/ogum.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 23,
+    "registros_pre_fichamento_excluidos": 6,
+    "registros_retidos": 0
+  },
+  "id": "ogum",
+  "rotulo": "Ogum",
+  "atributos": {
+    "dominios": [
+      {
+        "valor": "patrono dos ferreiros; divindade 'do ar livre'",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 123",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 123",
+        "parafrase": "Ogum é o patrono dos ferreiros; com Oxóssi, é uma divindade 'do ar livre', cujas pedras ficam fora do peji.",
+        "nota": null,
+        "registro": "ogum-012",
+        "status": "fichado"
+      },
+      {
+        "valor": "ferro e aço; ferreiros, agricultores, cirurgiões e todos que usam instrumentos de metal",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 266",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 266",
+        "parafrase": "Ogum é o orixá do ferro e do aço e de todos que trabalham com instrumentos de metal, de ferreiros e agricultores a cirurgiões.",
+        "nota": null,
+        "registro": "ogum-017",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "ferro",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 226",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 226",
+        "parafrase": "No mito da distribuição dos elementos, Ogum recebe o ferro.",
+        "nota": null,
+        "registro": "ogum-016",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "azul-escuro (Ketu); verde e vermelho (nagôs)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 266",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 266",
+        "parafrase": "A cor de Ogum é o azul-escuro nos candomblés Ketu, e verde e vermelho entre os nagôs.",
+        "nota": "A própria fonte já registra a DIVERGÊNCIA entre casas; 'nagôs' aqui = denominação usada pelos informantes.",
+        "registro": "ogum-021",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "quinta-feira (com Oxóssi)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 120",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 120",
+        "parafrase": "Na ordem baiana mais comum, Ogum divide a quinta-feira com Oxóssi.",
+        "nota": "DIVERGÊNCIA: no Opô Afonjá, Ogum fica na terça (p. 127); em muitas fontes atuais, terça.",
+        "registro": "ogum-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "terça-feira (com Nanã e Oxumarê)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 127",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 127",
+        "parafrase": "No Opô Afonjá, a terça-feira é o dia de Ogum, ao lado de Nanã e Oxumarê.",
+        "nota": "Bastide relaciona essa ordem à semana africana de quatro dias (Exu, Ogum, Xangô, Obatalá).",
+        "registro": "ogum-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "quinta-feira",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79",
+        "parafrase": "Em Porto Alegre, a quinta-feira é de Ogum.",
+        "nota": null,
+        "registro": "ogum-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "semana iorubá de 4 dias: Ogum ao norte",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "África iorubá (esquema de Frobenius, citado por Bastide)",
+        "sources": [
+          {
+            "id": "frobenius-1912-afrika",
+            "loc": "ed. pt 1961, p. 127",
+            "via": "bastide-1958-candomble"
+          }
+        ],
+        "source_id": "frobenius-1912-afrika",
+        "via_source_id": "bastide-1958-candomble",
+        "localizacao": "ed. pt 1961, p. 127",
+        "parafrase": "No esquema de Frobenius citado por Bastide, Ogum corresponde ao dia ligado ao norte.",
+        "nota": "Fonte colonial; conferir.",
+        "registro": "ogum-015",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "emblema de ferro com 7, 14 ou 21 pontas",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 266",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 266",
+        "parafrase": "Ogum porta um emblema de ferro do qual saem sete, catorze ou vinte e uma pontas metálicas.",
+        "nota": null,
+        "registro": "ogum-022",
+        "status": "fichado"
+      },
+      {
+        "valor": "espada-de-ogum / espada-de-são-jorge (Sansevieria) — uso litúrgico",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 267",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 267",
+        "parafrase": "A planta espada-de-ogum ou de-são-jorge enfeita altar e terreiro nas festas de Ogum e entra nos banhos de seus filhos; os sacerdotes consultados não lhe atribuíam virtude terapêutica.",
+        "nota": null,
+        "registro": "ogum-023",
+        "status": "fichado"
+      },
+      {
+        "valor": "espada-de-ogum ligada à guerra pela forma",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 192",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 192",
+        "parafrase": "A planta espada-de-ogum pertence ao deus da guerra por causa da forma, não por propriedades medicinais; Bastide insiste que o uso religioso das plantas não segue o uso terapêutico.",
+        "nota": "Sem contradição: na p. 165 Bastide registra a função terapêutica (diurética) e o uso em banhos dos filhos de Ogum; na p. 192 explica que o vínculo religioso vem da forma. Chiousse (p. 267) cita a ed. francesa (1958, p. 117).",
+        "registro": "ogum-027",
+        "status": "fichado"
+      },
+      {
+        "valor": "espada-de-ogum (Sansevieria): banhos de amaci dos filhos de Ogum; uso terapêutico diurético",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 165",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 165",
+        "parafrase": "Na lista de plantas, a espada-de-ogum aparece usada nos banhos de amaci dos filhos de Ogum e, ao que parece, nos de iniciação; como uso terapêutico, Bastide anota a ação diurética.",
+        "nota": null,
+        "registro": "ogum-029",
+        "status": "fichado"
+      }
+    ],
+    "qualidades": [
+      {
+        "valor": "Ogum Xoroquê — qualidade ligada a Exu",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "prandi-2001-exu-diabo",
+            "loc": "p. 62",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2001-exu-diabo",
+        "via_source_id": null,
+        "localizacao": "p. 62",
+        "parafrase": "Ogum Xoroquê é descrito como uma qualidade de Ogum com fortes ligações com Exu, para a qual eram iniciados os apontados como filhos de Exu.",
+        "nota": null,
+        "registro": "ogum-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ogunjá — Ogum que mora com Oxóssi e Exu e come comida crua",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "carneiro-1948-candombles",
+            "loc": "p. 62",
+            "via": "prandi-2001-exu-diabo"
+          }
+        ],
+        "source_id": "carneiro-1948-candombles",
+        "via_source_id": "prandi-2001-exu-diabo",
+        "localizacao": "p. 62",
+        "parafrase": "Carneiro descreveu Ogunjá como um Ogum que vive junto de Oxóssi e Exu e se alimenta de comida crua.",
+        "nota": "Carneiro (1954, p. 77).",
+        "registro": "ogum-002",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "irmão de Oxóssi",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 123, nota 91",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 123, nota 91",
+        "parafrase": "Ogum e Oxóssi são irmãos segundo um mito citado por Bastide.",
+        "nota": "Mito em Ribeiro (1952, p. 49).",
+        "registro": "ogum-013",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "São Jorge e São João (calendário de terreiro)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 105, nota",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 105, nota",
+        "parafrase": "No mesmo calendário de terreiro, Ogum aparece associado a São Jorge e a São João (24 de junho).",
+        "nota": "OCR do trecho confuso; confirmar datas no exemplar.",
+        "registro": "ogum-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Jorge",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 266",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 266",
+        "parafrase": "Ogum é geralmente associado a São Jorge.",
+        "nota": null,
+        "registro": "ogum-019",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "23 de abril ou 13 de junho",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 266",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 266",
+        "parafrase": "Ogum é festejado em 23 de abril ou em 13 de junho.",
+        "nota": null,
+        "registro": "ogum-020",
+        "status": "fichado"
+      },
+      {
+        "valor": "no xiré, costuma vir entre os primeiros (divindades jovens e violentas)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 26",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 26",
+        "parafrase": "Na ordem dos cânticos, muitas vezes se começa pelas divindades mais jovens ou mais impetuosas, como Ogum, indo depois às mais velhas e calmas; cada orixá recebe no mínimo três cânticos.",
+        "nota": "O próprio autor ressalva que a ordem intermediária do xiré varia muito.",
+        "registro": "ogum-025",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "'pedra de Ogum' fora do terreiro (fim do séc. XIX)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "nina-rodrigues-1900-animisme",
+            "loc": "ed. pt 1961, p. 91–92",
+            "via": "bastide-1958-candomble"
+          }
+        ],
+        "source_id": "nina-rodrigues-1900-animisme",
+        "via_source_id": "bastide-1958-candomble",
+        "localizacao": "ed. pt 1961, p. 91–92",
+        "parafrase": "Nina Rodrigues descreveu uma grande pedra à beira de uma estrada, perto de Salvador, consagrada a Ogum e cuidada por uma ialorixá, onde se deixavam restos de oferendas; ali foi depositada, por ordem de Ogum manifestado, a arma de um homem que tentara matar a esposa.",
+        "nota": "Nina Rodrigues, Animismo, pp. 47–49. Bastide acrescenta que antigamente se ofereciam ao peji de Ogum as armas usadas em crimes.",
+        "registro": "ogum-026",
+        "status": "fichado"
+      }
+    ],
+    "iconografia": [
+      {
+        "valor": "guerreiro colérico na dança; rosto contraído em traços duros",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 30, 182",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 30, 182",
+        "parafrase": "Na dança e no transe, Ogum aparece como guerreiro tomado de cólera, com o rosto contraído em traços duros.",
+        "nota": null,
+        "registro": "ogum-024",
+        "status": "fichado"
+      }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "guerreiro, mas força disciplinada; senso de equidade",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 266",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 266",
+        "parafrase": "Como Xangô, Ogum é guerreiro, mas representa a força disciplinada e obediente; por seu senso de justiça é invocado em processos.",
+        "nota": null,
+        "registro": "ogum-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "divindade 'de luta' (classificação dos perfumes das folhas)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 191",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 191",
+        "parafrase": "Na correspondência entre perfumes de folhas e caráter dos orixás, Ogum é a divindade da luta (Oxalá, da purificação; Oxum, da sensualidade).",
+        "nota": null,
+        "registro": "ogum-028",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "nomes",
+      "origem",
+      "funcoes",
+      "saudacao",
+      "alimentos",
+      "animais",
+      "itans",
+      "tabus"
+    ],
+    "so_pre_fichamento": {
+      "equivalencias": [
+        "ogum-003"
+      ]
+    },
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

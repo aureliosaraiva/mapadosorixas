@@ -57,7 +57,8 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | 🔴 | 95 fontes com status `a_verificar` e 13 `pista` no catálogo | conferir no WorldCat, ISBN ou DOI, começando pelas usadas no fichamento | P2 |
 | 🔴 | Lista completa da Coleção Orixás (Pallas) | site ou contato com a editora | P2 |
 | 🔴 | Revisão das fichas por praticantes e pesquisadores | formar o conselho consultivo (Fase 4 do plano) | **P1** |
-| 🔴 | Decidir o que é público em "tabus" e "alimentos" | conselho consultivo | P1 |
+| 🔴 | Decidir o que é público em "tabus" e "alimentos" (hoje retidos das fichas: exu-012, oxossi-018) | conselho consultivo | P1 |
+| 🔴 | Descrições das 19 tradições em `data/tradicoes.json` estão sem fonte (`rascunho_sem_fonte`) | fichar uma obra de referência geral por grupo (Candomblé por nação, Umbanda, religiões regionais, Cuba/Haiti/Trinidad) e revisar com o conselho | P2 |
 
 ## 4. Resolvidos
 

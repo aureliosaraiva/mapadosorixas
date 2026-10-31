@@ -1,0 +1,1909 @@
+{
+  "_meta": {
+    "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
+    "esquema": "schemas/conexao.schema.json",
+    "total_nos": 40,
+    "total_arestas": 43,
+    "por_tipo": {
+      "associacao": 1,
+      "companheiro_de_culto": 3,
+      "equivalencia": 11,
+      "parentesco": 8,
+      "sincretismo": 20
+    }
+  },
+  "nos": [
+    {
+      "id": "entidade:caboclos",
+      "rotulo": "Caboclos",
+      "tipo": "entidade"
+    },
+    {
+      "id": "entidade:espiritos-dos-mortos",
+      "rotulo": "Espíritos dos mortos (encostos, eguns)",
+      "tipo": "entidade"
+    },
+    {
+      "id": "exu",
+      "rotulo": "Exu",
+      "tipo": "orixa"
+    },
+    {
+      "id": "figura:diabo",
+      "rotulo": "Diabo",
+      "tipo": "figura_crista"
+    },
+    {
+      "id": "figura:menino-jesus",
+      "rotulo": "Menino Jesus",
+      "tipo": "figura_crista"
+    },
+    {
+      "id": "iansa",
+      "rotulo": "Iansã",
+      "tipo": "orixa"
+    },
+    {
+      "id": "iemanja",
+      "rotulo": "Iemanjá",
+      "tipo": "orixa"
+    },
+    {
+      "id": "inquice:dandalunda",
+      "rotulo": "Dandalunda",
+      "tipo": "inquice"
+    },
+    {
+      "id": "inquice:kayala",
+      "rotulo": "Kayala",
+      "tipo": "inquice"
+    },
+    {
+      "id": "inquice:quissimbe",
+      "rotulo": "Quissimbe",
+      "tipo": "inquice"
+    },
+    {
+      "id": "nome:barabo",
+      "rotulo": "Barabô",
+      "tipo": "nome_fon_ou_banto"
+    },
+    {
+      "id": "nome:emberequete",
+      "rotulo": "Emberequetê",
+      "tipo": "nome_fon_ou_banto"
+    },
+    {
+      "id": "nome:jelebara",
+      "rotulo": "Jelebara",
+      "tipo": "nome_fon_ou_banto"
+    },
+    {
+      "id": "nome:jiguidi",
+      "rotulo": "Jiguidi",
+      "tipo": "nome_fon_ou_banto"
+    },
+    {
+      "id": "nome:mavambo",
+      "rotulo": "Mavambo",
+      "tipo": "nome_fon_ou_banto"
+    },
+    {
+      "id": "nome:sinza-muzila",
+      "rotulo": "Sinza Muzila",
+      "tipo": "nome_fon_ou_banto"
+    },
+    {
+      "id": "nome:tiriri",
+      "rotulo": "Tiriri",
+      "tipo": "nome_fon_ou_banto"
+    },
+    {
+      "id": "oba",
+      "rotulo": "Obá",
+      "tipo": "orixa"
+    },
+    {
+      "id": "ogum",
+      "rotulo": "Ogum",
+      "tipo": "orixa"
+    },
+    {
+      "id": "oxala",
+      "rotulo": "Oxalá",
+      "tipo": "orixa"
+    },
+    {
+      "id": "oxossi",
+      "rotulo": "Oxóssi",
+      "tipo": "orixa"
+    },
+    {
+      "id": "oxum",
+      "rotulo": "Oxum",
+      "tipo": "orixa"
+    },
+    {
+      "id": "santo:nossa-senhora",
+      "rotulo": "Nossa Senhora",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:ns-cabecas",
+      "rotulo": "Nossa Senhora das Cabeças",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:ns-candeias",
+      "rotulo": "Nossa Senhora das Candeias",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:ns-conceicao",
+      "rotulo": "Nossa Senhora da (Imaculada) Conceição",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:ns-navegantes",
+      "rotulo": "Nossa Senhora dos Navegantes",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:ns-piedade",
+      "rotulo": "Nossa Senhora da Piedade",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:santo-antonio",
+      "rotulo": "Santo Antônio",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-bartolomeu",
+      "rotulo": "São Bartolomeu",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-benedito",
+      "rotulo": "São Benedito",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-gabriel",
+      "rotulo": "São Gabriel",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-jeronimo",
+      "rotulo": "São Jerônimo",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-joao",
+      "rotulo": "São João",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-jorge",
+      "rotulo": "São Jorge",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-pedro",
+      "rotulo": "São Pedro",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-sebastiao",
+      "rotulo": "São Sebastião",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:virgem-maria",
+      "rotulo": "Virgem Maria",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "vodum:legba",
+      "rotulo": "Legba / Elegbara",
+      "tipo": "vodum"
+    },
+    {
+      "id": "xango",
+      "rotulo": "Xangô",
+      "tipo": "orixa"
+    }
+  ],
+  "arestas": [
+    {
+      "id": "associacao:senhor_de:oxossi>entidade:caboclos",
+      "origem": "oxossi",
+      "destino": "entidade:caboclos",
+      "tipo": "associacao",
+      "subtipo": "senhor_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "senhor dos caboclos (candomblé de caboclo)",
+          "tradicoes": [
+            "umbanda",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 259",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 259",
+          "parafrase": "Nos candomblés de caboclo, Oxóssi torna-se o senhor dos caboclos, espíritos indígenas da floresta.",
+          "nota": null,
+          "registro": "oxossi-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "companheiro_de_culto:exu>ogum",
+      "origem": "exu",
+      "destino": "ogum",
+      "tipo": "companheiro_de_culto",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Oxóssi, Ogum (Ogunjá) e Exu cultuados juntos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "carneiro-1948-candombles",
+              "loc": "p. 62",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "carneiro-1948-candombles",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 62",
+          "parafrase": "Na descrição de Carneiro, Ogunjá 'mora' com Oxóssi e Exu, indicando proximidade de culto entre os três.",
+          "nota": "Carneiro (1954, p. 77); confirmar sentido de 'morar junto' (assentamentos).",
+          "registro": "oxossi-001",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "companheiro_de_culto:exu>oxossi",
+      "origem": "exu",
+      "destino": "oxossi",
+      "tipo": "companheiro_de_culto",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Oxóssi, Ogum (Ogunjá) e Exu cultuados juntos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "carneiro-1948-candombles",
+              "loc": "p. 62",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "carneiro-1948-candombles",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 62",
+          "parafrase": "Na descrição de Carneiro, Ogunjá 'mora' com Oxóssi e Exu, indicando proximidade de culto entre os três.",
+          "nota": "Carneiro (1954, p. 77); confirmar sentido de 'morar junto' (assentamentos).",
+          "registro": "oxossi-001",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "companheiro_de_culto:ogum>oxossi",
+      "origem": "ogum",
+      "destino": "oxossi",
+      "tipo": "companheiro_de_culto",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Oxóssi, Ogum (Ogunjá) e Exu cultuados juntos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "carneiro-1948-candombles",
+              "loc": "p. 62",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "carneiro-1948-candombles",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 62",
+          "parafrase": "Na descrição de Carneiro, Ogunjá 'mora' com Oxóssi e Exu, indicando proximidade de culto entre os três.",
+          "nota": "Carneiro (1954, p. 77); confirmar sentido de 'morar junto' (assentamentos).",
+          "registro": "oxossi-001",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>nome:barabo",
+      "origem": "exu",
+      "destino": "nome:barabo",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>nome:emberequete",
+      "origem": "exu",
+      "destino": "nome:emberequete",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>nome:jelebara",
+      "origem": "exu",
+      "destino": "nome:jelebara",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>nome:jiguidi",
+      "origem": "exu",
+      "destino": "nome:jiguidi",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>nome:mavambo",
+      "origem": "exu",
+      "destino": "nome:mavambo",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>nome:sinza-muzila",
+      "origem": "exu",
+      "destino": "nome:sinza-muzila",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>nome:tiriri",
+      "origem": "exu",
+      "destino": "nome:tiriri",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:exu>vodum:legba",
+      "origem": "exu",
+      "destino": "vodum:legba",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Legba / Elegbara (vodum dos fons)",
+          "tradicoes": [
+            "vodun_benim",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "prandi-2001-exu-diabo",
+              "loc": "p. 47",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2001-exu-diabo",
+          "via_source_id": null,
+          "localizacao": "p. 47",
+          "parafrase": "O orixá Exu dos iorubás corresponde, entre os fons, ao vodum chamado Legba ou Elegbara.",
+          "nota": "Equivalência não é identidade.",
+          "registro": "exu-001",
+          "status": "fichado"
+        },
+        {
+          "valor": "Legba (nome daomeano usado na Bahia)",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_jeje",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 121, nota 84",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 121, nota 84",
+          "parafrase": "Bastide anota que Legba é o nome daomeano de Exu usado na Bahia e associa Exu-Legba ao espaço, seguindo Frobenius.",
+          "nota": null,
+          "registro": "exu-040",
+          "status": "fichado"
+        },
+        {
+          "valor": "Legba (África, Cuba, Haiti)",
+          "tradicoes": [
+            "vodun_benim",
+            "vodou_haiti",
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 289",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 289",
+          "parafrase": "Na África, em Cuba e no Haiti, Exu é reconhecido sobretudo sob o nome de Legba.",
+          "nota": "Generalização da autora; em Cuba o nome mais usual é Elegguá — conferir em fontes lucumís.",
+          "registro": "exu-044",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:iemanja>inquice:dandalunda",
+      "origem": "iemanja",
+      "destino": "inquice:dandalunda",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
+          "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
+          "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:iemanja>inquice:kayala",
+      "origem": "iemanja",
+      "destino": "inquice:kayala",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
+          "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
+          "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:iemanja>inquice:quissimbe",
+      "origem": "iemanja",
+      "destino": "inquice:quissimbe",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
+          "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
+          "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:iansa>xango",
+      "origem": "iansa",
+      "destino": "xango",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "esposas: Iansã (principal), Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 122",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "parafrase": "Xangô tem três esposas — Iansã, a principal e companheira no lançamento dos raios, além de Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-014",
+          "status": "fichado"
+        },
+        {
+          "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 239",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 239",
+          "parafrase": "Pela filiação mais citada, Xangô é filho de Iemanjá e Oxalá e marido de Iansã, Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:iemanja>oxala",
+      "origem": "iemanja",
+      "destino": "oxala",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "esposa de Oxalá; mãe de Xangô; às vezes mãe de todos os orixás (exceto Exu)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 236",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 236",
+          "parafrase": "Iemanjá aparece como esposa de Oxalá e mãe de Xangô; em alguns mitos, todos os dezesseis orixás teriam nascido dela — Exu raramente incluído.",
+          "nota": "DIVERGÊNCIA: outras versões fazem dela mãe dos Ibeji, fruto de incesto com Xangô (mesma página). Comparar com Bastide (filha de Oxalá).",
+          "registro": "iemanja-015",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:oba>xango",
+      "origem": "oba",
+      "destino": "xango",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "esposas: Iansã (principal), Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 122",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "parafrase": "Xangô tem três esposas — Iansã, a principal e companheira no lançamento dos raios, além de Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-014",
+          "status": "fichado"
+        },
+        {
+          "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 239",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 239",
+          "parafrase": "Pela filiação mais citada, Xangô é filho de Iemanjá e Oxalá e marido de Iansã, Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:oxum>xango",
+      "origem": "oxum",
+      "destino": "xango",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "esposas: Iansã (principal), Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 122",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "parafrase": "Xangô tem três esposas — Iansã, a principal e companheira no lançamento dos raios, além de Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-014",
+          "status": "fichado"
+        },
+        {
+          "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 239",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 239",
+          "parafrase": "Pela filiação mais citada, Xangô é filho de Iemanjá e Oxalá e marido de Iansã, Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:iemanja>oxala",
+      "origem": "iemanja",
+      "destino": "oxala",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filha de Oxalá; mãe de vários orixás",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 125",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 125",
+          "parafrase": "Bastide menciona Oxalá como pai de Iemanjá e observa que 'todos os filhos de Iemanjá' aparecem antes dela na semana.",
+          "nota": null,
+          "registro": "iemanja-012",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:xango>iemanja",
+      "origem": "xango",
+      "destino": "iemanja",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 239",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 239",
+          "parafrase": "Pela filiação mais citada, Xangô é filho de Iemanjá e Oxalá e marido de Iansã, Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-022",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposa de Oxalá; mãe de Xangô; às vezes mãe de todos os orixás (exceto Exu)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 236",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 236",
+          "parafrase": "Iemanjá aparece como esposa de Oxalá e mãe de Xangô; em alguns mitos, todos os dezesseis orixás teriam nascido dela — Exu raramente incluído.",
+          "nota": "DIVERGÊNCIA: outras versões fazem dela mãe dos Ibeji, fruto de incesto com Xangô (mesma página). Comparar com Bastide (filha de Oxalá).",
+          "registro": "iemanja-015",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:xango>oxala",
+      "origem": "xango",
+      "destino": "oxala",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 239",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 239",
+          "parafrase": "Pela filiação mais citada, Xangô é filho de Iemanjá e Oxalá e marido de Iansã, Obá e Oxum.",
+          "nota": null,
+          "registro": "xango-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:irmao_de:ogum>oxossi",
+      "origem": "ogum",
+      "destino": "oxossi",
+      "tipo": "parentesco",
+      "subtipo": "irmao_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "irmão de Oxóssi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 123, nota 91",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 123, nota 91",
+          "parafrase": "Ogum e Oxóssi são irmãos segundo um mito citado por Bastide.",
+          "nota": "Mito em Ribeiro (1952, p. 49).",
+          "registro": "ogum-013",
+          "status": "fichado"
+        },
+        {
+          "valor": "irmão de Ogum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 123, nota 91",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 123, nota 91",
+          "parafrase": "Oxóssi e Ogum são irmãos segundo mito citado por Bastide.",
+          "nota": "Mito em Ribeiro (1952, p. 49).",
+          "registro": "oxossi-010",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>entidade:espiritos-dos-mortos",
+      "origem": "exu",
+      "destino": "entidade:espiritos-dos-mortos",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "diabo e espíritos dos mortos ('encostos', 'eguns') — face trickster",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1088",
+              "via": null
+            }
+          ],
+          "source_id": "silva-2012-exu-brasil",
+          "via_source_id": null,
+          "localizacao": "p. 1088",
+          "parafrase": "Quando prevaleceu seu lado trickster, Exu foi associado ao diabo e aos espíritos de mortos que 'fecham caminhos' e precisam ser despachados.",
+          "nota": null,
+          "registro": "exu-056",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>figura:diabo",
+      "origem": "exu",
+      "destino": "figura:diabo",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Diabo (contraponto ao Oxalá-Jesus no modelo bem × mal)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "prandi-2001-exu-diabo",
+              "loc": "p. 51",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2001-exu-diabo",
+          "via_source_id": null,
+          "localizacao": "p. 51",
+          "parafrase": "Para Prandi, o sincretismo não é simples tabela de equivalências: ao encaixar a religião dos orixás no esquema cristão de bem e mal, Olorum foi associado a Deus Pai, Oxalá a Jesus e os demais orixás a santos, e faltava alguém para o lugar do demônio — papel que coube a Exu.",
+          "nota": null,
+          "registro": "exu-015",
+          "status": "fichado"
+        },
+        {
+          "valor": "diabo e espíritos dos mortos ('encostos', 'eguns') — face trickster",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1088",
+              "via": null
+            }
+          ],
+          "source_id": "silva-2012-exu-brasil",
+          "via_source_id": null,
+          "localizacao": "p. 1088",
+          "parafrase": "Quando prevaleceu seu lado trickster, Exu foi associado ao diabo e aos espíritos de mortos que 'fecham caminhos' e precisam ser despachados.",
+          "nota": null,
+          "registro": "exu-056",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>figura:menino-jesus",
+      "origem": "exu",
+      "destino": "figura:menino-jesus",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Menino Jesus (Cuba); Santo Antônio, São Gabriel, São Benedito, São Pedro (Brasil) — face mensageira",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1088",
+              "via": null
+            }
+          ],
+          "source_id": "silva-2012-exu-brasil",
+          "via_source_id": null,
+          "localizacao": "p. 1088",
+          "parafrase": "Quando prevaleceu seu lado de mensageiro, Exu foi associado a mediadores católicos: em Cuba, ao Menino Jesus; no Brasil, a Santo Antônio, São Gabriel, São Benedito e São Pedro, santos ligados a abrir caminhos.",
+          "nota": null,
+          "registro": "exu-055",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>santo:santo-antonio",
+      "origem": "exu",
+      "destino": "santo:santo-antonio",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Bartolomeu, Santo Antônio, São Gabriel ou São Pedro, conforme terreiro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 289",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 289",
+          "parafrase": "Conforme as circunstâncias e o terreiro, Exu é identificado com São Bartolomeu, Santo Antônio, São Gabriel ou até São Pedro.",
+          "nota": "DIVERGÊNCIA com Prandi (2001): associação ao Diabo.",
+          "registro": "exu-045",
+          "status": "fichado"
+        },
+        {
+          "valor": "Menino Jesus (Cuba); Santo Antônio, São Gabriel, São Benedito, São Pedro (Brasil) — face mensageira",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1088",
+              "via": null
+            }
+          ],
+          "source_id": "silva-2012-exu-brasil",
+          "via_source_id": null,
+          "localizacao": "p. 1088",
+          "parafrase": "Quando prevaleceu seu lado de mensageiro, Exu foi associado a mediadores católicos: em Cuba, ao Menino Jesus; no Brasil, a Santo Antônio, São Gabriel, São Benedito e São Pedro, santos ligados a abrir caminhos.",
+          "nota": null,
+          "registro": "exu-055",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>santo:sao-bartolomeu",
+      "origem": "exu",
+      "destino": "santo:sao-bartolomeu",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Bartolomeu, Santo Antônio, São Gabriel ou São Pedro, conforme terreiro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 289",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 289",
+          "parafrase": "Conforme as circunstâncias e o terreiro, Exu é identificado com São Bartolomeu, Santo Antônio, São Gabriel ou até São Pedro.",
+          "nota": "DIVERGÊNCIA com Prandi (2001): associação ao Diabo.",
+          "registro": "exu-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>santo:sao-benedito",
+      "origem": "exu",
+      "destino": "santo:sao-benedito",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Menino Jesus (Cuba); Santo Antônio, São Gabriel, São Benedito, São Pedro (Brasil) — face mensageira",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1088",
+              "via": null
+            }
+          ],
+          "source_id": "silva-2012-exu-brasil",
+          "via_source_id": null,
+          "localizacao": "p. 1088",
+          "parafrase": "Quando prevaleceu seu lado de mensageiro, Exu foi associado a mediadores católicos: em Cuba, ao Menino Jesus; no Brasil, a Santo Antônio, São Gabriel, São Benedito e São Pedro, santos ligados a abrir caminhos.",
+          "nota": null,
+          "registro": "exu-055",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>santo:sao-gabriel",
+      "origem": "exu",
+      "destino": "santo:sao-gabriel",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Bartolomeu, Santo Antônio, São Gabriel ou São Pedro, conforme terreiro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 289",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 289",
+          "parafrase": "Conforme as circunstâncias e o terreiro, Exu é identificado com São Bartolomeu, Santo Antônio, São Gabriel ou até São Pedro.",
+          "nota": "DIVERGÊNCIA com Prandi (2001): associação ao Diabo.",
+          "registro": "exu-045",
+          "status": "fichado"
+        },
+        {
+          "valor": "Menino Jesus (Cuba); Santo Antônio, São Gabriel, São Benedito, São Pedro (Brasil) — face mensageira",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1088",
+              "via": null
+            }
+          ],
+          "source_id": "silva-2012-exu-brasil",
+          "via_source_id": null,
+          "localizacao": "p. 1088",
+          "parafrase": "Quando prevaleceu seu lado de mensageiro, Exu foi associado a mediadores católicos: em Cuba, ao Menino Jesus; no Brasil, a Santo Antônio, São Gabriel, São Benedito e São Pedro, santos ligados a abrir caminhos.",
+          "nota": null,
+          "registro": "exu-055",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:exu>santo:sao-pedro",
+      "origem": "exu",
+      "destino": "santo:sao-pedro",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Bartolomeu, Santo Antônio, São Gabriel ou São Pedro, conforme terreiro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 289",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 289",
+          "parafrase": "Conforme as circunstâncias e o terreiro, Exu é identificado com São Bartolomeu, Santo Antônio, São Gabriel ou até São Pedro.",
+          "nota": "DIVERGÊNCIA com Prandi (2001): associação ao Diabo.",
+          "registro": "exu-045",
+          "status": "fichado"
+        },
+        {
+          "valor": "Menino Jesus (Cuba); Santo Antônio, São Gabriel, São Benedito, São Pedro (Brasil) — face mensageira",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1088",
+              "via": null
+            }
+          ],
+          "source_id": "silva-2012-exu-brasil",
+          "via_source_id": null,
+          "localizacao": "p. 1088",
+          "parafrase": "Quando prevaleceu seu lado de mensageiro, Exu foi associado a mediadores católicos: em Cuba, ao Menino Jesus; no Brasil, a Santo Antônio, São Gabriel, São Benedito e São Pedro, santos ligados a abrir caminhos.",
+          "nota": null,
+          "registro": "exu-055",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:iemanja>santo:nossa-senhora",
+      "origem": "iemanja",
+      "destino": "santo:nossa-senhora",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Nossa Senhora",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "prandi-2001-exu-diabo",
+              "loc": "p. 63",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2001-exu-diabo",
+          "via_source_id": null,
+          "localizacao": "p. 63",
+          "parafrase": "Prandi inclui a transformação de Iemanjá em Nossa Senhora entre os efeitos da cristianização dos orixás no Brasil.",
+          "nota": null,
+          "registro": "iemanja-001",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:iemanja>santo:ns-cabecas",
+      "origem": "iemanja",
+      "destino": "santo:ns-cabecas",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
+          "nota": null,
+          "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:iemanja>santo:ns-candeias",
+      "origem": "iemanja",
+      "destino": "santo:ns-candeias",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
+          "nota": null,
+          "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:iemanja>santo:ns-conceicao",
+      "origem": "iemanja",
+      "destino": "santo:ns-conceicao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Nossa Senhora da Imaculada Conceição (8 de dezembro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 105, nota",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 105, nota",
+          "parafrase": "No calendário de um terreiro baiano citado por Bastide, 8 de dezembro é a festa de Iemanjá, associada à Imaculada Conceição.",
+          "nota": null,
+          "registro": "iemanja-013",
+          "status": "fichado"
+        },
+        {
+          "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
+          "nota": null,
+          "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:iemanja>santo:ns-navegantes",
+      "origem": "iemanja",
+      "destino": "santo:ns-navegantes",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
+          "nota": null,
+          "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:iemanja>santo:ns-piedade",
+      "origem": "iemanja",
+      "destino": "santo:ns-piedade",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
+          "nota": null,
+          "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:iemanja>santo:virgem-maria",
+      "origem": "iemanja",
+      "destino": "santo:virgem-maria",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Virgem Maria (Virgem com o Menino)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 236",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 236",
+          "parafrase": "Por ser vista como mãe dos orixás, Iemanjá é associada à Virgem Maria e representada como a Virgem com o Menino.",
+          "nota": null,
+          "registro": "iemanja-016",
+          "status": "fichado"
+        },
+        {
+          "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
+          "nota": null,
+          "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:ogum>santo:sao-joao",
+      "origem": "ogum",
+      "destino": "santo:sao-joao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Jorge e São João (calendário de terreiro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 105, nota",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 105, nota",
+          "parafrase": "No mesmo calendário de terreiro, Ogum aparece associado a São Jorge e a São João (24 de junho).",
+          "nota": "OCR do trecho confuso; confirmar datas no exemplar.",
+          "registro": "ogum-014",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:ogum>santo:sao-jorge",
+      "origem": "ogum",
+      "destino": "santo:sao-jorge",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Jorge e São João (calendário de terreiro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Centro Africano S. Jorge (Bahia)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 105, nota",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 105, nota",
+          "parafrase": "No mesmo calendário de terreiro, Ogum aparece associado a São Jorge e a São João (24 de junho).",
+          "nota": "OCR do trecho confuso; confirmar datas no exemplar.",
+          "registro": "ogum-014",
+          "status": "fichado"
+        },
+        {
+          "valor": "São Jorge",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 266",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 266",
+          "parafrase": "Ogum é geralmente associado a São Jorge.",
+          "nota": null,
+          "registro": "ogum-019",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxossi>santo:sao-sebastiao",
+      "origem": "oxossi",
+      "destino": "santo:sao-sebastiao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Sebastião",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 259",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 259",
+          "parafrase": "Pelo arco e flechas, Oxóssi é associado a São Sebastião, representado amarrado a uma árvore e crivado de flechas.",
+          "nota": null,
+          "registro": "oxossi-015",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:xango>santo:sao-jeronimo",
+      "origem": "xango",
+      "destino": "santo:sao-jeronimo",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Jerônimo (30 de setembro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Gantois (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 107",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 107",
+          "parafrase": "São Jerônimo, festejado em 30 de setembro, é um dos equivalentes católicos de Xangô; no Gantois, a cerimônia de encerramento do ano (baiani) é feita o mais perto possível dessa data.",
+          "nota": "'Um dos equivalentes': registrar outros (ex.: Santa Bárbara em Cuba) com fonte própria.",
+          "registro": "xango-012",
+          "status": "fichado"
+        },
+        {
+          "valor": "São Jerônimo (pelo carneiro) e São João",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 240",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 240",
+          "parafrase": "Xangô é associado a São Jerônimo, frequentemente representado com um carneiro — animal sacrificado a Xangô — e em algumas casas a São João.",
+          "nota": null,
+          "registro": "xango-026",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:xango>santo:sao-joao",
+      "origem": "xango",
+      "destino": "santo:sao-joao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Jerônimo (pelo carneiro) e São João",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 240",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 240",
+          "parafrase": "Xangô é associado a São Jerônimo, frequentemente representado com um carneiro — animal sacrificado a Xangô — e em algumas casas a São João.",
+          "nota": null,
+          "registro": "xango-026",
+          "status": "fichado"
+        }
+      ]
+    }
+  ]
+}

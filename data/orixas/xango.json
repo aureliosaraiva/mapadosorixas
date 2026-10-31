@@ -1,0 +1,681 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/xango.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 29,
+    "registros_pre_fichamento_excluidos": 5,
+    "registros_retidos": 0
+  },
+  "id": "xango",
+  "rotulo": "Xangô",
+  "atributos": {
+    "origem": [
+      {
+        "valor": "rei humano divinizado",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "prandi-2001-exu-diabo",
+            "loc": "p. 59",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2001-exu-diabo",
+        "via_source_id": null,
+        "localizacao": "p. 59",
+        "parafrase": "Prandi contrasta a humanização de Exu na quimbanda com a trajetória de Xangô, que teria sido um rei de carne e osso antes de ser divinizado.",
+        "nota": null,
+        "registro": "xango-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "terceiro ou quarto alafin de Oyó, divinizado por feitos guerreiros",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 240",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 240",
+        "parafrase": "Xangô é um dos raros orixás com vida humana conhecida: teria sido o terceiro ou o quarto alafin (rei) de Oyó, divinizado por seus feitos de guerreiro.",
+        "nota": "A própria fonte registra a dúvida 3º/4º.",
+        "registro": "xango-021",
+        "status": "fichado"
+      }
+    ],
+    "dominios": [
+      {
+        "valor": "justiça; a morte pelo raio como castigo",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 126, nota 94",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 126, nota 94",
+        "parafrase": "Tanto na Bahia quanto na África, morrer atingido por raio é visto como punição por más ações, e no Brasil Xangô é considerado deus da justiça.",
+        "nota": null,
+        "registro": "xango-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "virilidade, força física, poder; fogo, raio e relâmpago",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 240",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 240",
+        "parafrase": "Xangô representa o homem, a virilidade e a força, e é senhor do fogo, do raio e do relâmpago.",
+        "nota": null,
+        "registro": "xango-023",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "fogo / raio",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 122–123",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 122–123",
+        "parafrase": "Xangô é o deus do raio, e seu dia é o da adoração do fogo.",
+        "nota": null,
+        "registro": "xango-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "trovão, fogo, raio",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 226",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 226",
+        "parafrase": "Num mito de origem conhecido pelos cultos afro-brasileiros, Oxalá distribui os elementos: Xangô recebe o trovão, o fogo e o raio.",
+        "nota": null,
+        "registro": "xango-020",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "vermelho",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 240",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 240",
+        "parafrase": "A cor de Xangô é o vermelho.",
+        "nota": null,
+        "registro": "xango-024",
+        "status": "fichado"
+      },
+      {
+        "valor": "contas alternadas brancas e vermelhas (colar)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 32",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 32",
+        "parafrase": "O colar de cada fiel tem as cores da sua divindade: para Xangô, contas alternadas brancas e vermelhas.",
+        "nota": "Compare com Chiousse (p. 240): vermelho.",
+        "registro": "xango-030",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "quarta-feira (com Iansã)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 120, 123",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 120, 123",
+        "parafrase": "Na Bahia, a quarta-feira pertence a Xangô e a Iansã; Bastide a chama de dia do fogo.",
+        "nota": null,
+        "registro": "xango-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "quarta-feira (com Iansã)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 127",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 127",
+        "parafrase": "No Opô Afonjá, a quarta-feira é de Xangô e de Iansã, sua mulher, associação que também existe na região iorubá.",
+        "nota": null,
+        "registro": "xango-008",
+        "status": "fichado"
+      },
+      {
+        "valor": "terça-feira (com Oiá/Iansã)",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79",
+        "parafrase": "Em Porto Alegre, Xangô e Oiá ficam na terça-feira.",
+        "nota": null,
+        "registro": "xango-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "quinta-feira (Recife)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79",
+        "parafrase": "No Recife, Xangô e sua mulher passam da quarta para a quinta-feira, e a quarta fica para os Ibeji; há ainda variações de casa para casa.",
+        "nota": "Bastide apoia-se em René Ribeiro (1952, p. 113).",
+        "registro": "xango-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "quarta-feira (Gantois, fim do séc. XIX)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+        "sources": [
+          {
+            "id": "nina-rodrigues-1900-animisme",
+            "loc": "ed. pt 1961, p. 106",
+            "via": "bastide-1958-candomble"
+          }
+        ],
+        "source_id": "nina-rodrigues-1900-animisme",
+        "via_source_id": "bastide-1958-candomble",
+        "localizacao": "ed. pt 1961, p. 106",
+        "parafrase": "Na sequência da festa do Gantois registrada por Nina Rodrigues, a quarta-feira era de Xangô.",
+        "nota": null,
+        "registro": "xango-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "semana iorubá de 4 dias: Xangô a oeste",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "África iorubá (esquema de Frobenius, citado por Bastide)",
+        "sources": [
+          {
+            "id": "frobenius-1912-afrika",
+            "loc": "ed. pt 1961, p. 127",
+            "via": "bastide-1958-candomble"
+          }
+        ],
+        "source_id": "frobenius-1912-afrika",
+        "via_source_id": "bastide-1958-candomble",
+        "localizacao": "ed. pt 1961, p. 127",
+        "parafrase": "No esquema de Frobenius citado por Bastide, Xangô corresponde ao dia ligado ao oeste.",
+        "nota": "Fonte colonial; conferir.",
+        "registro": "xango-019",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "baiani: capacete de couro colorido com búzios e guizos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Gantois (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 107, nota 57",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 107, nota 57",
+        "parafrase": "Na cerimônia do baiani os fiéis levam na cabeça um capacete de couro de várias cores, enfeitado com búzios e guizos, ligado a Xangô.",
+        "nota": "Bastide cita Câmara Cascudo e Verger (Notes, pp. 325–6); registra que em Cuba Balani seria irmã de Xangô (Cabrera).",
+        "registro": "xango-013",
+        "status": "fichado"
+      },
+      {
+        "valor": "oxê (machado); metais/matérias: cobre e pedra",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 240",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 240",
+        "parafrase": "Xangô leva sempre uma espécie de machado chamado oxê; suas matérias são o cobre e a pedra.",
+        "nota": null,
+        "registro": "xango-025",
+        "status": "fichado"
+      },
+      {
+        "valor": "otá: pedra de raio",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 90, nota 28",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 90, nota 28",
+        "parafrase": "A pedra consagrada de Xangô é uma pedra de raio.",
+        "nota": "Bastide apoia-se em Oneyda Alvarenga.",
+        "registro": "xango-033",
+        "status": "fichado"
+      }
+    ],
+    "animais": [
+      {
+        "valor": "carneiro (animal sacrificado a Xangô)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 240",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 240",
+        "parafrase": "O carneiro é o animal sacrificado a Xangô, o que explicaria a associação com São Jerônimo.",
+        "nota": "Informação pública geral; não detalhar ritos.",
+        "registro": "xango-029",
+        "status": "fichado"
+      }
+    ],
+    "qualidades": [
+      {
+        "valor": "Agodô e Aganju (velho × jovem), ligados a São Jerônimo e São João",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 241",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 241",
+        "parafrase": "Um pai de santo explicou que as duas associações católicas correspondem a duas qualidades — um Xangô velho e um jovem (Agodô e Aganju) —, mas hesitou ao dizer qual era qual.",
+        "nota": "Exemplo, registrado pela autora, de como a tradição oral varia até dentro de uma mesma fala; útil para a página de metodologia.",
+        "registro": "xango-028",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "esposas: Iansã (principal), Obá e Oxum",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 122",
+        "parafrase": "Xangô tem três esposas — Iansã, a principal e companheira no lançamento dos raios, além de Obá e Oxum.",
+        "nota": null,
+        "registro": "xango-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "filho de Iemanjá e Oxalá; esposo de Iansã, Obá e Oxum",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 239",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 239",
+        "parafrase": "Pela filiação mais citada, Xangô é filho de Iemanjá e Oxalá e marido de Iansã, Obá e Oxum.",
+        "nota": null,
+        "registro": "xango-022",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "São Jerônimo (30 de setembro)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Gantois (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 107",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 107",
+        "parafrase": "São Jerônimo, festejado em 30 de setembro, é um dos equivalentes católicos de Xangô; no Gantois, a cerimônia de encerramento do ano (baiani) é feita o mais perto possível dessa data.",
+        "nota": "'Um dos equivalentes': registrar outros (ex.: Santa Bárbara em Cuba) com fonte própria.",
+        "registro": "xango-012",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Jerônimo (pelo carneiro) e São João",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 240",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 240",
+        "parafrase": "Xangô é associado a São Jerônimo, frequentemente representado com um carneiro — animal sacrificado a Xangô — e em algumas casas a São João.",
+        "nota": null,
+        "registro": "xango-026",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "Iansã rouba a magia de Xangô de lançar fogo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 122–123",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 122–123",
+        "parafrase": "Num mito, Xangô cuspia fogo graças a uma magia que Iansã lhe tomou, passando a imitar o raio com sua espada.",
+        "nota": "DIVERGÊNCIA: no Rio de Janeiro, a versão atribui o roubo a Oxum (fonte citada por Bastide). Mito de origem Frobenius.",
+        "registro": "xango-015",
+        "status": "fichado"
+      },
+      {
+        "valor": "Xangô e Iansã diante dos malês",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife",
+        "sources": [
+          {
+            "id": "ribeiro-1952-recife",
+            "loc": "ed. pt 1961, p. 123",
+            "via": "bastide-1958-candomble"
+          }
+        ],
+        "source_id": "ribeiro-1952-recife",
+        "via_source_id": "bastide-1958-candomble",
+        "localizacao": "ed. pt 1961, p. 123",
+        "parafrase": "Num mito recolhido no Recife, Xangô e Iansã vão à terra dos malês (muçulmanos), que os ignoram; ele lança o raio, ela o relâmpago, e os malês, assustados, reconhecem a chefia de Xangô.",
+        "nota": "Ribeiro (1952, pp. 50–1). Resumo próprio.",
+        "registro": "xango-016",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "24 de junho, 30 de setembro ou 6 de janeiro, conforme o terreiro",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 240",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 240",
+        "parafrase": "A festa de Xangô varia por terreiro: 24 de junho, 30 de setembro ou 6 de janeiro.",
+        "nota": null,
+        "registro": "xango-027",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "'sala do trono de Xangô' nos terreiros",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 90",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 90",
+        "parafrase": "Nos terreiros, o quarto de Xangô pode receber o nome de sala do trono.",
+        "nota": null,
+        "registro": "xango-034",
+        "status": "fichado"
+      }
+    ],
+    "iconografia": [
+      {
+        "valor": "vestido de vermelho e branco na dança",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 30",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 30",
+        "parafrase": "Na dança pública, Xangô aparece vestido de vermelho e branco.",
+        "nota": null,
+        "registro": "xango-031",
+        "status": "fichado"
+      },
+      {
+        "valor": "traços de orgulho real no transe",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 182",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 182",
+        "parafrase": "No transe, o rosto de quem recebe Xangô assume uma expressão de orgulho real.",
+        "nota": null,
+        "registro": "xango-032",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "funcoes",
+      "saudacao",
+      "alimentos",
+      "equivalencias",
+      "tabus"
+    ],
+    "so_pre_fichamento": {
+      "nomes": [
+        "xango-005"
+      ],
+      "interpretacao_academica": [
+        "xango-006"
+      ]
+    },
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

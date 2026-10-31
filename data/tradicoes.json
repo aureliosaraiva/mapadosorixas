@@ -1,0 +1,218 @@
+{
+  "_meta": {
+    "descricao": "Tradições usadas no catálogo e no fichamento (mesmos ids do enum de schemas/fonte.schema.json). Esquema: schemas/tradicao.schema.json. Candomblé (por nação) e Umbanda são religiões distintas e ficam em grupos separados.",
+    "aviso": "Descrições são rascunhos definitórios ainda SEM fonte (status 'rascunho_sem_fonte'); precisam de fonte e revisão antes de publicar. Ver docs/pesquisa/PENDENCIAS.md.",
+    "total": 19
+  },
+  "tradicoes": [
+    {
+      "id": "ioruba_nigeria",
+      "nome": "Culto aos orixás em território iorubá",
+      "grupo": "culto_africano",
+      "nacao": null,
+      "matriz": "iorubá",
+      "regiao": "Nigéria (sudoeste) e regiões vizinhas",
+      "descricao": "Culto aos orixás entre os povos de língua iorubá na África Ocidental, com variação de cidade para cidade; não forma um panteão único.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "benim",
+      "nome": "Benim (rótulo genérico)",
+      "grupo": "culto_africano",
+      "nacao": null,
+      "matriz": null,
+      "regiao": "Benim",
+      "descricao": "Rótulo genérico usado no catálogo para fontes sobre o Benim sem tradição específica. Preferir 'vodun_benim' ou 'ioruba_nigeria' quando possível.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "vodun_benim",
+      "nome": "Culto aos voduns (fon/ewe)",
+      "grupo": "culto_africano",
+      "nacao": null,
+      "matriz": "fon (jeje)",
+      "regiao": "Benim e Togo",
+      "descricao": "Culto aos voduns entre povos fon e ewe; matriz do Candomblé Jeje e do Tambor de Mina.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "kongo",
+      "nome": "Religiosidade bakongo / banto",
+      "grupo": "culto_africano",
+      "nacao": null,
+      "matriz": "banto",
+      "regiao": "África Central (região do antigo Reino do Congo, Angola)",
+      "descricao": "Religiosidade de povos de língua banto da África Central; matriz dos cultos aos inquices.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "candomble_ketu",
+      "nome": "Candomblé Ketu (nação nagô-queto)",
+      "grupo": "candomble",
+      "nacao": "ketu",
+      "matriz": "iorubá",
+      "regiao": "Brasil (Bahia e difusão nacional)",
+      "descricao": "Nação de Candomblé de matriz iorubá; cultua orixás.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "candomble_jeje",
+      "nome": "Candomblé Jeje",
+      "grupo": "candomble",
+      "nacao": "jeje",
+      "matriz": "fon (jeje)",
+      "regiao": "Brasil (Bahia, Recôncavo)",
+      "descricao": "Nação de Candomblé de matriz fon; cultua voduns.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "candomble_angola",
+      "nome": "Candomblé Angola (Angola/Congo)",
+      "grupo": "candomble",
+      "nacao": "angola",
+      "matriz": "banto",
+      "regiao": "Brasil (Bahia e difusão nacional)",
+      "descricao": "Nação de Candomblé de matriz banto; cultua inquices.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "candomble_ijexa",
+      "nome": "Candomblé Ijexá",
+      "grupo": "candomble",
+      "nacao": "ijexa",
+      "matriz": "iorubá",
+      "regiao": "Brasil (Bahia)",
+      "descricao": "Nação de Candomblé de matriz iorubá, ligada à região de Ilexá (Nigéria).",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "candomble_efon",
+      "nome": "Candomblé Efon",
+      "grupo": "candomble",
+      "nacao": "efon",
+      "matriz": "iorubá",
+      "regiao": "Brasil",
+      "descricao": "Nação de Candomblé de matriz iorubá, ligada à região de Efon (Nigéria).",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "xango_pernambuco",
+      "nome": "Xangô de Pernambuco",
+      "grupo": "afro_brasileira_regional",
+      "nacao": null,
+      "matriz": "iorubá",
+      "regiao": "Brasil (Pernambuco)",
+      "descricao": "Religião afro-brasileira de culto aos orixás em Pernambuco; não se confunde com o orixá Xangô.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "xango_sergipe",
+      "nome": "Xangô de Sergipe",
+      "grupo": "afro_brasileira_regional",
+      "nacao": null,
+      "matriz": "iorubá",
+      "regiao": "Brasil (Sergipe)",
+      "descricao": "Religião afro-brasileira de culto aos orixás em Sergipe.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "tambor_de_mina",
+      "nome": "Tambor de Mina",
+      "grupo": "afro_brasileira_regional",
+      "nacao": null,
+      "matriz": "mista",
+      "regiao": "Brasil (Maranhão, Pará)",
+      "descricao": "Religião afro-brasileira do Maranhão, com casas de matriz fon (jeje) e nagô.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "batuque_rs",
+      "nome": "Batuque",
+      "grupo": "afro_brasileira_regional",
+      "nacao": null,
+      "matriz": "iorubá",
+      "regiao": "Brasil (Rio Grande do Sul)",
+      "descricao": "Religião afro-brasileira de culto aos orixás no Rio Grande do Sul, com nações próprias.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "umbanda",
+      "nome": "Umbanda",
+      "grupo": "umbanda",
+      "nacao": null,
+      "matriz": "mista",
+      "regiao": "Brasil",
+      "descricao": "Religião brasileira distinta do Candomblé; incorpora orixás ao lado de entidades (caboclos, pretos-velhos, exus e pombagiras) e elementos do catolicismo e do espiritismo.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "lucumi",
+      "nome": "Santería / Regla de Ocha (Lucumí)",
+      "grupo": "diaspora_caribenha",
+      "nacao": null,
+      "matriz": "iorubá",
+      "regiao": "Cuba e diáspora cubana (EUA, Espanha, América Latina)",
+      "descricao": "Religião afro-cubana de culto aos orichas, de matriz iorubá.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "palo_monte",
+      "nome": "Palo Monte / Regla de Palo",
+      "grupo": "diaspora_caribenha",
+      "nacao": null,
+      "matriz": "banto",
+      "regiao": "Cuba",
+      "descricao": "Religião afro-cubana de matriz banto (Congo).",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "arara",
+      "nome": "Regla Arará",
+      "grupo": "diaspora_caribenha",
+      "nacao": null,
+      "matriz": "fon (jeje)",
+      "regiao": "Cuba",
+      "descricao": "Religião afro-cubana de matriz fon; cultua voduns.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "vodou_haiti",
+      "nome": "Vodou haitiano",
+      "grupo": "diaspora_caribenha",
+      "nacao": null,
+      "matriz": "mista",
+      "regiao": "Haiti e diáspora haitiana",
+      "descricao": "Religião haitiana que cultua os lwa, com matrizes fon, iorubá e banto.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "orisha_trinidad",
+      "nome": "Orisha (Shango) de Trinidad",
+      "grupo": "diaspora_caribenha",
+      "nacao": null,
+      "matriz": "iorubá",
+      "regiao": "Trinidad e Tobago",
+      "descricao": "Culto aos orixás em Trinidad e Tobago, também chamado Shango.",
+      "sources": [],
+      "status": "rascunho_sem_fonte"
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/oxossi.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 23,
+    "registros_pre_fichamento_excluidos": 3,
+    "registros_retidos": 1
+  },
+  "id": "oxossi",
+  "rotulo": "Oxóssi",
+  "atributos": {
+    "origem": [
+      {
+        "valor": "rei de Ketu",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "No itã mais lembrado, Oxóssi foi rei de um grande território africano; em certos candomblés é o rei de Ketu.",
+        "nota": null,
+        "registro": "oxossi-020",
+        "status": "fichado"
+      },
+      {
+        "valor": "caçador, rei de Ketu",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "mosaico-2020-oxossi",
+            "loc": "p. 58",
+            "via": null
+          }
+        ],
+        "source_id": "mosaico-2020-oxossi",
+        "via_source_id": null,
+        "localizacao": "p. 58",
+        "parafrase": "O artigo parte da narrativa de Oxóssi como caçador e rei de Ketu, recontada nas casas de candomblé.",
+        "nota": null,
+        "registro": "oxossi-027",
+        "status": "fichado"
+      }
+    ],
+    "dominios": [
+      {
+        "valor": "patrono dos caçadores; divindade 'do ar livre'",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 123",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 123",
+        "parafrase": "Oxóssi é o patrono dos caçadores e, com Ogum, tem seus objetos sagrados assentados fora do peji, ao ar livre.",
+        "nota": null,
+        "registro": "oxossi-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "florestas (atribuição posterior ao mito de origem)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 226",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 226",
+        "parafrase": "Chiousse observa que atribuições ausentes do mito original foram acrescentadas depois, como as florestas para Oxóssi.",
+        "nota": null,
+        "registro": "oxossi-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "caça e floresta; fauna e flora",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Oxóssi é a divindade da caça e da floresta, e reina sobre os animais e as plantas desses lugares.",
+        "nota": null,
+        "registro": "oxossi-012",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "verde",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "A cor de Oxóssi é o verde.",
+        "nota": "DIVERGÊNCIA conhecida: azul-claro em casas Ketu (fonte a localizar).",
+        "registro": "oxossi-013",
+        "status": "fichado"
+      },
+      {
+        "valor": "contas verdes (colar)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 32",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 32",
+        "parafrase": "No colar de contas, a cor de Oxóssi é o verde.",
+        "nota": null,
+        "registro": "oxossi-025",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "quinta-feira (com Ogum)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 120",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 120",
+        "parafrase": "Na ordem baiana mais comum, a quinta-feira é de Oxóssi e Ogum.",
+        "nota": null,
+        "registro": "oxossi-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "quinta-feira (só Oxóssi)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 128",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 128",
+        "parafrase": "No Opô Afonjá, a quinta-feira é dedicada apenas a Oxóssi.",
+        "nota": null,
+        "registro": "oxossi-006",
+        "status": "fichado"
+      },
+      {
+        "valor": "segunda-feira (como Odé, com Bará, Ossaim e Otim) e sexta-feira (com Iemanjá)",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79",
+        "parafrase": "Na lista de Porto Alegre, Odé aparece na segunda-feira com Bará, Ossaim e Otim, e novamente na sexta, como filho de Iemanjá.",
+        "nota": null,
+        "registro": "oxossi-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "quinta-feira (Gantois, fim do séc. XIX)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Gantois (Salvador), festa anual descrita por Nina Rodrigues",
+        "sources": [
+          {
+            "id": "nina-rodrigues-1900-animisme",
+            "loc": "ed. pt 1961, p. 106",
+            "via": "bastide-1958-candomble"
+          }
+        ],
+        "source_id": "nina-rodrigues-1900-animisme",
+        "via_source_id": "bastide-1958-candomble",
+        "localizacao": "ed. pt 1961, p. 106",
+        "parafrase": "Na festa do Gantois registrada por Nina Rodrigues, a quinta-feira era de Oxóssi.",
+        "nota": null,
+        "registro": "oxossi-008",
+        "status": "fichado"
+      },
+      {
+        "valor": "quinta-feira",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "A quinta-feira é dedicada a Oxóssi.",
+        "nota": null,
+        "registro": "oxossi-017",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "arco e flecha; eruquerê (espanta-moscas de rabo de boi, atributo real)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "O emblema de Oxóssi é o arco e flecha; ele também porta o eruquerê, espanta-moscas de rabo de boi que é insígnia real.",
+        "nota": null,
+        "registro": "oxossi-014",
+        "status": "fichado"
+      }
+    ],
+    "qualidades": [
+      {
+        "valor": "Oxóssi, Odé, Inlé e Logunedé (filho de Oxóssi e Oxum)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Alguns informantes distinguem quatro formas de Oxóssi — Oxóssi, Odé, Inlé e Logunedé, este provavelmente visto como filho de Oxóssi e Oxum.",
+        "nota": "DIVERGÊNCIA: em muitas casas Logunedé é orixá distinto (ver Lopes 2006).",
+        "registro": "oxossi-019",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "Oxóssi, Ogum (Ogunjá) e Exu cultuados juntos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "carneiro-1948-candombles",
+            "loc": "p. 62",
+            "via": "prandi-2001-exu-diabo"
+          }
+        ],
+        "source_id": "carneiro-1948-candombles",
+        "via_source_id": "prandi-2001-exu-diabo",
+        "localizacao": "p. 62",
+        "parafrase": "Na descrição de Carneiro, Ogunjá 'mora' com Oxóssi e Exu, indicando proximidade de culto entre os três.",
+        "nota": "Carneiro (1954, p. 77); confirmar sentido de 'morar junto' (assentamentos).",
+        "registro": "oxossi-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "irmão de Ogum",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 123, nota 91",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 123, nota 91",
+        "parafrase": "Oxóssi e Ogum são irmãos segundo mito citado por Bastide.",
+        "nota": "Mito em Ribeiro (1952, p. 49).",
+        "registro": "oxossi-010",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "senhor dos caboclos (candomblé de caboclo)",
+        "tradicoes": [
+          "umbanda",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Nos candomblés de caboclo, Oxóssi torna-se o senhor dos caboclos, espíritos indígenas da floresta.",
+        "nota": null,
+        "registro": "oxossi-021",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "São Sebastião",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Pelo arco e flechas, Oxóssi é associado a São Sebastião, representado amarrado a uma árvore e crivado de flechas.",
+        "nota": null,
+        "registro": "oxossi-015",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "Oxóssi médico que aprende o segredo das plantas com Ossaim",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Em outra versão, contada por um pai de santo, Oxóssi era médico na cidade e, após a morte dos pais, foi para a floresta, onde Ossaim lhe ensinou o segredo das plantas.",
+        "nota": null,
+        "registro": "oxossi-022",
+        "status": "fichado"
+      },
+      {
+        "valor": "o caçador de uma só flecha (versão de Verger) — recusada por um informante",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 260",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 260",
+        "parafrase": "Na versão de Verger, uma ave gigante ameaça a festa dos inhames novos do rei de Ifé; caçadores com vinte e quarenta flechas falham, e um jovem de Irema, com uma única flecha e após oferenda feita pela mãe, abate a ave; de 'caçador de uma flecha só' viria o nome Oxóssi.",
+        "nota": "O pai de santo 'Papai' rejeitava essa versão. DIVERGÊNCIA entre fonte escrita e tradição de casa.",
+        "registro": "oxossi-023",
+        "status": "fichado"
+      },
+      {
+        "valor": "o caçador de uma flecha só (Oxotokanxoxô, de Iremã) na festa dos inhames de Olofin",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "verger-1985-lendas",
+            "loc": "p. 58–59 (Souza); Verger, Lendas africanas dos orixás, 4ª ed. 1997",
+            "via": "mosaico-2020-oxossi"
+          }
+        ],
+        "source_id": "verger-1985-lendas",
+        "via_source_id": "mosaico-2020-oxossi",
+        "localizacao": "p. 58–59 (Souza); Verger, Lendas africanas dos orixás, 4ª ed. 1997",
+        "parafrase": "Na versão de Verger, uma ave enorme pousa no palácio de Olofin durante a festa dos inhames novos; caçadores com vinte, quarenta e cinquenta flechas falham e são punidos; um caçador de Iremã, com uma só flecha e protegido por oferenda feita pela mãe, abate a ave.",
+        "nota": null,
+        "registro": "oxossi-026",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "20 de janeiro (São Sebastião)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Oxóssi é festejado em 20 de janeiro, dia de São Sebastião.",
+        "nota": null,
+        "registro": "oxossi-016",
+        "status": "fichado"
+      }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "jovem, impulsivo, independente; orixá das questões urgentes",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 260",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 260",
+        "parafrase": "Há consenso entre informantes de que Oxóssi é jovem, impulsivo, inovador e muito independente, invocado para acelerar negócios e curas.",
+        "nota": null,
+        "registro": "oxossi-024",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "nomes",
+      "funcoes",
+      "elementos",
+      "saudacao",
+      "animais",
+      "tabus",
+      "iconografia"
+    ],
+    "so_pre_fichamento": {
+      "historia_culto": [
+        "oxossi-004"
+      ]
+    },
+    "retidos_ate_conselho": {
+      "alimentos": [
+        "oxossi-018"
+      ]
+    }
+  },
+  "revisao": []
+}

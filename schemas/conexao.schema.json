@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/conexao.schema.json",
+  "title": "Aresta do grafo de conexões",
+  "description": "Gerada por scripts/gerar_fichas.py a partir dos registros de parentesco, equivalencias e sincretismo, usando o mapa de alvos em data/conexoes_alvos.json. Cada aresta agrupa as versões (registros) que a sustentam, sem hierarquia. Equivalência não é identidade.",
+  "type": "object",
+  "required": ["id", "origem", "destino", "tipo", "subtipo", "direcionada", "versoes"],
+  "properties": {
+    "id": { "type": "string" },
+    "origem": { "type": "string", "description": "id de nó (ver 'nos' em data/conexoes.json)" },
+    "destino": { "type": "string" },
+    "tipo": { "enum": ["parentesco", "equivalencia", "sincretismo", "associacao", "companheiro_de_culto", "rivalidade"] },
+    "subtipo": {
+      "type": ["string", "null"],
+      "description": "parentesco: filho_de (origem é filho/a do destino), irmao_de, conjuge_de; associacao: senhor_de; demais: null"
+    },
+    "direcionada": { "type": "boolean" },
+    "versoes": { "type": "array", "minItems": 1, "items": { "$ref": "_versao.schema.json" } }
+  },
+  "additionalProperties": false
+}

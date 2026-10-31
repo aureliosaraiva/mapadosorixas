@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/tradicao.schema.json",
+  "title": "Tradição religiosa (nação, religião ou culto)",
+  "description": "Os ids são os mesmos do enum 'tradicao' de schemas/fonte.schema.json e do campo 'tradicoes' do fichamento.",
+  "type": "object",
+  "required": ["id", "nome", "grupo", "nacao", "regiao", "descricao", "sources", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z_]+$" },
+    "nome": { "type": "string", "minLength": 1 },
+    "grupo": {
+      "enum": ["candomble", "umbanda", "afro_brasileira_regional", "culto_africano", "diaspora_caribenha"],
+      "description": "candomble = Candomblé (uma das nações); umbanda = Umbanda (religião distinta do Candomblé); afro_brasileira_regional = outras religiões afro-brasileiras (Xangô, Tambor de Mina, Batuque); culto_africano = culto na África; diaspora_caribenha = Cuba, Haiti, Trinidad"
+    },
+    "nacao": {
+      "type": ["string", "null"],
+      "description": "Só para grupo 'candomble': nação (ketu, jeje, angola, ijexa, efon)."
+    },
+    "matriz": {
+      "type": ["string", "null"],
+      "enum": ["iorubá", "fon (jeje)", "banto", "mista", null],
+      "description": "Matriz africana predominante, quando aplicável."
+    },
+    "regiao": { "type": "string" },
+    "descricao": { "type": "string", "minLength": 1 },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "loc"],
+        "properties": { "id": { "type": "string" }, "loc": { "type": "string" } },
+        "additionalProperties": false
+      }
+    },
+    "status": {
+      "enum": ["rascunho_sem_fonte", "com_fonte", "revisado"],
+      "description": "rascunho_sem_fonte = descrição definitória provisória, ainda sem fonte; não publicar como afirmação até ganhar fonte."
+    }
+  },
+  "allOf": [
+    { "if": { "properties": { "grupo": { "const": "candomble" } } }, "then": { "properties": { "nacao": { "type": "string" } } }, "else": { "properties": { "nacao": { "type": "null" } } } },
+    { "if": { "properties": { "status": { "const": "com_fonte" } } }, "then": { "properties": { "sources": { "minItems": 1 } } } }
+  ],
+  "additionalProperties": false
+}

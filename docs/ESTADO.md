@@ -6,13 +6,16 @@
 
 ## Onde estamos
 
-**Fase 1 — Levantamento, catalogação e fichamento** (ver [`PLANO.md`](PLANO.md), seção "Fase 1"). As fases 2 a 7 ainda não começaram.
+**Fase 1 — Levantamento e fichamento** (em andamento) e **Fase 2 — Modelo de dados** (iniciada: esquemas, fichas geradas e grafo). Ver [`PLANO.md`](PLANO.md). As fases 3 a 7 ainda não começaram.
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
 | Fontes no catálogo | 168 (60 `conferido_web`, 95 `a_verificar`, 13 `pista`) | `python3 scripts/validar_fontes.py` |
 | Registros de fichamento | 198 (179 `fichado`, 19 `pre_fichamento`, 0 `revisado`) | `python3 scripts/validar_fichamento.py` |
 | Atributos com versões divergentes | 31 | `python3 scripts/divergencias.py` |
+| Fichas geradas (`data/orixas/`) | 5 fichas, 177 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
+| Grafo (`data/conexoes.json`) | 40 nós, 43 arestas (20 sincretismo, 11 equivalência, 8 parentesco, 3 companheiro de culto, 1 associação) | idem |
+| Tradições (`data/tradicoes.json`) | 19, todas `rascunho_sem_fonte` | idem |
 | Idiomas no catálogo | pt, en, es, fr, de, it, yo | — |
 
 Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 27.
@@ -25,7 +28,7 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 2. **Equivalências com inquices e voduns.** Depende de Castro 2001, Parés 2006 e Lopes 1988 (exemplar).
 3. **Resolver os 19 `pre_fichamento`.** São fontes pagas ou fora do ar (Tishken 2009, Brown 1989, Pérez 2013, Barnes 1989, Beier 1970, teses PUC-SP/UFPB/UFG).
 4. **Conferir as fontes `a_verificar`** usadas no fichamento (WorldCat, ISBN, DOI).
-5. **Fase 2:** esquema das fichas (`data/orixas/*.json`), `tradicoes.json` e `conexoes.json`, a partir do fichamento.
+5. **Fase 2 (restante):** dar fonte às descrições de `data/tradicoes.json`; `entidades_equivalentes.json` (Legba, inquices etc. como fichas leves) e `glossario.json`; detector anti-cópia (n-gramas) no CI. *(Esquemas, fichas, grafo e validador: feitos em 2026-10-31.)*
 6. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
 
 ## Decisões já tomadas
@@ -36,6 +39,10 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 - Divergências ficam lado a lado, com casa, região e fonte, sem eleger versão correta (gerado por `scripts/divergencias.py`).
 - **Tabus e alimentos rituais:** não detalhar. Decidir com o conselho o que é público.
 - Todo bloqueio (domínio, paywall, livro impresso, conferência humana) vai para [`pesquisa/PENDENCIAS.md`](pesquisa/PENDENCIAS.md).
+- **Fichas são geradas, não editadas:** `scripts/gerar_fichas.py` monta `data/orixas/*.json` e `data/conexoes.json` a partir do fichamento (só `fichado`/`revisado`). Corrigir sempre no fichamento e regenerar; `validar_fichas.py` acusa ficha desatualizada.
+- **Versão = um registro:** cada versão carrega `source_id`, `via_source_id`, `localizacao` e `sources: [{id, loc, via}]`; esquema comum em `schemas/_versao.schema.json`.
+- **Arestas do grafo** vêm de `data/conexoes_alvos.json`, mapa manual registro → alvos, que só estrutura o que o `valor` diz (ex.: "mãe de vários orixás" fica sem aresta). Registro novo de parentesco/equivalência/sincretismo sem entrada no mapa gera aviso `sem_mapa`. "Nossa Senhora" e "Virgem Maria" ficam como nós separados, como escrito nas fontes.
+- **Tabus e alimentos** fichados ficam fora da ficha pública (`pendencias.retidos_ate_conselho`) até decisão do conselho.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
 
 ## Sessões em paralelo
@@ -57,6 +64,10 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 | `data/fontes/catalogo.json` | catálogo de fontes (esquema em `schemas/fonte.schema.json`) |
 | `data/fichamento/<orixa>.json` | registros atômicos por orixá (esquema em `schemas/fichamento.schema.json`) |
 | `data/fichamento/divergencias.json` | gerado, não editar à mão |
+| `data/orixas/<orixa>.json` | fichas (gerado; esquema `schemas/orixa.schema.json`) |
+| `data/conexoes.json` | grafo (gerado; esquema `schemas/conexao.schema.json`) |
+| `data/conexoes_alvos.json` | mapa manual registro → arestas (editar aqui) |
+| `data/tradicoes.json` | tradições (esquema `schemas/tradicao.schema.json`) |
 | `scripts/` | validação e geração |
 
 ## Pedido de abertura sugerido
