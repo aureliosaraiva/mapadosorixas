@@ -63,6 +63,18 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | 🔴 | Decidir o que é público em "tabus" e "alimentos" (hoje retidos das fichas: exu-012, oxossi-018) | conselho consultivo | P1 |
 | 🔴 | Descrições das 19 tradições em `data/tradicoes.json` estão sem fonte (`rascunho_sem_fonte`) | fichar uma obra de referência geral por grupo (Candomblé por nação, Umbanda, religiões regionais, Cuba/Haiti/Trinidad) e revisar com o conselho | P2 |
 
+## 3b. Site (Fase 5): decisões do autor
+
+O protótipo em `site/` (Astro) compila no CI, mas **não está publicado**. Nada abaixo foi configurado, porque depende de conta, pagamento ou decisão do autor.
+
+| Status | Item | O que decidir ou fazer | Prioridade |
+|:-:|---|---|:-:|
+| 🔴 | Deploy | escolher Cloudflare Pages, GitHub Pages ou Vercel e conectar a conta. Para GitHub Pages, buildar com `SITE_BASE=/mapadosorixas` (ver `site/README.md`) | P2 |
+| 🔴 | Domínio | registrar `.org`/`.com` (ver candidatos no `CLAUDE.md`; `.com.br` exige CPF/CNPJ) e apontar para o deploy | P2 |
+| 🔴 | Licenças de código, textos e dados | sugestão do plano: MIT, CC BY-SA 4.0, CC BY 4.0 (ou NC), a confirmar com o conselho. O rodapé do site diz "a definir" | P2 |
+| 🔴 | Indexação | o site sai com `<meta name="robots" content="noindex">` enquanto for rascunho. Retirar só depois da revisão das fichas | P1 (no lançamento) |
+| 🔴 | Revisão de acessibilidade com leitor de tela real e Lighthouse | conferido só com Playwright (sem estouro horizontal em 360 px, sem erros de console, conteúdo textual sem JS). Falta auditoria humana (NVDA/VoiceOver) e Lighthouse ≥ 90 | P2 |
+
 ## 4. Resolvidos
 
 | Data | Item | Como |

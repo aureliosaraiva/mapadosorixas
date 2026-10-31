@@ -1,0 +1,174 @@
+---
+import Base from '../../layouts/Base.astro';
+import Selo from '../../components/Selo.astro';
+import Tradicoes from '../../components/Tradicoes.astro';
+import {
+  fichas, fontePorId, divergencias, conexoes, ORDEM_ATRIBUTOS, rotuloAtributo, autorCurto,
+  tradicoesDaFicha, totalVersoes, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, url,
+} from '../../lib/dados.js';
+
+export function getStaticPaths() {
+  return fichas.map((f) => ({ params: { id: f.id } }));
+}
+
+const { id } = Astro.params;
+const ficha = fichaPorId[id];
+const atributos = ORDEM_ATRIBUTOS.filter((a) => ficha.atributos[a]);
+
+// Numeração das notas: uma por versão, na ordem em que aparecem.
+const notas = [];
+const notaDoRegistro = {};
+for (const a of atributos) {
+  for (const v of ficha.atributos[a]) {
+    notas.push(v);
+    notaDoRegistro[v.registro] = notas.length;
+  }
+}
+
+const divs = divergencias.filter((d) => d.orixa === id);
+const arestas = conexoes.arestas.filter((e) => e.origem === id || e.destino === id);
+const pend = ficha.pendencias;
+const preFich = Object.entries(pend.so_pre_fichamento);
+const retidos = Object.entries(pend.retidos_ate_conselho);
+---
+<Base titulo={ficha.rotulo} descricao={`Ficha de ${ficha.rotulo}: versões por tradição, com fonte, página e divergências.`} indexar>
+  <p><a href={url('catalogo')}>← Catálogo</a></p>
+  <h1>{ficha.rotulo}</h1>
+  <Selo />
+
+  <p>{totalVersoes(ficha)} versões, cada uma com nota para a fonte (autor, ano e página). Quando há mais de uma versão para o mesmo atributo, todas são mostradas, com a tradição e a casa ou região indicadas pela fonte, <strong>sem hierarquia entre elas</strong>.</p>
+  <p><strong>Tradições citadas:</strong> <Tradicoes ids={tradicoesDaFicha(ficha)} /></p>
+
+  <nav aria-label="Seções da ficha">
+    <ul class="sumario">
+      {atributos.map((a) => <li><a href={`#${a}`}>{rotuloAtributo(a)} ({ficha.atributos[a].length})</a></li>)}
+      <li><a href="#divergencias">Divergências</a></li>
+      <li><a href="#conexoes">Conexões</a></li>
+      <li><a href="#pendencias">Pendências</a></li>
+      <li><a href="#notas">Notas e fontes</a></li>
+    </ul>
+  </nav>
+
+  {atributos.map((a) => (
+    <section class="atributo" aria-labelledby={a}>
+      <h2 id={a}>{rotuloAtributo(a)}</h2>
+      {ficha.atributos[a].length > 1 && <p class="meta">{ficha.atributos[a].length} versões registradas.</p>}
+      <ul class="versoes">
+        {ficha.atributos[a].map((v) => {
+          const n = notaDoRegistro[v.registro];
+          return (
+            <li class="versao" id={`v-${v.registro}`}>
+              <span class="valor">{v.valor}</span>
+              <sup class="ref"><a href={`#nota-${n}`} id={`ref-${n}`} aria-label={`Nota ${n}: fonte`}>[{n}]</a></sup>
+              <div class="meta">
+                <Tradicoes ids={v.tradicoes} />
+                {v.casa_ou_regiao && <span> · Casa ou região: {v.casa_ou_regiao}</span>}
+              </div>
+              <p>{v.parafrase}</p>
+              {v.nota && <p class="nota"><strong>Nota do fichamento:</strong> {v.nota}</p>}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))}
+
+  <section aria-labelledby="divergencias">
+    <h2 id="divergencias">Divergências</h2>
+    {divs.length === 0 ? <p>Nenhum atributo com mais de uma versão registrada.</p> : (
+      <>
+        <p>Atributos em que as fontes registram mais de uma versão. As linhas estão na ordem do fichamento, não por importância.</p>
+        {divs.map((d) => (
+          <div class="tabela-rolagem">
+            <table>
+              <caption>{rotuloAtributo(d.atributo)}: {d.versoes.length} versões</caption>
+              <thead><tr><th scope="col">Versão</th><th scope="col">Tradição</th><th scope="col">Casa ou região</th><th scope="col">Fonte</th></tr></thead>
+              <tbody>
+                {d.versoes.map((v) => {
+                  const n = notaDoRegistro[v.registro];
+                  return (
+                    <tr>
+                      <td>{v.valor}</td>
+                      <td><Tradicoes ids={v.tradicoes} /></td>
+                      <td>{v.casa_ou_regiao ?? '—'}</td>
+                      <td>
+                        {autorCurto(fontePorId[v.fonte])} ({fontePorId[v.fonte]?.ano ?? 's.d.'}){v.via && <> via {autorCurto(fontePorId[v.via])} ({fontePorId[v.via]?.ano})</>}, {v.localizacao}
+                        {n && <sup class="ref"><a href={`#nota-${n}`} aria-label={`Nota ${n}`}>[{n}]</a></sup>}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        ))}
+      </>
+    )}
+  </section>
+
+  <section aria-labelledby="conexoes">
+    <h2 id="conexoes">Conexões</h2>
+    {arestas.length === 0 ? <p>Nenhuma conexão registrada.</p> : (
+      <>
+        <p>Conexões com fonte em que {ficha.rotulo} aparece. Veja todas no <a href={url('grafo')}>grafo</a>.</p>
+        <ul>
+          {arestas.map((e) => {
+            const no = (x) => (fichaPorId[x] && x !== id ? <a href={url(`orixas/${x}`)}>{rotuloNo(x)}</a> : rotuloNo(x));
+            const rel = e.subtipo ? ROTULO_SUBTIPO[e.subtipo] ?? e.subtipo : (e.direcionada ? '→' : '—');
+            return (
+              <li>
+                <strong>{ROTULO_ARESTA[e.tipo] ?? e.tipo}:</strong> {no(e.origem)} {rel} {no(e.destino)}{' '}
+                ({e.versoes.map((v, i) => (
+                  <>{i > 0 && '; '}{notaDoRegistro[v.registro]
+                    ? <a href={`#nota-${notaDoRegistro[v.registro]}`}>nota {notaDoRegistro[v.registro]}</a>
+                    : <>{autorCurto(fontePorId[v.source_id])} ({fontePorId[v.source_id]?.ano}), {v.localizacao}</>}</>
+                ))})
+              </li>
+            );
+          })}
+        </ul>
+      </>
+    )}
+  </section>
+
+  <section aria-labelledby="pendencias">
+    <h2 id="pendencias">Pendências e campos sem fonte</h2>
+    <p>O que ainda falta nesta ficha. Nenhum desses campos foi preenchido sem fonte.</p>
+    <dl>
+      <dt><strong>Sem nenhum registro no fichamento</strong></dt>
+      <dd>{pend.sem_registro.length ? pend.sem_registro.map(rotuloAtributo).join(', ') : '—'}</dd>
+      <dt><strong>Só em pré-fichamento</strong> (afirmação localizada, mas a fonte ainda não foi lida no original; fica fora da ficha)</dt>
+      <dd>{preFich.length ? preFich.map(([a, ids]) => `${rotuloAtributo(a)} (${ids.join(', ')})`).join('; ') : '—'}</dd>
+      <dt><strong>Retidos até decisão do conselho</strong> (fichados, mas não exibidos por envolverem tabus ou alimentos rituais)</dt>
+      <dd>{retidos.length ? retidos.map(([a, ids]) => `${rotuloAtributo(a)}: ${ids.length} registro(s)`).join('; ') : '—'}</dd>
+      <dt><strong>Revisão por praticantes e pesquisadores</strong></dt>
+      <dd>{ficha.revisao.length ? `${ficha.revisao.length} revisão(ões) registradas` : 'Ainda não revisada.'}</dd>
+    </dl>
+  </section>
+
+  <section aria-labelledby="notas">
+    <h2 id="notas">Notas e fontes</h2>
+    <ol class="notas">
+      {notas.map((v, i) => {
+        const n = i + 1;
+        return (
+          <li id={`nota-${n}`}>
+            {v.sources.map((s) => {
+              const f = fontePorId[s.id];
+              const via = s.via ? fontePorId[s.via] : null;
+              return (
+                <span>
+                  <a href={url(`fontes#fonte-${s.id}`)}>{autorCurto(f)} ({f?.ano ?? 's.d.'})</a>, <cite>{f?.titulo}</cite>
+                  {via && <>, citado por <a href={url(`fontes#fonte-${s.via}`)}>{autorCurto(via)} ({via.ano})</a></>}
+                  , {s.loc}.{' '}
+                </span>
+              );
+            })}
+            <span class="meta">Registro <code>{v.registro}</code>.</span>{' '}
+            <a href={`#ref-${n}`} aria-label={`Voltar ao texto da nota ${n}`}>↩</a>
+          </li>
+        );
+      })}
+    </ol>
+  </section>
+</Base>

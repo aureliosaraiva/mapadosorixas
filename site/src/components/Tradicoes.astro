@@ -1,0 +1,13 @@
+---
+import { rotuloTradicaoCurto, rotuloTradicao, grupoTradicao, ROTULO_GRUPO } from '../lib/dados.js';
+interface Props { ids: string[] }
+const { ids } = Astro.props;
+---
+{ids.length > 0 && (
+  <span class="tradicoes">
+    <span class="visualmente-oculto">Tradições: </span>
+    {ids.map((t) => (
+      <span class={`etiqueta g-${grupoTradicao(t)}`} title={`${rotuloTradicao(t)} — ${ROTULO_GRUPO[grupoTradicao(t)] ?? ''}`}>{rotuloTradicaoCurto(t)}</span>
+    ))}
+  </span>
+)}

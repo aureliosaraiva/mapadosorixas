@@ -1,0 +1,155 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  fontes, usoDasFontes, ROTULO_TIPO_FONTE, ROTULO_IDIOMA, ROTULO_STATUS, ROTULO_CONFIABILIDADE, url,
+} from '../lib/dados.js';
+
+const ordenadas = [...fontes].sort((a, b) =>
+  (a.autores[0] || '').localeCompare(b.autores[0] || '', 'pt') || (a.ano ?? 0) - (b.ano ?? 0));
+const contar = (campo) => {
+  const c = {};
+  for (const f of fontes) c[f[campo]] = (c[f[campo]] || 0) + 1;
+  return c;
+};
+const nIdioma = contar('idioma');
+const nTipo = contar('tipo');
+const nConf = contar('confiabilidade_preliminar');
+const nStatus = contar('status_verificacao');
+const anos = fontes.map((f) => f.ano).filter(Boolean);
+const anoMin = Math.min(...anos);
+const anoMax = Math.max(...anos);
+const usadas = Object.keys(usoDasFontes).length;
+---
+<Base titulo="Fontes" descricao="Bibliografia do projeto, com status de verificação e confiabilidade." indexar>
+  <h1>Fontes</h1>
+  <p>O catálogo tem {fontes.length} fontes; {usadas} delas sustentam versões nas fichas. Estar no catálogo <strong>não</strong> quer dizer que a fonte foi lida: o status de verificação diz até onde ela foi conferida. Só fontes de confiabilidade A ou B, conferidas pelo menos na web, sustentam fichas. As demais servem de pista.</p>
+
+  <details>
+    <summary>Como ler a confiabilidade e o status</summary>
+    <ul>
+      {Object.entries(ROTULO_CONFIABILIDADE).map(([k, v]) => <li><strong>{v}</strong></li>)}
+    </ul>
+    <ul>
+      <li><strong>Pista:</strong> referência encontrada em outra obra ou na web, ainda não confirmada.</li>
+      <li><strong>A verificar:</strong> metadados ainda não conferidos em catálogo de biblioteca, editora ou DOI.</li>
+      <li><strong>Conferido na web:</strong> metadados conferidos em fonte externa (Open Library, Internet Archive, Crossref, repositório institucional), com a URL registrada como evidência.</li>
+    </ul>
+  </details>
+
+  <form class="filtros so-js" id="filtros-fontes" aria-label="Filtrar fontes" onsubmit="return false">
+    <div>
+      <label for="ff-texto">Autor ou título</label>
+      <input type="search" id="ff-texto" autocomplete="off" />
+    </div>
+    <div>
+      <label for="ff-idioma">Idioma</label>
+      <select id="ff-idioma" data-campo="idioma">
+        <option value="">Todos</option>
+        {Object.entries(nIdioma).map(([k, n]) => <option value={k}>{ROTULO_IDIOMA[k] ?? k} ({n})</option>)}
+      </select>
+    </div>
+    <div>
+      <label for="ff-tipo">Tipo</label>
+      <select id="ff-tipo" data-campo="tipo">
+        <option value="">Todos</option>
+        {Object.entries(nTipo).map(([k, n]) => <option value={k}>{ROTULO_TIPO_FONTE[k] ?? k} ({n})</option>)}
+      </select>
+    </div>
+    <div>
+      <label for="ff-conf">Confiabilidade</label>
+      <select id="ff-conf" data-campo="conf">
+        <option value="">Todas</option>
+        {Object.keys(nConf).sort().map((k) => <option value={k}>{k} ({nConf[k]})</option>)}
+      </select>
+    </div>
+    <div>
+      <label for="ff-status">Status</label>
+      <select id="ff-status" data-campo="status">
+        <option value="">Todos</option>
+        {Object.entries(nStatus).map(([k, n]) => <option value={k}>{ROTULO_STATUS[k] ?? k} ({n})</option>)}
+      </select>
+    </div>
+    <div>
+      <label for="ff-de">Ano de</label>
+      <input type="number" id="ff-de" min={anoMin} max={anoMax} placeholder={String(anoMin)} inputmode="numeric" style="width:6.5rem" />
+    </div>
+    <div>
+      <label for="ff-ate">até</label>
+      <input type="number" id="ff-ate" min={anoMin} max={anoMax} placeholder={String(anoMax)} inputmode="numeric" style="width:6.5rem" />
+    </div>
+    <div>
+      <label class="opcao"><input type="checkbox" id="ff-usadas" /> Só as citadas nas fichas</label>
+    </div>
+    <button type="reset">Limpar</button>
+  </form>
+  <p class="contagem" id="ff-contagem" aria-live="polite">{fontes.length} fontes</p>
+
+  <div class="tabela-rolagem">
+    <table id="tabela-fontes">
+      <caption class="visualmente-oculto">Catálogo de fontes</caption>
+      <thead>
+        <tr>
+          <th scope="col">Referência</th>
+          <th scope="col">Tipo</th>
+          <th scope="col">Idioma</th>
+          <th scope="col"><abbr title="Confiabilidade preliminar">Conf.</abbr></th>
+          <th scope="col">Status</th>
+          <th scope="col">Nas fichas</th>
+        </tr>
+      </thead>
+      <tbody>
+        {ordenadas.map((f) => (
+          <tr id={`fonte-${f.id}`} data-idioma={f.idioma} data-tipo={f.tipo} data-conf={f.confiabilidade_preliminar}
+              data-status={f.status_verificacao} data-ano={f.ano ?? ''} data-usada={usoDasFontes[f.id] ? '1' : ''}
+              data-texto={`${f.autores.join(' ')} ${f.titulo}`.toLowerCase()}>
+            <td>
+              {f.autores.join('; ')} ({f.ano ?? 's.d.'}). <cite>{f.url ? <a href={f.url} rel="noopener">{f.titulo}</a> : f.titulo}</cite>
+              {f.periodico && <>. {f.periodico}</>}{f.local && <>. {f.local}</>}{f.editora && <>: {f.editora}</>}.
+              {f.identificadores?.doi && <> DOI <a href={`https://doi.org/${f.identificadores.doi}`} rel="noopener">{f.identificadores.doi}</a>.</>}
+              {f.observacoes && <details><summary>Observações</summary><p>{f.observacoes}</p></details>}
+              <span class="meta"><code>{f.id}</code></span>
+            </td>
+            <td>{ROTULO_TIPO_FONTE[f.tipo] ?? f.tipo}</td>
+            <td>{ROTULO_IDIOMA[f.idioma] ?? f.idioma}</td>
+            <td>{f.confiabilidade_preliminar}</td>
+            <td>{ROTULO_STATUS[f.status_verificacao] ?? f.status_verificacao}</td>
+            <td>{usoDasFontes[f.id] ? `${usoDasFontes[f.id]} versões` : '—'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const form = document.getElementById('filtros-fontes') as HTMLFormElement;
+    const linhas = [...document.querySelectorAll<HTMLTableRowElement>('#tabela-fontes tbody tr')];
+    const texto = document.getElementById('ff-texto') as HTMLInputElement;
+    const de = document.getElementById('ff-de') as HTMLInputElement;
+    const ate = document.getElementById('ff-ate') as HTMLInputElement;
+    const usadas = document.getElementById('ff-usadas') as HTMLInputElement;
+    const selects = [...form.querySelectorAll<HTMLSelectElement>('select[data-campo]')];
+    const cont = document.getElementById('ff-contagem')!;
+    function aplicar() {
+      const q = texto.value.trim().toLowerCase();
+      const a0 = de.value ? Number(de.value) : -Infinity;
+      const a1 = ate.value ? Number(ate.value) : Infinity;
+      let n = 0;
+      for (const tr of linhas) {
+        const d = tr.dataset;
+        const ano = d.ano ? Number(d.ano) : NaN;
+        let ok = selects.every((s) => !s.value || d[s.dataset.campo!] === s.value)
+          && (!q || d.texto!.includes(q))
+          && (!usadas.checked || d.usada === '1')
+          && ((!de.value && !ate.value) || (ano >= a0 && ano <= a1));
+        tr.hidden = !ok;
+        if (ok) n++;
+      }
+      cont.textContent = `${n} ${n === 1 ? 'fonte' : 'fontes'}`;
+    }
+    form.addEventListener('input', aplicar);
+    form.addEventListener('change', aplicar);
+    form.addEventListener('reset', () => setTimeout(aplicar));
+    // Ao chegar por âncora (#fonte-...) de uma ficha, garantir que a linha está visível.
+    if (location.hash.startsWith('#fonte-')) document.querySelector(location.hash)?.scrollIntoView();
+  </script>
+</Base>

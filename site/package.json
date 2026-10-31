@@ -1,0 +1,15 @@
+{
+  "name": "mapadosorixas-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^7.4.4",
+    "cytoscape": "^3.34.4",
+    "pagefind": "^1.5.2"
+  }
+}

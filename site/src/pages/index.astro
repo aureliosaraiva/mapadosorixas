@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import { fichas, fontes, conexoes, divergencias, registros, usoDasFontes, totalVersoes, url } from '../lib/dados.js';
+
+const versoes = fichas.reduce((n, f) => n + totalVersoes(f), 0);
+const fontesUsadas = Object.keys(usoDasFontes).length;
+---
+<Base titulo="Início" indexar>
+  <h1>Mapa dos Orixás</h1>
+  <p class="selo" role="note">Protótipo em rascunho — nada aqui foi revisado ainda por praticantes ou pesquisadores.</p>
+
+  <p>Uma enciclopédia em construção sobre os orixás que <strong>cita a fonte de cada afirmação</strong> (autor, ano e página) e <strong>mostra lado a lado as versões que divergem</strong> entre tradições, nações e casas, sem eleger uma versão “correta”.</p>
+  <p>O conteúdo vem de um fichamento de livros, teses e artigos. Os trechos são sempre parafraseados, nunca copiados. O Candomblé, em suas nações, e a Umbanda aparecem como religiões distintas.</p>
+
+  <ul class="destaques" aria-label="Números do protótipo">
+    <li><strong>{fichas.length}</strong> orixás com ficha</li>
+    <li><strong>{versoes}</strong> versões com fonte</li>
+    <li><strong>{divergencias.length}</strong> atributos com versões divergentes</li>
+    <li><strong>{fontesUsadas}</strong> fontes citadas nas fichas (de {fontes.length} no catálogo)</li>
+  </ul>
+
+  <h2>Por onde começar</h2>
+  <div class="grade">
+    <section class="cartao">
+      <h3><a href={url('catalogo')}>Catálogo</a></h3>
+      <p>As fichas de {fichas.map((f) => f.rotulo).join(', ')}, com filtros por tradição e atributo.</p>
+    </section>
+    <section class="cartao">
+      <h3><a href={url('grafo')}>Grafo de conexões</a></h3>
+      <p>{conexoes.nos.length} nós e {conexoes.arestas.length} conexões: parentesco nos itãs, equivalências entre tradições e sincretismo. Também disponível como tabela.</p>
+    </section>
+    <section class="cartao">
+      <h3><a href={url('fontes')}>Fontes</a></h3>
+      <p>Bibliografia completa com status de verificação, filtrável por idioma, tipo, ano e confiabilidade.</p>
+    </section>
+    <section class="cartao">
+      <h3><a href={url('metodologia')}>Metodologia e limitações</a></h3>
+      <p>Como os dados são levantados e conferidos, o que fica de fora e por quê. São {registros.length} registros de fichamento até agora.</p>
+    </section>
+  </div>
+
+  <h2 id="busca-titulo">Buscar</h2>
+  <div id="busca" class="so-js" aria-labelledby="busca-titulo"></div>
+  <noscript><p>A busca precisa de JavaScript. Sem ele, navegue pelo <a href={url('catalogo')}>catálogo</a> ou pelas <a href={url('fontes')}>fontes</a>.</p></noscript>
+  <p class="nota-caixa">A busca é gerada pelo Pagefind no <code>npm run build</code>. No modo de desenvolvimento (<code>npm run dev</code>) ela não aparece.</p>
+
+  <Fragment slot="head">
+    <link rel="stylesheet" href={url('pagefind/pagefind-ui.css')} />
+  </Fragment>
+  <script is:inline define:vars={{ base: url('') }}>
+    const s = document.createElement('script');
+    s.src = base + 'pagefind/pagefind-ui.js';
+    s.onload = () => {
+      // eslint-disable-next-line no-undef
+      new PagefindUI({ element: '#busca', showSubResults: true, translations: { placeholder: 'Buscar nas fichas, fontes e metodologia', zero_results: 'Nenhum resultado para [SEARCH_TERM]' } });
+    };
+    s.onerror = () => { document.getElementById('busca').textContent = 'Índice de busca indisponível (rode npm run build).'; };
+    document.head.appendChild(s);
+  </script>
+</Base>

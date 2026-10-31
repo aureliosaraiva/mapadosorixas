@@ -1,0 +1,111 @@
+---
+import Base from '../layouts/Base.astro';
+import Ref from '../components/Ref.astro';
+import {
+  fontes, registros, fichas, divergencias, conexoes, tradicoes, tradicoesMeta, ROTULO_GRUPO,
+  usoDasFontes, totalVersoes, url,
+} from '../lib/dados.js';
+
+const contar = (lista, campo) => lista.reduce((c, x) => ((c[x[campo]] = (c[x[campo]] || 0) + 1), c), {});
+const stF = contar(fontes, 'status_verificacao');
+const confF = contar(fontes, 'confiabilidade_preliminar');
+const stR = contar(registros, 'status');
+const versoes = fichas.reduce((n, f) => n + totalVersoes(f), 0);
+const retidos = fichas.flatMap((f) => Object.entries(f.pendencias.retidos_ate_conselho).flatMap(([a, ids]) => ids));
+const preFich = stR.pre_fichamento || 0;
+const segundaMao = registros.filter((r) => r.via_source_id && r.status === 'fichado').length;
+const repo = 'https://github.com/aureliosaraiva/mapadosorixas';
+---
+<Base titulo="Metodologia e limitações" descricao="Como os dados do Mapa dos Orixás são levantados, conferidos e exibidos, e quais são os limites." indexar>
+  <h1>Metodologia e limitações</h1>
+  <p class="selo" role="note">Todo o conteúdo do site é rascunho e aguarda revisão de praticantes e pesquisadores.</p>
+
+  <nav aria-label="Seções desta página">
+    <ul class="sumario">
+      <li><a href="#principios">Princípios</a></li>
+      <li><a href="#catalogo">1. Catálogo de fontes</a></li>
+      <li><a href="#fichamento">2. Fichamento com página</a></li>
+      <li><a href="#fichas">3. Fichas geradas</a></li>
+      <li><a href="#versoes">4. Versões lado a lado</a></li>
+      <li><a href="#candomble-umbanda">5. Candomblé × Umbanda</a></li>
+      <li><a href="#sigilo">6. Sigilo e tabus</a></li>
+      <li><a href="#revisao">7. Revisão pendente</a></li>
+      <li><a href="#limitacoes">Limitações</a></li>
+      <li><a href="#contribuir">Como corrigir</a></li>
+    </ul>
+  </nav>
+
+  <h2 id="principios">Princípios</h2>
+  <ul>
+    <li><strong>Não existe um panteão único.</strong> O culto aos orixás é transmitido sobretudo pela tradição oral e varia entre nações, cidades e casas, também em território iorubá. Por isso o site não apresenta uma versão “oficial” de nenhum orixá.</li>
+    <li><strong>Toda afirmação tem fonte.</strong> Cada versão exibida remete a uma obra do catálogo, com autor, ano e página.</li>
+    <li><strong>Paráfrase, nunca cópia.</strong> Os trechos dos livros são resumidos com palavras próprias e citados.</li>
+    <li><strong>Divergência não é erro.</strong> Quando as fontes discordam, as versões aparecem lado a lado, com a tradição e a casa indicadas, sem eleger a “correta”.</li>
+    <li><strong>O site só exibe dados.</strong> As páginas são geradas a partir dos arquivos JSON versionados no <a href={repo}>repositório</a> (<code>data/</code>). Nada sobre orixás é escrito diretamente no código do site.</li>
+  </ul>
+
+  <h2 id="catalogo">1. Catálogo de fontes</h2>
+  <p>O ponto de partida é um catálogo bibliográfico (<code>data/fontes/catalogo.json</code>) com {fontes.length} obras: livros, teses, dissertações, artigos e alguns sites. Cada fonte recebe:</p>
+  <ul>
+    <li><strong>Confiabilidade preliminar</strong> de A a D. Hoje são {confF.A ?? 0} fontes A, {confF.B ?? 0} B, {confF.C ?? 0} C e {confF.D ?? 0} D. Só fontes A e B sustentam ficha. Blogs e sites de divulgação servem apenas para encontrar pistas.</li>
+    <li><strong>Status de verificação</strong>, que diz até onde a referência foi conferida: {stF.conferido_web ?? 0} “conferido na web”, {stF.a_verificar ?? 0} “a verificar” e {stF.pista ?? 0} “pista”. A conferência usa Open Library, Internet Archive, Crossref e repositórios institucionais, e a URL consultada fica registrada como evidência. <strong>Todas as {Object.keys(usoDasFontes).length} fontes citadas nas fichas estão conferidas.</strong></li>
+    <li><strong>Alertas de viés</strong> no campo de observações. Relatos de missionários e viajantes europeus do século XIX, por exemplo, entram como documento do olhar europeu e são lidos por meio de autores que os criticam <Ref registro="exu-005" />.</li>
+  </ul>
+  <p>Veja a <a href={url('fontes')}>bibliografia completa</a>, filtrável por idioma, tipo, ano, confiabilidade e status.</p>
+
+  <h2 id="fichamento">2. Fichamento com página</h2>
+  <p>Cada leitura gera <strong>registros atômicos</strong>: uma afirmação, sobre um atributo de um orixá, numa fonte, com a página. Hoje são {registros.length} registros, {stR.fichado ?? 0} deles “fichados” e {preFich} em “pré-fichamento”.</p>
+  <ul>
+    <li><strong>Fichado</strong> exige que a fonte tenha sido lida no original e que a página esteja indicada. A página é sempre a do livro impresso, não a do PDF.</li>
+    <li><strong>Pré-fichamento</strong> é uma afirmação localizada em outra obra ou numa busca, mas ainda não lida na fonte. Geralmente a fonte é paga, impressa ou está fora do ar. Esses registros <strong>não aparecem nas fichas</strong>; aparecem só na lista de pendências de cada uma.</li>
+    <li><strong>Afirmações de segunda mão</strong> ({segundaMao} registros) indicam as duas obras: a fonte original e a obra pela qual ela foi lida (“citado por”).</li>
+    <li><strong>A tradição só entra se a fonte disser.</strong> Quando uma tese fala em “candomblé” sem indicar a nação, o registro anota a aproximação para a revisão conferir <Ref registro="exu-062" />.</li>
+    <li>Um verificador automático de cópia (<code>scripts/anticopia.py</code>) acusa citações longas entre aspas e, quando há o texto da obra para comparar, qualquer sequência de oito palavras idêntica ao original.</li>
+  </ul>
+  <p>Cada rodada de leitura tem um relatório público no repositório (<code>docs/pesquisa/fichamento-0*.md</code>), com o que foi lido, as correções feitas e as divergências encontradas.</p>
+
+  <h2 id="fichas">3. Fichas geradas, não editadas</h2>
+  <p>As fichas (<code>data/orixas/*.json</code>) são montadas por um script a partir dos registros fichados. Ninguém edita uma ficha à mão: um erro é corrigido no fichamento, e a ficha é gerada de novo. Os {fichas.length} orixás do MVP somam {versoes} versões. O grafo de conexões ({conexoes.nos.length} nós, {conexoes.arestas.length} conexões) também é gerado. Um mapa manual só estrutura o que o texto da versão já diz: uma frase vaga como “mãe de vários orixás” fica sem conexão <Ref registro="iemanja-012" />.</p>
+
+  <h2 id="versoes">4. Versões lado a lado</h2>
+  <p>Hoje {divergencias.length} atributos têm mais de uma versão. Cada ficha mostra essas versões numa tabela por tradição e casa. Dois exemplos documentados nos relatórios de fichamento:</p>
+  <ul>
+    <li>
+      <strong>Dias da semana.</strong> Bastide mostra que a distribuição dos orixás pelos dias da semana muda de cidade para cidade e de casa para casa. Em Porto Alegre, Xangô fica na terça-feira <Ref registro="xango-009" />. No Recife, passa da quarta para a quinta-feira, com variações entre casas <Ref registro="xango-010" />. O mesmo livro lembra, citando Frobenius, que a semana iorubá tinha quatro dias <Ref registro="exu-041" />. Veja as tabelas de divergência nas fichas de <a href={url('orixas/xango#divergencias')}>Xangô</a> e <a href={url('orixas/ogum#divergencias')}>Ogum</a>.
+    </li>
+    <li>
+      <strong>A hesitação de um pai de santo.</strong> Chiousse registra um pai de santo explicando que os dois santos católicos associados a Xangô correspondem a duas qualidades, uma velha e uma jovem, mas hesitando ao dizer qual era qual <Ref registro="xango-028" />. É um exemplo concreto de variação da tradição oral dentro de uma mesma fala.
+    </li>
+    <li>
+      <strong>Versões de itã em disputa.</strong> Na mesma tese, um informante recusa a versão de um itã de Oxóssi publicada por Verger <Ref registro="oxossi-023" /> e apresenta outra <Ref registro="oxossi-022" />. As duas aparecem na ficha.
+    </li>
+  </ul>
+
+  <h2 id="candomble-umbanda">5. Candomblé × Umbanda</h2>
+  <p>O Candomblé, em suas nações, e a Umbanda são religiões distintas. No site, cada versão leva a tradição que a fonte indica, e as tradições se dividem em grupos: {Object.values(ROTULO_GRUPO).join(', ')}. As etiquetas de Umbanda têm borda tracejada, para se distinguirem das de Candomblé também sem depender de cor. Exemplos do fichamento:</p>
+  <ul>
+    <li>Nogueira sustenta que, na Umbanda e na Quimbanda, Exu deixa de ser tratado como orixá e passa a ser visto como espírito de um morto <Ref registro="exu-034" />.</li>
+    <li>Em João Pessoa, um terreiro de Umbanda usa verde e vermelho nas festas de Ogum <Ref registro="ogum-030" />. Para o mesmo autor, o candomblé baiano usa azul-marinho e verde <Ref registro="ogum-031" />.</li>
+    <li>Em Pernambuco, “xangô” é também o nome de uma religião de culto aos orixás <Ref registro="xango-005" />.</li>
+  </ul>
+  <p class="nota-caixa">{tradicoesMeta.aviso} As {tradicoes.length} tradições aparecem no site só pelo nome, sem descrição.</p>
+
+  <h2 id="sigilo">6. Sigilo, tabus e alimentos rituais</h2>
+  <p>Parte do conhecimento religioso é reservada a iniciados. O projeto <strong>não detalha tabus nem alimentos rituais</strong> até que o conselho consultivo decida o que pode ser público. Hoje {retidos.length} registros desse tipo já estão fichados, mas ficam fora das fichas (retidos até decisão do conselho). Cada ficha informa quantos estão retidos, sem mostrar o conteúdo. Notas como “não detalhar ritos” acompanham registros etnográficos gerais.</p>
+
+  <h2 id="revisao">7. Revisão pendente</h2>
+  <p>Nenhuma ficha foi revisada ainda. Antes de publicar, cada ficha deve passar por praticantes (babalorixás, iyalorixás) e pesquisadores, reunidos num conselho consultivo ainda a formar. Até lá, todas as fichas trazem o selo “Rascunho — aguardando revisão de praticantes e pesquisadores”. Nenhum registro está hoje com status “revisado”.</p>
+
+  <h2 id="limitacoes">Limitações</h2>
+  <ul>
+    <li><strong>Fontes escritas.</strong> O fichamento depende de livros, teses e artigos, quase todos de pesquisadores. A voz das casas aparece mediada por eles. Trabalhos de campo também têm data: o de Chiousse, por exemplo, vai até 1993.</li>
+    <li><strong>Lacunas.</strong> Saudações, itãs e origem africana estão quase vazios porque as obras de referência (Verger, Prandi, Cacciatore, Beniste) ainda não foram lidas no original. Cada ficha lista os atributos sem fonte.</li>
+    <li><strong>{preFich} registros em pré-fichamento</strong> esperam acesso às fontes (obras pagas, impressas ou fora do ar).</li>
+    <li><strong>Equivalências</strong> com voduns e inquices são poucas e vêm de listas de nomes. Alguns nomes ficam como “fon ou banto, não classificado” porque a fonte não diz qual.</li>
+    <li><strong>Idioma.</strong> O site está só em português. Espanhol e inglês estão previstos.</li>
+    <li><strong>Recorte.</strong> São só 5 orixás. A expansão para cerca de 15 depende do conselho.</li>
+  </ul>
+
+  <h2 id="contribuir">Como corrigir ou contribuir</h2>
+  <p>Encontrou um erro, uma versão faltando ou algo que não deveria ser público? Abra uma <em>issue</em> no <a href={repo}>repositório</a>, indicando a ficha, o registro (código como <code>exu-001</code>, que aparece nas notas) e, se possível, a fonte.</p>
+</Base>

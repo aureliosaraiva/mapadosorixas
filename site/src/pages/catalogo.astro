@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import Tradicoes from '../components/Tradicoes.astro';
+import {
+  fichas, tradicoes, ROTULO_GRUPO, ORDEM_ATRIBUTOS, rotuloAtributo, tradicoesDaFicha,
+  totalVersoes, fontesDaFicha, divergencias, url,
+} from '../lib/dados.js';
+
+const cartoes = fichas.map((f) => ({
+  f,
+  trads: tradicoesDaFicha(f),
+  atributos: ORDEM_ATRIBUTOS.filter((a) => f.atributos[a]),
+  versoes: totalVersoes(f),
+  nFontes: fontesDaFicha(f).size,
+  nDiv: divergencias.filter((d) => d.orixa === f.id).length,
+  semFonte: f.pendencias.sem_registro.length,
+}));
+
+const tradsUsadas = new Set(cartoes.flatMap((c) => c.trads));
+const grupos = Object.entries(ROTULO_GRUPO)
+  .map(([g, rot]) => [rot, tradicoes.filter((t) => t.grupo === g && tradsUsadas.has(t.id))])
+  .filter(([, ts]) => ts.length);
+const atributosUsados = ORDEM_ATRIBUTOS.filter((a) => cartoes.some((c) => c.atributos.includes(a)));
+---
+<Base titulo="Catálogo" descricao="Catálogo das fichas de orixás, com filtros por tradição e atributo.">
+  <h1>Catálogo</h1>
+  <p>Fichas dos {fichas.length} orixás do MVP. Cada número abaixo conta só versões <strong>lidas na fonte e com página</strong>. Atributos sem fonte aparecem na própria ficha como pendência.</p>
+
+  <form class="filtros so-js" id="filtros-catalogo" aria-label="Filtrar orixás" onsubmit="return false">
+    <div>
+      <label for="f-tradicao">Tradição</label>
+      <select id="f-tradicao">
+        <option value="">Todas</option>
+        {grupos.map(([rot, ts]) => (
+          <optgroup label={rot}>
+            {ts.map((t) => <option value={t.id}>{t.nome}</option>)}
+          </optgroup>
+        ))}
+      </select>
+    </div>
+    <div>
+      <label for="f-atributo">Tem versão com fonte para</label>
+      <select id="f-atributo">
+        <option value="">Qualquer atributo</option>
+        {atributosUsados.map((a) => <option value={a}>{rotuloAtributo(a)}</option>)}
+      </select>
+    </div>
+    <button type="reset">Limpar</button>
+  </form>
+  <p class="contagem" id="contagem" aria-live="polite">{cartoes.length} orixás</p>
+
+  <ul class="grade" id="cartoes" style="list-style:none;padding:0">
+    {cartoes.map((c) => (
+      <li class="cartao" data-tradicoes={c.trads.join(' ')} data-atributos={c.atributos.join(' ')}>
+        <h2><a href={url(`orixas/${c.f.id}`)}>{c.f.rotulo}</a></h2>
+        <p class="numeros">{c.versoes} versões · {c.nFontes} fontes · {c.nDiv} atributos com divergência · {c.semFonte} atributos ainda sem fonte</p>
+        <p><strong>Atributos com fonte:</strong> {c.atributos.map(rotuloAtributo).join(', ')}.</p>
+        <p><strong>Tradições citadas:</strong> <Tradicoes ids={c.trads} /></p>
+      </li>
+    ))}
+  </ul>
+  <p id="nenhum" hidden>Nenhum orixá com versão registrada para essa combinação de filtros.</p>
+
+  <script>
+    const tr = document.getElementById('f-tradicao') as HTMLSelectElement;
+    const at = document.getElementById('f-atributo') as HTMLSelectElement;
+    const form = document.getElementById('filtros-catalogo') as HTMLFormElement;
+    const cont = document.getElementById('contagem')!;
+    const nenhum = document.getElementById('nenhum')!;
+    const cards = [...document.querySelectorAll<HTMLElement>('#cartoes > li')];
+    function aplicar() {
+      let n = 0;
+      for (const c of cards) {
+        const ok = (!tr.value || c.dataset.tradicoes!.split(' ').includes(tr.value))
+          && (!at.value || c.dataset.atributos!.split(' ').includes(at.value));
+        c.hidden = !ok;
+        if (ok) n++;
+      }
+      cont.textContent = `${n} ${n === 1 ? 'orixá' : 'orixás'}`;
+      nenhum.hidden = n > 0;
+    }
+    tr.addEventListener('change', aplicar);
+    at.addEventListener('change', aplicar);
+    form.addEventListener('reset', () => setTimeout(aplicar));
+  </script>
+</Base>

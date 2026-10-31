@@ -1,0 +1,229 @@
+---
+import Base from '../layouts/Base.astro';
+import Tradicoes from '../components/Tradicoes.astro';
+import {
+  conexoes, entidades, entidadesMeta, fichaPorId, fontePorId, autorCurto, tradicoes, ROTULO_GRUPO,
+  ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, rotuloNo, url,
+} from '../lib/dados.js';
+
+const CORES_ARESTA = {
+  parentesco: { cor: '#6b3b8f', estilo: 'solid' },
+  equivalencia: { cor: '#1d6b4a', estilo: 'dashed' },
+  sincretismo: { cor: '#22578f', estilo: 'dotted' },
+  companheiro_de_culto: { cor: '#8a5a00', estilo: 'solid' },
+  associacao: { cor: '#555555', estilo: 'dashed' },
+};
+const FORMA_NO = {
+  orixa: { forma: 'ellipse', cor: '#7a3b12', rotulo: 'círculo' },
+  santo_catolico: { forma: 'round-rectangle', cor: '#22578f', rotulo: 'retângulo' },
+  figura_crista: { forma: 'diamond', cor: '#22578f', rotulo: 'losango' },
+  vodum: { forma: 'hexagon', cor: '#1d6b4a', rotulo: 'hexágono' },
+  inquice: { forma: 'triangle', cor: '#1d6b4a', rotulo: 'triângulo' },
+  nome_fon_ou_banto: { forma: 'vee', cor: '#4f6b5e', rotulo: 'seta (V)' },
+  entidade: { forma: 'octagon', cor: '#8a5a00', rotulo: 'octógono' },
+};
+
+const tradDaAresta = (e) => [...new Set(e.versoes.flatMap((v) => v.tradicoes))];
+const tiposAresta = Object.keys(conexoes._meta.por_tipo);
+const tiposNo = [...new Set(conexoes.nos.map((n) => n.tipo))];
+const tradsUsadas = new Set(conexoes.arestas.flatMap(tradDaAresta));
+const grupos = Object.entries(ROTULO_GRUPO)
+  .map(([g, rot]) => [rot, tradicoes.filter((t) => t.grupo === g && tradsUsadas.has(t.id))])
+  .filter(([, ts]) => ts.length);
+
+const elementos = [
+  ...conexoes.nos.map((n) => ({
+    data: {
+      id: n.id, label: n.rotulo, tipo: n.tipo,
+      cor: FORMA_NO[n.tipo]?.cor ?? '#666', forma: FORMA_NO[n.tipo]?.forma ?? 'ellipse',
+      href: fichaPorId[n.id] ? url(`orixas/${n.id}`) : '',
+    },
+  })),
+  ...conexoes.arestas.map((e) => ({
+    data: {
+      id: e.id, source: e.origem, target: e.destino, tipo: e.tipo,
+      cor: CORES_ARESTA[e.tipo]?.cor ?? '#555', estilo: CORES_ARESTA[e.tipo]?.estilo ?? 'solid',
+      seta: e.direcionada ? 'triangle' : 'none',
+      tradicoes: tradDaAresta(e),
+    },
+  })),
+];
+
+const fonteCurta = (v) => {
+  const f = fontePorId[v.source_id];
+  const via = v.via_source_id ? fontePorId[v.via_source_id] : null;
+  return { f, via, loc: v.localizacao };
+};
+---
+<Base titulo="Grafo de conexões" descricao="Grafo de parentesco, equivalências e sincretismo entre orixás, com fontes.">
+  <h1>Grafo de conexões</h1>
+  <p>{conexoes.nos.length} nós e {conexoes.arestas.length} conexões, todas extraídas de versões com fonte. <strong>Equivalência não é identidade</strong>: cada entidade tem culto, mitos e atributos próprios na sua tradição. O sincretismo varia de casa para casa e de região para região.</p>
+  <p>Clique num orixá que tem ficha para abri-la. A <a href="#tabela-conexoes">tabela de conexões</a> abaixo traz as mesmas informações, com as fontes, e pode ser usada sem mouse e sem JavaScript.</p>
+
+  <form class="filtros so-js" id="filtros-grafo" aria-label="Filtrar o grafo" onsubmit="return false">
+    <fieldset>
+      <legend>Tipos de conexão</legend>
+      {tiposAresta.map((t) => (
+        <label class="opcao"><input type="checkbox" name="tipo" value={t} checked /> {ROTULO_ARESTA[t] ?? t} ({conexoes._meta.por_tipo[t]})</label>
+      ))}
+    </fieldset>
+    <div>
+      <label for="g-tradicao">Tradição</label>
+      <select id="g-tradicao">
+        <option value="">Todas</option>
+        {grupos.map(([rot, ts]) => (
+          <optgroup label={rot}>{ts.map((t) => <option value={t.id}>{t.nome}</option>)}</optgroup>
+        ))}
+      </select>
+    </div>
+    <div>
+      <label for="g-ir">Abrir ficha</label>
+      <select id="g-ir">
+        <option value="">Escolha um orixá…</option>
+        {conexoes.nos.filter((n) => fichaPorId[n.id]).map((n) => <option value={url(`orixas/${n.id}`)}>{n.rotulo}</option>)}
+      </select>
+    </div>
+    <button type="reset">Limpar</button>
+  </form>
+
+  <div class="grafo-caixa so-js">
+    <div id="grafo" role="img" aria-label="Grafo de conexões entre orixás, santos, voduns, inquices e outras entidades. A tabela abaixo descreve as mesmas conexões."></div>
+  </div>
+  <p class="contagem so-js" id="g-contagem" aria-live="polite"></p>
+  <noscript><p class="nota-caixa">O desenho do grafo precisa de JavaScript. Todas as conexões estão na tabela abaixo.</p></noscript>
+
+  <h2>Legenda</h2>
+  <h3>Nós</h3>
+  <ul class="legenda">
+    {tiposNo.map((t) => (
+      <li><span class="amostra" style={`background:${FORMA_NO[t]?.cor}`}></span>{ROTULO_NO[t] ?? t} — {FORMA_NO[t]?.rotulo}</li>
+    ))}
+  </ul>
+  <h3>Conexões</h3>
+  <ul class="legenda">
+    {tiposAresta.map((t) => (
+      <li><span class="linha" style={`border-top-style:${CORES_ARESTA[t].estilo};border-top-color:${CORES_ARESTA[t].cor}`}></span>{ROTULO_ARESTA[t]} — linha {({ solid: 'contínua', dashed: 'tracejada', dotted: 'pontilhada' })[CORES_ARESTA[t].estilo]}</li>
+    ))}
+  </ul>
+
+  <h2 id="tabela-conexoes">Tabela de conexões</h2>
+  <div class="tabela-rolagem">
+    <table>
+      <caption>{conexoes.arestas.length} conexões, agrupadas por tipo</caption>
+      <thead><tr><th scope="col">Tipo</th><th scope="col">De</th><th scope="col">Relação</th><th scope="col">Para</th><th scope="col">Versões e fontes</th></tr></thead>
+      <tbody>
+        {tiposAresta.flatMap((t) => conexoes.arestas.filter((e) => e.tipo === t)).map((e) => (
+          <tr id={`aresta-${e.id.replace(/[^a-z0-9-]/gi, '-')}`}>
+            <td>{ROTULO_ARESTA[e.tipo] ?? e.tipo}</td>
+            <td>{fichaPorId[e.origem] ? <a href={url(`orixas/${e.origem}`)}>{rotuloNo(e.origem)}</a> : rotuloNo(e.origem)}</td>
+            <td>{e.subtipo ? ROTULO_SUBTIPO[e.subtipo] ?? e.subtipo : (e.direcionada ? '→' : '—')}</td>
+            <td>{fichaPorId[e.destino] ? <a href={url(`orixas/${e.destino}`)}>{rotuloNo(e.destino)}</a> : rotuloNo(e.destino)}</td>
+            <td>
+              <ul style="margin:0;padding-left:1rem">
+                {e.versoes.map((v) => {
+                  const { f, via, loc } = fonteCurta(v);
+                  return (
+                    <li>
+                      “{v.valor}” <Tradicoes ids={v.tradicoes} />{v.casa_ou_regiao && <> ({v.casa_ou_regiao})</>} —{' '}
+                      <a href={url(`fontes#fonte-${v.source_id}`)}>{autorCurto(f)} ({f?.ano})</a>
+                      {via && <>, via <a href={url(`fontes#fonte-${v.via_source_id}`)}>{autorCurto(via)} ({via.ano})</a></>}, {loc}
+                    </li>
+                  );
+                })}
+              </ul>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="entidades">Entidades equivalentes (voduns, inquices e outros nomes)</h2>
+  <p>{entidadesMeta.descricao.replace(/^Gerado[^.]*\.\s*/, '')}</p>
+  <p class="nota-caixa">{entidadesMeta.aviso}</p>
+  <div class="tabela-rolagem">
+    <table>
+      <caption>{entidades.length} entidades</caption>
+      <thead><tr><th scope="col">Nome</th><th scope="col">Tipo</th><th scope="col">Tradições</th><th scope="col">Equivale a</th><th scope="col">Fonte</th></tr></thead>
+      <tbody>
+        {entidades.map((en) => (
+          <tr>
+            <td>{en.rotulo}</td>
+            <td>{ROTULO_NO[en.tipo] ?? en.tipo}</td>
+            <td><Tradicoes ids={en.tradicoes} /></td>
+            <td>{en.equivale_a.map((q, i) => <>{i > 0 && ', '}<a href={url(`orixas/${q.orixa}`)}>{rotuloNo(q.orixa)}</a></>)}</td>
+            <td>{en.versoes.map((v, i) => {
+              const { f, via, loc } = fonteCurta(v);
+              return <>{i > 0 && '; '}<a href={url(`fontes#fonte-${v.source_id}`)}>{autorCurto(f)} ({f?.ano})</a>{via && <>, via {autorCurto(via)} ({via.ano})</>}, {loc}</>;
+            })}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <script type="application/json" id="dados-grafo" set:html={JSON.stringify(elementos)}></script>
+  <script>
+    import cytoscape from 'cytoscape';
+
+    const elementos = JSON.parse(document.getElementById('dados-grafo')!.textContent!);
+    const cy = cytoscape({
+      container: document.getElementById('grafo'),
+      elements: elementos,
+      minZoom: 0.3,
+      maxZoom: 3,
+      wheelSensitivity: 0.3,
+      style: [
+        { selector: 'node', style: {
+          'background-color': 'data(cor)', shape: 'data(forma)' as any, label: 'data(label)',
+          'font-size': 11, color: '#1f1a17', 'text-valign': 'bottom', 'text-margin-y': 4,
+          'text-wrap': 'wrap', 'text-max-width': '110px', width: 22, height: 22,
+          'text-background-color': '#ffffff', 'text-background-opacity': 0.8, 'text-background-padding': '1px',
+        } },
+        { selector: 'node[tipo = "orixa"]', style: { width: 40, height: 40, 'font-size': 14, 'font-weight': 'bold' } },
+        { selector: 'node[href != ""]', style: { 'border-width': 3, 'border-color': '#f2c14e' } },
+        { selector: 'edge', style: {
+          width: 2, 'line-color': 'data(cor)', 'line-style': 'data(estilo)' as any,
+          'target-arrow-shape': 'data(seta)' as any, 'target-arrow-color': 'data(cor)', 'curve-style': 'bezier',
+        } },
+        { selector: '.oculto', style: { display: 'none' } },
+        { selector: '.realce', style: { 'border-width': 4, 'border-color': '#0b5cad' } },
+      ],
+      layout: { name: 'cose', animate: false, nodeRepulsion: () => 9000, idealEdgeLength: () => 90, padding: 20 } as any,
+    });
+
+    cy.on('tap', 'node', (ev) => {
+      const href = ev.target.data('href');
+      if (href) window.location.href = href;
+    });
+    cy.on('mouseover', 'node[href != ""]', () => { (cy.container() as HTMLElement).style.cursor = 'pointer'; });
+    cy.on('mouseout', 'node', () => { (cy.container() as HTMLElement).style.cursor = ''; });
+
+    const form = document.getElementById('filtros-grafo') as HTMLFormElement;
+    const selTrad = document.getElementById('g-tradicao') as HTMLSelectElement;
+    const selIr = document.getElementById('g-ir') as HTMLSelectElement;
+    const cont = document.getElementById('g-contagem')!;
+
+    function aplicar() {
+      const tipos = new Set([...form.querySelectorAll<HTMLInputElement>('input[name=tipo]:checked')].map((i) => i.value));
+      const trad = selTrad.value;
+      cy.batch(() => {
+        cy.edges().forEach((e) => {
+          const ok = tipos.has(e.data('tipo')) && (!trad || e.data('tradicoes').includes(trad));
+          e.toggleClass('oculto', !ok);
+        });
+        cy.nodes().forEach((n) => {
+          const visivel = n.connectedEdges().some((e) => !e.hasClass('oculto'));
+          n.toggleClass('oculto', !visivel && !(n.data('href') && !trad && tipos.size > 0));
+        });
+      });
+      const ne = cy.edges().filter((e) => !e.hasClass('oculto')).length;
+      const nn = cy.nodes().filter((n) => !n.hasClass('oculto')).length;
+      cont.textContent = `Mostrando ${nn} nós e ${ne} conexões.`;
+    }
+    form.addEventListener('change', (ev) => { if (ev.target !== selIr) aplicar(); });
+    form.addEventListener('reset', () => setTimeout(aplicar));
+    selIr.addEventListener('change', () => { if (selIr.value) window.location.href = selIr.value; });
+    aplicar();
+  </script>
+</Base>

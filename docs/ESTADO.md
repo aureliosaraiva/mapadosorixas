@@ -6,7 +6,7 @@
 
 ## Onde estamos
 
-**Fase 1 — Levantamento e fichamento** (em andamento) e **Fase 2 — Modelo de dados** (iniciada: esquemas, fichas geradas e grafo). Ver [`PLANO.md`](PLANO.md). As fases 3 a 7 ainda não começaram.
+**Fase 1 — Levantamento e fichamento** (em andamento), **Fase 2 — Modelo de dados** (iniciada: esquemas, fichas geradas e grafo) e **Fase 5 — Site estático: protótipo feito** (`site/`, Astro + Cytoscape.js + Pagefind; compila no CI, sem deploy). Ver [`PLANO.md`](PLANO.md). Fases 3, 4, 6 e 7 ainda não começaram.
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
@@ -18,6 +18,7 @@
 | Entidades equivalentes (`data/entidades_equivalentes.json`) | 11 (1 vodum, 3 inquices, 7 nomes fon/banto não classificados) | idem |
 | Tradições (`data/tradicoes.json`) | 19, todas `rascunho_sem_fonte` | idem |
 | Anti-cópia | 0 erros (também contra o texto das 3 fontes desta rodada); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
+| Site (`site/`) | 10 páginas: início com busca, catálogo, 5 fichas, grafo, fontes, metodologia. Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
 | Idiomas no catálogo | pt, en, es, fr, de, it, yo | — |
 
 Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 27.
@@ -32,7 +33,8 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 4. **Procurar texto aberto para os `pre_fichamento` restantes**, por exemplo a dissertação de Ribas 2010 em outro espelho e capítulos de Tishken 2009 e Barnes 1989 em repositórios de autores. *(Leitura de Nogueira 2017, Pinheiro 2011 e Costa 2007: feita em 2026-10-31; exu-034 e xango-005 confirmados, ogum-006 corrigido, 7 registros novos.)*
 5. **Fase 2 (restante):** dar fonte às descrições de `data/tradicoes.json` e criar `glossario.json`. Ambos dependem de fichar definições em obra de referência; não redigir sem fonte. *(Esquemas, fichas, grafo, entidades equivalentes, validador, anti-cópia e CI: feitos em 2026-10-31.)*
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
-7. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
+7. **Site (Fase 5, restante):** glossário e página Sobre/Créditos (dependem de `glossario.json` com fonte); mini-grafo local na ficha; download dos dados; versões es/en (Fase 7). Deploy, domínio e licenças dependem do autor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
+8. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
 
 ## Decisões já tomadas
 
@@ -48,7 +50,9 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 - **Tabus e alimentos** fichados ficam fora da ficha pública (`pendencias.retidos_ate_conselho`) até decisão do conselho.
 - **Entidades equivalentes** são geradas das arestas de equivalência; nomes que a fonte não atribui a fon ou banto ficam como `nome_fon_ou_banto`.
 - **Anti-cópia:** citação entre aspas com 15+ palavras é erro. Para comparar com o texto das obras, aponte `ANTICOPIA_REFS` para uma pasta de `.txt` **fora do repo**; qualquer sequência idêntica de 8 palavras é erro.
-- **CI** (`.github/workflows/validar.yml`) roda todos os validadores a cada push e PR.
+- **CI** (`.github/workflows/validar.yml`) roda todos os validadores e o build do site a cada push e PR.
+- **Site só exibe dados:** `site/` lê `data/` em tempo de build; nenhum texto sobre orixás é escrito no código. Afirmações da página de Metodologia citam registros pelo componente `Ref.astro`, e o build falha se o registro não existir ou não estiver `fichado`. Tradições aparecem só pelo nome, porque as descrições ainda estão sem fonte.
+- **Site:** Astro 7 (Node ≥ 22.23), saída estática, `SITE_BASE` para subcaminho. Selo "Rascunho — aguardando revisão de praticantes e pesquisadores" em todas as fichas e `noindex` em todas as páginas até a revisão. Etiquetas de Umbanda com borda tracejada, para distinguir de Candomblé sem depender de cor. Filtros e grafo são aprimoramento progressivo: sem JS, aparecem tabelas e listas completas.
 - **Conferência de metadados:** Open Library, Internet Archive, Crossref e repositórios institucionais valem como evidência para `conferido_web`; a URL vai em `evidencias`. Divergência de edição ou ano é anotada em `observacoes`, sem trocar o ano citado. WorldCat (429), Gallica (403) e Google Books (cota) não respondem neste ambiente.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
 - **Página nos registros é a página impressa**, não a do PDF. Quando as duas diferem, a relação é anotada no relatório da rodada.
@@ -80,6 +84,8 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 | `data/entidades_equivalentes.json` | voduns, inquices etc. (gerado; esquema `schemas/entidade.schema.json`) |
 | `data/tradicoes.json` | tradições (esquema `schemas/tradicao.schema.json`) |
 | `scripts/` | validação e geração |
+| `site/` | protótipo do site (Astro); ver `site/README.md` |
+| `docs/screenshots/` | capturas das páginas principais (`site/scripts/screenshots.cjs`) |
 
 ## Pedido de abertura sugerido
 

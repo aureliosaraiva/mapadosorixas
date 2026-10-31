@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+import { url } from '../lib/dados.js';
+
+interface Props { titulo: string; descricao?: string; indexar?: boolean }
+const { titulo, descricao = 'Enciclopédia em construção sobre os orixás, com fontes citadas e divergências entre tradições lado a lado.', indexar = false } = Astro.props;
+
+const atual = Astro.url.pathname.replace(/\/$/, '');
+const menu = [
+  ['', 'Início'],
+  ['catalogo', 'Catálogo'],
+  ['grafo', 'Grafo'],
+  ['fontes', 'Fontes'],
+  ['metodologia', 'Metodologia'],
+];
+const ativo = (p: string) => {
+  const alvo = url(p).replace(/\/$/, '');
+  return alvo === atual || (p !== '' && atual.startsWith(alvo + '/')) || (p === 'catalogo' && atual.includes('/orixas/'));
+};
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={descricao} />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
+    <title>{titulo} · Mapa dos Orixás (rascunho)</title>
+    <script is:inline>document.documentElement.classList.add('js');</script>
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho">
+      <div class="interno">
+        <a class="marca" href={url('')}>Mapa dos Orixás</a>
+        <nav aria-label="Principal">
+          <ul>
+            {menu.map(([p, r]) => (
+              <li><a href={url(p)} aria-current={ativo(p) ? 'page' : undefined}>{r}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="conteudo" tabindex="-1" data-pagefind-body={indexar ? '' : undefined}>
+      <slot />
+    </main>
+    <footer class="rodape">
+      <div class="interno">
+        <p><strong>Protótipo em rascunho.</strong> Nenhum conteúdo foi revisado ainda por praticantes (babalorixás, iyalorixás) ou pesquisadores. O site só exibe os dados versionados no repositório (<code>data/</code>); cada afirmação remete a uma fonte do catálogo.</p>
+        <p>Licenças de código, textos e dados: a definir (ver <a href="https://github.com/aureliosaraiva/mapadosorixas">repositório</a>).</p>
+      </div>
+    </footer>
+  </body>
+</html>
