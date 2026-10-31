@@ -329,7 +329,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 120, 124",
-          "registro": "iemanja-009"
+          "registro": "iemanja-007"
         },
         {
           "valor": "sábado (com Oxum)",
@@ -340,7 +340,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 128",
-          "registro": "iemanja-010"
+          "registro": "iemanja-008"
         },
         {
           "valor": "sexta-feira (com Odé, 'o filho que ela traz ao colo')",
@@ -351,7 +351,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 119, nota 79",
-          "registro": "iemanja-011"
+          "registro": "iemanja-009"
         },
         {
           "valor": "sábado",
@@ -363,7 +363,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 237",
-          "registro": "iemanja-020"
+          "registro": "iemanja-018"
         }
       ]
     },
@@ -380,7 +380,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 124",
-          "registro": "iemanja-012"
+          "registro": "iemanja-010"
         },
         {
           "valor": "águas do mar",
@@ -392,7 +392,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 226",
-          "registro": "iemanja-016"
+          "registro": "iemanja-014"
         }
       ]
     },
@@ -409,7 +409,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 124",
-          "registro": "iemanja-013"
+          "registro": "iemanja-011"
         },
         {
           "valor": "datas variam por região (31 de dezembro, 8 de fevereiro); presentes levados ao mar",
@@ -421,7 +421,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 237",
-          "registro": "iemanja-021"
+          "registro": "iemanja-019"
         },
         {
           "valor": "presentes (sabões, perfumes, flores, espelhos, pentes) lançados da margem ou de barco; 'presente de Iemanjá' (2 de fevereiro)",
@@ -432,7 +432,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 92–93",
-          "registro": "iemanja-029"
+          "registro": "iemanja-027"
         },
         {
           "valor": "locais na Bahia: Dique, Montserrat, praia do Rio Vermelho",
@@ -443,7 +443,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 93",
-          "registro": "iemanja-030"
+          "registro": "iemanja-028"
         },
         {
           "valor": "presente de Iemanjá em Recife e Porto Alegre retomado pela Umbanda; expansão no Rio, Porto Alegre e Santos (anos 1940–50)",
@@ -455,7 +455,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 93, nota 37",
-          "registro": "iemanja-031"
+          "registro": "iemanja-029"
         },
         {
           "valor": "2 de fevereiro no Rio Vermelho: começa à meia-noite no Dique do Tororó (oferenda a Oxum); alvorada às 5h; presentes até as 16h",
@@ -466,7 +466,7 @@
           "fonte": "blass-2007-iemanja",
           "via": null,
           "localizacao": "PDF p. 6",
-          "registro": "iemanja-033"
+          "registro": "iemanja-031"
         },
         {
           "valor": "presentes em balaios levados por cortejo de barcos; casa de Iemanjá ao lado da Igreja de Sant'Ana",
@@ -477,7 +477,32 @@
           "fonte": "blass-2007-iemanja",
           "via": null,
           "localizacao": "PDF pp. 4, 7",
-          "registro": "iemanja-034"
+          "registro": "iemanja-032"
+        },
+        {
+          "valor": "8 de dezembro, em águas doces (praias de Outeiro, Belém); festival fundado em 1971",
+          "tradicoes": [
+            "umbanda",
+            "tambor_de_mina",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Belém (PA)",
+          "fonte": "cardoso-filho-2015-iemanja",
+          "via": null,
+          "localizacao": "Resumo",
+          "registro": "iemanja-046"
+        },
+        {
+          "valor": "Festa de Iemanjá no Mercadão de Madureira: ciclo ao longo de dezembro, sem inclusão de santos católicos",
+          "tradicoes": [
+            "umbanda",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Rio de Janeiro — Mercadão de Madureira",
+          "fonte": "teixeira-2021-iemanja",
+          "via": null,
+          "localizacao": "Resumo",
+          "registro": "iemanja-047"
         }
       ]
     },
@@ -494,7 +519,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 125",
-          "registro": "iemanja-014"
+          "registro": "iemanja-012"
         },
         {
           "valor": "esposa de Oxalá; mãe de Xangô; às vezes mãe de todos os orixás (exceto Exu)",
@@ -506,7 +531,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 236",
-          "registro": "iemanja-017"
+          "registro": "iemanja-015"
         }
       ]
     },
@@ -524,7 +549,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 237",
-          "registro": "iemanja-023"
+          "registro": "iemanja-021"
         },
         {
           "valor": "otá: seixo marítimo",
@@ -535,7 +560,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 90, nota 28",
-          "registro": "iemanja-026"
+          "registro": "iemanja-024"
         },
         {
           "valor": "folha 'olhos de Santa Luzia' pertence a Iemanjá",
@@ -546,7 +571,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 191",
-          "registro": "iemanja-028"
+          "registro": "iemanja-026"
         }
       ]
     },
@@ -574,7 +599,7 @@
           "fonte": "bastide-1958-candomble",
           "via": null,
           "localizacao": "ed. pt 1961, p. 105, nota",
-          "registro": "iemanja-015"
+          "registro": "iemanja-013"
         },
         {
           "valor": "Virgem Maria (Virgem com o Menino)",
@@ -586,7 +611,7 @@
           "fonte": "chiousse-1995-divins",
           "via": null,
           "localizacao": "p. 236",
-          "registro": "iemanja-018"
+          "registro": "iemanja-016"
         },
         {
           "valor": "N. Sra. das Candeias, dos Navegantes, da Conceição, da Piedade, das Cabeças; Virgem Maria",
@@ -598,7 +623,7 @@
           "fonte": "queiroga-nascimento-2019-iemanja",
           "via": null,
           "localizacao": "PDF p. 8, nota 5",
-          "registro": "iemanja-047"
+          "registro": "iemanja-045"
         }
       ]
     },
