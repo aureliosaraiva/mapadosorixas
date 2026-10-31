@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/glossario.schema.json",
+  "title": "Termo do glossário",
+  "description": "Cada termo tem definição parafraseada e ao menos uma fonte com página. Termos sem fonte ficam fora (listados em _meta.pendentes de data/glossario.json). Nenhuma definição expõe fundamento iniciático.",
+  "type": "object",
+  "required": ["id", "termo", "variantes", "categoria", "tradicoes", "definicao", "sources", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "termo": { "type": "string", "minLength": 1 },
+    "variantes": { "type": "array", "items": { "type": "string", "minLength": 1 }, "description": "Grafias alternativas encontradas nas fontes." },
+    "categoria": {
+      "enum": ["conceito", "divindade_e_entidade", "cargo_e_pessoa", "rito_e_oferenda", "lugar_e_objeto", "adivinhacao", "religiao_e_grupo", "musica_e_danca"]
+    },
+    "tradicoes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Ids de data/tradicoes.json em que a fonte situa o termo. Vazio = a fonte não especifica."
+    },
+    "definicao": { "type": "string", "minLength": 1 },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/fonte" } },
+    "divergencias": {
+      "type": "array",
+      "description": "Sentidos que variam entre fontes, lado a lado, sem eleger o correto.",
+      "items": {
+        "type": "object",
+        "required": ["texto", "sources"],
+        "properties": {
+          "texto": { "type": "string", "minLength": 1 },
+          "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/fonte" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "nota": { "type": ["string", "null"] },
+    "ver_tambem": { "type": "array", "items": { "type": "string" } },
+    "status": { "enum": ["com_fonte", "revisado"] }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "fonte": {
+      "type": "object",
+      "required": ["id", "loc"],
+      "properties": {
+        "id": { "type": "string" },
+        "loc": { "type": "string", "minLength": 1 },
+        "via": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

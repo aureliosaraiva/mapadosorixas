@@ -28,9 +28,13 @@
       "items": {
         "type": "object",
         "required": ["id", "loc"],
-        "properties": { "id": { "type": "string" }, "loc": { "type": "string" } },
+        "properties": { "id": { "type": "string" }, "loc": { "type": "string", "minLength": 1 } },
         "additionalProperties": false
       }
+    },
+    "nota": {
+      "type": ["string", "null"],
+      "description": "Divergências entre fontes, ressalvas ou o que ficou fora da descrição por falta de fonte."
     },
     "status": {
       "enum": ["rascunho_sem_fonte", "com_fonte", "revisado"],

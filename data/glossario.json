@@ -1,0 +1,1369 @@
+{
+  "_meta": {
+    "descricao": "Glossário de termos usados nas fichas, no fichamento e nas tradições. Cada definição é paráfrase com página. Esquema: schemas/glossario.schema.json. Validado por scripts/validar_fichas.py e conferido por scripts/anticopia.py.",
+    "aviso": "Definições em linguagem pública: nada de fundamento iniciático (preparos, cantigas secretas, liturgia de iniciação). Ainda sem revisão de praticantes.",
+    "total": 47,
+    "pendentes": [
+      {
+        "termo": "saudação (nomes das saudações aos orixás)",
+        "motivo": "depende de Cacciatore (1977) e Beniste (2011), obras impressas"
+      },
+      {
+        "termo": "quizila / ewó",
+        "motivo": "tabus ficam retidos até decisão do conselho; Bastide (p. 355) define eho e quizila, mas o termo só entra com essa decisão"
+      },
+      {
+        "termo": "bori",
+        "motivo": "rito ligado à iniciação; decidir com o conselho se a definição pública de Bastide (p. 354) pode entrar"
+      },
+      {
+        "termo": "kelê",
+        "motivo": "sinal ligado à iniciação; mesma decisão"
+      },
+      {
+        "termo": "lwa (Vodou)",
+        "motivo": "nenhuma fonte aberta lida usa o termo"
+      },
+      {
+        "termo": "Regla de Ocha, Palo Monte, Arará, Shango (Trinidad)",
+        "motivo": "faltam fontes abertas lidas; ver PENDENCIAS.md"
+      }
+    ]
+  },
+  "termos": [
+    {
+      "id": "adarrum",
+      "termo": "adarrum",
+      "variantes": [],
+      "categoria": "musica_e_danca",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Toque de tambor que chama os orixás a descer.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 353 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 379 (glossário: toque)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "atabaque"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "assentamento",
+      "termo": "assentamento",
+      "variantes": [],
+      "categoria": "lugar_e_objeto",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda",
+        "tambor_de_mina"
+      ],
+      "definicao": "Conjunto de objetos escolhidos por cor, forma ou textura e consagrados, que torna o orixá presente de forma material e visível. No candomblé as divindades são representadas sobretudo por esses símbolos (seixos, pedra-de-raio, ferramentas), e menos por imagens. No Tambor de Mina, Prandi descreve as entidades como fixadas em artefatos sacros.",
+      "sources": [
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "p. 1111, nota 5"
+        },
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "p. 57"
+        },
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 2"
+        }
+      ],
+      "nota": "O projeto não descreve como se monta nem como se consagra um assentamento.",
+      "ver_tambem": [
+        "ferramenta",
+        "ota"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "atabaque",
+      "termo": "atabaque",
+      "variantes": [],
+      "categoria": "musica_e_danca",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Tambores sagrados do culto, em geral três, de tamanhos diferentes (rum, rumpi e lé), considerados essenciais para chamar os orixás; cada orixá responde a um toque próprio.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 371 (glossário)"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 356–357 (glossário: lê, rum, rumpi)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "adarrum"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "axe",
+      "termo": "axé",
+      "variantes": [
+        "aché",
+        "àṣẹ"
+      ],
+      "categoria": "conceito",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Força sagrada. Bastide aproxima o termo da noção de mana dos sociólogos, mas observa que, nos candomblés, ele não indica uma força impessoal abstrata e sim formas concretas em que ela se fixa, como ervas e os alicerces do terreiro. Chiousse acrescenta que a palavra iorubá também significa autoridade e permissão, e que no culto serve de saudação, com o sentido de desejar força e paz a quem se cumprimenta.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 353 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 371 (glossário)"
+        }
+      ],
+      "nota": "Chiousse também chama de axé o ponto consagrado que funda o terreiro; o projeto não detalha o que ali se deposita.",
+      "ver_tambem": [
+        "terreiro"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "axexe",
+      "termo": "axexê",
+      "variantes": [
+        "axêxê",
+        "candomblé funerário"
+      ],
+      "categoria": "rito_e_oferenda",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Rito funerário celebrado depois da morte de um membro da casa.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 70, 354 (glossário)"
+        }
+      ],
+      "nota": "Bastide (p. 70) registra que o rito varia conforme a nação. O projeto não detalha a liturgia.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "babalao",
+      "termo": "babalaô",
+      "variantes": [],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "definicao": "Sacerdote ligado a Ifá e à adivinhação. Bastide anota que antes era o sacerdote do culto de Ifá e que, no seu tempo, o termo designava o adivinho; Chiousse o descreve como o grau mais alto do culto.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 354 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 371 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "ifa",
+        "odu",
+        "opele"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "babalorixa",
+      "termo": "babalorixá",
+      "variantes": [
+        "pai de santo",
+        "zelador"
+      ],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Sacerdote que dirige uma casa de candomblé; em português, pai de santo. Chiousse registra que a expressão pai de santo é contestada por alguns, que preferem zelador.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 354 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 378 (glossário: pai de santo)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "ialorixa"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "caboclo",
+      "termo": "caboclo",
+      "variantes": [],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "definicao": "Espírito de indígena cultuado na Umbanda e no candomblé de caboclo. Chiousse registra a ideia corrente de que os caboclos estão sob as ordens de Oxóssi.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 372 (glossário)"
+        },
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "pp. 53–54"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 354 (glossário: candomblé de caboclo)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "umbanda",
+        "preto-velho"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "candomble",
+      "termo": "candomblé",
+      "variantes": [],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_jeje",
+        "candomble_angola"
+      ],
+      "definicao": "Religião afro-brasileira de culto aos orixás, voduns e inquices, organizada em nações. Bastide dá três sentidos à palavra: o lugar das festas religiosas africanas, o conjunto dessas cerimônias e, no sul do país, qualquer dança ou festa de negros.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 17, 354 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 373 (glossário)"
+        },
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "pp. 1110–1111, nota 4"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "nacao",
+        "umbanda"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ebo",
+      "termo": "ebó",
+      "variantes": [],
+      "categoria": "rito_e_oferenda",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Bastide dá dois sentidos: oferenda sacrificial aos deuses e, por extensão, sortilégio.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ebomi",
+      "termo": "ebômi",
+      "variantes": [
+        "ebômin",
+        "ebomim"
+      ],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Iniciado que completou sete anos, segunda etapa da hierarquia depois de iaô. Chiousse aproxima o termo do iorubá para irmão mais velho.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 373 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "iao"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "egum",
+      "termo": "egum",
+      "variantes": [
+        "egun",
+        "egungun",
+        "eégun"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Os mortos, ou os espíritos dos mortos. Chiousse acrescenta que em iorubá o termo também nomeia as máscaras que os representam.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário: egun ou egungun)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 373 (glossário)"
+        }
+      ],
+      "nota": "Silva (2012, p. 1088) registra o uso de eguns para espíritos de mortos que perturbam as pessoas, associados ao lado demonizado de Exu.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "encantado",
+      "termo": "encantado",
+      "variantes": [],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "definicao": "No Tambor de Mina, espírito que se manifesta em transe nas festas, ao lado dos voduns.",
+      "sources": [
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 2"
+        }
+      ],
+      "nota": "Chiousse (p. 379) usa encantados, na Umbanda, no sentido de anjos; o projeto mantém só o sentido do Tambor de Mina até haver mais fontes.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "equede",
+      "termo": "equede",
+      "variantes": [
+        "ekedi",
+        "ekedy"
+      ],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Mulher encarregada de cuidar dos filhos de santo quando estão em transe e de zelar pelo andamento das cerimônias; segundo Chiousse, é iniciada mas não entra em transe.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário: ekedy)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 373 (glossário: ekedi)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "oga"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ere",
+      "termo": "erê",
+      "variantes": [
+        "ere"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Termo com vários sentidos: espírito infantil que acompanha as divindades e as pessoas, ou um tipo de transe infantil. Chiousse liga a palavra ao iorubá para brincadeira e a associa aos Ibejis.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 374 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "exu-entidade",
+      "termo": "exu (entidade de Umbanda)",
+      "variantes": [
+        "exus"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "definicao": "Na Umbanda, os exus, no plural, são espíritos de humanos mortos, guias da esquerda, distintos do orixá Exu do candomblé, que é divindade.",
+      "sources": [
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "pp. 54, 58"
+        }
+      ],
+      "nota": "O orixá Exu tem ficha própria (data/orixas/exu.json).",
+      "ver_tambem": [
+        "quimbanda",
+        "pombagira"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ferramenta",
+      "termo": "ferramenta",
+      "variantes": [],
+      "categoria": "lugar_e_objeto",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Objeto de ferro que resume os atributos de um orixá, como o arco e flecha de Oxóssi ou o tridente de Exu; vendido em lojas de artigos religiosos e consagrado no terreiro. Chiousse anota que às vezes se usa assentamento como termo genérico.",
+      "sources": [
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "p. 1111, nota 7"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 375 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "assentamento"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "filho-de-santo",
+      "termo": "filho de santo",
+      "variantes": [
+        "filha de santo"
+      ],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Pessoa iniciada no culto, membro de uma casa de candomblé.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 375 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ialorixa",
+      "termo": "ialorixá",
+      "variantes": [
+        "iyalorixá",
+        "mãe de santo"
+      ],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Sacerdotisa que dirige uma casa de candomblé; em português, mãe de santo.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "babalorixa"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "iao",
+      "termo": "iaô",
+      "variantes": [
+        "yaô",
+        "yauô",
+        "iyawo"
+      ],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Pessoa iniciada. O termo vem do iorubá iyawo, esposa (dos deuses), e designa o iniciado até completar sete anos, quando passa a ebômi.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 355, 358 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 375 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "ebomi"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ifa",
+      "termo": "Ifá",
+      "variantes": [],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "definicao": "Divindade do destino, que atua na adivinhação.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 376 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "odu",
+        "babalao",
+        "opele"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ile",
+      "termo": "ilê",
+      "variantes": [
+        "ilé"
+      ],
+      "categoria": "lugar_e_objeto",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Palavra iorubá para casa; entra em nomes de casas de culto.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 376 (glossário)"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. [10] (mini glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "inquice",
+      "termo": "inquice",
+      "variantes": [
+        "nkisi",
+        "jinkisi",
+        "nkice",
+        "inkice"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "definicao": "Divindade dos povos bantos cultuada no Candomblé Angola-Congo (nkisi; plural jinkisi). Silva a inclui, com os orixás iorubás e os voduns fon-jeje, entre as entidades de origem africana do candomblé.",
+      "sources": [
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. 15, nota 2; p. [10] (mini glossário)"
+        },
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "pp. 1110–1111, nota 4"
+        },
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 1"
+        }
+      ],
+      "divergencias": [
+        {
+          "texto": "Entre adeptos do Candomblé Angola, há quem veja os inquices como correspondentes dos orixás e quem os veja como espíritos de antepassados.",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 15"
+            }
+          ]
+        },
+        {
+          "texto": "Na África Central, nkisi não é uma divindade: designa forças ligadas a elementos da natureza, acionadas por um nganga com a força dos ancestrais.",
+          "sources": [
+            {
+              "id": "tomba-2019-bantu",
+              "loc": "pp. 25, 92"
+            }
+          ]
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "orixa",
+        "vodum"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ita",
+      "termo": "itã",
+      "variantes": [
+        "itan",
+        "ìtàn"
+      ],
+      "categoria": "conceito",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Narrativa tradicional sobre os orixás. Chiousse usa o termo iorubá itan, que traduz por história, para os relatos que contam, por exemplo, a vida terrena de Oxóssi ou como Ossaim recebeu de Ifá o encargo das plantas.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "pp. 256, 258"
+        }
+      ],
+      "nota": "Única fonte aberta lida que define o termo. Prandi, Mitologia dos Orixás (2001), e Beniste (2011) seguem pendentes.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "jogo-de-buzios",
+      "termo": "jogo de búzios",
+      "variantes": [
+        "edilogun",
+        "merindilogun"
+      ],
+      "categoria": "adivinhacao",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Consulta aos orixás por meio de dezesseis búzios (cauris), feita por pais e mães de santo. Bastide registra o nome edilogun.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "pp. 372, 376 (glossário: búzios, jogo de búzios)"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário: edilogun)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "odu"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "linha-cruzada",
+      "termo": "Linha Cruzada",
+      "variantes": [],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "batuque_rs",
+        "umbanda"
+      ],
+      "definicao": "Modalidade afro-religiosa do Rio Grande do Sul que cultua as entidades do Batuque e da Umbanda e acrescenta exus e pombagiras; segundo Oro, citando Correa, a mais difundida no estado.",
+      "sources": [
+        {
+          "id": "oro-2008-rs",
+          "loc": "pp. 11–12"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "macumba",
+      "termo": "macumba",
+      "variantes": [],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "definicao": "Nome dado, no Rio de Janeiro, no Espírito Santo e em São Paulo, aos cultos afro-brasileiros e às suas cerimônias. Bastide a descreve, no Rio, como religião sincrética surgida da fusão das nações com influências ameríndias, católicas e espíritas.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 18, 356 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 379 (glossário: umbanda)"
+        }
+      ],
+      "nota": "Termo que muitas vezes é usado de forma pejorativa; aqui só se registra o sentido descritivo das fontes.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "nacao",
+      "termo": "nação",
+      "variantes": [
+        "lado"
+      ],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_jeje",
+        "candomble_angola",
+        "batuque_rs"
+      ],
+      "definicao": "Nome dado aos grupos africanos de uma mesma etnia e, no candomblé, às tradições que deles derivam (Queto, Ijexá, Jeje, Angola, Congo), distintas pelo toque dos tambores, pela música, pela língua das cantigas, pelas vestes e por detalhes do ritual. No Batuque gaúcho, as nações também se chamam lados.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 377 (glossário: nation)"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 17"
+        },
+        {
+          "id": "oro-2008-rs",
+          "loc": "p. 13"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "odu",
+      "termo": "odu",
+      "variantes": [],
+      "categoria": "adivinhacao",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "definicao": "Cada um dos signos da adivinhação. Bastide o define pelo modo como caem os búzios ou o colar de Ifá (opelê); Chiousse o descreve como um capítulo do corpus de Ifá, apontado pelo lançamento de búzios ou de obi.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 356 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 377 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "ifa",
+        "opele",
+        "jogo-de-buzios",
+        "babalao"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "oga",
+      "termo": "ogã",
+      "variantes": [
+        "ogan"
+      ],
+      "categoria": "cargo_e_pessoa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Cargo masculino de apoio na casa de candomblé.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 356 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 377 (glossário)"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. [10] (mini glossário)"
+        }
+      ],
+      "divergencias": [
+        {
+          "texto": "Bastide define os ogãs como protetores do candomblé.",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "p. 356 (glossário)"
+            }
+          ]
+        },
+        {
+          "texto": "Chiousse os define como o equivalente masculino da equede: iniciados com sete anos que não entram em transe nem dirigem terreiro.",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 377 (glossário)"
+            }
+          ]
+        },
+        {
+          "texto": "Botão traduz ogã simplesmente como assistente masculino.",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. [10] (mini glossário)"
+            }
+          ]
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "equede"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "olorum",
+      "termo": "Olorum",
+      "variantes": [
+        "Olorun",
+        "Olodumaré"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "definicao": "Deus supremo dos iorubás, que vive no orum, o céu.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "pp. 377–378 (glossário: Olorun, orun)"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 356 (glossário: orixá)"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. [10] (mini glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "opele",
+      "termo": "opelê",
+      "variantes": [
+        "opele"
+      ],
+      "categoria": "adivinhacao",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Colar de Ifá, instrumento de adivinhação usado pelo babalaô.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 356 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 377 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "ifa",
+        "odu"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ori",
+      "termo": "orí",
+      "variantes": [
+        "ori"
+      ],
+      "categoria": "conceito",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Palavra iorubá para cabeça. Bastide registra também o sentido de espírito.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 356 (glossário)"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. [10] (mini glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "oriki",
+      "termo": "oríkì",
+      "variantes": [
+        "oriki"
+      ],
+      "categoria": "musica_e_danca",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Cântico de louvor.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 356 (glossário)"
+        }
+      ],
+      "nota": "Definição mínima; Barber (1991) e Beier (1970), sobre o gênero em território iorubá, seguem pendentes.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "orixa",
+      "termo": "orixá",
+      "variantes": [
+        "orisha",
+        "oricha",
+        "òrìṣà"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "definicao": "Nome genérico das divindades dos cultos de origem iorubá. Bastide as descreve como intermediárias entre Olorum, o deus supremo, e os humanos.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 356 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 378 (glossário)"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. [10] (mini glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "olorum",
+        "inquice",
+        "vodum"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "osse",
+      "termo": "ossé",
+      "variantes": [],
+      "categoria": "rito_e_oferenda",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Oferenda de comida que os filhos de santo fazem aos seus orixás.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 357 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "ota",
+      "termo": "otá",
+      "variantes": [
+        "ita",
+        "ota"
+      ],
+      "categoria": "lugar_e_objeto",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Pedra consagrada do culto aos orixás. Bastide a chama de pedra dos deuses; Chiousse a situa no peji, junto ao orixá.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 355 (glossário: ita)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 378 (glossário)"
+        }
+      ],
+      "nota": "O projeto não detalha o preparo nem o significado iniciático da pedra.",
+      "ver_tambem": [
+        "peji",
+        "assentamento"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "pade",
+      "termo": "padê",
+      "variantes": [
+        "padé",
+        "padê de Exu",
+        "despacho"
+      ],
+      "categoria": "rito_e_oferenda",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Rito de abertura em homenagem a Exu, feito antes de qualquer cerimônia para que ela possa transcorrer. Chiousse liga o nome ao iorubá ipadé, encontro. Prandi lembra que Bastide via nessa precedência o papel de Exu como mensageiro, embora também circulasse a leitura de que a homenagem evitaria que ele perturbasse a festa.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 357 (glossário: padê de Exu)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 378 (glossário)"
+        },
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "p. 58"
+        }
+      ],
+      "nota": "Bastide (p. 354) remete despacho a padê de Exu.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "peji",
+      "termo": "peji",
+      "variantes": [
+        "pegí",
+        "pejí"
+      ],
+      "categoria": "lugar_e_objeto",
+      "tradicoes": [
+        "candomble_ketu",
+        "tambor_de_mina"
+      ],
+      "definicao": "Santuário da casa de candomblé onde ficam os orixás; segundo Chiousse, em geral só iniciados entram nele. Na Casa das Minas, o espaço equivalente se chama comé.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 354, 357 (glossário: comé, pegí)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 378 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "pombagira",
+      "termo": "pombagira",
+      "variantes": [
+        "pomba-gira"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "definicao": "Entidade feminina da esquerda umbandista, contraparte de Exu. Prandi mostra que a Umbanda a construiu como espírito de mulher de vida considerada desregrada, e que ela é procurada sobretudo em questões amorosas.",
+      "sources": [
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "pp. 54–56"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "quimbanda",
+        "exu-entidade"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "preto-velho",
+      "termo": "preto-velho",
+      "variantes": [
+        "pretos-velhos"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "definicao": "Espírito de africano escravizado, cultuado sobretudo na Umbanda.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 379 (glossário)"
+        },
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "p. 54"
+        },
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "pp. 1110–1111, nota 4"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "umbanda",
+        "caboclo"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "qualidade",
+      "termo": "qualidade",
+      "variantes": [
+        "invocação",
+        "avatar"
+      ],
+      "categoria": "conceito",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Cada uma das formas pelas quais um mesmo orixá é reconhecido e cultuado. Segundo Prandi, cada qualidade (também dita invocação ou avatar) se refere a um aspecto do mito, a uma função do orixá ou a um lugar a que ele se associa; Exu, por exemplo, tem dezenas de nomes-qualidades.",
+      "sources": [
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "pp. 54–55"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "quimbanda",
+      "termo": "quimbanda",
+      "variantes": [
+        "kimbanda"
+      ],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "definicao": "Nome que a Umbanda deu ao domínio dos exus e pombagiras, a chamada esquerda, onde o trabalho mágico não se submete à restrição moral que a Umbanda se impõe. Prandi a descreve como uma espécie de avesso ético da Umbanda, nascido como setor discreto dela e por muito tempo praticado em sessões fechadas, produto do mesmo processo de cristianização que transformou Exu em diabo.",
+      "sources": [
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "pp. 53, 56"
+        }
+      ],
+      "divergencias": [
+        {
+          "texto": "Chiousse resume a quimbanda como magia negra, em oposição à Umbanda como magia branca; o projeto registra o rótulo como uso corrente da época, não como definição.",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "pp. 379 (glossário: quimbanda, umbanda)"
+            }
+          ]
+        },
+        {
+          "texto": "No mini glossário de Botão, em kimbundu, kimbanda designa o sacerdote, sentido distinto do umbandista.",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. [10] (mini glossário)"
+            }
+          ]
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "umbanda",
+        "pombagira",
+        "exu-entidade"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "terreiro",
+      "termo": "terreiro",
+      "variantes": [],
+      "categoria": "lugar_e_objeto",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "definicao": "Local de culto do candomblé. Chiousse observa que na Umbanda se fala mais em centro.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 357 (glossário)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 379 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "candomble"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "umbanda",
+      "termo": "Umbanda",
+      "variantes": [],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "definicao": "Religião brasileira distinta do Candomblé, surgida no início do século XX, que reverencia os orixás mas tem nos guias (caboclos, pretos-velhos, exus e pombagiras) os agentes do trabalho religioso.",
+      "sources": [
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "pp. 52–53"
+        },
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "pp. 1110–1111, nota 4"
+        },
+        {
+          "id": "oro-2008-rs",
+          "loc": "p. 12"
+        }
+      ],
+      "nota": "Ver a descrição completa em data/tradicoes.json (umbanda).",
+      "ver_tambem": [
+        "quimbanda",
+        "caboclo",
+        "preto-velho",
+        "candomble"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "vodum",
+      "termo": "vodum",
+      "variantes": [
+        "vodu",
+        "vodun",
+        "voduns"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "candomble_jeje",
+        "tambor_de_mina",
+        "vodun_benim"
+      ],
+      "definicao": "Divindade dos povos fon e ewe do antigo Daomé (atual Benim), chamados jejes no Brasil, cultuada no Candomblé Jeje e no Tambor de Mina. No Maranhão, os orixás cultuados nas casas de vodum também recebem esse nome.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 357 (glossário: vodu)"
+        },
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 1"
+        },
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "pp. 1110–1111, nota 4"
+        }
+      ],
+      "nota": "Bastide registra também vodu e vodúnsi como nomes das filhas de santo nas casas daomeanas da Bahia.",
+      "ver_tambem": [
+        "orixa",
+        "inquice"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "xire",
+      "termo": "xirê",
+      "variantes": [
+        "xiré"
+      ],
+      "categoria": "musica_e_danca",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "definicao": "Sequência em que se cantam as cantigas dos orixás nas grandes festas públicas do candomblé.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 358 (glossário)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [],
+      "status": "com_fonte"
+    }
+  ]
+}

@@ -3,7 +3,8 @@
 
 Regra do projeto: nunca copiar trechos de livros; sempre parafrasear e citar.
 Este script procura sinais de cópia nos textos redigidos pelo projeto
-(valor, parafrase e nota do fichamento; descrições de data/tradicoes.json):
+(valor, parafrase e nota do fichamento; descrições e notas de data/tradicoes.json;
+definições, divergências e notas de data/glossario.json):
 
 1. Citação longa entre aspas (>= LIMITE_CITACAO palavras) -> ERRO.
    Citações curtas (>= 6 palavras) são listadas como aviso para conferência.
@@ -54,6 +55,16 @@ def textos_do_projeto():
     trad = json.loads((RAIZ / "data" / "tradicoes.json").read_text(encoding="utf-8"))
     for t in trad["tradicoes"]:
         yield f"tradicoes/{t['id']}.descricao", None, t["descricao"]
+        if t.get("nota"):
+            yield f"tradicoes/{t['id']}.nota", None, t["nota"]
+    glos = RAIZ / "data" / "glossario.json"
+    if glos.exists():
+        for t in json.loads(glos.read_text(encoding="utf-8"))["termos"]:
+            yield f"glossario/{t['id']}.definicao", None, t["definicao"]
+            for i, d in enumerate(t.get("divergencias", [])):
+                yield f"glossario/{t['id']}.divergencias[{i}]", None, d["texto"]
+            if t.get("nota"):
+                yield f"glossario/{t['id']}.nota", None, t["nota"]
 
 
 def main():

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Tradições usadas no catálogo e no fichamento (mesmos ids do enum de schemas/fonte.schema.json). Esquema: schemas/tradicao.schema.json. Candomblé (por nação) e Umbanda são religiões distintas e ficam em grupos separados.",
-    "aviso": "Descrições são rascunhos definitórios ainda SEM fonte (status 'rascunho_sem_fonte'); precisam de fonte e revisão antes de publicar. Ver docs/pesquisa/PENDENCIAS.md.",
+    "aviso": "Descrições 'com_fonte' são paráfrases com página das fontes em 'sources'; 'rascunho_sem_fonte' ainda não tem fonte aberta lida e não deve ser publicado como afirmação (ver docs/pesquisa/PENDENCIAS.md). Nenhuma passou por revisão de praticantes.",
     "total": 19
   },
   "tradicoes": [
@@ -12,9 +12,19 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Nigéria (sudoeste) e regiões vizinhas",
-      "descricao": "Culto aos orixás entre os povos de língua iorubá na África Ocidental, com variação de cidade para cidade; não forma um panteão único.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Culto às divindades chamadas orixás entre os povos de língua iorubá, grupo étnico hoje concentrado sobretudo na Nigéria, no Togo e no Benim. O termo nagô passou a designar esses povos: Bastide atribui o uso aos franceses, para os falantes de iorubá da Costa dos Escravos; Chiousse, aos haussás.",
+      "sources": [
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "pp. 377, 378, 380 (glossário: nagô, orixá, iorubá)"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 17"
+        }
+      ],
+      "nota": "A afirmação de que o culto varia de cidade para cidade e não forma um panteão único estava no rascunho, mas saiu por falta de fonte aberta lida; ver PENDENCIAS.md.",
+      "status": "com_fonte"
     },
     {
       "id": "benim",
@@ -25,6 +35,7 @@
       "regiao": "Benim",
       "descricao": "Rótulo genérico usado no catálogo para fontes sobre o Benim sem tradição específica. Preferir 'vodun_benim' ou 'ioruba_nigeria' quando possível.",
       "sources": [],
+      "nota": null,
       "status": "rascunho_sem_fonte"
     },
     {
@@ -34,9 +45,19 @@
       "nacao": null,
       "matriz": "fon (jeje)",
       "regiao": "Benim e Togo",
-      "descricao": "Culto aos voduns entre povos fon e ewe; matriz do Candomblé Jeje e do Tambor de Mina.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Culto aos voduns, divindades dos povos ewe e fon da região do antigo Daomé, atual Benim. Desses povos, chamados jejes no Brasil, vieram os voduns cultuados no Candomblé Jeje da Bahia e no Tambor de Mina do Maranhão.",
+      "sources": [
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 1"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 357 (glossário: vodu)"
+        }
+      ],
+      "nota": null,
+      "status": "com_fonte"
     },
     {
       "id": "kongo",
@@ -45,9 +66,19 @@
       "nacao": null,
       "matriz": "banto",
       "regiao": "África Central (região do antigo Reino do Congo, Angola)",
-      "descricao": "Religiosidade de povos de língua banto da África Central; matriz dos cultos aos inquices.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Religiosidade dos povos de língua banto da África Central (kikongo, kimbundu), matriz do culto aos inquices. Na África Central, nkisi designa forças ligadas a elementos da natureza, como ervas e argilas, que um sacerdote-curandeiro (nganga) aciona com a força dos ancestrais para um fim determinado. Esse sentido difere do inquice entendido como divindade no Candomblé Angola.",
+      "sources": [
+        {
+          "id": "tomba-2019-bantu",
+          "loc": "pp. 25, 92"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. [10] (mini glossário) e p. 15"
+        }
+      ],
+      "nota": null,
+      "status": "com_fonte"
     },
     {
       "id": "candomble_ketu",
@@ -56,9 +87,23 @@
       "nacao": "ketu",
       "matriz": "iorubá",
       "regiao": "Brasil (Bahia e difusão nacional)",
-      "descricao": "Nação de Candomblé de matriz iorubá; cultua orixás.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Nação de Candomblé de matriz iorubá (nagô-queto), que cultua os orixás e canta em iorubá. Bastide a inclui entre as nações da Bahia, que se distinguem pelo toque dos tambores, pela música, pela língua dos cânticos, pelas vestes e por traços do ritual. As casas mais conhecidas (Casa Branca do Engenho Velho, Gantois, Opô Afonjá, Alaketo) serviram de modelo para a maior parte dos estudos. Queto é o nome de um antigo reino africano.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 17–18"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. 15"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 376 (glossário: Ketu)"
+        }
+      ],
+      "nota": "Botão (2007, p. 15) critica a preferência dos estudos pelo modelo queto desde Nina Rodrigues, em prejuízo das nações banto e jeje.",
+      "status": "com_fonte"
     },
     {
       "id": "candomble_jeje",
@@ -67,9 +112,19 @@
       "nacao": "jeje",
       "matriz": "fon (jeje)",
       "regiao": "Brasil (Bahia, Recôncavo)",
-      "descricao": "Nação de Candomblé de matriz fon; cultua voduns.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Nação de Candomblé de matriz ewe-fon (o termo jeje designa os ewe), que cultua voduns. Em Salvador e no Recôncavo, a religião dos voduns é chamada candomblé jeje-mahim, e o número de casas jeje é pequeno perto do de casas de orixá.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 17"
+        },
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 1"
+        }
+      ],
+      "nota": null,
+      "status": "com_fonte"
     },
     {
       "id": "candomble_angola",
@@ -78,9 +133,23 @@
       "nacao": "angola",
       "matriz": "banto",
       "regiao": "Brasil (Bahia e difusão nacional)",
-      "descricao": "Nação de Candomblé de matriz banto; cultua inquices.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Nação de Candomblé de matriz banto (Angola e Congo aparecem como nações distintas em Bastide), que cultua os inquices (nkisi, plural jinkisi) e canta numa mistura de kimbundu e kikongo. Para alguns adeptos os inquices correspondem aos orixás; para outros, são espíritos de antepassados. Os estudos a trataram como rito menor diante do queto.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 17"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. 15 e nota 2"
+        },
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 1"
+        }
+      ],
+      "nota": "Divergência: Prandi (2005, versão do autor, p. 1) diz que os inquices foram quase esquecidos e trocados pelos orixás nagôs nos candomblés bantos; Botão (2007) e Tomba (2019) descrevem casas Angola-Congo em São Paulo e no Rio que retomam o culto aos jinkisi e as línguas banto.",
+      "status": "com_fonte"
     },
     {
       "id": "candomble_ijexa",
@@ -89,9 +158,19 @@
       "nacao": "ijexa",
       "matriz": "iorubá",
       "regiao": "Brasil (Bahia)",
-      "descricao": "Nação de Candomblé de matriz iorubá, ligada à região de Ilexá (Nigéria).",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Nação de Candomblé de matriz iorubá cujo nome remete aos ijexás (Ijesha). Bastide a lista entre as nações nagôs da Bahia, ao lado de Queto. No Batuque gaúcho, Ijexá também é o nome de um dos lados, hoje predominante junto com o Jeje.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 17–18, 70"
+        },
+        {
+          "id": "oro-2008-rs",
+          "loc": "p. 13"
+        }
+      ],
+      "nota": null,
+      "status": "com_fonte"
     },
     {
       "id": "candomble_efon",
@@ -102,6 +181,7 @@
       "regiao": "Brasil",
       "descricao": "Nação de Candomblé de matriz iorubá, ligada à região de Efon (Nigéria).",
       "sources": [],
+      "nota": null,
       "status": "rascunho_sem_fonte"
     },
     {
@@ -111,9 +191,23 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Brasil (Pernambuco)",
-      "descricao": "Religião afro-brasileira de culto aos orixás em Pernambuco; não se confunde com o orixá Xangô.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Nome local, em Pernambuco (e, segundo Bastide, também em Alagoas), da religião de culto aos orixás que na Bahia se chama candomblé. Prandi o põe, com o candomblé e o batuque, entre as formas regionais do culto aos orixás no país. O nome não se confunde com o do orixá Xangô.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 358 (glossário: Xangô)"
+        },
+        {
+          "id": "chiousse-1995-divins",
+          "loc": "p. 379 (glossário: Xangô)"
+        },
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 1"
+        }
+      ],
+      "nota": null,
+      "status": "com_fonte"
     },
     {
       "id": "xango_sergipe",
@@ -124,6 +218,7 @@
       "regiao": "Brasil (Sergipe)",
       "descricao": "Religião afro-brasileira de culto aos orixás em Sergipe.",
       "sources": [],
+      "nota": null,
       "status": "rascunho_sem_fonte"
     },
     {
@@ -132,10 +227,20 @@
       "grupo": "afro_brasileira_regional",
       "nacao": null,
       "matriz": "mista",
-      "regiao": "Brasil (Maranhão, Pará)",
-      "descricao": "Religião afro-brasileira do Maranhão, com casas de matriz fon (jeje) e nagô.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "regiao": "Brasil (Maranhão; casas também em São Paulo)",
+      "descricao": "Nome da religião dos voduns no Maranhão. O nome alude aos tambores, sempre presentes nos rituais, e aos escravos chamados minas. É religião iniciática, em que voduns e encantados se manifestam em transe nas festas públicas chamadas tambor; nas casas de vodum, também os orixás são chamados voduns (voduns nagôs). Bastide descreve a Casa das Minas, de origem daomeana, como o grupo dominante em São Luís. Desde 1977 há casas em São Paulo.",
+      "sources": [
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, pp. 1–2"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 18, 354 (glossário: Casa da Mina)"
+        }
+      ],
+      "nota": null,
+      "status": "com_fonte"
     },
     {
       "id": "batuque_rs",
@@ -144,9 +249,19 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Brasil (Rio Grande do Sul)",
-      "descricao": "Religião afro-brasileira de culto aos orixás no Rio Grande do Sul, com nações próprias.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Religião afro-brasileira do Rio Grande do Sul que Oro considera a expressão mais africana do campo afro-religioso gaúcho: língua litúrgica iorubá, culto aos orixás (doze, como Bará, Ogum, Xangô, Iemanjá e Oxalá) e identificação com nações africanas, os lados (Oyó, Jeje, Ijexá, Cabinda, Nagô). Há registro dele desde o início do século XIX, na região de Rio Grande e Pelotas. Distingue-se da Umbanda e da Linha Cruzada, que soma as entidades das duas.",
+      "sources": [
+        {
+          "id": "oro-2008-rs",
+          "loc": "pp. 12–14"
+        },
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "p. 18"
+        }
+      ],
+      "nota": null,
+      "status": "com_fonte"
     },
     {
       "id": "umbanda",
@@ -155,9 +270,27 @@
       "nacao": null,
       "matriz": "mista",
       "regiao": "Brasil",
-      "descricao": "Religião brasileira distinta do Candomblé; incorpora orixás ao lado de entidades (caboclos, pretos-velhos, exus e pombagiras) e elementos do catolicismo e do espiritismo.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Religião brasileira, distinta do Candomblé, surgida no primeiro quartel do século XX do contato do candomblé com o espiritismo kardecista e o catolicismo popular. Reverencia os orixás, mas o trabalho religioso cabe aos guias, espíritos de humanos que viveram na Terra: caboclos, pretos-velhos e, na chamada esquerda, exus e pombagiras. No Rio Grande do Sul, Oro registra ritos em português e ausência de sacrifício animal.",
+      "sources": [
+        {
+          "id": "prandi-2001-exu-diabo",
+          "loc": "pp. 52–54"
+        },
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "pp. 1110–1111, nota 4"
+        },
+        {
+          "id": "oro-2008-rs",
+          "loc": "p. 12"
+        },
+        {
+          "id": "prandi-2005-pegadas-voduns",
+          "loc": "versão do autor, p. 1"
+        }
+      ],
+      "nota": "Sobre sacrifício animal: Oro (2008, p. 12) registra que ele não existe na Umbanda gaúcha; Prandi (2001, p. 52) fala de certa prática sacrificial remanescente na Umbanda. O glossário de Bastide (1961, p. 357) traz definições mais antigas do termo (religião banto; forma africana de espiritismo).",
+      "status": "com_fonte"
     },
     {
       "id": "lucumi",
@@ -166,9 +299,23 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Cuba e diáspora cubana (EUA, Espanha, América Latina)",
-      "descricao": "Religião afro-cubana de culto aos orichas, de matriz iorubá.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Religião afro-cubana de culto aos orixás, de matriz iorubá como o candomblé nagô da Bahia. Bastide aponta uma diferença: em Cuba os orixás habitam o monte (a floresta), enquanto na Bahia vivem na África, de onde vêm às festas. Em Cuba, Exu é chamado Eleguá.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 24, 78"
+        },
+        {
+          "id": "silva-2012-exu-brasil",
+          "loc": "pp. 1088, 1095"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. 15"
+        }
+      ],
+      "nota": "Bastide (p. 78) apoia a comparação em Lydia Cabrera, El Monte (1954), ainda não lida no original.",
+      "status": "com_fonte"
     },
     {
       "id": "palo_monte",
@@ -179,6 +326,7 @@
       "regiao": "Cuba",
       "descricao": "Religião afro-cubana de matriz banto (Congo).",
       "sources": [],
+      "nota": null,
       "status": "rascunho_sem_fonte"
     },
     {
@@ -190,6 +338,7 @@
       "regiao": "Cuba",
       "descricao": "Religião afro-cubana de matriz fon; cultua voduns.",
       "sources": [],
+      "nota": null,
       "status": "rascunho_sem_fonte"
     },
     {
@@ -199,9 +348,19 @@
       "nacao": null,
       "matriz": "mista",
       "regiao": "Haiti e diáspora haitiana",
-      "descricao": "Religião haitiana que cultua os lwa, com matrizes fon, iorubá e banto.",
-      "sources": [],
-      "status": "rascunho_sem_fonte"
+      "descricao": "Religião haitiana de culto aos voduns, de matriz fon (arada), que também acolheu divindades nagôs. Bastide observa que no Haiti a mitologia africana se desfez em lendas locais e o vodu se tornou um culto nacional. No terreiro, um poste central (poteau-mitan) organiza a dança, e desenhos no chão (vêvê) servem para chamar os deuses.",
+      "sources": [
+        {
+          "id": "bastide-1958-candomble",
+          "loc": "pp. 95–96 e nota 43; p. 357 (glossário: poteau-mitan, vêvê)"
+        },
+        {
+          "id": "botao-2007-angola",
+          "loc": "p. 15"
+        }
+      ],
+      "nota": "Os espíritos do Vodou costumam ser chamados lwa na literatura, mas nenhuma fonte lida usa o termo; ficou fora da descrição.",
+      "status": "com_fonte"
     },
     {
       "id": "orisha_trinidad",
@@ -212,6 +371,7 @@
       "regiao": "Trinidad e Tobago",
       "descricao": "Culto aos orixás em Trinidad e Tobago, também chamado Shango.",
       "sources": [],
+      "nota": null,
       "status": "rascunho_sem_fonte"
     }
   ]

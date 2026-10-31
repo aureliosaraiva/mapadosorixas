@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valida as fichas (data/orixas/*.json), data/conexoes.json, data/entidades_equivalentes.json e data/tradicoes.json.
+"""Valida as fichas (data/orixas/*.json), data/conexoes.json, data/entidades_equivalentes.json, data/tradicoes.json e data/glossario.json.
 
 Checagens:
 - esquema (schemas/orixa.schema.json, conexao.schema.json, tradicao.schema.json), se jsonschema estiver instalado;
@@ -9,6 +9,8 @@ Checagens:
 - nenhuma versão vem de registro 'pre_fichamento' (confere contra o fichamento);
 - cada versão bate com o registro de origem (valor, fonte, página);
 - toda tradição citada existe em data/tradicoes.json;
+- tradições 'com_fonte' e termos do glossário: esquema, fontes existentes e lidas (status >= conferido_web),
+  ids únicos e ver_tambem apontando para termos existentes;
 - fichas e grafo estão em dia com o fichamento (regenerar com scripts/gerar_fichas.py).
 
 Uso: python3 scripts/validar_fichas.py
@@ -25,7 +27,9 @@ def ler(p):
     return json.loads(Path(p).read_text(encoding="utf-8"))
 
 
-FONTES = {f["id"] for f in ler(RAIZ / "data/fontes/catalogo.json")["fontes"]}
+CATALOGO = {f["id"]: f for f in ler(RAIZ / "data/fontes/catalogo.json")["fontes"]}
+FONTES = set(CATALOGO)
+LIDAS = {"conferido_web", "verificado", "fichado", "revisado"}
 TRADICOES = ler(RAIZ / "data/tradicoes.json")["tradicoes"]
 TRAD_IDS = {t["id"] for t in TRADICOES}
 REGS = {}
@@ -74,6 +78,43 @@ def checar_versao(v, onde, erros):
         erros.append(f"{onde}: versão diverge do registro {r['id']} (regenerar fichas)")
 
 
+def checar_fontes(fontes, onde, erros):
+    for s in fontes:
+        for sid in (s.get("id"), s.get("via")):
+            if not sid:
+                continue
+            if sid not in FONTES:
+                erros.append(f"{onde}: fonte inexistente: {sid}")
+            elif CATALOGO[sid]["status_verificacao"] not in LIDAS:
+                erros.append(f"{onde}: fonte {sid} ainda {CATALOGO[sid]['status_verificacao']} (exige conferido_web ou acima)")
+
+
+def checar_glossario(erros):
+    p = RAIZ / "data/glossario.json"
+    if not p.exists():
+        erros.append("data/glossario.json ausente")
+        return 0
+    termos = ler(p)["termos"]
+    vg = validador("glossario.schema.json")
+    ids = [t.get("id") for t in termos]
+    for i in {i for i in ids if ids.count(i) > 1}:
+        erros.append(f"glossario/{i}: id repetido")
+    for t in termos:
+        onde = f"glossario/{t.get('id')}"
+        if vg:
+            erros += [f"{onde}: {e.message}" for e in vg.iter_errors(t)]
+        checar_fontes(t.get("sources", []), onde, erros)
+        for d in t.get("divergencias", []):
+            checar_fontes(d.get("sources", []), onde, erros)
+        for tr in t.get("tradicoes", []):
+            if tr not in TRAD_IDS:
+                erros.append(f"{onde}: tradição desconhecida: {tr}")
+        for v in t.get("ver_tambem", []):
+            if v not in ids:
+                erros.append(f"{onde}: ver_tambem aponta para termo inexistente: {v}")
+    return len(termos)
+
+
 def main():
     erros = []
     vo, vc, vt = validador("orixa.schema.json"), validador("conexao.schema.json"), validador("tradicao.schema.json")
@@ -84,9 +125,10 @@ def main():
     if enum != TRAD_IDS:
         erros.append(f"tradicoes.json difere do enum de fonte.schema.json: {sorted(enum ^ TRAD_IDS)}")
     for t in TRADICOES:
-        for s in t["sources"]:
-            if s["id"] not in FONTES:
-                erros.append(f"tradicoes/{t['id']}: fonte inexistente: {s['id']}")
+        checar_fontes(t["sources"], f"tradicoes/{t['id']}", erros)
+        if t["status"] == "rascunho_sem_fonte" and t["sources"]:
+            erros.append(f"tradicoes/{t['id']}: tem fontes mas status rascunho_sem_fonte")
+    n_termos = checar_glossario(erros)
 
     n_versoes = 0
     fichas = sorted((RAIZ / "data/orixas").glob("*.json"))
@@ -129,7 +171,7 @@ def main():
         if p.read_text(encoding="utf-8") != txt:
             erros.append(f"{p.relative_to(RAIZ)}: desatualizado em relação ao fichamento (foi regenerado agora; conferir o diff)")
 
-    print(f"{len(fichas)} fichas, {n_versoes} versões; {len(c['arestas'])} arestas; {len(ents)} entidades; {len(TRADICOES)} tradições"
+    print(f"{len(fichas)} fichas, {n_versoes} versões; {len(c['arestas'])} arestas; {len(ents)} entidades; {len(TRADICOES)} tradições; {n_termos} termos no glossário"
           + ("" if vo else " (jsonschema ausente: esquema não checado)"))
     if erros:
         print(f"\n{len(erros)} erro(s):")

@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-10-31",
-    "total": 168
+    "total": 169
   },
   "fontes": [
     {
@@ -431,7 +431,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Ed. pt 'O candomblé da Bahia (rito nagô)', Companhia Editora Nacional, 1961 (Brasiliana v. 313), trad. Maria Isaura Pereira de Queiroz. Cópia digitalizada no repositório da UFRJ. Lido (cap. sobre o tempo sagrado, pp. 105–128) na cópia digital da UFRJ em 2026-10-31; paginação do PDF coincide com a do livro.",
+      "observacoes": "Ed. pt 'O candomblé da Bahia (rito nagô)', Companhia Editora Nacional, 1961 (Brasiliana v. 313), trad. Maria Isaura Pereira de Queiroz. Cópia digitalizada no repositório da UFRJ. Lido (cap. sobre o tempo sagrado, pp. 105–128) na cópia digital da UFRJ em 2026-10-31; paginação do PDF coincide com a do livro. | Lidos também em 2026-10-31 (tarefa glossário): pp. 17–18 (nações), 24, 78, 95–96 (comparação com Cuba, Haiti e Trinidad) e o glossário, pp. 353–358.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
@@ -703,20 +703,21 @@
       "autores": [
         "Renato Ubirajara dos Santos Botão"
       ],
-      "titulo": "(Re)africanização do candomblé de nação Angola-Congo em São Paulo",
+      "titulo": "Para além da nagocracia: a (re)africanização do candomblé nação Angola-Congo em São Paulo",
       "ano": 2007,
       "idioma": "pt",
       "tradicoes": [
         "candomble_angola"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "UNESP. Título exato a conferir. Traz glossário (nkisi = divindades do panteão banto).",
+      "observacoes": "Mestrado em Ciências Sociais, UNESP (Marília). Título conferido na folha de rosto (2026-10-31). Mini glossário na p. pré-textual [10]; p. 15 lida. Página impressa = página do PDF − 1.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
       ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {},
+      "local": "Marília"
     },
     {
       "id": "bouche-1885-cote",
@@ -1182,7 +1183,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Doutorado em antropologia social (EHESS). Acesso aberto no HAL. Campo em São Paulo e Salvador (até 1993). Parte III (pp. 225–291) lida em 2026-10-31: perfis de orixás com cores, datas, emblemas e plantas, segundo pais/mães de santo. Paginação: número impresso = página do PDF − 1.",
+      "observacoes": "Doutorado em antropologia social (EHESS). Acesso aberto no HAL. Campo em São Paulo e Salvador (até 1993). Parte III (pp. 225–291) lida em 2026-10-31: perfis de orixás com cores, datas, emblemas e plantas, segundo pais/mães de santo. Paginação: número impresso = página do PDF − 1. | Glossário (pp. 371–380) e pp. 256, 258 (uso de itan) lidos em 2026-10-31.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
@@ -2432,14 +2433,14 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Nações do Batuque: Jeje, Ijexá (predominante), Oyó, Cabinda, Nagô; 12 orixás cultuados.",
+      "observacoes": "Nações do Batuque: Jeje, Ijexá (predominante), Oyó, Cabinda, Nagô; 12 orixás cultuados. | Conferido no PDF (2026-10-31): Debates do NER, Porto Alegre, ano 9, n. 13, pp. 9–23, jan./jun. 2008; 1ª versão no livro RS negro (EDIPUCRS, 2008). Lido pp. 11–14. Página impressa = página do PDF + 8. O PDF foi obtido via ferramenta de busca, porque o curl direto teve a conexão cortada.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://seer.ufrgs.br/index.php/debatesdoner/article/download/5244/2975/16679"
       ],
       "url": null,
       "identificadores": {},
-      "periodico": "Debates do NER (UFRGS)"
+      "periodico": "Debates do NER"
     },
     {
       "id": "oro-2020-cabinda",
@@ -2734,7 +2735,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Revista USP n. 50, jun./ago. 2001, pp. 46–63 (confirmado no PDF). Texto integral aberto. Lido integralmente em 2026-10-31 (fichamento em data/fichamento/exu.json).",
+      "observacoes": "Revista USP n. 50, jun./ago. 2001, pp. 46–63 (confirmado no PDF). Texto integral aberto. Lido integralmente em 2026-10-31 (fichamento em data/fichamento/exu.json). | Paginação: página impressa = página do PDF + 45.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://revistas.usp.br/revusp/article/view/35275",
@@ -2796,6 +2797,35 @@
         "isbn": "9788574061580"
       },
       "editora": "Companhia das Letrinhas"
+    },
+    {
+      "id": "prandi-2005-pegadas-voduns",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Nas pegadas dos voduns: um terreiro de tambor-de-mina em São Paulo",
+      "ano": 2005,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina",
+        "candomble_jeje",
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Capítulo em MOURA, Carlos Eugênio Marcondes de (org.), Somavó, o amanhã nunca termina: novos escritos sobre a religião dos voduns e orixás (Empório de Produção, 2005), pp. 63–94. A versão do autor no site da USP tem paginação própria (pp. 1–36), que é a citada nos registros como 'versão do autor'; falta a correspondência com a paginação impressa. Lido pp. 1–2 em 2026-10-31.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf",
+        "https://openlibrary.org/works/OL18856087W"
+      ],
+      "url": "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf",
+      "identificadores": {
+        "isbn": "8588944049"
+      },
+      "editora": "Empório de Produção",
+      "local": "São Paulo"
     },
     {
       "id": "prandi-2005-segredos",
@@ -3226,7 +3256,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Revista de Antropologia (USP), v. 55, n. 2, 2012, pp. 1085–1106 (conferir página final). Subtítulo confirmado no PDF. Lido parcialmente (pp. 1085–1090, 1100) em 2026-10-31.",
+      "observacoes": "Revista de Antropologia (USP), v. 55, n. 2, 2012, pp. 1085–1114 (PDF de 30 p.; a numeração impressa vai até 1114, com referências). Subtítulo confirmado no PDF. Lido parcialmente (pp. 1085–1090, 1100) em 2026-10-31. | Notas 4, 5 e 7 (pp. 1110–1111) e pp. 1088, 1095 lidas em 2026-10-31.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://periodicos.usp.br/ra/article/download/59309/62347/76341"
@@ -3584,7 +3614,7 @@
         "kongo"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "UFRRJ. Catálogo diz tese; folha de rosto indica mestrado.",
+      "observacoes": "UFRRJ. Catálogo diz tese; folha de rosto indica mestrado. | Lido pp. 25, 91–92 em 2026-10-31; página do PDF = página impressa.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://rima.ufrrj.br/jspui/bitstream/20.500.14407/11537/3/2019%20-%20Justes%20Axel%20Samba%20Tomba.pdf"

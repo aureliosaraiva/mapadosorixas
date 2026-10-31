@@ -15,8 +15,11 @@ Para resolver: em **Network access**, nas configurações do ambiente, adicionar
 |:-:|---|---|---|:-:|
 | 🔴 | `www.redalyc.org` | 403 no proxy do ambiente | artigos de *Afro-Ásia* (Amaral & Silva 2006; Brumana 2007), Romeu 2006, Rossbach de Olmos. Para *Afro-Ásia*, usar o portal `periodicos.ufba.br`, que funciona (Costa 2007 foi lido por lá) | P2 |
 | 🔴 | `library.oapen.org` | 403 (anti-robô do site) | Peel 2016, *Christianity, Islam, and Oriṣa Religion* (acesso aberto) | P2 |
-| 🔴 | `scielo.org.mx` / `www.scielo.org.mx` | conexão recusada | Mones Guevara 2024, *Cuicuilco* (Santería) | P2 |
-| 🔴 | `core.ac.uk` | 403 | verbete acadêmico sobre Yemọja (core.ac.uk/download/213811235.pdf) | P2 |
+| 🔴 | `scielo.org.mx` / `www.scielo.org.mx` | conexão cortada (curl) e 503 (busca web), confirmado de novo em 2026-10-31 | Mones Guevara 2024, *Cuicuilco* (Santería): fonte para a tradição `lucumi` e para termos da Ocha (aché, moyugba) | P2 |
+| 🔴 | `core.ac.uk` | 403 | verbete acadêmico sobre Yemọja (core.ac.uk/download/213811235.pdf); artigo em português sobre os sistemas afro-cubanos segundo Fernando Ortiz: Ocha, Arará, Abakuá, Palo Monte (core.ac.uk/download/51396375.pdf), que daria fonte a `palo_monte` e `arara` | P2 |
+| 🔴 | `bibliotecadigital.udea.edu.co` | 403 + verificação anti-robô | Arango 2018, dissertação sobre Ocha na Colômbia (`arango-2018-ache`). Baixar manualmente e anexar | P2 |
+| 🔴 | `dialnet.unirioja.es` | erro de SSL na conexão | Ferretti 2011, "Comida ritual em festas de Tambor de Mina", *Horizonte* v. 9, n. 21 (DOI 10.5752/P.2175-5841.2011v9n21p242). Tentar o site da PUC Minas | P3 |
+| 🟡 | `seer.ufrgs.br` | curl tem a conexão cortada; o PDF veio pela ferramenta de busca web | Debates do NER (Oro 2008 já lido). Para outros artigos do NER, usar o mesmo caminho | P3 |
 | 🔴 | `muse.jhu.edu` | 403 (provável paywall) | Brown 1989, "Ogou in Haiti" (cap. de *Africa's Ogun*) | P1 |
 | 🔴 | `www.religion.ucsb.edu` | 404 (arquivo removido) | Pérez 2013, "Nobody's Mammy" (Yemayá em Cuba). Buscar outra cópia | P2 |
 | 🟡 | `bdtd.ibict.br` (páginas de registro) | 500 | nada no momento: a tese UFG 2017 foi lida direto no repositório da UFG | P3 |
@@ -47,7 +50,13 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | 🔴 | Carneiro, *Candomblés da Bahia* (1948/1954) | conferir p. 77 (carrego de Exu, Ogunjá) e Xangô "mais africano" | P2 |
 | 🔴 | Santos, *Os Nàgô e a morte* (1976) | Exu, pp. 130–139 | P2 |
 | 🔴 | Cabrera, *El Monte* (1954) e *Yemayá y Ochún* (1974); Bolívar, *Los orishas en Cuba* (1990) | equivalências lucumís | P2 |
-| 🔴 | Beier, *Yoruba Poetry* (1970); Barber, *I Could Speak Until Tomorrow* (1991) | ìjálá e oríkì de Ogum e Xangô | P3 |
+| 🔴 | Beier, *Yoruba Poetry* (1970); Barber, *I Could Speak Until Tomorrow* (1991) | ìjálá e oríkì de Ogum e Xangô; definição ampliada de oríkì no glossário | P3 |
+| 🔴 | Dantas, *Vovó nagô e papai branco* (1988) | descrição do **Xangô de Sergipe** (`xango_sergipe` está sem fonte) | P2 |
+| 🔴 | Barnet, *Cultos afrocubanos* (1995); Cabrera, *El Monte* (1954) | descrições de **Palo Monte** e **Regla Arará** (sem fonte); conferir em Cabrera a comparação Cuba × Bahia que Bastide (p. 78) faz | P2 |
+| 🔴 | Obra de referência sobre o **Orisha/Shango de Trinidad** (nenhuma aberta no catálogo; Bastide p. 95 só cita o culto dos *Shouters*) | descrição de `orisha_trinidad` (sem fonte) | P3 |
+| 🔴 | Obra que descreva a **nação Efon** | descrição de `candomble_efon` (sem fonte); nenhuma fonte lida menciona Efon | P2 |
+| 🔴 | Verger 1957/1999 (*Notas sobre o culto*) ou Peel 2016 | sustentar que o culto iorubá varia de cidade para cidade, sem panteão único (frase retirada de `ioruba_nigeria`) | P2 |
+| 🔴 | Cacciatore (1977), Beniste (2011), Prandi, *Mitologia* (2001) | 2ª fonte para **itã** (hoje só Chiousse) e verbete **saudação** no glossário | P2 |
 
 ## 3. Conferências que dependem de pessoa ou instituição
 
@@ -61,7 +70,9 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | 🔴 | exu-062: Nogueira (2017, p. 22) fala em "candomblés" sem nação; o registro usa `candomble_ketu` como aproximação | revisor confirma ou ajusta a tradição | P3 |
 | 🔴 | Revisão das fichas por praticantes e pesquisadores | formar o conselho consultivo (Fase 4 do plano) | **P1** |
 | 🔴 | Decidir o que é público em "tabus" e "alimentos" (hoje retidos das fichas: exu-012, oxossi-018) | conselho consultivo | P1 |
-| 🔴 | Descrições das 19 tradições em `data/tradicoes.json` estão sem fonte (`rascunho_sem_fonte`) | fichar uma obra de referência geral por grupo (Candomblé por nação, Umbanda, religiões regionais, Cuba/Haiti/Trinidad) e revisar com o conselho | P2 |
+| 🟡 | Tradições: 13 de 19 já têm fonte; faltam benim, candomble_efon, xango_sergipe, palo_monte, arara, orisha_trinidad (obras no §2). `benim` é rótulo editorial do catálogo: decidir se funde com `vodun_benim`/`ioruba_nigeria` | autor decide sobre `benim`; revisão das 13 descrições pelo conselho | P2 |
+| 🔴 | Glossário: decidir se entram **quizila/ewó**, **bori** e **kelê** (as fontes abertas os definem, mas tocam tabu ou iniciação) e revisar as 47 definições | conselho consultivo | P2 |
+| 🔴 | Prandi 2005, *Nas pegadas dos voduns*: a versão do autor tem paginação própria; falta a correspondência com o livro *Somavó* (pp. 63–94) | conferir no exemplar | P3 |
 
 ## 3b. Site (Fase 5): decisões do autor
 
@@ -79,6 +90,7 @@ O protótipo em `site/` (Astro) compila no CI, mas **não está publicado**. Nad
 
 | Data | Item | Como |
 |---|---|---|
+| 2026-10-31 | Descrições de 13 tradições com fonte e página; glossário com 47 termos | Bastide 1961, Chiousse 1995, Prandi 2001 e 2005, Silva 2012, Oro 2008, Botão 2007, Tomba 2019 ([fichamento-05](fichamento-05.md)) |
 | 2026-10-31 | Leitura de Nogueira 2017 (UFG), Pinheiro 2011 (UFPB) e Costa 2007 (*Afro-Ásia*): exu-034, ogum-006 e xango-005 passaram a `fichado` | PDFs nos repositórios UFG e UFPB e no portal de periódicos da UFBA ([fichamento-04](fichamento-04.md)) |
 | 2026-10-31 | Metadados de Ortiz 1978 e Landes 1947, usados como fonte primária de registros de 2ª mão | Open Library → `conferido_web` |
 | 2026-10-31 | Metadados das 17 fontes `a_verificar`/`pista` usadas no fichamento | Open Library, Internet Archive, Crossref, repositórios UFG/UFPB; autores das teses identificados (Nogueira 2017, Pinheiro 2011) e título de Costa 2007 (DOI 10.9771/aa.v0i36.21145) |
