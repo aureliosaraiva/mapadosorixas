@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/entidade.schema.json",
+  "title": "Entidade equivalente (ficha leve)",
+  "description": "Vodum, inquice, lwa, oricha lucumí ou nome de outra tradição ligado a um orixá por equivalência. Gerada a partir das arestas de data/conexoes.json. Equivalência não é identidade.",
+  "type": "object",
+  "required": ["id", "rotulo", "tipo", "tradicoes", "equivale_a", "versoes"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z_]+:[a-z0-9-]+$" },
+    "rotulo": { "type": "string", "minLength": 1 },
+    "tipo": { "enum": ["vodum", "inquice", "lwa", "oricha_lucumi", "nome_fon_ou_banto"] },
+    "tradicoes": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "equivale_a": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["orixa", "aresta"],
+        "properties": { "orixa": { "type": "string" }, "aresta": { "type": "string" } },
+        "additionalProperties": false
+      }
+    },
+    "versoes": { "type": "array", "minItems": 1, "items": { "$ref": "_versao.schema.json" } }
+  },
+  "additionalProperties": false
+}

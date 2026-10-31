@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Valida as fichas (data/orixas/*.json), data/conexoes.json e data/tradicoes.json.
+"""Valida as fichas (data/orixas/*.json), data/conexoes.json, data/entidades_equivalentes.json e data/tradicoes.json.
 
 Checagens:
 - esquema (schemas/orixa.schema.json, conexao.schema.json, tradicao.schema.json), se jsonschema estiver instalado;
 - toda versão tem ao menos uma fonte, e toda fonte (id e via) existe no catálogo;
 - source_id/via_source_id/localizacao da versão batem com sources[0];
+- entidades_equivalentes.json (esquema entidade.schema.json) aponta para arestas existentes;
 - nenhuma versão vem de registro 'pre_fichamento' (confere contra o fichamento);
 - cada versão bate com o registro de origem (valor, fonte, página);
 - toda tradição citada existe em data/tradicoes.json;
@@ -109,14 +110,26 @@ def main():
         for i, v in enumerate(a["versoes"]):
             checar_versao(v, f"conexoes/{a['id']}[{i}]", erros)
 
+    ve = validador("entidade.schema.json")
+    ents = ler(RAIZ / "data/entidades_equivalentes.json")["entidades"]
+    ids_arestas = {a["id"] for a in c["arestas"]}
+    for e in ents:
+        if ve:
+            erros += [f"entidades/{e.get('id')}: {m.message}" for m in ve.iter_errors(e)]
+        for q in e["equivale_a"]:
+            if q["aresta"] not in ids_arestas:
+                erros.append(f"entidades/{e['id']}: aresta inexistente {q['aresta']}")
+        for i, v in enumerate(e["versoes"]):
+            checar_versao(v, f"entidades/{e['id']}[{i}]", erros)
+
     # em dia com o fichamento? (regera em memória e compara)
-    antes = {p: p.read_text(encoding="utf-8") for p in fichas + [RAIZ / "data/conexoes.json"]}
+    antes = {p: p.read_text(encoding="utf-8") for p in fichas + [RAIZ / "data/conexoes.json", RAIZ / "data/entidades_equivalentes.json"]}
     subprocess.run([sys.executable, str(RAIZ / "scripts/gerar_fichas.py")], capture_output=True, check=True)
     for p, txt in antes.items():
         if p.read_text(encoding="utf-8") != txt:
             erros.append(f"{p.relative_to(RAIZ)}: desatualizado em relação ao fichamento (foi regenerado agora; conferir o diff)")
 
-    print(f"{len(fichas)} fichas, {n_versoes} versões; {len(c['arestas'])} arestas; {len(TRADICOES)} tradições"
+    print(f"{len(fichas)} fichas, {n_versoes} versões; {len(c['arestas'])} arestas; {len(ents)} entidades; {len(TRADICOES)} tradições"
           + ("" if vo else " (jsonschema ausente: esquema não checado)"))
     if erros:
         print(f"\n{len(erros)} erro(s):")

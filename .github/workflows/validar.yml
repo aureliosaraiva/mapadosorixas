@@ -1,0 +1,28 @@
+name: Validar dados
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install jsonschema
+      - name: Fontes
+        run: python3 scripts/validar_fontes.py
+      - name: Fichamento
+        run: python3 scripts/validar_fichamento.py
+      - name: Fichas, grafo, entidades e tradições (inclui checar se estão em dia com o fichamento)
+        run: python3 scripts/validar_fichas.py
+      - name: Divergências em dia
+        run: |
+          python3 scripts/divergencias.py
+          git diff --exit-code data/fichamento/divergencias.json
+      - name: Anti-cópia
+        run: python3 scripts/anticopia.py

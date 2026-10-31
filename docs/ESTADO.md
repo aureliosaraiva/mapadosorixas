@@ -15,7 +15,9 @@
 | Atributos com versões divergentes | 31 | `python3 scripts/divergencias.py` |
 | Fichas geradas (`data/orixas/`) | 5 fichas, 177 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
 | Grafo (`data/conexoes.json`) | 40 nós, 43 arestas (20 sincretismo, 11 equivalência, 8 parentesco, 3 companheiro de culto, 1 associação) | idem |
+| Entidades equivalentes (`data/entidades_equivalentes.json`) | 11 (1 vodum, 3 inquices, 7 nomes fon/banto não classificados) | idem |
 | Tradições (`data/tradicoes.json`) | 19, todas `rascunho_sem_fonte` | idem |
+| Anti-cópia | 0 erros; 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
 | Idiomas no catálogo | pt, en, es, fr, de, it, yo | — |
 
 Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 27.
@@ -28,8 +30,9 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 2. **Equivalências com inquices e voduns.** Depende de Castro 2001, Parés 2006 e Lopes 1988 (exemplar).
 3. **Resolver os 19 `pre_fichamento`.** São fontes pagas ou fora do ar (Tishken 2009, Brown 1989, Pérez 2013, Barnes 1989, Beier 1970, teses PUC-SP/UFPB/UFG).
 4. **Conferir as fontes `a_verificar`** usadas no fichamento (WorldCat, ISBN, DOI).
-5. **Fase 2 (restante):** dar fonte às descrições de `data/tradicoes.json`; `entidades_equivalentes.json` (Legba, inquices etc. como fichas leves) e `glossario.json`; detector anti-cópia (n-gramas) no CI. *(Esquemas, fichas, grafo e validador: feitos em 2026-10-31.)*
-6. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
+5. **Fase 2 (restante):** dar fonte às descrições de `data/tradicoes.json` e criar `glossario.json`. Ambos dependem de fichar definições em obra de referência; não redigir sem fonte. *(Esquemas, fichas, grafo, entidades equivalentes, validador, anti-cópia e CI: feitos em 2026-10-31.)*
+6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
+7. **Conselho consultivo:** levantar possíveis revisores (praticantes e pesquisadores) e começar a revisão das fichas → status `revisado`.
 
 ## Decisões já tomadas
 
@@ -43,6 +46,9 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 - **Versão = um registro:** cada versão carrega `source_id`, `via_source_id`, `localizacao` e `sources: [{id, loc, via}]`; esquema comum em `schemas/_versao.schema.json`.
 - **Arestas do grafo** vêm de `data/conexoes_alvos.json`, mapa manual registro → alvos, que só estrutura o que o `valor` diz (ex.: "mãe de vários orixás" fica sem aresta). Registro novo de parentesco/equivalência/sincretismo sem entrada no mapa gera aviso `sem_mapa`. "Nossa Senhora" e "Virgem Maria" ficam como nós separados, como escrito nas fontes.
 - **Tabus e alimentos** fichados ficam fora da ficha pública (`pendencias.retidos_ate_conselho`) até decisão do conselho.
+- **Entidades equivalentes** são geradas das arestas de equivalência; nomes que a fonte não atribui a fon ou banto ficam como `nome_fon_ou_banto`.
+- **Anti-cópia:** citação entre aspas com 15+ palavras é erro. Para comparar com o texto das obras, aponte `ANTICOPIA_REFS` para uma pasta de `.txt` **fora do repo**; qualquer sequência idêntica de 8 palavras é erro.
+- **CI** (`.github/workflows/validar.yml`) roda todos os validadores a cada push e PR.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
 
 ## Sessões em paralelo
@@ -67,6 +73,7 @@ Registros por orixá: Exu 61 · Iemanjá 47 · Xangô 34 · Ogum 29 · Oxóssi 2
 | `data/orixas/<orixa>.json` | fichas (gerado; esquema `schemas/orixa.schema.json`) |
 | `data/conexoes.json` | grafo (gerado; esquema `schemas/conexao.schema.json`) |
 | `data/conexoes_alvos.json` | mapa manual registro → arestas (editar aqui) |
+| `data/entidades_equivalentes.json` | voduns, inquices etc. (gerado; esquema `schemas/entidade.schema.json`) |
 | `data/tradicoes.json` | tradições (esquema `schemas/tradicao.schema.json`) |
 | `scripts/` | validação e geração |
 

@@ -1,0 +1,483 @@
+{
+  "_meta": {
+    "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
+    "esquema": "schemas/entidade.schema.json",
+    "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
+    "total": 11
+  },
+  "entidades": [
+    {
+      "id": "inquice:dandalunda",
+      "rotulo": "Dandalunda",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iemanja",
+          "aresta": "equivalencia:iemanja>inquice:dandalunda"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
+          "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
+          "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:kayala",
+      "rotulo": "Kayala",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iemanja",
+          "aresta": "equivalencia:iemanja>inquice:kayala"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
+          "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
+          "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:quissimbe",
+      "rotulo": "Quissimbe",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iemanja",
+          "aresta": "equivalencia:iemanja>inquice:quissimbe"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "queiroga-nascimento-2019-iemanja",
+              "loc": "PDF p. 8, nota 5",
+              "via": null
+            }
+          ],
+          "source_id": "queiroga-nascimento-2019-iemanja",
+          "via_source_id": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
+          "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
+          "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:barabo",
+      "rotulo": "Barabô",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>nome:barabo"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:emberequete",
+      "rotulo": "Emberequetê",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>nome:emberequete"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:jelebara",
+      "rotulo": "Jelebara",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>nome:jelebara"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:jiguidi",
+      "rotulo": "Jiguidi",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>nome:jiguidi"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:mavambo",
+      "rotulo": "Mavambo",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>nome:mavambo"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:sinza-muzila",
+      "rotulo": "Sinza Muzila",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>nome:sinza-muzila"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:tiriri",
+      "rotulo": "Tiriri",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>nome:tiriri"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 55",
+              "via": "prandi-2001-exu-diabo"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "prandi-2001-exu-diabo",
+          "localizacao": "p. 55",
+          "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+          "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+          "registro": "exu-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:legba",
+      "rotulo": "Legba / Elegbara",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_jeje",
+        "candomble_ketu",
+        "ioruba_nigeria",
+        "lucumi",
+        "vodou_haiti",
+        "vodun_benim"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>vodum:legba"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Legba / Elegbara (vodum dos fons)",
+          "tradicoes": [
+            "vodun_benim",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "prandi-2001-exu-diabo",
+              "loc": "p. 47",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2001-exu-diabo",
+          "via_source_id": null,
+          "localizacao": "p. 47",
+          "parafrase": "O orixá Exu dos iorubás corresponde, entre os fons, ao vodum chamado Legba ou Elegbara.",
+          "nota": "Equivalência não é identidade.",
+          "registro": "exu-001",
+          "status": "fichado"
+        },
+        {
+          "valor": "Legba (nome daomeano usado na Bahia)",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_jeje",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 121, nota 84",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 121, nota 84",
+          "parafrase": "Bastide anota que Legba é o nome daomeano de Exu usado na Bahia e associa Exu-Legba ao espaço, seguindo Frobenius.",
+          "nota": null,
+          "registro": "exu-040",
+          "status": "fichado"
+        },
+        {
+          "valor": "Legba (África, Cuba, Haiti)",
+          "tradicoes": [
+            "vodun_benim",
+            "vodou_haiti",
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 289",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 289",
+          "parafrase": "Na África, em Cuba e no Haiti, Exu é reconhecido sobretudo sob o nome de Legba.",
+          "nota": "Generalização da autora; em Cuba o nome mais usual é Elegguá — conferir em fontes lucumís.",
+          "registro": "exu-044",
+          "status": "fichado"
+        }
+      ]
+    }
+  ]
+}

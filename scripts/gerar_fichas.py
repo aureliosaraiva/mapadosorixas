@@ -145,6 +145,40 @@ def gerar_conexoes(todos):
     return saida, avisos
 
 
+TIPOS_ENTIDADE = ("vodum", "inquice", "lwa", "oricha_lucumi", "nome_fon_ou_banto")
+
+
+def gerar_entidades(conexoes):
+    """Fichas leves das entidades de outras tradições ligadas a orixás por
+    arestas de equivalência. Tudo vem das arestas (e, portanto, dos registros
+    fichados); nada é acrescentado."""
+    nos = {n["id"]: n for n in conexoes["nos"]}
+    ents = {}
+    for a in conexoes["arestas"]:
+        if a["tipo"] != "equivalencia":
+            continue
+        for ent, orx in ((a["origem"], a["destino"]), (a["destino"], a["origem"])):
+            n = nos.get(ent)
+            if not n or n["tipo"] not in TIPOS_ENTIDADE or nos.get(orx, {}).get("tipo") != "orixa":
+                continue
+            e = ents.setdefault(ent, {"id": ent, "rotulo": n["rotulo"], "tipo": n["tipo"],
+                                      "tradicoes": [], "equivale_a": [], "versoes": []})
+            e["equivale_a"].append({"orixa": orx, "aresta": a["id"]})
+            e["versoes"] += a["versoes"]
+    for e in ents.values():
+        e["tradicoes"] = sorted({t for v in e["versoes"] for t in v["tradicoes"]})
+    lista = sorted(ents.values(), key=lambda e: e["id"])
+    return {
+        "_meta": {
+            "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
+            "esquema": "schemas/entidade.schema.json",
+            "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
+            "total": len(lista),
+        },
+        "entidades": lista,
+    }
+
+
 def main():
     todos = []
     for o in ORIXAS:
@@ -161,6 +195,9 @@ def main():
               f"sem registro: {len(ficha['pendencias']['sem_registro'])}")
     conexoes, avisos = gerar_conexoes(todos)
     escrever(RAIZ / "data" / "conexoes.json", conexoes)
+    entidades = gerar_entidades(conexoes)
+    escrever(RAIZ / "data" / "entidades_equivalentes.json", entidades)
+    print(f"entidades_equivalentes: {entidades['_meta']['total']}")
     print(f"conexoes: {conexoes['_meta']['total_nos']} nós, {conexoes['_meta']['total_arestas']} arestas {conexoes['_meta']['por_tipo']}")
     for a in avisos:
         print(" aviso:", a)
