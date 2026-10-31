@@ -1,12 +1,56 @@
 {
   "_meta": {
     "orixa": "iemanja",
-    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
-    "total": 10
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 12,
+    "por_status": {
+      "fichado": 2,
+      "pre_fichamento": 10,
+      "revisado": 0
+    }
   },
   "registros": [
     {
       "id": "iemanja-001",
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "valor": "Nossa Senhora",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 63",
+      "parafrase": "Prandi inclui a transformação de Iemanjá em Nossa Senhora entre os efeitos da cristianização dos orixás no Brasil.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "iemanja-002",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "atributos africanos das Grandes Mães atenuados no Brasil e deslocados para Pombagira",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "augras-1989-yiami",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 51",
+      "parafrase": "Seguindo Monique Augras, Prandi afirma que vários traços africanos das Grandes Mães, inclusive Iemanjá e Oxum, foram suavizados ou apagados no culto brasileiro e passaram a compor a imagem 'pecaminosa' de Pombagira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "iemanja-003",
       "orixa": "iemanja",
       "atributo": "origem",
       "valor": "culto egbá, primeiro entre Ifé e Ibadan, depois no rio Ògùn (Abeokuta)",
@@ -25,7 +69,7 @@
       ]
     },
     {
-      "id": "iemanja-002",
+      "id": "iemanja-004",
       "orixa": "iemanja",
       "atributo": "nomes",
       "valor": "rio Ògùn ≠ orixá Ògún",
@@ -44,7 +88,7 @@
       ]
     },
     {
-      "id": "iemanja-003",
+      "id": "iemanja-005",
       "orixa": "iemanja",
       "atributo": "qualidades",
       "valor": "várias Iemanjás na Bahia (sete ou oito, segundo Verger)",
@@ -63,7 +107,7 @@
       ]
     },
     {
-      "id": "iemanja-004",
+      "id": "iemanja-006",
       "orixa": "iemanja",
       "atributo": "elementos",
       "valor": "águas doces e salgadas",
@@ -83,7 +127,7 @@
       ]
     },
     {
-      "id": "iemanja-005",
+      "id": "iemanja-007",
       "orixa": "iemanja",
       "atributo": "historia_culto",
       "valor": "chegada ao Brasil com ebás, depois oyós e ijexás",
@@ -102,7 +146,7 @@
       ]
     },
     {
-      "id": "iemanja-006",
+      "id": "iemanja-008",
       "orixa": "iemanja",
       "atributo": "sincretismo",
       "valor": "Virgem de Regla (Cuba)",
@@ -121,7 +165,7 @@
       ]
     },
     {
-      "id": "iemanja-007",
+      "id": "iemanja-009",
       "orixa": "iemanja",
       "atributo": "parentesco",
       "valor": "mãe de Changó na mitologia lucumí",
@@ -140,7 +184,7 @@
       ]
     },
     {
-      "id": "iemanja-008",
+      "id": "iemanja-010",
       "orixa": "iemanja",
       "atributo": "festas",
       "valor": "2 de fevereiro no Rio Vermelho (Salvador), organizada por pescadores",
@@ -160,7 +204,7 @@
       ]
     },
     {
-      "id": "iemanja-009",
+      "id": "iemanja-011",
       "orixa": "iemanja",
       "atributo": "festas",
       "valor": "Festival de Iemanjá em Belém",
@@ -180,7 +224,7 @@
       ]
     },
     {
-      "id": "iemanja-010",
+      "id": "iemanja-012",
       "orixa": "iemanja",
       "atributo": "festas",
       "valor": "presente de Iemanjá no Mercadão de Madureira",

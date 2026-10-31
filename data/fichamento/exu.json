@@ -1,12 +1,465 @@
 {
   "_meta": {
     "orixa": "exu",
-    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
-    "total": 10
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 36,
+    "por_status": {
+      "fichado": 33,
+      "pre_fichamento": 3,
+      "revisado": 0
+    }
   },
   "registros": [
     {
       "id": "exu-001",
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "valor": "Legba / Elegbara (vodum dos fons)",
+      "tradicoes": [
+        "vodun_benim",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 47",
+      "parafrase": "O orixá Exu dos iorubás corresponde, entre os fons, ao vodum chamado Legba ou Elegbara.",
+      "nota": "Equivalência não é identidade.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-002",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "dupla leitura europeia: deus fálico (Príapo) e diabo",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 47",
+      "parafrase": "Os primeiros europeus associaram Exu a Príapo por causa dos altares e símbolos fálicos, e ao diabo por suas funções no panteão e pela moral transgressora narrada nos mitos — embora não se conheçam mitos que o identifiquem com o diabo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-003",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "temperamento descrito por Verger e assimilação ao Diabo pelos missionários",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1957-notes",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 47",
+      "parafrase": "Verger descreve Exu como de temperamento irritável, astuto e indecente, e diz que os missionários, chocados com esse conjunto, fizeram dele o símbolo do mal em oposição ao Deus cristão.",
+      "nota": "Verger (1999, ed. pt de Notes, p. 119) citado por Prandi.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-004",
+      "orixa": "exu",
+      "atributo": "iconografia",
+      "valor": "estátua de Legba com falo desproporcional (relatos de 1789 e 1847)",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "pommegorge-1789-nigritie",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 48",
+      "parafrase": "Relatos de viajantes do Daomé (Pommegorge, 1789; Duncan, 1847) descrevem estátuas de Legba feitas de terra com o órgão sexual exagerado, em tom de repulsa.",
+      "nota": "Pommegorge lido via Verger (1999, p. 133) e Prandi; Duncan (1847, v. I, p. 114). Olhar europeu.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-005",
+      "orixa": "exu",
+      "atributo": "nomes",
+      "valor": "Exu traduzido como 'diabo' por missionários (1857, 1885)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "bowen-1857-adventures",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 48",
+      "parafrase": "O pastor Bowen (1857) afirmou que em iorubá o diabo se chama Exu e explicou o nome Elegbara como 'o poderoso'; o abade Bouche (1885) disse que os africanos chamavam Satã de Elegbara, 'aquele que se apodera de nós'.",
+      "nota": "Também bouche-1885-cote. Etimologias de missionários: não tomar como verdade linguística sem fonte especializada.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-006",
+      "orixa": "exu",
+      "atributo": "nomes",
+      "valor": "Exu ('o rejeitado'), Elegbá/Elegbara ('o forte'), Ogongo Ogó ('gênio do bastão nodoso') — segundo Baudin",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "baudin-1884-fetichisme",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 48",
+      "parafrase": "O missionário Baudin (1884) registrou os nomes Exu, Elegbá ou Elegbara e Ogongo Ogó, com traduções próprias, e o apresentou como chefe dos espíritos maléficos.",
+      "nota": "Traduções do missionário; conferir com Abimbola/Beniste.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-007",
+      "orixa": "exu",
+      "atributo": "iconografia",
+      "valor": "ídolo de terra sentado, cabeça grande, olhos e dentes de búzios, regado com dendê e sangue; porretes nodosos ao lado",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "baudin-1884-fetichisme",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "pp. 48–49",
+      "parafrase": "Baudin descreve a imagem de Exu colocada diante das casas, praças e caminhos: figura humana de barro, sentada, com cabeça grande, penas como cabelo e búzios como olhos e dentes, que recebe azeite de dendê e sangue de galinha; ao lado ficam cabos de enxada e bastões nodosos; os abutres seriam seus mensageiros.",
+      "nota": "Descrição útil, mas carregada de repulsa missionária.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-008",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "templo principal em Woro, perto de Badagry (séc. XIX)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "baudin-1884-fetichisme",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 49",
+      "parafrase": "Segundo Baudin, o principal templo de Exu ficava em Woro, perto de Badagry, num bosque junto a uma lagoa onde os fiéis jogavam búzios como oferenda.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-009",
+      "orixa": "exu",
+      "atributo": "itans",
+      "valor": "o gorro de duas cores que separa dois amigos",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 49",
+      "parafrase": "Exu, incomodado com a amizade de dois vizinhos, passa entre eles usando um gorro branco de um lado e vermelho do outro; cada um vê uma cor, e a discussão sobre quem tem razão termina em briga violenta. O mito ilustra a ambiguidade do orixá e é muito conhecido nos candomblés brasileiros.",
+      "nota": "Registrado por Baudin (1884, pp. 49–51) e comentado por Prandi. Resumo próprio — comparar com versões de Verger e Prandi (Mitologia, 2001).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-010",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "'divindade caluniada' (Bastide) e recuperação dos atributos africanos (Juana Elbein dos Santos)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 49",
+      "parafrase": "Prandi lembra que Bastide, nos anos 1950, chamou Exu de divindade caluniada, e que Juana Elbein dos Santos foi praticamente a primeira pesquisadora no Brasil a se dedicar a recuperar seus atributos africanos, encobertos pelas reinterpretações católicas.",
+      "nota": "Bastide (1978, p. 175); Santos (1976, p. 130 ss.). CORRIGE pré-fichamento anterior, que incluía Verger nesse ponto.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-011",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "transportador das oferendas e mensageiro entre o Aiê e o Orum",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "Para os antigos iorubás, as oferendas humanas precisam chegar ao mundo dos orixás e as respostas precisam voltar: Exu faz esse transporte e essa comunicação, especialmente nas consultas ao oráculo, e por isso nada acontece sem ele — nem mesmo a Criação.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-012",
+      "orixa": "exu",
+      "atributo": "tabus",
+      "valor": "deve ser propiciado sempre que outro orixá recebe oferenda",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "Como toda comunicação com os orixás passa por Exu, ele recebe sua parte sempre que outra divindade é alimentada; daí o dito de que Exu não trabalha sem pagamento, que sob o olhar cristão gerou a imagem de divindade interesseira.",
+      "nota": "Regra ritual geral (pública), não fundamento.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-013",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "transformador; princípio do movimento",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "O traço que mais distingue Exu é o de transformador: ele questiona regras, rompe a norma e provoca mudança, sendo o próprio princípio do movimento — por isso é temido e visto como instável.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-014",
+      "orixa": "exu",
+      "atributo": "dominios",
+      "valor": "sexualidade, reprodução e continuidade das linhagens",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "pp. 50–51",
+      "parafrase": "Exu é o patrono da cópula que gera filhos e garante a continuidade das famílias e do povo; dessa ligação com a reprodução, expressa nos símbolos fálicos, nasceu sua imagem mítica de libidinoso.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-015",
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "Diabo (contraponto ao Oxalá-Jesus no modelo bem × mal)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 51",
+      "parafrase": "Para Prandi, o sincretismo não é simples tabela de equivalências: ao encaixar a religião dos orixás no esquema cristão de bem e mal, Olorum foi associado a Deus Pai, Oxalá a Jesus e os demais orixás a santos, e faltava alguém para o lugar do demônio — papel que coube a Exu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-016",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "confusão com o diabo na Bahia de 1900, atribuída ao ensino católico",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "nina-rodrigues-1900-animisme",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 52",
+      "parafrase": "Nina Rodrigues registrou em 1900 que os afro-baianos tendiam a confundir Exu (também chamado Bará ou Elegbará) com o diabo, mas atribuiu essa identificação à influência católica.",
+      "nota": "Prandi cita a reedição de 1935, p. 40.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-017",
+      "orixa": "exu",
+      "atributo": "iconografia",
+      "valor": "no Brasil: falo dissimulado; chifres, rabo e pés de bode",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 52",
+      "parafrase": "Num ambiente católico que reprimia a sexualidade, o lado fálico de Exu foi disfarçado e esquecido no Brasil, enquanto suas imagens ganharam chifres, rabo e pés de bode dos demônios cristãos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-018",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "Umbanda e quimbanda: Exu como senhor do mal e espírito desencarnado",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "pp. 52–54",
+      "parafrase": "Com a Umbanda (primeiro quartel do séc. XX), que adotou a moral cristã da caridade, Exu foi confinado à quimbanda, domínio do que as entidades 'da direita' não fazem; ali os exus, no plural, passaram a ser espíritos de pessoas que viveram à margem, e Pombagira surgiu como seu lado feminino.",
+      "nota": "Distinção obrigatória: exus da Umbanda ≠ orixá Exu do Candomblé.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-019",
+      "orixa": "exu",
+      "atributo": "iconografia",
+      "valor": "Exu de quimbanda: capa preta e vermelha, tridente, gargalhadas",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 54",
+      "parafrase": "Incorporado na Umbanda/quimbanda, Exu aparece com capa preta e vermelha e tridente, imita cascos, gargalha, bebe e fuma — muito diferente do mensageiro brincalhão dos iorubás.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-020",
+      "orixa": "exu",
+      "atributo": "qualidades",
+      "valor": "Exu múltiplo: um guardião para cada casa, rua, cidade, mercado e pessoa",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "pp. 54–55",
+      "parafrase": "Como os demais orixás, Exu tem muitas invocações; sendo o movimento, multiplica-se: cada casa, rua, cidade e mercado tem seu guardião, e cada pessoa tem um Exu próprio, assentado e cuidado.",
+      "nota": "Apoia-se em Santos (1976, p. 130).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-021",
+      "orixa": "exu",
+      "atributo": "nomes",
+      "valor": "nomes-qualidades segundo Gilberto de Exu: Iangui, Agbá, Igbá Quetá, Ocotó, Obassim, Odara, Ojissebó, Eleru, Enugbarijó, Elegbara/Legba, Bará, Olonã, Icorita Metá, Olobé, Elebó, Odusó, Elepô, Iná",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "ferreira-2000-exu",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 55",
+      "parafrase": "Prandi reproduz a lista de nomes de Exu e suas atribuições dada por um ogã, que vão do primeiro ser da Criação ao dono dos caminhos, das encruzilhadas, das oferendas, do oráculo e do dendê, e a Iná, reverenciado no padê.",
+      "nota": "Ferreira (2000, pp. 19–21); também Santos (1976, pp. 135–9).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-022",
+      "orixa": "exu",
+      "atributo": "nomes",
+      "valor": "outros nomes registrados por Verger: Eleiembó, Laroiê, Alaquetu, Aquessam, Lalu, Jelu",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1981-orixas",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 55",
+      "parafrase": "Verger anotou na África e no Brasil outros nomes de Exu, como Alaquetu (senhor de Ketu) e Aquessam (senhor do mercado de Oyó).",
+      "nota": "Verger (1997, pp. 76–8; 1999, p. 132). Laroiê aparece como nome; verificar relação com a saudação.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-023",
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "valor": "nomes em cultos de origem fon e banto no Brasil: Tiriri, Jelebara, Jiguidi, Mavambo, Emberequetê, Sinza Muzila, Barabô",
+      "tradicoes": [
+        "candomble_jeje",
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "verger-1981-orixas",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 55",
+      "parafrase": "Verger atribui a cultos brasileiros de origem fon e banto nomes como Mavambo e Sinza Muzila para a figura equivalente a Exu.",
+      "nota": "Ponto de partida para os inquices equivalentes; confirmar com Castro (2001) e fontes Angola.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-024",
       "orixa": "exu",
       "atributo": "funcoes",
       "valor": "mensageiro, transportador, transformador, repositor e doador",
@@ -17,132 +470,193 @@
       "casa_ou_regiao": null,
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Prandi organiza as atribuições de Exu em cinco papéis: leva mensagens, transporta oferendas, transforma, repõe e doa.",
+      "localizacao": "p. 55",
+      "parafrase": "Os nomes africanos de Exu, preservados nas casas mais ligadas às raízes, resumem suas funções: levar mensagens, transportar, transformar, repor e doar.",
       "nota": null,
-      "status": "pre_fichamento",
+      "status": "fichado",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/view/35275"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
       ]
     },
     {
-      "id": "exu-002",
+      "id": "exu-025",
       "orixa": "exu",
-      "atributo": "equivalencias",
-      "valor": "Legba / Elegbara (vodum fon)",
+      "atributo": "simbolos",
+      "valor": "tridente de ferro (assentamento); garfo-de-exu",
       "tradicoes": [
-        "vodun_benim"
+        "candomble_ketu",
+        "umbanda"
       ],
       "casa_ou_regiao": null,
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Entre os fons, a divindade correspondente é cultuada como o vodum Legba ou Elegbara, associado ao poder de transformação e ao princípio do movimento.",
-      "nota": "Equivalência não é identidade; registrar também a perspectiva jeje brasileira.",
-      "status": "pre_fichamento",
+      "localizacao": "p. 57",
+      "parafrase": "Nos candomblés, onde as divindades são representadas por objetos consagrados nos assentamentos, o símbolo de Exu é o tridente de ferro; nas tronqueiras da Umbanda, os exus são assentados com 'garfos', e as pombagiras com ferros de formato arredondado.",
+      "nota": "Prandi relaciona o tridente à iconografia do demônio; registrar outras representações (ogó, laterita) em outras fontes.",
+      "status": "fichado",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/view/35275"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
       ]
     },
     {
-      "id": "exu-003",
+      "id": "exu-026",
+      "orixa": "exu",
+      "atributo": "festas",
+      "valor": "padê: homenagem a Exu no início de toda cerimônia",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 58",
+      "parafrase": "Bastide observou que toda cerimônia do candomblé começa obrigatoriamente com uma homenagem a Exu, o padê, explicada pelo seu papel de mensageiro — embora já houvesse quem a explicasse pelo medo de que ele perturbasse a festa.",
+      "nota": "Bastide (1978, 3ª ed., pp. 176–7).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-027",
       "orixa": "exu",
       "atributo": "interpretacao_academica",
-      "valor": "demonização por observadores europeus (Priapo + diabo)",
+      "valor": "culto de evitação: oferenda para que Exu não atrapalhe",
       "tradicoes": [
+        "candomble_ketu",
+        "umbanda",
+        "lucumi",
         "ioruba_nigeria"
       ],
       "casa_ou_regiao": null,
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Os primeiros europeus que viram o culto de Exu na África Ocidental o leram por duas chaves: como um deus fálico à maneira de Priapo e como o diabo cristão.",
+      "localizacao": "p. 58",
+      "parafrase": "Prandi vê como desvio a ideia, hoje comum no Brasil e também observada na África e em Cuba, de que se oferece primeiro a Exu apenas para que ele não perturbe o rito, e não para que leve as oferendas aos orixás.",
       "nota": null,
-      "status": "pre_fichamento",
+      "status": "fichado",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/view/35275"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
       ]
     },
     {
-      "id": "exu-004",
+      "id": "exu-028",
       "orixa": "exu",
-      "atributo": "iconografia",
-      "valor": "estatuetas com grande falo, banhadas em dendê e sangue (descrição missionária do séc. XIX)",
-      "tradicoes": [
-        "ioruba_nigeria"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "baudin-1884-fetichisme",
-      "via_source_id": "prandi-2001-exu-diabo",
-      "localizacao": "a conferir",
-      "parafrase": "Um missionário católico do séc. XIX descreveu representações de Exu como imagens humanas com falo proeminente, untadas de azeite de dendê e sangue de ave, em tom de repulsa.",
-      "nota": "Documento do olhar colonial, não descrição neutra do culto.",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://revistas.usp.br/revusp/article/view/35275"
-      ]
-    },
-    {
-      "id": "exu-005",
-      "orixa": "exu",
-      "atributo": "iconografia",
-      "valor": "estatuetas de ferro com chifres e rabo; dimensão fálica dissimulada no Brasil",
-      "tradicoes": [
-        "candomble_ketu",
-        "umbanda"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "prandi-2001-exu-diabo",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "No Brasil a dimensão sexual de Exu foi reprimida e disfarçada; na iconografia afro-brasileira aparecem figuras masculinas de ferro com chifres e cauda, à moda do diabo.",
-      "nota": null,
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://revistas.usp.br/revusp/article/view/35275"
-      ]
-    },
-    {
-      "id": "exu-006",
-      "orixa": "exu",
-      "atributo": "sincretismo",
-      "valor": "Diabo cristão",
-      "tradicoes": [
-        "candomble_ketu",
-        "umbanda"
-      ],
-      "casa_ou_regiao": null,
-      "source_id": "prandi-2001-exu-diabo",
-      "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Pelo sincretismo, enquanto Oxalá foi aproximado de Jesus, Exu foi empurrado para o lugar do Diabo no imaginário cristão.",
-      "nota": "Lido via resenha na revista Plura (2024); confirmar no original.",
-      "status": "pre_fichamento",
-      "evidencias": [
-        "https://revistaplura.emnuvens.com.br/plura/article/download/2273/1799/8954"
-      ]
-    },
-    {
-      "id": "exu-007",
-      "orixa": "exu",
-      "atributo": "historia_culto",
-      "valor": "esforço de recuperação dos atributos africanos de Exu",
+      "atributo": "interpretacao_academica",
+      "valor": "nos candomblés mais tradicionais, imagem próxima da africana",
       "tradicoes": [
         "candomble_ketu"
       ],
       "casa_ou_regiao": null,
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
-      "localizacao": "a conferir",
-      "parafrase": "Prandi aponta que Verger, Bastide e Juana Elbein dos Santos procuraram resgatar características africanas de Exu que no Brasil ficaram encobertas.",
+      "localizacao": "p. 59",
+      "parafrase": "Em poucos candomblés antigos, mais ligados às raízes africanas, cultiva-se a imagem de Exu como mensageiro dos deuses, com ligação apenas discreta com o diabo.",
       "nota": null,
-      "status": "pre_fichamento",
+      "status": "fichado",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/view/35275"
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
       ]
     },
     {
-      "id": "exu-008",
+      "id": "exu-029",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "demonização por igrejas neopentecostais",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "pp. 60–61",
+      "parafrase": "Igrejas neopentecostais, sobretudo a Igreja Universal, exploram a imagem de Exu como diabo em ritos de exorcismo televisionados, culpando exus e pombagiras por males como o desemprego.",
+      "nota": "Contexto de intolerância religiosa para a página de metodologia.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-030",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "filhos de Exu eram iniciados para Ogum Xoroquê",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 62",
+      "parafrase": "Quem o jogo de búzios apontava como filho de Exu corria o risco de ser visto como filho do diabo e acabava iniciado para outro orixá, em especial Ogum Xoroquê, qualidade de Ogum muito ligada ao mensageiro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-031",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "'carrego de Exu' entregue a Ogunjá (Carneiro, 1948)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "carneiro-1948-candombles",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 62",
+      "parafrase": "Edison Carneiro registrou que não se dizia que alguém era filho de Exu, mas que tinha um carrego de Exu, obrigação vitalícia entregue a Ogunjá — um Ogum que mora com Oxóssi e Exu e come comida crua.",
+      "nota": "Carneiro (1954, 2ª ed., p. 77).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-032",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "possessão por Exu rara e vista como anormal (Bastide)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 62",
+      "parafrase": "Bastide escreveu que Exu quase nunca se manifesta em transe e que, quando isso ocorria, a possessão era vista como violenta e precisava ser afastada.",
+      "nota": "Bastide (1978, pp. 25 e 37).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-033",
+      "orixa": "exu",
+      "atributo": "dominios",
+      "valor": "estrada, encruzilhadas, porta das casas; transformação e movimento",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "pp. 62–63",
+      "parafrase": "Com a dessincretização, Exu tende a voltar a ser o orixá mensageiro que detém a transformação e o movimento, vive na estrada, frequenta as encruzilhadas e guarda a porta das casas — nem santo nem demônio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "exu-034",
       "orixa": "exu",
       "atributo": "interpretacao_academica",
       "valor": "mensageiro ordenador × trickster",
@@ -163,7 +677,7 @@
       ]
     },
     {
-      "id": "exu-009",
+      "id": "exu-035",
       "orixa": "exu",
       "atributo": "interpretacao_academica",
       "valor": "leitura de Exu como trickster pelos etnólogos europeus",
@@ -182,7 +696,7 @@
       ]
     },
     {
-      "id": "exu-010",
+      "id": "exu-036",
       "orixa": "exu",
       "atributo": "interpretacao_academica",
       "valor": "de orixá a egum: ressignificação de Exu na Umbanda",

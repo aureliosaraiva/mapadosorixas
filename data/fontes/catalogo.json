@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-10-31",
-    "total": 155
+    "total": 163
   },
   "fontes": [
     {
@@ -200,6 +200,31 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "augras-1989-yiami",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Monique Augras"
+      ],
+      "titulo": "De Yiá Mi a Pomba Gira: transformações e símbolos da libido",
+      "ano": 1989,
+      "idioma": "pt",
+      "editora": "Edicon/Edusp",
+      "local": "São Paulo",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Em C. E. Marcondes de Moura (org.), Meu sinal está no teu corpo, pp. 14–36. Atenuação de atributos das Grandes Mães (Iemanjá, Oxum) no Brasil."
     },
     {
       "id": "awolalu-1979-beliefs",
@@ -461,14 +486,16 @@
     },
     {
       "id": "baudin-1884-fetichisme",
-      "evidencias": [],
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
       "url": null,
       "identificadores": {},
-      "observacoes": "Texto missionário católico citado por Prandi (2001) como exemplo da demonização de Exu. Olhar colonial; usar só como documento do olhar europeu.",
+      "observacoes": "Padre católico da Sociedade das Missões Africanas de Lyon, missionário na Costa dos Escravos. Segundo Prandi (2001, p. 48), primeiro livro a tratar sistematicamente da religião iorubá; fonte pioneira, mas com interpretação cristã devastadora sobre Exu. Prenome a conferir (R. P. = Révérend Père). Nível C: documento do olhar missionário.",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
-        "Noël Baudin"
+        "R. P. Baudin"
       ],
       "titulo": "Fétichisme et féticheurs",
       "ano": 1884,
@@ -479,7 +506,7 @@
       "confiabilidade_preliminar": "C",
       "status_verificacao": "a_verificar",
       "local": "Lyon",
-      "editora": "Missions Africaines"
+      "editora": "Séminaire des Missions Africaines – Bureau des Missions Catholiques"
     },
     {
       "id": "beier-1970-poetry",
@@ -688,6 +715,54 @@
       "identificadores": {}
     },
     {
+      "id": "bouche-1885-cote",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Pierre Bouche"
+      ],
+      "titulo": "La Côte des Esclaves et le Dahomey",
+      "ano": 1885,
+      "idioma": "fr",
+      "local": "Paris",
+      "tradicoes": [
+        "vodun_benim",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Abade/missionário; associa Elegbara à possessão satânica. Domínio público."
+    },
+    {
+      "id": "bowen-1857-adventures",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Thomas Jefferson Bowen"
+      ],
+      "titulo": "Adventures and Missionary Labors in Several Countries in the Interior of Africa",
+      "ano": 1857,
+      "idioma": "en",
+      "local": "Charleston",
+      "editora": "Southern Baptist Publication Society",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Pastor batista; identifica Exu ao diabo. Reed. Londres, Cass, 1968. Domínio público."
+    },
+    {
       "id": "brivio-2024-making-vodun",
       "tipo": "artigo",
       "categoria": "academica",
@@ -817,6 +892,30 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "burton-1863-abeokuta",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Richard F. Burton"
+      ],
+      "titulo": "Abeokuta and the Camaroons Mountains: An Exploration",
+      "ano": 1863,
+      "idioma": "en",
+      "local": "London",
+      "editora": "Tinsley Brothers",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "2 vols. Relato de viagem a Abeokuta (cidade ligada ao culto de Iemanjá). Domínio público. Título exato a conferir."
     },
     {
       "id": "cabrera-1954-monte",
@@ -1280,6 +1379,30 @@
       "identificadores": {}
     },
     {
+      "id": "duncan-1847-travels",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "John Duncan"
+      ],
+      "titulo": "Travels in Western Africa",
+      "ano": 1847,
+      "idioma": "en",
+      "local": "London",
+      "editora": "Richard Bentley",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "2 vols. Relato de viajante; descreve estátuas de Legba. Domínio público. Título exato a conferir ('Travels in West/Western Africa')."
+    },
+    {
       "id": "ellis-1894-yoruba",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -1396,6 +1519,30 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "ferreira-2000-exu",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "capitulo",
+      "categoria": "praticante",
+      "autores": [
+        "Gilberto Antonio Ferreira (Gilberto de Exu)"
+      ],
+      "titulo": "Exu, a pedra primordial da teologia iorubá",
+      "ano": 2000,
+      "idioma": "pt",
+      "editora": "Pallas",
+      "local": "Rio de Janeiro",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Em Cléo Martins e Raul Lody (orgs.), Faraimará: o caçador traz alegria, pp. 15–23. Ogã; lista de nomes-qualidades de Exu."
     },
     {
       "id": "ferretti-1985-querebenta",
@@ -2460,6 +2607,29 @@
       "editora": "Pallas"
     },
     {
+      "id": "pommegorge-1789-nigritie",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Pruneau de Pommegorge"
+      ],
+      "titulo": "Description de la Nigritie",
+      "ano": 1789,
+      "idioma": "fr",
+      "local": "Amsterdam",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Relato de viagem; um dos primeiros escritos sobre Legba (estátua fálica daomeana). Citado via Verger (1999) e Prandi (2001). Domínio público."
+    },
+    {
       "id": "prandi-1991-sp",
       "tipo": "livro",
       "categoria": "academica",
@@ -2496,10 +2666,11 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Revista USP n. 50; páginas 46–63 (site) ou 46–65 (PDF) — conferir. Texto integral aberto.",
+      "observacoes": "Revista USP n. 50, jun./ago. 2001, pp. 46–63 (confirmado no PDF). Texto integral aberto. Lido integralmente em 2026-10-31 (fichamento em data/fichamento/exu.json).",
       "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://revistas.usp.br/revusp/article/view/35275"
+        "https://revistas.usp.br/revusp/article/view/35275",
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
       ],
       "url": "https://revistas.usp.br/revusp/article/view/35275",
       "identificadores": {
@@ -3296,6 +3467,31 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "trindade-1985-exu",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ],
+      "url": null,
+      "identificadores": {},
+      "status_verificacao": "a_verificar",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Liana Trindade"
+      ],
+      "titulo": "Exu, poder e perigo",
+      "ano": 1985,
+      "idioma": "pt",
+      "editora": "Ícone",
+      "local": "São Paulo",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Exu como herói trickster; ambiguidade moral."
     },
     {
       "id": "ufg-2017-exu-umbanda",

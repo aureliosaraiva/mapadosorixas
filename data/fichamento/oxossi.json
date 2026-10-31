@@ -1,12 +1,36 @@
 {
   "_meta": {
     "orixa": "oxossi",
-    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
-    "total": 4
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 5,
+    "por_status": {
+      "fichado": 1,
+      "pre_fichamento": 4,
+      "revisado": 0
+    }
   },
   "registros": [
     {
       "id": "oxossi-001",
+      "orixa": "oxossi",
+      "atributo": "parentesco",
+      "valor": "Oxóssi, Ogum (Ogunjá) e Exu cultuados juntos",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "carneiro-1948-candombles",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 62",
+      "parafrase": "Na descrição de Carneiro, Ogunjá 'mora' com Oxóssi e Exu, indicando proximidade de culto entre os três.",
+      "nota": "Carneiro (1954, p. 77); confirmar sentido de 'morar junto' (assentamentos).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "oxossi-002",
       "orixa": "oxossi",
       "atributo": "dominios",
       "valor": "caça, florestas e fartura",
@@ -26,7 +50,7 @@
       ]
     },
     {
-      "id": "oxossi-002",
+      "id": "oxossi-003",
       "orixa": "oxossi",
       "atributo": "origem",
       "valor": "Ketu, com discussão sobre Ilê-Ifé e Oyó",
@@ -46,7 +70,7 @@
       ]
     },
     {
-      "id": "oxossi-003",
+      "id": "oxossi-004",
       "orixa": "oxossi",
       "atributo": "itans",
       "valor": "o caçador de uma flecha só",
@@ -65,7 +89,7 @@
       ]
     },
     {
-      "id": "oxossi-004",
+      "id": "oxossi-005",
       "orixa": "oxossi",
       "atributo": "historia_culto",
       "valor": "culto praticamente desaparecido em Ketu (África) — afirmação atribuída a Verger e contestada",

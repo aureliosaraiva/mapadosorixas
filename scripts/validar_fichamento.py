@@ -42,7 +42,9 @@ def validar(regs):
             sid = r.get(campo)
             if sid and sid not in FONTES:
                 erros.append(f"{r['id']}: {campo} inexistente no catálogo: {sid}")
-        f = FONTES.get(r["source_id"])
+        # A fonte efetivamente lida é a intermediária (via_source_id), quando houver.
+        lida = r.get("via_source_id") or r["source_id"]
+        f = FONTES.get(lida)
         if f and r["status"] in ("fichado", "revisado"):
             if f["status_verificacao"] in ("pista", "a_verificar"):
                 erros.append(f"{r['id']}: status {r['status']} exige fonte verificada (fonte está '{f['status_verificacao']}')")

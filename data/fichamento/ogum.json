@@ -1,12 +1,55 @@
 {
   "_meta": {
     "orixa": "ogum",
-    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
-    "total": 6
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 8,
+    "por_status": {
+      "fichado": 2,
+      "pre_fichamento": 6,
+      "revisado": 0
+    }
   },
   "registros": [
     {
       "id": "ogum-001",
+      "orixa": "ogum",
+      "atributo": "qualidades",
+      "valor": "Ogum Xoroquê — qualidade ligada a Exu",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 62",
+      "parafrase": "Ogum Xoroquê é descrito como uma qualidade de Ogum com fortes ligações com Exu, para a qual eram iniciados os apontados como filhos de Exu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "ogum-002",
+      "orixa": "ogum",
+      "atributo": "qualidades",
+      "valor": "Ogunjá — Ogum que mora com Oxóssi e Exu e come comida crua",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "carneiro-1948-candombles",
+      "via_source_id": "prandi-2001-exu-diabo",
+      "localizacao": "p. 62",
+      "parafrase": "Carneiro descreveu Ogunjá como um Ogum que vive junto de Oxóssi e Exu e se alimenta de comida crua.",
+      "nota": "Carneiro (1954, p. 77).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "ogum-003",
       "orixa": "ogum",
       "atributo": "equivalencias",
       "valor": "Ogou (lwa do Vodou haitiano) e Gu (vodum fon)",
@@ -27,7 +70,7 @@
       ]
     },
     {
-      "id": "ogum-002",
+      "id": "ogum-004",
       "orixa": "ogum",
       "atributo": "historia_culto",
       "valor": "no Haiti, perfil político-militar e mediação de forças opostas",
@@ -46,7 +89,7 @@
       ]
     },
     {
-      "id": "ogum-003",
+      "id": "ogum-005",
       "orixa": "ogum",
       "atributo": "sincretismo",
       "valor": "São Jorge",
@@ -65,7 +108,7 @@
       ]
     },
     {
-      "id": "ogum-004",
+      "id": "ogum-006",
       "orixa": "ogum",
       "atributo": "sincretismo",
       "valor": "São Jorge",
@@ -85,7 +128,7 @@
       ]
     },
     {
-      "id": "ogum-005",
+      "id": "ogum-007",
       "orixa": "ogum",
       "atributo": "historia_culto",
       "valor": "ìjálá — poesia dos caçadores",
@@ -104,7 +147,7 @@
       ]
     },
     {
-      "id": "ogum-006",
+      "id": "ogum-008",
       "orixa": "ogum",
       "atributo": "historia_culto",
       "valor": "culto de Ogum nas Américas",

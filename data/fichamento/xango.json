@@ -1,12 +1,37 @@
 {
   "_meta": {
     "orixa": "xango",
-    "descricao": "Fichamento (registros atômicos). Status 'pre_fichamento' = afirmação identificada em busca, ainda NÃO lida na fonte; não pode ir para ficha publicada.",
-    "total": 5
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 6,
+    "por_status": {
+      "fichado": 1,
+      "pre_fichamento": 5,
+      "revisado": 0
+    }
   },
   "registros": [
     {
       "id": "xango-001",
+      "orixa": "xango",
+      "atributo": "origem",
+      "valor": "rei humano divinizado",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 59",
+      "parafrase": "Prandi contrasta a humanização de Exu na quimbanda com a trajetória de Xangô, que teria sido um rei de carne e osso antes de ser divinizado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
+      ]
+    },
+    {
+      "id": "xango-002",
       "orixa": "xango",
       "atributo": "origem",
       "valor": "rei de Oyó deificado (tradição oral de Oyó)",
@@ -25,7 +50,7 @@
       ]
     },
     {
-      "id": "xango-002",
+      "id": "xango-003",
       "orixa": "xango",
       "atributo": "historia_culto",
       "valor": "visto como estrangeiro no leste iorubá até o fim do séc. XIX",
@@ -44,7 +69,7 @@
       ]
     },
     {
-      "id": "xango-003",
+      "id": "xango-004",
       "orixa": "xango",
       "atributo": "historia_culto",
       "valor": "disputa com outras divindades do trovão (Ara)",
@@ -63,7 +88,7 @@
       ]
     },
     {
-      "id": "xango-004",
+      "id": "xango-005",
       "orixa": "xango",
       "atributo": "nomes",
       "valor": "'xangô' como nome da religião em Pernambuco",
@@ -82,7 +107,7 @@
       ]
     },
     {
-      "id": "xango-005",
+      "id": "xango-006",
       "orixa": "xango",
       "atributo": "interpretacao_academica",
       "valor": "orixá visto como o mais tipicamente africano na Bahia",
