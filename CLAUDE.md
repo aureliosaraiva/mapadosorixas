@@ -53,3 +53,9 @@ Responder e documentar em português do Brasil.
 
 ## Registro de bloqueios
 - Todo acesso bloqueado (domínio inacessível, 403/404, paywall, obra só impressa) ou conferência que dependa de pessoa deve ser registrado em `docs/pesquisa/PENDENCIAS.md`, com status, o que está atrás do bloqueio e prioridade. O autor resolve depois; não substituir por conteúdo inventado.
+
+## Fluxo entre sessões
+- **Abertura:** toda sessão começa com `git pull origin main` e lendo `docs/ESTADO.md` (estado atual, próximas tarefas, decisões já tomadas). Não reler relatórios inteiros sem necessidade.
+- **Escopo:** uma sessão = uma tarefa fechada (uma fonte, um orixá, um lote de pendências ou uma fase).
+- **Fechamento:** rodar os validadores (`scripts/validar_fontes.py`, `scripts/validar_fichamento.py`, `scripts/divergencias.py`), atualizar `docs/ESTADO.md` (números, próximas tarefas, decisões novas) e `docs/pesquisa/PENDENCIAS.md`, depois commit e push direto na `main`.
+- **Paralelismo:** sessões simultâneas só em arquivos diferentes; `data/fontes/catalogo.json` é editado por uma sessão de cada vez.
