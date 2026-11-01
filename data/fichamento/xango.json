@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 48,
+    "total": 52,
     "por_status": {
-      "fichado": 44,
+      "fichado": 48,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -932,6 +932,82 @@
       "status": "fichado",
       "evidencias": [
         "https://theses.hal.science/tel-01778552"
+      ]
+    },
+    {
+      "id": "xango-049",
+      "orixa": "xango",
+      "atributo": "equivalencias",
+      "valor": "Badé (Nenem Quevioçô), vodum do corisco da família de Quevioçô, tido como o Xangô dos nagôs",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1985-querebenta",
+      "via_source_id": "prandi-2005-pegadas-voduns",
+      "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+      "parafrase": "Na síntese que Prandi faz do panteão da Casa das Minas a partir de S. Ferretti, Badé pertence à família de Quevioçô, representa o corisco, é mudo e se faz entender por gestos; entre os nagôs, ele equivale a Xangô.",
+      "nota": "Na mesma família, Nochê Sobô, mãe dos voduns de Quevioçô, representa o raio e o trovão (p. 7). Comparar com xango-048 (Sobo = Xangô no Seja Hundê) e com xango-047.",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "xango-050",
+      "orixa": "xango",
+      "atributo": "equivalencias",
+      "valor": "Badé e Boço Vondereji correspondem a Xangô; Averequete a Xangô Aganju; Xadantã a Xangô Airá",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 25 (Quadro 1)",
+      "parafrase": "Pelo quadro da casa de Pai Francelino, Badé e Boço Vondereji têm Xangô como orixá correspondente, Averequete corresponde a Xangô Aganju e Xadantã a Xangô Airá.",
+      "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "xango-051",
+      "orixa": "xango",
+      "atributo": "sincretismo",
+      "valor": "São Pedro (Xangô e Badé); para os outros voduns correspondentes, São Benedito (Averequete), Santo Antônio (Vondereji) e São José (Xadantã)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 25 (Quadro 1)",
+      "parafrase": "Segundo o quadro, Xangô e o vodum Badé estão ligados a São Pedro; Averequete, a São Benedito; Boço Vondereji, a Santo Antônio; e Xadantã, a São José.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "xango-052",
+      "orixa": "xango",
+      "atributo": "festas",
+      "valor": "festas de Badé, vodum correspondente a Xangô: 28 a 30 de junho (São Pedro); Badé Zorogama em 29 de setembro (São Jerônimo)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 15–16",
+      "parafrase": "O calendário da casa marca o tambor de Badé nos dias 28, 29 e 30 de junho, em torno de São Pedro, e o de Badé Zorogama em 29 de setembro, dia de São Jerônimo. Xangô não aparece com festa própria na lista.",
+      "nota": "Comparar com xango-046 (São Pedro no Ilê Axé Ita Olé).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
       ]
     }
   ]

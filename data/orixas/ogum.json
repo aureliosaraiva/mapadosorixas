@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ogum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 56,
+    "registros_usados": 59,
     "registros_pre_fichamento_excluidos": 5,
     "registros_retidos": 0
   },
@@ -819,6 +819,27 @@
         "nota": "A classificação de Gu entre os voduns \"nagôs\" é de Le Hérissé (1911), citado pela autora. Equivalência não é identidade.",
         "registro": "ogum-046",
         "status": "fichado"
+      },
+      {
+        "valor": "Doçu e Bedigá (família de Davice) correspondem a Ogum; Doçupé, a Ogunjá",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 25 (Quadro 1)",
+        "parafrase": "No quadro dos voduns assentados na casa de Pai Francelino, os voduns jejes Doçu e Bedigá, da família real de Davice, têm Ogum como orixá correspondente, e Doçupé, filho de Doçu, corresponde a Ogunjá.",
+        "nota": "Prandi (p. 14) diz que a correspondência entre vodum e orixá veio do Maranhão e ajuda os devotos paulistas a assimilar os voduns. No Quadro 2 (p. 26), Ogum soma 25 assentamentos somando voduns e orixá. Ogunjá é qualidade de Ogum (ver ogum-051).",
+        "registro": "ogum-062",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -905,6 +926,27 @@
         "parafrase": "No Candeal, a festa de Ogum no primeiro dia do ano passou a incluir, a partir de 1950, uma missa para Santo Antônio, santo que a autora identifica como associado a Ogum no sincretismo afro-católico baiano. A prática segue o costume de terreiros históricos de Salvador de abrir festas de orixá com missa e procissão de imagens.",
         "nota": "Para a associação Ogum–Santo Antônio a autora cita Gadêlha 2004 e Verger (ed. 2018, p. 100). Comparar com ogum-006, ogum-014 e ogum-019 (São Jorge).",
         "registro": "ogum-035",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Jorge (Ogum); os voduns correspondentes Doçu e Bedigá, com os Santos Reis, e Doçupé, com Santo Antônio",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 25 (Quadro 1)",
+        "parafrase": "O quadro associa o orixá Ogum, assentado na casa, a São Jorge. Os voduns que lhe correspondem têm outros santos: Doçu e Bedigá ficam com os Santos Reis, e Doçupé com Santo Antônio.",
+        "nota": null,
+        "registro": "ogum-063",
         "status": "fichado"
       }
     ],
@@ -994,6 +1036,27 @@
         "parafrase": "No calendário de oferendas da casa de Pai Itaparandi, relatado a S. Ferretti, Ogum é homenageado em 23 ou 24 de abril.",
         "nota": "Conteúdo da oferenda omitido (alimento ritual). 23 de abril é o dia de São Jorge; comparar com ogum-020.",
         "registro": "ogum-060",
+        "status": "fichado"
+      },
+      {
+        "valor": "23 de abril, dia de São Jorge",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 15",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 15",
+        "parafrase": "No calendário de festas fixas da casa de Pai Francelino, Ogum é celebrado em 23 de abril, data de São Jorge.",
+        "nota": null,
+        "registro": "ogum-064",
         "status": "fichado"
       }
     ],

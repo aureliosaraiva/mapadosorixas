@@ -3,7 +3,7 @@
     "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
     "esquema": "schemas/entidade.schema.json",
     "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
-    "total": 14
+    "total": 24
   },
   "entidades": [
     {
@@ -391,6 +391,175 @@
       ]
     },
     {
+      "id": "vodum:abe",
+      "rotulo": "Abê / Abé",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iemanja",
+          "aresta": "equivalencia:iemanja>vodum:abe"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Abé, vodum feminino e jovem da família de Quevioçô, ligado ao cometa e ao mar, corresponde a Iemanjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "sources": [
+            {
+              "id": "ferretti-1985-querebenta",
+              "loc": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+              "via": "prandi-2005-pegadas-voduns"
+            }
+          ],
+          "source_id": "ferretti-1985-querebenta",
+          "via_source_id": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "parafrase": "Prandi, resumindo S. Ferretti, descreve Abé como vodum dos astros da família de Quevioçô, jovem e feminino, associado ao cometa, imaginado como estrela que caiu no mar. É um dos poucos do grupo que falam, tem papel de toqüém e corresponde à Iemanjá dos nagôs.",
+          "nota": null,
+          "registro": "iemanja-056",
+          "status": "fichado"
+        },
+        {
+          "valor": "Abê e Naê correspondem a Iemanjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No quadro da casa paulista, os voduns Abê (família de Quevioçô) e Naê (família de Davice) aparecem com Iemanjá como orixá correspondente; no texto, Prandi dá Abê, Iemanjá e Nossa Senhora da Conceição como exemplo de correspondência que se estende ao santo católico.",
+          "nota": null,
+          "registro": "iemanja-057",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:ague",
+      "rotulo": "Agüê",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxossi",
+          "aresta": "equivalencia:oxossi>vodum:ague"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Agüê e Azacá (família de Savaluno) correspondem a Oxóssi",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No mesmo quadro, os voduns Agüê e Azacá, da família de Savaluno, aparecem com Oxóssi como orixá correspondente.",
+          "nota": "Na Casa das Minas, Zacá (Azacá) é descrito como vodum caçador, na síntese de S. Ferretti (p. 6). Correspondência estabelecida na casa paulista; não é identidade.",
+          "registro": "oxossi-033",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:averequete",
+      "rotulo": "Averequete",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "xango",
+          "aresta": "equivalencia:vodum:averequete>xango"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Badé e Boço Vondereji correspondem a Xangô; Averequete a Xangô Aganju; Xadantã a Xangô Airá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "Pelo quadro da casa de Pai Francelino, Badé e Boço Vondereji têm Xangô como orixá correspondente, Averequete corresponde a Xangô Aganju e Xadantã a Xangô Airá.",
+          "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
+          "registro": "xango-050",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:azaca",
+      "rotulo": "Azacá",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxossi",
+          "aresta": "equivalencia:oxossi>vodum:azaca"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Agüê e Azacá (família de Savaluno) correspondem a Oxóssi",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No mesmo quadro, os voduns Agüê e Azacá, da família de Savaluno, aparecem com Oxóssi como orixá correspondente.",
+          "nota": "Na Casa das Minas, Zacá (Azacá) é descrito como vodum caçador, na síntese de S. Ferretti (p. 6). Correspondência estabelecida na casa paulista; não é identidade.",
+          "registro": "oxossi-033",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:bade",
       "rotulo": "Badé",
       "tipo": "vodum",
@@ -423,6 +592,159 @@
           "parafrase": "Nos relatos da mesma casa de Tambor de Mina, Xangô aparece emparelhado ao vodum Badé, referido como \"Xangô ou Badé\", e a festa de Badé coincide com o dia de São Pedro.",
           "nota": "Equivalência na prática de uma casa; não é identidade. Detalhes de oferenda omitidos.",
           "registro": "xango-047",
+          "status": "fichado"
+        },
+        {
+          "valor": "Badé (Nenem Quevioçô), vodum do corisco da família de Quevioçô, tido como o Xangô dos nagôs",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "sources": [
+            {
+              "id": "ferretti-1985-querebenta",
+              "loc": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+              "via": "prandi-2005-pegadas-voduns"
+            }
+          ],
+          "source_id": "ferretti-1985-querebenta",
+          "via_source_id": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "parafrase": "Na síntese que Prandi faz do panteão da Casa das Minas a partir de S. Ferretti, Badé pertence à família de Quevioçô, representa o corisco, é mudo e se faz entender por gestos; entre os nagôs, ele equivale a Xangô.",
+          "nota": "Na mesma família, Nochê Sobô, mãe dos voduns de Quevioçô, representa o raio e o trovão (p. 7). Comparar com xango-048 (Sobo = Xangô no Seja Hundê) e com xango-047.",
+          "registro": "xango-049",
+          "status": "fichado"
+        },
+        {
+          "valor": "Badé e Boço Vondereji correspondem a Xangô; Averequete a Xangô Aganju; Xadantã a Xangô Airá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "Pelo quadro da casa de Pai Francelino, Badé e Boço Vondereji têm Xangô como orixá correspondente, Averequete corresponde a Xangô Aganju e Xadantã a Xangô Airá.",
+          "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
+          "registro": "xango-050",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:bediga",
+      "rotulo": "Bedigá",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ogum",
+          "aresta": "equivalencia:ogum>vodum:bediga"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Doçu e Bedigá (família de Davice) correspondem a Ogum; Doçupé, a Ogunjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No quadro dos voduns assentados na casa de Pai Francelino, os voduns jejes Doçu e Bedigá, da família real de Davice, têm Ogum como orixá correspondente, e Doçupé, filho de Doçu, corresponde a Ogunjá.",
+          "nota": "Prandi (p. 14) diz que a correspondência entre vodum e orixá veio do Maranhão e ajuda os devotos paulistas a assimilar os voduns. No Quadro 2 (p. 26), Ogum soma 25 assentamentos somando voduns e orixá. Ogunjá é qualidade de Ogum (ver ogum-051).",
+          "registro": "ogum-062",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:docu",
+      "rotulo": "Doçu",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ogum",
+          "aresta": "equivalencia:ogum>vodum:docu"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Doçu e Bedigá (família de Davice) correspondem a Ogum; Doçupé, a Ogunjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No quadro dos voduns assentados na casa de Pai Francelino, os voduns jejes Doçu e Bedigá, da família real de Davice, têm Ogum como orixá correspondente, e Doçupé, filho de Doçu, corresponde a Ogunjá.",
+          "nota": "Prandi (p. 14) diz que a correspondência entre vodum e orixá veio do Maranhão e ajuda os devotos paulistas a assimilar os voduns. No Quadro 2 (p. 26), Ogum soma 25 assentamentos somando voduns e orixá. Ogunjá é qualidade de Ogum (ver ogum-051).",
+          "registro": "ogum-062",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:docupe",
+      "rotulo": "Doçupé",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ogum",
+          "aresta": "equivalencia:ogum>vodum:docupe"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Doçu e Bedigá (família de Davice) correspondem a Ogum; Doçupé, a Ogunjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No quadro dos voduns assentados na casa de Pai Francelino, os voduns jejes Doçu e Bedigá, da família real de Davice, têm Ogum como orixá correspondente, e Doçupé, filho de Doçu, corresponde a Ogunjá.",
+          "nota": "Prandi (p. 14) diz que a correspondência entre vodum e orixá veio do Maranhão e ajuda os devotos paulistas a assimilar os voduns. No Quadro 2 (p. 26), Ogum soma 25 assentamentos somando voduns e orixá. Ogunjá é qualidade de Ogum (ver ogum-051).",
+          "registro": "ogum-062",
           "status": "fichado"
         }
       ]
@@ -475,6 +797,7 @@
         "candomble_ketu",
         "ioruba_nigeria",
         "lucumi",
+        "tambor_de_mina",
         "vodou_haiti",
         "vodun_benim"
       ],
@@ -574,6 +897,64 @@
           "nota": "Equivalência parcial; comparar com exu-001 e exu-066 (Bastide, via Costa: não identificar Legba e Exu).",
           "registro": "exu-080",
           "status": "fichado"
+        },
+        {
+          "valor": "Legba ou Legbara, o vodum que em outras nações se chama Exu",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "sources": [
+            {
+              "id": "ferretti-1985-querebenta",
+              "loc": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+              "via": "prandi-2005-pegadas-voduns"
+            }
+          ],
+          "source_id": "ferretti-1985-querebenta",
+          "via_source_id": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "parafrase": "Prandi apresenta Legba, ou Legbara, como figura presente em várias religiões afro-brasileiras e chamada Exu em outras nações; é a divindade que faz o papel de trapaceiro (trickster).",
+          "nota": "Ver exu-092 sobre o lugar de Legba na Casa das Minas e exu-093 sobre a casa paulista.",
+          "registro": "exu-091",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:nae",
+      "rotulo": "Naê",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iemanja",
+          "aresta": "equivalencia:iemanja>vodum:nae"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Abê e Naê correspondem a Iemanjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No quadro da casa paulista, os voduns Abê (família de Quevioçô) e Naê (família de Davice) aparecem com Iemanjá como orixá correspondente; no texto, Prandi dá Abê, Iemanjá e Nossa Senhora da Conceição como exemplo de correspondência que se estende ao santo católico.",
+          "nota": null,
+          "registro": "iemanja-057",
+          "status": "fichado"
         }
       ]
     },
@@ -610,6 +991,80 @@
           "parafrase": "Cerqueira afirma que os voduns maiores do Seja Hundê, Bessem, Sobo e Azançu, correspondem aos orixás iorubás Oxumarê, Xangô e Obaluaê, numa reinterpretação brasileira de trilogias da cosmologia ewé.",
           "nota": "Equivalência proposta pelo autor; não é identidade.",
           "registro": "xango-048",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:vondereji",
+      "rotulo": "Boço Vondereji",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "xango",
+          "aresta": "equivalencia:vodum:vondereji>xango"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Badé e Boço Vondereji correspondem a Xangô; Averequete a Xangô Aganju; Xadantã a Xangô Airá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "Pelo quadro da casa de Pai Francelino, Badé e Boço Vondereji têm Xangô como orixá correspondente, Averequete corresponde a Xangô Aganju e Xadantã a Xangô Airá.",
+          "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
+          "registro": "xango-050",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:xadanta",
+      "rotulo": "Xadantã",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "xango",
+          "aresta": "equivalencia:vodum:xadanta>xango"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Badé e Boço Vondereji correspondem a Xangô; Averequete a Xangô Aganju; Xadantã a Xangô Airá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "Pelo quadro da casa de Pai Francelino, Badé e Boço Vondereji têm Xangô como orixá correspondente, Averequete corresponde a Xangô Aganju e Xadantã a Xangô Airá.",
+          "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
+          "registro": "xango-050",
           "status": "fichado"
         }
       ]

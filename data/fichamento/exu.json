@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 90,
+    "total": 93,
     "por_status": {
-      "fichado": 90,
+      "fichado": 93,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1766,6 +1766,63 @@
       "status": "fichado",
       "evidencias": [
         "https://theses.hal.science/tel-01778552"
+      ]
+    },
+    {
+      "id": "exu-091",
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "valor": "Legba ou Legbara, o vodum que em outras nações se chama Exu",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1985-querebenta",
+      "via_source_id": "prandi-2005-pegadas-voduns",
+      "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+      "parafrase": "Prandi apresenta Legba, ou Legbara, como figura presente em várias religiões afro-brasileiras e chamada Exu em outras nações; é a divindade que faz o papel de trapaceiro (trickster).",
+      "nota": "Ver exu-092 sobre o lugar de Legba na Casa das Minas e exu-093 sobre a casa paulista.",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "exu-092",
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "na Casa das Minas, Legba não tem culto organizado, é identificado com Satanás e não faz o papel de mensageiro",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1985-querebenta",
+      "via_source_id": "prandi-2005-pegadas-voduns",
+      "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+      "parafrase": "Segundo o texto, na Casa das Minas Legba fica sem culto organizado e é associado a Satanás, ao mal; não é aceito como mensageiro, tarefa que lá cabe aos voduns jovens chamados toqüéns. Restam poucos gestos rituais, como cantigas no começo de cada tambor pedindo que ele se afaste. Em outros terreiros importantes de São Luís, porém, Legba tem lugar de destaque.",
+      "nota": "Diverge de exu-093 (casa paulista derivada da mina, onde Legbara é assentado e propiciado).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "exu-093",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "Legbara assentado para a casa e para muitos filhos, com quarto próprio, e propiciado nas grandes obrigações",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 13–14",
+      "parafrase": "Na casa de Pai Francelino, em São Paulo, existe um quarto de Legba entre as construções do terreiro, e o culto a Legbara faz parte da rotina: ele recebe propiciação nas obrigações maiores e tem assentamento tanto da casa quanto de muitos iniciados.",
+      "nota": "Contrasta com a Casa das Minas de São Luís (exu-092).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
       ]
     }
   ]

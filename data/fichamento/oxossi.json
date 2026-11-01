@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 32,
+    "total": 34,
     "por_status": {
-      "fichado": 29,
+      "fichado": 31,
       "pre_fichamento": 3,
       "revisado": 0
     }
@@ -630,6 +630,44 @@
       "status": "fichado",
       "evidencias": [
         "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "oxossi-033",
+      "orixa": "oxossi",
+      "atributo": "equivalencias",
+      "valor": "Agüê e Azacá (família de Savaluno) correspondem a Oxóssi",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 25 (Quadro 1)",
+      "parafrase": "No mesmo quadro, os voduns Agüê e Azacá, da família de Savaluno, aparecem com Oxóssi como orixá correspondente.",
+      "nota": "Na Casa das Minas, Zacá (Azacá) é descrito como vodum caçador, na síntese de S. Ferretti (p. 6). Correspondência estabelecida na casa paulista; não é identidade.",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-034",
+      "orixa": "oxossi",
+      "atributo": "sincretismo",
+      "valor": "Santa Helena (Odé e o vodum Agüê); São Sebastião para o vodum Azacá",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 25 (Quadro 1)",
+      "parafrase": "Na casa de Pai Francelino, Odé (Oxóssi) e o vodum Agüê são ligados a Santa Helena, enquanto Azacá, outro vodum que corresponde a Oxóssi, fica com São Sebastião.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
       ]
     }
   ]

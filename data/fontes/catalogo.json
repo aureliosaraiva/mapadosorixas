@@ -1799,7 +1799,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de História, USP); história de um culto familiar a Ogum em Salvador. | Lido integralmente em 2026-11-01 (fichamento-06; ogum-034 a ogum-052). Rev. História (USP) n. 181, a01221, 2022; paginação própria do artigo (pp. 1–37), igual à do PDF. Texto integral aberto.",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de História, USP); história de um culto familiar a Ogum em Salvador. | Lido integralmente em 2026-11-01 (fichamento-06; ogum-034 a ogum-052). Rev. História (USP) n. 181, a01221, 2022; paginação própria do artigo (pp. 1–37), igual à do PDF. Texto integral aberto. Fichamento-07: p. 28, nota 54, e p. 23 usadas como fonte da tradição candomble_efon.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://www.revistas.usp.br/revhistoria/article/view/180892"
@@ -3004,11 +3004,12 @@
         "tambor_de_mina"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ciencias Sociales y Religión).",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ciencias Sociales y Religión). | Fichamento-07 (2026-11-01): o texto é o artigo de 2001, Ciencias Sociales y Religión / Ciências Sociais e Religião (Porto Alegre), ano 3, n. 3, pp. 75–94 (DOI 10.22456/1982-2650.2170); 2020 deve ser a data da republicação online. Ano citado mantido. Paginação impressa = PDF + 74. O endereço econtents.bc.unicamp.br deu 502; o PDF abre em periodicos.sbu.unicamp.br.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.22456/1982-2650.2170",
-        "https://econtents.bc.unicamp.br/inpec/index.php/csr/article/view/13302"
+        "https://econtents.bc.unicamp.br/inpec/index.php/csr/article/view/13302",
+        "https://periodicos.sbu.unicamp.br/ojs/index.php/csr/article/download/8669436/28738"
       ],
       "url": "https://econtents.bc.unicamp.br/inpec/index.php/csr/article/view/13302",
       "identificadores": {
@@ -3287,11 +3288,12 @@
         "xango_pernambuco"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife. | Fichamento-06 (2026-11-01): pp. 163–169 conferidas no PDF integral do HAL (hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf). Página impressa = PDF − 1 (a trad02 anotou impressa = PDF; nos registros vale a impressa).",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife. | Fichamento-06 (2026-11-01): pp. 163–169 conferidas no PDF integral do HAL (hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf). Página impressa = PDF − 1 (a trad02 anotou impressa = PDF; nos registros vale a impressa). Fichamento-07: as páginas de Halloy citadas pela trad02 em data/tradicoes.json e data/glossario.json eram do PDF e foram convertidas para a impressa (−1).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://hal.science/tel-04260456v1",
-        "https://theses.fr/2005EHES0198"
+        "https://theses.fr/2005EHES0198",
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
       ],
       "url": "https://hal.science/tel-04260456v1",
       "identificadores": {},
@@ -5715,7 +5717,7 @@
         "vodun_benim"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Capítulo em MOURA, Carlos Eugênio Marcondes de (org.), Somavó, o amanhã nunca termina: novos escritos sobre a religião dos voduns e orixás (Empório de Produção, 2005), pp. 63–94. A versão do autor no site da USP tem paginação própria (pp. 1–36), que é a citada nos registros como 'versão do autor'; falta a correspondência com a paginação impressa. Lido pp. 1–2 em 2026-10-31.",
+      "observacoes": "Capítulo em MOURA, Carlos Eugênio Marcondes de (org.), Somavó, o amanhã nunca termina: novos escritos sobre a religião dos voduns e orixás (Empório de Produção, 2005), pp. 63–94. A versão do autor no site da USP tem paginação própria (pp. 1–36), que é a citada nos registros como 'versão do autor'; falta a correspondência com a paginação impressa. Lido pp. 1–2 em 2026-10-31 e integralmente (pp. 1–36) em 2026-11-01 (fichamento-07). A nota final da versão do autor diz que é a versão atualizada (jan. 2005) do artigo publicado em Afro-Ásia, n. 19/20, pp. 109–133, 1997. O panteão da Casa das Minas (pp. 5–8) é resumo de S. Ferretti (1989; Querebentã, 2ª ed. 1996): registros dessa parte levam source_id ferretti-1985-querebenta e via prandi.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf",
@@ -7110,7 +7112,8 @@
         "https://api.crossref.org/works/10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",
         "https://theses.fr/2019TOU20076",
         "https://theses.hal.science/tel-03191332v1",
-        "https://theses.hal.science/tel-03191332"
+        "https://theses.hal.science/tel-03191332",
+        "https://theses.hal.science/tel-03191332/file/Toutain_Maxime.pdf"
       ],
       "url": "https://theses.fr/2019TOU20076",
       "identificadores": {

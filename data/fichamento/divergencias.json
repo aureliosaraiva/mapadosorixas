@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 37
+    "total": 41
   },
   "divergencias": [
     {
@@ -170,6 +170,17 @@
           "via": null,
           "localizacao": "p. 820, nota 29",
           "registro": "exu-080"
+        },
+        {
+          "valor": "Legba ou Legbara, o vodum que em outras nações se chama Exu",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "exu-091"
         }
       ]
     },
@@ -454,6 +465,17 @@
           "via": null,
           "localizacao": "p. 1088",
           "registro": "exu-056"
+        },
+        {
+          "valor": "na Casa das Minas, Legba não tem culto organizado, é identificado com Satanás e não faz o papel de mensageiro",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "exu-092"
         }
       ]
     },
@@ -563,6 +585,45 @@
           "via": null,
           "localizacao": "p. 226",
           "registro": "iemanja-014"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Dandalunda e Quissimbe (Angola); Kayala",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "queiroga-nascimento-2019-iemanja",
+          "via": null,
+          "localizacao": "PDF p. 8, nota 5",
+          "registro": "iemanja-042"
+        },
+        {
+          "valor": "Abé, vodum feminino e jovem da família de Quevioçô, ligado ao cometa e ao mar, corresponde a Iemanjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "iemanja-056"
+        },
+        {
+          "valor": "Abê e Naê correspondem a Iemanjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "iemanja-057"
         }
       ]
     },
@@ -684,6 +745,17 @@
           "via": null,
           "localizacao": "p. 261",
           "registro": "iemanja-055"
+        },
+        {
+          "valor": "8 de dezembro (Nossa Senhora da Conceição), com Abê e Naité; 2 de fevereiro (Candeias), presente de Abê",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 15–16",
+          "registro": "iemanja-059"
         }
       ]
     },
@@ -827,6 +899,17 @@
           "via": null,
           "localizacao": "PDF p. 8, nota 5",
           "registro": "iemanja-045"
+        },
+        {
+          "valor": "Nossa Senhora das Candeias (Iemanjá); Nossa Senhora da Conceição para o vodum Abê",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "iemanja-058"
         }
       ]
     },
@@ -955,6 +1038,35 @@
     },
     {
       "orixa": "ogum",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Gu (vodum dos jejes/fons), cultuado com os mesmos atributos",
+          "tradicoes": [
+            "candomble_jeje",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "pp. 24–25",
+          "registro": "ogum-046"
+        },
+        {
+          "valor": "Doçu e Bedigá (família de Davice) correspondem a Ogum; Doçupé, a Ogunjá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "ogum-062"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
       "atributo": "festas",
       "versoes": [
         {
@@ -990,6 +1102,17 @@
           "via": null,
           "localizacao": "p. 261",
           "registro": "ogum-060"
+        },
+        {
+          "valor": "23 de abril, dia de São Jorge",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 15",
+          "registro": "ogum-064"
         }
       ]
     },
@@ -1252,6 +1375,17 @@
           "via": null,
           "localizacao": "pp. 8–9",
           "registro": "ogum-035"
+        },
+        {
+          "valor": "São Jorge (Ogum); os voduns correspondentes Doçu e Bedigá, com os Santos Reis, e Doçupé, com Santo Antônio",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "ogum-063"
         }
       ]
     },
@@ -1370,6 +1504,35 @@
     },
     {
       "orixa": "oxossi",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "senhor dos caboclos (candomblé de caboclo)",
+          "tradicoes": [
+            "umbanda",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "oxossi-021"
+        },
+        {
+          "valor": "Agüê e Azacá (família de Savaluno) correspondem a Oxóssi",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "oxossi-033"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
       "atributo": "itans",
       "versoes": [
         {
@@ -1473,6 +1636,35 @@
           "via": null,
           "localizacao": "p. 165",
           "registro": "oxossi-028"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "São Sebastião",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "oxossi-015"
+        },
+        {
+          "valor": "Santa Helena (Odé e o vodum Agüê); São Sebastião para o vodum Azacá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "oxossi-034"
         }
       ]
     },
@@ -1642,6 +1834,28 @@
           "via": null,
           "localizacao": "p. 82",
           "registro": "xango-048"
+        },
+        {
+          "valor": "Badé (Nenem Quevioçô), vodum do corisco da família de Quevioçô, tido como o Xangô dos nagôs",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "xango-049"
+        },
+        {
+          "valor": "Badé e Boço Vondereji correspondem a Xangô; Averequete a Xangô Aganju; Xadantã a Xangô Airá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "xango-050"
         }
       ]
     },
@@ -1671,6 +1885,17 @@
           "via": null,
           "localizacao": "pp. 260–261",
           "registro": "xango-046"
+        },
+        {
+          "valor": "festas de Badé, vodum correspondente a Xangô: 28 a 30 de junho (São Pedro); Badé Zorogama em 29 de setembro (São Jerônimo)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 15–16",
+          "registro": "xango-052"
         }
       ]
     },
@@ -1882,6 +2107,17 @@
           "via": null,
           "localizacao": "p. 240",
           "registro": "xango-026"
+        },
+        {
+          "valor": "São Pedro (Xangô e Badé); para os outros voduns correspondentes, São Benedito (Averequete), Santo Antônio (Vondereji) e São José (Xadantã)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "xango-051"
         }
       ]
     }

@@ -182,11 +182,16 @@
       "grupo": "candomble",
       "nacao": "efon",
       "matriz": "iorubá",
-      "regiao": "Brasil",
-      "descricao": "Nação de Candomblé de matriz iorubá, ligada à região de Efon (Nigéria).",
-      "sources": [],
-      "nota": null,
-      "status": "rascunho_sem_fonte"
+      "regiao": "Brasil (Bahia; ver nota)",
+      "descricao": "Nação de Candomblé cujo nome remete a Efon, cidade do território ekiti, no leste da Iorubalândia, vizinha da região de Ijexá; por essa proximidade, tanto no Brasil quanto na África os religiosos tendem a aproximar a nação efon da ijexá. Castillo registra em Salvador um antigo terreiro de nação efon, chefiado pela africana liberta Maria Bernarda da Paixão, onde um pai de santo foi iniciado por volta de 1913. Em documentos do século XIX, efon aparece também como nação de africanos, um subgrupo iorubá.",
+      "sources": [
+        {
+          "id": "castillo-2022-ogum",
+          "loc": "p. 28 (nota 54); p. 23"
+        }
+      ],
+      "nota": "Descrição mínima, apoiada em uma nota de rodapé de Castillo. A autora remete a Lima 2014 (dissertação da PUC-SP sobre a nação efon em Duque de Caxias, RJ), ainda não lida; ver PENDENCIAS.md. Ritos, panteão e casas atuais ficam pendentes de fonte.",
+      "status": "com_fonte"
     },
     {
       "id": "xango_pernambuco",
@@ -211,14 +216,14 @@
         },
         {
           "id": "halloy-2005-intimite",
-          "loc": "pp. 29, 31, 86, 98, 120–121"
+          "loc": "pp. 28, 30, 85, 97, 119–120"
         },
         {
           "id": "pitta-2011-mitos",
           "loc": "p. 263"
         }
       ],
-      "nota": "Halloy (p. 85) resume a classificação de Roberto Motta para o Recife: jurema ou catimbó, xangô, umbanda e um xangô umbandizado intermediário, também chamado candomblé nação; Motta põe nesta última categoria um terreiro que outros autores contam como jeje (Halloy, p. 86, nota 148). O fundador da nação Xambá aparece em Halloy como Artur Rosendo (p. 86) e Arthur Roseno (p. 120).",
+      "nota": "Halloy (p. 84) resume a classificação de Roberto Motta para o Recife: jurema ou catimbó, xangô, umbanda e um xangô umbandizado intermediário, também chamado candomblé nação; Motta põe nesta última categoria um terreiro que outros autores contam como jeje (Halloy, p. 85, nota 148). O fundador da nação Xambá aparece em Halloy como Artur Rosendo (p. 85) e Arthur Roseno (p. 119).",
       "status": "com_fonte"
     },
     {
@@ -232,7 +237,7 @@
       "sources": [
         {
           "id": "halloy-2005-intimite",
-          "loc": "p. 31 (citando Bastide 1969, p. 267)"
+          "loc": "p. 30 (citando Bastide 1969, p. 267)"
         },
         {
           "id": "ferretti-m-2020-pureza",
@@ -294,7 +299,7 @@
         },
         {
           "id": "halloy-2005-intimite",
-          "loc": "p. 30 (citando Oro 1999)"
+          "loc": "p. 29 (citando Oro 1999)"
         }
       ],
       "nota": "Oro (2012, p. 557, nota 3) fala em doze orixás, mas a lista traz onze nomes, com Odé/Otim juntos. Oro (2008) dá o registro do Batuque desde o início do século XIX; Oro (2012, p. 559) diz primeira metade do século XIX.",
@@ -331,10 +336,10 @@
         },
         {
           "id": "halloy-2005-intimite",
-          "loc": "p. 30"
+          "loc": "p. 29"
         }
       ],
-      "nota": "Sobre sacrifício animal: Oro (2008, p. 12; 2012, p. 560) registra que ele não existe na Umbanda gaúcha; Prandi (2001, p. 52) fala de certa prática sacrificial remanescente na Umbanda. Sobre a data de origem: Prandi fala no primeiro quartel do século XX; Halloy (p. 30) situa o surgimento no Rio de Janeiro nos anos 1930. O glossário de Bastide (1961, p. 357) traz definições mais antigas do termo (religião banto; forma africana de espiritismo).",
+      "nota": "Sobre sacrifício animal: Oro (2008, p. 12; 2012, p. 560) registra que ele não existe na Umbanda gaúcha; Prandi (2001, p. 52) fala de certa prática sacrificial remanescente na Umbanda. Sobre a data de origem: Prandi fala no primeiro quartel do século XX; Halloy (p. 29) situa o surgimento no Rio de Janeiro nos anos 1930. O glossário de Bastide (1961, p. 357) traz definições mais antigas do termo (religião banto; forma africana de espiritismo).",
       "status": "com_fonte"
     },
     {

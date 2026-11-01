@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 55,
+    "total": 59,
     "por_status": {
-      "fichado": 51,
+      "fichado": 55,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1072,6 +1072,82 @@
       "status": "fichado",
       "evidencias": [
         "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "iemanja-056",
+      "orixa": "iemanja",
+      "atributo": "equivalencias",
+      "valor": "Abé, vodum feminino e jovem da família de Quevioçô, ligado ao cometa e ao mar, corresponde a Iemanjá",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1985-querebenta",
+      "via_source_id": "prandi-2005-pegadas-voduns",
+      "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+      "parafrase": "Prandi, resumindo S. Ferretti, descreve Abé como vodum dos astros da família de Quevioçô, jovem e feminino, associado ao cometa, imaginado como estrela que caiu no mar. É um dos poucos do grupo que falam, tem papel de toqüém e corresponde à Iemanjá dos nagôs.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-057",
+      "orixa": "iemanja",
+      "atributo": "equivalencias",
+      "valor": "Abê e Naê correspondem a Iemanjá",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+      "parafrase": "No quadro da casa paulista, os voduns Abê (família de Quevioçô) e Naê (família de Davice) aparecem com Iemanjá como orixá correspondente; no texto, Prandi dá Abê, Iemanjá e Nossa Senhora da Conceição como exemplo de correspondência que se estende ao santo católico.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-058",
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "valor": "Nossa Senhora das Candeias (Iemanjá); Nossa Senhora da Conceição para o vodum Abê",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+      "parafrase": "O quadro liga a orixá Iemanjá a Nossa Senhora das Candeias e o vodum Abê, que lhe corresponde, a Nossa Senhora da Conceição.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-059",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "8 de dezembro (Nossa Senhora da Conceição), com Abê e Naité; 2 de fevereiro (Candeias), presente de Abê",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 15–16",
+      "parafrase": "No calendário da casa paulista, 8 de dezembro, dia de Nossa Senhora da Conceição, reúne Abê, Naité e Iemanjá; em 2 de fevereiro, dia de Nossa Senhora das Candeias, há o presente de Abê, vodum que corresponde a Iemanjá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
       ]
     }
   ]
