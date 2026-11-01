@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "omolu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 27,
+    "total": 39,
     "por_status": {
-      "fichado": 27,
+      "fichado": 39,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -527,6 +527,246 @@
       "status": "fichado",
       "evidencias": [
         "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    },
+    {
+      "id": "omolu-028",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "peste, varíola, doenças de pele e doenças contagiosas; só os males \"visíveis\"",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 270–272",
+      "parafrase": "Omulu é o orixá da peste, da varíola, das doenças de pele e das contagiosas. A autora explica que, na percepção corrente no Brasil, ele cuida apenas dos males que se veem e não dos de origem psíquica, e aproxima isso da distinção que a língua iorubá faz entre dores de partes visíveis e internas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-029",
+      "orixa": "omolu",
+      "atributo": "iconografia",
+      "valor": "coberto de palha que esconde rosto e corpo marcados; velho e mancando; dança com o xaxará",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "Omulu é representado coberto de palha para ocultar o rosto e o corpo marcados pela doença, em geral velho e mancando. Dança com o xaxará, uma espécie de vassoura com que leva os humanos como folhas secas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-030",
+      "orixa": "omolu",
+      "atributo": "sincretismo",
+      "valor": "São Lázaro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "Omulu é associado a São Lázaro, que também tem o corpo coberto de feridas e enfrentou a morte.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-031",
+      "orixa": "omolu",
+      "atributo": "cores",
+      "valor": "preto e branco",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "As cores de Omulu são o preto e o branco.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-032",
+      "orixa": "omolu",
+      "atributo": "festas",
+      "valor": "16 de agosto",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "Omulu é festejado em 16 de agosto.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-033",
+      "orixa": "omolu",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "O dia semanal de Omulu é a segunda-feira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-034",
+      "orixa": "omolu",
+      "atributo": "animais",
+      "valor": "bode, galo ou porco",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "Oferece-se a Omulu um bode, um galo ou um porco.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-035",
+      "orixa": "omolu",
+      "atributo": "simbolos",
+      "valor": "matéria: palha",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "A matéria de Omulu é a palha, com que ele se cobre.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-036",
+      "orixa": "omolu",
+      "atributo": "itans",
+      "valor": "o filho expulso que volta coberto de chagas e cura a aldeia com plantas",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "Suspeito de feitiçaria, ele foi expulso de casa pelo pai e passou anos vagando e sofrendo, dado como morto. Volta com o corpo cheio de feridas e cicatrizes, mas vivo, e encontra a aldeia devastada por uma epidemia; com o que sabe das plantas medicinais, cura os moradores e depois é divinizado. A autora o compara ao filho pródigo.",
+      "nota": "A autora diz que Mestre Didi (Deoscóredes M. dos Santos) dá versão parecida em Contos negros da Bahia (1987), obra fora do catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-037",
+      "orixa": "omolu",
+      "atributo": "parentesco",
+      "valor": "Nanã Buruku é sua mulher ou seu aspecto feminino; para outros, a mulher é Obá",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "Conforme o caso, Nanã Buruku aparece como mulher de Omulu ou como o seu lado feminino; em outras versões, ele é casado com Obá, a esposa repudiada por Xangô.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-038",
+      "orixa": "omolu",
+      "atributo": "funcoes",
+      "valor": "fica à porta dos cemitérios; a partir do que morre, libera os elementos vivos que formarão outros corpos",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 271",
+      "parafrase": "Diz-se que Omulu está na entrada dos cemitérios e permite a renovação a partir do que morreu: seu poder começa com a morte do organismo e consiste em soltar o que ainda vive para formar novos corpos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-039",
+      "orixa": "omolu",
+      "atributo": "nomes",
+      "valor": "na África, Sanponan ou Sakpata, nome que raramente se pronuncia por medo da doença",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "\"na África\", sem região precisa",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 271",
+      "parafrase": "A autora acrescenta que, na África, ele pode ser chamado Sanponan ou Sakpata, mas que quase não se diz o nome, por receio de que ele se manifeste na pessoa como doença.",
+      "nota": "A fonte não especifica povo nem região; a tradição do registro fica a do campo da autora.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

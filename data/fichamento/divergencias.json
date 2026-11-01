@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 113
+    "total": 121
   },
   "divergencias": [
     {
@@ -648,6 +648,35 @@
     },
     {
       "orixa": "iansa",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "vermelho",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 191, 198",
+          "registro": "iansa-007"
+        },
+        {
+          "valor": "rosa; em alguns terreiros, coral ou salmão",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 251",
+          "registro": "iansa-026"
+        }
+      ]
+    },
+    {
+      "orixa": "iansa",
       "atributo": "dia_semana",
       "versoes": [
         {
@@ -754,6 +783,35 @@
     },
     {
       "orixa": "iansa",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "Iansã agita as saias e o vento espalha as folhas que só Ossaim possuía, repartindo-as entre os orixás",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (versão de L. Cabrera citada por Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 190 e nota 97",
+          "registro": "iansa-021"
+        },
+        {
+          "valor": "Oyá, estéril, consulta um babalaô, cumpre o que ele prescreve e tem nove filhos",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Mãe Bia (campo da autora)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 251",
+          "registro": "iansa-024"
+        }
+      ]
+    },
+    {
+      "orixa": "iansa",
       "atributo": "parentesco",
       "versoes": [
         {
@@ -777,6 +835,48 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 295",
           "registro": "iansa-010"
+        },
+        {
+          "valor": "a outra mulher de Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 251",
+          "registro": "iansa-029"
+        }
+      ]
+    },
+    {
+      "orixa": "iansa",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "plantas: bradamundo e betis-cheiroso (com Xangô); folha-de-fogo ou 'folha de Iansã'; dormideira vermelha e erva-santa (Recife)",
+          "tradicoes": [
+            "candomble_ketu",
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Bahia; dormideira e erva-santa no Recife",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 163–165, 191",
+          "registro": "iansa-008"
+        },
+        {
+          "valor": "capacete e armas",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 251",
+          "registro": "iansa-027"
         }
       ]
     },
@@ -806,6 +906,18 @@
           "via": null,
           "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
           "registro": "iansa-014"
+        },
+        {
+          "valor": "Santa Bárbara e até Joana d’Arc",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 251",
+          "registro": "iansa-025"
         }
       ]
     },
@@ -1808,6 +1920,35 @@
     },
     {
       "orixa": "nana",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "violeta (prato da comunhão)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 32",
+          "registro": "nana-014"
+        },
+        {
+          "valor": "violeta",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 277",
+          "registro": "nana-027"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
       "atributo": "dia_semana",
       "versoes": [
         {
@@ -1956,6 +2097,18 @@
           "via": "bastide-1958-candomble",
           "localizacao": "Bastide, ed. pt 1961, p. 164, nota 52 (Ribeiro, p. 47)",
           "registro": "nana-012"
+        },
+        {
+          "valor": "mãe de Omulu, em muitas versões; representada velha, embalando o filho",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 277",
+          "registro": "nana-024"
         }
       ]
     },
@@ -2907,6 +3060,18 @@
           "via": "bastide-1958-candomble",
           "localizacao": "ed. pt 1961, pp. 189–190",
           "registro": "olodumare-018"
+        },
+        {
+          "valor": "Olorun: ser supremo, não é orixá; não recebe culto direto e não desce, delegou seus poderes aos orixás",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 225",
+          "registro": "olodumare-019"
         }
       ]
     },
@@ -3002,6 +3167,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 119, nota 79",
           "registro": "omolu-004"
+        },
+        {
+          "valor": "segunda-feira",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 270",
+          "registro": "omolu-033"
         }
       ]
     },
@@ -3093,6 +3270,18 @@
           "via": null,
           "localizacao": "versão do autor, p. 15",
           "registro": "omolu-023"
+        },
+        {
+          "valor": "16 de agosto",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 270",
+          "registro": "omolu-032"
         }
       ]
     },
@@ -3121,6 +3310,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 295",
           "registro": "omolu-019"
+        },
+        {
+          "valor": "Nanã Buruku é sua mulher ou seu aspecto feminino; para outros, a mulher é Obá",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 270",
+          "registro": "omolu-037"
         }
       ]
     },
@@ -3172,6 +3373,48 @@
           "via": null,
           "localizacao": "p. 257",
           "registro": "omolu-015"
+        },
+        {
+          "valor": "matéria: palha",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 270",
+          "registro": "omolu-035"
+        }
+      ]
+    },
+    {
+      "orixa": "omolu",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "São Sebastião (20 de janeiro)",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 104–105 e nota 54",
+          "registro": "omolu-020"
+        },
+        {
+          "valor": "São Lázaro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 270",
+          "registro": "omolu-030"
         }
       ]
     },
@@ -3542,6 +3785,35 @@
     },
     {
       "orixa": "oxala",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "branco (contas do colar, prato, roupas e giz)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 32, 49, 198–199",
+          "registro": "oxala-013"
+        },
+        {
+          "valor": "branco (roupas dele e dos fiéis; pele frequentemente clara nas representações)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 227",
+          "registro": "oxala-045"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
       "atributo": "dia_semana",
       "versoes": [
         {
@@ -3576,6 +3848,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 119, nota 79; p. 124",
           "registro": "oxala-016"
+        },
+        {
+          "valor": "domingo para alguns terreiros; sexta-feira para muitos",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 227",
+          "registro": "oxala-047"
         }
       ]
     },
@@ -3746,6 +4030,42 @@
           "via": null,
           "localizacao": "ed. pt 1961, pp. 48–49 e nota 47",
           "registro": "oxala-031"
+        },
+        {
+          "valor": "Olorun dá vida à argila e entrega ao filho Oxalá os elementos da natureza, que ele reparte entre os orixás",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "pp. 225–226",
+          "registro": "oxala-040"
+        },
+        {
+          "valor": "Oxalá na terra é esmagado por uma pedra lançada pelo escravo Atowoda; Orumilá espalha os pedaços em Iranje e deles nascem as divindades",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 227",
+          "registro": "oxala-042"
+        },
+        {
+          "valor": "Oxalá se embriaga com vinho de palma na terra e não cumpre a tarefa; daí o \"pecado original\"",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 228",
+          "registro": "oxala-050"
         }
       ]
     },
@@ -3824,6 +4144,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 297",
           "registro": "oxala-023"
+        },
+        {
+          "valor": "dois aspectos de um só Oxalá: Oxalufã, dito o jovem, e Oxaguiã, dito o velho; a diferença aparece sobretudo na dança do transe",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 228",
+          "registro": "oxala-051"
         }
       ]
     },
@@ -3865,6 +4197,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, pp. 161, 163, 166, 190–192",
           "registro": "oxala-032"
+        },
+        {
+          "valor": "metal: alumínio; emblema encimado por uma pomba; flor de algodão",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "pp. 227, 233",
+          "registro": "oxala-046"
         }
       ]
     },
@@ -3917,6 +4261,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 104",
           "registro": "oxala-020"
+        },
+        {
+          "valor": "Jesus Cristo; conforme o lugar, Nosso Senhor do Bonfim; no sincretismo vem logo abaixo de Deus Pai",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 227",
+          "registro": "oxala-043"
         }
       ]
     },
@@ -4201,6 +4557,35 @@
     },
     {
       "orixa": "oxum",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "contas amarelas (colar); cor de ouro",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 32, 199",
+          "registro": "oxum-006"
+        },
+        {
+          "valor": "amarelo",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 247",
+          "registro": "oxum-035"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
       "atributo": "dia_semana",
       "versoes": [
         {
@@ -4235,6 +4620,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 119, nota 79",
           "registro": "oxum-003"
+        },
+        {
+          "valor": "sábado",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 247",
+          "registro": "oxum-038"
         }
       ]
     },
@@ -4303,6 +4700,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 105, nota 54",
           "registro": "oxum-015"
+        },
+        {
+          "valor": "30 de novembro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 247",
+          "registro": "oxum-037"
         }
       ]
     },
@@ -4353,6 +4762,18 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 200, nota 104",
           "registro": "oxum-029"
+        },
+        {
+          "valor": "Oxum Ioni: rainha invadida que foge de jangada e vence os invasores com abarás cheios de força divina",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 246",
+          "registro": "oxum-033"
         }
       ]
     },
@@ -4381,6 +4802,59 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 295",
           "registro": "oxum-025"
+        },
+        {
+          "valor": "uma das mulheres de Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "pp. 246–247",
+          "registro": "oxum-039"
+        },
+        {
+          "valor": "filha de Ifá em alguns casos, esposa em outros",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 286",
+          "registro": "oxum-041"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "qualidades",
+      "versoes": [
+        {
+          "valor": "dezesseis Oxuns, entre elas Pandá (a mais jovem), Yabá Omi, Abaé, Abote (ligada ao odu Ose), Apará (das estradas, com Ogum), Ioni, Abalo (a vaidosa do leque), Timi, Aquidã, Nínsin e Lobá (a mais velha)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 200, 205–206",
+          "registro": "oxum-022"
+        },
+        {
+          "valor": "em geral dezesseis Oxuns: Panda (a mais jovem), Yoba ou Yaba Omi (a mais velha), Abae, Aboto, Apara, Ioni e outras",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 246",
+          "registro": "oxum-032"
         }
       ]
     },
@@ -4432,6 +4906,18 @@
           "via": null,
           "localizacao": "p. 10",
           "registro": "oxum-010"
+        },
+        {
+          "valor": "metal: ouro ou latão",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 247",
+          "registro": "oxum-036"
         }
       ]
     },
@@ -4472,6 +4958,18 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "oxum-018"
+        },
+        {
+          "valor": "Santa Catarina ou Nossa Senhora do Carmo",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 246",
+          "registro": "oxum-034"
         }
       ]
     },
@@ -5017,6 +5515,18 @@
           "via": null,
           "localizacao": "pp. 264–265",
           "registro": "xango-043"
+        },
+        {
+          "valor": "Ogum, por ciúme, joga Oxum no rio; Xangô a salva; Ogum a recupera distraindo Xangô com um cesto de quiabos",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 242",
+          "registro": "xango-053"
         }
       ]
     },

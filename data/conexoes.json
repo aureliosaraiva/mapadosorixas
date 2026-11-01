@@ -2,14 +2,14 @@
   "_meta": {
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
-    "total_nos": 111,
-    "total_arestas": 139,
+    "total_nos": 116,
+    "total_arestas": 147,
     "por_tipo": {
       "associacao": 3,
       "companheiro_de_culto": 3,
       "equivalencia": 60,
-      "parentesco": 33,
-      "sincretismo": 40
+      "parentesco": 36,
+      "sincretismo": 45
     }
   },
   "nos": [
@@ -51,6 +51,11 @@
     {
       "id": "figura:jesus-cristo",
       "rotulo": "Jesus Cristo",
+      "tipo": "figura_crista"
+    },
+    {
+      "id": "figura:joana-darc",
+      "rotulo": "Joana d’Arc",
       "tipo": "figura_crista"
     },
     {
@@ -219,6 +224,11 @@
       "tipo": "orixa"
     },
     {
+      "id": "orunmila",
+      "rotulo": "Orunmilá / Ifá",
+      "tipo": "orixa"
+    },
+    {
       "id": "ossaim",
       "rotulo": "Ossaim",
       "tipo": "orixa"
@@ -309,6 +319,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:santa-catarina",
+      "rotulo": "Santa Catarina",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:santa-helena",
       "rotulo": "Santa Helena",
       "tipo": "santo_catolico"
@@ -374,6 +389,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:sao-lazaro",
+      "rotulo": "São Lázaro",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:sao-paulo",
       "rotulo": "São Paulo",
       "tipo": "santo_catolico"
@@ -386,6 +406,11 @@
     {
       "id": "santo:sao-sebastiao",
       "rotulo": "São Sebastião",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:senhor-do-bonfim",
+      "rotulo": "Nosso Senhor do Bonfim",
       "tipo": "santo_catolico"
     },
     {
@@ -2970,6 +2995,28 @@
           "nota": "Ver xango-014.",
           "registro": "iansa-009",
           "status": "fichado"
+        },
+        {
+          "valor": "a outra mulher de Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 251",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 251",
+          "parafrase": "Iansã é a outra esposa de Xangô (a autora já a apontara como esposa legítima, p. 247).",
+          "nota": null,
+          "registro": "iansa-029",
+          "status": "fichado"
         }
       ]
     },
@@ -3043,6 +3090,38 @@
           "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
           "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
           "registro": "oxala-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:nana>omolu",
+      "origem": "nana",
+      "destino": "omolu",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Nanã Buruku é sua mulher ou seu aspecto feminino; para outros, a mulher é Obá",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 270",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 270",
+          "parafrase": "Conforme o caso, Nanã Buruku aparece como mulher de Omulu ou como o seu lado feminino; em outras versões, ele é casado com Obá, a esposa repudiada por Xangô.",
+          "nota": null,
+          "registro": "omolu-037",
           "status": "fichado"
         }
       ]
@@ -3126,6 +3205,28 @@
           "parafrase": "Entre as versões divergentes sobre os casamentos dos orixás, alguns fazem de Omolu o esposo de Obá; Xangô, que teria tomado as mulheres dos outros, precisou enfrentar Omolu, Ogum e Oxóssi.",
           "nota": null,
           "registro": "omolu-019",
+          "status": "fichado"
+        },
+        {
+          "valor": "Nanã Buruku é sua mulher ou seu aspecto feminino; para outros, a mulher é Obá",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 270",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 270",
+          "parafrase": "Conforme o caso, Nanã Buruku aparece como mulher de Omulu ou como o seu lado feminino; em outras versões, ele é casado com Obá, a esposa repudiada por Xangô.",
+          "nota": null,
+          "registro": "omolu-037",
           "status": "fichado"
         },
         {
@@ -3395,6 +3496,38 @@
       ]
     },
     {
+      "id": "parentesco:conjuge_de:orunmila>oxum",
+      "origem": "orunmila",
+      "destino": "oxum",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "filha de Ifá em alguns casos, esposa em outros",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 286",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 286",
+          "parafrase": "Como a ajudante do babalaô na adivinhação (apetebi) é sempre filha de Oxum, costuma-se supor um laço entre Oxum e Ifá: em umas versões ela é filha dele, em outras, esposa.",
+          "nota": null,
+          "registro": "oxum-041",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "parentesco:conjuge_de:oxossi>oxum",
       "origem": "oxossi",
       "destino": "oxum",
@@ -3516,6 +3649,28 @@
           "parafrase": "Nos mitos que Bastide reúne, Oxum é uma das três mulheres de Xangô, a favorita, mas abaixo de Iansã na ordem das esposas; um mito a apresenta antes casada com Ogum, quando Xangô se apaixona por ela.",
           "nota": "Ver xango-014.",
           "registro": "oxum-024",
+          "status": "fichado"
+        },
+        {
+          "valor": "uma das mulheres de Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "pp. 246–247",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "pp. 246–247",
+          "parafrase": "Oxum é uma das esposas de Xangô, com quem vive uma paixão violenta, embora Iansã seja tida como a esposa legítima.",
+          "nota": null,
+          "registro": "oxum-039",
           "status": "fichado"
         }
       ]
@@ -4105,6 +4260,28 @@
           "status": "fichado"
         },
         {
+          "valor": "mãe de Omulu, em muitas versões; representada velha, embalando o filho",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 277",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 277",
+          "parafrase": "Atribui-se com frequência a Nanã a maternidade de Omulu; nesse caso ela é mostrada já velha, com o filho nos braços.",
+          "nota": null,
+          "registro": "nana-024",
+          "status": "fichado"
+        },
+        {
           "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
           "tradicoes": [
             "candomble_ketu"
@@ -4206,6 +4383,38 @@
           "parafrase": "Segundo o resumo de Pitta para os xangôs do Recife e de Olinda, Iemanjá governa o mar e é a mãe dos orixás em geral; Oxum, dona dos rios, é apontada como filha dela.",
           "nota": null,
           "registro": "iemanja-051",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:oxum>orunmila",
+      "origem": "oxum",
+      "destino": "orunmila",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filha de Ifá em alguns casos, esposa em outros",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 286",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 286",
+          "parafrase": "Como a ajudante do babalaô na adivinhação (apetebi) é sempre filha de Oxum, costuma-se supor um laço entre Oxum e Ifá: em umas versões ela é filha dele, em outras, esposa.",
+          "nota": null,
+          "registro": "oxum-041",
           "status": "fichado"
         }
       ]
@@ -5089,6 +5298,38 @@
       ]
     },
     {
+      "id": "sincretismo:iansa>figura:joana-darc",
+      "origem": "iansa",
+      "destino": "figura:joana-darc",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santa Bárbara e até Joana d’Arc",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 251",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 251",
+          "parafrase": "Guerreira e amazona, Iansã é associada a Santa Bárbara e, às vezes, a Joana d’Arc. Em nota, a autora lembra que Santa Bárbara era antes ligada a Xangô, dono do raio.",
+          "nota": null,
+          "registro": "iansa-025",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:iansa>santo:santa-barbara",
       "origem": "iansa",
       "destino": "santo:santa-barbara",
@@ -5137,6 +5378,28 @@
           "parafrase": "Para mostrar que a ligação entre vodum e orixá se estende aos santos, Prandi cita Sobô e Oiá-Iansã, ambas associadas a Santa Bárbara; no quadro, a orixá Oiá tem a mesma santa.",
           "nota": null,
           "registro": "iansa-014",
+          "status": "fichado"
+        },
+        {
+          "valor": "Santa Bárbara e até Joana d’Arc",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 251",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 251",
+          "parafrase": "Guerreira e amazona, Iansã é associada a Santa Bárbara e, às vezes, a Joana d’Arc. Em nota, a autora lembra que Santa Bárbara era antes ligada a Xangô, dono do raio.",
+          "nota": null,
+          "registro": "iansa-025",
           "status": "fichado"
         }
       ]
@@ -5796,6 +6059,38 @@
       ]
     },
     {
+      "id": "sincretismo:omolu>santo:sao-lazaro",
+      "origem": "omolu",
+      "destino": "santo:sao-lazaro",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Lázaro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 270",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 270",
+          "parafrase": "Omulu é associado a São Lázaro, que também tem o corpo coberto de feridas e enfrentou a morte.",
+          "nota": null,
+          "registro": "omolu-030",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:omolu>santo:sao-sebastiao",
       "origem": "omolu",
       "destino": "santo:sao-sebastiao",
@@ -5876,6 +6171,28 @@
           "parafrase": "Prandi descreve o sincretismo como encaixe num modelo de bem e mal: Oxalá recebeu o papel de Jesus Cristo e Olorum o de Deus Pai, enquanto os outros orixás viraram santos; no fim do artigo menciona a dessincretização que procura desfazer essas identificações.",
           "nota": "Prandi trata do sincretismo em geral nas religiões afro-brasileiras; a tradição umbanda entra pela discussão do artigo sobre a umbanda.",
           "registro": "oxala-018",
+          "status": "fichado"
+        },
+        {
+          "valor": "Jesus Cristo; conforme o lugar, Nosso Senhor do Bonfim; no sincretismo vem logo abaixo de Deus Pai",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 227",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 227",
+          "parafrase": "No sincretismo afro-católico descrito pela autora, Oxalá ocupa o lugar imediatamente abaixo de Deus Pai, é associado a Jesus Cristo e, dependendo da região, ao Senhor do Bonfim.",
+          "nota": null,
+          "registro": "oxala-043",
           "status": "fichado"
         }
       ]
@@ -5976,6 +6293,38 @@
       ]
     },
     {
+      "id": "sincretismo:oxala>santo:senhor-do-bonfim",
+      "origem": "oxala",
+      "destino": "santo:senhor-do-bonfim",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Jesus Cristo; conforme o lugar, Nosso Senhor do Bonfim; no sincretismo vem logo abaixo de Deus Pai",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 227",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 227",
+          "parafrase": "No sincretismo afro-católico descrito pela autora, Oxalá ocupa o lugar imediatamente abaixo de Deus Pai, é associado a Jesus Cristo e, dependendo da região, ao Senhor do Bonfim.",
+          "nota": null,
+          "registro": "oxala-043",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:oxossi>santo:santa-helena",
       "origem": "oxossi",
       "destino": "santo:santa-helena",
@@ -6065,6 +6414,38 @@
           "parafrase": "No calendário do Centro Africano S. Jorge, que Bastide transcreve, o dia 22 de abril junta Oxum e Maria Madalena.",
           "nota": "Bastide cita P. Cavalcanti, 'As seitas africanas no Recife'. O Centro é do Recife, não da Bahia (cf. iemanja-013, ogum-014).",
           "registro": "oxum-016",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxum>santo:ns-carmo",
+      "origem": "oxum",
+      "destino": "santo:ns-carmo",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santa Catarina ou Nossa Senhora do Carmo",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 246",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 246",
+          "parafrase": "A autora associa Oxum a Santa Catarina ou a Nossa Senhora do Carmo.",
+          "nota": null,
+          "registro": "oxum-034",
           "status": "fichado"
         }
       ]
@@ -6160,6 +6541,38 @@
           "parafrase": "Na tabela do calendário católico africanizado, a Purificação traz a festa de Oxum e Iemanjá, e o dia da Imaculada Conceição a de Oxum ou de Iemanjá; Bastide diz que a tabela se aplica mais a Pernambuco e aos candomblés bantos baianos.",
           "nota": "Correspondência pela data da festa. A fonte não nomeia a invocação de Nossa Senhora da Purificação.",
           "registro": "oxum-017",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxum>santo:santa-catarina",
+      "origem": "oxum",
+      "destino": "santo:santa-catarina",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santa Catarina ou Nossa Senhora do Carmo",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 246",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 246",
+          "parafrase": "A autora associa Oxum a Santa Catarina ou a Nossa Senhora do Carmo.",
+          "nota": null,
+          "registro": "oxum-034",
           "status": "fichado"
         }
       ]

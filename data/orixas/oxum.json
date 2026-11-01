@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 30,
+    "registros_usados": 41,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -30,6 +30,28 @@
         "parafrase": "Para Bastide, Oxum rege o amor voluptuoso e é procurada por mulheres que não conseguem ter filhos, embora ele não tenha encontrado sinal de que atue no parto propriamente dito. No quadro de correspondências seu aspecto social é o amor; na classificação dos perfumes, é a divindade da sensualidade, e, como Iemanjá, gosta de presentes de vaidade.",
         "nota": "Na p. 53 Bastide levanta, como simples hipótese, uma ligação de Oxum com a iniciação; não registrada (fundamento).",
         "registro": "oxum-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "águas doces (rios, cachoeiras, fontes); amor carnal e a esposa, diante da mãe Iemanjá; abundância, colheitas, fertilidade e males da mulher",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "pp. 246–247",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "pp. 246–247",
+        "parafrase": "Oxum é deusa das águas doces. Se Iemanjá representa a mãe, Oxum representa a esposa e o amor carnal. É invocada pela fartura das colheitas e contra a esterilidade, e a maioria dos chefes de culto a vê como especialista dos problemas femininos e do baixo-ventre.",
+        "nota": null,
+        "registro": "oxum-031",
         "status": "fichado"
       }
     ],
@@ -100,6 +122,28 @@
         "nota": null,
         "registro": "oxum-006",
         "status": "fichado"
+      },
+      {
+        "valor": "amarelo",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 247",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 247",
+        "parafrase": "A cor de Oxum é o amarelo.",
+        "nota": null,
+        "registro": "oxum-035",
+        "status": "fichado"
       }
     ],
     "dia_semana": [
@@ -164,6 +208,28 @@
         "parafrase": "Na semana de Porto Alegre comparada por Bastide, o sábado fica com Oxum, sem Iemanjá, que divide a sexta com Odé.",
         "nota": null,
         "registro": "oxum-003",
+        "status": "fichado"
+      },
+      {
+        "valor": "sábado",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 247",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 247",
+        "parafrase": "Oxum é cultuada aos sábados.",
+        "nota": null,
+        "registro": "oxum-038",
         "status": "fichado"
       }
     ],
@@ -252,6 +318,28 @@
         "nota": null,
         "registro": "oxum-010",
         "status": "fichado"
+      },
+      {
+        "valor": "metal: ouro ou latão",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 247",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 247",
+        "parafrase": "A matéria de Oxum é o ouro ou o latão.",
+        "nota": null,
+        "registro": "oxum-036",
+        "status": "fichado"
       }
     ],
     "qualidades": [
@@ -274,6 +362,28 @@
         "parafrase": "Bastide relata que lhe falaram em dezesseis Oxuns e lista nomes obtidos de vários informantes, do mais novo ao mais velho, com traços de algumas delas, como a que acompanha Ogum pelas estradas e duela com ele, ou a vaidosa que brinca com o leque.",
         "nota": "Na p. 142 Bastide dá Yabá Omi como a Oxum mais idosa; na lista da p. 205 a mais velha é Lobá. Registrado como está.",
         "registro": "oxum-022",
+        "status": "fichado"
+      },
+      {
+        "valor": "em geral dezesseis Oxuns: Panda (a mais jovem), Yoba ou Yaba Omi (a mais velha), Abae, Aboto, Apara, Ioni e outras",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 246",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 246",
+        "parafrase": "Conta-se habitualmente dezesseis Oxuns, cada uma ligada a um mito próprio, que a autora não conseguiu reunir todos. Em nota, ela arrisca leituras iorubás de Yaba Omi ligadas à água e à mãe.",
+        "nota": null,
+        "registro": "oxum-032",
         "status": "fichado"
       }
     ],
@@ -318,6 +428,50 @@
         "parafrase": "Bastide anota que os sacerdotes não concordam sobre os casamentos dos orixás: alguns casam Oxóssi com Oxum, outros consideram Oxóssi solteiro.",
         "nota": null,
         "registro": "oxum-025",
+        "status": "fichado"
+      },
+      {
+        "valor": "uma das mulheres de Xangô",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "pp. 246–247",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "pp. 246–247",
+        "parafrase": "Oxum é uma das esposas de Xangô, com quem vive uma paixão violenta, embora Iansã seja tida como a esposa legítima.",
+        "nota": null,
+        "registro": "oxum-039",
+        "status": "fichado"
+      },
+      {
+        "valor": "filha de Ifá em alguns casos, esposa em outros",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 286",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 286",
+        "parafrase": "Como a ajudante do babalaô na adivinhação (apetebi) é sempre filha de Oxum, costuma-se supor um laço entre Oxum e Ifá: em umas versões ela é filha dele, em outras, esposa.",
+        "nota": null,
+        "registro": "oxum-041",
         "status": "fichado"
       }
     ],
@@ -451,6 +605,28 @@
         "nota": null,
         "registro": "oxum-018",
         "status": "fichado"
+      },
+      {
+        "valor": "Santa Catarina ou Nossa Senhora do Carmo",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 246",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 246",
+        "parafrase": "A autora associa Oxum a Santa Catarina ou a Nossa Senhora do Carmo.",
+        "nota": null,
+        "registro": "oxum-034",
+        "status": "fichado"
       }
     ],
     "itans": [
@@ -537,6 +713,28 @@
         "nota": "Bastide também cita a disputa entre Oxum e Iansã pelo marido comum (p. 115) e um mito em que a união de Oxum e Xangô gera a chuva (p. 240).",
         "registro": "oxum-029",
         "status": "fichado"
+      },
+      {
+        "valor": "Oxum Ioni: rainha invadida que foge de jangada e vence os invasores com abarás cheios de força divina",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 246",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 246",
+        "parafrase": "Uma Oxum reinava numa terra rica, invadida pelos Ionis. Para não ser presa, fugiu de noite numa jangada e rezou; inspirada, mandou os súditos deixarem abarás na praia. Os invasores, famintos, comeram e caíram mortos, não por veneno, mas pela força divina. Ela retomou o reino, passou a se chamar Oxum Ioni e foi divinizada.",
+        "nota": null,
+        "registro": "oxum-033",
+        "status": "fichado"
       }
     ],
     "festas": [
@@ -580,6 +778,28 @@
         "parafrase": "No calendário de um centro africano do Recife transcrito por Bastide, Oxum tem duas datas: o seu nascimento, em 22 de março, e a sua festa, em 8 de dezembro.",
         "nota": null,
         "registro": "oxum-015",
+        "status": "fichado"
+      },
+      {
+        "valor": "30 de novembro",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 247",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 247",
+        "parafrase": "O dia dedicado a Oxum é 30 de novembro.",
+        "nota": null,
+        "registro": "oxum-037",
         "status": "fichado"
       }
     ],
@@ -672,6 +892,28 @@
         "parafrase": "Prandi retoma Monique Augras para dizer que, no encaixe cristão, muitas características das Grandes Mães africanas, entre elas Iemanjá e Oxum, foram suavizadas ou apagadas e migraram para a figura de Pombagira.",
         "nota": null,
         "registro": "oxum-012",
+        "status": "fichado"
+      },
+      {
+        "valor": "bela, vaidosa e astuta; a astúcia é lendária",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 247",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 247",
+        "parafrase": "Oxum é descrita como bonita, vaidosa e cheia de artimanhas, e o truque que pregou em Obá é contado com frequência.",
+        "nota": null,
+        "registro": "oxum-040",
         "status": "fichado"
       }
     ]

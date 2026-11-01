@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iemanja.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 56,
+    "registros_usados": 58,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -186,6 +186,28 @@
         "parafrase": "Como mãe, Iemanjá é conhecida como orixá do bom conselho e chamada de mãe curandeira; atribuem-lhe cuidado com o aparelho respiratório.",
         "nota": null,
         "registro": "iemanja-022",
+        "status": "fichado"
+      },
+      {
+        "valor": "aparelho respiratório (asma, pulmões, brônquios)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 238",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 238",
+        "parafrase": "No campo da saúde, além do papel de conselheira e curandeira, atribui-se a Iemanjá o cuidado do aparelho respiratório e dos asmáticos.",
+        "nota": null,
+        "registro": "iemanja-061",
         "status": "fichado"
       }
     ],
@@ -1215,6 +1237,28 @@
         "parafrase": "Burton descreveu uma imagem de Iemanjá com pele amarelada, cabelos azuis, colar de contas brancas e roupa listrada — detalhes que talvez aludam à água.",
         "nota": "Cadeia: Burton → Verger → Seixas. Conferir em Verger.",
         "registro": "iemanja-037",
+        "status": "fichado"
+      },
+      {
+        "valor": "no transe, os movimentos imitam as ondas",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 237",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 237",
+        "parafrase": "Segundo a autora, quem está em transe de Iemanjá reproduz na dança o ondular das ondas.",
+        "nota": null,
+        "registro": "iemanja-062",
         "status": "fichado"
       }
     ],

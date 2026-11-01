@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxala",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 39,
+    "total": 54,
     "por_status": {
-      "fichado": 39,
+      "fichado": 54,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -758,6 +758,306 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxala-040",
+      "orixa": "oxala",
+      "atributo": "itans",
+      "valor": "Olorun dá vida à argila e entrega ao filho Oxalá os elementos da natureza, que ele reparte entre os orixás",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 225–226",
+      "parafrase": "Num tempo em que céu e terra formavam um só território com uma única porta, guardada por Olorun, ele soprou sobre o barro e lhe deu vida; há quem diga que Exu foi o primeiro ser vivo, o que muitos terreiros contestam. Olorun chamou o filho, Oxalá, e lhe passou os elementos para distribuir: Xangô recebeu trovão, fogo e raio; Iemanjá, o mar; Oxum, os rios e cachoeiras; Nanã, as chuvas; Ogum, o ferro; Omulu, as doenças e a varíola; Ifá, o colar de adivinhar; Ossãe, as sementes. Oxalá ficou com a coordenação do conjunto. A autora diz que todos os cultos que estudou conhecem a história.",
+      "nota": "A autora acrescenta que depois disso Iansã passou a ter as tempestades e os mortos, e Oxóssi as florestas, e que Ossãe e Omulu deixaram de ter o monopólio de plantas e doenças.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-041",
+      "orixa": "oxala",
+      "atributo": "nomes",
+      "valor": "Oxalá (forma mais usada no Brasil), Obatalá ou Orixalá; Orixalá corresponde ao iorubá òrìsà n'lá, \"o grande orixá\"",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 227",
+      "parafrase": "A autora registra os três nomes. Para Orixalá a leitura iorubá é direta (o orixá grande, importante); para Obatalá ela não acha etimologia segura e descarta ligar a primeira sílaba a oba, \"rei\", por diferença de tom.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-042",
+      "orixa": "oxala",
+      "atributo": "itans",
+      "valor": "Oxalá na terra é esmagado por uma pedra lançada pelo escravo Atowoda; Orumilá espalha os pedaços em Iranje e deles nascem as divindades",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 227",
+      "parafrase": "Diz-se que Oxalá já viveu na terra e deu um pedaço de chão a um escravo, Atowoda. Este resolveu matá-lo e fez rolar sobre ele uma pedra enorme. Orumilá (Ifá), amigo de Oxalá, juntou os fragmentos numa cabaça e os levou a Iranje, onde os espalhou; desses pedaços teriam surgido as divindades.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-043",
+      "orixa": "oxala",
+      "atributo": "sincretismo",
+      "valor": "Jesus Cristo; conforme o lugar, Nosso Senhor do Bonfim; no sincretismo vem logo abaixo de Deus Pai",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 227",
+      "parafrase": "No sincretismo afro-católico descrito pela autora, Oxalá ocupa o lugar imediatamente abaixo de Deus Pai, é associado a Jesus Cristo e, dependendo da região, ao Senhor do Bonfim.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-044",
+      "orixa": "oxala",
+      "atributo": "dominios",
+      "valor": "abóbada celeste; coordenação dos orixás; criação, gestação e iniciação; atividades intelectuais",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 226–228",
+      "parafrase": "Oxalá reina sobre o céu e segue como coordenador das ações dos orixás. Como divindade da criação, protege a iniciação, entendida como criação de uma nova pessoa, e a formação da criança no ventre, da fecundação ao parto; some no momento do parto e só reaparece 16 dias depois. Também rege as atividades intelectuais.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-045",
+      "orixa": "oxala",
+      "atributo": "cores",
+      "valor": "branco (roupas dele e dos fiéis; pele frequentemente clara nas representações)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 227",
+      "parafrase": "Oxalá aparece sempre de branco, cor de pureza, e muitas vezes com a pele clara; os fiéis se vestem de branco para homenageá-lo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-046",
+      "orixa": "oxala",
+      "atributo": "simbolos",
+      "valor": "metal: alumínio; emblema encimado por uma pomba; flor de algodão",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 227, 233",
+      "parafrase": "A matéria de Oxalá é o alumínio e uma pomba fica no alto do seu emblema. Entre as plantas, o algodão (ewé owu) é dele em todos os terreiros que a autora conheceu, no Recife e na Bahia, e ela anota a mesma associação em Cuba.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-047",
+      "orixa": "oxala",
+      "atributo": "dia_semana",
+      "valor": "domingo para alguns terreiros; sexta-feira para muitos",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 227",
+      "parafrase": "O dia varia com o grau de sincretismo do terreiro: alguns o cultuam no domingo, por referência cristã; muitos mantêm a sexta-feira, que a autora atribui à influência do islã no mundo iorubá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-048",
+      "orixa": "oxala",
+      "atributo": "animais",
+      "valor": "cabra branca ou pombo",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 227",
+      "parafrase": "Segundo a autora, oferece-se a Oxalá uma cabra branca ou um pombo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-049",
+      "orixa": "oxala",
+      "atributo": "tabus",
+      "valor": "restrições de comida e bebida para Oxalá e seus filhos",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 228",
+      "parafrase": "A autora descreve interditos alimentares e de bebida que valem para Oxalá e para os seus filhos.",
+      "nota": "Detalhe retido até decisão do conselho (tabus e alimentos não são detalhados).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-050",
+      "orixa": "oxala",
+      "atributo": "itans",
+      "valor": "Oxalá se embriaga com vinho de palma na terra e não cumpre a tarefa; daí o \"pecado original\"",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 228",
+      "parafrase": "Conta-se que, descido à terra, Oxalá bebeu vinho de palma até se embriagar e não conseguiu realizar o trabalho que lhe fora dado; a autora diz que esse episódio é contado como o pecado original e explica a proibição do vinho de palma para ele.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-051",
+      "orixa": "oxala",
+      "atributo": "qualidades",
+      "valor": "dois aspectos de um só Oxalá: Oxalufã, dito o jovem, e Oxaguiã, dito o velho; a diferença aparece sobretudo na dança do transe",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 228",
+      "parafrase": "A autora fala em dois Oxalás, ou dois aspectos dele, com caráter quase igual; no transe o jovem se move com mais vivacidade. Ela chama Oxalufã de jovem e Oxaguiã de velho.",
+      "nota": "Atribuição de idade inversa à de Bastide (oxala-022) e de Halloy (Orixálufã velho, Orixáogiã jovem); registrada como está na fonte, sem correção.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-052",
+      "orixa": "oxala",
+      "atributo": "funcoes",
+      "valor": "cabeça e doenças da cabeça; molda o corpo humano (malformações lhe são atribuídas); modera conflitos e as punições dos outros orixás",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 228–230",
+      "parafrase": "Oxalá corresponde à cabeça: cefaleias, perdas de memória e males do cérebro são seus. É ele quem modela o corpo, e as malformações são vistas como fruto da sua desatenção, por isso as pessoas com deficiência ficam sob sua tutela. Como senhor da paz, pode moderar a ação dos outros orixás e limitar seus castigos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-053",
+      "orixa": "oxala",
+      "atributo": "funcoes",
+      "valor": "plantas de Oxalá: para alguns, ele age só na cabeça; para Mãe Celeste, na cabeça e no corpo todo",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Mãe Celeste × Mãe Sevi e outros chefes de culto (campo da autora)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 230, 234",
+      "parafrase": "As casas divergem. Mãe Celeste diz que Oxalá governa a cabeça e o resto do corpo; para a maioria dos outros chefes de culto, entre eles Mãe Sevi, ele age na cabeça, mas recebe plantas para outros órgãos porque os males destes repercutem nela. A autora resume as plantas dele em três grupos: contra males da cabeça, depurativas e calmantes, ligando as depurativas à ideia de pureza.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxala-054",
+      "orixa": "oxala",
+      "atributo": "interpretacao_academica",
+      "valor": "filhos calmos, sábios e tolerantes; Oxalá perdoa muito, mas é implacável quando a paciência acaba",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 228",
+      "parafrase": "Os filhos de Oxalá são descritos como serenos, conciliadores e de bom conselho, como o próprio orixá, mediador de conflitos. Diz-se que ele tolera erro após erro, mas que, passado o limite, não volta atrás.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

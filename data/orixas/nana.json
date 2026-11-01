@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/nana.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 22,
+    "registros_usados": 27,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -144,6 +144,52 @@
         "nota": "Ver nana-016 sobre o chachará.",
         "registro": "nana-013",
         "status": "fichado"
+      },
+      {
+        "valor": "orixá feminina das águas, a mais velha; águas das chuvas e do dilúvio",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "pp. 226, 277",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "pp. 226, 277",
+        "parafrase": "Nanã Buruku é orixá feminina das águas, como Iemanjá e Oxum, a mais idosa delas, e reina sobre as chuvas e as águas do dilúvio. Na partilha original, recebeu a água das chuvas.",
+        "nota": "A autora registra que C. Araujo (1993) a descreve como sereia.",
+        "registro": "nana-023",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "protege os idosos e o corpo que envelhece; seus raros filhos vivem muito",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "pp. 277–278",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "pp. 277–278",
+        "parafrase": "Muito velha, Nanã protege as pessoas idosas; os poucos filhos dela teriam vida bem mais longa que a média. Papai liga sua ação ao organismo envelhecido, e as plantas citadas para ela visam males da velhice, como reumatismo e menopausa.",
+        "nota": null,
+        "registro": "nana-026",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -166,6 +212,28 @@
         "parafrase": "No repasto de comunhão do fim da festa, os pratos têm a cor do orixá, e o de Nanã é violeta.",
         "nota": null,
         "registro": "nana-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "violeta",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 277",
+        "parafrase": "A cor de Nanã é o violeta, e por isso lhe cabem as plantas de flor violeta.",
+        "nota": null,
+        "registro": "nana-027",
         "status": "fichado"
       }
     ],
@@ -321,6 +389,28 @@
         "nota": "Na ordem dos cânticos do terreiro de Pai Adão (Recife), Nanã-Buruku vem logo após Obaluaiê e é chamada mãe dele (Bastide, p. 280, citando Gonçalves Fernandes).",
         "registro": "nana-012",
         "status": "fichado"
+      },
+      {
+        "valor": "mãe de Omulu, em muitas versões; representada velha, embalando o filho",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 277",
+        "parafrase": "Atribui-se com frequência a Nanã a maternidade de Omulu; nesse caso ela é mostrada já velha, com o filho nos braços.",
+        "nota": null,
+        "registro": "nana-024",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -456,6 +546,28 @@
         "nota": null,
         "registro": "nana-021",
         "status": "fichado"
+      },
+      {
+        "valor": "orixá secundária; iniciação para ela é raríssima",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 277",
+        "parafrase": "Nanã é vista sobretudo como orixá secundária, para quem quase nunca se inicia alguém.",
+        "nota": null,
+        "registro": "nana-025",
+        "status": "fichado"
       }
     ],
     "hierarquia": [
@@ -505,7 +617,6 @@
   },
   "pendencias": {
     "sem_registro": [
-      "funcoes",
       "elementos",
       "saudacao",
       "alimentos",

@@ -520,14 +520,14 @@
       "source_id": "nina-rodrigues-1932-africanos",
       "titulo_curto": "Rodrigues 1932 — Os africanos no Brasil",
       "status": "ok",
-      "acesso": "PDF sem camada de texto; texto = OCR (_djvu.txt) do Internet Archive",
+      "acesso": "download direto (acesso aberto)",
       "url_origem": "https://archive.org/details/osafricanosnobrasil",
       "baixado_em": "2026-11-01",
       "arquivo_pdf": "pdf/nina-rodrigues-1932-africanos.pdf",
-      "sha256": "b9bc4c79f64e381937c6556682b8bdcdc0ea6d2f0c5dbbeca5e9c33f5675a630",
-      "bytes": 19369759,
+      "sha256": "2838b4a16da14870ab8568ab4c3d4ab64777ca688315f977d33aa2adb1d10431",
+      "bytes": 14526386,
       "paginas": 425,
-      "palavras": 110285,
+      "palavras": 106955,
       "arquivo_txt": "txt/nina-rodrigues-1932-africanos.txt"
     },
     {
@@ -861,7 +861,7 @@
       "source_id": "verger-1957-notes",
       "titulo_curto": "Verger 1957 — Notes sur le culte des Orisa et Vodun à Bahia, la Baie de tous les…",
       "status": "falhou",
-      "acesso": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CD84C666BFECA8A973927AAA4E0A17A1/S0361541313000132a.pdf/div-class-title-em-class-italic-notes-sur-le-culte-des-orisa-et-vodun-em-pierre-fatumbi-verger-and-the-study-of-african-traditional-religion-div.pdf: não é PDF",
+      "acesso": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CD84C666BFECA8A973927AAA4E0A17A1/S0361541313000132a.pdf/div-class-title-em-class-italic-notes-sur-le-culte-des-orisa-et-vodun-em-pierre-fatumbi-verger-and-the-study-of-african-traditional-religion-div.pdf: ReadTimeout",
       "url_origem": ""
     },
     {

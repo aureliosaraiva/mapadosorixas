@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ogum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 59,
+    "registros_usados": 60,
     "registros_pre_fichamento_excluidos": 5,
     "registros_retidos": 0
   },
@@ -186,6 +186,28 @@
         "parafrase": "Castillo explica que, embora a proteção e a abertura estejam associadas a Ogum, no candomblé ketu a capacidade de abrir caminhos costuma ser atribuída a Exu. Na nação jeje, Legba, equivalente de Exu, dividiria com Ogum, em especial com a qualidade Xoroquê, a função de repelir o mal.",
         "nota": null,
         "registro": "ogum-043",
+        "status": "fichado"
+      },
+      {
+        "valor": "invocado em cirurgias; para Papai, doenças dos nervos; para Mãe Celeste, o peito; invocado em processos",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Papai × Mãe Celeste e outros chefes de culto (campo da autora)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 266",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 266",
+        "parafrase": "Alguns chefes de culto dizem que Ogum só tem relação indireta com a saúde e que hoje é chamado sobretudo nas operações cirúrgicas. Papai diz usá-lo também para doenças dos nervos, e Mãe Celeste o faz agir no peito. Pelo senso de equidade, é invocado em processos judiciais, menos implacável que Iansã ou Xangô.",
+        "nota": null,
+        "registro": "ogum-065",
         "status": "fichado"
       }
     ],

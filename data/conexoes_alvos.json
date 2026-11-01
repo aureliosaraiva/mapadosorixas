@@ -114,7 +114,12 @@
     "inquice:katende": {"rotulo": "Katende / Mpanzu", "tipo": "inquice"},
     "inquice:tere-kompenso": {"rotulo": "Tere-Kompenso / Gongobira", "tipo": "inquice"},
     "inquice:vunji": {"rotulo": "Vunji", "tipo": "inquice"},
-    "inquice:kitembo": {"rotulo": "Kitembo / Tembu", "tipo": "inquice"}
+    "inquice:kitembo": {"rotulo": "Kitembo / Tembu", "tipo": "inquice"},
+    "santo:senhor-do-bonfim": {"rotulo": "Nosso Senhor do Bonfim", "tipo": "santo_catolico"},
+    "santo:santa-catarina": {"rotulo": "Santa Catarina", "tipo": "santo_catolico"},
+    "figura:joana-darc": {"rotulo": "Joana d’Arc", "tipo": "figura_crista"},
+    "santo:sao-lazaro": {"rotulo": "São Lázaro", "tipo": "santo_catolico"},
+    "orunmila": {"rotulo": "Orunmilá / Ifá", "tipo": "orixa"}
   },
   "registros": {
     "exu-001": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
@@ -344,6 +349,15 @@
     "iroko-012": [{"tipo": "equivalencia", "destino": "inquice:katende"}],
     "odudua-007": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "olokun"}],
     "olokun-002": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "iemanja"}],
-    "olokun-004": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "iemanja"}]
+    "olokun-004": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "iemanja"}],
+    "oxala-043": [{"tipo": "sincretismo", "destino": "figura:jesus-cristo"}, {"tipo": "sincretismo", "destino": "santo:senhor-do-bonfim"}],
+    "oxum-034": [{"tipo": "sincretismo", "destino": "santo:santa-catarina"}, {"tipo": "sincretismo", "destino": "santo:ns-carmo"}],
+    "oxum-039": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "xango"}],
+    "oxum-041": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "orunmila"}, {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "orunmila"}],
+    "iansa-025": [{"tipo": "sincretismo", "destino": "santo:santa-barbara"}, {"tipo": "sincretismo", "destino": "figura:joana-darc"}],
+    "iansa-029": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "xango"}],
+    "omolu-030": [{"tipo": "sincretismo", "destino": "santo:sao-lazaro"}],
+    "omolu-037": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "nana"}, {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oba"}],
+    "nana-024": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "nana", "origem": "omolu"}]
   }
 }

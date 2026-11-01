@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/olodumare.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 18,
+    "registros_usados": 19,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -391,6 +391,28 @@
         "parafrase": "Bastide traduz um mito cubano recolhido por Cabrera: terminada a criação e antes de subir ao céu, o Pai Eterno dividiu o universo entre seus filhos, e cada um ficou com o que lhe pertence até hoje — o mar, as savanas, as montanhas —, enquanto o segredo das ervas coube a Ossaim.",
         "nota": "Lido em Bastide, que cita Cabrera, El Monte, p. 100; Bastide observa que nunca ouviu o mito na Bahia.",
         "registro": "olodumare-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "Olorun: ser supremo, não é orixá; não recebe culto direto e não desce, delegou seus poderes aos orixás",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 225",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 225",
+        "parafrase": "Para os interlocutores da autora, Olorun é o criador de tudo, mas não é um orixá nem é representado. Não se dirige prece a ele: os pedidos chegam por meio dos orixás, de Ifá e de Exu. No Brasil se diz que ele não vem às festas, por ser velho demais para a viagem, e que, sem interesse pelos homens, passou aos orixás o governo de cada domínio.",
+        "nota": null,
+        "registro": "olodumare-019",
         "status": "fichado"
       }
     ]

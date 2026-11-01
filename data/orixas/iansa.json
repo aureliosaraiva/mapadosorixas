@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iansa.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 21,
+    "registros_usados": 30,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -31,6 +31,28 @@
         "parafrase": "Bastide escreve Yansan; na lista de qualidades, Oya aparece como uma das Iansãs, e na semana de Porto Alegre ela figura como Oiá ao lado de Xangô.",
         "nota": "Prandi 2005 usa Oiá e Oiá-Iansã (ver iansa-018).",
         "registro": "iansa-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "nome inicial Oyá, ainda usado; Iansã viria de iya omo mesan, \"mãe de nove filhos\"",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 251",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 251",
+        "parafrase": "Segundo Mãe Bia, o nome antigo era Oyá. Depois de ter nove filhos (nove é o seu número), ela passou a ser chamada iya omo mesan, a mãe dos nove filhos, forma que deu Iyansan.",
+        "nota": null,
+        "registro": "iansa-023",
         "status": "fichado"
       }
     ],
@@ -77,6 +99,52 @@
         "nota": "Bastide nota que, nos ritos fúnebres de negros da Amazônia, cantam-se só cânticos para Iansã, Egun e Nanã Buruku. Sem detalhar o culto dos Egun.",
         "registro": "iansa-006",
         "status": "fichado"
+      },
+      {
+        "valor": "tempestades, relâmpago e ventos; os mortos (eguns)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "pp. 226, 251–252",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "pp. 226, 251–252",
+        "parafrase": "Iansã é a entidade das tempestades e do relâmpago e senhora dos ventos; depois da partilha original, ficou também com os mortos, os eguns.",
+        "nota": null,
+        "registro": "iansa-022",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "enfrenta os eguns e a morte; acompanha o filho até o fim (\"visita da saúde\"); para Papai, os ossos; para outros, o organismo inteiro",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Papai × outros chefes de culto (campo da autora)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 252",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 252",
+        "parafrase": "Iansã é o único orixá que não teme os mortos e é chamada para combatê-los. Diz-se que acompanha o filho até o último momento e torna a passagem mais branda; a melhora aparente pouco antes da morte, a \"visita da saúde\", seria obra dela. Para Papai ela cuida do esqueleto e das doenças ósseas; para outros chefes de culto não tem ponto fixo no corpo e age para reanimar o organismo.",
+        "nota": null,
+        "registro": "iansa-030",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -99,6 +167,28 @@
         "parafrase": "Bastide diz que o vermelho é a cor de Xangô e de Iansã, e por isso folhas avermelhadas são atribuídas aos dois; no quadro de correspondências Iansã repete as cores de Xangô.",
         "nota": null,
         "registro": "iansa-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "rosa; em alguns terreiros, coral ou salmão",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 251",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 251",
+        "parafrase": "A cor de Iansã é o rosa; certas casas preferem um tom coral ou salmão.",
+        "nota": null,
+        "registro": "iansa-026",
         "status": "fichado"
       }
     ],
@@ -189,6 +279,28 @@
         "nota": null,
         "registro": "iansa-008",
         "status": "fichado"
+      },
+      {
+        "valor": "capacete e armas",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 251",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 251",
+        "parafrase": "Os emblemas de Iansã são um capacete e armas.",
+        "nota": null,
+        "registro": "iansa-027",
+        "status": "fichado"
       }
     ],
     "qualidades": [
@@ -255,6 +367,28 @@
         "parafrase": "Bastide registra que há sacerdotes que casam Ogum com Iansã, enquanto outros veem Ogum como celibatário; Xangô teria tomado essas mulheres dos outros orixás.",
         "nota": "Diverge de iansa-009 (Iansã como mulher de Xangô).",
         "registro": "iansa-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "a outra mulher de Xangô",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 251",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 251",
+        "parafrase": "Iansã é a outra esposa de Xangô (a autora já a apontara como esposa legítima, p. 247).",
+        "nota": null,
+        "registro": "iansa-029",
         "status": "fichado"
       }
     ],
@@ -366,6 +500,28 @@
         "nota": null,
         "registro": "iansa-014",
         "status": "fichado"
+      },
+      {
+        "valor": "Santa Bárbara e até Joana d’Arc",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 251",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 251",
+        "parafrase": "Guerreira e amazona, Iansã é associada a Santa Bárbara e, às vezes, a Joana d’Arc. Em nota, a autora lembra que Santa Bárbara era antes ligada a Xangô, dono do raio.",
+        "nota": null,
+        "registro": "iansa-025",
+        "status": "fichado"
       }
     ],
     "itans": [
@@ -388,6 +544,28 @@
         "parafrase": "Na versão cubana que Bastide reproduz, Ossaim guardava só para si o segredo das ervas; Xangô se queixa à mulher, Oyá, senhora dos ventos, que sacode as dobras da roupa e levanta uma ventania, espalhando as folhas para os outros orixás.",
         "nota": "Bastide cita L. Cabrera, El Monte, p. 100 (fonte fora do catálogo).",
         "registro": "iansa-021",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oyá, estéril, consulta um babalaô, cumpre o que ele prescreve e tem nove filhos",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Mãe Bia (campo da autora)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 251",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 251",
+        "parafrase": "Na versão de Mãe Bia, Oyá sofria por não ter filhos e foi a um babalaô, que atribuiu a esterilidade a uma falta dela e lhe receitou uma oferenda e uma mudança de conduta. Ela obedeceu e logo deu à luz nove filhos, origem do nome Iansã.",
+        "nota": "O interdito alimentar que o babalaô prescreve no mito foi retido (tabus esperam o conselho).",
+        "registro": "iansa-024",
         "status": "fichado"
       }
     ],
@@ -458,6 +636,30 @@
         "status": "fichado"
       }
     ],
+    "interpretacao_academica": [
+      {
+        "valor": "guerreira dura e intransigente, pouco feminina; filhas de aparência andrógina",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 251",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 251",
+        "parafrase": "Ao contrário de Iemanjá e Oxum, Iansã é descrita como não feminina, dura e intransigente, e suas filhas costumam ter aspecto um tanto andrógino.",
+        "nota": null,
+        "registro": "iansa-028",
+        "status": "fichado"
+      }
+    ],
     "hierarquia": [
       {
         "valor": "na roda das filhas de santo em transe, Iansã sempre vai à frente de Oxum, por ser a esposa principal de Xangô",
@@ -485,14 +687,12 @@
   "pendencias": {
     "sem_registro": [
       "origem",
-      "funcoes",
       "elementos",
       "saudacao",
       "alimentos",
       "animais",
       "tabus",
-      "iconografia",
-      "interpretacao_academica"
+      "iconografia"
     ],
     "so_pre_fichamento": {},
     "retidos_ate_conselho": {}

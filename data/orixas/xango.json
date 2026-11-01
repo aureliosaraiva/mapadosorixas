@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/xango.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 48,
+    "registros_usados": 50,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -227,6 +227,31 @@
         "parafrase": "Entre os orixás cujos mitos são mais citados no Recife e em Olinda, Pitta define Xangô como senhor das tempestades, do raio, do trovão e da eletricidade do ar.",
         "nota": null,
         "registro": "xango-044",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "justiça: defende fracos e oprimidos, castiga com o raio; jura-se por ele (ou por Ogum) num tribunal iorubá",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 242",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 242",
+        "parafrase": "Xangô é descrito como tirânico e colérico, avesso a feitiçaria e mentira, mas justiceiro: luta pelos fracos e fulmina quem agiu mal. A autora acrescenta que num tribunal iorubá se jura por Xangô ou por Ogum e que, na Nigéria, os bens de quem é atingido por raio passam aos sacerdotes de Xangô.",
+        "nota": "As duas últimas informações a autora refere à Nigéria, sem fonte citada no trecho.",
+        "registro": "xango-054",
         "status": "fichado"
       }
     ],
@@ -884,6 +909,28 @@
         "nota": "No mito, Xangô aparece como filho de Oxalá (comparar com xango-022).",
         "registro": "xango-043",
         "status": "fichado"
+      },
+      {
+        "valor": "Ogum, por ciúme, joga Oxum no rio; Xangô a salva; Ogum a recupera distraindo Xangô com um cesto de quiabos",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 242",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 242",
+        "parafrase": "Dois irmãos, Ogum e Xangô, passeiam com as companheiras. Junto a um rio, Ogum, com ciúme, atira Oxum na água; Xangô a tira quase morta e a leva ao palácio. Mais tarde Ogum a vê viva e bela na varanda do irmão, manda-lhe um carneiro, recebe de volta um cão magro e decide pegá-lo pelo quiabo: envia um cesto deles, Xangô esquece Oxum e Ogum a leva de volta. Daí, segundo a autora, a presença do quiabo nas comidas de Xangô.",
+        "nota": "A companheira de Xangô no passeio aparece com o nome Aloia.",
+        "registro": "xango-053",
+        "status": "fichado"
       }
     ],
     "festas": [
@@ -1066,7 +1113,6 @@
   },
   "pendencias": {
     "sem_registro": [
-      "funcoes",
       "saudacao",
       "alimentos",
       "tabus",

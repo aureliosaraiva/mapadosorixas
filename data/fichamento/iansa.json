@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iansa",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 21,
+    "total": 30,
     "por_status": {
-      "fichado": 21,
+      "fichado": 30,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -411,6 +411,186 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "iansa-022",
+      "orixa": "iansa",
+      "atributo": "dominios",
+      "valor": "tempestades, relâmpago e ventos; os mortos (eguns)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 226, 251–252",
+      "parafrase": "Iansã é a entidade das tempestades e do relâmpago e senhora dos ventos; depois da partilha original, ficou também com os mortos, os eguns.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-023",
+      "orixa": "iansa",
+      "atributo": "nomes",
+      "valor": "nome inicial Oyá, ainda usado; Iansã viria de iya omo mesan, \"mãe de nove filhos\"",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 251",
+      "parafrase": "Segundo Mãe Bia, o nome antigo era Oyá. Depois de ter nove filhos (nove é o seu número), ela passou a ser chamada iya omo mesan, a mãe dos nove filhos, forma que deu Iyansan.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-024",
+      "orixa": "iansa",
+      "atributo": "itans",
+      "valor": "Oyá, estéril, consulta um babalaô, cumpre o que ele prescreve e tem nove filhos",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Mãe Bia (campo da autora)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 251",
+      "parafrase": "Na versão de Mãe Bia, Oyá sofria por não ter filhos e foi a um babalaô, que atribuiu a esterilidade a uma falta dela e lhe receitou uma oferenda e uma mudança de conduta. Ela obedeceu e logo deu à luz nove filhos, origem do nome Iansã.",
+      "nota": "O interdito alimentar que o babalaô prescreve no mito foi retido (tabus esperam o conselho).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-025",
+      "orixa": "iansa",
+      "atributo": "sincretismo",
+      "valor": "Santa Bárbara e até Joana d’Arc",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 251",
+      "parafrase": "Guerreira e amazona, Iansã é associada a Santa Bárbara e, às vezes, a Joana d’Arc. Em nota, a autora lembra que Santa Bárbara era antes ligada a Xangô, dono do raio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-026",
+      "orixa": "iansa",
+      "atributo": "cores",
+      "valor": "rosa; em alguns terreiros, coral ou salmão",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 251",
+      "parafrase": "A cor de Iansã é o rosa; certas casas preferem um tom coral ou salmão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-027",
+      "orixa": "iansa",
+      "atributo": "simbolos",
+      "valor": "capacete e armas",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 251",
+      "parafrase": "Os emblemas de Iansã são um capacete e armas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-028",
+      "orixa": "iansa",
+      "atributo": "interpretacao_academica",
+      "valor": "guerreira dura e intransigente, pouco feminina; filhas de aparência andrógina",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 251",
+      "parafrase": "Ao contrário de Iemanjá e Oxum, Iansã é descrita como não feminina, dura e intransigente, e suas filhas costumam ter aspecto um tanto andrógino.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-029",
+      "orixa": "iansa",
+      "atributo": "parentesco",
+      "valor": "a outra mulher de Xangô",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 251",
+      "parafrase": "Iansã é a outra esposa de Xangô (a autora já a apontara como esposa legítima, p. 247).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-030",
+      "orixa": "iansa",
+      "atributo": "funcoes",
+      "valor": "enfrenta os eguns e a morte; acompanha o filho até o fim (\"visita da saúde\"); para Papai, os ossos; para outros, o organismo inteiro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Papai × outros chefes de culto (campo da autora)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 252",
+      "parafrase": "Iansã é o único orixá que não teme os mortos e é chamada para combatê-los. Diz-se que acompanha o filho até o último momento e torna a passagem mais branda; a melhora aparente pouco antes da morte, a \"visita da saúde\", seria obra dela. Para Papai ela cuida do esqueleto e das doenças ósseas; para outros chefes de culto não tem ponto fixo no corpo e age para reanimar o organismo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

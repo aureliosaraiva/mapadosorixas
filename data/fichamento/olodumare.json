@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "olodumare",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 18,
+    "total": 19,
     "por_status": {
-      "fichado": 18,
+      "fichado": 19,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -341,6 +341,26 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "olodumare-019",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "Olorun: ser supremo, não é orixá; não recebe culto direto e não desce, delegou seus poderes aos orixás",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 225",
+      "parafrase": "Para os interlocutores da autora, Olorun é o criador de tudo, mas não é um orixá nem é representado. Não se dirige prece a ele: os pedidos chegam por meio dos orixás, de Ifá e de Exu. No Brasil se diz que ele não vem às festas, por ser velho demais para a viagem, e que, sem interesse pelos homens, passou aos orixás o governo de cada domínio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/orunmila.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 4,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "orunmila",
+  "rotulo": "Orunmilá / Ifá",
+  "atributos": {
+    "funcoes": [
+      {
+        "valor": "orixá da adivinhação: responde ao babalaô pelo opelê e conhece o destino de cada um",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 285",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 285",
+        "parafrase": "Ifá é o orixá que responde às perguntas do babalaô no jogo do opelê e que sabe o destino de cada pessoa; a autora deixa em aberto se ele também o determina.",
+        "nota": null,
+        "registro": "orunmila-001",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "Ifá, pescador pobre, serve Exu por dezesseis anos, aprende a adivinhar com coquinhos e põe Oxum como ajudante",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 286",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 286",
+        "parafrase": "Ifá teria tido vida humana: pescador miserável, fez um pacto com Exu e o serviu dezesseis anos. Exu o mandou buscar nozes de palmeira na mata e lhe ensinou a usá-las na adivinhação, que passou de Exu a Ifá. Com tantos consulentes, Ifá tomou Oxum como mulher; ela quis também jogar, e Ifá preparou nozes para ela e pediu a Exu que respondesse por elas. Por isso o babalaô trabalha com uma apetebi, filha de Oxum Yaba Omi.",
+        "nota": null,
+        "registro": "orunmila-004",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "pouco se fala dele: Papai não pode falar porque Ifá é o orixá da sua família; não tem imagem, santo católico nem parte do corpo",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "pp. 285–286",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "pp. 285–286",
+        "parafrase": "Quando a autora perguntou a Papai sobre Ifá, ouviu que era o orixá consagrado da família dele e que por isso não podia falar; os demais chefes de culto só disseram que é o orixá da adivinhação. Ela não achou estátuas dele, nem correspondente católico, nem ação sobre o corpo.",
+        "nota": null,
+        "registro": "orunmila-003",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "personagem central do panteão que, como Olorun, não lida diretamente com os humanos",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 285",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 285",
+        "parafrase": "Ifá é tido como figura importante e incontornável do panteão e do culto, mas, como Olorun, não trata diretamente com as pessoas.",
+        "nota": null,
+        "registro": "orunmila-002",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "nomes",
+      "origem",
+      "dominios",
+      "elementos",
+      "cores",
+      "dia_semana",
+      "saudacao",
+      "simbolos",
+      "alimentos",
+      "animais",
+      "qualidades",
+      "parentesco",
+      "equivalencias",
+      "sincretismo",
+      "tabus",
+      "festas",
+      "iconografia",
+      "interpretacao_academica"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

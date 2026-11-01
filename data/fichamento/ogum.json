@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 64,
+    "total": 65,
     "por_status": {
-      "fichado": 59,
+      "fichado": 60,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -1245,6 +1245,26 @@
       "status": "fichado",
       "evidencias": [
         "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "ogum-065",
+      "orixa": "ogum",
+      "atributo": "funcoes",
+      "valor": "invocado em cirurgias; para Papai, doenças dos nervos; para Mãe Celeste, o peito; invocado em processos",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Papai × Mãe Celeste e outros chefes de culto (campo da autora)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 266",
+      "parafrase": "Alguns chefes de culto dizem que Ogum só tem relação indireta com a saúde e que hoje é chamado sobretudo nas operações cirúrgicas. Papai diz usá-lo também para doenças dos nervos, e Mãe Celeste o faz agir no peito. Pelo senso de equidade, é invocado em processos judiciais, menos implacável que Iansã ou Xangô.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

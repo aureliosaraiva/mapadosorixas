@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/omolu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 27,
+    "registros_usados": 39,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -30,6 +30,28 @@
         "parafrase": "Bastide usa Omolu e Obaluaiê, este último também para o Omolu velho. Explica que o nome Sakpatan existe no Brasil como Xapanã, mas é evitado por ser perigoso pronunciá-lo, sob risco de doenças de pele, e por isso se fala Omolu.",
         "nota": "Em Porto Alegre a semana dá 'Xapanã (Omolú)' (p. 119, nota 79).",
         "registro": "omolu-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "na África, Sanponan ou Sakpata, nome que raramente se pronuncia por medo da doença",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "\"na África\", sem região precisa",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 271",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 271",
+        "parafrase": "A autora acrescenta que, na África, ele pode ser chamado Sanponan ou Sakpata, mas que quase não se diz o nome, por receio de que ele se manifeste na pessoa como doença.",
+        "nota": "A fonte não especifica povo nem região; a tradição do registro fica a do campo da autora.",
+        "registro": "omolu-039",
         "status": "fichado"
       }
     ],
@@ -118,6 +140,52 @@
         "nota": null,
         "registro": "omolu-008",
         "status": "fichado"
+      },
+      {
+        "valor": "peste, varíola, doenças de pele e doenças contagiosas; só os males \"visíveis\"",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "pp. 270–272",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "pp. 270–272",
+        "parafrase": "Omulu é o orixá da peste, da varíola, das doenças de pele e das contagiosas. A autora explica que, na percepção corrente no Brasil, ele cuida apenas dos males que se veem e não dos de origem psíquica, e aproxima isso da distinção que a língua iorubá faz entre dores de partes visíveis e internas.",
+        "nota": null,
+        "registro": "omolu-028",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "fica à porta dos cemitérios; a partir do que morre, libera os elementos vivos que formarão outros corpos",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 271",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 271",
+        "parafrase": "Diz-se que Omulu está na entrada dos cemitérios e permite a renovação a partir do que morreu: seu poder começa com a morte do organismo e consiste em soltar o que ainda vive para formar novos corpos.",
+        "nota": null,
+        "registro": "omolu-038",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -140,6 +208,28 @@
         "parafrase": "No quadro de correspondências de Bastide, as cores de Omolu são o preto e o branco.",
         "nota": null,
         "registro": "omolu-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "preto e branco",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "As cores de Omulu são o preto e o branco.",
+        "nota": null,
+        "registro": "omolu-031",
         "status": "fichado"
       }
     ],
@@ -205,6 +295,28 @@
         "parafrase": "Na semana de Porto Alegre, a quarta-feira é de Xapanã, que Bastide identifica com Omolu, e de Obá.",
         "nota": null,
         "registro": "omolu-004",
+        "status": "fichado"
+      },
+      {
+        "valor": "segunda-feira",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "O dia semanal de Omulu é a segunda-feira.",
+        "nota": null,
+        "registro": "omolu-033",
         "status": "fichado"
       }
     ],
@@ -293,6 +405,52 @@
         "nota": "Acossi Sakpatá é o vodum da família de Dambirá que corresponde a Omolu (omolu-024).",
         "registro": "omolu-015",
         "status": "fichado"
+      },
+      {
+        "valor": "matéria: palha",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "A matéria de Omulu é a palha, com que ele se cobre.",
+        "nota": null,
+        "registro": "omolu-035",
+        "status": "fichado"
+      }
+    ],
+    "animais": [
+      {
+        "valor": "bode, galo ou porco",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "Oferece-se a Omulu um bode, um galo ou um porco.",
+        "nota": null,
+        "registro": "omolu-034",
+        "status": "fichado"
       }
     ],
     "qualidades": [
@@ -359,6 +517,28 @@
         "parafrase": "Entre as versões divergentes sobre os casamentos dos orixás, alguns fazem de Omolu o esposo de Obá; Xangô, que teria tomado as mulheres dos outros, precisou enfrentar Omolu, Ogum e Oxóssi.",
         "nota": null,
         "registro": "omolu-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "Nanã Buruku é sua mulher ou seu aspecto feminino; para outros, a mulher é Obá",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "Conforme o caso, Nanã Buruku aparece como mulher de Omulu ou como o seu lado feminino; em outras versões, ele é casado com Obá, a esposa repudiada por Xangô.",
+        "nota": null,
+        "registro": "omolu-037",
         "status": "fichado"
       }
     ],
@@ -471,6 +651,52 @@
         "nota": "Bastide cita P. Cavalcanti e Gonçalves Fernandes.",
         "registro": "omolu-020",
         "status": "fichado"
+      },
+      {
+        "valor": "São Lázaro",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "Omulu é associado a São Lázaro, que também tem o corpo coberto de feridas e enfrentou a morte.",
+        "nota": null,
+        "registro": "omolu-030",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "o filho expulso que volta coberto de chagas e cura a aldeia com plantas",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "Suspeito de feitiçaria, ele foi expulso de casa pelo pai e passou anos vagando e sofrendo, dado como morto. Volta com o corpo cheio de feridas e cicatrizes, mas vivo, e encontra a aldeia devastada por uma epidemia; com o que sabe das plantas medicinais, cura os moradores e depois é divinizado. A autora o compara ao filho pródigo.",
+        "nota": "A autora diz que Mestre Didi (Deoscóredes M. dos Santos) dá versão parecida em Contos negros da Bahia (1987), obra fora do catálogo.",
+        "registro": "omolu-036",
+        "status": "fichado"
       }
     ],
     "festas": [
@@ -536,6 +762,28 @@
         "parafrase": "O calendário da casa paulista concentra em janeiro as festas dos voduns de Dambirá: Azonce e Xapanã de 19 a 21, e no dia de São Sebastião Xapanã e Azacá, com a mesa dos inocentes e o banquete dos cachorros; Acóssi é festejado no dia de São Lázaro.",
         "nota": "Esses voduns correspondem a Omulu-Obaluaê nesta casa (omolu-024).",
         "registro": "omolu-023",
+        "status": "fichado"
+      },
+      {
+        "valor": "16 de agosto",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "Omulu é festejado em 16 de agosto.",
+        "nota": null,
+        "registro": "omolu-032",
         "status": "fichado"
       }
     ],
@@ -605,18 +853,37 @@
         "nota": null,
         "registro": "omolu-011",
         "status": "fichado"
+      },
+      {
+        "valor": "coberto de palha que esconde rosto e corpo marcados; velho e mancando; dança com o xaxará",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 270",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 270",
+        "parafrase": "Omulu é representado coberto de palha para ocultar o rosto e o corpo marcados pela doença, em geral velho e mancando. Dança com o xaxará, uma espécie de vassoura com que leva os humanos como folhas secas.",
+        "nota": null,
+        "registro": "omolu-029",
+        "status": "fichado"
       }
     ]
   },
   "pendencias": {
     "sem_registro": [
       "origem",
-      "funcoes",
       "elementos",
       "saudacao",
       "alimentos",
-      "animais",
-      "itans",
       "tabus",
       "interpretacao_academica",
       "hierarquia"

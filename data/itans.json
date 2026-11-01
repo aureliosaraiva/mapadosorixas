@@ -8,7 +8,7 @@
       "'arestas' é gerado: arestas de data/conexoes.json sustentadas por registros do itã.",
       "Só versões 'fichado'/'revisado' aparecem no site e no download."
     ],
-    "total": 26
+    "total": 30
   },
   "itans": [
     {
@@ -531,6 +531,26 @@
           ],
           "nota": "Kola Abimbola, Yoruba Culture (2006), está fora do catálogo. Ver também odudua-010 (mesma passagem, como hierarquia).",
           "status": "fichado"
+        },
+        {
+          "registro": "oxala-050",
+          "odu": null,
+          "valor": "Oxalá se embriaga com vinho de palma na terra e não cumpre a tarefa; daí o \"pecado original\"",
+          "resumo": "Conta-se que, descido à terra, Oxalá bebeu vinho de palma até se embriagar e não conseguiu realizar o trabalho que lhe fora dado; a autora diz que esse episódio é contado como o pecado original e explica a proibição do vinho de palma para ele.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 228",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
         }
       ],
       "arestas": [],
@@ -563,6 +583,26 @@
           ],
           "nota": "Bastide dá uma variante cubana (L. Cabrera) em que Oxum obtém de Elegba cinco búzios em troca de ouro.",
           "status": "fichado"
+        },
+        {
+          "registro": "orunmila-004",
+          "odu": null,
+          "valor": "Ifá, pescador pobre, serve Exu por dezesseis anos, aprende a adivinhar com coquinhos e põe Oxum como ajudante",
+          "resumo": "Ifá teria tido vida humana: pescador miserável, fez um pacto com Exu e o serviu dezesseis anos. Exu o mandou buscar nozes de palmeira na mata e lhe ensinou a usá-las na adivinhação, que passou de Exu a Ifá. Com tantos consulentes, Ifá tomou Oxum como mulher; ela quis também jogar, e Ifá preparou nozes para ela e pediu a Exu que respondesse por elas. Por isso o babalaô trabalha com uma apetebi, filha de Oxum Yaba Omi.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 286",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
         }
       ],
       "arestas": [],
@@ -592,6 +632,26 @@
             }
           ],
           "nota": "Bastide usa o mito para defender que cada 'subdivindade' tem função distinta.",
+          "status": "fichado"
+        },
+        {
+          "registro": "oxum-033",
+          "odu": null,
+          "valor": "Oxum Ioni: rainha invadida que foge de jangada e vence os invasores com abarás cheios de força divina",
+          "resumo": "Uma Oxum reinava numa terra rica, invadida pelos Ionis. Para não ser presa, fugiu de noite numa jangada e rezou; inspirada, mandou os súditos deixarem abarás na praia. Os invasores, famintos, comeram e caíram mortos, não por veneno, mas pela força divina. Ela retomou o reino, passou a se chamar Oxum Ioni e foi divinizada.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 246",
+              "via": null
+            }
+          ],
+          "nota": null,
           "status": "fichado"
         }
       ],
@@ -676,6 +736,26 @@
             }
           ],
           "nota": "Bastide também cita a disputa entre Oxum e Iansã pelo marido comum (p. 115) e um mito em que a união de Oxum e Xangô gera a chuva (p. 240).",
+          "status": "fichado"
+        },
+        {
+          "registro": "xango-053",
+          "odu": null,
+          "valor": "Ogum, por ciúme, joga Oxum no rio; Xangô a salva; Ogum a recupera distraindo Xangô com um cesto de quiabos",
+          "resumo": "Dois irmãos, Ogum e Xangô, passeiam com as companheiras. Junto a um rio, Ogum, com ciúme, atira Oxum na água; Xangô a tira quase morta e a leva ao palácio. Mais tarde Ogum a vê viva e bela na varanda do irmão, manda-lhe um carneiro, recebe de volta um cão magro e decide pegá-lo pelo quiabo: envia um cesto deles, Xangô esquece Oxum e Ogum a leva de volta. Daí, segundo a autora, a presença do quiabo nas comidas de Xangô.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 242",
+              "via": null
+            }
+          ],
+          "nota": "A companheira de Xangô no passeio aparece com o nome Aloia.",
           "status": "fichado"
         }
       ],
@@ -1043,6 +1123,141 @@
       ],
       "arestas": [],
       "nota_curadoria": "Uma versão (Fámúlẹ̀), com o odù nomeado pela fonte. 'Ayé' na fonte corresponde à entidade aie."
+    },
+    {
+      "id": "ita-027",
+      "titulo": "Olorun entrega a Oxalá os elementos e ele os reparte entre os orixás",
+      "entidades": [
+        "olodumare",
+        "oxala",
+        "exu",
+        "xango",
+        "iemanja",
+        "oxum",
+        "nana",
+        "ogum",
+        "omolu",
+        "orunmila",
+        "ossaim"
+      ],
+      "versoes": [
+        {
+          "registro": "oxala-040",
+          "odu": null,
+          "valor": "Olorun dá vida à argila e entrega ao filho Oxalá os elementos da natureza, que ele reparte entre os orixás",
+          "resumo": "Num tempo em que céu e terra formavam um só território com uma única porta, guardada por Olorun, ele soprou sobre o barro e lhe deu vida; há quem diga que Exu foi o primeiro ser vivo, o que muitos terreiros contestam. Olorun chamou o filho, Oxalá, e lhe passou os elementos para distribuir: Xangô recebeu trovão, fogo e raio; Iemanjá, o mar; Oxum, os rios e cachoeiras; Nanã, as chuvas; Ogum, o ferro; Omulu, as doenças e a varíola; Ifá, o colar de adivinhar; Ossãe, as sementes. Oxalá ficou com a coordenação do conjunto. A autora diz que todos os cultos que estudou conhecem a história.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "pp. 225–226",
+              "via": null
+            }
+          ],
+          "nota": "A autora acrescenta que depois disso Iansã passou a ter as tempestades e os mortos, e Oxóssi as florestas, e que Ossãe e Omulu deixaram de ter o monopólio de plantas e doenças.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Chiousse). A fonte chama a divindade suprema de Olorun e o adivinho de Ifá (entidades olodumare e orunmila)."
+    },
+    {
+      "id": "ita-028",
+      "titulo": "Oxalá despedaçado pela pedra de Atowoda",
+      "entidades": [
+        "oxala",
+        "orunmila"
+      ],
+      "versoes": [
+        {
+          "registro": "oxala-042",
+          "odu": null,
+          "valor": "Oxalá na terra é esmagado por uma pedra lançada pelo escravo Atowoda; Orumilá espalha os pedaços em Iranje e deles nascem as divindades",
+          "resumo": "Diz-se que Oxalá já viveu na terra e deu um pedaço de chão a um escravo, Atowoda. Este resolveu matá-lo e fez rolar sobre ele uma pedra enorme. Orumilá (Ifá), amigo de Oxalá, juntou os fragmentos numa cabaça e os levou a Iranje, onde os espalhou; desses pedaços teriam surgido as divindades.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 227",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Chiousse). Orumilá/Ifá é a entidade orunmila."
+    },
+    {
+      "id": "ita-029",
+      "titulo": "Oyá, a mãe dos nove filhos",
+      "entidades": [
+        "iansa"
+      ],
+      "versoes": [
+        {
+          "registro": "iansa-024",
+          "odu": null,
+          "valor": "Oyá, estéril, consulta um babalaô, cumpre o que ele prescreve e tem nove filhos",
+          "resumo": "Na versão de Mãe Bia, Oyá sofria por não ter filhos e foi a um babalaô, que atribuiu a esterilidade a uma falta dela e lhe receitou uma oferenda e uma mudança de conduta. Ela obedeceu e logo deu à luz nove filhos, origem do nome Iansã.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Mãe Bia (campo da autora)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 251",
+              "via": null
+            }
+          ],
+          "nota": "O interdito alimentar que o babalaô prescreve no mito foi retido (tabus esperam o conselho).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Chiousse, segundo Mãe Bia). Explica o nome Iansã."
+    },
+    {
+      "id": "ita-030",
+      "titulo": "Omulu, o filho expulso que volta para curar a aldeia",
+      "entidades": [
+        "omolu"
+      ],
+      "versoes": [
+        {
+          "registro": "omolu-036",
+          "odu": null,
+          "valor": "o filho expulso que volta coberto de chagas e cura a aldeia com plantas",
+          "resumo": "Suspeito de feitiçaria, ele foi expulso de casa pelo pai e passou anos vagando e sofrendo, dado como morto. Volta com o corpo cheio de feridas e cicatrizes, mas vivo, e encontra a aldeia devastada por uma epidemia; com o que sabe das plantas medicinais, cura os moradores e depois é divinizado. A autora o compara ao filho pródigo.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 270",
+              "via": null
+            }
+          ],
+          "nota": "A autora diz que Mestre Didi (Deoscóredes M. dos Santos) dá versão parecida em Contos negros da Bahia (1987), obra fora do catálogo.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Chiousse)."
     }
   ]
 }

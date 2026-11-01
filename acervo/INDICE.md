@@ -2,7 +2,7 @@
 
 > Gerado por `scripts/baixar_refs.py` a partir de `indice.json`. Uso interno de pesquisa: ver [`LEIAME.md`](LEIAME.md). Não editar à mão.
 
-**47** fontes com texto · **6** com o mesmo PDF de outra · **21** sem download · 326.7 MB de PDF.
+**47** fontes com texto · **6** com o mesmo PDF de outra · **21** sem download · 321.9 MB de PDF.
 
 | source_id | título curto | páginas | palavras | baixado em | origem | acesso |
 |---|---|---|---|---|---|---|
@@ -49,7 +49,7 @@
 | `mosaico-2020-oxossi` | Souza 2020 — Oxóssi | 7 | 3491 | 2026-11-01 | [link](https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585) | download direto (acesso aberto) |
 | `nascimento-2001-exus` | Nascimento 2001 — Exus e Pombas-Giras | 7 | 4598 | 2026-11-01 | [link](https://dspace5.ufes.br/items/74b0829a-5d5b-4b6e-be7d-96e66d1e9a23) | download direto (acesso aberto) |
 | `nina-rodrigues-1900-animisme` | Rodrigues 1900 — L'animisme fétichiste des nègres de Bahia | — | — | — | [link](https://babel.hathitrust.org/cgi/pt?id=coo.31924020011759) | https://babel.hathitrust.org/cgi/pt?id=coo.31924020011759: HTTP 403; https://catalog.hathitrust.org/api/volumes/brief/oclc/14780382.json: não é PDF |
-| `nina-rodrigues-1932-africanos` | Rodrigues 1932 — Os africanos no Brasil | 425 | 110285 | 2026-11-01 | [link](https://archive.org/details/osafricanosnobrasil) | PDF sem camada de texto; texto = OCR (_djvu.txt) do Internet Archive |
+| `nina-rodrigues-1932-africanos` | Rodrigues 1932 — Os africanos no Brasil | 425 | 106955 | 2026-11-01 | [link](https://archive.org/details/osafricanosnobrasil) | download direto (acesso aberto) |
 | `noleto-2025-montevideu` | Noleto 2025 — Encruzilhadas do Mercosul | — | — | — | [link](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872025000100101&lng=pt&tlng=pt) | http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0100-85872025000100101&tlng=pt: HTTP 403; http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872025000100101&lng=pt&tlng=pt: HTTP 403; https://doi.org/10.1590/1984-04382025e450102: HTTP 403 |
 | `ogunbunmi-2026-twins` | Ogunbunmi 2026 — Tracing the Origin of Twins’ Birth Through the Yoruba Oral Tradition | 12 | 4713 | 2026-11-01 | [link](https://doi.org/10.32473/ysr.11.1.141497) | download direto (acesso aberto) |
 | `ogungbemi-2021-olodumare` | Ogungbemi 2021 — A Comparative Study of Olodumare, the Yoruba Supreme Being and the… | 24 | — | 2026-11-01 | [link](https://doi.org/10.32473/ysr.v1i1.130014) | PDF sem texto extraível (0 palavras; imagem sem OCR?) |
@@ -77,7 +77,7 @@
 | `ufpb-2011-sao-jorge` | Pinheiro 2011 — São Jorge | 105 | 21031 | 2026-11-01 | [link](https://repositorio.ufpb.br/jspui/handle/tede/6454) | download direto (acesso aberto) |
 | `vallado-2008-iemanja` | Vallado 2008 — Iemanjá, a grande mãe africana do Brasil | 21 | — | 2026-11-01 | [link](https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888) | mesmo PDF que queiroga-nascimento-2019-iemanja (fonte citada de 2ª mão) |
 | `vallier-2011-esu` | Vallier 2011 — Le concept du héros imprévisible. Système religieux yorùbá (Bénin-N… | 38 | 15474 | 2026-11-01 | [link](https://hal.science/hal-02443068/document) | download direto (acesso aberto) |
-| `verger-1957-notes` | Verger 1957 — Notes sur le culte des Orisa et Vodun à Bahia, la Baie de tous les… | — | — | — | — | https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CD84C666BFECA8A973927AAA4E0A17A1/S0361541313000132a.pdf/div-class-title-em-class-italic-notes-sur-le-culte-des-orisa-et-vodun-em-pierre-fatumbi-verger-and-the-study-of-african-traditional-religion-div.pdf: não é PDF |
+| `verger-1957-notes` | Verger 1957 — Notes sur le culte des Orisa et Vodun à Bahia, la Baie de tous les… | — | — | — | — | https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CD84C666BFECA8A973927AAA4E0A17A1/S0361541313000132a.pdf/div-class-title-em-class-italic-notes-sur-le-culte-des-orisa-et-vodun-em-pierre-fatumbi-verger-and-the-study-of-african-traditional-religion-div.pdf: ReadTimeout |
 | `verger-1981-orixas` | Verger 1981 — Orixás | — | — | — | — | https://www.tribunapr.com.br/mais-pop/um-dos-principais-livros-de-fotos-de-pierre-verger-ganha-nova-edicao/amp/: nenhum link de PDF |
 | `verger-1985-lendas` | Verger 1985 — Lendas africanas dos orixás | 7 | — | 2026-11-01 | [link](https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585) | mesmo PDF que mosaico-2020-oxossi (fonte citada de 2ª mão) |
 | `zacharias-2010-olori` | Zacharias 2010 — Olori, o dono da cabeça. Uma tipologia afro-descendente | 13 | 5263 | 2026-11-01 | [link](https://periodicos.ufsc.br/index.php/esbocos/article/view/14762) | download direto (acesso aberto) |

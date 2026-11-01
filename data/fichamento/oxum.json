@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 30,
+    "total": 41,
     "por_status": {
-      "fichado": 30,
+      "fichado": 41,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -583,6 +583,226 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oxum-031",
+      "orixa": "oxum",
+      "atributo": "dominios",
+      "valor": "águas doces (rios, cachoeiras, fontes); amor carnal e a esposa, diante da mãe Iemanjá; abundância, colheitas, fertilidade e males da mulher",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 246–247",
+      "parafrase": "Oxum é deusa das águas doces. Se Iemanjá representa a mãe, Oxum representa a esposa e o amor carnal. É invocada pela fartura das colheitas e contra a esterilidade, e a maioria dos chefes de culto a vê como especialista dos problemas femininos e do baixo-ventre.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-032",
+      "orixa": "oxum",
+      "atributo": "qualidades",
+      "valor": "em geral dezesseis Oxuns: Panda (a mais jovem), Yoba ou Yaba Omi (a mais velha), Abae, Aboto, Apara, Ioni e outras",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 246",
+      "parafrase": "Conta-se habitualmente dezesseis Oxuns, cada uma ligada a um mito próprio, que a autora não conseguiu reunir todos. Em nota, ela arrisca leituras iorubás de Yaba Omi ligadas à água e à mãe.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-033",
+      "orixa": "oxum",
+      "atributo": "itans",
+      "valor": "Oxum Ioni: rainha invadida que foge de jangada e vence os invasores com abarás cheios de força divina",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 246",
+      "parafrase": "Uma Oxum reinava numa terra rica, invadida pelos Ionis. Para não ser presa, fugiu de noite numa jangada e rezou; inspirada, mandou os súditos deixarem abarás na praia. Os invasores, famintos, comeram e caíram mortos, não por veneno, mas pela força divina. Ela retomou o reino, passou a se chamar Oxum Ioni e foi divinizada.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-034",
+      "orixa": "oxum",
+      "atributo": "sincretismo",
+      "valor": "Santa Catarina ou Nossa Senhora do Carmo",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 246",
+      "parafrase": "A autora associa Oxum a Santa Catarina ou a Nossa Senhora do Carmo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-035",
+      "orixa": "oxum",
+      "atributo": "cores",
+      "valor": "amarelo",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 247",
+      "parafrase": "A cor de Oxum é o amarelo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-036",
+      "orixa": "oxum",
+      "atributo": "simbolos",
+      "valor": "metal: ouro ou latão",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 247",
+      "parafrase": "A matéria de Oxum é o ouro ou o latão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-037",
+      "orixa": "oxum",
+      "atributo": "festas",
+      "valor": "30 de novembro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 247",
+      "parafrase": "O dia dedicado a Oxum é 30 de novembro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-038",
+      "orixa": "oxum",
+      "atributo": "dia_semana",
+      "valor": "sábado",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 247",
+      "parafrase": "Oxum é cultuada aos sábados.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-039",
+      "orixa": "oxum",
+      "atributo": "parentesco",
+      "valor": "uma das mulheres de Xangô",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 246–247",
+      "parafrase": "Oxum é uma das esposas de Xangô, com quem vive uma paixão violenta, embora Iansã seja tida como a esposa legítima.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-040",
+      "orixa": "oxum",
+      "atributo": "interpretacao_academica",
+      "valor": "bela, vaidosa e astuta; a astúcia é lendária",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 247",
+      "parafrase": "Oxum é descrita como bonita, vaidosa e cheia de artimanhas, e o truque que pregou em Obá é contado com frequência.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oxum-041",
+      "orixa": "oxum",
+      "atributo": "parentesco",
+      "valor": "filha de Ifá em alguns casos, esposa em outros",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 286",
+      "parafrase": "Como a ajudante do babalaô na adivinhação (apetebi) é sempre filha de Oxum, costuma-se supor um laço entre Oxum e Ifá: em umas versões ela é filha dele, em outras, esposa.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 60,
+    "total": 62,
     "por_status": {
-      "fichado": 56,
+      "fichado": 58,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1168,6 +1168,46 @@
       "evidencias": [
         "https://archive.org/details/yorubaspeakingp00elligoog",
         "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "iemanja-061",
+      "orixa": "iemanja",
+      "atributo": "funcoes",
+      "valor": "aparelho respiratório (asma, pulmões, brônquios)",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 238",
+      "parafrase": "No campo da saúde, além do papel de conselheira e curandeira, atribui-se a Iemanjá o cuidado do aparelho respiratório e dos asmáticos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-062",
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "no transe, os movimentos imitam as ondas",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 237",
+      "parafrase": "Segundo a autora, quem está em transe de Iemanjá reproduz na dança o ondular das ondas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
       ]
     }
   ]
