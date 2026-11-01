@@ -41,7 +41,7 @@ Registros por entidade: Exu 103 · Ogum 66 · Iemanjá 64 · Oxalá 64 · Xangô
 - **Lote D — itãs, odù e oríkì: bloqueado.** Prandi *Mitologia*, Verger *Lendas* e o corpus de Abimbola são impressos ou protegidos (as cópias online não têm licença). Dá para preparar só a estrutura de odù e oríkì com Ellis e Dennett.
 
 - **Sugestões da compl01** ([relatório](pesquisa/complemento-01.md) §4): (a) Vallier 2011 (parte final) e Cerqueira 2015 (377 pp. no acervo; só pp. 82–88, 132, 155, 165 usadas); (b) Halloy pp. 186–814 com cuidado com fundamento; (c) decidir se o **Terecô** vira tradição (Ferreira 2017; PENDENCIAS §3a); (d) conselho: mito de Xangô expulso do balé (fichado e retirado, PENDENCIAS §3) e listas de plantas/terapias de Chiousse.
-- **Acervo → `orixas-fontes` (bloqueado em permissão):** o autor decidiu o repo **privado** `aureliosaraiva/orixas-fontes`; os scripts já apontam para ele, mas a sessão acervo2 não conseguiu anexá-lo (`add_repo` negado). Liberar a permissão e repetir os passos 1–3 de [acervo-02](pesquisa/acervo-02.md). Até lá, cada sessão roda `python3 scripts/baixar_refs.py` (cai no `acervo/` local, efêmero, ~15 min).
+- **Acervo → `orixas-fontes`:** carregado pela orquestradora em 2026-11-01 (51 PDFs, 296 MB, + txt e índice). Sessões trabalhadoras ainda não conseguem anexar o repo (`add_repo` negado para elas); enquanto isso, rodam `python3 scripts/baixar_refs.py` (acervo local efêmero) e a orquestradora sincroniza o repo privado.
 
 **Prioridade: expansão do panteão (Fase 7 antecipada).** Uma sessão = uma entidade (arquivo `data/fichamento/<id>.json`, que só ela edita) ou uma fonte. Entidade sem fonte lida continua "Em pesquisa" no site, sem texto. Modelo e regras em [`modelo-dados-2.md`](modelo-dados-2.md).
 

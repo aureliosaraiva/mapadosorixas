@@ -86,7 +86,7 @@ O `scripts/baixar_refs.py` não obteve o texto destas fontes usadas no fichament
 
 | | Decisão | O que depende | Prioridade |
 |---|---|---|---|
-| 🟡 | **Onde versionar o acervo** | **decidido pelo autor (sessão acervo2, 2026-11-01): repositório PRIVADO `aureliosaraiva/orixas-fontes`** (`main`, push direto). Scripts deste repo já apontam para ele (`ACERVO_DIR`, padrão `../orixas-fontes`; `scripts/acervo_sync.sh pull/push`). **Bloqueio:** a anexação do repo à sessão (`add_repo`, access `push`) foi **negada pelo controle de permissões da sessão** — nada foi clonado nem enviado; privacidade não conferida. **Falta (autor):** liberar `mcp__claude-code-remote__add_repo` nas permissões (ou anexar o repo ao ambiente) e reabrir a tarefa: criar `pdf/`, `txt/`, `indice.json`, `INDICE.md`, `LEIAME.md`, `.gitattributes` e carregar as ~47 obras (~330 MB; Git LFS se algum PDF passar de 100 MB) ([acervo-02](acervo-02.md)) | **P1** |
+| 🟡 | **Acervo no repo privado `orixas-fontes`** | **Carregado pela sessão orquestradora em 2026-11-01:** 51 PDFs (296 MB) + `txt/` (17 MB) + `indice.json`/`INDICE.md`/`LEIAME.md`/`.gitattributes`, push na `main` do repo privado (confirmado privado: 404 sem login). Aviso do GitHub: Frobenius 1912 tem 52,5 MB (acima dos 50 MB recomendados, abaixo do limite de 100 MB). **Falta:** (1) sessões trabalhadoras só conseguem clonar se `mcp__claude-code-remote__add_repo` for permitido para elas — até lá, a orquestradora sincroniza o acervo; (2) repetir `baixar_refs.py` para as fontes que deram `ConnectionError` transitório (Silva 2012, Oro 2008, Parés/USP) e as bloqueadas (SciELO, HathiTrust) | P2 |
 
 ## 2. Obras impressas ou pagas (precisam de exemplar)
 
