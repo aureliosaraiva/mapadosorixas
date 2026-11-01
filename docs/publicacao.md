@@ -2,7 +2,7 @@
 
 **URL prevista:** <https://aureliosaraiva.github.io/mapadosorixas/>
 
-**Estado (2026-11-01, sessão pages): NÃO publicado — o GitHub Pages não está habilitado no repositório.** O push foi feito com autorização do autor e o workflow rodou ([execução nº 1](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41289606381)): validadores, build com o prefixo e `qa_site.py` passaram no runner; o passo **Configurar Pages** falhou com `Get Pages site failed: Not Found` e `Create Pages site failed: Resource not accessible by integration` — o `GITHUB_TOKEN` do workflow não tem permissão para habilitar o Pages (`enablement: true` não basta). Além disso, **o repositório é privado** (API: `private: true`, `has_pages: false`). Não foi contornado. O que o autor precisa fazer está em [Primeira publicação](#primeira-publicação-passos-do-autor) e em [`pesquisa/PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
+**Estado (2026-11-01, sessão pages): NÃO publicado — o GitHub Pages não está habilitado no repositório.** O push foi feito com autorização do autor e o workflow rodou ([execução nº 1](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41289606381)): validadores, build com o prefixo e `qa_site.py` passaram no runner; o passo **Configurar Pages** falhou com `Get Pages site failed: Not Found` e `Create Pages site failed: Resource not accessible by integration` — o `GITHUB_TOKEN` do workflow não tem permissão para habilitar o Pages (`enablement: true` não basta). Além disso, **o repositório é privado** (API: `private: true`, `has_pages: false`). Não foi contornado. **Atualização (2026-11-01):** o autor tornou o repositório público e habilitou o Pages (Source: GitHub Actions). O disparo manual pela API desta sessão deu 403 (a integração não pode usar `workflow_dispatch` nem reexecutar), então a nova execução veio do push deste registro na `main`. O que o autor precisava fazer está em [Primeira publicação](#primeira-publicação-passos-do-autor) e em [`pesquisa/PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
 
 ## O que é publicado
 
@@ -30,8 +30,8 @@ Permissões: `contents: read`, `pages: write`, `id-token: write`; `concurrency: 
 ## Primeira publicação (passos do autor)
 
 1. ~~Autorizar o push~~ (feito em 2026-11-01).
-2. **Repositório privado:** em conta pessoal, o Pages para repositório privado exige GitHub Pro. Escolher: (a) tornar o repositório público (Settings → General → Danger Zone → Change visibility) ou (b) assinar o Pro. Atenção: mesmo com o repositório privado, **o site do Pages é público** (só o Enterprise Cloud permite Pages privado), e o link "issues do repositório" que o site exibe só funciona para quem tem acesso ao repo — com o repo privado, o canal de correções não funciona para o público.
-3. **Habilitar o Pages:** **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. ~~**Repositório privado:**~~ (feito: repositório público em 2026-11-01) em conta pessoal, o Pages para repositório privado exige GitHub Pro. Escolher: (a) tornar o repositório público (Settings → General → Danger Zone → Change visibility) ou (b) assinar o Pro. Atenção: mesmo com o repositório privado, **o site do Pages é público** (só o Enterprise Cloud permite Pages privado), e o link "issues do repositório" que o site exibe só funciona para quem tem acesso ao repo — com o repo privado, o canal de correções não funciona para o público.
+3. ~~**Habilitar o Pages:**~~ (feito pelo autor em 2026-11-01) **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 4. Rodar de novo: **Actions → "Publicar no GitHub Pages (rascunho)" → Run workflow** (branch `main`).
 5. Conferir a URL; a sessão seguinte salva screenshots em `docs/screenshots/pages/` (`BASE=https://aureliosaraiva.github.io/mapadosorixas node site/scripts/screenshots.cjs`, ajustando a pasta de saída).
 
