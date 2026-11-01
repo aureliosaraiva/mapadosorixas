@@ -2,7 +2,7 @@
 
 > Arquivo de passagem entre sessões. **Toda sessão começa lendo este arquivo e termina atualizando-o.** Mantenha-o curto, com no máximo uma página: o detalhe fica nos relatórios linkados.
 
-**Última atualização:** 2026-11-01 (sessões trad02, fichamento-06, fichamento-07 e revisao)
+**Última atualização:** 2026-11-01 (sessões trad02, fichamento-06, fichamento-07, revisao e anticopia)
 
 ## Onde estamos
 
@@ -18,7 +18,7 @@
 | Entidades equivalentes (`data/entidades_equivalentes.json`) | 24 (14 voduns: Legba, Gu, Badé, Sobo e, no fichamento-07, Abê, Naê, Vondereji, Averequete, Xadantã, Doçu, Bedigá, Doçupé, Agüê, Azacá; 3 inquices; 7 nomes fon/banto não classificados) | idem |
 | Tradições (`data/tradicoes.json`) | 19: 16 `com_fonte`, 3 `rascunho_sem_fonte` (benim, arara, orisha_trinidad). Fichamento-07: `candomble_efon` ganhou descrição mínima (Castillo 2022) e as páginas de Halloy em tradições e glossário viraram página impressa (PDF − 1). Sessão trad02: palo_monte e xango_sergipe ganharam fonte; 7 reforçadas ([relatório](pesquisa/tradicoes-02.md)) | idem |
 | Glossário (`data/glossario.json`) | 54 termos com fonte e página (+7 na trad02: Regla de Ocha, Palo Monte, nfumbi, mpungu, cabildo, Xambá, abatá); 6 pendentes em `_meta.pendentes` | idem |
-| Anti-cópia | 0 erros, também contra o texto das 8 obras lidas na rodada do glossário, das 8 lidas na trad02 e das 10 do fichamento-06 e das 3 do fichamento-07 (15 trechos novos reescritos); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
+| Anti-cópia | Sem referências: 0 erros. **Auditoria 01 com o texto integral de 29 obras** ([relatório](pesquisa/anticopia-01.md)): **10 erros** (8+ palavras) em 9 registros (7 de Prandi 2001, 1 de Seixas 2018, 1 de Queiroga & Nascimento 2019; 1 falso positivo) e 31 campos com redação próxima demais; 43 reescritas propostas, **não aplicadas**. Tradições e glossário: 0 erros. Oro 2008 não coberto | `ANTICOPIA_REFS=<pasta> python3 scripts/anticopia.py` |
 | Site (`site/`) | 14 páginas: início com busca, catálogo, 5 fichas (com mini-grafo e termos do glossário ligados), grafo, tradições, glossário, fontes, metodologia, baixar dados, sobre (+ 12 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
 | QA do site | 284/284 versões batem com `data/orixas`; 54/54 termos do glossário e 19/19 tradições conferidos contra os dados (fontes, ano e página); texto das 3 tradições sem fonte ausente do site; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1760 links e âncoras internos sem 404; axe-core sem violações (14 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
 | Revisão do conselho | 0 revisores em `data/revisores.json`, 0 revisões; 37 testes (`tests/test_revisao.py`) e teste ponta a ponta com dados sintéticos numa cópia temporária (`tests/e2e_revisao_site.py`) | `python3 -m unittest discover -s tests`; `python3 tests/e2e_revisao_site.py` |
@@ -30,6 +30,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 
 ## Próximas tarefas (em ordem)
 
+0. **(P1) Aplicar as reescritas da auditoria anti-cópia** ([`anticopia-01`](pesquisa/anticopia-01.md) §3): 10 campos da classe A (erro) e 31 da classe B em `data/fichamento/` (exu, iemanja, ogum, oxossi, xango), 1 nota de `data/tradicoes.json` e 1 definição de `data/glossario.json`. Depois regenerar as fichas e rodar o anti-cópia com as referências (baixar de novo para `/tmp/refs`, com as URLs do §2 do relatório) até 0 erros. Na mesma sessão, ou em outra, ajustar `scripts/anticopia.py` como pede o §5.2 (hifenização, falso positivo de referência bibliográfica, aviso para 6–7 palavras iguais à fonte citada).
 1. **Saudações, itãs e origem africana** dos 5 orixás. Depende de Verger, Prandi (*Mitologia*), Cacciatore e Beniste, que precisam de exemplar → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §2.
 2. **Equivalências com inquices e voduns.** Depende de Castro 2001, Parés 2006 e Lopes 1988 (exemplar). *(Tambor de Mina: feito no fichamento-07 com Prandi 2005, em duas casas, a Casa das Minas (via S. Ferretti, a conferir no original) e a Casa das Minas de Tóia Jarina (SP). Falta o Jeje da Bahia (Parés) e os inquices.)*
 3. **Resolver os 16 `pre_fichamento`.** As fontes são pagas, impressas ou estão fora do ar: Tishken 2009 (3), Brown 1989 (2), Silva & Silva Neto 2025 (2), Verger 1954 (2), Pérez 2013 (2), Ribas 2010 (1, oasisbr fora do ar), Beier 1970, Barnes 1989, Verger 1981 e Carneiro 1948 (1 cada).
@@ -47,7 +48,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 
 **Sugestões da varredura 3:** P1 fichadas em 2026-11-01, menos as 4 bloqueadas (tarefa 4). As afirmações da trad02 sobre os 5 orixás já foram fichadas. Próximas candidatas abertas: Argyriadis 2005 e M. Ferretti 2001 (lidos pela trad02 só para as tradições), e o restante da tese de Halloy. ~~**Sugestão do fichamento-06:** Castillo 2022 como pista para `candomble_efon`~~ (feito no fichamento-07). **Sugestões do fichamento-07:** (a) conferir em S. Ferretti, *Querebentã*, o panteão da Casa das Minas lido via Prandi; (b) ler o resto de M. Ferretti 2001 (pp. 84–94) para voduns e orixás na Casa de Nagô; (c) fichar a "fiesta de Elegguá" do central Méjico (Toutain, p. 57: 22–24 de outubro). Repetir a coleta para BDTD e OpenAlex quando estiverem acessíveis (`scripts/coleta/coletar.py --bases bdtd,openalex`).
 
-**Sugestões da sessão do glossário:** (a) ~~ler Prandi 2005 inteiro~~ (feito no fichamento-07); (b) repetir o anti-cópia com referências para as obras das rodadas 1–4 que ainda não passaram por ele (Nogueira 2017, Pinheiro 2011, Costa 2007, Blass 2007 etc.); (c) ~~glossário no site com links a partir das fichas~~ (feito na sessão site2).
+**Sugestões da sessão do glossário:** (a) ~~ler Prandi 2005 inteiro~~ (feito no fichamento-07); (b) ~~repetir o anti-cópia com referências para as obras das rodadas 1–4~~ (feito na sessão anticopia: 10 erros, ver tarefa 0); (c) ~~glossário no site com links a partir das fichas~~ (feito na sessão site2).
 
 ## Decisões já tomadas
 
@@ -102,6 +103,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 | `scripts/coleta/` | coleta por API, deduplicação, triagem e incorporação ao catálogo (ver `README.md`) |
 | `data/fontes/coleta/<data>/` | saída bruta da coleta por base, `candidatos.json`, `triagem.json`, `triagem_resumo.json` |
 | `docs/pesquisa/fichamento-0*.md` | rodadas de fichamento (fontes lidas, correções, divergências) |
+| `docs/pesquisa/anticopia-01.md` | auditoria anti-cópia com o texto integral de 29 obras: trechos suspeitos e reescritas propostas |
 | `docs/pesquisa/tradicoes-02.md` | 2ª rodada de tradições e glossário; afirmações sobre os 5 orixás a encaminhar |
 | `data/fontes/catalogo.json` | catálogo de fontes (esquema em `schemas/fonte.schema.json`) |
 | `data/fichamento/<orixa>.json` | registros atômicos por orixá (esquema em `schemas/fichamento.schema.json`) |
