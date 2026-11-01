@@ -100,7 +100,7 @@
       "source_id": "bowen-1857-adventures",
       "via_source_id": "prandi-2001-exu-diabo",
       "localizacao": "p. 48",
-      "parafrase": "O pastor Bowen (1857) afirmou que em iorubá o diabo se chama Exu e explicou o nome Elegbara como 'o poderoso'; o abade Bouche (1885) disse que os africanos chamavam Satã de Elegbara, 'aquele que se apodera de nós'.",
+      "parafrase": "O pastor Bowen (1857) afirmou que em iorubá o diabo se chama Exu e explicou o nome Elegbara como 'o poderoso'; o abade Bouche (1885) disse que os africanos chamavam Satã de Elegbara, termo que ele traduzia como o que se apossa das pessoas.",
       "nota": "Também bouche-1885-cote. Etimologias de missionários: não tomar como verdade linguística sem fonte especializada.",
       "status": "fichado",
       "evidencias": [
@@ -138,7 +138,7 @@
       "source_id": "baudin-1884-fetichisme",
       "via_source_id": "prandi-2001-exu-diabo",
       "localizacao": "pp. 48–49",
-      "parafrase": "Baudin descreve a imagem de Exu colocada diante das casas, praças e caminhos: figura humana de barro, sentada, com cabeça grande, penas como cabelo e búzios como olhos e dentes, que recebe azeite de dendê e sangue de galinha; ao lado ficam cabos de enxada e bastões nodosos; os abutres seriam seus mensageiros.",
+      "parafrase": "Baudin descreve a imagem de Exu colocada diante das casas, praças e caminhos: figura humana de barro, sentada, com cabeça grande, penas como cabelo e búzios como olhos e dentes, que em ocasiões importantes é banhada em dendê e em sangue de galinha; ao lado ficam cabos de enxada e bastões nodosos; os abutres seriam seus mensageiros.",
       "nota": "Descrição útil, mas carregada de repulsa missionária.",
       "status": "fichado",
       "evidencias": [
@@ -196,7 +196,7 @@
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
       "localizacao": "p. 49",
-      "parafrase": "Prandi lembra que Bastide, nos anos 1950, chamou Exu de divindade caluniada, e que Juana Elbein dos Santos foi praticamente a primeira pesquisadora no Brasil a se dedicar a recuperar seus atributos africanos, encobertos pelas reinterpretações católicas.",
+      "parafrase": "Prandi lembra que Bastide, nos anos 1950, chamou Exu de divindade caluniada, e que Juana Elbein dos Santos foi, na prática, a pioneira no Brasil no esforço de resgatar os atributos africanos de Exu, que as reinterpretações católicas tinham encoberto.",
       "nota": "Bastide (1978, p. 175); Santos (1976, p. 130 ss.). CORRIGE pré-fichamento anterior, que incluía Verger nesse ponto.",
       "status": "fichado",
       "evidencias": [
@@ -227,7 +227,7 @@
       "id": "exu-012",
       "orixa": "exu",
       "atributo": "tabus",
-      "valor": "deve ser propiciado sempre que outro orixá recebe oferenda",
+      "valor": "tem de ser propiciado em toda oferenda feita a outro orixá",
       "tradicoes": [
         "ioruba_nigeria",
         "candomble_ketu"
@@ -275,7 +275,7 @@
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
       "localizacao": "pp. 50–51",
-      "parafrase": "Exu é o patrono da cópula que gera filhos e garante a continuidade das famílias e do povo; dessa ligação com a reprodução, expressa nos símbolos fálicos, nasceu sua imagem mítica de libidinoso.",
+      "parafrase": "Na leitura de Prandi, Exu preside o ato sexual de que nascem os filhos e, por isso, assegura a sobrevivência das linhagens e do povo; foi esse vínculo com a procriação, tornado visível nos emblemas fálicos, que lhe deu a fama mítica de libidinoso.",
       "nota": null,
       "status": "fichado",
       "evidencias": [
@@ -372,7 +372,7 @@
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
       "localizacao": "p. 54",
-      "parafrase": "Incorporado na Umbanda/quimbanda, Exu aparece com capa preta e vermelha e tridente, imita cascos, gargalha, bebe e fuma — muito diferente do mensageiro brincalhão dos iorubás.",
+      "parafrase": "Incorporado na Umbanda/quimbanda, Exu usa capa vermelha e preta e tridente, imita cascos, gargalha, bebe e fuma — muito diferente do mensageiro brincalhão dos iorubás.",
       "nota": null,
       "status": "fichado",
       "evidencias": [
@@ -609,7 +609,7 @@
       "source_id": "carneiro-1948-candombles",
       "via_source_id": "prandi-2001-exu-diabo",
       "localizacao": "p. 62",
-      "parafrase": "Edison Carneiro registrou que não se dizia que alguém era filho de Exu, mas que tinha um carrego de Exu, obrigação vitalícia entregue a Ogunjá — um Ogum que mora com Oxóssi e Exu e come comida crua.",
+      "parafrase": "Edison Carneiro anotou que ninguém era tido como filho de Exu: dizia-se que a pessoa tinha com ele um carrego, compromisso para a vida inteira, confiado a Ogunjá, forma de Ogum que divide o assentamento com Oxóssi e Exu e recebe alimento cru.",
       "nota": "Carneiro (1954, 2ª ed., p. 77).",
       "status": "fichado",
       "evidencias": [
@@ -648,7 +648,7 @@
       "source_id": "prandi-2001-exu-diabo",
       "via_source_id": null,
       "localizacao": "pp. 62–63",
-      "parafrase": "Com a dessincretização, Exu tende a voltar a ser o orixá mensageiro que detém a transformação e o movimento, vive na estrada, frequenta as encruzilhadas e guarda a porta das casas — nem santo nem demônio.",
+      "parafrase": "Com a dessincretização, abre-se para Exu a possibilidade de reassumir apenas o papel de orixá mensageiro, senhor da mudança e do movimento, que anda pelos caminhos, ronda as encruzilhadas e vigia a entrada das casas — sem ser santo nem demônio.",
       "nota": null,
       "status": "fichado",
       "evidencias": [
@@ -980,7 +980,7 @@
       "source_id": "silva-2012-exu-brasil",
       "via_source_id": null,
       "localizacao": "p. 1087",
-      "parafrase": "Entre fons e iorubás, Legba ou Exu é um deus mensageiro, ligado à fertilidade e ao dinamismo, que tomou parte na criação do mundo; guarda a ordem e, por ser trickster, também a desordem, e é saudado sempre em primeiro lugar.",
+      "parafrase": "Entre fons e iorubás, Legba ou Exu é o mensageiro divino; associado à fertilidade e ao dinamismo, esteve presente na criação do mundo; zela pela ordem e, como trickster, também pela desordem, e recebe sempre a primeira saudação.",
       "nota": null,
       "status": "fichado",
       "evidencias": [
@@ -1000,7 +1000,7 @@
       "source_id": "silva-2012-exu-brasil",
       "via_source_id": null,
       "localizacao": "p. 1087",
-      "parafrase": "Na África Ocidental, Exu é cultuado numa pedra de laterita, num monte de terra em forma de cabeça com grande falo, ou numa estátua com búzios; leva um cajado fálico com que se desloca.",
+      "parafrase": "Na África Ocidental, o culto a Exu pode ter como suporte uma pedra de laterita, um monte de terra modelado como cabeça humana do qual sai um grande falo, ou uma estátua ornada de búzios; ele empunha um cajado fálico que usa para se deslocar.",
       "nota": null,
       "status": "fichado",
       "evidencias": [
@@ -1011,7 +1011,7 @@
     {
       "orixa": "exu",
       "atributo": "animais",
-      "valor": "bodes, galos pretos, cães e porcos (sacrifício na África Ocidental)",
+      "valor": "bodes, cães, porcos e galos pretos (sacrifício na África Ocidental)",
       "tradicoes": [
         "ioruba_nigeria",
         "vodun_benim"
@@ -1020,7 +1020,7 @@
       "source_id": "silva-2012-exu-brasil",
       "via_source_id": null,
       "localizacao": "p. 1087",
-      "parafrase": "Na África Ocidental, Exu recebe sangue de bodes, galos pretos, cães e porcos, além de bebidas alcoólicas e azeite de dendê.",
+      "parafrase": "Na África Ocidental, o sacrifício a Exu inclui sangue de animais — bodes, cães, porcos e galos pretos — e libações de bebida alcoólica e de dendê.",
       "nota": "Informação etnográfica geral; não detalhar ritos.",
       "status": "fichado",
       "evidencias": [
@@ -1111,7 +1111,7 @@
     {
       "orixa": "exu",
       "atributo": "qualidades",
-      "valor": "menos de uma dezena de avatares no candomblé (Tiriri, Lonã, Marabô...); legiões na Umbanda",
+      "valor": "menos de dez avatares no candomblé (Tiriri, Lonã, Marabô...); legiões na Umbanda",
       "tradicoes": [
         "candomble_ketu",
         "umbanda"
@@ -1178,7 +1178,7 @@
       "source_id": "silva-2012-exu-brasil",
       "via_source_id": null,
       "localizacao": "p. 1100",
-      "parafrase": "Segundo o mito, Exu circula pelo tempo e pelo espaço, nas quatro direções, por meio do bastão que carrega; por isso a encruzilhada é lugar preferido de suas oferendas.",
+      "parafrase": "Segundo o mito, é com o bastão que leva que Exu percorre o tempo e o espaço, nas quatro direções; por isso a encruzilhada, ponto de encontro dos caminhos, é lugar preferido de suas oferendas.",
       "nota": null,
       "status": "fichado",
       "evidencias": [
@@ -1238,7 +1238,7 @@
       "source_id": "ufg-2017-exu-umbanda",
       "via_source_id": null,
       "localizacao": "pp. 384–385",
-      "parafrase": "Nogueira propõe que o Exu entendido como espírito de morto se formou nas primeiras décadas do século XX, na troca entre os terreiros baianos, de onde vinham os orixás, e as macumbas do Rio, onde circulavam ideias espíritas. Quando Leal de Souza publicou a primeira codificação umbandista, em 1933, Exu já aparecia como entidade, ligado a uma 'linha negra' que o autor separava da Umbanda; mesmo assim, em muitos terreiros cariocas Exu era cultuado junto de pretos-velhos e caboclos.",
+      "parafrase": "Nogueira propõe que o Exu entendido como espírito de morto se formou nas primeiras décadas do século XX, na troca entre os terreiros baianos, de onde vinham os orixás, e as macumbas do Rio, onde circulavam ideias espíritas. Quando Leal de Souza publicou, em 1933, o primeiro texto a codificar a Umbanda, Exu já aparecia como entidade, ligado a uma 'linha negra' que o autor separava da Umbanda; mesmo assim, em muitos terreiros cariocas Exu era cultuado junto de pretos-velhos e caboclos.",
       "nota": "Hipótese do autor ('é provável', 'teria se formado'). Leal de Souza (1933) e João de Freitas (1941) não estão no catálogo.",
       "status": "fichado",
       "evidencias": [
@@ -1413,7 +1413,7 @@
       "source_id": "costa-1980-exu-umbanda",
       "via_source_id": null,
       "localizacao": "PDF pp. 15–16",
-      "parafrase": "Costa apresenta a Pomba-Gira como o exu feminino habitual nas sessões de exus e, citando Kochmeyer, aproxima o nome do correspondente de Exu na nação Angola. Na versão corrente entre os pais de santo ouvidos, ela teria sido em vida mulher de sete exus e é procurada sobretudo para questões amorosas e sexuais.",
+      "parafrase": "Costa apresenta a Pomba-Gira como o exu feminino habitual nas sessões de exus e, citando Kochmeyer, aproxima o nome do correspondente de Exu na nação Angola. Na versão corrente entre os pais de santo ouvidos, ela teria sido, quando viva, companheira de sete exus e é procurada sobretudo para questões amorosas e sexuais.",
       "nota": "A aproximação com a nação Angola é de Kochmeyer, citado por Costa (não conferido). Comparar com exu-061.",
       "status": "fichado",
       "evidencias": [
@@ -1492,7 +1492,7 @@
       "source_id": "nascimento-2001-exus",
       "via_source_id": null,
       "localizacao": "pp. 109–111",
-      "parafrase": "Os autores registram que a ligação de exus e pombas-giras com ruas, encruzilhadas e cemitérios é quase constante nos pontos, mas ressalvam que isso não indica morada: as entidades estariam nesses lugares por afinidade ou pelo tipo de trabalho que fazem ali.",
+      "parafrase": "Os autores notam que, nos pontos, exus e pombas-giras aparecem quase sempre ligados a ruas, encruzilhadas e cemitérios, mas advertem que isso não significa que morem ali: estariam nesses lugares por afinidade ou em razão dos trabalhos que neles realizam.",
       "nota": "Comparar com exu-058 (Silva 2012).",
       "status": "fichado",
       "evidencias": [
@@ -1799,7 +1799,7 @@
       "source_id": "ferretti-1985-querebenta",
       "via_source_id": "prandi-2005-pegadas-voduns",
       "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
-      "parafrase": "Segundo o texto, na Casa das Minas Legba fica sem culto organizado e é associado a Satanás, ao mal; não é aceito como mensageiro, tarefa que lá cabe aos voduns jovens chamados toqüéns. Restam poucos gestos rituais, como cantigas no começo de cada tambor pedindo que ele se afaste. Em outros terreiros importantes de São Luís, porém, Legba tem lugar de destaque.",
+      "parafrase": "Segundo o texto, na Casa das Minas Legba fica sem culto organizado e é associado a Satanás, ao mal; lá ele não exerce a função de mensageiro, que pertence aos voduns jovens chamados toqüéns. Restam poucos gestos rituais, como cantigas no começo de cada tambor pedindo que ele se afaste. Em outros terreiros importantes de São Luís, porém, Legba tem lugar de destaque.",
       "nota": "Diverge de exu-093 (casa paulista derivada da mina, onde Legbara é assentado e propiciado).",
       "status": "fichado",
       "evidencias": [
@@ -1810,7 +1810,7 @@
       "id": "exu-093",
       "orixa": "exu",
       "atributo": "historia_culto",
-      "valor": "Legbara assentado para a casa e para muitos filhos, com quarto próprio, e propiciado nas grandes obrigações",
+      "valor": "Legbara com assentamento coletivo, da casa e de muitos filhos, em quarto próprio, e cultuado nas obrigações maiores",
       "tradicoes": [
         "tambor_de_mina"
       ],

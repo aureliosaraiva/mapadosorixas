@@ -95,13 +95,13 @@
         "source_id": "bastide-1958-candomble",
         "via_source_id": null,
         "localizacao": "ed. pt 1961, p. 92",
-        "parafrase": "Bastide chama Iemanjá e Oxum de deusas da água salgada e da água doce, ambas vaidosas, o que explica o tipo de presente que recebem.",
+        "parafrase": "Bastide chama Iemanjá e Oxum de deusas do mar e das águas doces, ambas vaidosas, o que explica o tipo de presente que recebem.",
         "nota": null,
         "registro": "iemanja-030",
         "status": "fichado"
       },
       {
-        "valor": "o mais poderoso dos orixás, porque preside as águas (segundo Verger)",
+        "valor": "o orixá de maior poder, por reger as águas (segundo Verger)",
         "tradicoes": [
           "ioruba_nigeria",
           "candomble_ketu"
@@ -117,13 +117,13 @@
         "source_id": "verger-1957-notes",
         "via_source_id": "seixas-2018-maria-iemanja",
         "localizacao": "p. 115 (Seixas); Verger, Notas (Edusp 2000), p. 293",
-        "parafrase": "Segundo Verger, Iemanjá seria o mais poderoso dos orixás, porque governa as águas, sem as quais nada se faz.",
-        "nota": "CORRIGE pré-registro: a frase 'divindade das águas doces e salgadas' é da autora Seixas, não de Verger.",
+        "parafrase": "Segundo Verger, Iemanjá teria mais poder que qualquer outro orixá, já que rege as águas, de que toda ação depende.",
+        "nota": "CORRIGE pré-registro: a caracterização de Iemanjá como senhora das águas doces e das salgadas é da própria Seixas, não de Verger.",
         "registro": "iemanja-036",
         "status": "fichado"
       },
       {
-        "valor": "culto original ligado ao plantio e colheita do inhame e à pesca",
+        "valor": "na origem africana, ligado à lavoura do inhame (plantio e colheita) e à pesca",
         "tradicoes": [
           "ioruba_nigeria"
         ],
@@ -138,7 +138,7 @@
         "source_id": "vallado-2008-iemanja",
         "via_source_id": "queiroga-nascimento-2019-iemanja",
         "localizacao": "PDF p. 2",
-        "parafrase": "O culto original de Iemanjá também a liga ao plantio e à colheita do inhame e à pesca.",
+        "parafrase": "Em sua forma africana original, o culto a Iemanjá também se relacionava com o cultivo e a colheita do inhame e com a pesca.",
         "nota": null,
         "registro": "iemanja-040",
         "status": "fichado"
@@ -323,7 +323,7 @@
         "status": "fichado"
       },
       {
-        "valor": "sexta-feira (com Odé, 'o filho que ela traz ao colo')",
+        "valor": "sexta-feira (dividida com Odé, tido como o filho que Iemanjá carrega no colo)",
         "tradicoes": [
           "batuque_rs"
         ],
@@ -845,7 +845,7 @@
         "source_id": "bastide-1958-candomble",
         "via_source_id": null,
         "localizacao": "ed. pt 1961, p. 93",
-        "parafrase": "Nem todo ponto da praia serve para as oferendas; há lugares privilegiados, como o Dique, Montserrat e a praia do Rio Vermelho.",
+        "parafrase": "Nem todo trecho da orla serve às oferendas; certos locais são os preferidos, como o Dique, Montserrat e a praia do Rio Vermelho.",
         "nota": null,
         "registro": "iemanja-028",
         "status": "fichado"
@@ -954,7 +954,7 @@
         "source_id": "teixeira-2021-iemanja",
         "via_source_id": null,
         "localizacao": "Resumo",
-        "parafrase": "No Rio de Janeiro, a festa do Mercadão de Madureira (17ª edição na pesquisa) ocupa todo o mês de dezembro, com oferendas e pedidos escritos diante da estátua de Iemanjá, e se destaca por homenagear a divindade sem santos católicos associados.",
+        "parafrase": "No Rio de Janeiro, a festa do Mercadão de Madureira (17ª edição na pesquisa) se estende por dezembro inteiro: os devotos deixam oferendas e bilhetes com pedidos junto à estátua de Iemanjá, e a festa se distingue por homenagear a divindade sem associá-la a santos católicos.",
         "nota": null,
         "registro": "iemanja-047",
         "status": "fichado"
@@ -1020,7 +1020,7 @@
         "source_id": "augras-1989-yiami",
         "via_source_id": "prandi-2001-exu-diabo",
         "localizacao": "p. 51",
-        "parafrase": "Seguindo Monique Augras, Prandi afirma que vários traços africanos das Grandes Mães, inclusive Iemanjá e Oxum, foram suavizados ou apagados no culto brasileiro e passaram a compor a imagem 'pecaminosa' de Pombagira.",
+        "parafrase": "Apoiado em Monique Augras, Prandi sustenta que muitos traços africanos das Grandes Mães — Iemanjá e Oxum entre elas — foram amenizados ou suprimidos no Brasil e acabaram transferidos para a figura de Pombagira, vista como 'pecaminosa'.",
         "nota": null,
         "registro": "iemanja-002",
         "status": "fichado"
