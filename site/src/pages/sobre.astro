@@ -39,6 +39,7 @@ const revisados = fichas.reduce((n, f) => n + versoesRevisadas(f), 0);
   <p>O formato — catálogo com filtros, grafo de conexões, fichas com fontes e página de metodologia — foi inspirado no <a href="https://mapadelaconsciencia.es/">Mapa de la Conciencia</a>, uma enciclopédia interativa sobre outro tema. Os detalhes do método e das limitações estão em <a href={url('metodologia')}>Metodologia</a>.</p>
 
   <h2 id="estado">Estado atual</h2>
+  <p>Esta é a <strong>versão inicial</strong>, publicada no GitHub Pages como rascunho público e ainda em revisão: as páginas não são indexadas por buscadores até a revisão do conselho, e correções vão pelas <a href={`${REPO}/issues`}>issues do repositório</a>.</p>
   <ul>
     <li><strong>Fichas:</strong> {fichas.length} orixás do MVP ({fichas.map((f) => f.rotulo).join(', ')}). A meta seguinte é chegar a cerca de 15 orixás cultuados no Brasil.</li>
     <li><strong>Grafo:</strong> {conexoes.nos.length} nós e {conexoes.arestas.length} conexões com fonte.</li>

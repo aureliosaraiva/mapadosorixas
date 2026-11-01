@@ -37,7 +37,12 @@ Confere, sem rede e só com a biblioteca padrão:
    ou que revogaram o consentimento não aparecem por nome em nenhuma página.
 
 Uso: python3 scripts/qa_site.py [--dist site/dist]
-Respeita SITE_BASE (o mesmo do build) para resolver links absolutos.
+Respeita SITE_BASE (o mesmo do build; padrão /mapadosorixas, o subcaminho do
+GitHub Pages; SITE_BASE=/ para a raiz) para resolver links absolutos: link
+absoluto fora do prefixo conta como quebrado.
+10. Publicação (rascunho): faixa "Rascunho — aguardando revisão…" em TODAS as
+   páginas; Início com o aviso de versão inicial em revisão e link para as
+   issues; nenhum <link rel=canonical>/sitemap que convide indexação.
 """
 import html
 import json
@@ -59,6 +64,11 @@ SELO = "Rascunho — aguardando revisão de praticantes e pesquisadores"
 VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 
 erros: list[str] = []
+
+
+def site_base() -> str:
+    """Prefixo do site, igual ao de site/astro.config.mjs ('' quando na raiz)."""
+    return (os.environ.get("SITE_BASE", "/mapadosorixas") or "/").rstrip("/")
 
 
 def erro(msg: str) -> None:
@@ -321,7 +331,7 @@ def conferir_proibidos(dist: Path, fichas: dict, registros: list) -> int:
 # ----------------------------------------------------------------- 3 e 4: páginas e links
 
 def conferir_paginas_e_links(dist: Path) -> tuple[int, int]:
-    base = (os.environ.get("SITE_BASE") or "/").rstrip("/")
+    base = site_base()
     paginas = sorted(dist.rglob("*.html"))
     ids_cache: dict[Path, set] = {}
 
@@ -624,6 +634,31 @@ def conferir_sobre(dist: Path) -> None:
             erro(f"[sobre] e-mail exposto em {pag.relative_to(dist)}")
 
 
+# ----------------------------------------------------------------- 10: publicação em rascunho
+
+ISSUES = re.compile(r"github\.com/[^/]+/[^/]+/issues")
+
+
+def conferir_publicacao(dist: Path) -> None:
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        doc = parse(pag)
+        faixa = doc.primeiro("div", "faixa-rascunho")
+        if faixa is None or SELO not in norm(faixa.texto()):
+            erro(f"[rascunho] {pag.relative_to(dist)}: falta a faixa de rascunho")
+        if any("canonical" in l.attrs.get("rel", "") for l in doc.busca("link")):
+            erro(f"[rascunho] {pag.relative_to(dist)}: <link rel=canonical> não deve existir enquanto o site é rascunho")
+    if list(dist.glob("sitemap*.xml")):
+        erro("[rascunho] sitemap publicado: não convidar indexação até a revisão")
+    inicio = parse(dist / "index.html")
+    aviso = inicio.primeiro("div", "aviso-versao")
+    if aviso is None:
+        erro("[rascunho] Início: falta o aviso de versão inicial em revisão")
+    elif not any(ISSUES.search(a.attrs.get("href", "")) for a in aviso.busca("a")):
+        erro("[rascunho] Início: o aviso de versão inicial não linka para as issues")
+
+
 # ----------------------------------------------------------------- 9: revisão (privacidade)
 
 def conferir_revisores(dist: Path) -> int:
@@ -664,6 +699,7 @@ def main():
     ntermos, nligados = conferir_glossario(dist, fontes)
     ntrad, nrasc = conferir_tradicoes(dist, fontes)
     conferir_sobre(dist)
+    conferir_publicacao(dist)
     nrevisores = conferir_revisores(dist)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
     nrev_vers = sum(1 for f in fichas.values() for vs in f["atributos"].values() for v in vs if v.get("revisoes"))
@@ -671,7 +707,8 @@ def main():
           f"{npro} registros proibidos (pré-fichamento/retidos) procurados; {npag} páginas, {nlinks} links internos; "
           f"{ndados} arquivos em dados/; glossário: {ntermos} termos, {nligados} links de termo nas páginas; "
           f"tradições: {ntrad} exibidas, {nrasc} com descrição pendente de fonte (texto ausente do site); "
-          f"revisão: {nrevisores} revisor(es) cadastrado(s), {nrev_vers} versão(ões) com revisão exibida")
+          f"revisão: {nrevisores} revisor(es) cadastrado(s), {nrev_vers} versão(ões) com revisão exibida; "
+          f"prefixo: {site_base() or '/'}")
     if erros:
         print(f"\n{len(erros)} erro(s):")
         for e in erros:

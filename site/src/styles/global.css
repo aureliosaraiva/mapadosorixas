@@ -45,6 +45,10 @@ main { max-width: var(--largura); margin: 0 auto; padding: 1rem; }
 .rodape { border-top: 1px solid var(--borda); background: var(--fundo-2); color: var(--texto-2); font-size: .9rem; }
 .rodape .interno { max-width: var(--largura); margin: 0 auto; padding: 1rem; }
 
+.faixa-rascunho { background: var(--aviso-fundo); border-bottom: 2px solid var(--aviso-borda); color: #3d3000; padding: .35rem 1rem; font-size: .9rem; text-align: center; }
+.faixa-rascunho strong { margin-right: .5rem; }
+.faixa-rascunho a { color: #3d3000; }
+.cabecalho .faixa-rascunho :focus-visible { outline-color: var(--foco); }
 .selo { border: 2px solid var(--aviso-borda); background: var(--aviso-fundo); color: #3d3000; padding: .6rem .9rem; border-radius: var(--raio); font-weight: 600; margin: .5rem 0 1rem; }
 .selo small { display: block; font-weight: 400; margin-top: .2rem; }
 .selo-revisado { border: 2px solid var(--borda); border-left: 6px solid var(--destaque); background: var(--fundo-2); padding: .6rem .9rem; border-radius: var(--raio); margin: .5rem 0 1rem; }

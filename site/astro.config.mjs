@@ -1,11 +1,14 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// Deploy e domínio ainda não definidos (ver docs/pesquisa/PENDENCIAS.md).
-// SITE_BASE permite publicar num subcaminho (ex.: GitHub Pages: /mapadosorixas).
+// Publicação: GitHub Pages em https://aureliosaraiva.github.io/mapadosorixas/ (ver docs/publicacao.md).
+// SITE_BASE troca o subcaminho (SITE_BASE=/ para servir na raiz, ex.: domínio próprio);
+// SITE_URL troca a origem. scripts/qa_site.py usa o mesmo padrão de SITE_BASE.
+const BASE = (process.env.SITE_BASE ?? '/mapadosorixas') || '/';
 export default defineConfig({
   output: 'static',
-  base: process.env.SITE_BASE || '/',
+  site: process.env.SITE_URL || 'https://aureliosaraiva.github.io',
+  base: BASE,
   trailingSlash: 'ignore',
   build: { format: 'directory' },
   vite: {

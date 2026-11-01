@@ -1,8 +1,8 @@
-// Tira screenshots das páginas principais do site servido em BASE (padrão http://localhost:4321).
+// Tira screenshots das páginas principais do site servido em BASE (padrão http://localhost:4321/mapadosorixas, o prefixo do build).
 // Uso: npm run build && npx astro preview & node scripts/screenshots.cjs
 const { chromium } = require('playwright');
 const path = require('path');
-const BASE = process.env.BASE || 'http://localhost:4321';
+const BASE = process.env.BASE || 'http://localhost:4321/mapadosorixas';
 const SAIDA = path.resolve(__dirname, '../../docs/screenshots');
 const paginas = [
   ['inicio', '/'],

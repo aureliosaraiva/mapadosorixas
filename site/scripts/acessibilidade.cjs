@@ -1,6 +1,8 @@
 // Acessibilidade básica com axe-core (WCAG 2.1 A/AA + boas práticas) em todas as
 // páginas HTML de dist/, servidas por um servidor estático local embutido.
 // Uso: npm run build && node scripts/acessibilidade.cjs
+// Serve dist/ sob o mesmo prefixo do build (SITE_BASE, padrão /mapadosorixas, como no
+// GitHub Pages): pedido fora do prefixo dá 404, então link sem base aparece como erro.
 // Falha (exit 1) com violações de impacto "serious" ou "critical"; as demais são listadas.
 const http = require('http');
 const fs = require('fs');
@@ -9,11 +11,16 @@ const { chromium } = require('playwright');
 
 const DIST = path.resolve(__dirname, '../dist');
 const AXE = require.resolve('axe-core/axe.min.js');
+const PREFIXO = ((process.env.SITE_BASE ?? '/mapadosorixas') || '/').replace(/\/$/, '');
 const TIPOS = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.txt': 'text/plain; charset=utf-8', '.wasm': 'application/wasm' };
 
 function servidor() {
   return http.createServer((req, res) => {
     let p = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+    if (PREFIXO) {
+      if (p !== PREFIXO && !p.startsWith(PREFIXO + '/')) { res.writeHead(404); return res.end('404 (fora do prefixo)'); }
+      p = p.slice(PREFIXO.length) || '/';
+    }
     let f = path.join(DIST, p);
     if (!f.startsWith(DIST)) { res.writeHead(403); return res.end(); }
     if (fs.existsSync(f) && fs.statSync(f).isDirectory()) f = path.join(f, 'index.html');
@@ -41,7 +48,7 @@ function paginas(dir = DIST, base = '') {
     page.on('response', (r) => { if (r.status() >= 400) erros404.push(`${r.status()} ${r.url()}`); });
     page.on('pageerror', (e) => erros404.push(`erro JS em ${page.url()}: ${e.message}`));
     for (const p of paginas()) {
-      await page.goto(`http://localhost:${porta}${p}`, { waitUntil: 'networkidle' });
+      await page.goto(`http://localhost:${porta}${PREFIXO}${p}`, { waitUntil: 'networkidle' });
       await page.waitForTimeout(p.includes('grafo') || p.includes('orixas') ? 800 : 200);
       await page.addScriptTag({ path: AXE });
       const r = await page.evaluate(async () => {

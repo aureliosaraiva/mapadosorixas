@@ -1,0 +1,93 @@
+name: Publicar no GitHub Pages (rascunho)
+
+# Publica o site em https://aureliosaraiva.github.io/mapadosorixas/ como rascunho público
+# (selo em todas as páginas e noindex). Ver docs/publicacao.md.
+# Só publica se os validadores, o build e o QA do site passarem.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# um deploy de Pages por vez; não cancela um deploy em andamento
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  SITE_BASE: /mapadosorixas
+  SITE_URL: https://aureliosaraiva.github.io
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install jsonschema
+
+      # validadores do CLAUDE.md (fechamento de sessão)
+      - name: Fontes
+        run: python3 scripts/validar_fontes.py
+      - name: Fichamento e revisões
+        run: |
+          BASE="${{ github.event.before }}"
+          git cat-file -e "$BASE^{commit}" 2>/dev/null || BASE="HEAD~1"
+          git cat-file -e "$BASE^{commit}" 2>/dev/null || BASE="HEAD"
+          python3 scripts/validar_fichamento.py --base "$BASE"
+      - name: Divergências em dia
+        run: |
+          python3 scripts/divergencias.py
+          git diff --exit-code data/fichamento/divergencias.json
+      - name: Fichas e grafo em dia com o fichamento
+        run: |
+          python3 scripts/gerar_fichas.py
+          git diff --exit-code data/
+      - name: Fichas, grafo, entidades, tradições e glossário
+        run: python3 scripts/validar_fichas.py
+      - name: Anti-cópia
+        run: python3 scripts/anticopia.py
+
+      # build com o prefixo do Pages
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Instalar dependências do site
+        working-directory: site
+        run: npm ci
+      - name: Build do site (Astro + Pagefind) com base /mapadosorixas
+        working-directory: site
+        run: npm run build
+      - name: QA do site (versões, pré-fichamento/retidos, selo, noindex, links com o prefixo, downloads)
+        run: python3 scripts/qa_site.py
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Enviar artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
