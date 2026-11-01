@@ -1,0 +1,1222 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/ossaim.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "ossaim",
+  "titulo": "Ossaim, as folhas, o mato e o segredo das ervas",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Sem folha não há rito: banho, iniciação ou cura passam todos pelas plantas, e as plantas pertencem a Ossaim. É um orixá que quase nunca dança na roda, mas de quem a casa inteira depende, e que os terreiros descrevem ao mesmo tempo como dono do mato, curador e figura difícil de definir "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O nome português chega em várias grafias, Ossaim, Ossãe, Ossanhe e Ossanha, todas derivadas do iorubá Osanyin. No Recife e em Porto Alegre ouvia-se sobretudo Ossanhe. Quem cuida do culto, na Bahia, é o babalosaim, também chamado olosaim "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um documento de 1894, escrito por um oficial britânico na Costa dos Escravos, grafava Osanhin, fazia dele o deus da medicina, buscado diante de qualquer enfermidade e, por isso, cultuado em muitos lugares, e propunha para o nome uma origem num verbo iorubá que quer dizer beneficiar. É um registro de época, com o olhar colonial que o acompanha "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". O fichamento ainda não tem nenhum registro sobre a região africana de onde viria o culto "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O lugar físico de Ossaim no terreiro já diz muito dele. Nos candomblés baianos de meados do século passado, como orixá do ar livre, ele tinha um pegi à parte, longe das outras casas, no meio do terreno. No Recife e em Porto Alegre, dizia-se sempre que três divindades precisavam ser adoradas fora do prédio principal: Exu (Bara), Oxóssi (Odé) e Ossaim "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também a posição do sacerdócio chamou atenção. Na Bahia, o culto se organizava em quatro sacerdócios, o dos orixás, o de Ifá, o das folhas e o dos mortos, cada um ligado a um plano do mundo, e às folhas cabia a natureza. Do lado africano, uma observação retomada nos estudos da Bahia punha os sacerdotes de Ossaim no grupo mais alto, junto dos babalaôs; o documento colonial de 1894 já tinha feito divisão parecida, e no topo do sacerdócio iorubá punha, com os babalawo, os que curavam a serviço de Osanhin e Aroni "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros de Salvador e São Paulo pesquisados até 1993, porém, Ossaim parecia ter poucos filhos, e seu culto era pouco sustentado "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, num antigo engenho de Matanzas, o central Méjico, há um santo parado dedicado a Osain na entrada do velho barracão dos escravizados, no lugar onde se esperaria Elegguá. Ali, Osain reina sobre as ervas silvestres e está tão perto de Elegguá, pela ligação de ambos com o mato, que muitos o contam entre os Elegguás, embora como dono do mato e não como guardião "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Chamá-lo de deus da medicina não basta para os terreiros baianos: nenhum rito que precise de ervas se faz sem ele, Ossaim é antes o senhor das plantas e da vegetação inteira. E não de qualquer planta. A erva do quintal ou do jardim não serve, porque ele recusa o espaço que a mão humana cultivou ou edificou; o que conta é o que nasce no mato. A mesma regra aparecia nos terreiros de Salvador e São Paulo, onde as plantas cultivadas não tinham valor próprio para o orixá "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". Para a nação nagô do Recife, as folhas, nome genérico que o candomblé dá às plantas, são de Ossaim, e seu lugar é a floresta, o que o põe perto de Odé e de Ogum "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Como curador, guarda só a exclusividade de umas poucas folhas e não governa uma parte determinada do corpo: age no organismo inteiro, conforme o mal, dizem os chefes de culto de Salvador e São Paulo "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". Ele não se manifesta em transe, na Bahia como no Recife, e o seu sacerdote também não: a tarefa do babalosaim é colher as ervas, no lugar, na hora e do modo prescritos. Mesmo sem descer em ninguém, Ossaim é peça central da iniciação no Recife "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". Há, porém, quem fale do Ossaim de uma pessoa, que surge no rito coberto de folhagem, com galhos e ervas na cabeça, nas mãos ou amarrados ao corpo, o que sugere manifestação "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O emblema é de ferro. Nos candomblés baianos, é uma haste pontuda fincada na terra, com um pássaro no alto cercado de sete ramos. O documento de 1894 descrevia na Costa dos Escravos uma ave pousada numa barra de ferro, e um missionário que escrevia em 1926 sobre Abeokuta e Ibadan acrescentava que, para pedir socorro ao orixá contra a doença, chefes despachavam emissários levando bastões metálicos, às vezes com o pássaro no topo "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": ". O estudo de peças do acervo do MAE-USP confirma, na África iorubá e no Brasil, uma haste central sempre terminada em pássaro e cercada de outras, muitas vezes seis, abertas para o alto. No Recife, as ferramentas de ferro do assentamento marcam os chamados orixás de ferro: Ogum, Odé e o próprio Ossaim "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na figura do orixá falta uma perna e falta um olho, imagem que se liga à lembrança de alguém que um dia quis guardar tudo para si. Nos terreiros de Salvador e São Paulo ele é representado coberto de flores, frutas e folhas, e a perna única não lhe tira poder. Uma mãe de santo explica a roupa vegetal: abandonado nu pelos pais, ele se vestiu de vegetação e, quando os pais caíram doentes, só aceitou tratá-los se lhe dessem roupa "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". O gênero também escapa: nos itãs é masculino, mas muitos fiéis se referem a ele no feminino, e há quem o diga sem sexo ou andrógino "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés, a saudação lembra as folhas: euê ô, sendo ewê a palavra iorubá para folha. No Recife, com reserva, as cores seriam o verde e o vermelho. No Batuque de Porto Alegre, Ossanhe divide a segunda-feira com Bara, Odê e Otum "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": ". O fichamento não tem registro de festa própria "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Três histórias explicam quem é Ossaim. A primeira conta como as folhas, que eram só dele, passaram a ser de todos ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iansã sacode as saias e espalha as folhas de Ossaim",
+              "tipo": "ita",
+              "alvo": "ita-017"
+            },
+            {
+              "t": "texto",
+              "v": "). Na versão dos terreiros de Salvador e São Paulo, Olorun deu a Ossaim o saber das plantas, e ele não o dividia. Xangô se queixou a Iansã, senhora dos ventos, que sacudiu as saias até soprar um vendaval; a cabaça onde as folhas ficavam se abriu, e o que caiu foi apanhado e dividido entre os orixás. Desde então cada orixá tem as suas, sem que Ossaim deixe de ser o senhor das plantas. Em Cuba, a mesma história era contada com Oyá sacudindo as dobras da roupa a pedido de Xangô "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": ". Um mito cubano da criação vai na mesma direção: quando o Pai Eterno repartiu o universo entre os filhos, o segredo das ervas coube a Ossaim. Numa narrativa baiana da partilha, Olorun entrega os elementos a Oxalá para que ele os distribua entre os orixás, e Ossaim está entre os contemplados ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Olorun entrega a Oxalá os elementos",
+              "tipo": "ita",
+              "alvo": "ita-027"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Outra explica a perna única ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ossaim perde a perna na luta com Xangô",
+              "tipo": "ita",
+              "alvo": "ita-018"
+            },
+            {
+              "t": "texto",
+              "v": "): nos candomblés baianos, conta-se que Ossaim provocou a fúria de Xangô e perdeu a perna na briga; na versão cubana, ficou ainda sem um braço e sem um olho "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A última, guardada nos terreiros de Salvador e São Paulo, mostra o saber das ervas reconhecido ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ossaim, comprado por Ifá, não quer cortar as ervas",
+              "tipo": "ita",
+              "alvo": "ita-019"
+            },
+            {
+              "t": "texto",
+              "v": "). Ifá comprou Ossaim para trabalhar na roça, mas ele se recusava a cortar o mato: esta folha curava febre, aquela, dor de dente. Ifá compreendeu a força das plantas e o conservou junto de si "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O laço com Oxóssi também passa pelos mitos. Ossaim é o orixá que mais reparte plantas com o caçador, e, num candomblé ketu, um pai de santo contava que foi na floresta que Ossaim revelou a Oxóssi o saber das plantas ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Oxóssi, o médico que aprende com Ossaim",
+              "tipo": "ita",
+              "alvo": "ita-005"
+            },
+            {
+              "t": "texto",
+              "v": "). No Recife, lembra-se de forma breve que Ossaim recebeu Odé na mata, ou o seduziu e o prendeu, e lhe transmitiu a arte de caçar e o saber das plantas, o que justifica a vizinhança dos assentamentos "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos, Ossaim é o senhor do mato, sem transe, com pegi ao ar livre e um sacerdote próprio que colhe as ervas; os quatro sacerdócios da casa lhe reservam o plano da natureza "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife e Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", é o dono das folhas, orixá de ferro que não possui ninguém e ainda assim conduz a iniciação. No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, aparece como Ossanhe, cultuado fora da casa principal e com dia na segunda-feira "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros angola-congo de São Paulo, as opiniões se dividem quanto ao inquice correspondente. Há quem associe a Ossaim o inquice Katende, ou Mpanzu, ligado aos encantamentos, enquanto alguns estudiosos o aproximam de Irocô; num toque, adeptos explicaram que Katende é deus dos encantos e não se confunde com Ossaim, a quem cabem as folhas "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": ". Também nos candomblés bantos da Bahia, e só neles, Ossaim foi identificado com o Caipora, outro ser de uma perna só "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No terreiro de Dona Jarina, em São Paulo, de origem maranhense, o vodum jeje Alogué corresponde a Ossaim "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os registros dos terreiros de Salvador e São Paulo valem tanto para o Candomblé quanto para a Umbanda ali praticada, que é outra religião, e não uma nação do Candomblé. O fichamento não tem registro sobre Ossaim próprio só da Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Matanzas, Osain tem santo parado na entrada do barracão do central Méjico, ligado a Elegguá pelo mato "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro do fichamento associa Ossaim a um santo católico; no terreiro de Mina de São Paulo, o quadro da casa não indica santo para Alogué "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Roger Bastide aceitou comparar Ossaim ao Caipora, como fizera Querino, mas recusou a ideia de que os negros tivessem tomado de empréstimo a figura indígena: a aproximação se restringe às casas bantas, e a perda da perna se explica por um mito que veio da África. Ele também atribuiu a fama de feitiçaria do culto ao emprego de venenos e filtros nos tempos da escravidão, insistindo no caráter religioso do poder das plantas e no babalosaim como sacerdote, e não feiticeiro "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Marta Heloísa Leuba Salum e Wagner Souza e Silva perguntaram por que o ferro de Ossaim mostra pássaros e não folhas. A partir de mitos em que o pássaro é mensageiro do orixá e do mito da repartição das folhas, interpretaram o ferro como o desenho simplificado de uma árvore fincada na terra. Também chamaram atenção para o fato de que as duas hastes em forma de cobra de muitos ferros brasileiros não existem nos africanos conhecidos, e propuseram que ali se misturam, nas casas jeje-nagô, os sinais de Oxumarê e os de Dã "
+            },
+            {
+              "t": "nota",
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A divergência sobre o transe também é acadêmica: Bastide, na Bahia, e Arnaud Halloy, no Recife, dizem que Ossaim não se manifesta, enquanto Salum e Silva descrevem o Ossaim de uma pessoa vestido de folhas "
+            },
+            {
+              "t": "nota",
+              "n": 35
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de origem africana precisa, de festa, de sincretismo, de elementos ou de animais de Ossaim "
+            },
+            {
+              "t": "nota",
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": ". A colheita ritual das ervas, descrita em detalhe por Bastide, não foi fichada por tocar em fundamento, e aguarda o conselho de revisores "
+            },
+            {
+              "t": "nota",
+              "n": 37
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A monografia de Barros sobre a floresta sagrada de Ossaim e os estudos de Verger sobre as folhas, assim como as coletâneas de mitos de Prandi e Verger, só existem impressas e esperam exemplar "
+            },
+            {
+              "t": "nota",
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-033"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-028"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-029"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-005"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-013"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-011"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-014"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-040"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-003"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-004"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-008"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-007"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-031"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-020"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-021"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-022"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-024"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-032"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-033"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-035"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-021"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-040"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-017"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-019"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-036"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-012"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-035"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-038"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-015"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-039"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-008"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-040"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-039"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-016"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-025"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-026"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-031"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "elementos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "animais",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Bastide pp. 157–161 descreve a colheita ritual das ervas pelo babalosaim"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Barros, *A floresta sagrada de Ossaim* (2011)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (1981)"
+        }
+      ]
+    }
+  ]
+}

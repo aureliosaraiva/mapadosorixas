@@ -1,0 +1,905 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/oxumare.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "oxumare",
+  "titulo": "Oxumarê, o arco-íris e a serpente",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Oxumarê é o arco-íris que liga o céu à terra e, ao mesmo tempo, uma serpente. As fontes abertas lidas até aqui falam pouco dele, e por isso este capítulo é curto: diz o que os terreiros e os estudos registram e, no fim, o muito que ainda falta "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos registros, o nome aparece como Oxumarê, Oxumaré e Oxunmarê; a forma Oshumare vem de documentos coloniais da Costa dos Escravos "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quanto à origem, as tradições concordam numa procedência jeje, com nuances de lugar. Nos candomblés baianos, Oxumarê e Nanã seriam divindades do Daomé, acolhidas pelos iorubás quando ainda estavam do outro lado do oceano; no nagô do Recife, Oxumarê é dito de origem jeje, e uma leitura citada ali situa a sua terra em Mahi, no atual Benim, fora do território nigeriano. O estudo dos ferros rituais lembra que Oxumarê, como Dã, é entidade jeje, dos povos fon e vizinhos, e que é cultuado também em candomblés nagô "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Salvador, o culto deixou marcas na cidade. Junto ao mar há uma pedra do orixá cuja concavidade nunca seca, aonde as mães levam os bebês numa espécie de batismo; um arco-íris no céu é sinal de que o orixá abençoou. Em meados do século passado, entre 86 santuários baianos recenseados, só um era casa de Oxunmarê, e nela o ciclo de festas do ano tomava os domingos de janeiro e o início de fevereiro "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". A narrativa de fundação do Alaketo, guardada pela tradição oral do terreiro, conta que duas irmãs gêmeas de Ketu, escravizadas e trazidas à Bahia, foram libertadas pelo próprio Oxumarê, que lhes apareceu como um homem branco; uma delas, com o marido, fundou o Alaketo, de Oxóssi, e ali se ergueu o ilê Maroiá Láji, consagrado a Oxumarê "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A presença do orixá varia muito. Nos terreiros de Salvador e São Paulo pesquisados até 1993, ele aparecia em quase todas as casas e tinha filhos de santo, embora fosse difícil obter detalhes sobre ele. No nagô do Recife, ao contrário, Oxumarê não tem assentamento nem iniciados, e recebe só umas poucas toadas nas festas públicas, como Ewá e Iroko "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos, Oxumarê está entre as divindades das águas porque o arco-íris leva para o alto a água do mar e das lagoas, de que as nuvens se nutrem. Com seu longo véu de cores ele une o alto e o baixo e, quando é favorável, faz as preces chegarem depressa aos deuses do céu "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, ele é o arco-íris e é também a cobra, a boa "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". Um documento de 1894, escrito por um oficial britânico, descrevia o deus do arco-íris como uma cobra imensa vinda do fundo, que às vezes aparece no limite do mundo para matar a sede nas águas celestes, e um relato missionário de 1926, que segue o anterior, repetia a imagem. Nos dois, uma espécie de píton, chamada ere, é sua mensageira sagrada. Trata-se de documentos de época, com o olhar colonial que trazem "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As cores mudam de lugar para lugar: amarelo e verde nos terreiros de Salvador e São Paulo, todas as cores do arco-íris no nagô do Recife "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". O dia também: na distribuição mais geral dos candomblés baianos, Nanã e Oxumarê dividem a terça-feira, e no Opô Afonjá a terça reúne os dois e Ogum; no Recife, não há dia fixo para ele "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés e entre os iorubás, segundo o estudo das peças de museu, seu ferro ritual são duas varetas forjadas em forma de serpente, com a cobra e o arco-íris como imagem. A única planta lembrada para ele nos terreiros de Salvador e São Paulo é a palmeira, que não entra em banho nem em remédio e serve de enfeite; uma mãe de santo diz que, dentro de casa, ela guarda a vida "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". Em 24 de agosto, dia de São Bartolomeu, os candomblés da Bahia celebram uma festa na pedra de Oxumarê, que já foi chamada de festa da purificação "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um só itã de Oxumarê está fichado ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Oxumarê, metade do ano arco-íris e metade serpente",
+              "tipo": "ita",
+              "alvo": "ita-020"
+            },
+            {
+              "t": "texto",
+              "v": "). Nos terreiros de Salvador e São Paulo, conta-se que, durante metade do ano, ele é arco-íris e masculino, e na outra metade é serpente e feminino, e por isso é tido como símbolo da continuidade "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A família também é narrada. Na versão baiana das famílias divinas, Oxalá teve duas mulheres, e de Nanã Buruku nasceram Omolu, Lôko e Oxumarê. No Recife, os membros do candomblé sabem que Nanã, Obaluaiê e Oxumarê têm origem comum e distinta da dos outros orixás, e que Nanã é a mãe dos dois, que ficam assim fora da descendência de Orixalá e Iemanjá "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Na costa iorubá, um documento de 1894 registra que alguns nativos diziam a um oficial britânico que Oshumare servia a Shango, levando a água da terra até o palácio dele nas nuvens "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos, Oxumarê é o arco-íris intercessor, com dia na terça e uma pedra à beira-mar em Salvador; o ilê Maroiá Láji, no Alaketo, é consagrado a ele "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", é o filho de Nanã, de origem jeje, sem assentamento, sem iniciados e sem dia fixo. No terreiro de Pai Adão, cantava-se para ele logo depois de Irôko "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé jeje e Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Seja Hundê, o vodum Bessem, um dos maiores da casa, corresponde a Oxumarê, numa releitura brasileira de trilogias da cosmologia ewé. No terreiro de Mina de Dona Jarina, em São Paulo, dois voduns respondem por Oxumarê, Dangbê, do lado jeje, e Idarço, do lado nagô; ali ele é filho de Nanã, e mãe e filhos já pertenciam ao panteão iorubá antes de vir para o Brasil "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": ". Um documento colonial de 1894 dizia que o mesmo deus existia entre os ewe sob o nome de Anyiewo "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros angola-congo de São Paulo, o inquice Hongolo, ou Angoro, que tem a ver com os rios e com o arco-íris, é posto em correspondência com Oxumarê "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. No esquema de sete linhas proposto por um autor umbandista, Rubens Saraceni, Oxumarê é o orixá secundário da linha do Amor, que tem Oxum à frente; o esquema não vale para o Candomblé "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "São Bartolomeu, festejado em 24 de agosto, é o santo de Oxunmarê no calendário de Pernambuco e dos candomblés bantos da Bahia, e também no terreiro de Mina de São Paulo, onde Dangbê e Idarço ficam com o mesmo santo. Nos terreiros de Salvador e São Paulo pesquisados até 1993, porém, não foi possível estabelecer com segurança a que santo ele estava associado "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Roger Bastide propôs duas leituras para a terça-feira partilhada por Nanã e Oxumarê na Bahia: dia dos intercessores, pois o arco-íris conduz os pedidos para o alto, ou gesto nagô de reverência à terra jeje, de onde os dois teriam saído. E ligou o culto da pedra de Salvador ao de Iemanjá, por estar à beira-mar "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Hildebrando Almeida Cerqueira leu as correspondências do Seja Hundê como reinterpretação brasileira da cosmologia ewé "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O material aberto sobre Oxumarê é pequeno. Não há registro de saudação, de qualidades, de nomes em outras línguas além das grafias citadas, nem da dança do orixá "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". Também não há registro de Bessém como qualidade jeje nem da cobra Dã no jeje baiano, que dependem de um livro só impresso "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O estudo sobre a Casa de Oxumarê, em Salvador, está num periódico que recusa o acesso no ambiente da pesquisa, e os itãs de Prandi e Verger esperam exemplar "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-013"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-022"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "nomes",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-027"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-009"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-010"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-019"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-010"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-004"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-011"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-025"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-020"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-020"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-016"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-007"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-012"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-049"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-021"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-010"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-019"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-020"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-005"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-048"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-029"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-028"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-023"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-031"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-032"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-015"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-006"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-048"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "qualidades",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "iconografia",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "nomes",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Parés, *A formação do candomblé* (2006)"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Santos 2019, Casa de Oxumarê"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (1981)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        }
+      ]
+    }
+  ]
+}
