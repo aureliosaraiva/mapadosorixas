@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/exu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 92,
+    "registros_usados": 93,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -1579,6 +1579,27 @@
         "parafrase": "Na casa de Pai Francelino, em São Paulo, existe um quarto de Legba entre as construções do terreiro, e o culto a Legbara faz parte da rotina: ele recebe propiciação nas obrigações maiores e tem assentamento tanto da casa quanto de muitos iniciados.",
         "nota": "Contrasta com a Casa das Minas de São Luís (exu-092).",
         "registro": "exu-093",
+        "status": "fichado"
+      },
+      {
+        "valor": "a mina-jeje maranhense não cultua Exu nem joga búzios; na Casa Fanti-Ashanti, esses traços vieram de fora dessa tradição",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Luís (MA): tradição jeje do Tambor de Mina (Casa das Minas) × Casa Fanti-Ashanti (Pai Euclides)",
+        "sources": [
+          {
+            "id": "ferretti-m-2020-pureza",
+            "loc": "p. 85 (artigo de 2001, paginação impressa)",
+            "via": null
+          }
+        ],
+        "source_id": "ferretti-m-2020-pureza",
+        "via_source_id": null,
+        "localizacao": "p. 85 (artigo de 2001, paginação impressa)",
+        "parafrase": "Ao comentar um documentário sobre a Casa Fanti-Ashanti, a autora observa que Pai Euclides aparece associado a duas práticas importantes na religião africana que, no entanto, a mina-jeje maranhense não conhece: o culto a Exu e a adivinhação por búzios. Para ela, esses \"fundamentos\" jeje do pai de santo foram buscados sobretudo fora da tradição local, no contato com africanos e em gravações cubanas.",
+        "nota": "Converge com exu-092 (Legba sem culto organizado na Casa das Minas, via Prandi) e contrasta com exu-093 (Legbara assentado na casa paulista). A Casa Fanti-Ashanti se definiu como fanti-ashanti e depois como jeje-nagô e ketu, com toques de Candomblé ao lado da Mina (pp. 81–88).",
+        "registro": "exu-094",
         "status": "fichado"
       }
     ],
