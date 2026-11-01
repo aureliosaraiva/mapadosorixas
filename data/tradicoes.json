@@ -112,7 +112,7 @@
       "nacao": "jeje",
       "matriz": "fon (jeje)",
       "regiao": "Brasil (Bahia, Recôncavo)",
-      "descricao": "Nação de Candomblé de matriz ewe-fon (o termo jeje designa os ewe), que cultua voduns. Em Salvador e no Recôncavo, a religião dos voduns é chamada candomblé jeje-mahim, e o número de casas jeje é pequeno perto do de casas de orixá.",
+      "descricao": "Nação de Candomblé de matriz ewe-fon (o termo jeje designa os ewe), que cultua voduns. Em Salvador e no Recôncavo, a religião dos voduns é chamada candomblé jeje-mahim, e o número de casas jeje é pequeno perto do de casas de orixá. Cerqueira, resumindo Parés, relata que jejes libertos tiveram papel importante em Salvador nas primeiras décadas do século XIX para manter o culto aos voduns, e que as duas principais casas de origem jeje da Bahia, o Bogum, em Salvador, e o Seja Hundê (Roça do Ventura), em Cachoeira, foram fundadas por africanos vindos de regiões sob domínio do antigo Daomé. Jeje reúne nações que chamam suas divindades de vodum, em vez de orixá, com nomes iguais aos da área de língua fon, como Dan, Hevioso e Sakpata; o Seja Hundê se diz da nação jeje marrim (mahi).",
       "sources": [
         {
           "id": "bastide-1958-candomble",
@@ -121,9 +121,13 @@
         {
           "id": "prandi-2005-pegadas-voduns",
           "loc": "versão do autor, p. 1"
+        },
+        {
+          "id": "cerqueira-2015-lebabimibome",
+          "loc": "pp. 132, 155, 165 (resumindo Parés 2006)"
         }
       ],
-      "nota": null,
+      "nota": "As afirmações históricas de Cerqueira são de segunda mão (Parés 2006, A formação do candomblé, ainda não lido no original). Cerqueira (p. 82) registra no Seja Hundê os voduns Bessem, Sobo e Azançu como divindades maiores da casa, que associa a Oxumarê, Xangô e Obaluaê.",
       "status": "com_fonte"
     },
     {
@@ -191,7 +195,7 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Brasil (Pernambuco)",
-      "descricao": "Nome local, em Pernambuco (e, segundo Bastide, também em Alagoas), da religião de culto aos orixás que na Bahia se chama candomblé. Prandi o põe, com o candomblé e o batuque, entre as formas regionais do culto aos orixás no país. O nome não se confunde com o do orixá Xangô.",
+      "descricao": "Nome local, em Pernambuco (e, segundo Bastide, também em Alagoas), da religião de culto aos orixás que na Bahia se chama candomblé. Prandi o põe, com o candomblé e o batuque, entre as formas regionais do culto aos orixás no país. O nome não se confunde com o do orixá Xangô. Halloy, que estudou uma família de santo do Recife, retoma a leitura de Bastide de que o rótulo veio de fora, pela popularidade do orixá Xangô; parte dos chefes de culto o recusa e prefere dizer candomblé nagô, reservando candomblé ketu para a modalidade baiana. Diferente do candomblé, o xangô ficou sobretudo regional, embora o número de casas no Recife tenha crescido muito a partir dos anos 1950. No Recife distinguem-se terreiros da nação nagô e da nação Xambá, esta fundada nos anos 1920 por um pai de santo vindo de Maceió; nas últimas décadas multiplicaram-se também terreiros jeje e jeje-ketu, inspirados no candomblé da Bahia. Pitta analisou mitos e símbolos com base em entrevistas com iniciados de casas tradicionais de xangô no Recife e em Olinda.",
       "sources": [
         {
           "id": "bastide-1958-candomble",
@@ -204,9 +208,17 @@
         {
           "id": "prandi-2005-pegadas-voduns",
           "loc": "versão do autor, p. 1"
+        },
+        {
+          "id": "halloy-2005-intimite",
+          "loc": "pp. 29, 31, 86, 98, 120–121"
+        },
+        {
+          "id": "pitta-2011-mitos",
+          "loc": "p. 263"
         }
       ],
-      "nota": null,
+      "nota": "Halloy (p. 85) resume a classificação de Roberto Motta para o Recife: jurema ou catimbó, xangô, umbanda e um xangô umbandizado intermediário, também chamado candomblé nação; Motta põe nesta última categoria um terreiro que outros autores contam como jeje (Halloy, p. 86, nota 148). O fundador da nação Xambá aparece em Halloy como Artur Rosendo (p. 86) e Arthur Roseno (p. 120).",
       "status": "com_fonte"
     },
     {
@@ -216,10 +228,19 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Brasil (Sergipe)",
-      "descricao": "Religião afro-brasileira de culto aos orixás em Sergipe.",
-      "sources": [],
-      "nota": null,
-      "status": "rascunho_sem_fonte"
+      "descricao": "Segundo Bastide, citado por Halloy, xangô é também o nome dado de fora ao culto aos orixás em Sergipe, como em Alagoas e no Recife, por causa da popularidade do orixá Xangô nessas cidades. Em Sergipe, Beatriz Dantas pesquisou a noção de pureza nagô e mostrou que os traços tidos na Bahia como prova de autenticidade africana podem valer menos, ou ser recusados, em terreiros de outros estados.",
+      "sources": [
+        {
+          "id": "halloy-2005-intimite",
+          "loc": "p. 31 (citando Bastide 1969, p. 267)"
+        },
+        {
+          "id": "ferretti-m-2020-pureza",
+          "loc": "p. 76 (citando Dantas 1988)"
+        }
+      ],
+      "nota": "Descrição mínima, apoiada em citações de segunda mão. Para descrever a religião em si (casas, nações, ritos) falta ler Dantas 1988 no original; ver PENDENCIAS.md.",
+      "status": "com_fonte"
     },
     {
       "id": "tambor_de_mina",
@@ -228,7 +249,7 @@
       "nacao": null,
       "matriz": "mista",
       "regiao": "Brasil (Maranhão; casas também em São Paulo)",
-      "descricao": "Nome da religião dos voduns no Maranhão. O nome alude aos tambores, sempre presentes nos rituais, e aos escravos chamados minas. É religião iniciática, em que voduns e encantados se manifestam em transe nas festas públicas chamadas tambor; nas casas de vodum, também os orixás são chamados voduns (voduns nagôs). Bastide descreve a Casa das Minas, de origem daomeana, como o grupo dominante em São Luís. Desde 1977 há casas em São Paulo.",
+      "descricao": "Nome da religião dos voduns no Maranhão. O nome alude aos tambores, sempre presentes nos rituais, e aos escravos chamados minas. É religião iniciática, em que voduns e encantados se manifestam em transe nas festas públicas chamadas tambor; nas casas de vodum, também os orixás são chamados voduns (voduns nagôs). Duas casas abertas por africanas no século XIX servem de matriz. Uma é a Casa das Minas, vinda do Daomé, que não deu origem a outras casas, só recebe voduns e tem todos os cânticos em jeje. A outra é a Casa de Nagô, de tradição iorubá, da qual descende a maioria dos terreiros de Mina. Mundicarmo Ferretti observa que, embora o Maranhão seja conhecido pela tradição jeje, a maioria dos terreiros segue o modelo nagô, que se afasta do chamado nagô puro da Bahia por incorporar elementos cambinda e entidades não africanas, como os caboclos. Sérgio Ferretti descreve a Mina como religião muito ritualizada e discreta, em que a mitologia quase não é comentada; as festas dos terreiros incluem manifestações da cultura popular, como o bumba-meu-boi, e as casas mais novas recebem influência do candomblé e da umbanda. Desde 1977 há casas em São Paulo.",
       "sources": [
         {
           "id": "prandi-2005-pegadas-voduns",
@@ -237,9 +258,17 @@
         {
           "id": "bastide-1958-candomble",
           "loc": "pp. 18, 354 (glossário: Casa da Mina)"
+        },
+        {
+          "id": "ferretti-m-2020-pureza",
+          "loc": "pp. 76–78 (edição de 2001)"
+        },
+        {
+          "id": "ferretti-2011-comida",
+          "loc": "pp. 245, 247–248, 264–265"
         }
       ],
-      "nota": null,
+      "nota": "Bastide descreve a Casa das Minas como o grupo dominante em São Luís; M. Ferretti (p. 77) registra que a maioria dos terreiros reproduz o modelo da Casa de Nagô, e S. Ferretti (2011, p. 247) que as duas casas matrizes perderam participantes, mas mantêm prestígio. Uma terceira casa, a Fanti-Ashanti (1958), reivindica nação própria e passou a praticar também o candomblé ketu a partir de 1980 (M. Ferretti, pp. 76–77, 82). O artigo de M. Ferretti catalogado com data de 2020 saiu em 2001 (Ciências Sociais e Religião, ano 3, n. 3, pp. 75–94); as páginas citadas são dessa edição.",
       "status": "com_fonte"
     },
     {
@@ -249,18 +278,26 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Brasil (Rio Grande do Sul)",
-      "descricao": "Religião afro-brasileira do Rio Grande do Sul que Oro considera a expressão mais africana do campo afro-religioso gaúcho: língua litúrgica iorubá, culto aos orixás (doze, como Bará, Ogum, Xangô, Iemanjá e Oxalá) e identificação com nações africanas, os lados (Oyó, Jeje, Ijexá, Cabinda, Nagô). Há registro dele desde o início do século XIX, na região de Rio Grande e Pelotas. Distingue-se da Umbanda e da Linha Cruzada, que soma as entidades das duas.",
+      "descricao": "Religião afro-brasileira do Rio Grande do Sul que Oro considera a expressão mais africana do campo afro-religioso gaúcho: língua litúrgica nagô, culto aos orixás (doze, como Bará, Ogum, Xangô, Iemanjá e Oxalá) e identificação com nações africanas, os lados (Oyó, Jeje, Ijexá, Cabinda, Nagô, e sobretudo a Jeje-Ijexá). Teria sido a primeira forma afro-religiosa organizada no estado, na primeira metade do século XIX, em Pelotas e Rio Grande, de onde se espalhou; sobre sua fundação há duas versões, uma que a atribui a uma escrava vinda de Pernambuco e outra que a liga aos grupos africanos que o organizaram como resistência à escravidão. Distingue-se da Umbanda, iniciada em Rio Grande em 1926, e da Linha Cruzada ou Quimbanda, surgida nos anos 1970, que cultua sobretudo exus e pombagiras; muitos terreiros praticam as três formas. Nos censos de 2000 e 2010, o Rio Grande do Sul foi o estado com maior proporção de pessoas declaradas de religião afro-brasileira. O Batuque se expandiu também para a Argentina e o Uruguai.",
       "sources": [
         {
           "id": "oro-2008-rs",
           "loc": "pp. 12–14"
         },
         {
+          "id": "oro-2012-campo",
+          "loc": "pp. 557–560, 564 (notas 3, 4 e 6)"
+        },
+        {
           "id": "bastide-1958-candomble",
           "loc": "p. 18"
+        },
+        {
+          "id": "halloy-2005-intimite",
+          "loc": "p. 30 (citando Oro 1999)"
         }
       ],
-      "nota": null,
+      "nota": "Oro (2012, p. 557, nota 3) fala em doze orixás, mas a lista traz onze nomes, com Odé/Otim juntos. Oro (2008) dá o registro do Batuque desde o início do século XIX; Oro (2012, p. 559) diz primeira metade do século XIX.",
       "status": "com_fonte"
     },
     {
@@ -270,7 +307,7 @@
       "nacao": null,
       "matriz": "mista",
       "regiao": "Brasil",
-      "descricao": "Religião brasileira, distinta do Candomblé, surgida no primeiro quartel do século XX do contato do candomblé com o espiritismo kardecista e o catolicismo popular. Reverencia os orixás, mas o trabalho religioso cabe aos guias, espíritos de humanos que viveram na Terra: caboclos, pretos-velhos e, na chamada esquerda, exus e pombagiras. No Rio Grande do Sul, Oro registra ritos em português e ausência de sacrifício animal.",
+      "descricao": "Religião brasileira, distinta do Candomblé, surgida no primeiro quartel do século XX do contato do candomblé com o espiritismo kardecista e o catolicismo popular. Reverencia os orixás, mas o trabalho religioso cabe aos guias, espíritos de humanos que viveram na Terra: caboclos, pretos-velhos e, na chamada esquerda, exus e pombagiras. Halloy a apresenta como a mais difundida das religiões afro-brasileiras, vista pelos adeptos como a religião nacional brasileira. No Rio Grande do Sul, Oro registra ritos em português, sem tambores e sem sacrifício animal, e o culto a caboclos, pretos-velhos e crianças (bejis).",
       "sources": [
         {
           "id": "prandi-2001-exu-diabo",
@@ -287,9 +324,17 @@
         {
           "id": "prandi-2005-pegadas-voduns",
           "loc": "versão do autor, p. 1"
+        },
+        {
+          "id": "oro-2012-campo",
+          "loc": "pp. 557, 560"
+        },
+        {
+          "id": "halloy-2005-intimite",
+          "loc": "p. 30"
         }
       ],
-      "nota": "Sobre sacrifício animal: Oro (2008, p. 12) registra que ele não existe na Umbanda gaúcha; Prandi (2001, p. 52) fala de certa prática sacrificial remanescente na Umbanda. O glossário de Bastide (1961, p. 357) traz definições mais antigas do termo (religião banto; forma africana de espiritismo).",
+      "nota": "Sobre sacrifício animal: Oro (2008, p. 12; 2012, p. 560) registra que ele não existe na Umbanda gaúcha; Prandi (2001, p. 52) fala de certa prática sacrificial remanescente na Umbanda. Sobre a data de origem: Prandi fala no primeiro quartel do século XX; Halloy (p. 30) situa o surgimento no Rio de Janeiro nos anos 1930. O glossário de Bastide (1961, p. 357) traz definições mais antigas do termo (religião banto; forma africana de espiritismo).",
       "status": "com_fonte"
     },
     {
@@ -298,8 +343,8 @@
       "grupo": "diaspora_caribenha",
       "nacao": null,
       "matriz": "iorubá",
-      "regiao": "Cuba e diáspora cubana (EUA, Espanha, América Latina)",
-      "descricao": "Religião afro-cubana de culto aos orixás, de matriz iorubá como o candomblé nagô da Bahia. Bastide aponta uma diferença: em Cuba os orixás habitam o monte (a floresta), enquanto na Bahia vivem na África, de onde vêm às festas. Em Cuba, Exu é chamado Eleguá.",
+      "regiao": "Cuba e diáspora cubana (EUA, México, Espanha, América Latina)",
+      "descricao": "Religião afro-cubana de culto aos orixás (orichas), também chamada santería ou Regla de Ocha, de matriz iorubá como o candomblé nagô da Bahia. Lucumí era o nome colonial dado em Cuba aos escravizados de fala iorubá; nos cabildos de nação, associações de ajuda mútua sob o patrocínio de um santo católico, esses grupos se reuniam, e com o tempo o termo passou a indicar o caminho religioso escolhido, não a origem étnica. Toutain descreve uma cosmologia com três categorias: os espíritos dos antepassados (eggún), um deus criador distante e sem culto próprio (Olofí, Olodumare ou Olorun) e os orichas, mediadores entre ele e os humanos; cada pessoa é tida como filha de um oricha. A seu lado existem a Regla de Ifá, culto de Orula centrado na adivinhação, o Palo Monte e o espiritismo, e muitos praticantes transitam entre esses campos. Bastide aponta uma diferença: em Cuba os orixás habitam o monte (a floresta), enquanto na Bahia vivem na África, de onde vêm às festas. Em Cuba, Exu é chamado Eleguá. Há pelo menos meio século a santería se difunde para fora de Cuba (Estados Unidos, México, Porto Rico, Venezuela, Colômbia, cidades europeias), levada pelas ondas de emigração do início dos anos 1960, de 1980 e dos anos 1990; Cuba continua a ser preferida como lugar de iniciação.",
       "sources": [
         {
           "id": "bastide-1958-candomble",
@@ -312,9 +357,17 @@
         {
           "id": "botao-2007-angola",
           "loc": "p. 15"
+        },
+        {
+          "id": "toutain-2019-santos",
+          "loc": "pp. 2 (nota 3), 7–8, 10, 19–20 (nota 38)"
+        },
+        {
+          "id": "argyriadis-2005-ramas",
+          "loc": "pp. 154, 175 (nota 1)"
         }
       ],
-      "nota": "Bastide (p. 78) apoia a comparação em Lydia Cabrera, El Monte (1954), ainda não lida no original.",
+      "nota": "Bastide (p. 78) apoia a comparação em Lydia Cabrera, El Monte (1954), ainda não lida no original. Toutain (p. 111), citando Jesús Guanche, adverte que igualar lucumí a iorubá é uma generalização: o rótulo do tráfico reunia vários povos. Alguns autores chamam de santería todo o complexo Ocha-Ifá; Toutain reserva o nome para a Regla de Ocha (p. 11, nota 27).",
       "status": "com_fonte"
     },
     {
@@ -324,10 +377,19 @@
       "nacao": null,
       "matriz": "banto",
       "regiao": "Cuba",
-      "descricao": "Religião afro-cubana de matriz banto (Congo).",
-      "sources": [],
-      "nota": null,
-      "status": "rascunho_sem_fonte"
+      "descricao": "Religião afro-cubana tida como herdeira de práticas de povos africanos de fala banto, também chamada Regla Conga ou simplesmente palo, com variantes como mayombe, briyumba e kimbisa. Sua cosmologia se aproxima da do culto aos orichas: um deus criador distante (Sambi ou Nsambi), divindades mediadoras (mpungus) e os espíritos dos mortos (nfumbis), que estão no centro do culto; o adepto firma um pacto com um desses espíritos. Muitos praticantes cubanos transitam entre o palo, a santería, Ifá e o espiritismo, campos que formam um sistema comum de representações mas continuam distintos entre si.",
+      "sources": [
+        {
+          "id": "toutain-2019-santos",
+          "loc": "pp. 2 (notas 3–4), 9–11"
+        },
+        {
+          "id": "argyriadis-2005-ramas",
+          "loc": "p. 176 (nota 5)"
+        }
+      ],
+      "nota": "Argyriadis (p. 176, nota 5) diz que a origem banto é a descrição usual, entre outras. Detalhes de iniciação e dos objetos de culto ficam fora por serem fundamento.",
+      "status": "com_fonte"
     },
     {
       "id": "arara",

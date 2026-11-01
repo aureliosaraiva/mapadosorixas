@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Glossário de termos usados nas fichas, no fichamento e nas tradições. Cada definição é paráfrase com página. Esquema: schemas/glossario.schema.json. Validado por scripts/validar_fichas.py e conferido por scripts/anticopia.py.",
     "aviso": "Definições em linguagem pública: nada de fundamento iniciático (preparos, cantigas secretas, liturgia de iniciação). Ainda sem revisão de praticantes.",
-    "total": 47,
+    "total": 54,
     "pendentes": [
       {
         "termo": "saudação (nomes das saudações aos orixás)",
@@ -25,12 +25,40 @@
         "motivo": "nenhuma fonte aberta lida usa o termo"
       },
       {
-        "termo": "Regla de Ocha, Palo Monte, Arará, Shango (Trinidad)",
-        "motivo": "faltam fontes abertas lidas; ver PENDENCIAS.md"
+        "termo": "Arará, Shango (Trinidad)",
+        "motivo": "faltam fontes abertas lidas: Toutain 2019 e Argyriadis 2005 só citam arará como nação colonial; nenhuma fonte lida trata de Trinidad; ver PENDENCIAS.md"
       }
     ]
   },
   "termos": [
+    {
+      "id": "abata",
+      "termo": "abatá",
+      "variantes": [
+        "bata"
+      ],
+      "categoria": "musica_e_danca",
+      "tradicoes": [
+        "tambor_de_mina",
+        "xango_pernambuco"
+      ],
+      "definicao": "Tambor de duas membranas tocado na horizontal. No Maranhão, M. Ferretti o dá como originário da Casa de Nagô e presente em todos os terreiros de Mina de São Luís, menos na Casa das Minas; no Recife, Halloy o registra tocado sobretudo para Iansã e para os eguns.",
+      "sources": [
+        {
+          "id": "ferretti-m-2020-pureza",
+          "loc": "pp. 78–79 (edição de 2001)"
+        },
+        {
+          "id": "halloy-2005-intimite",
+          "loc": "p. 120 (nota 261)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "atabaque"
+      ],
+      "status": "com_fonte"
+    },
     {
       "id": "adarrum",
       "termo": "adarrum",
@@ -216,6 +244,30 @@
       "nota": null,
       "ver_tambem": [
         "ialorixa"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "cabildo",
+      "termo": "cabildo de nación",
+      "variantes": [
+        "cabildo"
+      ],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "definicao": "Na Cuba colonial, associação de lazer e ajuda mútua que reunia escravizados de uma mesma nação (lucumí, congo, arará, carabalí etc.) sob o patrocínio de um santo católico. Antropólogos e historiadores viram nos cabildos o berço dos cultos de origem africana na ilha; no fim do século XIX, parte deles se reorganizou como sociedades.",
+      "sources": [
+        {
+          "id": "toutain-2019-santos",
+          "loc": "pp. 19, 20 (nota 38)"
+        }
+      ],
+      "nota": "Toutain (p. 19) propõe completar esse cenário urbano com um percurso rural, nas plantações.",
+      "ver_tambem": [
+        "nacao",
+        "regla-de-ocha"
       ],
       "status": "com_fonte"
     },
@@ -725,14 +777,18 @@
         "batuque_rs",
         "umbanda"
       ],
-      "definicao": "Modalidade afro-religiosa do Rio Grande do Sul que cultua as entidades do Batuque e da Umbanda e acrescenta exus e pombagiras; segundo Oro, citando Correa, a mais difundida no estado.",
+      "definicao": "Modalidade afro-religiosa do Rio Grande do Sul que cultua as entidades do Batuque e da Umbanda e acrescenta exus e pombagiras; segundo Oro, citando Correa, a mais difundida no estado. Também chamada Quimbanda, teria surgido nos anos 1970 e é a mais recente das três modalidades gaúchas.",
       "sources": [
         {
           "id": "oro-2008-rs",
           "loc": "pp. 11–12"
+        },
+        {
+          "id": "oro-2012-campo",
+          "loc": "pp. 557, 559–560"
         }
       ],
-      "nota": null,
+      "nota": "Oro (2012, pp. 560–561) registra que seu crescimento é alvo de críticas dentro do próprio meio afro-religioso, sobretudo dos mais velhos.",
       "ver_tambem": [],
       "status": "com_fonte"
     },
@@ -757,6 +813,41 @@
       ],
       "nota": "Termo que muitas vezes é usado de forma pejorativa; aqui só se registra o sentido descritivo das fontes.",
       "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "mpungu",
+      "termo": "mpungu",
+      "variantes": [
+        "mpungus"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "palo_monte"
+      ],
+      "definicao": "No Palo Monte, nome das divindades que fazem a mediação entre o deus criador distante (Nsambi) e os humanos.",
+      "sources": [
+        {
+          "id": "toutain-2019-santos",
+          "loc": "p. 9"
+        }
+      ],
+      "divergencias": [
+        {
+          "texto": "Argyriadis os descreve como conjuntos de forças da natureza, também chamados potências, que têm nome mas não forma humana; alguns são associados aos orichas principais.",
+          "sources": [
+            {
+              "id": "argyriadis-2005-ramas",
+              "loc": "p. 176 (nota 9)"
+            }
+          ]
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "palo-monte",
+        "orixa"
+      ],
       "status": "com_fonte"
     },
     {
@@ -785,10 +876,43 @@
         {
           "id": "oro-2008-rs",
           "loc": "p. 13"
+        },
+        {
+          "id": "halloy-2005-intimite",
+          "loc": "p. 28"
+        }
+      ],
+      "nota": "Halloy (p. 28) lembra que o termo, de sentido étnico na origem, hoje indica antes um modelo teológico e litúrgico, e às vezes político.",
+      "ver_tambem": [],
+      "status": "com_fonte"
+    },
+    {
+      "id": "nfumbi",
+      "termo": "nfumbi",
+      "variantes": [
+        "nfumbe",
+        "nfumbis"
+      ],
+      "categoria": "divindade_e_entidade",
+      "tradicoes": [
+        "palo_monte"
+      ],
+      "definicao": "No Palo Monte cubano, espírito de um morto, figura central do culto. Argyriadis acrescenta que, de início, são mortos anônimos e abandonados.",
+      "sources": [
+        {
+          "id": "toutain-2019-santos",
+          "loc": "p. 9"
+        },
+        {
+          "id": "argyriadis-2005-ramas",
+          "loc": "p. 176 (nota 5)"
         }
       ],
       "nota": null,
-      "ver_tambem": [],
+      "ver_tambem": [
+        "palo-monte",
+        "egum"
+      ],
       "status": "com_fonte"
     },
     {
@@ -1101,6 +1225,36 @@
       "status": "com_fonte"
     },
     {
+      "id": "palo-monte",
+      "termo": "Palo Monte",
+      "variantes": [
+        "palo",
+        "Regla Conga"
+      ],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "palo_monte"
+      ],
+      "definicao": "Culto afro-cubano considerado de origem banto, centrado nos espíritos dos mortos (nfumbis), com quem o adepto firma um pacto. Tem variantes como mayombe, briyumba e kimbisa.",
+      "sources": [
+        {
+          "id": "toutain-2019-santos",
+          "loc": "pp. 9, 11"
+        },
+        {
+          "id": "argyriadis-2005-ramas",
+          "loc": "p. 176 (nota 5)"
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "nfumbi",
+        "mpungu",
+        "regla-de-ocha"
+      ],
+      "status": "com_fonte"
+    },
+    {
       "id": "peji",
       "termo": "peji",
       "variantes": [
@@ -1251,6 +1405,47 @@
       "status": "com_fonte"
     },
     {
+      "id": "regla-de-ocha",
+      "termo": "Regla de Ocha",
+      "variantes": [
+        "santería"
+      ],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "definicao": "Nome cubano do culto aos orichas trazido pelos escravizados chamados lucumís, também conhecido como santería. Os orichas se manifestam pela possessão e por técnicas de adivinhação e, segundo Argyriadis, têm entre suas faces um correspondente católico.",
+      "sources": [
+        {
+          "id": "toutain-2019-santos",
+          "loc": "p. 7"
+        },
+        {
+          "id": "argyriadis-2005-ramas",
+          "loc": "p. 175 (nota 1)"
+        }
+      ],
+      "divergencias": [
+        {
+          "texto": "Para muitos autores, santería designa todo o complexo de Ocha e Ifá; Toutain reserva o nome à Regla de Ocha, separada da Regla de Ifá, culto de Orula voltado à adivinhação.",
+          "sources": [
+            {
+              "id": "toutain-2019-santos",
+              "loc": "pp. 8, 11 (nota 27)"
+            }
+          ]
+        }
+      ],
+      "nota": null,
+      "ver_tambem": [
+        "orixa",
+        "ifa",
+        "palo-monte",
+        "cabildo"
+      ],
+      "status": "com_fonte"
+    },
+    {
       "id": "terreiro",
       "termo": "terreiro",
       "variantes": [],
@@ -1341,6 +1536,27 @@
       "ver_tambem": [
         "orixa",
         "inquice"
+      ],
+      "status": "com_fonte"
+    },
+    {
+      "id": "xamba",
+      "termo": "Xambá",
+      "variantes": [],
+      "categoria": "religiao_e_grupo",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "definicao": "Nação do xangô pernambucano fundada no Recife nos anos 1920 por um pai de santo vindo de Maceió, onde a perseguição policial de 1911 fechara as casas da tradição local de mesmo nome. Tem liturgia própria, público menor que o da nação nagô e segue ativa, com terreiro em Olinda.",
+      "sources": [
+        {
+          "id": "halloy-2005-intimite",
+          "loc": "pp. 86, 120–121 (notas 266–267)"
+        }
+      ],
+      "nota": "Halloy grafa o fundador como Artur Rosendo (p. 86) e Arthur Roseno (p. 120) e contesta a avaliação de Prandi (1991) de que a nação estaria desaparecendo.",
+      "ver_tambem": [
+        "nacao"
       ],
       "status": "com_fonte"
     },
