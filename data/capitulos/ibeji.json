@@ -1,0 +1,834 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/ibeji.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "ibeji",
+  "titulo": "Ibeji, os gêmeos e as crianças",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Ibeji são os gêmeos sagrados. Entre os iorubás, os próprios gêmeos são tratados como òrìṣà; na Bahia, o culto se fundiu cedo ao de São Cosme e São Damião, e a festa de fim de setembro, com doces para as crianças, saiu dos terreiros e ganhou a rua. Se os Ibeji são orixás de pleno direito é uma pergunta que as casas respondem de modos diferentes "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Além de ibeji, os candomblés baianos de meados do século passado diziam dois-dois e mabaça; no Recife, Beije. Para os dois gêmeos, um pesquisador recebeu na Bahia os nomes Beggüe e Meggüe "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Entre os iorubás, um relato missionário de 1926 anotava que o mais velho recebe sempre o nome Taiwo, aquele que experimenta o mundo primeiro, e o caçula Kehinde, aquele que vem atrás; um documento colonial de 1894 explicava o nome do orixá como gerar dois e fazia dele o protetor dos gêmeos. Trata-se de documentos de época, escritos com olhar estrangeiro "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A tradição oral iorubá, estudada a partir de oríkì, cantos e entrevistas em Oyó e Igboọra, lembra um tempo em que os gêmeos eram eliminados, e conta de dois modos o fim desse costume. Numa versão, o alafin Ajaka, por volta do século XII, deixou viver os seus gêmeos, afastando-os da corte, e a eles se atribui a fundação de Ondo. Na outra, uma família de Isokun, aconselhada por Ifá, dançou com seus gêmeos no mercado de Porto Novo, prosperou com o que lhe davam, e o alafin acabou vetando o sacrifício dos gêmeos, o que se situa em meados do século XVIII. Os primeiros gêmeos de destaque viriam do bairro de Isokun, em Oyó, lembrança guardada no oríkì que chama os gêmeos de parentes de Isokun "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os documentos coloniais registram diferenças regionais fortes. O de 1894 mencionava em Erapo um templo de Ibeji que atraía muita gente, entre Lagos e Badagry, e repetia o que ouvira sobre Ondo, onde um dos gêmeos seria morto, costume que atribuía à influência do Benim. O relato missionário de 1926 contrastava o leste iorubá, Ondo e o delta do Níger, onde se exigia a morte dos gêmeos, com o centro e o oeste, onde eles eram honrados ainda em vida "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Brasil, a devoção portuguesa a Cosme e Damião, santos gêmeos, chegou cedo, e com os africanos escravizados se misturou ao culto dos gêmeos, e hoje mal se distingue a parte de cada tradição. Na Bahia, entre famílias negras próximas dos terreiros, a festa começava com crianças levando a imagem dos santos pelas ruas e juntando esmolas para a missa; depois vinha a refeição das crianças, que comiam com as mãos entre cantos e palmas, e só depois os adultos se sentavam à mesa. O peditório lembra os presentes que, entre iorubás e fons, se dão aos gêmeos levados ao mercado "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros de Salvador e São Paulo pesquisados até 1993, os Ibeji protegem os pequenos até mais ou menos doze anos e têm poder sobre os males da infância; agem também sobre a mente, e há perturbações psíquicas de gente adulta que se explicam como castigo deles "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". Entre os iorubás, os gêmeos estão entre as crianças sagradas, podem punir quem lhes faz mal e são vistos como ponte entre espíritos e humanos; daí o costume de dizer, quando um gêmeo morre, que ele saiu para comprar roupa para o irmão "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A imagem do gêmeo morto tem lugar importante. Na Nigéria, quando morre um dos gêmeos, ou os dois, faz-se esculpir uma figura em sua memória, a ère ìbejì, guardada no santuário. O documento de 1894 contava que a mãe passava a carregar, junto do filho vivo, uma pequena imagem de madeira, do mesmo sexo do morto, para que o sobrevivente não sentisse falta do irmão e o espírito tivesse onde morar; o relato de 1926 descrevia a mãe cuidando da imagem como se fosse a criança "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Brasil, a imagem tem três figuras. Os santeiros baianos esculpem, entre Cosme e Damião, uma figura menor que representa Doú, e no Recife eles igualmente são figurados em três estatuetas. No nagô do Recife, os Ibeji, descritos como gêmeos, são assentados em três pratinhos de barro, aos pés do assentamento de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". Ali também se associam a eles todas as cores, misturadas, e a quarta-feira é o seu dia, já que Xangô e a esposa ficam com a quinta "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A festa cai no fim de setembro. No calendário que liga orixás a santos, que vigora mais entre os nagôs de Pernambuco e, na Bahia, nas casas bantas, a festa dos Gêmeos coincide com Cosme e Damião, em 27 de setembro. No Recife, quase todos os xangôs dedicam essa data aos Beije, com doces e frutas dados à criançada pela tarde; só um terreiro a celebrava em 12 de fevereiro. Nos terreiros de Salvador e São Paulo, o dia varia entre 23, 26 e 27, e é o dia das crianças, que ganham brinquedos e guloseimas "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum itã dos Ibeji está fichado; o que há são relatos de família e de origem. Nos terreiros de Salvador e São Paulo, quando se fala da prole de Iemanjá, há quem conte que ela gerou também os Ibeji, de uma união proibida com Xangô. No nagô do Recife, Oxum é tida como mãe deles. Em Cuba, segundo uma obra cubana citada nos estudos da Bahia, identificavam-se os gêmeos, os jimaguas, com Dada e Ogun, irmãos de Xangô, e daí viria a veste vermelha que os une "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um terceiro personagem acompanha muitas vezes os gêmeos. No Rio, um cronista encontrou, além dos ibeji, Doú e Alaba, a quem deu o nome de orixás; já na Bahia, Doú seria o terceiro de trigêmeos ou o filho que nasce depois de gêmeos, e com o tempo virou o guardião dos dois. Nos terreiros de Salvador e São Paulo, esse terceiro pode ser um macaquinho ou um menino negro, Doum "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu e Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Se os Ibeji são orixás, as casas discordam. Nos candomblés baianos e nos xangôs do Recife de meados do século passado, eles não baixavam: seriam antepassados míticos dos gêmeos, não divindades plenas, e no Nordeste o único transe de criança era o do erê. Nos terreiros de Salvador e São Paulo estudados até 1993, havia as três posições: casas que reconheciam o transe dos Ibeji, casas que o negavam e outras que o confundiam com o "
+            },
+            {
+              "t": "link",
+              "rotulo": "erê",
+              "tipo": "glossario",
+              "alvo": "ere"
+            },
+            {
+              "t": "texto",
+              "v": "; um pai de santo afirmava que o candomblé nagô não inicia ninguém para eles nem os recebe em transe, de modo que não seriam orixás. No nagô do Recife de hoje, eles têm toadas, mas ninguém os recebe em possessão "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, o quadro se inverte: os Ibeji entram no xirê com o mesmo lugar dos outros orixás e podem possuir um adulto, que então se comporta como criança "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A maioria dos sacerdotes angola-congo ouvidos em São Paulo aproxima dos Ibeji o inquice Vunji, divindade da justiça que intervém quando as crianças nascem. Um documento colonial de 1894 identificava Ibeji com Hoho, divindade dos ewe "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. Num esquema umbandista de sete linhas, proposto por Diamantino Trindade e ligado às tendas fundadas por Zélio de Moraes, a Tenda Cosme e Damião é a que responde pela linha de Ibeji "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Cuba, os gêmeos são chamados jimaguas e ligados a Dada e Ogun, tidos como irmãos de Xangô "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Cosme e Damião, médicos e mártires que o sincretismo tornou patronos dos gêmeos, são os santos dos Ibeji na Bahia, no Recife e nos terreiros de Salvador e São Paulo; no Recife, essa associação segue viva e é festejada por volta de 27 de setembro. Às vezes, nos xangôs do Recife, eles foram identificados também com Crispim e Crispiniano, festejados em 25 de outubro "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Roger Bastide ligou o peditório baiano de Cosme e Damião aos presentes dados aos gêmeos nos mercados iorubás e fons, e Doú ao macaquinho Edun, consagrado aos ibeji, que aparece num documento colonial "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Olufunmilola Adedayo Ogunbunmi, a partir da tradição oral de Oyó e Igboọra, defende que os primeiros gêmeos notáveis eram de Isokun e que o culto nasceu com o fim do infanticídio "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem itã dos Ibeji, nem registro de saudação, elementos ou símbolos próprios "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": ". Alimentos e interdições ficaram retidos até a decisão do conselho de revisores "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Os estudos clássicos sobre os ìbejì citados pelo artigo nigeriano, como os de Houlberg, ainda não foram lidos "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-017"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-008"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-033"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-027"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-035"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-032"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-003"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-019"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-036"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-032"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-022"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-025"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-010"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-015"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-021"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-013"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-016"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-024"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-006"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-039"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-028"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-040"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-013"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-012"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-010"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ibeji-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-035"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "elementos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Registros retidos (tabus e alimentos) do lote B"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Houlberg 1973"
+        }
+      ]
+    }
+  ]
+}

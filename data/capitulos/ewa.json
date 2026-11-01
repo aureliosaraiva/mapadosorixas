@@ -1,0 +1,640 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/ewa.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "ewa",
+  "titulo": "Ewá, uma divindade quase sem registro",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Ewá, ou Euá, é a divindade com menos material neste projeto. Os poucos registros abertos vêm de casas específicas, no Recife, num terreiro de Mina de São Paulo e em terreiros angola-congo, e nenhum deles diz quais são seus domínios, suas cores ou seus mitos. Este capítulo é, por isso, curto, e boa parte dele trata do que falta "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os registros usam as grafias Ewá e Euá, e no terreiro de Mina de São Paulo aparece ainda Eowá, nome de um vodum que corresponde a ela "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". O fichamento não tem registro de etimologia nem de origem africana "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na nação nagô do Recife, Ewá, divindade feminina, não tem assentamento e recebe só umas poucas toadas nas festas públicas, na mesma situação de Oxumarê e de Iroko. Obá, em comparação, tem ali um repertório um pouco maior "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O único dado de calendário vem do terreiro de Mina de Dona Jarina, em São Paulo: ali, Euá e o vodum Naveorualim são festejados em 16 de julho, dia de Nossa Senhora do Carmo "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": ". Não há registro de domínios, elementos, cores, dia da semana ou símbolos "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum itã de Ewá foi fichado. Num candomblé ketu de São Paulo, conta-se que Logunedé é muito chegado a uma Yewá, e que um completa o outro; o projeto ainda não sabe se essa Yewá é Ewá ou outra divindade de nome parecido "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". Na lista de voduns do terreiro de Mina de São Paulo, Euá aparece como filha do vodum Azonce, os dois tidos como nagôs; ali, Euá é nome de vodum, e quem a liga ao orixá é o quadro de correspondências do terreiro "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", Ewá não tem assentamento e é lembrada apenas em poucas toadas "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No terreiro de Dona Jarina, em São Paulo, casa de origem maranhense, Euá corresponde a dois voduns: Boçalabê, jeje, e Eowá, classificado como jeje-nagô "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros angola-congo estudados em São Paulo, não se encontrou correspondente para Ewá "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. O fichamento não tem registro de Ewá na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No terreiro de Mina de São Paulo, Euá tem dois santos, conforme o vodum que a representa: por meio de Eowá, Nossa Senhora do Carmo, e por meio de Boçalabê, Santa Teresa "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Não há debate acadêmico sobre Ewá nas fontes lidas. Arnaud Halloy, no Recife, e Renato Ubirajara dos Santos Botão, nos terreiros angola-congo, apenas registram a pouca presença dela ou a falta de correspondente "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quase tudo. Não há registros sobre domínios, elementos, cores, dia, saudação, símbolos, funções, a dança e os mitos de Ewá "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Nenhuma fonte acadêmica aberta encontrada até agora trata dela com mais vagar; o que existe está em livros impressos, como os de Verger e Prandi e a literatura de praticantes da Pallas "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também falta decidir se Ewá e Iyewa são a mesma divindade, questão que o projeto deixou em aberto até haver fonte "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-007"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dominios",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-003"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "nomes",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-008"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-006"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "dominios",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "elementos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-009"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-005"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-002"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-003"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-007"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": "umbanda"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-004"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-007"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "interpretacao_academica",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "dominios",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "elementos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "funcoes",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "iconografia",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (1981)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Literatura de praticantes da Pallas (Coleção Orixás)"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "separação de Ewá e Iyewa"
+        }
+      ]
+    }
+  ]
+}
