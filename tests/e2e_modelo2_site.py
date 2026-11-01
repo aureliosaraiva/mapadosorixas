@@ -87,7 +87,7 @@ def main():
 
         # adulterações → o QA precisa acusar
         casos = [
-            ("catalogo/index.html", '<p class="tipo-entidade">Ancestrais</p>', '<p class="tipo-entidade">Ancestrais</p><p>texto inventado</p>', "cartão em pesquisa com texto"),
+            ("catalogo/index.html", '<h2>Iyami</h2><p class="tipo-entidade">Ancestrais</p>', '<h2>Iyami</h2><p class="tipo-entidade">Ancestrais</p><p>texto inventado</p>', "cartão em pesquisa com texto"),
             ("cosmologia/index.html", '<h2 id="versoes-hierarquia">Versões com fonte</h2>', '<h2 id="versoes-hierarquia">Versões com fonte</h2><p id="aviso-sem-hierarquia">x</p>', "aviso de estrutura vazia"),
             ("itans/ita-002/index.html", 'class="resumo">', 'class="resumo">ADULTERADO ', "resumo difere"),
         ]
