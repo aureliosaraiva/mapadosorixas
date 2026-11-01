@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iansa",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 40,
+    "total": 39,
     "por_status": {
-      "fichado": 40,
+      "fichado": 39,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -645,25 +645,6 @@
       "localizacao": "p. 168",
       "parafrase": "Oyá foi mulher de Xangô.",
       "nota": null,
-      "status": "fichado",
-      "evidencias": [
-        "https://hal.science/tel-04260456v1"
-      ]
-    },
-    {
-      "id": "iansa-034",
-      "orixa": "iansa",
-      "atributo": "itans",
-      "valor": "Oyá tem relação privilegiada com os eguns, enquanto Xangô foi expulso do balé por falar demais",
-      "tradicoes": [
-        "xango_pernambuco"
-      ],
-      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
-      "source_id": "halloy-2005-intimite",
-      "via_source_id": null,
-      "localizacao": "p. 168 e nota 366",
-      "parafrase": "Oyá mantém laço especial com os eguns. Já Xangô, segundo uma narrativa muito conhecida, teria sido posto para fora do balé, onde \"moram\" os eguns, por ser indiscreto e contar segredos até então bem guardados.",
-      "nota": "Halloy diz que a narrativa também aparece em Segato (1995, p. 398).",
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"

@@ -8,7 +8,7 @@
       "'arestas' é gerado: arestas de data/conexoes.json sustentadas por registros do itã.",
       "Só versões 'fichado'/'revisado' aparecem no site e no download."
     ],
-    "total": 31
+    "total": 30
   },
   "itans": [
     {
@@ -1277,38 +1277,6 @@
       ],
       "arestas": [],
       "nota_curadoria": "Uma versão (Chiousse)."
-    },
-    {
-      "id": "ita-031",
-      "titulo": "Xangô expulso do balé dos eguns",
-      "entidades": [
-        "xango",
-        "iansa",
-        "egungun"
-      ],
-      "versoes": [
-        {
-          "registro": "iansa-034",
-          "odu": null,
-          "valor": "Oyá tem relação privilegiada com os eguns, enquanto Xangô foi expulso do balé por falar demais",
-          "resumo": "Oyá mantém laço especial com os eguns. Já Xangô, segundo uma narrativa muito conhecida, teria sido posto para fora do balé, onde \"moram\" os eguns, por ser indiscreto e contar segredos até então bem guardados.",
-          "tradicoes": [
-            "xango_pernambuco"
-          ],
-          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
-          "sources": [
-            {
-              "id": "halloy-2005-intimite",
-              "loc": "p. 168 e nota 366",
-              "via": null
-            }
-          ],
-          "nota": "Halloy diz que a narrativa também aparece em Segato (1995, p. 398).",
-          "status": "fichado"
-        }
-      ],
-      "arestas": [],
-      "nota_curadoria": "Uma versão (Halloy, Recife). Halloy remete também a Segato 1995."
     }
   ]
 }
