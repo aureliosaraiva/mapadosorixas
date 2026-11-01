@@ -6,7 +6,8 @@ Este script procura sinais de cópia nos textos redigidos pelo projeto
 (valor, parafrase e nota do fichamento; descrições e notas de data/tradicoes.json;
 definições, divergências e notas de data/glossario.json; títulos, notas de
 curadoria e versões redigidas direto em data/itans.json — as versões espelhadas
-de um registro já são conferidas no fichamento):
+de um registro já são conferidas no fichamento; e cada trecho dos capítulos
+narrativos de data/capitulos/*.md, comparado com as fontes dos registros citados):
 
 1. Citação longa entre aspas (>= LIMITE_CITACAO palavras) -> ERRO.
    Citações curtas (>= 6 palavras) são listadas como aviso para conferência.
@@ -123,6 +124,18 @@ def textos_do_projeto():
                 for campo in ("valor", "resumo", "nota"):
                     if v.get(campo):
                         yield f"itans/{it['id']}.versoes[{i}].{campo}", fontes, v[campo]
+    # capítulos narrativos (data/capitulos/*.md): cada trecho é comparado com as
+    # fontes dos registros que ele cita (a fonte lida `via` primeiro)
+    import capitulos
+    regs = {r["id"]: r for p in entidades.arquivos_fichamento(RAIZ)
+            for r in json.loads(p.read_text(encoding="utf-8"))["registros"]}
+    for rot, ids, txt in capitulos.textos_para_anticopia(RAIZ):
+        fontes = []
+        for i in ids:
+            r = regs.get(i)
+            if r:
+                fontes += [f for f in (r.get("via_source_id"), r["source_id"]) if f and f not in fontes]
+        yield rot, fontes, txt
 
 
 def main():

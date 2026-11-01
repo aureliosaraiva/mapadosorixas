@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/capitulo.schema.json",
+  "title": "Capítulo narrativo de um orixá (JSON gerado de data/capitulos/<id>.md)",
+  "description": "Texto corrido do projeto, montado só com registros do fichamento. Cada parágrafo é uma lista de tokens: texto, link e chamadas de nota. As notas são numeradas por ordem de primeira aparição e apontam para um registro de fichamento (fichado/revisado), para uma lacuna conferida (atributo sem registro) ou para uma pendência de docs/pesquisa/PENDENCIAS.md. Gerado por scripts/validar_capitulos.py --gerar; não editar à mão. Formato do .md em docs/capitulos-guia.md.",
+  "type": "object",
+  "required": ["_meta", "orixa", "titulo", "status", "atualizado", "secoes", "notas"],
+  "additionalProperties": false,
+  "properties": {
+    "_meta": { "type": "object" },
+    "orixa": { "type": "string", "pattern": "^[a-z][a-z_]*$", "description": "id da lista-mestra (data/entidades.json), igual ao nome do arquivo" },
+    "titulo": { "type": "string", "minLength": 3 },
+    "status": { "enum": ["rascunho", "revisado"], "description": "'revisado' só quando todos os registros citados estão 'revisado'" },
+    "atualizado": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "secoes": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["slug", "titulo", "blocos"],
+        "additionalProperties": false,
+        "properties": {
+          "slug": { "enum": ["abertura", "nomes-e-origem", "historia-do-culto", "dominios-e-simbolos", "mitos", "tradicoes", "sincretismo", "leituras-academicas", "lacunas"] },
+          "titulo": { "type": ["string", "null"] },
+          "blocos": { "type": "array", "items": { "$ref": "#/$defs/bloco" } }
+        }
+      }
+    },
+    "notas": { "type": "array", "items": { "$ref": "#/$defs/nota" } }
+  },
+  "$defs": {
+    "bloco": {
+      "oneOf": [
+        {
+          "type": "object", "required": ["tipo", "texto"], "additionalProperties": false,
+          "properties": { "tipo": { "const": "subtitulo" }, "texto": { "type": "string", "minLength": 1 } }
+        },
+        {
+          "type": "object", "required": ["tipo", "tokens"], "additionalProperties": false,
+          "properties": { "tipo": { "const": "paragrafo" }, "tokens": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/token" } } }
+        }
+      ]
+    },
+    "token": {
+      "oneOf": [
+        { "type": "object", "required": ["t", "v"], "additionalProperties": false,
+          "properties": { "t": { "const": "texto" }, "v": { "type": "string" } } },
+        { "type": "object", "required": ["t", "rotulo", "tipo", "alvo"], "additionalProperties": false,
+          "properties": { "t": { "const": "link" }, "rotulo": { "type": "string" }, "tipo": { "enum": ["ita", "orixa", "glossario", "tradicao", "grafo"] }, "alvo": { "type": "string" } } },
+        { "type": "object", "required": ["t", "n"], "additionalProperties": false,
+          "properties": { "t": { "const": "notas" }, "n": { "type": "array", "minItems": 1, "items": { "type": "integer", "minimum": 1 } } } }
+      ]
+    },
+    "nota": {
+      "oneOf": [
+        { "type": "object", "required": ["n", "tipo", "registro"], "additionalProperties": false,
+          "properties": { "n": { "type": "integer" }, "tipo": { "const": "registro" }, "registro": { "type": "string", "pattern": "^[a-z][a-z_]*-[0-9]{3}$" } } },
+        { "type": "object", "required": ["n", "tipo", "atributo", "tradicao"], "additionalProperties": false,
+          "properties": { "n": { "type": "integer" }, "tipo": { "const": "lacuna" }, "atributo": { "type": "string" }, "tradicao": { "type": ["string", "null"] } } },
+        { "type": "object", "required": ["n", "tipo", "ancora"], "additionalProperties": false,
+          "properties": { "n": { "type": "integer" }, "tipo": { "const": "pendencia" }, "ancora": { "type": "string", "minLength": 6 } } }
+      ]
+    }
+  }
+}
