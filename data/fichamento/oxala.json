@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxala",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 62,
+    "total": 64,
     "por_status": {
-      "fichado": 62,
+      "fichado": 64,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1210,6 +1210,44 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "oxala-063",
+      "orixa": "oxala",
+      "atributo": "qualidades",
+      "valor": "Obatalá, hoje macho e fêmea; antes era mulher, \"a mãe do mundo\", que apazigua e refresca (segundo Julio-Enrique Blázquez)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 178",
+      "parafrase": "Para Julio-Enrique Blázquez, Obatalá é hoje masculino e feminino, mas antigamente era mulher, a mãe do mundo, e por isso se encerrava com ela a cerimônia da festa de Elegguá, para acalmar e refrescar.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "oxala-064",
+      "orixa": "oxala",
+      "atributo": "festas",
+      "valor": "na festa de Elegguá, o sacrifício para Obatalá encerra a matança e é feito no alto, sobre um pano branco, uso que a família diz vir da escravidão",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "pp. 74, 177–178",
+      "parafrase": "Na casa de Elegguá Alagbana, a oferenda anual a Obatalá fecha a cerimônia sacrificial da festa de Elegguá e é feita acima do chão, sobre um lençol branco esticado pelos presentes; os membros da família dizem que é costume da casa desde a escravidão. Toutain liga esse modo de fazer ao modelo dos cabildos urbanos.",
+      "nota": "Animais e procedimento não detalhados.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

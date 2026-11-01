@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ossaim.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 39,
+    "registros_usados": 40,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -628,6 +628,27 @@
         "parafrase": "Chiousse observa que Ossãe parece ter poucos filhos e que seu culto é pouco sustentado nos terreiros que visitou.",
         "nota": null,
         "registro": "ossaim-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "santo parado de Osain na entrada do antigo barracão de escravizados, onde se esperaria Elegguá",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 124",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 124",
+        "parafrase": "Na entrada do antigo barracão do central há um santo parado dedicado a Osain, não a Elegguá. Toutain lembra que Osain reina sobre as ervas silvestres do culto e é tão ligado a Elegguá pelo espaço selvagem que muitos o veem como mais um da turma dos Elegguás, embora \"dono\" e não guardião (segundo Cabrera); uma hipótese dele é que o santo parado substituía o mato, inacessível aos escravizados presos nas horas de folga.",
+        "nota": "A caracterização de Osain vem de Cabrera (1954), citada por Toutain.",
+        "registro": "ossaim-040",
         "status": "fichado"
       }
     ],

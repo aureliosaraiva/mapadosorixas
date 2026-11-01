@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/exu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 94,
+    "registros_usados": 98,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -442,6 +442,27 @@
         "parafrase": "Segundo Vallier, a principal função de Èṣù no panteão iorubá é servir de mensageiro entre o céu e a terra, entre humanos e entidades, e relatar seus atos ao Ser supremo. Ele recebe sempre a primeira parte dos sacrifícios e disciplina quem ofende o Ser supremo, negligencia os òrìṣà ou recusa os sacrifícios necessários; também pode dar filhos a mulheres estéreis e bons negócios às comerciantes que o invocam.",
         "nota": "Concorda com exu-011, exu-024 e exu-050.",
         "registro": "exu-078",
+        "status": "fichado"
+      },
+      {
+        "valor": "porteiro: orixá guerreiro que, atrás da porta, protege a casa dos perigos da rua e do mato",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 124",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 124",
+        "parafrase": "Hoje em Cuba Elegguá fica atrás da porta de entrada: é o orixá guerreiro que guarda o lar do seu dono contra o que vem de fora, da rua ou do mato. Toutain apoia a descrição em Lydia Cabrera, que o chama de porteiro do monte e da savana.",
+        "nota": "Toutain cita Cabrera, El Monte (1954), p. 71.",
+        "registro": "exu-099",
         "status": "fichado"
       }
     ],
@@ -1171,6 +1192,27 @@
         "nota": null,
         "registro": "exu-095",
         "status": "fichado"
+      },
+      {
+        "valor": "São Pedro (associação local)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 172",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 172",
+        "parafrase": "No central Méjico, Elegguá é associado localmente a São Pedro, o que, nota Toutain, não explica por que sua festa caiu um tempo no dia de Santa Bárbara.",
+        "nota": null,
+        "registro": "exu-098",
+        "status": "fichado"
       }
     ],
     "itans": [
@@ -1323,6 +1365,27 @@
         "parafrase": "Toutain conta que uma associação de Ifá das Ilhas Canárias viaja todo ano, em outubro, ao central Méjico para realizar iniciações e participar da festa de Elegguá; a viagem é organizada pelo único babalao nascido na localidade, que vive nas Canárias.",
         "nota": null,
         "registro": "exu-089",
+        "status": "fichado"
+      },
+      {
+        "valor": "\"fiesta de Elegguá\", de 22 a 24 de outubro, que celebra, entre outras, a iniciação de Celida Sánchez Zulueta; na matança, cada família leva seu frango e põe o próprio Elegguá ao lado da relíquia de Ta Jorge",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 57; p. 74",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 57; p. 74",
+        "parafrase": "Entre as festas comemorativas de data fixa do central Méjico está a de Elegguá, de 22 a 24 de outubro, ligada à iniciação da santera Celida Sánchez Zulueta. Na cerimônia sacrificial dedicada ao Elegguá de Ta Jorge, os descendentes e quem mais quiser oferecem um frango (ou um cabrito) e colocam o seu próprio Elegguá junto às relíquias, para que todos \"comam\" juntos. Uma das organizadoras disse ao autor que essa festa é o que a família mantém de geração em geração.",
+        "nota": "Completa exu-089 (p. 11). As oferendas são citadas no nível em que a fonte as dá ao público; os pratos e o procedimento não foram fichados.",
+        "registro": "exu-096",
         "status": "fichado"
       }
     ],
@@ -1621,6 +1684,27 @@
         "parafrase": "Ao comentar um documentário sobre a Casa Fanti-Ashanti, a autora observa que Pai Euclides aparece associado a duas práticas importantes na religião africana que, no entanto, a mina-jeje maranhense não conhece: o culto a Exu e a adivinhação por búzios. Para ela, esses \"fundamentos\" jeje do pai de santo foram buscados sobretudo fora da tradição local, no contato com africanos e em gravações cubanas.",
         "nota": "Converge com exu-092 (Legba sem culto organizado na Casa das Minas, via Prandi) e contrasta com exu-093 (Legbara assentado na casa paulista). A Casa Fanti-Ashanti se definiu como fanti-ashanti e depois como jeje-nagô e ketu, com toques de Candomblé ao lado da Mina (pp. 81–88).",
         "registro": "exu-094",
+        "status": "fichado"
+      },
+      {
+        "valor": "Elegguá Alagbana: relíquia trazida da África por Ta Jorge, escravizado; depois cuidada pela filha, Rafaela Macua Zulueta, que mudou a data da festa (4 de dezembro, depois Reis, depois o primeiro sábado do ano)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 41; pp. 172–173",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 41; pp. 172–173",
+        "parafrase": "Segundo os descendentes, o culto de Elegguá Alagbana começa com Ta Jorge, homem escravizado que trouxe da África uma estatueta do orixá; além dela, há uma pedra, o santo parado propriamente dito. Morto Ta Jorge, a filha Rafaela Macua Zulueta assumiu o culto. A festa teria sido dada em 4 de dezembro (Santa Bárbara), depois no dia de Reis e, quando Macua envelheceu, no primeiro sábado do ano; Toutain mostra que as explicações locais para cada mudança se repetem e devem ser lidas com cautela.",
+        "nota": "A data atual (22–24 de outubro) está no registro anterior; Toutain usa também o trabalho de Yudanis Zulueta Montalvo (1994), fora do catálogo.",
+        "registro": "exu-097",
         "status": "fichado"
       }
     ],

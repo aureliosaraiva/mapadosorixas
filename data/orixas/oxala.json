@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxala.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 60,
+    "registros_usados": 62,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 2
   },
@@ -645,6 +645,27 @@
         "nota": "Comparar com oxala-022 (Bastide) e com a versão de Chiousse (idades invertidas).",
         "registro": "oxala-057",
         "status": "fichado"
+      },
+      {
+        "valor": "Obatalá, hoje macho e fêmea; antes era mulher, \"a mãe do mundo\", que apazigua e refresca (segundo Julio-Enrique Blázquez)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 178",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 178",
+        "parafrase": "Para Julio-Enrique Blázquez, Obatalá é hoje masculino e feminino, mas antigamente era mulher, a mãe do mundo, e por isso se encerrava com ela a cerimônia da festa de Elegguá, para acalmar e refrescar.",
+        "nota": null,
+        "registro": "oxala-063",
+        "status": "fichado"
       }
     ],
     "parentesco": [
@@ -1166,6 +1187,27 @@
         "parafrase": "Poucos veem Oxalá pelo sincretismo; os que o associam a Cristo o festejariam em 25 de dezembro. Na família de Halloy, a festa costuma ser em janeiro, porque é bom começar o ano com o orixá da paz e pai de todos.",
         "nota": null,
         "registro": "oxala-060",
+        "status": "fichado"
+      },
+      {
+        "valor": "na festa de Elegguá, o sacrifício para Obatalá encerra a matança e é feito no alto, sobre um pano branco, uso que a família diz vir da escravidão",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "pp. 74, 177–178",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "pp. 74, 177–178",
+        "parafrase": "Na casa de Elegguá Alagbana, a oferenda anual a Obatalá fecha a cerimônia sacrificial da festa de Elegguá e é feita acima do chão, sobre um lençol branco esticado pelos presentes; os membros da família dizem que é costume da casa desde a escravidão. Toutain liga esse modo de fazer ao modelo dos cabildos urbanos.",
+        "nota": "Animais e procedimento não detalhados.",
+        "registro": "oxala-064",
         "status": "fichado"
       }
     ],

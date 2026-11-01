@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iansa",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 38,
+    "total": 40,
     "por_status": {
-      "fichado": 38,
+      "fichado": 40,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -743,6 +743,44 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-039",
+      "orixa": "iansa",
+      "atributo": "dominios",
+      "valor": "ventos e tempestades; a centelha é de Oyá, o raio de Changó; número 9",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 212 e nota 178",
+      "parafrase": "Comentando um relato local, Toutain lembra que Oyá reina sobre os ventos e as tempestades e que a centelha lhe pertence, enquanto o raio é de Changó; o número nove aparece como símbolo dela.",
+      "nota": "Toutain apoia a distinção em Bolívar Aróstegui (1994 [1990]).",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "iansa-040",
+      "orixa": "iansa",
+      "atributo": "historia_culto",
+      "valor": "narrativa local: Juana Campo, \"cavalo\" de Oyá e de Oggún, é impedida pelo marido de ir à festa; Oyá a toma, resiste a nove golpes e depois o castiga com uma centelha",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "pp. 210–212",
+      "parafrase": "Conta-se no central que Juana Campo, mulher nascida livre e médium de Oyá e de Oggún, era trancada pelo marido nos dias de festa. Um dia Oyá a possuiu, declarou que não tinha senhor nem capataz, aguentou nove golpes de facão sem reagir e foi dançar; dias depois uma centelha derrubou o marido do cavalo e ele quebrou as pernas, e Oyá foi rir dele no leito. Toutain lê a história como contestação do poder masculino e insiste que, para os narradores, a protagonista é a própria Oyá.",
+      "nota": "Narrativa de memória local (relato de Alexander Berrio), não itã tradicional; por isso fica em historia_culto.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

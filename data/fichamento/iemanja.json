@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 63,
+    "total": 64,
     "por_status": {
-      "fichado": 59,
+      "fichado": 60,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1227,6 +1227,25 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iemanja-064",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "sem acesso ao mar, as oferendas a Yemayá eram levadas ao rio, junto à \"ponte grande\", onde há santos parados de Ochún e Yemayá",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "pp. 124–125",
+      "parafrase": "Julio-Enrique conta que, como os escravizados não podiam sair do barracão, as oferendas de Yemayá iam ao rio, perto da ponte grande, uma parte para Ochún e outra para ela, levadas só por quem tinha mais liberdade de circular; hoje se diz o mar para Yemayá e o rio para Ochún. Toutain trata o relato com cautela, mas vê nos santos parados de Ochún e Yemayá junto à ponte um substituto de espaços sagrados inacessíveis.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

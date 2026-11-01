@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 123
+    "total": 124
   },
   "divergencias": [
     {
@@ -399,6 +399,17 @@
           "via": null,
           "localizacao": "p. 11",
           "registro": "exu-089"
+        },
+        {
+          "valor": "\"fiesta de Elegguá\", de 22 a 24 de outubro, que celebra, entre outras, a iniciação de Celida Sánchez Zulueta; na matança, cada família leva seu frango e põe o próprio Elegguá ao lado da relíquia de Ta Jorge",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 57; p. 74",
+          "registro": "exu-096"
         }
       ]
     },
@@ -654,6 +665,17 @@
           "via": null,
           "localizacao": "p. 276",
           "registro": "exu-095"
+        },
+        {
+          "valor": "São Pedro (associação local)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 172",
+          "registro": "exu-098"
         }
       ]
     },
@@ -3465,6 +3487,17 @@
           "via": null,
           "localizacao": "p. 270",
           "registro": "omolu-032"
+        },
+        {
+          "valor": "17 de dezembro (Babalú Ayé/São Lázaro)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (santería em geral)",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 172, nota 133",
+          "registro": "omolu-046"
         }
       ]
     },
@@ -3620,6 +3653,17 @@
           "via": null,
           "localizacao": "p. 277",
           "registro": "omolu-043"
+        },
+        {
+          "valor": "São Lázaro: em Méjico, Babalú Ayé é chamado sobretudo pelo nome católico",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 41",
+          "registro": "omolu-045"
         }
       ]
     },
@@ -3804,6 +3848,34 @@
           "via": null,
           "localizacao": "p. 158",
           "registro": "orum-009"
+        }
+      ]
+    },
+    {
+      "orixa": "orunmila",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "sem santo católico; antes em 25 de dezembro, depois no último fim de semana de setembro",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276",
+          "registro": "orunmila-009"
+        },
+        {
+          "valor": "4 de outubro (Orula/São Francisco de Assis)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (santería em geral)",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 172, nota 133",
+          "registro": "orunmila-013"
         }
       ]
     },
@@ -4228,6 +4300,17 @@
           "via": null,
           "localizacao": "p. 276",
           "registro": "oxala-060"
+        },
+        {
+          "valor": "na festa de Elegguá, o sacrifício para Obatalá encerra a matança e é feito no alto, sobre um pano branco, uso que a família diz vir da escravidão",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "pp. 74, 177–178",
+          "registro": "oxala-064"
         }
       ]
     },
@@ -4456,6 +4539,17 @@
           "via": null,
           "localizacao": "p. 169",
           "registro": "oxala-057"
+        },
+        {
+          "valor": "Obatalá, hoje macho e fêmea; antes era mulher, \"a mãe do mundo\", que apazigua e refresca (segundo Julio-Enrique Blázquez)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 178",
+          "registro": "oxala-063"
         }
       ]
     },
@@ -4914,6 +5008,17 @@
           "via": null,
           "localizacao": "p. 168",
           "registro": "oxum-045"
+        },
+        {
+          "valor": "amarelo e ouro (colar e pulseira)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 8, nota 18",
+          "registro": "oxum-050"
         }
       ]
     },
@@ -6098,6 +6203,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "xango-051"
+        },
+        {
+          "valor": "Santa Bárbara (festa em 4 de dezembro)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (santería); Banagüises (Matanzas)",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 172 e nota 133",
+          "registro": "xango-056"
         }
       ]
     }

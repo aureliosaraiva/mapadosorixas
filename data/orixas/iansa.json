@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iansa.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 37,
+    "registros_usados": 39,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -162,6 +162,27 @@
         "parafrase": "Yansã é orixá feminina das tempestades e guerreira feroz; seu elemento é o vento, e há quem a associe também ao fogo do raio.",
         "nota": null,
         "registro": "iansa-032",
+        "status": "fichado"
+      },
+      {
+        "valor": "ventos e tempestades; a centelha é de Oyá, o raio de Changó; número 9",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 212 e nota 178",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 212 e nota 178",
+        "parafrase": "Comentando um relato local, Toutain lembra que Oyá reina sobre os ventos e as tempestades e que a centelha lhe pertence, enquanto o raio é de Changó; o número nove aparece como símbolo dela.",
+        "nota": "Toutain apoia a distinção em Bolívar Aróstegui (1994 [1990]).",
+        "registro": "iansa-039",
         "status": "fichado"
       }
     ],
@@ -780,6 +801,27 @@
         "parafrase": "Segundo Costa, Maria Oyá (nome civil Maria das Dores), feita por pai Rosendo e filha de Iansã, abriu no começo da década de 1930 o terreiro Santa Bárbara, hoje principal casa de nação xambá.",
         "nota": null,
         "registro": "iansa-015",
+        "status": "fichado"
+      },
+      {
+        "valor": "narrativa local: Juana Campo, \"cavalo\" de Oyá e de Oggún, é impedida pelo marido de ir à festa; Oyá a toma, resiste a nove golpes e depois o castiga com uma centelha",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "pp. 210–212",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "pp. 210–212",
+        "parafrase": "Conta-se no central que Juana Campo, mulher nascida livre e médium de Oyá e de Oggún, era trancada pelo marido nos dias de festa. Um dia Oyá a possuiu, declarou que não tinha senhor nem capataz, aguentou nove golpes de facão sem reagir e foi dançar; dias depois uma centelha derrubou o marido do cavalo e ele quebrou as pernas, e Oyá foi rir dele no leito. Toutain lê a história como contestação do poder masculino e insiste que, para os narradores, a protagonista é a própria Oyá.",
+        "nota": "Narrativa de memória local (relato de Alexander Berrio), não itã tradicional; por isso fica em historia_culto.",
+        "registro": "iansa-040",
         "status": "fichado"
       }
     ],

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 95,
+    "total": 99,
     "por_status": {
-      "fichado": 95,
+      "fichado": 99,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1861,6 +1861,82 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "exu-096",
+      "orixa": "exu",
+      "atributo": "festas",
+      "valor": "\"fiesta de Elegguá\", de 22 a 24 de outubro, que celebra, entre outras, a iniciação de Celida Sánchez Zulueta; na matança, cada família leva seu frango e põe o próprio Elegguá ao lado da relíquia de Ta Jorge",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 57; p. 74",
+      "parafrase": "Entre as festas comemorativas de data fixa do central Méjico está a de Elegguá, de 22 a 24 de outubro, ligada à iniciação da santera Celida Sánchez Zulueta. Na cerimônia sacrificial dedicada ao Elegguá de Ta Jorge, os descendentes e quem mais quiser oferecem um frango (ou um cabrito) e colocam o seu próprio Elegguá junto às relíquias, para que todos \"comam\" juntos. Uma das organizadoras disse ao autor que essa festa é o que a família mantém de geração em geração.",
+      "nota": "Completa exu-089 (p. 11). As oferendas são citadas no nível em que a fonte as dá ao público; os pratos e o procedimento não foram fichados.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "exu-097",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "Elegguá Alagbana: relíquia trazida da África por Ta Jorge, escravizado; depois cuidada pela filha, Rafaela Macua Zulueta, que mudou a data da festa (4 de dezembro, depois Reis, depois o primeiro sábado do ano)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico, casa de Elegguá Alagbana",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 41; pp. 172–173",
+      "parafrase": "Segundo os descendentes, o culto de Elegguá Alagbana começa com Ta Jorge, homem escravizado que trouxe da África uma estatueta do orixá; além dela, há uma pedra, o santo parado propriamente dito. Morto Ta Jorge, a filha Rafaela Macua Zulueta assumiu o culto. A festa teria sido dada em 4 de dezembro (Santa Bárbara), depois no dia de Reis e, quando Macua envelheceu, no primeiro sábado do ano; Toutain mostra que as explicações locais para cada mudança se repetem e devem ser lidas com cautela.",
+      "nota": "A data atual (22–24 de outubro) está no registro anterior; Toutain usa também o trabalho de Yudanis Zulueta Montalvo (1994), fora do catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "exu-098",
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "São Pedro (associação local)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 172",
+      "parafrase": "No central Méjico, Elegguá é associado localmente a São Pedro, o que, nota Toutain, não explica por que sua festa caiu um tempo no dia de Santa Bárbara.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "exu-099",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "porteiro: orixá guerreiro que, atrás da porta, protege a casa dos perigos da rua e do mato",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 124",
+      "parafrase": "Hoje em Cuba Elegguá fica atrás da porta de entrada: é o orixá guerreiro que guarda o lar do seu dono contra o que vem de fora, da rua ou do mato. Toutain apoia a descrição em Lydia Cabrera, que o chama de porteiro do monte e da savana.",
+      "nota": "Toutain cita Cabrera, El Monte (1954), p. 71.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

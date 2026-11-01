@@ -120,7 +120,8 @@
     "figura:joana-darc": {"rotulo": "Joana d’Arc", "tipo": "figura_crista"},
     "santo:sao-lazaro": {"rotulo": "São Lázaro", "tipo": "santo_catolico"},
     "orunmila": {"rotulo": "Orunmilá / Ifá", "tipo": "orixa"},
-    "santo:ns-penha": {"rotulo": "Nossa Senhora da Penha", "tipo": "santo_catolico"}
+    "santo:ns-penha": {"rotulo": "Nossa Senhora da Penha", "tipo": "santo_catolico"},
+    "santo:sao-francisco": {"rotulo": "São Francisco de Assis", "tipo": "santo_catolico"}
   },
   "registros": {
     "exu-001": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
@@ -371,6 +372,10 @@
     "oxala-056": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "iemanja"}],
     "ogum-066": [{"tipo": "sincretismo", "destino": "santo:sao-jorge"}],
     "oxossi-035": [{"tipo": "sincretismo", "destino": "santo:santo-expedito"}],
-    "exu-095": [{"tipo": "sincretismo", "destino": "santo:santo-antonio"}]
+    "exu-095": [{"tipo": "sincretismo", "destino": "santo:santo-antonio"}],
+    "exu-098": [{"tipo": "sincretismo", "destino": "santo:sao-pedro"}],
+    "omolu-045": [{"tipo": "sincretismo", "destino": "santo:sao-lazaro"}],
+    "xango-056": [{"tipo": "sincretismo", "destino": "santo:santa-barbara"}],
+    "orunmila-013": [{"tipo": "sincretismo", "destino": "santo:sao-francisco"}]
   }
 }

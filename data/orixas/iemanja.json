@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iemanja.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 59,
+    "registros_usados": 60,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -1192,6 +1192,27 @@
         "parafrase": "Toutain registra que, na iniciação da santería do central Méjico, o neófito recebe também os orixás maiores, entre eles Yemayá, ao lado de Obatalá, Changó e Ochún.",
         "nota": null,
         "registro": "iemanja-054",
+        "status": "fichado"
+      },
+      {
+        "valor": "sem acesso ao mar, as oferendas a Yemayá eram levadas ao rio, junto à \"ponte grande\", onde há santos parados de Ochún e Yemayá",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "pp. 124–125",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "pp. 124–125",
+        "parafrase": "Julio-Enrique conta que, como os escravizados não podiam sair do barracão, as oferendas de Yemayá iam ao rio, perto da ponte grande, uma parte para Ochún e outra para ela, levadas só por quem tinha mais liberdade de circular; hoje se diz o mar para Yemayá e o rio para Ochún. Toutain trata o relato com cautela, mas vê nos santos parados de Ochún e Yemayá junto à ponte um substituto de espaços sagrados inacessíveis.",
+        "nota": null,
+        "registro": "iemanja-064",
         "status": "fichado"
       }
     ],

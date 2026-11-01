@@ -3,13 +3,13 @@
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
     "total_nos": 117,
-    "total_arestas": 149,
+    "total_arestas": 150,
     "por_tipo": {
       "associacao": 3,
       "companheiro_de_culto": 3,
       "equivalencia": 60,
       "parentesco": 36,
-      "sincretismo": 47
+      "sincretismo": 48
     }
   },
   "nos": [
@@ -5467,6 +5467,27 @@
           "nota": null,
           "registro": "exu-055",
           "status": "fichado"
+        },
+        {
+          "valor": "São Pedro (associação local)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "sources": [
+            {
+              "id": "toutain-2019-santos",
+              "loc": "p. 172",
+              "via": null
+            }
+          ],
+          "source_id": "toutain-2019-santos",
+          "via_source_id": null,
+          "localizacao": "p. 172",
+          "parafrase": "No central Méjico, Elegguá é associado localmente a São Pedro, o que, nota Toutain, não explica por que sua festa caiu um tempo no dia de Santa Bárbara.",
+          "nota": null,
+          "registro": "exu-098",
+          "status": "fichado"
         }
       ]
     },
@@ -6323,6 +6344,27 @@
           "nota": null,
           "registro": "omolu-030",
           "status": "fichado"
+        },
+        {
+          "valor": "São Lázaro: em Méjico, Babalú Ayé é chamado sobretudo pelo nome católico",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "sources": [
+            {
+              "id": "toutain-2019-santos",
+              "loc": "p. 41",
+              "via": null
+            }
+          ],
+          "source_id": "toutain-2019-santos",
+          "via_source_id": null,
+          "localizacao": "p. 41",
+          "parafrase": "Sob uma ceiba plantada em 1923, segundo Julio-Enrique, fica o santo parado de Babalú Ayé, a quem no central Méjico se chama principalmente de San Lázaro.",
+          "nota": null,
+          "registro": "omolu-045",
+          "status": "fichado"
         }
       ]
     },
@@ -6966,6 +7008,37 @@
           "parafrase": "Na mesma casa, Dangbê, Idarço e Oxumarê têm São Bartolomeu como santo católico.",
           "nota": null,
           "registro": "oxumare-030",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:xango>santo:santa-barbara",
+      "origem": "xango",
+      "destino": "santo:santa-barbara",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santa Bárbara (festa em 4 de dezembro)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (santería); Banagüises (Matanzas)",
+          "sources": [
+            {
+              "id": "toutain-2019-santos",
+              "loc": "p. 172 e nota 133",
+              "via": null
+            }
+          ],
+          "source_id": "toutain-2019-santos",
+          "via_source_id": null,
+          "localizacao": "p. 172 e nota 133",
+          "parafrase": "Na santería, 4 de dezembro é dia de Changó com Santa Bárbara; perto do central, em Banagüises, duas casas de Changó tocavam nessa data, em anos alternados.",
+          "nota": null,
+          "registro": "xango-056",
           "status": "fichado"
         }
       ]

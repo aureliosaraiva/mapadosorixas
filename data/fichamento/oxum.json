@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 49,
+    "total": 51,
     "por_status": {
-      "fichado": 49,
+      "fichado": 51,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -955,6 +955,44 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "oxum-050",
+      "orixa": "oxum",
+      "atributo": "cores",
+      "valor": "amarelo e ouro (colar e pulseira)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 8, nota 18",
+      "parafrase": "Cada recepção de orixá traz um colar e uma pulseira nas cores dele; para Ochún, amarelo e dourado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "oxum-051",
+      "orixa": "oxum",
+      "atributo": "dominios",
+      "valor": "o rio (Ochún), diante do mar de Yemayá",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "pp. 124–125",
+      "parafrase": "No relato de Julio-Enrique, o rio é de Ochún e o mar de Yemayá; no central, as duas recebem oferendas no mesmo trecho do rio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

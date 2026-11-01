@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/xango.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 51,
+    "registros_usados": 52,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -822,6 +822,27 @@
         "parafrase": "Segundo o quadro, Xangô e o vodum Badé estão ligados a São Pedro; Averequete, a São Benedito; Boço Vondereji, a Santo Antônio; e Xadantã, a São José.",
         "nota": null,
         "registro": "xango-051",
+        "status": "fichado"
+      },
+      {
+        "valor": "Santa Bárbara (festa em 4 de dezembro)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba (santería); Banagüises (Matanzas)",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 172 e nota 133",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 172 e nota 133",
+        "parafrase": "Na santería, 4 de dezembro é dia de Changó com Santa Bárbara; perto do central, em Banagüises, duas casas de Changó tocavam nessa data, em anos alternados.",
+        "nota": null,
+        "registro": "xango-056",
         "status": "fichado"
       }
     ],

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "orunmila",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 9,
+    "total": 13,
     "por_status": {
-      "fichado": 9,
+      "fichado": 13,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -183,6 +183,82 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "orunmila-010",
+      "orixa": "orunmila",
+      "atributo": "nomes",
+      "valor": "Orula ou Orunmila",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 8",
+      "parafrase": "Toutain chama o orixá da Regla de Ifá de Orula, ou Orunmila.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "orunmila-011",
+      "orixa": "orunmila",
+      "atributo": "funcoes",
+      "valor": "\"testemunha da criação do mundo\"; centro da Regla de Ifá, sistema divinatório de 256 signos (odus), cada um com seus patakís",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 8",
+      "parafrase": "A Regla de Ifá é o culto de Orula, chamado testemunha da criação. Ela se apoia na leitura de 256 signos, os odus ou letras, obtidos pelo tabuleiro de Ifá ou pela corrente (ekuelé); cada odu tem um conjunto de patakís cuja interpretação responde à consulta.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "orunmila-012",
+      "orixa": "orunmila",
+      "atributo": "historia_culto",
+      "valor": "só homens santeros autorizados por Changó no itá podem \"fazer Ifá\" e se tornar babalaôs; há debate sobre iniciar mulheres (iyanifá)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 8 e nota 19",
+      "parafrase": "Para chegar a babalaô, o santero precisa ser homem e ter recebido de Changó, na consulta do itá, licença para fazer Ifá. Toutain registra o debate entre babalaôs cubanos sobre a iniciação de mulheres, que receberiam o título de iyanifá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "orunmila-013",
+      "orixa": "orunmila",
+      "atributo": "festas",
+      "valor": "4 de outubro (Orula/São Francisco de Assis)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba (santería em geral)",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 172, nota 133",
+      "parafrase": "Entre as festas da santería feitas pelo calendário católico, Toutain cita a de Orula com São Francisco de Assis, em 4 de outubro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

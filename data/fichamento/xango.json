@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 55,
+    "total": 56,
     "por_status": {
-      "fichado": 51,
+      "fichado": 52,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1068,6 +1068,25 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "xango-056",
+      "orixa": "xango",
+      "atributo": "sincretismo",
+      "valor": "Santa Bárbara (festa em 4 de dezembro)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba (santería); Banagüises (Matanzas)",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 172 e nota 133",
+      "parafrase": "Na santería, 4 de dezembro é dia de Changó com Santa Bárbara; perto do central, em Banagüises, duas casas de Changó tocavam nessa data, em anos alternados.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

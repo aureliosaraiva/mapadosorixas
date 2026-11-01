@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 49,
+    "registros_usados": 51,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -73,6 +73,27 @@
         "parafrase": "Oxum é a divindade das águas doces, muito associada à feminilidade, à fertilidade e à maternidade.",
         "nota": null,
         "registro": "oxum-042",
+        "status": "fichado"
+      },
+      {
+        "valor": "o rio (Ochún), diante do mar de Yemayá",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "pp. 124–125",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "pp. 124–125",
+        "parafrase": "No relato de Julio-Enrique, o rio é de Ochún e o mar de Yemayá; no central, as duas recebem oferendas no mesmo trecho do rio.",
+        "nota": null,
+        "registro": "oxum-051",
         "status": "fichado"
       }
     ],
@@ -185,6 +206,27 @@
         "parafrase": "A cor de Oxum é o amarelo-ouro.",
         "nota": null,
         "registro": "oxum-045",
+        "status": "fichado"
+      },
+      {
+        "valor": "amarelo e ouro (colar e pulseira)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 8, nota 18",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 8, nota 18",
+        "parafrase": "Cada recepção de orixá traz um colar e uma pulseira nas cores dele; para Ochún, amarelo e dourado.",
+        "nota": null,
+        "registro": "oxum-050",
         "status": "fichado"
       }
     ],

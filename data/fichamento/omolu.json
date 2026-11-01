@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "omolu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 44,
+    "total": 46,
     "por_status": {
-      "fichado": 44,
+      "fichado": 46,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -862,6 +862,44 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "omolu-045",
+      "orixa": "omolu",
+      "atributo": "sincretismo",
+      "valor": "São Lázaro: em Méjico, Babalú Ayé é chamado sobretudo pelo nome católico",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 41",
+      "parafrase": "Sob uma ceiba plantada em 1923, segundo Julio-Enrique, fica o santo parado de Babalú Ayé, a quem no central Méjico se chama principalmente de San Lázaro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "omolu-046",
+      "orixa": "omolu",
+      "atributo": "festas",
+      "valor": "17 de dezembro (Babalú Ayé/São Lázaro)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba (santería em geral)",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 172, nota 133",
+      "parafrase": "Toutain anota que a santería ainda organiza festas pelo calendário católico; entre as mais concorridas, a de Babalú Ayé com São Lázaro em 17 de dezembro, quando os filhos podem montar um trono, tocar tambor ou ir em peregrinação.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
       ]
     }
   ]

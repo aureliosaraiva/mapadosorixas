@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/orunmila.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 9,
+    "registros_usados": 13,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -31,6 +31,27 @@
         "nota": "Carvalho 1984 é citado por Halloy (fora do catálogo).",
         "registro": "orunmila-005",
         "status": "fichado"
+      },
+      {
+        "valor": "Orula ou Orunmila",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 8",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 8",
+        "parafrase": "Toutain chama o orixá da Regla de Ifá de Orula, ou Orunmila.",
+        "nota": null,
+        "registro": "orunmila-010",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -54,6 +75,27 @@
         "parafrase": "Ifá é o orixá que responde às perguntas do babalaô no jogo do opelê e que sabe o destino de cada pessoa; a autora deixa em aberto se ele também o determina.",
         "nota": null,
         "registro": "orunmila-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "\"testemunha da criação do mundo\"; centro da Regla de Ifá, sistema divinatório de 256 signos (odus), cada um com seus patakís",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 8",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 8",
+        "parafrase": "A Regla de Ifá é o culto de Orula, chamado testemunha da criação. Ela se apoia na leitura de 256 signos, os odus ou letras, obtidos pelo tabuleiro de Ifá ou pela corrente (ekuelé); cada odu tem um conjunto de patakís cuja interpretação responde à consulta.",
+        "nota": null,
+        "registro": "orunmila-011",
         "status": "fichado"
       }
     ],
@@ -125,6 +167,27 @@
         "nota": null,
         "registro": "orunmila-009",
         "status": "fichado"
+      },
+      {
+        "valor": "4 de outubro (Orula/São Francisco de Assis)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba (santería em geral)",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 172, nota 133",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 172, nota 133",
+        "parafrase": "Entre as festas da santería feitas pelo calendário católico, Toutain cita a de Orula com São Francisco de Assis, em 4 de outubro.",
+        "nota": null,
+        "registro": "orunmila-013",
+        "status": "fichado"
       }
     ],
     "historia_culto": [
@@ -169,6 +232,27 @@
         "parafrase": "Carvalho registrou uma obrigação para Orunmilá a cada dois ou três anos e poucos assentamentos \"autênticos\". Na família de Halloy, a retomada por Paulo da adivinhação de Ifá, com nozes de palmeira (ikin) e opelê, deu novo peso ao orixá, cuja obrigação passou a ser anual; a complexidade do culto ainda freia sua expansão.",
         "nota": null,
         "registro": "orunmila-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "só homens santeros autorizados por Changó no itá podem \"fazer Ifá\" e se tornar babalaôs; há debate sobre iniciar mulheres (iyanifá)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 8 e nota 19",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 8 e nota 19",
+        "parafrase": "Para chegar a babalaô, o santero precisa ser homem e ter recebido de Changó, na consulta do itá, licença para fazer Ifá. Toutain registra o debate entre babalaôs cubanos sobre a iniciação de mulheres, que receberiam o título de iyanifá.",
+        "nota": null,
+        "registro": "orunmila-012",
         "status": "fichado"
       }
     ],

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/omolu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 44,
+    "registros_usados": 46,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -757,6 +757,27 @@
         "nota": null,
         "registro": "omolu-043",
         "status": "fichado"
+      },
+      {
+        "valor": "São Lázaro: em Méjico, Babalú Ayé é chamado sobretudo pelo nome católico",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 41",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 41",
+        "parafrase": "Sob uma ceiba plantada em 1923, segundo Julio-Enrique, fica o santo parado de Babalú Ayé, a quem no central Méjico se chama principalmente de San Lázaro.",
+        "nota": null,
+        "registro": "omolu-045",
+        "status": "fichado"
       }
     ],
     "itans": [
@@ -868,6 +889,27 @@
         "parafrase": "Omulu é festejado em 16 de agosto.",
         "nota": null,
         "registro": "omolu-032",
+        "status": "fichado"
+      },
+      {
+        "valor": "17 de dezembro (Babalú Ayé/São Lázaro)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba (santería em geral)",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 172, nota 133",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 172, nota 133",
+        "parafrase": "Toutain anota que a santería ainda organiza festas pelo calendário católico; entre as mais concorridas, a de Babalú Ayé com São Lázaro em 17 de dezembro, quando os filhos podem montar um trono, tocar tambor ou ir em peregrinação.",
+        "nota": null,
+        "registro": "omolu-046",
         "status": "fichado"
       }
     ],
