@@ -2,14 +2,14 @@
   "_meta": {
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
-    "total_nos": 54,
-    "total_arestas": 61,
+    "total_nos": 85,
+    "total_arestas": 104,
     "por_tipo": {
       "associacao": 1,
       "companheiro_de_culto": 3,
-      "equivalencia": 24,
-      "parentesco": 10,
-      "sincretismo": 23
+      "equivalencia": 46,
+      "parentesco": 20,
+      "sincretismo": 34
     }
   },
   "nos": [
@@ -24,6 +24,11 @@
       "tipo": "entidade"
     },
     {
+      "id": "entidade:rei-dos-mestres",
+      "rotulo": "Rei dos Mestres",
+      "tipo": "entidade"
+    },
+    {
       "id": "exu",
       "rotulo": "Exu",
       "tipo": "orixa"
@@ -34,8 +39,18 @@
       "tipo": "figura_crista"
     },
     {
+      "id": "figura:jesus-cristo",
+      "rotulo": "Jesus Cristo",
+      "tipo": "figura_crista"
+    },
+    {
       "id": "figura:menino-jesus",
       "rotulo": "Menino Jesus",
+      "tipo": "figura_crista"
+    },
+    {
+      "id": "figura:padre-eterno",
+      "rotulo": "Padre Eterno",
       "tipo": "figura_crista"
     },
     {
@@ -54,14 +69,44 @@
       "tipo": "inquice"
     },
     {
+      "id": "inquice:kavungu",
+      "rotulo": "Kavungu / Kingongo / Insumbo",
+      "tipo": "inquice"
+    },
+    {
       "id": "inquice:kayala",
       "rotulo": "Kayala",
       "tipo": "inquice"
     },
     {
-      "id": "inquice:quissimbe",
-      "rotulo": "Quissimbe",
+      "id": "inquice:lemba",
+      "rotulo": "Lembá / Lembarenguenganga",
       "tipo": "inquice"
+    },
+    {
+      "id": "inquice:matamba",
+      "rotulo": "Matamba",
+      "tipo": "inquice"
+    },
+    {
+      "id": "inquice:nzumba",
+      "rotulo": "Nzumba / Zumbarandá",
+      "tipo": "inquice"
+    },
+    {
+      "id": "inquice:quissimbe",
+      "rotulo": "Quissimbe / Kissimbi",
+      "tipo": "inquice"
+    },
+    {
+      "id": "nana",
+      "rotulo": "Nanã",
+      "tipo": "orixa"
+    },
+    {
+      "id": "nome:aziri",
+      "rotulo": "Aziri",
+      "tipo": "nome_fon_ou_banto"
     },
     {
       "id": "nome:barabo",
@@ -109,9 +154,24 @@
       "tipo": "orixa"
     },
     {
+      "id": "omolu",
+      "rotulo": "Omolu / Obaluaê",
+      "tipo": "orixa"
+    },
+    {
+      "id": "oxaguia",
+      "rotulo": "Oxaguiã",
+      "tipo": "qualidade"
+    },
+    {
       "id": "oxala",
       "rotulo": "Oxalá",
       "tipo": "orixa"
+    },
+    {
+      "id": "oxalufa",
+      "rotulo": "Oxalufã",
+      "tipo": "qualidade"
     },
     {
       "id": "oxossi",
@@ -122,6 +182,16 @@
       "id": "oxum",
       "rotulo": "Oxum",
       "tipo": "orixa"
+    },
+    {
+      "id": "oxumare",
+      "rotulo": "Oxumarê",
+      "tipo": "orixa"
+    },
+    {
+      "id": "santo:maria-madalena",
+      "rotulo": "Maria Madalena",
+      "tipo": "santo_catolico"
     },
     {
       "id": "santo:nossa-senhora",
@@ -144,6 +214,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:ns-gloria",
+      "rotulo": "Nossa Senhora da Glória",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:ns-navegantes",
       "rotulo": "Nossa Senhora dos Navegantes",
       "tipo": "santo_catolico"
@@ -154,8 +229,23 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:ns-purificacao",
+      "rotulo": "Purificação (Nossa Senhora, 2 de fevereiro)",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:santa-barbara",
+      "rotulo": "Santa Bárbara",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:santa-helena",
       "rotulo": "Santa Helena",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:santana",
+      "rotulo": "Sant'Ana",
       "tipo": "santo_catolico"
     },
     {
@@ -194,6 +284,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:sao-paulo",
+      "rotulo": "São Paulo",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:sao-pedro",
       "rotulo": "São Pedro",
       "tipo": "santo_catolico"
@@ -214,8 +309,18 @@
       "tipo": "vodum"
     },
     {
+      "id": "vodum:acossi",
+      "rotulo": "Acóssi / Acóssi Sapatá",
+      "tipo": "vodum"
+    },
+    {
       "id": "vodum:ague",
       "rotulo": "Agüê",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:arronovissava",
+      "rotulo": "Arronovissavá",
       "tipo": "vodum"
     },
     {
@@ -226,6 +331,16 @@
     {
       "id": "vodum:azaca",
       "rotulo": "Azacá",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:azile",
+      "rotulo": "Azile",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:azonce",
+      "rotulo": "Azonce",
       "tipo": "vodum"
     },
     {
@@ -259,8 +374,38 @@
       "tipo": "vodum"
     },
     {
+      "id": "vodum:lepom",
+      "rotulo": "Lepom",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:lissa",
+      "rotulo": "Lissá",
+      "tipo": "vodum"
+    },
+    {
       "id": "vodum:nae",
       "rotulo": "Naê",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:naveorualim",
+      "rotulo": "Naveorualim",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:navezuarina",
+      "rotulo": "Navezuarina",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:polibogi",
+      "rotulo": "Polibogi",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:sakpata",
+      "rotulo": "Sakpata",
       "tipo": "vodum"
     },
     {
@@ -276,6 +421,16 @@
     {
       "id": "vodum:xadanta",
       "rotulo": "Xadantã",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:xapana",
+      "rotulo": "Xapanã",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:zomadonu",
+      "rotulo": "Zomadônu",
       "tipo": "vodum"
     },
     {
@@ -406,6 +561,38 @@
           "parafrase": "Na descrição de Carneiro, Ogunjá 'mora' com Oxóssi e Exu, indicando proximidade de culto entre os três.",
           "nota": "Carneiro (1954, p. 77); confirmar sentido de 'morar junto' (assentamentos).",
           "registro": "oxossi-001",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:entidade:rei-dos-mestres>oxala",
+      "origem": "entidade:rei-dos-mestres",
+      "destino": "oxala",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Rei dos Mestres, nome das entidades africanas Tó-Alapong e Tó-Alaby (talvez Oxalufã e Oxaguiã), é o mesmo Oxalá e o mesmo vodum Lissá",
+          "tradicoes": [
+            "tambor_de_mina",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa Fanti-Ashanti (Pai Euclides) e antigo terreiro do Egito",
+          "sources": [
+            {
+              "id": "ferretti-m-2020-pureza",
+              "loc": "p. 81",
+              "via": null
+            }
+          ],
+          "source_id": "ferretti-m-2020-pureza",
+          "via_source_id": null,
+          "localizacao": "p. 81",
+          "parafrase": "M. Ferretti relata que Pai Euclides começou, no terreiro do Egito, a receber Rei dos Mestres, como ali eram chamadas Tó-Alapong e Tó-Alaby; para ele, trata-se de Oxalá, que mais tarde ele também recebeu no candomblé, e do vodum Lissá da Casa das Minas.",
+          "nota": "A identificação com Oxalufã e Oxaguiã vem com ponto de interrogação no texto da autora.",
+          "registro": "oxala-037",
           "status": "fichado"
         }
       ]
@@ -756,6 +943,89 @@
       ]
     },
     {
+      "id": "equivalencia:iansa>inquice:matamba",
+      "origem": "iansa",
+      "destino": "inquice:matamba",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Matamba, nkisi guerreiro dos raios, ventos e tempestades, mãe dos mortos e senhora do cemitério; Bamburucema pode ser uma qualidade sua",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 43 e nota 27",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 43 e nota 27",
+          "parafrase": "Botão descreve Matamba como nkisi do fogo, rainha dos raios e dos vendavais, guia dos espíritos e dona do cemitério, associado à Iansã do ketu; Bamburucema, ligada às chuvas, seria uma qualidade dela, e Kaiango é da mesma família.",
+          "nota": "Botão anota que Bastide (1973) associa Kaiango a Iansã.",
+          "registro": "iansa-020",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:iansa>vodum:sobo",
+      "origem": "iansa",
+      "destino": "vodum:sobo",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Sobô (vodum do raio e do trovão, família de Quevioçô) corresponde a Oiá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 7, 14, 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 7, 14, 25–26 (Quadros 1 e 2)",
+          "parafrase": "Na casa de Pai Francelino, o vodum Sobô tem Oiá como orixá correspondente; somando Sobô e Oiá, o quadro de frequências registra 28 assentamentos para Oiá-Iansã. Na descrição da Casa das Minas, Nochê Sobô é a mãe dos voduns de Quevioçô e está ligada ao raio e ao trovão.",
+          "nota": "Ver xango-048 (Sobô como vodum correspondente a Xangô em outra leitura).",
+          "registro": "iansa-018",
+          "status": "fichado"
+        },
+        {
+          "valor": "Sobô, chamada também Iansã ou Oyá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Ilê Axé Ogum Sobô (Pai Airton)",
+          "sources": [
+            {
+              "id": "ferretti-2011-comida",
+              "loc": "p. 259",
+              "via": null
+            }
+          ],
+          "source_id": "ferretti-2011-comida",
+          "via_source_id": null,
+          "localizacao": "p. 259",
+          "parafrase": "Na lista de comidas do terreiro de Pai Airton, Ferretti identifica Sobô com Iansã ou Oyá ao descrever o prato que as filhas desse vodum preparam para a festa.",
+          "nota": "O prato não é detalhado aqui (alimentos retidos).",
+          "registro": "iansa-019",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "equivalencia:iemanja>inquice:dandalunda",
       "origem": "iemanja",
       "destino": "inquice:dandalunda",
@@ -932,6 +1202,234 @@
       ]
     },
     {
+      "id": "equivalencia:inquice:dandalunda>oxum",
+      "origem": "inquice:dandalunda",
+      "destino": "oxum",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Dandalunda/Kissimbi, nkisi da água potável: sacerdotes em geral o ligam a Oxum; estudiosos, a Iemanjá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 43",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 43",
+          "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
+          "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
+          "registro": "oxum-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:kavungu>omolu",
+      "origem": "inquice:kavungu",
+      "destino": "omolu",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Kavungu (Kingongo, Insumbo/Nsumbo/Nsambo), nkisi protetor contra pestes e doenças, que atua também na sorte",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 42",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 42",
+          "parafrase": "Botão apresenta Kavungu, também chamado Kingongo ou Insumbo, como divindade das pestes e doenças, que também mexe com a sorte, associada ao Obaluaiê/Omulu do ketu; sugere que Ntoto, ligado à terra, talvez seja da mesma família.",
+          "nota": "Sobre Ntoto o autor diz não ter achado equivalente e fala em hipótese.",
+          "registro": "omolu-027",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:lemba>oxala",
+      "origem": "inquice:lemba",
+      "destino": "oxala",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Lembá (terreiros congo) e Lembarengangá (terreiros angola)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 201 e nota 106",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 106",
+          "parafrase": "Ao tratar da multiplicidade de nomes conforme a nação, Bastide dá como exemplo Oxalá, chamado Lembá nos terreiros congo e Lembarengangá nos de angola.",
+          "nota": "Bastide cita R. Guimarães, 'Notas sôbre o culto de Oxalá' (1936).",
+          "registro": "oxala-033",
+          "status": "fichado"
+        },
+        {
+          "valor": "Lembá ou Lembarenguenganga, nkisi feminino da fecundidade e patrono do casamento, que se assemelha a Oxalá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 44",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 44",
+          "parafrase": "Botão descreve Lembá, talvez a divindade mais importante do panteão banto no Brasil, ligada à fecundidade e protetora do casamento; é feminina e, segundo ele, parecida com Oxalá.",
+          "nota": "Diverge de oxala-010 quanto ao sexo (ali, Oxalá andrógino).",
+          "registro": "oxala-034",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:nzumba>nana",
+      "origem": "inquice:nzumba",
+      "destino": "nana",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Nzumba (Zumbarandá, Ngangazumba), nkisi do eclipse e das águas turvas dos pântanos",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 44",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 44",
+          "parafrase": "Botão apresenta Nzumba, também chamada Zumbarandá ou Ngangazumba, como divindade que atua no eclipse e nas águas paradas dos pântanos, associada a Nanã Buruku.",
+          "nota": null,
+          "registro": "nana-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:quissimbe>oxum",
+      "origem": "inquice:quissimbe",
+      "destino": "oxum",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Aziri (candomblés de origem daomeana) e Kissimbi (bantos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 201 e nota 107",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 107",
+          "parafrase": "Entre os exemplos de nomes que mudam de nação para nação, Bastide diz que Oxum é Aziri nos candomblés de origem daomeana e Kissimbi nos bantos.",
+          "nota": "Bastide remete a Verger, Orixás, p. 16.",
+          "registro": "oxum-020",
+          "status": "fichado"
+        },
+        {
+          "valor": "Dandalunda/Kissimbi, nkisi da água potável: sacerdotes em geral o ligam a Oxum; estudiosos, a Iemanjá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 43",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 43",
+          "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
+          "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
+          "registro": "oxum-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:nome:aziri>oxum",
+      "origem": "nome:aziri",
+      "destino": "oxum",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Aziri (candomblés de origem daomeana) e Kissimbi (bantos)",
+          "tradicoes": [
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 201 e nota 107",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 107",
+          "parafrase": "Entre os exemplos de nomes que mudam de nação para nação, Bastide diz que Oxum é Aziri nos candomblés de origem daomeana e Kissimbi nos bantos.",
+          "nota": "Bastide remete a Verger, Orixás, p. 16.",
+          "registro": "oxum-020",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "equivalencia:ogum>vodum:bediga",
       "origem": "ogum",
       "destino": "vodum:bediga",
@@ -1057,6 +1555,349 @@
       ]
     },
     {
+      "id": "equivalencia:omolu>vodum:acossi",
+      "origem": "omolu",
+      "destino": "vodum:acossi",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:omolu>vodum:azile",
+      "origem": "omolu",
+      "destino": "vodum:azile",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:omolu>vodum:azonce",
+      "origem": "omolu",
+      "destino": "vodum:azonce",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:omolu>vodum:lepom",
+      "origem": "omolu",
+      "destino": "vodum:lepom",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:omolu>vodum:polibogi",
+      "origem": "omolu",
+      "destino": "vodum:polibogi",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:omolu>vodum:sakpata",
+      "origem": "omolu",
+      "destino": "vodum:sakpata",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Sakpata (Daomé), conhecido no Brasil como Xapanã",
+          "tradicoes": [
+            "candomble_ketu",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Bahia; Daomé",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 121 e nota 85",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 121 e nota 85",
+          "parafrase": "Bastide escreve Sakpata-Omolu ao discutir a natureza do deus e explica que o nome daomeano Sakpatan aparece no Brasil na forma Xapanã.",
+          "nota": null,
+          "registro": "omolu-026",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:omolu>vodum:xapana",
+      "origem": "omolu",
+      "destino": "vodum:xapana",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:omolu>vodum:zomadonu",
+      "origem": "omolu",
+      "destino": "vodum:zomadonu",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxaguia>vodum:lissa",
+      "origem": "oxaguia",
+      "destino": "vodum:lissa",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Lissá (vodum jeje-nagô, família de Quevioçô) corresponde a Oxaguiã; Arronovissavá (família de Davice) a Oxalufã; ambos sincretizados com Jesus Cristo",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No quadro dos voduns da casa de Pai Francelino, Lissá tem Oxaguiã como orixá correspondente e Arronovissavá tem Oxalufã; os dois aparecem ligados a Jesus Cristo, e no texto Prandi dá Lissá, Oxalá e Cristo como exemplo de correspondência que chega ao santo católico.",
+          "nota": "No Quadro 2 (p. 26), Lissá e Arronovissavá somam 5 assentamentos para Oxalá.",
+          "registro": "oxala-035",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxala>vodum:lissa",
+      "origem": "oxala",
+      "destino": "vodum:lissa",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Rei dos Mestres, nome das entidades africanas Tó-Alapong e Tó-Alaby (talvez Oxalufã e Oxaguiã), é o mesmo Oxalá e o mesmo vodum Lissá",
+          "tradicoes": [
+            "tambor_de_mina",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa Fanti-Ashanti (Pai Euclides) e antigo terreiro do Egito",
+          "sources": [
+            {
+              "id": "ferretti-m-2020-pureza",
+              "loc": "p. 81",
+              "via": null
+            }
+          ],
+          "source_id": "ferretti-m-2020-pureza",
+          "via_source_id": null,
+          "localizacao": "p. 81",
+          "parafrase": "M. Ferretti relata que Pai Euclides começou, no terreiro do Egito, a receber Rei dos Mestres, como ali eram chamadas Tó-Alapong e Tó-Alaby; para ele, trata-se de Oxalá, que mais tarde ele também recebeu no candomblé, e do vodum Lissá da Casa das Minas.",
+          "nota": "A identificação com Oxalufã e Oxaguiã vem com ponto de interrogação no texto da autora.",
+          "registro": "oxala-037",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxalufa>vodum:arronovissava",
+      "origem": "oxalufa",
+      "destino": "vodum:arronovissava",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Lissá (vodum jeje-nagô, família de Quevioçô) corresponde a Oxaguiã; Arronovissavá (família de Davice) a Oxalufã; ambos sincretizados com Jesus Cristo",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No quadro dos voduns da casa de Pai Francelino, Lissá tem Oxaguiã como orixá correspondente e Arronovissavá tem Oxalufã; os dois aparecem ligados a Jesus Cristo, e no texto Prandi dá Lissá, Oxalá e Cristo como exemplo de correspondência que chega ao santo católico.",
+          "nota": "No Quadro 2 (p. 26), Lissá e Arronovissavá somam 5 assentamentos para Oxalá.",
+          "registro": "oxala-035",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "equivalencia:oxossi>vodum:ague",
       "origem": "oxossi",
       "destino": "vodum:ague",
@@ -1114,6 +1955,68 @@
           "parafrase": "No mesmo quadro, os voduns Agüê e Azacá, da família de Savaluno, aparecem com Oxóssi como orixá correspondente.",
           "nota": "Na Casa das Minas, Zacá (Azacá) é descrito como vodum caçador, na síntese de S. Ferretti (p. 6). Correspondência estabelecida na casa paulista; não é identidade.",
           "registro": "oxossi-033",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxum>vodum:naveorualim",
+      "origem": "oxum",
+      "destino": "vodum:naveorualim",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Naveorualim (família de Dambirá) e Navezuarina (família de Quevioçô) correspondem a Oxum",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No terreiro de Pai Francelino, Naveorualim, vodum jeje, e Navezuarina, nagô, têm Oxum como orixá correspondente; somados ao assentamento da própria orixá, chegam a 37 casos, o maior total do quadro de frequências.",
+          "nota": "Prandi (p. 14) liga a frequência dos voduns à popularidade dos orixás correspondentes.",
+          "registro": "oxum-019",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxum>vodum:navezuarina",
+      "origem": "oxum",
+      "destino": "vodum:navezuarina",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Naveorualim (família de Dambirá) e Navezuarina (família de Quevioçô) correspondem a Oxum",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No terreiro de Pai Francelino, Naveorualim, vodum jeje, e Navezuarina, nagô, têm Oxum como orixá correspondente; somados ao assentamento da própria orixá, chegam a 37 casos, o maior total do quadro de frequências.",
+          "nota": "Prandi (p. 14) liga a frequência dos voduns à popularidade dos orixás correspondentes.",
+          "registro": "oxum-019",
           "status": "fichado"
         }
       ]
@@ -1316,6 +2219,37 @@
       ]
     },
     {
+      "id": "parentesco:conjuge_de:iansa>ogum",
+      "origem": "iansa",
+      "destino": "ogum",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "casada com Ogum, segundo alguns sacerdotes",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Bastide registra que há sacerdotes que casam Ogum com Iansã, enquanto outros veem Ogum como celibatário; Xangô teria tomado essas mulheres dos outros orixás.",
+          "nota": "Diverge de iansa-009 (Iansã como mulher de Xangô).",
+          "registro": "iansa-010",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "parentesco:conjuge_de:iansa>xango",
       "origem": "iansa",
       "destino": "xango",
@@ -1386,6 +2320,27 @@
           "nota": "Concorda com xango-014 e xango-022 quanto às três esposas; diverge na ordem.",
           "registro": "xango-041",
           "status": "fichado"
+        },
+        {
+          "valor": "esposa principal de Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 122, 206, 253",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 122, 206, 253",
+          "parafrase": "Nos mitos baianos, Iansã é a primeira das mulheres de Xangô, à frente de Obá e de Oxum.",
+          "nota": "Ver xango-014.",
+          "registro": "iansa-009",
+          "status": "fichado"
         }
       ]
     },
@@ -1438,6 +2393,110 @@
           "parafrase": "No nagô do Recife, Iemanjá é tida como mulher de Oxalá e mãe de todos os orixás; com Orixalá, forma o casal criador que deu origem às outras divindades, com exceção de Nanã, Obaluaiê e Oxumarê, que os membros da casa reconhecem como de origem distinta.",
           "nota": "Halloy frisa que descreve as concepções da sua família de santo, sem julgar se correspondem às africanas.",
           "registro": "iemanja-049",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
+          "registro": "oxala-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:nana>oxala",
+      "origem": "nana",
+      "destino": "oxala",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "esposa de Oxalá, com quem teve Omolu, Lôko e Oxumarê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Na versão baiana das famílias divinas, Oxalá tem duas esposas, e Nanã Buruku é a que lhe deu Omolu, Lôko e Oxumarê.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte.",
+          "registro": "nana-011",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
+          "registro": "oxala-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:oba>omolu",
+      "origem": "oba",
+      "destino": "omolu",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "marido de Obá, segundo alguns sacerdotes; rival de Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Entre as versões divergentes sobre os casamentos dos orixás, alguns fazem de Omolu o esposo de Obá; Xangô, que teria tomado as mulheres dos outros, precisou enfrentar Omolu, Ogum e Oxóssi.",
+          "nota": null,
+          "registro": "omolu-019",
           "status": "fichado"
         }
       ]
@@ -1517,6 +2576,68 @@
       ]
     },
     {
+      "id": "parentesco:conjuge_de:ogum>oxum",
+      "origem": "ogum",
+      "destino": "oxum",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "esposa de Xangô, a preferida ou 'concubina', diante de Iansã, a principal; antes casada com Ogum, segundo um mito",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 122, 206, 239, 249, 253",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 122, 206, 239, 249, 253",
+          "parafrase": "Nos mitos que Bastide reúne, Oxum é uma das três mulheres de Xangô, a favorita, mas abaixo de Iansã na ordem das esposas; um mito a apresenta antes casada com Ogum, quando Xangô se apaixona por ela.",
+          "nota": "Ver xango-014.",
+          "registro": "oxum-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:oxossi>oxum",
+      "origem": "oxossi",
+      "destino": "oxum",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "casada com Oxóssi, segundo alguns sacerdotes",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Bastide anota que os sacerdotes não concordam sobre os casamentos dos orixás: alguns casam Oxóssi com Oxum, outros consideram Oxóssi solteiro.",
+          "nota": null,
+          "registro": "oxum-025",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "parentesco:conjuge_de:oxum>xango",
       "origem": "oxum",
       "destino": "xango",
@@ -1587,6 +2708,27 @@
           "nota": "Concorda com xango-014 e xango-022 quanto às três esposas; diverge na ordem.",
           "registro": "xango-041",
           "status": "fichado"
+        },
+        {
+          "valor": "esposa de Xangô, a preferida ou 'concubina', diante de Iansã, a principal; antes casada com Ogum, segundo um mito",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 122, 206, 239, 249, 253",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 122, 206, 239, 249, 253",
+          "parafrase": "Nos mitos que Bastide reúne, Oxum é uma das três mulheres de Xangô, a favorita, mas abaixo de Iansã na ordem das esposas; um mito a apresenta antes casada com Ogum, quando Xangô se apaixona por ela.",
+          "nota": "Ver xango-014.",
+          "registro": "oxum-024",
+          "status": "fichado"
         }
       ]
     },
@@ -1618,6 +2760,194 @@
           "nota": null,
           "registro": "iemanja-012",
           "status": "fichado"
+        },
+        {
+          "valor": "pai de Iemanjá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 125",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 125",
+          "parafrase": "Ao discutir se a semana segue uma ordem genealógica, Bastide observa que Oxalá, pai de Iemanjá, vem logo antes dela.",
+          "nota": null,
+          "registro": "oxala-025",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:omolu>nana",
+      "origem": "omolu",
+      "destino": "nana",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filho de Nanã (e de Oxalá)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 125, 178, 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 125, 178, 295",
+          "parafrase": "Para Bastide, Omolu é filho de Nanã, e na versão baiana das famílias divinas é um dos filhos que Nanã Buruku deu a Oxalá.",
+          "nota": "Ver nana-010 e nana-011.",
+          "registro": "omolu-018",
+          "status": "fichado"
+        },
+        {
+          "valor": "mãe de Omolu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 125, 178",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 125, 178",
+          "parafrase": "Bastide nota que Nanã, mãe de Omolu, vem depois do filho na semana, prova de que a ordem dos dias não segue a genealogia; na dança, ela embala o chachará como se fosse o pequeno Babaluaiê.",
+          "nota": "Na p. 82, Bastide chama Buku de mãe de Omolu ao comparar templos nigerianos.",
+          "registro": "nana-010",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposa de Oxalá, com quem teve Omolu, Lôko e Oxumarê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Na versão baiana das famílias divinas, Oxalá tem duas esposas, e Nanã Buruku é a que lhe deu Omolu, Lôko e Oxumarê.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte.",
+          "registro": "nana-011",
+          "status": "fichado"
+        },
+        {
+          "valor": "mãe de Abaluaiê; deusa da água ligada à morte",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (R. Ribeiro, citado por Bastide)",
+          "sources": [
+            {
+              "id": "ribeiro-1952-recife",
+              "loc": "Bastide, ed. pt 1961, p. 164, nota 52 (Ribeiro, p. 47)",
+              "via": "bastide-1958-candomble"
+            }
+          ],
+          "source_id": "ribeiro-1952-recife",
+          "via_source_id": "bastide-1958-candomble",
+          "localizacao": "Bastide, ed. pt 1961, p. 164, nota 52 (Ribeiro, p. 47)",
+          "parafrase": "Bastide cita René Ribeiro: no Recife, Nanã, mãe de Abaluaiê, é divindade das águas que se liga à morte, e come o mesmo que a terra.",
+          "nota": "Na ordem dos cânticos do terreiro de Pai Adão (Recife), Nanã-Buruku vem logo após Obaluaiê e é chamada mãe dele (Bastide, p. 280, citando Gonçalves Fernandes).",
+          "registro": "nana-012",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
+          "registro": "oxala-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:omolu>oxala",
+      "origem": "omolu",
+      "destino": "oxala",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filho de Nanã (e de Oxalá)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 125, 178, 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 125, 178, 295",
+          "parafrase": "Para Bastide, Omolu é filho de Nanã, e na versão baiana das famílias divinas é um dos filhos que Nanã Buruku deu a Oxalá.",
+          "nota": "Ver nana-010 e nana-011.",
+          "registro": "omolu-018",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
+          "registro": "oxala-024",
+          "status": "fichado"
         }
       ]
     },
@@ -1648,6 +2978,120 @@
           "parafrase": "Segundo o resumo de Pitta para os xangôs do Recife e de Olinda, Iemanjá governa o mar e é a mãe dos orixás em geral; Oxum, dona dos rios, é apontada como filha dela.",
           "nota": null,
           "registro": "iemanja-051",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:oxum>oxala",
+      "origem": "oxum",
+      "destino": "oxala",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "pai de Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 199",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 199",
+          "parafrase": "Num mito ouvido na Bahia, Oxum é apresentada como filha de Oxalá.",
+          "nota": "Mito em oxala-030.",
+          "registro": "oxala-026",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:oxumare>nana",
+      "origem": "oxumare",
+      "destino": "nana",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "esposa de Oxalá, com quem teve Omolu, Lôko e Oxumarê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Na versão baiana das famílias divinas, Oxalá tem duas esposas, e Nanã Buruku é a que lhe deu Omolu, Lôko e Oxumarê.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte.",
+          "registro": "nana-011",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
+          "registro": "oxala-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:oxumare>oxala",
+      "origem": "oxumare",
+      "destino": "oxala",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 295",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
+          "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
+          "registro": "oxala-024",
           "status": "fichado"
         }
       ]
@@ -2251,6 +3695,59 @@
       ]
     },
     {
+      "id": "sincretismo:iansa>santo:santa-barbara",
+      "origem": "iansa",
+      "destino": "santo:santa-barbara",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santa Bárbara (4 de dezembro)",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 104; p. 105, nota 54; p. 259, nota 22",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 104; p. 105, nota 54; p. 259, nota 22",
+          "parafrase": "No calendário católico africanizado resumido por Bastide, a festa de Iansã cai no dia de Santa Bárbara, 4 de dezembro; um centro do Recife também festeja Iansã nessa data, e outro se chama seita africana Santa Bárbara, identificada a Iansã.",
+          "nota": "Bastide cita P. Cavalcanti para os calendários do Recife.",
+          "registro": "iansa-013",
+          "status": "fichado"
+        },
+        {
+          "valor": "Santa Bárbara (Oiá e o vodum Sobô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "Para mostrar que a ligação entre vodum e orixá se estende aos santos, Prandi cita Sobô e Oiá-Iansã, ambas associadas a Santa Bárbara; no quadro, a orixá Oiá tem a mesma santa.",
+          "nota": null,
+          "registro": "iansa-014",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:iemanja>santo:nossa-senhora",
       "origem": "iemanja",
       "destino": "santo:nossa-senhora",
@@ -2538,6 +4035,59 @@
       ]
     },
     {
+      "id": "sincretismo:nana>santo:santana",
+      "origem": "nana",
+      "destino": "santo:santana",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Sant'Ana (26 de julho)",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 104; p. 105, nota 54",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 104; p. 105, nota 54",
+          "parafrase": "No calendário católico africanizado de Bastide, a festa de Nanã cai no dia de Sant'Ana; no Centro Africano S. Jorge do Recife, a data de Nanã também é a de Sant'Ana.",
+          "nota": "No Centro S. Jorge a data aparece como 29 de julho (p. 105, nota 54).",
+          "registro": "nana-017",
+          "status": "fichado"
+        },
+        {
+          "valor": "Senhora Santana",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No quadro da casa paulista, Nanã, vodum jeje-nagô da família de Quevioçô cuja orixá correspondente é a própria Nanã, é sincretizada com Senhora Santana.",
+          "nota": null,
+          "registro": "nana-018",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:ogum>santo:santo-antonio",
       "origem": "ogum",
       "destino": "santo:santo-antonio",
@@ -2695,6 +4245,186 @@
       ]
     },
     {
+      "id": "sincretismo:omolu>santo:sao-sebastiao",
+      "origem": "omolu",
+      "destino": "santo:sao-sebastiao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Sebastião (20 de janeiro)",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 104–105 e nota 54",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 104–105 e nota 54",
+          "parafrase": "No calendário católico africanizado, a festa de Obaluaiê (Omolu) cai no dia de São Sebastião; no Centro Africano S. Jorge do Recife, 20 de janeiro reúne Obaluaê e São Sebastião, e num terreiro pernambucano descrito por Gonçalves Fernandes a data é de 'Abaluaci'.",
+          "nota": "Bastide cita P. Cavalcanti e Gonçalves Fernandes.",
+          "registro": "omolu-020",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxala>figura:jesus-cristo",
+      "origem": "oxala",
+      "destino": "figura:jesus-cristo",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Jesus Cristo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 124",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 124",
+          "parafrase": "Bastide afirma que o correspondente católico de Oxalá é Jesus Cristo, e que essa equivalência explica tanto a sexta-feira baiana quanto o domingo de Porto Alegre.",
+          "nota": null,
+          "registro": "oxala-017",
+          "status": "fichado"
+        },
+        {
+          "valor": "Jesus Cristo, o Deus Filho (Olorum ficou com o Deus Pai)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "prandi-2001-exu-diabo",
+              "loc": "pp. 51, 62",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2001-exu-diabo",
+          "via_source_id": null,
+          "localizacao": "pp. 51, 62",
+          "parafrase": "Prandi descreve o sincretismo como encaixe num modelo de bem e mal: Oxalá recebeu o papel de Jesus Cristo e Olorum o de Deus Pai, enquanto os outros orixás viraram santos; no fim do artigo menciona a dessincretização que procura desfazer essas identificações.",
+          "nota": "Prandi trata do sincretismo em geral nas religiões afro-brasileiras; a tradição umbanda entra pela discussão do artigo sobre a umbanda.",
+          "registro": "oxala-018",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxala>figura:padre-eterno",
+      "origem": "oxala",
+      "destino": "figura:padre-eterno",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Padre Eterno (1º de janeiro)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife: Centro Africano S. Jorge (calendário segundo P. Cavalcanti)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 105, nota 54",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 105, nota 54",
+          "parafrase": "Numa lista de datas recifense que Bastide reproduz de P. Cavalcanti, o 1º de janeiro junta Orixalá e o Padre Eterno.",
+          "nota": "Bastide cita P. Cavalcanti, 'As seitas africanas no Recife' (Estudos Afro-Brasileiros, pp. 254-5); a fonte não está no catálogo. Diverge de oxala-017 (Jesus Cristo).",
+          "registro": "oxala-019",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxala>santo:sao-paulo",
+      "origem": "oxala",
+      "destino": "santo:sao-paulo",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Pedro e São Paulo (29 de junho), no calendário de festas",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 104",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "parafrase": "No calendário católico africanizado que Bastide resume, a festa de Orixá-lá cai no dia de São Pedro e São Paulo; o autor diz que essa tabela vale mais para os iorubás de Pernambuco e, na Bahia, para os candomblés bantos.",
+          "nota": "Correspondência pela data da festa, lida na tabela de duas colunas da p. 104.",
+          "registro": "oxala-020",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxala>santo:sao-pedro",
+      "origem": "oxala",
+      "destino": "santo:sao-pedro",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "São Pedro e São Paulo (29 de junho), no calendário de festas",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 104",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "parafrase": "No calendário católico africanizado que Bastide resume, a festa de Orixá-lá cai no dia de São Pedro e São Paulo; o autor diz que essa tabela vale mais para os iorubás de Pernambuco e, na Bahia, para os candomblés bantos.",
+          "nota": "Correspondência pela data da festa, lida na tabela de duas colunas da p. 104.",
+          "registro": "oxala-020",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:oxossi>santo:santa-helena",
       "origem": "oxossi",
       "destino": "santo:santa-helena",
@@ -2753,6 +4483,132 @@
           "parafrase": "Pelo arco e flechas, Oxóssi é associado a São Sebastião, representado amarrado a uma árvore e crivado de flechas.",
           "nota": null,
           "registro": "oxossi-015",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxum>santo:maria-madalena",
+      "origem": "oxum",
+      "destino": "santo:maria-madalena",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Maria Madalena (22 de abril)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife: Centro Africano S. Jorge (calendário segundo P. Cavalcanti)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 105, nota 54",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 105, nota 54",
+          "parafrase": "No calendário do Centro Africano S. Jorge, que Bastide transcreve, o dia 22 de abril junta Oxum e Maria Madalena.",
+          "nota": "Bastide cita P. Cavalcanti, 'As seitas africanas no Recife'. O Centro é do Recife, não da Bahia (cf. iemanja-013, ogum-014).",
+          "registro": "oxum-016",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxum>santo:ns-conceicao",
+      "origem": "oxum",
+      "destino": "santo:ns-conceicao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Purificação (2 de fevereiro, com Iemanjá) e Imaculada Conceição (8 de dezembro, Oxum ou Iemanjá), no calendário de festas",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 104",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "parafrase": "Na tabela do calendário católico africanizado, a Purificação traz a festa de Oxum e Iemanjá, e o dia da Imaculada Conceição a de Oxum ou de Iemanjá; Bastide diz que a tabela se aplica mais a Pernambuco e aos candomblés bantos baianos.",
+          "nota": "Correspondência pela data da festa. A fonte não nomeia a invocação de Nossa Senhora da Purificação.",
+          "registro": "oxum-017",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxum>santo:ns-gloria",
+      "origem": "oxum",
+      "destino": "santo:ns-gloria",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Nossa Senhora da Glória (Oxum); Naveorualim também com N. S. da Glória e Navezuarina com Santa Luzia",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No quadro da casa paulista, a orixá Oxum aparece ligada a Nossa Senhora da Glória; dos voduns que lhe correspondem, Naveorualim também tem N. S. da Glória e Navezuarina tem Santa Luzia.",
+          "nota": null,
+          "registro": "oxum-018",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxum>santo:ns-purificacao",
+      "origem": "oxum",
+      "destino": "santo:ns-purificacao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Purificação (2 de fevereiro, com Iemanjá) e Imaculada Conceição (8 de dezembro, Oxum ou Iemanjá), no calendário de festas",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 104",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "parafrase": "Na tabela do calendário católico africanizado, a Purificação traz a festa de Oxum e Iemanjá, e o dia da Imaculada Conceição a de Oxum ou de Iemanjá; Bastide diz que a tabela se aplica mais a Pernambuco e aos candomblés bantos baianos.",
+          "nota": "Correspondência pela data da festa. A fonte não nomeia a invocação de Nossa Senhora da Purificação.",
+          "registro": "oxum-017",
           "status": "fichado"
         }
       ]

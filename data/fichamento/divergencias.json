@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 41
+    "total": 74
   },
   "divergencias": [
     {
@@ -480,6 +480,169 @@
       ]
     },
     {
+      "orixa": "iansa",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "quarta-feira (com Xangô)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 120, 122",
+          "registro": "iansa-002"
+        },
+        {
+          "valor": "quarta-feira (com Xangô)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "iansa-003"
+        },
+        {
+          "valor": "terça-feira (com Xangô)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "iansa-004"
+        }
+      ]
+    },
+    {
+      "orixa": "iansa",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Sobô (vodum do raio e do trovão, família de Quevioçô) corresponde a Oiá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 7, 14, 25–26 (Quadros 1 e 2)",
+          "registro": "iansa-018"
+        },
+        {
+          "valor": "Sobô, chamada também Iansã ou Oyá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Ilê Axé Ogum Sobô (Pai Airton)",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "iansa-019"
+        },
+        {
+          "valor": "Matamba, nkisi guerreiro dos raios, ventos e tempestades, mãe dos mortos e senhora do cemitério; Bamburucema pode ser uma qualidade sua",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 43 e nota 27",
+          "registro": "iansa-020"
+        }
+      ]
+    },
+    {
+      "orixa": "iansa",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "Louvação de Oyá, todo 13 de dezembro ao meio-dia; cânticos próprios para Iansã/Oyá",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): terreiro Santa Bárbara, nação xambá",
+          "fonte": "costa-2007-xango-pe",
+          "via": null,
+          "localizacao": "pp. 204–205",
+          "registro": "iansa-016"
+        },
+        {
+          "valor": "4 de dezembro (Santa Bárbara): Sobô, Oiá e os demais voduns femininos",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 16",
+          "registro": "iansa-017"
+        }
+      ]
+    },
+    {
+      "orixa": "iansa",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "esposa principal de Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 122, 206, 253",
+          "registro": "iansa-009"
+        },
+        {
+          "valor": "casada com Ogum, segundo alguns sacerdotes",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "registro": "iansa-010"
+        }
+      ]
+    },
+    {
+      "orixa": "iansa",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Santa Bárbara (4 de dezembro)",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 104; p. 105, nota 54; p. 259, nota 22",
+          "registro": "iansa-013"
+        },
+        {
+          "valor": "Santa Bárbara (Oiá e o vodum Sobô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "iansa-014"
+        }
+      ]
+    },
+    {
       "orixa": "iemanja",
       "atributo": "cores",
       "versoes": [
@@ -910,6 +1073,217 @@
           "via": null,
           "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
           "registro": "iemanja-058"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "terça-feira (com Oxumarê)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 120–122",
+          "registro": "nana-004"
+        },
+        {
+          "valor": "terça-feira (com Ogum e Oxumarê)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "nana-005"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "24 de maio (Santa Rita): Nanã Biocô; 26 de julho (Santana): Vó Missã e Nanã Bulucu; 30 de agosto (Santa Rosa): Nanã Bassarodim",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 15",
+          "registro": "nana-019"
+        },
+        {
+          "valor": "tambor para Nanã no dia de Senhora Sant'Ana",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Ilê Axé Ogum Sobô (Pai Airton)",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "nana-020"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "a mais idosa entre as divindades das águas, a 'vovó' querida e respeitada",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 121–122",
+          "registro": "nana-006"
+        },
+        {
+          "valor": "a mais antiga dos voduns nagôs e quem os trouxe; tida como de Davice, ajuda Quevioçô",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "nana-007"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "origem",
+      "versoes": [
+        {
+          "valor": "divindade daomeana já incorporada ao panteão iorubá na África, como Oxumarê",
+          "tradicoes": [
+            "candomble_ketu",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "registro": "nana-008"
+        },
+        {
+          "valor": "entre os voduns de Quevioçô, só ela tem culto nos candomblés de orixá; entrou no panteão iorubá ainda na África, com os filhos Omulu e Oxumarê",
+          "tradicoes": [
+            "tambor_de_mina",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "nana-009"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "mãe de Omolu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 125, 178",
+          "registro": "nana-010"
+        },
+        {
+          "valor": "esposa de Oxalá, com quem teve Omolu, Lôko e Oxumarê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "registro": "nana-011"
+        },
+        {
+          "valor": "mãe de Abaluaiê; deusa da água ligada à morte",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (R. Ribeiro, citado por Bastide)",
+          "fonte": "ribeiro-1952-recife",
+          "via": "bastide-1958-candomble",
+          "localizacao": "Bastide, ed. pt 1961, p. 164, nota 52 (Ribeiro, p. 47)",
+          "registro": "nana-012"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "plantas: cipreste (Bahia); gameleira e manacá (Recife)",
+          "tradicoes": [
+            "candomble_ketu",
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Bahia; Recife",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 164–165",
+          "registro": "nana-015"
+        },
+        {
+          "valor": "chachará: feixe de varetas, insígnia de Nanã e de Omolu; Nanã o embala como o filho recém-nascido",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 178–179",
+          "registro": "nana-016"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Sant'Ana (26 de julho)",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 104; p. 105, nota 54",
+          "registro": "nana-017"
+        },
+        {
+          "valor": "Senhora Santana",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "nana-018"
         }
       ]
     },
@@ -1390,6 +1764,595 @@
       ]
     },
     {
+      "orixa": "omolu",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "segunda-feira (com Exu)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 120–121",
+          "registro": "omolu-002"
+        },
+        {
+          "valor": "segunda-feira (com Exu)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "omolu-003"
+        },
+        {
+          "valor": "quarta-feira (como Xapanã, com Obá)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "omolu-004"
+        }
+      ]
+    },
+    {
+      "orixa": "omolu",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "registro": "omolu-024"
+        },
+        {
+          "valor": "família de Dambirá: voduns ligados à terra, à doença e à cura; Acóssi Sapatá, curador que adoeceu cuidando dos enfermos",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "omolu-025"
+        },
+        {
+          "valor": "Sakpata (Daomé), conhecido no Brasil como Xapanã",
+          "tradicoes": [
+            "candomble_ketu",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Bahia; Daomé",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 121 e nota 85",
+          "registro": "omolu-026"
+        },
+        {
+          "valor": "Kavungu (Kingongo, Insumbo/Nsumbo/Nsambo), nkisi protetor contra pestes e doenças, que atua também na sorte",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 42",
+          "registro": "omolu-027"
+        }
+      ]
+    },
+    {
+      "orixa": "omolu",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "20 de janeiro: festa de Obaluaiê; no candomblé de Ogum, um domingo e a segunda seguinte são de Omolu",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Recife (calendário); Bahia: um candomblé de Ogum",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 104, 108",
+          "registro": "omolu-021"
+        },
+        {
+          "valor": "São Sebastião (20 de janeiro): banquete dos cachorros, dedicado aos orixás do grupo de Omolu/Xapanã; na Casa das Minas, oferecido a Acossi Sakpatá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Maranhão; São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "p. 256",
+          "registro": "omolu-022"
+        },
+        {
+          "valor": "19 a 21 de janeiro: Azonce e Xapanã; 20 de janeiro (São Sebastião): Xapanã e Azacá, com Mesa dos Inocentes e Banquete dos Cachorros; 11 de fevereiro (São Lázaro): Acóssi",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 15",
+          "registro": "omolu-023"
+        }
+      ]
+    },
+    {
+      "orixa": "omolu",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "filho de Nanã (e de Oxalá)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 125, 178, 295",
+          "registro": "omolu-018"
+        },
+        {
+          "valor": "marido de Obá, segundo alguns sacerdotes; rival de Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "registro": "omolu-019"
+        }
+      ]
+    },
+    {
+      "orixa": "omolu",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "xaxará (chachará): feixe de varetas; vassoura com que Omolu varre os humanos como folhas secas, imagem da epidemia",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 28, 178–179",
+          "registro": "omolu-012"
+        },
+        {
+          "valor": "otá cheio de buraquinhos, como cicatrizes de varíola",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 90, nota 28",
+          "registro": "omolu-013"
+        },
+        {
+          "valor": "plantas: canela-de-velho, casadinha (chamada também 'omolu'), urtiga e velame; plantas depurativas",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia; velame num cântico banto",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 159, 164, 166, 191, 193",
+          "registro": "omolu-014"
+        },
+        {
+          "valor": "pinhão branco, árvore consagrada a toi Acossi no quintal da casa",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "p. 257",
+          "registro": "omolu-015"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "sexta-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 120, 124",
+          "registro": "oxala-014"
+        },
+        {
+          "valor": "sexta-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 128",
+          "registro": "oxala-015"
+        },
+        {
+          "valor": "domingo (dia da missa)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79; p. 124",
+          "registro": "oxala-016"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Lembá (terreiros congo) e Lembarengangá (terreiros angola)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 106",
+          "registro": "oxala-033"
+        },
+        {
+          "valor": "Lembá ou Lembarenguenganga, nkisi feminino da fecundidade e patrono do casamento, que se assemelha a Oxalá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 44",
+          "registro": "oxala-034"
+        },
+        {
+          "valor": "Lissá (vodum jeje-nagô, família de Quevioçô) corresponde a Oxaguiã; Arronovissavá (família de Davice) a Oxalufã; ambos sincretizados com Jesus Cristo",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "oxala-035"
+        },
+        {
+          "valor": "Lissá, vodum dos astros que representa o sol, da família de Quevioçô",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+          "fonte": "ferretti-1985-querebenta",
+          "via": "prandi-2005-pegadas-voduns",
+          "localizacao": "versão do autor, pp. 7–8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+          "registro": "oxala-036"
+        },
+        {
+          "valor": "Rei dos Mestres, nome das entidades africanas Tó-Alapong e Tó-Alaby (talvez Oxalufã e Oxaguiã), é o mesmo Oxalá e o mesmo vodum Lissá",
+          "tradicoes": [
+            "tambor_de_mina",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa Fanti-Ashanti (Pai Euclides) e antigo terreiro do Egito",
+          "fonte": "ferretti-m-2020-pureza",
+          "via": null,
+          "localizacao": "p. 81",
+          "registro": "oxala-037"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "Águas de Oxalá: abre o ano religioso (fim de agosto ou setembro, conforme o terreiro); lavagem dos objetos sagrados, procissões e festa do inhame novo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 109–113",
+          "registro": "oxala-027"
+        },
+        {
+          "valor": "sequência de domingos de festa: 1º para Oxalá, 2º para Oxaguiã",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia: um candomblé de Ogum (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 107–108",
+          "registro": "oxala-028"
+        },
+        {
+          "valor": "Sexta-Feira Santa: obrigações à tarde para Lissá e os voduns da Criação; renovação dos assentamentos à noite",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 16",
+          "registro": "oxala-038"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "no alto da hierarquia dos orixás, lugar que já tinha na África; abaixo do deus supremo Olorum",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "p. 51",
+          "registro": "oxala-003"
+        },
+        {
+          "valor": "filho do grande deus Olorun; o maior dos orixás, que reina no céu e tomou o lugar de Olorun quando este se retirou; sucessor que mantém a ordem dos domínios repartidos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 115–116 (nota 73), 124, 243",
+          "registro": "oxala-004"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "a viagem de Oxalufã ao reino de Xangô: humilhado por Exu, preso por engano durante sete anos, é libertado pelo filho e levado de volta ao palácio de Oxaguiã",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 110–112, 187, 199, 202, 249",
+          "registro": "oxala-029"
+        },
+        {
+          "valor": "Xangô só pode casar com Oxum se carregar nas costas o velho Oxalá, pai dela, até a festa de casamento; daí o branco nas cores de Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 199",
+          "registro": "oxala-030"
+        },
+        {
+          "valor": "Oxalá encarregado por Olorum de fazer a terra e o mar; bebe vinho de palma em excesso e não conclui a tarefa, mas, com Odudua, é um dos criadores do mundo e modela sozinho o primeiro casal humano",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 48–49 e nota 47",
+          "registro": "oxala-031"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "registro": "oxala-024"
+        },
+        {
+          "valor": "pai de Iemanjá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 125",
+          "registro": "oxala-025"
+        },
+        {
+          "valor": "pai de Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 199",
+          "registro": "oxala-026"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "qualidades",
+      "versoes": [
+        {
+          "valor": "três Oxalás: Oxalufã, Oxichalá e Oxaguiã; listas com sete ou dezesseis nomes",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 203–204 e nota 111",
+          "registro": "oxala-021"
+        },
+        {
+          "valor": "Oxalufã, Oxalá velho, pai de Oxaguiã, Oxalá jovem",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 110, 112",
+          "registro": "oxala-022"
+        },
+        {
+          "valor": "criança nascida com o cordão umbilical no pescoço é de Oxaguiã",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 297",
+          "registro": "oxala-023"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "cabaça dupla (céu e terra), na Bahia substituída por tigela ou sopeira branca com tampa",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 96–98",
+          "registro": "oxala-011"
+        },
+        {
+          "valor": "paxorô (vara de metal) nas mãos do orixá manifestado",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 28",
+          "registro": "oxala-012"
+        },
+        {
+          "valor": "plantas de Oxalá: algodão, tapete-de-oxalá, neve-branca, palmas, manjericão, alecrim e rosmaninho; folhas de perfume purificador e contra males da cabeça",
+          "tradicoes": [
+            "candomble_ketu",
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Bahia; algodão também no Recife",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 161, 163, 166, 190–192",
+          "registro": "oxala-032"
+        }
+      ]
+    },
+    {
+      "orixa": "oxala",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Jesus Cristo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 124",
+          "registro": "oxala-017"
+        },
+        {
+          "valor": "Jesus Cristo, o Deus Filho (Olorum ficou com o Deus Pai)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "prandi-2001-exu-diabo",
+          "via": null,
+          "localizacao": "pp. 51, 62",
+          "registro": "oxala-018"
+        },
+        {
+          "valor": "Padre Eterno (1º de janeiro)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife: Centro Africano S. Jorge (calendário segundo P. Cavalcanti)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 105, nota 54",
+          "registro": "oxala-019"
+        },
+        {
+          "valor": "São Pedro e São Paulo (29 de junho), no calendário de festas",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "registro": "oxala-020"
+        }
+      ]
+    },
+    {
       "orixa": "oxossi",
       "atributo": "cores",
       "versoes": [
@@ -1665,6 +2628,282 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "oxossi-034"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "sábado (com Iemanjá)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 120, 124",
+          "registro": "oxum-001"
+        },
+        {
+          "valor": "sábado (com Iemanjá)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 128",
+          "registro": "oxum-002"
+        },
+        {
+          "valor": "sábado",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "oxum-003"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Naveorualim (família de Dambirá) e Navezuarina (família de Quevioçô) correspondem a Oxum",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "registro": "oxum-019"
+        },
+        {
+          "valor": "Aziri (candomblés de origem daomeana) e Kissimbi (bantos)",
+          "tradicoes": [
+            "candomble_jeje",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 107",
+          "registro": "oxum-020"
+        },
+        {
+          "valor": "Dandalunda/Kissimbi, nkisi da água potável: sacerdotes em geral o ligam a Oxum; estudiosos, a Iemanjá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 43",
+          "registro": "oxum-021"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "festa da Purificação (2 de fevereiro), dedicada a Oxum e também presente de Iemanjá; oferendas lançadas nas águas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé derivado do 'Língua de Vaca' (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 92–93, 124",
+          "registro": "oxum-014"
+        },
+        {
+          "valor": "22 de março (nascimento de Oxum) e 8 de dezembro (festa de Oxum)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife: Centro Africano S. Sebastião (calendário segundo P. Cavalcanti)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 105, nota 54",
+          "registro": "oxum-015"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "Ifá ensina Oxum, sua apetebi, a consultar a sorte com dezesseis coquinhos; Elegba aceita responder por eles a contragosto e persegue os filhos de Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 141–142",
+          "registro": "oxum-026"
+        },
+        {
+          "valor": "Oxum Ioni: rainha invadida que foge de jangada e vence os invasores com abarás cheios de força divina",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 202",
+          "registro": "oxum-027"
+        },
+        {
+          "valor": "Obá, enganada por Oxum, corta a orelha para pôr no prato de Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 249–250",
+          "registro": "oxum-028"
+        },
+        {
+          "valor": "Ogum, por ciúme, lança Oxum num rio; Xangô a salva e a leva; Ogum a recupera presenteando Xangô com quiabos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (versão citada de O. Alvarenga)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 200, nota 104",
+          "registro": "oxum-029"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "esposa de Xangô, a preferida ou 'concubina', diante de Iansã, a principal; antes casada com Ogum, segundo um mito",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 122, 206, 239, 249, 253",
+          "registro": "oxum-024"
+        },
+        {
+          "valor": "casada com Oxóssi, segundo alguns sacerdotes",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 295",
+          "registro": "oxum-025"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "abebé (leque)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 28, 160",
+          "registro": "oxum-007"
+        },
+        {
+          "valor": "otá: seixo liso tirado do leito de um rio",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 90, nota 28",
+          "registro": "oxum-008"
+        },
+        {
+          "valor": "plantas: alfavaquinha, folha-da-costa e orepepê nos banhos dos filhos de Oxum; mal-me-quer (Recife)",
+          "tradicoes": [
+            "candomble_ketu",
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Bahia; mal-me-quer no Recife",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 162–166",
+          "registro": "oxum-009"
+        },
+        {
+          "valor": "folha de pitanga, estimada para atrair riqueza",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador (BA)",
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "p. 10",
+          "registro": "oxum-010"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Maria Madalena (22 de abril)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife: Centro Africano S. Jorge (calendário segundo P. Cavalcanti)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 105, nota 54",
+          "registro": "oxum-016"
+        },
+        {
+          "valor": "Purificação (2 de fevereiro, com Iemanjá) e Imaculada Conceição (8 de dezembro, Oxum ou Iemanjá), no calendário de festas",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "registro": "oxum-017"
+        },
+        {
+          "valor": "Nossa Senhora da Glória (Oxum); Naveorualim também com N. S. da Glória e Navezuarina com Santa Luzia",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "oxum-018"
         }
       ]
     },

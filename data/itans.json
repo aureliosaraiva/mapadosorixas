@@ -8,7 +8,7 @@
       "'arestas' é gerado: arestas de data/conexoes.json sustentadas por registros do itã.",
       "Só versões 'fichado'/'revisado' aparecem no site e no download."
     ],
-    "total": 10
+    "total": 17
   },
   "itans": [
     {
@@ -337,7 +337,10 @@
       "titulo": "A viagem de Oxalá velho para ver Xangô",
       "entidades": [
         "oxala",
-        "xango"
+        "xango",
+        "oxalufa",
+        "oxaguia",
+        "exu"
       ],
       "versoes": [
         {
@@ -358,10 +361,252 @@
           ],
           "nota": "No mito, Xangô aparece como filho de Oxalá (comparar com xango-022).",
           "status": "fichado"
+        },
+        {
+          "registro": "oxala-029",
+          "valor": "a viagem de Oxalufã ao reino de Xangô: humilhado por Exu, preso por engano durante sete anos, é libertado pelo filho e levado de volta ao palácio de Oxaguiã",
+          "resumo": "Oxalufã, o velho, decide visitar o filho Xangô contra o conselho do adivinho e só pode evitar a morte se não negar ajuda a ninguém nem reclamar. Exu o suja três vezes com cargas que lhe pede para carregar, e ele se lava em silêncio. Ao devolver o cavalo fugido de Xangô, é tomado por ladrão, espancado e preso por sete anos, enquanto o reino de Xangô fica estéril. O oráculo aponta a injustiça, Xangô reconhece o pai, manda lavá-lo e o faz carregar até a casa de Oxaguiã, que celebra a volta com um banquete.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 110–112, 187, 199, 202, 249",
+              "via": null
+            }
+          ],
+          "nota": "Bastide dá duas versões próximas, a sua (1945) e a de Verger (1954), e uma análoga em Cuba (L. Cabrera). Quem carrega o velho varia: Airá, o Xangô mais velho (pp. 111, 202), ou o próprio Xangô (p. 199). Na p. 249 o encontro de Airá e Oxalá é encenado na dança; na p. 187 o mito ilustra que o destino só se evita em parte.",
+          "status": "fichado"
         }
       ],
       "arestas": [],
-      "nota_curadoria": null
+      "nota_curadoria": "As duas versões contam a mesma viagem de Oxalá velho (Oxalufã) ao reino do filho Xangô, a prisão injusta e a volta ao palácio de Oxalá jovem (Oxaguiã): Pitta a recolhe nos xangôs do Recife e de Olinda; Bastide a liga à festa das Águas de Oxalá na Bahia e registra variações sobre quem carrega o velho (Airá ou Xangô)."
+    },
+    {
+      "id": "ita-011",
+      "titulo": "Xangô carrega Oxalá para poder casar com Oxum",
+      "entidades": [
+        "xango",
+        "oxum",
+        "oxala"
+      ],
+      "versoes": [
+        {
+          "registro": "oxala-030",
+          "valor": "Xangô só pode casar com Oxum se carregar nas costas o velho Oxalá, pai dela, até a festa de casamento; daí o branco nas cores de Xangô",
+          "resumo": "Em outra explicação baiana para o vermelho e branco de Xangô, ele quer desposar Oxum, que só aceita se ele levar ao casamento o pai dela, Oxalá, idoso e sem forças para andar; desde essa aliança as cores dos dois se misturam.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 199",
+              "via": null
+            }
+          ],
+          "nota": "Bastide apresenta esta versão como alternativa à de oxala-029.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Versão baiana que explica, de outro modo que o mito da viagem de Oxalá (ita-010), por que Xangô mistura o branco de Oxalá ao seu vermelho."
+    },
+    {
+      "id": "ita-012",
+      "titulo": "Oxalá, o vinho de palma e a criação do mundo",
+      "entidades": [
+        "oxala",
+        "olodumare",
+        "odudua"
+      ],
+      "versoes": [
+        {
+          "registro": "oxala-031",
+          "valor": "Oxalá encarregado por Olorum de fazer a terra e o mar; bebe vinho de palma em excesso e não conclui a tarefa, mas, com Odudua, é um dos criadores do mundo e modela sozinho o primeiro casal humano",
+          "resumo": "Bastide resume o mito: o deus supremo Olorum confia a Oxalá a criação da terra e do mar, mas o vinho de palma bebido no caminho o impede de completar a missão; ainda assim, com a ajuda de Odudua, ele participa da criação, e é ele quem molda o primeiro casal humano.",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 48–49 e nota 47",
+              "via": null
+            }
+          ],
+          "nota": "O nome do casal (Okikischi e Iffé) vem da nota 47, que remete a Frobenius.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Resumo de Bastide, que remete a Frobenius; Olorum e Odudua são nomeados na versão. Outras versões do mito da criação dependem de fontes ainda não lidas (Verger, Prandi)."
+    },
+    {
+      "id": "ita-013",
+      "titulo": "Ifá ensina Oxum a jogar e Elegba responde a contragosto",
+      "entidades": [
+        "oxum",
+        "orunmila",
+        "exu"
+      ],
+      "versoes": [
+        {
+          "registro": "oxum-026",
+          "valor": "Ifá ensina Oxum, sua apetebi, a consultar a sorte com dezesseis coquinhos; Elegba aceita responder por eles a contragosto e persegue os filhos de Oxum",
+          "resumo": "Num mito recolhido na Bahia, Ifá, pescador pobre, serve Elegba por dezesseis anos e aprende com ele a adivinhar com coquinhos de dendê. Com a casa cheia de consulentes, toma Oxum como ajudante; ela reclama que não sabe ler o futuro, e Ifá prepara dezesseis coquinhos e pede a Elegba que responda por eles às perguntas dela. Elegba concorda de má vontade e, em troca, persegue mais os filhos de Oxum.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 141–142",
+              "via": null
+            }
+          ],
+          "nota": "Bastide dá uma variante cubana (L. Cabrera) em que Oxum obtém de Elegba cinco búzios em troca de ouro.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Bastide chama Elegba de outro nome de Exu (p. 141); Ifá é o adivinho do mito. Variante cubana citada por Bastide fica na nota da versão."
+    },
+    {
+      "id": "ita-014",
+      "titulo": "Oxum Ioni e os abarás que derrotam os invasores",
+      "entidades": [
+        "oxum"
+      ],
+      "versoes": [
+        {
+          "registro": "oxum-027",
+          "valor": "Oxum Ioni: rainha invadida que foge de jangada e vence os invasores com abarás cheios de força divina",
+          "resumo": "Uma das Oxuns tem mito próprio: rainha de terra rica, é atacada pelos Ioni, perde a capital e escapa à noite numa jangada. Inspirada por uma prece, manda deixar abarás na praia; os invasores famintos os comem e morrem pela força sagrada do alimento, e ela recupera o reino, passando a se chamar Oxum Ioni.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 202",
+              "via": null
+            }
+          ],
+          "nota": "Bastide usa o mito para defender que cada 'subdivindade' tem função distinta.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Mito próprio de uma das qualidades de Oxum, segundo Bastide."
+    },
+    {
+      "id": "ita-015",
+      "titulo": "A orelha de Obá",
+      "entidades": [
+        "oba",
+        "oxum",
+        "xango"
+      ],
+      "versoes": [
+        {
+          "registro": "oxum-028",
+          "valor": "Obá, enganada por Oxum, corta a orelha para pôr no prato de Xangô",
+          "resumo": "Obá, esquecida por Xangô, pergunta a Oxum, a preferida, qual o seu segredo; Oxum, de turbante, diz ter cozinhado a própria orelha no caruru do marido. Obá corta a sua e a serve a Xangô, que se enfurece. Bastide conta que, quando Obá se manifesta na Bahia, cobre a orelha esquerda e briga com as filhas de Oxum em transe.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 249–250",
+              "via": null
+            }
+          ],
+          "nota": "Bastide usa o mito para mostrar a dança como encenação de mitos.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Bastide liga o mito à dança: Obá cobre a orelha e investe contra as filhas de Oxum em transe."
+    },
+    {
+      "id": "ita-016",
+      "titulo": "Ogum joga Oxum no rio e a recupera com quiabos",
+      "entidades": [
+        "ogum",
+        "oxum",
+        "xango"
+      ],
+      "versoes": [
+        {
+          "registro": "oxum-029",
+          "valor": "Ogum, por ciúme, lança Oxum num rio; Xangô a salva e a leva; Ogum a recupera presenteando Xangô com quiabos",
+          "resumo": "Na versão que Bastide transcreve de Oneyda Alvarenga, Ogum, enciumado, joga Oxum na água ao atravessarem um rio; Xangô a puxa pelos cabelos e a leva para seu palácio. Ogum, ao vê-la viva, troca presentes com Xangô e lhe manda quiabos, com os quais Xangô se distrai e esquece Oxum, que Ogum leva de volta; daí o quiabo nas comidas de Xangô.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (versão citada de O. Alvarenga)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 200, nota 104",
+              "via": null
+            }
+          ],
+          "nota": "Bastide também cita a disputa entre Oxum e Iansã pelo marido comum (p. 115) e um mito em que a união de Oxum e Xangô gera a chuva (p. 240).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Versão transcrita por Bastide de Oneyda Alvarenga; explica o quiabo nas comidas de Xangô."
+    },
+    {
+      "id": "ita-017",
+      "titulo": "Iansã sacode as saias e espalha as folhas de Ossaim",
+      "entidades": [
+        "iansa",
+        "ossaim",
+        "xango"
+      ],
+      "versoes": [
+        {
+          "registro": "iansa-021",
+          "valor": "Iansã agita as saias e o vento espalha as folhas que só Ossaim possuía, repartindo-as entre os orixás",
+          "resumo": "Na versão cubana que Bastide reproduz, Ossaim guardava só para si o segredo das ervas; Xangô se queixa à mulher, Oyá, senhora dos ventos, que sacode as dobras da roupa e levanta uma ventania, espalhando as folhas para os outros orixás.",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (versão de L. Cabrera citada por Bastide)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 190 e nota 97",
+              "via": null
+            }
+          ],
+          "nota": "Bastide cita L. Cabrera, El Monte, p. 100 (fonte fora do catálogo).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Versão cubana (L. Cabrera) citada por Bastide; ainda sem versão brasileira lida."
     }
   ]
 }

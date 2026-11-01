@@ -1,0 +1,501 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/iansa.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 21,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "iansa",
+  "rotulo": "Iansã",
+  "atributos": {
+    "nomes": [
+      {
+        "valor": "Yansan; Oya (uma das Iansãs); Oiá em Porto Alegre",
+        "tradicoes": [
+          "candomble_ketu",
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Bahia; Porto Alegre",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79; p. 204",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79; p. 204",
+        "parafrase": "Bastide escreve Yansan; na lista de qualidades, Oya aparece como uma das Iansãs, e na semana de Porto Alegre ela figura como Oiá ao lado de Xangô.",
+        "nota": "Prandi 2005 usa Oiá e Oiá-Iansã (ver iansa-018).",
+        "registro": "iansa-001",
+        "status": "fichado"
+      }
+    ],
+    "dominios": [
+      {
+        "valor": "tempestade, chuva torrencial e ventania; imita com a espada o relâmpago",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 102, 122–123, 198",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 102, 122–123, 198",
+        "parafrase": "Bastide atribui a Iansã a tempestade, os temporais e os ventos fortes; na dança, ela reproduz a tormenta e, com a espada, risca no ar círculos brilhantes que imitam o raio.",
+        "nota": null,
+        "registro": "iansa-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "venceu a morte: única orixá que não teme os mortos; 'deusa dos cemitérios'; presente nos ritos fúnebres e no culto dos Egun",
+        "tradicoes": [
+          "candomble_ketu",
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Bahia; Recife (Iansã de Balé)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 88, 164 (nota 52), 179–180, 194, 230, 232, 243",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 88, 164 (nota 52), 179–180, 194, 230, 232, 243",
+        "parafrase": "Bastide explica que os orixás fogem da morte, salvo Iansã, que a derrotou e por isso às vezes é chamada deusa dos cemitérios. Ela é a ponte, sempre em luta, entre os orixás e os mortos: fica no axexê quando os outros se afastam e dança entre os Egun como se os contivesse. No Recife, o quarto dos mortos fica sob a guarda de uma imagem de Iansã de Balé.",
+        "nota": "Bastide nota que, nos ritos fúnebres de negros da Amazônia, cantam-se só cânticos para Iansã, Egun e Nanã Buruku. Sem detalhar o culto dos Egun.",
+        "registro": "iansa-006",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "vermelho",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 191, 198",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 191, 198",
+        "parafrase": "Bastide diz que o vermelho é a cor de Xangô e de Iansã, e por isso folhas avermelhadas são atribuídas aos dois; no quadro de correspondências Iansã repete as cores de Xangô.",
+        "nota": null,
+        "registro": "iansa-007",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "quarta-feira (com Xangô)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 120, 122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 120, 122",
+        "parafrase": "Na semana dos candomblés baianos, a quarta-feira junta Xangô e sua mulher principal, Iansã, que o ajuda no ofício de lançar raios; Bastide a chama de dia do fogo.",
+        "nota": null,
+        "registro": "iansa-002",
+        "status": "fichado"
+      },
+      {
+        "valor": "quarta-feira (com Xangô)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 127",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 127",
+        "parafrase": "No Opô Afonjá, a quarta é de Xangô e de Iansã, associada a ele também na região iorubá, segundo Bastide.",
+        "nota": null,
+        "registro": "iansa-003",
+        "status": "fichado"
+      },
+      {
+        "valor": "terça-feira (com Xangô)",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79",
+        "parafrase": "Na semana de Porto Alegre, Xangô e Oiá dividem a terça-feira.",
+        "nota": null,
+        "registro": "iansa-004",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "plantas: bradamundo e betis-cheiroso (com Xangô); folha-de-fogo ou 'folha de Iansã'; dormideira vermelha e erva-santa (Recife)",
+        "tradicoes": [
+          "candomble_ketu",
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Bahia; dormideira e erva-santa no Recife",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 163–165, 191",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 163–165, 191",
+        "parafrase": "Na lista de ervas de Bastide, várias são de Iansã, algumas divididas com Xangô; a folha-de-fogo, também chamada folha de Iansã, entra nos banhos de seus filhos, e no Recife a dormideira vermelha e a erva-santa lhe são consagradas.",
+        "nota": null,
+        "registro": "iansa-008",
+        "status": "fichado"
+      }
+    ],
+    "qualidades": [
+      {
+        "valor": "nove Iansãs (Oya, Benika, Cenou, Bomim…); uma ialorixá falou em dezessete",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 200, 202, 204",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 200, 202, 204",
+        "parafrase": "Na lista de Bastide, Iansã se desdobra em nove, com nomes como Oya, Benika, Cenou e Bomim; numa conversa com uma ialorixá, porém, ouvira falar em dezessete. Uma só delas seria a rainha dos cemitérios, cujo nome não lhe disseram.",
+        "nota": "Bastide supõe que seja Muria-Yansan, nome de quem a representa na festa de Egun (p. 202). Divergência 9 × 17 no próprio autor.",
+        "registro": "iansa-012",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "esposa principal de Xangô",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 122, 206, 253",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 122, 206, 253",
+        "parafrase": "Nos mitos baianos, Iansã é a primeira das mulheres de Xangô, à frente de Obá e de Oxum.",
+        "nota": "Ver xango-014.",
+        "registro": "iansa-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "casada com Ogum, segundo alguns sacerdotes",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 295",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 295",
+        "parafrase": "Bastide registra que há sacerdotes que casam Ogum com Iansã, enquanto outros veem Ogum como celibatário; Xangô teria tomado essas mulheres dos outros orixás.",
+        "nota": "Diverge de iansa-009 (Iansã como mulher de Xangô).",
+        "registro": "iansa-010",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "Sobô (vodum do raio e do trovão, família de Quevioçô) corresponde a Oiá",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, pp. 7, 14, 25–26 (Quadros 1 e 2)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, pp. 7, 14, 25–26 (Quadros 1 e 2)",
+        "parafrase": "Na casa de Pai Francelino, o vodum Sobô tem Oiá como orixá correspondente; somando Sobô e Oiá, o quadro de frequências registra 28 assentamentos para Oiá-Iansã. Na descrição da Casa das Minas, Nochê Sobô é a mãe dos voduns de Quevioçô e está ligada ao raio e ao trovão.",
+        "nota": "Ver xango-048 (Sobô como vodum correspondente a Xangô em outra leitura).",
+        "registro": "iansa-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "Sobô, chamada também Iansã ou Oyá",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Luís (MA): Ilê Axé Ogum Sobô (Pai Airton)",
+        "sources": [
+          {
+            "id": "ferretti-2011-comida",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "ferretti-2011-comida",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Na lista de comidas do terreiro de Pai Airton, Ferretti identifica Sobô com Iansã ou Oyá ao descrever o prato que as filhas desse vodum preparam para a festa.",
+        "nota": "O prato não é detalhado aqui (alimentos retidos).",
+        "registro": "iansa-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "Matamba, nkisi guerreiro dos raios, ventos e tempestades, mãe dos mortos e senhora do cemitério; Bamburucema pode ser uma qualidade sua",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "p. 43 e nota 27",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "p. 43 e nota 27",
+        "parafrase": "Botão descreve Matamba como nkisi do fogo, rainha dos raios e dos vendavais, guia dos espíritos e dona do cemitério, associado à Iansã do ketu; Bamburucema, ligada às chuvas, seria uma qualidade dela, e Kaiango é da mesma família.",
+        "nota": "Botão anota que Bastide (1973) associa Kaiango a Iansã.",
+        "registro": "iansa-020",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "Santa Bárbara (4 de dezembro)",
+        "tradicoes": [
+          "xango_pernambuco",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 104; p. 105, nota 54; p. 259, nota 22",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 104; p. 105, nota 54; p. 259, nota 22",
+        "parafrase": "No calendário católico africanizado resumido por Bastide, a festa de Iansã cai no dia de Santa Bárbara, 4 de dezembro; um centro do Recife também festeja Iansã nessa data, e outro se chama seita africana Santa Bárbara, identificada a Iansã.",
+        "nota": "Bastide cita P. Cavalcanti para os calendários do Recife.",
+        "registro": "iansa-013",
+        "status": "fichado"
+      },
+      {
+        "valor": "Santa Bárbara (Oiá e o vodum Sobô)",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+        "parafrase": "Para mostrar que a ligação entre vodum e orixá se estende aos santos, Prandi cita Sobô e Oiá-Iansã, ambas associadas a Santa Bárbara; no quadro, a orixá Oiá tem a mesma santa.",
+        "nota": null,
+        "registro": "iansa-014",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "Iansã agita as saias e o vento espalha as folhas que só Ossaim possuía, repartindo-as entre os orixás",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba (versão de L. Cabrera citada por Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 190 e nota 97",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 190 e nota 97",
+        "parafrase": "Na versão cubana que Bastide reproduz, Ossaim guardava só para si o segredo das ervas; Xangô se queixa à mulher, Oyá, senhora dos ventos, que sacode as dobras da roupa e levanta uma ventania, espalhando as folhas para os outros orixás.",
+        "nota": "Bastide cita L. Cabrera, El Monte, p. 100 (fonte fora do catálogo).",
+        "registro": "iansa-021",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "Louvação de Oyá, todo 13 de dezembro ao meio-dia; cânticos próprios para Iansã/Oyá",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): terreiro Santa Bárbara, nação xambá",
+        "sources": [
+          {
+            "id": "costa-2007-xango-pe",
+            "loc": "pp. 204–205",
+            "via": null
+          }
+        ],
+        "source_id": "costa-2007-xango-pe",
+        "via_source_id": null,
+        "localizacao": "pp. 204–205",
+        "parafrase": "Entre as marcas rituais que a casa xambá reivindica, Costa cita cânticos exclusivos para Iansã/Oyá e a Louvação de Oyá, feita anualmente em 13 de dezembro, ao meio-dia, em memória das sucessoras de pai Rosendo.",
+        "nota": "A autora observa que a louvação a Oyá basta para indicar influência nagô, sem origem africana diferenciada.",
+        "registro": "iansa-016",
+        "status": "fichado"
+      },
+      {
+        "valor": "4 de dezembro (Santa Bárbara): Sobô, Oiá e os demais voduns femininos",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 16",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 16",
+        "parafrase": "No calendário da casa paulista, o dia de Santa Bárbara reúne Sobô, Oiá, Dona Servana e as outras nochês, os voduns femininos.",
+        "nota": null,
+        "registro": "iansa-017",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "terreiro Santa Bárbara (Recife), aberto nos anos 1930 por Maria Oyá, consagrada a Iansã",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): terreiro Santa Bárbara, nação xambá",
+        "sources": [
+          {
+            "id": "costa-2007-xango-pe",
+            "loc": "pp. 202–203",
+            "via": null
+          }
+        ],
+        "source_id": "costa-2007-xango-pe",
+        "via_source_id": null,
+        "localizacao": "pp. 202–203",
+        "parafrase": "Segundo Costa, Maria Oyá (nome civil Maria das Dores), feita por pai Rosendo e filha de Iansã, abriu no começo da década de 1930 o terreiro Santa Bárbara, hoje principal casa de nação xambá.",
+        "nota": null,
+        "registro": "iansa-015",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "na roda das filhas de santo em transe, Iansã sempre vai à frente de Oxum, por ser a esposa principal de Xangô",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 206, 253",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 206, 253",
+        "parafrase": "Bastide observa que a posição das filhas em transe ao redor do poste segue a hierarquia dos deuses: Iansã precede Oxum, esposa secundária. Na sua especulação numerológica, o número de Iansãs supera em um o de Oxuns pelo mesmo motivo.",
+        "nota": "A parte numérica (p. 206) é interpretação do autor.",
+        "registro": "iansa-011",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "origem",
+      "funcoes",
+      "elementos",
+      "saudacao",
+      "alimentos",
+      "animais",
+      "tabus",
+      "iconografia",
+      "interpretacao_academica"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

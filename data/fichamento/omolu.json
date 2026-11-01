@@ -1,0 +1,533 @@
+{
+  "_meta": {
+    "orixa": "omolu",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 27,
+    "por_status": {
+      "fichado": 27,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "omolu-001",
+      "orixa": "omolu",
+      "atributo": "nomes",
+      "valor": "Omolu (Omolú, Omulú), Obaluaiê (Abaluayê, Babaluayé); Xapanã, nome evitado na conversa",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 104, 121 (nota 85), 178, 205",
+      "parafrase": "Bastide usa Omolu e Obaluaiê, este último também para o Omolu velho. Explica que o nome Sakpatan existe no Brasil como Xapanã, mas é evitado por ser perigoso pronunciá-lo, sob risco de doenças de pele, e por isso se fala Omolu.",
+      "nota": "Em Porto Alegre a semana dá 'Xapanã (Omolú)' (p. 119, nota 79).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-002",
+      "orixa": "omolu",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (com Exu)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 120–121",
+      "parafrase": "Na semana baiana a segunda é de Exu e Omolu. Bastide dá duas razões compatíveis: ambos são perigosos para quem os despreza e precisam ser aplacados no começo da semana, e ambos são divindades da terra, de modo que a segunda vira o dia dos deuses da terra.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-003",
+      "orixa": "omolu",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (com Exu)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 127",
+      "parafrase": "No Opô Afonjá, a segunda é de Exu e também de Omolu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-004",
+      "orixa": "omolu",
+      "atributo": "dia_semana",
+      "valor": "quarta-feira (como Xapanã, com Obá)",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Na semana de Porto Alegre, a quarta-feira é de Xapanã, que Bastide identifica com Omolu, e de Obá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-005",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "varíola, doenças de pele e epidemias; 'médico dos pobres', protetor dos negros humildes",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 102, 120–121, 198",
+      "parafrase": "Bastide descreve Omolu como o deus da varíola e das epidemias que tantas vezes mataram escravos no Brasil, temido mas favorável a quem lhe presta culto; lembra que Édison Carneiro o chamou de médico dos pobres e protetor dos negros humildes da Bahia. No quadro de correspondências, o seu aspecto social é justamente esse.",
+      "nota": "Bastide cita E. Carneiro, Negros bantus, pp. 85–91.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-006",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "divindade da terra: Sakpata-Omolu como 'rei da terra'; a varíola é castigo, não a sua característica fundamental",
+      "tradicoes": [
+        "candomble_ketu",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": "Bahia; Daomé (segundo Le Hérissé)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 121 e notas 85–86; p. 198",
+      "parafrase": "Apoiado em Le Hérissé, Bastide sustenta que Sakpata-Omolu é antes de tudo o senhor do solo, o rei da terra dos daomeanos, e que a varíola é só o castigo que manda a quem o despreza. No quadro de correspondências, ele aparece ligado à terra e também ao sol.",
+      "nota": "Le Hérissé (1911) não está no catálogo; afirmação de 2ª mão.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-007",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "senhor dos cemitérios, sob cujas ordens trabalham exus como Exu Caveira e Exu da Meia-Noite",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Umbanda (tábua de correspondência exu-diabo)",
+      "source_id": "prandi-2001-exu-diabo",
+      "via_source_id": null,
+      "localizacao": "p. 55",
+      "parafrase": "Ao expor a tábua umbandista que associa exus a demônios, Prandi menciona os exus subordinados ao orixá Omulu, chamado senhor dos cemitérios, como Exu Caveira, Exu da Meia-Noite e seus ajudantes.",
+      "nota": "Prandi cita Fontenelle, Bittencourt e Omolubá. Distinto do candomblé baiano (omolu-005).",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revusp/article/view/35275"
+      ]
+    },
+    {
+      "id": "omolu-008",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "Xapanã, vodum das doenças e da cura",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 12",
+      "parafrase": "Ao contar a história da casa, Prandi apresenta Xapanã, vodum de cabeça da mãe de santo de Pai Francelino, como divindade das doenças e das curas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "omolu-009",
+      "orixa": "omolu",
+      "atributo": "cores",
+      "valor": "preto e branco",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 198",
+      "parafrase": "No quadro de correspondências de Bastide, as cores de Omolu são o preto e o branco.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-010",
+      "orixa": "omolu",
+      "atributo": "iconografia",
+      "valor": "coberto de palha; capuz de palha esconde o rosto marcado de pústulas; cores da palha distinguem os vários Omolus",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 30, 182, 203",
+      "parafrase": "Bastide descreve Omolu dançando recoberto de palha. Em transe, a filha cobre a cabeça com um amplo capuz de palha, porque o rosto do deus estaria coberto de feridas; nas festas, a forma do capuz e as cores da palha, amarela, marrom, avermelhada ou salpicada de branco, permitem distinguir os diferentes Omolus.",
+      "nota": "Bastide frisa que, ao contrário de quem representa um Egun, a filha de Omolu sob o capuz está em transe.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-011",
+      "orixa": "omolu",
+      "atributo": "iconografia",
+      "valor": "dança dos mancos (início das coisas): Exu a deixa para Omolu ou para Xangô moço",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 241",
+      "parafrase": "Na interpretação de Bastide sobre Exu, este não executa a dança dos mancos, ligada ao início das coisas, e a deixa a Omolu ou ao Xangô moço.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-012",
+      "orixa": "omolu",
+      "atributo": "simbolos",
+      "valor": "xaxará (chachará): feixe de varetas; vassoura com que Omolu varre os humanos como folhas secas, imagem da epidemia",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 28, 178–179",
+      "parafrase": "O xaxará está entre os objetos postos nas mãos de Omolu manifestado. Bastide o define como vassoura com a qual o deus varre as pessoas como folhas mortas, figura da epidemia que devasta uma região; é também insígnia de Nanã.",
+      "nota": "Na p. 28 Bastide dá ainda outra interpretação do objeto; não registrada.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-013",
+      "orixa": "omolu",
+      "atributo": "simbolos",
+      "valor": "otá cheio de buraquinhos, como cicatrizes de varíola",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 90, nota 28",
+      "parafrase": "Bastide descreve a pedra de Omolu como cheia de pequenos furos, à maneira das marcas deixadas pela varíola.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-014",
+      "orixa": "omolu",
+      "atributo": "simbolos",
+      "valor": "plantas: canela-de-velho, casadinha (chamada também 'omolu'), urtiga e velame; plantas depurativas",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Bahia; velame num cântico banto",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 159, 164, 166, 191, 193",
+      "parafrase": "As ervas de Omolu na lista de Bastide incluem a casadinha, cujas folhas têm saliências parecidas com pústulas, e a urtiga, que dá coceira como as doenças de pele. Como as erupções são vistas como 'sangue ruim' saindo, cabem-lhe também as plantas depurativas, como o velame, lembrado num cântico de terreiro banto.",
+      "nota": "Bastide cita Édison Carneiro para o cântico.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-015",
+      "orixa": "omolu",
+      "atributo": "simbolos",
+      "valor": "pinhão branco, árvore consagrada a toi Acossi no quintal da casa",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "p. 257",
+      "parafrase": "No quintal da Casa das Minas, Ferretti destaca o pinhão branco como planta consagrada a toi Acossi, ao lado de outras árvores usadas em rituais.",
+      "nota": "Acossi Sakpatá é o vodum da família de Dambirá que corresponde a Omolu (omolu-024).",
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "omolu-016",
+      "orixa": "omolu",
+      "atributo": "historia_culto",
+      "valor": "13 casas de Omolu entre 86 santuários recenseados na Bahia, o maior número; casa de Omolu sempre fora da habitação principal",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 82; p. 85, nota 18",
+      "parafrase": "Na primeira estadia baiana, Bastide contou 13 casas de Omolu entre 86 santuários, mais do que de qualquer outro orixá. A casa dele fica obrigatoriamente fora da construção principal do terreiro, como, na Nigéria, os templos de Buku e os conventos de Xankanna ficam fora da aldeia.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-017",
+      "orixa": "omolu",
+      "atributo": "qualidades",
+      "valor": "catorze Omolus, sendo os mais conhecidos o jovem Omolu e o velho Omolu ou Abaluaiê; vinte e um segundo Verger",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 205",
+      "parafrase": "Na lista de Bastide, Omolu se desdobra em catorze, dos quais os mais célebres são o moço e o velho, este chamado Abaluaiê; Verger, diz ele, conta vinte e um.",
+      "nota": "Bastide lê os números como produtos de 7 (2 × 7 = 14), especulação dele (p. 206).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-018",
+      "orixa": "omolu",
+      "atributo": "parentesco",
+      "valor": "filho de Nanã (e de Oxalá)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 125, 178, 295",
+      "parafrase": "Para Bastide, Omolu é filho de Nanã, e na versão baiana das famílias divinas é um dos filhos que Nanã Buruku deu a Oxalá.",
+      "nota": "Ver nana-010 e nana-011.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-019",
+      "orixa": "omolu",
+      "atributo": "parentesco",
+      "valor": "marido de Obá, segundo alguns sacerdotes; rival de Xangô",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (Salvador)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 295",
+      "parafrase": "Entre as versões divergentes sobre os casamentos dos orixás, alguns fazem de Omolu o esposo de Obá; Xangô, que teria tomado as mulheres dos outros, precisou enfrentar Omolu, Ogum e Oxóssi.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-020",
+      "orixa": "omolu",
+      "atributo": "sincretismo",
+      "valor": "São Sebastião (20 de janeiro)",
+      "tradicoes": [
+        "xango_pernambuco",
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 104–105 e nota 54",
+      "parafrase": "No calendário católico africanizado, a festa de Obaluaiê (Omolu) cai no dia de São Sebastião; no Centro Africano S. Jorge do Recife, 20 de janeiro reúne Obaluaê e São Sebastião, e num terreiro pernambucano descrito por Gonçalves Fernandes a data é de 'Abaluaci'.",
+      "nota": "Bastide cita P. Cavalcanti e Gonçalves Fernandes.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-021",
+      "orixa": "omolu",
+      "atributo": "festas",
+      "valor": "20 de janeiro: festa de Obaluaiê; no candomblé de Ogum, um domingo e a segunda seguinte são de Omolu",
+      "tradicoes": [
+        "xango_pernambuco",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Recife (calendário); Bahia: um candomblé de Ogum",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 104, 108",
+      "parafrase": "Além da data de 20 de janeiro no calendário africanizado, Bastide registra que, num candomblé baiano de Ogum, o ciclo anual dedica a Omolu um domingo e a segunda-feira que o segue.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-022",
+      "orixa": "omolu",
+      "atributo": "festas",
+      "valor": "São Sebastião (20 de janeiro): banquete dos cachorros, dedicado aos orixás do grupo de Omolu/Xapanã; na Casa das Minas, oferecido a Acossi Sakpatá",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Maranhão; São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "p. 256",
+      "parafrase": "Ferretti descreve o banquete dos cachorros, promessa a São Lázaro conhecida em várias regiões do país e dirigida aos orixás do grupo de Omolu ou Xapanã; na Casa das Minas ele homenageia Acossi Sakpatá e acontece no dia 20 de janeiro, como parte dos festejos de São Sebastião.",
+      "nota": "Os pratos e oferendas não são detalhados aqui (alimentos retidos).",
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "omolu-023",
+      "orixa": "omolu",
+      "atributo": "festas",
+      "valor": "19 a 21 de janeiro: Azonce e Xapanã; 20 de janeiro (São Sebastião): Xapanã e Azacá, com Mesa dos Inocentes e Banquete dos Cachorros; 11 de fevereiro (São Lázaro): Acóssi",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 15",
+      "parafrase": "O calendário da casa paulista concentra em janeiro as festas dos voduns de Dambirá: Azonce e Xapanã de 19 a 21, e no dia de São Sebastião Xapanã e Azacá, com a mesa dos inocentes e o banquete dos cachorros; Acóssi é festejado no dia de São Lázaro.",
+      "nota": "Esses voduns correspondem a Omulu-Obaluaê nesta casa (omolu-024).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "omolu-024",
+      "orixa": "omolu",
+      "atributo": "equivalencias",
+      "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+      "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+      "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "omolu-025",
+      "orixa": "omolu",
+      "atributo": "equivalencias",
+      "valor": "família de Dambirá: voduns ligados à terra, à doença e à cura; Acóssi Sapatá, curador que adoeceu cuidando dos enfermos",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1985-querebenta",
+      "via_source_id": "prandi-2005-pegadas-voduns",
+      "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+      "parafrase": "Prandi, resumindo S. Ferretti, descreve a família de Dambirá na Casa das Minas como a dos voduns da terra, das doenças e das curas, chefiada por Acóssi Sapatá, que conhece remédio para todo mal e ficou doente de tanto cuidar dos outros; seus irmãos Azile e Azonce e vários filhos completam a família.",
+      "nota": "O resumo não diz 'Omolu'; a correspondência é explícita na casa paulista (omolu-024) e em Ferretti 2011 (omolu-022).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "omolu-026",
+      "orixa": "omolu",
+      "atributo": "equivalencias",
+      "valor": "Sakpata (Daomé), conhecido no Brasil como Xapanã",
+      "tradicoes": [
+        "candomble_ketu",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": "Bahia; Daomé",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 121 e nota 85",
+      "parafrase": "Bastide escreve Sakpata-Omolu ao discutir a natureza do deus e explica que o nome daomeano Sakpatan aparece no Brasil na forma Xapanã.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "omolu-027",
+      "orixa": "omolu",
+      "atributo": "equivalencias",
+      "valor": "Kavungu (Kingongo, Insumbo/Nsumbo/Nsambo), nkisi protetor contra pestes e doenças, que atua também na sorte",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+      "source_id": "botao-2007-angola",
+      "via_source_id": null,
+      "localizacao": "p. 42",
+      "parafrase": "Botão apresenta Kavungu, também chamado Kingongo ou Insumbo, como divindade das pestes e doenças, que também mexe com a sorte, associada ao Obaluaiê/Omulu do ketu; sugere que Ntoto, ligado à terra, talvez seja da mesma família.",
+      "nota": "Sobre Ntoto o autor diz não ter achado equivalente e fala em hipótese.",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    }
+  ]
+}

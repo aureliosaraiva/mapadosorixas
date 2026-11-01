@@ -1,0 +1,886 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/oxala.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 39,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "oxala",
+  "rotulo": "Oxalá",
+  "atributos": {
+    "nomes": [
+      {
+        "valor": "Obatalá (outro nome de Oxalá na Bahia); Orixalá ou Orixá-lá",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 31, 98, 104, 120",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 31, 98, 104, 120",
+        "parafrase": "Bastide trata Obatalá como o segundo nome com que Oxalá é chamado na Bahia; nas listas de cânticos e calendários aparecem ainda as formas Orixalá e Orixá-lá.",
+        "nota": "Na p. 120 o dia de sexta-feira é dado a 'Oxalá (Obatalá)'.",
+        "registro": "oxala-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "Orixanlá ou Orixá Nlá, 'o Grande Orixá'",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "prandi-2001-exu-diabo",
+            "loc": "p. 51",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2001-exu-diabo",
+        "via_source_id": null,
+        "localizacao": "p. 51",
+        "parafrase": "Prandi explica que o nome Orixanlá (Orixá Nlá) quer dizer Grande Orixá e reflete o lugar de topo que Oxalá já tinha na África.",
+        "nota": null,
+        "registro": "oxala-002",
+        "status": "fichado"
+      }
+    ],
+    "dominios": [
+      {
+        "valor": "criação: modelou a terra e o primeiro casal humano; preside a fase da iniciação em que se 'cria' a nova pessoa",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 48–49, 54, 297",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 48–49, 54, 297",
+        "parafrase": "Bastide vê em Oxalá o deus criador, e por isso a maior parte do processo iniciático, entendido como a modelagem de uma nova personalidade, fica sob sua regência; as roupas brancas usadas nesse período marcam esse patrocínio.",
+        "nota": "Sem detalhar a iniciação (fundamento).",
+        "registro": "oxala-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "céu (abóbada celeste); sexta-feira como dia do culto do céu",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 124–125, 198",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 124–125, 198",
+        "parafrase": "No quadro de correspondências, o aspecto da natureza ligado a Oxalá é a abóbada celeste; ao explicar a semana baiana, Bastide chama a sexta-feira de dia do culto do céu e associa Oxalá ao ar entre os quatro elementos.",
+        "nota": null,
+        "registro": "oxala-006",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "formação da criança no ventre: fecundação e desenvolvimento do feto atribuídos a Oxalá na Bahia",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 292 e nota 6",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 292 e nota 6",
+        "parafrase": "Segundo Bastide, os negros baianos concordam em pôr sob Oxalá a gestação, da concepção ao parto; na África, diz ele, os etnógrafos registram tanto a fecundação ligada a Ifá quanto a ligada a Oxalá, e talvez seja preciso separar o momento da fecundação do crescimento do feto.",
+        "nota": "Diverge de oxala-008 (Nina Rodrigues: Obatalá cuida do desenvolvimento no útero, Ifá da fecundação).",
+        "registro": "oxala-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "Obatalá preside o desenvolvimento da criança no útero; a Ifá cabe a fecundação",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (fim do séc. XIX)",
+        "sources": [
+          {
+            "id": "nina-rodrigues-1932-africanos",
+            "loc": "PDF p. 2 (Nina Rodrigues, Os africanos no Brasil, p. 329)",
+            "via": "costa-1980-exu-umbanda"
+          }
+        ],
+        "source_id": "nina-rodrigues-1932-africanos",
+        "via_source_id": "costa-1980-exu-umbanda",
+        "localizacao": "PDF p. 2 (Nina Rodrigues, Os africanos no Brasil, p. 329)",
+        "parafrase": "Costa resume Nina Rodrigues: Exu, Obatalá e Ifá dividem a divinização da fecundidade; Obatalá cuida do crescimento do bebê no ventre materno e Ifá do ato da fecundação.",
+        "nota": "Ver oxala-007 (Bastide).",
+        "registro": "oxala-008",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "branco (contas do colar, prato, roupas e giz)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 32, 49, 198–199",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 32, 49, 198–199",
+        "parafrase": "Bastide repete em várias passagens que o branco é a cor de Oxalá: no colar de contas, no prato da comunhão, nas vestes da iniciação, no quadro de correspondências e no giz, cujo uso branco fica reservado aos desenhos desse orixá.",
+        "nota": null,
+        "registro": "oxala-013",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "sexta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 120, 124",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 120, 124",
+        "parafrase": "Na ordem semanal mais comum dos candomblés baianos, a sexta-feira cabe a Oxalá; os próprios membros, diz Bastide, explicam a escolha pela equivalência com Cristo, morto numa sexta.",
+        "nota": "No Gantois, segundo Nina Rodrigues citado por Bastide (p. 106), a sexta das festas anuais era de 'Oubatalá ou Orixa-lá'.",
+        "registro": "oxala-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "sexta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 128",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 128",
+        "parafrase": "No exemplo do Opô Afonjá, Oxalá fica com a sexta; Bastide nota que a sequência Exu, Ogum, Xangô, Obatalá segue a dos deuses da semana africana.",
+        "nota": null,
+        "registro": "oxala-015",
+        "status": "fichado"
+      },
+      {
+        "valor": "domingo (dia da missa)",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79; p. 124",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79; p. 124",
+        "parafrase": "Em Porto Alegre, Oxalá é festejado no domingo; os informantes justificaram com o fato de ser o dia da missa, razão que Bastide considera análoga à baiana, também baseada na equivalência com Cristo.",
+        "nota": null,
+        "registro": "oxala-016",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "cabaça dupla (céu e terra), na Bahia substituída por tigela ou sopeira branca com tampa",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 96–98",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 96–98",
+        "parafrase": "Bastide descreve a representação de Obatalá por duas metades de cabaça encaixadas, imagem do céu unido à terra; citando Nina Rodrigues, observa que na Bahia as cuias pintadas de branco cederam lugar a uma vasilha branca de louça com tampa, sem perder o sentido.",
+        "nota": "Segundo Bastide, a mesma troca de material ocorre em Cuba.",
+        "registro": "oxala-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "paxorô (vara de metal) nas mãos do orixá manifestado",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 28",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 28",
+        "parafrase": "Entre os objetos entregues a quem está em transe, Bastide cita o paxorô de Oxalá, que ele descreve como uma vara de ferro.",
+        "nota": "Na p. 178 Bastide aproxima chachará e paxorô, ambos da família das 'vassouras'.",
+        "registro": "oxala-012",
+        "status": "fichado"
+      },
+      {
+        "valor": "plantas de Oxalá: algodão, tapete-de-oxalá, neve-branca, palmas, manjericão, alecrim e rosmaninho; folhas de perfume purificador e contra males da cabeça",
+        "tradicoes": [
+          "candomble_ketu",
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Bahia; algodão também no Recife",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 161, 163, 166, 190–192",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 161, 163, 166, 190–192",
+        "parafrase": "Na lista de ervas de Bastide, várias pertencem a Oxalá e entram nos banhos de seus filhos. O autor explica a atribuição pela cor (folhas brancas ou felpudas), pelo perfume que purifica e, no uso medicinal, pela ligação de Oxalá com a cabeça humana.",
+        "nota": "O algodão é dito consagrado a Oxalá na Bahia e no Recife, como em Cuba.",
+        "registro": "oxala-032",
+        "status": "fichado"
+      }
+    ],
+    "qualidades": [
+      {
+        "valor": "três Oxalás: Oxalufã, Oxichalá e Oxaguiã; listas com sete ou dezesseis nomes",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 203–204 e nota 111",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 203–204 e nota 111",
+        "parafrase": "Na lista provisória de Bastide, Oxalá se desdobra em três: Oxalufã, Oxichalá e Oxaguiã. Ele anota que alguns informantes davam sete nomes e que Verger chegou a dezesseis, e atribui o excesso a qualificativos e louvores tomados por nomes.",
+        "nota": "Nesta lista (p. 204) Bastide chama Oxalufã de 'o mais jovem' e Oxaguiã de 'o mais velho', o contrário do que escreve na p. 110 (Oxalufã = Oxalá velho; Oxaguiã = Oxalá jovem) e na p. 297. Registrado como está; a conferir.",
+        "registro": "oxala-021",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxalufã, Oxalá velho, pai de Oxaguiã, Oxalá jovem",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 110, 112",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 110, 112",
+        "parafrase": "No mito que sustenta a festa das águas, Bastide identifica Oxalufã como o Oxalá idoso e Oxaguiã como o Oxalá moço, filho do primeiro, em cujo reino o velho morava.",
+        "nota": "Ver oxala-021 sobre a inversão na p. 204.",
+        "registro": "oxala-022",
+        "status": "fichado"
+      },
+      {
+        "valor": "criança nascida com o cordão umbilical no pescoço é de Oxaguiã",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 297",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 297",
+        "parafrase": "Bastide conta que o jeito de nascer orienta a indicação do orixá de uma criança, por exemplo Oxaguiã quando ela vem com o cordão enrolado no pescoço, mas que a escolha precisa depois ser confirmada pelo oráculo.",
+        "nota": null,
+        "registro": "oxala-023",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 295",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 295",
+        "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
+        "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
+        "registro": "oxala-024",
+        "status": "fichado"
+      },
+      {
+        "valor": "pai de Iemanjá",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 125",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 125",
+        "parafrase": "Ao discutir se a semana segue uma ordem genealógica, Bastide observa que Oxalá, pai de Iemanjá, vem logo antes dela.",
+        "nota": null,
+        "registro": "oxala-025",
+        "status": "fichado"
+      },
+      {
+        "valor": "pai de Oxum",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 199",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 199",
+        "parafrase": "Num mito ouvido na Bahia, Oxum é apresentada como filha de Oxalá.",
+        "nota": "Mito em oxala-030.",
+        "registro": "oxala-026",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "Lembá (terreiros congo) e Lembarengangá (terreiros angola)",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 201 e nota 106",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 201 e nota 106",
+        "parafrase": "Ao tratar da multiplicidade de nomes conforme a nação, Bastide dá como exemplo Oxalá, chamado Lembá nos terreiros congo e Lembarengangá nos de angola.",
+        "nota": "Bastide cita R. Guimarães, 'Notas sôbre o culto de Oxalá' (1936).",
+        "registro": "oxala-033",
+        "status": "fichado"
+      },
+      {
+        "valor": "Lembá ou Lembarenguenganga, nkisi feminino da fecundidade e patrono do casamento, que se assemelha a Oxalá",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "p. 44",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "p. 44",
+        "parafrase": "Botão descreve Lembá, talvez a divindade mais importante do panteão banto no Brasil, ligada à fecundidade e protetora do casamento; é feminina e, segundo ele, parecida com Oxalá.",
+        "nota": "Diverge de oxala-010 quanto ao sexo (ali, Oxalá andrógino).",
+        "registro": "oxala-034",
+        "status": "fichado"
+      },
+      {
+        "valor": "Lissá (vodum jeje-nagô, família de Quevioçô) corresponde a Oxaguiã; Arronovissavá (família de Davice) a Oxalufã; ambos sincretizados com Jesus Cristo",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+        "parafrase": "No quadro dos voduns da casa de Pai Francelino, Lissá tem Oxaguiã como orixá correspondente e Arronovissavá tem Oxalufã; os dois aparecem ligados a Jesus Cristo, e no texto Prandi dá Lissá, Oxalá e Cristo como exemplo de correspondência que chega ao santo católico.",
+        "nota": "No Quadro 2 (p. 26), Lissá e Arronovissavá somam 5 assentamentos para Oxalá.",
+        "registro": "oxala-035",
+        "status": "fichado"
+      },
+      {
+        "valor": "Lissá, vodum dos astros que representa o sol, da família de Quevioçô",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+        "sources": [
+          {
+            "id": "ferretti-1985-querebenta",
+            "loc": "versão do autor, pp. 7–8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+            "via": "prandi-2005-pegadas-voduns"
+          }
+        ],
+        "source_id": "ferretti-1985-querebenta",
+        "via_source_id": "prandi-2005-pegadas-voduns",
+        "localizacao": "versão do autor, pp. 7–8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+        "parafrase": "Prandi, resumindo S. Ferretti, inclui Lissá entre os filhos de Sobô na família de Quevioçô: vodum dos astros, ligado ao sol, mudo e andarilho.",
+        "nota": "O resumo da Casa das Minas não liga Lissá a Oxalá; a correspondência aparece na casa paulista (oxala-035) e em oxala-037.",
+        "registro": "oxala-036",
+        "status": "fichado"
+      },
+      {
+        "valor": "Rei dos Mestres, nome das entidades africanas Tó-Alapong e Tó-Alaby (talvez Oxalufã e Oxaguiã), é o mesmo Oxalá e o mesmo vodum Lissá",
+        "tradicoes": [
+          "tambor_de_mina",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "São Luís (MA): Casa Fanti-Ashanti (Pai Euclides) e antigo terreiro do Egito",
+        "sources": [
+          {
+            "id": "ferretti-m-2020-pureza",
+            "loc": "p. 81",
+            "via": null
+          }
+        ],
+        "source_id": "ferretti-m-2020-pureza",
+        "via_source_id": null,
+        "localizacao": "p. 81",
+        "parafrase": "M. Ferretti relata que Pai Euclides começou, no terreiro do Egito, a receber Rei dos Mestres, como ali eram chamadas Tó-Alapong e Tó-Alaby; para ele, trata-se de Oxalá, que mais tarde ele também recebeu no candomblé, e do vodum Lissá da Casa das Minas.",
+        "nota": "A identificação com Oxalufã e Oxaguiã vem com ponto de interrogação no texto da autora.",
+        "registro": "oxala-037",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "Jesus Cristo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 124",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 124",
+        "parafrase": "Bastide afirma que o correspondente católico de Oxalá é Jesus Cristo, e que essa equivalência explica tanto a sexta-feira baiana quanto o domingo de Porto Alegre.",
+        "nota": null,
+        "registro": "oxala-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "Jesus Cristo, o Deus Filho (Olorum ficou com o Deus Pai)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "prandi-2001-exu-diabo",
+            "loc": "pp. 51, 62",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2001-exu-diabo",
+        "via_source_id": null,
+        "localizacao": "pp. 51, 62",
+        "parafrase": "Prandi descreve o sincretismo como encaixe num modelo de bem e mal: Oxalá recebeu o papel de Jesus Cristo e Olorum o de Deus Pai, enquanto os outros orixás viraram santos; no fim do artigo menciona a dessincretização que procura desfazer essas identificações.",
+        "nota": "Prandi trata do sincretismo em geral nas religiões afro-brasileiras; a tradição umbanda entra pela discussão do artigo sobre a umbanda.",
+        "registro": "oxala-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "Padre Eterno (1º de janeiro)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife: Centro Africano S. Jorge (calendário segundo P. Cavalcanti)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 105, nota 54",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 105, nota 54",
+        "parafrase": "Numa lista de datas recifense que Bastide reproduz de P. Cavalcanti, o 1º de janeiro junta Orixalá e o Padre Eterno.",
+        "nota": "Bastide cita P. Cavalcanti, 'As seitas africanas no Recife' (Estudos Afro-Brasileiros, pp. 254-5); a fonte não está no catálogo. Diverge de oxala-017 (Jesus Cristo).",
+        "registro": "oxala-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Pedro e São Paulo (29 de junho), no calendário de festas",
+        "tradicoes": [
+          "xango_pernambuco",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 104",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 104",
+        "parafrase": "No calendário católico africanizado que Bastide resume, a festa de Orixá-lá cai no dia de São Pedro e São Paulo; o autor diz que essa tabela vale mais para os iorubás de Pernambuco e, na Bahia, para os candomblés bantos.",
+        "nota": "Correspondência pela data da festa, lida na tabela de duas colunas da p. 104.",
+        "registro": "oxala-020",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "a viagem de Oxalufã ao reino de Xangô: humilhado por Exu, preso por engano durante sete anos, é libertado pelo filho e levado de volta ao palácio de Oxaguiã",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 110–112, 187, 199, 202, 249",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 110–112, 187, 199, 202, 249",
+        "parafrase": "Oxalufã, o velho, decide visitar o filho Xangô contra o conselho do adivinho e só pode evitar a morte se não negar ajuda a ninguém nem reclamar. Exu o suja três vezes com cargas que lhe pede para carregar, e ele se lava em silêncio. Ao devolver o cavalo fugido de Xangô, é tomado por ladrão, espancado e preso por sete anos, enquanto o reino de Xangô fica estéril. O oráculo aponta a injustiça, Xangô reconhece o pai, manda lavá-lo e o faz carregar até a casa de Oxaguiã, que celebra a volta com um banquete.",
+        "nota": "Bastide dá duas versões próximas, a sua (1945) e a de Verger (1954), e uma análoga em Cuba (L. Cabrera). Quem carrega o velho varia: Airá, o Xangô mais velho (pp. 111, 202), ou o próprio Xangô (p. 199). Na p. 249 o encontro de Airá e Oxalá é encenado na dança; na p. 187 o mito ilustra que o destino só se evita em parte.",
+        "registro": "oxala-029",
+        "status": "fichado"
+      },
+      {
+        "valor": "Xangô só pode casar com Oxum se carregar nas costas o velho Oxalá, pai dela, até a festa de casamento; daí o branco nas cores de Xangô",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 199",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 199",
+        "parafrase": "Em outra explicação baiana para o vermelho e branco de Xangô, ele quer desposar Oxum, que só aceita se ele levar ao casamento o pai dela, Oxalá, idoso e sem forças para andar; desde essa aliança as cores dos dois se misturam.",
+        "nota": "Bastide apresenta esta versão como alternativa à de oxala-029.",
+        "registro": "oxala-030",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxalá encarregado por Olorum de fazer a terra e o mar; bebe vinho de palma em excesso e não conclui a tarefa, mas, com Odudua, é um dos criadores do mundo e modela sozinho o primeiro casal humano",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 48–49 e nota 47",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 48–49 e nota 47",
+        "parafrase": "Bastide resume o mito: o deus supremo Olorum confia a Oxalá a criação da terra e do mar, mas o vinho de palma bebido no caminho o impede de completar a missão; ainda assim, com a ajuda de Odudua, ele participa da criação, e é ele quem molda o primeiro casal humano.",
+        "nota": "O nome do casal (Okikischi e Iffé) vem da nota 47, que remete a Frobenius.",
+        "registro": "oxala-031",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "Águas de Oxalá: abre o ano religioso (fim de agosto ou setembro, conforme o terreiro); lavagem dos objetos sagrados, procissões e festa do inhame novo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 109–113",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 109–113",
+        "parafrase": "Bastide descreve a cerimônia que inicia o ano dos candomblés baianos, antes chamada também de 'inhame novo': os objetos de Oxalá passam sete dias fora do pegi, as filhas de santo, de branco e em silêncio, buscam água para lavá-los, e a água purifica todos os objetos da casa; uma segunda procissão, alegre, devolve as pedras ao lugar, e uma semana depois há um banquete. O autor lê a festa como rito agrário, abertura do tempo sagrado e purificação da comunidade.",
+        "nota": "Resumo sem detalhar etapas internas. O mito encenado está em oxala-029.",
+        "registro": "oxala-027",
+        "status": "fichado"
+      },
+      {
+        "valor": "sequência de domingos de festa: 1º para Oxalá, 2º para Oxaguiã",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia: um candomblé de Ogum (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 107–108",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 107–108",
+        "parafrase": "Num candomblé baiano de Ogum, as festas anuais vão de setembro a dezembro, só aos domingos; o primeiro é de Oxalá e o segundo de Oxaguiã.",
+        "nota": "Exemplo de que cada terreiro tem seu próprio calendário.",
+        "registro": "oxala-028",
+        "status": "fichado"
+      },
+      {
+        "valor": "Sexta-Feira Santa: obrigações à tarde para Lissá e os voduns da Criação; renovação dos assentamentos à noite",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 16",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 16",
+        "parafrase": "Entre as festas móveis da casa paulista, a Sexta-Feira Santa é dedicada, à tarde, a Lissá e aos voduns da Criação; à noite os assentamentos são descobertos e as águas renovadas.",
+        "nota": "Lissá corresponde a Oxaguiã nesta casa (oxala-035).",
+        "registro": "oxala-038",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "6 casas de Oxalá entre 86 santuários recenseados na Bahia; casa de Oxalá separada da de Xangô no Opô Afonjá",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 82; p. 85, nota 18",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 82; p. 85, nota 18",
+        "parafrase": "Na primeira estadia na Bahia, Bastide contou 6 casas de Oxalá entre 86 santuários. No Opô Afonjá, a casa de Oxalá fica apartada da de Xangô, o que ele relaciona aos templos dos dois orixás estarem em cidades distintas na África, Ifé e Oyó.",
+        "nota": null,
+        "registro": "oxala-039",
+        "status": "fichado"
+      }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "Nina Rodrigues via na Bahia tendência dualista: Oxalá/Obatalá como bem, Exu como mal; Bastide e Costa relativizam",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (fim do séc. XIX)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 211",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 211",
+        "parafrase": "Bastide lembra que, na época de Nina Rodrigues, a identificação de Exu com o diabo levou esse autor a falar de um dualismo baiano entre Oxalá, princípio do bem, e Exu, princípio do mal, embora o próprio Nina o considerasse rudimentar; Bastide discute em seguida os limites dessa leitura.",
+        "nota": "Costa 1980 (PDF p. 2) resume o mesmo ponto em Nina Rodrigues (Os africanos no Brasil, p. 339).",
+        "registro": "oxala-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxalá tido como hermafrodita/andrógino (metade superior masculina, inferior feminina); Obatalá e Odudua trocam de sexo conforme a região",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Bahia; litoral iorubá e Ifé (segundo Frobenius e Dennet)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 97–98, 262, 290 e notas 1–2",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 97–98, 262, 290 e notas 1–2",
+        "parafrase": "Bastide registra que na Bahia Oxalá era pensado como ser de dois sexos, ideia que ele lê também num cântico citado por A. Ramos; na África, conforme a região, Obatalá aparece como homem e Odudua como mulher, ou o inverso. Para o autor, essas oscilações revelam uma concepção mais antiga de Oxalá andrógino.",
+        "nota": "Interpretação do autor apoiada em Frobenius, Dennet, Nina Rodrigues e A. Ramos.",
+        "registro": "oxala-010",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "no alto da hierarquia dos orixás, lugar que já tinha na África; abaixo do deus supremo Olorum",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "prandi-2001-exu-diabo",
+            "loc": "p. 51",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2001-exu-diabo",
+        "via_source_id": null,
+        "localizacao": "p. 51",
+        "parafrase": "Ao descrever o encaixe da religião dos orixás no esquema cristão, Prandi diz que Oxalá, criador da humanidade, continuou no alto da hierarquia, como já estava na África, enquanto o distante Olorum dos iorubás passou a corresponder ao Deus Pai.",
+        "nota": "Ver oxala-004 (Bastide: Oxalá como filho e substituto de Olorum).",
+        "registro": "oxala-003",
+        "status": "fichado"
+      },
+      {
+        "valor": "filho do grande deus Olorun; o maior dos orixás, que reina no céu e tomou o lugar de Olorun quando este se retirou; sucessor que mantém a ordem dos domínios repartidos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 115–116 (nota 73), 124, 243",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 115–116 (nota 73), 124, 243",
+        "parafrase": "Bastide apresenta Oxalá como filho de Olorun e o mais elevado dos orixás, senhor do céu, que assumiu o posto do deus supremo depois que este se afastou do mundo. Na sua leitura, Olorun repartiu o cosmos em domínios, cada orixá recebeu o seu, e cabe a Oxalá, herdeiro legítimo, conservar essa divisão.",
+        "nota": "Bastide remete a Parrinder, Frobenius, Nina Rodrigues (Animismo, p. 39) e A. Ramos para a substituição de Olorun por Oxalá. Na p. 192, Oxalá também é chamado 'divindade suprema'.",
+        "registro": "oxala-004",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "origem",
+      "elementos",
+      "saudacao",
+      "alimentos",
+      "animais",
+      "tabus",
+      "iconografia"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

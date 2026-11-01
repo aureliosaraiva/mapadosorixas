@@ -3,7 +3,7 @@
     "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
     "esquema": "schemas/entidade.schema.json",
     "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
-    "total": 24
+    "total": 40
   },
   "entidades": [
     {
@@ -17,6 +17,10 @@
         {
           "orixa": "iemanja",
           "aresta": "equivalencia:iemanja>inquice:dandalunda"
+        },
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:inquice:dandalunda>oxum"
         }
       ],
       "versoes": [
@@ -39,6 +43,64 @@
           "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
           "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
           "registro": "iemanja-042",
+          "status": "fichado"
+        },
+        {
+          "valor": "Dandalunda/Kissimbi, nkisi da água potável: sacerdotes em geral o ligam a Oxum; estudiosos, a Iemanjá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 43",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 43",
+          "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
+          "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
+          "registro": "oxum-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:kavungu",
+      "rotulo": "Kavungu / Kingongo / Insumbo",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:inquice:kavungu>omolu"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Kavungu (Kingongo, Insumbo/Nsumbo/Nsambo), nkisi protetor contra pestes e doenças, que atua também na sorte",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 42",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 42",
+          "parafrase": "Botão apresenta Kavungu, também chamado Kingongo ou Insumbo, como divindade das pestes e doenças, que também mexe com a sorte, associada ao Obaluaiê/Omulu do ketu; sugere que Ntoto, ligado à terra, talvez seja da mesma família.",
+          "nota": "Sobre Ntoto o autor diz não ter achado equivalente e fala em hipótese.",
+          "registro": "omolu-027",
           "status": "fichado"
         }
       ]
@@ -81,8 +143,140 @@
       ]
     },
     {
+      "id": "inquice:lemba",
+      "rotulo": "Lembá / Lembarenguenganga",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxala",
+          "aresta": "equivalencia:inquice:lemba>oxala"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Lembá (terreiros congo) e Lembarengangá (terreiros angola)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 201 e nota 106",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 106",
+          "parafrase": "Ao tratar da multiplicidade de nomes conforme a nação, Bastide dá como exemplo Oxalá, chamado Lembá nos terreiros congo e Lembarengangá nos de angola.",
+          "nota": "Bastide cita R. Guimarães, 'Notas sôbre o culto de Oxalá' (1936).",
+          "registro": "oxala-033",
+          "status": "fichado"
+        },
+        {
+          "valor": "Lembá ou Lembarenguenganga, nkisi feminino da fecundidade e patrono do casamento, que se assemelha a Oxalá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 44",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 44",
+          "parafrase": "Botão descreve Lembá, talvez a divindade mais importante do panteão banto no Brasil, ligada à fecundidade e protetora do casamento; é feminina e, segundo ele, parecida com Oxalá.",
+          "nota": "Diverge de oxala-010 quanto ao sexo (ali, Oxalá andrógino).",
+          "registro": "oxala-034",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:matamba",
+      "rotulo": "Matamba",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iansa",
+          "aresta": "equivalencia:iansa>inquice:matamba"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Matamba, nkisi guerreiro dos raios, ventos e tempestades, mãe dos mortos e senhora do cemitério; Bamburucema pode ser uma qualidade sua",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 43 e nota 27",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 43 e nota 27",
+          "parafrase": "Botão descreve Matamba como nkisi do fogo, rainha dos raios e dos vendavais, guia dos espíritos e dona do cemitério, associado à Iansã do ketu; Bamburucema, ligada às chuvas, seria uma qualidade dela, e Kaiango é da mesma família.",
+          "nota": "Botão anota que Bastide (1973) associa Kaiango a Iansã.",
+          "registro": "iansa-020",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:nzumba",
+      "rotulo": "Nzumba / Zumbarandá",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "nana",
+          "aresta": "equivalencia:inquice:nzumba>nana"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Nzumba (Zumbarandá, Ngangazumba), nkisi do eclipse e das águas turvas dos pântanos",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 44",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 44",
+          "parafrase": "Botão apresenta Nzumba, também chamada Zumbarandá ou Ngangazumba, como divindade que atua no eclipse e nas águas paradas dos pântanos, associada a Nanã Buruku.",
+          "nota": null,
+          "registro": "nana-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "inquice:quissimbe",
-      "rotulo": "Quissimbe",
+      "rotulo": "Quissimbe / Kissimbi",
       "tipo": "inquice",
       "tradicoes": [
         "candomble_angola"
@@ -91,6 +285,10 @@
         {
           "orixa": "iemanja",
           "aresta": "equivalencia:iemanja>inquice:quissimbe"
+        },
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:inquice:quissimbe>oxum"
         }
       ],
       "versoes": [
@@ -113,6 +311,85 @@
           "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
           "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
           "registro": "iemanja-042",
+          "status": "fichado"
+        },
+        {
+          "valor": "Aziri (candomblés de origem daomeana) e Kissimbi (bantos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 201 e nota 107",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 107",
+          "parafrase": "Entre os exemplos de nomes que mudam de nação para nação, Bastide diz que Oxum é Aziri nos candomblés de origem daomeana e Kissimbi nos bantos.",
+          "nota": "Bastide remete a Verger, Orixás, p. 16.",
+          "registro": "oxum-020",
+          "status": "fichado"
+        },
+        {
+          "valor": "Dandalunda/Kissimbi, nkisi da água potável: sacerdotes em geral o ligam a Oxum; estudiosos, a Iemanjá",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 43",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 43",
+          "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
+          "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
+          "registro": "oxum-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "nome:aziri",
+      "rotulo": "Aziri",
+      "tipo": "nome_fon_ou_banto",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:nome:aziri>oxum"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Aziri (candomblés de origem daomeana) e Kissimbi (bantos)",
+          "tradicoes": [
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 201 e nota 107",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 201 e nota 107",
+          "parafrase": "Entre os exemplos de nomes que mudam de nação para nação, Bastide diz que Oxum é Aziri nos candomblés de origem daomeana e Kissimbi nos bantos.",
+          "nota": "Bastide remete a Verger, Orixás, p. 16.",
+          "registro": "oxum-020",
           "status": "fichado"
         }
       ]
@@ -449,6 +726,43 @@
       ]
     },
     {
+      "id": "vodum:acossi",
+      "rotulo": "Acóssi / Acóssi Sapatá",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:acossi"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:ague",
       "rotulo": "Agüê",
       "tipo": "vodum",
@@ -555,6 +869,80 @@
           "parafrase": "No mesmo quadro, os voduns Agüê e Azacá, da família de Savaluno, aparecem com Oxóssi como orixá correspondente.",
           "nota": "Na Casa das Minas, Zacá (Azacá) é descrito como vodum caçador, na síntese de S. Ferretti (p. 6). Correspondência estabelecida na casa paulista; não é identidade.",
           "registro": "oxossi-033",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:azile",
+      "rotulo": "Azile",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:azile"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:azonce",
+      "rotulo": "Azonce",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:azonce"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
           "status": "fichado"
         }
       ]
@@ -922,6 +1310,82 @@
       ]
     },
     {
+      "id": "vodum:lepom",
+      "rotulo": "Lepom",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:lepom"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:lissa",
+      "rotulo": "Lissá",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_ketu",
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxala",
+          "aresta": "equivalencia:oxala>vodum:lissa"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Rei dos Mestres, nome das entidades africanas Tó-Alapong e Tó-Alaby (talvez Oxalufã e Oxaguiã), é o mesmo Oxalá e o mesmo vodum Lissá",
+          "tradicoes": [
+            "tambor_de_mina",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa Fanti-Ashanti (Pai Euclides) e antigo terreiro do Egito",
+          "sources": [
+            {
+              "id": "ferretti-m-2020-pureza",
+              "loc": "p. 81",
+              "via": null
+            }
+          ],
+          "source_id": "ferretti-m-2020-pureza",
+          "via_source_id": null,
+          "localizacao": "p. 81",
+          "parafrase": "M. Ferretti relata que Pai Euclides começou, no terreiro do Egito, a receber Rei dos Mestres, como ali eram chamadas Tó-Alapong e Tó-Alaby; para ele, trata-se de Oxalá, que mais tarde ele também recebeu no candomblé, e do vodum Lissá da Casa das Minas.",
+          "nota": "A identificação com Oxalufã e Oxaguiã vem com ponto de interrogação no texto da autora.",
+          "registro": "oxala-037",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:nae",
       "rotulo": "Naê",
       "tipo": "vodum",
@@ -959,19 +1423,216 @@
       ]
     },
     {
+      "id": "vodum:naveorualim",
+      "rotulo": "Naveorualim",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:oxum>vodum:naveorualim"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Naveorualim (família de Dambirá) e Navezuarina (família de Quevioçô) correspondem a Oxum",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No terreiro de Pai Francelino, Naveorualim, vodum jeje, e Navezuarina, nagô, têm Oxum como orixá correspondente; somados ao assentamento da própria orixá, chegam a 37 casos, o maior total do quadro de frequências.",
+          "nota": "Prandi (p. 14) liga a frequência dos voduns à popularidade dos orixás correspondentes.",
+          "registro": "oxum-019",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:navezuarina",
+      "rotulo": "Navezuarina",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:oxum>vodum:navezuarina"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Naveorualim (família de Dambirá) e Navezuarina (família de Quevioçô) correspondem a Oxum",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No terreiro de Pai Francelino, Naveorualim, vodum jeje, e Navezuarina, nagô, têm Oxum como orixá correspondente; somados ao assentamento da própria orixá, chegam a 37 casos, o maior total do quadro de frequências.",
+          "nota": "Prandi (p. 14) liga a frequência dos voduns à popularidade dos orixás correspondentes.",
+          "registro": "oxum-019",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:polibogi",
+      "rotulo": "Polibogi",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:polibogi"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:sakpata",
+      "rotulo": "Sakpata",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_ketu",
+        "vodun_benim"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:sakpata"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Sakpata (Daomé), conhecido no Brasil como Xapanã",
+          "tradicoes": [
+            "candomble_ketu",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Bahia; Daomé",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 121 e nota 85",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 121 e nota 85",
+          "parafrase": "Bastide escreve Sakpata-Omolu ao discutir a natureza do deus e explica que o nome daomeano Sakpatan aparece no Brasil na forma Xapanã.",
+          "nota": null,
+          "registro": "omolu-026",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:sobo",
       "rotulo": "Sobo",
       "tipo": "vodum",
       "tradicoes": [
-        "candomble_jeje"
+        "candomble_jeje",
+        "tambor_de_mina"
       ],
       "equivale_a": [
+        {
+          "orixa": "iansa",
+          "aresta": "equivalencia:iansa>vodum:sobo"
+        },
         {
           "orixa": "xango",
           "aresta": "equivalencia:vodum:sobo>xango"
         }
       ],
       "versoes": [
+        {
+          "valor": "Sobô (vodum do raio e do trovão, família de Quevioçô) corresponde a Oiá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 7, 14, 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 7, 14, 25–26 (Quadros 1 e 2)",
+          "parafrase": "Na casa de Pai Francelino, o vodum Sobô tem Oiá como orixá correspondente; somando Sobô e Oiá, o quadro de frequências registra 28 assentamentos para Oiá-Iansã. Na descrição da Casa das Minas, Nochê Sobô é a mãe dos voduns de Quevioçô e está ligada ao raio e ao trovão.",
+          "nota": "Ver xango-048 (Sobô como vodum correspondente a Xangô em outra leitura).",
+          "registro": "iansa-018",
+          "status": "fichado"
+        },
+        {
+          "valor": "Sobô, chamada também Iansã ou Oyá",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Ilê Axé Ogum Sobô (Pai Airton)",
+          "sources": [
+            {
+              "id": "ferretti-2011-comida",
+              "loc": "p. 259",
+              "via": null
+            }
+          ],
+          "source_id": "ferretti-2011-comida",
+          "via_source_id": null,
+          "localizacao": "p. 259",
+          "parafrase": "Na lista de comidas do terreiro de Pai Airton, Ferretti identifica Sobô com Iansã ou Oyá ao descrever o prato que as filhas desse vodum preparam para a festa.",
+          "nota": "O prato não é detalhado aqui (alimentos retidos).",
+          "registro": "iansa-019",
+          "status": "fichado"
+        },
         {
           "valor": "Sobo (vodum maior do Seja Hundê)",
           "tradicoes": [
@@ -1065,6 +1726,80 @@
           "parafrase": "Pelo quadro da casa de Pai Francelino, Badé e Boço Vondereji têm Xangô como orixá correspondente, Averequete corresponde a Xangô Aganju e Xadantã a Xangô Airá.",
           "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
           "registro": "xango-050",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:xapana",
+      "rotulo": "Xapanã",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:xapana"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:zomadonu",
+      "rotulo": "Zomadônu",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:omolu>vodum:zomadonu"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu (jeje) e Xapanã (nagô) correspondem a Omulu-Obaluaê; santos dos voduns: São Sebastião (Azonce, Xapanã), São Lázaro (Acóssi), São Roque (Azile, Lepom), São Manoel (Polibogi), Santos Reis (Zomadônu)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+          "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
+          "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
+          "registro": "omolu-024",
           "status": "fichado"
         }
       ]

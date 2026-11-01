@@ -1,0 +1,693 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/oxum.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 30,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "oxum",
+  "rotulo": "Oxum",
+  "atributos": {
+    "dominios": [
+      {
+        "valor": "amor e sensualidade; divindade vaidosa; mulheres estéreis lhe pedem filhos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 53, 92, 191, 199, 248",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 53, 92, 191, 199, 248",
+        "parafrase": "Para Bastide, Oxum rege o amor voluptuoso e é procurada por mulheres que não conseguem ter filhos, embora ele não tenha encontrado sinal de que atue no parto propriamente dito. No quadro de correspondências seu aspecto social é o amor; na classificação dos perfumes, é a divindade da sensualidade, e, como Iemanjá, gosta de presentes de vaidade.",
+        "nota": "Na p. 53 Bastide levanta, como simples hipótese, uma ligação de Oxum com a iniciação; não registrada (fundamento).",
+        "registro": "oxum-005",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "a apetebi do babalaô é filha de Oxum, e só da mais velha, Yabá Omi; filhas de Oxum podem tirar a sorte com búzios",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 141–145, 202",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 141–145, 202",
+        "parafrase": "Bastide explica que todo babalaô tem ao lado uma sacerdotisa, a apetebi, que precisa ser filha de Yabá Omi, e que, por essa filiação, filhas de Oxum podem consultar os búzios dentro dos terreiros.",
+        "nota": "Mito correspondente em oxum-026.",
+        "registro": "oxum-023",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "água doce (Iemanjá: água salgada)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 92, 102, 124, 199",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 92, 102, 124, 199",
+        "parafrase": "Bastide caracteriza Oxum como deusa da água doce, par de Iemanjá, deusa do mar; na dança, ela imita o murmúrio dos riachos.",
+        "nota": null,
+        "registro": "oxum-004",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "contas amarelas (colar); cor de ouro",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 32, 199",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 32, 199",
+        "parafrase": "O colar dos filhos de Oxum tem contas amarelas, e o quadro de correspondências dá a cor de ouro como a sua.",
+        "nota": null,
+        "registro": "oxum-006",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "sábado (com Iemanjá)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 120, 124",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 120, 124",
+        "parafrase": "Na semana baiana descrita por Bastide, o sábado é o dia da água em dupla forma: a salgada de Iemanjá e a doce de Oxum, que a gente da Bahia costuma cultuar juntas.",
+        "nota": null,
+        "registro": "oxum-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "sábado (com Iemanjá)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 128",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 128",
+        "parafrase": "No Opô Afonjá, Iemanjá e Oxum dividem o sábado.",
+        "nota": null,
+        "registro": "oxum-002",
+        "status": "fichado"
+      },
+      {
+        "valor": "sábado",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (informação pessoal a Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 119, nota 79",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 119, nota 79",
+        "parafrase": "Na semana de Porto Alegre comparada por Bastide, o sábado fica com Oxum, sem Iemanjá, que divide a sexta com Odé.",
+        "nota": null,
+        "registro": "oxum-003",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "abebé (leque)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 28, 160",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 28, 160",
+        "parafrase": "O abebé é o leque posto nas mãos de Oxum quando ela se manifesta; Bastide corrige um autor que o confundiu com a faca de Ossaim e diz que é com o leque que as divindades da água se divertem.",
+        "nota": "A Oxum Abalo, 'a vaidosa', brinca com o leque (p. 205).",
+        "registro": "oxum-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "otá: seixo liso tirado do leito de um rio",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 90, nota 28",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 90, nota 28",
+        "parafrase": "Na nota sobre as pedras sagradas, Bastide descreve a de Oxum como uma pedra lisa tirada do leito de um rio.",
+        "nota": null,
+        "registro": "oxum-008",
+        "status": "fichado"
+      },
+      {
+        "valor": "plantas: alfavaquinha, folha-da-costa e orepepê nos banhos dos filhos de Oxum; mal-me-quer (Recife)",
+        "tradicoes": [
+          "candomble_ketu",
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Bahia; mal-me-quer no Recife",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 162–166",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 162–166",
+        "parafrase": "A lista de ervas de Bastide atribui a Oxum alfavaquinha, folha-da-costa e orepepê, usadas nos banhos de seus filhos, e o mal-me-quer, consagrado a ela no Recife; e o autor lembra que, em Cuba, a quantidade de ervas muda conforme o orixá.",
+        "nota": "Para a folha-da-costa e a alfavaquinha, outros informantes indicavam Oxóssi.",
+        "registro": "oxum-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "folha de pitanga, estimada para atrair riqueza",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA)",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "p. 10",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "p. 10",
+        "parafrase": "Ao comentar a decoração da festa de Ogum no Candeal, Castillo observa que a folha de pitanga também é usada no candomblé, mas ligada a Oxum, por ajudar a trazer prosperidade.",
+        "nota": null,
+        "registro": "oxum-010",
+        "status": "fichado"
+      }
+    ],
+    "qualidades": [
+      {
+        "valor": "dezesseis Oxuns, entre elas Pandá (a mais jovem), Yabá Omi, Abaé, Abote (ligada ao odu Ose), Apará (das estradas, com Ogum), Ioni, Abalo (a vaidosa do leque), Timi, Aquidã, Nínsin e Lobá (a mais velha)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 200, 205–206",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 200, 205–206",
+        "parafrase": "Bastide relata que lhe falaram em dezesseis Oxuns e lista nomes obtidos de vários informantes, do mais novo ao mais velho, com traços de algumas delas, como a que acompanha Ogum pelas estradas e duela com ele, ou a vaidosa que brinca com o leque.",
+        "nota": "Na p. 142 Bastide dá Yabá Omi como a Oxum mais idosa; na lista da p. 205 a mais velha é Lobá. Registrado como está.",
+        "registro": "oxum-022",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "esposa de Xangô, a preferida ou 'concubina', diante de Iansã, a principal; antes casada com Ogum, segundo um mito",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 122, 206, 239, 249, 253",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 122, 206, 239, 249, 253",
+        "parafrase": "Nos mitos que Bastide reúne, Oxum é uma das três mulheres de Xangô, a favorita, mas abaixo de Iansã na ordem das esposas; um mito a apresenta antes casada com Ogum, quando Xangô se apaixona por ela.",
+        "nota": "Ver xango-014.",
+        "registro": "oxum-024",
+        "status": "fichado"
+      },
+      {
+        "valor": "casada com Oxóssi, segundo alguns sacerdotes",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 295",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 295",
+        "parafrase": "Bastide anota que os sacerdotes não concordam sobre os casamentos dos orixás: alguns casam Oxóssi com Oxum, outros consideram Oxóssi solteiro.",
+        "nota": null,
+        "registro": "oxum-025",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "Naveorualim (família de Dambirá) e Navezuarina (família de Quevioçô) correspondem a Oxum",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+        "parafrase": "No terreiro de Pai Francelino, Naveorualim, vodum jeje, e Navezuarina, nagô, têm Oxum como orixá correspondente; somados ao assentamento da própria orixá, chegam a 37 casos, o maior total do quadro de frequências.",
+        "nota": "Prandi (p. 14) liga a frequência dos voduns à popularidade dos orixás correspondentes.",
+        "registro": "oxum-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "Aziri (candomblés de origem daomeana) e Kissimbi (bantos)",
+        "tradicoes": [
+          "candomble_jeje",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 201 e nota 107",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 201 e nota 107",
+        "parafrase": "Entre os exemplos de nomes que mudam de nação para nação, Bastide diz que Oxum é Aziri nos candomblés de origem daomeana e Kissimbi nos bantos.",
+        "nota": "Bastide remete a Verger, Orixás, p. 16.",
+        "registro": "oxum-020",
+        "status": "fichado"
+      },
+      {
+        "valor": "Dandalunda/Kissimbi, nkisi da água potável: sacerdotes em geral o ligam a Oxum; estudiosos, a Iemanjá",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "p. 43",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "p. 43",
+        "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
+        "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
+        "registro": "oxum-021",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "Maria Madalena (22 de abril)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife: Centro Africano S. Jorge (calendário segundo P. Cavalcanti)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 105, nota 54",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 105, nota 54",
+        "parafrase": "No calendário do Centro Africano S. Jorge, que Bastide transcreve, o dia 22 de abril junta Oxum e Maria Madalena.",
+        "nota": "Bastide cita P. Cavalcanti, 'As seitas africanas no Recife'. O Centro é do Recife, não da Bahia (cf. iemanja-013, ogum-014).",
+        "registro": "oxum-016",
+        "status": "fichado"
+      },
+      {
+        "valor": "Purificação (2 de fevereiro, com Iemanjá) e Imaculada Conceição (8 de dezembro, Oxum ou Iemanjá), no calendário de festas",
+        "tradicoes": [
+          "xango_pernambuco",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 104",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 104",
+        "parafrase": "Na tabela do calendário católico africanizado, a Purificação traz a festa de Oxum e Iemanjá, e o dia da Imaculada Conceição a de Oxum ou de Iemanjá; Bastide diz que a tabela se aplica mais a Pernambuco e aos candomblés bantos baianos.",
+        "nota": "Correspondência pela data da festa. A fonte não nomeia a invocação de Nossa Senhora da Purificação.",
+        "registro": "oxum-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "Nossa Senhora da Glória (Oxum); Naveorualim também com N. S. da Glória e Navezuarina com Santa Luzia",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 25 (Quadro 1)",
+        "parafrase": "No quadro da casa paulista, a orixá Oxum aparece ligada a Nossa Senhora da Glória; dos voduns que lhe correspondem, Naveorualim também tem N. S. da Glória e Navezuarina tem Santa Luzia.",
+        "nota": null,
+        "registro": "oxum-018",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "Ifá ensina Oxum, sua apetebi, a consultar a sorte com dezesseis coquinhos; Elegba aceita responder por eles a contragosto e persegue os filhos de Oxum",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 141–142",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 141–142",
+        "parafrase": "Num mito recolhido na Bahia, Ifá, pescador pobre, serve Elegba por dezesseis anos e aprende com ele a adivinhar com coquinhos de dendê. Com a casa cheia de consulentes, toma Oxum como ajudante; ela reclama que não sabe ler o futuro, e Ifá prepara dezesseis coquinhos e pede a Elegba que responda por eles às perguntas dela. Elegba concorda de má vontade e, em troca, persegue mais os filhos de Oxum.",
+        "nota": "Bastide dá uma variante cubana (L. Cabrera) em que Oxum obtém de Elegba cinco búzios em troca de ouro.",
+        "registro": "oxum-026",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxum Ioni: rainha invadida que foge de jangada e vence os invasores com abarás cheios de força divina",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 202",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 202",
+        "parafrase": "Uma das Oxuns tem mito próprio: rainha de terra rica, é atacada pelos Ioni, perde a capital e escapa à noite numa jangada. Inspirada por uma prece, manda deixar abarás na praia; os invasores famintos os comem e morrem pela força sagrada do alimento, e ela recupera o reino, passando a se chamar Oxum Ioni.",
+        "nota": "Bastide usa o mito para defender que cada 'subdivindade' tem função distinta.",
+        "registro": "oxum-027",
+        "status": "fichado"
+      },
+      {
+        "valor": "Obá, enganada por Oxum, corta a orelha para pôr no prato de Xangô",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 249–250",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 249–250",
+        "parafrase": "Obá, esquecida por Xangô, pergunta a Oxum, a preferida, qual o seu segredo; Oxum, de turbante, diz ter cozinhado a própria orelha no caruru do marido. Obá corta a sua e a serve a Xangô, que se enfurece. Bastide conta que, quando Obá se manifesta na Bahia, cobre a orelha esquerda e briga com as filhas de Oxum em transe.",
+        "nota": "Bastide usa o mito para mostrar a dança como encenação de mitos.",
+        "registro": "oxum-028",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ogum, por ciúme, lança Oxum num rio; Xangô a salva e a leva; Ogum a recupera presenteando Xangô com quiabos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (versão citada de O. Alvarenga)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 200, nota 104",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 200, nota 104",
+        "parafrase": "Na versão que Bastide transcreve de Oneyda Alvarenga, Ogum, enciumado, joga Oxum na água ao atravessarem um rio; Xangô a puxa pelos cabelos e a leva para seu palácio. Ogum, ao vê-la viva, troca presentes com Xangô e lhe manda quiabos, com os quais Xangô se distrai e esquece Oxum, que Ogum leva de volta; daí o quiabo nas comidas de Xangô.",
+        "nota": "Bastide também cita a disputa entre Oxum e Iansã pelo marido comum (p. 115) e um mito em que a união de Oxum e Xangô gera a chuva (p. 240).",
+        "registro": "oxum-029",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "festa da Purificação (2 de fevereiro), dedicada a Oxum e também presente de Iemanjá; oferendas lançadas nas águas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé derivado do 'Língua de Vaca' (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 92–93, 124",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 92–93, 124",
+        "parafrase": "Bastide registra que, num candomblé derivado do Língua de Vaca, a festa da Purificação é consagrada a Oxum e coincide com o presente de Iemanjá; durante a oferenda à deusa do mar ouviu um cântico para Oxum. Os cultos das duas pedem presentes jogados da margem ou de barco.",
+        "nota": "Ver iemanja-011.",
+        "registro": "oxum-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "22 de março (nascimento de Oxum) e 8 de dezembro (festa de Oxum)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife: Centro Africano S. Sebastião (calendário segundo P. Cavalcanti)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 105, nota 54",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 105, nota 54",
+        "parafrase": "No calendário de um centro africano do Recife transcrito por Bastide, Oxum tem duas datas: o seu nascimento, em 22 de março, e a sua festa, em 8 de dezembro.",
+        "nota": null,
+        "registro": "oxum-015",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "casa de Oxum no terreiro junto à fonte, como em Oshogbo o templo fica ao lado do rio",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 82",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 82",
+        "parafrase": "Bastide observa que, no espaço do terreiro, a casa de Oxum fica perto da bica ou fonte sagrada, reproduzindo a vizinhança entre o templo da deusa e o rio de mesmo nome em Oshogbo.",
+        "nota": "Na p. 85 (nota 18), Bastide conta 4 casas de Oxum entre 86 santuários baianos.",
+        "registro": "oxum-013",
+        "status": "fichado"
+      }
+    ],
+    "iconografia": [
+      {
+        "valor": "na possessão, rosto e dança de volúpia sensual",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 30, 182, 248",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 30, 182, 248",
+        "parafrase": "Bastide descreve Oxum dançando como pura volúpia; no transe, o rosto da filha de santo assume traços sensuais, e embora Oxum e Iemanjá façam gestos parecidos, como pentear-se e olhar-se no espelho, o caráter de cada uma se distingue.",
+        "nota": null,
+        "registro": "oxum-030",
+        "status": "fichado"
+      }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "Iemanjá e Oxum, divindades 'úmidas', regem o ventre; Oxum governa as ervas antissépticas e anti-inflamatórias",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 193",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 193",
+        "parafrase": "Na leitura de Bastide sobre a medicina das folhas, as duas deusas das águas mandam no ventre, Oxum sobretudo no baixo-ventre; podem castigar com cólicas e, pela mesma lógica, cabem a elas, principalmente a Oxum, plantas que desinfetam e desinflamam.",
+        "nota": null,
+        "registro": "oxum-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "traços africanos das Grandes Mães, inclusive Oxum, foram atenuados no culto brasileiro e passaram à imagem de Pombagira",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "augras-1989-yiami",
+            "loc": "p. 51 (Augras 1989)",
+            "via": "prandi-2001-exu-diabo"
+          }
+        ],
+        "source_id": "augras-1989-yiami",
+        "via_source_id": "prandi-2001-exu-diabo",
+        "localizacao": "p. 51 (Augras 1989)",
+        "parafrase": "Prandi retoma Monique Augras para dizer que, no encaixe cristão, muitas características das Grandes Mães africanas, entre elas Iemanjá e Oxum, foram suavizadas ou apagadas e migraram para a figura de Pombagira.",
+        "nota": null,
+        "registro": "oxum-012",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "nomes",
+      "origem",
+      "saudacao",
+      "alimentos",
+      "animais",
+      "tabus",
+      "hierarquia"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

@@ -104,7 +104,7 @@
       },
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -122,7 +122,7 @@
       },
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -137,7 +137,7 @@
       "grupo": null,
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": "Omolu e Obaluaê ficam provisoriamente num só identificador, como no pedido de escopo; se as tradições os tratam como a mesma divindade, como aspectos ou como qualidades será registrado no fichamento, com fonte."
     },
     {
@@ -155,7 +155,7 @@
       },
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -248,7 +248,7 @@
       },
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {

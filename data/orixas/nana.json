@@ -1,0 +1,523 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/nana.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 22,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "nana",
+  "rotulo": "Nanã",
+  "atributos": {
+    "nomes": [
+      {
+        "valor": "Nanan, Ananburucú ou Nananburucú, Anamburucú, Nanan Buruku",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 120–121, 127",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 120–121, 127",
+        "parafrase": "Bastide registra várias formas do nome: Ananburucú ou Nananburucú, a forma curta e carinhosa Nanan e, no Opô Afonjá, Nanan Buruku.",
+        "nota": null,
+        "registro": "nana-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "formas do nome na Casa das Minas: Biocã, Burucu, Borocô e Borotoi, sempre precedidas de Nanã",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+        "sources": [
+          {
+            "id": "ferretti-1985-querebenta",
+            "loc": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+            "via": "prandi-2005-pegadas-voduns"
+          }
+        ],
+        "source_id": "ferretti-1985-querebenta",
+        "via_source_id": "prandi-2005-pegadas-voduns",
+        "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+        "parafrase": "Para a Casa das Minas, Prandi, apoiado em S. Ferretti, dá quatro variantes do nome da vodum: Biocã, Burucu, Borocô e Borotoi.",
+        "nota": "No calendário da casa paulista (p. 15) aparecem ainda Nanã Biocô, Nanã Bulucu e Nanã Bassarodim.",
+        "registro": "nana-002",
+        "status": "fichado"
+      },
+      {
+        "valor": "Anamburocú é o nome nagô de Sant'Ana; em daomeano, Tobossi (segundo Manuel Querino)",
+        "tradicoes": [
+          "candomble_ketu",
+          "candomble_jeje"
+        ],
+        "casa_ou_regiao": "Bahia (Manuel Querino, citado por Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 273, nota 55",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 273, nota 55",
+        "parafrase": "Bastide cita uma frase de Manuel Querino segundo a qual Sant'Ana se diz Anamburocú em nagô e Tobossi em daomeano, como indício de que as tobossis não eram desconhecidas nas casas daomeanas baianas.",
+        "nota": "Querino não está no catálogo; afirmação de 2ª mão.",
+        "registro": "nana-003",
+        "status": "fichado"
+      }
+    ],
+    "origem": [
+      {
+        "valor": "divindade daomeana já incorporada ao panteão iorubá na África, como Oxumarê",
+        "tradicoes": [
+          "candomble_ketu",
+          "vodun_benim"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 122",
+        "parafrase": "Segundo Bastide, Nanã e Oxumarê vêm da região que os baianos chamam de jeje: são divindades do Daomé que entraram no panteão iorubá ainda na África.",
+        "nota": null,
+        "registro": "nana-008",
+        "status": "fichado"
+      },
+      {
+        "valor": "entre os voduns de Quevioçô, só ela tem culto nos candomblés de orixá; entrou no panteão iorubá ainda na África, com os filhos Omulu e Oxumarê",
+        "tradicoes": [
+          "tambor_de_mina",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+        "sources": [
+          {
+            "id": "ferretti-1985-querebenta",
+            "loc": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+            "via": "prandi-2005-pegadas-voduns"
+          }
+        ],
+        "source_id": "ferretti-1985-querebenta",
+        "via_source_id": "prandi-2005-pegadas-voduns",
+        "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+        "parafrase": "Prandi observa que, dos voduns tidos como nagôs na Casa das Minas, só Nanã tem culto nos candomblés de orixá, por ter sido absorvida pelo panteão iorubá ainda na África, o mesmo valendo para Omulu e Oxumarê, filhos dela.",
+        "nota": "Converge com nana-008 (Bastide).",
+        "registro": "nana-009",
+        "status": "fichado"
+      }
+    ],
+    "dominios": [
+      {
+        "valor": "ligada à morte pela idade avançada; recebe cânticos nos ritos fúnebres (Amazônia, Recife)",
+        "tradicoes": [
+          "candomble_ketu",
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Bahia; Recife; Amazônia",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 164–165, nota 52; p. 178",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 164–165, nota 52; p. 178",
+        "parafrase": "Bastide explica a consagração do cipreste a Nanã pela relação que a idade muito avançada lhe dá com a morte, e registra cânticos para ela em cerimônias fúnebres no Recife e entre negros da Amazônia; insiste, porém, que o chachará que ela embala não é símbolo dos mortos.",
+        "nota": "Ver nana-016 sobre o chachará.",
+        "registro": "nana-013",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "violeta (prato da comunhão)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 32",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 32",
+        "parafrase": "No repasto de comunhão do fim da festa, os pratos têm a cor do orixá, e o de Nanã é violeta.",
+        "nota": null,
+        "registro": "nana-014",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "terça-feira (com Oxumarê)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — ordem geral do xiré nos candomblés",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 120–122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 120–122",
+        "parafrase": "Na semana baiana, a terça-feira cabe a Nanã e a Oxumarê; Bastide propõe duas leituras: dia dos intercessores, já que a avó atende os netos e o arco-íris leva as preces ao céu, ou homenagem nagô ao país jeje, de onde as duas divindades vieram.",
+        "nota": null,
+        "registro": "nana-004",
+        "status": "fichado"
+      },
+      {
+        "valor": "terça-feira (com Ogum e Oxumarê)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Ilê Axé Opô Afonjá (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 127",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 127",
+        "parafrase": "No Opô Afonjá, Ogum ocupa a terça, ao lado de Nanã Buruku e de Oxumarê.",
+        "nota": "Mesmo dia de nana-004; muda o companheiro: aqui também Ogum, que na ordem geral fica na quinta (ogum-009, ogum-010).",
+        "registro": "nana-005",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "plantas: cipreste (Bahia); gameleira e manacá (Recife)",
+        "tradicoes": [
+          "candomble_ketu",
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Bahia; Recife",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 164–165",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 164–165",
+        "parafrase": "Na lista de ervas, o cipreste é consagrado a Nanã; no Recife, a gameleira, árvore adorada como Iroko, e o manacá também lhe são relacionados.",
+        "nota": null,
+        "registro": "nana-015",
+        "status": "fichado"
+      },
+      {
+        "valor": "chachará: feixe de varetas, insígnia de Nanã e de Omolu; Nanã o embala como o filho recém-nascido",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 178–179",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 178–179",
+        "parafrase": "Bastide descreve o chachará, feito de varetas amarradas, como insígnia de Nanã Buruku e de Omolu. Quando Nanã dança, segura-o nos braços e o nina com mãos trêmulas de velha: ali o objeto representa o pequeno Babaluaiê. O autor recusa aproximá-lo do ixã do culto dos mortos, apesar da forma parecida.",
+        "nota": "Bastide remete a F. Ortiz e O. Alvarenga.",
+        "registro": "nana-016",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "mãe de Omolu",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 125, 178",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 125, 178",
+        "parafrase": "Bastide nota que Nanã, mãe de Omolu, vem depois do filho na semana, prova de que a ordem dos dias não segue a genealogia; na dança, ela embala o chachará como se fosse o pequeno Babaluaiê.",
+        "nota": "Na p. 82, Bastide chama Buku de mãe de Omolu ao comparar templos nigerianos.",
+        "registro": "nana-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "esposa de Oxalá, com quem teve Omolu, Lôko e Oxumarê",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 295",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 295",
+        "parafrase": "Na versão baiana das famílias divinas, Oxalá tem duas esposas, e Nanã Buruku é a que lhe deu Omolu, Lôko e Oxumarê.",
+        "nota": "Lôko não foi identificado com Iroko sem fonte.",
+        "registro": "nana-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "mãe de Abaluaiê; deusa da água ligada à morte",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (R. Ribeiro, citado por Bastide)",
+        "sources": [
+          {
+            "id": "ribeiro-1952-recife",
+            "loc": "Bastide, ed. pt 1961, p. 164, nota 52 (Ribeiro, p. 47)",
+            "via": "bastide-1958-candomble"
+          }
+        ],
+        "source_id": "ribeiro-1952-recife",
+        "via_source_id": "bastide-1958-candomble",
+        "localizacao": "Bastide, ed. pt 1961, p. 164, nota 52 (Ribeiro, p. 47)",
+        "parafrase": "Bastide cita René Ribeiro: no Recife, Nanã, mãe de Abaluaiê, é divindade das águas que se liga à morte, e come o mesmo que a terra.",
+        "nota": "Na ordem dos cânticos do terreiro de Pai Adão (Recife), Nanã-Buruku vem logo após Obaluaiê e é chamada mãe dele (Bastide, p. 280, citando Gonçalves Fernandes).",
+        "registro": "nana-012",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "Nzumba (Zumbarandá, Ngangazumba), nkisi do eclipse e das águas turvas dos pântanos",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "p. 44",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "p. 44",
+        "parafrase": "Botão apresenta Nzumba, também chamada Zumbarandá ou Ngangazumba, como divindade que atua no eclipse e nas águas paradas dos pântanos, associada a Nanã Buruku.",
+        "nota": null,
+        "registro": "nana-022",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "Sant'Ana (26 de julho)",
+        "tradicoes": [
+          "xango_pernambuco",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Recife e candomblés bantos da Bahia",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 104; p. 105, nota 54",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 104; p. 105, nota 54",
+        "parafrase": "No calendário católico africanizado de Bastide, a festa de Nanã cai no dia de Sant'Ana; no Centro Africano S. Jorge do Recife, a data de Nanã também é a de Sant'Ana.",
+        "nota": "No Centro S. Jorge a data aparece como 29 de julho (p. 105, nota 54).",
+        "registro": "nana-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "Senhora Santana",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 25 (Quadro 1)",
+        "parafrase": "No quadro da casa paulista, Nanã, vodum jeje-nagô da família de Quevioçô cuja orixá correspondente é a própria Nanã, é sincretizada com Senhora Santana.",
+        "nota": null,
+        "registro": "nana-018",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "24 de maio (Santa Rita): Nanã Biocô; 26 de julho (Santana): Vó Missã e Nanã Bulucu; 30 de agosto (Santa Rosa): Nanã Bassarodim",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 15",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 15",
+        "parafrase": "O calendário da casa de Pai Francelino reserva três datas a diferentes Nanãs: Nanã Biocô em 24 de maio, Nanã Bulucu com Vó Missã no dia de Santana e Nanã Bassarodim em 30 de agosto.",
+        "nota": null,
+        "registro": "nana-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "tambor para Nanã no dia de Senhora Sant'Ana",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Luís (MA): Ilê Axé Ogum Sobô (Pai Airton)",
+        "sources": [
+          {
+            "id": "ferretti-2011-comida",
+            "loc": "p. 259",
+            "via": null
+          }
+        ],
+        "source_id": "ferretti-2011-comida",
+        "via_source_id": null,
+        "localizacao": "p. 259",
+        "parafrase": "Ferretti registra que, no terreiro de Pai Airton, há um tambor para Nanã no dia de Sant'Ana, com um prato servido no quarto dos santos.",
+        "nota": "O prato não é detalhado aqui (alimentos retidos).",
+        "registro": "nana-020",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "Nanã é ao mesmo tempo vodum (jeje-nagô, família de Quevioçô) e orixá correspondente; 2 assentamentos",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Diadema (SP): Casa das Minas de Tóia Jarina (Pai Francelino), mina-jeje e mina-nagô",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, pp. 25–26 (Quadros 1 e 2)",
+        "parafrase": "Nos quadros da casa paulista, Nanã figura como vodum da família de Quevioçô, de nação jeje-nagô, com a própria Nanã como orixá correspondente, e soma dois assentamentos.",
+        "nota": null,
+        "registro": "nana-021",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "a mais idosa entre as divindades das águas, a 'vovó' querida e respeitada",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (Salvador)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 121–122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 121–122",
+        "parafrase": "Bastide diz que na Bahia Nanã é tida como a mais idosa das divindades das águas, tratada com afeto e respeito de avó; a terça dedicada a ela vem logo após a segunda, porque o respeito manda começar pelas divindades mais antigas.",
+        "nota": "Bastide liga essa ordem às classes de idade africanas.",
+        "registro": "nana-006",
+        "status": "fichado"
+      },
+      {
+        "valor": "a mais antiga dos voduns nagôs e quem os trouxe; tida como de Davice, ajuda Quevioçô",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+        "sources": [
+          {
+            "id": "ferretti-1985-querebenta",
+            "loc": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+            "via": "prandi-2005-pegadas-voduns"
+          }
+        ],
+        "source_id": "ferretti-1985-querebenta",
+        "via_source_id": "prandi-2005-pegadas-voduns",
+        "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
+        "parafrase": "No panteão da Casa das Minas resumido por Prandi, Nanã é a mais velha entre os nagôs e quem os trouxe; diz-se que pertence à família de Davice, mas ajuda a de Quevioçô.",
+        "nota": null,
+        "registro": "nana-007",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "funcoes",
+      "elementos",
+      "saudacao",
+      "alimentos",
+      "animais",
+      "qualidades",
+      "itans",
+      "tabus",
+      "iconografia",
+      "interpretacao_academica"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}
