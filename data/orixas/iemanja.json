@@ -1225,7 +1225,8 @@
     "sem_registro": [
       "alimentos",
       "animais",
-      "tabus"
+      "tabus",
+      "hierarquia"
     ],
     "so_pre_fichamento": {},
     "retidos_ate_conselho": {}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/entidades.schema.json",
+  "title": "Lista-mestra de entidades (data/entidades.json)",
+  "description": "Identificadores das entidades que o projeto pretende cobrir: orixás, qualidades, divindade suprema, conceitos cosmológicos e ancestrais. Só identificadores: nenhuma afirmação factual (nomes por tradição, grupo, hierarquia, parentesco) mora aqui; isso vai no fichamento, com fonte. Não confundir com entidade.schema.json (fichas leves geradas de voduns e inquices equivalentes).",
+  "type": "object",
+  "required": ["_meta", "entidades"],
+  "properties": {
+    "_meta": { "type": "object" },
+    "entidades": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/entidade" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "entidade": {
+      "type": "object",
+      "required": ["id", "rotulo", "grafias", "tipo", "grupo", "prioridade_mvp2", "sensivel", "status_conteudo", "nota_modelagem"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z_]*$", "description": "identificador estável; é também o nome do arquivo data/fichamento/<id>.json e o prefixo dos ids de registro (<id>-NNN)" },
+        "rotulo": { "type": "string", "minLength": 1, "description": "rótulo de exibição em pt-BR" },
+        "grafias": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "formas de escrever o identificador, para busca; não afirmam equivalência entre tradições (nomes por tradição vão no atributo 'nomes' do fichamento)" },
+        "tipo": { "enum": ["orixa", "divindade_suprema", "conceito_cosmologico", "ancestral", "qualidade"], "description": "classificação de trabalho para o modelo de dados e os filtros; a posição cosmológica com fonte vai no atributo 'hierarquia'" },
+        "grupo": {
+          "type": ["object", "null"],
+          "description": "rótulo provisório (funfun, aboro, iaba…) A CONFIRMAR com fonte; só é exibido quando confirmado_por lista registros fichados",
+          "required": ["rotulo", "confirmado_por"],
+          "properties": {
+            "rotulo": { "enum": ["funfun", "aboro", "iaba"] },
+            "confirmado_por": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z][a-z_]*-[0-9]{3}$" } }
+          },
+          "additionalProperties": false
+        },
+        "qualidade_de": { "type": "string", "pattern": "^[a-z][a-z_]*$", "description": "só para tipo 'qualidade': id da entidade de que é qualidade (vínculo de modelagem; a afirmação com fonte vai no atributo 'qualidades' do fichamento)" },
+        "prioridade_mvp2": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "sensivel": { "type": "boolean", "description": "true: só o que for público em fonte acadêmica, sem fundamento; o site mostra aviso" },
+        "status_conteudo": { "enum": ["sem_fichamento", "pre", "fichado"], "description": "recalculado por scripts/gerar_fichas.py" },
+        "nota_modelagem": { "type": ["string", "null"], "description": "decisão de modelagem (por que dois nomes estão juntos ou separados), nunca afirmação factual" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

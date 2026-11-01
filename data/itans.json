@@ -1,0 +1,367 @@
+{
+  "_meta": {
+    "descricao": "Itãs como entidade própria: título, entidades envolvidas e versões lado a lado por fonte, sem eleger a correta. Esquema: schemas/ita.schema.json.",
+    "regras": [
+      "Resumo sempre parafraseado, nunca copiado (scripts/anticopia.py confere as versões redigidas aqui; as espelhadas já são conferidas no fichamento).",
+      "Versão com 'registro' espelha um registro de fichamento do atributo 'itans': valor, resumo, tradições, casa, fontes, nota e status vêm de lá (scripts/gerar_fichas.py sincroniza; não editar à mão). Título, entidades, odu e nota_curadoria são editados aqui.",
+      "Odu só quando a fonte da versão o nomeia.",
+      "'arestas' é gerado: arestas de data/conexoes.json sustentadas por registros do itã.",
+      "Só versões 'fichado'/'revisado' aparecem no site e no download."
+    ],
+    "total": 10
+  },
+  "itans": [
+    {
+      "id": "ita-001",
+      "titulo": "O gorro de duas cores que faz brigar dois amigos",
+      "entidades": [
+        "exu"
+      ],
+      "versoes": [
+        {
+          "registro": "exu-009",
+          "valor": "o gorro de duas cores que separa dois amigos",
+          "resumo": "Exu, incomodado com a amizade de dois vizinhos, passa entre eles usando um gorro branco de um lado e vermelho do outro; cada um vê uma cor, e a discussão sobre quem tem razão termina em briga violenta. O mito ilustra a ambiguidade do orixá e é muito conhecido nos candomblés brasileiros.",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "odu": null,
+          "sources": [
+            {
+              "id": "prandi-2001-exu-diabo",
+              "loc": "p. 49",
+              "via": null
+            }
+          ],
+          "nota": "Registrado por Baudin (1884, pp. 49–51) e comentado por Prandi. Resumo próprio — comparar com versões de Verger e Prandi (Mitologia, 2001).",
+          "status": "fichado"
+        },
+        {
+          "registro": "exu-082",
+          "valor": "o gorro de duas cores que faz brigar dois amigos (verso de Ifá Òdí Méjì); cores variam entre versões",
+          "resumo": "Vallier cita de Bascom um verso de Ifá: Èṣù, ao ouvir dois amigos dizerem que nunca brigavam, passa entre eles com um gorro preto de um lado e branco do outro, e os dois discutem sobre a cor até brigar. Informantes de outras cidades contavam a mesma história com gorro vermelho e preto ou com quatro cores; o verso prescreve sacrifício para afastar a discórdia.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Ifé (Modakeke), Oyó e Imeko (Nigéria); versões de Frobenius e dos Herskovits",
+          "odu": {
+            "nome": "Òdí Méjì",
+            "loc": "pp. 824–825 (Bascom 1969, p. 311)"
+          },
+          "sources": [
+            {
+              "id": "bascom-1969-ifa",
+              "loc": "pp. 824–825 (Bascom 1969, p. 311)",
+              "via": "vallier-2011-esu"
+            }
+          ],
+          "nota": "Mesmo mito de exu-009 (Prandi). Paráfrase de resumo de 2ª mão; sem detalhar a oferenda prescrita.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "As duas versões contam o mesmo enredo (Exu passa entre dois amigos com um gorro de duas cores); as cores e a fonte diferem e ficam lado a lado."
+    },
+    {
+      "id": "ita-002",
+      "titulo": "Exu e o bastão com que percorre as quatro direções",
+      "entidades": [
+        "exu"
+      ],
+      "versoes": [
+        {
+          "registro": "exu-060",
+          "valor": "Exu circula pelo tempo e pelo espaço, nas quatro direções, com seu bastão",
+          "resumo": "Segundo o mito, é com o bastão que leva que Exu percorre o tempo e o espaço, nas quatro direções; por isso a encruzilhada, ponto de encontro dos caminhos, é lugar preferido de suas oferendas.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "odu": null,
+          "sources": [
+            {
+              "id": "silva-2012-exu-brasil",
+              "loc": "p. 1100",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": null
+    },
+    {
+      "id": "ita-003",
+      "titulo": "Iemanjá e o nascimento das águas",
+      "entidades": [
+        "iemanja",
+        "odudua",
+        "aganju"
+      ],
+      "versoes": [
+        {
+          "registro": "iemanja-052",
+          "valor": "mito cosmogônico: Iemanjá nasce de Odudua e Obatalá; do seu corpo, depois da violência do filho Orungã, nascem as águas e os orixás",
+          "resumo": "Pitta reproduz, a partir de Ellis, o mito em que Iemanjá e Aganju nascem da união da Terra (Odudua) com o Céu (Obatalá). Orungã, filho de Iemanjá, a agride; ela foge, cai, e de seu corpo brotam as águas e os orixás, além de montes, plantas, astros e outros seres. Pitta vê na figura a união de sedução e fertilidade e nota que os personagens masculinos do mito foram esquecidos, enquanto Iemanjá segue muito cultuada.",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "pp. 263–264",
+              "via": "pitta-2011-mitos"
+            }
+          ],
+          "nota": "Mito de 2ª mão (Ellis 1894, autor de olhar colonial, via Pitta). Pitta não diz se a versão foi contada pelos entrevistados.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Entidades listadas: só as nomeadas na versão que têm identificador na lista-mestra (Obatalá e Orungã também são nomeados)."
+    },
+    {
+      "id": "ita-004",
+      "titulo": "Gu trazido à Terra como espada cerimonial",
+      "entidades": [
+        "ogum",
+        "vodum:gu"
+      ],
+      "versoes": [
+        {
+          "registro": "ogum-047",
+          "valor": "mito daomeano: o Criador trouxe Gu à Terra como espada cerimonial (gubasa) e com ela ensinou a desbravar, construir e cultivar",
+          "resumo": "Castillo resume um mito de criação daomeano relatado por Barnes e Ben-Amos: o Criador teria descido à Terra levando Gu em forma de espada de cerimônia (gubasa) e, com ela, desbravou o mato e mostrou às pessoas como fazer casas, lavrar a terra e servir-se do metal. A autora liga o mito às miniaturas de enxadas e ferramentas nos altares de Gu.",
+          "tradicoes": [
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Daomé (atual Benim)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "barnes-1989-ogun",
+              "loc": "pp. 24–25 (Barnes & Ben-Amos, ed. 1997, pp. 53–54)",
+              "via": "castillo-2022-ogum"
+            }
+          ],
+          "nota": "Paráfrase de resumo de 2ª mão. Castillo cita a 2ª ed. (1997) de Africa's Ogun; o catálogo registra a 1ª (1989).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "O registro está no fichamento de Ogum; a versão fala do vodum Gu (mito daomeano)."
+    },
+    {
+      "id": "ita-005",
+      "titulo": "Oxóssi, o médico que aprende com Ossaim",
+      "entidades": [
+        "oxossi",
+        "ossaim"
+      ],
+      "versoes": [
+        {
+          "registro": "oxossi-022",
+          "valor": "Oxóssi médico que aprende o segredo das plantas com Ossaim",
+          "resumo": "Em outra versão, contada por um pai de santo, Oxóssi era médico na cidade e, após a morte dos pais, foi para a floresta, onde Ossaim lhe ensinou o segredo das plantas.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 259",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": null
+    },
+    {
+      "id": "ita-006",
+      "titulo": "O caçador de uma flecha só",
+      "entidades": [
+        "oxossi"
+      ],
+      "versoes": [
+        {
+          "registro": "oxossi-023",
+          "valor": "o caçador de uma só flecha (versão de Verger) — recusada por um informante",
+          "resumo": "Na versão de Verger, uma ave gigante ameaça a festa dos inhames novos do rei de Ifé; caçadores com vinte e quarenta flechas falham, e um jovem de Irema, com uma única flecha e após oferenda feita pela mãe, abate a ave; de 'caçador de uma flecha só' viria o nome Oxóssi.",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 260",
+              "via": null
+            }
+          ],
+          "nota": "O pai de santo 'Papai' rejeitava essa versão. DIVERGÊNCIA entre fonte escrita e tradição de casa.",
+          "status": "fichado"
+        },
+        {
+          "registro": "oxossi-026",
+          "valor": "o caçador de uma flecha só (Oxotokanxoxô, de Iremã) na festa dos inhames de Olofin",
+          "resumo": "Na versão de Verger, uma ave enorme pousa no palácio de Olofin durante a festa dos inhames novos; caçadores com vinte, quarenta e cinquenta flechas falham e são punidos; um caçador de Iremã, com uma só flecha e protegido por oferenda feita pela mãe, abate a ave.",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "odu": null,
+          "sources": [
+            {
+              "id": "verger-1985-lendas",
+              "loc": "p. 58–59 (Souza); Verger, Lendas africanas dos orixás, 4ª ed. 1997",
+              "via": "mosaico-2020-oxossi"
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Duas leituras da versão de Verger (via Chiousse e via Souza), lado a lado."
+    },
+    {
+      "id": "ita-007",
+      "titulo": "Iansã e a magia do fogo de Xangô",
+      "entidades": [
+        "xango",
+        "iansa"
+      ],
+      "versoes": [
+        {
+          "registro": "xango-015",
+          "valor": "Iansã rouba a magia de Xangô de lançar fogo",
+          "resumo": "Num mito, Xangô cuspia fogo graças a uma magia que Iansã lhe tomou, passando a imitar o raio com sua espada.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 122–123",
+              "via": null
+            }
+          ],
+          "nota": "DIVERGÊNCIA: no Rio de Janeiro, a versão atribui o roubo a Oxum (fonte citada por Bastide). Mito de origem Frobenius.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": null
+    },
+    {
+      "id": "ita-008",
+      "titulo": "Xangô e Iansã diante dos malês",
+      "entidades": [
+        "xango",
+        "iansa"
+      ],
+      "versoes": [
+        {
+          "registro": "xango-016",
+          "valor": "Xangô e Iansã diante dos malês",
+          "resumo": "Num mito recolhido no Recife, Xangô e Iansã vão à terra dos malês (muçulmanos), que os ignoram; ele lança o raio, ela o relâmpago, e os malês, assustados, reconhecem a chefia de Xangô.",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife",
+          "odu": null,
+          "sources": [
+            {
+              "id": "ribeiro-1952-recife",
+              "loc": "ed. pt 1961, p. 123",
+              "via": "bastide-1958-candomble"
+            }
+          ],
+          "nota": "Ribeiro (1952, pp. 50–1). Resumo próprio.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": null
+    },
+    {
+      "id": "ita-009",
+      "titulo": "O alafin de Oyó e o palácio destruído pelo raio",
+      "entidades": [
+        "xango"
+      ],
+      "versoes": [
+        {
+          "registro": "xango-036",
+          "valor": "tradição de Oyó: alafin tirânico que manipulava o raio, destruiu o próprio palácio, deixou Oyó e se enforcou; foi divinizado pelos seguidores",
+          "resumo": "Capo Chichi resume a versão de Johnson: Xangô, governante tirânico que cuspia fogo, teria destruído o próprio palácio ao manipular o trovão, matando mulheres e filhos; envergonhado, partiu para a terra nupe da mãe, foi abandonado pelos seguidores e se enforcou, sendo então divinizado. Numa variante registrada por Hethersett (1941), a partida resulta de uma guerra entre dois generais, e os seguidores negam a morte com a frase \"o rei não se enforcou\".",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Oyó (Nigéria)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "johnson-1921-history",
+              "loc": "p. 3",
+              "via": "capo-chichi-2025-shango"
+            }
+          ],
+          "nota": "Paráfrase de resumo de 2ª mão. Johnson é citado pela ed. de 1960; Hethersett não está no catálogo. O autor mostra que Isola e Akinyemi apontaram inconsistências nessas versões (ver xango-037).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": null
+    },
+    {
+      "id": "ita-010",
+      "titulo": "A viagem de Oxalá velho para ver Xangô",
+      "entidades": [
+        "oxala",
+        "xango"
+      ],
+      "versoes": [
+        {
+          "registro": "xango-043",
+          "valor": "Oxalá velho viaja para ver o filho Xangô, é preso injustamente pelos servidores deste e libertado depois de consulta ao babalaô",
+          "resumo": "Pitta analisa um mito de renovação citado nos xangôs do Recife e de Olinda: Oxalá velho, contra o conselho do babalaô, viaja para rever o filho Xangô; no caminho é maltratado e preso pelos servidores de Xangô, e o reino cai em tristeza e esterilidade até que o babalaô revela a injustiça; Oxalá é libertado e recebido com festa pelo outro filho, Oxalá jovem. A autora lê o mito como ciclo de morte e renovação da natureza.",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "pitta-2011-mitos",
+              "loc": "pp. 264–265",
+              "via": null
+            }
+          ],
+          "nota": "No mito, Xangô aparece como filho de Oxalá (comparar com xango-022).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": null
+    }
+  ]
+}

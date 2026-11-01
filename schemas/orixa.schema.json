@@ -1,52 +1,131 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/orixa.schema.json",
-  "title": "Ficha de orixá",
-  "description": "Gerada por scripts/gerar_fichas.py a partir de data/fichamento/<orixa>.json. Não editar à mão: corrigir o fichamento e regenerar.",
+  "title": "Ficha de entidade (orixá, qualidade, divindade suprema, conceito cosmológico ou ancestral)",
+  "description": "Gerada por scripts/gerar_fichas.py a partir de data/fichamento/<id>.json para toda entidade de data/entidades.json com ao menos um registro fichado. Não editar à mão: corrigir o fichamento e regenerar. (O arquivo fica em data/orixas/ por compatibilidade.)",
   "type": "object",
-  "required": ["_meta", "id", "rotulo", "atributos", "pendencias", "revisao"],
+  "required": [
+    "_meta",
+    "id",
+    "rotulo",
+    "atributos",
+    "pendencias",
+    "revisao"
+  ],
   "properties": {
     "_meta": {
       "type": "object",
-      "required": ["gerado_por", "fichamento", "registros_usados", "registros_pre_fichamento_excluidos"],
+      "required": [
+        "gerado_por",
+        "fichamento",
+        "registros_usados",
+        "registros_pre_fichamento_excluidos"
+      ],
       "properties": {
-        "gerado_por": { "type": "string" },
-        "fichamento": { "type": "string" },
-        "aviso": { "type": "string" },
-        "registros_usados": { "type": "integer", "minimum": 0 },
-        "registros_pre_fichamento_excluidos": { "type": "integer", "minimum": 0 },
-        "registros_retidos": { "type": "integer", "minimum": 0 }
+        "gerado_por": {
+          "type": "string"
+        },
+        "fichamento": {
+          "type": "string"
+        },
+        "aviso": {
+          "type": "string"
+        },
+        "registros_usados": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "registros_pre_fichamento_excluidos": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "registros_retidos": {
+          "type": "integer",
+          "minimum": 0
+        }
       },
       "additionalProperties": false
     },
-    "id": { "enum": ["exu", "ogum", "oxossi", "xango", "iemanja"] },
-    "rotulo": { "type": "string", "description": "Rótulo de exibição em pt-BR (grafia usual no Brasil). Os nomes por tradição ficam em atributos.nomes." },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z_]*$",
+      "description": "id em data/entidades.json"
+    },
+    "rotulo": {
+      "type": "string",
+      "description": "Rótulo de exibição em pt-BR, vindo de data/entidades.json. Os nomes por tradição ficam em atributos.nomes."
+    },
     "atributos": {
       "type": "object",
       "description": "Chaves = atributos do fichamento (ver schemas/fichamento.schema.json). Só aparecem atributos com ao menos uma versão.",
       "propertyNames": {
-        "enum": ["nomes", "origem", "dominios", "funcoes", "elementos", "cores", "dia_semana", "saudacao", "simbolos", "alimentos", "animais", "qualidades", "parentesco", "equivalencias", "sincretismo", "itans", "tabus", "festas", "historia_culto", "iconografia", "interpretacao_academica"]
+        "enum": [
+          "nomes",
+          "origem",
+          "dominios",
+          "funcoes",
+          "elementos",
+          "cores",
+          "dia_semana",
+          "saudacao",
+          "simbolos",
+          "alimentos",
+          "animais",
+          "qualidades",
+          "parentesco",
+          "equivalencias",
+          "sincretismo",
+          "itans",
+          "tabus",
+          "festas",
+          "historia_culto",
+          "iconografia",
+          "interpretacao_academica",
+          "hierarquia"
+        ]
       },
       "additionalProperties": {
         "type": "array",
         "minItems": 1,
-        "items": { "$ref": "_versao.schema.json" }
+        "items": {
+          "$ref": "_versao.schema.json"
+        }
       }
     },
     "pendencias": {
       "type": "object",
-      "required": ["sem_registro", "so_pre_fichamento", "retidos_ate_conselho"],
+      "required": [
+        "sem_registro",
+        "so_pre_fichamento",
+        "retidos_ate_conselho"
+      ],
       "properties": {
-        "sem_registro": { "type": "array", "items": { "type": "string" }, "description": "atributos sem nenhum registro no fichamento" },
+        "sem_registro": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "atributos sem nenhum registro no fichamento"
+        },
         "so_pre_fichamento": {
           "type": "object",
           "description": "atributos cujos únicos registros estão em pre_fichamento (não lidos na fonte): atributo → ids dos registros",
-          "additionalProperties": { "type": "array", "items": { "type": "string" } }
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         },
         "retidos_ate_conselho": {
           "type": "object",
           "description": "atributos fichados mas mantidos fora da ficha pública até decisão do conselho consultivo (tabus, alimentos): atributo → ids",
-          "additionalProperties": { "type": "array", "items": { "type": "string" } }
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         }
       },
       "additionalProperties": false
@@ -56,12 +135,30 @@
       "description": "Gerado por scripts/gerar_fichas.py a partir das revisões vigentes dos registros publicados: uma entrada por revisor e tradição, com a data mais recente. Sem dados pessoais: o crédito público vem de data/revisores.json.",
       "items": {
         "type": "object",
-        "required": ["revisor_id", "tradicao", "data", "versoes"],
+        "required": [
+          "revisor_id",
+          "tradicao",
+          "data",
+          "versoes"
+        ],
         "properties": {
-          "revisor_id": { "type": "string", "pattern": "^rev-[0-9]{3}$" },
-          "tradicao": { "type": "string", "pattern": "^[a-z_]+$" },
-          "data": { "type": "string", "format": "date" },
-          "versoes": { "type": "integer", "minimum": 1, "description": "quantas versões publicadas da ficha essa pessoa revisou nessa tradição" }
+          "revisor_id": {
+            "type": "string",
+            "pattern": "^rev-[0-9]{3}$"
+          },
+          "tradicao": {
+            "type": "string",
+            "pattern": "^[a-z_]+$"
+          },
+          "data": {
+            "type": "string",
+            "format": "date"
+          },
+          "versoes": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "quantas versões publicadas da ficha essa pessoa revisou nessa tradição"
+          }
         },
         "additionalProperties": false
       }

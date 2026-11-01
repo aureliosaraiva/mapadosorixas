@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/ita.schema.json",
+  "title": "Itã (narrativa mítica) como entidade própria",
+  "description": "Um itã de data/itans.json: título próprio, entidades envolvidas e versões lado a lado, cada uma com resumo PARAFRASEADO, tradição e fonte com página. Nenhuma versão é eleita a correta. Versão com `registro` espelha um registro de fichamento (atributo 'itans'): gerar_fichas.py copia dele valor, resumo (= paráfrase), tradições, casa, fontes, nota e status, e validar_fichas.py confere. Versão sem `registro` é redigida aqui e segue as mesmas regras (fonte lida, página, anti-cópia).",
+  "type": "object",
+  "required": ["id", "titulo", "entidades", "versoes", "arestas"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^ita-[0-9]{3}$" },
+    "titulo": { "type": "string", "minLength": 3, "description": "título descritivo próprio do projeto (não o título de capítulo de um livro)" },
+    "entidades": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "type": "string" },
+      "description": "ids de data/entidades.json ou nós de data/conexoes_alvos.json NOMEADOS na versão; nunca deduzidos"
+    },
+    "versoes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/versao" } },
+    "arestas": {
+      "type": "array", "uniqueItems": true, "items": { "type": "string" },
+      "description": "gerado: ids de arestas de data/conexoes.json sustentadas por registros deste itã (parentesco e outras relações)"
+    },
+    "nota_curadoria": { "type": ["string", "null"], "description": "por que estas versões estão juntas num mesmo itã (decisão editorial, sem afirmação factual)" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "versao": {
+      "type": "object",
+      "required": ["registro", "valor", "resumo", "tradicoes", "casa_ou_regiao", "odu", "sources", "nota", "status"],
+      "properties": {
+        "registro": { "type": ["string", "null"], "pattern": "^[a-z][a-z_]*-[0-9]{3}$", "description": "registro de fichamento espelhado (rastreabilidade); null se a versão foi fichada direto aqui" },
+        "valor": { "type": "string", "minLength": 1, "description": "descrição curta da versão" },
+        "resumo": { "type": "string", "minLength": 1, "description": "resumo parafraseado; nunca trecho copiado da obra" },
+        "tradicoes": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "casa_ou_regiao": { "type": ["string", "null"] },
+        "odu": {
+          "type": ["object", "null"],
+          "description": "odu associado SÓ se a fonte da versão disser",
+          "required": ["nome", "loc"],
+          "properties": { "nome": { "type": "string", "minLength": 1 }, "loc": { "type": "string", "minLength": 1, "description": "onde a fonte da versão associa o odu" } },
+          "additionalProperties": false
+        },
+        "sources": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "required": ["id", "loc", "via"],
+            "properties": { "id": { "type": "string" }, "loc": { "type": "string", "minLength": 1 }, "via": { "type": ["string", "null"] } },
+            "additionalProperties": false
+          }
+        },
+        "nota": { "type": ["string", "null"] },
+        "status": { "enum": ["pre_fichamento", "fichado", "revisado"], "description": "só 'fichado'/'revisado' aparecem no site e no download" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -14,17 +14,16 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "scripts"))
+import entidades  # noqa: E402
 import revisao  # noqa: E402
 
 REVISORES = revisao.por_id(revisao.carregar_revisores(RAIZ))
-ATRS = {"dia_semana", "cores", "sincretismo", "festas", "parentesco", "origem", "elementos", "qualidades", "simbolos", "itans", "equivalencias"}
+ATRS = {"hierarquia", "dia_semana", "cores", "sincretismo", "festas", "parentesco", "origem", "elementos", "qualidades", "simbolos", "itans", "equivalencias"}
 
 
 def main():
     grupos = defaultdict(list)
-    for p in sorted((RAIZ / "data" / "fichamento").glob("*.json")):
-        if p.name == "divergencias.json":
-            continue
+    for p in entidades.arquivos_fichamento(RAIZ):
         for r in json.loads(p.read_text(encoding="utf-8"))["registros"]:
             if revisao.publicavel(r, REVISORES) and r["atributo"] in ATRS:
                 grupos[(r["orixa"], r["atributo"])].append(r)

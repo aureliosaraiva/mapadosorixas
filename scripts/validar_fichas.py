@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valida as fichas (data/orixas/*.json), data/conexoes.json, data/entidades_equivalentes.json, data/tradicoes.json e data/glossario.json.
+"""Valida as fichas (data/orixas/*.json), data/conexoes.json, data/entidades_equivalentes.json, data/tradicoes.json, data/glossario.json, data/entidades.json (lista-mestra) e data/itans.json.
 
 Checagens:
 - esquema (schemas/orixa.schema.json, conexao.schema.json, tradicao.schema.json), se jsonschema estiver instalado;
@@ -15,7 +15,14 @@ Checagens:
   as revisões vigentes do registro; toda revisão da ficha (`revisao`) aponta para
   revisor cadastrado; nenhum registro publicável some — cada registro
   fichado/revisado está na ficha como versão ou em pendencias.retidos_ate_conselho;
-- fichas e grafo estão em dia com o fichamento (regenerar com scripts/gerar_fichas.py).
+- lista-mestra: toda ficha é de uma entidade de data/entidades.json; toda entidade
+  com registro fichado tem ficha; nós de tipo 'orixa' do grafo estão na lista-mestra;
+- itãs (schemas/ita.schema.json): ids únicos; entidades na lista-mestra ou no
+  grafo; versão espelhada bate com o registro (atributo 'itans'); versão própria
+  'fichado' tem fonte lida e página; tradições existentes; arestas existentes;
+  um registro de itã não aparece em dois itãs;
+- fichas, grafo, status_conteudo da lista-mestra e espelhos dos itãs estão em dia
+  com o fichamento (regenerar com scripts/gerar_fichas.py).
 
 Uso: python3 scripts/validar_fichas.py
 """
@@ -26,6 +33,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "scripts"))
+import entidades as ent  # noqa: E402
 import revisao  # noqa: E402
 
 
@@ -128,6 +136,74 @@ def checar_glossario(erros):
     return len(termos)
 
 
+def checar_lista_mestra(fichas, erros):
+    lista = ent.por_id(RAIZ)
+    for p in fichas:
+        if p.stem not in lista:
+            erros.append(f"{p.name}: ficha de entidade fora de data/entidades.json")
+        elif ler(p).get("rotulo") != lista[p.stem]["rotulo"]:
+            erros.append(f"{p.name}: rótulo difere de data/entidades.json")
+    com_ficha = {p.stem for p in fichas}
+    for eid, regs in ent.registros_por_entidade(RAIZ).items():
+        if any(r["status"] in revisao.STATUS_LIDOS for r in regs) and eid not in com_ficha:
+            erros.append(f"entidades/{eid}: tem registro fichado mas não tem ficha (regenerar)")
+    for nid, n in ler(RAIZ / "data/conexoes_alvos.json")["nos"].items():
+        if n.get("tipo") == "orixa" and nid not in lista:
+            erros.append(f"conexoes_alvos/{nid}: nó de tipo orixa fora de data/entidades.json")
+    return len(lista)
+
+
+def checar_itans(arestas, nos_grafo, erros):
+    p = RAIZ / "data/itans.json"
+    if not p.exists():
+        return 0, 0
+    itans = ler(p)["itans"]
+    vi = validador("ita.schema.json")
+    validos = set(ent.ids(RAIZ)) | set(nos_grafo)
+    ids = [i.get("id") for i in itans]
+    for i in {i for i in ids if ids.count(i) > 1}:
+        erros.append(f"itans/{i}: id repetido")
+    usados, nv = {}, 0
+    for it in itans:
+        onde = f"itans/{it.get('id')}"
+        if vi:
+            erros += [f"{onde}: {e.message} em /{'/'.join(map(str, e.path))}" for e in vi.iter_errors(it)]
+        for e in it.get("entidades", []):
+            if e not in validos:
+                erros.append(f"{onde}: entidade desconhecida {e} (nem na lista-mestra nem no grafo)")
+        for a in it.get("arestas", []):
+            if a not in arestas:
+                erros.append(f"{onde}: aresta inexistente {a}")
+        for k, v in enumerate(it.get("versoes", [])):
+            nv += 1
+            ov = f"{onde}[{k}]"
+            for t in v.get("tradicoes", []):
+                if t not in TRAD_IDS:
+                    erros.append(f"{ov}: tradição desconhecida: {t}")
+            rid = v.get("registro")
+            if rid:
+                if rid in usados:
+                    erros.append(f"{ov}: registro {rid} já está em {usados[rid]}")
+                usados[rid] = it.get("id")
+                r = REGS.get(rid)
+                if r is None:
+                    erros.append(f"{ov}: registro inexistente {rid}")
+                    continue
+                if r["atributo"] != "itans":
+                    erros.append(f"{ov}: registro {rid} não é do atributo 'itans'")
+                esperado = {"valor": r["valor"], "resumo": r["parafrase"], "tradicoes": r["tradicoes"],
+                            "casa_ou_regiao": r.get("casa_ou_regiao"), "nota": r.get("nota"), "status": r["status"],
+                            "sources": [{"id": r["source_id"], "loc": r["localizacao"], "via": r.get("via_source_id")}]}
+                for c, x in esperado.items():
+                    if v.get(c) != x:
+                        erros.append(f"{ov}: campo {c} difere do registro {rid} (regenerar com gerar_fichas.py)")
+            elif v.get("status") in revisao.STATUS_LIDOS:
+                checar_fontes(v.get("sources", []), ov, erros)
+                if any(s["loc"].strip().lower() == "a conferir" for s in v.get("sources", [])):
+                    erros.append(f"{ov}: versão {v['status']} exige página")
+    return len(itans), nv
+
+
 def main():
     erros = []
     vo, vc, vt = validador("orixa.schema.json"), validador("conexao.schema.json"), validador("tradicao.schema.json")
@@ -187,14 +263,24 @@ def main():
         for i, v in enumerate(e["versoes"]):
             checar_versao(v, f"entidades/{e['id']}[{i}]", erros)
 
-    # em dia com o fichamento? (regera em memória e compara)
-    antes = {p: p.read_text(encoding="utf-8") for p in fichas + [RAIZ / "data/conexoes.json", RAIZ / "data/entidades_equivalentes.json"]}
+    n_lista = checar_lista_mestra(fichas, erros)
+    n_itans, n_vitans = checar_itans(ids_arestas, nos, erros)
+
+    # em dia com o fichamento? (regera e compara)
+    extras = [RAIZ / "data" / n for n in ("conexoes.json", "entidades_equivalentes.json", "entidades.json", "itans.json")]
+    antes = {p: p.read_text(encoding="utf-8") for p in fichas + extras if p.exists()}
     subprocess.run([sys.executable, str(RAIZ / "scripts/gerar_fichas.py")], capture_output=True, check=True)
     for p, txt in antes.items():
-        if p.read_text(encoding="utf-8") != txt:
+        if not p.exists():
+            erros.append(f"{p.relative_to(RAIZ)}: removido ao regenerar (entidade sem registro lido)")
+        elif p.read_text(encoding="utf-8") != txt:
             erros.append(f"{p.relative_to(RAIZ)}: desatualizado em relação ao fichamento (foi regenerado agora; conferir o diff)")
+    for p in sorted((RAIZ / "data/orixas").glob("*.json")):
+        if p not in antes:
+            erros.append(f"{p.relative_to(RAIZ)}: ficha nova criada ao regenerar (conferir e versionar)")
 
-    print(f"{len(fichas)} fichas, {n_versoes} versões; {len(c['arestas'])} arestas; {len(ents)} entidades; {len(TRADICOES)} tradições; {n_termos} termos no glossário"
+    print(f"{len(fichas)} fichas, {n_versoes} versões; {len(c['arestas'])} arestas; {len(ents)} entidades equivalentes; "
+          f"{n_lista} entidades na lista-mestra; {n_itans} itãs ({n_vitans} versões); {len(TRADICOES)} tradições; {n_termos} termos no glossário"
           + ("" if vo else " (jsonschema ausente: esquema não checado)"))
     if erros:
         print(f"\n{len(erros)} erro(s):")

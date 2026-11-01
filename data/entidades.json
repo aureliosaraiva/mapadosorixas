@@ -1,0 +1,526 @@
+{
+  "_meta": {
+    "descricao": "Lista-mestra das entidades que o projeto pretende cobrir (Fase 7). Cada entrada é só um IDENTIFICADOR: id, rótulo de exibição e grafias para busca. Não contém afirmações factuais.",
+    "esquema": "schemas/entidades.schema.json",
+    "regras": [
+      "Nenhum atributo factual aqui: nomes por tradição, origem, grupo, hierarquia e parentesco só entram no fichamento (data/fichamento/<id>.json), com fonte e página.",
+      "'tipo' é uma classificação de trabalho para organizar o modelo de dados e os filtros; a posição cosmológica de cada entidade, com fonte, vai no atributo 'hierarquia' do fichamento.",
+      "'grupo.rotulo' (funfun, iaba…) é um rótulo provisório A CONFIRMAR: o site só o exibe quando 'grupo.confirmado_por' lista registros fichados que o sustentem.",
+      "'grafias' são formas de escrever o identificador, para busca; não afirmam equivalência entre tradições.",
+      "'status_conteudo' é recalculado por scripts/gerar_fichas.py a partir do fichamento (sem_fichamento, pre, fichado); não editar à mão.",
+      "'sensivel': só entra o que for público em fonte acadêmica, sem fundamento iniciático; decidir com o conselho o que é publicável.",
+      "'prioridade_mvp2': 1 = próxima leva (~15 orixás do PLANO, Fase 7, e os 5 do MVP), 2 = cosmologia e divindades de Ifá, 3 = depois."
+    ],
+    "total": 33
+  },
+  "entidades": [
+    {
+      "id": "exu",
+      "rotulo": "Exu",
+      "grafias": [
+        "Exu",
+        "Eshu"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "fichado",
+      "nota_modelagem": null
+    },
+    {
+      "id": "ogum",
+      "rotulo": "Ogum",
+      "grafias": [
+        "Ogum",
+        "Ogun"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "fichado",
+      "nota_modelagem": null
+    },
+    {
+      "id": "oxossi",
+      "rotulo": "Oxóssi",
+      "grafias": [
+        "Oxóssi",
+        "Oxossi"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "fichado",
+      "nota_modelagem": null
+    },
+    {
+      "id": "xango",
+      "rotulo": "Xangô",
+      "grafias": [
+        "Xangô",
+        "Xango",
+        "Changô"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "fichado",
+      "nota_modelagem": null
+    },
+    {
+      "id": "iemanja",
+      "rotulo": "Iemanjá",
+      "grafias": [
+        "Iemanjá",
+        "Yemanjá",
+        "Iemoja"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "iaba",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "fichado",
+      "nota_modelagem": null
+    },
+    {
+      "id": "oxum",
+      "rotulo": "Oxum",
+      "grafias": [
+        "Oxum",
+        "Ochun",
+        "Oshun"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "iaba",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "iansa",
+      "rotulo": "Iansã",
+      "grafias": [
+        "Iansã",
+        "Oyá",
+        "Oiá"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "iaba",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "omolu",
+      "rotulo": "Omolu / Obaluaê",
+      "grafias": [
+        "Omolu",
+        "Obaluaê",
+        "Obaluaiê"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": "Omolu e Obaluaê ficam provisoriamente num só identificador, como no pedido de escopo; se as tradições os tratam como a mesma divindade, como aspectos ou como qualidades será registrado no fichamento, com fonte."
+    },
+    {
+      "id": "nana",
+      "rotulo": "Nanã",
+      "grafias": [
+        "Nanã",
+        "Nanã Buruku",
+        "Nanan"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "iaba",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "oxumare",
+      "rotulo": "Oxumarê",
+      "grafias": [
+        "Oxumarê",
+        "Oxumaré"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "ossaim",
+      "rotulo": "Ossaim",
+      "grafias": [
+        "Ossaim",
+        "Ossain",
+        "Osanyin"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "logunede",
+      "rotulo": "Logunedé",
+      "grafias": [
+        "Logunedé",
+        "Logun Edé",
+        "Logum Edé"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "oba",
+      "rotulo": "Obá",
+      "grafias": [
+        "Obá"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "iaba",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "ewa",
+      "rotulo": "Ewá",
+      "grafias": [
+        "Ewá",
+        "Euá"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "iaba",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": "Ewá e Iyewa ficam como identificadores separados até que o fichamento registre, com fonte, se e onde são tratadas como a mesma divindade."
+    },
+    {
+      "id": "oxala",
+      "rotulo": "Oxalá",
+      "grafias": [
+        "Oxalá"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "funfun",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "oxalufa",
+      "rotulo": "Oxalufã",
+      "grafias": [
+        "Oxalufã"
+      ],
+      "tipo": "qualidade",
+      "grupo": {
+        "rotulo": "funfun",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "qualidade_de": "oxala",
+      "nota_modelagem": null
+    },
+    {
+      "id": "oxaguia",
+      "rotulo": "Oxaguiã",
+      "grafias": [
+        "Oxaguiã"
+      ],
+      "tipo": "qualidade",
+      "grupo": {
+        "rotulo": "funfun",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "qualidade_de": "oxala",
+      "nota_modelagem": null
+    },
+    {
+      "id": "ibeji",
+      "rotulo": "Ibeji",
+      "grafias": [
+        "Ibeji",
+        "Ibejis"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "iroko",
+      "rotulo": "Iroko / Tempo",
+      "grafias": [
+        "Iroko",
+        "Irôco",
+        "Tempo"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 1,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": "Iroko e Tempo ficam provisoriamente num só identificador, como no pedido de escopo; a relação entre os nomes (por nação) será registrada no fichamento, com fonte."
+    },
+    {
+      "id": "orunmila",
+      "rotulo": "Orunmilá / Ifá",
+      "grafias": [
+        "Orunmilá",
+        "Orumilá",
+        "Ifá"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "odudua",
+      "rotulo": "Odudua",
+      "grafias": [
+        "Odudua",
+        "Oduduwa"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "funfun",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "orixa_oko",
+      "rotulo": "Orixá Okô",
+      "grafias": [
+        "Orixá Okô",
+        "Oko"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 3,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "olokun",
+      "rotulo": "Olokun",
+      "grafias": [
+        "Olokun",
+        "Olocum"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 3,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "aganju",
+      "rotulo": "Aganju",
+      "grafias": [
+        "Aganju"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 3,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "erinle",
+      "rotulo": "Erinlé / Inlé",
+      "grafias": [
+        "Erinlé",
+        "Inlé",
+        "Inle"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 3,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "aje_xaluga",
+      "rotulo": "Ajê Xalugá",
+      "grafias": [
+        "Ajê Xalugá",
+        "Ajé Salugá"
+      ],
+      "tipo": "orixa",
+      "grupo": null,
+      "prioridade_mvp2": 3,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "iyewa",
+      "rotulo": "Iyewa",
+      "grafias": [
+        "Iyewa",
+        "Yewa"
+      ],
+      "tipo": "orixa",
+      "grupo": {
+        "rotulo": "iaba",
+        "confirmado_por": []
+      },
+      "prioridade_mvp2": 3,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": "Ver a nota de Ewá: identificadores separados até haver fonte."
+    },
+    {
+      "id": "olodumare",
+      "rotulo": "Olodumare / Olorum / Olofin",
+      "grafias": [
+        "Olodumare",
+        "Olorum",
+        "Olorun",
+        "Olofin"
+      ],
+      "tipo": "divindade_suprema",
+      "grupo": null,
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": "Os três nomes ficam provisoriamente num só identificador, como no pedido de escopo; se e como se distinguem depende da tradição e será registrado no fichamento, com fonte (atributo hierarquia)."
+    },
+    {
+      "id": "orum",
+      "rotulo": "Orum",
+      "grafias": [
+        "Orum",
+        "Ọ̀run"
+      ],
+      "tipo": "conceito_cosmologico",
+      "grupo": null,
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "aie",
+      "rotulo": "Aiê",
+      "grafias": [
+        "Aiê",
+        "Ayé",
+        "Aye"
+      ],
+      "tipo": "conceito_cosmologico",
+      "grupo": null,
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "orixas_funfun",
+      "rotulo": "Orixás funfun",
+      "grafias": [
+        "orixás funfun",
+        "funfun"
+      ],
+      "tipo": "conceito_cosmologico",
+      "grupo": null,
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "egungun",
+      "rotulo": "Egungun",
+      "grafias": [
+        "Egungun",
+        "Egum",
+        "Eguns"
+      ],
+      "tipo": "ancestral",
+      "grupo": null,
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    },
+    {
+      "id": "iyami",
+      "rotulo": "Iyami",
+      "grafias": [
+        "Iyami",
+        "Iyá Mi",
+        "Iami"
+      ],
+      "tipo": "ancestral",
+      "grupo": null,
+      "prioridade_mvp2": 3,
+      "sensivel": true,
+      "status_conteudo": "sem_fichamento",
+      "nota_modelagem": null
+    }
+  ]
+}

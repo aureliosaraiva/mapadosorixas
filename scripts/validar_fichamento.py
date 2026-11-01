@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """Valida data/fichamento/*.json contra o esquema e o catálogo de fontes,
-e mostra a cobertura de atributos por orixá (lacunas).
+e mostra a cobertura de atributos por entidade (lacunas).
+
+Lista-mestra (data/entidades.json, esquema schemas/entidades.schema.json):
+- esquema, ids únicos, `qualidade_de` aponta para entidade existente;
+- `grupo.confirmado_por` só cita registros fichados/revisados;
+- cada arquivo data/fichamento/<id>.json tem <id> na lista-mestra, e cada
+  registro dele tem `orixa` = <id> e id <id>-NNN.
 
 Revisão do conselho (scripts/revisao.py; docs/conselho/como-registrar-revisao.md):
 - data/revisores.json contra schemas/revisor.schema.json e as regras de
@@ -23,20 +29,51 @@ SCHEMA = json.loads((RAIZ / "schemas" / "fichamento.schema.json").read_text(enco
 CATALOGO = json.loads((RAIZ / "data" / "fontes" / "catalogo.json").read_text(encoding="utf-8"))
 FONTES = {f["id"]: f for f in CATALOGO["fontes"]}
 ATRIBUTOS = SCHEMA["properties"]["atributo"]["enum"]
-ORIXAS = SCHEMA["properties"]["orixa"]["enum"]
 TRAD_IDS = {t["id"] for t in json.loads((RAIZ / "data" / "tradicoes.json").read_text(encoding="utf-8"))["tradicoes"]}
 
 sys.path.insert(0, str(RAIZ / "scripts"))
+import entidades  # noqa: E402
 import revisao  # noqa: E402
+
+ENTIDADES = entidades.lista(RAIZ)
+ENT_IDS = [e["id"] for e in ENTIDADES]
 
 
 def carregar():
-    regs = []
-    for o in ORIXAS:
-        p = RAIZ / "data" / "fichamento" / f"{o}.json"
-        if p.exists():
-            regs += json.loads(p.read_text(encoding="utf-8"))["registros"]
-    return regs
+    return entidades.todos_registros(RAIZ)
+
+
+def validar_entidades(regs):
+    erros = []
+    try:
+        import jsonschema
+        s = json.loads((RAIZ / "schemas" / "entidades.schema.json").read_text(encoding="utf-8"))
+        erros += [f"entidades.json: {e.message} em /{'/'.join(map(str, e.path))}"
+                  for e in jsonschema.Draft202012Validator(s).iter_errors(entidades.carregar(RAIZ))]
+    except ImportError:
+        pass
+    vistos = Counter(ENT_IDS)
+    erros += [f"entidades.json: id duplicado: {i}" for i, n in vistos.items() if n > 1]
+    por_reg = {r["id"]: r for r in regs}
+    for e in ENTIDADES:
+        q = e.get("qualidade_de")
+        if q and q not in vistos:
+            erros.append(f"entidades/{e['id']}: qualidade_de aponta para entidade inexistente: {q}")
+        if (e.get("tipo") == "qualidade") != bool(q):
+            erros.append(f"entidades/{e['id']}: qualidade_de só (e sempre) para tipo 'qualidade'")
+        for rid in (e.get("grupo") or {}).get("confirmado_por", []):
+            r = por_reg.get(rid)
+            if not r or r["status"] not in ("fichado", "revisado"):
+                erros.append(f"entidades/{e['id']}: grupo confirmado por registro inexistente ou não fichado: {rid}")
+    for p in entidades.arquivos_fichamento(RAIZ):
+        if p.stem not in vistos:
+            erros.append(f"data/fichamento/{p.name}: entidade '{p.stem}' fora de data/entidades.json")
+        for r in json.loads(p.read_text(encoding="utf-8"))["registros"]:
+            if r.get("orixa") != p.stem:
+                erros.append(f"{r.get('id')}: campo orixa '{r.get('orixa')}' difere do arquivo {p.name}")
+            if not str(r.get("id", "")).startswith(p.stem + "-"):
+                erros.append(f"{r.get('id')}: id deve começar por '{p.stem}-'")
+    return erros
 
 
 def validar(regs):
@@ -87,8 +124,11 @@ def registros_em(ref):
                        check=True, capture_output=True)
     except (OSError, subprocess.CalledProcessError):
         return None
-    for o in ORIXAS:
-        r = subprocess.run(["git", "show", f"{ref}:data/fichamento/{o}.json"], cwd=RAIZ, capture_output=True)
+    r = subprocess.run(["git", "ls-tree", "--name-only", ref, "data/fichamento/"], cwd=RAIZ, capture_output=True)
+    nomes = [n for n in r.stdout.decode("utf-8").split() if n.endswith(".json")
+             and Path(n).name not in entidades.GERADOS_NO_FICHAMENTO]
+    for n in nomes:
+        r = subprocess.run(["git", "show", f"{ref}:{n}"], cwd=RAIZ, capture_output=True)
         if r.returncode == 0:
             regs += json.loads(r.stdout.decode("utf-8"))["registros"]
     return regs
@@ -98,6 +138,8 @@ def cobertura(regs, markdown=False):
     cob = defaultdict(lambda: defaultdict(int))
     for r in regs:
         cob[r["orixa"]][r["atributo"]] += 1
+    ORIXAS = [i for i in ENT_IDS if i in cob]  # só entidades com algum registro
+    sem = [i for i in ENT_IDS if i not in cob]
     if markdown:
         print("| atributo | " + " | ".join(ORIXAS) + " |")
         print("|---|" + "---:|" * len(ORIXAS))
@@ -107,11 +149,13 @@ def cobertura(regs, markdown=False):
         for o in ORIXAS:
             falta = [a for a in ATRIBUTOS if not cob[o][a]]
             print(f"{o}: {sum(cob[o].values())} registros; sem registro: {', '.join(falta)}")
+        print(f"lista-mestra: {len(ENT_IDS)} entidades; {len(ORIXAS)} com fichamento; "
+              f"{len(sem)} sem fichamento ({', '.join(sem)})")
 
 
 def main():
     regs = carregar()
-    erros = validar(regs)
+    erros = validar(regs) + validar_entidades(regs)
     revisores = revisao.carregar_revisores(RAIZ)
     erros += validar_revisores(revisores)
     e_rev, avisos = revisao.validar_revisoes(regs, revisores, TRAD_IDS)

@@ -2044,7 +2044,8 @@
       "origem",
       "elementos",
       "saudacao",
-      "alimentos"
+      "alimentos",
+      "hierarquia"
     ],
     "so_pre_fichamento": {},
     "retidos_ate_conselho": {

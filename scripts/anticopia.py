@@ -4,7 +4,9 @@
 Regra do projeto: nunca copiar trechos de livros; sempre parafrasear e citar.
 Este script procura sinais de cópia nos textos redigidos pelo projeto
 (valor, parafrase e nota do fichamento; descrições e notas de data/tradicoes.json;
-definições, divergências e notas de data/glossario.json):
+definições, divergências e notas de data/glossario.json; títulos, notas de
+curadoria e versões redigidas direto em data/itans.json — as versões espelhadas
+de um registro já são conferidas no fichamento):
 
 1. Citação longa entre aspas (>= LIMITE_CITACAO palavras) -> ERRO.
    Citações curtas (>= 6 palavras) são listadas como aviso para conferência.
@@ -82,9 +84,9 @@ def textos_do_projeto():
 
     `fontes` é a lista de source_ids citados (no fichamento, a fonte lida
     `via_source_id` vem primeiro)."""
-    for p in sorted((RAIZ / "data" / "fichamento").glob("*.json")):
-        if p.name == "divergencias.json":
-            continue
+    sys.path.insert(0, str(RAIZ / "scripts"))
+    import entidades
+    for p in entidades.arquivos_fichamento(RAIZ):
         for r in json.loads(p.read_text(encoding="utf-8"))["registros"]:
             fontes = [f for f in (r.get("via_source_id"), r["source_id"]) if f]
             for campo in ("valor", "parafrase", "nota"):
@@ -106,6 +108,20 @@ def textos_do_projeto():
                 yield f"glossario/{t['id']}.divergencias[{i}]", fd, d["texto"]
             if t.get("nota"):
                 yield f"glossario/{t['id']}.nota", fontes, t["nota"]
+    itans = RAIZ / "data" / "itans.json"
+    if itans.exists():
+        for it in json.loads(itans.read_text(encoding="utf-8"))["itans"]:
+            todas = [s["id"] for v in it["versoes"] for s in v["sources"]]
+            yield f"itans/{it['id']}.titulo", todas, it["titulo"]
+            if it.get("nota_curadoria"):
+                yield f"itans/{it['id']}.nota_curadoria", todas, it["nota_curadoria"]
+            for i, v in enumerate(it["versoes"]):
+                if v.get("registro"):
+                    continue  # espelho do registro, já conferido acima
+                fontes = [f for s in v["sources"] for f in (s.get("via"), s["id"]) if f]
+                for campo in ("valor", "resumo", "nota"):
+                    if v.get(campo):
+                        yield f"itans/{it['id']}.versoes[{i}].{campo}", fontes, v[campo]
 
 
 def main():

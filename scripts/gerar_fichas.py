@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
-"""Gera as fichas (data/orixas/<orixa>.json) e o grafo (data/conexoes.json)
-a partir do fichamento (data/fichamento/<orixa>.json).
+"""Gera as fichas (data/orixas/<id>.json) e o grafo (data/conexoes.json)
+a partir do fichamento (data/fichamento/<id>.json).
+
+- Gera ficha para TODA entidade de data/entidades.json com ao menos um
+  registro 'fichado'/'revisado' (orixá, qualidade, divindade suprema, conceito
+  cosmológico ou ancestral). O rótulo vem da lista-mestra. Ficha de entidade que
+  deixou de ter registro lido é apagada.
+- Atualiza `status_conteudo` em data/entidades.json (sem_fichamento, pre, fichado).
+- Sincroniza data/itans.json: versões espelhadas de um registro (campo
+  `registro`) recebem valor, resumo (= paráfrase), tradições, casa, fontes, nota
+  e status do registro; `arestas` de cada itã = arestas do grafo sustentadas por
+  registros do itã. Título, entidades e odu são editados à mão.
 
 Regras:
 - Usa SOMENTE registros com status 'fichado' ou 'revisado'. Registros
@@ -28,13 +38,13 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "scripts"))
+import entidades as ent  # noqa: E402
 import revisao  # noqa: E402
 
 REVISORES = revisao.por_id(revisao.carregar_revisores(RAIZ))
 SCHEMA_FICH = json.loads((RAIZ / "schemas" / "fichamento.schema.json").read_text(encoding="utf-8"))
 ATRIBUTOS = SCHEMA_FICH["properties"]["atributo"]["enum"]
-ORIXAS = SCHEMA_FICH["properties"]["orixa"]["enum"]
-ROTULOS = {"exu": "Exu", "ogum": "Ogum", "oxossi": "Oxóssi", "xango": "Xangô", "iemanja": "Iemanjá"}
+ROTULOS = {e["id"]: e["rotulo"] for e in ent.lista(RAIZ)}
 STATUS_OK = ("fichado", "revisado")
 RETIDOS = ("tabus", "alimentos")  # ver docs/ESTADO.md, decisão sobre tabus e alimentos
 ATRS_GRAFO = ("parentesco", "equivalencias", "sincretismo")
@@ -216,25 +226,88 @@ def gerar_entidades(conexoes):
     }
 
 
+def atualizar_status_conteudo(por_ent):
+    """Recalcula status_conteudo na lista-mestra (preserva o resto do arquivo)."""
+    p = RAIZ / "data" / "entidades.json"
+    dados = ler(p)
+    for e in dados["entidades"]:
+        e["status_conteudo"] = ent.status_conteudo(por_ent.get(e["id"], []))
+    dados["_meta"]["total"] = len(dados["entidades"])
+    escrever(p, dados)
+    return Counter(e["status_conteudo"] for e in dados["entidades"])
+
+
+ESPELHO = ("valor", "resumo", "tradicoes", "casa_ou_regiao", "sources", "nota", "status")
+
+
+def espelho(r):
+    """Campos de uma versão de itã que vêm do registro de fichamento."""
+    return {
+        "valor": r["valor"],
+        "resumo": r["parafrase"],
+        "tradicoes": r["tradicoes"],
+        "casa_ou_regiao": r.get("casa_ou_regiao"),
+        "sources": [{"id": r["source_id"], "loc": r["localizacao"], "via": r.get("via_source_id")}],
+        "nota": r.get("nota"),
+        "status": r["status"],
+    }
+
+
+def sincronizar_itans(todos, conexoes):
+    p = RAIZ / "data" / "itans.json"
+    if not p.exists():
+        return None
+    dados = ler(p)
+    regs = {r["id"]: r for r in todos}
+    por_registro = {}
+    for a in conexoes["arestas"]:
+        for v in a["versoes"]:
+            por_registro.setdefault(v["registro"], set()).add(a["id"])
+    for it in dados["itans"]:
+        arestas = set()
+        for v in it["versoes"]:
+            r = regs.get(v.get("registro"))
+            if r is None:
+                continue
+            novo = espelho(r)
+            for k in ESPELHO:
+                v[k] = novo[k]
+            arestas |= por_registro.get(r["id"], set())
+        it["arestas"] = sorted(arestas)
+    dados["_meta"]["total"] = len(dados["itans"])
+    escrever(p, dados)
+    return dados
+
+
 def main():
     todos = []
-    for o in ORIXAS:
-        p = RAIZ / "data" / "fichamento" / f"{o}.json"
-        if not p.exists():
-            continue
-        regs = ler(p)["registros"]
+    por_ent = ent.registros_por_entidade(RAIZ)
+    geradas = set()
+    for o, regs in por_ent.items():
         todos += regs
+        if o not in ROTULOS or not any(r["status"] in STATUS_OK for r in regs):
+            continue
+        geradas.add(o)
         ficha = gerar_ficha(o, regs)
         escrever(RAIZ / "data" / "orixas" / f"{o}.json", ficha)
         m = ficha["_meta"]
         print(f"{o}: {m['registros_usados']} versões em {len(ficha['atributos'])} atributos; "
               f"{m['registros_pre_fichamento_excluidos']} pre_fichamento excluídos; {m['registros_retidos']} retidos; "
               f"sem registro: {len(ficha['pendencias']['sem_registro'])}")
+    for p in (RAIZ / "data" / "orixas").glob("*.json"):
+        if p.stem not in geradas:
+            p.unlink()
+            print(f"{p.stem}: sem registro lido — ficha removida")
+    cont = atualizar_status_conteudo(por_ent)
+    print(f"entidades: {sum(cont.values())} na lista-mestra; status_conteudo {dict(cont)}")
     conexoes, avisos = gerar_conexoes(todos)
     escrever(RAIZ / "data" / "conexoes.json", conexoes)
     entidades = gerar_entidades(conexoes)
     escrever(RAIZ / "data" / "entidades_equivalentes.json", entidades)
     print(f"entidades_equivalentes: {entidades['_meta']['total']}")
+    itans = sincronizar_itans(todos, conexoes)
+    if itans is not None:
+        print(f"itans: {len(itans['itans'])} itãs, {sum(len(i['versoes']) for i in itans['itans'])} versões")
     print(f"conexoes: {conexoes['_meta']['total_nos']} nós, {conexoes['_meta']['total_arestas']} arestas {conexoes['_meta']['por_tipo']}")
     for a in avisos:
         print(" aviso:", a)

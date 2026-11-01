@@ -1,44 +1,183 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/fichamento.schema.json",
-  "title": "Registro de fichamento (afirmação atômica sobre um orixá)",
+  "title": "Registro de fichamento (afirmação atômica sobre uma entidade da lista-mestra)",
   "type": "object",
-  "required": ["id", "orixa", "atributo", "valor", "tradicoes", "source_id", "localizacao", "parafrase", "status"],
+  "required": [
+    "id",
+    "orixa",
+    "atributo",
+    "valor",
+    "tradicoes",
+    "source_id",
+    "localizacao",
+    "parafrase",
+    "status"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z]+-[0-9]{3}$" },
-    "orixa": { "enum": ["exu", "ogum", "oxossi", "xango", "iemanja"] },
-    "atributo": {
-      "enum": ["nomes", "origem", "dominios", "funcoes", "elementos", "cores", "dia_semana", "saudacao", "simbolos", "alimentos", "animais", "qualidades", "parentesco", "equivalencias", "sincretismo", "itans", "tabus", "festas", "historia_culto", "iconografia", "interpretacao_academica"]
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z_]*-[0-9]{3}$",
+      "description": "<id da entidade>-NNN"
     },
-    "valor": { "type": "string", "minLength": 1 },
-    "tradicoes": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-    "casa_ou_regiao": { "type": ["string", "null"] },
-    "source_id": { "type": "string" },
-    "via_source_id": { "type": ["string", "null"], "description": "Quando a afirmação foi lida numa fonte secundária que cita a primária (ex.: Prandi citando Baudin)." },
-    "localizacao": { "type": "string", "description": "Página/capítulo. 'a conferir' enquanto não lido na fonte." },
-    "parafrase": { "type": "string", "minLength": 1 },
-    "nota": { "type": ["string", "null"] },
-    "status": { "enum": ["pre_fichamento", "fichado", "revisado"] },
-    "evidencias": { "type": "array", "items": { "type": "string" } },
+    "orixa": {
+      "type": "string",
+      "pattern": "^[a-z][a-z_]*$",
+      "description": "id de uma entidade de data/entidades.json (orixá, qualidade, divindade suprema, conceito cosmológico ou ancestral); igual ao nome do arquivo data/fichamento/<id>.json. O nome do campo fica 'orixa' por compatibilidade."
+    },
+    "atributo": {
+      "enum": [
+        "nomes",
+        "origem",
+        "dominios",
+        "funcoes",
+        "elementos",
+        "cores",
+        "dia_semana",
+        "saudacao",
+        "simbolos",
+        "alimentos",
+        "animais",
+        "qualidades",
+        "parentesco",
+        "equivalencias",
+        "sincretismo",
+        "itans",
+        "tabus",
+        "festas",
+        "historia_culto",
+        "iconografia",
+        "interpretacao_academica",
+        "hierarquia"
+      ],
+      "description": "'hierarquia': posição ou relação cosmológica da entidade (ex.: lugar em relação à divindade suprema, ao Orum/Aiê ou a um grupo), sempre como versão de uma fonte e tradição."
+    },
+    "valor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tradicoes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "casa_ou_regiao": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "via_source_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Quando a afirmação foi lida numa fonte secundária que cita a primária (ex.: Prandi citando Baudin)."
+    },
+    "localizacao": {
+      "type": "string",
+      "description": "Página/capítulo. 'a conferir' enquanto não lido na fonte."
+    },
+    "parafrase": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nota": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "pre_fichamento",
+        "fichado",
+        "revisado"
+      ]
+    },
+    "evidencias": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "revisoes": {
       "type": "array",
       "description": "Revisões do conselho consultivo sobre ESTE registro (fonte da verdade da revisão; ver docs/conselho/como-registrar-revisao.md). Só se acrescentam: revisão não é apagada nem editada, e não apaga a versão.",
-      "items": { "$ref": "#/$defs/revisao" }
+      "items": {
+        "$ref": "#/$defs/revisao"
+      }
     }
   },
   "additionalProperties": false,
   "$defs": {
     "revisao": {
       "type": "object",
-      "required": ["revisor_id", "data", "tradicao", "parecer", "aspectos", "hash_registro", "nota"],
+      "required": [
+        "revisor_id",
+        "data",
+        "tradicao",
+        "parecer",
+        "aspectos",
+        "hash_registro",
+        "nota"
+      ],
       "properties": {
-        "revisor_id": { "type": "string", "pattern": "^rev-[0-9]{3}$", "description": "pseudônimo estável; o crédito público vem de data/revisores.json" },
-        "data": { "type": "string", "format": "date", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
-        "tradicao": { "type": "string", "pattern": "^[a-z_]+$", "description": "em nome de qual tradição a pessoa revisou; precisa estar em 'tradicoes' do registro e nas tradições do revisor" },
-        "parecer": { "enum": ["aprovado", "aprovado_com_ressalva", "contestado", "nao_publicar"] },
-        "aspectos": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["parafrase", "fonte", "tradicao", "tom", "publicavel"] }, "description": "o que foi de fato conferido" },
-        "hash_registro": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$", "description": "python3 scripts/revisao.py hash <id>; se o registro mudar, a revisão fica desatualizada" },
-        "nota": { "type": ["string", "null"], "description": "ressalva ou motivo da contestação, parafraseado; nunca fundamento. Obrigatória em 'contestado'." }
+        "revisor_id": {
+          "type": "string",
+          "pattern": "^rev-[0-9]{3}$",
+          "description": "pseudônimo estável; o crédito público vem de data/revisores.json"
+        },
+        "data": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "tradicao": {
+          "type": "string",
+          "pattern": "^[a-z_]+$",
+          "description": "em nome de qual tradição a pessoa revisou; precisa estar em 'tradicoes' do registro e nas tradições do revisor"
+        },
+        "parecer": {
+          "enum": [
+            "aprovado",
+            "aprovado_com_ressalva",
+            "contestado",
+            "nao_publicar"
+          ]
+        },
+        "aspectos": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "parafrase",
+              "fonte",
+              "tradicao",
+              "tom",
+              "publicavel"
+            ]
+          },
+          "description": "o que foi de fato conferido"
+        },
+        "hash_registro": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "description": "python3 scripts/revisao.py hash <id>; se o registro mudar, a revisão fica desatualizada"
+        },
+        "nota": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ressalva ou motivo da contestação, parafraseado; nunca fundamento. Obrigatória em 'contestado'."
+        }
       },
       "additionalProperties": false
     }
