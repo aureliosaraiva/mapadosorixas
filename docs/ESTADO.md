@@ -2,7 +2,7 @@
 
 > Arquivo de passagem entre sessões. **Toda sessão começa lendo este arquivo e termina atualizando-o.** Mantenha-o curto, com no máximo uma página: o detalhe fica nos relatórios linkados.
 
-**Última atualização:** 2026-11-01 (sessões trad02, fichamento-06, fichamento-07, revisao e anticopia)
+**Última atualização:** 2026-11-01 (sessões trad02, fichamento-06, fichamento-07, revisao, anticopia e anticopia2)
 
 ## Onde estamos
 
@@ -18,7 +18,7 @@
 | Entidades equivalentes (`data/entidades_equivalentes.json`) | 24 (14 voduns: Legba, Gu, Badé, Sobo e, no fichamento-07, Abê, Naê, Vondereji, Averequete, Xadantã, Doçu, Bedigá, Doçupé, Agüê, Azacá; 3 inquices; 7 nomes fon/banto não classificados) | idem |
 | Tradições (`data/tradicoes.json`) | 19: 16 `com_fonte`, 3 `rascunho_sem_fonte` (benim, arara, orisha_trinidad). Fichamento-07: `candomble_efon` ganhou descrição mínima (Castillo 2022) e as páginas de Halloy em tradições e glossário viraram página impressa (PDF − 1). Sessão trad02: palo_monte e xango_sergipe ganharam fonte; 7 reforçadas ([relatório](pesquisa/tradicoes-02.md)) | idem |
 | Glossário (`data/glossario.json`) | 54 termos com fonte e página (+7 na trad02: Regla de Ocha, Palo Monte, nfumbi, mpungu, cabildo, Xambá, abatá); 6 pendentes em `_meta.pendentes` | idem |
-| Anti-cópia | Sem referências: 0 erros. **Auditoria 01 com o texto integral de 29 obras** ([relatório](pesquisa/anticopia-01.md)): **10 erros** (8+ palavras) em 9 registros (7 de Prandi 2001, 1 de Seixas 2018, 1 de Queiroga & Nascimento 2019; 1 falso positivo) e 31 campos com redação próxima demais; 43 reescritas propostas, **não aplicadas**. Tradições e glossário: 0 erros. Oro 2008 não coberto | `ANTICOPIA_REFS=<pasta> python3 scripts/anticopia.py` |
+| Anti-cópia | **Com o texto integral de 25 obras: 0 erros, 0 classe B** (sessão anticopia2, [relatório](pesquisa/anticopia-02.md)): 40 campos do fichamento, 1 nota de tradição e 1 definição do glossário reescritos a partir da [auditoria 01](pesquisa/anticopia-01.md); restam 36 avisos de 6–7 palavras, todos classe C (nomes, datas, expressões correntes). Sem referências: 0 erros. Fora da 2ª passagem: obras do HAL (anti-robô), Argyriadis, Pitta e Oro 2008 | `python3 scripts/baixar_refs.py` e `ANTICOPIA_REFS=/tmp/refs python3 scripts/anticopia.py` |
 | Site (`site/`) | 14 páginas: início com busca, catálogo, 5 fichas (com mini-grafo e termos do glossário ligados), grafo, tradições, glossário, fontes, metodologia, baixar dados, sobre (+ 12 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
 | QA do site | 284/284 versões batem com `data/orixas`; 54/54 termos do glossário e 19/19 tradições conferidos contra os dados (fontes, ano e página); texto das 3 tradições sem fonte ausente do site; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1760 links e âncoras internos sem 404; axe-core sem violações (14 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
 | Revisão do conselho | 0 revisores em `data/revisores.json`, 0 revisões; 37 testes (`tests/test_revisao.py`) e teste ponta a ponta com dados sintéticos numa cópia temporária (`tests/e2e_revisao_site.py`) | `python3 -m unittest discover -s tests`; `python3 tests/e2e_revisao_site.py` |
@@ -30,7 +30,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 
 ## Próximas tarefas (em ordem)
 
-0. **(P1) Aplicar as reescritas da auditoria anti-cópia** ([`anticopia-01`](pesquisa/anticopia-01.md) §3): 10 campos da classe A (erro) e 31 da classe B em `data/fichamento/` (exu, iemanja, ogum, oxossi, xango), 1 nota de `data/tradicoes.json` e 1 definição de `data/glossario.json`. Depois regenerar as fichas e rodar o anti-cópia com as referências (baixar de novo para `/tmp/refs`, com as URLs do §2 do relatório) até 0 erros. Na mesma sessão, ou em outra, ajustar `scripts/anticopia.py` como pede o §5.2 (hifenização, falso positivo de referência bibliográfica, aviso para 6–7 palavras iguais à fonte citada).
+0. ~~**(P1) Aplicar as reescritas da auditoria anti-cópia**~~: feito na sessão anticopia2 ([`anticopia-02`](pesquisa/anticopia-02.md)): 0 erros e 0 classe B com 25 obras; detector ajustado (§5.2 da auditoria 01) e `scripts/baixar_refs.py`. Falta só a conferência de tradução (francês/inglês) por pessoa bilíngue → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3.
 1. **Saudações, itãs e origem africana** dos 5 orixás. Depende de Verger, Prandi (*Mitologia*), Cacciatore e Beniste, que precisam de exemplar → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §2.
 2. **Equivalências com inquices e voduns.** Depende de Castro 2001, Parés 2006 e Lopes 1988 (exemplar). *(Tambor de Mina: feito no fichamento-07 com Prandi 2005, em duas casas, a Casa das Minas (via S. Ferretti, a conferir no original) e a Casa das Minas de Tóia Jarina (SP). Falta o Jeje da Bahia (Parés) e os inquices.)*
 3. **Resolver os 16 `pre_fichamento`.** As fontes são pagas, impressas ou estão fora do ar: Tishken 2009 (3), Brown 1989 (2), Silva & Silva Neto 2025 (2), Verger 1954 (2), Pérez 2013 (2), Ribas 2010 (1, oasisbr fora do ar), Beier 1970, Barnes 1989, Verger 1981 e Carneiro 1948 (1 cada).
@@ -81,7 +81,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 - **Tradições `com_fonte`** exigem fontes `conferido_web` ou acima (checado por `validar_fichas.py`). O que a fonte não sustenta sai da descrição e vai para `nota` ou PENDENCIAS.
 - **Afirmações sobre os 5 orixás achadas em leituras de outra tarefa** (tradições, glossário) não entram direto no fichamento: vão para o relatório da sessão, com fonte, página e paráfrase, e a orquestradora as encaminha.
 - **Equivalência vodum × orixá (fichamento-07):** vale para a casa que a fonte descreve (`casa_ou_regiao`), nunca como identidade. No grafo, só o santo do próprio orixá vira aresta de sincretismo; os santos dos voduns correspondentes ficam no `valor`. Panteão que a fonte lida resume de outro autor (Prandi resumindo S. Ferretti) leva `source_id` do autor resumido e `via_source_id` da fonte lida.
-- **Anti-cópia com referências:** ao ler uma obra, salvar o `.txt` fora do repo e rodar `ANTICOPIA_REFS=<pasta> python3 scripts/anticopia.py`. A checagem sem referências não pega cópia de obra.
+- **Anti-cópia com referências (obrigatório antes do commit, regra no `CLAUDE.md`):** toda sessão que ficha uma fonte monta `/tmp/refs` com `scripts/baixar_refs.py` (ou salva o PDF à mão em `/tmp/refs-pdf/<source_id>.pdf` e usa `--so-converter`) e roda `ANTICOPIA_REFS=/tmp/refs python3 scripts/anticopia.py`. Meta: 0 erros. Cada aviso “próximo” (6–7 palavras iguais à fonte citada) é reescrito ou justificado no relatório da sessão. A checagem sem referências não pega cópia de obra. Sequências feitas sobretudo de números e marcas de página (referência bibliográfica) não contam como cópia.
 
 - **Conselho (implementado, sessão revisao):** a aprovação fica no **registro de fichamento** (`revisoes`: revisor, data, tradição, parecer, aspectos, hash do registro), não na ficha gerada; aprovação vale só para a tradição que esteja no registro **e** no cadastro do revisor; `revisado` exige aprovação vigente (hash atual), e revisão desatualizada volta a `fichado` na geração; `contestado` não apaga versão; `nao_publicar` retira da ficha pública (vai para `retidos_ate_conselho`, também fora do grafo e das divergências), mesmo com hash antigo; revisões só se acrescentam (checado contra `--base`, no CI o commit anterior). Cadastro em `data/revisores.json`, não em `data/conselho/`, só com o crédito autorizado; contatos e termos assinados ficam fora do repositório. A versão gerada só ganha `revisoes` quando há revisão, então os dados sem revisão não mudaram. Selo "Rascunho" sai só quando **todas** as versões da ficha estão revisadas (a confirmar com o autor). Regras em `scripts/revisao.py`; o crédito exibido é calculado igual em `site/src/lib/dados.js`. Praticantes são procurados **por instituição** (terreiro tombado, federação, núcleo universitário), nunca listados por nome.
 
@@ -104,6 +104,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 | `data/fontes/coleta/<data>/` | saída bruta da coleta por base, `candidatos.json`, `triagem.json`, `triagem_resumo.json` |
 | `docs/pesquisa/fichamento-0*.md` | rodadas de fichamento (fontes lidas, correções, divergências) |
 | `docs/pesquisa/anticopia-01.md` | auditoria anti-cópia com o texto integral de 29 obras: trechos suspeitos e reescritas propostas |
+| `docs/pesquisa/anticopia-02.md` | aplicação das reescritas (0 erros, 0 classe B), mudanças no detector, avisos classe C justificados |
 | `docs/pesquisa/tradicoes-02.md` | 2ª rodada de tradições e glossário; afirmações sobre os 5 orixás a encaminhar |
 | `data/fontes/catalogo.json` | catálogo de fontes (esquema em `schemas/fonte.schema.json`) |
 | `data/fichamento/<orixa>.json` | registros atômicos por orixá (esquema em `schemas/fichamento.schema.json`) |
@@ -116,7 +117,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 | `data/glossario.json` | glossário (esquema `schemas/glossario.schema.json`) |
 | `data/revisores.json` | cadastro público de revisores (vazio; esquema `schemas/revisor.schema.json`) |
 | `tests/` | testes da revisão com fixtures sintéticas (`python3 -m unittest discover -s tests`) e ponta a ponta (`e2e_revisao_site.py`) |
-| `scripts/` | validação e geração; `qa_site.py` confere o site gerado |
+| `scripts/` | validação e geração; `qa_site.py` confere o site gerado; `baixar_refs.py` monta a pasta de referências do anti-cópia (fora do repo) |
 | `site/` | protótipo do site (Astro); ver `site/README.md` |
 | `docs/conselho/` | Fase 4: candidatos a revisor, kit do revisor (guia, sigilo, termo, convites pt/es), proposta de registro da revisão e passo a passo para registrar uma revisão |
 | `docs/screenshots/` | capturas das páginas principais (`site/scripts/screenshots.cjs`) |
