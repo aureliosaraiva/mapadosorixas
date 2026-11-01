@@ -1,6 +1,6 @@
 // Estilo visual do grafo (página Grafo e mini-grafo das fichas). Cor nunca é o
 // único código: nós têm formas e arestas têm estilos de linha diferentes.
-import { conexoes, fichaPorId, url } from './dados.js';
+import { conexoes, fichaPorId, entidadePorId, ROTULO_TIPO_ENTIDADE, ROTULO_NO, url } from './dados.js';
 
 export const CORES_ARESTA = {
   parentesco: { cor: '#6b3b8f', estilo: 'solid' },
@@ -20,6 +20,12 @@ export const FORMA_NO = {
 };
 export const ROTULO_LINHA = { solid: 'contínua', dashed: 'tracejada', dotted: 'pontilhada' };
 
+// Tipo de entidade de um nó, para o filtro do grafo: o `tipo` da lista-mestra
+// (orixá, qualidade, divindade suprema…) quando o nó está nela; senão o tipo do nó
+// no mapa do grafo (santo católico, vodum, inquice…).
+export const tipoEntidadeNo = (n) => entidadePorId[n.id]?.tipo ?? n.tipo;
+export const rotuloTipoEntidade = (t) => ROTULO_TIPO_ENTIDADE[t] ?? ROTULO_NO[t] ?? t;
+
 export const tradDaAresta = (e) => [...new Set(e.versoes.flatMap((v) => v.tradicoes))];
 
 // Elementos Cytoscape para um conjunto de nós e arestas de data/conexoes.json.
@@ -27,7 +33,7 @@ export function elementosCytoscape(nos, arestas) {
   return [
     ...nos.map((n) => ({
       data: {
-        id: n.id, label: n.rotulo, tipo: n.tipo,
+        id: n.id, label: n.rotulo, tipo: n.tipo, tipoEnt: tipoEntidadeNo(n),
         cor: FORMA_NO[n.tipo]?.cor ?? '#666', forma: FORMA_NO[n.tipo]?.forma ?? 'ellipse',
         href: fichaPorId[n.id] ? url(`orixas/${n.id}`) : '',
       },

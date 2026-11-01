@@ -1,6 +1,6 @@
 // Arquivos publicados em /dados/ no build (página "Baixar dados").
 // Só entram os dados PÚBLICOS gerados (fichas, grafo, entidades, divergências,
-// catálogo de fontes, glossário). O fichamento bruto (data/fichamento/<orixa>.json) NÃO é
+// catálogo de fontes, glossário, lista-mestra de entidades e itãs). O fichamento bruto (data/fichamento/<orixa>.json) NÃO é
 // publicado: contém registros em pré-fichamento e registros retidos até decisão
 // do conselho (tabus e alimentos rituais).
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
@@ -28,6 +28,25 @@ function tradicoesPublicas() {
   });
   const meta = { ...t._meta, publicacao: 'Cópia publicada pelo site: descrições com status rascunho_sem_fonte foram removidas (descricao: null) até terem fonte.' };
   return Buffer.from(JSON.stringify({ _meta: meta, tradicoes }, null, 2) + '\n', 'utf-8');
+}
+
+// Lista-mestra: só identificadores. O rótulo provisório de grupo (a confirmar) não
+// é publicado enquanto não houver registro fichado que o confirme.
+export function entidadesPublicas() {
+  const t = JSON.parse(ler('entidades.json').toString('utf-8'));
+  const entidades = t.entidades.map((e) => ({ ...e, grupo: e.grupo && e.grupo.confirmado_por.length ? e.grupo : null }));
+  const meta = { ...t._meta, publicacao: 'Cópia publicada pelo site: rótulos de grupo ainda não confirmados por registro fichado foram removidos (grupo: null).' };
+  return Buffer.from(JSON.stringify({ _meta: meta, entidades }, null, 2) + '\n', 'utf-8');
+}
+
+// Itãs: só versões lidas na fonte (fichado/revisado); itã sem nenhuma fica de fora.
+export function itansPublicos() {
+  const t = JSON.parse(ler('itans.json').toString('utf-8'));
+  const itans = t.itans
+    .map((it) => ({ ...it, versoes: it.versoes.filter((v) => v.status === 'fichado' || v.status === 'revisado') }))
+    .filter((it) => it.versoes.length > 0);
+  const meta = { ...t._meta, total: itans.length, publicacao: 'Cópia publicada pelo site: só versões lidas na fonte (fichado/revisado).' };
+  return Buffer.from(JSON.stringify({ _meta: meta, itans }, null, 2) + '\n', 'utf-8');
 }
 
 function leiame(arquivos) {
@@ -65,6 +84,8 @@ function montar() {
   if (existsSync(path.join(DATA, 'glossario.json'))) {
     add('glossario.json', 'glossário de termos, com fonte e página', ler('glossario.json'), 'data/glossario.json');
   }
+  add('entidades.json', 'lista-mestra das entidades: só identificadores (sem afirmações factuais)', entidadesPublicas(), 'data/entidades.json (filtrado)');
+  add('itans.json', 'itãs com versões lado a lado, resumos parafraseados e fontes', itansPublicos(), 'data/itans.json (filtrado)');
   add('tradicoes.json', 'tradições (id, nome e grupo; descrições sem fonte removidas)', tradicoesPublicas(), 'data/tradicoes.json (filtrado)');
   add('LEIAME.txt', 'aviso de licença e descrição dos arquivos', leiame(lista), 'gerado no build');
   return lista;

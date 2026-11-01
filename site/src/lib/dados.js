@@ -7,20 +7,55 @@ import tradicoesJson from '../../../data/tradicoes.json';
 import divergenciasJson from '../../../data/fichamento/divergencias.json';
 import glossarioJson from '../../../data/glossario.json';
 import revisoresJson from '../../../data/revisores.json';
+import listaMestraJson from '../../../data/entidades.json';
+import itansJson from '../../../data/itans.json';
 
 const fichasMod = import.meta.glob('../../../data/orixas/*.json', { eager: true });
 const fichamentoMod = import.meta.glob('../../../data/fichamento/*.json', { eager: true });
 
 const valor = (m) => (m && m.default ? m.default : m);
 
-// Ordem do MVP (CLAUDE.md)
-const ORDEM = ['exu', 'ogum', 'oxossi', 'xango', 'iemanja'];
+// Lista-mestra (data/entidades.json): só identificadores. A ordem dela é a ordem
+// de exibição (os 5 do MVP primeiro).
+export const listaEntidades = listaMestraJson.entidades;
+export const listaMeta = listaMestraJson._meta;
+export const entidadePorId = Object.fromEntries(listaEntidades.map((e) => [e.id, e]));
+const ORDEM = listaEntidades.map((e) => e.id);
 
 export const fichas = Object.values(fichasMod)
   .map(valor)
   .sort((a, b) => ORDEM.indexOf(a.id) - ORDEM.indexOf(b.id));
 
 export const fichaPorId = Object.fromEntries(fichas.map((f) => [f.id, f]));
+
+export const ROTULO_TIPO_ENTIDADE = {
+  orixa: 'Orixá',
+  qualidade: 'Qualidade',
+  divindade_suprema: 'Divindade suprema',
+  conceito_cosmologico: 'Conceito cosmológico',
+  ancestral: 'Ancestrais',
+};
+export const ROTULO_GRUPO_ENTIDADE = { funfun: 'Orixás funfun', aboro: 'Aborós', iaba: 'Iabás' };
+// grupo só é exibido quando confirmado por registro fichado (ver data/entidades.json)
+export const grupoConfirmado = (e) => (e?.grupo && e.grupo.confirmado_por.length ? e.grupo : null);
+
+// Link de uma entidade: a ficha, se houver; senão o cartão "em pesquisa" no catálogo.
+export function hrefEntidade(id) {
+  if (fichaPorId[id]) return url(`orixas/${id}`);
+  if (entidadePorId[id]) return url(`catalogo#e-${id}`);
+  return null;
+}
+export const rotuloEntidade = (id) => entidadePorId[id]?.rotulo ?? rotuloNo(id);
+
+// ---------------------------------------------------------------- itãs
+// Só versões lidas na fonte (fichado/revisado) aparecem; itã sem nenhuma fica de fora.
+const LIDO = new Set(['fichado', 'revisado']);
+export const itansMeta = itansJson._meta;
+export const itans = itansJson.itans
+  .map((it) => ({ ...it, versoes: it.versoes.filter((v) => LIDO.has(v.status)) }))
+  .filter((it) => it.versoes.length > 0);
+export const itaPorId = Object.fromEntries(itans.map((it) => [it.id, it]));
+export const itaDoRegistro = Object.fromEntries(itans.flatMap((it) => it.versoes.filter((v) => v.registro).map((v) => [v.registro, it])));
 
 export const fontes = catalogoJson.fontes;
 export const fontePorId = Object.fromEntries(fontes.map((f) => [f.id, f]));
@@ -65,6 +100,7 @@ export const ROTULO_ATRIBUTO = {
   historia_culto: 'História do culto',
   iconografia: 'Iconografia',
   interpretacao_academica: 'Interpretação acadêmica',
+  hierarquia: 'Hierarquia e posição cosmológica',
 };
 export const ORDEM_ATRIBUTOS = Object.keys(ROTULO_ATRIBUTO);
 export const rotuloAtributo = (a) => ROTULO_ATRIBUTO[a] || a;
@@ -179,6 +215,8 @@ export const usoDasFontes = (() => {
       for (const v of versoes) for (const s of v.sources) { somar(s.id); somar(s.via); }
     }
   }
+  // versões de itã redigidas direto em data/itans.json (as espelhadas já contam na ficha)
+  for (const it of itans) for (const v of it.versoes) if (!v.registro) for (const s of v.sources) { somar(s.id); somar(s.via); }
   return uso;
 })();
 

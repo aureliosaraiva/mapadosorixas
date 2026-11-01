@@ -40,6 +40,16 @@ Uso: python3 scripts/qa_site.py [--dist site/dist]
 Respeita SITE_BASE (o mesmo do build; padrão /mapadosorixas, o subcaminho do
 GitHub Pages; SITE_BASE=/ para a raiz) para resolver links absolutos: link
 absoluto fora do prefixo conta como quebrado.
+11. Lista-mestra, itãs e cosmologia (modelo 2): o catálogo tem um cartão por
+   entidade de data/entidades.json; com ficha → link para a ficha; sem ficha →
+   "Em pesquisa", sem link de ficha nem texto além de nome e tipo; rótulo de grupo
+   só se confirmado por registro; aviso em entidade sensível. Página Itãs lista
+   todos os itãs com versão lida; cada página de itã mostra exatamente as versões
+   fichadas/revisadas (valor, resumo, tradições, odu, nota e fontes idênticos ao
+   JSON) e nenhuma em pré-fichamento. Cosmologia mostra exatamente as versões de
+   'hierarquia' das fichas ou, sem nenhuma, o aviso de estrutura vazia. Grafo
+   tem o filtro por tipo de entidade. /dados/entidades.json e /dados/itans.json
+   são as cópias filtradas.
 10. Publicação (rascunho): faixa "Rascunho — aguardando revisão…" em TODAS as
    páginas; Início com o aviso de versão inicial em revisão e link para as
    issues; nenhum <link rel=canonical>/sitemap que convide indexação.
@@ -393,6 +403,12 @@ def conferir_downloads(dist: Path) -> int:
         erro("[dados] dist/dados/ não foi gerado")
         return 0
     pares = {f"orixas/{p.name}": p for p in (DATA / "orixas").glob("*.json")}
+    for nome, esperado in (("entidades.json", entidades_publicas()), ("itans.json", itans_publicos())):
+        q = d / nome
+        if not q.exists():
+            erro(f"[dados] falta dados/{nome}")
+        elif json.loads(q.read_text(encoding="utf-8")) != esperado:
+            erro(f"[dados] dados/{nome} difere da cópia filtrada esperada de data/{nome}")
     pares |= {"conexoes.json": DATA / "conexoes.json", "entidades_equivalentes.json": DATA / "entidades_equivalentes.json",
               "divergencias.json": DATA / "fichamento" / "divergencias.json", "fontes.json": DATA / "fontes" / "catalogo.json"}
     if (DATA / "glossario.json").exists():
@@ -417,7 +433,7 @@ def conferir_downloads(dist: Path) -> int:
     if not pag.exists() or "a definir pelo autor" not in pag.read_text(encoding="utf-8"):
         erro("[dados] página Baixar dados ausente ou sem aviso de licença")
     publicados = {str(p.relative_to(d)) for p in d.rglob("*") if p.is_file()}
-    extras = publicados - set(pares) - {"tradicoes.json", "LEIAME.txt"}
+    extras = publicados - set(pares) - {"tradicoes.json", "LEIAME.txt", "entidades.json", "itans.json"}
     if extras:
         erro(f"[dados] arquivos não previstos em dados/: {sorted(extras)}")
     return len(publicados)
@@ -634,6 +650,153 @@ def conferir_sobre(dist: Path) -> None:
             erro(f"[sobre] e-mail exposto em {pag.relative_to(dist)}")
 
 
+# ----------------------------------------------------------------- 11: lista-mestra, itãs, cosmologia
+
+LIDOS = ("fichado", "revisado")
+
+
+def entidades_publicas():
+    t = json.loads((DATA / "entidades.json").read_text(encoding="utf-8"))
+    ents = [{**e, "grupo": e["grupo"] if e.get("grupo") and e["grupo"]["confirmado_por"] else None} for e in t["entidades"]]
+    return {"_meta": {**t["_meta"], "publicacao": "Cópia publicada pelo site: rótulos de grupo ainda não confirmados por registro fichado foram removidos (grupo: null)."}, "entidades": ents}
+
+
+def itans_publicos():
+    t = json.loads((DATA / "itans.json").read_text(encoding="utf-8"))
+    its = [{**it, "versoes": [v for v in it["versoes"] if v["status"] in LIDOS]} for it in t["itans"]]
+    its = [it for it in its if it["versoes"]]
+    return {"_meta": {**t["_meta"], "total": len(its), "publicacao": "Cópia publicada pelo site: só versões lidas na fonte (fichado/revisado)."}, "itans": its}
+
+
+def conferir_modelo2(dist: Path, fichas: dict, fontes: dict) -> tuple[int, int, int]:
+    lista = json.loads((DATA / "entidades.json").read_text(encoding="utf-8"))["entidades"]
+    rot_grupo = {"funfun": "Orixás funfun", "aboro": "Aborós", "iaba": "Iabás"}
+    # catálogo
+    arq = dist / "catalogo" / "index.html"
+    doc = parse(arq) if arq.exists() else None
+    if doc is None:
+        erro("[catálogo] página catalogo/ não foi gerada")
+    else:
+        cartoes = {n.attrs.get("data-entidade"): n for n in doc.busca("li", "cartao")}
+        for x in sorted(set(cartoes) - {e["id"] for e in lista}):
+            erro(f"[catálogo] cartão '{x}' fora de data/entidades.json")
+        for e in lista:
+            c = cartoes.get(e["id"])
+            onde = f"[catálogo] {e['id']}"
+            if c is None:
+                erro(f"{onde}: entidade da lista-mestra sem cartão")
+                continue
+            if c.attrs.get("id") != f"e-{e['id']}":
+                erro(f"{onde}: âncora e-{e['id']} ausente")
+            links_ficha = [a for a in c.busca("a") if (a.attrs.get("href") or "").rstrip("/").endswith(f"orixas/{e['id']}")]
+            if e["id"] in fichas:
+                if not links_ficha:
+                    erro(f"{onde}: tem ficha, mas o cartão não linka para ela")
+                if "em-pesquisa" in c.classes():
+                    erro(f"{onde}: tem ficha, mas está marcado como em pesquisa")
+            else:
+                txt = norm(c.texto())
+                if "em-pesquisa" not in c.classes() or "Em pesquisa" not in txt:
+                    erro(f"{onde}: sem ficha e sem o aviso 'Em pesquisa'")
+                if links_ficha or c.primeiro("a") is not None:
+                    erro(f"{onde}: cartão em pesquisa com link")
+                ps = [p for p in c.busca("p") if not ({"tipo-entidade", "status-pesquisa", "aviso-sensivel"} & set(p.classes()))]
+                if ps:
+                    erro(f"{onde}: cartão em pesquisa com texto fora de nome/tipo/aviso: '{norm(ps[0].texto())[:50]}'")
+            g = e.get("grupo")
+            if g and not g["confirmado_por"] and rot_grupo[g["rotulo"]] in norm(c.texto()):
+                erro(f"{onde}: rótulo de grupo não confirmado exibido")
+            if e.get("sensivel") and c.primeiro("p", "aviso-sensivel") is None:
+                erro(f"{onde}: entidade sensível sem aviso")
+    # itãs
+    pub = itans_publicos()["itans"]
+    todos = json.loads((DATA / "itans.json").read_text(encoding="utf-8"))["itans"]
+    pre = [v for it in todos for v in it["versoes"] if v["status"] not in LIDOS]
+    arq = dist / "itans" / "index.html"
+    if not arq.exists():
+        erro("[itãs] página itans/ não foi gerada")
+    else:
+        listados = {n.attrs.get("data-ita") for n in parse(arq).busca("li", "cartao")}
+        if listados != {it["id"] for it in pub}:
+            erro(f"[itãs] lista difere dos itãs com versão lida: {sorted(listados ^ {it['id'] for it in pub})}")
+    nv = 0
+    for it in pub:
+        onde = f"[itã] {it['id']}"
+        arq = dist / "itans" / it["id"] / "index.html"
+        if not arq.exists():
+            erro(f"{onde}: página não gerada")
+            continue
+        doc = parse(arq)
+        if doc.primeiro("p", "selo") is None:
+            erro(f"{onde}: falta o selo de rascunho")
+        h1 = doc.primeiro("h1")
+        if h1 is None or norm(h1.texto()) != norm(it["titulo"]):
+            erro(f"{onde}: título difere do JSON")
+        lis = list(doc.busca("li", "versao-ita"))
+        if len(lis) != len(it["versoes"]):
+            erro(f"{onde}: {len(lis)} versões exibidas, {len(it['versoes'])} lidas no JSON")
+        for li, v in zip(lis, it["versoes"]):
+            nv += 1
+            ov = f"{onde}/{v.get('registro') or '?'}"
+            if (li.attrs.get("data-registro") or None) != v.get("registro"):
+                erro(f"{ov}: versão fora de ordem ou de outro registro")
+            for cls, esperado in (("valor", v["valor"]), ("resumo", v["resumo"])):
+                n = li.primeiro(None, cls)
+                if n is None or norm(n.texto()) != norm(esperado):
+                    erro(f"{ov}: {cls} difere do JSON")
+            if v.get("nota"):
+                n = li.primeiro("p", "nota")
+                if n is None or norm(v["nota"]) not in norm(n.texto()):
+                    erro(f"{ov}: nota ausente ou diferente")
+            odu = li.primeiro("p", "odu")
+            if bool(odu) != bool(v.get("odu")) or (odu and norm(v["odu"]["nome"]) not in norm(odu.texto())):
+                erro(f"{ov}: odu exibido difere do JSON")
+            fp = li.primeiro("p", "fontes-ita")
+            if fp is None:
+                erro(f"{ov}: sem bloco de fontes")
+            else:
+                conferir_citacoes(fp, v["sources"], fontes, ov)
+            etiquetas = {norm(x.attrs.get("title", "")).split(" — ")[0] for x in li.busca("span", "etiqueta")}
+            if etiquetas != {norm(NOME_TRAD.get(t, t)) for t in v["tradicoes"]}:
+                erro(f"{ov}: tradições exibidas diferem do JSON")
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        txt = norm(re.sub(r"<[^>]+>", " ", pag.read_text(encoding="utf-8")))
+        for v in pre:
+            r = norm(v["resumo"])
+            if len(r) >= 12 and r in txt:
+                erro(f"[itã] resumo de versão não lida aparece em {pag.relative_to(dist)}")
+    # cosmologia
+    arq = dist / "cosmologia" / "index.html"
+    nh = 0
+    if not arq.exists():
+        erro("[cosmologia] página cosmologia/ não foi gerada")
+    else:
+        doc = parse(arq)
+        esperadas = {v["registro"]: v for f in fichas.values() for v in f["atributos"].get("hierarquia", [])}
+        vistas = {n.attrs.get("data-registro"): n for n in doc.busca("li", "versao-hierarquia")}
+        if set(vistas) != set(esperadas):
+            erro(f"[cosmologia] versões exibidas diferem das versões de hierarquia das fichas: {sorted(set(vistas) ^ set(esperadas))}")
+        for rid, v in esperadas.items():
+            n = vistas.get(rid)
+            if n is None:
+                continue
+            nh += 1
+            if norm((n.primeiro(None, "valor") or n).texto()) != norm(v["valor"]) or norm((n.primeiro("p", "resumo") or n).texto()) != norm(v["parafrase"]):
+                erro(f"[cosmologia] {rid}: valor ou paráfrase difere da ficha")
+            conferir_citacoes(n.primeiro("p", "fontes-hierarquia") or n, v["sources"], fontes, f"[cosmologia] {rid}")
+        if not esperadas and doc.primeiro("p", id="aviso-sem-hierarquia") is None:
+            erro("[cosmologia] sem versões de hierarquia e sem o aviso de estrutura vazia")
+        if esperadas and doc.primeiro("p", id="aviso-sem-hierarquia") is not None:
+            erro("[cosmologia] aviso de estrutura vazia exibido apesar de haver versões")
+    # grafo: filtro por tipo de entidade
+    g = dist / "grafo" / "index.html"
+    if g.exists() and not list(parse(g).busca("input", name="tipo-entidade")):
+        erro("[grafo] falta o filtro por tipo de entidade")
+    return len(lista), nv, nh
+
+
 # ----------------------------------------------------------------- 10: publicação em rascunho
 
 ISSUES = re.compile(r"github\.com/[^/]+/[^/]+/issues")
@@ -701,6 +864,7 @@ def main():
     conferir_sobre(dist)
     conferir_publicacao(dist)
     nrevisores = conferir_revisores(dist)
+    nents, nvitans, nhier = conferir_modelo2(dist, fichas, fontes)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
     nrev_vers = sum(1 for f in fichas.values() for vs in f["atributos"].values() for v in vs if v.get("revisoes"))
     print(f"QA do site: {len(fichas)} fichas, {nv}/{total} versões conferidas contra data/orixas; "
@@ -708,6 +872,7 @@ def main():
           f"{ndados} arquivos em dados/; glossário: {ntermos} termos, {nligados} links de termo nas páginas; "
           f"tradições: {ntrad} exibidas, {nrasc} com descrição pendente de fonte (texto ausente do site); "
           f"revisão: {nrevisores} revisor(es) cadastrado(s), {nrev_vers} versão(ões) com revisão exibida; "
+          f"lista-mestra: {nents} entidades no catálogo; itãs: {nvitans} versões conferidas; cosmologia: {nhier} versões de hierarquia; "
           f"prefixo: {site_base() or '/'}")
     if erros:
         print(f"\n{len(erros)} erro(s):")

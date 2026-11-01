@@ -26,7 +26,7 @@ jobs:
           python3 scripts/validar_fichamento.py --base "$BASE"
       - name: Testes da revisão (fixtures sintéticas)
         run: python3 -m unittest discover -s tests -v
-      - name: Fichas, grafo, entidades e tradições (inclui checar se estão em dia com o fichamento)
+      - name: Fichas, grafo, entidades, lista-mestra, itãs e tradições (inclui checar se estão em dia com o fichamento)
         run: python3 scripts/validar_fichas.py
       - name: Divergências em dia
         run: |
@@ -54,3 +54,5 @@ jobs:
         run: python3 ../scripts/qa_site.py
       - name: Revisão ponta a ponta (dados sintéticos numa cópia temporária → build → QA)
         run: python3 ../tests/e2e_revisao_site.py
+      - name: Modelo 2 ponta a ponta (lista-mestra, ficha de entidade nova, itãs, cosmologia)
+        run: python3 ../tests/e2e_modelo2_site.py

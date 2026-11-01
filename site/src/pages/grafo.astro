@@ -5,10 +5,13 @@ import {
   conexoes, entidades, entidadesMeta, fichaPorId, fontePorId, autorCurto, tradicoes, ROTULO_GRUPO,
   ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, rotuloNo, url,
 } from '../lib/dados.js';
-import { CORES_ARESTA, FORMA_NO, ROTULO_LINHA, tradDaAresta, elementosCytoscape } from '../lib/grafo.js';
+import { CORES_ARESTA, FORMA_NO, ROTULO_LINHA, tradDaAresta, elementosCytoscape, tipoEntidadeNo, rotuloTipoEntidade } from '../lib/grafo.js';
 
 const tiposAresta = Object.keys(conexoes._meta.por_tipo);
 const tiposNo = [...new Set(conexoes.nos.map((n) => n.tipo))];
+const contaEnt = {};
+for (const n of conexoes.nos) contaEnt[tipoEntidadeNo(n)] = (contaEnt[tipoEntidadeNo(n)] || 0) + 1;
+const tiposEnt = Object.keys(contaEnt);
 const tradsUsadas = new Set(conexoes.arestas.flatMap(tradDaAresta));
 const grupos = Object.entries(ROTULO_GRUPO)
   .map(([g, rot]) => [rot, tradicoes.filter((t) => t.grupo === g && tradsUsadas.has(t.id))])
@@ -32,6 +35,12 @@ const fonteCurta = (v) => {
       <legend>Tipos de conexão</legend>
       {tiposAresta.map((t) => (
         <label class="opcao"><input type="checkbox" name="tipo" value={t} checked /> {ROTULO_ARESTA[t] ?? t} ({conexoes._meta.por_tipo[t]})</label>
+      ))}
+    </fieldset>
+    <fieldset>
+      <legend>Tipos de entidade</legend>
+      {tiposEnt.map((t) => (
+        <label class="opcao"><input type="checkbox" name="tipo-entidade" value={t} checked /> {rotuloTipoEntidade(t)} ({contaEnt[t]})</label>
       ))}
     </fieldset>
     <div>
@@ -160,14 +169,16 @@ const fonteCurta = (v) => {
     function aplicar() {
       const tipos = new Set([...form.querySelectorAll<HTMLInputElement>('input[name=tipo]:checked')].map((i) => i.value));
       const trad = selTrad.value;
+      const ents = new Set([...form.querySelectorAll<HTMLInputElement>('input[name=tipo-entidade]:checked')].map((i) => i.value));
       cy.batch(() => {
         cy.edges().forEach((e) => {
-          const ok = tipos.has(e.data('tipo')) && (!trad || e.data('tradicoes').includes(trad));
+          const ok = tipos.has(e.data('tipo')) && (!trad || e.data('tradicoes').includes(trad))
+            && ents.has(e.source().data('tipoEnt')) && ents.has(e.target().data('tipoEnt'));
           e.toggleClass('oculto', !ok);
         });
         cy.nodes().forEach((n) => {
           const visivel = n.connectedEdges().some((e) => !e.hasClass('oculto'));
-          n.toggleClass('oculto', !visivel && !(n.data('href') && !trad && tipos.size > 0));
+          n.toggleClass('oculto', !ents.has(n.data('tipoEnt')) || (!visivel && !(n.data('href') && !trad && tipos.size > 0)));
         });
       });
       const ne = cy.edges().filter((e) => !e.hasClass('oculto')).length;

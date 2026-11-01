@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { fichas, fontes, conexoes, divergencias, registros, usoDasFontes, tradicoes, glossario, totalVersoes, url } from '../lib/dados.js';
+import { fichas, fontes, conexoes, divergencias, registros, usoDasFontes, tradicoes, glossario, totalVersoes, url, listaEntidades, itans } from '../lib/dados.js';
 
 const versoes = fichas.reduce((n, f) => n + totalVersoes(f), 0);
 const fontesUsadas = Object.keys(usoDasFontes).length;
@@ -16,7 +16,8 @@ const fontesUsadas = Object.keys(usoDasFontes).length;
   <p>O conteúdo vem de um fichamento de livros, teses e artigos. Os trechos são sempre parafraseados, nunca copiados. O Candomblé, em suas nações, e a Umbanda aparecem como religiões distintas.</p>
 
   <ul class="destaques" aria-label="Números do protótipo">
-    <li><strong>{fichas.length}</strong> orixás com ficha</li>
+    <li><strong>{fichas.length}</strong> entidades com ficha (de {listaEntidades.length} na lista de trabalho)</li>
+    <li><strong>{itans.length}</strong> itãs com versões lado a lado</li>
     <li><strong>{versoes}</strong> versões com fonte</li>
     <li><strong>{divergencias.length}</strong> atributos com versões divergentes</li>
     <li><strong>{fontesUsadas}</strong> fontes citadas nas fichas (de {fontes.length} no catálogo)</li>
@@ -26,7 +27,15 @@ const fontesUsadas = Object.keys(usoDasFontes).length;
   <div class="grade">
     <section class="cartao">
       <h3><a href={url('catalogo')}>Catálogo</a></h3>
-      <p>As fichas de {fichas.map((f) => f.rotulo).join(', ')}, com filtros por tradição e atributo.</p>
+      <p>As fichas de {fichas.map((f) => f.rotulo).join(', ')} e as {listaEntidades.length - fichas.length} entidades ainda em pesquisa, com filtros por tipo, tradição e atributo.</p>
+    </section>
+    <section class="cartao">
+      <h3><a href={url('itans')}>Itãs</a></h3>
+      <p>{itans.length} narrativas míticas, cada uma com as versões das fontes lado a lado e resumos parafraseados.</p>
+    </section>
+    <section class="cartao">
+      <h3><a href={url('cosmologia')}>Cosmologia e hierarquia</a></h3>
+      <p>A posição cosmológica das entidades, só com fonte, e as entidades cosmológicas na pauta de pesquisa.</p>
     </section>
     <section class="cartao">
       <h3><a href={url('grafo')}>Grafo de conexões</a></h3>

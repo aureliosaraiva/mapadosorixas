@@ -1,0 +1,61 @@
+---
+import Base from '../layouts/Base.astro';
+import Tradicoes from '../components/Tradicoes.astro';
+import Citacoes from '../components/Citacoes.astro';
+import { fichas, listaEntidades, fichaPorId, ROTULO_TIPO_ENTIDADE, hrefEntidade, url } from '../lib/dados.js';
+
+// Só o que tem fonte: versões do atributo 'hierarquia' das fichas geradas.
+const comHierarquia = fichas.filter((f) => f.atributos.hierarquia?.length);
+const nVersoes = comHierarquia.reduce((n, f) => n + f.atributos.hierarquia.length, 0);
+// Entidades da lista-mestra cujo tipo é cosmológico: listadas só pelo nome.
+const TIPOS_COSMO = ['divindade_suprema', 'conceito_cosmologico', 'ancestral'];
+const cosmo = TIPOS_COSMO.map((t) => [t, listaEntidades.filter((e) => e.tipo === t)]).filter(([, es]) => es.length);
+---
+<Base titulo="Cosmologia e hierarquia" descricao="Posição cosmológica das entidades, só com fonte e versões lado a lado.">
+  <h1>Cosmologia e hierarquia</h1>
+  <p>Esta página reúne o que as fontes dizem sobre a <strong>posição cosmológica</strong> de cada entidade: a relação com a divindade suprema, com o Orum e o Aiê, com os grupos de orixás e com os ancestrais. Não existe um panteão único e idêntico entre as tradições, nem mesmo em território iorubá (ver <a href={url('metodologia')}>Metodologia</a>); por isso cada afirmação aparece como uma versão, com tradição e fonte, ao lado das outras.</p>
+
+  <section aria-labelledby="versoes-hierarquia">
+    <h2 id="versoes-hierarquia">Versões com fonte</h2>
+    {nVersoes === 0 ? (
+      <p class="nota-caixa aviso-vazio" id="aviso-sem-hierarquia"><strong>Ainda não há versões com fonte sobre hierarquia.</strong> A estrutura está pronta e será preenchida pelo fichamento (atributo “hierarquia”), com fonte lida e página. Nada aqui é escrito sem fonte.</p>
+    ) : (
+      <>
+        <p>{nVersoes} versões em {comHierarquia.length} fichas.</p>
+        {comHierarquia.map((f) => (
+          <section class="hierarquia-entidade" aria-labelledby={`h-${f.id}`}>
+            <h3 id={`h-${f.id}`}><a href={url(`orixas/${f.id}#hierarquia`)}>{f.rotulo}</a></h3>
+            <ul class="versoes">
+              {f.atributos.hierarquia.map((v) => (
+                <li class="versao versao-hierarquia" id={`hv-${v.registro}`} data-registro={v.registro}>
+                  <span class="valor">{v.valor}</span>
+                  <div class="meta"><Tradicoes ids={v.tradicoes} />{v.casa_ou_regiao && <span> · Casa ou região: {v.casa_ou_regiao}</span>}</div>
+                  <p class="resumo">{v.parafrase}</p>
+                  <p class="fontes-hierarquia"><strong>Fonte:</strong> <Citacoes sources={v.sources} /></p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </>
+    )}
+  </section>
+
+  <section aria-labelledby="em-pesquisa">
+    <h2 id="em-pesquisa">Entidades cosmológicas na pauta de pesquisa</h2>
+    <p>Divindade suprema, conceitos cosmológicos e ancestrais que o projeto pretende cobrir. O agrupamento abaixo é uma classificação de trabalho, não uma afirmação sobre a tradição; a lista mostra só os nomes até haver fonte lida.</p>
+    {cosmo.map(([t, es]) => (
+      <>
+        <h3>{ROTULO_TIPO_ENTIDADE[t]}</h3>
+        <ul class="lista-cosmo">
+          {es.map((e) => (
+            <li data-entidade={e.id}>
+              <a href={hrefEntidade(e.id)}>{e.rotulo}</a> — {fichaPorId[e.id] ? 'com ficha' : 'em pesquisa'}
+              {e.sensivel && <span class="aviso-sensivel"> (tema sensível: só o que for público em fonte acadêmica)</span>}
+            </li>
+          ))}
+        </ul>
+      </>
+    ))}
+  </section>
+</Base>

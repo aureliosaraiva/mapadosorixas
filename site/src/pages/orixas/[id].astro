@@ -7,6 +7,7 @@ import {
   fichas, fontePorId, divergencias, conexoes, ORDEM_ATRIBUTOS, rotuloAtributo, autorCurto,
   tradicoesDaFicha, totalVersoes, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, url,
   marcarGlossario, termoPorId, linhaRevisao, fichaRevisada, versoesRevisadas,
+  entidadePorId, ROTULO_TIPO_ENTIDADE, itaDoRegistro,
 } from '../../lib/dados.js';
 import { elementosCytoscape, vizinhanca, FORMA_NO, CORES_ARESTA, ROTULO_LINHA } from '../../lib/grafo.js';
 
@@ -16,6 +17,7 @@ export function getStaticPaths() {
 
 const { id } = Astro.params;
 const ficha = fichaPorId[id];
+const ent = entidadePorId[id];
 const atributos = ORDEM_ATRIBUTOS.filter((a) => ficha.atributos[a]);
 
 // Numeração das notas: uma por versão, na ordem em que aparecem.
@@ -58,6 +60,8 @@ const nRevisadas = versoesRevisadas(ficha);
     ? <p class="selo-revisado" role="note">Todas as versões desta ficha foram revisadas por praticantes ou pesquisadores, cada uma em nome da sua tradição. Quem revisou e quando aparece abaixo de cada versão.</p>
     : <Selo />}
 
+  {ent.tipo !== 'orixa' && <p class="tipo-entidade">Tipo (classificação de trabalho): {ROTULO_TIPO_ENTIDADE[ent.tipo]}</p>}
+  {ent.sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: esta ficha traz só o que é público em fonte acadêmica, sem fundamento iniciático.</p>}
   <p>{totalVersoes(ficha)} versões, cada uma com nota para a fonte (autor, ano e página). Quando há mais de uma versão para o mesmo atributo, todas são mostradas, com a tradição e a casa ou região indicadas pela fonte, <strong>sem hierarquia entre elas</strong>.</p>
   <p><strong>Tradições citadas:</strong> <Tradicoes ids={tradicoesDaFicha(ficha)} link /> (<a href={url('tradicoes')}>o que é cada tradição</a>)</p>
 
@@ -89,6 +93,7 @@ const nRevisadas = versoesRevisadas(ficha);
               </div>
               <p><TextoGlossario partes={marcado[v.registro].parafrase} /></p>
               {v.nota && <p class="nota"><strong>Nota do fichamento:</strong> <TextoGlossario partes={marcado[v.registro].nota} /></p>}
+              {itaDoRegistro[v.registro] && <p class="meta ligacao-ita">Itã: <a href={url(`itans/${itaDoRegistro[v.registro].id}#vi-${v.registro}`)}>{itaDoRegistro[v.registro].titulo}</a> ({itaDoRegistro[v.registro].versoes.length} {itaDoRegistro[v.registro].versoes.length === 1 ? 'versão' : 'versões'} lado a lado)</p>}
               {v.revisoes && (
                 <ul class="revisoes" aria-label="Revisões desta versão">
                   {v.revisoes.map((rv) => <li class="revisao" data-parecer={rv.parecer}>{linhaRevisao(rv)}</li>)}

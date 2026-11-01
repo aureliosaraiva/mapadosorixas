@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import Tradicoes from '../../components/Tradicoes.astro';
+import { itans, hrefEntidade, rotuloEntidade, tradicoes, url } from '../../lib/dados.js';
+
+const ordemTrad = (a, b) => tradicoes.findIndex((t) => t.id === a) - tradicoes.findIndex((t) => t.id === b);
+const tradsDo = (it) => [...new Set(it.versoes.flatMap((v) => v.tradicoes))].sort(ordemTrad);
+---
+<Base titulo="Itãs" descricao="Itãs (narrativas míticas) com versões lado a lado, resumos parafraseados e fontes.">
+  <h1>Itãs</h1>
+  <p>Itãs são as narrativas míticas sobre os orixás. Aqui cada itã tem um título próprio do projeto e reúne, <strong>lado a lado e sem hierarquia</strong>, as versões registradas em fontes diferentes, cada uma com a tradição, a casa ou região e a fonte com página. Os resumos são sempre <strong>parafraseados</strong>: nenhum trecho é copiado das obras.</p>
+  <p class="nota-caixa">São {itans.length} itãs com {itans.reduce((n, it) => n + it.versoes.length, 0)} versões, todas lidas na fonte. A lista cresce com o fichamento; um itã só aparece quando há pelo menos uma versão lida no original. O título é descritivo e foi escrito pelo projeto, não é o título de um capítulo de livro.</p>
+
+  <ul class="grade lista-itans" style="list-style:none;padding:0">
+    {itans.map((it) => (
+      <li class="cartao" id={it.id} data-ita={it.id}>
+        <h2><a href={url(`itans/${it.id}`)}>{it.titulo}</a></h2>
+        <p class="numeros">{it.versoes.length} {it.versoes.length === 1 ? 'versão' : 'versões'}{it.arestas.length > 0 && <> · {it.arestas.length} {it.arestas.length === 1 ? 'conexão' : 'conexões'} no grafo</>}</p>
+        <p><strong>Entidades:</strong> {it.entidades.map((e, i) => {
+          const h = hrefEntidade(e);
+          return <>{i > 0 && ', '}{h ? <a href={h}>{rotuloEntidade(e)}</a> : rotuloEntidade(e)}</>;
+        })}</p>
+        <p><strong>Tradições:</strong> <Tradicoes ids={tradsDo(it)} /></p>
+      </li>
+    ))}
+  </ul>
+</Base>
