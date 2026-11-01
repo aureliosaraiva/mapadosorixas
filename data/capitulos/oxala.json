@@ -1,0 +1,1808 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/oxala.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "oxala",
+  "titulo": "Oxalá, o branco, a criação e os dois tempos da vida",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Oxalá é o orixá do branco. Nos candomblés da Bahia, no nagô do Recife e nos terreiros de São Paulo, ele aparece como o criador que modelou o ser humano, o dono da abóbada celeste e o pai que ocupa o alto da hierarquia, e quase sempre se desdobra em duas figuras, uma velha e outra jovem. O que muda de casa para casa é muito: o dia da semana, o santo católico, a idade de cada uma dessas figuras e o lugar do assentamento no peji, e este capítulo acompanha essas versões sem escolher entre elas "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Brasil, Oxalá é a forma de uso mais comum, mas na Bahia ele também é chamado de Obatalá, e cânticos e calendários registram ainda Orixalá e Orixá-lá. Orixalá tem leitura iorubá direta: Orixá Nlá, \"o Grande Orixá\", título que já traduzia, na África, o posto elevado da divindade. Para Obatalá, a etimologia não é segura, e há quem rejeite ler na primeira sílaba a palavra iorubá para \"rei\", por causa da diferença de tom "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No nagô do Recife, o orixá é Orixalá, e seus dois aspectos se chamam Orixálufã e Orixáogiã; na santería de Matanzas, em Cuba, o nome é Obatalá "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros congo e angola da Bahia, ele é conhecido como Lembá ou Lembarengangá, equivalência discutida mais adiante "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem geográfica do culto aparece nas fontes só de forma indireta. No Opô Afonjá, em Salvador, a casa de Oxalá fica separada da de Xangô, e isso se explica pelo fato de os templos dos dois orixás estarem, na África, em cidades distintas: Ifé, no caso de Oxalá, e Oyó, no de Xangô "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quando a religião dos orixás foi lida no Brasil pela lente cristã, Oxalá, que já ocupava na África o topo da hierarquia como criador da humanidade, manteve esse lugar, enquanto Olorum, deus supremo dos iorubás e afastado do mundo, foi identificado com o Deus Pai. Nos candomblés baianos de meados do século passado, Oxalá era descrito como filho de Olorum e o maior dos orixás: reinava no céu, tomara o posto do pai quando este se afastou do mundo e tinha por tarefa conservar a partilha dos domínios entre os orixás, enquanto a Exu cabia fazer a comunicação entre eles "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na mesma Bahia, um levantamento feito numa primeira estadia de pesquisa contou seis casas de Oxalá entre oitenta e seis santuários. Na mesma época, o culto de Odudua já tinha sumido da Bahia, mas ainda se pensava Obatalá como um ser de dois sexos "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os documentos mais antigos sobre a figura africana pedem leitura cautelosa. Um relato de 1894, escrito por um oficial britânico a partir de conversas com sacerdotes da Costa dos Escravos, põe os sacerdotes de Obatala e de Odudua na primeira ordem do sacerdócio iorubá, ao lado dos babalaôs. O mesmo documento de época apresenta Odudua como a principal deusa e esposa de Obatala; ele teria sido feito por Olorun, ela existiria desde sempre, e o casal figuraria o céu e a terra, simbolizados por duas cabaças sobrepostas. Alguns sacerdotes chegaram a dizer ao oficial que os dois seriam um único deus de dois sexos, mas a maior parte deles via ali dois deuses separados "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Cuba, na santería do central Méjico, em Matanzas, Obatalá está entre os orixás maiores que o iniciado recebe, com Yemayá, Changó e Ochún "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Oxalá é antes de tudo o criador. Nos candomblés baianos, foi ele quem moldou a terra e o primeiro casal humano, e por isso a maior parte da iniciação, pensada como a formação de uma pessoa nova, fica sob sua regência; as roupas brancas desse período mostram esse amparo. Nos terreiros de Salvador e São Paulo, ele reina sobre a abóbada celeste, coordena a ação dos demais orixás e rege também as atividades da inteligência. Na Bahia, o céu é o aspecto da natureza que lhe corresponde, e o ar, o elemento "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A gestação é parte do mesmo domínio, mas as versões não coincidem. Na Bahia de meados do século passado, havia acordo em pôr sob Oxalá todo o tempo que vai da concepção ao parto. Já um registro baiano do fim do século XIX repartia a tarefa: a Obatalá caberia o crescimento da criança no ventre, e a Ifá o momento da fecundação. Nos terreiros de Salvador e São Paulo, diz-se ainda que Oxalá se afasta na hora do parto e só volta dezesseis dias depois "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A cabeça é outro território dele. Nesses mesmos terreiros, as dores de cabeça, os esquecimentos e as doenças do cérebro são de Oxalá; como é ele quem dá forma ao corpo, as malformações são atribuídas a algum descuido seu, e quem tem alguma deficiência é posto sob sua guarda. Senhor da paz, ele pode ainda conter os outros orixás e abrandar seus castigos "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". Sobre o alcance desse poder, as casas discordam: para Mãe Celeste, Oxalá governa a cabeça e o corpo inteiro; para Mãe Sevi e a maior parte dos chefes de culto ouvidos, ele age na cabeça, e as plantas que recebe para outros órgãos se justificam porque os males do corpo acabam repercutindo nela "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". De seus filhos se diz que são calmos, conciliadores e bons conselheiros, como o orixá, que perdoa um erro atrás do outro, mas, esgotada a paciência, não volta atrás "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A cor é o branco, em toda parte. Na Bahia ele marca o colar de contas, o prato da comunhão, as roupas da iniciação e o giz, que, em branco, só serve para traçar os desenhos dele. Nos terreiros de Salvador e São Paulo, Oxalá se veste sempre de branco, cor da pureza, é muitas vezes representado de pele clara, e os fiéis também se vestem de branco para honrá-lo. No nagô do Recife, a cor dele é o branco sem nenhuma mistura "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre os símbolos, o mais antigo é a cabaça dupla, duas metades encaixadas que figuram o céu unido à terra. Na Bahia, as cuias pintadas de branco deram lugar a uma vasilha de louça branca com tampa, sem que o sentido se perdesse, e essa mesma representação foi reconhecida em Salvador no fim do século XIX "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". Quando o orixá se manifesta, recebe o paxorô, descrito na Bahia como uma vara de ferro. Nos terreiros de Salvador e São Paulo, sua matéria é o alumínio e uma pomba encima o seu emblema "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": ". Várias folhas são dele e entram no banho de seus filhos: o algodão, o tapete-de-oxalá, a neve-branca, as palmas, o manjericão, o alecrim e o rosmaninho, escolhidas pela cor branca ou felpuda, pelo perfume que purifica e, quando usadas como remédio, pelo vínculo do orixá com a cabeça. O algodão lhe pertence na Bahia e no Recife, e também em Cuba "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": ". Entre os animais oferecidos, os terreiros de Salvador e São Paulo citam a cabra branca e o pombo "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O dia da semana varia de modo instrutivo. Nos candomblés baianos, a distribuição mais frequente dá a sexta-feira a Oxalá, e os fiéis justificam o costume lembrando que Cristo, com quem Oxalá se identifica, morreu numa sexta; no Ilê Axé Opô Afonjá, o dia também é a sexta. Em Porto Alegre, a festa é no domingo, porque é o dia da missa. Nos terreiros de Salvador e São Paulo, as duas soluções convivem: alguns preferem o domingo, por referência cristã, e muitos mantêm a sexta-feira. No nagô do Recife, a sexta é o dia da oferenda semanal a Orixalá, um dos raros casos em que, naquela casa, o dia da semana conta de verdade "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": ". Há também um esquema publicado em 1912 por um etnólogo alemão, documento de época: numa semana iorubá de quatro dias ligada aos pontos cardeais, Oxalá ficaria com o sul "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As festas mostram o mesmo leque. Nos candomblés baianos, as Águas de Oxalá abrem o ano religioso, no fim de agosto ou em setembro, conforme o terreiro: os objetos do orixá saem do peji por sete dias, as iniciadas, todas de branco e sem dizer palavra, vão buscar a água que os lava e purifica a casa inteira, e uma segunda procissão, desta vez alegre, devolve as pedras ao seu lugar; a cerimônia já foi chamada também de festa do inhame novo. Num candomblé baiano de Ogum, os domingos de festa começam por Oxalá e seguem, no segundo, por Oxaguiã "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, quem associa Oxalá a Cristo o festejaria em 25 de dezembro, mas a família de santo estudada prefere janeiro, porque é bom abrir o ano sob a proteção do orixá da paz, pai de todos. Na casa de Tambor de Mina de Diadema, as obrigações da tarde de Sexta-Feira Santa vão para Lissá e para os voduns da Criação. E em Matanzas, na festa de Elegguá, a oferenda a Obatalá encerra o ciclo de sacrifícios e é feita no alto, sobre um pano branco esticado pelos presentes, costume que a família diz guardar desde a escravidão "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mito mais conhecido é o da criação ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A criação da terra firme",
+              "tipo": "ita",
+              "alvo": "ita-012"
+            },
+            {
+              "t": "texto",
+              "v": "). Na versão contada nos candomblés baianos, Olorum entrega a Oxalá a tarefa de fazer a terra e o mar, mas, no caminho, o vinho de palma o impede de terminar o trabalho; mesmo assim ele toma parte na obra, auxiliado por Odudua, e é ele, sozinho, quem molda o primeiro casal humano. Nos terreiros de Salvador e São Paulo, o episódio da embriaguez é lembrado como uma espécie de pecado original "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Na Nigéria, as versões ligadas a Ifẹ̀ dão outro peso a Odudua. Numa versão de Ilê-Ifẹ̀, Olorun manda ao mundo alagado Obatala, Oduduwa e dezesseis imortais, os Oye, chefiados por Obatala; ele se embriaga e Oduduwa assume a liderança, desce com o grupo em Oke Oramfe e espalha a terra. Numa segunda versão iorubá, Olodumare entrega a Obatala terra trazida do céu, uma galinha e um camaleão; os orixás descem do céu presos a uma corrente que Ogum forjou, Obatala dorme embriagado, e Oduduwa, seu irmão mais novo, toma os objetos, faz crescer a terra firme e se torna rei de Ifẹ̀ "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Outro mito de origem, que a pesquisadora diz ser conhecido em todos os cultos que estudou em Salvador e São Paulo, conta um tempo em que céu e terra não estavam separados e só havia uma porta, vigiada por Olorun ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Olorun entrega a Oxalá os elementos",
+              "tipo": "ita",
+              "alvo": "ita-027"
+            },
+            {
+              "t": "texto",
+              "v": "). Olorun soprou o barro, deu-lhe vida e chamou o filho, Oxalá, para repartir os elementos: o trovão, o fogo e o raio para Xangô; o mar para Iemanjá; os rios e as cachoeiras para Oxum; as chuvas para Nanã; o ferro para Ogum; as doenças para Omulu; o colar de adivinhar para Ifá; as sementes para Ossãe. Oxalá guardou para si a coordenação do todo. Há quem ponha Exu como o primeiro ser a ganhar vida, ideia que muitos terreiros recusam "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". Nos mesmos terreiros se conta que Oxalá, quando morava na terra, cedeu um terreno a um escravo, Atowoda, que resolveu matá-lo empurrando uma rocha imensa por cima dele; Orumilá, seu amigo, recolheu os pedaços numa cabaça e os espalhou em Iranje, e de cada fragmento teria nascido uma divindade ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Oxalá despedaçado pela pedra de Atowoda",
+              "tipo": "ita",
+              "alvo": "ita-028"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A história mais encenada no Brasil é a viagem do velho Oxalufã ao reino do filho Xangô ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A viagem de Oxalá velho para ver Xangô",
+              "tipo": "ita",
+              "alvo": "ita-010"
+            },
+            {
+              "t": "texto",
+              "v": "). Na Bahia, ele parte contra o conselho do adivinho, que lhe impõe nunca recusar ajuda nem se queixar. Exu o suja três vezes com as cargas que lhe pede para levar, e o velho se lava sem uma palavra. Quando leva de volta um cavalo que escapara de Xangô, passa por ladrão, surrado e preso; durante sete anos o reino definha, estéril, até que o oráculo revela a injustiça. Xangô reconhece o pai, faz com que o lavem e o leva ao palácio de Oxaguiã, que festeja a volta com um banquete. Quem carrega o velho de volta muda conforme o relato: Airá, o Xangô mais velho, ou o próprio Xangô. É esse mito que sustenta as Águas de Oxalá "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": ". Nos xangôs do Recife e de Olinda, a mesma história é contada com o babalaô no lugar do adivinho, e o velho, solto, ganha uma festa do outro filho, o Oxalá jovem "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Ainda na Bahia corre outra explicação para o branco nas cores de Xangô: para casar com Oxum, ele teria de levar nas costas, até a festa, o pai dela, Oxalá, velho demais para andar, e a partir dessa aliança as cores de um passaram a se mesclar às do outro ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô carrega Oxalá para poder casar com Oxum",
+              "tipo": "ita",
+              "alvo": "ita-011"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os mitos que o relato colonial de 1894 recolheu entre sacerdotes iorubás da Costa dos Escravos, em Lagos e arredores, formam um conjunto à parte e devem ser lidos como documento de época. Num deles, Obatala e Odudua passam muitos dias espremidos no escuro de uma grande cabaça; brigam, ele lhe arranca os olhos e ela o condena a ter só caramujos por comida ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O casal primordial preso na cabaça",
+              "tipo": "ita",
+              "alvo": "ita-023"
+            },
+            {
+              "t": "texto",
+              "v": "). Num segundo, Olokun, ofendido com o esquecimento dos homens, inunda a terra, e é Obatala quem o faz recuar para o fundo do mar e o amarra com correntes até que desista; numa variante, depois que Ifá sobe ao céu, Obatala salva uns poucos humanos içando-os por uma corrente de ferro ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O dilúvio de Olokun",
+              "tipo": "ita",
+              "alvo": "ita-025"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As genealogias variam com a casa. Numa versão baiana, Oxalá teve duas mulheres: Nanã Buruku lhe deu Omolu, Lôko e Oxumarê, e de Iemanjá nasceram os outros orixás de maior destaque; na Bahia ele é dado também como pai de Iemanjá e de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, Xangô é filho de Iemanjá e de Oxalá "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, Orixalá é o pai dos orixás e forma com Iemanjá o casal de onde vieram todas as divindades, menos Nanã, Obaluaiê e Oxumaré, que a casa sabe terem outra origem "
+            },
+            {
+              "t": "nota",
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": ". No relato colonial de 1894, por fim, Yemaja é filha de Obatala e de Odudua ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iemanjá e o nascimento das águas",
+              "tipo": "ita",
+              "alvo": "ita-003"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 35
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os dois Oxalás são a marca dessa nação. Nos candomblés baianos de meados do século passado, Oxalufã é o velho e Oxaguiã, o moço, filho do primeiro e senhor do reino onde o pai morava. Uma lista da mesma época fala em três Oxalás, Oxalufã, Oxichalá e Oxaguiã, e anota informantes que davam sete nomes e outro levantamento que chegou a dezesseis; nessa lista, curiosamente, as idades aparecem trocadas "
+            },
+            {
+              "t": "nota",
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo pesquisados até 1993, fala-se em dois aspectos de um mesmo Oxalá, de caráter quase igual, com Oxalufã chamado de jovem e Oxaguiã de velho; a diferença se vê sobretudo na dança, em que o jovem se move com mais vivacidade "
+            },
+            {
+              "t": "nota",
+              "n": 37
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, o modo de nascer pode sugerir o orixá da criança, Oxaguiã, por exemplo, quando ela vem com o cordão umbilical enrolado no pescoço, mas a indicação precisa ser confirmada pelo oráculo "
+            },
+            {
+              "t": "nota",
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros congo da Bahia, Oxalá é Lembá, e nos de angola, Lembarengangá. Nos terreiros angola-congo de São Paulo, Lembá aparece como talvez a mais importante divindade banta do país, ligada à fecundidade e protetora do casamento; ali ela é feminina e apenas parecida com Oxalá "
+            },
+            {
+              "t": "nota",
+              "n": 39
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", os dois aspectos são bem distintos: Orixálufã, o velho, chega na possessão como um ancião, e Orixáogiã, o jovem, é impetuoso e tem força comparável à de Xangô; cada filho pertence a um só dos dois. No peji da família de santo estudada, Oxalá fica no fim da fileira, um pouco afastado, perto de Iemanjá, posição de patriarca; num outro terreiro, Júnior pôs o seu Orixáogiã no centro, maior que todos "
+            },
+            {
+              "t": "nota",
+              "n": 40
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Do "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, o fichamento só guarda o dia de festa, o domingo "
+            },
+            {
+              "t": "nota",
+              "n": 41
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Tambor de Mina",
+              "tipo": "tradicao",
+              "alvo": "tambor_de_mina"
+            },
+            {
+              "t": "texto",
+              "v": ", Oxalá se encontra com os voduns. Na Casa das Minas de São Luís, Lissá é um vodum dos astros, ligado ao sol, da família de Quevioçô, mudo e andarilho, sem que ali se registre ligação com Oxalá. Já na casa de Pai Francelino, em Diadema, Lissá corresponde a Oxaguiã e Arronovissavá, da família de Davice, a Oxalufã "
+            },
+            {
+              "t": "nota",
+              "n": 42
+            },
+            {
+              "t": "texto",
+              "v": ". Na Casa Fanti-Ashanti de São Luís, Pai Euclides contou ter começado a receber, no antigo terreiro do Egito, Rei dos Mestres, como ali se chamavam as entidades Tó-Alapong e Tó-Alaby; a seu ver, é o mesmo Oxalá que recebeu depois no candomblé e do mesmo vodum Lissá da Casa das Minas "
+            },
+            {
+              "t": "nota",
+              "n": 43
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": " é outra religião, e não uma nação do Candomblé. O fichamento não tem registro que trate só do Oxalá umbandista: a pesquisa nos terreiros de Salvador e São Paulo, de onde vem boa parte do que se disse acima sobre domínios, cores, plantas e qualidades, reuniu casas de Candomblé e de Umbanda sem separar o que é de cada uma "
+            },
+            {
+              "t": "nota",
+              "n": 44
+            },
+            {
+              "t": "texto",
+              "v": ". O que se registra para a Umbanda em particular é o lugar de Oxalá no encaixe com o cristianismo, examinado na seção sobre o sincretismo "
+            },
+            {
+              "t": "nota",
+              "n": 45
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na santería do central Méjico, em Matanzas, Julio-Enrique Blázquez diz que Obatalá é hoje macho e fêmea, mas que antes era mulher, a mãe do mundo, e que por isso cabe a ela fechar a festa de Elegguá, para acalmar e refrescar "
+            },
+            {
+              "t": "nota",
+              "n": 46
+            },
+            {
+              "t": "texto",
+              "v": ". Um informante cubano dizia que Obatalá governa todas as cabeças, misturando a ideia com a de Eleda e a de ori "
+            },
+            {
+              "t": "nota",
+              "n": 47
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O par mais citado é Jesus Cristo, equivalência que dá conta do dia de culto na Bahia, a sexta, e também do domingo de Porto Alegre. Nas religiões afro-brasileiras, Candomblé e Umbanda, o encaixe num modelo cristão de bem e mal deu a Oxalá o papel de Jesus e a Olorum o de Deus Pai, e coube a Exu o lugar do demônio; movimentos de dessincretização procuram hoje desfazer essas identificações "
+            },
+            {
+              "t": "nota",
+              "n": 48
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, Oxalá vem logo abaixo de Deus Pai, como Jesus Cristo, e em certos lugares como Nosso Senhor do Bonfim "
+            },
+            {
+              "t": "nota",
+              "n": 49
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Fora da Bahia, as equivalências mudam. Numa lista de datas do Recife, o primeiro de janeiro junta Orixalá ao Padre Eterno, e num calendário de festas que valeria para os iorubás de Pernambuco e para os candomblés bantos da Bahia, a festa de Orixá-lá coincide com a data de São Pedro e São Paulo. Na casa de Tambor de Mina de Diadema, Lissá e Arronovissavá, os voduns ligados aos dois Oxalás, também se associam a Jesus Cristo "
+            },
+            {
+              "t": "nota",
+              "n": 50
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nina Rodrigues viu na Bahia do fim do século XIX um dualismo rudimentar, com Oxalá como princípio do bem e Exu como princípio do mal, leitura que dependia da identificação de Exu com o diabo; Roger Bastide retomou o ponto para discutir seus limites "
+            },
+            {
+              "t": "nota",
+              "n": 51
+            },
+            {
+              "t": "texto",
+              "v": ". O mesmo Bastide sustentou que as oscilações de sexo entre Obatalá e Odudua, homem e mulher no litoral iorubá e o contrário em Ifé, e a crença baiana num Oxalá de dois sexos seriam o vestígio de uma ideia anterior, a de um Oxalá andrógino "
+            },
+            {
+              "t": "nota",
+              "n": 52
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide leu ainda as Águas de Oxalá como rito agrário, como início do tempo sagrado e como limpeza de toda a comunidade, e classificou Oxalá, pelo perfume de suas folhas, como divindade da purificação "
+            },
+            {
+              "t": "nota",
+              "n": 53
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Outras leituras tocam pontos específicos. Sylvie Chiousse atribui a sexta-feira de Oxalá à influência do islã no mundo iorubá, e não só à equivalência com Cristo "
+            },
+            {
+              "t": "nota",
+              "n": 54
+            },
+            {
+              "t": "texto",
+              "v": ". Arnaud Halloy lê a posição afastada do assentamento no peji do Recife como sinal de hierarquia superior "
+            },
+            {
+              "t": "nota",
+              "n": 55
+            },
+            {
+              "t": "texto",
+              "v": ". Danielle Perin Rocha Pitta interpreta a viagem de Oxalá velho como um ciclo natural em que a morte prepara a renovação "
+            },
+            {
+              "t": "nota",
+              "n": 56
+            },
+            {
+              "t": "texto",
+              "v": ". E José Jorge de Morais Zacharias, numa comparação com a tipologia de Jung, descreve Olorum como o criador que delegou a Oxalá e a Oduduá a feitura do mundo e se manteve distante "
+            },
+            {
+              "t": "nota",
+              "n": 57
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro fichado traz a saudação de Oxalá, que costuma constar dos dicionários especializados ainda não consultados "
+            },
+            {
+              "t": "nota",
+              "n": 58
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem africana do culto, com as cidades e regiões onde ele era mais forte, depende da obra de Verger, que só existe impressa. As grandes coletâneas de itãs, de Prandi e de Verger, também esperam exemplar, e por isso os mitos aqui reunidos vêm de poucas fontes, algumas delas coloniais "
+            },
+            {
+              "t": "nota",
+              "n": 59
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também não há registro do Oxalá no Candomblé Jeje nem da história do seu culto na Umbanda. Os tabus de Oxalá aguardam o parecer do conselho e não entram neste capítulo "
+            },
+            {
+              "t": "nota",
+              "n": 60
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-045"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-057"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-062"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-041"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-055"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-063"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-033"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-039"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olodumare-016"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-039"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-013"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-003"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-054"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-044"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-006"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-044"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-052"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-053"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-054"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-045"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-058"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-011"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-046"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-032"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-046"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-048"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-016"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-047"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-059"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-086"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-041"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-028"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-060"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-038"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-064"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-050"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-019"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-010"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-020"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-042"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-029"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-027"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-043"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-026"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-007"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-025"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-026"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-015"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-056"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-049"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-017"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-060"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-021"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-051"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-023"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-033"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-034"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-057"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-062"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-016"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-035"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-037"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-044"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-045"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-051"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-018"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-063"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-064"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-007"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-015"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-043"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-019"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-020"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-035"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-009"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-014"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-028"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-047"
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-062"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-043"
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-017"
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Cacciatore, *Dicionário de cultos afro-brasileiros*"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (Corrupio, 1981)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Lendas africanas dos orixás* (Corrupio)"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "equivalencias",
+          "tradicao": "candomble_jeje"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": "umbanda"
+        }
+      ]
+    }
+  ]
+}

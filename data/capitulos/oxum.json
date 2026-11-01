@@ -1,0 +1,1689 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/oxum.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "oxum",
+  "titulo": "Oxum, as águas doces, o amor e a astúcia",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Oxum é a senhora das águas doces, dos rios, das fontes e das cachoeiras. Nos terreiros de Salvador, de São Paulo e do Recife, ela aparece ligada ao amor, à fertilidade e ao ouro, bela, vaidosa e famosa pela astúcia. As fontes concordam no essencial, o amarelo e o sábado entre eles, mas divergem nas genealogias, nas datas de festa e nos santos com que é aproximada, e este capítulo reúne essas versões lado a lado "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O nome muda com a nação. Nos candomblés baianos de origem daomeana, Oxum é Aziri, e nos de origem banta, Kissimbi "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, na santería, ela é Ochún "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem africana aparece nas fontes por um traço de arquitetura. No espaço dos terreiros baianos, a morada de Oxum é construída junto da fonte sagrada do terreiro, como em Oshogbo, onde o santuário da deusa se ergue junto do rio de mesmo nome, na terra iorubá "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos de meados do século passado, Oxum já era uma presença forte: o levantamento de oitenta e seis santuários feito na época contou quatro casas dedicadas a ela. Quando as filhas de santo em transe giravam em torno do poste central, porém, as de Iansã iam sempre à frente das de Oxum, porque a primeira era tida como a esposa principal de Xangô "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A passagem pelo Brasil também deixou marcas no modo de pensar a orixá. Muitos traços africanos das Grandes Mães, Oxum e Iemanjá entre elas, teriam sido suavizados ou apagados no encaixe com o cristianismo, e boa parte deles migrou para a figura de Pombagira, no Candomblé e na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": ". Ao contrário de Obá, sua rival nos mitos, que tem culto reduzido no país, Oxum é muito venerada "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Cuba, na santería do central Méjico, em Matanzas, Ochún está entre os orixás maiores que o iniciado recebe. Ali se conta que, no tempo da escravidão, como os cativos estavam presos ao barracão, o que era de Yemayá seguia para o rio, junto a uma ponte grande, com uma parte destinada a Ochún; ainda hoje há santos parados das duas nesse lugar, que funciona como substituto de espaços sagrados fora do alcance "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A água doce é o seu elemento. Nos candomblés baianos, Oxum forma par com Iemanjá: uma tem o rio, a outra o mar, e o sábado celebra a água sob essas duas formas, que a gente da Bahia une sem dificuldade num só culto. Na dança, Oxum imita o murmúrio dos riachos. No mito de repartição dos elementos contado em terreiros de Salvador e São Paulo, cabem a ela os rios e as cachoeiras "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, é igualmente a divindade das águas doces, e em Matanzas se diz que o rio pertence a Ochún e o mar a Yemayá "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O amor vem em seguida. Na Bahia, Oxum rege o amor sensual e é procurada por mulheres que desejam filhos, embora não haja sinal de que atue na hora do parto; entre os aspectos da vida social, o amor é o que lhe corresponde. Nos terreiros de Salvador e São Paulo, a comparação com Iemanjá se repete: se esta é a mãe, Oxum é a esposa e o amor carnal; pedem-lhe colheitas fartas e proteção contra a esterilidade, e quase todos os chefes de culto a veem como especialista nos males femininos e do baixo-ventre. No nagô do Recife, a feminilidade, a fertilidade e a maternidade estão no centro do seu domínio "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Bela e vaidosa, Oxum gosta de presentes. Na Bahia, ela e Iemanjá recebem sabonetes, perfumes, flores, espelhinhos e pentes, lançados da margem ou de barco "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". No Recife, chamá-la de vaidosa não quer dizer orgulhosa: a palavra indica o prazer de ser bela e de seduzir, e ela aprecia perfumes e joias, sobretudo as de ouro. Nos terreiros de Salvador e São Paulo, a astúcia é traço lendário "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". Na dança baiana, o transe dá ao rosto da filha de santo uma expressão sensual; os gestos de pentear-se e de mirar-se no espelho lembram os de Iemanjá, mas o caráter de cada uma se distingue "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Há também uma função ritual que a liga à adivinhação. Na Bahia, cada babalaô trabalha com uma auxiliar, a apetebi, obrigatoriamente filha de Yabá Omi, a Oxum mais velha, e por essa filiação as filhas de Oxum podem jogar búzios nos terreiros "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A cor é o amarelo. Na Bahia, as contas do colar são amarelas e a cor de ouro lhe corresponde no quadro de correspondências; nos terreiros de Salvador e São Paulo, a cor é o amarelo; no nagô do Recife, o amarelo-ouro, o mesmo de Obá; em Cuba, colar e pulseira de Ochún são amarelos e dourados "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". O metal, nos terreiros de Salvador e São Paulo, é o ouro ou o latão "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre os símbolos, o principal é o abebé, o leque que Oxum recebe quando se manifesta, com o qual brincam as divindades da água; uma das Oxuns, a vaidosa, se diverte com ele. Sua pedra sagrada, na Bahia, é uma pedra lisa recolhida no fundo de um rio "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": ". As folhas também lhe pertencem: na Bahia, a alfavaquinha, a folha-da-costa e o orepepê entram nos banhos de seus filhos, embora alguns informantes dessem as duas primeiras a Oxóssi; no Recife, o mal-me-quer é dela; e em Salvador a folha de pitanga, que ajuda a trazer prosperidade, também lhe é associada "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O sábado é o dia de Oxum em quase toda parte. Na Bahia e no Ilê Axé Opô Afonjá, ela o divide com Iemanjá; em Porto Alegre, fica com ele sozinha, porque Iemanjá passa à sexta-feira com Odé; nos terreiros de Salvador e São Paulo, é também cultuada aos sábados. No nagô do Recife, onde os dias da semana pesam pouco na prática, o sábado é uma das poucas preferências que contam, e serve às oferendas para Oxum e Iemanjá "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As festas, por sua vez, variam bastante. Num candomblé de Salvador que descende do Língua de Vaca, a Purificação, em 2 de fevereiro, pertence a Oxum e cai no mesmo dia do presente de Iemanjá; na mesma cidade, a grande festa do Rio Vermelho começa logo depois da meia-noite com uma oferenda a Oxum no Dique do Tororó, entregue só pelos pescadores "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Num centro africano do Recife, o calendário lhe dava duas datas: o nascimento, em 22 de março, e a festa, em 8 de dezembro. Nos terreiros de Salvador e São Paulo, o dia dela é 30 de novembro. Na família de santo nagô do Recife, o ideal é festejá-la em julho, quando a cidade celebra Nossa Senhora do Carmo, no dia 16 "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os mitos de Oxum giram em torno da astúcia e do amor. O mais contado é o da rivalidade com Obá ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A orelha de Obá",
+              "tipo": "ita",
+              "alvo": "ita-015"
+            },
+            {
+              "t": "texto",
+              "v": "). Na versão baiana, Obá, esquecida por Xangô, pergunta à favorita qual é o seu segredo; Oxum, com a cabeça coberta por um turbante, conta que pôs um pedaço da própria orelha no caruru que serviu ao marido. Obá mutila a própria orelha e a põe no prato de Xangô, que fica furioso. Por isso, quando Obá desce na Bahia, esconde a orelha esquerda e se atraca com as filhas de Oxum em transe. Nos terreiros de Salvador e São Paulo, a história termina com Xangô enojado, Obá repudiada e Oxum vitoriosa "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Outro mito trata da adivinhação ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ifá ensina Oxum a jogar",
+              "tipo": "ita",
+              "alvo": "ita-013"
+            },
+            {
+              "t": "texto",
+              "v": "). Na Bahia se conta que Ifá, pescador pobre, serviu Elegba por dezesseis anos e aprendeu com ele a ler a sorte nos coquinhos de dendê. Quando os consulentes passaram a lotar sua casa, tomou Oxum como ajudante; ela disse que não sabia ler o futuro, e Ifá preparou dezesseis coquinhos e pediu a Elegba que respondesse por eles às perguntas dela. Elegba aceitou de má vontade e, em troca, passou a perseguir os filhos de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, a mesma história faz de Oxum mulher de Ifá e explica por que a auxiliar do babalaô deve ser filha de Yabá Omi "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Uma das Oxuns tem um mito só seu ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Oxum Ioni e os abarás",
+              "tipo": "ita",
+              "alvo": "ita-014"
+            },
+            {
+              "t": "texto",
+              "v": "). Rainha de uma terra rica, ela vê o reino invadido pelos Ioni, perde a capital e escapa de noite numa jangada. Depois de rezar, inspira-se e manda espalhar abarás pela praia; os inimigos, com fome, comem e caem mortos, não por veneno, mas pela força sagrada do alimento. Ela recupera o reino e passa a se chamar Oxum Ioni. A história foi registrada na Bahia em meados do século passado e de novo em terreiros de Salvador e São Paulo até 1993 "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Há ainda o mito do rio e dos quiabos ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ogum joga Oxum no rio",
+              "tipo": "ita",
+              "alvo": "ita-016"
+            },
+            {
+              "t": "texto",
+              "v": "). Numa versão baiana, Ogum, enciumado, atira Oxum na água durante a travessia de um rio; Xangô a tira da água pelos cabelos e a leva para o seu palácio, e Ogum só a recupera quando presenteia o rival com quiabos, que o distraem; daí o quiabo nas comidas de Xangô. Nos terreiros de Salvador e São Paulo, os dois são irmãos que passeiam com suas companheiras, e a troca de presentes inclui um carneiro e um cão magro antes do cesto de quiabos "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": ". Também na Bahia se explica o branco nas cores de Xangô por um pedido de Oxum: ela só aceitaria casar se ele levasse nas costas até a festa o pai dela, Oxalá, velho demais para andar ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô carrega Oxalá para casar com Oxum",
+              "tipo": "ita",
+              "alvo": "ita-011"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As genealogias divergem muito, e as fontes as registram sem conciliar. Na Bahia, Oxum é filha de Oxalá e, das três mulheres de Xangô, a preferida, ainda que Iansã venha antes dela entre as esposas; um mito a dá como antes casada com Ogum; e alguns sacerdotes a casam com Oxóssi, enquanto outros dizem que ele é solteiro "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, ela vive com Xangô uma paixão violenta, embora a esposa legítima seja Iansã; e, como a apetebi é sempre filha de Oxum, algumas versões fazem dela filha de Ifá, e outras, sua esposa "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, a ordem das esposas de Xangô varia de relato para relato, e Oxum às vezes aparece como concubina; os informantes dizem ainda que ela é ora esposa de Ogum, ora filha de Orunmilá "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": ". Nos xangôs do Recife e de Olinda, ela é a dona dos rios e filha de Iemanjá "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quanto aos filhos, na Bahia Logunedé é dado como filho de Inlé e de Oxum, e nos terreiros de Salvador e São Paulo e num candomblé ketu paulista, como filho de Oxóssi e de Oxum; nessa casa paulista se conta que ele vive seis meses caçando na mata com o pai e seis meses pescando no rio com a mãe ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Logunedé entre a mata e o rio",
+              "tipo": "ita",
+              "alvo": "ita-021"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": ". Numa versão rara, conhecida no mesmo candomblé paulista, Oxum deixa o filho para viver com Xangô, e o menino cresce com Ogum ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Logunedé criado por Ogum e coroado por Oyá",
+              "tipo": "ita",
+              "alvo": "ita-022"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, há quem trate Oxum como mãe dos Ibejis, cujo assentamento fica sempre aos pés do dela; nenhum mito conhecido pela casa conta esse parentesco, que parece nascer da vizinhança no peji "
+            },
+            {
+              "t": "nota",
+              "n": 35
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia de meados do século passado, falava-se em dezesseis Oxuns, listadas da mais nova à mais velha: começando por Pandá, a caçula, e passando por Yabá Omi, Abaé, Abote e Apará, que segue Ogum pelos caminhos e luta com ele, Ioni, Abalo, a vaidosa do leque, e, no fim da lista, Lobá. A mais velha seria Lobá nessa relação e Yabá Omi em outra passagem da mesma obra "
+            },
+            {
+              "t": "nota",
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, a conta habitual também é de dezesseis, cada uma com mito próprio, entre elas Panda, a mais jovem, e Yaba Omi, a mais velha "
+            },
+            {
+              "t": "nota",
+              "n": 37
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé jeje e angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Candomblé Jeje",
+              "tipo": "tradicao",
+              "alvo": "candomble_jeje"
+            },
+            {
+              "t": "texto",
+              "v": " da Bahia, Oxum corresponde a Aziri, e nos candomblés bantos, a Kissimbi "
+            },
+            {
+              "t": "nota",
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": ". No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Candomblé Angola",
+              "tipo": "tradicao",
+              "alvo": "candomble_angola"
+            },
+            {
+              "t": "texto",
+              "v": " de São Paulo, a equivalência de Dandalunda, também chamada Kissimbi, nkisi da água potável, é discutida: parte da literatura a aproxima de Iemanjá, mas a maioria dos sacerdotes consultados a liga a Oxum, como divindade das águas doces "
+            },
+            {
+              "t": "nota",
+              "n": 39
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", na família de santo nagô estudada, Oxum é a dona das águas doces, de cor amarelo-ouro, e tem lugar especial no peji: Orunmilá, tido ali como superior aos demais orixás, fica num nível mais alto, à altura das Oxuns, e na sua obrigação anual come acompanhado de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 40
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Do "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, o fichamento guarda o sábado, que ali pertence só a Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 41
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Tambor de Mina",
+              "tipo": "tradicao",
+              "alvo": "tambor_de_mina"
+            },
+            {
+              "t": "texto",
+              "v": " da casa de Pai Francelino, em Diadema, dois voduns correspondem a Oxum: Naveorualim, jeje, da família de Dambirá, e Navezuarina, nagô, da família de Quevioçô. Somados aos assentamentos da própria orixá, chegam a trinta e sete, o maior número do quadro da casa "
+            },
+            {
+              "t": "nota",
+              "n": 42
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": " é outra religião, e não uma nação do Candomblé. No esquema umbandista de Rubens Saraceni, Oxum rege a linha do Amor, com Oxumaré como orixá secundário, classificação que não vale para o Candomblé "
+            },
+            {
+              "t": "nota",
+              "n": 43
+            },
+            {
+              "t": "texto",
+              "v": ". Boa parte do que se disse acima sobre domínios, cores, dia, festas e qualidades vem de uma pesquisa em terreiros de Salvador e São Paulo que reuniu casas de Candomblé e de Umbanda sem separar o que é de cada uma "
+            },
+            {
+              "t": "nota",
+              "n": 44
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na santería cubana, quem recebe Ochún ganha colar e pulseira amarelos e dourados. No central Méjico, em Matanzas, ela e Yemayá recebem oferendas no mesmo trecho do rio "
+            },
+            {
+              "t": "nota",
+              "n": 45
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os santos variam de lugar para lugar. Nos terreiros de Salvador e São Paulo, Oxum se aproxima de Santa Catarina ou de Nossa Senhora do Carmo, e no nagô do Recife, também a Nossa Senhora do Carmo, padroeira da cidade, e, segundo certas mães de santo, à Senhora da Penha "
+            },
+            {
+              "t": "nota",
+              "n": 46
+            },
+            {
+              "t": "texto",
+              "v": ". Num calendário de um centro africano do Recife, o dia 22 de abril reunia Oxum e Maria Madalena. Numa tabela que valeria para Pernambuco e para os candomblés bantos da Bahia, a Purificação trazia a festa de Oxum e Iemanjá, e a Imaculada Conceição, a de uma ou de outra "
+            },
+            {
+              "t": "nota",
+              "n": 47
+            },
+            {
+              "t": "texto",
+              "v": ". Na casa de Tambor de Mina de Diadema, Oxum se liga a Nossa Senhora da Glória, que também é a santa de Naveorualim, enquanto Navezuarina fica com Santa Luzia "
+            },
+            {
+              "t": "nota",
+              "n": 48
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Roger Bastide, que estudou os candomblés baianos, classificou Oxum, pelo perfume de suas folhas, como divindade da sensualidade, e leu as duas deusas das águas como senhoras do ventre: Oxum, sobretudo do baixo-ventre, poderia castigar com cólicas, e por isso lhe caberiam plantas que desinfetam e desinflamam. O mesmo autor usou o mito de Oxum Ioni para defender que cada qualidade tem função própria "
+            },
+            {
+              "t": "nota",
+              "n": 49
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Reginaldo Prandi, apoiado em Monique Augras, sustenta que os traços africanos das Grandes Mães foram atenuados no Brasil e deslocados para Pombagira. Danielle Perin Rocha Pitta, ao estudar os xangôs pernambucanos, encontra nos mitos divindades femininas ativas e guerreiras, e Oxum entre elas "
+            },
+            {
+              "t": "nota",
+              "n": 50
+            },
+            {
+              "t": "texto",
+              "v": ". Arnaud Halloy, por fim, observa que, no Recife, o parentesco entre Oxum e os Ibejis parece ter nascido da posição dos assentamentos, e não de um mito "
+            },
+            {
+              "t": "nota",
+              "n": 51
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro fichado traz a saudação de Oxum, nem uma etimologia do seu nome. Os dicionários que costumam trazer esses dados ainda não foram consultados "
+            },
+            {
+              "t": "nota",
+              "n": 52
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem africana do culto, com as cidades onde ele era mais forte, aparece aqui só de passagem; a obra de Verger que trata disso e as grandes coletâneas de mitos, de Prandi e de Verger, só existem impressas "
+            },
+            {
+              "t": "nota",
+              "n": 53
+            },
+            {
+              "t": "texto",
+              "v": ". Também não há registro de uma história do culto de Oxum na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 54
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-035"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-038"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-020"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-050"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-051"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-013"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-011"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-002"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-005"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-054"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-064"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-014"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-051"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-042"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-030"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-043"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-040"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-030"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-023"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-035"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-045"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-050"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-036"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-008"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-010"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-038"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-046"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-086"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-031"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-047"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-028"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-040"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-026"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-004"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-033"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-029"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-053"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-030"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-025"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-039"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-041"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-041"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-044"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-051"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-010"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-026"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-049"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-022"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-023"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-032"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-020"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-021"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-045"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-006"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-003"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-019"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-032"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-035"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-037"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-050"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-051"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-048"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-047"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-016"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-017"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-018"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-028"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-027"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-053"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-049"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "nomes",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Beniste, *Dicionário yorubá-português*"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (Corrupio, 1981)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": "umbanda"
+        }
+      ]
+    }
+  ]
+}
