@@ -1,0 +1,380 @@
+{
+  "_meta": {
+    "orixa": "oba",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 19,
+    "por_status": {
+      "fichado": 19,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "oba-001",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "esposa de Xangô (com Iansã e Oxum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 122",
+      "parafrase": "Na explicação dos dias da semana, Bastide lembra que, além de Iansã, Xangô tem outras duas mulheres, Obá e Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oba-002",
+      "orixa": "oba",
+      "atributo": "dia_semana",
+      "valor": "quarta-feira (com Xapanã/Omolu)",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS) — batuque, informação pessoal a Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Na semana de Porto Alegre registrada por Bastide, a quarta-feira pertence a Xapanã (Omolu) e a Obá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "oba-003",
+      "orixa": "oba",
+      "atributo": "itans",
+      "valor": "enganada por Oxum, cortou a orelha para agradar Xangô e foi repudiada",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 247",
+      "parafrase": "Xangô tem três mulheres e Obá é a mais esquecida. Ela pergunta a Oxum o segredo do amor do marido; Oxum diz, mentindo, que lhe serviu um prato com um pedaço da própria orelha. Obá faz o mesmo, Xangô se enoja ao ver a carne e a manda embora, e Oxum sai vencedora.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oba-004",
+      "orixa": "oba",
+      "atributo": "iconografia",
+      "valor": "dança com a mão sobre a orelha",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 203, 247",
+      "parafrase": "Quando Obá se manifesta, reconhece-se a divindade porque o iniciado dança com uma das mãos cobrindo a orelha, escondendo a mutilação do mito.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oba-005",
+      "orixa": "oba",
+      "atributo": "historia_culto",
+      "valor": "muito pouco venerada no Brasil",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 247",
+      "parafrase": "Chiousse registra que Obá tem culto muito reduzido no Brasil, ao contrário de Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oba-006",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "esposa de Xangô, com Iansã e Oxum",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 239",
+      "parafrase": "Nos terreiros de Chiousse, Xangô é dado como marido de Iansã, Obá e Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oba-007",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "em algumas versões, esposa de Omulu, depois de repudiada por Xangô",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 270",
+      "parafrase": "Na seção sobre Omulu, Chiousse anota que a mulher dele é Nanã (ou seu lado feminino) e, em outros casos, Obá, a esposa que Xangô repudiou.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "oba-008",
+      "orixa": "oba",
+      "atributo": "historia_culto",
+      "valor": "posição intermediária: assentamento só em alguns terreiros; recebe sacrifício, pode tomar seus filhos e tem ritmo próprio",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "pp. 166–167",
+      "parafrase": "No Recife, Obá ocupa um lugar intermediário: tem assentamento em certos terreiros e não em outros, um repertório de cantos um pouco maior que o de Ewá e Oxumarê e pode possuir seus iniciados. Halloy contrasta com a pesquisa de J. J. de Carvalho (1984), quando Obá não tinha assentamento nem recebia sacrifício; hoje tem até ritmo próprio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "oba-009",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "uma das esposas de Xangô; a ordem das esposas varia entre as narrativas",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167 e nota 364",
+      "parafrase": "Obá é descrita como uma das mulheres de Xangô. Em nota, Halloy mostra que a ordem muda: João do Rio (1904) a faz primeira esposa; em Verger (1985) ela é a terceira, depois de Iansã e Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "oba-010",
+      "orixa": "oba",
+      "atributo": "cores",
+      "valor": "amarelo-ouro, como Oxum, ou amarelo puxado para o laranja",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167",
+      "parafrase": "No Recife a cor de Obá é o amarelo dourado, igual ao de Oxum, ou um amarelo mais alaranjado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "oba-011",
+      "orixa": "oba",
+      "atributo": "dominios",
+      "valor": "deusa do rio Oba (Ibu)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 77",
+      "parafrase": "Ellis apresenta Oba como deusa do rio chamado Ibu ou Oba.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "oba-012",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "terceira esposa de Shango",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 77",
+      "parafrase": "Para Ellis, Oba é a terceira mulher de Shango.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "oba-013",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "uma das três irmãs com quem Shango se casou; leva o arco ou a espada dele",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 48",
+      "parafrase": "Ellis conta que Shango desposou três irmãs, Oya, Oshun e Oba, todas identificadas com rios; quando ele sai, as três o acompanham, e Oshun e Oba levam seu arco e sua espada.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "oba-014",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "nascida do corpo de Yemaja",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 45",
+      "parafrase": "No mito de Orungan e Yemaja narrado por Ellis, entre os seres que saem do corpo de Yemaja está Oba, deusa do rio de mesmo nome.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "oba-015",
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "valor": "filha de Yemoja, entre os orixás do casamento (com Shango, Oya e Oshun)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (informantes de Dennett), relato colonial de 1910",
+      "source_id": "dennett-1910-nigerian",
+      "via_source_id": null,
+      "localizacao": "p. 168",
+      "parafrase": "Um informante de Dennett, Bala Mimi, diz que, dos filhos de Yemoja, só Shango e suas mulheres Oya, Oba e Oshun são orixás do casamento.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/nigerianstudieso00dennuoft"
+      ]
+    },
+    {
+      "id": "oba-016",
+      "orixa": "oba",
+      "atributo": "elementos",
+      "valor": "as nuvens revoltas que se encontram; fica em casa com Oshun",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (informantes de Dennett), relato colonial de 1910",
+      "source_id": "dennett-1910-nigerian",
+      "via_source_id": null,
+      "localizacao": "p. 169",
+      "parafrase": "Segundo o devoto de Shango ouvido por Dennett, Oya é o vento que corre à frente do marido na luta, Oshun é a escuridão que se forma e Oba são as nuvens agitadas que se juntam; as duas últimas ficam em casa cuidando dela.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/nigerianstudieso00dennuoft"
+      ]
+    },
+    {
+      "id": "oba-017",
+      "orixa": "oba",
+      "atributo": "equivalencias",
+      "valor": "sem equivalente no rito angola-congo",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+      "source_id": "botao-2007-angola",
+      "via_source_id": null,
+      "localizacao": "pp. 44–45",
+      "parafrase": "Botão não encontrou, no rito angola-congo, divindade correspondente a Obá nem a Ewá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    },
+    {
+      "id": "oba-018",
+      "orixa": "oba",
+      "atributo": "alimentos",
+      "valor": "acarajé de feijão branco (com Iansã)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "p. 262",
+      "parafrase": "No Ilê Axé Ita Olé, Obá e Iansã recebem acarajé de feijão branco frito no dendê.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "oba-019",
+      "orixa": "oba",
+      "atributo": "hierarquia",
+      "valor": "orixá secundário da linha do Conhecimento (regida por Oxóssi), na Umbanda de Rubens Saraceni",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Umbanda: esquema de Rubens Saraceni (2012), resumido por Nogueira",
+      "source_id": "ufg-2017-exu-umbanda",
+      "via_source_id": null,
+      "localizacao": "p. 324, nota 205",
+      "parafrase": "Nogueira resume o esquema de Rubens Saraceni: sete linhas, irradiações de Olorum, cada qual regida por dois orixás, um à frente e outro em apoio; na do Conhecimento, Oxóssi é o principal e Obá o secundário.",
+      "nota": "Esquema de um autor umbandista; não vale para o Candomblé.",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.bc.ufg.br/tede/handle/tede/7148"
+      ]
+    }
+  ]
+}

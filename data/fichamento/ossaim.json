@@ -1,0 +1,772 @@
+{
+  "_meta": {
+    "orixa": "ossaim",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 39,
+    "por_status": {
+      "fichado": 39,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "ossaim-001",
+      "orixa": "ossaim",
+      "atributo": "dominios",
+      "valor": "ervas e plantas: divindade da vegetação, mais do que só da medicina",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 157",
+      "parafrase": "Bastide aceita que se chame Ossaim de deus da medicina, mas acha a fórmula estreita: como todo rito que pede ervas (iniciação, banhos de purificação) depende dele, prefere vê-lo como senhor das plantas e da vegetação.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-002",
+      "orixa": "ossaim",
+      "atributo": "dominios",
+      "valor": "o mato selvagem, não as plantas cultivadas",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 158",
+      "parafrase": "Para os babalosaim ouvidos por Bastide, a planta que cresce no quintal ou no jardim não serve: é preciso buscá-la no mato, porque Ossaim não entra onde o homem plantou e construiu; ele é deus da mata, oposta ao mundo cultivado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-003",
+      "orixa": "ossaim",
+      "atributo": "dominios",
+      "valor": "plantas em estado natural, selvagem",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 256",
+      "parafrase": "Nos terreiros estudados por Chiousse, só contam as plantas tal como nascem no mato; as cultivadas não teriam valor próprio para o orixá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-004",
+      "orixa": "ossaim",
+      "atributo": "dominios",
+      "valor": "deus das plantas (\"folhas\"); domínio na floresta",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "No nagô do Recife, Ossaim é o dono das plantas, que o candomblé reúne sob o nome genérico de folhas; seu lugar preferido é a floresta, o que o aproxima de Odé e de Ogum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-005",
+      "orixa": "ossaim",
+      "atributo": "dominios",
+      "valor": "medicina (Osanhin, de 'san', beneficiar)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 79",
+      "parafrase": "Ellis registra Osanhin como deus da medicina, procurado sempre que há doença, e por isso de culto muito difundido; deriva o nome de um verbo que significa beneficiar.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ossaim-006",
+      "orixa": "ossaim",
+      "atributo": "funcoes",
+      "valor": "não se manifesta em transe; o culto cabe ao babalosaim (olosaim), que colhe as ervas",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 157",
+      "parafrase": "Na Bahia, como Ifá, Ossaim não se incorpora. Seu sacerdote, chamado babalosaim ou olosaim, também não entra em transe: sua tarefa principal é colher as ervas, em lugar, hora e modo prescritos.",
+      "nota": "DIVERGÊNCIA: Sallum & Silva (p. 301) falam do 'Ossaim de uma pessoa' vestido de folhas (ver registro de iconografia).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-007",
+      "orixa": "ossaim",
+      "atributo": "funcoes",
+      "valor": "não desce em possessão, mas tem papel central no ciclo iniciático",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "Halloy anota que, no Recife, Ossaim não toma ninguém em possessão; ainda assim é peça-chave da iniciação.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-008",
+      "orixa": "ossaim",
+      "atributo": "funcoes",
+      "valor": "cura pelas plantas; poucas folhas exclusivas e nenhuma parte do corpo definida",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 257–258",
+      "parafrase": "Os chefes de culto ouvidos por Chiousse dizem que Ossãe guarda a exclusividade de poucas plantas e não governa uma parte precisa do corpo: age sobre o organismo em geral, conforme o problema.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-009",
+      "orixa": "ossaim",
+      "atributo": "hierarquia",
+      "valor": "o culto de Ossaim (folhas) corresponde à natureza numa estrutura quádrupla do mundo",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 138",
+      "parafrase": "Bastide distingue na Bahia quatro sacerdócios — o do babalorixá (orixás), o do babalaô (Ifá), o do babalosaim (Ossaim, 'dona' das folhas) e o do babaogê (eguns) — e os relaciona a quatro planos do mundo: deuses, homens, natureza e mortos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-010",
+      "orixa": "ossaim",
+      "atributo": "hierarquia",
+      "valor": "sacerdotes de Ossaim na primeira categoria, ao lado dos babalaôs (na África)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "África (segundo Artur Ramos, citado por Bastide)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 155",
+      "parafrase": "Bastide lembra a observação de Artur Ramos de que, na África, os sacerdotes de Ossaim pertencem ao grupo sacerdotal mais alto, junto com os babalaôs, acima dos sacerdotes dos demais orixás.",
+      "nota": "Afirmação de Artur Ramos (Antropologia Brasileira, I, p. 345) relatada por Bastide; Ramos não está no catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-011",
+      "orixa": "ossaim",
+      "atributo": "hierarquia",
+      "valor": "sacerdotes de Osanhin e Aroni na primeira ordem do sacerdócio, com os babalawo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 95",
+      "parafrase": "Na divisão do sacerdócio iorubá proposta por Ellis, a primeira ordem reúne os babalawo, os sacerdotes que praticam medicina servindo a Osanhin e Aroni, e os de Obatalá e Odudua.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ossaim-012",
+      "orixa": "ossaim",
+      "atributo": "historia_culto",
+      "valor": "pegi separado, ao ar livre (\"santo do ar livre\")",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 161",
+      "parafrase": "Por ser um orixá do ar livre, Ossaim tem na Bahia um pegi à parte, afastado das demais casas, em pleno terreno do candomblé, como mostra a planta de terreiro publicada por Bastide.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-013",
+      "orixa": "ossaim",
+      "atributo": "historia_culto",
+      "valor": "uma das três divindades obrigatoriamente cultuadas fora da casa principal (com Exu/Bara e Oxóssi/Odé)",
+      "tradicoes": [
+        "xango_pernambuco",
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Recife (PE) e Porto Alegre (RS), segundo Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 161",
+      "parafrase": "No Recife e em Porto Alegre, Bastide sempre ouviu que Ossaim (ou Ossanhe) está entre os três orixás que precisam ser adorados fora do prédio principal; os outros dois são Exu (Bara) e Oxóssi (Odé).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-014",
+      "orixa": "ossaim",
+      "atributo": "historia_culto",
+      "valor": "poucos adeptos; culto pouco desenvolvido",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 256–257",
+      "parafrase": "Chiousse observa que Ossãe parece ter poucos filhos e que seu culto é pouco sustentado nos terreiros que visitou.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-015",
+      "orixa": "ossaim",
+      "atributo": "interpretacao_academica",
+      "valor": "aproximação com o Caipora só nos candomblés bantos",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés bantos e nagôs",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 156–157",
+      "parafrase": "Querino comparou Ossaim ao Caipora, ambos de uma perna só. Bastide aceita a comparação de mitologias, mas nega que os negros tenham adotado o mito indígena: a identificação só aparece nos candomblés bantos e é desconhecida nos iorubás; a perna perdida tem explicação própria no mito africano.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-016",
+      "orixa": "ossaim",
+      "atributo": "interpretacao_academica",
+      "valor": "ligação com a feitiçaria explicada pela história da escravidão, mas o babalosaim é sacerdote",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 155",
+      "parafrase": "Bastide atribui a fama de feitiçaria do culto de Ossaim ao uso de venenos e filtros no Brasil escravista; insiste, porém, que a força das ervas é religiosa e que o babalosaim é um sacerdote, não um feiticeiro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-017",
+      "orixa": "ossaim",
+      "atributo": "itans",
+      "valor": "perdeu uma perna numa luta contra Xangô",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 157",
+      "parafrase": "Ossaim tem uma perna só porque, um dia, despertou a ira de Xangô e a perdeu na briga; na versão cubana perdeu também um olho e um braço.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-018",
+      "orixa": "ossaim",
+      "atributo": "itans",
+      "valor": "o vento de Iansã espalhou as folhas que Ossãe guardava, e os orixás as repartiram",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 251–252",
+      "parafrase": "Versão de Papai e Mãe Celeste: Olorun deu a Ossãe o saber das plantas, que ele não partilhava. Xangô reclamou com Iansã, senhora dos ventos, que agitou as saias e levantou uma ventania; a cabaça onde as folhas estavam guardadas se abriu e os orixás recolheram e dividiram as folhas. Desde então cada orixá tem as suas, embora Ossãe continue sendo o senhor das plantas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-019",
+      "orixa": "ossaim",
+      "atributo": "itans",
+      "valor": "comprado por Ifá como escravo, recusava cortar ervas porque todas curavam; Ifá o fez mestre das plantas",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 256",
+      "parafrase": "Narrativa recolhida por Chiousse (também em Pessoa de Barros, 1983): Ifá comprou Ossãe para trabalhar na roça, mas ele se negava a cortar cada erva indicada, explicando que uma servia para febre, outra para dor de dente, e assim por diante. Ifá entendeu o poder das plantas e passou a mantê-lo a seu lado para ensiná-lo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-020",
+      "orixa": "ossaim",
+      "atributo": "simbolos",
+      "valor": "ferro pontudo cravado no chão, com uma ave no alto rodeada de sete hastes",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 156",
+      "parafrase": "Bastide descreve a insígnia de Ossaim como uma haste de ferro pontuda, fincada na terra, que leva no alto um pássaro rodeado de sete ramos, e corrige Artur Ramos, que a publicara como sendo de Exu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-021",
+      "orixa": "ossaim",
+      "atributo": "simbolos",
+      "valor": "figura de pássaro pousado numa barra de ferro",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 79",
+      "parafrase": "Segundo Ellis, o emblema de Osanhin é um pássaro sobre uma barra de ferro.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ossaim-022",
+      "orixa": "ossaim",
+      "atributo": "simbolos",
+      "valor": "bastões de metal com pássaro, enviados por chefes como credencial de mensageiro",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (Abeokuta, Ibadan e arredores), relato missionário de 1926",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "pp. 66–67",
+      "parafrase": "Farrow repete que a figura de Osanyin é um pássaro sobre uma barra de ferro e acrescenta que chefes mandavam mensageiros com bastões de metal, às vezes com esse pássaro, quando pediam a ajuda dele em casos de doença.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo. Farrow segue Ellis em boa parte do capítulo; o detalhe dos bastões é observação própria.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "ossaim-023",
+      "orixa": "ossaim",
+      "atributo": "simbolos",
+      "valor": "ferro de ossaim: haste central sempre terminada em pássaro, com hastes laterais em leque",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "pp. 293–294",
+      "parafrase": "Sallum & Silva tratam o 'ferro de ossaim' como bastão ritual todo forjado em ferro, usado na África iorubá e no Brasil; o eixo central acaba sempre num pássaro feito da própria haste (não conhecem exceção), cercado de outras hastes, muitas vezes seis, abertas para cima.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "ossaim-024",
+      "orixa": "ossaim",
+      "atributo": "simbolos",
+      "valor": "ferramentas de ferro no assentamento (orixás 'de ferro': Odé, Ossaim e Ogum)",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 806 (glossário)",
+      "parafrase": "No glossário de Halloy, as ferramentas são peças de ferro do assentamento dos orixás chamados de ferro, entre eles Ossaim, Odé e Ogum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-025",
+      "orixa": "ossaim",
+      "atributo": "interpretacao_academica",
+      "valor": "o pássaro do ferro como sinal do poder de Ossaim; o ferro como árvore estilizada",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "pp. 296–297, 301",
+      "parafrase": "Para explicar por que o ferro mostra pássaros e não folhas, os autores juntam mitos em que o pássaro é mensageiro de Ossaim e lhe traz notícias, e o da repartição das folhas, que tirou dele a exclusividade; leem a ferramenta como uma árvore esquematizada, cravada no chão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "ossaim-026",
+      "orixa": "ossaim",
+      "atributo": "interpretacao_academica",
+      "valor": "cobras enroscadas nos ferros brasileiros, ausentes nos africanos",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "p. 297",
+      "parafrase": "As duas hastes em forma de cobra que envolvem muitos ferros brasileiros não aparecem nos exemplares africanos conhecidos; os autores sugerem uma mescla, nos candomblés jeje-nagô, com símbolos de Oxumarê e Dã.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "ossaim-027",
+      "orixa": "ossaim",
+      "atributo": "saudacao",
+      "valor": "\"Euê ô!\" (ewê = folhas)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblés (Brasil), segundo Sallum & Silva",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "p. 293",
+      "parafrase": "Sallum & Silva registram que Ossaim é saudado com 'euê ô!', lembrando que ewê quer dizer folhas em iorubá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "ossaim-028",
+      "orixa": "ossaim",
+      "atributo": "nomes",
+      "valor": "Ossaim, com as variantes Ossãe, Ossanhe e Ossanha; forma iorubá Osanyin",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "p. 293",
+      "parafrase": "Os autores lembram as grafias portuguesas Ossaim, Ossãe, Ossanhe e Ossanha, todas vindas do iorubá Osanyin.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "ossaim-029",
+      "orixa": "ossaim",
+      "atributo": "nomes",
+      "valor": "Ossanhe (Recife e Porto Alegre); sacerdote: babalosaim ou olosaim",
+      "tradicoes": [
+        "xango_pernambuco",
+        "batuque_rs",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Recife, Porto Alegre e Bahia, segundo Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 119, 157, 161",
+      "parafrase": "Bastide anota a forma Ossanhe no Recife e em Porto Alegre e chama o sacerdote do orixá de babalosaim ou olosaim.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-030",
+      "orixa": "ossaim",
+      "atributo": "iconografia",
+      "valor": "um só olho e uma só perna",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "p. 296",
+      "parafrase": "Com base em Thompson (1983), os autores descrevem Ossaim como quem tomou forma humana com um único olho e uma única perna, figura que associam a um passado de quem quis tudo para si.",
+      "nota": "Dado de Thompson (1983, p. 42), citado por Sallum & Silva; Thompson ainda está a_verificar no catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "ossaim-031",
+      "orixa": "ossaim",
+      "atributo": "iconografia",
+      "valor": "o Ossaim de uma pessoa veste-se ou enfeita-se de folhas",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblés (Brasil), segundo Sallum & Silva",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "p. 301",
+      "parafrase": "Embora o ferro não tenha folhas, o 'Ossaim de uma pessoa' aparece ritualmente vestido de folhas, ou com ramos e ervas na cabeça, nas mãos ou presos ao corpo.",
+      "nota": "DIVERGÊNCIA: sugere manifestação de Ossaim em pessoas, ao contrário do que Bastide (Bahia, p. 157) e Halloy (Recife, p. 165) relatam.",
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "ossaim-032",
+      "orixa": "ossaim",
+      "atributo": "iconografia",
+      "valor": "coberto de flores, frutos e folhagens; às vezes de uma perna só",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 256",
+      "parafrase": "Representam Ossãe coberto de flores, frutas e folhas. Mãe Sevi explica que, abandonado nu pelos pais, ele se cobriu de plantas e só curou os pais, que adoeceram, em troca de roupas. Dizem também que tem uma perna só, sem perder poder por isso.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-033",
+      "orixa": "ossaim",
+      "atributo": "iconografia",
+      "valor": "gênero ambíguo: homem nos itãs, tratado no feminino por muitos adeptos, às vezes dito andrógino",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 256–257",
+      "parafrase": "Chiousse acha Ossãe difícil de definir: os itãs o tratam como homem, muitos adeptos falam dele no feminino, e há quem diga que não tem sexo ou é andrógino.",
+      "nota": "Bastide (p. 138) também escreve 'a dona das folhas'.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-034",
+      "orixa": "ossaim",
+      "atributo": "parentesco",
+      "valor": "muito associado a Oxóssi, com quem partilha plantas; teria ensinado a ele o segredo das folhas",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 256, 258–259",
+      "parafrase": "Ossãe aparece muitas vezes ligado a Oxóssi: é o orixá que mais divide plantas com ele, e, numa história contada por Papai, foi Ossãe quem, na floresta, ensinou a Oxóssi o segredo das plantas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-035",
+      "orixa": "ossaim",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (com Bara, Odê e Otum)",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS) — batuque, informação pessoal a Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Na semana de Porto Alegre que Bastide registra, a segunda-feira é de Bara, Odê, Ossanhe e Otum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ossaim-036",
+      "orixa": "ossaim",
+      "atributo": "cores",
+      "valor": "verde e vermelho",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "Halloy informa, com reserva, que as cores de Ossaim seriam o verde e o vermelho.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ossaim-037",
+      "orixa": "ossaim",
+      "atributo": "equivalencias",
+      "valor": "Katende/Mpanzu (inquice dos encantos)",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+      "source_id": "botao-2007-angola",
+      "via_source_id": null,
+      "localizacao": "p. 40",
+      "parafrase": "Segundo Botão, o inquice Katende (Mpanzu em quicongo), ligado aos encantos, é associado a Ossain, dono das folhas no queto; alguns estudiosos o aproximam antes de Irocô.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    },
+    {
+      "id": "ossaim-038",
+      "orixa": "ossaim",
+      "atributo": "equivalencias",
+      "valor": "Katende é distinto de Ossain, segundo adeptos angola-congo",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+      "source_id": "botao-2007-angola",
+      "via_source_id": null,
+      "localizacao": "p. 104",
+      "parafrase": "Num toque descrito pelo autor, adeptos do rito angola-congo explicam que Katende é deus dos encantamentos e não se confunde com Ossain, a quem cabem as folhas.",
+      "nota": "DIVERGÊNCIA dentro da mesma fonte (p. 40 × p. 104): informantes diferentes.",
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    },
+    {
+      "id": "ossaim-039",
+      "orixa": "ossaim",
+      "atributo": "equivalencias",
+      "valor": "vodum Alogué (jeje)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 25 (Quadro 1)",
+      "parafrase": "No quadro de correspondências do terreiro de Dona Jarina, o vodum jeje Alogué corresponde ao orixá Ossaim, sem santo católico indicado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    }
+  ]
+}

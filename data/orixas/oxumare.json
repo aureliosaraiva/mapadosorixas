@@ -1,0 +1,743 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/oxumare.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 32,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 1
+  },
+  "id": "oxumare",
+  "rotulo": "Oxumarê",
+  "atributos": {
+    "origem": [
+      {
+        "valor": "daomeano (país jeje), incorporado ao panteão iorubá já na África, como Nanã",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 122",
+        "parafrase": "Para Bastide, Nanã e Oxumarê procedem da área que os baianos associam aos jeje: são divindades do Daomé que já tinham entrado no panteão iorubá antes da travessia.",
+        "nota": null,
+        "registro": "oxumare-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "jeje; segundo Verger, de Mahi (Benim)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 165, nota 357; p. 809 (glossário)",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 165, nota 357; p. 809 (glossário)",
+        "parafrase": "Halloy define Oxumaré como orixá de origem jeje e lembra, em nota, que para Verger (2002) Nanã, Obaluaiê e Oxumaré viriam de Mahi, no Benim, e não da Nigéria.",
+        "nota": "Verger (2002) via Halloy.",
+        "registro": "oxumare-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "entidade jeje (como Dã), cultuada nos candomblés nagô",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+        "sources": [
+          {
+            "id": "sallum-2006-ossaim",
+            "loc": "p. 297",
+            "via": null
+          }
+        ],
+        "source_id": "sallum-2006-ossaim",
+        "via_source_id": null,
+        "localizacao": "p. 297",
+        "parafrase": "Sallum & Silva lembram que Oxumaré e Dangbe (Dã) são entidades jeje, de povos fon e vizinhos, cultuadas também em candomblés nagô.",
+        "nota": null,
+        "registro": "oxumare-027",
+        "status": "fichado"
+      }
+    ],
+    "dominios": [
+      {
+        "valor": "arco-íris que liga céu e terra; também cobra (boa)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 287",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 287",
+        "parafrase": "Oxumaré é o arco-íris que une céu e terra; fala-se também dele como boa ou cobra.",
+        "nota": null,
+        "registro": "oxumare-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "deus do arco-íris, a Grande Serpente de baixo, que sobe para beber água do céu",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "p. 81",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "p. 81",
+        "parafrase": "Para Ellis, Oshumare é o arco-íris, uma enorme serpente das profundezas que de vez em quando aparece na borda da terra para beber a água do céu.",
+        "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+        "registro": "oxumare-022",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "intermediário entre céu e terra, que liga com seu véu de cores",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 122",
+        "parafrase": "Como arco-íris, Oxumarê une o céu e a terra com seu longo véu colorido e, se favorável, leva depressa as preces aos deuses do alto.",
+        "nota": null,
+        "registro": "oxumare-004",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "arco-íris; divindade das águas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 122",
+        "parafrase": "Oxumarê conta entre as divindades das águas porque é o arco-íris, que leva ao céu a água dos lagos e do mar para alimentar as nuvens.",
+        "nota": null,
+        "registro": "oxumare-003",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "amarelo e verde",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 287",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 287",
+        "parafrase": "As cores dominantes de Oxumaré são o amarelo e o verde.",
+        "nota": null,
+        "registro": "oxumare-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "as cores do arco-íris",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166",
+        "parafrase": "Halloy anota que Oxumaré é associado às cores do arco-íris e que não há dia da semana fixo para ele.",
+        "nota": null,
+        "registro": "oxumare-020",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "terça-feira (com Nanã)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 120–122",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 120–122",
+        "parafrase": "Na ordem baiana mais geral, a terça-feira é de Nanã e Oxumarê; Bastide a interpreta como dia dos intercessores e, também, como homenagem nagô ao país jeje, de onde os dois viriam.",
+        "nota": null,
+        "registro": "oxumare-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "terça-feira (com Ogum e Nanã), no Opô Afonjá",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — Ilê Axé Opô Afonjá",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 127",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 127",
+        "parafrase": "No Opô Afonjá, a terça é de Ogum, junto com Nanã Buruku e Oxumarê.",
+        "nota": null,
+        "registro": "oxumare-002",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "a palmeira (usada só como decoração, 'conserva a vida')",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 287",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 287",
+        "parafrase": "A única planta citada para Oxumaré é a palmeira, sem uso terapêutico nem em banhos; serve de enfeite, e Mãe Celeste diz que, dentro de casa, ela conserva a vida.",
+        "nota": null,
+        "registro": "oxumare-016",
+        "status": "fichado"
+      },
+      {
+        "valor": "dois bastões de ferro que figuram cobras",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+        "sources": [
+          {
+            "id": "sallum-2006-ossaim",
+            "loc": "pp. 292, 300, 304",
+            "via": null
+          }
+        ],
+        "source_id": "sallum-2006-ossaim",
+        "via_source_id": null,
+        "localizacao": "pp. 292, 300, 304",
+        "parafrase": "Os ferros rituais são atribuídos a Exu, Ogum, Oxóssi, Oxumaré e Ossaim; o de Oxumaré são duas varetas forjadas que desenham serpentes, com a serpente e o arco-íris como imagem.",
+        "nota": null,
+        "registro": "oxumare-026",
+        "status": "fichado"
+      }
+    ],
+    "animais": [
+      {
+        "valor": "uma variedade de píton (ere), sua mensageira",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "pp. 81–82",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "pp. 81–82",
+        "parafrase": "Uma espécie de píton, chamada ere pelos iorubás, é tida como mensageira do deus do arco-íris e lhe é consagrada.",
+        "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+        "registro": "oxumare-024",
+        "status": "fichado"
+      },
+      {
+        "valor": "píton (ere) mensageira e sagrada",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia (Abeokuta, Ibadan e arredores), relato missionário de 1926",
+        "sources": [
+          {
+            "id": "farrow-1926-faith",
+            "loc": "p. 66",
+            "via": null
+          }
+        ],
+        "source_id": "farrow-1926-faith",
+        "via_source_id": null,
+        "localizacao": "p. 66",
+        "parafrase": "Farrow repete que Oshumare é o arco-íris, serpente que mora dentro da terra, e que a píton ere é sua mensageira sagrada.",
+        "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo. Farrow cita Ellis explicitamente neste trecho: não é testemunho independente.",
+        "registro": "oxumare-025",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "filho de Nanã, irmão de Obaluaiê; origem comum distinta da dos outros orixás",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "pp. 165–166, 169",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "pp. 165–166, 169",
+        "parafrase": "Os membros do candomblé do Recife sabem que Nanã, Obaluaiê e Oxumaré têm uma origem comum, diferente da dos demais, e que Nanã é mãe dos outros dois; por isso não são filhos do casal Orixalá–Iemanjá.",
+        "nota": null,
+        "registro": "oxumare-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "filho de Nanã, que entrou com os filhos no panteão iorubá ainda na África",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 7",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 7",
+        "parafrase": "Ao tratar da família de Quevioçô na Mina, Prandi nota que, dela, só Nanã tem culto nos candomblés; ela e os filhos, Omulu e Oxumarê, já faziam parte do panteão iorubá antes da vinda para o Brasil.",
+        "nota": null,
+        "registro": "oxumare-028",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "Anyiewo, dos povos ewe",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "vodun_benim"
+        ],
+        "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "pp. 81–82",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "pp. 81–82",
+        "parafrase": "Ellis diz que o mesmo deus existe entre os ewe com o nome de Anyiewo.",
+        "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+        "registro": "oxumare-023",
+        "status": "fichado"
+      },
+      {
+        "valor": "voduns Dangbê (jeje) e Idarço (nagô)",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+        "parafrase": "No terreiro de Dona Jarina, Oxumarê corresponde ao vodum jeje Dangbê e ao nagô Idarço.",
+        "nota": null,
+        "registro": "oxumare-029",
+        "status": "fichado"
+      },
+      {
+        "valor": "Hongolo / Angoro, inquice de rio e de arco-íris",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "p. 41",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "p. 41",
+        "parafrase": "No angola-congo, Hongolo (Angoro ou Angoroméa), ligada à água doce e ao arco-íris, é posta em correspondência com Oxumaré.",
+        "nota": null,
+        "registro": "oxumare-031",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "S. Bartolomeu",
+        "tradicoes": [
+          "xango_pernambuco",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Pernambuco e candomblés bantos da Bahia, segundo Bastide",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 104",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 104",
+        "parafrase": "No calendário que associa festas de orixás a dias de santos, Oxunmarê fica com São Bartolomeu (24 de agosto).",
+        "nota": null,
+        "registro": "oxumare-008",
+        "status": "fichado"
+      },
+      {
+        "valor": "santo não identificado com segurança",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 287",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 287",
+        "parafrase": "Chiousse não conseguiu estabelecer a que santo católico Oxumaré estava associado nos terreiros pesquisados.",
+        "nota": "Contraste com S. Bartolomeu em Bastide (p. 104) e Prandi (p. 25).",
+        "registro": "oxumare-015",
+        "status": "fichado"
+      },
+      {
+        "valor": "S. Bartolomeu",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+        "parafrase": "Na mesma casa, Dangbê, Idarço e Oxumarê têm São Bartolomeu como santo católico.",
+        "nota": null,
+        "registro": "oxumare-030",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "macho e arco-íris seis meses do ano, fêmea e cobra nos outros seis: representa a continuidade",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 287",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 287",
+        "parafrase": "Segundo os informantes de Chiousse, Oxumaré passa metade do ano como macho e arco-íris e a outra metade como fêmea e serpente, o que o faz símbolo da continuidade.",
+        "nota": null,
+        "registro": "oxumare-012",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "24 de agosto (\"festa da purificação\" na pedra; dia de S. Bartolomeu)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 93, 104",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 93, 104",
+        "parafrase": "Em 24 de agosto se celebra uma festa na pedra de Oxumarê, que Édison Carneiro chamou de festa da purificação; no calendário afro-católico, o mesmo dia, de São Bartolomeu, é a festa de Oxunmarê.",
+        "nota": null,
+        "registro": "oxumare-007",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "pedra de Oxunmarê à beira-mar, em Salvador, onde mães levam os filhos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 92–93 e nota 37",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 92–93 e nota 37",
+        "parafrase": "Perto do mar, em Salvador, há uma pedra de Oxumarê com uma cavidade sempre cheia de água; mães levam ali os bebês numa espécie de batismo, e um arco-íris no céu é sinal da bênção do orixá. Por estar à beira-mar, Bastide liga esse culto ao de Iemanjá.",
+        "nota": null,
+        "registro": "oxumare-006",
+        "status": "fichado"
+      },
+      {
+        "valor": "casa de Oxunmarê em Salvador: festas aos domingos de janeiro e início de fevereiro; 1 entre 86 santuários recenseados",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 85 (nota 18), 108",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 85 (nota 18), 108",
+        "parafrase": "No recenseamento de Bastide, de 86 santuários baianos só um era casa de Oxunmarê. Nessa casa as festas anuais ocupavam os domingos de janeiro e o começo de fevereiro; numa das visitas, ela estava fechada pelo luto da ialorixá.",
+        "nota": null,
+        "registro": "oxumare-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "o ilê Maroiá Láji, consagrado a Oxumarê, na narrativa de fundação do Alaketo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA): terreiro do Alaketo, segundo Silveira (2003), resumido por Nogueira",
+        "sources": [
+          {
+            "id": "ufg-2017-exu-umbanda",
+            "loc": "p. 139",
+            "via": null
+          }
+        ],
+        "source_id": "ufg-2017-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "p. 139",
+        "parafrase": "Nogueira resume a narrativa de fundação recolhida por Silveira: duas irmãs gêmeas de Ketu, escravizadas e levadas à Bahia, teriam sido libertadas pelo próprio Oxumarê, sob a figura de um homem branco; depois, uma delas e o marido fundaram o Alaketo, de Oxóssi, e ergueram o ilê Maroiá Láji, consagrado a Oxumarê.",
+        "nota": "Narrativa de tradição oral do terreiro; Silveira 2003 (pp. 345–346) via Nogueira.",
+        "registro": "oxumare-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "presente em quase todos os terreiros; tem filhos de santo (inicia-se para ele)",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+        "sources": [
+          {
+            "id": "chiousse-1995-divins",
+            "loc": "p. 287",
+            "via": null
+          }
+        ],
+        "source_id": "chiousse-1995-divins",
+        "via_source_id": null,
+        "localizacao": "p. 287",
+        "parafrase": "Ao contrário de Ifá, Oxumaré aparece em quase todos os terreiros estudados e tem filhos de santo, embora seja difícil obter detalhes sobre ele.",
+        "nota": "DIVERGÊNCIA: no nagô do Recife, sem assentamento nem iniciados (Halloy, p. 166).",
+        "registro": "oxumare-013",
+        "status": "fichado"
+      },
+      {
+        "valor": "sem assentamento, poucas toadas e nenhum iniciado no nagô do Recife",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166",
+        "parafrase": "No Recife, Oxumaré é ligado ao arco-íris, mas não tem assentamento, tem só umas poucas toadas cantadas nas festas públicas e nenhum iniciado.",
+        "nota": null,
+        "registro": "oxumare-019",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "servo de Shango, que leva a água da terra ao palácio nas nuvens (segundo alguns nativos)",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "p. 48",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "p. 48",
+        "parafrase": "Ellis ouviu de alguns nativos que Oshumare, o arco-íris, serve a Shango levando água da terra até seu palácio nas nuvens.",
+        "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+        "registro": "oxumare-021",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá secundário da linha do Amor (regida por Oxum), na Umbanda de Rubens Saraceni",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Umbanda: esquema de Rubens Saraceni (2012), resumido por Nogueira",
+        "sources": [
+          {
+            "id": "ufg-2017-exu-umbanda",
+            "loc": "p. 324, nota 205",
+            "via": null
+          }
+        ],
+        "source_id": "ufg-2017-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "p. 324, nota 205",
+        "parafrase": "No esquema de Saraceni resumido por Nogueira, a linha do Amor tem Oxum como orixá principal e Oxumaré como secundário.",
+        "nota": "Esquema de um autor umbandista; não vale para o Candomblé.",
+        "registro": "oxumare-032",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "nomes",
+      "saudacao",
+      "qualidades",
+      "tabus",
+      "iconografia",
+      "interpretacao_academica"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {
+      "alimentos": [
+        "oxumare-033"
+      ]
+    }
+  },
+  "revisao": []
+}

@@ -1,0 +1,787 @@
+{
+  "_meta": {
+    "orixa": "ibeji",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 40,
+    "por_status": {
+      "fichado": 40,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "ibeji-001",
+      "orixa": "ibeji",
+      "atributo": "festas",
+      "valor": "27 de setembro, festa dos Gêmeos, no dia dos santos Cosme e Damião",
+      "tradicoes": [
+        "xango_pernambuco",
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Pernambuco e candomblés bantos da Bahia, segundo Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 104",
+      "parafrase": "No calendário afro-católico que Bastide resume, a festa dos Gêmeos (ibeji) cai em 27 de setembro, dia de Cosme e Damião; ele observa que esse calendário vale mais para os iorubás de Pernambuco e, na Bahia, para os candomblés bantos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-002",
+      "orixa": "ibeji",
+      "atributo": "sincretismo",
+      "valor": "S. Cosme e S. Damião",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 255–256",
+      "parafrase": "A devoção portuguesa aos santos gêmeos Cosme e Damião chegou cedo ao Brasil; com os africanos escravizados, fundiu-se ao culto dos gêmeos (mabaça), a ponto de hoje ser difícil separar o que veio de cada lado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-003",
+      "orixa": "ibeji",
+      "atributo": "festas",
+      "valor": "peditório das crianças, missa e refeição festiva dos meninos (Bahia)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 256–258",
+      "parafrase": "Entre famílias negras próximas dos terreiros baianos, a festa começa com crianças pedindo esmolas na rua com a imagem dos santos, para pagar uma missa; depois há uma refeição das crianças, que comem com as mãos, com cantos e palmas, e mais tarde a dos adultos. Bastide liga o peditório aos presentes que gêmeos recebem no mercado entre iorubás e fons.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-004",
+      "orixa": "ibeji",
+      "atributo": "alimentos",
+      "valor": "caruru dos meninos (no mínimo sete crianças; sete quiabos inteiros)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 258",
+      "parafrase": "O prato central da festa baiana é o caruru, servido a pelo menos sete crianças; no caruru dos adultos, sete quiabos ficam inteiros e quem os encontra oferece a festa no ano seguinte.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-005",
+      "orixa": "ibeji",
+      "atributo": "hierarquia",
+      "valor": "na Bahia e no Recife, ibeji não baixam: não são divindades verdadeiras, mas antepassados míticos dos gêmeos",
+      "tradicoes": [
+        "candomble_ketu",
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Bahia e Recife, segundo Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 259",
+      "parafrase": "Bastide afirma que, nas duas cidades, os ibeji não se manifestam: seriam ancestrais míticos dos gêmeos, não divindades plenas; no Nordeste, o único transe de criança é o do erê.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-006",
+      "orixa": "ibeji",
+      "atributo": "hierarquia",
+      "valor": "em Porto Alegre, ibeji são honrados como orixás e podem baixar",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS) — batuque, informação pessoal a Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 260",
+      "parafrase": "No sul o quadro se inverte: em Porto Alegre os ibeji têm lugar no xirê como qualquer orixá e podem possuir alguém, que passa a agir como criança, mesmo sendo adulto.",
+      "nota": "DIVERGÊNCIA com Bahia/Recife (p. 259).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-007",
+      "orixa": "ibeji",
+      "atributo": "festas",
+      "valor": "Recife: 27 de setembro dedicado aos Beije nos xangôs, com doces para crianças, à tarde e sem os pais",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 259",
+      "parafrase": "No Recife a festa é mais dos terreiros do que das famílias: quase todos os xangôs dedicam o 27 de setembro aos Beije, com distribuição de doces e frutas às crianças, à tarde; um único terreiro a faz em 12 de fevereiro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-008",
+      "orixa": "ibeji",
+      "atributo": "nomes",
+      "valor": "ibeji; Beije (Recife); dois-dois e mabaça (Bahia); Beggüe e Meggüe como nomes dos dois",
+      "tradicoes": [
+        "candomble_ketu",
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Bahia e Recife, segundo Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 256, 258–259, 262",
+      "parafrase": "Bastide registra os nomes ibeji, Beije (no Recife), 'dois-dois' e mabaça (na Bahia), e recebeu Beggüe e Meggüe como nomes dos dois gêmeos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-009",
+      "orixa": "ibeji",
+      "atributo": "dia_semana",
+      "valor": "quarta-feira (Recife)",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 119, nota 79",
+      "parafrase": "Bastide anota que, no Recife, a quarta-feira é dia dos ibeji, porque Xangô e sua mulher passam para a quinta.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-010",
+      "orixa": "ibeji",
+      "atributo": "parentesco",
+      "valor": "Doú: terceiro filho ou guardião dos gêmeos; Alaba",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 260–262",
+      "parafrase": "João do Rio achou no Rio, além dos ibeji, dois seres que chamou de orixás, Doú e Alaba. Na Bahia, segundo Carneiro, Doú é o terceiro de trigêmeos ou o filho nascido depois de gêmeos; com o tempo virou o guardião dos gêmeos, e santeiros passaram a esculpi-lo entre Cosme e Damião.",
+      "nota": "Bastide relata João do Rio (1904) e Édison Carneiro; liga Doú ao macaquinho Edun consagrado aos ibeji em Ellis.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-011",
+      "orixa": "ibeji",
+      "atributo": "iconografia",
+      "valor": "três imagens: Cosme, Damião e Doú entre eles",
+      "tradicoes": [
+        "candomble_ketu",
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Bahia e Recife, segundo Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 262 e nota 32",
+      "parafrase": "Os escultores de imagens na Bahia põem um terceiro personagem menor entre Cosme e Damião, que representa Doú; no Recife os gêmeos também aparecem em três estatuetas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-012",
+      "orixa": "ibeji",
+      "atributo": "sincretismo",
+      "valor": "S. Crispim e S. Crispiniano (às vezes)",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 259, nota 22",
+      "parafrase": "Bastide nota que os ibeji às vezes são identificados com Crispim e Crispiniano, cuja festa é em 25 de outubro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-013",
+      "orixa": "ibeji",
+      "atributo": "parentesco",
+      "valor": "em Cuba, os gêmeos (jimaguas) são Dada e Ogun, irmãos de Xangô",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba, segundo F. Ortiz (Los negros brujos), citado por Bastide",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 261, nota 30",
+      "parafrase": "Bastide cita Ortiz: em Cuba os gêmeos (jimaguas) são identificados com Dada e Ogun, tidos por irmãos de Xangô, daí a veste vermelha que os une.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "ibeji-014",
+      "orixa": "ibeji",
+      "atributo": "sincretismo",
+      "valor": "S. Cosme e S. Damião",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 280",
+      "parafrase": "Chiousse define os Ibejis como crianças gêmeas que o sincretismo identifica com Cosme e Damião, patronos medievais dos médicos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-015",
+      "orixa": "ibeji",
+      "atributo": "festas",
+      "valor": "fim de setembro (23, 26 ou 27), com brinquedos, doces e pipoca",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 280",
+      "parafrase": "A festa dos Ibejis é no fim de setembro, em dia que varia entre 23, 26 e 27; é o dia das crianças, a quem se dão brinquedos e guloseimas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-016",
+      "orixa": "ibeji",
+      "atributo": "parentesco",
+      "valor": "um terceiro personagem, macaquinho ou menino negro chamado Doum",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 280",
+      "parafrase": "Às vezes junta-se aos gêmeos um terceiro, um macaco pequeno ou uma criança negra chamada Doum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-017",
+      "orixa": "ibeji",
+      "atributo": "hierarquia",
+      "valor": "nem sempre considerados orixás; sem transe nem iniciação nos candomblés nagô, segundo Papai",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "pp. 280–281",
+      "parafrase": "As opiniões se dividem: nem todo terreiro inicia filhos para os Ibejis, e o pai de santo Papai afirma que no candomblé nagô não há transe nem iniciação para eles; se for assim, não seriam orixás.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-018",
+      "orixa": "ibeji",
+      "atributo": "hierarquia",
+      "valor": "alguns terreiros confirmam o transe dos Ibejis, outros negam, outros o identificam ao erê",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 204",
+      "parafrase": "Chiousse encontrou as três posições: terreiros que reconhecem transe de Ibejis, terreiros que o negam e outros que o confundem com o erê.",
+      "nota": "DIVERGÊNCIA registrada pela própria fonte.",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-019",
+      "orixa": "ibeji",
+      "atributo": "funcoes",
+      "valor": "protegem as crianças (até uns doze anos) e as doenças infantis; podem punir adultos com perturbações mentais",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 281",
+      "parafrase": "Os Ibejis cuidam das crianças até perto dos doze anos e agem sobre as doenças da infância; atribuem-lhes também poder sobre a mente, e certos distúrbios psíquicos de adultos seriam castigo deles.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-020",
+      "orixa": "ibeji",
+      "atributo": "tabus",
+      "valor": "não castigar crianças no dia da festa",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 280",
+      "parafrase": "Quem bater ou punir uma criança no dia dos Ibejis sofreria em seguida, segundo autor citado por Chiousse.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-021",
+      "orixa": "ibeji",
+      "atributo": "parentesco",
+      "valor": "para alguns, filhos de Iemanjá com Xangô",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 236",
+      "parafrase": "Entre as versões sobre os filhos de Iemanjá, há quem diga que ela também gerou os Ibejis, de uma união proibida com Xangô.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-022",
+      "orixa": "ibeji",
+      "atributo": "parentesco",
+      "valor": "Oxum é considerada sua mãe; assentamento aos pés do de Oxum",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167",
+      "parafrase": "No Recife o assentamento dos Ibeji fica sempre aos pés do de Oxum, tida como mãe deles.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-023",
+      "orixa": "ibeji",
+      "atributo": "iconografia",
+      "valor": "deuses-crianças gêmeos, mas assentados em três pratinhos de barro",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167",
+      "parafrase": "Halloy nota a curiosidade: os Ibeji são descritos como gêmeos, mas o assentamento tem três pequenos pratos de barro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-024",
+      "orixa": "ibeji",
+      "atributo": "hierarquia",
+      "valor": "têm cantos (toadas), mas não são recebidos em possessão",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167",
+      "parafrase": "No nagô do Recife os Ibeji têm toadas próprias, mas ninguém os recebe em possessão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-025",
+      "orixa": "ibeji",
+      "atributo": "cores",
+      "valor": "todas as cores, misturadas",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167",
+      "parafrase": "Todas as cores, misturadas, são associadas aos Ibeji no Recife.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-026",
+      "orixa": "ibeji",
+      "atributo": "sincretismo",
+      "valor": "S. Cosme e S. Damião, festejados por volta de 27 de setembro",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 276",
+      "parafrase": "Halloy vê no Recife um sincretismo ainda vivo entre os Ibeji, orixás crianças, e Cosme e Damião, celebrados por volta de 27 de setembro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ibeji-027",
+      "orixa": "ibeji",
+      "atributo": "dominios",
+      "valor": "divindade tutelar dos gêmeos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 80",
+      "parafrase": "Ellis apresenta Ibeji como divindade protetora dos gêmeos e explica o nome como 'gerar dois'.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ibeji-028",
+      "orixa": "ibeji",
+      "atributo": "equivalencias",
+      "valor": "Hoho, dos povos ewe",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 80",
+      "parafrase": "Segundo Ellis, Ibeji corresponde ao deus Hoho dos ewe.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ibeji-029",
+      "orixa": "ibeji",
+      "atributo": "tabus",
+      "valor": "macaco preto dos mangues, sagrado a Ibeji: gêmeos e pais não comem sua carne",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 80",
+      "parafrase": "Um pequeno macaco preto, comum nos mangues, é consagrado a Ibeji, recebe frutas e não pode ser comido por gêmeos nem por seus pais; um dos gêmeos costuma receber o nome dele, Edun.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ibeji-030",
+      "orixa": "ibeji",
+      "atributo": "iconografia",
+      "valor": "estatueta de madeira do gêmeo morto, carregada pela mãe",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 80",
+      "parafrase": "Quando um gêmeo morre, a mãe passa a carregar, com o sobrevivente, uma figurinha de madeira do sexo do falecido, para que o vivo não sinta falta do irmão e o espírito tenha onde morar.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ibeji-031",
+      "orixa": "ibeji",
+      "atributo": "historia_culto",
+      "valor": "templo célebre em Erapo, na laguna entre Lagos e Badagry; em Ondo se mataria um dos gêmeos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 81",
+      "parafrase": "Ellis cita um templo de Ibeji muito visitado em Erapo, entre Lagos e Badagry, e ouviu dizer que em Ondo se eliminava um dos gêmeos, costume que atribui a influência do Benim.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ]
+    },
+    {
+      "id": "ibeji-032",
+      "orixa": "ibeji",
+      "atributo": "historia_culto",
+      "valor": "no leste (Ondo) os gêmeos eram mortos; no centro e oeste (Ibadan, Abeokuta) eram honrados",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (Abeokuta, Ibadan e arredores), relato missionário de 1926",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "p. 58",
+      "parafrase": "Farrow contrasta regiões: no leste iorubá, em Ondo e no delta do Níger, exigia-se a morte dos gêmeos; no centro e no oeste eles eram honrados ainda em vida, e a mãe de um gêmeo morto cuidava de uma imagem de madeira como se fosse a criança.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "ibeji-033",
+      "orixa": "ibeji",
+      "atributo": "nomes",
+      "valor": "Taiwo (o primeiro) e Kehinde (o segundo)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (Abeokuta, Ibadan e arredores), relato missionário de 1926",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "p. 58",
+      "parafrase": "Farrow registra que o mais velho dos gêmeos se chama sempre Taiwo, o que prova o mundo primeiro, e o mais novo Kehinde, o que vem depois.",
+      "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "ibeji-034",
+      "orixa": "ibeji",
+      "atributo": "historia_culto",
+      "valor": "o culto teria surgido com o fim do infanticídio de gêmeos (tradições de Isokun/Porto Novo e do alafin Ajaka)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó (bairro de Isokun) e Igboọra, Nigéria: tradição oral e entrevistas",
+      "source_id": "ogunbunmi-2026-twins",
+      "via_source_id": null,
+      "localizacao": "pp. 169–174",
+      "parafrase": "Ogunbunmi usa oríkì, cantos e entrevistas para mostrar que a tradição oral lembra um tempo em que gêmeos eram eliminados. A virada é contada de dois modos: o alafin Ajaka (c. séc. XII) poupou seus gêmeos e os mandou para longe, e eles teriam fundado Ondo; ou uma família de Isokun, em Porto Novo, por conselho de Ifá dançou com os gêmeos no mercado, enriqueceu com os presentes, e o alafin proibiu a matança (Chappel situa isso em meados do séc. XVIII).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.32473/ysr.11.1.141497"
+      ]
+    },
+    {
+      "id": "ibeji-035",
+      "orixa": "ibeji",
+      "atributo": "historia_culto",
+      "valor": "os primeiros gêmeos notáveis viriam do bairro de Isokun, em Oyó",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó (bairro de Isokun) e Igboọra, Nigéria: tradição oral e entrevistas",
+      "source_id": "ogunbunmi-2026-twins",
+      "via_source_id": null,
+      "localizacao": "pp. 169, 171",
+      "parafrase": "A conclusão do artigo é que os primeiros gêmeos de destaque entre os iorubás eram do bairro de Isokun, em Oyó, o que o oríkì 'gêmeos, parentes de Isokun' preserva.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.32473/ysr.11.1.141497"
+      ]
+    },
+    {
+      "id": "ibeji-036",
+      "orixa": "ibeji",
+      "atributo": "hierarquia",
+      "valor": "gêmeos tidos como òrìṣà, seres sagrados e intermediários entre o mundo dos espíritos e os humanos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó (bairro de Isokun) e Igboọra, Nigéria: tradição oral e entrevistas",
+      "source_id": "ogunbunmi-2026-twins",
+      "via_source_id": null,
+      "localizacao": "p. 175",
+      "parafrase": "Os iorubás classificam os gêmeos entre as crianças sagradas e os tratam como òrìṣà; atribuem-lhes poder de punir quem lhes faz mal e veem neles uma ponte entre espíritos e humanos. Por isso se diz que o gêmeo morto 'foi comprar roupa' para o irmão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.32473/ysr.11.1.141497"
+      ]
+    },
+    {
+      "id": "ibeji-037",
+      "orixa": "ibeji",
+      "atributo": "iconografia",
+      "valor": "ère ìbejì: imagem esculpida quando um gêmeo morre, guardada no altar",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó (bairro de Isokun) e Igboọra, Nigéria: tradição oral e entrevistas",
+      "source_id": "ogunbunmi-2026-twins",
+      "via_source_id": null,
+      "localizacao": "p. 175",
+      "parafrase": "Se um ou os dois gêmeos morrem, esculpe-se uma imagem comemorativa, a ère ìbejì, colocada no santuário.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.32473/ysr.11.1.141497"
+      ]
+    },
+    {
+      "id": "ibeji-038",
+      "orixa": "ibeji",
+      "atributo": "alimentos",
+      "valor": "feijão, ekuru, àkàrà e outros alimentos deixados no altar",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó (bairro de Isokun) e Igboọra, Nigéria: tradição oral e entrevistas",
+      "source_id": "ogunbunmi-2026-twins",
+      "via_source_id": null,
+      "localizacao": "p. 173",
+      "parafrase": "Nos altares de gêmeos, dentro ou ao lado da casa, deixam-se comidas de feijão e outros alimentos; as formigas que os comem são vistas como os espíritos dos gêmeos se alimentando.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.32473/ysr.11.1.141497"
+      ]
+    },
+    {
+      "id": "ibeji-039",
+      "orixa": "ibeji",
+      "atributo": "equivalencias",
+      "valor": "Vunji (inquice da justiça, ligado ao nascimento)",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+      "source_id": "botao-2007-angola",
+      "via_source_id": null,
+      "localizacao": "p. 41",
+      "parafrase": "Vunji, deus da justiça que atua no nascimento das crianças, é aproximado dos Ibeji pela maioria dos sacerdotes angola-congo ouvidos por Botão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    },
+    {
+      "id": "ibeji-040",
+      "orixa": "ibeji",
+      "atributo": "sincretismo",
+      "valor": "linha de Ibeji = Tenda Cosme e Damião (Umbanda de Diamantino Trindade)",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Umbanda: esquema de Diamantino Trindade, resumido por Nogueira",
+      "source_id": "ufg-2017-exu-umbanda",
+      "via_source_id": null,
+      "localizacao": "pp. 311, 324",
+      "parafrase": "Nogueira resume as sete linhas propostas por Diamantino Trindade, cada uma ligada a uma das tendas de Zélio de Moraes; a de Ibeji corresponde à Tenda Cosme e Damião.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.bc.ufg.br/tede/handle/tede/7148"
+      ]
+    }
+  ]
+}

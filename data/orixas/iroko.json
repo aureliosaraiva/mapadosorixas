@@ -1,0 +1,304 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/iroko.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 12,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "iroko",
+  "rotulo": "Iroko / Tempo",
+  "atributos": {
+    "nomes": [
+      {
+        "valor": "Irôko ou Lôko",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 96, nota 43",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 96, nota 43",
+        "parafrase": "Bastide usa as formas Irôko e Lôko para a mesma árvore sagrada.",
+        "nota": null,
+        "registro": "iroko-003",
+        "status": "fichado"
+      }
+    ],
+    "dominios": [
+      {
+        "valor": "reino da vegetação (com Ossaim), ao qual se ligam os caboclos",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 157, nota 35",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 157, nota 35",
+        "parafrase": "Bastide cita René Ribeiro: no Recife os caboclos se prendem ao domínio da vegetação, de Irôko e Ossaim, e ao da caça, de Odé e Oxóssi.",
+        "nota": "Afirmação de R. Ribeiro relatada por Bastide.",
+        "registro": "iroko-006",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "árvore que abriga os antepassados da família (depoimento único)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 170",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 170",
+        "parafrase": "Um interlocutor, Júnior, descreveu a gameleira como a árvore que guarda os avós, onde se faziam sacrifícios; Halloy ressalva que ouviu essa ligação com os ancestrais uma só vez.",
+        "nota": null,
+        "registro": "iroko-009",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "a gameleira (Ficus doliaria), adorada como Irôko",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 165",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 165",
+        "parafrase": "Na lista de plantas de Bastide, a gameleira é a árvore cultuada sob o nome de Irôko.",
+        "nota": null,
+        "registro": "iroko-001",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "no Recife, a gameleira é relacionada a Nanã",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 165",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 165",
+        "parafrase": "Bastide anota que, no Recife, a gameleira se liga a Nanã.",
+        "nota": null,
+        "registro": "iroko-002",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "Kitembo/Tembu, ligado aos ventos e à cura",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "p. 42",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "p. 42",
+        "parafrase": "No angola-congo, Kitembo (Tembu) é associado a Irocô ou Tempo, deus dos ventos, e age na cura de doenças.",
+        "nota": null,
+        "registro": "iroko-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "Katende (aproximação feita por alguns estudiosos)",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "p. 40",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "p. 40",
+        "parafrase": "Botão registra que Bastide e Carneiro aproximam o inquice Katende de Irocô, embora os adeptos o liguem a Ossain.",
+        "nota": "Aproximação atribuída por Botão a Bastide (1973) e Carneiro (1937).",
+        "registro": "iroko-012",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "a gameleira branca do Sítio do Pai Adão: o próprio orixá ou sua morada",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 170",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 170",
+        "parafrase": "Para alguns, Iroko se confunde com a grande gameleira branca do fundo do Sítio do Pai Adão, que a fundadora, tia Inês, teria plantado com sementes trazidas da África; outros dizem que a árvore é só a morada do orixá. Antes havia oferendas ao pé dela, prática hoje abandonada e criticada.",
+        "nota": null,
+        "registro": "iroko-008",
+        "status": "fichado"
+      },
+      {
+        "valor": "repertório limitado a algumas toadas nos toques",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 277, nota 652",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 277, nota 652",
+        "parafrase": "Nos toques do Recife canta-se também para Ewá, Oxumarê e Iroko, mas o repertório deles se resume a poucas toadas.",
+        "nota": null,
+        "registro": "iroko-010",
+        "status": "fichado"
+      }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "poste central do barracão, árvore do mundo e Irôko/Lôko",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 96–97, nota 43",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 96–97, nota 43",
+        "parafrase": "Bastide aponta, na Bahia, uma ligação entre o poste central do salão, a árvore do mundo e Irôko, mais fraca que no Haiti; no Opô Afonjá, o canto de Lôko vem logo depois do de Obatalá, união que E. Correia Lopes perguntou sem responder.",
+        "nota": null,
+        "registro": "iroko-004",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "cantado no começo, entre as divindades que ligam céu e terra (Recife, terreiro de Pai Adão)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 97, nota 43",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 97, nota 43",
+        "parafrase": "No terreiro de Pai Adão, no Recife, canta-se para Irôko logo depois de Exu, Ogum e Oxóssi e antes de Oxumarê; Bastide lê o conjunto como deuses que fazem a ponte entre natureza e sobrenatural, com Irôko no papel de árvore do mundo.",
+        "nota": "Ordem dos cantos segundo Gonçalves Fernandes (Xangôs do Nordeste, p. 62), citado por Bastide.",
+        "registro": "iroko-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá para uns, árvore sagrada para outros",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 170",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 170",
+        "parafrase": "No Recife, uns tratam Iroko como orixá, outros como árvore sagrada; não há mais culto próprio, só uma ou outra toada nos toques, mas ele mantém um estatuto especial.",
+        "nota": null,
+        "registro": "iroko-007",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "origem",
+      "cores",
+      "dia_semana",
+      "saudacao",
+      "simbolos",
+      "alimentos",
+      "animais",
+      "qualidades",
+      "sincretismo",
+      "itans",
+      "tabus",
+      "festas",
+      "iconografia"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

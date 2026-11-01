@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 82
+    "total": 107
   },
   "divergencias": [
     {
@@ -140,6 +140,34 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 174",
           "registro": "egungun-014"
+        }
+      ]
+    },
+    {
+      "orixa": "ewa",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "voduns Boçalabê (jeje) e Eowá (jeje-nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "ewa-003"
+        },
+        {
+          "valor": "sem equivalente no rito angola-congo",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "pp. 44–45",
+          "registro": "ewa-007"
         }
       ]
     },
@@ -782,6 +810,287 @@
       ]
     },
     {
+      "orixa": "ibeji",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Hoho, dos povos ewe",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 80",
+          "registro": "ibeji-028"
+        },
+        {
+          "valor": "Vunji (inquice da justiça, ligado ao nascimento)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 41",
+          "registro": "ibeji-039"
+        }
+      ]
+    },
+    {
+      "orixa": "ibeji",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "27 de setembro, festa dos Gêmeos, no dia dos santos Cosme e Damião",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Pernambuco e candomblés bantos da Bahia, segundo Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "registro": "ibeji-001"
+        },
+        {
+          "valor": "peditório das crianças, missa e refeição festiva dos meninos (Bahia)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 256–258",
+          "registro": "ibeji-003"
+        },
+        {
+          "valor": "Recife: 27 de setembro dedicado aos Beije nos xangôs, com doces para crianças, à tarde e sem os pais",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 259",
+          "registro": "ibeji-007"
+        },
+        {
+          "valor": "fim de setembro (23, 26 ou 27), com brinquedos, doces e pipoca",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 280",
+          "registro": "ibeji-015"
+        }
+      ]
+    },
+    {
+      "orixa": "ibeji",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "na Bahia e no Recife, ibeji não baixam: não são divindades verdadeiras, mas antepassados míticos dos gêmeos",
+          "tradicoes": [
+            "candomble_ketu",
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Bahia e Recife, segundo Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 259",
+          "registro": "ibeji-005"
+        },
+        {
+          "valor": "em Porto Alegre, ibeji são honrados como orixás e podem baixar",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (RS) — batuque, informação pessoal a Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 260",
+          "registro": "ibeji-006"
+        },
+        {
+          "valor": "nem sempre considerados orixás; sem transe nem iniciação nos candomblés nagô, segundo Papai",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "pp. 280–281",
+          "registro": "ibeji-017"
+        },
+        {
+          "valor": "alguns terreiros confirmam o transe dos Ibejis, outros negam, outros o identificam ao erê",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 204",
+          "registro": "ibeji-018"
+        },
+        {
+          "valor": "têm cantos (toadas), mas não são recebidos em possessão",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 167",
+          "registro": "ibeji-024"
+        },
+        {
+          "valor": "gêmeos tidos como òrìṣà, seres sagrados e intermediários entre o mundo dos espíritos e os humanos",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Oyó (bairro de Isokun) e Igboọra, Nigéria: tradição oral e entrevistas",
+          "fonte": "ogunbunmi-2026-twins",
+          "via": null,
+          "localizacao": "p. 175",
+          "registro": "ibeji-036"
+        }
+      ]
+    },
+    {
+      "orixa": "ibeji",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "Doú: terceiro filho ou guardião dos gêmeos; Alaba",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 260–262",
+          "registro": "ibeji-010"
+        },
+        {
+          "valor": "em Cuba, os gêmeos (jimaguas) são Dada e Ogun, irmãos de Xangô",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba, segundo F. Ortiz (Los negros brujos), citado por Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 261, nota 30",
+          "registro": "ibeji-013"
+        },
+        {
+          "valor": "um terceiro personagem, macaquinho ou menino negro chamado Doum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 280",
+          "registro": "ibeji-016"
+        },
+        {
+          "valor": "para alguns, filhos de Iemanjá com Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 236",
+          "registro": "ibeji-021"
+        },
+        {
+          "valor": "Oxum é considerada sua mãe; assentamento aos pés do de Oxum",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 167",
+          "registro": "ibeji-022"
+        }
+      ]
+    },
+    {
+      "orixa": "ibeji",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "S. Cosme e S. Damião",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 255–256",
+          "registro": "ibeji-002"
+        },
+        {
+          "valor": "S. Crispim e S. Crispiniano (às vezes)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 259, nota 22",
+          "registro": "ibeji-012"
+        },
+        {
+          "valor": "S. Cosme e S. Damião",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 280",
+          "registro": "ibeji-014"
+        },
+        {
+          "valor": "S. Cosme e S. Damião, festejados por volta de 27 de setembro",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276",
+          "registro": "ibeji-026"
+        },
+        {
+          "valor": "linha de Ibeji = Tenda Cosme e Damião (Umbanda de Diamantino Trindade)",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Umbanda: esquema de Diamantino Trindade, resumido por Nogueira",
+          "fonte": "ufg-2017-exu-umbanda",
+          "via": null,
+          "localizacao": "pp. 311, 324",
+          "registro": "ibeji-040"
+        }
+      ]
+    },
+    {
       "orixa": "iemanja",
       "atributo": "cores",
       "versoes": [
@@ -1216,6 +1525,231 @@
       ]
     },
     {
+      "orixa": "iroko",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Kitembo/Tembu, ligado aos ventos e à cura",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 42",
+          "registro": "iroko-011"
+        },
+        {
+          "valor": "Katende (aproximação feita por alguns estudiosos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 40",
+          "registro": "iroko-012"
+        }
+      ]
+    },
+    {
+      "orixa": "iroko",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "cantado no começo, entre as divindades que ligam céu e terra (Recife, terreiro de Pai Adão)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 97, nota 43",
+          "registro": "iroko-005"
+        },
+        {
+          "valor": "orixá para uns, árvore sagrada para outros",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 170",
+          "registro": "iroko-007"
+        }
+      ]
+    },
+    {
+      "orixa": "logunede",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "vodum Boço Jara (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "logunede-022"
+        },
+        {
+          "valor": "Tere-Kompenso / Gongobira, inquice protetor de quem pesca e caça (só em certos terreiros)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 42",
+          "registro": "logunede-024"
+        }
+      ]
+    },
+    {
+      "orixa": "logunede",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "filho de Inlé e Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 204",
+          "registro": "logunede-002"
+        },
+        {
+          "valor": "provavelmente filho de Oxóssi e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "logunede-004"
+        },
+        {
+          "valor": "pai: Erinlé (forma de Oxóssi)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé Casa das Águas (Itapevi, SP), foto comentada por Sallum & Silva",
+          "fonte": "sallum-2006-ossaim",
+          "via": null,
+          "localizacao": "p. 301",
+          "registro": "logunede-005"
+        },
+        {
+          "valor": "filho de Oxum e Oxóssi (versão mais comum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "pp. 74, 76",
+          "registro": "logunede-007"
+        },
+        {
+          "valor": "versão rara: filho de Ogum e Oyá; criado por Ogum, coroado por Oyá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "p. 76",
+          "registro": "logunede-008"
+        },
+        {
+          "valor": "amigo íntimo de Yewá; os dois formariam o par perfeito",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "p. 76",
+          "registro": "logunede-009"
+        }
+      ]
+    },
+    {
+      "orixa": "logunede",
+      "atributo": "qualidades",
+      "versoes": [
+        {
+          "valor": "uma das quatro formas de Oxóssi (Oxóssi, Odé, Inlé, Logunedê)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 204",
+          "registro": "logunede-001"
+        },
+        {
+          "valor": "uma das quatro formas de Oxóssi",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "logunede-003"
+        }
+      ]
+    },
+    {
+      "orixa": "logunede",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "pena de ave de caça no capacete, sinal do pai",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé Casa das Águas (Itapevi, SP), foto comentada por Sallum & Silva",
+          "fonte": "sallum-2006-ossaim",
+          "via": null,
+          "localizacao": "p. 301",
+          "registro": "logunede-006"
+        },
+        {
+          "valor": "balança, ofá, erukerê, abebé, capangas, chapéu de couro, adê e aljava",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "p. 79",
+          "registro": "logunede-018"
+        },
+        {
+          "valor": "Àdá Idẹ (espada de bronze), introduzida pela reafricanização em São Paulo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto reafricanizado de São Paulo",
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "p. 80",
+          "registro": "logunede-019"
+        }
+      ]
+    },
+    {
       "orixa": "nana",
       "atributo": "dia_semana",
       "versoes": [
@@ -1423,6 +1957,102 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "nana-018"
+        }
+      ]
+    },
+    {
+      "orixa": "oba",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "esposa de Xangô (com Iansã e Oxum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "registro": "oba-001"
+        },
+        {
+          "valor": "esposa de Xangô, com Iansã e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 239",
+          "registro": "oba-006"
+        },
+        {
+          "valor": "em algumas versões, esposa de Omulu, depois de repudiada por Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 270",
+          "registro": "oba-007"
+        },
+        {
+          "valor": "uma das esposas de Xangô; a ordem das esposas varia entre as narrativas",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 167 e nota 364",
+          "registro": "oba-009"
+        },
+        {
+          "valor": "terceira esposa de Shango",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 77",
+          "registro": "oba-012"
+        },
+        {
+          "valor": "uma das três irmãs com quem Shango se casou; leva o arco ou a espada dele",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 48",
+          "registro": "oba-013"
+        },
+        {
+          "valor": "nascida do corpo de Yemaja",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 45",
+          "registro": "oba-014"
+        },
+        {
+          "valor": "filha de Yemoja, entre os orixás do casamento (com Shango, Oya e Oshun)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia (informantes de Dennett), relato colonial de 1910",
+          "fonte": "dennett-1910-nigerian",
+          "via": null,
+          "localizacao": "p. 168",
+          "registro": "oba-015"
         }
       ]
     },
@@ -2494,6 +3124,187 @@
       ]
     },
     {
+      "orixa": "ossaim",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Katende/Mpanzu (inquice dos encantos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 40",
+          "registro": "ossaim-037"
+        },
+        {
+          "valor": "Katende é distinto de Ossain, segundo adeptos angola-congo",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 104",
+          "registro": "ossaim-038"
+        },
+        {
+          "valor": "vodum Alogué (jeje)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "ossaim-039"
+        }
+      ]
+    },
+    {
+      "orixa": "ossaim",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "o culto de Ossaim (folhas) corresponde à natureza numa estrutura quádrupla do mundo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 138",
+          "registro": "ossaim-009"
+        },
+        {
+          "valor": "sacerdotes de Ossaim na primeira categoria, ao lado dos babalaôs (na África)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "África (segundo Artur Ramos, citado por Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 155",
+          "registro": "ossaim-010"
+        },
+        {
+          "valor": "sacerdotes de Osanhin e Aroni na primeira ordem do sacerdócio, com os babalawo",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 95",
+          "registro": "ossaim-011"
+        }
+      ]
+    },
+    {
+      "orixa": "ossaim",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "perdeu uma perna numa luta contra Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 157",
+          "registro": "ossaim-017"
+        },
+        {
+          "valor": "o vento de Iansã espalhou as folhas que Ossãe guardava, e os orixás as repartiram",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "pp. 251–252",
+          "registro": "ossaim-018"
+        },
+        {
+          "valor": "comprado por Ifá como escravo, recusava cortar ervas porque todas curavam; Ifá o fez mestre das plantas",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 256",
+          "registro": "ossaim-019"
+        }
+      ]
+    },
+    {
+      "orixa": "ossaim",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "ferro pontudo cravado no chão, com uma ave no alto rodeada de sete hastes",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 156",
+          "registro": "ossaim-020"
+        },
+        {
+          "valor": "figura de pássaro pousado numa barra de ferro",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 79",
+          "registro": "ossaim-021"
+        },
+        {
+          "valor": "bastões de metal com pássaro, enviados por chefes como credencial de mensageiro",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia (Abeokuta, Ibadan e arredores), relato missionário de 1926",
+          "fonte": "farrow-1926-faith",
+          "via": null,
+          "localizacao": "pp. 66–67",
+          "registro": "ossaim-022"
+        },
+        {
+          "valor": "ferro de ossaim: haste central sempre terminada em pássaro, com hastes laterais em leque",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+          "fonte": "sallum-2006-ossaim",
+          "via": null,
+          "localizacao": "pp. 293–294",
+          "registro": "ossaim-023"
+        },
+        {
+          "valor": "ferramentas de ferro no assentamento (orixás 'de ferro': Odé, Ossaim e Ogum)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 806 (glossário)",
+          "registro": "ossaim-024"
+        }
+      ]
+    },
+    {
       "orixa": "oxala",
       "atributo": "dia_semana",
       "versoes": [
@@ -3425,6 +4236,270 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "oxum-018"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "amarelo e verde",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 287",
+          "registro": "oxumare-014"
+        },
+        {
+          "valor": "as cores do arco-íris",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 166",
+          "registro": "oxumare-020"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "terça-feira (com Nanã)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 120–122",
+          "registro": "oxumare-001"
+        },
+        {
+          "valor": "terça-feira (com Ogum e Nanã), no Opô Afonjá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — Ilê Axé Opô Afonjá",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 127",
+          "registro": "oxumare-002"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Anyiewo, dos povos ewe",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 81–82",
+          "registro": "oxumare-023"
+        },
+        {
+          "valor": "voduns Dangbê (jeje) e Idarço (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "oxumare-029"
+        },
+        {
+          "valor": "Hongolo / Angoro, inquice de rio e de arco-íris",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 41",
+          "registro": "oxumare-031"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "servo de Shango, que leva a água da terra ao palácio nas nuvens (segundo alguns nativos)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 48",
+          "registro": "oxumare-021"
+        },
+        {
+          "valor": "orixá secundário da linha do Amor (regida por Oxum), na Umbanda de Rubens Saraceni",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Umbanda: esquema de Rubens Saraceni (2012), resumido por Nogueira",
+          "fonte": "ufg-2017-exu-umbanda",
+          "via": null,
+          "localizacao": "p. 324, nota 205",
+          "registro": "oxumare-032"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "origem",
+      "versoes": [
+        {
+          "valor": "daomeano (país jeje), incorporado ao panteão iorubá já na África, como Nanã",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "registro": "oxumare-005"
+        },
+        {
+          "valor": "jeje; segundo Verger, de Mahi (Benim)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165, nota 357; p. 809 (glossário)",
+          "registro": "oxumare-018"
+        },
+        {
+          "valor": "entidade jeje (como Dã), cultuada nos candomblés nagô",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+          "fonte": "sallum-2006-ossaim",
+          "via": null,
+          "localizacao": "p. 297",
+          "registro": "oxumare-027"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "filho de Nanã, irmão de Obaluaiê; origem comum distinta da dos outros orixás",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "pp. 165–166, 169",
+          "registro": "oxumare-017"
+        },
+        {
+          "valor": "filho de Nanã, que entrou com os filhos no panteão iorubá ainda na África",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 7",
+          "registro": "oxumare-028"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "a palmeira (usada só como decoração, 'conserva a vida')",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 287",
+          "registro": "oxumare-016"
+        },
+        {
+          "valor": "dois bastões de ferro que figuram cobras",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Peças do acervo MAE-USP e literatura sobre candomblés e iorubás",
+          "fonte": "sallum-2006-ossaim",
+          "via": null,
+          "localizacao": "pp. 292, 300, 304",
+          "registro": "oxumare-026"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "S. Bartolomeu",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Pernambuco e candomblés bantos da Bahia, segundo Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "registro": "oxumare-008"
+        },
+        {
+          "valor": "santo não identificado com segurança",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 287",
+          "registro": "oxumare-015"
+        },
+        {
+          "valor": "S. Bartolomeu",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "oxumare-030"
         }
       ]
     },

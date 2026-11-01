@@ -1,0 +1,494 @@
+{
+  "_meta": {
+    "orixa": "logunede",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 25,
+    "por_status": {
+      "fichado": 25,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "logunede-001",
+      "orixa": "logunede",
+      "atributo": "qualidades",
+      "valor": "uma das quatro formas de Oxóssi (Oxóssi, Odé, Inlé, Logunedê)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 204",
+      "parafrase": "Na lista provisória de 'subdivindades' de Bastide, alguns informantes contam quatro Oxóssi: Oxóssi, Odé, Inlé (cada vez mais esquecido porque não baixa no Brasil) e Logunedê.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "logunede-002",
+      "orixa": "logunede",
+      "atributo": "parentesco",
+      "valor": "filho de Inlé e Oxum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 204",
+      "parafrase": "Bastide registra Logunedê como filho de Inlé e Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "logunede-003",
+      "orixa": "logunede",
+      "atributo": "qualidades",
+      "valor": "uma das quatro formas de Oxóssi",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Para parte dos informantes de Chiousse, Logunêdê é uma das quatro manifestações de Oxóssi, ao lado de Odé e Inlé.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "logunede-004",
+      "orixa": "logunede",
+      "atributo": "parentesco",
+      "valor": "provavelmente filho de Oxóssi e Oxum",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+      "source_id": "chiousse-1995-divins",
+      "via_source_id": null,
+      "localizacao": "p. 259",
+      "parafrase": "Chiousse acrescenta que Logunêdê seria, sem dúvida, filho de Oxóssi e Oxum.",
+      "nota": "DIVERGÊNCIA quanto ao pai: Inlé (Bastide, Lopes) × Oxóssi (Chiousse, Santos) × Erinlé (Sallum & Silva).",
+      "status": "fichado",
+      "evidencias": [
+        "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "logunede-005",
+      "orixa": "logunede",
+      "atributo": "parentesco",
+      "valor": "pai: Erinlé (forma de Oxóssi)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé Casa das Águas (Itapevi, SP), foto comentada por Sallum & Silva",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "p. 301",
+      "parafrase": "Comentando uma foto de Logum Edé dançando, os autores dizem, com base em informação verbal de Reginaldo Prandi, que seu pai é Erinlé, uma das formas de Oxóssi.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "logunede-006",
+      "orixa": "logunede",
+      "atributo": "simbolos",
+      "valor": "pena de ave de caça no capacete, sinal do pai",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé Casa das Águas (Itapevi, SP), foto comentada por Sallum & Silva",
+      "source_id": "sallum-2006-ossaim",
+      "via_source_id": null,
+      "localizacao": "p. 301",
+      "parafrase": "A pena (na foto, de faisão) que Logum Edé usa no capacete seria um emblema do pai caçador.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://revistas.usp.br/revmae/pt_BR/article/view/89723"
+      ]
+    },
+    {
+      "id": "logunede-007",
+      "orixa": "logunede",
+      "atributo": "parentesco",
+      "valor": "filho de Oxum e Oxóssi (versão mais comum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "pp. 74, 76",
+      "parafrase": "Santos apresenta Lógunède como filho de Oxum e Oxóssi, príncipe que junta traços do caçador e da deusa da beleza; diz que essa é a filiação da maioria dos mitos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-008",
+      "orixa": "logunede",
+      "atributo": "parentesco",
+      "valor": "versão rara: filho de Ogum e Oyá; criado por Ogum, coroado por Oyá",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 76",
+      "parafrase": "Em versões bem menos comuns, ele é filho de Ogum e Oyá. Numa delas, Oxum o abandona para viver com Xangô, ele cresce com Ogum, aprende a guerra e o ferro, e Oyá o coroa príncipe dos orixás.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-009",
+      "orixa": "logunede",
+      "atributo": "parentesco",
+      "valor": "amigo íntimo de Yewá; os dois formariam o par perfeito",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 76",
+      "parafrase": "Santos acrescenta que Lógunède é muito próximo de Yewá, e que os dois se completariam.",
+      "nota": "A fonte escreve 'Yewá'; a lista-mestra separa Ewá e Iyewa, e não se decidiu aqui a qual delas o nome se refere (ver relatório lote-B).",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-010",
+      "orixa": "logunede",
+      "atributo": "itans",
+      "valor": "vive seis meses na mata caçando com Oxóssi e seis meses no rio pescando com Oxum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 76",
+      "parafrase": "Segundo os mitos citados por Santos, Lógunède passa metade do ano caçando no mato com o pai e a outra metade pescando nos rios com a mãe.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-011",
+      "orixa": "logunede",
+      "atributo": "interpretacao_academica",
+      "valor": "a ideia de ser seis meses homem e seis meses mulher seria um equívoco",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "pp. 73, 77",
+      "parafrase": "Santos considera errada a crença, transmitida oralmente, de que Lógunède é masculino metade do ano e feminino na outra metade; também rejeita vê-lo como andrógino ou hermafrodita, e situa sua dualidade no comportamento (doce como Oxum, sério como Oxóssi).",
+      "nota": "Contesta uma crença corrente no candomblé; registrar como leitura do autor.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-012",
+      "orixa": "logunede",
+      "atributo": "interpretacao_academica",
+      "valor": "orixá metá-metá: três naturezas, a da mãe, a do pai e a própria",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "pp. 81–82",
+      "parafrase": "Santos cita Nei Lopes: metá-metá, termo muito mal entendido, viria de 'três ao mesmo tempo'; em Logunedé se somariam três naturezas, vindas de Oxum (mãe), de Inlê (pai) e dele mesmo. Com Oyěwùmí, o autor lê o orixá fora do binarismo de gênero ocidental.",
+      "nota": "Lopes (2019, pp. 46–47) via Santos; o catálogo traz a ed. de 2006 (lopes-2006-logunede).",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-013",
+      "orixa": "logunede",
+      "atributo": "nomes",
+      "valor": "Lógunède, Lógun-Ẹ̀dẹ, Ológún-ẹ̀dẹ; títulos Ólògún Ode, Asíwájú Òrìṣà",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Nigéria e candomblé queto, segundo Santos",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "pp. 74–75",
+      "parafrase": "Santos dá três formas iorubás do nome (ver valor) e traduz títulos que o louvam como caçador guerreiro, chefe dos orixás, dono da caça e da pesca e guardião dos segredos da guerra.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-014",
+      "orixa": "logunede",
+      "atributo": "origem",
+      "valor": "Edé e Ilesa (estado de Osun, Nigéria); para uma sacerdotisa nigeriana, Éfọ̀n Aláayè",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Nigéria (Edé, Ilesa, Ibadan), segundo o autor e uma sacerdotisa nigeriana",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 74",
+      "parafrase": "Na Nigéria, Lógunède é um caçador e guerreiro das cidades de Edé e Ilesa, no estado de Osun, também cultuado em Ibadan; a sacerdotisa Omoriyeba S. Lasisi, numa fala em São Paulo (2019), situa sua origem em Éfọ̀n Aláayè.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-015",
+      "orixa": "logunede",
+      "atributo": "dominios",
+      "valor": "caça e guerra; na Nigéria, orixá agressivo e de gênio forte, que dá dinheiro, filhos e paz",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Nigéria (Edé, Ilesa, Ibadan), segundo o autor e uma sacerdotisa nigeriana",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 74",
+      "parafrase": "Santos insiste que, na Nigéria, Lógunède não é frágil: é guerreiro e caçador de temperamento indomável. Para a sacerdotisa citada, ele dá dinheiro, filhos às mulheres estéreis e paz, e refaz a cabeça de quem não tem sorte.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-016",
+      "orixa": "logunede",
+      "atributo": "historia_culto",
+      "valor": "no Brasil, cultuado na nação ijexá e também no queto e no efon, sobretudo no Sudeste e Nordeste",
+      "tradicoes": [
+        "candomble_ijexa",
+        "candomble_ketu",
+        "candomble_efon"
+      ],
+      "casa_ou_regiao": "Brasil (Sudeste e Nordeste), segundo Santos",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 75",
+      "parafrase": "Santos situa o culto brasileiro de Lógunède na nação ijexá, mas também no queto e no efon, difundido no Sudeste e no Nordeste.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-017",
+      "orixa": "logunede",
+      "atributo": "cores",
+      "valor": "azul-claro (lado de Oxóssi) e amarelo-canário e ouro (lado de Oxum)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 77",
+      "parafrase": "A roupa de Lógunède no candomblé tem duas partes: a do pai, em azul-claro com estampas ou peles de bicho, e a da mãe, em amarelo-canário e dourado; os tecidos variam entre azul, verde, amarelo, branco e dourado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-018",
+      "orixa": "logunede",
+      "atributo": "simbolos",
+      "valor": "balança, ofá, erukerê, abebé, capangas, chapéu de couro, adê e aljava",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 79",
+      "parafrase": "Entre as insígnias de Logun Edé, Santos lista a balança, o ofá (arco e flecha), o erukerê, o abebé, bolsas em forma de peixe, coração ou chifre, chapéu de couro, coroa (adê) e aljava.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-019",
+      "orixa": "logunede",
+      "atributo": "simbolos",
+      "valor": "Àdá Idẹ (espada de bronze), introduzida pela reafricanização em São Paulo",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto reafricanizado de São Paulo",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 80",
+      "parafrase": "Com a reafricanização paulista, entrou nas insígnias de Lógunède um facão de bronze, o Àdá Idẹ, além de chapéu de penas e brincos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-020",
+      "orixa": "logunede",
+      "atributo": "iconografia",
+      "valor": "jovem, menino ou adolescente, por aproximação com os Ibêjis",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 77",
+      "parafrase": "Por unir traços de Oxum e Oxóssi, Lógunède é muitas vezes figurado como um menino ou adolescente, o que fontes orais explicam pela proximidade com os Ibêjis.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-021",
+      "orixa": "logunede",
+      "atributo": "tabus",
+      "valor": "evitar vestes vermelhas ou marrons (na África, segundo Nei Lopes)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 78",
+      "parafrase": "Santos cita Nei Lopes: na África se diria que Logunedé detesta roupas vermelhas e marrons, cores que seus adeptos evitam.",
+      "nota": "Lopes (2019, p. 78) via Santos.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ]
+    },
+    {
+      "id": "logunede-022",
+      "orixa": "logunede",
+      "atributo": "equivalencias",
+      "valor": "vodum Boço Jara (nagô)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+      "parafrase": "No terreiro de Dona Jarina, o vodum Boço Jara corresponde ao orixá Logun-Edé.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "logunede-023",
+      "orixa": "logunede",
+      "atributo": "sincretismo",
+      "valor": "Santo Expedito",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+      "parafrase": "Na mesma casa, Boço Jara e Logun-Edé têm como santo católico Santo Expedito.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "logunede-024",
+      "orixa": "logunede",
+      "atributo": "equivalencias",
+      "valor": "Tere-Kompenso / Gongobira, inquice protetor de quem pesca e caça (só em certos terreiros)",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+      "source_id": "botao-2007-angola",
+      "via_source_id": null,
+      "localizacao": "p. 42",
+      "parafrase": "Botão registra que, em alguns terreiros angola-congo, o inquice Tere-Kompenso (Ngongobila ou Gongobira), protetor de pescadores e caçadores, é associado a Logun Edé.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    },
+    {
+      "id": "logunede-025",
+      "orixa": "logunede",
+      "atributo": "alimentos",
+      "valor": "milho amarelo cozido, com ovo em fatias",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "p. 262",
+      "parafrase": "Para Logunedé, a casa prepara milho amarelo cozido, servido com ovo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    }
+  ]
+}

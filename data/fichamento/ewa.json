@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "orixa": "ewa",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 8,
+    "por_status": {
+      "fichado": 8,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "ewa-001",
+      "orixa": "ewa",
+      "atributo": "historia_culto",
+      "valor": "divindade feminina sem assentamento; só algumas toadas nas festas públicas",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 166; p. 806 (glossário)",
+      "parafrase": "No xangô do Recife, Ewá é uma divindade feminina na mesma situação de Oxumarê: não tem assentamento e recebe apenas poucas toadas nas festas públicas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ewa-002",
+      "orixa": "ewa",
+      "atributo": "historia_culto",
+      "valor": "repertório limitado a poucas toadas nos toques",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 277, nota 652",
+      "parafrase": "Nos toques, também se canta para Ewá, mas com poucas toadas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"
+      ]
+    },
+    {
+      "id": "ewa-003",
+      "orixa": "ewa",
+      "atributo": "equivalencias",
+      "valor": "voduns Boçalabê (jeje) e Eowá (jeje-nagô)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 25 (Quadro 1)",
+      "parafrase": "No terreiro de Dona Jarina, Euá corresponde ao vodum jeje Boçalabê e ao vodum Eowá, classificado como jeje-nagô.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "ewa-004",
+      "orixa": "ewa",
+      "atributo": "sincretismo",
+      "valor": "Santa Teresa (via Boçalabê) e N. S. do Carmo (via Eowá)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 25 (Quadro 1)",
+      "parafrase": "Pelo quadro da casa, Euá tem dois santos conforme o vodum: Santa Teresa, por Boçalabê, e Nossa Senhora do Carmo, por Eowá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "ewa-005",
+      "orixa": "ewa",
+      "atributo": "parentesco",
+      "valor": "Euá, filha do vodum Azonce (lista de voduns da Mina)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 7",
+      "parafrase": "Na lista de voduns da família de Acóssi, Prandi registra Euá como filha de Azonce, ambos considerados nagôs.",
+      "nota": "Aqui Euá é nome de vodum da Mina; a correspondência com o orixá vem do Quadro 1 (p. 25).",
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "ewa-006",
+      "orixa": "ewa",
+      "atributo": "festas",
+      "valor": "16 de julho (N. S. do Carmo), com Naveorualim",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+      "source_id": "prandi-2005-pegadas-voduns",
+      "via_source_id": null,
+      "localizacao": "versão do autor, p. 15",
+      "parafrase": "No calendário da casa, o dia 16 de julho, de Nossa Senhora do Carmo, é a festa de Euá e Naveorualim.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "ewa-007",
+      "orixa": "ewa",
+      "atributo": "equivalencias",
+      "valor": "sem equivalente no rito angola-congo",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+      "source_id": "botao-2007-angola",
+      "via_source_id": null,
+      "localizacao": "pp. 44–45",
+      "parafrase": "Botão não encontrou correspondente a Ewá no angola-congo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://repositorio.unesp.br/server/api/core/bitstreams/4f66e510-fdbf-4ce1-a2a0-51fa66985809/content"
+      ]
+    },
+    {
+      "id": "ewa-008",
+      "orixa": "ewa",
+      "atributo": "alimentos",
+      "valor": "farofa de dendê decorada com ovo",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "p. 262",
+      "parafrase": "Eowá recebe, nessa casa, farofa no dendê com ovo por cima.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    }
+  ]
+}

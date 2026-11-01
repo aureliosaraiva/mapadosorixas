@@ -169,7 +169,7 @@
       "grupo": null,
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -184,7 +184,7 @@
       "grupo": null,
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -199,7 +199,7 @@
       "grupo": null,
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -215,7 +215,7 @@
       },
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -232,7 +232,7 @@
       },
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": "Ewá e Iyewa ficam como identificadores separados até que o fichamento registre, com fonte, se e onde são tratadas como a mesma divindade."
     },
     {
@@ -296,7 +296,7 @@
       "grupo": null,
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -311,7 +311,7 @@
       "grupo": null,
       "prioridade_mvp2": 1,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": "Iroko e Tempo ficam provisoriamente num só identificador, como no pedido de escopo; a relação entre os nomes (por nação) será registrada no fichamento, com fonte."
     },
     {

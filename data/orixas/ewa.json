@@ -1,0 +1,198 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/ewa.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 7,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 1
+  },
+  "id": "ewa",
+  "rotulo": "Ewá",
+  "atributos": {
+    "parentesco": [
+      {
+        "valor": "Euá, filha do vodum Azonce (lista de voduns da Mina)",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 7",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 7",
+        "parafrase": "Na lista de voduns da família de Acóssi, Prandi registra Euá como filha de Azonce, ambos considerados nagôs.",
+        "nota": "Aqui Euá é nome de vodum da Mina; a correspondência com o orixá vem do Quadro 1 (p. 25).",
+        "registro": "ewa-005",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "voduns Boçalabê (jeje) e Eowá (jeje-nagô)",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 25 (Quadro 1)",
+        "parafrase": "No terreiro de Dona Jarina, Euá corresponde ao vodum jeje Boçalabê e ao vodum Eowá, classificado como jeje-nagô.",
+        "nota": null,
+        "registro": "ewa-003",
+        "status": "fichado"
+      },
+      {
+        "valor": "sem equivalente no rito angola-congo",
+        "tradicoes": [
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+        "sources": [
+          {
+            "id": "botao-2007-angola",
+            "loc": "pp. 44–45",
+            "via": null
+          }
+        ],
+        "source_id": "botao-2007-angola",
+        "via_source_id": null,
+        "localizacao": "pp. 44–45",
+        "parafrase": "Botão não encontrou correspondente a Ewá no angola-congo.",
+        "nota": null,
+        "registro": "ewa-007",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "Santa Teresa (via Boçalabê) e N. S. do Carmo (via Eowá)",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 25 (Quadro 1)",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 25 (Quadro 1)",
+        "parafrase": "Pelo quadro da casa, Euá tem dois santos conforme o vodum: Santa Teresa, por Boçalabê, e Nossa Senhora do Carmo, por Eowá.",
+        "nota": null,
+        "registro": "ewa-004",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "16 de julho (N. S. do Carmo), com Naveorualim",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+        "sources": [
+          {
+            "id": "prandi-2005-pegadas-voduns",
+            "loc": "versão do autor, p. 15",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-2005-pegadas-voduns",
+        "via_source_id": null,
+        "localizacao": "versão do autor, p. 15",
+        "parafrase": "No calendário da casa, o dia 16 de julho, de Nossa Senhora do Carmo, é a festa de Euá e Naveorualim.",
+        "nota": null,
+        "registro": "ewa-006",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "divindade feminina sem assentamento; só algumas toadas nas festas públicas",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166; p. 806 (glossário)",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166; p. 806 (glossário)",
+        "parafrase": "No xangô do Recife, Ewá é uma divindade feminina na mesma situação de Oxumarê: não tem assentamento e recebe apenas poucas toadas nas festas públicas.",
+        "nota": null,
+        "registro": "ewa-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "repertório limitado a poucas toadas nos toques",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 277, nota 652",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 277, nota 652",
+        "parafrase": "Nos toques, também se canta para Ewá, mas com poucas toadas.",
+        "nota": null,
+        "registro": "ewa-002",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "nomes",
+      "origem",
+      "dominios",
+      "funcoes",
+      "elementos",
+      "cores",
+      "dia_semana",
+      "saudacao",
+      "simbolos",
+      "animais",
+      "qualidades",
+      "itans",
+      "tabus",
+      "iconografia",
+      "interpretacao_academica",
+      "hierarquia"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {
+      "alimentos": [
+        "ewa-008"
+      ]
+    }
+  },
+  "revisao": []
+}
