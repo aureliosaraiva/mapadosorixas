@@ -137,15 +137,41 @@ def dspace7(url, sessao):
 def baixar_curl(url):
     """Baixa com curl (segue redirecionamentos); devolve bytes se for PDF."""
     with tempfile.NamedTemporaryFile(suffix=".pdf") as tmp:
-        r = subprocess.run(["curl", "-sSL", "--max-time", "300", "-A", UA["User-Agent"],
-                            "-o", tmp.name, url], capture_output=True, text=True)
+        # user-agent padrão do curl (identificação honesta); com ele o HAL serve o
+        # arquivo direto, sem a página de desafio que recebe o UA de navegador
+        r = subprocess.run(["curl", "-sSL", "--max-time", "300", "-o", tmp.name, url],
+                           capture_output=True, text=True)
         dados = Path(tmp.name).read_bytes()
     if r.returncode == 0 and dados[:5] == b"%PDF-":
         return dados
     return None
 
 
+def archive_org(url, sessao, texto=False):
+    """Internet Archive (`/details/<id>`): pega o PDF do item pela API de metadados
+    (ou, com texto=True, o OCR `_djvu.txt`, para PDF digitalizado sem camada de texto)."""
+    m = re.match(r"https?://archive\.org/(?:details|download)/([^/?#]+)", url or "")
+    if not m:
+        return None
+    item = m.group(1)
+    try:
+        arquivos = [f["name"] for f in sessao.get(f"https://archive.org/metadata/{item}", headers=UA, timeout=60).json().get("files", [])]
+        sufixos = ("_djvu.txt",) if texto else ("_text.pdf", ".pdf")
+        for suf in sufixos:
+            for nome in arquivos:
+                if nome.endswith(suf):
+                    r = sessao.get(f"https://archive.org/download/{item}/{urllib.parse.quote(nome)}", headers=UA, timeout=300)
+                    if r.status_code == 200 and (texto or eh_pdf(r)):
+                        return r.content
+    except (requests.RequestException, ValueError):
+        return None
+    return None
+
+
 def baixar(url, sessao, profundidade=0):
+    conteudo = archive_org(url, sessao) if profundidade == 0 else None
+    if conteudo:
+        return conteudo, None
     conteudo = dspace7(url, sessao)
     if conteudo:
         return conteudo, None
@@ -263,7 +289,7 @@ def main():
             erros = []
             for u in candidatos(fonte, extras.get(i, [])):
                 conteudo, erro = baixar(u, sessao)
-                if not conteudo and (u.lower().endswith(".pdf") or "/file/" in u):
+                if not conteudo and (u.lower().endswith(".pdf") or "/file/" in u or u.endswith("/document")):
                     conteudo = baixar_curl(u)
                     erro = erro if not conteudo else None
                 if conteudo:
@@ -297,8 +323,20 @@ def main():
             n = ent["palavras"]
         else:
             n = converter(pdf, txt)
-        print(f"ok  {i}: {n} palavras")
         ent.update(palavras=n, arquivo_txt=f"txt/{txt.name}", status="ok")
+        if n >= 1000:
+            print(f"ok  {i}: {n} palavras")
+        if n < 1000:
+            # PDF digitalizado sem OCR: tenta o OCR do Internet Archive para o mesmo item
+            for u in candidatos(fonte, extras.get(i, [])):
+                ocr = archive_org(u, sessao, texto=True)
+                if ocr and len(ocr.split()) >= 1000:
+                    txt.write_text(HIFEN.sub(r"\1\2", ocr.decode("utf-8", "ignore")), encoding="utf-8")
+                    n = len(ocr.split())
+                    print(f"ok  {i}: {n} palavras (OCR do Internet Archive)")
+                    ent.update(palavras=n, arquivo_txt=f"txt/{txt.name}", status="ok",
+                               acesso="PDF sem camada de texto; texto = OCR (_djvu.txt) do Internet Archive")
+                    break
         if n < 1000:
             txt.unlink(missing_ok=True)
             ent.update(status="sem_texto", arquivo_txt=None,

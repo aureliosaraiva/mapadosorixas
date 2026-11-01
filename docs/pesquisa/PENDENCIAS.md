@@ -26,7 +26,7 @@ Para resolver: em **Network access**, nas configurações do ambiente, adicionar
 | 🔴 | `muse.jhu.edu` | 403 (provável paywall) | Brown 1989, "Ogou in Haiti" (cap. de *Africa's Ogun*) | P1 |
 | 🔴 | `www.religion.ucsb.edu` | 404 (arquivo removido) | Pérez 2013, "Nobody's Mammy" (Yemayá em Cuba). Buscar outra cópia | P2 |
 | 🔴 | `www.scielo.br` | desafio anti-robô (Bunny Shield) em todas as páginas e PDFs, também pela ferramenta de busca web (2026-11-01) | **P1 do fichamento-06:** Prandi 1995, *Deuses africanos no Brasil contemporâneo*; Giumbelli & Lima 2024 (monumentos a Iemanjá); Noleto & Negrão 2025 (Iemanjá em Montevidéu; o PDF tem cópia no Internet Archive de 2026-07-30). Baixar manualmente e anexar. Nascimento 2001 foi lido pela cópia do repositório da UFES | **P1** |
-| 🔴 | `periodicos.unb.br` | 403 (2026-11-01); a cópia em `core.ac.uk/download/231243654.pdf` pede desafio anti-robô | Ferreira (Saraiva) 2017, *De vodum a caboclo* (Legba no Tambor de Mina e no Terecô), P1 do fichamento-06. Baixar manualmente e anexar | **P1** |
+| 🟡 | `periodicos.unb.br` | 403 (2026-11-01); **a cópia em `core.ac.uk/download/231243654.pdf` baixou na sessão acervo (2026-11-01): texto integral no acervo** | Ferreira (Saraiva) 2017, *De vodum a caboclo* (Legba no Tambor de Mina e no Terecô), P1 do fichamento-06. Baixar manualmente e anexar | **P1** |
 | 🔴 | `lume.ufrgs.br` | conexão cortada (curl, 4 tentativas, 2026-11-01) | número 3 (1995) de *Horizontes Antropológicos* em PDF, alternativa para Prandi 1995 | P1 |
 | 🔴 | `repositorio.pucsp.br` | desafio anti-robô (SafeLine, HTTP 468) em 2026-11-01 | dissertação de Ribas 2010, *Saravá Ogum* (sustenta ogum-005, `pre_fichamento`): PDF em `repositorio.pucsp.br/xmlui/bitstream/handle/1785/1/Jose%20Dalmo%20Ribeiro%20Ribas.pdf`. Baixar manualmente e anexar | P2 |
 | 🔴 | `bdtd.ibict.br` (API VuFind e páginas) | API: `HTTP 400 Problem connecting to Solr` nas 61 consultas da varredura 3 (2026-10-31); páginas: 500. Problema do servidor da BDTD, não do ambiente | **teses e dissertações brasileiras recentes** sobre os 5 orixás e sobre Angola, Jeje, Batuque e Mina (lacuna da varredura 3). Repetir `python3 scripts/coleta/coletar.py --bases bdtd` mais tarde | P2 |
@@ -53,7 +53,40 @@ Para resolver: em **Network access**, nas configurações do ambiente, adicionar
 | 🔴 | `periodicos2.uesb.br`, `periodicos.ufpa.br` | 503 / página de bloqueio do servidor (2026-11-01) | Noguera 2018, Orunmilá (`noguera-2018-orunmila`); Monteiro & Azevedo 2021, Iyá Mi Oxorongá (`monteiro-2021-iya-mi`) | P3 |
 | 🟡 | `digibug.ugr.es` | erro de protocolo HTTP/2 no curl (2026-11-01) | Fernández Cano 2005, Oyá e Santa Teresa (`fernandez-cano-2005-oya`) | P3 |
 | 🔴 | `www.mdpi.com` (de novo) | 403 | Akande 2019, Egúngún (`akande-2019-egungun`); Ofuasia 2023, Ifá (`ofuasia-2023-ifa-hell`): acesso aberto, **lote C/D** | P2 |
-| 🟡 | `hal.science` (de novo) | Anubis na página do registro; **em 2026-11-01 (lote B) o `curl` direto no arquivo baixou os PDFs de Chiousse 1995 (`halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf`) e de Halloy 2005 (`hal.science/tel-04260456/file/…`)**; `baixar_refs.py` (requests) continua recebendo a página do desafio. Os PDFs ficam em `/tmp/refs-pdf/` só durante a sessão: a próxima sessão repete o `curl` e usa `--so-converter` | **Chiousse 1995, pp. 225–291: os perfis dos orixás além dos 5 sustentam o lote A da expansão** ([varredura 4](relatorio-varredura-04.md) §5); dossiê Ọ̀ṣun-Òṣogbo (Joffroy 2004). O autor salva o PDF em `/tmp/refs-pdf/chiousse-1995-divins.pdf` | **P1 (expansão)** |
+| 🟡 | `hal.science` (de novo) | Anubis na página do registro; **sessão acervo (2026-11-01): o `curl` com o user-agent padrão (sem fingir navegador) baixa os arquivos `/file/…pdf` e `/document`; o `baixar_refs.py` já faz isso — Chiousse, Halloy 2005, Toutain, Vallier e Cerqueira estão no acervo**; **em 2026-11-01 (lote B) o `curl` direto no arquivo baixou os PDFs de Chiousse 1995 (`halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf`) e de Halloy 2005 (`hal.science/tel-04260456/file/…`)**; `baixar_refs.py` (requests) continua recebendo a página do desafio. Os PDFs ficam em `/tmp/refs-pdf/` só durante a sessão: a próxima sessão repete o `curl` e usa `--so-converter` | **Chiousse 1995, pp. 225–291: os perfis dos orixás além dos 5 sustentam o lote A da expansão** ([varredura 4](relatorio-varredura-04.md) §5); dossiê Ọ̀ṣun-Òṣogbo (Joffroy 2004). O autor salva o PDF em `/tmp/refs-pdf/chiousse-1995-divins.pdf` | **P1 (expansão)** |
+
+## 1b. Acervo interno (`acervo/`, sessão acervo, 2026-11-01): fontes sem texto integral
+
+O `scripts/baixar_refs.py` não obteve o texto destas fontes usadas no fichamento/tradições/glossário ([relatório](acervo-01.md)). O autor salva o PDF à mão em `acervo/pdf/<source_id>.pdf` e roda `python3 scripts/baixar_refs.py --so-converter` (enquanto o repositório for público, o PDF fica só local; ver `acervo/LEIAME.md`). As impressas dependem de exemplar (§2) ou de digitalização própria.
+
+| | source_id | URL para baixar à mão | motivo |
+|---|---|---|---|
+| 🔴 | `argyriadis-2005-ramas` | https://doi.org/10.4000/jsa.3022 | https://doi.org/10.4000/jsa.3022: nenhum link de PDF |
+| 🔴 | `barnes-1989-ogun` | https://library.britishmuseum.org/bib/208668 | https://library.britishmuseum.org/bib/208668: nenhum link de PDF |
+| 🔴 | `bascom-1969-ifa` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `bastide-1960-religions` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `cabrera-1954-monte` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `carneiro-1948-candombles` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `ferretti-1985-querebenta` | https://www.scielo.br/j/vb/a/m88dTdVGSKHcXYHwLfbygXF/ | https://www.scielo.br/j/vb/a/m88dTdVGSKHcXYHwLfbygXF/: HTTP 403 |
+| 🔴 | `giumbelli-2024-monumentos` | http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872023000300201&tlng=pt | http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0100-85872023000300201&tlng=pt: HTTP 403 |
+| 🔴 | `herskovits-1938-dahomey` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `idowu-1962-olodumare` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `landes-1947-city` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `nina-rodrigues-1900-animisme` | https://babel.hathitrust.org/cgi/pt?id=coo.31924020011759 | https://babel.hathitrust.org/cgi/pt?id=coo.31924020011759: HTTP 403 |
+| 🔴 | `noleto-2025-montevideu` | http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872025000100101&lng=pt&tlng=pt | http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0100-85872025000100101&tlng=pt: HTTP 403 |
+| 🔴 | `ogungbemi-2021-olodumare` | https://doi.org/10.32473/ysr.v1i1.130014 | PDF sem texto extraível (0 palavras |
+| 🔴 | `oro-2008-rs` | https://seer.ufrgs.br/index.php/debatesdoner/article/download/5244/2975/16679 | https://seer.ufrgs.br/index.php/debatesdoner/article/download/5244/2975/16679: ConnectionError |
+| 🔴 | `ortiz-r-1978-morte` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `pitta-2011-mitos` | https://fundaj.emnuvens.com.br/CAD/article/view/977 | https://fundaj.emnuvens.com.br/CAD/article/view/977: ProxyError |
+| 🔴 | `prandi-1995-deuses` | http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831995000300010&lng=pt&tlng=pt | http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0104-71831995000300010&tlng=pt: HTTP 403 |
+| 🔴 | `ribeiro-1952-recife` | — (obra impressa; ver §2) | sem URL no catálogo (impressa) |
+| 🔴 | `tishken-2009-sango` | https://iupress.org/9780253220943/sango-in-africa-and-the-african-diaspora | https://iupress.org/9780253220943/sango-in-africa-and-the-african-diaspora: nenhum link de PDF |
+| 🔴 | `verger-1957-notes` | https://resolve.cambridge.org/core/journals/history-in-africa/article/notes-sur-le-culte-des-orisa-et-vodun-pierre-fatumbi-verger-and-the-study-of-african-traditional-religion/CD84C666BFECA8A973927AAA4E0A17A1 | https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CD84C666BFECA8A973927AAA4E0A17A1/S0361 |
+| 🔴 | `verger-1981-orixas` | https://www.tribunapr.com.br/mais-pop/um-dos-principais-livros-de-fotos-de-pierre-verger-ganha-nova-edicao/amp/ | https://www.tribunapr.com.br/mais-pop/um-dos-principais-livros-de-fotos-de-pierre-verger-ganha-nova-edicao/amp |
+
+| | Decisão | O que depende | Prioridade |
+|---|---|---|---|
+| 🔴 | **Onde versionar o acervo** | o repositório está **público** (exigência do Pages sem GitHub Pro), então os PDFs/textos **não foram commitados** (ficam no `.gitignore`; o CI falha se entrarem). Opções: (1) repositório privado à parte `mapadosorixas-acervo` (recomendado); (2) tornar este privado + GitHub Pro; (3) manter o acervo efêmero, remontado por sessão. O acervo hoje tem **322 MB** de PDF: se for versionado, usar Git LFS (não ativado) ou retirar os PDFs digitalizados grandes (Frobenius 55 MB, Johnson 48 MB) e manter só o `.txt` | **P1** |
 
 ## 2. Obras impressas ou pagas (precisam de exemplar)
 
