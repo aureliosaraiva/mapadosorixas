@@ -268,13 +268,25 @@ Para cada um de Exu, Ogum, Oxóssi, Xangô e Iemanjá:
 
 ---
 
-## Fase 7 — Expansão
+## Fase 7 — Expansão (antecipada: panteão completo, hierarquia e itãs)
 
-1. **~15 orixás** cultuados no Brasil: + Oxum, Iansã/Oyá, Obaluaê/Omolu, Nanã, Oxumarê, Ossaim, Logun Edé, Obá, Ewá, Oxalá (Oxalufã/Oxaguiã), Ibeji, Iroko/Tempo (escolha final com o conselho).
-2. **Voduns e inquices** como fichas próprias (não só como equivalências).
-3. **Espanhol** (prioridade: público da Santería/Lucumí, com terminologia lucumí revisada por olorishas) e depois **inglês**.
-4. Linha do tempo histórica (tráfico, fundação das casas, perseguição, tombamentos).
-5. Mapa geográfico (origem na África ↔ difusão nas Américas).
+> **Antecipada em 2026-11-01** a pedido do autor: 5 orixás é pouco diante de um panteão com muitos orixás, uma hierarquia cosmológica e muitos itãs. A expansão passa a ser a prioridade do projeto, **sem relaxar as regras de conteúdo** (fonte por afirmação, paráfrase, divergências lado a lado). O lançamento (Fase 6) não é pré-requisito; o site segue como rascunho público.
+
+**7.0 Modelo de dados para o panteão (feito na sessão modelo2; ver [`modelo-dados-2.md`](modelo-dados-2.md)):**
+- **Lista-mestra** `data/entidades.json` (esquema `schemas/entidades.schema.json`): 33 identificadores — orixás cultuados no Brasil e no culto iorubá/Lucumí, qualidades (Oxalufã, Oxaguiã), divindade suprema (Olodumare/Olorum/Olofin), conceitos cosmológicos (Orum, Aiê, orixás funfun) e ancestrais (Egungun; Iyami marcada `sensivel`). Só identificadores: `tipo` é classificação de trabalho, `grupo` é rótulo a confirmar (exibido só com registro que o confirme), `status_conteudo` é gerado.
+- **Fichamento genérico:** um arquivo por entidade, `data/fichamento/<id>.json`, para qualquer id da lista-mestra; novo atributo **`hierarquia`** (posição/relação cosmológica, sempre como versão de uma fonte).
+- **Itãs como entidade própria:** `data/itans.json` (esquema `schemas/ita.schema.json`): título próprio, entidades envolvidas, versões lado a lado com resumo parafraseado, tradição/casa, odu só se a fonte disser, fontes com página e arestas do grafo sustentadas pelos registros do itã. As 12 versões já fichadas estão espelhadas (10 itãs).
+- **Site:** catálogo com toda a lista-mestra (sem conteúdo = "Em pesquisa", sem texto), páginas **Itãs** e **Cosmologia/Hierarquia** (só o que tem fonte), grafo com filtro por tipo de entidade.
+
+**Etapas seguintes (ordem):**
+1. **Primeira leva (prioridade 1 na lista-mestra):** Oxum, Iansã/Oyá, Omolu/Obaluaê, Nanã, Oxumarê, Ossaim, Logunedé, Obá, Ewá, Oxalá (Oxalufã/Oxaguiã), Ibeji, Iroko/Tempo. Uma sessão por entidade (arquivo próprio no fichamento), começando pelas fontes já lidas para os 5 orixás (Bastide 1961, Chiousse 1995, Pitta 1985, Halloy 2005, Prandi 2005, Castillo 2022…), que citam vários desses orixás. Escolha final com o conselho.
+2. **Hierarquia e cosmologia:** fichar `hierarquia` para Olodumare/Olorum/Olofin, Orum/Aiê, orixás funfun, Egungun e Orunmilá/Ifá, com versões por tradição (Candomblé por nação, Lucumí, culto iorubá). Iyami: só o que for público em fonte acadêmica, decidido com o conselho.
+3. **Itãs:** fichar itãs (atributo `itans`, espelhados em `data/itans.json`) com versões lado a lado — Prandi, *Mitologia dos Orixás*, e Verger, *Lendas africanas dos orixás*, dependem de exemplar (PENDENCIAS §2); parentescos afirmados viram arestas do grafo.
+4. **Prioridade 2 e 3:** Orunmilá, Odudua, Orixá Okô, Olokun, Aganju, Erinlé/Inlé, Ajê Xalugá, Iyewa.
+5. **Voduns e inquices** como fichas próprias (não só como equivalências).
+6. **Espanhol** (prioridade: público da Santería/Lucumí, com terminologia lucumí revisada por olorishas) e depois **inglês**.
+7. Linha do tempo histórica (tráfico, fundação das casas, perseguição, tombamentos).
+8. Mapa geográfico (origem na África ↔ difusão nas Américas).
 
 ---
 
@@ -290,7 +302,7 @@ Para cada um de Exu, Ogum, Oxóssi, Xangô e Iemanjá:
 | Erros de metadados gerados por IA | `status_verificacao`; nenhuma fonte "a_verificar" pode sustentar ficha publicada |
 | Intolerância religiosa / ataques | Moderação, sem comentários abertos, contato por formulário |
 | Baixa adesão de revisores | Começar com rede próxima; crédito público; respeitar o tempo e, se possível, remunerar |
-| Escopo excessivo | MVP fechado em 5 orixás; expansão só após lançamento |
+| Escopo excessivo | Expansão antecipada (Fase 7), mas por entidade e por fonte: uma sessão = uma entidade ou uma fonte; entidade sem fonte lida fica "em pesquisa", sem texto |
 
 ### Métricas
 
@@ -303,9 +315,9 @@ Para cada um de Exu, Ogum, Oxóssi, Xangô e Iemanjá:
 ```
 /data
   /fontes          catálogo de fontes (Fase 1)
-  /fichamento      registros atômicos por orixá (Fase 1)
-  /orixas          fichas consolidadas (Fase 3)
-  tradicoes.json  conexoes.json  glossario.json
+  /fichamento      registros atômicos por entidade (Fase 1; um arquivo por id da lista-mestra)
+  /orixas          fichas geradas de toda entidade com registro lido (Fase 3)
+  entidades.json  itans.json  tradicoes.json  conexoes.json  glossario.json
 /schemas           JSON Schemas
 /scripts           validação, importação Zotero, matriz de divergências
 /docs

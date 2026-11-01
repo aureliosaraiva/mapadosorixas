@@ -25,9 +25,11 @@ Deploy e domínio ainda não estão configurados (ver `docs/pesquisa/PENDENCIAS.
 | Página | Arquivo |
 |---|---|
 | Início (com busca) | `src/pages/index.astro` |
-| Catálogo | `src/pages/catalogo.astro` |
-| Ficha | `src/pages/orixas/[id].astro` |
-| Grafo | `src/pages/grafo.astro` |
+| Catálogo | `src/pages/catalogo.astro` (toda a lista-mestra `data/entidades.json`; sem ficha = "Em pesquisa", sem texto) |
+| Ficha | `src/pages/orixas/[id].astro` (qualquer entidade com registro lido) |
+| Itãs | `src/pages/itans/index.astro` e `src/pages/itans/[id].astro` (só versões lidas de `data/itans.json`) |
+| Cosmologia | `src/pages/cosmologia.astro` (só versões do atributo `hierarquia`; sem nenhuma, aviso de estrutura vazia) |
+| Grafo | `src/pages/grafo.astro` (filtros por tipo de conexão, tipo de entidade e tradição) |
 | Fontes | `src/pages/fontes.astro` |
 | Baixar dados | `src/pages/baixar-dados.astro` + `src/pages/dados/[...arquivo].js` (lista em `src/lib/downloads.js`; não publica o fichamento bruto) |
 | Tradições | `src/pages/tradicoes.astro` (descrição só quando `com_fonte`; sem fonte, "descrição pendente de fonte") |
