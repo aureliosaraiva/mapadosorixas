@@ -75,7 +75,8 @@ def main():
 
         rodar(["npm", "run", "build"], raiz / "site")
         r = rodar([py, "scripts/qa_site.py"], raiz)
-        assert "cosmologia: 2 versões de hierarquia" in r.stdout, r.stdout[-800:]
+        n_hier = sum(len(ler(f)["atributos"].get("hierarquia", [])) for f in (raiz / "data/orixas").glob("*.json"))
+        assert n_hier >= 2 and f"cosmologia: {n_hier} versões de hierarquia" in r.stdout, r.stdout[-800:]
         dist = raiz / "site/dist"
         cat = (dist / "catalogo/index.html").read_text(encoding="utf-8")
         assert re.search(r'id="e-olodumare"[^>]*>.*?orixas/olodumare', cat, re.S), "cartão de olodumare sem link"
