@@ -1,0 +1,347 @@
+{
+  "_meta": {
+    "orixa": "olodumare",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 18,
+    "por_status": {
+      "fichado": 18,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "olodumare-001",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "deus do céu distante e ocioso, sem sacerdotes, imagens nem templos, e sem onipotência",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "pp. 35–38",
+      "parafrase": "Para Ellis, Olorun é o próprio firmamento divinizado. Os informantes o descreviam como afastado dos assuntos do mundo, entregue ao repouso; por isso não teria culto, sacerdócio, imagem ou templo, sendo lembrado só em fórmulas de saudação e em apelos extremos. Ellis conclui que ele não é todo-poderoso: cada deus age no próprio domínio, e um provérbio atribui a outro orixá, e não a Olorun, a formação da criança no ventre.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "olodumare-002",
+      "orixa": "olodumare",
+      "atributo": "nomes",
+      "valor": "Olorun ('dono do céu'); epítetos Ogaogo, Olowo, Eleda, Elemi e Olodumare (Olodumaye)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "pp. 36–38",
+      "parafrase": "Ellis traduz Olorun como 'dono do céu' e lista cinco epítetos, entre eles Eleda, que liga ao controle da chuva, Elemi, que entende como 'o que possui o sopro', e Olodumare ou Olodumaye, cuja origem declara obscura, arriscando uma relação com riachos e água.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. As etimologias de Ellis são contestadas por Farrow (olodumare-005).",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "olodumare-003",
+      "orixa": "olodumare",
+      "atributo": "interpretacao_academica",
+      "valor": "a identificação de Olorun com o Deus cristão seria criação dos missionários (tese de Ellis)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 38",
+      "parafrase": "Ellis acusa os missionários de terem confundido Olorun com o Jeová cristão ao traduzir o nome por 'Deus', vendo nele resto de uma revelação primitiva; para o autor, trata-se de um deus da natureza, o céu personificado.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "olodumare-004",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "Ser Supremo eterno e criador, de uma classe à parte, acima dos orixás",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "pp. 23–25, 27–28",
+      "parafrase": "Farrow divide os seres cultuados em quatro classes e põe Olorun sozinho na primeira, como ser supremo e eterno, reconhecido por pagãos, muçulmanos e cristãos; afirma que a crença é anterior às religiões estrangeiras e lhe atribui saber, poder, justiça e bondade. Rebate Ellis, que o tratava como orixá da natureza, e Dennett, que o derivava de Xangô/Jakuta.",
+      "nota": "Documento histórico (confiabilidade C): tese de missionário anglicano que declara querer justificar a missão e defende um monoteísmo primitivo; polemiza com Ellis e Dennett. Não sustenta o atributo sozinha.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "olodumare-005",
+      "orixa": "olodumare",
+      "atributo": "nomes",
+      "valor": "Olorun ('dono do céu'), Eleda ('criador'), Alaye ('dono da vida'), Olodumare, Elemi ('dono do sopro') e Oga-ogo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "pp. 26–27",
+      "parafrase": "Farrow apresenta os títulos como prova da crença num deus supremo: Olorun remete ao céu como morada divina, Eleda ao ato de criar, Alaye à vida, Elemi ao sopro; para Olodumare, de origem incerta, registra a leitura 'Todo-Poderoso' dos bispos Crowther e Johnson e a variante Olodumaye, 'o que existe por si'.",
+      "nota": "Documento histórico (confiabilidade C): tese de missionário anglicano que declara querer justificar a missão e defende um monoteísmo primitivo; polemiza com Ellis e Dennett. Não sustenta o atributo sozinha.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "olodumare-006",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "não recebe sacrifício nem prece direta, por estar alto e distante demais",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "pp. 29–30",
+      "parafrase": "Segundo Farrow, os sacrifícios que ocupam tanto o culto iorubá nunca se dirigem a Olorun, e as orações vão aos orixás, salvo em aflição extrema; o missionário lê isso como reverência a um deus elevado demais para o trato direto, e não como esquecimento.",
+      "nota": "Documento histórico (confiabilidade C): tese de missionário anglicano que declara querer justificar a missão e defende um monoteísmo primitivo; polemiza com Ellis e Dennett. Não sustenta o atributo sozinha. Converge com Ellis no fato (ausência de culto) e diverge na leitura (olodumare-001).",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "olodumare-007",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "Deus Todo-Poderoso, criador do céu e da terra, distante demais para lidar diretamente com os homens; os orixás são intermediários",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+      "source_id": "johnson-1921-history",
+      "via_source_id": null,
+      "localizacao": "p. 26",
+      "parafrase": "Johnson diz que os iorubás, antes do islã, já reconheciam um deus todo-poderoso, Olorun, autor do céu e da terra, mas elevado demais para cuidar pessoalmente dos humanos; daí o culto a muitos orixás como mediadores. O nome Olorun, insiste, só se aplica a esse deus e nunca vai ao plural.",
+      "nota": "Johnson (confiabilidade B) era clérigo anglicano; a leitura monoteísta aproxima-o de Farrow.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/historyofyorubas00john"
+      ]
+    },
+    {
+      "id": "olodumare-008",
+      "orixa": "olodumare",
+      "atributo": "nomes",
+      "valor": "Olodumare: 'senhor do odù', 'aquele que não se pode ultrapassar' (etimologia de Johnson)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "mitologia de Ifẹ̀ segundo Johnson",
+      "source_id": "johnson-1921-history",
+      "via_source_id": null,
+      "localizacao": "p. 143",
+      "parafrase": "Ao tratar de Oduduwa, Johnson decompõe Olodumare como pai ou senhor do odù, acrescentando que a terminação indica algo que não se pode exceder, isto é, o Todo-Poderoso.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/historyofyorubas00john"
+      ]
+    },
+    {
+      "id": "olodumare-009",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "Olorun como desenvolvimento de Jakuta, o 'deus-pai' do trovão (hipótese de Dennett)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Egbado e Ifẹ̀, pesquisa de c. 1900–1910",
+      "source_id": "dennett-1910-nigerian",
+      "via_source_id": null,
+      "localizacao": "pp. 17, 72",
+      "parafrase": "Dennett nota que o relato de criação colhido em Ilobe não menciona Olorun, palavra então usada para Deus e associada aos títulos Eleda e Elemi. Propõe que esse dono do céu tenha nascido de Jakuta, a quem chama deus-pai do trovão, e que Jakuta, sob o nome de Xangô, tenha descido a orixá de menor posto.",
+      "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho. Farrow rejeita a hipótese (olodumare-004).",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/nigerianstudieso00dennuoft"
+      ]
+    },
+    {
+      "id": "olodumare-010",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "Ser Supremo, também chamado Olorun, fonte de tudo o que existe; os orixás são ministros criados por ele, sem existência independente",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "ogungbemi-2021-olodumare",
+      "via_source_id": null,
+      "localizacao": "pp. 42–43, 48",
+      "parafrase": "Apoiado em Lucas, Idowu e Awolalu, Ogungbemi define Olodumare, ou Olorun, como a origem última de tudo, no plano metafísico e no material. Os orixás, cujo número as tradições estimam de modos muito variados, teriam sido criados por ele como ministros e mensageiros e não agem fora de sua alçada.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "olodumare-011",
+      "orixa": "olodumare",
+      "atributo": "interpretacao_academica",
+      "valor": "Olodumare não é necessariamente o mesmo que o Deus judaico-cristão; a equivalência vem de Crowther e Idowu",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "ogungbemi-2021-olodumare",
+      "via_source_id": null,
+      "localizacao": "pp. 41–42, 62",
+      "parafrase": "O filósofo atribui a crença corrente de que Olodumare e o Deus cristão são um só às traduções do bispo Crowther e à obra de Idowu. Ao comparar atributos, admite semelhanças, mas conclui que os dois não se confundem, e sustenta que os iorubás já tinham a noção de um Ser Supremo antes da chegada das religiões estrangeiras.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "olodumare-012",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "todos os poderes (obás, ancestrais, divindades, feiticeiras, curandeiros) derivam de Olodumare e são limitados por ele",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "bewaji-1998-olodumare",
+      "via_source_id": null,
+      "localizacao": "pp. 7–8",
+      "parafrase": "Bewaji resume os atributos que a teologia acadêmica dá a Olodumare — origem do universo, criador das divindades, fonte da vida — e enfatiza que o poder de reis, ancestrais, divindades e especialistas rituais vem dele e por ele pode ser contido; o bem e o mal estariam, ambos, sob sua dispensação.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "olodumare-013",
+      "orixa": "olodumare",
+      "atributo": "interpretacao_academica",
+      "valor": "Olodumare não é o Deus cristão: o problema teísta do mal não surge na religião iorubá, e seu saber se apoia em Orunmilá/Ifá",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "bewaji-1998-olodumare",
+      "via_source_id": null,
+      "localizacao": "pp. 1, 7–10",
+      "parafrase": "Contra Idowu, Mbiti e outros, que teriam lido Olodumare como o Deus cristão e Exu como o diabo, Bewaji argumenta que, como Olodumare responde pelo bem e pelo mal, a contradição cristã entre Deus e o mal não se coloca. Evita falar em onisciência: há relatos de coisas que lhe escapam e de consultas a Orunmilá e a Ifá, o que não diminuiria sua sabedoria.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "olodumare-014",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "única fonte da vida; ar, água e terra sustentam a vida mas não a originam",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "akin-otiko-2024-olodumare",
+      "via_source_id": null,
+      "localizacao": "pp. 58, 60",
+      "parafrase": "Akin-Otiko lembra que Olódùmarè é o nome iorubá do Ser Supremo e, examinando ar, terra e água no corpus de Ifá, conclui que esses elementos mantêm a vida sem ser a origem dela, condição que só Olódùmarè preenche.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "olodumare-015",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "divindade suprema que encarregou Oxalá da criação; Oxalá reina no céu e o substituiu quando Olorum se retirou",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 48, 115–116",
+      "parafrase": "Ao comentar a iniciação, Bastide conta que Olorum, a divindade suprema, confiou a Oxalá a fabricação da terra e do mar; o encargo não foi cumprido por inteiro porque Oxalá bebeu vinho de palma demais, mas com a ajuda de Odudua ele permanece um dos criadores. Mais adiante descreve Oxalá como o maior dos orixás, o que reina no céu e tomou o lugar de Olorun quando este se aposentou.",
+      "nota": "Bastide remete, para a substituição de Olorun por Oxalá, a Parrinder, Frobenius, Nina Rodrigues e A. Ramos (nota 73).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "olodumare-016",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "criador único do cosmos, que dividiu o mundo em domínios dos orixás; Oxalá mantém a ordem e Exu faz os domínios se comunicarem",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 224, 243",
+      "parafrase": "Na leitura de Bastide, o universo dos candomblés, embora repartido em compartimentos, é obra de um só deus criador, Olorum. Feita a criação, ele teria distribuído os domínios entre os orixás; a Oxalá, seu sucessor, cabe manter a ordem, e a Exu, abrir passagem entre os reinos separados.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "olodumare-017",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "criador cósmico que delegou a Oxalá/Oduduá a criação e ficou distante dela; os orixás são intermediários, sem hierarquia formal entre si",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "zacharias-2010-olori",
+      "via_source_id": null,
+      "localizacao": "p. 159",
+      "parafrase": "Zacharias, que compara o candomblé à tipologia de Jung, diz que Olorum confiou a Oxalá/Oduduá a feitura do universo e dos seres humanos e se manteve afastado; os orixás passaram a mediar entre os humanos e Olorum, ligados mais por parentesco do que por uma escala hierárquica formal.",
+      "nota": "A fonte fala em 'tradição de Orixá' e candomblé, sem nação; candomble_ketu é aproximação.",
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "olodumare-018",
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "valor": "o 'Pai Eterno' dividiu o universo entre os filhos e depois subiu ao céu",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba (mito registrado por Lydia Cabrera)",
+      "source_id": "cabrera-1954-monte",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, pp. 189–190",
+      "parafrase": "Bastide traduz um mito cubano recolhido por Cabrera: terminada a criação e antes de subir ao céu, o Pai Eterno dividiu o universo entre seus filhos, e cada um ficou com o que lhe pertence até hoje — o mar, as savanas, as montanhas —, enquanto o segredo das ervas coube a Ossaim.",
+      "nota": "Lido em Bastide, que cita Cabrera, El Monte, p. 100; Bastide observa que nunca ouviu o mito na Bahia.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    }
+  ]
+}

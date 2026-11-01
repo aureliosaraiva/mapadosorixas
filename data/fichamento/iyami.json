@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "orixa": "iyami",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 4,
+    "por_status": {
+      "fichado": 4,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "iyami-001",
+      "orixa": "iyami",
+      "atributo": "interpretacao_academica",
+      "valor": "Iá Mi Oxorongá como 'Mães Ancestrais', figura que reúne ancestralidade e feitiçaria (leitura acadêmica)",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "santos-2008-ia-mi",
+      "via_source_id": null,
+      "localizacao": "pp. 59–60",
+      "parafrase": "Santos estuda as Iá Mi Oxorongá a partir de um mito publicado por Prandi e as trata como as Mães Ancestrais; segundo a autora, nelas se juntam dois traços das religiões africanas que parecem opostos, a ancestralidade e a feitiçaria.",
+      "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). A análise parte do mito nº 204 de Prandi, Mitologia dos Orixás (que remete a Verger).",
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "iyami-002",
+      "orixa": "iyami",
+      "atributo": "historia_culto",
+      "valor": "no Brasil o culto não é difundido, mas as Iá Mi estariam presentes por meio dos orixás femininos mais conhecidos",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "santos-2008-ia-mi",
+      "via_source_id": null,
+      "localizacao": "p. 72",
+      "parafrase": "Na conclusão, Santos afirma que as Mães Ancestrais têm culto próprio pouco difundido no Brasil, mas que elas continuam presentes nos candomblés por meio das divindades femininas mais cultuadas, celebradas como origem da vida.",
+      "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). A fonte diz 'Candomblés', sem nação; candomble_ketu é aproximação.",
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "iyami-003",
+      "orixa": "iyami",
+      "atributo": "historia_culto",
+      "valor": "na África, culto aos ancestrais femininos pelas sociedades Gẹ̀lẹ̀dẹ́ e Ẹgbẹ́, paralelo ao culto dos Egun masculinos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "carvalho-2019-iyami",
+      "via_source_id": null,
+      "localizacao": "p. 215",
+      "parafrase": "As autoras dizem que, na África, Iyami Osoronga corresponde ao culto das ancestrais femininas, organizado nas sociedades Gẹ̀lẹ̀dẹ́ e Ẹgbẹ́, de modo semelhante ao que a sociedade Egungun faz com os ancestrais masculinos.",
+      "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). As autoras apoiam-se em Beniste 1997 e Ogbebara 2006.",
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "iyami-004",
+      "orixa": "iyami",
+      "atributo": "historia_culto",
+      "valor": "no Brasil, reconfigurado em sociedades femininas fechadas, como a Sociedade Osoronga (RJ), à parte mas ligada ao candomblé",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Sociedade Osoronga (Rio de Janeiro)",
+      "source_id": "carvalho-2019-iyami",
+      "via_source_id": null,
+      "localizacao": "pp. 215–216",
+      "parafrase": "Para as autoras, a diáspora desfez os sistemas rituais africanos e o culto às ancestrais se refez em sociedades secretas, como a Sociedade Osoronga, no Rio de Janeiro: um culto separado, com vínculos com o candomblé, cujas raízes remontam ao período colonial e à Irmandade da Boa Morte, na Bahia.",
+      "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). O artigo é sobre método de pesquisa colaborativa e não revela os segredos do grupo; nada além disso foi fichado.",
+      "status": "fichado",
+      "evidencias": []
+    }
+  ]
+}

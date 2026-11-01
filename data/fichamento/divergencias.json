@@ -1,9 +1,148 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 74
+    "total": 82
   },
   "divergencias": [
+    {
+      "orixa": "aie",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "Aiyê: mundo físico, onde se nasce, vive e morre, em contraponto ao Orum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "comunidades de terreiro de nação Ketu (pesquisa no Rio de Janeiro)",
+          "fonte": "carvalho-2019-iyami",
+          "via": null,
+          "localizacao": "p. 215",
+          "registro": "aie-001"
+        },
+        {
+          "valor": "Ayê: mundo material para o qual a pessoa vem do Orum, regida por um orixá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "zacharias-2010-olori",
+          "via": null,
+          "localizacao": "p. 158",
+          "registro": "aie-002"
+        }
+      ]
+    },
+    {
+      "orixa": "egungun",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "festa anual em junho, de sete dias, com lamentos pelos mortos recentes",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 108",
+          "registro": "egungun-003"
+        },
+        {
+          "valor": "grande festa dos Egun em 2 de novembro, Dia de Finados, por sincretismo com o catolicismo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia, pesquisa de 1944–1955",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 170–171",
+          "registro": "egungun-011"
+        }
+      ]
+    },
+    {
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "morto que volta da terra dos mortos para vigiar os vivos; na origem, encarnação dos mortos ligada ao culto aos manes",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 107–108",
+          "registro": "egungun-002"
+        },
+        {
+          "valor": "Egun e Egungun são orixás que representam os espíritos dos antepassados; o egun se apresenta como o pai morto vindo do céu",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Ilaro e Egbado, c. 1900–1910",
+          "fonte": "dennett-1910-nigerian",
+          "via": null,
+          "localizacao": "pp. 28–29, 58–59",
+          "registro": "egungun-005"
+        },
+        {
+          "valor": "na festa de Egungun, mascarados personificam parentes mortos, sinal da crença numa vida futura",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+          "fonte": "johnson-1921-history",
+          "via": null,
+          "localizacao": "p. 26",
+          "registro": "egungun-006"
+        },
+        {
+          "valor": "manifestação física dos espíritos ancestrais; o morto de bom caráter passa ao domínio dos orixás",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "comunidades de origem Ọ̀yọ́ (Òkèigbó e outras, Nigéria)",
+          "fonte": "famule-2021-ayan",
+          "via": null,
+          "localizacao": "pp. 12–13",
+          "registro": "egungun-007"
+        },
+        {
+          "valor": "dois tipos: mascarados de entretenimento, que não são ancestrais, e o egúngún ancestral de origem Ọ̀yọ́, chamado 'habitante do céu' (Ará-ọ̀run)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Ọ̀yọ́ e cidades fundadas por migrantes de Ọ̀yọ́ (Ìgànná, Ìsẹ́yìn, Ìbàdàn, Òkèigbó)",
+          "fonte": "famule-2021-ayan",
+          "via": null,
+          "localizacao": "pp. 15–16",
+          "registro": "egungun-009"
+        },
+        {
+          "valor": "os mortos são uma das quatro partes do cosmos, ao lado de orixás, pessoas e natureza; os Egun são 'aparições' e não incorporam",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 138, 181–183",
+          "registro": "egungun-013"
+        },
+        {
+          "valor": "os Egun evocados em Itaparica são babá (pais), antepassados de linhagens já extintas, com nomes nagôs",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (ilha de Itaparica), pesquisa de 1944–1955",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 174",
+          "registro": "egungun-014"
+        }
+      ]
+    },
     {
       "orixa": "exu",
       "atributo": "cores",
@@ -1288,6 +1427,128 @@
       ]
     },
     {
+      "orixa": "odudua",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "deusa principal, esposa de Obatala, coeva de Olorun e não criada por ele; representa a terra unida ao céu",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 41–42",
+          "registro": "odudua-001"
+        },
+        {
+          "valor": "Obatala e Odudua como uma única divindade andrógina (versão minoritária)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 42",
+          "registro": "odudua-003"
+        },
+        {
+          "valor": "filho de Olodumare, enviado do céu para criar a terra (mitologia de Ifẹ̀)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "mitologia de Ifẹ̀ segundo Johnson",
+          "fonte": "johnson-1921-history",
+          "via": null,
+          "localizacao": "p. 143",
+          "registro": "odudua-006"
+        },
+        {
+          "valor": "ora divindade independente e coeva de Olorun, ora subordinada a ele, como Obatala",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "jock-2020-oduduwa",
+          "via": null,
+          "localizacao": "p. 6",
+          "registro": "odudua-009"
+        },
+        {
+          "valor": "mensageiro do Ser Supremo que assumiu a tarefa de Orixanlá na criação e se tornou o primeiro rei-deus de Ilê-Ifẹ̀",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "ogungbemi-2021-olodumare",
+          "via": null,
+          "localizacao": "pp. 50–51",
+          "registro": "odudua-010"
+        },
+        {
+          "valor": "a terra, metade inferior do casal primordial com Obatalá, o céu; representada na Bahia por duas cabaças ou tigela branca tampada",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador (Bahia), observação de Nina Rodrigues no fim do séc. XIX, retomada por Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 96, 98",
+          "registro": "odudua-011"
+        },
+        {
+          "valor": "auxiliar de Oxalá na criação da terra (Bahia)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 48",
+          "registro": "odudua-012"
+        },
+        {
+          "valor": "o sexo de Obatalá e de Odudua muda conforme a região: no litoral ela é mulher; em Ifẹ̀, homem",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "litoral iorubá × Ifẹ̀, segundo Dennett e Frobenius (via Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 290",
+          "registro": "odudua-014"
+        }
+      ]
+    },
+    {
+      "orixa": "odudua",
+      "atributo": "origem",
+      "versoes": [
+        {
+          "valor": "líder de imigrantes chegados por volta dos sécs. XI–XII, ancestral dos reis iorubás, divinizado depois (versão masculina de 'F. S.')",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "artigo de 'F. S.' no Nigerian Chronicle (1909), transcrito por Dennett",
+          "fonte": "dennett-1910-nigerian",
+          "via": null,
+          "localizacao": "pp. 74–77",
+          "registro": "odudua-004"
+        },
+        {
+          "valor": "príncipe expulso de 'Meca', ancestral dos iorubás, que se fixou em Ilê-Ifẹ̀; para Johnson, personagem mítico",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradições dos historiadores da corte de Oyó",
+          "fonte": "johnson-1921-history",
+          "via": null,
+          "localizacao": "pp. 3–4, 143",
+          "registro": "odudua-005"
+        }
+      ]
+    },
+    {
       "orixa": "ogum",
       "atributo": "cores",
       "versoes": [
@@ -1764,6 +2025,172 @@
       ]
     },
     {
+      "orixa": "olodumare",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "deus do céu distante e ocioso, sem sacerdotes, imagens nem templos, e sem onipotência",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 35–38",
+          "registro": "olodumare-001"
+        },
+        {
+          "valor": "Ser Supremo eterno e criador, de uma classe à parte, acima dos orixás",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+          "fonte": "farrow-1926-faith",
+          "via": null,
+          "localizacao": "pp. 23–25, 27–28",
+          "registro": "olodumare-004"
+        },
+        {
+          "valor": "não recebe sacrifício nem prece direta, por estar alto e distante demais",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+          "fonte": "farrow-1926-faith",
+          "via": null,
+          "localizacao": "pp. 29–30",
+          "registro": "olodumare-006"
+        },
+        {
+          "valor": "Deus Todo-Poderoso, criador do céu e da terra, distante demais para lidar diretamente com os homens; os orixás são intermediários",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+          "fonte": "johnson-1921-history",
+          "via": null,
+          "localizacao": "p. 26",
+          "registro": "olodumare-007"
+        },
+        {
+          "valor": "Olorun como desenvolvimento de Jakuta, o 'deus-pai' do trovão (hipótese de Dennett)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Egbado e Ifẹ̀, pesquisa de c. 1900–1910",
+          "fonte": "dennett-1910-nigerian",
+          "via": null,
+          "localizacao": "pp. 17, 72",
+          "registro": "olodumare-009"
+        },
+        {
+          "valor": "Ser Supremo, também chamado Olorun, fonte de tudo o que existe; os orixás são ministros criados por ele, sem existência independente",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "ogungbemi-2021-olodumare",
+          "via": null,
+          "localizacao": "pp. 42–43, 48",
+          "registro": "olodumare-010"
+        },
+        {
+          "valor": "todos os poderes (obás, ancestrais, divindades, feiticeiras, curandeiros) derivam de Olodumare e são limitados por ele",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "bewaji-1998-olodumare",
+          "via": null,
+          "localizacao": "pp. 7–8",
+          "registro": "olodumare-012"
+        },
+        {
+          "valor": "única fonte da vida; ar, água e terra sustentam a vida mas não a originam",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "akin-otiko-2024-olodumare",
+          "via": null,
+          "localizacao": "pp. 58, 60",
+          "registro": "olodumare-014"
+        },
+        {
+          "valor": "divindade suprema que encarregou Oxalá da criação; Oxalá reina no céu e o substituiu quando Olorum se retirou",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 48, 115–116",
+          "registro": "olodumare-015"
+        },
+        {
+          "valor": "criador único do cosmos, que dividiu o mundo em domínios dos orixás; Oxalá mantém a ordem e Exu faz os domínios se comunicarem",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 224, 243",
+          "registro": "olodumare-016"
+        },
+        {
+          "valor": "criador cósmico que delegou a Oxalá/Oduduá a criação e ficou distante dela; os orixás são intermediários, sem hierarquia formal entre si",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "zacharias-2010-olori",
+          "via": null,
+          "localizacao": "p. 159",
+          "registro": "olodumare-017"
+        },
+        {
+          "valor": "o 'Pai Eterno' dividiu o universo entre os filhos e depois subiu ao céu",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (mito registrado por Lydia Cabrera)",
+          "fonte": "cabrera-1954-monte",
+          "via": "bastide-1958-candomble",
+          "localizacao": "ed. pt 1961, pp. 189–190",
+          "registro": "olodumare-018"
+        }
+      ]
+    },
+    {
+      "orixa": "olokun",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "nascido do corpo de Yemaja; casado com Olokun-su (Elusu) e com a irmã Olosa, deusa da laguna",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Lagos e laguna de Lagos, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 45, 70–72",
+          "registro": "olokun-002"
+        },
+        {
+          "valor": "filho de Yemoja, que leva aos filhos Olokun e Olosa as oferendas dos pescadores",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "pescadores da costa iorubá, c. 1900–1910",
+          "fonte": "dennett-1910-nigerian",
+          "via": null,
+          "localizacao": "p. 113",
+          "registro": "olokun-004"
+        }
+      ]
+    },
+    {
       "orixa": "omolu",
       "atributo": "dia_semana",
       "versoes": [
@@ -1969,6 +2396,100 @@
           "via": null,
           "localizacao": "p. 257",
           "registro": "omolu-015"
+        }
+      ]
+    },
+    {
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "òrun designa ao mesmo tempo o céu visível e a morada da divindade suprema",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+          "fonte": "farrow-1926-faith",
+          "via": null,
+          "localizacao": "p. 26",
+          "registro": "orum-002"
+        },
+        {
+          "valor": "dois 'céus': Orun-rere ou Orun-afefe, morada dos espíritos dos mortos, e Orun-apadi ou Orun-buburu, lugar quente e estéril",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+          "fonte": "farrow-1926-faith",
+          "via": null,
+          "localizacao": "pp. 132–133",
+          "registro": "orum-003"
+        },
+        {
+          "valor": "a terra dos mortos (Ipo-oku) fica sob a terra; Orun-apadi é o lugar de cacos para onde vai a alma sem ritos fúnebres",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 127–128",
+          "registro": "orum-004"
+        },
+        {
+          "valor": "às portas do òrun se prestam contas do que se fez no mundo (juízo futuro)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+          "fonte": "johnson-1921-history",
+          "via": null,
+          "localizacao": "p. 26",
+          "registro": "orum-005"
+        },
+        {
+          "valor": "òrun, o céu, é o domínio de Olodumare",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "bewaji-1998-olodumare",
+          "via": null,
+          "localizacao": "p. 8",
+          "registro": "orum-006"
+        },
+        {
+          "valor": "reino espiritual para onde os ancestrais se mudam ao morrer, e de onde são invocados como egúngún",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Òkèigbó e cidades de origem Ọ̀yọ́ (Nigéria)",
+          "fonte": "famule-2021-ayan",
+          "via": null,
+          "localizacao": "p. 17",
+          "registro": "orum-007"
+        },
+        {
+          "valor": "Orum, mundo superior e espiritual, em harmonia com o Aiyê mantida por culto e ritos",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "comunidades de terreiro de nação Ketu (pesquisa no Rio de Janeiro)",
+          "fonte": "carvalho-2019-iyami",
+          "via": null,
+          "localizacao": "p. 215",
+          "registro": "orum-008"
+        },
+        {
+          "valor": "Orum é o mundo imaterial de onde cada pessoa retorna ao Ayê ao reencarnar",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "zacharias-2010-olori",
+          "via": null,
+          "localizacao": "p. 158",
+          "registro": "orum-009"
         }
       ]
     },

@@ -343,7 +343,7 @@
       },
       "prioridade_mvp2": 2,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -371,7 +371,7 @@
       "grupo": null,
       "prioridade_mvp2": 3,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -446,7 +446,7 @@
       "grupo": null,
       "prioridade_mvp2": 2,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": "Os três nomes ficam provisoriamente num só identificador, como no pedido de escopo; se e como se distinguem depende da tradição e será registrado no fichamento, com fonte (atributo hierarquia)."
     },
     {
@@ -460,7 +460,7 @@
       "grupo": null,
       "prioridade_mvp2": 2,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -475,7 +475,7 @@
       "grupo": null,
       "prioridade_mvp2": 2,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -504,7 +504,7 @@
       "grupo": null,
       "prioridade_mvp2": 2,
       "sensivel": false,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     },
     {
@@ -519,7 +519,7 @@
       "grupo": null,
       "prioridade_mvp2": 3,
       "sensivel": true,
-      "status_conteudo": "sem_fichamento",
+      "status_conteudo": "fichado",
       "nota_modelagem": null
     }
   ]

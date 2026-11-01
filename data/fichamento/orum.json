@@ -1,0 +1,179 @@
+{
+  "_meta": {
+    "orixa": "orum",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 9,
+    "por_status": {
+      "fichado": 9,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "orum-001",
+      "orixa": "orum",
+      "atributo": "nomes",
+      "valor": "òrun: o céu, o firmamento, imaginado como abóbada sólida sobre a terra",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 36",
+      "parafrase": "Na etimologia de Olorun, Ellis traduz orun por céu ou firmamento e acrescenta que o céu era concebido como um corpo sólido, arqueado sobre a terra como um teto.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "orum-002",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "òrun designa ao mesmo tempo o céu visível e a morada da divindade suprema",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "p. 26",
+      "parafrase": "Farrow observa que orun, palavra para 'céu', serve tanto para o firmamento quanto para o lugar onde habita a divindade, e que o título Olorun exprime essa grandeza.",
+      "nota": "Documento histórico (confiabilidade C): tese de missionário anglicano que declara querer justificar a missão e defende um monoteísmo primitivo; polemiza com Ellis e Dennett. Não sustenta o atributo sozinha.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "orum-003",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "dois 'céus': Orun-rere ou Orun-afefe, morada dos espíritos dos mortos, e Orun-apadi ou Orun-buburu, lugar quente e estéril",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+      "source_id": "farrow-1926-faith",
+      "via_source_id": null,
+      "localizacao": "pp. 132–133",
+      "parafrase": "Farrow registra a crença em dois céus: o bom, de brisas frescas, que seria o lugar próprio dos espíritos desencarnados, e o mau, comparado a um forno de oleiro cheio de cacos, para onde espíritos malignos podem levar a alma que ainda não recebeu os ritos fúnebres.",
+      "nota": "Documento histórico (confiabilidade C): tese de missionário anglicano que declara querer justificar a missão e defende um monoteísmo primitivo; polemiza com Ellis e Dennett. Não sustenta o atributo sozinha. Diverge de Ellis, para quem a terra dos mortos fica debaixo da terra (orum-004).",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr"
+      ]
+    },
+    {
+      "id": "orum-004",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "a terra dos mortos (Ipo-oku) fica sob a terra; Orun-apadi é o lugar de cacos para onde vai a alma sem ritos fúnebres",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "pp. 127–128",
+      "parafrase": "Para Ellis, a alma segue depois da morte para um lugar dos mortos situado embaixo da terra, onde continua a vida que levava; se os ritos fúnebres faltarem, vaga sem abrigo e pode ser lançada por espíritos maus num mundo invisível de cacos de cerâmica, comparado a um forno.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "orum-005",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "às portas do òrun se prestam contas do que se fez no mundo (juízo futuro)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+      "source_id": "johnson-1921-history",
+      "via_source_id": null,
+      "localizacao": "p. 26",
+      "parafrase": "Johnson deduz de um provérbio a crença num julgamento após a morte: tudo o que se faz na terra seria contado na entrada do céu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/historyofyorubas00john"
+      ]
+    },
+    {
+      "id": "orum-006",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "òrun, o céu, é o domínio de Olodumare",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "bewaji-1998-olodumare",
+      "via_source_id": null,
+      "localizacao": "p. 8",
+      "parafrase": "Ao discutir os limites do saber de Olodumare, Bewaji menciona que há fatos que lhe escapam em toda parte, inclusive no próprio domínio dele, o òrun ou céu.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "orum-007",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "reino espiritual para onde os ancestrais se mudam ao morrer, e de onde são invocados como egúngún",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Òkèigbó e cidades de origem Ọ̀yọ́ (Nigéria)",
+      "source_id": "famule-2021-ayan",
+      "via_source_id": null,
+      "localizacao": "p. 17",
+      "parafrase": "Fámúlẹ̀ explica que, para os iorubás, os ancestrais não morrem: passam a habitar o ọ̀run, domínio dos seres espirituais, e dali seus espíritos podem ser chamados e aparecer na forma de egúngún.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "orum-008",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "Orum, mundo superior e espiritual, em harmonia com o Aiyê mantida por culto e ritos",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "comunidades de terreiro de nação Ketu (pesquisa no Rio de Janeiro)",
+      "source_id": "carvalho-2019-iyami",
+      "via_source_id": null,
+      "localizacao": "p. 215",
+      "parafrase": "As autoras descrevem a cosmovisão iorubá da nação Ketu nos terreiros como um sistema de orixás e ancestrais em que o equilíbrio entre o Orum, plano espiritual de cima, e o Aiyê, mundo físico, depende de manter a adoração e os ritos.",
+      "nota": "As autoras apoiam-se em Verger 1996 e Beniste 1997.",
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "orum-009",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "Orum é o mundo imaterial de onde cada pessoa retorna ao Ayê ao reencarnar",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "zacharias-2010-olori",
+      "via_source_id": null,
+      "localizacao": "p. 158",
+      "parafrase": "Segundo Zacharias, cada pessoa que renasce sai do Orum, plano sem matéria, e chega ao Ayê, plano físico, já composta de elementos de um orixá, que governará sua cabeça pela vida inteira.",
+      "nota": "A fonte fala em 'tradição de Orixá' e candomblé, sem nação; candomble_ketu é aproximação.",
+      "status": "fichado",
+      "evidencias": []
+    }
+  ]
+}

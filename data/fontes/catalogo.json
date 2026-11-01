@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-11-01",
-    "total": 422
+    "total": 423
   },
   "fontes": [
     {
@@ -43,7 +43,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "UNESCO. Bilíngue iorubá-inglês.",
+      "observacoes": "UNESCO. Bilíngue iorubá-inglês. | Lote C (2026-11-01): UNESDOC (unesdoc.unesco.org) com desafio anti-robô Cloudflare em 2026-11-01: não foi possível verificar se há PDF oficial.",
       "status_verificacao": "a_verificar",
       "evidencias": [],
       "url": null,
@@ -395,7 +395,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Nsukka Journal of Religion); filosofia da religião iorubá.",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Nsukka Journal of Religion); filosofia da religião iorubá. | Lote C (2026-11-01): lido integral; PDF p. 1 = p. 54 impressa.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://journal.njrcs.org/index.php/njrcs/article/view/45",
@@ -1164,7 +1164,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Ed. pt 'O candomblé da Bahia (rito nagô)', Companhia Editora Nacional, 1961 (Brasiliana v. 313), trad. Maria Isaura Pereira de Queiroz. Cópia digitalizada no repositório da UFRJ. Lido (cap. sobre o tempo sagrado, pp. 105–128) na cópia digital da UFRJ em 2026-10-31; paginação do PDF coincide com a do livro. | Lidos também em 2026-10-31 (tarefa glossário): pp. 17–18 (nações), 24, 78, 95–96 (comparação com Cuba, Haiti e Trinidad) e o glossário, pp. 353–358.",
+      "observacoes": "Ed. pt 'O candomblé da Bahia (rito nagô)', Companhia Editora Nacional, 1961 (Brasiliana v. 313), trad. Maria Isaura Pereira de Queiroz. Cópia digitalizada no repositório da UFRJ. Lido (cap. sobre o tempo sagrado, pp. 105–128) na cópia digital da UFRJ em 2026-10-31; paginação do PDF coincide com a do livro. | Lidos também em 2026-10-31 (tarefa glossário): pp. 17–18 (nações), 24, 78, 95–96 (comparação com Cuba, Haiti e Trinidad) e o glossário, pp. 353–358. | Lote C (2026-11-01): lido o cap. III, \"A estrutura do mundo\" (pp. 134–207), e as páginas sobre Olorum/Odudua (48, 96–99, 115–116, 224, 243, 262, 290–292).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
@@ -1457,7 +1457,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (African Studies Quarterly).",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (African Studies Quarterly). | Lote C (2026-11-01): lido integral (pp. 1–10 fichadas).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://journals.flvc.org/ASQ/article/view/136485"
@@ -2439,7 +2439,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Fractal, UFF). Tradição a confirmar (o título fala em sacerdotisas de Iyami).",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Fractal, UFF). Tradição a confirmar (o título fala em sacerdotisas de Iyami). | Lote C (2026-11-01): lido integral (pp. 214–219). Fichado só o mínimo público (Iyami sensível).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.22409/1984-0292/v31i_esp/29003",
@@ -3002,7 +3002,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Varredura 4 (2026-11-01). Administrador colonial (m. 1921): domínio público. Texto integral no Internet Archive (Toronto e Cornell) e HathiTrust (mdp.39015019369126, pd). Sumário: II criação e pedras sagradas de Ifẹ̀ (p. 17); III morte, Oro, Egungun (p. 28); V Jakuta (p. 65); VI Odudua (p. 73); VII Obatala (p. 81); VIII Ifá (p. 86); IX Eshu (p. 94); X Aganju, Yemoja e seus filhos (p. 97); XI Olokun, Olosa (p. 106); XII Ogun, Oshowsi e o caçador (p. 116); XIV Oke, Ojo, Ajeshaluga e a agricultura (p. 140); XV odù de Ifá (p. 147); XVI Shango, Oya, Oba, Oshun (p. 156). Esquema interpretativo próprio (quaternidades) sem base nas fontes atuais. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "observacoes": "Varredura 4 (2026-11-01). Administrador colonial (m. 1921): domínio público. Texto integral no Internet Archive (Toronto e Cornell) e HathiTrust (mdp.39015019369126, pd). Sumário: II criação e pedras sagradas de Ifẹ̀ (p. 17); III morte, Oro, Egungun (p. 28); V Jakuta (p. 65); VI Odudua (p. 73); VII Obatala (p. 81); VIII Ifá (p. 86); IX Eshu (p. 94); X Aganju, Yemoja e seus filhos (p. 97); XI Olokun, Olosa (p. 106); XII Ogun, Oshowsi e o caçador (p. 116); XIV Oke, Ojo, Ajeshaluga e a agricultura (p. 140); XV odù de Ifá (p. 147); XVI Shango, Oya, Oba, Oshun (p. 156). Esquema interpretativo próprio (quaternidades) sem base nas fontes atuais. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais. | Lote C (2026-11-01): lidos caps. II (pp. 17–21), III (pp. 28–29, 58–59), V (p. 72), VI (pp. 73–77) e XI (pp. 106–115) no _djvu.txt do IA. Fichado como documento histórico (C); boa parte do cap. XI repete Ellis.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://archive.org/details/nigerianstudieso00dennuoft",
@@ -3350,12 +3350,13 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Olhar colonial; domínio público; usar só com crítica. | Metadados conferidos na Open Library e no Internet Archive em 2026-11-01 (fonte primária de 2ª mão em iemanja-052, via Pitta). | Varredura 4 (2026-11-01): Texto integral no Internet Archive (NOT_IN_COPYRIGHT) e HathiTrust (hvd.32044020314415, pd). Cobre: cap. II 'Chief gods' (pp. 34–69, seções numeradas: Olorun, Obatala, Odudua, Orungan/Yemaja, Shango, Ifa com os 16 odù 'meji', Elegba); cap. III 'Minor gods' (pp. 70–84: Olokun, Olosa, Shigidi, Dada, Oshun, Oya, Orisha Oko, Osanyin, Aroni, Aja, Ibeji, Oshumare etc.); cap. VI Egungun e Oro (p. 107); cap. VII almas (p. 125); cap. XIV contos (p. 243).",
+      "observacoes": "Olhar colonial; domínio público; usar só com crítica. | Metadados conferidos na Open Library e no Internet Archive em 2026-11-01 (fonte primária de 2ª mão em iemanja-052, via Pitta). | Varredura 4 (2026-11-01): Texto integral no Internet Archive (NOT_IN_COPYRIGHT) e HathiTrust (hvd.32044020314415, pd). Cobre: cap. II 'Chief gods' (pp. 34–69, seções numeradas: Olorun, Obatala, Odudua, Orungan/Yemaja, Shango, Ifa com os 16 odù 'meji', Elegba); cap. III 'Minor gods' (pp. 70–84: Olokun, Olosa, Shigidi, Dada, Oshun, Oya, Orisha Oko, Osanyin, Aroni, Aja, Ibeji, Oshumare etc.); cap. VI Egungun e Oro (p. 107); cap. VII almas (p. 125); cap. XIV contos (p. 243). | Lote C (2026-11-01): lidos caps. II (pp. 35–45), III (pp. 70–72), VI (pp. 107–109) e VII (pp. 125–128) no texto OCR do Internet Archive (cópia Wellcome b21781370, OCR melhor que a do Google para pp. 37–38). Fichado como documento histórico (C).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://openlibrary.org/works/OL6254639W",
         "https://archive.org/details/yorubaspeakingp00elligoog",
-        "https://catalog.hathitrust.org/api/volumes/brief/oclc/4848837.json"
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/4848837.json",
+        "https://archive.org/details/b21781370"
       ],
       "url": "https://archive.org/details/yorubaspeakingp00elligoog",
       "identificadores": {}
@@ -3525,7 +3526,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Àyàn e Egúngún.",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Àyàn e Egúngún. | Lote C (2026-11-01): lidas pp. 1–17 (Egúngún como manifestação ancestral; tipos; etimologia). Ritual detalhado do festival não fichado.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.32473/ysr.v2i2.129886",
@@ -3552,7 +3553,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Varredura 4 (2026-11-01). Tese de doutorado (Edimburgo, 1924) de missionário anglicano; declara o objetivo de justificar a missão cristã. Texto integral no Internet Archive e HathiTrust (pd, Full view; domínio público nos EUA desde 2022; data de morte do autor a conferir para a Europa). Cobre: o Ser Supremo (Olorun), 'The Orishas' (2 caps.: Obatala, Odudua, Shango, Oya, Ogun, Eshu, Ifa/Orunmila, Yemaja, Olokun, Oshun, Sopono, Osanyin, Ibeji), espíritos dos mortos (Egungun, Oro), hino religioso iorubá (apêndice A). Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "observacoes": "Varredura 4 (2026-11-01). Tese de doutorado (Edimburgo, 1924) de missionário anglicano; declara o objetivo de justificar a missão cristã. Texto integral no Internet Archive e HathiTrust (pd, Full view; domínio público nos EUA desde 2022; data de morte do autor a conferir para a Europa). Cobre: o Ser Supremo (Olorun), 'The Orishas' (2 caps.: Obatala, Odudua, Shango, Oya, Ogun, Eshu, Ifa/Orunmila, Yemaja, Olokun, Oshun, Sopono, Osanyin, Ibeji), espíritos dos mortos (Egungun, Oro), hino religioso iorubá (apêndice A). Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais. | Lote C (2026-11-01): lidos caps. III (pp. 23–33), IV (pp. 43–45) e \"The soul of man\" (pp. 130–133) no _djvu.txt do IA. Fichado como documento histórico (C); o trecho sobre Olori repete Ellis.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://archive.org/details/faithfanciesfeti00farr",
@@ -4685,7 +4686,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); debate filosófico com Layi 2016.",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); debate filosófico com Layi 2016. | Lote C (2026-11-01): não lido: o servidor journal.sadra.ac.id responde HTTP 500 (2026-11-01).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.20871/kpjipm.v4i2.67",
@@ -4790,7 +4791,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (HTS Teologiese Studies).",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (HTS Teologiese Studies). | Lote C (2026-11-01): lido integral (pp. 1, 6–7 fichadas).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.4102/hts.v76i4.6013",
@@ -4839,7 +4840,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Historiador iorubá; tradições orais de Oyó (Xangô como alafin). | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06). | A Open Library data a 1ª publicação de 1900 (manuscrito concluído em 1897; 1ª ed. impressa em 1921); ano citado mantido. | Varredura 4 (2026-11-01): Texto integral no Internet Archive e HathiTrust (inu.39000005818294, pd). Autor morto em 1901, editor (Obadiah Johnson) em 1920: domínio público. Cobre: parte I, cap. III 'Religion' (pp. 26–39); parte II, cap. I (pp. 143–152: Oduduwa, Oranyan, Sango como rei de Oyó) — leitura histórica de Oyó, não teologia.",
+      "observacoes": "Historiador iorubá; tradições orais de Oyó (Xangô como alafin). | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06). | A Open Library data a 1ª publicação de 1900 (manuscrito concluído em 1897; 1ª ed. impressa em 1921); ano citado mantido. | Varredura 4 (2026-11-01): Texto integral no Internet Archive e HathiTrust (inu.39000005818294, pd). Autor morto em 1901, editor (Obadiah Johnson) em 1920: domínio público. Cobre: parte I, cap. III 'Religion' (pp. 26–39); parte II, cap. I (pp. 143–152: Oduduwa, Oranyan, Sango como rei de Oyó) — leitura histórica de Oyó, não teologia. | Lote C (2026-11-01): lidos parte I, pp. 3–4 e 26–28 (religião, Ori), e parte II, cap. I, p. 143 (Oduduwa), no _djvu.txt do IA.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://openlibrary.org/works/OL4559044W",
@@ -5054,7 +5055,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); réplica a Igboin 2014.",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); réplica a Igboin 2014. | Lote C (2026-11-01): não lido: o servidor journal.sadra.ac.id responde HTTP 500 (2026-11-01).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.20871/kpjipm.v6i1.169",
@@ -6631,7 +6632,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review, Univ. da Flórida).",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review, Univ. da Flórida). | Lote C (2026-11-01): PDF é digitalização sem camada de texto: lido por OCR local (tesseract) — pp. 41–43, 48–51, 62–63.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.32473/ysr.v1i1.130014",
@@ -8489,7 +8490,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Sankofa, USP, acesso aberto). Nação a confirmar.",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Sankofa, USP, acesso aberto). Nação a confirmar. | Lote C (2026-11-01): lido integral; PDF p. 1 = p. 59 impressa. Fichado só o mínimo público (Iyami sensível).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.11606/issn.1983-6023.sank.2008.88730",
@@ -10271,7 +10272,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade B: reedição (Black Madonna Enterprises, 2007) do artigo de Verger sobre o deus supremo iorubá; conferir a publicação original.",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade B: reedição (Black Madonna Enterprises, 2007) do artigo de Verger sobre o deus supremo iorubá; conferir a publicação original. | Lote C (2026-11-01): original \"The Yoruba High God\", Odu (Ifẹ̀) 2(2), 1966: nenhuma cópia aberta achada (IA, Crossref) em 2026-11-01.",
       "status_verificacao": "pista",
       "evidencias": [
         "https://openlibrary.org/works/OL15482105W"
@@ -10502,7 +10503,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Esboços, UFSC); Orí e orixá de cabeça. Nação a confirmar.",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Esboços, UFSC); Orí e orixá de cabeça. Nação a confirmar. | Lote C (2026-11-01): lido integral (pp. 158–159 fichadas; Orí vai para o relatório, sem entidade na lista-mestra).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.5007/2175-7976.2010v17n23p151",
@@ -10538,6 +10539,32 @@
         "isbn": "9783260049101"
       },
       "editora": "Juris Druck + Verlag"
+    },
+    {
+      "id": "verger-1965-iyami",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Pierre Verger"
+      ],
+      "titulo": "Grandeur et décadence du culte de ìyámi òsòròngà (ma mère la sorcière) chez les yoruba",
+      "ano": 1965,
+      "idioma": "fr",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Lote C (2026-11-01): metadados conferidos na página do Persée (Journal de la Société des Africanistes 35(1), pp. 141–243; DOI 10.3406/jafr.1965.1393; acesso livre). O PDF (docAsPDF) está protegido por desafio anti-robô (altcha) neste ambiente: não lido nem fichado → PENDENCIAS. Tema sensível (Iyami): leitura a decidir com o conselho.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.persee.fr/doc/jafr_0037-9166_1965_num_35_1_1393",
+        "https://doi.org/10.3406/jafr.1965.1393"
+      ],
+      "url": "https://www.persee.fr/doc/jafr_0037-9166_1965_num_35_1_1393",
+      "identificadores": {
+        "doi": "10.3406/jafr.1965.1393"
+      },
+      "periodico": "Journal de la Société des Africanistes"
     }
   ]
 }

@@ -1,0 +1,343 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/odudua.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 14,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "odudua",
+  "rotulo": "Odudua",
+  "atributos": {
+    "nomes": [
+      {
+        "valor": "Odudua ou Odua; título Iya agbe, 'a mãe que recebe'; nome lido como 'a negra'",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "p. 41",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "p. 41",
+        "parafrase": "Ellis registra as formas Odudua e Odua, o título Iya agbe, que traduz como mãe que recebe, e deriva o nome da raiz iorubá para 'preto'; descreve a imagem da deusa como mulher sentada amamentando.",
+        "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Johnson e Dennett propõem outra etimologia (odudua-005, odudua-004).",
+        "registro": "odudua-002",
+        "status": "fichado"
+      }
+    ],
+    "origem": [
+      {
+        "valor": "líder de imigrantes chegados por volta dos sécs. XI–XII, ancestral dos reis iorubás, divinizado depois (versão masculina de 'F. S.')",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "artigo de 'F. S.' no Nigerian Chronicle (1909), transcrito por Dennett",
+        "sources": [
+          {
+            "id": "dennett-1910-nigerian",
+            "loc": "pp. 74–77",
+            "via": null
+          }
+        ],
+        "source_id": "dennett-1910-nigerian",
+        "via_source_id": null,
+        "localizacao": "pp. 74–77",
+        "parafrase": "Dennett transcreve um articulista iorubá que assina F. S.: Odudua teria chefiado imigrantes vindos do Bornu, e seus descendentes, muito depois, lhe deram esse nome, lido como 'o que existe por si'; dele descenderiam as dinastias de Ketu, Benim, Oyó e outras. Dennett ressalta que F. S. faz de Odudua um homem, enquanto Ellis, Crowther e os informantes de Ilobe falam de uma mulher.",
+        "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho. Farrow (pp. 44–45) julga as histórias de F. S. evemeristas e sem corroboração.",
+        "registro": "odudua-004",
+        "status": "fichado"
+      },
+      {
+        "valor": "príncipe expulso de 'Meca', ancestral dos iorubás, que se fixou em Ilê-Ifẹ̀; para Johnson, personagem mítico",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "tradições dos historiadores da corte de Oyó",
+        "sources": [
+          {
+            "id": "johnson-1921-history",
+            "loc": "pp. 3–4, 143",
+            "via": null
+          }
+        ],
+        "source_id": "johnson-1921-history",
+        "via_source_id": null,
+        "localizacao": "pp. 3–4, 143",
+        "parafrase": "Johnson relata a tradição de que os iorubás descendem de Lamurudu, rei de Meca: o príncipe Oduduwa, por ter promovido o culto às imagens, teria sido expulso e caminhado até Ilê-Ifẹ̀. Na parte histórica, porém, o autor o chama de personagem mítico, explicando o nome como 'o grande recipiente, autor da existência', e diz que morreu em Ifẹ̀ e foi divinizado.",
+        "nota": "Jock 2020 (odudua-008) mostra que o próprio Johnson preferia uma origem egípcia e cristã copta à de Meca.",
+        "registro": "odudua-005",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "esposo de Olokun, deusa do oceano; pai de Oranmiyan e Isedale; avô de Ogum",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "mitologia de Ifẹ̀ segundo Johnson",
+        "sources": [
+          {
+            "id": "johnson-1921-history",
+            "loc": "p. 143",
+            "via": null
+          }
+        ],
+        "source_id": "johnson-1921-history",
+        "via_source_id": null,
+        "localizacao": "p. 143",
+        "parafrase": "No mesmo resumo da mitologia de Ifẹ̀, Johnson dá Olokun, deusa do oceano, como mulher de Oduduwa, Oranmiyan e Isedale como filhos do casal e Ogum como neto.",
+        "nota": "Diverge de Ellis, que faz de Olokun um deus masculino nascido de Yemaja (olokun-002). Arestas propostas no relatório lote-C §8.",
+        "registro": "odudua-007",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "culto desaparecido na Bahia em meados do séc. XX",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 262",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 262",
+        "parafrase": "Bastide anota, de passagem, que Odudua já havia desaparecido da Bahia, embora sobrevivesse a ideia de que Obatalá reunia os dois sexos, traço que Odudua também teria tido.",
+        "nota": null,
+        "registro": "odudua-013",
+        "status": "fichado"
+      }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "três imagens de Oduduwa nas tradições: deusa, herói migrante e criador",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "jock-2020-oduduwa",
+            "loc": "pp. 1, 6–7",
+            "via": null
+          }
+        ],
+        "source_id": "jock-2020-oduduwa",
+        "via_source_id": null,
+        "localizacao": "pp. 1, 6–7",
+        "parafrase": "Jock observa que os iorubás concordam em ter Oduduwa por ancestral, mas divergem sobre sua origem (Meca, Egito, Israel). Johnson teria cristianizado a história, fazendo dos ancestrais cristãos coptas do Alto Egito. O artigo conclui que as figuras de deusa, de lenda migratória e de criador convivem nas narrativas.",
+        "nota": null,
+        "registro": "odudua-008",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "deusa principal, esposa de Obatala, coeva de Olorun e não criada por ele; representa a terra unida ao céu",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "pp. 41–42",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "pp. 41–42",
+        "parafrase": "Ellis apresenta Odudua como a principal deusa, casada com Obatala. Diferente do marido, que Olorun teria feito, ela existiria desde o início, junto com Olorun — embora outros informantes a façam vir de Ifẹ̀ como os demais deuses. O casal figura céu e terra, simbolizados por duas cabaças sobrepostas que, fechadas, não se abrem mais.",
+        "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+        "registro": "odudua-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "Obatala e Odudua como uma única divindade andrógina (versão minoritária)",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "p. 42",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "p. 42",
+        "parafrase": "Alguns sacerdotes disseram a Ellis que Obatala e Odudua seriam um só deus de dois sexos, mas o autor ressalva que a maioria os tinha por pessoas distintas.",
+        "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+        "registro": "odudua-003",
+        "status": "fichado"
+      },
+      {
+        "valor": "filho de Olodumare, enviado do céu para criar a terra (mitologia de Ifẹ̀)",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "mitologia de Ifẹ̀ segundo Johnson",
+        "sources": [
+          {
+            "id": "johnson-1921-history",
+            "loc": "p. 143",
+            "via": null
+          }
+        ],
+        "source_id": "johnson-1921-history",
+        "via_source_id": null,
+        "localizacao": "p. 143",
+        "parafrase": "Segundo a mitologia de Ifẹ̀ que Johnson resume, Oduduwa era filho de Olodumare, que o mandou descer do céu para fazer a terra.",
+        "nota": null,
+        "registro": "odudua-006",
+        "status": "fichado"
+      },
+      {
+        "valor": "ora divindade independente e coeva de Olorun, ora subordinada a ele, como Obatala",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "jock-2020-oduduwa",
+            "loc": "p. 6",
+            "via": null
+          }
+        ],
+        "source_id": "jock-2020-oduduwa",
+        "via_source_id": null,
+        "localizacao": "p. 6",
+        "parafrase": "Jock registra que a autonomia de Oduduwa é discutida: certas tradições o fazem existir ao lado de Olorun, sem ter sido criado (seguindo Ellis), e outras põem Obatala e Oduduwa como servos ou inferiores de Olorun (seguindo Omolewa). Nos relatos de criação que resume, Olorun manda Oduduwa à terra com terra, galo e semente de dendê, e Ilê-Ifẹ̀ vira o centro do mundo.",
+        "nota": null,
+        "registro": "odudua-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "mensageiro do Ser Supremo que assumiu a tarefa de Orixanlá na criação e se tornou o primeiro rei-deus de Ilê-Ifẹ̀",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "ogungbemi-2021-olodumare",
+            "loc": "pp. 50–51",
+            "via": null
+          }
+        ],
+        "source_id": "ogungbemi-2021-olodumare",
+        "via_source_id": null,
+        "localizacao": "pp. 50–51",
+        "parafrase": "Ogungbemi, citando Kola Abimbola, descreve uma tradição em que Oduduwa, irmão mais novo de Obatala, toma os objetos que Olodumare dera a este, adormecido pelo vinho de palma, cria a terra firme e depois reina em Ifẹ̀. O autor vê na passagem do deus a rei a base da monarquia iorubá, que espelharia a ordem de Olodumare.",
+        "nota": null,
+        "registro": "odudua-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "a terra, metade inferior do casal primordial com Obatalá, o céu; representada na Bahia por duas cabaças ou tigela branca tampada",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (Bahia), observação de Nina Rodrigues no fim do séc. XIX, retomada por Bastide",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 96, 98",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 96, 98",
+        "parafrase": "Bastide lembra que, para os iorubás, o primeiro casal divino une o céu (Obatalá) à terra (Odudua), e cita Nina Rodrigues, que reconheceu em Salvador a representação descrita por Ellis — duas meias cabaças, ou uma tigela branca com tampa, figurando céu e terra que se tocam no horizonte.",
+        "nota": null,
+        "registro": "odudua-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "auxiliar de Oxalá na criação da terra (Bahia)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 48",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 48",
+        "parafrase": "No mito que Bastide associa à iniciação, Oxalá recebe de Olorum a tarefa de criar a terra e o mar e só a completa com o auxílio de Odudua.",
+        "nota": null,
+        "registro": "odudua-012",
+        "status": "fichado"
+      },
+      {
+        "valor": "o sexo de Obatalá e de Odudua muda conforme a região: no litoral ela é mulher; em Ifẹ̀, homem",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "litoral iorubá × Ifẹ̀, segundo Dennett e Frobenius (via Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 290",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 290",
+        "parafrase": "Bastide resume dados africanos de Dennett e Frobenius segundo os quais as duas divindades primordiais trocam de sexo de uma região para outra — no litoral Obatalá é masculino e Odudua feminina, e em Ifẹ̀ o contrário — e vê nessa ambiguidade o rastro de um Oxalá andrógino.",
+        "nota": "Bastide cita Dennett, pp. 77 e 79, e Frobenius, Mythologie de l'Atlantide, pp. 170–171.",
+        "registro": "odudua-014",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "dominios",
+      "funcoes",
+      "elementos",
+      "cores",
+      "dia_semana",
+      "saudacao",
+      "simbolos",
+      "alimentos",
+      "animais",
+      "qualidades",
+      "equivalencias",
+      "sincretismo",
+      "itans",
+      "tabus",
+      "festas",
+      "iconografia"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

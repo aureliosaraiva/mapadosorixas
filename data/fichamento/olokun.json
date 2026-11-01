@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "orixa": "olokun",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 5,
+    "por_status": {
+      "fichado": 5,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "olokun-001",
+      "orixa": "olokun",
+      "atributo": "dominios",
+      "valor": "o mar; deus dos pescadores e navegantes, pouco cultuado no interior",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "pp. 70–71",
+      "parafrase": "Ellis traduz Olokun por dono do mar e o descreve como deus de figura humana, escuro e de cabelos longos, que mora num palácio sob as águas servido por espíritos marinhos; é o principal deus de quem vive do mar, enquanto os povos do interior quase não o cultuam. Mar agitado e naufrágios seriam sinais de sua cólera.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "olokun-002",
+      "orixa": "olokun",
+      "atributo": "parentesco",
+      "valor": "nascido do corpo de Yemaja; casado com Olokun-su (Elusu) e com a irmã Olosa, deusa da laguna",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Lagos e laguna de Lagos, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "pp. 45, 70–72",
+      "parafrase": "Na genealogia que Ellis colheu, Olokun está entre os deuses que saíram do corpo de Yemaja. Tem por mulher Olokun-su, deusa local da barra de Lagos, e por esposa principal Olosa, deusa da laguna e sua irmã.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Diverge de Johnson (Olokun deusa, mulher de Oduduwa: odudua-007). Arestas propostas no relatório lote-C §8.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "olokun-003",
+      "orixa": "olokun",
+      "atributo": "hierarquia",
+      "valor": "entre os orixás das águas, Olokun (o mar) vem em primeiro lugar e Olosa (a laguna) em segundo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Lagos e costa iorubá, c. 1900–1910",
+      "source_id": "dennett-1910-nigerian",
+      "via_source_id": null,
+      "localizacao": "pp. 110–111",
+      "parafrase": "Dennett chama Olokun de grande orixá do mar dos iorubás e registra a ordem em que se punham os orixás aquáticos: o mar primeiro, a laguna depois.",
+      "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho. Dennett menciona também a versão bini (Benim) de Olokun, deixada fora do recorte (relatório lote-C §7).",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/nigerianstudieso00dennuoft"
+      ]
+    },
+    {
+      "id": "olokun-004",
+      "orixa": "olokun",
+      "atributo": "parentesco",
+      "valor": "filho de Yemoja, que leva aos filhos Olokun e Olosa as oferendas dos pescadores",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "pescadores da costa iorubá, c. 1900–1910",
+      "source_id": "dennett-1910-nigerian",
+      "via_source_id": null,
+      "localizacao": "p. 113",
+      "parafrase": "Dennett conta que o pescador bem-sucedido agradece a Yemaja, mãe de Olokun e de Olosa, deixando no rio uma panela de milho cozido com noz-de-cola; ela se encarregaria de entregar a oferenda aos filhos.",
+      "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/nigerianstudieso00dennuoft"
+      ]
+    },
+    {
+      "id": "olokun-005",
+      "orixa": "olokun",
+      "atributo": "dominios",
+      "valor": "o mar, recebido na partilha do universo feita pelo 'Pai Eterno' (mito cubano)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Cuba (mito registrado por Lydia Cabrera)",
+      "source_id": "cabrera-1954-monte",
+      "via_source_id": "bastide-1958-candomble",
+      "localizacao": "ed. pt 1961, pp. 189–190",
+      "parafrase": "No mito cubano que Bastide traduz de Cabrera, quando o Pai Eterno divide o universo entre os filhos, o mar fica com Olokun.",
+      "nota": "Lido em Bastide, que cita Cabrera, El Monte, p. 100.",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "_meta": {
+    "orixa": "egungun",
+    "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
+    "total": 14,
+    "por_status": {
+      "fichado": 14,
+      "pre_fichamento": 0,
+      "revisado": 0
+    }
+  },
+  "registros": [
+    {
+      "id": "egungun-001",
+      "orixa": "egungun",
+      "atributo": "nomes",
+      "valor": "egungun: 'osso', 'esqueleto' (etimologia de Ellis)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 107",
+      "parafrase": "Ellis afirma que egungun significa osso e, daí, esqueleto, e que o personagem mascarado passa por um morto que voltou à vida.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Diverge da etimologia de Fámúlẹ̀ (egungun-008).",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "egungun-002",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "morto que volta da terra dos mortos para vigiar os vivos; na origem, encarnação dos mortos ligada ao culto aos manes",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "pp. 107–108",
+      "parafrase": "Para Ellis, o egungun vem da terra dos mortos para ver o que fazem os vivos e punir condutas, papel que o autor, com desdém, reduz a um espantalho social; admite, porém, que originalmente encarnava os mortos e fazia parte de um culto aos antepassados.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. A leitura de 'controle social' é do observador colonial.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "egungun-003",
+      "orixa": "egungun",
+      "atributo": "festas",
+      "valor": "festa anual em junho, de sete dias, com lamentos pelos mortos recentes",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 108",
+      "parafrase": "Ellis registra uma festa anual do egungun em junho, durante uma semana, em que se choram os que morreram nos últimos anos, e a compara a um dia de finados.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "egungun-004",
+      "orixa": "egungun",
+      "atributo": "historia_culto",
+      "valor": "mantido em Freetown (Serra Leoa) por descendentes cristãos de iorubás libertados de navios negreiros",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Freetown (Serra Leoa), séc. XIX",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 109",
+      "parafrase": "Ellis nota que muitos africanos desembarcados em Serra Leoa de navios negreiros capturados eram iorubás e que seus descendentes, já cristãos, conservaram o egungun nas ruas de Freetown, com traje mais simples.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Não há tradição de Serra Leoa em data/tradicoes.json; ioruba_nigeria indica a origem do culto.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "egungun-005",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "Egun e Egungun são orixás que representam os espíritos dos antepassados; o egun se apresenta como o pai morto vindo do céu",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Ilaro e Egbado, c. 1900–1910",
+      "source_id": "dennett-1910-nigerian",
+      "via_source_id": null,
+      "localizacao": "pp. 28–29, 58–59",
+      "parafrase": "Dennett inclui Egun e Egungun, com Oro e outros, entre os orixás dos espíritos ancestrais. Em Ilaro, um egun lhe disse ser o pai falecido chegado do céu, e o autor conclui que a veneração dos antepassados é costume antigo entre os iorubás.",
+      "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/nigerianstudieso00dennuoft"
+      ]
+    },
+    {
+      "id": "egungun-006",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "na festa de Egungun, mascarados personificam parentes mortos, sinal da crença numa vida futura",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+      "source_id": "johnson-1921-history",
+      "via_source_id": null,
+      "localizacao": "p. 26",
+      "parafrase": "Johnson liga o culto aos mortos à crença num estado futuro e cita a festa de Egungun, em que indivíduos mascarados representam parentes falecidos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/historyofyorubas00john"
+      ]
+    },
+    {
+      "id": "egungun-007",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "manifestação física dos espíritos ancestrais; o morto de bom caráter passa ao domínio dos orixás",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "comunidades de origem Ọ̀yọ́ (Òkèigbó e outras, Nigéria)",
+      "source_id": "famule-2021-ayan",
+      "via_source_id": null,
+      "localizacao": "pp. 12–13",
+      "parafrase": "Fámúlẹ̀ define o egúngún como a presença visível do espírito ancestral, tratado por 'pai'. A ideia se apoia no conceito de ìwà: quem viveu com bom caráter continua a existir e a agir após a morte, e os filhos dizem que o pai ou a mãe virou orixá, a ser cultuado de joelhos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "egungun-008",
+      "orixa": "egungun",
+      "atributo": "nomes",
+      "valor": "egúngún: e+gún+gún, 'o que traz estabilidade, união e paz' (etimologia de Fámúlẹ̀)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "comunidades de origem Ọ̀yọ́ (Nigéria)",
+      "source_id": "famule-2021-ayan",
+      "via_source_id": null,
+      "localizacao": "p. 14",
+      "parafrase": "Fámúlẹ̀ decompõe a palavra em três morfemas e a interpreta como aquilo que promove estabilidade e harmonia, sentido que os devotos ligam a um odù de Ifá e à expectativa de bem-estar da comunidade no festival anual.",
+      "nota": "Diverge da etimologia 'osso, esqueleto' de Ellis (egungun-001).",
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "egungun-009",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "dois tipos: mascarados de entretenimento, que não são ancestrais, e o egúngún ancestral de origem Ọ̀yọ́, chamado 'habitante do céu' (Ará-ọ̀run)",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Ọ̀yọ́ e cidades fundadas por migrantes de Ọ̀yọ́ (Ìgànná, Ìsẹ́yìn, Ìbàdàn, Òkèigbó)",
+      "source_id": "famule-2021-ayan",
+      "via_source_id": null,
+      "localizacao": "pp. 15–16",
+      "parafrase": "O autor separa os mascarados itinerantes que vivem de apresentações, fora de seu estudo, dos egúngún tidos por verdadeiros, de origem Ọ̀yọ́, ligados ao culto dos antepassados e chamados de habitantes do céu ou de pais.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": []
+    },
+    {
+      "id": "egungun-010",
+      "orixa": "egungun",
+      "atributo": "historia_culto",
+      "valor": "na Bahia, o culto pertence à Sociedade dos Egun, sociedade secreta com centro na ilha de Itaparica",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (ilha de Itaparica), pesquisa de 1944–1955",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 167, 169, 172–173",
+      "parafrase": "Bastide lembra que por muito tempo se julgou extinto no Brasil o culto dos antepassados, o que Nina Rodrigues já desmentia. Na Bahia ele cabe à Sociedade dos Egun, secreta como na África, cuja sede fica em Itaparica; as grandes evocações se fazem lá.",
+      "nota": "Detalhes rituais e cargos da sociedade, que Bastide descreve em parte, não foram fichados (decisão para o conselho; relatório lote-C §7).",
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "egungun-011",
+      "orixa": "egungun",
+      "atributo": "festas",
+      "valor": "grande festa dos Egun em 2 de novembro, Dia de Finados, por sincretismo com o catolicismo",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia, pesquisa de 1944–1955",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 170–171",
+      "parafrase": "Bastide informa que na Bahia a principal festa dos Egun, cerimônia privada, cai no dia de finados, coincidência que atribui ao sincretismo católico; a bênção dos campos pelos antepassados, comum nas festas agrícolas iorubás, não teria sobrevivido.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "egungun-012",
+      "orixa": "egungun",
+      "atributo": "historia_culto",
+      "valor": "aparição de Egun só nos ritos fúnebres das casas nagôs; Ijexá, Jeje e Angola não a praticam",
+      "tradicoes": [
+        "candomble_ketu",
+        "candomble_ijexa",
+        "candomble_jeje",
+        "candomble_angola"
+      ],
+      "casa_ou_regiao": "Bahia, pesquisa de 1944–1955",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 171–172",
+      "parafrase": "Segundo Bastide, a evocação dos mortos no axexê varia por nação: aparece nas casas descendentes de nagôs, como o Opô Afonjá; os Ijexá preferem afastar logo os mortos; os terreiros jeje e os bantos não a fazem, até porque nas regiões de origem não havia sociedades de Egungun.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "egungun-013",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "os mortos são uma das quatro partes do cosmos, ao lado de orixás, pessoas e natureza; os Egun são 'aparições' e não incorporam",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "candomblés nagôs de Salvador (Bahia), pesquisa de 1944–1955",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, pp. 138, 181–183",
+      "parafrase": "Bastide associa quatro sacerdócios a quatro partes do cosmos — orixás, pessoas, natureza e mortos —, cabendo aos ogê ou babaogê o culto dos Egun. Ao contrário dos orixás, os Egun não descem em transe: na Bahia se diz que são aparições, e os orixás, manifestações; o rosto do morto fica oculto sob as vestes.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "egungun-014",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "os Egun evocados em Itaparica são babá (pais), antepassados de linhagens já extintas, com nomes nagôs",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Bahia (ilha de Itaparica), pesquisa de 1944–1955",
+      "source_id": "bastide-1958-candomble",
+      "via_source_id": null,
+      "localizacao": "ed. pt 1961, p. 174",
+      "parafrase": "Bastide, apoiado em Frikel, informa que os antepassados que aparecem em Itaparica levam o título de babá, pai, e nomes nagôs, representando linhagens já desaparecidas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/aie.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 3,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "aie",
+  "rotulo": "Aiê",
+  "atributos": {
+    "nomes": [
+      {
+        "valor": "aiye: 'o mundo', abrangendo a terra e os céus (glosa de Farrow ao título Alaiye)",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Abeokuta e região egbá, observação missionária no início do séc. XX",
+        "sources": [
+          {
+            "id": "farrow-1926-faith",
+            "loc": "p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "farrow-1926-faith",
+        "via_source_id": null,
+        "localizacao": "p. 27",
+        "parafrase": "Ao distinguir Alaye, 'dono da vida', de Alaiye, 'dono do mundo', Farrow explica que aiye designa o mundo ou o universo, incluindo tanto a terra quanto os céus.",
+        "nota": "Documento histórico (confiabilidade C): tese de missionário anglicano que declara querer justificar a missão e defende um monoteísmo primitivo; polemiza com Ellis e Dennett. Não sustenta o atributo sozinha. Diverge das fontes brasileiras, que opõem Aiyê (mundo físico) a Orum (aie-001, aie-002).",
+        "registro": "aie-003",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "Aiyê: mundo físico, onde se nasce, vive e morre, em contraponto ao Orum",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "comunidades de terreiro de nação Ketu (pesquisa no Rio de Janeiro)",
+        "sources": [
+          {
+            "id": "carvalho-2019-iyami",
+            "loc": "p. 215",
+            "via": null
+          }
+        ],
+        "source_id": "carvalho-2019-iyami",
+        "via_source_id": null,
+        "localizacao": "p. 215",
+        "parafrase": "No mesmo trecho sobre a cosmovisão Ketu dos terreiros, o Aiyê aparece como o plano físico da existência humana, do nascimento à morte, cuja harmonia com o Orum se sustenta pelos ritos.",
+        "nota": "As autoras apoiam-se em Verger 1996 e Beniste 1997.",
+        "registro": "aie-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ayê: mundo material para o qual a pessoa vem do Orum, regida por um orixá",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "zacharias-2010-olori",
+            "loc": "p. 158",
+            "via": null
+          }
+        ],
+        "source_id": "zacharias-2010-olori",
+        "via_source_id": null,
+        "localizacao": "p. 158",
+        "parafrase": "Para Zacharias, o Ayê é o mundo material a que cada pessoa chega vinda do Orum, constituída de elementos de um orixá que a tutela pela vida inteira.",
+        "nota": "A fonte fala em 'tradição de Orixá' e candomblé, sem nação; candomble_ketu é aproximação.",
+        "registro": "aie-002",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "origem",
+      "dominios",
+      "funcoes",
+      "elementos",
+      "cores",
+      "dia_semana",
+      "saudacao",
+      "simbolos",
+      "alimentos",
+      "animais",
+      "qualidades",
+      "parentesco",
+      "equivalencias",
+      "sincretismo",
+      "itans",
+      "tabus",
+      "festas",
+      "historia_culto",
+      "iconografia",
+      "interpretacao_academica"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}
