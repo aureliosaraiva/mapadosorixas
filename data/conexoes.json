@@ -1224,6 +1224,27 @@
           "nota": "Ver exu-092 sobre o lugar de Legba na Casa das Minas e exu-093 sobre a casa paulista.",
           "registro": "exu-091",
           "status": "fichado"
+        },
+        {
+          "valor": "Legbá, vodum jeje que o autor chama de \"o Exu dos iorubanos\"; na Casa das Minas não tem culto organizado",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (Querebentã de Zomadônu)",
+          "sources": [
+            {
+              "id": "ferreira-2017-legba",
+              "loc": "p. 9",
+              "via": null
+            }
+          ],
+          "source_id": "ferreira-2017-legba",
+          "via_source_id": null,
+          "localizacao": "p. 9",
+          "parafrase": "O artigo trata de Legbá, apresentado como o correspondente jeje do Exu iorubá, que chegou à Casa das Minas mas não ganhou culto organizado como os demais voduns. Nos terreiros de Mina, diz o autor, pouco se fala de Exu, embora todos saibam que existe.",
+          "nota": null,
+          "registro": "exu-100",
+          "status": "fichado"
         }
       ]
     },

@@ -348,6 +348,17 @@
           "via": "prandi-2005-pegadas-voduns",
           "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
           "registro": "exu-091"
+        },
+        {
+          "valor": "Legbá, vodum jeje que o autor chama de \"o Exu dos iorubanos\"; na Casa das Minas não tem culto organizado",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Casa das Minas (Querebentã de Zomadônu)",
+          "fonte": "ferreira-2017-legba",
+          "via": null,
+          "localizacao": "p. 9",
+          "registro": "exu-100"
         }
       ]
     },

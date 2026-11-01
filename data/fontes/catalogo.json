@@ -2685,7 +2685,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Doutorado em antropologia social (EHESS). Acesso aberto no HAL. Campo em São Paulo e Salvador (até 1993). Parte III (pp. 225–291) lida em 2026-10-31: perfis de orixás com cores, datas, emblemas e plantas, segundo pais/mães de santo. Paginação: número impresso = página do PDF − 1. | Glossário (pp. 371–380) e pp. 256, 258 (uso de itan) lidos em 2026-10-31.",
+      "observacoes": "Doutorado em antropologia social (EHESS). Acesso aberto no HAL. Campo em São Paulo e Salvador (até 1993). Parte III (pp. 225–291) lida em 2026-10-31: perfis de orixás com cores, datas, emblemas e plantas, segundo pais/mães de santo. Paginação: número impresso = página do PDF − 1. | Glossário (pp. 371–380) e pp. 256, 258 (uso de itan) lidos em 2026-10-31. | compl01 (2026-11-01): Parte III relida no texto integral do acervo (pp. 225–291): Oxalá, Oxum, Iansã, Omulu, Nanã, Ifá, complementos de Iemanjá, Xangô e Ogum.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
@@ -3737,7 +3737,7 @@
         "tambor_de_mina"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); Legba na Mina e no Terecô. | Leitura bloqueada em 2026-11-01: periodicos.unb.br responde 403 e a cópia do CORE pede desafio anti-bot (PENDENCIAS).",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); Legba na Mina e no Terecô. | Leitura bloqueada em 2026-11-01: periodicos.unb.br responde 403 e a cópia do CORE pede desafio anti-bot (PENDENCIAS). | compl01 (2026-11-01): lido integralmente pela cópia do CORE baixada pelo baixar_refs.py (pp. 7–19; impressa = PDF + 6).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.26512/revistacalundu.v1i1.7621",
@@ -4386,7 +4386,7 @@
         "xango_pernambuco"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife. | Fichamento-06 (2026-11-01): pp. 163–169 conferidas no PDF integral do HAL (hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf). Página impressa = PDF − 1 (a trad02 anotou impressa = PDF; nos registros vale a impressa). Fichamento-07: as páginas de Halloy citadas pela trad02 em data/tradicoes.json e data/glossario.json eram do PDF e foram convertidas para a impressa (−1).",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife. | Fichamento-06 (2026-11-01): pp. 163–169 conferidas no PDF integral do HAL (hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf). Página impressa = PDF − 1 (a trad02 anotou impressa = PDF; nos registros vale a impressa). Fichamento-07: as páginas de Halloy citadas pela trad02 em data/tradicoes.json e data/glossario.json eram do PDF e foram convertidas para a impressa (−1). | compl01 (2026-11-01): pp. 163–186, 276–277 e 322–326 lidas no texto integral do acervo (Nanã, Obaluaiê, Oiá, Oxum, Orixalá, Orunmilá; calendário e disposição do peji).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://hal.science/tel-04260456v1",
@@ -9722,7 +9722,7 @@
         "lucumi"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL). | Fichamento-06: pp. 7, 8 e 11 conferidas no PDF integral (theses.hal.science/tel-03191332). Impressa = PDF − 11.",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL). | Fichamento-06: pp. 7, 8 e 11 conferidas no PDF integral (theses.hal.science/tel-03191332). Impressa = PDF − 11. | compl01 (2026-11-01): pp. 8, 41, 56–58, 74, 124–125, 172–178 e 210–212 lidas no texto integral do acervo (festa de Elegguá, p. 57). Nos registros, página impressa (impressa = PDF − 11).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",

@@ -376,6 +376,7 @@
     "exu-098": [{"tipo": "sincretismo", "destino": "santo:sao-pedro"}],
     "omolu-045": [{"tipo": "sincretismo", "destino": "santo:sao-lazaro"}],
     "xango-056": [{"tipo": "sincretismo", "destino": "santo:santa-barbara"}],
-    "orunmila-013": [{"tipo": "sincretismo", "destino": "santo:sao-francisco"}]
+    "orunmila-013": [{"tipo": "sincretismo", "destino": "santo:sao-francisco"}],
+    "exu-100": [{"tipo": "equivalencia", "destino": "vodum:legba"}]
   }
 }

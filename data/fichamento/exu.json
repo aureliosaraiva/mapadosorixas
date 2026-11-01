@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 99,
+    "total": 103,
     "por_status": {
-      "fichado": 99,
+      "fichado": 103,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1937,6 +1937,82 @@
       "status": "fichado",
       "evidencias": [
         "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "exu-100",
+      "orixa": "exu",
+      "atributo": "equivalencias",
+      "valor": "Legbá, vodum jeje que o autor chama de \"o Exu dos iorubanos\"; na Casa das Minas não tem culto organizado",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (Querebentã de Zomadônu)",
+      "source_id": "ferreira-2017-legba",
+      "via_source_id": null,
+      "localizacao": "p. 9",
+      "parafrase": "O artigo trata de Legbá, apresentado como o correspondente jeje do Exu iorubá, que chegou à Casa das Minas mas não ganhou culto organizado como os demais voduns. Nos terreiros de Mina, diz o autor, pouco se fala de Exu, embora todos saibam que existe.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/7621"
+      ]
+    },
+    {
+      "id": "exu-101",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "na Casa das Minas, Legbá não pertence a nenhuma família de voduns, não é recebido por vodunsi e seu nome quase não se pronuncia; a função de mensageiro cabe aos toquéns",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (Querebentã de Zomadônu)",
+      "source_id": "ferreira-2017-legba",
+      "via_source_id": null,
+      "localizacao": "pp. 12–13",
+      "parafrase": "Nenhum dos grupos familiares de voduns da casa inclui Legbá e nenhuma vodunsi o recebe. O papel de comunicação fica com os toquéns, voduns jovens de cada família, como Averequete e os gêmeos Toçá e Tocé. Pelo que as filhas da casa relataram a S. Ferretti, Zomadônu não quis Legbá lá, associado a guerra e confusão, e o culto dele é proibido; uma hipótese registrada é que a casa, fundada por pessoas da família real vendidas pelo rei Adandozan, que tinha Legbá como grande deus, o tenha excluído por isso.",
+      "nota": "O autor apoia-se em S. Ferretti, Querebentã de Zomadônu (ed. 2009, pp. 124–125; no catálogo como ferretti-1985-querebenta, sem exemplar lido) e em M. A. P. Barreto (1977), fora do catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/7621"
+      ]
+    },
+    {
+      "id": "exu-102",
+      "orixa": "exu",
+      "atributo": "interpretacao_academica",
+      "valor": "hipótese do autor: sem lugar na Casa das Minas, Legbá teria se refugiado na mata e virado o caboclo Légua Boji Buá do Terecô de Codó",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís e Codó (MA): Casa das Minas e terreiros de Terecô",
+      "source_id": "ferreira-2017-legba",
+      "via_source_id": null,
+      "localizacao": "pp. 14–18",
+      "parafrase": "Ferreira Saraiva levanta a hipótese de que o Legbá silenciado na Casa das Minas reaparece no interior do Maranhão como Légua Boji Buá, chefe da \"linha da mata\" no Terecô de Codó: entidade brincalhona, vingativa, de dois lados (bem e mal), que se transforma e domina os caminhos da mata. Ele cita M. Ferretti, para quem esses traços levaram a identificar Légua com Légba, e conclui que os dois são distintos mas muito parecidos, deixando a identidade em aberto.",
+      "nota": "O Terecô (Tambor da Mata) não está em data/tradicoes.json; a tradição do registro é a da Casa das Minas, ponto de partida da hipótese (ver PENDENCIAS). M. Ferretti 2012 e Centriny 2015, citados, estão fora do catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/7621"
+      ]
+    },
+    {
+      "id": "exu-103",
+      "orixa": "exu",
+      "atributo": "hierarquia",
+      "valor": "no Daomé, segundo Aguessy, Legbá é o intermediário sem o qual nenhum vodum se comunica com o Criador",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "casa_ou_regiao": "antigo Daomé (segundo Aguessy 1970, citado)",
+      "source_id": "ferreira-2017-legba",
+      "via_source_id": null,
+      "localizacao": "p. 12",
+      "parafrase": "Resumindo o filósofo H. Aguessy (1970), o autor diz que no antigo Daomé Legbá participa da criação e a sustenta, sem se reduzir ao bem ou ao mal, e ocupa posição complexa no panteão: é o mensageiro entre os voduns e os humanos e controla as vias de comunicação entre o Criador e cada vodum.",
+      "nota": "Aguessy 1970 (Afro-Ásia 10–11) é citado pelo autor e não está no catálogo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/7621"
       ]
     }
   ]
