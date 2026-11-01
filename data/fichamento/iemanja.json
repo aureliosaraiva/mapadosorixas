@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 59,
+    "total": 60,
     "por_status": {
-      "fichado": 55,
+      "fichado": 56,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1148,6 +1148,26 @@
       "status": "fichado",
       "evidencias": [
         "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-060",
+      "orixa": "iemanja",
+      "atributo": "itans",
+      "valor": "Yemaja, filha de Obatala e Odudua, casa-se com o irmão Aganju; violentada pelo filho Orungan, cai, e de seu corpo saem lagoa e 15 divindades; no lugar surge Ifẹ̀",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "pp. 43–45",
+      "parafrase": "Ellis narra que Odudua e Obatala tiveram Aganju e Yemaja, que se casaram e tiveram Orungan. O filho se apaixona pela mãe e, na ausência do pai, a violenta; ela foge recusando suas propostas e, quando ele está para alcançá-la, cai de costas. Seu corpo incha, dos seios brotam dois cursos d'água que formam uma lagoa e do ventre aberto saem Dada, Shango, Ogun, Olokun, Olosa, Oya, Oshun, Oba, Orisha Oko, Oshosi, Oke, Aje Shaluga, Shankpanna, o Sol e a Lua. No local se ergue Ifẹ̀, cidade santa dos iorubás.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Ellis registra em nota que, para alguns, a ordem de nascimento seria outra, começando por Olokun e Olosa. Versão de 2ª mão do mesmo mito em iemanja-052 (via Pitta).",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
       ]
     }
   ]

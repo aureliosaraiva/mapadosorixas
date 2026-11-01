@@ -8,7 +8,7 @@
       "'arestas' é gerado: arestas de data/conexoes.json sustentadas por registros do itã.",
       "Só versões 'fichado'/'revisado' aparecem no site e no download."
     ],
-    "total": 17
+    "total": 26
   },
   "itans": [
     {
@@ -100,7 +100,16 @@
       "entidades": [
         "iemanja",
         "odudua",
-        "aganju"
+        "aganju",
+        "olokun",
+        "xango",
+        "ogum",
+        "iansa",
+        "oxum",
+        "oba",
+        "orixa_oko",
+        "oxossi",
+        "aje_xaluga"
       ],
       "versoes": [
         {
@@ -122,10 +131,29 @@
           ],
           "nota": "Mito de 2ª mão (Ellis 1894, autor de olhar colonial, via Pitta). Pitta não diz se a versão foi contada pelos entrevistados.",
           "status": "fichado"
+        },
+        {
+          "registro": "iemanja-060",
+          "valor": "Yemaja, filha de Obatala e Odudua, casa-se com o irmão Aganju; violentada pelo filho Orungan, cai, e de seu corpo saem lagoa e 15 divindades; no lugar surge Ifẹ̀",
+          "resumo": "Ellis narra que Odudua e Obatala tiveram Aganju e Yemaja, que se casaram e tiveram Orungan. O filho se apaixona pela mãe e, na ausência do pai, a violenta; ela foge recusando suas propostas e, quando ele está para alcançá-la, cai de costas. Seu corpo incha, dos seios brotam dois cursos d'água que formam uma lagoa e do ventre aberto saem Dada, Shango, Ogun, Olokun, Olosa, Oya, Oshun, Oba, Orisha Oko, Oshosi, Oke, Aje Shaluga, Shankpanna, o Sol e a Lua. No local se ergue Ifẹ̀, cidade santa dos iorubás.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "odu": null,
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "pp. 43–45",
+              "via": null
+            }
+          ],
+          "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Ellis registra em nota que, para alguns, a ordem de nascimento seria outra, começando por Olokun e Olosa. Versão de 2ª mão do mesmo mito em iemanja-052 (via Pitta).",
+          "status": "fichado"
         }
       ],
       "arestas": [],
-      "nota_curadoria": "Entidades listadas: só as nomeadas na versão que têm identificador na lista-mestra (Obatalá e Orungã também são nomeados)."
+      "nota_curadoria": "Mesmo mito em duas leituras: a versão de Ellis (iemanja-060), lida no original, e a de Pitta, que a reproduz a partir de Ellis e a discute para o Recife (iemanja-052). Divindades listadas em 'entidades' são as que Ellis nomeia como nascidas de Yemaja (Oya → Iansã, Shango → Xangô etc., como grafias); Obatala, Orungan, Dada, Olosa, Oke, Shankpanna, o Sol e a Lua não foram ligados a entidades da lista-mestra."
     },
     {
       "id": "ita-004",
@@ -419,11 +447,12 @@
     },
     {
       "id": "ita-012",
-      "titulo": "Oxalá, o vinho de palma e a criação do mundo",
+      "titulo": "A criação da terra firme: Oxalá, Odudua e o vinho de palma",
       "entidades": [
         "oxala",
         "olodumare",
-        "odudua"
+        "odudua",
+        "ogum"
       ],
       "versoes": [
         {
@@ -445,10 +474,67 @@
           ],
           "nota": "O nome do casal (Okikischi e Iffé) vem da nota 47, que remete a Frobenius.",
           "status": "fichado"
+        },
+        {
+          "registro": "odudua-017",
+          "valor": "Olorun manda Oduduwa à terra coberta de água com terra, um galo e um coquinho de dendê; o galo espalha a terra e o dendezeiro cresce com 16 ramos",
+          "resumo": "Na versão que Jock apresenta como o mito de Oduduwa criador, a superfície da terra era quase só água quando Olorun fez Oduduwa descer levando terra, um galo e um coquinho de dendê. Oduduwa lança a terra sobre a água, o galo a espalha e se forma a primeira porção de chão; o coquinho, plantado, vira uma palmeira de 16 ramos laterais, que representariam os 16 reinos tradicionais iorubás.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradição de Ilê-Ifẹ̀ resumida por Jock",
+          "odu": null,
+          "sources": [
+            {
+              "id": "jock-2020-oduduwa",
+              "loc": "p. 6",
+              "via": null
+            }
+          ],
+          "nota": "Jock remete a Johnson 1921 (p. 4) e a Ojo 1999 para os 16 ramos.",
+          "status": "fichado"
+        },
+        {
+          "registro": "odudua-018",
+          "valor": "Obatala, chefe dos 16 mensageiros (Oye) enviados por Olorun, embriaga-se com vinho de palma no caminho, e Oduduwa conduz os demais e faz a terra em Oke Oramfe",
+          "resumo": "Numa segunda versão, Olorun decide formar terra cultivável no mundo alagado e envia Obatala, Oduduwa e mais 16 seres imortais, os Oye, sob o comando de Obatala, com pedaços de ferro, um galo e um pano branco que embrulhava um torrão de terra. Como Obatala se embebeda de vinho de palma no caminho, Oduduwa assume a liderança; o grupo desce em Oke Oramfe, em Ilê-Ifẹ̀, espalha a terra e o galo a distribui, deixando partes ainda cobertas de água.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradição de Ilê-Ifẹ̀ resumida por Jock (via Akintoye e Ayandele)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "jock-2020-oduduwa",
+              "loc": "p. 6",
+              "via": null
+            }
+          ],
+          "nota": "Jock cita Akintoye 2004 e Ayandele 2004 (fora do catálogo).",
+          "status": "fichado"
+        },
+        {
+          "registro": "odudua-019",
+          "valor": "Olodumare entrega a Obatala terra do céu, uma galinha e um camaleão; Obatala dorme embriagado no alto do monte, e Oduduwa, seu irmão mais novo, cria a terra firme em Ifẹ̀",
+          "resumo": "Pela narrativa que Ogungbemi transcreve de Kola Abimbola, Olodumare quis terra seca e mandou 400 orixás, confiando a Obatala um pacote de pó celeste, uma galinha de cinco dedos e um camaleão. Eles descem a Oke-Ara por uma corrente de ferro feita por Ogum. Lá Obatala bebe vinho de palma até dormir; Oduduwa toma os objetos, joga o pó sobre a água, solta a galinha, que cisca e faz a terra crescer, e manda o camaleão testar o chão. O lugar recebe o nome de Ifẹ̀, ligado a 'expandir', e Oduduwa vira seu rei.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "versão de Kola Abimbola citada por Ogungbemi",
+          "odu": null,
+          "sources": [
+            {
+              "id": "ogungbemi-2021-olodumare",
+              "loc": "pp. 50–51",
+              "via": null
+            }
+          ],
+          "nota": "Kola Abimbola, Yoruba Culture (2006), está fora do catálogo. Ver também odudua-010 (mesma passagem, como hierarquia).",
+          "status": "fichado"
         }
       ],
       "arestas": [],
-      "nota_curadoria": "Resumo de Bastide, que remete a Frobenius; Olorum e Odudua são nomeados na versão. Outras versões do mito da criação dependem de fontes ainda não lidas (Verger, Prandi)."
+      "nota_curadoria": "Versões da criação da terra firme lado a lado: Bahia segundo Bastide (oxala-031), e três versões de Ilê-Ifẹ̀ (Jock, duas; Ogungbemi via K. Abimbola). Numa delas (odudua-017) Obatala não aparece e o vinho de palma não entra. Obatala/Orisa-nla das fontes nigerianas não foi ligado à entidade 'oxala' sem fonte; a entidade 'oxala' vem da versão de Bastide."
     },
     {
       "id": "ita-013",
@@ -539,10 +625,30 @@
           ],
           "nota": "Bastide usa o mito para mostrar a dança como encenação de mitos.",
           "status": "fichado"
+        },
+        {
+          "registro": "oba-003",
+          "valor": "enganada por Oxum, cortou a orelha para agradar Xangô e foi repudiada",
+          "resumo": "Xangô tem três mulheres e Obá é a mais esquecida. Ela pergunta a Oxum o segredo do amor do marido; Oxum diz, mentindo, que lhe serviu um prato com um pedaço da própria orelha. Obá faz o mesmo, Xangô se enoja ao ver a carne e a manda embora, e Oxum sai vencedora.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 247",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
         }
       ],
       "arestas": [],
-      "nota_curadoria": "Bastide liga o mito à dança: Obá cobre a orelha e investe contra as filhas de Oxum em transe."
+      "nota_curadoria": "Mesma narrativa em Bastide (Bahia, oxum-028) e em Chiousse (terreiros de Salvador e São Paulo, oba-003)."
     },
     {
       "id": "ita-016",
@@ -582,7 +688,8 @@
       "entidades": [
         "iansa",
         "ossaim",
-        "xango"
+        "xango",
+        "olodumare"
       ],
       "versoes": [
         {
@@ -603,10 +710,339 @@
           ],
           "nota": "Bastide cita L. Cabrera, El Monte, p. 100 (fonte fora do catálogo).",
           "status": "fichado"
+        },
+        {
+          "registro": "ossaim-018",
+          "valor": "o vento de Iansã espalhou as folhas que Ossãe guardava, e os orixás as repartiram",
+          "resumo": "Versão de Papai e Mãe Celeste: Olorun deu a Ossãe o saber das plantas, que ele não partilhava. Xangô reclamou com Iansã, senhora dos ventos, que agitou as saias e levantou uma ventania; a cabaça onde as folhas estavam guardadas se abriu e os orixás recolheram e dividiram as folhas. Desde então cada orixá tem as suas, embora Ossãe continue sendo o senhor das plantas.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "pp. 251–252",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
         }
       ],
       "arestas": [],
-      "nota_curadoria": "Versão cubana (L. Cabrera) citada por Bastide; ainda sem versão brasileira lida."
+      "nota_curadoria": "Versão cubana (L. Cabrera citada por Bastide, iansa-021) e versão brasileira de Chiousse (ossaim-018), em que Olorun dá a Ossãe o saber das plantas. A partilha do universo que abre o relato de Cabrera está fichada em olodumare-018 e olokun-005 (hierarquia e domínios)."
+    },
+    {
+      "id": "ita-018",
+      "titulo": "Ossaim perde a perna na luta com Xangô",
+      "entidades": [
+        "ossaim",
+        "xango"
+      ],
+      "versoes": [
+        {
+          "registro": "ossaim-017",
+          "valor": "perdeu uma perna numa luta contra Xangô",
+          "resumo": "Ossaim tem uma perna só porque, um dia, despertou a ira de Xangô e a perdeu na briga; na versão cubana perdeu também um olho e um braço.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 157",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Bahia, Bastide), com o acréscimo cubano que o próprio Bastide menciona."
+    },
+    {
+      "id": "ita-019",
+      "titulo": "Ossaim, comprado por Ifá, não quer cortar as ervas",
+      "entidades": [
+        "ossaim",
+        "orunmila"
+      ],
+      "versoes": [
+        {
+          "registro": "ossaim-019",
+          "valor": "comprado por Ifá como escravo, recusava cortar ervas porque todas curavam; Ifá o fez mestre das plantas",
+          "resumo": "Narrativa recolhida por Chiousse (também em Pessoa de Barros, 1983): Ifá comprou Ossãe para trabalhar na roça, mas ele se negava a cortar cada erva indicada, explicando que uma servia para febre, outra para dor de dente, e assim por diante. Ifá entendeu o poder das plantas e passou a mantê-lo a seu lado para ensiná-lo.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 256",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Chiousse). 'Ifá' é grafia da entidade orunmila na lista-mestra."
+    },
+    {
+      "id": "ita-020",
+      "titulo": "Oxumarê, metade do ano arco-íris e metade serpente",
+      "entidades": [
+        "oxumare"
+      ],
+      "versoes": [
+        {
+          "registro": "oxumare-012",
+          "valor": "macho e arco-íris seis meses do ano, fêmea e cobra nos outros seis: representa a continuidade",
+          "resumo": "Segundo os informantes de Chiousse, Oxumaré passa metade do ano como macho e arco-íris e a outra metade como fêmea e serpente, o que o faz símbolo da continuidade.",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "odu": null,
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 287",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (informantes de Chiousse)."
+    },
+    {
+      "id": "ita-021",
+      "titulo": "Logunedé entre a mata de Oxóssi e o rio de Oxum",
+      "entidades": [
+        "logunede",
+        "oxossi",
+        "oxum"
+      ],
+      "versoes": [
+        {
+          "registro": "logunede-010",
+          "valor": "vive seis meses na mata caçando com Oxóssi e seis meses no rio pescando com Oxum",
+          "resumo": "Segundo os mitos citados por Santos, Lógunède passa metade do ano caçando no mato com o pai e a outra metade pescando nos rios com a mãe.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "odu": null,
+          "sources": [
+            {
+              "id": "santos-2023-logunede",
+              "loc": "p. 76",
+              "via": null
+            }
+          ],
+          "nota": null,
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Santos 2023, resumindo mitos correntes)."
+    },
+    {
+      "id": "ita-022",
+      "titulo": "Logunedé criado por Ogum e coroado por Oyá",
+      "entidades": [
+        "logunede",
+        "oxum",
+        "xango",
+        "ogum",
+        "iansa"
+      ],
+      "versoes": [
+        {
+          "registro": "logunede-026",
+          "valor": "abandonado por Oxum, que vai viver com Xangô, Logunedé cresce com Ogum, aprende a guerra e o trabalho do ferro e é coroado por Oyá príncipe dos orixás",
+          "resumo": "Entre as versões menos frequentes que Santos menciona, Logunedé é filho de Ogum e Oyá: a mãe Oxum o deixa para morar com Xangô, ele passa a viver com Ogum, de quem recebe o saber da guerra e da metalurgia, e Oyá o coroa como príncipe dos orixás.",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "odu": null,
+          "sources": [
+            {
+              "id": "santos-2023-logunede",
+              "loc": "p. 76",
+              "via": null
+            }
+          ],
+          "nota": "Versão rara segundo a fonte; a filiação está em logunede-008.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Versão que a fonte diz rara; a versão mais comum da filiação (Oxum e Oxóssi) está no atributo parentesco de Logunedé."
+    },
+    {
+      "id": "ita-023",
+      "titulo": "O casal primordial preso na cabaça",
+      "entidades": [
+        "odudua"
+      ],
+      "versoes": [
+        {
+          "registro": "odudua-015",
+          "valor": "presos no início do mundo numa cabaça fechada, Obatala e Odudua brigam; ele a cega e ela o condena a só comer caramujos",
+          "resumo": "No mito que Ellis registra, o casal primordial passa muitos dias apertado e faminto no escuro de uma grande cabaça, ele em cima e ela embaixo. Odudua o culpa pela situação, os dois discutem, Obatala lhe arranca os olhos e ela responde com a maldição de que ele só terá caramujos para comer, o que explicaria a oferenda de caramujos a Obatala. Ellis observa que os fiéis não tratam Odudua como cega.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "odu": null,
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 42",
+              "via": null
+            }
+          ],
+          "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Dennett (p. 74) e Farrow (p. 45) repetem o relato de Ellis; Jock 2020 (pp. 6–7) também o resume a partir de Ellis.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão lida no original (Ellis); Dennett, Farrow e Jock só a repetem a partir de Ellis. Obatala não foi ligado à entidade 'oxala' sem fonte."
+    },
+    {
+      "id": "ita-024",
+      "titulo": "A criação em Ilobe: Yemuhu, Orishala e a cabeça de Eleda",
+      "entidades": [
+        "odudua",
+        "olodumare",
+        "orunmila"
+      ],
+      "versoes": [
+        {
+          "registro": "odudua-016",
+          "valor": "Yemuhu e Orishala fazem o mundo e viram pedra; os 16 caramujos de Yemuhu se tornam a cabeça de Eleda, que dá forma a Ifá",
+          "resumo": "Pela narração de Oja, dois seres fizeram o mundo, Yemuhu e o marido Orishala, também chamado Obaba Arugbo, acompanhados de Ajajuno, mensageira e chefe guerreira que ninguém criou. Terminada a obra, os dois se transformaram em pedras, que ainda se veriam em Ifẹ̀; os 16 caramujos guardados na cabaça de Yemuhu passaram a ser a cabeça de Eleda. Eleda, vendo que Ifá não tinha cabeça, derrubou-o numa luta e fez surgirem nele cabeça, peito, nariz, boca e olhos, obra que o narrador atribui a Orishala.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "aldeia de Ilobe (distrito de Egbado), relato da sacerdotisa Oja por meio de Togun, c. 1900–1910",
+          "odu": null,
+          "sources": [
+            {
+              "id": "dennett-1910-nigerian",
+              "loc": "pp. 17–18 (identificação com Odudua: p. 18, nota, e p. 73)",
+              "via": null
+            }
+          ],
+          "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho. Dennett toma Eleda como um dos nomes de Olorun (p. 17) e Yemuhu como outro nome de Odudua (p. 18, nota; p. 73).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Dennett, relato de Oja). Odudua e Olodumare entram porque o próprio Dennett identifica Yemuhu com Odudua e Eleda com Olorun; Orishala não foi ligado a 'oxala' sem fonte."
+    },
+    {
+      "id": "ita-025",
+      "titulo": "O dilúvio de Olokun",
+      "entidades": [
+        "olokun",
+        "orunmila",
+        "odudua"
+      ],
+      "versoes": [
+        {
+          "registro": "olokun-006",
+          "valor": "irado com o descaso dos homens, Olokun inunda a terra; Obatala o faz voltar ao palácio e o prende com sete correntes de ferro",
+          "resumo": "Segundo um mito que Ellis colheu, Olokun, ofendido porque os homens o esqueciam, tentou acabar com eles alagando a terra e já tinha afogado muitos quando Obatala interveio, empurrou-o de volta à sua morada submarina e o amarrou com sete correntes de ferro até que desistisse. Ellis lê o relato como lembrança de avanços do mar sobre a costa baixa.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Lagos e laguna de Lagos, c. 1880–1890",
+          "odu": null,
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 71",
+              "via": null
+            }
+          ],
+          "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Dennett (pp. 114–115) reproduz o relato de Ellis.",
+          "status": "fichado"
+        },
+        {
+          "registro": "olokun-007",
+          "valor": "depois que Ifá sobe ao céu, Olokun, irritado, afoga quase toda a humanidade; Obatala iça alguns por uma corrente de ferro, e Ifá e Odudua tornam a terra habitável",
+          "resumo": "Numa variante ligada a Ifá, Ellis conta que, cansado do mundo, Ifá foi morar no firmamento com Obatala; sem ele, os homens não conseguiam entender o que os deuses queriam, e Olokun, o mais irritado, mandou um grande dilúvio. Obatala salvou poucos, puxando-os para o céu por uma longa corrente de ferro. Olokun voltou aos seus domínios, mas a terra ficou lamacenta até Ifá descer e, com Odudua, refazê-la. Ellis supõe origem muçulmana para a história.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "odu": null,
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 64",
+              "via": null
+            }
+          ],
+          "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Duas variantes do mesmo autor (Ellis, pp. 71 e 64): numa Obatala acorrenta Olokun; na outra iça os sobreviventes ao céu, e Ifá e Odudua refazem a terra. Dennett copia a primeira."
+    },
+    {
+      "id": "ita-026",
+      "titulo": "Os primeiros egúngún descem para firmar o mundo",
+      "entidades": [
+        "egungun",
+        "orunmila",
+        "olodumare",
+        "aie"
+      ],
+      "versoes": [
+        {
+          "registro": "egungun-015",
+          "valor": "com a terra ameaçada de desabar, Ifá prescreve oferenda a Olódùmarè, que manda os sayégún, primeiros egúngún, para firmar o mundo; os tambores de àyàn os trazem do bosque",
+          "resumo": "Fámúlẹ̀ resume o odù Ọ̀wọ̀rìn-Àṣẹ́yìn: num tempo em que o mundo dos vivos corria risco de ruir, Ifá mandou fazer uma oferenda a Olódùmarè, que vive no mundo espiritual. Recebida a oferenda, ele enviou os sayégún, os primeiros egúngún, para dar firmeza à terra. Pararam num bosque, depois chamado igbó-ìgbàlẹ̀, e foi a música dos tocadores de àyàn que os conduziu até a comunidade. O autor liga o nome egúngún a sayégún.",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "comunidades de origem Ọ̀yọ́ (Òkèigbó e outras, Nigéria)",
+          "odu": {
+            "nome": "Ọ̀wọ̀rìn-Àṣẹ́yìn (também Ọ̀wọ̀rìn-Ṣẹ́)",
+            "loc": "p. 14"
+          },
+          "sources": [
+            {
+              "id": "famule-2021-ayan",
+              "loc": "pp. 14–15",
+              "via": null
+            }
+          ],
+          "nota": "Odu citado pela fonte. Na p. 15, Fámúlẹ̀ cita outro odù, Ogbè-Ròsùn (adaptado de Bascom 1969), em que os 400 irúnmọlẹ̀ descem do céu junto com os egúngún. O pacto ritual que o mito funda não foi fichado (detalhe ritual de Egungun espera o conselho).",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Uma versão (Fámúlẹ̀), com o odù nomeado pela fonte. 'Ayé' na fonte corresponde à entidade aie."
     }
   ]
 }

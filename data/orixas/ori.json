@@ -1,0 +1,258 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/ori.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 10,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "ori",
+  "rotulo": "Orí",
+  "atributos": {
+    "nomes": [
+      {
+        "valor": "Olori: de olo ('dono') e ori ('cabeça'), 'dono da cabeça'; no Brasil, assimilado ao Eledá",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "zacharias-2010-olori",
+            "loc": "p. 158",
+            "via": null
+          }
+        ],
+        "source_id": "zacharias-2010-olori",
+        "via_source_id": null,
+        "localizacao": "p. 158",
+        "parafrase": "Zacharias decompõe Olori em olo, dono, e ori, cabeça, e diz que no Brasil o termo foi aproximado de Eledá, entendido como dono do eu espiritual; cada pessoa que volta do Orum ao Ayê fica sob a guarda de um orixá, que rege sua cabeça.",
+        "nota": "A fonte fala em 'tradição de Orixá' e candomblé, sem nação; candomble_ketu é aproximação.",
+        "registro": "ori-009",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "meia cabaça coberta de búzios",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "p. 126",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "p. 126",
+        "parafrase": "Para Ellis, o objeto que simboliza Olori é uma metade de cabaça cravejada de búzios.",
+        "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+        "registro": "ori-002",
+        "status": "fichado"
+      },
+      {
+        "valor": "imagem de 41 búzios enfiados em forma de coroa, guardada num cofre chamado Ile Ori ('casa de Ori'); desfeita quando o dono morre",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+        "sources": [
+          {
+            "id": "johnson-1921-history",
+            "loc": "p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "johnson-1921-history",
+        "via_source_id": null,
+        "localizacao": "p. 27",
+        "parafrase": "Segundo Johnson, Ori é representado por 41 búzios unidos em feitio de coroa, escondidos num cofre do mesmo material, a 'casa de Ori', cujo tamanho depende das posses do dono. Quando ele morre, a imagem e o cofre são desfeitos e os búzios, gastos.",
+        "nota": "Johnson (confiabilidade B) era clérigo anglicano.",
+        "registro": "ori-004",
+        "status": "fichado"
+      }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "Olori seria a deificação da inteligência e da prudência (leitura de Farrow)",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "farrow-1926-faith",
+            "loc": "p. 130",
+            "via": null
+          }
+        ],
+        "source_id": "farrow-1926-faith",
+        "via_source_id": null,
+        "localizacao": "p. 130",
+        "parafrase": "Farrow retoma a descrição de Ellis dos três espíritos que habitam cada iorubá, distintos da alma própria da pessoa, e conclui que Olori, morador do cérebro e portador de boa fortuna, parece divinizar a inteligência e a prudência.",
+        "nota": "Documento histórico (confiabilidade C): tese de missionário anglicano que declara querer justificar a missão e defende um monoteísmo primitivo; polemiza com Ellis e Dennett. Não sustenta o atributo sozinha. A descrição repete Ellis (ori-001); só a leitura final é de Farrow.",
+        "registro": "ori-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ori como cabeça e psique perecível do iniciado, comparado ao ego da psicologia de Jung, por onde o orixá se personaliza",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "zacharias-2010-olori",
+            "loc": "p. 159",
+            "via": null
+          }
+        ],
+        "source_id": "zacharias-2010-olori",
+        "via_source_id": null,
+        "localizacao": "p. 159",
+        "parafrase": "Em leitura junguiana, Zacharias toma o Ori — a cabeça, ou a psique de quem é filho de santo, alma que perece — como a via pela qual o orixá coletivo ganha forma pessoal em cada iniciado; Ori corresponderia ao ego e o orixá a uma imagem arquetípica, com Olori como imagem intermediária entre Olorum e o Ori.",
+        "nota": "Interpretação psicológica do autor, não descrição etnográfica. A fonte fala em 'tradição de Orixá', sem nação; candomble_ketu é aproximação.",
+        "registro": "ori-010",
+        "status": "fichado"
+      }
+    ],
+    "hierarquia": [
+      {
+        "valor": "Olori ('dono da cabeça'), também chamado Ori, é um dos três espíritos que habitam cada pessoa: mora na cabeça, protege, guia e traz boa sorte",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "pp. 125–126",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "pp. 125–126",
+        "parafrase": "Ellis descreve três habitantes espirituais em cada pessoa: o primeiro, na cabeça, é Olori, nome lido como 'dono da cabeça' e às vezes abreviado para Ori ('cabeça', 'talento'). Seria o protetor e guia do indivíduo, a quem se atribui a boa sorte, como diz um provérbio citado pelo autor. Os outros dois ficam no estômago e no dedão do pé.",
+        "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+        "registro": "ori-001",
+        "status": "fichado"
+      },
+      {
+        "valor": "divindade doméstica universal do destino, cultuada por homens e mulheres adultos; dela dependem a boa ou a má sorte",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+        "sources": [
+          {
+            "id": "johnson-1921-history",
+            "loc": "p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "johnson-1921-history",
+        "via_source_id": null,
+        "localizacao": "p. 27",
+        "parafrase": "Johnson inclui Ori, a cabeça, entre as divindades iorubás: é a divindade de cada casa, honrada por ambos os sexos como senhora do destino, porque a sorte de alguém seguiria a sua vontade; por isso é agradada para que a fortuna favoreça o devoto. Ao contrário de Kori, divindade das crianças, Ori é cultuada só pelos adultos.",
+        "nota": "Johnson (confiabilidade B) era clérigo anglicano; a leitura monoteísta aproxima-o de Farrow.",
+        "registro": "ori-003",
+        "status": "fichado"
+      },
+      {
+        "valor": "Eleda, o 'anjo da guarda', fica entre os deuses e os homens; as casas tradicionais não o confundem com o orixá dono da cabeça, confusão que tende a ocorrer nas casas bantas",
+        "tradicoes": [
+          "candomble_ketu",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Bahia (casas tradicionais × casas bantas)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 184–185",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 184–185",
+        "parafrase": "Bastide diz que, mesmo sem o grande jogo de Ifá, a noção de Eleda sobrevive entre os afro-brasileiros como anjo da guarda: segundo o padre Brazil, uma posição intermediária entre deuses e pessoas, distinta do orixá que mora na cabeça do filho. Nas casas bantas haveria a tendência de identificá-lo com o orixá recebido na iniciação; nas mais tradicionais, Eleda é uma realidade à parte.",
+        "nota": "Bastide trata aqui de Eleda; a ligação com olori/ori está nas pp. 302 e 314–315 (ori-007, ori-008). Diverge do que a maioria dos informantes de Bastide diz na p. 315 (ori-008).",
+        "registro": "ori-006",
+        "status": "fichado"
+      },
+      {
+        "valor": "Eleda, ori e o santo que está na cabeça aparecem misturados; diz-se que Obatalá governa todas as cabeças",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Cuba (texto de L. Cabrera citado por Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, pp. 314–315 e nota 33",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, pp. 314–315 e nota 33",
+        "parafrase": "Bastide cita um informante cubano registrado por Lydia Cabrera para quem Eleda pensa, vigia e conduz a vida; a cabeça se chama Ori ou Eri, e o anjo da guarda de cada um mora nela, o que equivaleria a dizer Obatalá, senhor de todas as cabeças. Bastide vê no texto uma mistura de Eleda com ori, com orixá e com Obatalá, que atribui ao sentido de 'criador' que o termo tem em nagô.",
+        "nota": "Cabrera, El Monte, p. 391 (fonte fora do catálogo), citada por Bastide.",
+        "registro": "ori-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "para a maioria dos informantes de Bastide, eleda é o orixá individual, que fica sempre no ori do iniciado, o vigia, guia e protege",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Bahia (informantes de Bastide)",
+        "sources": [
+          {
+            "id": "bastide-1958-candomble",
+            "loc": "ed. pt 1961, p. 315",
+            "via": null
+          }
+        ],
+        "source_id": "bastide-1958-candomble",
+        "via_source_id": null,
+        "localizacao": "ed. pt 1961, p. 315",
+        "parafrase": "Bastide registra que quase todos os seus informantes tomam eleda pelo orixá pessoal, cujo nome a iaô recebe no fim da iniciação. Esse orixá permaneceria no ori mesmo sem transe, saindo dele às vezes, como no sono, e de lá acompanharia a pessoa pela vida, ajudando-a, protegendo-a ou punindo-a conforme ela cumpra suas obrigações.",
+        "nota": "Divergência interna da fonte: nas pp. 184–185 (ori-006), Bastide diz que as casas mais tradicionais não fazem essa identificação. Registrado como está.",
+        "registro": "ori-008",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "origem",
+      "dominios",
+      "funcoes",
+      "elementos",
+      "cores",
+      "dia_semana",
+      "saudacao",
+      "alimentos",
+      "animais",
+      "qualidades",
+      "parentesco",
+      "equivalencias",
+      "sincretismo",
+      "itans",
+      "tabus",
+      "festas",
+      "historia_culto",
+      "iconografia"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

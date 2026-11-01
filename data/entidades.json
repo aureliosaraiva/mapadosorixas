@@ -11,7 +11,7 @@
       "'sensivel': só entra o que for público em fonte acadêmica, sem fundamento iniciático; decidir com o conselho o que é publicável.",
       "'prioridade_mvp2': 1 = próxima leva (~15 orixás do PLANO, Fase 7, e os 5 do MVP), 2 = cosmologia e divindades de Ifá, 3 = depois."
     ],
-    "total": 33
+    "total": 34
   },
   "entidades": [
     {
@@ -491,6 +491,22 @@
       "sensivel": false,
       "status_conteudo": "sem_fichamento",
       "nota_modelagem": null
+    },
+    {
+      "id": "ori",
+      "rotulo": "Orí",
+      "grafias": [
+        "Orí",
+        "Ori",
+        "Orì",
+        "Olori"
+      ],
+      "tipo": "conceito_cosmologico",
+      "grupo": null,
+      "prioridade_mvp2": 2,
+      "sensivel": false,
+      "status_conteudo": "fichado",
+      "nota_modelagem": "Criada na integração dos lotes B e C (proposta do lote C, §6). A relação entre Orí, Olori e Eleda, por tradição, fica registrada no fichamento, com fonte."
     },
     {
       "id": "egungun",

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/logunede.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 23,
+    "registros_usados": 24,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 2
   },
@@ -429,6 +429,27 @@
         "parafrase": "Segundo os mitos citados por Santos, Lógunède passa metade do ano caçando no mato com o pai e a outra metade pescando nos rios com a mãe.",
         "nota": null,
         "registro": "logunede-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "abandonado por Oxum, que vai viver com Xangô, Logunedé cresce com Ogum, aprende a guerra e o trabalho do ferro e é coroado por Oyá príncipe dos orixás",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "santos-2023-logunede",
+            "loc": "p. 76",
+            "via": null
+          }
+        ],
+        "source_id": "santos-2023-logunede",
+        "via_source_id": null,
+        "localizacao": "p. 76",
+        "parafrase": "Entre as versões menos frequentes que Santos menciona, Logunedé é filho de Ogum e Oyá: a mãe Oxum o deixa para morar com Xangô, ele passa a viver com Ogum, de quem recebe o saber da guerra e da metalurgia, e Oyá o coroa como príncipe dos orixás.",
+        "nota": "Versão rara segundo a fonte; a filiação está em logunede-008.",
+        "registro": "logunede-026",
         "status": "fichado"
       }
     ],

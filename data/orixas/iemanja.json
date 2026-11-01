@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iemanja.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 55,
+    "registros_usados": 56,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -761,6 +761,27 @@
         "parafrase": "Pitta reproduz, a partir de Ellis, o mito em que Iemanjá e Aganju nascem da união da Terra (Odudua) com o Céu (Obatalá). Orungã, filho de Iemanjá, a agride; ela foge, cai, e de seu corpo brotam as águas e os orixás, além de montes, plantas, astros e outros seres. Pitta vê na figura a união de sedução e fertilidade e nota que os personagens masculinos do mito foram esquecidos, enquanto Iemanjá segue muito cultuada.",
         "nota": "Mito de 2ª mão (Ellis 1894, autor de olhar colonial, via Pitta). Pitta não diz se a versão foi contada pelos entrevistados.",
         "registro": "iemanja-052",
+        "status": "fichado"
+      },
+      {
+        "valor": "Yemaja, filha de Obatala e Odudua, casa-se com o irmão Aganju; violentada pelo filho Orungan, cai, e de seu corpo saem lagoa e 15 divindades; no lugar surge Ifẹ̀",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "pp. 43–45",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "pp. 43–45",
+        "parafrase": "Ellis narra que Odudua e Obatala tiveram Aganju e Yemaja, que se casaram e tiveram Orungan. O filho se apaixona pela mãe e, na ausência do pai, a violenta; ela foge recusando suas propostas e, quando ele está para alcançá-la, cai de costas. Seu corpo incha, dos seios brotam dois cursos d'água que formam uma lagoa e do ventre aberto saem Dada, Shango, Ogun, Olokun, Olosa, Oya, Oshun, Oba, Orisha Oko, Oshosi, Oke, Aje Shaluga, Shankpanna, o Sol e a Lua. No local se ergue Ifẹ̀, cidade santa dos iorubás.",
+        "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Ellis registra em nota que, para alguns, a ordem de nascimento seria outra, começando por Olokun e Olosa. Versão de 2ª mão do mesmo mito em iemanja-052 (via Pitta).",
+        "registro": "iemanja-060",
         "status": "fichado"
       }
     ],

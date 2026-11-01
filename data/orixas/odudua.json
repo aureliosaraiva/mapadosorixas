@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/odudua.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 14,
+    "registros_usados": 19,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -97,6 +97,113 @@
         "parafrase": "No mesmo resumo da mitologia de Ifẹ̀, Johnson dá Olokun, deusa do oceano, como mulher de Oduduwa, Oranmiyan e Isedale como filhos do casal e Ogum como neto.",
         "nota": "Diverge de Ellis, que faz de Olokun um deus masculino nascido de Yemaja (olokun-002). Arestas propostas no relatório lote-C §8.",
         "registro": "odudua-007",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "presos no início do mundo numa cabaça fechada, Obatala e Odudua brigam; ele a cega e ela o condena a só comer caramujos",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "p. 42",
+            "via": null
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": null,
+        "localizacao": "p. 42",
+        "parafrase": "No mito que Ellis registra, o casal primordial passa muitos dias apertado e faminto no escuro de uma grande cabaça, ele em cima e ela embaixo. Odudua o culpa pela situação, os dois discutem, Obatala lhe arranca os olhos e ela responde com a maldição de que ele só terá caramujos para comer, o que explicaria a oferenda de caramujos a Obatala. Ellis observa que os fiéis não tratam Odudua como cega.",
+        "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Dennett (p. 74) e Farrow (p. 45) repetem o relato de Ellis; Jock 2020 (pp. 6–7) também o resume a partir de Ellis.",
+        "registro": "odudua-015",
+        "status": "fichado"
+      },
+      {
+        "valor": "Yemuhu e Orishala fazem o mundo e viram pedra; os 16 caramujos de Yemuhu se tornam a cabeça de Eleda, que dá forma a Ifá",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "aldeia de Ilobe (distrito de Egbado), relato da sacerdotisa Oja por meio de Togun, c. 1900–1910",
+        "sources": [
+          {
+            "id": "dennett-1910-nigerian",
+            "loc": "pp. 17–18 (identificação com Odudua: p. 18, nota, e p. 73)",
+            "via": null
+          }
+        ],
+        "source_id": "dennett-1910-nigerian",
+        "via_source_id": null,
+        "localizacao": "pp. 17–18 (identificação com Odudua: p. 18, nota, e p. 73)",
+        "parafrase": "Pela narração de Oja, dois seres fizeram o mundo, Yemuhu e o marido Orishala, também chamado Obaba Arugbo, acompanhados de Ajajuno, mensageira e chefe guerreira que ninguém criou. Terminada a obra, os dois se transformaram em pedras, que ainda se veriam em Ifẹ̀; os 16 caramujos guardados na cabaça de Yemuhu passaram a ser a cabeça de Eleda. Eleda, vendo que Ifá não tinha cabeça, derrubou-o numa luta e fez surgirem nele cabeça, peito, nariz, boca e olhos, obra que o narrador atribui a Orishala.",
+        "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho. Dennett toma Eleda como um dos nomes de Olorun (p. 17) e Yemuhu como outro nome de Odudua (p. 18, nota; p. 73).",
+        "registro": "odudua-016",
+        "status": "fichado"
+      },
+      {
+        "valor": "Olorun manda Oduduwa à terra coberta de água com terra, um galo e um coquinho de dendê; o galo espalha a terra e o dendezeiro cresce com 16 ramos",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "tradição de Ilê-Ifẹ̀ resumida por Jock",
+        "sources": [
+          {
+            "id": "jock-2020-oduduwa",
+            "loc": "p. 6",
+            "via": null
+          }
+        ],
+        "source_id": "jock-2020-oduduwa",
+        "via_source_id": null,
+        "localizacao": "p. 6",
+        "parafrase": "Na versão que Jock apresenta como o mito de Oduduwa criador, a superfície da terra era quase só água quando Olorun fez Oduduwa descer levando terra, um galo e um coquinho de dendê. Oduduwa lança a terra sobre a água, o galo a espalha e se forma a primeira porção de chão; o coquinho, plantado, vira uma palmeira de 16 ramos laterais, que representariam os 16 reinos tradicionais iorubás.",
+        "nota": "Jock remete a Johnson 1921 (p. 4) e a Ojo 1999 para os 16 ramos.",
+        "registro": "odudua-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "Obatala, chefe dos 16 mensageiros (Oye) enviados por Olorun, embriaga-se com vinho de palma no caminho, e Oduduwa conduz os demais e faz a terra em Oke Oramfe",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "tradição de Ilê-Ifẹ̀ resumida por Jock (via Akintoye e Ayandele)",
+        "sources": [
+          {
+            "id": "jock-2020-oduduwa",
+            "loc": "p. 6",
+            "via": null
+          }
+        ],
+        "source_id": "jock-2020-oduduwa",
+        "via_source_id": null,
+        "localizacao": "p. 6",
+        "parafrase": "Numa segunda versão, Olorun decide formar terra cultivável no mundo alagado e envia Obatala, Oduduwa e mais 16 seres imortais, os Oye, sob o comando de Obatala, com pedaços de ferro, um galo e um pano branco que embrulhava um torrão de terra. Como Obatala se embebeda de vinho de palma no caminho, Oduduwa assume a liderança; o grupo desce em Oke Oramfe, em Ilê-Ifẹ̀, espalha a terra e o galo a distribui, deixando partes ainda cobertas de água.",
+        "nota": "Jock cita Akintoye 2004 e Ayandele 2004 (fora do catálogo).",
+        "registro": "odudua-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "Olodumare entrega a Obatala terra do céu, uma galinha e um camaleão; Obatala dorme embriagado no alto do monte, e Oduduwa, seu irmão mais novo, cria a terra firme em Ifẹ̀",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "versão de Kola Abimbola citada por Ogungbemi",
+        "sources": [
+          {
+            "id": "ogungbemi-2021-olodumare",
+            "loc": "pp. 50–51",
+            "via": null
+          }
+        ],
+        "source_id": "ogungbemi-2021-olodumare",
+        "via_source_id": null,
+        "localizacao": "pp. 50–51",
+        "parafrase": "Pela narrativa que Ogungbemi transcreve de Kola Abimbola, Olodumare quis terra seca e mandou 400 orixás, confiando a Obatala um pacote de pó celeste, uma galinha de cinco dedos e um camaleão. Eles descem a Oke-Ara por uma corrente de ferro feita por Ogum. Lá Obatala bebe vinho de palma até dormir; Oduduwa toma os objetos, joga o pó sobre a água, solta a galinha, que cisca e faz a terra crescer, e manda o camaleão testar o chão. O lugar recebe o nome de Ifẹ̀, ligado a 'expandir', e Oduduwa vira seu rei.",
+        "nota": "Kola Abimbola, Yoruba Culture (2006), está fora do catálogo. Ver também odudua-010 (mesma passagem, como hierarquia).",
+        "registro": "odudua-019",
         "status": "fichado"
       }
     ],
@@ -331,7 +438,6 @@
       "qualidades",
       "equivalencias",
       "sincretismo",
-      "itans",
       "tabus",
       "festas",
       "iconografia"

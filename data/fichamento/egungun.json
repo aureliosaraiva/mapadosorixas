@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "egungun",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 14,
+    "total": 15,
     "por_status": {
-      "fichado": 14,
+      "fichado": 15,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -275,6 +275,25 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "egungun-015",
+      "orixa": "egungun",
+      "atributo": "itans",
+      "valor": "com a terra ameaçada de desabar, Ifá prescreve oferenda a Olódùmarè, que manda os sayégún, primeiros egúngún, para firmar o mundo; os tambores de àyàn os trazem do bosque",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "comunidades de origem Ọ̀yọ́ (Òkèigbó e outras, Nigéria)",
+      "source_id": "famule-2021-ayan",
+      "via_source_id": null,
+      "localizacao": "pp. 14–15",
+      "parafrase": "Fámúlẹ̀ resume o odù Ọ̀wọ̀rìn-Àṣẹ́yìn: num tempo em que o mundo dos vivos corria risco de ruir, Ifá mandou fazer uma oferenda a Olódùmarè, que vive no mundo espiritual. Recebida a oferenda, ele enviou os sayégún, os primeiros egúngún, para dar firmeza à terra. Pararam num bosque, depois chamado igbó-ìgbàlẹ̀, e foi a música dos tocadores de àyàn que os conduziu até a comunidade. O autor liga o nome egúngún a sayégún.",
+      "nota": "Odu citado pela fonte. Na p. 15, Fámúlẹ̀ cita outro odù, Ogbè-Ròsùn (adaptado de Bascom 1969), em que os 400 irúnmọlẹ̀ descem do céu junto com os egúngún. O pacto ritual que o mito funda não foi fichado (detalhe ritual de Egungun espera o conselho).",
+      "status": "fichado",
+      "evidencias": [
+        "https://journals.flvc.org/ysr/article/view/129886"
       ]
     }
   ]

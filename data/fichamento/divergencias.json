@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 107
+    "total": 113
   },
   "divergencias": [
     {
@@ -1372,6 +1372,35 @@
     },
     {
       "orixa": "iemanja",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "mito cosmogônico: Iemanjá nasce de Odudua e Obatalá; do seu corpo, depois da violência do filho Orungã, nascem as águas e os orixás",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+          "fonte": "ellis-1894-yoruba",
+          "via": "pitta-2011-mitos",
+          "localizacao": "pp. 263–264",
+          "registro": "iemanja-052"
+        },
+        {
+          "valor": "Yemaja, filha de Obatala e Odudua, casa-se com o irmão Aganju; violentada pelo filho Orungan, cai, e de seu corpo saem lagoa e 15 divindades; no lugar surge Ifẹ̀",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 43–45",
+          "registro": "iemanja-060"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
       "atributo": "parentesco",
       "versoes": [
         {
@@ -1605,6 +1634,34 @@
           "via": null,
           "localizacao": "p. 42",
           "registro": "logunede-024"
+        }
+      ]
+    },
+    {
+      "orixa": "logunede",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "vive seis meses na mata caçando com Oxóssi e seis meses no rio pescando com Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "p. 76",
+          "registro": "logunede-010"
+        },
+        {
+          "valor": "abandonado por Oxum, que vai viver com Xangô, Logunedé cresce com Ogum, aprende a guerra e o trabalho do ferro e é coroado por Oyá príncipe dos orixás",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "p. 76",
+          "registro": "logunede-026"
         }
       ]
     },
@@ -2147,6 +2204,67 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 290",
           "registro": "odudua-014"
+        }
+      ]
+    },
+    {
+      "orixa": "odudua",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "presos no início do mundo numa cabaça fechada, Obatala e Odudua brigam; ele a cega e ela o condena a só comer caramujos",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 42",
+          "registro": "odudua-015"
+        },
+        {
+          "valor": "Yemuhu e Orishala fazem o mundo e viram pedra; os 16 caramujos de Yemuhu se tornam a cabeça de Eleda, que dá forma a Ifá",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "aldeia de Ilobe (distrito de Egbado), relato da sacerdotisa Oja por meio de Togun, c. 1900–1910",
+          "fonte": "dennett-1910-nigerian",
+          "via": null,
+          "localizacao": "pp. 17–18 (identificação com Odudua: p. 18, nota, e p. 73)",
+          "registro": "odudua-016"
+        },
+        {
+          "valor": "Olorun manda Oduduwa à terra coberta de água com terra, um galo e um coquinho de dendê; o galo espalha a terra e o dendezeiro cresce com 16 ramos",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradição de Ilê-Ifẹ̀ resumida por Jock",
+          "fonte": "jock-2020-oduduwa",
+          "via": null,
+          "localizacao": "p. 6",
+          "registro": "odudua-017"
+        },
+        {
+          "valor": "Obatala, chefe dos 16 mensageiros (Oye) enviados por Olorun, embriaga-se com vinho de palma no caminho, e Oduduwa conduz os demais e faz a terra em Oke Oramfe",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradição de Ilê-Ifẹ̀ resumida por Jock (via Akintoye e Ayandele)",
+          "fonte": "jock-2020-oduduwa",
+          "via": null,
+          "localizacao": "p. 6",
+          "registro": "odudua-018"
+        },
+        {
+          "valor": "Olodumare entrega a Obatala terra do céu, uma galinha e um camaleão; Obatala dorme embriagado no alto do monte, e Oduduwa, seu irmão mais novo, cria a terra firme em Ifẹ̀",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "versão de Kola Abimbola citada por Ogungbemi",
+          "fonte": "ogungbemi-2021-olodumare",
+          "via": null,
+          "localizacao": "pp. 50–51",
+          "registro": "odudua-019"
         }
       ]
     },
@@ -2794,6 +2912,34 @@
     },
     {
       "orixa": "olokun",
+      "atributo": "itans",
+      "versoes": [
+        {
+          "valor": "irado com o descaso dos homens, Olokun inunda a terra; Obatala o faz voltar ao palácio e o prende com sete correntes de ferro",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Lagos e laguna de Lagos, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 71",
+          "registro": "olokun-006"
+        },
+        {
+          "valor": "depois que Ifá sobe ao céu, Olokun, irritado, afoga quase toda a humanidade; Obatala iça alguns por uma corrente de ferro, e Ifá e Odudua tornam a terra habitável",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 64",
+          "registro": "olokun-007"
+        }
+      ]
+    },
+    {
+      "orixa": "olokun",
       "atributo": "parentesco",
       "versoes": [
         {
@@ -3026,6 +3172,96 @@
           "via": null,
           "localizacao": "p. 257",
           "registro": "omolu-015"
+        }
+      ]
+    },
+    {
+      "orixa": "ori",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "Olori ('dono da cabeça'), também chamado Ori, é um dos três espíritos que habitam cada pessoa: mora na cabeça, protege, guia e traz boa sorte",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "pp. 125–126",
+          "registro": "ori-001"
+        },
+        {
+          "valor": "divindade doméstica universal do destino, cultuada por homens e mulheres adultos; dela dependem a boa ou a má sorte",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+          "fonte": "johnson-1921-history",
+          "via": null,
+          "localizacao": "p. 27",
+          "registro": "ori-003"
+        },
+        {
+          "valor": "Eleda, o 'anjo da guarda', fica entre os deuses e os homens; as casas tradicionais não o confundem com o orixá dono da cabeça, confusão que tende a ocorrer nas casas bantas",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Bahia (casas tradicionais × casas bantas)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 184–185",
+          "registro": "ori-006"
+        },
+        {
+          "valor": "Eleda, ori e o santo que está na cabeça aparecem misturados; diz-se que Obatalá governa todas as cabeças",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba (texto de L. Cabrera citado por Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 314–315 e nota 33",
+          "registro": "ori-007"
+        },
+        {
+          "valor": "para a maioria dos informantes de Bastide, eleda é o orixá individual, que fica sempre no ori do iniciado, o vigia, guia e protege",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (informantes de Bastide)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 315",
+          "registro": "ori-008"
+        }
+      ]
+    },
+    {
+      "orixa": "ori",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "meia cabaça coberta de búzios",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+          "fonte": "ellis-1894-yoruba",
+          "via": null,
+          "localizacao": "p. 126",
+          "registro": "ori-002"
+        },
+        {
+          "valor": "imagem de 41 búzios enfiados em forma de coroa, guardada num cofre chamado Ile Ori ('casa de Ori'); desfeita quando o dono morre",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "tradições de Oyó registradas por historiador iorubá (fim do séc. XIX)",
+          "fonte": "johnson-1921-history",
+          "via": null,
+          "localizacao": "p. 27",
+          "registro": "ori-004"
         }
       ]
     },

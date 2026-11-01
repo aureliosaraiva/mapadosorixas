@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "olokun",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 5,
+    "total": 7,
     "por_status": {
-      "fichado": 5,
+      "fichado": 7,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -105,6 +105,46 @@
       "status": "fichado",
       "evidencias": [
         "https://bdor.sibi.ufrj.br/handle/doc/361"
+      ]
+    },
+    {
+      "id": "olokun-006",
+      "orixa": "olokun",
+      "atributo": "itans",
+      "valor": "irado com o descaso dos homens, Olokun inunda a terra; Obatala o faz voltar ao palácio e o prende com sete correntes de ferro",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Lagos e laguna de Lagos, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 71",
+      "parafrase": "Segundo um mito que Ellis colheu, Olokun, ofendido porque os homens o esqueciam, tentou acabar com eles alagando a terra e já tinha afogado muitos quando Obatala interveio, empurrou-o de volta à sua morada submarina e o amarrou com sete correntes de ferro até que desistisse. Ellis lê o relato como lembrança de avanços do mar sobre a costa baixa.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Dennett (pp. 114–115) reproduz o relato de Ellis.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "olokun-007",
+      "orixa": "olokun",
+      "atributo": "itans",
+      "valor": "depois que Ifá sobe ao céu, Olokun, irritado, afoga quase toda a humanidade; Obatala iça alguns por uma corrente de ferro, e Ifá e Odudua tornam a terra habitável",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "povos de língua iorubá da Costa dos Escravos (Lagos e arredores), relatos de sacerdotes, c. 1880–1890",
+      "source_id": "ellis-1894-yoruba",
+      "via_source_id": null,
+      "localizacao": "p. 64",
+      "parafrase": "Numa variante ligada a Ifá, Ellis conta que, cansado do mundo, Ifá foi morar no firmamento com Obatala; sem ele, os homens não conseguiam entender o que os deuses queriam, e Olokun, o mais irritado, mandou um grande dilúvio. Obatala salvou poucos, puxando-os para o céu por uma longa corrente de ferro. Olokun voltou aos seus domínios, mas a terra ficou lamacenta até Ifá descer e, com Odudua, refazê-la. Ellis supõe origem muçulmana para a história.",
+      "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões.",
+      "status": "fichado",
+      "evidencias": [
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://archive.org/details/b21781370"
       ]
     }
   ]

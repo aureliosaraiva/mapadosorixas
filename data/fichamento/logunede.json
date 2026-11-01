@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "logunede",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 25,
+    "total": 26,
     "por_status": {
-      "fichado": 25,
+      "fichado": 26,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -488,6 +488,25 @@
       "status": "fichado",
       "evidencias": [
         "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "logunede-026",
+      "orixa": "logunede",
+      "atributo": "itans",
+      "valor": "abandonado por Oxum, que vai viver com Xangô, Logunedé cresce com Ogum, aprende a guerra e o trabalho do ferro e é coroado por Oyá príncipe dos orixás",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "santos-2023-logunede",
+      "via_source_id": null,
+      "localizacao": "p. 76",
+      "parafrase": "Entre as versões menos frequentes que Santos menciona, Logunedé é filho de Ogum e Oyá: a mãe Oxum o deixa para morar com Xangô, ele passa a viver com Ogum, de quem recebe o saber da guerra e da metalurgia, e Oyá o coroa como príncipe dos orixás.",
+      "nota": "Versão rara segundo a fonte; a filiação está em logunede-008.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
       ]
     }
   ]
