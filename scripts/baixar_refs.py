@@ -12,7 +12,13 @@ PDF a partir de `url` e `evidencias` do catálogo (e das URLs extras):
 - se `requests` não conseguir (ex.: desafio Anubis do HAL na página), tenta o
   link com `curl`, que no HAL baixa o arquivo direto.
 
-Estrutura (padrão `--destino acervo`):
+Destino padrão: o acervo externo no repositório PRIVADO `aureliosaraiva/orixas-fontes`
+(variável `ACERVO_DIR`; sem ela, `../orixas-fontes` se o clone existir; senão o
+`acervo/` local, ignorado pelo git). Ver `scripts/acervo_dir.py` e `scripts/acervo_sync.sh`.
+Antes de baixar, procura o PDF no destino e, se o destino for externo, no `acervo/` local
+(copiado sem novo download).
+
+Estrutura (no destino; aqui como `acervo/`):
   acervo/pdf/<id>.pdf   PDF original (ou um PDF salvo à mão com esse nome)
   acervo/txt/<id>.txt   `pdftotext`, ordem de leitura, hifenização de fim de linha
                         desfeita (`religi-⏎ões` -> `religiões`)
@@ -32,7 +38,7 @@ for PRIVADO (ver acervo/LEIAME.md). Enquanto o repositório for público, o
 
 Não contorna desafio anti-robô nem paywall (regra do projeto).
 
-Uso: python3 scripts/baixar_refs.py [--destino acervo] [--ids id1,id2]
+Uso: python3 scripts/baixar_refs.py [--destino DIR] [--ids id1,id2]
                                     [--so-converter] [--reconverter]
 Depois: python3 scripts/anticopia.py   (usa acervo/txt por padrão)
 """
@@ -49,8 +55,11 @@ from pathlib import Path
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from acervo_dir import acervo_padrao  # noqa: E402
+
 RAIZ = Path(__file__).resolve().parent.parent
-ACERVO = RAIZ / "acervo"
+ACERVO = RAIZ / "acervo"  # local, ignorado pelo git; guarda também urls_extras.json (metadado)
 UA = {"User-Agent": "Mozilla/5.0 (mapadosorixas anticopia; uso academico)"}
 HIFEN = re.compile(r"(\w)-\s*\n\s*(\w)")
 
@@ -256,12 +265,13 @@ def gravar_indice(destino, itens):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--destino", default=str(ACERVO))
+    ap.add_argument("--destino", default=str(acervo_padrao()))
     ap.add_argument("--ids", default="")
     ap.add_argument("--so-converter", action="store_true")
     ap.add_argument("--reconverter", action="store_true", help="reconverte .txt já existentes")
     a = ap.parse_args()
     destino = Path(a.destino).resolve()
+    print(f"acervo: {destino}")
     if (RAIZ in destino.parents or destino == RAIZ) and destino != ACERVO.resolve():
         sys.exit("Dentro do repositório, o único destino permitido é acervo/.")
     pdfs, txts = destino / "pdf", destino / "txt"
@@ -285,6 +295,9 @@ def main():
         pdf, txt = pdfs / f"{i}.pdf", txts / f"{i}.txt"
         ent = indice.get(i, {"source_id": i})
         ent["titulo_curto"] = titulo_curto(fonte) if fonte else i
+        local = ACERVO / "pdf" / f"{i}.pdf"
+        if not pdf.exists() and destino != ACERVO.resolve() and local.exists():
+            pdf.write_bytes(local.read_bytes())  # já baixado antes no acervo local
         if not pdf.exists() and not a.so_converter:
             erros = []
             for u in candidatos(fonte, extras.get(i, [])):

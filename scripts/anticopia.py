@@ -12,7 +12,7 @@ de um registro já são conferidas no fichamento):
    Citações curtas (>= 6 palavras) são listadas como aviso para conferência.
 2. Comparação com textos de referência (opcional): se a variável de ambiente
    ANTICOPIA_REFS apontar para um diretório com arquivos .txt (textos das
-   obras; padrão: acervo/txt, quando tiver textos), qualquer sequência de N palavras
+   obras; padrão: txt/ do acervo externo `orixas-fontes` (ACERVO_DIR, padrão ../orixas-fontes) ou, na falta, acervo/txt), qualquer sequência de N palavras
    (padrão 8) idêntica entre um texto do projeto e uma referência -> ERRO.
    Com referências, também se compara cada texto SÓ com a(s) fonte(s) que ele
    cita (arquivo `<source_id>.txt`): sequência de AVISO_FONTE a N-1 palavras
@@ -41,7 +41,7 @@ Como montar a pasta de referências (o acervo interno, acervo/; ver acervo/LEIAM
 Toda sessão que ficha uma fonte roda este script com o texto integral dela
 antes do commit (regra do CLAUDE.md).
 
-Uso: python3 scripts/anticopia.py [--n 8]          (refs: acervo/txt, se houver)
+Uso: python3 scripts/anticopia.py [--n 8]          (refs: $ACERVO_DIR/txt ou acervo/txt)
      ANTICOPIA_REFS=/outra/pasta python3 scripts/anticopia.py
      ANTICOPIA_REFS= python3 scripts/anticopia.py      (sem referências)
 Sai com código 1 se houver erro.
@@ -141,10 +141,14 @@ def main():
 
     refs_dir = os.environ.get("ANTICOPIA_REFS")
     if refs_dir is None:
-        # padrão: o acervo interno (acervo/txt), se houver textos nele
-        padrao = Path(__file__).resolve().parent.parent / "acervo" / "txt"
-        if any(padrao.glob("*.txt")):
-            refs_dir = str(padrao)
+        # padrão: txt/ do acervo externo (ACERVO_DIR ou ../orixas-fontes);
+        # senão o acervo local (acervo/txt), se houver textos nele
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from acervo_dir import acervo_padrao
+        for base in (acervo_padrao(), Path(__file__).resolve().parent.parent / "acervo"):
+            if any((base / "txt").glob("*.txt")):
+                refs_dir = str(base / "txt")
+                break
     n_refs = 0
     proximos = []
     if refs_dir:
@@ -208,7 +212,7 @@ def main():
                     avisos.append(f"{r1} e {r2} ({fonte}): repetem “{sorted(comum)[0]}”")
 
     print(f"{len(textos)} textos verificados; n={n}; referências externas: "
-          + (f"{n_refs} arquivo(s) em {refs_dir}" if refs_dir else "nenhuma (acervo/txt vazio; rode scripts/baixar_refs.py ou defina ANTICOPIA_REFS)"))
+          + (f"{n_refs} arquivo(s) em {refs_dir}" if refs_dir else "nenhuma (acervo vazio; rode scripts/acervo_sync.sh e scripts/baixar_refs.py ou defina ANTICOPIA_REFS)"))
     for a in avisos:
         print(" aviso:", a)
     if proximos:

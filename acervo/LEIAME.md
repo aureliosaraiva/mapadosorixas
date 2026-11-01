@@ -17,24 +17,26 @@ glossário, para **leitura, releitura e conferência anti-cópia**
   O workflow de deploy e o de validação **falham** se o repositório estiver
   público e houver arquivo versionado em `acervo/pdf/` ou `acervo/txt/`.
 
-## Situação atual (2026-11-01): repositório PÚBLICO
+## Onde fica o acervo (decisão do autor, sessão acervo2, 2026-11-01)
 
-O repositório está público (o GitHub Pages da conta pessoal exige isso sem o
-GitHub Pro). Por isso **os PDFs e os textos não são versionados**: o
-`.gitignore` mantém `acervo/pdf/*` e `acervo/txt/*` fora do git e só o índice,
-este LEIAME e as URLs extras entram no repositório. O acervo é remontado a cada
-sessão com `python3 scripts/baixar_refs.py` (≈ minutos; o índice diz o que baixa).
+O texto integral fica no **repositório PRIVADO `aureliosaraiva/orixas-fontes`**
+(branch `main`; commit e push direto nele). Este repositório (`mapadosorixas`) é
+**público** e continua **sem nenhum texto integral**: esta pasta guarda só este
+LEIAME, o índice gerado e `urls_extras.json` (metadados).
 
-Para versionar o conteúdo, o autor escolhe uma saída (ver
-[`docs/pesquisa/acervo-01.md`](../docs/pesquisa/acervo-01.md) §5):
+- `scripts/acervo_dir.py` resolve o acervo: `ACERVO_DIR`; senão `../orixas-fontes`
+  (clone irmão deste repo), se existir; senão este `acervo/` local, ignorado pelo git.
+- `scripts/acervo_sync.sh pull` (início da sessão) clona ou atualiza o `orixas-fontes`;
+  `scripts/acervo_sync.sh push` (fim) faz commit e push dos arquivos novos na `main` dele.
+  Em sessão na nuvem, anexar antes o repositório com `add_repo` (access `push`).
+- `scripts/baixar_refs.py` grava no acervo resolvido, procura o arquivo primeiro lá
+  (e no `acervo/` local) e só baixa o que faltar.
+- `.gitignore` e as guardas de CI deste repo continuam: `acervo/pdf/*` e
+  `acervo/txt/*` nunca entram aqui.
 
-1. **Repositório privado à parte** (recomendado), p.ex. `mapadosorixas-acervo`,
-   clonado em `acervo/` ou baixado por sessão; o site continua público no Pages.
-2. **Tornar este repositório privado e assinar o GitHub Pro** (Pages de repo
-   privado). Atenção: o histórico já público pode ter sido clonado; o acervo só
-   deve entrar *depois* da troca de visibilidade. Então remover as linhas do
-   acervo no `.gitignore`.
-3. Manter como está (acervo efêmero, remontado por sessão).
+Situação em 2026-11-01: a anexação do `orixas-fontes` à sessão acervo2 foi negada
+pelo controle de permissões da sessão; a estrutura do repo privado e a carga das
+obras ficaram pendentes ([acervo-02](../docs/pesquisa/acervo-02.md); PENDENCIAS §1b).
 
 ## Estrutura
 
@@ -48,9 +50,11 @@ Para versionar o conteúdo, o autor escolhe uma saída (ver
 ## Como usar
 
 ```bash
-python3 scripts/baixar_refs.py                 # baixa o que falta e atualiza o índice
-python3 scripts/baixar_refs.py --so-converter  # depois de salvar um PDF à mão em acervo/pdf/<source_id>.pdf
-python3 scripts/anticopia.py                   # já compara com acervo/txt
+scripts/acervo_sync.sh pull                    # início: clona/atualiza ../orixas-fontes
+python3 scripts/baixar_refs.py                 # baixa o que falta e atualiza o índice no acervo
+python3 scripts/baixar_refs.py --so-converter  # depois de salvar um PDF à mão em <acervo>/pdf/<source_id>.pdf
+python3 scripts/anticopia.py                   # já compara com <acervo>/txt
+scripts/acervo_sync.sh push                    # fim: push dos textos novos no orixas-fontes
 ```
 
 O nome do arquivo é sempre o `source_id` do catálogo. Fonte que não baixar vai

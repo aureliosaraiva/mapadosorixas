@@ -86,7 +86,7 @@ O `scripts/baixar_refs.py` não obteve o texto destas fontes usadas no fichament
 
 | | Decisão | O que depende | Prioridade |
 |---|---|---|---|
-| 🔴 | **Onde versionar o acervo** | o repositório está **público** (exigência do Pages sem GitHub Pro), então os PDFs/textos **não foram commitados** (ficam no `.gitignore`; o CI falha se entrarem). Opções: (1) repositório privado à parte `mapadosorixas-acervo` (recomendado); (2) tornar este privado + GitHub Pro; (3) manter o acervo efêmero, remontado por sessão. O acervo hoje tem **322 MB** de PDF: se for versionado, usar Git LFS (não ativado) ou retirar os PDFs digitalizados grandes (Frobenius 55 MB, Johnson 48 MB) e manter só o `.txt` | **P1** |
+| 🟡 | **Onde versionar o acervo** | **decidido pelo autor (sessão acervo2, 2026-11-01): repositório PRIVADO `aureliosaraiva/orixas-fontes`** (`main`, push direto). Scripts deste repo já apontam para ele (`ACERVO_DIR`, padrão `../orixas-fontes`; `scripts/acervo_sync.sh pull/push`). **Bloqueio:** a anexação do repo à sessão (`add_repo`, access `push`) foi **negada pelo controle de permissões da sessão** — nada foi clonado nem enviado; privacidade não conferida. **Falta (autor):** liberar `mcp__claude-code-remote__add_repo` nas permissões (ou anexar o repo ao ambiente) e reabrir a tarefa: criar `pdf/`, `txt/`, `indice.json`, `INDICE.md`, `LEIAME.md`, `.gitattributes` e carregar as ~47 obras (~330 MB; Git LFS se algum PDF passar de 100 MB) ([acervo-02](acervo-02.md)) | **P1** |
 
 ## 2. Obras impressas ou pagas (precisam de exemplar)
 
