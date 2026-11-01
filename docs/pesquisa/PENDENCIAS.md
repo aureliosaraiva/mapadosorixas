@@ -125,7 +125,9 @@ Material pronto em [`docs/conselho/`](../conselho/). **Nenhuma pessoa ou institu
 | 🔴 | Confirmar vida e atividade dos marcados ❓ | Monique Augras, Norton F. Corrêa, Indira Mones Guevara, Juana Elbein dos Santos; falecimento de Rita Amaral é só inferido | P2 |
 | 🔴 | Conflito de interesse | Prandi e V. G. da Silva são as fontes mais citadas; decidir se revisam fichas que se baseiam na própria obra | P2 |
 | 🔴 | Termo de consentimento | revisão jurídica rápida (RGPD art. 9 / LGPD art. 11: religião é dado sensível); traduzir guia e termo para o espanhol | P2 |
-| 🔴 | Decisões da proposta de registro | aprovar `revisoes` por registro; critério para tirar o selo "Rascunho" (ficha inteira × atributo); aceitar ou não `comunicacao_pessoal` como fonte ([`proposta-registro-revisao.md`](../conselho/proposta-registro-revisao.md) §4) | P1 |
+| 🟡 | Decisões da proposta de registro | `revisoes` por registro **implementado** em 2026-11-01 ([`como-registrar-revisao.md`](../conselho/como-registrar-revisao.md)); falta o autor: (a) confirmar o critério do selo "Rascunho" (implementado: sai só quando **todas** as versões da ficha têm revisão vigente; alternativa: por atributo); (b) aceitar ou não `comunicacao_pessoal` como fonte ([`proposta-registro-revisao.md`](../conselho/proposta-registro-revisao.md) §4); (c) confirmar que `nao_publicar` vale mesmo com o registro alterado depois (implementado assim, por ser a opção conservadora) | P1 |
+| 🔴 | Primeiro revisor | cadastrar em `data/revisores.json` só depois do termo assinado; contatos e termo ficam fora do repo; seguir [`como-registrar-revisao.md`](../conselho/como-registrar-revisao.md) | P1 |
+| 🔴 | Página Créditos | gerar de `data/revisores.json` (sem anônimos nem quem revogou) quando houver o primeiro revisor (proposta, passo 6) | P3 |
 | 🔴 | Tombamentos não confirmados | Sítio de Pai Adão (Recife) e Tumba Junsara (Salvador): conferir no portal do IPHAN (junto com as datas do §3) | P3 |
 | 🔴 | Lacunas de diversidade | sem caminho institucional verificado para Umbanda (federação nacional), sacerdotisas lucumís e casas lucumís na Espanha; pedir indicação aos primeiros conselheiros | P2 |
 
@@ -133,6 +135,7 @@ Material pronto em [`docs/conselho/`](../conselho/). **Nenhuma pessoa ou institu
 
 | Data | Item | Como |
 |---|---|---|
+| 2026-11-01 | Registro da revisão (proposta, passos 1–3) | campo `revisoes` no fichamento, `data/revisores.json` (vazio) e `schemas/revisor.schema.json`, regras em `scripts/revisao.py` usadas pelo validador, pelo gerador e pelo QA do site; testes em `tests/` ([`como-registrar-revisao.md`](../conselho/como-registrar-revisao.md)) |
 | 2026-11-01 | `palo_monte` e `xango_sergipe` ganharam fonte; 7 tradições reforçadas; +7 termos no glossário (Regla de Ocha, Palo Monte, nfumbi, mpungu, cabildo, Xambá, abatá) | Halloy 2005, Pitta (1985), M. Ferretti (2001), S. Ferretti 2011, Oro 2012, Toutain 2019, Argyriadis 2005, Cerqueira 2015 ([tradicoes-02](tradicoes-02.md)) |
 | 2026-10-31 | Ferretti 2011, "Comida ritual em festas de Tambor de Mina" (antes atrás do Dialnet) | texto aberto no site da PUC Minas, achado pela DOAJ na varredura 3 |
 | 2026-10-31 | Coleta automatizada de metadados (antes impossível por bloqueio de API) | Crossref, Open Library, theses.fr, HAL e DOAJ respondem; `scripts/coleta/` ([relatório 3](relatorio-varredura-03.md)) |

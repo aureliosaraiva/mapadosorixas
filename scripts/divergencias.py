@@ -4,7 +4,8 @@
 Agrupa registros por (orixá, atributo) e lista os valores distintos com
 tradição, casa/região e fonte. Saída: data/fichamento/divergencias.json e,
 com --markdown, uma tabela em stdout.
-Só considera registros 'fichado' ou 'revisado' (lidos na fonte).
+Só considera registros 'fichado' ou 'revisado' (lidos na fonte) e publicáveis
+(sem parecer 'nao_publicar' do conselho; ver scripts/revisao.py).
 """
 import json
 import sys
@@ -12,6 +13,10 @@ from collections import defaultdict
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(RAIZ / "scripts"))
+import revisao  # noqa: E402
+
+REVISORES = revisao.por_id(revisao.carregar_revisores(RAIZ))
 ATRS = {"dia_semana", "cores", "sincretismo", "festas", "parentesco", "origem", "elementos", "qualidades", "simbolos", "itans", "equivalencias"}
 
 
@@ -21,7 +26,7 @@ def main():
         if p.name == "divergencias.json":
             continue
         for r in json.loads(p.read_text(encoding="utf-8"))["registros"]:
-            if r["status"] in ("fichado", "revisado") and r["atributo"] in ATRS:
+            if revisao.publicavel(r, REVISORES) and r["atributo"] in ATRS:
                 grupos[(r["orixa"], r["atributo"])].append(r)
     saida = []
     for (o, a), regs in sorted(grupos.items()):

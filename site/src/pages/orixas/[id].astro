@@ -6,7 +6,7 @@ import TextoGlossario from '../../components/TextoGlossario.astro';
 import {
   fichas, fontePorId, divergencias, conexoes, ORDEM_ATRIBUTOS, rotuloAtributo, autorCurto,
   tradicoesDaFicha, totalVersoes, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, url,
-  marcarGlossario, termoPorId,
+  marcarGlossario, termoPorId, linhaRevisao, fichaRevisada, versoesRevisadas,
 } from '../../lib/dados.js';
 import { elementosCytoscape, vizinhanca, FORMA_NO, CORES_ARESTA, ROTULO_LINHA } from '../../lib/grafo.js';
 
@@ -48,11 +48,15 @@ const tiposArestaMini = [...new Set(viz.arestas.map((e) => e.tipo))];
 const pend = ficha.pendencias;
 const preFich = Object.entries(pend.so_pre_fichamento);
 const retidos = Object.entries(pend.retidos_ate_conselho);
+const revisada = fichaRevisada(ficha);
+const nRevisadas = versoesRevisadas(ficha);
 ---
 <Base titulo={ficha.rotulo} descricao={`Ficha de ${ficha.rotulo}: versões por tradição, com fonte, página e divergências.`} indexar>
   <p><a href={url('catalogo')}>← Catálogo</a></p>
   <h1>{ficha.rotulo}</h1>
-  <Selo />
+  {revisada
+    ? <p class="selo-revisado" role="note">Todas as versões desta ficha foram revisadas por praticantes ou pesquisadores, cada uma em nome da sua tradição. Quem revisou e quando aparece abaixo de cada versão.</p>
+    : <Selo />}
 
   <p>{totalVersoes(ficha)} versões, cada uma com nota para a fonte (autor, ano e página). Quando há mais de uma versão para o mesmo atributo, todas são mostradas, com a tradição e a casa ou região indicadas pela fonte, <strong>sem hierarquia entre elas</strong>.</p>
   <p><strong>Tradições citadas:</strong> <Tradicoes ids={tradicoesDaFicha(ficha)} link /> (<a href={url('tradicoes')}>o que é cada tradição</a>)</p>
@@ -85,6 +89,11 @@ const retidos = Object.entries(pend.retidos_ate_conselho);
               </div>
               <p><TextoGlossario partes={marcado[v.registro].parafrase} /></p>
               {v.nota && <p class="nota"><strong>Nota do fichamento:</strong> <TextoGlossario partes={marcado[v.registro].nota} /></p>}
+              {v.revisoes && (
+                <ul class="revisoes" aria-label="Revisões desta versão">
+                  {v.revisoes.map((rv) => <li class="revisao" data-parecer={rv.parecer}>{linhaRevisao(rv)}</li>)}
+                </ul>
+              )}
             </li>
           );
         })}
@@ -178,10 +187,10 @@ const retidos = Object.entries(pend.retidos_ate_conselho);
       <dd>{pend.sem_registro.length ? pend.sem_registro.map(rotuloAtributo).join(', ') : '—'}</dd>
       <dt><strong>Só em pré-fichamento</strong> (afirmação localizada, mas a fonte ainda não foi lida no original; fica fora da ficha)</dt>
       <dd>{preFich.length ? preFich.map(([a, ids]) => `${rotuloAtributo(a)} (${ids.join(', ')})`).join('; ') : '—'}</dd>
-      <dt><strong>Retidos até decisão do conselho</strong> (fichados, mas não exibidos por envolverem tabus ou alimentos rituais)</dt>
+      <dt><strong>Retidos até decisão do conselho</strong> (fichados, mas não exibidos: tabus e alimentos rituais, ou registros que um revisor pediu para não publicar)</dt>
       <dd>{retidos.length ? retidos.map(([a, ids]) => `${rotuloAtributo(a)}: ${ids.length} registro(s)`).join('; ') : '—'}</dd>
       <dt><strong>Revisão por praticantes e pesquisadores</strong></dt>
-      <dd>{ficha.revisao.length ? `${ficha.revisao.length} revisão(ões) registradas` : 'Ainda não revisada.'}</dd>
+      <dd id="estado-revisao">{nRevisadas ? `${nRevisadas} de ${totalVersoes(ficha)} versões com revisão vigente, por ${ficha.revisao.length} combinação(ões) de revisor e tradição.` : 'Ainda não revisada.'}</dd>
     </dl>
   </section>
 

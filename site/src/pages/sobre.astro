@@ -1,12 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import {
-  fichas, fontes, usoDasFontes, glossario, tradicoes, conexoes, registros, url,
+  fichas, fontes, usoDasFontes, glossario, tradicoes, conexoes, registros, url, versoesRevisadas,
 } from '../lib/dados.js';
 
 const REPO = 'https://github.com/aureliosaraiva/mapadosorixas';
 const fontesCitadas = Object.keys(usoDasFontes).length;
-const revisados = registros.filter((r) => r.status === 'revisado').length;
+// versões com revisão vigente (status efetivo gerado por scripts/gerar_fichas.py)
+const revisados = fichas.reduce((n, f) => n + versoesRevisadas(f), 0);
 ---
 <Base titulo="Sobre e créditos" descricao="O que é o Mapa dos Orixás, em que estado está, como sugerir correções e créditos das fontes.">
   <h1>Sobre e créditos</h1>
@@ -42,7 +43,7 @@ const revisados = registros.filter((r) => r.status === 'revisado').length;
     <li><strong>Fichas:</strong> {fichas.length} orixás do MVP ({fichas.map((f) => f.rotulo).join(', ')}). A meta seguinte é chegar a cerca de 15 orixás cultuados no Brasil.</li>
     <li><strong>Grafo:</strong> {conexoes.nos.length} nós e {conexoes.arestas.length} conexões com fonte.</li>
     <li><strong>Glossário:</strong> {glossario.length} termos; <strong>Tradições:</strong> {tradicoes.length}, das quais {tradicoes.filter((t) => t.status === 'com_fonte').length} com descrição com fonte.</li>
-    <li><strong>Revisão:</strong> {revisados} registros revisados até agora. O conselho consultivo ainda está em formação.</li>
+    <li><strong>Revisão:</strong> {revisados} versões revisadas até agora. O conselho consultivo ainda está em formação.</li>
     <li><strong>Idiomas:</strong> só português do Brasil por enquanto; espanhol e inglês estão previstos.</li>
   </ul>
 

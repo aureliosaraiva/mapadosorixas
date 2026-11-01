@@ -53,16 +53,15 @@
     },
     "revisao": {
       "type": "array",
-      "description": "Aprovações do conselho (Fase 4): quem, quando, tradição; nome público só com consentimento.",
+      "description": "Gerado por scripts/gerar_fichas.py a partir das revisões vigentes dos registros publicados: uma entrada por revisor e tradição, com a data mais recente. Sem dados pessoais: o crédito público vem de data/revisores.json.",
       "items": {
         "type": "object",
-        "required": ["revisor", "data", "tradicao"],
+        "required": ["revisor_id", "tradicao", "data", "versoes"],
         "properties": {
-          "revisor": { "type": "string" },
+          "revisor_id": { "type": "string", "pattern": "^rev-[0-9]{3}$" },
+          "tradicao": { "type": "string", "pattern": "^[a-z_]+$" },
           "data": { "type": "string", "format": "date" },
-          "tradicao": { "type": "string" },
-          "nome_publico": { "type": "boolean" },
-          "observacoes": { "type": ["string", "null"] }
+          "versoes": { "type": "integer", "minimum": 1, "description": "quantas versões publicadas da ficha essa pessoa revisou nessa tradição" }
         },
         "additionalProperties": false
       }

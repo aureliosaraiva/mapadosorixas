@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "descricao": "Cadastro público de revisores do conselho consultivo. Só o que o termo de consentimento autoriza; contatos, termos assinados e a identidade de revisores anônimos ficam FORA do repositório, com o autor.",
+    "esquema": "schemas/revisor.schema.json",
+    "como_registrar": "docs/conselho/como-registrar-revisao.md",
+    "aviso": "Lista vazia: nenhum revisor aceitou ainda. Não inserir exemplos aqui — o exemplo fica só na documentação."
+  },
+  "revisores": []
+}

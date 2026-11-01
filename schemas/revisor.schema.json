@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/revisor.schema.json",
+  "title": "Revisor do conselho consultivo (cadastro público)",
+  "description": "Uma entrada de data/revisores.json. Contém APENAS o que o termo de consentimento autoriza (docs/conselho/kit-revisao.md §3). Nunca guardar e-mail, telefone, endereço, o termo assinado nem, para anônimos, a ligação entre o pseudônimo e a pessoa: isso fica fora do repositório, com o autor. Regras de crédito conferidas por scripts/revisao.py (validar_revisores).",
+  "type": "object",
+  "required": ["id", "credito", "nome_publico", "descricao_publica", "tipo", "tradicoes", "consentimento"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^rev-[0-9]{3}$", "description": "pseudônimo estável, usado em revisoes[].revisor_id" },
+    "credito": {
+      "enum": ["nome_e_tradicao", "so_nome", "generico", "anonimo"],
+      "description": "opção marcada no termo. nome_e_tradicao: nome_publico + descricao_publica; so_nome: só nome_publico; generico: só descricao_publica (ex.: 'iyalorixá de nação Ketu, Salvador'); anonimo: os dois null e o site mostra 'revisor/a anônimo/a'"
+    },
+    "nome_publico": { "type": ["string", "null"], "minLength": 1 },
+    "descricao_publica": { "type": ["string", "null"], "minLength": 1 },
+    "tipo": { "enum": ["praticante", "pesquisador", "ambos"] },
+    "tradicoes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z_]+$" },
+      "description": "ids de data/tradicoes.json em nome das quais a pessoa revisa; uma revisão só vale para essas tradições"
+    },
+    "consentimento": {
+      "type": "object",
+      "required": ["versao_termo", "data", "revogado_em"],
+      "properties": {
+        "versao_termo": { "type": "string", "minLength": 1 },
+        "data": { "type": "string", "format": "date", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "revogado_em": { "type": ["string", "null"], "format": "date", "description": "ao revogar: preencher e zerar nome_publico/descricao_publica; as revisões continuam valendo como anônimas" },
+        "remover_revisoes": { "type": "boolean", "description": "só com revogado_em: a pessoa pediu que as revisões dela sejam removidas dos registros (o validador então aceita a remoção)" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

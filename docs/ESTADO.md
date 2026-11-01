@@ -2,11 +2,11 @@
 
 > Arquivo de passagem entre sessões. **Toda sessão começa lendo este arquivo e termina atualizando-o.** Mantenha-o curto, com no máximo uma página: o detalhe fica nos relatórios linkados.
 
-**Última atualização:** 2026-11-01 (sessões trad02, fichamento-06 e fichamento-07)
+**Última atualização:** 2026-11-01 (sessões trad02, fichamento-06, fichamento-07 e revisao)
 
 ## Onde estamos
 
-**Fase 1 — Levantamento e fichamento** (em andamento), **Fase 2 — Modelo de dados** (iniciada: esquemas, fichas geradas e grafo) e **Fase 5 — Site estático: protótipo feito** (`site/`, Astro + Cytoscape.js + Pagefind; compila no CI, sem deploy). Ver [`PLANO.md`](PLANO.md). **Fase 4 — Conselho: preparação feita** ([`conselho/`](conselho/): candidatos, kit do revisor, proposta do campo `revisao`); contato e convites dependem do autor. Fases 3, 6 e 7 ainda não começaram.
+**Fase 1 — Levantamento e fichamento** (em andamento), **Fase 2 — Modelo de dados** (iniciada: esquemas, fichas geradas e grafo) e **Fase 5 — Site estático: protótipo feito** (`site/`, Astro + Cytoscape.js + Pagefind; compila no CI, sem deploy). Ver [`PLANO.md`](PLANO.md). **Fase 4 — Conselho: preparação feita** ([`conselho/`](conselho/): candidatos, kit do revisor, proposta do campo `revisao`) e **registro da revisão implementado** (passos 1–3 da proposta; [`conselho/como-registrar-revisao.md`](conselho/como-registrar-revisao.md)); contato e convites dependem do autor. Fases 3, 6 e 7 ainda não começaram.
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
@@ -21,6 +21,7 @@
 | Anti-cópia | 0 erros, também contra o texto das 8 obras lidas na rodada do glossário, das 8 lidas na trad02 e das 10 do fichamento-06 e das 3 do fichamento-07 (15 trechos novos reescritos); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
 | Site (`site/`) | 14 páginas: início com busca, catálogo, 5 fichas (com mini-grafo e termos do glossário ligados), grafo, tradições, glossário, fontes, metodologia, baixar dados, sobre (+ 12 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
 | QA do site | 284/284 versões batem com `data/orixas`; 54/54 termos do glossário e 19/19 tradições conferidos contra os dados (fontes, ano e página); texto das 3 tradições sem fonte ausente do site; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1760 links e âncoras internos sem 404; axe-core sem violações (14 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
+| Revisão do conselho | 0 revisores em `data/revisores.json`, 0 revisões; 37 testes (`tests/test_revisao.py`) e teste ponta a ponta com dados sintéticos numa cópia temporária (`tests/e2e_revisao_site.py`) | `python3 -m unittest discover -s tests`; `python3 tests/e2e_revisao_site.py` |
 | Idiomas no catálogo | pt 159 · en 94 · fr 36 · es 18 · de 6 · it 2 · yo 1 | — |
 
 Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 34.
@@ -36,7 +37,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 5. **Fase 2 (restante):** as 3 tradições sem fonte (Arará, Orisha de Trinidad e o rótulo `benim`) e o reforço de Efon (Lima 2014) e os termos pendentes do glossário. Dependem de Barnet 1995, Cabrera 1954 e de uma obra sobre o Orisha de Trinidad. Dantas 1988 ampliaria o Xangô de Sergipe, que hoje só tem descrição mínima; Mones 2024 e Arango 2018 estão bloqueados neste ambiente → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md). *(Tradições com fonte (13) e glossário (47 termos): feitos em 2026-10-31, ver [`fichamento-05`](pesquisa/fichamento-05.md). Sessão trad02 (2026-11-01): 15 tradições com fonte e 54 termos, ver [`tradicoes-02`](pesquisa/tradicoes-02.md).)*
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
 7. **Site (Fase 5, restante):** versões es/en (Fase 7). *(Mini-grafo, Baixar dados, QA, e — na sessão site2 — páginas Glossário, Tradições e Sobre/Créditos com termos ligados nas fichas: feitos em 2026-10-31.)* Deploy, domínio, licenças e texto final dos créditos dependem do autor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
-8. **Conselho consultivo:** o autor contata os candidatos ([`conselho/candidatos.md`](conselho/candidatos.md): 29 pesquisadores e caminhos institucionais para praticantes) com os modelos de [`conselho/kit-revisao.md`](conselho/kit-revisao.md). Antes da primeira revisão, implementar os passos 1–3 de [`conselho/proposta-registro-revisao.md`](conselho/proposta-registro-revisao.md) (campo `revisoes` por registro, `revisores.json`, regras no validador) → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3c. *(Preparação: feita em 2026-10-31.)*
+8. **Conselho consultivo:** o autor contata os candidatos ([`conselho/candidatos.md`](conselho/candidatos.md): 29 pesquisadores e caminhos institucionais para praticantes) com os modelos de [`conselho/kit-revisao.md`](conselho/kit-revisao.md). A primeira revisão segue [`conselho/como-registrar-revisao.md`](conselho/como-registrar-revisao.md). Falta decidir o critério do selo e `comunicacao_pessoal`; a página Créditos fica para quando houver o primeiro revisor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3c. *(Preparação: feita em 2026-10-31. Passos 1–3 da proposta — campo `revisoes`, `data/revisores.json`, regras no validador, gerador e site prontos para exibir revisões, QA e testes: feitos em 2026-11-01, sessão revisao.)*
 
 **Sugestões da sessão trad02:**
 - ~~**(P1)** Encaminhar ao fichamento as afirmações do §4 de [`tradicoes-02`](pesquisa/tradicoes-02.md)~~: feito no fichamento-06 (39 registros; Oro 2012 e o mito do balé ficaram de fora, ver adendo do [relatório](pesquisa/fichamento-06.md)). Em Halloy, página impressa = PDF − 1, e não = PDF.
@@ -81,7 +82,7 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 - **Equivalência vodum × orixá (fichamento-07):** vale para a casa que a fonte descreve (`casa_ou_regiao`), nunca como identidade. No grafo, só o santo do próprio orixá vira aresta de sincretismo; os santos dos voduns correspondentes ficam no `valor`. Panteão que a fonte lida resume de outro autor (Prandi resumindo S. Ferretti) leva `source_id` do autor resumido e `via_source_id` da fonte lida.
 - **Anti-cópia com referências:** ao ler uma obra, salvar o `.txt` fora do repo e rodar `ANTICOPIA_REFS=<pasta> python3 scripts/anticopia.py`. A checagem sem referências não pega cópia de obra.
 
-- **Conselho (proposta, não implementada):** a aprovação fica no **registro de fichamento** (`revisoes`: revisor, data, tradição, parecer, hash do registro), não na ficha gerada; aprovação vale só para a tradição de quem revisou; `contestado` não apaga versão; `nao_publicar` retira da ficha pública. Nome de revisor só com termo de consentimento; contatos e termos assinados ficam fora do repositório. Praticantes são procurados **por instituição** (terreiro tombado, federação, núcleo universitário), nunca listados por nome.
+- **Conselho (implementado, sessão revisao):** a aprovação fica no **registro de fichamento** (`revisoes`: revisor, data, tradição, parecer, aspectos, hash do registro), não na ficha gerada; aprovação vale só para a tradição que esteja no registro **e** no cadastro do revisor; `revisado` exige aprovação vigente (hash atual), e revisão desatualizada volta a `fichado` na geração; `contestado` não apaga versão; `nao_publicar` retira da ficha pública (vai para `retidos_ate_conselho`, também fora do grafo e das divergências), mesmo com hash antigo; revisões só se acrescentam (checado contra `--base`, no CI o commit anterior). Cadastro em `data/revisores.json`, não em `data/conselho/`, só com o crédito autorizado; contatos e termos assinados ficam fora do repositório. A versão gerada só ganha `revisoes` quando há revisão, então os dados sem revisão não mudaram. Selo "Rascunho" sai só quando **todas** as versões da ficha estão revisadas (a confirmar com o autor). Regras em `scripts/revisao.py`; o crédito exibido é calculado igual em `site/src/lib/dados.js`. Praticantes são procurados **por instituição** (terreiro tombado, federação, núcleo universitário), nunca listados por nome.
 
 ## Sessões em paralelo
 
@@ -111,9 +112,11 @@ Registros por orixá: Exu 93 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 | `data/entidades_equivalentes.json` | voduns, inquices etc. (gerado; esquema `schemas/entidade.schema.json`) |
 | `data/tradicoes.json` | tradições (esquema `schemas/tradicao.schema.json`) |
 | `data/glossario.json` | glossário (esquema `schemas/glossario.schema.json`) |
+| `data/revisores.json` | cadastro público de revisores (vazio; esquema `schemas/revisor.schema.json`) |
+| `tests/` | testes da revisão com fixtures sintéticas (`python3 -m unittest discover -s tests`) e ponta a ponta (`e2e_revisao_site.py`) |
 | `scripts/` | validação e geração; `qa_site.py` confere o site gerado |
 | `site/` | protótipo do site (Astro); ver `site/README.md` |
-| `docs/conselho/` | Fase 4: candidatos a revisor, kit do revisor (guia, sigilo, termo, convites pt/es), proposta de registro da revisão |
+| `docs/conselho/` | Fase 4: candidatos a revisor, kit do revisor (guia, sigilo, termo, convites pt/es), proposta de registro da revisão e passo a passo para registrar uma revisão |
 | `docs/screenshots/` | capturas das páginas principais (`site/scripts/screenshots.cjs`) |
 
 ## Pedido de abertura sugerido

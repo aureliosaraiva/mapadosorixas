@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Ref from '../components/Ref.astro';
 import {
   fontes, registros, fichas, divergencias, conexoes, tradicoes, tradicoesMeta, ROTULO_GRUPO,
-  usoDasFontes, totalVersoes, url,
+  usoDasFontes, totalVersoes, url, versoesRevisadas, fichaRevisada,
 } from '../lib/dados.js';
 
 const contar = (lista, campo) => lista.reduce((c, x) => ((c[x[campo]] = (c[x[campo]] || 0) + 1), c), {});
@@ -15,6 +15,8 @@ const retidos = fichas.flatMap((f) => Object.entries(f.pendencias.retidos_ate_co
 const preFich = stR.pre_fichamento || 0;
 const segundaMao = registros.filter((r) => r.via_source_id && r.status === 'fichado').length;
 const repo = 'https://github.com/aureliosaraiva/mapadosorixas';
+const nRevisadas = fichas.reduce((n, f) => n + versoesRevisadas(f), 0);
+const fichasRevisadas = fichas.filter(fichaRevisada).length;
 ---
 <Base titulo="Metodologia e limitações" descricao="Como os dados do Mapa dos Orixás são levantados, conferidos e exibidos, e quais são os limites." indexar>
   <h1>Metodologia e limitações</h1>
@@ -94,7 +96,10 @@ const repo = 'https://github.com/aureliosaraiva/mapadosorixas';
   <p>Parte do conhecimento religioso é reservada a iniciados. O projeto <strong>não detalha tabus nem alimentos rituais</strong> até que o conselho consultivo decida o que pode ser público. Hoje {retidos.length} registros desse tipo já estão fichados, mas ficam fora das fichas (retidos até decisão do conselho). Cada ficha informa quantos estão retidos, sem mostrar o conteúdo. Notas como “não detalhar ritos” acompanham registros etnográficos gerais.</p>
 
   <h2 id="revisao">7. Revisão pendente</h2>
-  <p>Nenhuma ficha foi revisada ainda. Antes de publicar, cada ficha deve passar por praticantes (babalorixás, iyalorixás) e pesquisadores, reunidos num conselho consultivo ainda a formar. Até lá, todas as fichas trazem o selo “Rascunho — aguardando revisão de praticantes e pesquisadores”. Nenhum registro está hoje com status “revisado”.</p>
+  <p>Antes de publicar, cada ficha deve passar por praticantes (babalorixás, iyalorixás) e pesquisadores, reunidos num conselho consultivo ainda a formar. A revisão é registrada por versão e vale só para a tradição de quem revisou; uma contestação não apaga a versão, fica exibida ao lado dela. Enquanto alguma versão de uma ficha não tiver revisão, a ficha traz o selo “Rascunho — aguardando revisão de praticantes e pesquisadores”.</p>
+  <p>{nRevisadas === 0
+    ? 'Nenhuma ficha foi revisada ainda: nenhuma versão tem revisão registrada.'
+    : `Hoje ${nRevisadas} de ${versoes} versões têm revisão vigente; ${fichasRevisadas} de ${fichas.length} fichas estão inteiramente revisadas.`}</p>
 
   <h2 id="limitacoes">Limitações</h2>
   <ul>

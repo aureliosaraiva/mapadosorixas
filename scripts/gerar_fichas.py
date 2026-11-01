@@ -10,6 +10,11 @@ Regras:
   várias versões do mesmo atributo, sem hierarquia.
 - Atributos em RETIDOS (tabus, alimentos) ficam fora da ficha pública até
   decisão do conselho consultivo; são listados em pendencias.
+- Revisão (scripts/revisao.py): a versão leva o status EFETIVO ('revisado' só
+  com aprovação vigente) e, quando houver, `revisoes` com o resumo das revisões
+  vigentes, sem dados pessoais. 'contestado' não remove a versão; 'nao_publicar'
+  a tira da ficha pública e a lista em pendencias.retidos_ate_conselho. O campo
+  `revisao` da ficha agrega revisor × tradição.
 - Arestas do grafo vêm do mapa manual data/conexoes_alvos.json (leitura
   estruturada do 'valor' de registros de parentesco/equivalencias/sincretismo).
 
@@ -22,6 +27,10 @@ from collections import Counter
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(RAIZ / "scripts"))
+import revisao  # noqa: E402
+
+REVISORES = revisao.por_id(revisao.carregar_revisores(RAIZ))
 SCHEMA_FICH = json.loads((RAIZ / "schemas" / "fichamento.schema.json").read_text(encoding="utf-8"))
 ATRIBUTOS = SCHEMA_FICH["properties"]["atributo"]["enum"]
 ORIXAS = SCHEMA_FICH["properties"]["orixa"]["enum"]
@@ -42,8 +51,9 @@ def escrever(p, dados):
     p.write_text(json.dumps(dados, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def versao(r, tradicoes=None):
-    return {
+def versao(r, tradicoes=None, revisores=None):
+    revisores = REVISORES if revisores is None else revisores
+    v = {
         "valor": r["valor"],
         "tradicoes": tradicoes or r["tradicoes"],
         "casa_ou_regiao": r.get("casa_ou_regiao"),
@@ -54,11 +64,29 @@ def versao(r, tradicoes=None):
         "parafrase": r["parafrase"],
         "nota": r.get("nota"),
         "registro": r["id"],
-        "status": r["status"],
+        "status": revisao.status_efetivo(r, revisores),
     }
+    resumo = revisao.resumo_publico(r, revisores)
+    if resumo:  # sem revisão, a versão fica igual à de antes do campo existir
+        v["revisoes"] = resumo
+    return v
 
 
-def gerar_ficha(orixa, regs):
+def agregar_revisao(atributos):
+    """Uma entrada por revisor × tradição, com a data mais recente."""
+    agg = {}
+    for vs in atributos.values():
+        for v in vs:
+            for rv in v.get("revisoes", []):
+                e = agg.setdefault((rv["revisor"], rv["tradicao"]),
+                                   {"revisor_id": rv["revisor"], "tradicao": rv["tradicao"], "data": rv["data"], "versoes": 0})
+                e["data"] = max(e["data"], rv["data"])
+                e["versoes"] += 1
+    return sorted(agg.values(), key=lambda e: (e["revisor_id"], e["tradicao"]))
+
+
+def gerar_ficha(orixa, regs, revisores=None):
+    revisores = REVISORES if revisores is None else revisores
     usados = [r for r in regs if r["status"] in STATUS_OK]
     pre = [r for r in regs if r["status"] not in STATUS_OK]
     atributos, retidos = {}, {}
@@ -68,8 +96,14 @@ def gerar_ficha(orixa, regs):
             continue
         if a in RETIDOS:
             retidos[a] = [r["id"] for r in doa]
-        else:
-            atributos[a] = [versao(r) for r in doa]
+            continue
+        # parecer nao_publicar: fica fora da ficha pública, mas listado (não apagado)
+        fora = [r["id"] for r in doa if not revisao.publicavel(r, revisores)]
+        if fora:
+            retidos[a] = fora
+        pub = [versao(r, revisores=revisores) for r in doa if revisao.publicavel(r, revisores)]
+        if pub:
+            atributos[a] = pub
     com_registro = {r["atributo"] for r in regs}
     so_pre = {}
     for a in ATRIBUTOS:
@@ -92,7 +126,7 @@ def gerar_ficha(orixa, regs):
             "so_pre_fichamento": so_pre,
             "retidos_ate_conselho": retidos,
         },
-        "revisao": [],
+        "revisao": agregar_revisao(atributos),
     }
 
 
@@ -107,6 +141,9 @@ def gerar_conexoes(todos):
         if r["status"] not in STATUS_OK:
             if r["id"] in por_reg:
                 avisos.append(f"{r['id']}: está no mapa mas é '{r['status']}' — ignorado")
+            continue
+        if not revisao.publicavel(r, REVISORES):
+            avisos.append(f"{r['id']}: parecer nao_publicar — fora do grafo")
             continue
         if r["id"] not in por_reg:
             avisos.append(f"{r['id']}: sem_mapa (registro de {r['atributo']} sem entrada em data/conexoes_alvos.json)")

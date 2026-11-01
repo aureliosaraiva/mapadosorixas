@@ -10,14 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install jsonschema
       - name: Fontes
         run: python3 scripts/validar_fontes.py
-      - name: Fichamento
-        run: python3 scripts/validar_fichamento.py
+      - name: Fichamento e revisões (histórico das revisões contra o commit anterior ao push/PR)
+        run: |
+          BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
+          git cat-file -e "$BASE^{commit}" 2>/dev/null || BASE="HEAD~1"
+          git cat-file -e "$BASE^{commit}" 2>/dev/null || BASE="HEAD"
+          python3 scripts/validar_fichamento.py --base "$BASE"
+      - name: Testes da revisão (fixtures sintéticas)
+        run: python3 -m unittest discover -s tests -v
       - name: Fichas, grafo, entidades e tradições (inclui checar se estão em dia com o fichamento)
         run: python3 scripts/validar_fichas.py
       - name: Divergências em dia
@@ -42,5 +50,7 @@ jobs:
       - run: npm ci
       - name: Build do site (Astro + Pagefind)
         run: npm run build
-      - name: QA do site (versões x data/orixas, pré-fichamento/retidos, selo, links e âncoras, downloads)
+      - name: QA do site (versões x data/orixas, pré-fichamento/retidos, selo, revisão, links e âncoras, downloads)
         run: python3 ../scripts/qa_site.py
+      - name: Revisão ponta a ponta (dados sintéticos numa cópia temporária → build → QA)
+        run: python3 ../tests/e2e_revisao_site.py

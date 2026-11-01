@@ -1,6 +1,6 @@
 # Proposta: como registrar a aprovação do conselho nos dados
 
-> **Só proposta.** Nenhum esquema, script ou dado foi alterado. Implementar depende do autor e deve ser feito numa sessão própria da Fase 2/4, que mexe em `schemas/`, `scripts/` e `data/`.
+> **Passos 1–3 implementados em 2026-11-01**, com o gerador e o site já preparados para exibir revisões (parte dos passos 4–6). Ver o passo a passo em [`como-registrar-revisao.md`](como-registrar-revisao.md). Diferença em relação ao texto abaixo: o cadastro ficou em `data/revisores.json`, não em `data/conselho/revisores.json`. Continuam pendentes a página Créditos e a decisão sobre `comunicacao_pessoal` (parte 4). O texto abaixo é a proposta original, mantida como registro.
 
 ## Situação atual
 

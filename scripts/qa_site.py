@@ -11,7 +11,9 @@ Confere, sem rede e só com a biblioteca padrão:
    arquivo publicado (HTML, JSON, TXT): paráfrase, nota e valor (quando o valor
    não coincide com o de um registro publicável). Os ids desses registros só podem
    aparecer na seção "Pendências" das fichas e no campo `pendencias` dos JSON.
-3. Selo de rascunho em todas as fichas e `noindex` em todas as páginas.
+3. Selo de rascunho em toda ficha que tenha alguma versão sem revisão vigente
+   (sem selo, e com o aviso de ficha revisada, só quando TODAS as versões estão
+   'revisado'); `noindex` em todas as páginas.
 4. Links internos (href/src) apontam para arquivos existentes e âncoras (#id)
    existentes na página de destino.
 5. /dados/: cópias idênticas a data/ (exceto tradicoes.json, que só pode perder
@@ -27,6 +29,12 @@ Confere, sem rede e só com a biblioteca padrão:
    Fichas e catálogo linkam para a página Tradições.
 8. Sobre: canal de contribuição pelas issues do repositório, link para Fontes,
    aviso de que licenças, domínio e autoria dependem do autor e nenhum e-mail.
+9. Revisão do conselho: cada versão mostra exatamente as linhas "Revisado por …
+   (tradição) em …" / "Contestado por …" das suas `revisoes`, com o crédito que o
+   consentimento permite (scripts/revisao.py: quem, linha_credito); versão sem
+   revisão não mostra nenhuma; o estado da revisão na seção Pendências bate com
+   os dados; data/revisores.json não é publicado em /dados/; revisores anônimos
+   ou que revogaram o consentimento não aparecem por nome em nenhuma página.
 
 Uso: python3 scripts/qa_site.py [--dist site/dist]
 Respeita SITE_BASE (o mesmo do build) para resolver links absolutos.
@@ -42,6 +50,11 @@ from urllib.parse import unquote, urlsplit
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
+sys.path.insert(0, str(RAIZ / "scripts"))
+import revisao  # noqa: E402
+
+REVISORES = revisao.por_id(revisao.carregar_revisores(RAIZ))
+NOME_TRAD = {t["id"]: t["nome"] for t in json.loads((DATA / "tradicoes.json").read_text(encoding="utf-8"))["tradicoes"]}
 SELO = "Rascunho — aguardando revisão de praticantes e pesquisadores"
 VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 
@@ -159,8 +172,19 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
             continue
         doc = parse(arq)
         selo = doc.primeiro("p", "selo")
-        if selo is None or SELO not in norm(selo.texto()):
-            erro(f"[selo] {oid}: selo de rascunho ausente")
+        versoes = [v for vs in ficha["atributos"].values() for v in vs]
+        n_rev = sum(v["status"] == "revisado" for v in versoes)
+        if versoes and n_rev == len(versoes):
+            if selo is not None:
+                erro(f"[selo] {oid}: todas as versões revisadas, mas o selo de rascunho continua")
+            if doc.primeiro("p", "selo-revisado") is None:
+                erro(f"[selo] {oid}: falta o aviso de ficha revisada")
+        elif selo is None or SELO not in norm(selo.texto()):
+            erro(f"[selo] {oid}: selo de rascunho ausente ({n_rev}/{len(versoes)} versões revisadas)")
+        estado = doc.primeiro("dd", id="estado-revisao")
+        esperado_estado = f"{n_rev} de {len(versoes)} versões" if n_rev else "Ainda não revisada."
+        if estado is None or esperado_estado not in norm(estado.texto()):
+            erro(f"[revisão] {oid}: estado da revisão em Pendências não diz '{esperado_estado}'")
 
         esperadas = {v["registro"]: (a, v) for a, vs in ficha["atributos"].items() for v in vs}
         notas = {}
@@ -190,6 +214,10 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
             ps = [norm(p.texto()) for p in li.busca("p") if "nota" not in p.classes()]
             if norm(v["parafrase"]) not in ps:
                 erro(f"[versão] {oid}/{reg}: paráfrase difere do JSON")
+            esperadas_rev = [revisao.linha_credito(rv, REVISORES, lambda x: NOME_TRAD.get(x, x)) for rv in v.get("revisoes", [])]
+            vistas_rev = [norm(x.texto()) for x in li.busca("li", "revisao")]
+            if vistas_rev != [norm(x) for x in esperadas_rev]:
+                erro(f"[revisão] {oid}/{reg}: revisões exibidas {vistas_rev} ≠ esperadas {esperadas_rev}")
             nota_fich = li.primeiro("p", "nota")
             if (v.get("nota") or None) and (nota_fich is None or norm(v["nota"]) not in norm(nota_fich.texto())):
                 erro(f"[versão] {oid}/{reg}: nota do fichamento ausente ou diferente")
@@ -596,6 +624,32 @@ def conferir_sobre(dist: Path) -> None:
             erro(f"[sobre] e-mail exposto em {pag.relative_to(dist)}")
 
 
+# ----------------------------------------------------------------- 9: revisão (privacidade)
+
+def conferir_revisores(dist: Path) -> int:
+    if (dist / "dados" / "revisores.json").exists():
+        erro("[revisão] data/revisores.json não deve ser publicado em /dados/")
+    # nomes que NÃO podem aparecer: só existem se alguém errar o cadastro (o
+    # validador já exige null), mas o QA confere o site publicado mesmo assim
+    proibidos = []
+    for r in REVISORES.values():
+        cons = r.get("consentimento") or {}
+        if cons.get("revogado_em") or r.get("credito") == "anonimo":
+            proibidos += [x for x in (r.get("nome_publico"), r.get("descricao_publica")) if x]
+        elif r.get("credito") == "so_nome" and r.get("descricao_publica"):
+            proibidos.append(r["descricao_publica"])
+        elif r.get("credito") == "generico" and r.get("nome_publico"):
+            proibidos.append(r["nome_publico"])
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        txt = norm(re.sub(r"<[^>]+>", " ", pag.read_text(encoding="utf-8")))
+        for x in proibidos:
+            if norm(x) in txt:
+                erro(f"[revisão] {pag.relative_to(dist)}: crédito não autorizado pelo consentimento aparece no site")
+    return len(REVISORES)
+
+
 def main():
     dist = RAIZ / "site" / "dist"
     if "--dist" in sys.argv:
@@ -610,11 +664,14 @@ def main():
     ntermos, nligados = conferir_glossario(dist, fontes)
     ntrad, nrasc = conferir_tradicoes(dist, fontes)
     conferir_sobre(dist)
+    nrevisores = conferir_revisores(dist)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
+    nrev_vers = sum(1 for f in fichas.values() for vs in f["atributos"].values() for v in vs if v.get("revisoes"))
     print(f"QA do site: {len(fichas)} fichas, {nv}/{total} versões conferidas contra data/orixas; "
           f"{npro} registros proibidos (pré-fichamento/retidos) procurados; {npag} páginas, {nlinks} links internos; "
           f"{ndados} arquivos em dados/; glossário: {ntermos} termos, {nligados} links de termo nas páginas; "
-          f"tradições: {ntrad} exibidas, {nrasc} com descrição pendente de fonte (texto ausente do site)")
+          f"tradições: {ntrad} exibidas, {nrasc} com descrição pendente de fonte (texto ausente do site); "
+          f"revisão: {nrevisores} revisor(es) cadastrado(s), {nrev_vers} versão(ões) com revisão exibida")
     if erros:
         print(f"\n{len(erros)} erro(s):")
         for e in erros:

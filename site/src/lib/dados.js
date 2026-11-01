@@ -6,6 +6,7 @@ import entidadesJson from '../../../data/entidades_equivalentes.json';
 import tradicoesJson from '../../../data/tradicoes.json';
 import divergenciasJson from '../../../data/fichamento/divergencias.json';
 import glossarioJson from '../../../data/glossario.json';
+import revisoresJson from '../../../data/revisores.json';
 
 const fichasMod = import.meta.glob('../../../data/orixas/*.json', { eager: true });
 const fichamentoMod = import.meta.glob('../../../data/fichamento/*.json', { eager: true });
@@ -180,6 +181,38 @@ export const usoDasFontes = (() => {
   }
   return uso;
 })();
+
+// ---------------------------------------------------------------- revisão do conselho
+// Crédito conforme o termo de consentimento (data/revisores.json). A mesma regra
+// está em scripts/revisao.py (quem, linha_credito), usada pelo QA do site.
+
+export const revisores = revisoresJson.revisores;
+export const revisorPorId = Object.fromEntries(revisores.map((r) => [r.id, r]));
+const ANONIMO = 'revisor/a anônimo/a';
+const VERBO_REVISAO = { aprovado: 'Revisado', aprovado_com_ressalva: 'Revisado com ressalva', contestado: 'Contestado' };
+
+export function quemRevisou(id) {
+  const r = revisorPorId[id];
+  if (!r || r.consentimento?.revogado_em || r.credito === 'anonimo') return ANONIMO;
+  if (r.credito === 'so_nome') return r.nome_publico;
+  if (r.credito === 'generico') return r.descricao_publica;
+  return `${r.nome_publico}, ${r.descricao_publica}`;
+}
+
+const dataBr = (iso) => iso.split('-').reverse().join('/');
+
+// "Revisado por … (tradição) em dd/mm/aaaa[: nota]"
+export function linhaRevisao(rv) {
+  const t = `${VERBO_REVISAO[rv.parecer]} por ${quemRevisou(rv.revisor)} (${rotuloTradicao(rv.tradicao)}) em ${dataBr(rv.data)}`;
+  return rv.nota ? `${t}: ${rv.nota}` : t;
+}
+
+export const versoesRevisadas = (ficha) =>
+  Object.values(ficha.atributos).reduce((n, vs) => n + vs.filter((v) => v.status === 'revisado').length, 0);
+
+// O selo de rascunho só sai quando TODAS as versões publicadas têm revisão vigente
+// (critério da proposta; a confirmar com o autor).
+export const fichaRevisada = (ficha) => totalVersoes(ficha) > 0 && versoesRevisadas(ficha) === totalVersoes(ficha);
 
 // ---------------------------------------------------------------- utilidades
 
