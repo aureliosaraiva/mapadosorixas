@@ -1,0 +1,1418 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/iansa.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "iansa",
+  "titulo": "Iansã, os ventos, as tempestades e os mortos",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Iansã, também chamada Oyá, é a senhora dos ventos e das tempestades, guerreira de gênio duro e a única entre os orixás que não teme os mortos. Nos terreiros da Bahia, de São Paulo e do Recife, essas imagens se repetem com poucas variações; mudam a cor, o dia da semana e a data da festa, e em Cuba ela reaparece com o mesmo domínio sobre o vento. Este capítulo acompanha essas versões sem escolher entre elas "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os dois nomes convivem. Nos candomblés baianos de meados do século passado, a grafia era Yansan, e Oya aparecia como uma das qualidades; em Porto Alegre, ela era Oiá. No nagô do Recife, Oyá e Yansã são usados como sinônimos "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, Mãe Bia explicou que o nome antigo era Oyá, ainda em uso; depois de ter nove filhos, a orixá ganhou o título *iya omo mesan*, que se traduz por mãe de nove filhos e teria resultado em Iansã. O nove é o seu número "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um documento de 1894, escrito por um oficial britânico a partir de relatos de sacerdotes iorubás da Costa dos Escravos, deve ser lido como registro de época: ali, Shango desposa três irmãs, Oya entre elas, e cada uma é identificada com um rio "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". Outro relato colonial, de 1910, ouviu de um devoto de Shango que Oya é o vento que avança diante dele no combate "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos de meados do século passado, a posição das filhas de santo em transe em volta do poste central seguia a hierarquia dos deuses, e as de Iansã iam sempre à frente das de Oxum, porque Iansã era tida como a esposa principal de Xangô "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Recife, a história de Iansã se confunde com a de uma casa. No começo da década de 1930, Maria Oyá, nome de santo de Maria das Dores, filha de Iansã iniciada por pai Rosendo, abriu o terreiro Santa Bárbara, que se tornaria a principal casa da nação xambá. A casa reivindica cânticos exclusivos para Iansã e uma Louvação de Oyá, celebrada todo ano ao meio-dia de 13 de dezembro, que lembra as mulheres que sucederam pai Rosendo "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Cuba, no central Méjico, em Matanzas, conta-se uma história de memória local que não é itã tradicional. Juana Campo, mulher nascida livre que recebia Oyá e Oggún, ficava trancada pelo marido em dia de festa. Um dia Oyá a possuiu, disse que não tinha senhor nem capataz, recebeu nove golpes de facão sem revidar e saiu para a festa; pouco tempo depois, o marido foi lançado do cavalo por uma centelha e fraturou as pernas, e Oyá foi rir dele junto à cama. Para quem conta, a protagonista é a própria Oyá "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O vento e a tempestade são o centro do domínio. Nos candomblés baianos, Iansã governa os temporais, as chuvas fortes e as ventanias; quando dança, reproduz a tormenta e risca no ar, com a espada, círculos que brilham como o raio. Nos terreiros de Salvador e São Paulo, é a dona das tempestades, do relâmpago e dos ventos. No nagô do Recife, é a orixá feminina das tempestades e uma guerreira temível; o vento é o seu elemento, e alguns acrescentam o fogo do raio "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". Em Matanzas, ventos e tempestades obedecem a Oyá; a centelha lhe pertence, e o raio fica com Changó "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os mortos são o outro lado do seu poder. Na Bahia, diz-se que os orixás fogem da morte, menos Iansã, que a venceu, e por isso ela é às vezes chamada de deusa dos cemitérios. É ela quem liga o mundo dos orixás ao dos mortos: fica no axexê enquanto os demais se retiram e, no meio dos Egun, dança como quem os segura. No Recife, uma imagem de Iansã de Balé guarda o quarto dos mortos "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, ela recebeu os mortos depois da partilha original dos elementos, e é chamada para combatê-los. Ali se diz também que acompanha seus filhos até o último instante e suaviza a passagem: a ela se atribui a melhora repentina que às vezes vem pouco antes do fim, chamada de \"visita da saúde\" "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No corpo, as casas não concordam. Para Papai, um dos chefes de culto ouvidos, Iansã cuida do esqueleto e das doenças dos ossos; para outros chefes de culto, ela não tem lugar fixo no organismo e age para reanimá-lo como um todo "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". No terreno da justiça, é lembrada como mais implacável que Ogum, ao lado de Xangô "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O temperamento acompanha o domínio. Nos terreiros de Salvador e São Paulo, ao contrário de Iemanjá e de Oxum, Iansã é vista como pouco feminina, rígida e inflexível, e suas filhas teriam muitas vezes uma aparência andrógina "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Seus emblemas são o capacete e as armas "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A cor varia de casa para casa. Na Bahia, o vermelho é dela e de Xangô, e por isso as folhas de tom avermelhado pertencem a ambos; nas correspondências baianas, ela tem as mesmas cores do marido. Nos terreiros de Salvador e São Paulo, a cor é o rosa, e algumas casas preferem um tom coral ou salmão. No nagô do Recife, é o vermelho, às vezes puxado para o marrom ou para o rosa "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": ". Entre as plantas, na Bahia, o bradamundo e o betis-cheiroso são divididos com Xangô, e a folha-de-fogo, que também leva o nome da orixá, é usada no banho dos seus filhos; no Recife, são dela a dormideira vermelha e a erva-santa "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O dia acompanha o de Xangô, mas não é o mesmo em toda parte. Na distribuição mais comum dos candomblés baianos, a quarta-feira, chamada dia do fogo, reúne Xangô e Iansã, sua companheira no ofício de lançar raios; no Ilê Axé Opô Afonjá também. Em Porto Alegre, os dois ficam com a terça-feira "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As festas mostram outra variação. Em muitos terreiros do Recife, Iansã é festejada perto de 4 de dezembro, dia de Santa Bárbara, mas a família de santo nagô estudada costuma celebrá-la no início de novembro, ao lado dos eguns, por causa do seu vínculo com os mortos. No terreiro xambá Santa Bárbara, a Louvação de Oyá é a 13 de dezembro. Na casa de Tambor de Mina de Diadema, o dia de Santa Bárbara reúne o vodum Sobô, Oiá e os demais voduns femininos "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um dos mitos mais conhecidos explica por que cada orixá tem suas folhas ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iansã sacode as saias e espalha as folhas de Ossaim",
+              "tipo": "ita",
+              "alvo": "ita-017"
+            },
+            {
+              "t": "texto",
+              "v": "). Numa versão cubana, Ossaim não dividia com ninguém o conhecimento das ervas; Xangô se queixa a Oyá, senhora dos ventos, que sacode a roupa, provoca um vendaval e faz as folhas voarem para os outros orixás "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, a história é contada por Papai e Mãe Celeste: Olorun confiara a Ossãe a ciência das plantas, e ele a guardava para si; a pedido de Xangô, Iansã sacode as saias, a cabaça das folhas se abre com o vento e os orixás as dividem, embora Ossãe continue senhor das plantas "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Outro mito explica o nome da orixá ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Oyá, a mãe dos nove filhos",
+              "tipo": "ita",
+              "alvo": "ita-029"
+            },
+            {
+              "t": "texto",
+              "v": "). Na versão de Mãe Bia, contada num terreiro de Candomblé, Oyá não conseguia ter filhos e foi ouvir um babalaô, para quem o ventre fechado era consequência de um erro cometido por ela e lhe indicou uma oferenda e outra maneira de se comportar. Ela seguiu o conselho e em pouco tempo teve nove filhos, e daí veio o nome Iansã "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Com Xangô, as narrativas são de parceria e de disputa. Na Bahia se conta que Iansã tomou de Xangô a magia com que ele soltava fogo pela boca, e desde então ela imita o raio com a espada ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iansã e a magia do fogo de Xangô",
+              "tipo": "ita",
+              "alvo": "ita-007"
+            },
+            {
+              "t": "texto",
+              "v": "); no Rio de Janeiro, a mesma história atribui o roubo a Oxum. No Recife, os dois vão à terra dos malês, que os ignoram; ele dispara o raio, ela faz brilhar o relâmpago, e os malês, com medo, reconhecem a chefia de Xangô ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô e Iansã diante dos malês",
+              "tipo": "ita",
+              "alvo": "ita-008"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Numa versão rara de um candomblé ketu de São Paulo, é Oyá quem coroa Logunedé como príncipe dos orixás, e há quem o diga filho de Ogum e de Oyá ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Logunedé criado por Ogum e coroado por Oyá",
+              "tipo": "ita",
+              "alvo": "ita-022"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As alianças variam com a casa. Nos mitos baianos, Iansã é a principal das três mulheres de Xangô, e Obá e Oxum vêm depois dela, mas alguns sacerdotes da Bahia a casavam com Ogum, enquanto outros davam Ogum como celibatário "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, ela é a esposa legítima de Xangô, ao lado de Obá e Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, Oyá foi mulher de Xangô, mas a ordem das esposas muda de relato para relato: ora Obá é a primeira, ora Iansã "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": ". No relato colonial de 1910, Oya, Oba e Oshun aparecem como as mulheres de Shango, filhos de Yemoja "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia de meados do século passado, Iansã se desdobrava em nove qualidades, entre elas Oya, Benika, Cenou e Bomim, mas uma ialorixá falou em dezessete. Uma única dessas qualidades reinaria sobre os cemitérios, e o seu nome não chegou a ser dito ao pesquisador "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Candomblé Angola",
+              "tipo": "tradicao",
+              "alvo": "candomble_angola"
+            },
+            {
+              "t": "texto",
+              "v": " de São Paulo, o nkisi associado à Iansã do ketu é Matamba, guerreira do fogo que comanda raios e vendavais, conduz os espíritos e é dona do cemitério; Bamburucema, ligada às chuvas, seria uma qualidade sua, e Kaiango pertence à mesma família "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", Iansã está presente tanto na nação nagô, onde é guerreira das tempestades ligada aos mortos, quanto na nação xambá, cuja casa principal leva o nome de Santa Bárbara e foi aberta por uma filha de Iansã "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Do "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, o fichamento guarda o nome Oiá e a terça-feira dividida com Xangô "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Tambor de Mina",
+              "tipo": "tradicao",
+              "alvo": "tambor_de_mina"
+            },
+            {
+              "t": "texto",
+              "v": ", Iansã se encontra com Sobô. Na casa de Pai Francelino, em Diadema, esse vodum do raio e do trovão, da família de Quevioçô, tem Oiá como orixá correspondente, e os assentamentos das duas somam vinte e oito; na Casa das Minas, Nochê Sobô aparece como mãe de toda essa família de voduns "
+            },
+            {
+              "t": "nota",
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": ". No terreiro de Pai Airton, em São Luís, Sobô é chamada também de Iansã ou Oyá "
+            },
+            {
+              "t": "nota",
+              "n": 35
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": " é outra religião, e não uma nação do Candomblé. O fichamento não tem registro que trate só da Iansã umbandista: a pesquisa em terreiros de Salvador e São Paulo, de onde vem o que se disse sobre o rosa, o capacete e os mortos, reuniu casas de Candomblé e de Umbanda sem separar o que é de cada uma "
+            },
+            {
+              "t": "nota",
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Matanzas, Oyá é a senhora dos ventos, das tempestades e da centelha, e o nove é o seu número; a memória local do central Méjico a guarda como a orixá que não aceita senhor "
+            },
+            {
+              "t": "nota",
+              "n": 37
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Santa Bárbara é a santa de Iansã em quase toda parte. Numa tabela de festas que valeria para Pernambuco e para os candomblés bantos da Bahia, a festa de Iansã cai no dia da santa, 4 de dezembro; um centro do Recife comemora Iansã nesse dia, e um outro leva o próprio nome da santa. No nagô do Recife, o sincretismo com a santa é descrito como forte "
+            },
+            {
+              "t": "nota",
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": ". Na casa de Tambor de Mina de Diadema, tanto Oiá quanto Sobô se ligam a Santa Bárbara "
+            },
+            {
+              "t": "nota",
+              "n": 39
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, Iansã, guerreira e amazona, é aproximada de Santa Bárbara e, em alguns casos, de Joana d'Arc; ali se lembra também que Santa Bárbara já foi santa de Xangô, dono do raio "
+            },
+            {
+              "t": "nota",
+              "n": 40
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Roger Bastide fez de Iansã a ponte entre os orixás e os mortos, e chegou a especular que, na Bahia, o número de Iansãs superaria em um o de Oxuns porque ela é a esposa principal de Xangô; a parte numérica é interpretação dele "
+            },
+            {
+              "t": "nota",
+              "n": 41
+            },
+            {
+              "t": "texto",
+              "v": ". Danielle Perin Rocha Pitta, ao estudar os xangôs pernambucanos, encontra nos mitos mulheres ativas e guerreiras, Iansã entre elas, e não uma oposição entre homem ativo e mulher passiva "
+            },
+            {
+              "t": "nota",
+              "n": 42
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Valéria Gomes Costa observa que a Louvação de Oyá da casa xambá é suficiente para mostrar a marca nagô, sem revelar uma origem africana distinta "
+            },
+            {
+              "t": "nota",
+              "n": 43
+            },
+            {
+              "t": "texto",
+              "v": ". Maxime Toutain lê a história de Juana Campo, em Matanzas, como contestação do poder masculino "
+            },
+            {
+              "t": "nota",
+              "n": 44
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro fichado traz a saudação de Iansã, que costuma constar dos dicionários especializados ainda não consultados "
+            },
+            {
+              "t": "nota",
+              "n": 45
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem africana do culto, com a cidade e o rio a que Oyá estaria ligada, não tem registro no fichamento; depende da obra de Verger, só impressa. As coletâneas de mitos de Prandi e de Verger também esperam exemplar. Um interdito ligado à orixá aguarda o parecer do conselho e não entra neste capítulo "
+            },
+            {
+              "t": "nota",
+              "n": 46
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também não há registro do nome de Iansã no Candomblé Jeje "
+            },
+            {
+              "t": "nota",
+              "n": 47
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-032"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-028"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-039"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-031"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-023"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-013"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-016"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-011"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-016"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-040"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-032"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-039"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-006"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-030"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-030"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-065"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-028"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-027"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-035"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-008"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-004"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-016"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-017"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-021"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-018"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-023"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-016"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-008"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-010"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-029"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-039"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-022"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-033"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-041"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-015"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-012"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-020"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-032"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-015"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-004"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-018"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-019"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-022"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-039"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-040"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-037"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-014"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-025"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-011"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-053"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-016"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-040"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Cacciatore, *Dicionário de cultos afro-brasileiros*"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (Corrupio, 1981)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "equivalencias",
+          "tradicao": "candomble_jeje"
+        }
+      ]
+    }
+  ]
+}

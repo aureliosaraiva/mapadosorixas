@@ -1,0 +1,1110 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/nana.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "nana",
+  "titulo": "Nanã, a mais velha das águas",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nanã Buruku é a avó dos orixás. Nos terreiros da Bahia, de São Paulo e do Recife, ela aparece como a anciã entre as divindades das águas, cercada de afeto e também de temor, ligada à chuva, à velhice e à morte. Sua origem é daomeana, e por isso ela forma, com os filhos, um grupo à parte no panteão. As fontes concordam no violeta e em Sant'Ana, mas divergem sobre o dia, a família e o próprio transe, e este capítulo acompanha essas versões "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos de meados do século passado, o nome aparecia em várias formas: Ananburucú ou Nananburucú, o diminutivo afetuoso Nanan e, no Opô Afonjá, Nanan Buruku. Na Casa das Minas de São Luís, o nome da vodum vem sempre seguido de um epíteto, que pode ser Borotoi, Borocô, Burucu ou Biocã, e o calendário da casa de Tambor de Mina de Diadema acrescenta as formas Biocô, Bulucu e Bassarodim "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Uma frase atribuída a um estudioso baiano antigo, conhecida só de segunda mão, diz que Sant'Ana se chamaria Anamburocú em nagô e Tobossi em daomeano "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem é das poucas que as fontes situam com alguma convergência. Nos candomblés baianos, Nanã e Oxumarê procedem da área a que os baianos dão o nome de jeje: são divindades daomeanas que os iorubás já tinham acolhido em seu panteão, na própria África. A leitura da Casa das Minas vai no mesmo sentido: entre os voduns de Quevioçô tidos como nagôs, apenas Nanã é cultuada também nos candomblés de orixá, porque foi absorvida pelo panteão iorubá ainda na África, junto com Omulu e Oxumarê, seus filhos "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, a maioria dos participantes sabe que Nanã, Obaluaiê e Oxumaré procedem de um mesmo lugar, distinto daquele dos outros orixás, embora não saiba dizer onde; uma leitura acadêmica citada na mesma pesquisa situa essa origem em Mahi, no Benim, e não na Nigéria "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nanã é cultuada em toda parte, mas raramente \"feita\". Nos terreiros de Salvador e São Paulo pesquisados até 1993, ela é vista sobretudo como orixá secundária, e quase ninguém é iniciado para ela; seus poucos filhos, diz-se ali, vivem bem mais que a média "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No nagô do Recife, nenhum filho é tomado por Nanã em transe, embora os participantes saibam que nas casas xambá, ketu e jeje ela costuma descer. Toques em sua honra são raros: o mais comum é cantar para ela no xirê "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". Já na Casa das Minas de São Luís, ela é a mais velha entre os voduns nagôs, e teria sido ela a trazê-los; é dada como da família de Davice, mas presta auxílio à de Quevioçô "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". Na casa de Pai Francelino, em Diadema, ela figura como vodum jeje-nagô de Quevioçô e, ao mesmo tempo, como o orixá que corresponde a esse vodum, com dois assentamentos "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A água e a velhice são as duas marcas de Nanã. Nos terreiros de Salvador e São Paulo, ela pertence, com Iemanjá e Oxum, ao grupo das orixás femininas das águas, e é a mais velha delas; governa a chuva e as águas que inundam o mundo, e na partilha original dos elementos recebeu a chuva ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Olorun entrega a Oxalá os elementos",
+              "tipo": "ita",
+              "alvo": "ita-027"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, nenhuma divindade aquática a supera em idade; é a avó querida e respeitada "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A idade a aproxima da morte. Na Bahia, é essa relação que explica a consagração do cipreste a Nanã, e há registro de cantos dedicados a ela nos ritos fúnebres do Recife e de comunidades negras da Amazônia. No Recife, ela é deusa das águas ligada à morte e poucos orixás inspiram ali tanto temor "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, a velhice aparece por outro ângulo: Nanã protege as pessoas idosas, Papai liga sua ação ao organismo que envelhece, e as plantas que lhe dão servem contra males da idade, como o reumatismo e a menopausa "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O principal símbolo é o chachará, feixe de varetas amarradas que é insígnia de Nanã e de Omolu. Na dança baiana, ela o segura nos braços e o embala com as mãos trêmulas de uma velha, e ali o objeto representa o pequeno Babaluaiê, seu filho recém-nascido; e não se deve confundi-lo, embora se pareçam, com os objetos do culto dos mortos "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": ". Entre as plantas, o cipreste é dela na Bahia; no Recife, ligam-se a ela o manacá e a gameleira, árvore que ali é cultuada como Iroko "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A cor é o violeta, e aqui as fontes concordam. Na Bahia, o prato que lhe cabe na refeição coletiva que encerra a festa é violeta; nos terreiros de Salvador e São Paulo, o violeta é a sua cor, razão pela qual as plantas de flor violeta são dela; no nagô do Recife, é também o violeta "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O dia, ao contrário, varia. Nos candomblés baianos, a distribuição mais usual põe Nanã e Oxumarê na terça-feira, e vem logo depois da segunda porque o respeito manda começar pelos mais antigos. No Ilê Axé Opô Afonjá, Ogum também fica com a terça, que divide com Nanã Buruku e Oxumarê. No nagô do Recife, Nanã não tem dia fixo "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As festas seguem o calendário de Sant'Ana. Na casa de Tambor de Mina de Diadema, três Nanãs têm festa própria: no dia de Santa Rita, 24 de maio, celebra-se Nanã Biocô; Nanã Bulucu e Vó Missã em 26 de julho, festa de Santana; e, no dia de Santa Rosa, 30 de agosto, Nanã Bassarodim. No terreiro de Pai Airton, em São Luís, toca-se para Nanã no dia de Sant'Ana "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os mitos próprios de Nanã ainda não passaram pelo fichamento, e o que se sabe dela nas narrativas vem das genealogias. Na Bahia, Nanã é mãe de Omolu, e, nas famílias divinas contadas na Bahia, é uma das duas esposas de Oxalá, mãe dos filhos Omolu, Lôko e Oxumarê. Ainda assim, ela vem depois do filho Omolu na ordem dos dias, sinal de que a semana não segue a genealogia "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": ". No Recife, ela é mãe de Abaluaiê, e no terreiro de Pai Adão, Nanã-Buruku é cantada logo depois de Obaluaiê e chamada de mãe dele "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No nagô do Recife, Nanã é mãe de Obaluaiê e de Oxumaré, e os três formam uma família à parte: por isso não descendem do casal formado por Orixalá e Iemanjá, de onde vêm os outros orixás "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, muitas versões fazem de Nanã a mãe de Omulu, e nesse caso a imagem é a de uma anciã que carrega o menino no colo; em outras, ela é esposa de Omulu ou a face feminina dele, e em outras ainda a mulher de Omulu é Obá "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos de nação ketu, Nanã é a avó das águas, dona do chachará e do violeta, que dança embalando o filho; a terça-feira é o seu dia, partilhado com Oxumarê e, no Opô Afonjá, também com Ogum "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Candomblé Angola",
+              "tipo": "tradicao",
+              "alvo": "candomble_angola"
+            },
+            {
+              "t": "texto",
+              "v": " de São Paulo, o nkisi associado a Nanã Buruku é Nzumba, também chamada Zumbarandá ou Ngangazumba, que atua no eclipse e nas águas turvas e paradas dos pântanos "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", na família de santo nagô estudada, Nanã é muito velha, talvez a mais velha de todas. Um informante, Bino, disse que ela é mais idosa até que Orixálufã, porque dança de joelhos, comentário estranho numa casa onde ela não se manifesta e que parece vir do contato com terreiros de outras nações "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Tambor de Mina",
+              "tipo": "tradicao",
+              "alvo": "tambor_de_mina"
+            },
+            {
+              "t": "texto",
+              "v": ", Nanã é vodum. Na Casa das Minas de São Luís, é a mais antiga dos voduns nagôs; na casa de Pai Francelino, em Diadema, é vodum de Quevioçô e orixá ao mesmo tempo, e várias Nanãs têm festa própria "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": " é outra religião, e não uma nação do Candomblé. O fichamento não tem registro que trate só da Nanã umbandista: a pesquisa em terreiros de Salvador e São Paulo, de onde vem o que se disse sobre a chuva, o violeta e a proteção aos idosos, reuniu casas de Candomblé e de Umbanda sem separar o que é de cada uma. Nesse conjunto, Nanã é sobretudo uma orixá secundária, para quem quase não se inicia ninguém "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Sant'Ana é a santa de Nanã em quase todos os registros. Numa tabela de festas que valeria para Pernambuco e para os candomblés bantos da Bahia, a festa de Nanã cai no dia da santa, e um centro africano do Recife marca Nanã no mesmo dia da santa. No nagô do Recife, entre os santos assentados, Nanã costuma ser associada a Santa Ana, e na casa de Tambor de Mina de Diadema, a Senhora Santana "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Roger Bastide propôs duas leituras para a terça-feira baiana de Nanã e Oxumarê: seria o dia dos intercessores, porque a avó escuta os netos e o arco-íris carrega os pedidos até o céu, ou um gesto dos nagôs em honra da terra jeje, berço das duas divindades. O mesmo autor ligou a ordem dos dias às classes de idade africanas e insistiu em que o chachará embalado por Nanã não é símbolo dos mortos "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Arnaud Halloy estranha a afirmação de um informante do Recife sobre a dança de joelhos de Nanã e a atribui ao contato com outras nações; ele cita ainda Verger, que situa em Mahi, no Benim, a procedência comum de Nanã, Obaluaiê e Oxumaré "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro fichado traz a saudação de Nanã, que costuma constar dos dicionários especializados ainda não consultados "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também não há mitos próprios de Nanã no fichamento, nem registro das suas qualidades no Candomblé, nem do nome que ela recebe no Candomblé Jeje. As coletâneas de Prandi e de Verger, onde estariam os itãs, e a obra de Verger sobre as cidades de culto só existem impressas "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-034"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-019"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-003"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-028"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-028"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-025"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-026"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-031"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-007"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-021"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-014"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-006"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-030"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-026"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-016"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-013"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-002"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-033"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-033"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-019"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-020"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-018"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-012"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-029"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-056"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-049"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-007"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-016"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-005"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-022"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-032"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-031"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-021"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-019"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-025"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-018"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-013"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-032"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-028"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Cacciatore, *Dicionário de cultos afro-brasileiros*"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "qualidades",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "equivalencias",
+          "tradicao": "candomble_jeje"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (Corrupio, 1981)"
+        }
+      ]
+    }
+  ]
+}
