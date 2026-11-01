@@ -27,7 +27,11 @@ Regras (docs/capitulos-guia.md):
     "Umbanda"; parágrafo que mistura Umbanda e Candomblé nomeia os dois; a
     seção de tradições distingue os dois quando o orixá tem registro de Umbanda.
  9. Fontes C antigas (documentos coloniais/missionários, ano < 1950): o
-    parágrafo nomeia o autor ou o ano e marca o caráter de documento histórico.
+    parágrafo marca o caráter de documento histórico ("relatos de missionários
+    do século XIX..."); autor e ano ficam na nota.
+ 9b. Estilo: autor de fonte citada no parágrafo não aparece no corpo do texto
+    ("segundo Fulano"), salvo nas seções Leituras acadêmicas e lacunas;
+    versões divergentes se atribuem pela tradição, casa ou região.
 10. Cópia do fichamento: trecho com 8+ palavras seguidas iguais a valor,
     paráfrase ou nota de qualquer registro → erro; 6–7 → aviso. (A comparação
     com o texto das obras fica em scripts/anticopia.py, que inclui os capítulos.)
@@ -394,17 +398,26 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
             # citar no mesmo parágrafo um registro só de Umbanda e outro só de Candomblé
             if so_umb and so_cand and not ("umband" in ntexto and re.search(r"candombl|ketu|jeje|angola|nag[oô]", ntexto)):
                 erros.append(f"{onde}: mistura registros de Umbanda e de Candomblé sem nomear os dois")
-            # fontes C antigas: documento histórico
+            # fontes C antigas: o texto sinaliza o caráter de documento histórico
+            # (o autor e o ano ficam na nota de rodapé)
             for r in refs_par:
                 fo = ctx.catalogo.get(r["source_id"], {})
-                if fo.get("confiabilidade_preliminar") != "C":
-                    continue
-                sob = [norm(a.split()[-1].strip("().,")) for a in fo.get("autores") or []]
                 ano = str(fo.get("ano") or "")
-                if not (any(s and s in ntexto for s in sob) or (ano and ano in ntexto)):
-                    erros.append(f"{onde}: {r['id']} vem de fonte C ({r['source_id']}) e o parágrafo não nomeia o autor nem o ano")
-                if ano.isdigit() and int(ano) < 1950 and not any(norm(h) in ntexto for h in HISTORICO):
+                if fo.get("confiabilidade_preliminar") == "C" and ano.isdigit() and int(ano) < 1950 \
+                        and not any(norm(h) in ntexto for h in HISTORICO):
                     erros.append(f"{onde}: {r['id']} vem de documento antigo de confiabilidade C ({r['source_id']}, {ano}) e o parágrafo não o marca como documento histórico")
+            # estilo: nada de citação no corpo ("segundo Fulano"); o autor fica na nota.
+            # Exceção: Leituras acadêmicas (o debate é o assunto) e lacunas (obras pendentes).
+            if s["slug"] not in ("leituras-academicas", "lacunas"):
+                nomes = set()
+                for r in refs_par:
+                    for fid in (r["source_id"], r.get("via_source_id")):
+                        for a in (ctx.catalogo.get(fid) or {}).get("autores") or []:
+                            sob = norm(a.replace("(org.)", "").strip().split()[-1].strip("().,"))
+                            if len(sob) >= 4 and re.search(rf"\b{re.escape(sob)}\b", ntexto):
+                                nomes.add(sob)
+                if nomes:
+                    erros.append(f"{onde}: autor citado no corpo do texto ({', '.join(sorted(nomes))}); atribua pela tradição/casa/região e deixe o autor na nota")
 
     # seção de tradições distingue Candomblé e Umbanda
     if tem_umbanda:

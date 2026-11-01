@@ -187,15 +187,13 @@ def parse(caminho):
 
 
 def gerar_json(estrutura):
-    """JSON para o site: seções, parágrafos (tokens) e notas numeradas."""
-    notas, idx = [], {}
+    """JSON para o site: seções, parágrafos (tokens) e notas de rodapé.
 
-    def numero(chave, nota):
-        if chave not in idx:
-            idx[chave] = len(notas) + 1
-            notas.append({"n": idx[chave], **nota})
-        return idx[chave]
-
+    Cada grupo de marcadores vizinhos ({{ref}}, {{lacuna}}, {{pendencia}} sem texto
+    entre eles) vira UMA nota de rodapé, numerada na ordem do texto, com a lista de
+    itens (registros, lacunas, pendências). No texto, a nota aparece como um número
+    sobrescrito no lugar dos marcadores."""
+    notas = []
     secoes = []
     for s in estrutura["secoes"]:
         bl = []
@@ -203,24 +201,28 @@ def gerar_json(estrutura):
             if b["tipo"] == "subtitulo":
                 bl.append({"tipo": "subtitulo", "texto": b["texto"]})
                 continue
-            tks = []
+            tks, grupo = [], []
+
+            def fechar():
+                if grupo:
+                    notas.append({"n": len(notas) + 1, "itens": list(grupo)})
+                    tks.append({"t": "nota", "n": len(notas)})
+                    grupo.clear()
+
             for t in b["tokens"]:
                 if t["t"] == "ref":
-                    tks.append({"t": "notas", "n": [numero(f"ref:{i}", {"tipo": "registro", "registro": i}) for i in t["ids"]]})
+                    grupo.extend({"tipo": "registro", "registro": i} for i in t["ids"])
                 elif t["t"] in ("lacuna", "pendencia"):
-                    nota = {"tipo": t["t"]}
-                    nota.update({k: v for k, v in t.items() if k != "t"})
-                    tks.append({"t": "notas", "n": [numero(chave_marcador(t), nota)]})
+                    item = {"tipo": t["t"]}
+                    item.update({k: v for k, v in t.items() if k != "t"})
+                    grupo.append(item)
+                elif t["t"] == "texto" and not t["v"].strip() and grupo:
+                    continue  # espaço entre marcadores vizinhos
                 else:
+                    fechar()
                     tks.append(t)
-            # notas vizinhas viram um só grupo de chamadas
-            fundidos = []
-            for t in tks:
-                if t["t"] == "notas" and fundidos and fundidos[-1]["t"] == "notas":
-                    fundidos[-1]["n"] += [n for n in t["n"] if n not in fundidos[-1]["n"]]
-                else:
-                    fundidos.append(t)
-            bl.append({"tipo": "paragrafo", "tokens": fundidos})
+            fechar()
+            bl.append({"tipo": "paragrafo", "tokens": tks})
         secoes.append({"slug": s["slug"], "titulo": s["titulo"], "blocos": bl})
     f = estrutura["front"]
     return {

@@ -1,0 +1,1388 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/xango.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "xango",
+  "titulo": "Xangô, o raio, a justiça e a realeza",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Raio, trovão e fogo; justiça que pune com rigor; um orgulho de rei que se vê até no rosto de quem o recebe em transe. É assim que Xangô aparece nos candomblés baianos e no nagô do Recife. A origem dessa realeza, porém, é contada de maneiras diferentes nos terreiros e na pesquisa sobre Oyó, na Nigéria, e o capítulo apresenta as respostas lado a lado "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Para muita gente, Xangô foi primeiro um homem que, antes de ser cultuado como deus, teria reinado. Nos terreiros de Salvador e São Paulo, ele é um dos poucos orixás de quem se conta uma vida humana: teria ocupado, como terceiro ou quarto da linhagem, o trono de alafin, isto é, rei de Oyó, e virado divindade pelos feitos na guerra; a própria tradição deixa em aberto a posição na lista "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Na santería de Matanzas, em Cuba, a ideia é a mesma: Changó é lembrado como um alafin de outrora e, junto disso, dono do raio e do fogo, dos tambores e da guerra "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". Estudos linguísticos e históricos recentes sobre a Nigéria invertem essa ordem e fazem do deus algo anterior ao rei; essas leituras estão adiante, em \"Leituras acadêmicas\" "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O nome se escreve, em iorubá, Ṣàngó ou Ṣọ̀ngó, e entre seus epítetos está Jakuta, o \"atirador de pedras\" "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": ". Em Pernambuco, a palavra ganhou outros sentidos: xangô nomeia o orixá do trovão, mas também a própria religião de culto aos orixás, o terreiro e as festas ali realizadas. No Nordeste a religião recebeu esse nome, ao passo que baianos e paulistas, cariocas e mineiros consagraram \"candomblé\", e a popularidade do orixá no Recife ajudaria a explicar esse uso "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O culto a Xangô pertencia de início aos iorubás setentrionais, em Oyó, e só alcançou boa parte da Iorubalândia quando o império de Oyó cresceu, desde o século XVI; antes disso, os outros povos iorubás não o conheceriam. Hoje o culto existe na Nigéria e no Benim, e o orixá ganhou enorme difusão no Candomblé e na Lucumí "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia, os registros mais antigos são de calendário: no ciclo de festas do Gantois do fim do século XIX, a quarta-feira era de Xangô. Em meados do século passado, a cerimônia que no Gantois encerrava o ano, o baiani, se fazia o mais perto possível de 30 de setembro, dia de São Jerônimo, e nela os fiéis levavam na cabeça um capacete de couro de muitas cores, enfeitado de búzios e guizos. Nos terreiros baianos, o quarto de Xangô às vezes é chamado de sala do trono "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Recife, o \"Rei Xangô\" é o orixá mais popular da cidade "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O raio é o centro. No mito de distribuição dos elementos contado em terreiros de Salvador e São Paulo, Oxalá entrega a Xangô o trovão, o fogo e o raio, e o orixá é dono do fogo, do relâmpago e do raio, imagem do homem, da virilidade e da força. Na Bahia, é o deus do raio, e a quarta-feira, seu dia, é chamada de dia do fogo. Nos xangôs do Recife e de Olinda, ele governa as tempestades, o trovão, o raio e a eletricidade do ar "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A justiça vem junto. Tanto na Bahia como na África iorubá, a morte por raio é vista como castigo por más ações, e aqui o orixá é venerado como deus da justiça. No Recife, é o guerreiro vivo e impetuoso, orixá de uma justiça que não hesita em punir com dureza, e também o sedutor "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros de Salvador e São Paulo, entre os símbolos, está o oxê, espécie de machado que Xangô sempre leva, e as matérias que lhe pertencem, o cobre e a pedra; na Bahia, sua pedra consagrada é uma pedra de raio. O carneiro é o animal que lhe é sacrificado "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As cores variam pouco. Em terreiros de Salvador e São Paulo se fala do vermelho; na Bahia, o colar dos fiéis alterna contas brancas e vermelhas, e na dança pública o orixá veste vermelho e branco, como no nagô do Recife "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". Uma das explicações baianas para o branco nas cores de Xangô está num mito contado adiante "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O dia da semana muda de lugar para lugar. Na distribuição mais comum dos candomblés baianos e no Ilê Axé Opô Afonjá, Xangô divide a quarta-feira com Iansã, associação que existiria também na região iorubá. Em Porto Alegre, a terça-feira é do casal Xangô e Oiá. No Recife, o casal passa para a quinta e deixa a quarta para os Ibeji, com variações de casa para casa "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Num esquema de quatro dias proposto por um etnólogo alemão em 1912, documento de época, Xangô ficaria com o dia do oeste "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As datas de festa também variam: nos terreiros de Salvador e São Paulo, Xangô é celebrado em 24 de junho, em 30 de setembro ou em 6 de janeiro, conforme a casa "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os mitos fichados sobre Xangô falam de poder, de família e de queda. O mais antigo na bibliografia é uma tradição de Oyó, na Nigéria, registrada em 1921 ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O alafin de Oyó e o palácio destruído pelo raio",
+              "tipo": "ita",
+              "alvo": "ita-009"
+            },
+            {
+              "t": "texto",
+              "v": "): Xangô, governante tirânico que cuspia fogo, teria posto abaixo o próprio palácio ao brincar com o trovão, e com ele as esposas e os filhos; envergonhado, refugiou-se entre os nupes, povo de sua mãe, viu-se deixado pelos seus e se enforcou, e só então foi divinizado. Numa variante, a saída do rei decorre do conflito entre dois chefes militares, e os fiéis recusam a notícia da morte dizendo que o rei não se enforcou "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia se conta que Xangô soltava fogo pela boca até que Iansã lhe roubou a magia; desde então ele passou a imitar o raio com a espada. No Rio de Janeiro, a mesma façanha é atribuída a Oxum ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iansã e a magia do fogo de Xangô",
+              "tipo": "ita",
+              "alvo": "ita-007"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": ". No Recife, há a viagem de Xangô e Iansã à terra dos malês, os muçulmanos, que não lhes dão atenção até que ele lança o raio e ela o relâmpago, e o povo assustado reconhece a chefia de Xangô ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô e Iansã diante dos malês",
+              "tipo": "ita",
+              "alvo": "ita-008"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um dos mitos mais contados envolve Oxalá ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A viagem de Oxalá velho para ver Xangô",
+              "tipo": "ita",
+              "alvo": "ita-010"
+            },
+            {
+              "t": "texto",
+              "v": "). Na versão dos xangôs de Olinda e do Recife, Oxalá velho resolve ir ver o filho Xangô apesar do aviso do babalaô, é maltratado e preso pelos servidores do rei, e o reino mergulha em tristeza e esterilidade até que o adivinho revela a injustiça "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". A versão da Bahia acrescenta as provas a que Exu submete o velho no caminho "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": ". Outra explicação corrente na Bahia para o branco nas cores de Xangô diz que ele só pôde casar com Oxum depois de carregar até a festa o pai dela, Oxalá, velho e sem forças para andar ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô carrega Oxalá para poder casar com Oxum",
+              "tipo": "ita",
+              "alvo": "ita-011"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Xangô atravessa ainda histórias de outros orixás, contadas na Bahia e nos terreiros de Salvador e São Paulo. Por ele, Obá corta a própria orelha, enganada por Oxum ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A orelha de Obá",
+              "tipo": "ita",
+              "alvo": "ita-015"
+            },
+            {
+              "t": "texto",
+              "v": "); é a ele que Ogum distrai com quiabos para recuperar Oxum ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ogum joga Oxum no rio e a recupera com quiabos",
+              "tipo": "ita",
+              "alvo": "ita-016"
+            },
+            {
+              "t": "texto",
+              "v": "); numa briga com ele, Ossaim perde a perna ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ossaim perde a perna na luta com Xangô",
+              "tipo": "ita",
+              "alvo": "ita-018"
+            },
+            {
+              "t": "texto",
+              "v": "); e é a queixa dele a Iansã que faz o vento espalhar as folhas guardadas por Ossaim ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iansã sacode as saias e espalha as folhas de Ossaim",
+              "tipo": "ita",
+              "alvo": "ita-017"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Sobre a família de Xangô, os registros concordam em alguns pontos e divergem em outros. Nos terreiros de Salvador e São Paulo, pela filiação mais citada, ele é filho de Iemanjá e de Oxalá. As três esposas aparecem em quase todas as versões, Iansã, Obá e Oxum, mas a ordem muda: na Bahia, Iansã é a primeira delas e lança raios ao lado do marido, enquanto no Recife, conforme o relato, Obá ou Iansã pode ser a primeira, e Oxum às vezes aparece como concubina "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros de Salvador e São Paulo, as qualidades de Xangô aparecem ligadas aos santos. Para um pai de santo, os dois santos católicos ligados ao orixá equivalem a duas qualidades, um Xangô idoso e outro moço, Agodô e Aganju, mas não soube dizer com segurança a qual santo cada um correspondia, mostra de que a tradição oral oscila até na boca de uma só pessoa "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé jeje"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Seja Hundê, em Cachoeira, os voduns maiores da casa, Bessem, Sobo e Azançu, correspondem aos orixás Oxumarê, Xangô e Obaluaê, numa releitura brasileira de trilogias da cosmologia ewé; equivalência, não identidade "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô de Pernambuco"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", o orixá dá nome à própria religião e é o mais popular do Recife. O dia, as cores e a ordem das esposas já apareceram acima "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Do "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, o fichamento guarda só o dia da semana, a terça, que Xangô divide com Oiá "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Numa casa de Tambor de Mina do Maranhão, de fundamento nagô e cambinda, Xangô aparece emparelhado ao vodum Badé, chamado \"Xangô ou Badé\", e as oferendas a Xangô acontecem no dia de São Pedro, data também da festa de Badé. Na Casa das Minas de São Luís, Badé é da família de Quevioçô, encarna o corisco, não fala e se faz entender por gestos, e equivale ao Xangô dos nagôs "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": ". Em Diadema, na casa de Pai Francelino, a correspondência se desdobra: Xangô tem como par os voduns Badé e Boço Vondereji, Xangô Aganju tem Averequete, e Xangô Airá tem Xadantã. Ali, o calendário marca o tambor de Badé de 28 a 30 de junho e o de Badé Zorogama no dia de São Jerônimo, sem festa própria para Xangô na lista "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os registros dos terreiros de Salvador e São Paulo sobre Xangô valem tanto para o Candomblé quanto para a Umbanda que ali se praticava, e o fichamento não tem registro de Xangô próprio só da "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": " "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na santería do central Méjico, Changó está entre os orixás maiores recebidos na iniciação, e é lembrado ao mesmo tempo como rei antigo e como senhor do raio "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia, o santo mais citado é São Jerônimo, um dos equivalentes católicos de Xangô no Gantois. Nos terreiros de Salvador e São Paulo, a escolha se explica pelo carneiro com que o santo costuma ser representado, animal ligado ao orixá; em algumas casas, Xangô é associado a São João, e esses dois santos correspondem, para um pai de santo, às duas qualidades do orixá "
+            },
+            {
+              "t": "nota",
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": ". No Tambor de Mina de Diadema, Xangô e Badé ficam com São Pedro, e os outros voduns correspondentes com São Benedito, Santo Antônio e São José "
+            },
+            {
+              "t": "nota",
+              "n": 35
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O debate central é o da origem, e três posições ficam lado a lado. A primeira é a do rei divinizado, que vive nos terreiros brasileiros e na santería cubana "
+            },
+            {
+              "t": "nota",
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": ". Outra posição vem do linguista Sandro Capo Chichi, que propõe, por comparação fonológica e morfológica, que o nome venha do gbari, língua em que o deus supremo se chama \"governante do céu\", e tenha chegado ao iorubá de Oyó antigo passando pelo nupe, onde a primeira parte do nome foi entendida como \"rei\"; a ligação com a realeza viria daí, e o rei divinizado teria sido criado pela tradição para explicar o título. Capo Chichi descarta as etimologias iorubá e nupe direta de autores anteriores "
+            },
+            {
+              "t": "nota",
+              "n": 37
+            },
+            {
+              "t": "texto",
+              "v": ". Na mesma direção, Akintunde Akinyemi argumenta que um alafin só seria divinizado se recebesse sepultura no mausoléu da realeza, e que em Oyó era vedado o enforcamento, o que tira credibilidade à ideia de que o rei de Koso tenha virado deus; apoiado nos versos de Ifá, situa o deus antes da formação do próprio Estado de Oyó. Ele e Isola apontaram inconsistências nas versões do enforcamento "
+            },
+            {
+              "t": "nota",
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": ". A última é a do teólogo E. Bolaji Idowu: um alafin chamado Xangô teria sido fundido, ao ser divinizado, com uma divindade mais antiga e benévola, Jakuta, o que explicaria o caráter aparentemente contraditório do deus "
+            },
+            {
+              "t": "nota",
+              "n": 39
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Outras leituras são de menor escala. Danielle Perin Rocha Pitta lê o mito de Oxalá preso no reino de Xangô como um ciclo de morte e renovação da natureza, e Sylvie Chiousse usa a hesitação de um pai de santo ao distinguir Agodô de Aganju como exemplo da variação própria da tradição oral "
+            },
+            {
+              "t": "nota",
+              "n": 40
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro fichado traz a saudação de Xangô, que aparece em dicionários ainda não consultados; também não há registro que descreva as funções do orixá separadas de seus domínios "
+            },
+            {
+              "t": "nota",
+              "n": 41
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O volume sobre Xangô na África e na diáspora organizado por Tishken, Falola e Akinyemi foi lido só por citações, e o livro de Idowu ainda não foi aberto. Os mitos de Xangô nas coletâneas de Prandi e de Verger seguem à espera de exemplar. Por fim, o nome que Xangô recebe nos candomblés de nação Angola não aparece em nenhum registro "
+            },
+            {
+              "t": "nota",
+              "n": 42
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-032"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-021"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-035"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-021"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-045"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-035"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-037"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-039"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-040"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-038"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-034"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-040"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-020"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-044"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-040"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-025"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-033"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-029"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-042"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-030"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-010"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-019"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-027"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-036"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-015"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-016"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-043"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-029"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-030"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-028"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-029"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-018"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-041"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-028"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-048"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-041"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-009"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-047"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-046"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-049"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-050"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-052"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-026"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "qualidades",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-045"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-028"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-051"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-021"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-045"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-035"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-036"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-039"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-043"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-028"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Beniste, *Dicionário yorubá-português*"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "funcoes",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Tishken, Falola & Akinyemi (orgs.)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Idowu, *Olódùmarè* (1962)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "equivalencias",
+          "tradicao": "candomble_angola"
+        }
+      ]
+    }
+  ]
+}

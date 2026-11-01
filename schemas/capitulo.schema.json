@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/capitulo.schema.json",
   "title": "Capítulo narrativo de um orixá (JSON gerado de data/capitulos/<id>.md)",
-  "description": "Texto corrido do projeto, montado só com registros do fichamento. Cada parágrafo é uma lista de tokens: texto, link e chamadas de nota. As notas são numeradas por ordem de primeira aparição e apontam para um registro de fichamento (fichado/revisado), para uma lacuna conferida (atributo sem registro) ou para uma pendência de docs/pesquisa/PENDENCIAS.md. Gerado por scripts/validar_capitulos.py --gerar; não editar à mão. Formato do .md em docs/capitulos-guia.md.",
+  "description": "Texto corrido do projeto, montado só com registros do fichamento. Cada parágrafo é uma lista de tokens: texto, link e chamadas de nota. Cada grupo de marcadores vizinhos vira uma nota de rodapé numerada na ordem do texto, com itens que apontam para um registro de fichamento (fichado/revisado), para uma lacuna conferida (atributo sem registro) ou para uma pendência de docs/pesquisa/PENDENCIAS.md. Gerado por scripts/validar_capitulos.py --gerar; não editar à mão. Formato do .md em docs/capitulos-guia.md.",
   "type": "object",
   "required": ["_meta", "orixa", "titulo", "status", "atualizado", "secoes", "notas"],
   "additionalProperties": false,
@@ -47,17 +47,24 @@
         { "type": "object", "required": ["t", "rotulo", "tipo", "alvo"], "additionalProperties": false,
           "properties": { "t": { "const": "link" }, "rotulo": { "type": "string" }, "tipo": { "enum": ["ita", "orixa", "glossario", "tradicao", "grafo"] }, "alvo": { "type": "string" } } },
         { "type": "object", "required": ["t", "n"], "additionalProperties": false,
-          "properties": { "t": { "const": "notas" }, "n": { "type": "array", "minItems": 1, "items": { "type": "integer", "minimum": 1 } } } }
+          "properties": { "t": { "const": "nota" }, "n": { "type": "integer", "minimum": 1 } } }
       ]
     },
     "nota": {
+      "type": "object", "required": ["n", "itens"], "additionalProperties": false,
+      "properties": {
+        "n": { "type": "integer", "minimum": 1 },
+        "itens": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/item" } }
+      }
+    },
+    "item": {
       "oneOf": [
-        { "type": "object", "required": ["n", "tipo", "registro"], "additionalProperties": false,
-          "properties": { "n": { "type": "integer" }, "tipo": { "const": "registro" }, "registro": { "type": "string", "pattern": "^[a-z][a-z_]*-[0-9]{3}$" } } },
-        { "type": "object", "required": ["n", "tipo", "atributo", "tradicao"], "additionalProperties": false,
-          "properties": { "n": { "type": "integer" }, "tipo": { "const": "lacuna" }, "atributo": { "type": "string" }, "tradicao": { "type": ["string", "null"] } } },
-        { "type": "object", "required": ["n", "tipo", "ancora"], "additionalProperties": false,
-          "properties": { "n": { "type": "integer" }, "tipo": { "const": "pendencia" }, "ancora": { "type": "string", "minLength": 6 } } }
+        { "type": "object", "required": ["tipo", "registro"], "additionalProperties": false,
+          "properties": { "tipo": { "const": "registro" }, "registro": { "type": "string", "pattern": "^[a-z][a-z_]*-[0-9]{3}$" } } },
+        { "type": "object", "required": ["tipo", "atributo", "tradicao"], "additionalProperties": false,
+          "properties": { "tipo": { "const": "lacuna" }, "atributo": { "type": "string" }, "tradicao": { "type": ["string", "null"] } } },
+        { "type": "object", "required": ["tipo", "ancora"], "additionalProperties": false,
+          "properties": { "tipo": { "const": "pendencia" }, "ancora": { "type": "string", "minLength": 6 } } }
       ]
     }
   }

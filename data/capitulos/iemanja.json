@@ -1,0 +1,1185 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/iemanja.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "iemanja",
+  "titulo": "Iemanjá, as águas, a maternidade e as festas do mar",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Brasil de hoje, Iemanjá é a dona do mar e a mãe que recebe presentes nas praias. As fontes confirmam essa imagem, mas também mostram outra mais antiga, a de uma divindade iorubá ligada à lavoura e à pesca, e registram festas que mudam de data e de água conforme a cidade, de Salvador a Belém "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O nome viria do iorubá Yemọja e significaria, numa etimologia corrente, \"mãe cujos filhos são peixes\". Na Nigéria, o principal templo da orixá fica em Abeokuta, onde a imagem de uma mulher de seios fartos equilibra sobre a cabeça a vasilha dos objetos do culto; em Ibadan, ela seria figurada grávida. Na sua forma africana, o culto também tinha a ver com a pesca e com o ciclo do inhame, do plantio à colheita "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Uma descrição deixada no século XIX por um explorador britânico deve ser lida como documento de época: ele viu uma imagem de Iemanjá de pele amarelada e cabelos azuis, com contas brancas no pescoço e veste de listras, traços que talvez evocassem a água "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os primeiros a trazer o culto à Bahia foram os ebás, seguidos por oyós e ijexás, até meados do século XIX. Nos terreiros baianos de meados do século passado, o quarto da orixá podia ser chamado de sala do tanque "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A grande festa de Salvador tem história própria. As descrições das festas da cidade em meados do século XIX não falam de nenhuma dedicada só a Iemanjá. Hoje quem a promove é a Colônia de Pescadores do Rio Vermelho, cujos membros, pelas mesmas razões de proteção no mar, também comparecem, a cada 29 de junho, à missa de São Pedro celebrada na igreja ao lado "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": ". A festa do presente de Iemanjá existira também no Recife e em Porto Alegre, mas tinha caído em desuso; foi retomada pela Umbanda, ganhando força no Rio de Janeiro e em Porto Alegre até alcançar Santos nos anos 1950 "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A passagem de Iemanjá a Nossa Senhora está entre os resultados da cristianização a que os orixás foram submetidos no país, e muitos traços das Grandes Mães africanas, Iemanjá e Oxum entre elas, foram atenuados aqui e acabaram deslocados, no Candomblé e na Umbanda, para a figura de Pombagira "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mar é o domínio mais citado. No mito de repartição dos elementos contado em terreiros de Salvador e São Paulo, o mar fica com Iemanjá, enquanto os rios cabem a Oxum e a chuva a Nanã. Na Bahia, o sábado celebra a água sob duas formas, a do mar, com Iemanjá, e a dos rios, com Oxum, unidas sem esforço num mesmo culto; as duas deusas são vaidosas, e daí vêm os presentes que lhes são oferecidos. Na Nigéria e na Bahia, nenhum orixá teria mais poder que Iemanjá, porque rege as águas de que depende toda ação "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A maternidade vem junto. Nos terreiros de Salvador e São Paulo, Iemanjá governa os mares, ampara quem vive de pescar e de navegar e encarna antes de tudo a figura materna, possessiva a ponto de, como se diz, poder arrastar os filhos para o afogamento. Como mãe, é chamada de orixá do bom conselho e de mãe curandeira, com cuidado especial com a respiração "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, é a senhora da água salgada e o modelo da mãe que dá a vida e cuida, mas também sabe ser severa, com um caráter duplo que já foi destacado por outros estudos "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na dança, na Bahia, Iemanjá surge como quem penteia os cabelos de algas. Sua pedra consagrada é um seixo do mar, e a folha conhecida como olhos-de-santa-luzia lhe pertence porque suas flores parecem pequenos pedaços de mar espelhando o céu. Em Salvador e São Paulo, a prata é sua matéria e, como emblema, ela tem uma lua crescente com uma estrela em cima. No Rio Vermelho, no pátio da casa de Iemanjá, uma obra do escultor Manoel do Bonfim lhe dá forma de sereia "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A cor é azul, em tons distintos: azul-claro nos terreiros de Salvador e São Paulo, azul profundo no nagô do Recife "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O sábado é o dia mais citado. Na distribuição mais comum da Bahia e no Ilê Axé Opô Afonjá, Iemanjá o divide com Oxum, e o mesmo dia lhe cabe nos terreiros de Salvador e São Paulo. Em Porto Alegre, porém, a sexta-feira é de Iemanjá e de Odé, o filho que ela traz ao colo "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mito cosmogônico de Iemanjá chegou ao projeto por um documento de 1894, escrito por um oficial britânico que lia a religião iorubá com olhar evolucionista e colonial ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iemanjá e o nascimento das águas",
+              "tipo": "ita",
+              "alvo": "ita-003"
+            },
+            {
+              "t": "texto",
+              "v": "). A partir de relatos de sacerdotes da Costa dos Escravos, ele narra que Odudua e Obatala foram pais de Aganju e de Yemaja; os dois se uniram e deles nasceu Orungan. Na ausência do pai, o filho violenta a mãe; ela foge, cai de costas, e de seu corpo nascem as águas de uma lagoa e uma série de divindades, Xangô, Ogum, Oxum e Oxóssi entre elas, além do Sol e da Lua; no lugar se ergue Ifẹ̀, a cidade santa. Para alguns de seus informantes, a ordem dos nascimentos seria outra "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mesmo mito, tirado desse relato colonial, reaparece num estudo sobre os xangôs de Olinda e do Recife: Iemanjá é filha de Odudua, a Terra, e de Obatalá, o Céu, e de seu corpo, depois da agressão do filho Orungã, surgem as águas, os orixás, os montes e as plantas. Ali se observa que as figuras masculinas da narrativa caíram no esquecimento, ao passo que o culto a Iemanjá continua forte, sem que se diga se os entrevistados contavam essa versão "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os laços de família variam entre as casas. Na Bahia, Oxalá aparece como pai de Iemanjá, e numa versão baiana Oxalá teve duas mulheres, sendo de Iemanjá que nascem os orixás de maior destaque "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, ela é esposa de Oxalá e mãe de Xangô e, em alguns mitos, mãe de todos os dezesseis orixás, quase nunca incluindo Exu; segundo outras versões, os Ibeji seriam filhos dela com Xangô, numa união interdita "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, Iemanjá e Orixalá formam o casal criador de que vieram as outras divindades, menos Nanã, Oxumarê e Obaluaiê, a quem a casa atribui outra origem; em xangôs de Olinda e do Recife, ela é a mãe dos orixás em geral, e Oxum, dona dos rios, é sua filha "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre as qualidades de Iemanjá estão Ogunté, Awoyó, Assabá, Mayaleo, Apará, Asesu e Konlá "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": ". Nos candomblés baianos, as oferendas a ela e a Oxum são lançadas da margem ou de barco, e incluem flores, pentes, espelhinhos, sabonetes e perfumes; nem todo lugar serve, e os preferidos são a praia do Rio Vermelho, Montserrat e o Dique. Numa casa derivada do Língua de Vaca, o presente de Iemanjá coincide com a festa da Purificação, dedicada a Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No cancioneiro aparecem nomes angola como Dandalunda e Quissimbe, além de Kayala. A equivalência é disputada: parte da literatura aproxima Dandalunda de Iemanjá, ao passo que, para a maioria dos sacerdotes angola-congo consultados em São Paulo, ela corresponde a Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô de Pernambuco"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", Iemanjá é a mãe dos orixás, senhora das águas salgadas, de cor azul profunda. Nos mitos dos xangôs do Recife e de Olinda, o masculino não é ativo diante de um feminino passivo: as três grandes mães, Iemanjá, Iansã e Oxum, guerreiam e agem, além de afetuosas, e Iemanjá toma parte ativa na criação do universo "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, o fichamento guarda o dia de Iemanjá, a sexta-feira partilhada com Odé "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Casa das Minas de São Luís, o vodum que corresponde a Iemanjá é Abé, da família de Quevioçô, jovem e feminino, ligado ao cometa e imaginado como estrela caída no mar; é dos poucos do grupo que falam "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Na casa de Pai Francelino, em Diadema, Abê e Naê aparecem como voduns correspondentes a Iemanjá, e o calendário reúne Abê, Naité e Iemanjá em 8 de dezembro e traz o presente de Abê em 2 de fevereiro. Numa casa nagô e cambinda do Maranhão, as oferendas a Iemanjá acontecem em dezembro "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": ", religião distinta do Candomblé, teve papel decisivo na difusão da festa do mar fora da Bahia, em cidades como Santos, Porto Alegre e Rio de Janeiro "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". Em Belém, desde 1971, o Festival de Iemanjá acontece a cada 8 de dezembro em Outeiro, cujas praias são de água doce, sob a condução de sacerdotes do candomblé, da mina, do omolocô e da umbanda. A festa carioca do Mercadão de Madureira se estende por dezembro inteiro, com oferendas e bilhetes deixados junto à estátua de Iemanjá, e se distingue por não associá-la a santos católicos "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na santería do central Méjico, em Matanzas, o neófito recebe na iniciação Yemayá junto de outros orixás maiores, como Obatalá, Changó e Ochún "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Iemanjá é associada a Nossa Senhora em várias invocações. Nos terreiros de Salvador e São Paulo, a ligação se explica pela maternidade: mãe dos orixás, ela é aproximada da Virgem Maria e figurada com o Menino nos braços. Num calendário de terreiro da Bahia, a festa dela é a 8 de dezembro, dia da Imaculada Conceição, e o cancioneiro do candomblé e da umbanda guarda as invocações da Conceição, das Candeias, das Cabeças, da Piedade e dos Navegantes "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": ". Na casa de Tambor de Mina de Diadema, a orixá se liga a Nossa Senhora das Candeias, enquanto Abê, o vodum que lhe corresponde, fica com Nossa Senhora da Conceição. Em sentido contrário, a festa do Mercadão de Madureira se define justamente por não incluir santos católicos "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As festas trazem a marca desse calendário, e as datas mudam conforme a cidade e a água. Nos terreiros de Salvador e São Paulo, as datas variam por região, com procissões até a praia e presentes de flores, perfumes e espelhos que, se aceitos pelo mar, garantem o pedido "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": ". Em Salvador, a festa de 2 de fevereiro no Rio Vermelho começa logo depois da meia-noite com uma oferenda a Oxum no Dique do Tororó, feita só pelos pescadores; às cinco da manhã, fogos de artifício dão a largada aos presentes trazidos pela multidão, entregues até a tarde. Tudo é juntado em grandes balaios, que partem num cortejo de embarcações da sede da Colônia, onde fica a \"morada\" de Iemanjá, vizinha da Igreja de Sant'Ana. Em Belém, como se viu, a data é 8 de dezembro e a água é doce "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Duas leituras se destacam. Reginaldo Prandi, apoiado em Monique Augras, vê no Brasil um apagamento dos traços africanos das Grandes Mães, deslocados para Pombagira. Danielle Perin Rocha Pitta, ao contrário, encontra nos mitos dos xangôs pernambucanos divindades femininas ativas, e Iemanjá como parte atuante da criação; ela vê na figura de Iemanjá a união de sedução e fertilidade "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": ". Leda Maria Perillo Seixas retoma Pierre Verger para sublinhar o poder que vem do domínio sobre as águas, e Leila Maria da Silva Blass usa o silêncio de Verger sobre uma festa exclusiva de Iemanjá no século XIX como indício para datar a festa de Salvador "
+            },
+            {
+              "t": "nota",
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As saudações Odoyá e Odô Fiaba aparecem num levantamento de canções, mas ainda não foram conferidas em fonte etnográfica ou em dicionário "
+            },
+            {
+              "t": "nota",
+              "n": 35
+            },
+            {
+              "t": "texto",
+              "v": ". O livro de Vallado e as notas de Verger sobre Iemanjá foram lidos só de segunda mão, e as coletâneas de mitos de Prandi e de Verger seguem impressas "
+            },
+            {
+              "t": "nota",
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": ". A data de origem da festa de Salvador não tem fonte acadêmica no fichamento "
+            },
+            {
+              "t": "nota",
+              "n": 37
+            },
+            {
+              "t": "texto",
+              "v": ". Também não há registro do nome de Iemanjá no Candomblé Jeje "
+            },
+            {
+              "t": "nota",
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-046"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-031"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-038"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-039"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-040"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-037"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-041"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-025"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-033"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-029"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-002"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-036"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-022"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-048"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-021"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-035"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-020"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-050"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-009"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-060"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-052"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-024"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ibeji-021"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-049"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-051"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-043"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-028"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-011"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-021"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-048"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-049"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-050"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-051"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-053"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-009"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-056"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-057"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-059"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-055"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-029"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-046"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-047"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-054"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-016"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-045"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-058"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-047"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-019"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-032"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-046"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-053"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-052"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-034"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-044"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Beniste, *Dicionário yorubá-português*"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Vallado, *Iemanjá* (Pallas, 2008)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Notas sobre o culto aos orixás e voduns*"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-034"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "equivalencias",
+          "tradicao": "candomble_jeje"
+        }
+      ]
+    }
+  ]
+}
