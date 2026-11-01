@@ -30,6 +30,19 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      # acervo/ guarda texto integral das fontes (uso interno; ver acervo/LEIAME.md):
+      # com o repositório público, nenhum PDF/texto de acervo/ pode estar versionado.
+      - name: Acervo só em repositório privado
+        env:
+          REPO_PRIVADO: ${{ github.event.repository.private }}
+        run: |
+          n=$(git ls-files acervo/pdf acervo/txt | grep -vc '/\.gitkeep$' || true)
+          echo "Arquivos de texto integral versionados em acervo/: $n (repositório privado: ${REPO_PRIVADO:-?})"
+          if [ "$n" -gt 0 ] && [ "$REPO_PRIVADO" != "true" ]; then
+            echo "::error title=Acervo em repositório público::O repositório está PÚBLICO e há $n arquivo(s) de texto integral das fontes em acervo/pdf ou acervo/txt. Essas cópias são de uso interno, com direitos de autores e editoras, e não podem ficar num repositório público nem ser publicadas. Torne o repositório privado ou retire o conteúdo de acervo/ (inclusive do histórico). Ver acervo/LEIAME.md."
+            git ls-files acervo/pdf acervo/txt | head -20
+            exit 1
+          fi
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -69,7 +82,7 @@ jobs:
       - name: Build do site (Astro + Pagefind) com base /mapadosorixas
         working-directory: site
         run: npm run build
-      - name: QA do site (versões, pré-fichamento/retidos, selo, noindex, links com o prefixo, downloads)
+      - name: QA do site (versões, pré-fichamento/retidos, selo, noindex, links com o prefixo, downloads, nada do acervo)
         run: python3 scripts/qa_site.py
 
       - name: Configurar Pages

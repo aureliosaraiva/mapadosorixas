@@ -1,1 +1,10 @@
 __pycache__/
+
+# Acervo de texto integral das fontes (acervo/LEIAME.md): uso interno.
+# Enquanto o repositório for PÚBLICO, PDFs e textos ficam fora do git.
+# Só remover estas linhas depois que o autor tornar o repositório privado
+# (ou mover o acervo para um repositório privado à parte).
+acervo/pdf/*
+acervo/txt/*
+!acervo/pdf/.gitkeep
+!acervo/txt/.gitkeep

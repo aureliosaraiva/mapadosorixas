@@ -12,7 +12,7 @@ de um registro já são conferidas no fichamento):
    Citações curtas (>= 6 palavras) são listadas como aviso para conferência.
 2. Comparação com textos de referência (opcional): se a variável de ambiente
    ANTICOPIA_REFS apontar para um diretório com arquivos .txt (textos das
-   obras, mantidos FORA do repositório), qualquer sequência de N palavras
+   obras; padrão: acervo/txt, quando tiver textos), qualquer sequência de N palavras
    (padrão 8) idêntica entre um texto do projeto e uma referência -> ERRO.
    Com referências, também se compara cada texto SÓ com a(s) fonte(s) que ele
    cita (arquivo `<source_id>.txt`): sequência de AVISO_FONTE a N-1 palavras
@@ -28,21 +28,22 @@ referência bibliográfica "Verger 1997, pp. 76–8; 1999, p. 132") não contam:
 são citação bibliográfica, não texto da obra. Palavras comuns não são
 ignoradas; a regra de 8 palavras continua valendo para qualquer texto.
 
-Como montar a pasta de referências (sempre FORA do repositório):
-  python3 scripts/baixar_refs.py --destino /tmp/refs
+Como montar a pasta de referências (o acervo interno, acervo/; ver acervo/LEIAME.md):
+  python3 scripts/baixar_refs.py
   - lê `url` e `evidencias` do catálogo das fontes usadas em registros
-    `fichado`/`revisado`, em tradições e no glossário; baixa os PDFs para
-    /tmp/refs-pdf/ e grava /tmp/refs/<source_id>.txt (pdftotext, ordem de
-    leitura, hifenização de fim de linha desfeita: "religi-\nões" -> "religiões");
-  - PDF obtido à mão: salvar como /tmp/refs-pdf/<source_id>.pdf e rodar com
-    --so-converter; texto de página HTML: salvar como /tmp/refs/<source_id>.txt;
+    `fichado`/`revisado`, em tradições e no glossário (mais acervo/urls_extras.json);
+    baixa os PDFs para acervo/pdf/ e grava acervo/txt/<source_id>.txt (pdftotext,
+    ordem de leitura, hifenização de fim de linha desfeita: "religi-\nões" -> "religiões");
+  - PDF obtido à mão: salvar como acervo/pdf/<source_id>.pdf e rodar com
+    --so-converter; texto de página HTML: salvar como acervo/txt/<source_id>.txt;
   - o nome do arquivo deve ser o `source_id`, para a comparação por fonte citada;
   - fontes que não baixarem vão para docs/pesquisa/PENDENCIAS.md.
 Toda sessão que ficha uma fonte roda este script com o texto integral dela
 antes do commit (regra do CLAUDE.md).
 
-Uso: python3 scripts/anticopia.py [--n 8]
-     ANTICOPIA_REFS=/tmp/refs python3 scripts/anticopia.py
+Uso: python3 scripts/anticopia.py [--n 8]          (refs: acervo/txt, se houver)
+     ANTICOPIA_REFS=/outra/pasta python3 scripts/anticopia.py
+     ANTICOPIA_REFS= python3 scripts/anticopia.py      (sem referências)
 Sai com código 1 se houver erro.
 """
 import json
@@ -139,6 +140,11 @@ def main():
                 avisos.append(f"{rot}: citação curta ({k} palavras) — conferir se é necessária: “{trecho}”")
 
     refs_dir = os.environ.get("ANTICOPIA_REFS")
+    if refs_dir is None:
+        # padrão: o acervo interno (acervo/txt), se houver textos nele
+        padrao = Path(__file__).resolve().parent.parent / "acervo" / "txt"
+        if any(padrao.glob("*.txt")):
+            refs_dir = str(padrao)
     n_refs = 0
     proximos = []
     if refs_dir:
@@ -202,7 +208,7 @@ def main():
                     avisos.append(f"{r1} e {r2} ({fonte}): repetem “{sorted(comum)[0]}”")
 
     print(f"{len(textos)} textos verificados; n={n}; referências externas: "
-          + (f"{n_refs} arquivo(s) em {refs_dir}" if refs_dir else "nenhuma (defina ANTICOPIA_REFS)"))
+          + (f"{n_refs} arquivo(s) em {refs_dir}" if refs_dir else "nenhuma (acervo/txt vazio; rode scripts/baixar_refs.py ou defina ANTICOPIA_REFS)"))
     for a in avisos:
         print(" aviso:", a)
     if proximos:

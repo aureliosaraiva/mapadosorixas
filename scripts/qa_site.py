@@ -50,6 +50,12 @@ absoluto fora do prefixo conta como quebrado.
    'hierarquia' das fichas ou, sem nenhuma, o aviso de estrutura vazia. Grafo
    tem o filtro por tipo de entidade. /dados/entidades.json e /dados/itans.json
    são as cópias filtradas.
+12. Acervo interno (acervo/, texto integral das fontes; uso interno): nenhum
+   arquivo do dist (inclusive /dados/) tem "acervo" no caminho, é PDF, tem o nome
+   de um arquivo do acervo (<source_id>.pdf/.txt) nem cita os arquivos do
+   acervo (indice.json, INDICE.md, LEIAME.md, urls_extras.json); e, se
+   acervo/txt tiver textos, nenhuma sequência de 20 palavras de um deles aparece
+   no texto do site (descontadas as que estão no catálogo de fontes: títulos).
 10. Publicação (rascunho): faixa "Rascunho — aguardando revisão…" em TODAS as
    páginas; Início com o aviso de versão inicial em revisão e link para as
    issues; nenhum <link rel=canonical>/sitemap que convide indexação.
@@ -848,6 +854,65 @@ def conferir_revisores(dist: Path) -> int:
     return len(REVISORES)
 
 
+# ----------------------------------------------------------------- acervo interno
+
+N_ACERVO = 20
+PALAVRA = re.compile(r"\w+", re.U)
+
+
+def conferir_acervo(dist: Path) -> tuple[int, int]:
+    """Nada de acervo/ no site: caminhos, PDFs, nomes de arquivo e trechos de 20 palavras."""
+    acervo = RAIZ / "acervo"
+    nomes = set()
+    for sub in ("pdf", "txt"):
+        nomes |= {p.name for p in (acervo / sub).glob("*") if p.name != ".gitkeep"}
+    indice = acervo / "indice.json"
+    if indice.exists():
+        for e in json.loads(indice.read_text(encoding="utf-8"))["itens"]:
+            nomes |= {f"{e['source_id']}.pdf", f"{e['source_id']}.txt"}
+    nomes |= {"indice.json", "INDICE.md", "urls_extras.json"}
+    textos = []
+    for arq in sorted(dist.rglob("*")):
+        if not arq.is_file():
+            continue
+        rel = arq.relative_to(dist)
+        if any("acervo" in parte.lower() for parte in rel.parts):
+            erro(f"acervo: arquivo do acervo no site: {rel}")
+        if arq.name in nomes:
+            erro(f"acervo: arquivo com nome de arquivo do acervo no site: {rel}")
+        with arq.open("rb") as fh:
+            if fh.read(5) == b"%PDF-":
+                erro(f"acervo: PDF no site: {rel}")
+        if arq.suffix in (".html", ".json", ".txt", ".js", ".xml", ".csv"):
+            textos.append(arq.read_text(encoding="utf-8", errors="ignore"))
+    site = "\n".join(textos)
+    if re.search(r"acervo/(?:pdf|txt)/", site):
+        erro("acervo: o site referencia caminhos acervo/pdf ou acervo/txt")
+    # trechos: 20 palavras seguidas de algum texto do acervo no texto do site
+    refs = sorted((acervo / "txt").glob("*.txt"))
+    if not refs:
+        return 0, 0
+    sem_tags = html.unescape(re.sub(r"<[^>]+>", " ", site)).lower()
+    pal = PALAVRA.findall(sem_tags)
+    grams = {hash(tuple(pal[i:i + N_ACERVO])) for i in range(len(pal) - N_ACERVO + 1)}
+    # títulos e notas do catálogo de fontes (página Fontes, citações) são referência
+    # bibliográfica, não texto da obra: descontados
+    # (trecho que contém 10 palavras seguidas do catálogo é título/referência)
+    cat = PALAVRA.findall((DATA / "fontes" / "catalogo.json").read_text(encoding="utf-8").lower())
+    cat10 = {tuple(cat[i:i + 10]) for i in range(len(cat) - 9)}
+    texto_site = " ".join(pal)
+    for ref in refs:
+        rp = PALAVRA.findall(ref.read_text(encoding="utf-8", errors="ignore").lower())
+        for i in range(len(rp) - N_ACERVO + 1):
+            g = tuple(rp[i:i + N_ACERVO])
+            if hash(g) in grams and " ".join(g) in texto_site:
+                if any(g[j:j + 10] in cat10 for j in range(N_ACERVO - 9)):
+                    continue
+                erro(f"acervo: trecho de {N_ACERVO} palavras de {ref.name} no site: “{' '.join(g)}”")
+                break
+    return len(nomes), len(refs)
+
+
 def main():
     dist = RAIZ / "site" / "dist"
     if "--dist" in sys.argv:
@@ -865,6 +930,7 @@ def main():
     conferir_publicacao(dist)
     nrevisores = conferir_revisores(dist)
     nents, nvitans, nhier = conferir_modelo2(dist, fichas, fontes)
+    nnomes_acervo, nrefs_acervo = conferir_acervo(dist)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
     nrev_vers = sum(1 for f in fichas.values() for vs in f["atributos"].values() for v in vs if v.get("revisoes"))
     print(f"QA do site: {len(fichas)} fichas, {nv}/{total} versões conferidas contra data/orixas; "
@@ -873,6 +939,7 @@ def main():
           f"tradições: {ntrad} exibidas, {nrasc} com descrição pendente de fonte (texto ausente do site); "
           f"revisão: {nrevisores} revisor(es) cadastrado(s), {nrev_vers} versão(ões) com revisão exibida; "
           f"lista-mestra: {nents} entidades no catálogo; itãs: {nvitans} versões conferidas; cosmologia: {nhier} versões de hierarquia; "
+          f"acervo: {nnomes_acervo} nomes de arquivo e {nrefs_acervo} texto(s) de acervo/txt procurados (0 vazamentos se ok); "
           f"prefixo: {site_base() or '/'}")
     if erros:
         print(f"\n{len(erros)} erro(s):")

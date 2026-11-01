@@ -1,0 +1,12 @@
+{
+  "descricao": "URLs adicionais (tentadas antes de url/evidencias do catálogo) para o acervo; lidas por scripts/baixar_refs.py. Fontes listadas aqui entram no acervo mesmo que ainda não estejam no fichamento.",
+  "urls": {
+    "chiousse-1995-divins": ["https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"],
+    "halloy-2005-intimite": ["https://hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf"],
+    "toutain-2019-santos": ["https://theses.hal.science/tel-03191332/file/Toutain_Maxime.pdf"],
+    "prandi-1995-deuses": ["http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0104-71831995000300010&tlng=pt"],
+    "noleto-2025-montevideu": ["http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0100-85872025000100101&tlng=pt"],
+    "giumbelli-2024-monumentos": ["http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0100-85872023000300201&tlng=pt"],
+    "ferreira-2017-legba": ["https://core.ac.uk/download/231243654.pdf"]
+  }
+}
