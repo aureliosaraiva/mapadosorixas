@@ -28,6 +28,12 @@ Para resolver: em **Network access**, nas configurações do ambiente, adicionar
 | 🔴 | `api.openalex.org` | 429 mesmo com `mailto`: o orçamento diário sem chave é compartilhado pelo IP do ambiente e estava esgotado (2026-10-31) | coleta OpenAlex da varredura 3. **Para resolver:** o autor cria uma chave gratuita (help.openalex.org/api/authentication) e a coloca como variável `OPENALEX_API_KEY` nas configurações do ambiente; depois rodar `coletar.py --bases openalex` | P3 |
 | 🔴 | `api.datacite.org`, `www.base-search.net` | desafio anti-robô ("Making sure you're not a bot") | metadados DataCite (DOIs do HAL e de repositórios) e o agregador BASE | P3 |
 | 🔴 | `search.scielo.org`, `api.core.ac.uk` | 403 / redirecionamento para login (o CORE exige chave) | busca SciELO direta (os artigos SciELO vieram pelo Crossref e pela DOAJ) e CORE | P3 |
+| 🔴 | `revistas.uece.br` | 403 em todos os downloads (2026-11-01) | Santana 2023, primeira ialorixá do Terreiro da Nação Xambá (`santana-2023-xamba`): reforço de `xango_pernambuco` e do termo Xambá | P2 |
+| 🔴 | `www.e-publicacoes.uerj.br` | conexão cortada nas 3 tentativas (2026-11-01); a cópia do Redalyc também dá 403 | Mendes 2014, Candomblé angola e caboclo (`mendes-2014-angola-caboclo`): reforço de `candomble_angola` | P2 |
+| 🔴 | `www.scielo.br` | desafio anti-robô (Bunny Shield), também no PDF (2026-11-01) | S. Ferretti 1996, Acossi (`ferretti-1996-acossi`), para `tambor_de_mina`; Corrêa 1996, culinária do batuque (`correa-1996-cozinha`), para `batuque_rs`. Baixar manualmente | P2 |
+| 🔴 | `www.mdpi.com` | 403 (Akamai) na página e no PDF (2026-11-01) | Niell 2023, santuário de Regla (`niell-2023-regla`): Yemayá de Regla e reforço de `lucumi`. Acesso aberto (CC BY); baixar manualmente | P2 |
+| 🟡 | `fundaj.emnuvens.com.br`, `econtents.bc.unicamp.br` | 502 no túnel (2026-11-01) | nada bloqueado: Pitta veio por `periodicos.fundaj.gov.br` e M. Ferretti por `periodicos.sbu.unicamp.br` | — |
+| 🟡 | `hal.science` (páginas) | desafio anti-robô na página do registro | nada bloqueado: o arquivo do PDF (`/file/...` ou `/document`, achado pela API do HAL) baixa direto | — |
 | 🟡 | `api.crossref.org` | 429 intermitente depois de ~300 requisições seguidas; o backoff do coletor resolve | nada bloqueado | — |
 
 ## 2. Obras impressas ou pagas (precisam de exemplar)
@@ -54,8 +60,9 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | 🔴 | Santos, *Os Nàgô e a morte* (1976) | Exu, pp. 130–139 | P2 |
 | 🔴 | Cabrera, *El Monte* (1954) e *Yemayá y Ochún* (1974); Bolívar, *Los orishas en Cuba* (1990) | equivalências lucumís | P2 |
 | 🔴 | Beier, *Yoruba Poetry* (1970); Barber, *I Could Speak Until Tomorrow* (1991) | ìjálá e oríkì de Ogum e Xangô; definição ampliada de oríkì no glossário | P3 |
-| 🔴 | Dantas, *Vovó nagô e papai branco* (1988) | descrição do **Xangô de Sergipe** (`xango_sergipe` está sem fonte) | P2 |
-| 🔴 | Barnet, *Cultos afrocubanos* (1995); Cabrera, *El Monte* (1954) | descrições de **Palo Monte** e **Regla Arará** (sem fonte); conferir em Cabrera a comparação Cuba × Bahia que Bastide (p. 78) faz | P2 |
+| 🟡 | Dantas, *Vovó nagô e papai branco* (1988) | descrição do **Xangô de Sergipe** além do mínimo: casas, nações, ritos. `xango_sergipe` tem hoje só uma descrição curta, de segunda mão (Halloy p. 31, que cita Bastide; M. Ferretti p. 76, que cita Dantas) | P2 |
+| 🔴 | Barnet, *Cultos afrocubanos* (1995); Cabrera, *El Monte* (1954) | descrição da **Regla Arará** (ainda sem fonte: Toutain 2019 só cita arará como nação colonial); reforço de **Palo Monte** (que já tem fonte em Toutain 2019 e Argyriadis 2005); conferir em Cabrera a comparação Cuba × Bahia que Bastide (p. 78) faz | P2 |
+| 🔴 | Parés, *A formação do candomblé* (2006), pp. 23–38 e 125–168 | conferir no original o que Cerqueira 2015 resume sobre os jejes em Salvador e as casas Bogum e Seja Hundê (`candomble_jeje`) | P2 |
 | 🔴 | Obra de referência sobre o **Orisha/Shango de Trinidad** (nenhuma aberta no catálogo; Bastide p. 95 só cita o culto dos *Shouters*) | descrição de `orisha_trinidad` (sem fonte) | P3 |
 | 🔴 | Obra que descreva a **nação Efon** | descrição de `candomble_efon` (sem fonte); nenhuma fonte lida menciona Efon | P2 |
 | 🔴 | Verger 1957/1999 (*Notas sobre o culto*) ou Peel 2016 | sustentar que o culto iorubá varia de cidade para cidade, sem panteão único (frase retirada de `ioruba_nigeria`) | P2 |
@@ -75,8 +82,10 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | 🔴 | exu-062: Nogueira (2017, p. 22) fala em "candomblés" sem nação; o registro usa `candomble_ketu` como aproximação | revisor confirma ou ajusta a tradição | P3 |
 | 🟡 | Revisão das fichas por praticantes e pesquisadores | preparação feita em [`docs/conselho/`](../conselho/); falta o contato (§3c) | **P1** |
 | 🔴 | Decidir o que é público em "tabus" e "alimentos" (hoje retidos das fichas: exu-012, oxossi-018) | conselho consultivo | P1 |
-| 🟡 | Tradições: 13 de 19 já têm fonte; faltam benim, candomble_efon, xango_sergipe, palo_monte, arara, orisha_trinidad (obras no §2). `benim` é rótulo editorial do catálogo: decidir se funde com `vodun_benim`/`ioruba_nigeria` | autor decide sobre `benim`; revisão das 13 descrições pelo conselho | P2 |
-| 🔴 | Glossário: decidir se entram **quizila/ewó**, **bori** e **kelê** (as fontes abertas os definem, mas tocam tabu ou iniciação) e revisar as 47 definições | conselho consultivo | P2 |
+| 🟡 | Tradições: 15 de 19 já têm fonte; faltam benim, candomble_efon, arara, orisha_trinidad (obras no §2). `benim` é rótulo editorial do catálogo: decidir se funde com `vodun_benim`/`ioruba_nigeria` | autor decide sobre `benim`; revisão das 15 descrições pelo conselho | P2 |
+| 🔴 | Catálogo (sessão do catálogo): `pitta-2011-mitos` saiu em 1985 (*Cad. Est. Soc.*, v. 1, n. 2, pp. 263–268); `ferretti-m-2020-pureza` é o artigo de 2001 (*Ciências Sociais e Religião*, ano 3, n. 3, pp. 75–94); evidências novas para Halloy, Toutain e Cerqueira | anotar em `observacoes`/`evidencias` sem trocar o ano citado (detalhes em [tradicoes-02](tradicoes-02.md) §5) | P3 |
+| 🔴 | Afirmações sobre os 5 orixás achadas na leitura das fontes de tradições (Halloy, Pitta, Toutain, Oro 2012, S. Ferretti 2011, Cerqueira): **não entraram no fichamento** | orquestradora encaminha a uma sessão de fichamento ([tradicoes-02](tradicoes-02.md) §4) | P1 |
+| 🔴 | Glossário: decidir se entram **quizila/ewó**, **bori** e **kelê** (as fontes abertas os definem, mas tocam tabu ou iniciação) e revisar as 54 definições | conselho consultivo | P2 |
 | 🔴 | Prandi 2005, *Nas pegadas dos voduns*: a versão do autor tem paginação própria; falta a correspondência com o livro *Somavó* (pp. 63–94) | conferir no exemplar | P3 |
 
 ## 3b. Site (Fase 5): decisões do autor
@@ -114,6 +123,7 @@ Material pronto em [`docs/conselho/`](../conselho/). **Nenhuma pessoa ou institu
 
 | Data | Item | Como |
 |---|---|---|
+| 2026-11-01 | `palo_monte` e `xango_sergipe` ganharam fonte; 7 tradições reforçadas; +7 termos no glossário (Regla de Ocha, Palo Monte, nfumbi, mpungu, cabildo, Xambá, abatá) | Halloy 2005, Pitta (1985), M. Ferretti (2001), S. Ferretti 2011, Oro 2012, Toutain 2019, Argyriadis 2005, Cerqueira 2015 ([tradicoes-02](tradicoes-02.md)) |
 | 2026-10-31 | Ferretti 2011, "Comida ritual em festas de Tambor de Mina" (antes atrás do Dialnet) | texto aberto no site da PUC Minas, achado pela DOAJ na varredura 3 |
 | 2026-10-31 | Coleta automatizada de metadados (antes impossível por bloqueio de API) | Crossref, Open Library, theses.fr, HAL e DOAJ respondem; `scripts/coleta/` ([relatório 3](relatorio-varredura-03.md)) |
 | 2026-10-31 | Descrições de 13 tradições com fonte e página; glossário com 47 termos | Bastide 1961, Chiousse 1995, Prandi 2001 e 2005, Silva 2012, Oro 2008, Botão 2007, Tomba 2019 ([fichamento-05](fichamento-05.md)) |
