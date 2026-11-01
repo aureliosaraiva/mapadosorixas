@@ -1,0 +1,1530 @@
+{
+ "_meta": {
+  "descricao": "Decisões da triagem da varredura nº 4, geradas por scripts/coleta/triagem_2026-11-01.py. Aplicar com scripts/coleta/incorporar.py.",
+  "data": "2026-11-01"
+ },
+ "decisoes": {
+  "c3293ca8a1e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "akande-2019-egungun",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Genealogy, MDPI, CC BY); Egúngún de Òyó e equilíbrio ontológico."
+  },
+  "c400c3806a6": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ogungbemi-2021-olodumare",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review, Univ. da Flórida)."
+  },
+  "cccf58213a0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "akin-otiko-2024-olodumare",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Nsukka Journal of Religion); filosofia da religião iorubá."
+  },
+  "c358d56995f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "barber-1981-how-man",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, CUP); texto clássico sobre a relação devotos × òrìṣà."
+  },
+  "c45f5318c16": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "monteiro-2021-iya-mi",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Iyá Mi Oxorongá: olhares sagrados do feminino no candomblé"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ethnoscientia). Nação a confirmar na leitura."
+  },
+  "c652fa61d27": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "igboin-2014-olodumare",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); debate filosófico com Layi 2016."
+  },
+  "ce726c85ed1": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "layi-2016-olodumare",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); réplica a Igboin 2014."
+  },
+  "cc0ea819c5f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "santos-2008-ia-mi",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Sankofa, USP, acesso aberto). Nação a confirmar."
+  },
+  "c9201c162a8": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "willis-2017-masquerading",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Indiana University Press); história do Egúngún em Òyó."
+  },
+  "c235ec9e06f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "carvalho-2019-iyami",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Fractal, UFF). Tradição a confirmar (o título fala em sacerdotisas de Iyami)."
+  },
+  "c66a6bb252e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "bewaji-1998-olodumare",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (African Studies Quarterly)."
+  },
+  "c27138510c6": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "buckley-1985-smallpox",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, CUP); Ṣọ̀pọ̀nnọ́ (Omolu)."
+  },
+  "c720fc04d70": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "oliva-2012-eshu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Brasileira de História, SciELO); historiografia da cosmologia iorubá."
+  },
+  "cc8ef35e7d8": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "wolff-1982-egungun",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts)."
+  },
+  "c4436a0339a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "schiltz-1978-egungun",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts)."
+  },
+  "c3dd9d88953": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "kalilu-1991-egungun",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal of Black Studies)."
+  },
+  "c21992ba15e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "famule-2021-ayan",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Àyàn e Egúngún."
+  },
+  "ccf7c1928c0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "zacharias-2010-olori",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Esboços, UFSC); Orí e orixá de cabeça. Nação a confirmar."
+  },
+  "c3a518cfc7a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "asante-mazama-2009-obatala",
+    "tipo": "documento",
+    "categoria": "enciclopedia",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "autores": [
+     "Molefi Kete Asante (org.)",
+     "Ama Mazama (org.)"
+    ]
+   },
+   "justificativa": "verbete da Encyclopedia of African Religion (SAGE, 2009); DOI Crossref."
+  },
+  "ce152c5180c": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "adegbindin-2021-eni-oosa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Ọbàtálá e o ẹni-òòṣà."
+  },
+  "c08881ce1a3": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "rodrigue-2001-ori-apere",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "livro (Selo Negro, 2001) sobre as Águas de Oxalá; registro na Open Library."
+  },
+  "c9bde070d58": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "lawuyi-1992-obatala",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (History in Africa)."
+  },
+  "c5066fa40eb": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "raheem-2024-obatala-olokun",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Myth, Ritual, and Visible Expressions of Ọbàtálá and Olókun in Ilé-Ifẹ̀"
+   },
+   "justificativa": "monografia acadêmica (Lexington Books, 2024) sobre Ọbàtálá e Olókun em Ilé-Ifẹ̀; registro na Open Library."
+  },
+  "c3adc06c23b": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "jock-2020-oduduwa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (HTS Teologiese Studies)."
+  },
+  "c83ad7d8e11": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "seyfeli-2019-ile-ife",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "idioma": "tr"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Artuklu Akademi); em turco, sobre Ilé-Ifẹ̀ e a criação."
+  },
+  "c31866ab832": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "mason-1996-olookun",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "obra de John Mason, sacerdote e pesquisador lucumí (Yorùbá Theological Archministry); visão de dentro, a cotejar."
+  },
+  "c675e9e310e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "love-2012-divining",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Penn State UP); cap. 6 sobre Ọ̀ṣun, Yemọja e Ọya."
+  },
+  "ca5fb5a52dc": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "afolabi-2026-oya",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria",
+     "lucumi",
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Ọya no Atlântico negro."
+  },
+  "c8df6e1926e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "fernandez-cano-2005-oya",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Gazeta de Antropología, Univ. de Granada); sincretismo de Oyá."
+  },
+  "c06f74b20ca": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "gleason-1987-oya",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria",
+     "lucumi",
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia de Judith Gleason (Shambhala, 1987) sobre Ọya na Nigéria e nas Américas; editora não acadêmica, autora pesquisadora."
+  },
+  "c3b9cdd70ce": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "rabelo-2015-oxum",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Religião e Sociedade, SciELO)."
+  },
+  "c753fdd880a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "carrillo-2026-ochun",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Argumentos)."
+  },
+  "ccbfd470fa0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "joffroy-2004-osun-osogbo",
+    "tipo": "documento",
+    "categoria": "patrimonio",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dossiê de candidatura do Bosque Sagrado de Ọ̀ṣun-Òṣogbo ao Patrimônio Mundial (CRAterre/NCMM, 2004), depositado no HAL."
+  },
+  "c888d9579d0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "amherd-2026-soponna",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); hipótese histórica, a ler com cautela."
+  },
+  "cad33079518": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "henry-2010-sakpata",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "vodun_benim"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal des Africanistes, OpenEdition, acesso aberto)."
+  },
+  "c374962b52a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "hagedorn-2002-babalu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (British Journal of Ethnomusicology); San Lázaro/Babalú Ayé."
+  },
+  "cd9d329934d": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "caprara-1998-omolu",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "capítulo em obra acadêmica (DOI Crossref): em Antropologia da Saúde (Fiocruz/Relume-Dumará), acesso aberto no SciELO Livros."
+  },
+  "cbc82f04fc2": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "leite-2020-omolu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Omolu, Obaluaê, São Lázaro, São Roque, a fé, a medicina do pobre"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Fragmentos de Cultura, PUC Goiás). Tradições a confirmar."
+  },
+  "ce0bae5db47": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "stocklin-1982-sakpata",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "vodun_benim"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Gesnerus); história da medicina."
+  },
+  "c3323496979": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "kakpo-2013-sakpata",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "vodun_benim"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ponts-Ponti); literatura oral sacra do golfo do Benim."
+  },
+  "c07975fbea3": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "mota-2022-olubaje",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "“Omolu quer todo mundo no Olubaje”"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Equatorial, UFRN). Nação a confirmar."
+  },
+  "c25aec1b289": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ochoa-2020-lazarus",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "A Party for Lazarus: Six Generations of Ancestral Devotion in a Cuban Town",
+    "autores": [
+     "Todd Ramón Ochoa"
+    ],
+    "url": null
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (University of California Press, 2020: A Party for Lazarus); capítulo 8 sobre Babalú Ayé."
+  },
+  "c1581622b51": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "barros-2011-ossaim",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "livro de José Flávio Pessoa de Barros, antropólogo (UERJ), sobre as folhas no candomblé (Pallas)."
+  },
+  "ce4b988f977": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "verger-1967-osanyin",
+    "tipo": "livro",
+    "categoria": "corpus_oral",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "textos iorubás de Ọ̀sanyìn recolhidos por Verger (Institute of African Studies, Univ. de Ifẹ̀, 1967); registro na Open Library."
+  },
+  "c36c4c9458d": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "sallum-2006-ossaim",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Revista do Museu de Arqueologia e Etnologia, USP)."
+  },
+  "c2c4f573545": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "santos-2023-logunede",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Revista Calundu, UnB)."
+  },
+  "c44156c6b41": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "mobolade-1971-ibeji",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts)."
+  },
+  "c0cc6f3bddc": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "houlberg-1973-ibeji",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts); estudo de referência sobre Ìbejì."
+  },
+  "c6a34525c0a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "olayemi-1971-ibeji",
+    "tipo": "livro",
+    "categoria": "corpus_oral",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "cantos de louvor aos gêmeos (Institute of African Studies, Univ. de Ibadan, 1971); registro na Open Library."
+  },
+  "cee58bbacca": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "leroy-2002-twins",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Twin Research, CUP)."
+  },
+  "cbb4226756a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ogunbunmi-2026-twins",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review)."
+  },
+  "c3ed9241839": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "meyerowitz-1944-ibeji",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C",
+    "titulo": "Ibeji Statuettes from Yoruba, Nigeria"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Man, RAI); olhar colonial de 1944, valor documental."
+  },
+  "c1b67dfb4ab": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "sousa-2019-osumare",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Entre escritos e falados: terreiros de candomblé e a problemática dos lugares de memória – o caso do Ilé Òsùmàrè Aràká Àṣẹ Ògòdó (Casa de Oxumarê)"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Macabéa); terreiro Ilê Axé Oxumarê (Salvador) e lugares de memória."
+  },
+  "cc99239816a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "jesus-2024-cromatica",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Cromática dos orixás: uma análise da nomenclatura e atribuição das cores aos orixás do candomblé ketu"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Sacrilegens, UFJF); cores dos orixás no Ketu."
+  },
+  "c74744be4bc": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "tosoli-2024-cantigas",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Reflexão); representações a partir das cantigas."
+  },
+  "c985d3d2237": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "silva-2022-mina-nago",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "capítulo em obra acadêmica (Maringá de todos os santos?), DOI Crossref; panteão de uma casa de Mina Nagô."
+  },
+  "c6f8e926715": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "parizi-2020-livro-orixas",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria",
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "livro em acesso aberto (Editora Fi, DOI 10.22350/9786559170319) de pesquisador doutor; cobre o panteão. Conferir rigor na leitura."
+  },
+  "c45937b3c82": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "abimbola-1997-women",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A",
+    "titulo": "Images of Women in the Ifá Literary Corpus",
+    "autores": [
+     "Wande Abimbola"
+    ]
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Annals of the New York Academy of Sciences); autor é a referência do corpus de Ifá."
+  },
+  "ce7c3b46d67": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "abimbola-1997-mend",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria",
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "entrevistas de Wande Abimbola (Aim Books, 1997) sobre Ifá na África e na diáspora; registro na Open Library."
+  },
+  "c629174524a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ofuasia-2023-ifa-hell",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Religions, MDPI)."
+  },
+  "c307bfafa27": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "lindon-1990-oriki",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal of Religion in Africa)."
+  },
+  "c03500d2525": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "adeniji-neill-2014-oriki",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "capítulo em obra acadêmica (DOI Crossref) (Palgrave Macmillan, Indigenous Concepts of Education)."
+  },
+  "c60569e253d": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "adegbindin-2011-ifa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Human Affairs); leitura filosófica do corpus de Ifá."
+  },
+  "c70c21e77b4": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "anoba-2022-odu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal of Religion in Africa)."
+  },
+  "c450280d92a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "morton-williams-1966-ifa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, CUP)."
+  },
+  "c9ef4740c85": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "wyndham-1919-ifa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C",
+    "titulo": "The Divination of Ifa (A Fragment)"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Man, RAI). Documento colonial de 1919 (domínio público): usar como documento histórico."
+  },
+  "c976d08c3ec": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "noguera-2018-orunmila",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "A questão do autoconhecimento na filosofia de Orunmilá"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (ODEERE, UESB)."
+  },
+  "c8cf7db1258": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "akande-2020-opon",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts)."
+  },
+  "c47346105c9": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pogoson-2011-ifa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de Estudos Africanos, OpenEdition, acesso aberto)."
+  },
+  "cd3aba559ad": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "elebuibon-1999-iyere",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "autores": [
+     "Ifayemi Elebuibon"
+    ]
+   },
+   "justificativa": "cantos de Ifá (ìyẹ̀rẹ̀) publicados por Ifayemi Elebuibon, babaláwo de Òṣogbo; visão de dentro."
+  },
+  "c78a5ecf735": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "olupona-2022-ifa-healing",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "autores": [
+     "Jacob K. Olupona"
+    ]
+   },
+   "justificativa": "capítulo em obra acadêmica (DOI Crossref) (University of Arizona Press, Divination and Healing)."
+  },
+  "cb87a7fd7df": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "olupona-2010-pluralism",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "capítulo em obra acadêmica (DOI Crossref) (Fortress Press, Ethics That Matters)."
+  },
+  "c8e66d7a260": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "oluwole-2014-orunmila",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia da filósofa Sophie Oluwole (Ark Publishers, 2014)."
+  },
+  "ce94bc3459c": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ogunnaike-2020-deep",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Deep Knowledge: Ways of Knowing in Sufism and Ifa, Two West African Intellectual Traditions",
+    "autores": [
+     "Oludamini Ogunnaike"
+    ]
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Penn State UP, 2020: Deep Knowledge); caps. 5–6 e 9 sobre Ifá."
+  },
+  "ce1029d06b5": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "villepastour-2015-ayan",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria",
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (University Press of Mississippi); Àyàn na Nigéria e em Cuba."
+  },
+  "c99a0659e9b": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "silva-unb-ossaim",
+    "tipo": "dissertacao",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dissertação (UnB) sobre folhas num terreiro; sem ano no registro."
+  },
+  "c5fca04639b": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "campelo-2020-adanida",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "Horizonte (PUC Minas); orixá tratado a confirmar."
+  },
+  "cf8ab83922f": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "verger-2007-high-god",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "reedição (Black Madonna Enterprises, 2007) do artigo de Verger sobre o deus supremo iorubá; conferir a publicação original."
+  },
+  "c7d93907104": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "barber-rep-ifa",
+    "tipo": "documento",
+    "categoria": "enciclopedia",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "verbete de Karin Barber na Routledge Encyclopedia of Philosophy; sem ano no registro."
+  },
+  "ca13bbf2d56": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "lijadu-2010-orunmila",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "reedição/tradução (2010) da obra de E. M. Lijadu (Orunmila!, c. 1908); conferir edição original e tradutor."
+  },
+  "ccc1d5e7cba": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "sobanjo-iwe-ifa",
+    "tipo": "livro",
+    "categoria": "corpus_oral",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "obra em iorubá de J. A. Ṣobanjo (Remo Syndicate Press); o ano 1900 no registro parece genérico; conferir data e direitos."
+  },
+  "c1da3646078": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "epega-1951-iwe-ifa",
+    "tipo": "livro",
+    "categoria": "corpus_oral",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "obra em iorubá de D. Ọnadele Epega (Imọlẹ Oluwa Institute); conferir data, edição e direitos."
+  },
+  "c78c6837989": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "bogunmbe-1995-odu",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "odù de Ifá por praticante (Ilé Ọ̀rúnmìlà Communications); editora de nicho."
+  },
+  "c40b66d710f": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "fama-1994-sixteen",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "narrativas de Ifá por praticante (Ilé Ọ̀rúnmìlà Communications); editora de nicho."
+  },
+  "c8ae8225132": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "pichardo-1984-oduduwa",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "obra de Ernesto Pichardo, oriaté lucumí (Ediciones Universal); conferir conteúdo."
+  },
+  "c8cdc057cc2": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "akinjogbin-1964-olokun",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "publicação do Yoruba Historical Research Scheme (I. A. Akinjogbin); conferir se é folheto ou monografia."
+  },
+  "cffab98b8cf": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "alexandre-2006-logunede",
+    "tipo": "livro",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "publicação municipal (São Paulo, 2006) sobre um sacerdote de Logunedé."
+  },
+  "c1519b5ac9d": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "rocha-unicamp-oxum",
+    "tipo": "dissertacao",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dissertação (Unicamp) sobre bebês em candomblés Ketu; sem ano no registro."
+  },
+  "ca3f9d8dd17": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "feraudy-2002-venus",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "Editorial de Ciencias Sociales (Havana); sobre Ochún, conferir conteúdo."
+  },
+  "c2e405aeb32": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "monteiro-1999-osanyin",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "CETRAB; editora de nicho."
+  },
+  "c0ed83b1084": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "durojaiye-1978-linguagem",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "obra de praticante; editora e conteúdo a conferir."
+  },
+  "cb34fa19589": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "machado-2021-oxala",
+    "tipo": "capitulo",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "reconto educativo de itãs (Prosa de Nagô, Vanda Machado); útil como divulgação, não sustenta ficha."
+  },
+  "c56135ef491": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "serra-2018-pureza",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "Anuário Antropológico (UnB, acesso aberto), de Ordep Serra; a DOAJ data 2018, possível digitalização de volume antigo; tema a confirmar."
+  },
+  "cf8d35331e5": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "probst-osun-osogbo",
+    "tipo": "documento",
+    "categoria": "enciclopedia",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "verbete de Peter Probst (Routledge); sem ano no registro."
+  },
+  "c151cbceec6": {
+   "decisao": "descarta",
+   "motivo": "reedição de idowu-1962-olodumare"
+  },
+  "c0d1af056b5": {
+   "decisao": "descarta",
+   "motivo": "edição francesa (Métailié) de verger-1981-orixas"
+  },
+  "cebae425b43": {
+   "decisao": "descarta",
+   "motivo": "tradução brasileira de cabrera-1974-yemaya"
+  },
+  "c31680671cf": {
+   "decisao": "descarta",
+   "motivo": "duplicata de otero-falola-2013-yemoja"
+  },
+  "cd22acfb512": {
+   "decisao": "descarta",
+   "motivo": "reedição de bascom-1969-ifa"
+  },
+  "c991aa5613b": {
+   "decisao": "descarta",
+   "motivo": "duplicata de abimbola-1977-poetry"
+  },
+  "c1607042bdd": {
+   "decisao": "descarta",
+   "motivo": "capítulo de Dennett 1910 (domínio público, catalogado à parte)"
+  },
+  "c6d4f8b71f1": {
+   "decisao": "descarta",
+   "motivo": "capítulo da tradução inglesa de pares-2006-formacao"
+  },
+  "c57fd31b8fc": {
+   "decisao": "descarta",
+   "motivo": "edição de lopes-2006-logunede (já no catálogo)"
+  },
+  "c9fa9750c68": {
+   "decisao": "descarta",
+   "motivo": "edição de lopes-2006-logunede (já no catálogo)"
+  },
+  "c7aac4bbc53": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c4715833e80": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c501df69ac1": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c9c0509b897": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c56e9429a72": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c3205f0aede": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c50b5bbebb9": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c8b5d7f49d8": {
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  "cef0f5ca7c8": {
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  "cec837eb8ff": {
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  "ceb25020f27": {
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  "cf25e21381d": {
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  "c20ed03b082": {
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  "cf7e3158280": {
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  "c386a324137": {
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  "c844533ff78": {
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  "c0d467d3369": {
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  "c297a88a02d": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c6d25b2aa49": {
+   "decisao": "descarta",
+   "motivo": "Olokun do reino do Benim (Edo), fora do recorte iorubá/afro-americano desta rodada"
+  },
+  "cc0f6a02078": {
+   "decisao": "descarta",
+   "motivo": "Olokun do reino do Benim (Edo), fora do recorte iorubá/afro-americano desta rodada"
+  },
+  "c866e2686ee": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c5847c41eb2": {
+   "decisao": "descarta",
+   "motivo": "Olokun do reino do Benim (Edo), fora do recorte iorubá/afro-americano desta rodada"
+  },
+  "c2bfa09208e": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c0d8ee590dc": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "cadcf5c630f": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "ce106f86c91": {
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  "c07973ff56c": {
+   "decisao": "descarta",
+   "motivo": "já no catálogo como abimbola-1976-ifa (usado para conferência)"
+  },
+  "c80c59ea415": {
+   "decisao": "descarta",
+   "motivo": "já no catálogo como abimbola-1968-ijinle (usado para conferência)"
+  }
+ },
+ "conferencias": {
+  "abimbola-1976-ifa": {
+   "chave": "c07973ff56c",
+   "nota": "Open Library registra Oxford University Press Nigeria, 1976.",
+   "isbn": true
+  },
+  "abimbola-1968-ijinle": {
+   "chave": "c80c59ea415",
+   "nota": "Open Library registra a edição de 2006 (University Press PLC); a 1ª edição (1968) não aparece no registro; ano citado mantido.",
+   "isbn": false
+  }
+ }
+}

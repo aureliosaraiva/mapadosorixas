@@ -1,0 +1,1331 @@
+{
+ "base": "hal",
+ "data": "2026-11-01",
+ "linhas_por_consulta": 20,
+ "gerado_por": "scripts/coleta/coletar.py",
+ "status": "ok",
+ "erro": null,
+ "consultas": [
+  {
+   "id": "v4-oxala-pt",
+   "q": "Oxalá orixá",
+   "idioma": "pt",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxala-en",
+   "q": "Obatala Yoruba",
+   "idioma": "en",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxala-yo",
+   "q": "Ọbàtálá",
+   "idioma": "yo",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-04573485",
+     "titulo": "Editorial: MSC Communication in Physiological and Pathological Settings",
+     "autores": [
+      "Philippe Bourin",
+      "Jeffrey M Gimble",
+      "Louis Casteilla",
+      "António Salgado"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://ut-toulouseinp.hal.science/hal-04573485v1",
+     "doi": "10.3389/fcell.2022.909550",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Frontiers in Cell and Developmental Biology",
+     "editora": null,
+     "assuntos": [
+      "Mesenchymal stem cells cell comunication editorial physiological settings pathology",
+      "Physiological settings",
+      "Pathology",
+      "Mesenchymal stem cells",
+      "Editorial",
+      "Cell comunication"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02931750",
+     "titulo": "Séismes pyrénéens : la tectonique du futur",
+     "autores": [
+      "Stéphane Roland",
+      "G. Sénéchal",
+      "Matthieu Sylvander",
+      "Oriane Guilhot",
+      "Jean-Luc Sagnard"
+     ],
+     "ano": 2019,
+     "tipo_base": "VIDEO",
+     "url": "https://media.hal.science/hal-02931750v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "RESIF",
+      "Seismological Network",
+      "RLBP",
+      "Pyrenees",
+      "Historical seismicity",
+      "Seismic Hazard",
+      "Epos-France",
+      "RESIF",
+      "Epos-France",
+      "Aléa sismique",
+      "Vulnérabilité sismique",
+      "Sismicité historique",
+      "RLBP",
+      "Pyrénées",
+      "Réseau sismologique"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oxala"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxala-es",
+   "q": "Obatalá santería",
+   "idioma": "es",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxum-pt",
+   "q": "Oxum orixá",
+   "idioma": "pt",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxum-en",
+   "q": "Osun goddess Osogbo",
+   "idioma": "en",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-03125379",
+     "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+     "autores": [
+      "Thierry Joffroy",
+      "O. J. Eboreime"
+     ],
+     "ano": 2004,
+     "tipo_base": "REPORT",
+     "url": "https://hal.science/hal-03125379v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "World heritage",
+      "World heritage",
+      "Patrimoine mondial",
+      "Nigeria",
+      "Environnement naturel",
+      "Conservation du patrimoine",
+      "Patrimoine mondial"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~osun"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yemoja",
+      "iansa",
+      "olodumare",
+      "~sango",
+      "~yoruba",
+      "~osun"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxum-es",
+   "q": "Ochún",
+   "idioma": "es",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxum-en2",
+   "q": "Oshun orisha",
+   "idioma": "en",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-iansa-pt",
+   "q": "Iansã orixá",
+   "idioma": "pt",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-iansa-en",
+   "q": "Oya Yoruba",
+   "idioma": "en",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-03125379",
+     "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+     "autores": [
+      "Thierry Joffroy",
+      "O. J. Eboreime"
+     ],
+     "ano": 2004,
+     "tipo_base": "REPORT",
+     "url": "https://hal.science/hal-03125379v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "World heritage",
+      "World heritage",
+      "Patrimoine mondial",
+      "Nigeria",
+      "Environnement naturel",
+      "Conservation du patrimoine",
+      "Patrimoine mondial"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~osun"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yemoja",
+      "iansa",
+      "olodumare",
+      "~sango",
+      "~yoruba",
+      "~osun"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-iansa-es",
+   "q": "Oyá santería",
+   "idioma": "es",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-nana-pt",
+   "q": "Nanã orixá",
+   "idioma": "pt",
+   "alvo": "nana",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-nana-en",
+   "q": "Nana Buruku",
+   "idioma": "en",
+   "alvo": "nana",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-omolu-pt",
+   "q": "Omolu Obaluaê",
+   "idioma": "pt",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-omolu-en",
+   "q": "Sakpata Obaluaye",
+   "idioma": "en",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-omolu-es",
+   "q": "Babalú Ayé",
+   "idioma": "es",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxumare-pt",
+   "q": "Oxumarê",
+   "idioma": "pt",
+   "alvo": "oxumare",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxumare-en",
+   "q": "Osumare Dan rainbow serpent",
+   "idioma": "en",
+   "alvo": "oxumare",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ossaim-pt",
+   "q": "Ossaim folhas candomblé",
+   "idioma": "pt",
+   "alvo": "ossaim",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ossaim-en",
+   "q": "Osanyin Yoruba",
+   "idioma": "en",
+   "alvo": "ossaim",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-logunede-pt",
+   "q": "Logunedé",
+   "idioma": "pt",
+   "alvo": "logunede",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oba-pt",
+   "q": "Obá orixá",
+   "idioma": "pt",
+   "alvo": "oba",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ewa-pt",
+   "q": "Ewá orixá",
+   "idioma": "pt",
+   "alvo": "ewa",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ibeji-pt",
+   "q": "Ibeji orixá",
+   "idioma": "pt",
+   "alvo": "ibeji",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ibeji-en",
+   "q": "ibeji twins Yoruba",
+   "idioma": "en",
+   "alvo": "ibeji",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-iroko-pt",
+   "q": "Iroko orixá",
+   "idioma": "pt",
+   "alvo": "iroko",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-orunmila-pt",
+   "q": "Orunmilá Ifá",
+   "idioma": "pt",
+   "alvo": "orunmila",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-orunmila-en",
+   "q": "Orunmila Ifa divination",
+   "idioma": "en",
+   "alvo": "orunmila",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oduduwa-en",
+   "q": "Oduduwa Ile-Ife",
+   "idioma": "en",
+   "alvo": "oduduwa",
+   "status": "ok",
+   "erro": null,
+   "total": 5,
+   "n": 5,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-04573799",
+     "titulo": "Retour sur l’archéologie mortuaire d’époque médiévale dans le sud-ouest du Nigéria. Approches forensiques d’une mortalité discrète",
+     "autores": [
+      "Cécile Chapelain de Seréville-Niel",
+      "Gérard L. F. Chouin",
+      "Adisa Ogunfolakan"
+     ],
+     "ano": 2024,
+     "tipo_base": "ART",
+     "url": "https://normandie-univ.hal.science/hal-04573799v1",
+     "doi": "10.4000/12meo",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Afrique : Archéologie et Arts",
+     "editora": null,
+     "assuntos": [
+      "Burial",
+      "Black death",
+      "Human remains",
+      "Mass grave",
+      "Peste noire",
+      "Sépulture",
+      "Restes humains",
+      "Fosse commune"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oduduwa",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03933915",
+     "titulo": "Témoins africains de crises sanitaires ?",
+     "autores": [
+      "Cécile Chapelain de Seréville-Niel",
+      "Gérard Lucien, Francis Chouin"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03933915v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Les Nouvelles de l'archéologie",
+     "editora": null,
+     "assuntos": [
+      "Archéologie",
+      "Fosse commune",
+      "Thanatoarchéologie",
+      "Benin City",
+      "Ife",
+      "Nigéria",
+      "Afrique"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oduduwa"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03933839",
+     "titulo": "Mission Archéologique Ife-Sungbo, 2018-2022. Rapport Quadriennal.",
+     "autores": [
+      "Gérard Chouin",
+      "Adisa Ogunfolakan",
+      "Léa Roth",
+      "Cécile Chapelain de Seréville-Niel",
+      "Amanda Logan",
+      "Emuobosa Orijemie",
+      "Geoffroy de Saulieu",
+      "David Sebag",
+      "Eric Verrechia",
+      "Luca Trombino",
+      "Carole Acquaviva"
+     ],
+     "ano": 2023,
+     "tipo_base": "REPORT",
+     "url": "https://hal.science/hal-03933839v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Oduduwa College",
+      "Space",
+      "Pavements",
+      "Geoscience",
+      "Archaeobotany",
+      "Nigeria",
+      "Archaeology",
+      "Ife",
+      "Ile-Ife",
+      "Industries",
+      "Industries",
+      "Archéobotanique",
+      "Géoscience",
+      "Espace",
+      "Pavement"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oduduwa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05060333",
+     "titulo": "Phenotypic Resistance Pattern of Bacterial Isolates from Gold Mine Tailings in Ile Ife, Osun State, Nigeria",
+     "autores": [
+      "Evelyn Fatokun",
+      "Cecilia Fakorede",
+      "Karen Amishe",
+      "Ademola Olayinka"
+     ],
+     "ano": 2024,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05060333v1",
+     "doi": "10.56557/ajmab/2024/v9i29025",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Journal of Microbiology and Biotechnology",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~osun",
+      "!excluir"
+     ],
+     "termos_resumo": [
+      "~osun",
+      "!excluir"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03239565",
+     "titulo": "Rapport d’étude archéo-anthropologique préliminaire de la campagne 2019 : Fouille archéologique d’Ile Ife-Sungbo et nouvel examen de la population exhumée à Benin city (Nigéria)",
+     "autores": [
+      "Cécile Chapelain de Seréville-Niel",
+      "Gérard Chouin"
+     ],
+     "ano": 2021,
+     "tipo_base": "REPORT",
+     "url": "https://normandie-univ.hal.science/hal-03239565v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-olokun-en",
+   "q": "Olokun",
+   "idioma": "en",
+   "alvo": "olokun",
+   "status": "ok",
+   "erro": null,
+   "total": 21,
+   "n": 20,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-05382599",
+     "titulo": "Production of Yoghurt from Milk Extract of Tigernut (Cyperus esculentus) Using Lactic Acid Bacteria Isolated from Locally Fermented Milk (Nono)",
+     "autores": [
+      "M D Makut",
+      "a L Olokun",
+      "R M Olokun"
+     ],
+     "ano": 2018,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05382599v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Food Science Journal",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05257525",
+     "titulo": "Cuerpos híbridos. Cuerpos culpables. Cuerpos Bienaventurados. Una lectura de El amor y otros demonios de Gabriel García Márquez",
+     "autores": [
+      "Maguy Blancofombona"
+     ],
+     "ano": 2010,
+     "tipo_base": "ART",
+     "url": "https://univoak.hal.science/hal-05257525v1",
+     "doi": "10.4000/cher.8339",
+     "isbn": [],
+     "idioma": "es",
+     "periodico": "ReCHERches",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05358357",
+     "titulo": "Production of Fermented Drink from Milk Extract of Tigernut (Cyperus esculentus)",
+     "autores": [
+      "A L Olokun",
+      "T T Mbagwu",
+      "J E Maikori"
+     ],
+     "ano": 2018,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05358357v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "South Asian Research Journal of Natural Products",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05353843",
+     "titulo": "Gram Negative Bacteria Associated with Spoilage of Tomatoes Sold at Mararaba and Masaka Market, New Karu Local Government Area, Nasarawa State",
+     "autores": [
+      "a L Olokun",
+      "a B Ajide",
+      "J O Ihuma"
+     ],
+     "ano": 2019,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05353843v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "International Journal of Pathogen Research",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05714772",
+     "titulo": "Detection and Molecular Characterisation of Probiotic Bacteria from Musa paradisiaca and Citrus sinensis",
+     "autores": [
+      "Olokun Alexander Lanzema",
+      "Ajide Bukola Adeyoola"
+     ],
+     "ano": 2026,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05714772v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "International Journal of Pathogen Research",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05241872",
+     "titulo": "Development of an Automatic Solar-driven Hand Sanitizing System (AHSS) using Proximity Sensors",
+     "autores": [
+      "Adegoke B. O.",
+      "Olokun M. S.",
+      "Agboola S."
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05241872v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Current Journal of Applied Science and Technology",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05233256",
+     "titulo": "Development of IOT Device for Sensing Weather and Environmental Pollutants",
+     "autores": [
+      "T. E Babalola",
+      "A. D Babalola",
+      "M. S Olokun"
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05233256v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Journal of Engineering Research and Reports",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05204102",
+     "titulo": "Development of Deep Neural Network Model for the Prediction of Road Crashes in Real Time",
+     "autores": [
+      "M. S Olokun",
+      "O. O Ipindola",
+      "F. T Oyediji",
+      "J. N Falana"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05204102v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Journal of Engineering Research and Reports",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05412508",
+     "titulo": "Design and Implementation of Photo-induced Heart Beat Monitoring System",
+     "autores": [
+      "Olokun Mayowa Samuel"
+     ],
+     "ano": 2017,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05412508v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "British Journal of Mathematics & Computer Science",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05220047",
+     "titulo": "The Prevalence of Hepatitis B Virus Infection among Patients Attending Defence Headquarters Medical Centre, Asokoro, Abuja, Nigeria",
+     "autores": [
+      "J. O. K Abioye",
+      "Agi Mathias Omojo",
+      "Olokun Alexander Lanzema"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05220047v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Journal of Biochemistry, Genetics and Molecular Biology",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05397040",
+     "titulo": "Intestinal Microbiota and Immunity: A Review",
+     "autores": [
+      "C F Egwuonwu",
+      "E C Evans",
+      "a L Olokun"
+     ],
+     "ano": 2018,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05397040v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Journal of Research in Biochemistry",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05743759",
+     "titulo": "Artificial Intelligence in Drug Susceptibility Testing for Multidrug-resistant Tuberculosis: Genomic Prediction, Automated Phenotyping and Clinical Translation",
+     "autores": [
+      "Bako Helen Yakubu",
+      "Ajide Bukola Adeyoola",
+      "Olokun Alexander Lanzema"
+     ],
+     "ano": 2026,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05743759v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "International Journal of Pathogen Research",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05214449",
+     "titulo": "Food Safety Cultures: A Study of Food Vendors in Abuja Municipal Area Council (AMAC), Nigeria",
+     "autores": [
+      "Uwemedimo Fyne Okita",
+      "Bassi Amos",
+      "Olokun Alexander Lanzema"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05214449v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Food Science Journal",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05204233",
+     "titulo": "Development of IOT Based Digital Display Board for Students’ Lectures Update",
+     "autores": [
+      "Iwayemi A.",
+      "Olokun M. S.",
+      "Alalade A. O."
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05204233v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Journal of Engineering Research and Reports",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05233428",
+     "titulo": "Design and Construction of Smart Vehicle Security System Using GPS and Spy Cam",
+     "autores": [
+      "A. D Babalola",
+      "M. S Olokun"
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05233428v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Journal of Engineering Research and Reports",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05216126",
+     "titulo": "Phytochemical Properties and Proximate Composition of Asclepias syriacal",
+     "autores": [
+      "J. O. K Abioye",
+      "E Manaja",
+      "A. L Olokun"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05216126v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Journal of Research in Crop Science",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05622492",
+     "titulo": "The Complexity of Tuberculosis Therapy and Probiotics Remedy: A New Approach",
+     "autores": [
+      "Olokun Alexander Lanzema",
+      "Ajide Bukola Adeyoola"
+     ],
+     "ano": 2026,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05622492v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Journal of Advances in Microbiology",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05603140",
+     "titulo": "Bio-Fabrication of a Biodegradable Flower Vase from Sawdust Using Fungal Mycelium: Dual Function for Spent Mushroom Substrate",
+     "autores": [
+      "C.O Bamigboye",
+      "A.G Adewoyin",
+      "E.O Olokun",
+      "M.J Falade",
+      "M.O Oladimeji",
+      "B Olatunde",
+      "G.O Bamigboye"
+     ],
+     "ano": 2026,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05603140v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Biotechnology Journal International",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05203300",
+     "titulo": "Isolation of Listeria monocytogenes from Raw Meat Sold in Nasarawa State",
+     "autores": [
+      "J. O. K Abioye",
+      "Olokun Alexander Lanzema",
+      "Gwaze Rejoice Danladi"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05203300v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "International Journal of Pathogen Research",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05204080",
+     "titulo": "Development of an ESP-32 Microcontroller Based Weather Reporting Device",
+     "autores": [
+      "T. E Babalola",
+      "A. D Babalola",
+      "M. S Olokun"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05204080v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Journal of Engineering Research and Reports",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-olodumare",
+   "q": "Olodumare Yoruba God",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-orun",
+   "q": "orun aiye cosmologia iorubá",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-egungun-pt",
+   "q": "Egungun culto Itaparica",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-egungun-en",
+   "q": "Egungun masquerade",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-05209913",
+     "titulo": "Egungun be Careful: Reconciling Yoruba Culture and Contemporary Nigerian Law on the Status, Powers and Immunity of the Indigenous African Masquerade",
+     "autores": [
+      "Babafemi Odunsi"
+     ],
+     "ano": 2023,
+     "tipo_base": "COUV",
+     "url": "https://hal.science/hal-05209913v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "BP International",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "egungun",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-iyami",
+   "q": "Iyami Oxorongá",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-iyami-en",
+   "q": "Iyami Aje Yoruba witchcraft",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-funfun",
+   "q": "orixás funfun",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-ori",
+   "q": "Ori orixá cabeça",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-pt",
+   "q": "itãs mitologia dos orixás",
+   "idioma": "pt",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-odu",
+   "q": "odu Ifá corpus",
+   "idioma": "pt",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-ifa-en",
+   "q": "Ifa literary corpus odu",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-oriki",
+   "q": "oriki orisa",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-abimbola",
+   "q": "Abimbola Ifa",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-02627197",
+     "titulo": "Regional sub-saharan africa total diet study in benin, Cameroon, Mali and Nigeria reveals the presence of 164 mycotoxins and other secondary metabolites in foods",
+     "autores": [
+      "Luc Ingenbleek",
+      "Michael Sulyok",
+      "Abimbola Adegboye",
+      "Sètondji Epiphane Hossou",
+      "Abdoulaye Zié Kone",
+      "Awoyinka Dada Oyedele",
+      "Chabi Sika K. J. Kisito",
+      "Yara Koreissi Dembélé",
+      "Sara Eyangoh",
+      "Philippe Verger",
+      "Jean-Charles Leblanc",
+      "Bruno Le Bizec",
+      "Rudolf Krska"
+     ],
+     "ano": 2019,
+     "tipo_base": "ART",
+     "url": "https://hal.inrae.fr/hal-02627197v1",
+     "doi": "10.3390/toxins11010054",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Toxins",
+     "editora": null,
+     "assuntos": [
+      "MS",
+      "LC-MS",
+      "Food contaminants",
+      "Total diet study",
+      "Mycotoxins",
+      "Aflatoxins",
+      "Sub-Saharan Africa"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-ita-merindilogun",
+   "q": "merindilogun dilogun",
+   "idioma": "es",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-pateo-pt",
+   "q": "patakí orishas",
+   "idioma": "es",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  }
+ ]
+}

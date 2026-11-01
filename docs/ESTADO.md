@@ -2,7 +2,7 @@
 
 > Arquivo de passagem entre sessões. **Toda sessão começa lendo este arquivo e termina atualizando-o.** Mantenha-o curto, com no máximo uma página: o detalhe fica nos relatórios linkados.
 
-**Última atualização:** 2026-11-01 (sessão modelo2: Fase 7 antecipada — modelo de dados para o panteão completo; antes: trad02, fichamento-06/07/08, revisao, anticopia, anticopia2 e pages)
+**Última atualização:** 2026-11-01 (sessões modelo2 e **varredura4**; modelo2: Fase 7 antecipada — modelo de dados para o panteão completo; antes: trad02, fichamento-06/07/08, revisao, anticopia, anticopia2 e pages)
 
 ## Onde estamos
 
@@ -10,7 +10,7 @@
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
-| Fontes no catálogo | 316 (227 `conferido_web`, 62 `a_verificar`, 27 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima**. Varredura 3 (coleta por API): +129 `conferido_web`, +17 `pista`, 11 promovidas ([relatório](pesquisa/relatorio-varredura-03.md)) | `python3 scripts/validar_fontes.py` |
+| Fontes no catálogo | **422** (317 `conferido_web`, 59 `a_verificar`, 46 `pista`); 106 com `url` de texto aberto. **Varredura 4** (expansão para o panteão): +75 `conferido_web` da coleta por API, +13 obras em domínio público com texto integral (Ellis, Dennett, Farrow, Frobenius, Baudin, Nina Rodrigues 1935, Querino, João do Rio, Ortiz etc.; confiabilidade C, olhar colonial), +19 `pista` ([relatório](pesquisa/relatorio-varredura-04.md)). Varredura 3: +129 ([relatório](pesquisa/relatorio-varredura-03.md)). Todas as fontes usadas no fichamento estão `conferido_web` ou acima | `python3 scripts/validar_fontes.py` |
 | Registros de fichamento | 303 (287 `fichado`, 16 `pre_fichamento`, 0 `revisado`); fichamento-08: +1, exu-094, M. Ferretti 2001 p. 85 ([relatório](pesquisa/fichamento-08.md)); fichamento-06: +81 ([relatório](pesquisa/fichamento-06.md)); fichamento-07: +16, voduns × orixás do Tambor de Mina em Prandi 2005 ([relatório](pesquisa/fichamento-07.md)) | `python3 scripts/validar_fichamento.py` |
 | Atributos com versões divergentes | 41 | `python3 scripts/divergencias.py` |
 | Lista-mestra (`data/entidades.json`) | **33 entidades** (27 orixás, 2 qualidades, 1 divindade suprema, 3 conceitos cosmológicos, 2 ancestrais — Iyami `sensivel`); `status_conteudo`: 5 `fichado`, 28 `sem_fichamento`; nenhum `grupo` confirmado | `python3 scripts/validar_fichamento.py` |
@@ -24,13 +24,20 @@
 | Site (`site/`) | **no ar (rascunho):** <https://aureliosaraiva.github.io/mapadosorixas/> (deploy a cada push na `main`). 26 páginas: início com busca, catálogo (33 entidades, 28 "em pesquisa"), 5 fichas (com mini-grafo, termos do glossário e link para o itã), **Itãs** (lista + 10 páginas), **Cosmologia** (estrutura vazia com aviso), grafo (filtro por tipo de entidade), tradições, glossário, fontes, metodologia, baixar dados, sobre (+ 14 arquivos em `/dados/`). Screenshots em `docs/screenshots/` e, do site publicado, em `docs/screenshots/pages/` | `cd site && npm ci && npm run build` |
 | QA do site | prefixo `/mapadosorixas` (padrão; `SITE_BASE=/` para a raiz); faixa de rascunho em todas as páginas e aviso de versão inicial com link para as issues no Início; 285/285 versões batem com `data/orixas`; 54/54 termos do glossário e 19/19 tradições conferidos contra os dados (fontes, ano e página); texto das 3 tradições sem fonte ausente do site; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~2770 links e âncoras internos sem 404; catálogo × lista-mestra, itãs × JSON e Cosmologia × `hierarquia` (§11); axe-core sem violações (26 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
 | Revisão do conselho | 0 revisores em `data/revisores.json`, 0 revisões; 48 testes (`tests/test_revisao.py`, `tests/test_modelo2.py`) e dois ponta a ponta com dados sintéticos numa cópia temporária (`tests/e2e_revisao_site.py`, `tests/e2e_modelo2_site.py`) | `python3 -m unittest discover -s tests`; `python3 tests/e2e_revisao_site.py`; `python3 tests/e2e_modelo2_site.py` |
-| Idiomas no catálogo | pt 159 · en 94 · fr 36 · es 18 · de 6 · it 2 · yo 1 | — |
+| Idiomas no catálogo | pt 189 · en 154 · fr 38 · es 23 · yo 8 · de 7 · it 2 · tr 1 | — |
 
 Registros por orixá: Exu 94 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 34.
 
 **Fontes já lidas no original:** Prandi 2001; Bastide 1961 (pp. 26–32, 89–128, 165, 182–192); Chiousse 1995 (pp. 225–291); Silva 2012 (parcial); Blass 2007; Seixas 2018; Queiroga & Nascimento 2019; Souza 2020; resumos de Cardoso Filho 2015 e Teixeira 2021; Nogueira 2017 (pp. 9, 16–22, 195–197, 382–385); Pinheiro 2011 (pp. 28–41, 61–72, 83–84); Costa 2007 (integral); Oro 2008 (pp. 11–14); Botão 2007 (p. 15 e glossário); Tomba 2019 (pp. 25, 91–92); Prandi 2005, *Nas pegadas dos voduns* (integral, versão do autor, no fichamento-07); **fichamento-08:** M. Ferretti 2001 (pp. 84–94), Argyriadis 2005 (integral, HTML; nada sobre os 5 orixás); glossários de Bastide (pp. 353–358) e Chiousse (pp. 371–380); **trad02:** Halloy 2005 (pp. 24–31, 84–86, 96–98, 115–121, 163–170), Pitta 1985 (integral), M. Ferretti 2001 (pp. 75–84), S. Ferretti 2011 (integral), Oro 2012 (integral), Toutain 2019 (pp. 2, 6–11, 18–21, 107–112), Argyriadis 2005 (pp. 153–157, 175–176), Cerqueira 2015 (pp. 82–83, 88, 132, 155, 165); **fichamento-06:** Castillo 2022 (integral), Costa 1980 (integral), Nascimento et al. 2001 (integral), Vallier 2011 (pp. 811–831), Capo Chichi 2025 (integral); páginas da trad02 conferidas para os orixás (Halloy pp. 163–169, Pitta 263–267, Toutain 7–11, S. Ferretti 260–262, Cerqueira 82–88). Ver [`fichamento-04`](pesquisa/fichamento-04.md), [`fichamento-05`](pesquisa/fichamento-05.md), [`tradicoes-02`](pesquisa/tradicoes-02.md) [`fichamento-06`](pesquisa/fichamento-06.md) e [`fichamento-07`](pesquisa/fichamento-07.md).
 
 ## Próximas tarefas (em ordem)
+
+**Expansão para o panteão completo (~25 orixás + cosmologia + itãs): lotes da [varredura 4](pesquisa/relatorio-varredura-04.md) §6.** Modelo de dados 2 já na `main` (ver acima): cada lote vira sessões por entidade.
+
+- **Lote A — Oxalá, Oxum, Iansã, Nanã, Omolu: pode começar.** Bastide 1961 já lido (pp. 26–32, 89–128, 182–192 mencionam os cinco: basta reabrir); artigos abertos (Rabelo 2015, Henry 2010, Mota 2022, Leite 2020, Afolabi 2026, Amherd 2026); obras antigas como documento histórico (Ellis 1894, Dennett 1910, Farrow 1926, Nina Rodrigues 1935). Chiousse 1995 pp. 225–291 entra quando o autor salvar o PDF (HAL bloqueado; PENDENCIAS §1, P1).
+- **Lote C — cosmologia e hierarquia (Olodumare, Orum/Aiê, funfun, Orí, Odudua, Olokun, Egungun, Iyami): pode começar** com Ellis, Dennett, Farrow, Johnson e artigos abertos (Ogungbemi, Igboin, Layi, Bewaji, Jock, Fámúlẹ̀, Santos 2008, Carvalho 2019, Zacharias 2010). Faltam Santos 1976, Idowu 1962 e Beniste 1997 (exemplar).
+- **Lote B — Oxumarê, Ossaim, Logunedé, Obá, Ewá, Ibeji, Iroko: parcial.** Ossaim, Obá, Ibeji e Iroko têm base aberta (Bastide, Ellis, Sallum 2006, Santos 2023, Ogunbunmi 2026); **Ewá e Oxumarê quase nada** (dependem de Verger 1981 e de obras da Pallas).
+- **Lote D — itãs, odù e oríkì: bloqueado.** Prandi *Mitologia*, Verger *Lendas* e o corpus de Abimbola são impressos ou protegidos (as cópias online não têm licença). Dá para preparar só a estrutura de odù e oríkì com Ellis e Dennett.
 
 **Prioridade: expansão do panteão (Fase 7 antecipada).** Uma sessão = uma entidade (arquivo `data/fichamento/<id>.json`, que só ela edita) ou uma fonte. Entidade sem fonte lida continua "Em pesquisa" no site, sem texto. Modelo e regras em [`modelo-dados-2.md`](modelo-dados-2.md).
 
@@ -39,7 +46,7 @@ Registros por orixá: Exu 94 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 3. **Itãs:** fichar novos itãs (atributo `itans`) e espelhá-los em `data/itans.json` (título, entidades nomeadas, odu só se a fonte disser); parentesco afirmado no itã vira entrada em `conexoes_alvos.json`. Prandi, *Mitologia dos Orixás*, e Verger, *Lendas africanas dos orixás*, dependem de exemplar → PENDENCIAS §2.
 4. **Saudações, itãs e origem africana** dos 5 orixás (dependem de Verger, Prandi, Cacciatore e Beniste → PENDENCIAS §2) e **equivalências com inquices e voduns** (Castro 2001, Parés 2006, Lopes 1988). *(Tambor de Mina feito no fichamento-07.)*
 5. **Resolver os 16 `pre_fichamento`** e as **fontes P1 bloqueadas** (Prandi 1995, Giumbelli & Lima 2024, Noleto & Negrão 2025, Ferreira 2017, Ribas 2010; Halloy e Toutain no HAL) → PENDENCIAS §1–2. *(Busca de texto aberto feita em 2026-11-01; fontes abertas da varredura 3 esgotadas.)*
-6. **Nova varredura de fontes para a expansão** (sessão do catálogo, uma por vez em `catalogo.json`): `scripts/coleta/` com consultas para os 28 ids sem fichamento e para cosmologia (Olodumare, Orum/Aiê, Egungun, Ifá). Repetir BDTD e OpenAlex quando acessíveis.
+6. ~~**Nova varredura de fontes para a expansão**~~: feita na **varredura 4** (2026-11-01, [relatório](pesquisa/relatorio-varredura-04.md)): +106 fontes, 13 obras em domínio público com texto integral, cobertura por entidade e lotes A–D (acima). Repetir BDTD e OpenAlex quando acessíveis (`coletar.py --bases bdtd,openalex` com as consultas `v4-*`).
 7. **Fase 2 (restante):** 3 tradições sem fonte (Arará, Orisha de Trinidad, `benim`), Efon (Lima 2014), termos pendentes do glossário → PENDENCIAS.
 8. **Site:** versões es/en; licença dos dados (P1 com o site público) e domínio → PENDENCIAS §3b.
 9. **Conselho consultivo:** contato com candidatos ([`conselho/candidatos.md`](conselho/candidatos.md)) e decisões de §3c, agora incluindo a escolha final do panteão da primeira leva e o que publicar sobre Iyami.
@@ -77,6 +84,7 @@ Registros por orixá: Exu 94 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 - **Site:** Astro 7 (Node ≥ 22.23), saída estática, `base` padrão `/mapadosorixas` (`SITE_BASE=/` para a raiz; QA, axe e screenshots usam o mesmo padrão). Selo "Rascunho — aguardando revisão de praticantes e pesquisadores" em todas as fichas e `noindex` em todas as páginas até a revisão. Etiquetas de Umbanda com borda tracejada, para distinguir de Candomblé sem depender de cor. Filtros e grafo são aprimoramento progressivo: sem JS, aparecem tabelas e listas completas.
 - **Conferência de metadados:** Open Library, Internet Archive, Crossref e repositórios institucionais valem como evidência para `conferido_web`; a URL vai em `evidencias`. Divergência de edição ou ano é anotada em `observacoes`, sem trocar o ano citado. WorldCat (429), Gallica (403) e Google Books (cota) não respondem neste ambiente.
 - **Coleta por API (varredura 3):** `scripts/coleta/` é o caminho padrão para novas varreduras. A saída bruta vai para `data/fontes/coleta/<data>/`, sem resumos (texto de terceiros). As decisões de triagem ficam num script legível (`triagem_<data>.py`) e só entram no catálogo itens sobre orixás ou religiões afro-diaspóricas, com metadado de API. Autopublicação e editoras esotéricas ficam de fora. Candidatos pertinentes mas periféricos continuam em `candidatos.json`, sem entrar no catálogo.
+- **Domínio público (varredura 4):** confere-se pelo item livre no Internet Archive (`metadata`), pela API de catálogo do HathiTrust (`rightsCode` pd/pdus) e pela data de morte do autor (70 anos no Brasil; 80 na Espanha para mortos antes de 1987). Obras de viajantes, missionários e administradores coloniais entram com **confiabilidade C** e aviso de olhar colonial em `observacoes`: servem como documento histórico de época e lugar, nunca sozinhas para um atributo. Cópias online sem licença clara (ex.: Abimbola) não entram como `url`. Script: `scripts/coleta/dominio_publico_2026-11-01.py` (idempotente).
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
 - **Página nos registros é a página impressa**, não a do PDF. Quando as duas diferem, a relação é anotada no relatório da rodada.
 - **Página sem número impresso** (ex.: PDF da *Afro-Ásia* antiga): citar "PDF p. N" e registrar em PENDENCIAS para conversão. **Desafio anti-robô** (SciELO, CORE, PUC-SP, arquivo): não contornar; registrar e pedir o arquivo ao autor. Espelhos legítimos (repositório institucional dos autores, HAL) valem.
@@ -106,7 +114,7 @@ Registros por orixá: Exu 94 · Ogum 64 · Iemanjá 59 · Xangô 52 · Oxóssi 3
 | `docs/PLANO.md` | plano completo (fases 0–7) |
 | `docs/ESTADO.md` | este arquivo |
 | `docs/pesquisa/PENDENCIAS.md` | bloqueios a resolver pelo autor |
-| `docs/pesquisa/relatorio-varredura-0*.md` | rodadas de busca de fontes (a nº 3 é automatizada) |
+| `docs/pesquisa/relatorio-varredura-0*.md` | rodadas de busca de fontes (a nº 3 é automatizada; a nº 4 cobre a expansão para o panteão, com plano de leitura em lotes) |
 | `scripts/coleta/` | coleta por API, deduplicação, triagem e incorporação ao catálogo (ver `README.md`) |
 | `data/fontes/coleta/<data>/` | saída bruta da coleta por base, `candidatos.json`, `triagem.json`, `triagem_resumo.json` |
 | `docs/pesquisa/fichamento-0*.md` | rodadas de fichamento (fontes lidas, correções, divergências) |

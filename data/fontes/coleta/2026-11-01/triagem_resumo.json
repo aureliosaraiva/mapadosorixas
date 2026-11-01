@@ -1,0 +1,3476 @@
+{
+ "gerado_por": "scripts/coleta/incorporar.py",
+ "contagem": [
+  {
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras",
+   "n": 282
+  },
+  {
+   "decisao": "entra",
+   "motivo": "",
+   "n": 75
+  },
+  {
+   "decisao": "descarta",
+   "motivo": "",
+   "n": 38
+  },
+  {
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial",
+   "n": 36
+  },
+  {
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)",
+   "n": 31
+  },
+  {
+   "decisao": "pista",
+   "motivo": "",
+   "n": 19
+  },
+  {
+   "decisao": "nao_incorporado",
+   "motivo": "capítulo de obra já catalogada ou incorporada",
+   "n": 5
+  },
+  {
+   "decisao": "nao_incorporado",
+   "motivo": "resenha de livro",
+   "n": 3
+  }
+ ],
+ "ja_no_catalogo": 18,
+ "descartados_auto_sem_termo": 288,
+ "promovidos_conferido_web": [
+  "abimbola-1976-ifa",
+  "abimbola-1968-ijinle"
+ ],
+ "itens": [
+  {
+   "chave": "c3293ca8a1e",
+   "titulo": "<i>Ará Òrun Kìn-ìn Kin-in:</i> Òyó-Yòrùbá <i>Egúngún</i> Masquerade in Communion and Maintenance of Ontological Balance <xref rid=\"fn1-genealogy-398950\" ref-typ",
+   "ano": 2019,
+   "decisao": "entra",
+   "motivo": "akande-2019-egungun"
+  },
+  {
+   "chave": "c400c3806a6",
+   "titulo": "A Comparative Study of Olodumare, the Yoruba Supreme Being and the Judea-Christian God",
+   "ano": 2021,
+   "decisao": "entra",
+   "motivo": "ogungbemi-2021-olodumare"
+  },
+  {
+   "chave": "c50adbb0498",
+   "titulo": "A Filha do Barão e os Orixás",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cccf58213a0",
+   "titulo": "Beyond Presumption: Proof of Olódùmarè’s Existence Using Afẹ́fẹ́ (Air), Ilẹ̀ (Soil) and Omi (Water) among the Yoruba",
+   "ano": 2024,
+   "decisao": "entra",
+   "motivo": "akin-otiko-2024-olodumare"
+  },
+  {
+   "chave": "cb7ff459653",
+   "titulo": "Book Review: Olodumare—God in Yoruba Belief",
+   "ano": 1962,
+   "decisao": "nao_incorporado",
+   "motivo": "resenha de livro"
+  },
+  {
+   "chave": "cd91ebdffac",
+   "titulo": "Cachaça, palm oil, and salt for Exu in Plaza of the Orixás",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c2b743c706c",
+   "titulo": "Cada Cabeça uma Sentença: coberturas de cabeça como identidade religiosa e étnico-cultural afro diaspórica",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3ca04ff9b0",
+   "titulo": "Comer com os Orixás: alimentos, rituais e resistência na Umbanda Eating with the Orixás: food, rituals, and resistance in Umbanda Comer con los Orishas: aliment",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc57ebfea85",
+   "titulo": "Conclusion: Egungun and Gelede in Otta Today",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "capítulo de obra já catalogada ou incorporada"
+  },
+  {
+   "chave": "ca3dec96f53",
+   "titulo": "Corrigenda: Egungun Masquerades of the Igbomina Yoruba",
+   "ano": 1978,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc8ef35e7d8",
+   "titulo": "Egungun Costuming in Abeokuta",
+   "ano": 1982,
+   "decisao": "entra",
+   "motivo": "wolff-1982-egungun"
+  },
+  {
+   "chave": "c4436a0339a",
+   "titulo": "Egungun Masquerades in Iganna",
+   "ano": 1978,
+   "decisao": "entra",
+   "motivo": "schiltz-1978-egungun"
+  },
+  {
+   "chave": "c93ea099f29",
+   "titulo": "Egungun be Careful: Reconciling Yoruba Culture and Contemporary Nigerian Law on the Status, Powers and Immunity of the Indigenous African Masquerade",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c358d56995f",
+   "titulo": "How man makes God in West Africa: Yoruba attitudes towards the <i>Orisa</i>",
+   "ano": 1981,
+   "decisao": "entra",
+   "motivo": "barber-1981-how-man"
+  },
+  {
+   "chave": "c45f5318c16",
+   "titulo": "IYÁ MI OXORONGÁ: OLHARES SAGRADOS DO FEMININO NO CANDOMBLÉ",
+   "ano": 2021,
+   "decisao": "entra",
+   "motivo": "monteiro-2021-iya-mi"
+  },
+  {
+   "chave": "c652fa61d27",
+   "titulo": "Is Olodumare, God In Yoruba Belief, God?",
+   "ano": 2014,
+   "decisao": "entra",
+   "motivo": "igboin-2014-olodumare"
+  },
+  {
+   "chave": "ce726c85ed1",
+   "titulo": "Is Olodumare, God in Yoruba Belief, God?: A Response to Benson O. Igboin",
+   "ano": 2016,
+   "decisao": "entra",
+   "motivo": "layi-2016-olodumare"
+  },
+  {
+   "chave": "cc0ea819c5f",
+   "titulo": "Iá Mi Oxorongá: As Mães Ancestrais e o Poder Feminino na Religião Africana",
+   "ano": 2008,
+   "decisao": "entra",
+   "motivo": "santos-2008-ia-mi"
+  },
+  {
+   "chave": "cfe9234111f",
+   "titulo": "Lake Paranoá and Plaza of the Orixás",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "cc7403fe588",
+   "titulo": "Le silence des Orixás",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca97f5b36dd",
+   "titulo": "Les orixás dansent en Europe: Aventures transnationales des religions afro-brésiliennes",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4101edda2e",
+   "titulo": "Literary Translation and Culture Consciousness: The Experience of Translating     D.O. Fagunwa's Igbo Olodumare from Yoruba into English",
+   "ano": 2002,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c9201c162a8",
+   "titulo": "Masquerading Politics",
+   "ano": 2017,
+   "decisao": "entra",
+   "motivo": "willis-2017-masquerading"
+  },
+  {
+   "chave": "c235ec9e06f",
+   "titulo": "Notas sobre pesquisa colaborativa com sacerdotisas da Deusa Iyami Osoronga",
+   "ano": 2019,
+   "decisao": "entra",
+   "motivo": "carvalho-2019-iyami"
+  },
+  {
+   "chave": "cc1c905814e",
+   "titulo": "O Brincar da Criança Performer com Orixás: experienciações artísticas e afrorreferenciadas",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd654c1f0c3",
+   "titulo": "Offerings for Iemanjá in Plaza of the Orixás",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c2d70f42421",
+   "titulo": "Olodumare God in Yoruba Belief",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c66a6bb252e",
+   "titulo": "Olodumare: God In Yoruba Belief And The Theistic Problem of Evil",
+   "ano": 1998,
+   "decisao": "entra",
+   "motivo": "bewaji-1998-olodumare"
+  },
+  {
+   "chave": "c151cbceec6",
+   "titulo": "Olódùmarè",
+   "ano": 1994,
+   "decisao": "descarta",
+   "motivo": "reedição de idowu-1962-olodumare"
+  },
+  {
+   "chave": "c27f146fd10",
+   "titulo": "Oralitura e a figura mitológica de Iyá Mi Oxorongá em “Caroço de dendê”, de Mãe Beata de Yemonjá",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c82243f215e",
+   "titulo": "Orixás: a manifestação cultural de Deus - uma análise das liturgias católicas inculturadas",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cfd6629c50b",
+   "titulo": "Orixás: virações cotidianas",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c92820a86ea",
+   "titulo": "Out of Afrika Cult: The Yoruba Egungun Masquerade",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "ca5ed655b64",
+   "titulo": "Return to the Orixás",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7bf97c4b8e",
+   "titulo": "Statue of Iemanjá in Plaza of the Orixás",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c2762ce8c1b",
+   "titulo": "Stylistic Analysis of Egungun Masks In Kishi",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c005569df48",
+   "titulo": "THE PAINTER OF ORIXÁS",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb17816edac",
+   "titulo": "The Egungun Dancers of West Africa",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c93ba2faeeb",
+   "titulo": "The Place of Egungun (Masquerade) In The Growth of Isan Ekiti Community, Ekiti State, Nigeria ,1979-1999",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c80bed437a8",
+   "titulo": "The Religion of the Yoruba - Olodumare, God in Yoruba Belief. By E. Bolaji Idowu. London: Longmans, 1962. Pp. 222. 27<i>s</i>. 6<i>d</i>.",
+   "ano": 1963,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3dd9d88953",
+   "titulo": "The Role of Sculptures in Yoruba Egungun Masquerade",
+   "ano": 1991,
+   "decisao": "entra",
+   "motivo": "kalilu-1991-egungun"
+  },
+  {
+   "chave": "c86a44ba2f4",
+   "titulo": "The Tragedies of Yorùbá’s Spiritual Space",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf8ab83922f",
+   "titulo": "The Yorùbá high god",
+   "ano": 2007,
+   "decisao": "pista",
+   "motivo": "verger-2007-high-god"
+  },
+  {
+   "chave": "c27138510c6",
+   "titulo": "The god of smallpox: aspects of Yoruba religious knowledge",
+   "ano": 1985,
+   "decisao": "entra",
+   "motivo": "buckley-1985-smallpox"
+  },
+  {
+   "chave": "cce792be216",
+   "titulo": "Translating the Hebrew Name יהוה into the Yoruba language of Nigeria in the Yoruba Bible",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc607058fc7",
+   "titulo": "Typology of Egungun Iyamoye",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c720fc04d70",
+   "titulo": "Visões sobre Eshu: Imagens e interpretações da Cosmologia Iorubá na África Ocidental. O olhar dos cientistas sociais (1950-1980)",
+   "ano": 2012,
+   "decisao": "entra",
+   "motivo": "oliva-2012-eshu"
+  },
+  {
+   "chave": "ccb98a90f30",
+   "titulo": "Zapata and the Egungun Mask",
+   "ano": 1983,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c392e0d0db2",
+   "titulo": "egungun",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca520981c5e",
+   "titulo": "Crossed Paths: On Becoming Both Anthropologist and Omo Orixá",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4bea614f6e",
+   "titulo": "Axé, orixá, xirê e música: estudo da música e performance no candomblé queto na Baixada Santista",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c35d63c17e7",
+   "titulo": "Ecos de orixá no palco-terreiro de Maria Bethânia: espaço, performance e cultura afro-brasileira",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1b37942b3f",
+   "titulo": "Iemanjás Catarinas: Imagens da Orixá nos espaços públicos de Florianópolis - SC",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce69351cdf8",
+   "titulo": "PRECISAMOS FALAR DE ORIXÁ FEMININO: AS DEUSAS EMPODERADAS",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c99a0659e9b",
+   "titulo": "“Kò sí ewé, kò sí òrìsà” (sem folha, não há orixá): vivências ecológicas no Ilé Àse Opó Osogunlade",
+   "ano": null,
+   "decisao": "pista",
+   "motivo": "silva-unb-ossaim"
+  },
+  {
+   "chave": "c84a3d280e6",
+   "titulo": "Um oríkì do meu velho orixá: os diálogos entre ciência e arte na obra de Gilberto Gil",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6547b6a88c",
+   "titulo": "Santería",
+   "ano": 2005,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c8909b76c20",
+   "titulo": "A DANÇA DIVINIZADA DOS ORIXÁS THE DIVINE DANCE OF THE ORIXÁS",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6f8e926715",
+   "titulo": "O livro dos Orixás: África e Brasil",
+   "ano": 2020,
+   "decisao": "entra",
+   "motivo": "parizi-2020-livro-orixas"
+  },
+  {
+   "chave": "c985d3d2237",
+   "titulo": "Voduns e Orixás assentados na Casa da Mina Nagô de Iemanjá e Ogum",
+   "ano": 2022,
+   "decisao": "entra",
+   "motivo": "silva-2022-mina-nago"
+  },
+  {
+   "chave": "cc99239816a",
+   "titulo": "cromática dos Orixás: uma análise da nomenclatura e atribuição das cores aos Orixás do Candomblé Ketu.",
+   "ano": 2024,
+   "decisao": "entra",
+   "motivo": "jesus-2024-cromatica"
+  },
+  {
+   "chave": "c3a518cfc7a",
+   "titulo": "Obatala",
+   "ano": 2009,
+   "decisao": "entra",
+   "motivo": "asante-mazama-2009-obatala"
+  },
+  {
+   "chave": "cc537e5df1d",
+   "titulo": "Burned statue of Oxalá in Plaza of the Orixás",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c0f27697028",
+   "titulo": "Como me tornei #dotorainspiração e o brinco de Ewá",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5fca04639b",
+   "titulo": "Àdanidá: homem, ambiente e orixá",
+   "ano": 2020,
+   "decisao": "pista",
+   "motivo": "campelo-2020-adanida"
+  },
+  {
+   "chave": "c4dcd0436b8",
+   "titulo": "O JOVEM GLAUBER E A IRA DO ORIXÁ",
+   "ano": 1998,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cdb567bf848",
+   "titulo": "Translation, Race, and Ideology in Oriki Orixá",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc4b80210f5",
+   "titulo": "Do orixá ao mito: uma experiência em composição cênica",
+   "ano": 2012,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7f95cae430",
+   "titulo": "Ritualidades do Mistério Pessoal: o segredo de orixá no Batuque afro-sul",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c382e8ec4a7",
+   "titulo": "A relação com o Orixá como cultivo da experiência religiosa",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd06c6a6c92",
+   "titulo": "Tem orixá no sambaClara Nunes e a presença do candomblé e da umbanda na música popular brasileira",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c085fbcd0e7",
+   "titulo": "6 Oshun, Yemonja, and Oya",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "capítulo de obra já catalogada ou incorporada"
+  },
+  {
+   "chave": "ceb086a469d",
+   "titulo": "A Iansã contemporânea de Mc Tha The contemporary Iansã of Mc Tha: uma análise sob a perspectiva semiótica da capa do CD Rito de passá an analysis from the semio",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cdc4bc0e825",
+   "titulo": "A MENINA DE OYÁ THE GIRL FROM OYÁ LA  NIÑA DE OYÁ: CONTRIBUIÇÕES DECOLONIAIS E INCLUSIVAS AO AMBIENTE ESCOLAR DECOLONIAL AND INCLUSIVE CONTRIBUTIONS TO THE SCHO",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf47a42d787",
+   "titulo": "A Transcendência do Materno no Mito de Iansã",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca5fb5a52dc",
+   "titulo": "Against Feminine Erasure in Yoruba Ritual Archives: Theorizing Oya, the Mystical Deity Across the Black Atlantic World",
+   "ano": 2026,
+   "decisao": "entra",
+   "motivo": "afolabi-2026-oya"
+  },
+  {
+   "chave": "cef875b5977",
+   "titulo": "Devir macumbeiro e a corporeidade  de Oiá-Iansã",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c005d4d520c",
+   "titulo": "EXPERIMENTO RITUALÍSTICO EM CENA A PARTIR DAS NARRATIVAS MITOLÓGICAS AFRICANAS DE IANSÃ/OYÁ RITUALISTIC EXPERIMENT ON STAGE BASED ON THE AFRICAN MYTHOLOGICAL NA",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c36583c1b11",
+   "titulo": "Editora Oyá/ Educação Transversal Edições",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c8df6e1926e",
+   "titulo": "Entre Oyá y Santa Teresa. El controvertido asunto del sincretismo en la santería",
+   "ano": 2005,
+   "decisao": "entra",
+   "motivo": "fernandez-cano-2005-oya"
+  },
+  {
+   "chave": "c2233b65b84",
+   "titulo": "Filosofias em diáspora",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cebe17cb32e",
+   "titulo": "FÚLVIA ROSEMBERG, IANSÃ, TODA CALIBÃ",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccaefc66220",
+   "titulo": "La magnificencia de Oyá, en sintonía con los orishas",
+   "ano": 2007,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c7eb3d43e82",
+   "titulo": "OSHUN, YEMONJA, AND OYA",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "capítulo de obra já catalogada ou incorporada"
+  },
+  {
+   "chave": "c06f74b20ca",
+   "titulo": "Oya",
+   "ano": 1987,
+   "decisao": "entra",
+   "motivo": "gleason-1987-oya"
+  },
+  {
+   "chave": "c70a136216f",
+   "titulo": "Oya, santeria and the orisha of the winds",
+   "ano": 2006,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c9f4baaeae5",
+   "titulo": "Oya: Ifa and the Spirit of the Wind",
+   "ano": 1993,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c9a6d4fe5de",
+   "titulo": "Oyá Fucks Cúchulainn",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7eb2c8e687",
+   "titulo": "Sob os caminhos e as cores de Iansã",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c91997812bb",
+   "titulo": "Sound, Cinema, and  Santería : Listening to “Angelitos Negros” with Oyá",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c17eeefdafb",
+   "titulo": "The maternal transcendence in the myth of Iansã",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ceaa7d3e2f6",
+   "titulo": "Contos de axé",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c888d9579d0",
+   "titulo": "Yorùbá and Medieval Plague: Could Sòpònná Originate as a Black Death Deity?",
+   "ano": 2026,
+   "decisao": "entra",
+   "motivo": "amherd-2026-soponna"
+  },
+  {
+   "chave": "c0d1af056b5",
+   "titulo": "Orixás",
+   "ano": 1981,
+   "decisao": "descarta",
+   "motivo": "edição francesa (Métailié) de verger-1981-orixas"
+  },
+  {
+   "chave": "c732baa95a3",
+   "titulo": "Giro de Iansã",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccc4c8152c7",
+   "titulo": "Memoria ritual",
+   "ano": 2007,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca702c188e8",
+   "titulo": "Women and Rituals in Yoruba Religion",
+   "ano": 2012,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7aac4bbc53",
+   "titulo": "Beliefs and Practices of Santería",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "cad59bb441e",
+   "titulo": "INTRODUCTION. Transnational Santería Assemblages",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1607042bdd",
+   "titulo": "Obatala",
+   "ano": 2019,
+   "decisao": "descarta",
+   "motivo": "capítulo de Dennett 1910 (domínio público, catalogado à parte)"
+  },
+  {
+   "chave": "cd5161050ac",
+   "titulo": "Santería",
+   "ano": 2008,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c0740fdb49f",
+   "titulo": "Santería Cult",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c4715833e80",
+   "titulo": "Santería in the Twenty-First Century",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c57b5cbaf4b",
+   "titulo": "Santería-Kult",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c9f15759f97",
+   "titulo": "Staging Subversion: Santería, Performance and Corporeality",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c501df69ac1",
+   "titulo": "The Cuban Colonial and Republican Background of Santería/Regla Lucumí",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c9c0509b897",
+   "titulo": "The Origins of Santería/Regla Lucumí",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c56e9429a72",
+   "titulo": "The Yoruban Background of Santería/Regla Lucumí",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c675e9e310e",
+   "titulo": "Divining the self",
+   "ano": 2012,
+   "decisao": "entra",
+   "motivo": "love-2012-divining"
+  },
+  {
+   "chave": "cd6536caca3",
+   "titulo": "Macumberos",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3205f0aede",
+   "titulo": "Oshun/Ochún, Oya/Oyá, and Oba/Oba",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c7ced242009",
+   "titulo": "Tratado de Oshún",
+   "ano": 2005,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c3ed9241839",
+   "titulo": "94. Ibeji Statuettes from Yoruba, Nigeria",
+   "ano": 1944,
+   "decisao": "entra",
+   "motivo": "meyerowitz-1944-ibeji"
+  },
+  {
+   "chave": "c733f72a997",
+   "titulo": "An Islamic Theological Perspective on Yoruba Traditional Belief Pertaining to Twin [Ibeji] Myth",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cbff23ee3d4",
+   "titulo": "Catalogue of the Ibeji",
+   "ano": 2001,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c49ec6052b4",
+   "titulo": "Couleurs et plantes colorantes dans l’art yoruba Enquête de terrain: Contribution à la connaissance des couches picturales des sculptures Ibeji et Guèlèdé",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf0ea5d3eca",
+   "titulo": "Encyclopedia of the Ibeji",
+   "ano": 2008,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca692c414a6",
+   "titulo": "Engaging the<i>Orisa</i>: An Exploration of the Yoruba Concepts of<i>Ibeji</i>and<i>Olokun</i>as Theoretical Principles in Black Theology",
+   "ano": 2008,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c55af0b0d93",
+   "titulo": "Ere Ibeji Yoruba",
+   "ano": 2009,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ced0dc769f3",
+   "titulo": "Ere ibeji",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd7ab95f77c",
+   "titulo": "Ere ibeji",
+   "ano": 2013,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c230c079894",
+   "titulo": "Ibeji",
+   "ano": 2003,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c91600ef030",
+   "titulo": "Ibeji",
+   "ano": 2013,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c00a6958741",
+   "titulo": "Ibeji",
+   "ano": 2007,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb7e956ad58",
+   "titulo": "Ibeji",
+   "ano": 2003,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4d234e9509",
+   "titulo": "Ibeji",
+   "ano": 1980,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c732e50d044",
+   "titulo": "Ibeji",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c44156c6b41",
+   "titulo": "Ibeji Custom in Yorubaland",
+   "ano": 1971,
+   "decisao": "entra",
+   "motivo": "mobolade-1971-ibeji"
+  },
+  {
+   "chave": "c0cc6f3bddc",
+   "titulo": "Ibeji Images of the Yoruba",
+   "ano": 1973,
+   "decisao": "entra",
+   "motivo": "houlberg-1973-ibeji"
+  },
+  {
+   "chave": "c8d4fae2638",
+   "titulo": "Ibeji: Twin Figures of the Yoruba",
+   "ano": 1981,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce8c8ea9a1e",
+   "titulo": "If Bronze, Why Not Wood? A Case for the Repatriation of the Yoruba Ere Ibeji",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c830820c0dc",
+   "titulo": "L’ere ibeji et le culte des jumeaux chez les Yoruba",
+   "ano": 2013,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6a34525c0a",
+   "titulo": "Orin ìbejì (Songs in praise of twins)",
+   "ano": 1971,
+   "decisao": "entra",
+   "motivo": "olayemi-1971-ibeji"
+  },
+  {
+   "chave": "c50b5bbebb9",
+   "titulo": "Oshosi/Ochosi, Orisha Oko/Oricha Oko, Ibeji/Ibeyi, Aganju/Agayú",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "cb95d08cb97",
+   "titulo": "Preserving Culture and Heritage of the Yoruba of Southwest Nigeria: An Ethnographic Study of the Twin Figure (Ere Ibeji)",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c845e96d2ca",
+   "titulo": "The Spirit-Children and the Sacred Twins: Abiku, Ibeji, Ritual Protection, and Reincarnation in Yoruba Culture",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c70f7a07fde",
+   "titulo": "The Trouble with Twins: Image and Ritual of the Yoruba ère ìbejì",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2b67b12939",
+   "titulo": "Twin Figures (Ere Ibeji)",
+   "ano": 2004,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c70d8bf2132",
+   "titulo": "Accroissement diamétrique du bété et de l'iroko Diametric growth of bété and iroko Aumento del diámetro del bété y del iroko",
+   "ano": 2003,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1b4e4708f3",
+   "titulo": "BIOETHANOL PRODUCTION FROM IROKO TIMBER (<i>Chlorophora excelsa</i>)",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c29c8b55206",
+   "titulo": "La noire vérité de la traite négrière selon Félix Iroko",
+   "ano": 2004,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c937086b862",
+   "titulo": "Meu Iroko querido",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3d13d9e9c2",
+   "titulo": "Phytolyma lata (iroko gall fly)",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c881e5f4a70",
+   "titulo": "Phytolyma lata (iroko gall fly)",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2fdcf561db",
+   "titulo": "TOXIC EFFECTS OF IROKO",
+   "ano": 1941,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd16117d37b",
+   "titulo": "iroko",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c503d007fca",
+   "titulo": "iroko, n.",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5e3541a127",
+   "titulo": "\"The Blood That Runs Through the Veins\": The Creation of Identity and a Client's Experience of Cuban-American \"Santeria Dilogun\" Divination",
+   "ano": 1993,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c8b5d7f49d8",
+   "titulo": "2 THE INTERPRETATION OF ORIKI",
+   "ano": 1991,
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  {
+   "chave": "cef0f5ca7c8",
+   "titulo": "3 ORIKI IN OKUKU",
+   "ano": 1991,
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  {
+   "chave": "cec837eb8ff",
+   "titulo": "5 THE ORIKI OF ORIGIN",
+   "ano": 1991,
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  {
+   "chave": "ce94bc3459c",
+   "titulo": "5 What Is Ifa",
+   "ano": 2020,
+   "decisao": "entra",
+   "motivo": "ogunnaike-2020-deep"
+  },
+  {
+   "chave": "ceb25020f27",
+   "titulo": "6 Knowledge in Ifa",
+   "ano": 2020,
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  {
+   "chave": "cf25e21381d",
+   "titulo": "6 THE ORIKI OF BIG MEN",
+   "ano": 1991,
+   "decisao": "descarta",
+   "motivo": "capítulo de barber-1991-oriki (já no catálogo)"
+  },
+  {
+   "chave": "c20ed03b082",
+   "titulo": "9 Comparing Ifa and Tijani Sufism",
+   "ano": 2020,
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  {
+   "chave": "c4a3a778ed2",
+   "titulo": "A Conceptual Architecture for Physics-Informed Knowledge Retrieval of the Yoruba Ifá Corpus Using Knowledge Graphs and Graph Neural Networks",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c17bfe24a2b",
+   "titulo": "A DANÇA DOS ORIXÁS E O CANTO DOS SANTOS: DESAFIOS TEOLÓGICO-PASTORAIS DAS RELIGIÕES NEGRAS DO RECIFE",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c87b5527b08",
+   "titulo": "A MITOLOGIA DOS ORIXÁS EM AULAS DE BACIAS HIDROGRÁFICAS: O ENSINO E OS DIÁLOGOS SOBRE INTOLERÂNCIA RELIGIOSA",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c8b91826974",
+   "titulo": "A REDE SOCIAL DA MITOLOGIA DOS ORIXÁS",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3d18a456fb",
+   "titulo": "A Ritual Choreography: The Orishas' Steps in Sortilegio",
+   "ano": 1995,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c16de97826b",
+   "titulo": "A importância da mitologia dos orixás para a construção do imaginário umbandista",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd815a50ab8",
+   "titulo": "AUTOMATED IFA METHODS COMPARE WELL WITH ESTABLISHED MANUAL IFA SCREENING AND TITRATION FOR ANA HEP-2",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c246fde511e",
+   "titulo": "Afterword. Orisa Vigoyana from Guyana",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "capítulo de obra já catalogada ou incorporada"
+  },
+  {
+   "chave": "cc90b7fecd8",
+   "titulo": "Ainda e de novo o bem-querer: mitologia dos orixás na poesia de tônica amorosa de Cidinha da Silva",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c55986f21db",
+   "titulo": "Analysis of fuel relocation for the NRC/PNL Halden assemblies IFA-431, IFA-432, and IFA-513",
+   "ano": 1980,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cab4fd3f945",
+   "titulo": "Chapter Four. Orishas in the Borderlands",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce5a4e51c15",
+   "titulo": "Co-maternidades na mitologia dos Orixás: uma análise do tratamento jurídico conferido às madrastas no Direito das famílias",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cff22fac66e",
+   "titulo": "Comparative analysis of pellet-cladding interaction from IFA-431 and IFA-432 Halden reactor tests. [BWR]",
+   "ano": 1977,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf7e3158280",
+   "titulo": "Comparing Ifa and Tijani Sufism",
+   "ano": 2020,
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  {
+   "chave": "c13c247ce9a",
+   "titulo": "Dinner With the Orishas-Almost",
+   "ano": 1982,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce8b1967c34",
+   "titulo": "Emulsification (CFA and IFA)",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c96c1f24c1c",
+   "titulo": "Estudos de Mitologia Afro-Brasileira: orixás e cosmovisão negra contra a intolerância e o preconceito",
+   "ano": 2009,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1736d32288",
+   "titulo": "From nueva trova to Cuban Rap: Strategies of Resistance and Negotiation in the Group Orishas",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6253dc8b6f",
+   "titulo": "GENDER ADVOCACY IN AFRICA: INSIGHTS FROM IFÁ LITERARY CORPUS",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c386a324137",
+   "titulo": "How Is Knowledge Verified in Ifa?",
+   "ano": 2020,
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  {
+   "chave": "c03500d2525",
+   "titulo": "I Will Chant Homage to the Orisa: Oriki (Praise Poetry) and the Yoruba Worldview",
+   "ano": 2014,
+   "decisao": "entra",
+   "motivo": "adeniji-neill-2014-oriki"
+  },
+  {
+   "chave": "c45937b3c82",
+   "titulo": "IMAGES OF WOMEN IN THE IFÁ LITERARY CORPUS",
+   "ano": 1997,
+   "decisao": "entra",
+   "motivo": "abimbola-1997-women"
+  },
+  {
+   "chave": "c991aa5613b",
+   "titulo": "Ifa divination poetry (Traditional African literature)",
+   "ano": 1977,
+   "decisao": "descarta",
+   "motivo": "duplicata de abimbola-1977-poetry"
+  },
+  {
+   "chave": "c24406f5f3b",
+   "titulo": "Ifa literary corpus: A philosophical exposition of economic sustainability in Yoruba society",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c07973ff56c",
+   "titulo": "Ifá",
+   "ano": 1976,
+   "decisao": "descarta",
+   "motivo": "já no catálogo como abimbola-1976-ifa (usado para conferência)"
+  },
+  {
+   "chave": "ce7c3b46d67",
+   "titulo": "Ifá will mend our broken world",
+   "ano": 1997,
+   "decisao": "entra",
+   "motivo": "abimbola-1997-mend"
+  },
+  {
+   "chave": "cbdbcf49e18",
+   "titulo": "Ifà: An Exposition of Ifá Literary Corpus. By 'Wande Abimbola. Ibadan: Oxford University Press, 1976. Pp. ix, 256, ill., bibl. £6.75",
+   "ano": 1980,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc89ed68fce",
+   "titulo": "Ifá y Orisa",
+   "ano": 2013,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7b46c6e379",
+   "titulo": "Imagens da fé na Aldeia Dos Orixás",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cdbb8628b1f",
+   "titulo": "Inculturating Indigenous Knowledge Systems (IKS) Philosophy of Odu Ifa Corpus into Contemporary Politico-Administrative Governance Practices of Africa",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c629174524a",
+   "titulo": "Is There Any Evidence for Hell in the Ifá Literary Corpus?",
+   "ano": 2023,
+   "decisao": "entra",
+   "motivo": "ofuasia-2023-ifa-hell"
+  },
+  {
+   "chave": "c844533ff78",
+   "titulo": "Knowledge in Ifa",
+   "ano": 2020,
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  {
+   "chave": "cfcd3eacf32",
+   "titulo": "L'enfant des Orishas",
+   "ano": 1999,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c477e6af72f",
+   "titulo": "Leyendas de la Santeri a",
+   "ano": 2002,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c87239f9dbf",
+   "titulo": "Los orishas de Vilva",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc1d3d125a4",
+   "titulo": "Loving Stones: A Transnational Patakí",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1ee755f1a2",
+   "titulo": "Merindilogun: o oráculo de búzios",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4f70a05335",
+   "titulo": "Mitologia dos Orixás na Educação Brasileira do Século XXI e Futura: uma proposta de trabalho para a implementação da Lei no 10.639",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3b5a26b85c",
+   "titulo": "On the Forming Substance of Orishas",
+   "ano": 1999,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb5dce93d46",
+   "titulo": "Oriki",
+   "ano": 2008,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd97cf35207",
+   "titulo": "Oriki Awon Orisa",
+   "ano": 2014,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c307bfafa27",
+   "titulo": "Oriki Orisa: The Yoruba Prayer of Praise",
+   "ano": 1990,
+   "decisao": "entra",
+   "motivo": "lindon-1990-oriki"
+  },
+  {
+   "chave": "ce22edd4e36",
+   "titulo": "Pataki, leyendas y misterios de orishas africanos",
+   "ano": 1980,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb71e6b3328",
+   "titulo": "Prayer to the Orishas",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c9f358a3b46",
+   "titulo": "Propagación del culto a los orishas en Estados Unidos. ¿Venganza de las divinidades africanas?",
+   "ano": 2004,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf7a05a76c7",
+   "titulo": "Pérez Amores, Grecy: Sin monte sigue habiendo Palo. Orishas en Tenerife",
+   "ano": 2014,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd44219c1cd",
+   "titulo": "Qui Séra-Séra: Yorùbá Epistemological Representation of Destiny in Ifá Corpus",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce2cd624d9a",
+   "titulo": "Sacrificial ceremonies of Santería",
+   "ano": 2012,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c83285ae4ed",
+   "titulo": "Serving the Orishas",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc6f5dd2737",
+   "titulo": "The Orishas: The Influence of the Yoruba Cultural Diaspora",
+   "ano": 2017,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c37e5eaf4e6",
+   "titulo": "The Pan-African Initiative in the Americas: Culture, Common Struggle and the Odu Ifa",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c60569e253d",
+   "titulo": "The problem of gerontocracy in Africa: The Yorùbá perspective as illustrated in the Ifá corpus",
+   "ano": 2011,
+   "decisao": "entra",
+   "motivo": "adegbindin-2011-ifa"
+  },
+  {
+   "chave": "cfcbf9e894e",
+   "titulo": "Voices of the Orishas",
+   "ano": 1997,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c0d467d3369",
+   "titulo": "What Is Ifa?",
+   "ano": 2020,
+   "decisao": "descarta",
+   "motivo": "capítulo de ogunnaike-2020-deep (incorporado como livro)"
+  },
+  {
+   "chave": "c4d8e39d478",
+   "titulo": "from Orixas [Orishas]",
+   "ano": 1997,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c89d8e522e3",
+   "titulo": "Àwọn Omi Òṣàlá: o mito do rei recontado na mitologia dos orixás",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c21992ba15e",
+   "titulo": "Èdè Àyàn: The Language of Àyàn in Yorùbá Art and Ritual of Egúngún",
+   "ano": 2021,
+   "decisao": "entra",
+   "motivo": "famule-2021-ayan"
+  },
+  {
+   "chave": "c80c59ea415",
+   "titulo": "Ìjìnlè Ohùn Enu Ifá",
+   "ano": 2006,
+   "decisao": "descarta",
+   "motivo": "já no catálogo como abimbola-1968-ijinle (usado para conferência)"
+  },
+  {
+   "chave": "c372b498c58",
+   "titulo": "ìgbàmíràn àiyé : o ethos afro-brasileiro e a transgeneridade na religião dos orixás",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6b23ec889d",
+   "titulo": "“Is it possible to do Postmodern Philosophy Unbeknownst?”: On Sophie Oluwole’s and Maulana Karenga’s “Deconstruction” of the<i>Ifá</i>Literary Corpus",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c69b5d6cf35",
+   "titulo": "Transtorno de personalidade borderline Borderline Personality disorder Trantorno de limítrofe de personalidad: uma aproximação a partir do itã de Nanã e Obaluaê",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6be766a438",
+   "titulo": "Chapter 2: Orí and Ifá: Navigating a Contentious World",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c228207ff51",
+   "titulo": "Ethnology: <b>Ifá: An Exposition of Ifá Literary Corpus</b>. <i>‘Wande Abimbola</i>",
+   "ano": 1978,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cff07b4f2dc",
+   "titulo": "IfÁ",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c7d93907104",
+   "titulo": "Ifá divination corpus, the",
+   "ano": null,
+   "decisao": "pista",
+   "motivo": "barber-rep-ifa"
+  },
+  {
+   "chave": "cd781faea43",
+   "titulo": "Ifá in Trinidad’s Ground",
+   "ano": 2017,
+   "decisao": "nao_incorporado",
+   "motivo": "capítulo de obra já catalogada ou incorporada"
+  },
+  {
+   "chave": "ce37c97d60c",
+   "titulo": "Ifá: An Exposition of Ifá Literary Corpus",
+   "ano": 1978,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c671e2e6e61",
+   "titulo": "La route dans le corpus de divination Ifa",
+   "ano": 1994,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c70c21e77b4",
+   "titulo": "Odù Ifá in Transition: Contemplating Boundary Mechanisms in Discursive and Critical Appreciation of the Ifá Corpus",
+   "ano": 2022,
+   "decisao": "entra",
+   "motivo": "anoba-2022-odu"
+  },
+  {
+   "chave": "cf41d33b590",
+   "titulo": "Sistema filosófico de Ifá",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6f59a38025",
+   "titulo": "When Mouths Can No Longer Fight and Breasts That Swing Are Like Ifá: The Wisdom of Ifá on Preventing World Hunger, War, and the Life-Sustaining Virtues of the F",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c297a88a02d",
+   "titulo": "Orishas/Orichas",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "cca8cceb283",
+   "titulo": "<i>Violines a Ochún</i>\n                    and Musical Devotion for the Orishas",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c9370605266",
+   "titulo": "“Havia um segredo que só Halima sabia”: confluências entre literatura afro-brasileira e mitologia dos Orixás",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2c4f573545",
+   "titulo": "A indumentária de Lógunède e a diversidade de gênero na cosmopercepção Iyorùbá",
+   "ano": 2023,
+   "decisao": "entra",
+   "motivo": "santos-2023-logunede"
+  },
+  {
+   "chave": "c57fd31b8fc",
+   "titulo": "Logunedé",
+   "ano": 2000,
+   "decisao": "descarta",
+   "motivo": "edição de lopes-2006-logunede (já no catálogo)"
+  },
+  {
+   "chave": "c9fa9750c68",
+   "titulo": "Logunedé",
+   "ano": 2002,
+   "decisao": "descarta",
+   "motivo": "edição de lopes-2006-logunede (já no catálogo)"
+  },
+  {
+   "chave": "cccabf589da",
+   "titulo": "Logunedé in Salem",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cffab98b8cf",
+   "titulo": "Na fé de Vivaldo de Logunedé",
+   "ano": 2006,
+   "decisao": "pista",
+   "motivo": "alexandre-2006-logunede"
+  },
+  {
+   "chave": "c8de91e3cc2",
+   "titulo": "O tempo dos orixás: mẹta mẹta como tradução de temporalidades corpóreas desobedientes",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c70159b945d",
+   "titulo": "Vidante: apresentação de um filosofar de candomblé",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c039aaeb774",
+   "titulo": "Gênero e sexualidade nas comunidades tradicionais de terreiro: tensões e resistências à cisheteronormatividade",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2250a3f0b2",
+   "titulo": "Orixás",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccee3aab7b5",
+   "titulo": "Orixás",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c053c9a22e3",
+   "titulo": "ENTENDENDO QUAL A HISTÓRIA QUE ESTÁ POR TRÁS DAS IMAGENS NO TERREIRO AXÉ ILÊ OBÁ UNDERSTANDING THE STORY BEHIND THE IMAGES IN TERREIRO AXÉ ILÊ OBÁ COMPRENDER LA",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c88260499b2",
+   "titulo": "Exterior of Terreiro Ilê Obá L’Okê or Casa do Rei e Senhor das Alturas",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c01d90c466d",
+   "titulo": "O vestir do Axé Ilê Obá: os trajes de um terreiro de candomblé paulista",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c9f151d0581",
+   "titulo": "OS ESCRITOS REUNIDOS DO ANTROPÓLOGO E OBÁ\nVIVALDO DA COSTA LIMA. RESEÑA DE \"LESSÉ ORIXÁ - NOS PÉS DO SANTO\" DE  LIMA, Vivaldo da Costa",
+   "ano": 2012,
+   "decisao": "nao_incorporado",
+   "motivo": "resenha de livro"
+  },
+  {
+   "chave": "ce4c9e53a2b",
+   "titulo": "Registro da memória e construção da identidade histórica do Terreiros Filhos de Obá",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1372487c8b",
+   "titulo": "Roupa do Terreiro Axé Ilê Obá: entrevista com Georgia Prado",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd5306a6dbf",
+   "titulo": "“Bloco Afro Ilú Obá De Min, Mãos Femininas Que Tocam Tambor Para Xangô – Cultura Afro-brasileira, Gênero e Performance “ “ Afro Ilu Obá Block De Min, Female Han",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb6f0e99660",
+   "titulo": "Mission Archéologique Ife-Sungbo, 2018-2022. Rapport Quadriennal.",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c47175614f0",
+   "titulo": "Prevalence and Correlates of Depression, Anxiety and Academic Stress among Science Students in Oduduwa University, Ile- Ife, Nigeria",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3adc06c23b",
+   "titulo": "Samuel Johnson’s view about Oduduwa in connection with the origins of the Yoruba",
+   "ano": 2020,
+   "decisao": "entra",
+   "motivo": "jock-2020-oduduwa"
+  },
+  {
+   "chave": "c83ad7d8e11",
+   "titulo": "İle-İfe: Geleneksel Yoruba Dininde Yaratılışın ve Dünyanın Merkezi",
+   "ano": 2019,
+   "decisao": "entra",
+   "motivo": "seyfeli-2019-ile-ife"
+  },
+  {
+   "chave": "c04d44082f7",
+   "titulo": "Adire eleko,  olokun design on 100 percent cotton fabric. Using natural indigo colour  from leave plant.",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "ce9baf25c2c",
+   "titulo": "Ceremonias y Caminos de Olokun",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c6d25b2aa49",
+   "titulo": "Chalk Iconography in Olokun Worship",
+   "ano": 1989,
+   "decisao": "descarta",
+   "motivo": "Olokun do reino do Benim (Edo), fora do recorte iorubá/afro-americano desta rodada"
+  },
+  {
+   "chave": "c0a95d954df",
+   "titulo": "Chlopsis olokun: Tighe, K.: The IUCN Red List of Threatened Species 2015: e.T195647A2396347",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "cb16c9efb33",
+   "titulo": "Decolonial Myths and Demi-gods of the Tropics:  The More-than-Human Worlds of Manasa and Olokun",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c9ec74c4fe1",
+   "titulo": "Fermina Gómez y la casa olvidada de Olókun",
+   "ano": 2006,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c57e0b6a496",
+   "titulo": "Ibú-olókun",
+   "ano": 1956,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3e0c4e7350",
+   "titulo": "Ikú olókùn-ẹsịn",
+   "ano": 1994,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c84ac004428",
+   "titulo": "Invocation to Olokun",
+   "ano": 1962,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce7dd328831",
+   "titulo": "Jujuland : Koku Akanbi and the Heart of Olokun",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2bec3ef8f0",
+   "titulo": "Myth, Ritual, and Visible Expressions of Obatala and Olokun in Ile-Ife",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5066fa40eb",
+   "titulo": "Myth, Ritual, and Visible Expressions of o?bàtálá and Olókun in Ilé-If?`",
+   "ano": 2024,
+   "decisao": "entra",
+   "motivo": "raheem-2024-obatala-olokun"
+  },
+  {
+   "chave": "cad7ec17079",
+   "titulo": "Olokun",
+   "ano": 1978,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb68cb9e7ac",
+   "titulo": "Olokun",
+   "ano": 2003,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c54a405139c",
+   "titulo": "Olokun of the Galaxy",
+   "ano": 2017,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cc0f6a02078",
+   "titulo": "Olokun, the divinity of fortune",
+   "ano": 1980,
+   "decisao": "descarta",
+   "motivo": "Olokun do reino do Benim (Edo), fora do recorte iorubá/afro-americano desta rodada"
+  },
+  {
+   "chave": "c866e2686ee",
+   "titulo": "Olokun/Olokun and Yemonja/Yemayá",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c31866ab832",
+   "titulo": "Olóòkun",
+   "ano": 1996,
+   "decisao": "entra",
+   "motivo": "mason-1996-olookun"
+  },
+  {
+   "chave": "c8cdc057cc2",
+   "titulo": "Olókun",
+   "ano": 1964,
+   "decisao": "pista",
+   "motivo": "akinjogbin-1964-olokun"
+  },
+  {
+   "chave": "cbabaa94d65",
+   "titulo": "Ori Olokun: A New Art Center",
+   "ano": 1969,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cbb03e805d4",
+   "titulo": "Spiritual Crossings: Olokun and Caribbean Futures Past in La Mucama de Omicunlé by Rita Indiana",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5847c41eb2",
+   "titulo": "Symbolism in Olokun Mud Art",
+   "ano": 1973,
+   "decisao": "descarta",
+   "motivo": "Olokun do reino do Benim (Edo), fora do recorte iorubá/afro-americano desta rodada"
+  },
+  {
+   "chave": "c5943efb997",
+   "titulo": "The Freedom Fight: A Novel of Resistance and Freedom. A Translation by Pamela J. Olubunmi Smith of Adébáyọ̀ Fálétí’s Ọmọ Olókùn Ẹṣin",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4e4cb527aa",
+   "titulo": "Unilateral Cleft Lip Repair: Assessment of Outcome of Olokun-Olaitan Vermillion Flap Approach",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c538fef1a08",
+   "titulo": "Where Is the Money? The Intersectionality of the Spirit World and the Acquisition of Wealth",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c37b062156a",
+   "titulo": "Wole Soyinka, Leo Frobenius, and the Ori Olokun",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5ec9684346",
+   "titulo": "Wole Soyinka’s Ori Olokun Emprise and Autobiography",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c62785f3a5d",
+   "titulo": "Yemoja / Olokun",
+   "ano": 1993,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c2efaae94d3",
+   "titulo": "Espíritus rumberos",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4e44dab23d",
+   "titulo": "Itan",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c25aec1b289",
+   "titulo": "8. A Bembé for San Lázaro–Babalú Ayé",
+   "ano": 2020,
+   "decisao": "entra",
+   "motivo": "ochoa-2020-lazarus"
+  },
+  {
+   "chave": "c068a1764df",
+   "titulo": "A Bembé for San Lázaro–Babalú Ayé",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c8122ce4be3",
+   "titulo": "Aché, babalú ayé",
+   "ano": 1975,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cfeae587d83",
+   "titulo": "Afecto Caribeño / Caribbean Affect in Desi Arnaz's \"Babalú Aye\"",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c50331849cd",
+   "titulo": "Animal Sacrifice and Religious Freedom: Church of the Lukumi Babalu Aye v. City of Hialeah",
+   "ano": 2004,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1b6224b69b",
+   "titulo": "Babalu Aye",
+   "ano": 2000,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c2d307c0a0e",
+   "titulo": "Babalú Ayé",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "ca7cfaefd2c",
+   "titulo": "Ceremonias y Caminos de Asowano, --Babalú Ayé - San Lázaro--",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "ca5ce31ab71",
+   "titulo": "El orisha de la sanación Babalú Ayé",
+   "ano": 2007,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c143ab4a122",
+   "titulo": "Freedom of religion : a case study of the Church of Lukumí Babalú Ayé v. City of Hialeah",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cbd742529e8",
+   "titulo": "Girasoles para Babalu Aye",
+   "ano": 2017,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c9ac1252a6f",
+   "titulo": "Ilê Omolu Oxum. Cantigas e toques para os orixás",
+   "ano": 2005,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cad33079518",
+   "titulo": "La terre de Sakpata",
+   "ano": 2010,
+   "decisao": "entra",
+   "motivo": "henry-2010-sakpata"
+  },
+  {
+   "chave": "cd249a41c8e",
+   "titulo": "Laicidade crítica e processo penal: análise de discurso crítica (ADC) da sentença condenatória de pai Edson de Omolu em Olinda-PE &lt;i&gt;CRITICAL LAICITY AND ",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c374962b52a",
+   "titulo": "Long day's journey to Rincón: From suffering to resistance in the procession of San Lázaro/Babalú Ayé<sup>1</sup>",
+   "ano": 2002,
+   "decisao": "entra",
+   "motivo": "hagedorn-2002-babalu"
+  },
+  {
+   "chave": "c2f8c24b5c8",
+   "titulo": "Los orishas",
+   "ano": 1996,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd9d329934d",
+   "titulo": "Médico ferido: omolu nos labirintos da doença",
+   "ano": 1998,
+   "decisao": "entra",
+   "motivo": "caprara-1998-omolu"
+  },
+  {
+   "chave": "c8a747bace5",
+   "titulo": "O Menino Omolu",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cbc82f04fc2",
+   "titulo": "OMOLU, OBALUAÊ, SÃO LÁZARO, SÃO ROQUE, A FÉ, A MEDICINA DO POBRE",
+   "ano": 2020,
+   "decisao": "entra",
+   "motivo": "leite-2020-omolu"
+  },
+  {
+   "chave": "c391ecd2b8f",
+   "titulo": "Obaluaye: A Yoruba Music Drama",
+   "ano": 1977,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2a8be477ea",
+   "titulo": "Saberes Iorubás no enfrentamento de epidemias ontem e hoje Yoruba knowledge in combating epidemics yesterday and today Los conocimientos yoruba para hacer frent",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce0bae5db47",
+   "titulo": "Sakpata, ein Beitrag afrikanischer Medizinmänner zur Pockeneradikation",
+   "ano": 1982,
+   "decisao": "entra",
+   "motivo": "stocklin-1982-sakpata"
+  },
+  {
+   "chave": "c9a3c776103",
+   "titulo": "San Lázaro Babalú Ayé (ensaio fotográfico)",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2bfa09208e",
+   "titulo": "Shopono/Babalú Ayé",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c3323496979",
+   "titulo": "Vodun Sakpata et épidémie de variole dans la littérature orale sacrée du golfe du Benin",
+   "ano": 2013,
+   "decisao": "entra",
+   "motivo": "kakpo-2013-sakpata"
+  },
+  {
+   "chave": "c07975fbea3",
+   "titulo": "“Omolu quer todo mundo no Olubaje”",
+   "ano": 2022,
+   "decisao": "entra",
+   "motivo": "mota-2022-olubaje"
+  },
+  {
+   "chave": "c8ae8225132",
+   "titulo": "Oduduwa Obatala",
+   "ano": 1984,
+   "decisao": "pista",
+   "motivo": "pichardo-1984-oduduwa"
+  },
+  {
+   "chave": "c9ef4740c85",
+   "titulo": "80. The Divination of Ifa (A Fragment).",
+   "ano": 1919,
+   "decisao": "entra",
+   "motivo": "wyndham-1919-ifa"
+  },
+  {
+   "chave": "c976d08c3ec",
+   "titulo": "A QUESTÃO DO AUTOCONHECIMENTO NA FILOSOFIA DE ORUNMILÁ",
+   "ano": 2018,
+   "decisao": "entra",
+   "motivo": "noguera-2018-orunmila"
+  },
+  {
+   "chave": "ca13bbf2d56",
+   "titulo": "A prophet called Orunmila",
+   "ano": 2010,
+   "decisao": "pista",
+   "motivo": "lijadu-2010-orunmila"
+  },
+  {
+   "chave": "cca45987359",
+   "titulo": "Awó de Orunmila",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c8cf7db1258",
+   "titulo": "Commonalities and Disparities in the Iconography of Opón Ifá and Ìróké Ifá in Òyó, Sábe, and Ifè-Ana Yorùbá Communities",
+   "ano": 2020,
+   "decisao": "entra",
+   "motivo": "akande-2020-opon"
+  },
+  {
+   "chave": "cd0e69dd25e",
+   "titulo": "DIVINATION: <i>Ifa Divination: Communication between Gods and Men in West Africa.</i> William Bascom",
+   "ano": 1970,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c150c546257",
+   "titulo": "Entre planos de imanência e Ifá: Between planes of immanence and Ifá: Entre planos de inmanencia y Ifá: Um sul de interpretação para a governamentalidade algorí",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cdc27742453",
+   "titulo": "Gender Stereotypes and Discrimination in Ifa Divination Poetry",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3559f09f6e",
+   "titulo": "Ifa Awo Training Manual",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c47346105c9",
+   "titulo": "Ifa Divination Trays from Isale-Oyo",
+   "ano": 2011,
+   "decisao": "entra",
+   "motivo": "pogoson-2011-ifa"
+  },
+  {
+   "chave": "cf9996ac1ac",
+   "titulo": "Ifa Divination and Society",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "cae08f2d0c5",
+   "titulo": "Ifa Divination in Igala",
+   "ano": 1974,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5aab1650c2",
+   "titulo": "Ifa Divination: Communication Between Gods and Men in West Africa.",
+   "ano": 1970,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd22acfb512",
+   "titulo": "Ifa Divination: Communication between Gods and Men in West Africa",
+   "ano": 1991,
+   "decisao": "descarta",
+   "motivo": "reedição de bascom-1969-ifa"
+  },
+  {
+   "chave": "cb22558ef50",
+   "titulo": "Ifa Divination: communication between gods and men in West Africa",
+   "ano": 1971,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf4a6a41061",
+   "titulo": "Ifa Theology volume2 Family Spirit:The Ifa Concept of Egun (Ifa Theology)",
+   "ano": 2006,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c008b66539d",
+   "titulo": "Ifa, Divination System of",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce0f4d15c79",
+   "titulo": "Ifism",
+   "ano": 1986,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c838b19c4e7",
+   "titulo": "Ijo Orunmila",
+   "ano": 1998,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccc1d5e7cba",
+   "titulo": "Iwe Ifa Orunmila",
+   "ano": 1900,
+   "decisao": "pista",
+   "motivo": "sobanjo-iwe-ifa"
+  },
+  {
+   "chave": "c1da3646078",
+   "titulo": "Iwe ifa",
+   "ano": 1951,
+   "decisao": "pista",
+   "motivo": "epega-1951-iwe-ifa"
+  },
+  {
+   "chave": "c78c6837989",
+   "titulo": "Ìwé odù Ifá",
+   "ano": 1995,
+   "decisao": "pista",
+   "motivo": "bogunmbe-1995-odu"
+  },
+  {
+   "chave": "cd3aba559ad",
+   "titulo": "Ìyẹ̀rẹ̀ Ifá",
+   "ano": 1999,
+   "decisao": "entra",
+   "motivo": "elebuibon-1999-iyere"
+  },
+  {
+   "chave": "c431cb84ac5",
+   "titulo": "La muerte en ifá: The death in ifá: miradas ontológicas a través de su sistema oracular ontological perspectives through its oracle system",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cea74a59d87",
+   "titulo": "La naturaleza de los òriś̲á",
+   "ano": 2009,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca9a5eb818e",
+   "titulo": "Las Tres Mujeres De Orula.estudio De Orula.deidad Africana.",
+   "ano": 2014,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c9e6ba8453d",
+   "titulo": "Le tambour d'Orunmila",
+   "ano": 2003,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1c0c77a870",
+   "titulo": "Na encruzilhada do destino: a liberdade como aquilo que define o significado de ser humano, segundo a filosofia de Òrúnmìlà",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cfe5cfcf0a6",
+   "titulo": "O jardim de Ossain no reino de Orunmilá",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cfd503980a3",
+   "titulo": "Odun Ifa: Ifa Festival, and: Insight and Artistry in African Divination (review)",
+   "ano": 2003,
+   "decisao": "nao_incorporado",
+   "motivo": "resenha de livro"
+  },
+  {
+   "chave": "c5c4a1f1ddf",
+   "titulo": "Orunmila's Words Don't Touch the Floor",
+   "ano": 2017,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c78a5ecf735",
+   "titulo": "Owner of the Day and Regulator of the Universe: Ifa Divination and Healing among the Yoruba of Southwestern Nigeria",
+   "ano": 2022,
+   "decisao": "entra",
+   "motivo": "olupona-2022-ifa-healing"
+  },
+  {
+   "chave": "c561db1f3a2",
+   "titulo": "Practitioner's Handbook for the IFA Professional",
+   "ano": 2004,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "cb87a7fd7df",
+   "titulo": "Religious Pluralism in Africa: Insights from Ifa Divination Poetry",
+   "ano": 2010,
+   "decisao": "entra",
+   "motivo": "olupona-2010-pluralism"
+  },
+  {
+   "chave": "ccccd73292d",
+   "titulo": "Reviving ‘Yoruba Religion’: The Indigenous Faith of Africa (IFA), Ijo Orunmila Ato",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c40b66d710f",
+   "titulo": "Sixteen mythological stories of Ifá",
+   "ano": 1994,
+   "decisao": "pista",
+   "motivo": "fama-1994-sixteen"
+  },
+  {
+   "chave": "c8e66d7a260",
+   "titulo": "Socrates and Ọ̀rúnmìlà",
+   "ano": 2014,
+   "decisao": "entra",
+   "motivo": "oluwole-2014-orunmila"
+  },
+  {
+   "chave": "cd3089b65e8",
+   "titulo": "The Divination Poetry of Ifa",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ced6ed3bbe0",
+   "titulo": "Tratado de los Odu de Ifá",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c450280d92a",
+   "titulo": "Two Studies of Ifa Divination",
+   "ano": 1966,
+   "decisao": "entra",
+   "motivo": "morton-williams-1966-ifa"
+  },
+  {
+   "chave": "c0be366490b",
+   "titulo": "When Words Come From Divination: Ifa and the Image of Women",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7f20a822bd",
+   "titulo": "¡Si esa piedra está ahí, es porque cumple una función!: aproximaciones al Antropoceno desde la cosmología de ifá-Òrúnmìlà",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c0210869fa7",
+   "titulo": "4. Abstracting Candomblé",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce280fc60b4",
+   "titulo": "5. Queer Candomblé Scholarship and dona flor’s s/exua/lity",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c98e4253ef4",
+   "titulo": "A FORÇA DAS FOLHAS SAGRADAS: SABERES E USOS DAS ERVAS EM UM TERREIRO DE CANDOMBLÉ EM BAÍA FORMOSA/RN THE POWER OF THE SACRED LEAVES: KNOWLEDGE AND USES OF HERBS",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c1581622b51",
+   "titulo": "A floresta sagrada de Ossaim",
+   "ano": 2011,
+   "decisao": "entra",
+   "motivo": "barros-2011-ossaim"
+  },
+  {
+   "chave": "c75eeeec9f5",
+   "titulo": "Arts in the service of traditional medicine",
+   "ano": 1998,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce4b988f977",
+   "titulo": "Awo̦n ewé o̦sanyin",
+   "ano": 1967,
+   "decisao": "entra",
+   "motivo": "verger-1967-osanyin"
+  },
+  {
+   "chave": "cb2a4bedceb",
+   "titulo": "Candomblé",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "cd735f6d36b",
+   "titulo": "Chapter Seventeen. Candomblé, One More Time",
+   "ano": 2005,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5c2981ff33",
+   "titulo": "Contar histórias das pessoas negras Telling Black people's stories: intergenerational experiences lived in a Candomblé terreiro. Contando historias de personas ",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c99d871812d",
+   "titulo": "Eshu-Osanyin",
+   "ano": 2000,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c208779ad80",
+   "titulo": "Especificidades do Vodu Haitiano e do Candomblé Jeje",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "caebc2dc518",
+   "titulo": "FOLHAS SAGRADAS: A ETNOBOTÂNICA DOS POVOS DE TERREIRO DE CANDOMBLÉ",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6d4f8b71f1",
+   "titulo": "From Calundu to Candomblé",
+   "ano": 2013,
+   "decisao": "descarta",
+   "motivo": "capítulo da tradução inglesa de pares-2006-formacao"
+  },
+  {
+   "chave": "c2e405aeb32",
+   "titulo": "Oro asa Òsányìn",
+   "ano": 1999,
+   "decisao": "pista",
+   "motivo": "monteiro-1999-osanyin"
+  },
+  {
+   "chave": "c0d8ee590dc",
+   "titulo": "Osanyin/Osain",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "c62081a60d5",
+   "titulo": "Photograph of Yoruba Osanyin staff",
+   "ano": 1984,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c36c4c9458d",
+   "titulo": "Por que das hastes de ossaim brotam pássaros – até flechas brotam! –, mas não folhas???!!!",
+   "ano": 2006,
+   "decisao": "entra",
+   "motivo": "sallum-2006-ossaim"
+  },
+  {
+   "chave": "c5f20650308",
+   "titulo": "Práticas culturais Cultural practices Prácticas culturales: infomemórias e saberes no Candomblé infomemories and knowledge in Candomblé infomemorias y saberes e",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c096f6de4ed",
+   "titulo": "Psicologia do candomblé de Angola: a terapêutica das folhas nos cuidados em saúde mental: Psychology of Angola’s candomblé: the therapeutics of the leaves in me",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cce035643b4",
+   "titulo": "Public Candomblé",
+   "ano": 2002,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cdea373150a",
+   "titulo": "QUEER CANDOMBLÉ SCHOLARSHIP AND DONA FLOR’S SEXUALITY",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4da0561e2d",
+   "titulo": "Queer Candomblé Scholarship and Dona Flor’s S/Exua/lity",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c414caca29b",
+   "titulo": "candomblé, n.",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd0075c95f5",
+   "titulo": "“Não existe candomblé sem folhas”: a importância da natureza nos ritos da religião",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c0ed83b1084",
+   "titulo": "A linguagem correta dos orixas",
+   "ano": 1978,
+   "decisao": "pista",
+   "motivo": "durojaiye-1978-linguagem"
+  },
+  {
+   "chave": "c0a32a20c49",
+   "titulo": "A rua é meu lugar La calle es mi lugar The street is my place: Nimbo // Oxalá",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c625fa629a8",
+   "titulo": "Adventures of Obatala, Ifa and Santeria God of Creativity, Volume One",
+   "ano": 2012,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c2731c41663",
+   "titulo": "Amzat Boukari-Yabara et. al. <i>Europa Oxalá: ensaios</i>",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cbe9f1e0c2f",
+   "titulo": "BLACKOUT ou Cada bala de fuzil é uma lágrima de Oxalá ; um relato de processo",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf5ab6f31fb",
+   "titulo": "Ceremonias y Caminos de Obatalá",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "ce152c5180c",
+   "titulo": "Disability and Human Diversity: A Reinterpretation of Ẹni-òòṣà1 Philosophy in Yorùbá Belief",
+   "ano": 2021,
+   "decisao": "entra",
+   "motivo": "adegbindin-2021-eni-oosa"
+  },
+  {
+   "chave": "cac63cb2896",
+   "titulo": "El Padre Obatalá",
+   "ano": 1998,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c3f1d8be5c6",
+   "titulo": "From Eshu to Obatala: animals used in sacrificial rituals at Candomblé \"terreiros\" in Brazil",
+   "ano": 2009,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf351bd1b62",
+   "titulo": "Identity and the absent mother in Atta's Everything Good will Come",
+   "ano": 2017,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd719f4fd03",
+   "titulo": "Igba Layé",
+   "ano": 2009,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c44a48d48d8",
+   "titulo": "La Santería cubaine, une religion sans frontières : Évolution et institutionnalisation de la santería à Cuba",
+   "ano": 2012,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf157d354a8",
+   "titulo": "La sabiduría de Obatalá, en sintonía con los orishas",
+   "ano": 2007,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "cf58c0f66fa",
+   "titulo": "Mãe Eloá de Oxalá",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2b03058965",
+   "titulo": "O BRANCO AFRO-BRASILEIRO DE RUBEM VALENTIM: UMA ANÁLISE DA OBRA O TEMPLO DE OXALÁ",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c6039239f2f",
+   "titulo": "Obatala",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccea7df7691",
+   "titulo": "Obatala",
+   "ano": 2000,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c48d49a0a16",
+   "titulo": "Obatala",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "cfea537481f",
+   "titulo": "Obatala",
+   "ano": 2013,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4bf914f76f",
+   "titulo": "Obatala",
+   "ano": 2000,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "cf3e7bc0657",
+   "titulo": "Obatala Orishas Journal",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c1e5400d499",
+   "titulo": "Obatala in Revolutionary (Postmodern) Diaspora",
+   "ano": 2005,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cbbf0b57350",
+   "titulo": "Obatala's Daughter Discovers True Friends",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cadcf5c630f",
+   "titulo": "Obatala/Obatalá and Oduduwa/Odudua",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "ce369ea0141",
+   "titulo": "Obatalá. Asociación cultural",
+   "ano": 2014,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cfb9bff554a",
+   "titulo": "Obàtálá",
+   "ano": 2005,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c08881ce1a3",
+   "titulo": "Orí Apéré O",
+   "ano": 2001,
+   "decisao": "entra",
+   "motivo": "rodrigue-2001-ori-apere"
+  },
+  {
+   "chave": "c703b69368b",
+   "titulo": "Oxalá cresçam pitangas: o documentário na história do cinema em Angola",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb34fa19589",
+   "titulo": "Oxalá, o criador dos homens e senhor de toda sabedoria",
+   "ano": 2021,
+   "decisao": "pista",
+   "motivo": "machado-2021-oxala"
+  },
+  {
+   "chave": "c6860a43b70",
+   "titulo": "Premiers PAS Dans la Santeria",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c4d5801d477",
+   "titulo": "Santería",
+   "ano": 2012,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "ce106f86c91",
+   "titulo": "Shango/Changó",
+   "ano": 2007,
+   "decisao": "descarta",
+   "motivo": "capítulo de sandoval-2007-worldview (já no catálogo); cobertura anotada no relatório da varredura 4"
+  },
+  {
+   "chave": "ca591bb9811",
+   "titulo": "The Adventure of Obatala Part 2",
+   "ano": 1998,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3f9e8551d7",
+   "titulo": "The Imprisonment of Obatala and other plays",
+   "ano": 1967,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c9bde070d58",
+   "titulo": "The Obatala Factor in Yoruba History",
+   "ano": 1992,
+   "decisao": "entra",
+   "motivo": "lawuyi-1992-obatala"
+  },
+  {
+   "chave": "c121489a954",
+   "titulo": "The adventures of Obatala",
+   "ano": 1989,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7f8cb57add",
+   "titulo": "The adventures of Ọbàtálá, Ifá and Santeria god of creativity",
+   "ano": 2016,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce0ccca1891",
+   "titulo": "The imprisonment of Obatala",
+   "ano": 1968,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce39cf30e51",
+   "titulo": "The imprisonment of Obatala, and other plays",
+   "ano": 1966,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cad61307fcf",
+   "titulo": "Tratado de Obatalá",
+   "ano": 2005,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "cb67c79d0be",
+   "titulo": "Ọbàtálá, metaphysics and the basis of morality",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c192e52962d",
+   "titulo": "Ifa y la Creacion",
+   "ano": 2015,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c0bcfb2c557",
+   "titulo": "\"Ochún owns my head\" and other intersections of spirit biographies and autobiographical narratives in Cuban folk religion: (644512011-001)",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c3ac2d7cc2e",
+   "titulo": "&gt;i&lt;Orixá e Literatura brasileira&gt;/i&lt;: a esteticização da deusa afro-brasileira Oxum em narrativas de Conceição Evaristo",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf51e05a565",
+   "titulo": "A Dança Sagrada: uma discussão de Memória Bergsoniana em movimento",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5901877586",
+   "titulo": "Acuara Ochun de Caracoles Verdes : Poemas de un Caiman Presente: (Canto a mi Habana)",
+   "ano": 2001,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c250de095c0",
+   "titulo": "Acuara Ochún de caracoles verdes (poemas de un Caimán presente)",
+   "ano": 1987,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb4f6ef3c18",
+   "titulo": "Acuara ochun de caracoles verdes",
+   "ano": 1987,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3d05c5e2ac",
+   "titulo": "As joias de Oxum: as crianças na herança ancestral afro-brasileira",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c5ccfbb9a39",
+   "titulo": "Dancing with Ochún: Imagining How a Black Goddess Became White",
+   "ano": 2009,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c616d4a3e31",
+   "titulo": "Das Águas Ìyá Oxum: saberes ancestrais femininos em poesias negras diaspóricas",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c802eb627c9",
+   "titulo": "El poder y la dulzura de Oshun, en sintonía con los orishas",
+   "ano": 2007,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c2d8335c189",
+   "titulo": "Elementos y simbolismo del arquetipo filosófico afrocaribeño de Oshún en la obra Del amor y otros demonios",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c929a0785b6",
+   "titulo": "Entrevista com Mãe Lia de Oxum: Interview with Mãe Lia de Oxum",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c590b5e3369",
+   "titulo": "Figure 5: Female genitalia of\n                      <i>Eois oxum</i>\n                      sp.nov. holotype.",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c3d0e80c646",
+   "titulo": "Filhas de Oxum! Maternidades em devir-água na Amazônia Daughters Of Oxum! Maternities in water-becoming in the Amazon",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c406e4ced40",
+   "titulo": "Getting touched by Oshun",
+   "ano": 2006,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca15182c459",
+   "titulo": "Hijo de Ochún",
+   "ano": 1999,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce3a58dca1c",
+   "titulo": "Honey in the Hive: Oshun and Yemaya in Celebration of the Black Feminine",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c7808a2c2df",
+   "titulo": "Identidade(s) do negro Black Identity(ies) Identidad(es) del negro: espelho de Oxum e um vir a ser Oxum’s Mirror and a Becoming el espejo de Oxum y un devenir",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cebae425b43",
+   "titulo": "Iemanjá & Oxum",
+   "ano": 2004,
+   "decisao": "descarta",
+   "motivo": "tradução brasileira de cabrera-1974-yemaya"
+  },
+  {
+   "chave": "c856f890728",
+   "titulo": "Ilé Oxum Minaguaci. Traçando perfil",
+   "ano": 2009,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca3f9d8dd17",
+   "titulo": "La venus lukumí",
+   "ano": 2002,
+   "decisao": "pista",
+   "motivo": "feraudy-2002-venus"
+  },
+  {
+   "chave": "c6abb1a05b1",
+   "titulo": "MULHERES NEGRAS E RESILIÊNCIA",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c45a8be1e3c",
+   "titulo": "Miel para Ochún: la imaginación mitológica de Palés",
+   "ano": 2010,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce01865f365",
+   "titulo": "O espelho de Oxum e as masculinidades negras: reflexões sobre o racismo epistêmico na Universidade.",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3b9cdd70ce",
+   "titulo": "O presente de Oxum e a construção da multiplicidade no candomblé",
+   "ano": 2015,
+   "decisao": "entra",
+   "motivo": "rabelo-2015-oxum"
+  },
+  {
+   "chave": "c1519b5ac9d",
+   "titulo": "O presente de Oxum: bebês em candomblés de Nação Ketu e a construção do pertencimento racial",
+   "ano": null,
+   "decisao": "pista",
+   "motivo": "rocha-unicamp-oxum"
+  },
+  {
+   "chave": "c753fdd880a",
+   "titulo": "Ochún en la regla de ocha-ifá: comprensiones sobre un fundamento para la reexistencia racial",
+   "ano": 2026,
+   "decisao": "entra",
+   "motivo": "carrillo-2026-ochun"
+  },
+  {
+   "chave": "c7d7deb7179",
+   "titulo": "Ochún y Yo : una Historia de Amor y Trenzas : Oshún and Me",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce9171c52a7",
+   "titulo": "Orisha Collection - Oshun",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c422f297c30",
+   "titulo": "Orisha, n.",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c4b35cc85aa",
+   "titulo": "Orishas of Trinidad",
+   "ano": 2020,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c147902a55f",
+   "titulo": "Oshun",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "tipo não bibliográfico (componente, verbete de dicionário, vídeo, dataset etc.)"
+  },
+  {
+   "chave": "c2a79b8a5ab",
+   "titulo": "Oshun",
+   "ano": 2000,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c4df1c9823b",
+   "titulo": "Oshun",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd3c7d4d9e4",
+   "titulo": "Oshun Orisha Journal",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c164fcce770",
+   "titulo": "Oxum e ekedis:",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2c66b5423d",
+   "titulo": "The Proliferation of Yorùbá Religion in the Atlantic during the Nineteenth Century: The Portability of the Orisha",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ce1029d06b5",
+   "titulo": "The Yorùbá god of drumming",
+   "ano": 2015,
+   "decisao": "entra",
+   "motivo": "villepastour-2015-ayan"
+  },
+  {
+   "chave": "ca739086957",
+   "titulo": "The way of the Orisa: Empowering your life through the ancient African religion of Ifa",
+   "ano": null,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c87b34297f4",
+   "titulo": "Venganza de Ochun",
+   "ano": 2014,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "c33c68c9a4a",
+   "titulo": "Violines a Ochún and Orisha Praise",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c31680671cf",
+   "titulo": "Yemoja",
+   "ano": 2013,
+   "decisao": "descarta",
+   "motivo": "duplicata de otero-falola-2013-yemoja"
+  },
+  {
+   "chave": "c177a302621",
+   "titulo": "Yusimi Moya Rodriguez's 'Orisha Oshun Dance from Cuba: Oshun as La Mulata in Afro-Cuban, African Caribbean, Circum-Caribbean Sexualities and Libidinal Economies",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca12e8a5ca1",
+   "titulo": "É de comer rezando: uma análise do Ipeté de Oxum It is to eat while praying: an analysis of Oxum’s Ipeté Es de comer rezando: un análisis del Ipeté de Oxum",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c38710c35cc",
+   "titulo": "“Princesa negra” e “Oxum vai levantar”: representações do feminino nos cantos Umbandistas e Candomblecistas",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ca4ac942d11",
+   "titulo": "“SHE GOT LOVE/ELLA CONSIGUIÓ AMOR”.: OCHÚN/AMÉFRICA/ANA MENDIETA",
+   "ano": 2021,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c74744be4bc",
+   "titulo": "As representações sociais dos orixás para a comunidade do Candomblé Ketu a partir das letras de suas cantigas",
+   "ano": 2024,
+   "decisao": "entra",
+   "motivo": "tosoli-2024-cantigas"
+  },
+  {
+   "chave": "c1b67dfb4ab",
+   "titulo": "ENTRE ESCRITOS E FALADOS: TERREIROS DE CANDOMBLÉ E A PROBLEMÁTICA DOS LUGARES DE MEMÓRIA – O CASO DO ILÉ ÒSUMÀRÈ ARÀKÁ ÀSÉ ÒGÒDÓ (CASA DE OXUMARÊ)",
+   "ano": 2019,
+   "decisao": "entra",
+   "motivo": "sousa-2019-osumare"
+  },
+  {
+   "chave": "c58c93032d3",
+   "titulo": "OXUMARÉ E XANGÔ: A INFLUÊNCIA RELIGIOSA NA SUBSTITUIÇÃO DOS TOPÔNIMOS DAS RUAS DO BAIRRO JARDIM SUCUPIRA EM FEIRA DE SANTANA-BA",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3e90296e52",
+   "titulo": "OXUMARÊ CONTRA O GÊNERO COLONIAL: MASCULINIDADES, FLUIDEZ E PEDAGOGIAS DE TERREIRO",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c933285427f",
+   "titulo": "Oxumaré, o arco-íris sagrado",
+   "ano": 2006,
+   "decisao": "nao_incorporado",
+   "motivo": "autopublicação ou editora esotérica/de divulgação comercial"
+  },
+  {
+   "chave": "cb87ad591dc",
+   "titulo": "“Eu respeito seu amém, você respeita meu axé?”: um estudo etnográfico sobre terreiros de candomblé como organizações de resistência à luz de um olhar decolonial",
+   "ano": 2023,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c3088559d72",
+   "titulo": "Before the Eradication of God: the Yoruba Smallpox Deity Shonponna in t m aLuko's One Man, One Wife",
+   "ano": 2002,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c28f8a8cd84",
+   "titulo": "Comparing Concepts of God: Translating God in the Chinese and Yoruba  Religious Contexts",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c99bc5e3293",
+   "titulo": "Esu: Yoruba God, Power And The Imaginative Frontiers, written by Falola, Toyin, Editor. 2014",
+   "ano": 2014,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c659b3bd62b",
+   "titulo": "SOCIO-ECONOMIC EFFECTS OF RITUAL IN RELIGIOUSLY PLURALISTIC SOCIETY IN IFE, OSUN, NIGERIA",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c8f3aefb9b6",
+   "titulo": "The concept of monotheism in the Book of Proverbs and an African (Yoruba) perspective",
+   "ano": 2022,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cb3c19b18b6",
+   "titulo": "Das forças literárias à essencialidade da literatura: os conceitos do texto literário em “O sumiço da Santa”",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccf9ed2dcee",
+   "titulo": "THE RISE AND FALL OF THE YORUBA RACE 2",
+   "ano": 2011,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cdf699f4c86",
+   "titulo": "“Oshύn frente al espejo: la defensa del territorio cuerpo-tierra de sí misma, en claves afro-políticas”.",
+   "ano": 2024,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccbfd470fa0",
+   "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+   "ano": 2004,
+   "decisao": "entra",
+   "motivo": "joffroy-2004-osun-osogbo"
+  },
+  {
+   "chave": "c12aab5a856",
+   "titulo": "Cultic Powers of Yoruba Twins:<i>Manifestation of Traditional and Religious Beliefs of the Yoruba</i>",
+   "ano": 1983,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c56135ef491",
+   "titulo": "Pureza e confusão",
+   "ano": 2018,
+   "decisao": "pista",
+   "motivo": "serra-2018-pureza"
+  },
+  {
+   "chave": "cbb4226756a",
+   "titulo": "Tracing the Origin of Twins’ Birth Through the Yoruba Oral Tradition",
+   "ano": 2026,
+   "decisao": "entra",
+   "motivo": "ogunbunmi-2026-twins"
+  },
+  {
+   "chave": "cee58bbacca",
+   "titulo": "Yoruba Customs and Beliefs Pertaining to Twins",
+   "ano": 2002,
+   "decisao": "entra",
+   "motivo": "leroy-2002-twins"
+  },
+  {
+   "chave": "c92c38f5f20",
+   "titulo": "Unveiling cryptic diversity: integrative taxonomy discovers eight new species of moths and exposes biodiversity shortfalls in a Neotropical region",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cd0f767d635",
+   "titulo": "A Cidade de João Pessoa na Gira de Mãe  Beata La  ville de João Pessoa dans la tournée de Mãe  Beata La  Ciudad de João Pessoa en la Gira de Madre Beata The  Ci",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c819be9e3ae",
+   "titulo": "Heritage, Memory, and the Manifestation of Tradition: The Olufon Festival in the Historical Narrative of Yorubaland",
+   "ano": 2025,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "ccf7c1928c0",
+   "titulo": "Olori, o dono da cabeça. Uma tipologia afro-descendente",
+   "ano": 2010,
+   "decisao": "entra",
+   "motivo": "zacharias-2010-olori"
+  },
+  {
+   "chave": "c448302220b",
+   "titulo": "أسطورة الخلق ونشأة حضارة ايفي فى غرب أفريقيا: دراسة تحليلية",
+   "ano": 2026,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cdfef8a205b",
+   "titulo": "Hablando de altares afrodescendientes y su pedagogía decolonial encimarronía interestética",
+   "ano": 2017,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "cf8d35331e5",
+   "titulo": "Osun Osogbo Sacred Grove",
+   "ano": null,
+   "decisao": "pista",
+   "motivo": "probst-osun-osogbo"
+  },
+  {
+   "chave": "c7eb28b84e8",
+   "titulo": "The Application of Multinomial Regression Analysis to Heritage Tourism.",
+   "ano": 2018,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  },
+  {
+   "chave": "c2578910c09",
+   "titulo": "Violências e Instituição Maternidade: uma Reflexão Feminista Decolonial",
+   "ano": 2019,
+   "decisao": "nao_incorporado",
+   "motivo": "pertinente, mas periférico ao recorte desta rodada (literatura, artes, educação, saúde, turismo, tema geral) ou sem foco nos 5 orixás e tradições-alvo; fica em candidatos.json para rodadas futuras"
+  }
+ ]
+}

@@ -22,10 +22,21 @@ FORTES = {
     "legba": r"legba", "elegua": r"elegg?u[aá]", "eshu": r"\beshu\b|elegbara",
     "ochosi": r"ochosi|oshosi|oxossi|oxoss|osoosi|ososi", "yemoja": r"yemoja|yemaya|iemanj|yemanja|yemonja",
     "shango": r"shango|chang[oó]\b|xang[oô]", "ogou": r"\bogou\b", "orunmila": r"orunmila|orula",
+    # varredura nº 4: orixás além dos 5, cosmologia e itãs
+    "oxala": r"oxal[aá]|obatal[aá]|orisanla|orishanla|oshala", "oxum": r"\boxum\b|\boshun\b|\bochun\b",
+    "iansa": r"ians[aã]|\boya\b|\boy[aá]\b", "nana": r"nan[aã] buruku|nana buluku|\bnan[aã]\b (?:orix|buruk)",
+    "omolu": r"omolu|obaluai|obaluay|babal[uú] ay|sakpata|sapata|xapan[aã]|sopona|shopona",
+    "oxumare": r"oxumar|osumare|oshumare|\bdan\b ayido", "ossaim": r"ossaim|ossain|osanyin|osain\b",
+    "logunede": r"logun ?ed[eé]|logun ?ede", "ewa": r"\bew[aá]\b|\byew[aá]\b", "ibeji": r"ibeji|ibej[ií]",
+    "iroko": r"iroko|irok[oô]", "oduduwa": r"oduduwa|odudua", "olokun": r"olokun", "obaluaye": r"obaluaye",
+    "olodumare": r"olodumar|olorun|olofin|eledumare", "egungun": r"egungun|egun\b|\beguns?\b|babaegum",
+    "iyami": r"iyami|iy[aá]mi|\baje\b witch|oxorong", "itan": r"\bit[aã]s\b|\bit[aã]\b|patak[ií]", "odu": r"\bodu\b|\bodus\b|merindilogun|dilogun|diloggun",
+    "oriki": r"or[ií]k[ií]",
 }
 FRACOS = {"ogum": r"\bogum\b|\bogun\b|\bogu\b", "exu": r"\bexu\b|\besu\b", "sango": r"\bsango\b",
-          "yoruba": r"yoruba|ioruba|yorùbá|iorubá", "oyo": r"\boyo\b", "dahomey": r"dahom|daome|\bfon\b"}
-EXCLUI = [r"ogun state", r"estado de ogun", r"exu\b.*\bexus? (?:de|da) ", r"sango (?:river|town)"]
+          "yoruba": r"yoruba|ioruba|yorùbá|iorubá", "oyo": r"\boyo\b", "dahomey": r"dahom|daome|\bfon\b",
+          "osun": r"\bosun\b", "nana": r"\bnan[aã]\b"}
+EXCLUI = [r"osun state", r"oyo state", r"ogun state", r"estado de ogun", r"exu\b.*\bexus? (?:de|da) ", r"sango (?:river|town)"]
 
 
 def norm(s):

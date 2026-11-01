@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-11-01",
-    "total": 316
+    "total": 422
   },
   "fontes": [
     {
@@ -19,10 +19,12 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Em iorubá. Edições divergentes (Collins, Glasgow, 1968; Aim, 1983; 2006). Apá kejì: 2014.",
-      "status_verificacao": "a_verificar",
+      "observacoes": "Em iorubá. Edições divergentes (Collins, Glasgow, 1968; Aim, 1983; 2006). Apá kejì: 2014. Metadados conferidos na varredura 4 (openlibrary). Open Library registra a edição de 2006 (University Press PLC); a 1ª edição (1968) não aparece no registro; ano citado mantido.",
+      "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://pierreverger.org/br/a-fundacao/o-biblioteca-acervo/a-biblioteca/divinacao/ifa.html"
+        "https://pierreverger.org/br/a-fundacao/o-biblioteca-acervo/a-biblioteca/divinacao/ifa.html",
+        "https://openlibrary.org/works/OL22609275W",
+        "https://openlibrary.org/works/OL24068863W"
       ],
       "url": null,
       "identificadores": {}
@@ -61,11 +63,15 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 4 (openlibrary). Open Library registra Oxford University Press Nigeria, 1976.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL6593832W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9780195751994"
+      }
     },
     {
       "id": "abimbola-1977-poetry",
@@ -92,6 +98,60 @@
       "local": "New York"
     },
     {
+      "id": "abimbola-1997-mend",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Wande Abimbola"
+      ],
+      "titulo": "Ifá will mend our broken world",
+      "ano": 1997,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: entrevistas de Wande Abimbola (Aim Books, 1997) sobre Ifá na África e na diáspora; registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL10524052W",
+        "https://openlibrary.org/works/OL16484047W",
+        "https://openlibrary.org/works/OL8804967W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780965973908"
+      },
+      "editora": "Aim books"
+    },
+    {
+      "id": "abimbola-1997-women",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Wande Abimbola"
+      ],
+      "titulo": "Images of Women in the Ifá Literary Corpus",
+      "ano": 1997,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Annals of the New York Academy of Sciences); autor é a referência do corpus de Ifá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1111/j.1749-6632.1997.tb48137.x",
+        "https://doi.org/10.1111/j.1749-6632.1997.tb48137.x"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1111/j.1749-6632.1997.tb48137.x"
+      },
+      "periodico": "Annals of the New York Academy of Sciences"
+    },
+    {
       "id": "abiodun-2014-art",
       "tipo": "livro",
       "categoria": "academica",
@@ -110,6 +170,114 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "adegbindin-2011-ifa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Omotade Adegbindin"
+      ],
+      "titulo": "The problem of gerontocracy in Africa: The Yorùbá perspective as illustrated in the Ifá corpus",
+      "ano": 2011,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Human Affairs); leitura filosófica do corpus de Ifá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2478/s13374-011-0043-3",
+        "https://doi.org/10.2478/s13374-011-0043-3"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2478/s13374-011-0043-3"
+      },
+      "periodico": "Human Affairs"
+    },
+    {
+      "id": "adegbindin-2021-eni-oosa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Omotade  Adegbindin"
+      ],
+      "titulo": "Disability and Human Diversity: A Reinterpretation of Ẹni-òòṣà1 Philosophy in Yorùbá Belief",
+      "ano": 2021,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Ọbàtálá e o ẹni-òòṣà.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.32473/ysr.v3i1.129917",
+        "https://journals.flvc.org/ysr/article/view/129917",
+        "https://ojs.test.flvc.org/ysr/article/view/129917"
+      ],
+      "url": "https://journals.flvc.org/ysr/article/view/129917",
+      "identificadores": {
+        "doi": "10.32473/ysr.v3i1.129917"
+      },
+      "periodico": "Yoruba Studies Review"
+    },
+    {
+      "id": "adeniji-neill-2014-oriki",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Dolapo Adeniji-Neill"
+      ],
+      "titulo": "I Will Chant Homage to the Orisa: Oriki (Praise Poetry) and the Yoruba Worldview",
+      "ano": 2014,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica (DOI Crossref) (Palgrave Macmillan, Indigenous Concepts of Education).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1057/9781137382184_13",
+        "https://doi.org/10.1057/9781137382184_13"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1057/9781137382184_13",
+        "isbn": "9781137382184"
+      }
+    },
+    {
+      "id": "afolabi-2026-oya",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Niyi Afolabi"
+      ],
+      "titulo": "Against Feminine Erasure in Yoruba Ritual Archives: Theorizing Oya, the Mystical Deity Across the Black Atlantic World",
+      "ano": 2026,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Ọya no Atlântico negro.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.32473/ysr.11.1.141483",
+        "https://doi.org/10.32473/ysr.11.1.141483",
+        "https://journals.flvc.org/ysr/article/view/141483"
+      ],
+      "url": "https://doi.org/10.32473/ysr.11.1.141483",
+      "identificadores": {
+        "doi": "10.32473/ysr.11.1.141483"
+      },
+      "periodico": "Yoruba Studies Review"
     },
     {
       "id": "aiyejina-1999-orisa",
@@ -137,6 +305,153 @@
         "doi": "10.1080/00086495.1999.11671867"
       },
       "periodico": "Caribbean Quarterly"
+    },
+    {
+      "id": "ajisafe-1924-laws",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "A. K. Ajisafe Moore"
+      ],
+      "titulo": "The Laws and Customs of the Yoruba People",
+      "ano": 1924,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (2026-11-01). Autor iorubá de Abeokuta (m. 1940): domínio público na Nigéria e na Espanha. 1ª ed. Londres, Routledge, 1924; o exemplar do Internet Archive é reimpressão sem data (Abeokuta, Fola Bookshops, 87 p.). Direito e costumes; trata de Egungun, Oro, Ifá e Ọ̀sanyìn de passagem. Visão de elite cristã iorubá do período colonial.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/lawscustomsofyor00moorrich",
+        "https://openlibrary.org/works/OL6709470W"
+      ],
+      "url": "https://archive.org/details/lawscustomsofyor00moorrich",
+      "identificadores": {}
+    },
+    {
+      "id": "akande-2019-egungun",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Abiodun  Olasupo Akande"
+      ],
+      "titulo": "Ará Òrun Kìn-ìn Kin-in: Òyó-Yòrùbá Egúngún Masquerade in Communion and Maintenance of Ontological Balance †",
+      "ano": 2019,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Genealogy, MDPI, CC BY); Egúngún de Òyó e equilíbrio ontológico.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.3390/genealogy3010007",
+        "https://www.mdpi.com/2313-5778/3/1/7"
+      ],
+      "url": "https://www.mdpi.com/2313-5778/3/1/7",
+      "identificadores": {
+        "doi": "10.3390/genealogy3010007"
+      },
+      "periodico": "Genealogy"
+    },
+    {
+      "id": "akande-2020-opon",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Abiodun Akande"
+      ],
+      "titulo": "Commonalities and Disparities in the Iconography of Opón Ifá and Ìróké Ifá in Òyó, Sábe, and Ifè-Ana Yorùbá Communities",
+      "ano": 2020,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1162/afar_a_00527",
+        "https://doi.org/10.1162/afar_a_00527"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1162/afar_a_00527"
+      },
+      "periodico": "African Arts"
+    },
+    {
+      "id": "akin-otiko-2024-olodumare",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Akinmayowa Akin-Otiko"
+      ],
+      "titulo": "Beyond Presumption: Proof of Olódùmarè’s Existence Using Afẹ́fẹ́ (Air), Ilẹ̀ (Soil) and Omi (Water) among the Yoruba",
+      "ano": 2024,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Nsukka Journal of Religion); filosofia da religião iorubá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://journal.njrcs.org/index.php/njrcs/article/view/45",
+        "https://www.njrcs.org/akin-otiko-2024/"
+      ],
+      "url": "https://journal.njrcs.org/index.php/njrcs/article/view/45",
+      "identificadores": {},
+      "periodico": "Nsukka Journal of Religion and Cultural Studies"
+    },
+    {
+      "id": "akinjogbin-1964-olokun",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "I. A. Akinjogbin"
+      ],
+      "titulo": "Olókun",
+      "ano": 1964,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: publicação do Yoruba Historical Research Scheme (I. A. Akinjogbin); conferir se é folheto ou monografia.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL42257137W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Yoruba Historical Research Scheme"
+    },
+    {
+      "id": "alexandre-2006-logunede",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "Claudia Alexandre"
+      ],
+      "titulo": "Na fé de Vivaldo de Logunedé",
+      "ano": 2006,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: publicação municipal (São Paulo, 2006) sobre um sacerdote de Logunedé.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL13851063W",
+        "https://openlibrary.org/works/OL18572965W",
+        "https://openlibrary.org/works/OL18586976W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Secretaria Municipal de Cultura, Santos, Prefeitura Municipal"
     },
     {
       "id": "allison-1964-eshu",
@@ -216,6 +531,58 @@
       "periodico": "Afro-Ásia"
     },
     {
+      "id": "amherd-2026-soponna",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Noël Amherd"
+      ],
+      "titulo": "Yorùbá and Medieval Plague: Could Sòpònná Originate as a Black Death Deity?",
+      "ano": 2026,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); hipótese histórica, a ler com cautela.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.32473/ysr.11.2.143210",
+        "https://journals.flvc.org/ysr/article/view/143210"
+      ],
+      "url": "https://journals.flvc.org/ysr/article/view/143210",
+      "identificadores": {
+        "doi": "10.32473/ysr.11.2.143210"
+      },
+      "periodico": "Yoruba Studies Review"
+    },
+    {
+      "id": "anoba-2022-odu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ibrahim B. Anoba"
+      ],
+      "titulo": "Odù Ifá in Transition: Contemplating Boundary Mechanisms in Discursive and Critical Appreciation of the Ifá Corpus",
+      "ano": 2022,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal of Religion in Africa).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1163/15700666-12340218",
+        "https://doi.org/10.1163/15700666-12340218"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1163/15700666-12340218"
+      },
+      "periodico": "Journal of Religion in Africa"
+    },
+    {
       "id": "arango-2018-ache",
       "tipo": "dissertacao",
       "categoria": "tese",
@@ -288,6 +655,33 @@
         "doi": "10.4000/jsa.3022"
       },
       "periodico": "Journal de la société des américanistes"
+    },
+    {
+      "id": "asante-mazama-2009-obatala",
+      "tipo": "documento",
+      "categoria": "enciclopedia",
+      "autores": [
+        "Molefi Kete Asante (org.)",
+        "Ama Mazama (org.)"
+      ],
+      "titulo": "Obatala",
+      "ano": 2009,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: verbete da Encyclopedia of African Religion (SAGE, 2009); DOI Crossref.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4135/9781412964623.n294",
+        "https://doi.org/10.4135/9781412964623.n294"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.4135/9781412964623.n294",
+        "isbn": "9781412936361"
+      }
     },
     {
       "id": "athayde-2025-ossaim",
@@ -433,6 +827,32 @@
       "editora": "Odoya"
     },
     {
+      "id": "barber-1981-how-man",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Karin Barber"
+      ],
+      "titulo": "How man makes God in West Africa: Yoruba attitudes towards the Orisa",
+      "ano": 1981,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, CUP); texto clássico sobre a relação devotos × òrìṣà.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/1159606",
+        "https://doi.org/10.2307/1159606"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/1159606"
+      },
+      "periodico": "Africa"
+    },
+    {
       "id": "barber-1990-proliferation",
       "tipo": "artigo",
       "categoria": "academica",
@@ -480,6 +900,32 @@
       "url": null,
       "identificadores": {},
       "editora": "Edinburgh University Press"
+    },
+    {
+      "id": "barber-rep-ifa",
+      "tipo": "documento",
+      "categoria": "enciclopedia",
+      "autores": [
+        "Karin Barber"
+      ],
+      "titulo": "Ifá divination corpus, the",
+      "ano": null,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: crossref). Confiabilidade B: verbete de Karin Barber na Routledge Encyclopedia of Philosophy; sem ano no registro.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4324/9780415249126-z022-1",
+        "https://doi.org/10.4324/9780415249126-z022-1"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.4324/9780415249126-z022-1",
+        "isbn": "9780415250696"
+      }
     },
     {
       "id": "barbier-2002-golfe",
@@ -613,6 +1059,31 @@
       "identificadores": {}
     },
     {
+      "id": "barros-2011-ossaim",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "José Flávio Pessoa de Barros"
+      ],
+      "titulo": "A floresta sagrada de Ossaim",
+      "ano": 2011,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: livro de José Flávio Pessoa de Barros, antropólogo (UERJ), sobre as folhas no candomblé (Pallas).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL22652375W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788534704571"
+      },
+      "editora": "Pallas"
+    },
+    {
       "id": "bascom-1969-ifa",
       "tipo": "livro",
       "categoria": "corpus_oral",
@@ -654,6 +1125,30 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "bastide-1945-imagens",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Roger Bastide"
+      ],
+      "titulo": "Imagens do Nordeste místico em branco e preto",
+      "ano": 1945,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Entrou no catálogo no fichamento-06 como fonte citada por Costa 1980 (não lida no original). Metadados conferidos na Open Library em 2026-11-01. Tradições preliminares (viagem pelo Nordeste).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL6787586W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "O Cruzeiro (Seção de Livros)"
     },
     {
       "id": "bastide-1958-candomble",
@@ -731,11 +1226,12 @@
       "id": "baudin-1884-fetichisme",
       "evidencias": [
         "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
-        "https://openlibrary.org/works/OL6848552W"
+        "https://openlibrary.org/works/OL6848552W",
+        "https://openlibrary.org/works/OL6848551W"
       ],
       "url": null,
       "identificadores": {},
-      "observacoes": "Padre católico da Sociedade das Missões Africanas de Lyon, missionário na Costa dos Escravos. Segundo Prandi (2001, p. 48), primeiro livro a tratar sistematicamente da religião iorubá; fonte pioneira, mas com interpretação cristã devastadora sobre Exu. Prenome a conferir (R. P. = Révérend Père). Nível C: documento do olhar missionário. | Conferido (2026-10-31): Open Library registra a ed. de 1884, Séminaire des Missions Africaines / Bureaux des Missions Catholiques.",
+      "observacoes": "Padre católico da Sociedade das Missões Africanas de Lyon, missionário na Costa dos Escravos. Segundo Prandi (2001, p. 48), primeiro livro a tratar sistematicamente da religião iorubá; fonte pioneira, mas com interpretação cristã devastadora sobre Exu. Prenome a conferir (R. P. = Révérend Père). Nível C: documento do olhar missionário. | Conferido (2026-10-31): Open Library registra a ed. de 1884, Séminaire des Missions Africaines / Bureaux des Missions Catholiques. | Varredura 4 (2026-11-01): Original francês sem cópia acessível neste ambiente (Gallica 403; não achado no Internet Archive). A tradução inglesa de 1885 tem texto integral aberto: baudin-1885-fetichism. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
@@ -751,6 +1247,34 @@
       "status_verificacao": "conferido_web",
       "local": "Lyon",
       "editora": "Séminaire des Missions Africaines – Bureau des Missions Catholiques"
+    },
+    {
+      "id": "baudin-1885-fetichism",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "R. P. Baudin"
+      ],
+      "titulo": "Fetichism and Fetich Worshipers",
+      "ano": 1885,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Tradução inglesa (Nova York, Benziger, 1885) de baudin-1884-fetichisme. Texto integral no Internet Archive (NYPL, NOT_IN_COPYRIGHT) e HathiTrust (pd). Parte I: deuses 'superiores' (1. Obatala, 2. Odudua, 3. Ifa), 'semideuses' e 'gênios'; menciona Shango, Oya, Elegba, Olokun, Ibeji, Oro e Egungun. Interpretação cristã que demoniza Exu (ver Prandi 2001). Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/fetichismfetichw00baud",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/2768472.json",
+        "https://openlibrary.org/works/OL6848551W"
+      ],
+      "url": "https://archive.org/details/fetichismfetichw00baud",
+      "identificadores": {
+        "oclc": "2768472"
+      },
+      "editora": "Benziger Brothers",
+      "local": "Nova York"
     },
     {
       "id": "bazinet-2017-shango",
@@ -920,6 +1444,29 @@
       "local": "Rio de Janeiro"
     },
     {
+      "id": "bewaji-1998-olodumare",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "John A. I. Bewaji"
+      ],
+      "titulo": "Olodumare: God In Yoruba Belief And The Theistic Problem of Evil",
+      "ano": 1998,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (African Studies Quarterly).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://journals.flvc.org/ASQ/article/view/136485"
+      ],
+      "url": "https://journals.flvc.org/ASQ/article/view/136485",
+      "identificadores": {},
+      "periodico": "African Studies Quarterly"
+    },
+    {
       "id": "blass-2007-iemanja",
       "tipo": "artigo",
       "categoria": "academica",
@@ -962,6 +1509,31 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "bogunmbe-1995-odu",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Awópéjú Bógunḿbẹ̀"
+      ],
+      "titulo": "Ìwé odù Ifá",
+      "ano": 1995,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: odù de Ifá por praticante (Ilé Ọ̀rúnmìlà Communications); editora de nicho.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3006729W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780964424715"
+      },
+      "editora": "Ilé Ọ̀rúnmìlà Communications"
     },
     {
       "id": "bolivar-1990-orishas",
@@ -1038,12 +1610,6 @@
     },
     {
       "id": "bouche-1885-cote",
-      "evidencias": [
-        "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
-      ],
-      "url": null,
-      "identificadores": {},
-      "status_verificacao": "a_verificar",
       "tipo": "livro",
       "categoria": "etno_classica",
       "autores": [
@@ -1052,13 +1618,21 @@
       "titulo": "La Côte des Esclaves et le Dahomey",
       "ano": 1885,
       "idioma": "fr",
-      "local": "Paris",
       "tradicoes": [
         "vodun_benim",
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Abade/missionário; associa Elegbara à possessão satânica. Domínio público."
+      "observacoes": "Varredura 4 (2026-11-01). Padre da Sociedade das Missões Africanas de Lyon; Paris, Plon, 1885. Domínio público. Texto integral no Internet Archive (Univ. de Toronto/Ottawa). Cap. VII 'État religieux' (p. 101), XII contos nagôs (p. 221), XIII provérbios (p. 239), XXIII particularidades religiosas do Daomé (p. 365); menciona Xangô, Ifá, Ogum. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/lactedesesclav00bouc",
+        "https://openlibrary.org/works/OL18095922W"
+      ],
+      "url": "https://archive.org/details/lactedesesclav00bouc",
+      "identificadores": {},
+      "editora": "Plon",
+      "local": "Paris"
     },
     {
       "id": "bowen-1857-adventures",
@@ -1066,7 +1640,7 @@
         "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
         "https://archive.org/details/centralafricaadv00bowe_0"
       ],
-      "url": null,
+      "url": "https://archive.org/details/centralafricaadv00bowe_0",
       "identificadores": {},
       "status_verificacao": "conferido_web",
       "tipo": "livro",
@@ -1083,7 +1657,34 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Pastor batista; identifica Exu ao diabo. Reed. Londres, Cass, 1968. Domínio público. | Conferido (2026-10-31): título completo começa por 'Central Africa' (Internet Archive, ed. 1857)."
+      "observacoes": "Pastor batista; identifica Exu ao diabo. Reed. Londres, Cass, 1968. Domínio público. | Conferido (2026-10-31): título completo começa por 'Central Africa' (Internet Archive, ed. 1857). | Varredura 4 (2026-11-01): Texto integral no Internet Archive (ed. 1857, Getty). Pouco sobre orixás (menções a Ifá, Xangô, Ogum, Oro, Egungun); a reedição de 1969 (Cass) no IA é só empréstimo. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais."
+    },
+    {
+      "id": "bowen-1858-grammar",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Thomas Jefferson Bowen"
+      ],
+      "titulo": "Grammar and Dictionary of the Yoruba Language, with an Introductory Description of the Country and People of Yoruba",
+      "ano": 1858,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Smithsonian Contributions to Knowledge, v. 10 (Washington, 1858). Domínio público. Texto integral no Internet Archive (NOT_IN_COPYRIGHT) e HathiTrust (hvd.hx6h4d, pd). Verbetes de nomes de orixás e termos religiosos do séc. XIX (grafias antigas). Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/grammardictionar00bowerich",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/1875976.json"
+      ],
+      "url": "https://archive.org/details/grammardictionar00bowerich",
+      "identificadores": {
+        "oclc": "1875976"
+      },
+      "editora": "Smithsonian Institution",
+      "local": "Washington"
     },
     {
       "id": "boyer-1991-compagnons",
@@ -1295,13 +1896,41 @@
       "identificadores": {}
     },
     {
+      "id": "buckley-1985-smallpox",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Anthony D. Buckley"
+      ],
+      "titulo": "The god of smallpox: aspects of Yoruba religious knowledge",
+      "ano": 1985,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, CUP); Ṣọ̀pọ̀nnọ́ (Omolu).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/1160301",
+        "https://doi.org/10.2307/1160301"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/1160301"
+      },
+      "periodico": "Africa"
+    },
+    {
       "id": "burton-1863-abeokuta",
       "evidencias": [
         "https://revistas.usp.br/revusp/article/download/35275/37995/41553",
         "https://openlibrary.org/works/OL676131W",
-        "https://archive.org/details/abeokutaandcama00burtgoog"
+        "https://archive.org/details/abeokutaandcama00burtgoog",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/2054549.json",
+        "https://archive.org/details/abeokutaandcama02burtgoog"
       ],
-      "url": null,
+      "url": "https://archive.org/details/abeokutaandcama00burtgoog",
       "identificadores": {
         "oclc": "2054549"
       },
@@ -1320,7 +1949,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "2 vols. Relato de viagem a Abeokuta (cidade ligada ao culto de Iemanjá). Domínio público. Título exato a conferir. | Conferido (2026-10-31): 2 volumes, Londres, Tinsley Brothers, 1863."
+      "observacoes": "2 vols. Relato de viagem a Abeokuta (cidade ligada ao culto de Iemanjá). Domínio público. Título exato a conferir. | Conferido (2026-10-31): 2 volumes, Londres, Tinsley Brothers, 1863. | Varredura 4 (2026-11-01): Texto integral dos 2 volumes no Internet Archive (NOT_IN_COPYRIGHT) e HathiTrust (mdp.39015048914579, pd). Menções esparsas a Ifá, Xangô, Obatalá, Oro e ao rio Ogum (muitas ocorrências de 'Ogun' são o rio). Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais."
     },
     {
       "id": "cabrera-1954-monte",
@@ -1411,6 +2040,32 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "campelo-2020-adanida",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Marilu Márcia Campelo"
+      ],
+      "titulo": "Àdanidá: homem, ambiente e orixá",
+      "ano": 2020,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: crossref). Confiabilidade B: Horizonte (PUC Minas); orixá tratado a confirmar.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5752/p.2175-5841.2020v18n56p837",
+        "https://doi.org/10.5752/p.2175-5841.2020v18n56p837"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5752/p.2175-5841.2020v18n56p837"
+      },
+      "periodico": "HORIZONTE - Revista de Estudos de Teologia e Ciências da Religião"
     },
     {
       "id": "campos-2016-exu-umbanda",
@@ -1598,6 +2253,32 @@
       "editora": "Hermann"
     },
     {
+      "id": "caprara-1998-omolu",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Andrea Caprara"
+      ],
+      "titulo": "Médico ferido: omolu nos labirintos da doença",
+      "ano": 1998,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica (DOI Crossref): em Antropologia da Saúde (Fiocruz/Relume-Dumará), acesso aberto no SciELO Livros.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.7476/9788575414040.0008",
+        "https://doi.org/10.7476/9788575414040.0008"
+      ],
+      "url": "https://books.scielo.org/id/by55h",
+      "identificadores": {
+        "doi": "10.7476/9788575414040.0008",
+        "isbn": "9788575414040"
+      }
+    },
+    {
       "id": "cardoso-filho-2015-iemanja",
       "tipo": "tese",
       "categoria": "tese",
@@ -1694,6 +2375,32 @@
       "periodico": "Revista de Antropologia da UFSCar"
     },
     {
+      "id": "carrillo-2026-ochun",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Hans Carrillo Guach"
+      ],
+      "titulo": "Ochún en la regla de ocha-ifá: comprensiones sobre un fundamento para la reexistencia racial",
+      "ano": 2026,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Argumentos).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.46551/issn.2527-2551v22n2p.12-39",
+        "https://doi.org/10.46551/issn.2527-2551v22n2p.12-39"
+      ],
+      "url": "https://www.periodicos.unimontes.br/index.php/argumentos/article/view/10395",
+      "identificadores": {
+        "doi": "10.46551/issn.2527-2551v22n2p.12-39"
+      },
+      "periodico": "Argumentos - Revista do Departamento de Ciências Sociais da Unimontes"
+    },
+    {
       "id": "carvalho-1993-cantos",
       "tipo": "livro",
       "categoria": "academica",
@@ -1715,6 +2422,34 @@
       "url": null,
       "identificadores": {},
       "editora": "Fundação Cultural Palmares"
+    },
+    {
+      "id": "carvalho-2019-iyami",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Silvia Barbosa de Carvalho",
+        "Samira Lima da Costa",
+        "Andréa Coelho Ferreira"
+      ],
+      "titulo": "Notas sobre pesquisa colaborativa com sacerdotisas da Deusa Iyami Osoronga",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Fractal, UFF). Tradição a confirmar (o título fala em sacerdotisas de Iyami).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.22409/1984-0292/v31i_esp/29003",
+        "https://doi.org/10.22409/1984-0292/v31i_esp/29003"
+      ],
+      "url": "https://periodicos.uff.br/fractal/article/view/29003",
+      "identificadores": {
+        "doi": "10.22409/1984-0292/v31i_esp/29003"
+      },
+      "periodico": "Fractal: Revista de Psicologia"
     },
     {
       "id": "carybe-1980-iconografia",
@@ -2229,6 +2964,59 @@
       "local": "Rio de Janeiro"
     },
     {
+      "id": "dennett-1906-back",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Richard Edward Dennett"
+      ],
+      "titulo": "At the Back of the Black Man's Mind; or, Notes on the Kingly Office in West Africa",
+      "ano": 1906,
+      "idioma": "en",
+      "tradicoes": [
+        "kongo"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Domínio público (autor m. 1921). Texto integral no Internet Archive (Toronto, Cornell). Trata sobretudo dos Bavili de Loango (Kongo: nkisi, Nzambi, caps. I–XVI) e dos Bini/Edo (caps. XVII–XXI); quase nada sobre orixás iorubás. Útil para inquices/cosmologia banta, não para os orixás. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/atbackofblackman00dennuoft",
+        "https://archive.org/details/cu31924029887472"
+      ],
+      "url": "https://archive.org/details/atbackofblackman00dennuoft",
+      "identificadores": {},
+      "editora": "Macmillan",
+      "local": "Londres"
+    },
+    {
+      "id": "dennett-1910-nigerian",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Richard Edward Dennett"
+      ],
+      "titulo": "Nigerian Studies; or, The Religious and Political System of the Yoruba",
+      "ano": 1910,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Administrador colonial (m. 1921): domínio público. Texto integral no Internet Archive (Toronto e Cornell) e HathiTrust (mdp.39015019369126, pd). Sumário: II criação e pedras sagradas de Ifẹ̀ (p. 17); III morte, Oro, Egungun (p. 28); V Jakuta (p. 65); VI Odudua (p. 73); VII Obatala (p. 81); VIII Ifá (p. 86); IX Eshu (p. 94); X Aganju, Yemoja e seus filhos (p. 97); XI Olokun, Olosa (p. 106); XII Ogun, Oshowsi e o caçador (p. 116); XIV Oke, Ojo, Ajeshaluga e a agricultura (p. 140); XV odù de Ifá (p. 147); XVI Shango, Oya, Oba, Oshun (p. 156). Esquema interpretativo próprio (quaternidades) sem base nas fontes atuais. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/nigerianstudieso00dennuoft",
+        "https://archive.org/details/cu31924028648776",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/1321239.json"
+      ],
+      "url": "https://archive.org/details/nigerianstudieso00dennuoft",
+      "identificadores": {
+        "oclc": "1321239"
+      },
+      "editora": "Macmillan",
+      "local": "Londres"
+    },
+    {
       "id": "deren-1953-horsemen",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -2475,6 +3263,80 @@
       "observacoes": "2 vols. Relato de viajante; descreve estátuas de Legba. Domínio público. Título exato a conferir ('Travels in West/Western Africa')."
     },
     {
+      "id": "durojaiye-1978-linguagem",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Benjy Ainde Kayode Durojaiye"
+      ],
+      "titulo": "A linguagem correta dos orixas",
+      "ano": 1978,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: obra de praticante; editora e conteúdo a conferir.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL10988247W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Oxala"
+    },
+    {
+      "id": "elebuibon-1999-iyere",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Ifayemi Elebuibon"
+      ],
+      "titulo": "Ìyẹ̀rẹ̀ Ifá",
+      "ano": 1999,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: cantos de Ifá (ìyẹ̀rẹ̀) publicados por Ifayemi Elebuibon, babaláwo de Òṣogbo; visão de dentro.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL536389W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780964424760"
+      },
+      "editora": "Ilé Ọ̀rúnmìlà Communications"
+    },
+    {
+      "id": "ellis-1890-ewe",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "A. B. Ellis"
+      ],
+      "titulo": "The Ewe-Speaking Peoples of the Slave Coast of West Africa: Their Religion, Manners, Customs, Laws, Languages, etc.",
+      "ano": 1890,
+      "idioma": "en",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Domínio público (autor m. 1894). Texto integral no Internet Archive e HathiTrust (hvd.32044043302934, pd). Caps. III–V: divindades gerais, tribais e locais dos ewe/fon (Legba, Sapata, Khebioso/So etc.): base para voduns equivalentes. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/ewespeakingpeopl0000abel",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/25946296.json",
+        "https://openlibrary.org/works/OL6254631W"
+      ],
+      "url": "https://archive.org/details/ewespeakingpeopl0000abel",
+      "identificadores": {},
+      "editora": "Chapman and Hall",
+      "local": "Londres"
+    },
+    {
       "id": "ellis-1894-yoruba",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -2488,13 +3350,14 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Olhar colonial; domínio público; usar só com crítica. | Metadados conferidos na Open Library e no Internet Archive em 2026-11-01 (fonte primária de 2ª mão em iemanja-052, via Pitta).",
+      "observacoes": "Olhar colonial; domínio público; usar só com crítica. | Metadados conferidos na Open Library e no Internet Archive em 2026-11-01 (fonte primária de 2ª mão em iemanja-052, via Pitta). | Varredura 4 (2026-11-01): Texto integral no Internet Archive (NOT_IN_COPYRIGHT) e HathiTrust (hvd.32044020314415, pd). Cobre: cap. II 'Chief gods' (pp. 34–69, seções numeradas: Olorun, Obatala, Odudua, Orungan/Yemaja, Shango, Ifa com os 16 odù 'meji', Elegba); cap. III 'Minor gods' (pp. 70–84: Olokun, Olosa, Shigidi, Dada, Oshun, Oya, Orisha Oko, Osanyin, Aroni, Aja, Ibeji, Oshumare etc.); cap. VI Egungun e Oro (p. 107); cap. VII almas (p. 125); cap. XIV contos (p. 243).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://openlibrary.org/works/OL6254639W",
-        "https://archive.org/details/yorubaspeakingp00elligoog"
+        "https://archive.org/details/yorubaspeakingp00elligoog",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/4848837.json"
       ],
-      "url": null,
+      "url": "https://archive.org/details/yorubaspeakingp00elligoog",
       "identificadores": {}
     },
     {
@@ -2518,6 +3381,29 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "epega-1951-iwe-ifa",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "D. Ọnadele Epega"
+      ],
+      "titulo": "Iwe ifa",
+      "ano": 1951,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: obra em iorubá de D. Ọnadele Epega (Imọlẹ Oluwa Institute); conferir data, edição e direitos.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL35522085W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Imọlẹ Oluwa Institute"
     },
     {
       "id": "erfahrung-der-orixas",
@@ -2600,6 +3486,112 @@
       }
     },
     {
+      "id": "fama-1994-sixteen",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Chief Fama"
+      ],
+      "titulo": "Sixteen mythological stories of Ifá",
+      "ano": 1994,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: narrativas de Ifá por praticante (Ilé Ọ̀rúnmìlà Communications); editora de nicho.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL845898W",
+        "https://openlibrary.org/works/OL8802036W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780964424722"
+      },
+      "editora": "Ilé Ọrúnmilà Communications"
+    },
+    {
+      "id": "famule-2021-ayan",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Oláwọlé  Fámúlẹ̀"
+      ],
+      "titulo": "Èdè Àyàn: The Language of Àyàn in Yorùbá Art and Ritual of Egúngún",
+      "ano": 2021,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review); Àyàn e Egúngún.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.32473/ysr.v2i2.129886",
+        "https://journals.flvc.org/ysr/article/view/129886",
+        "https://ojs.test.flvc.org/ysr/article/view/129886"
+      ],
+      "url": "https://journals.flvc.org/ysr/article/view/129886",
+      "identificadores": {
+        "doi": "10.32473/ysr.v2i2.129886"
+      },
+      "periodico": "Yoruba Studies Review"
+    },
+    {
+      "id": "farrow-1926-faith",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Stephen Septimus Farrow"
+      ],
+      "titulo": "Faith, Fancies and Fetich, or Yoruba Paganism: Being Some Account of the Religious Beliefs of the West African Negroes, Particularly of the Yoruba Tribes of Southern Nigeria",
+      "ano": 1926,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Tese de doutorado (Edimburgo, 1924) de missionário anglicano; declara o objetivo de justificar a missão cristã. Texto integral no Internet Archive e HathiTrust (pd, Full view; domínio público nos EUA desde 2022; data de morte do autor a conferir para a Europa). Cobre: o Ser Supremo (Olorun), 'The Orishas' (2 caps.: Obatala, Odudua, Shango, Oya, Ogun, Eshu, Ifa/Orunmila, Yemaja, Olokun, Oshun, Sopono, Osanyin, Ibeji), espíritos dos mortos (Egungun, Oro), hino religioso iorubá (apêndice A). Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/faithfanciesfeti00farr",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/374675.json",
+        "https://openlibrary.org/works/OL6922169W"
+      ],
+      "url": "https://archive.org/details/faithfanciesfeti00farr",
+      "identificadores": {
+        "oclc": "374675"
+      },
+      "editora": "Society for Promoting Christian Knowledge",
+      "local": "Londres"
+    },
+    {
+      "id": "feraudy-2002-venus",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Heriberto Feraudy Espino"
+      ],
+      "titulo": "La venus lukumí",
+      "ano": 2002,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: Editorial de Ciencias Sociales (Havana); sobre Ochún, conferir conteúdo.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3609686W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789590612497"
+      },
+      "editora": "Editorial de Ciencias Sociales"
+    },
+    {
       "id": "fernandes-1937-xangos",
       "tipo": "livro",
       "categoria": "academica",
@@ -2621,6 +3613,32 @@
       "url": null,
       "identificadores": {},
       "editora": "Civilização Brasileira"
+    },
+    {
+      "id": "fernandez-cano-2005-oya",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Jesús Fernández Cano"
+      ],
+      "titulo": "Entre Oyá y Santa Teresa. El controvertido asunto del sincretismo en la santería",
+      "ano": 2005,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Gazeta de Antropología, Univ. de Granada); sincretismo de Oyá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.30827/digibug.7188",
+        "https://doi.org/10.30827/digibug.7188"
+      ],
+      "url": "https://digibug.ugr.es/handle/10481/7188",
+      "identificadores": {
+        "doi": "10.30827/digibug.7188"
+      },
+      "periodico": "Gazeta de Antropología"
     },
     {
       "id": "fernandez-olmos-1997-sacred",
@@ -3137,18 +4155,44 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Olhar colonial; tem tradução en 'The Voice of Africa' (1913). | Conferido (2026-10-31): Berlim, Vita, 1912 (há volumes de 1912–1913).",
+      "observacoes": "Olhar colonial; tem tradução en 'The Voice of Africa' (1913). | Conferido (2026-10-31): Berlim, Vita, 1912 (há volumes de 1912–1913). | Varredura 4 (2026-11-01): Texto integral (alemão) no Internet Archive (Univ. de Toronto). Autor morto em 1938: domínio público na UE (inclusive Espanha, desde 2019). Tradução inglesa catalogada à parte (frobenius-1913-voice). Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://openlibrary.org/works/OL1433240W",
         "https://archive.org/details/undafrikasprachb00frob"
       ],
-      "url": null,
+      "url": "https://archive.org/details/undafrikasprachb00frob",
       "identificadores": {
         "oclc": "2474507"
       },
       "editora": "Vita, Deutsches Verlagshaus",
       "local": "Berlim"
+    },
+    {
+      "id": "frobenius-1913-voice",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Leo Frobenius"
+      ],
+      "titulo": "The Voice of Africa: Being an Account of the Travels of the German Inner African Exploration Expedition in the Years 1910–1912",
+      "ano": 1913,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Tradução inglesa (Rudolf Blind) de frobenius-1912-afrika; 2 vols., Londres, Hutchinson, 1913. Texto integral no Internet Archive (Univ. de Toronto, NOT_IN_COPYRIGHT). Cobre, no vol. I: cap. X 'The Foundations of the Yorubans' Religious Life' (p. 186), XI 'The Kingly Thunder-God' (Xangô, p. 204), XII 'The Idea of the World' (p. 228: Ifá, odù), XIII 'The Holy City' (Ifẹ̀, p. 265), XIV achados arqueológicos (cabeça de Olokun, p. 292); a tese da 'Atlântida' iorubá é especulação descartada. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/voiceofafricabei01frobuoft",
+        "https://archive.org/details/voiceofafricabei02frobuoft",
+        "https://openlibrary.org/works/OL10610669W"
+      ],
+      "url": "https://archive.org/details/voiceofafricabei01frobuoft",
+      "identificadores": {},
+      "editora": "Hutchinson",
+      "local": "Londres"
     },
     {
       "id": "gabani-serbena-2015-exu-trickster",
@@ -3227,6 +4271,33 @@
       "periodico": "Religião e Sociedade"
     },
     {
+      "id": "gleason-1987-oya",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Judith Illsley Gleason"
+      ],
+      "titulo": "Oya: In Praise of the Goddess",
+      "ano": 1987,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: monografia de Judith Gleason (Shambhala, 1987) sobre Ọya na Nigéria e nas Américas; editora não acadêmica, autora pesquisadora.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL4128861W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780062504616"
+      },
+      "editora": "Shambhala"
+    },
+    {
       "id": "gobin-2012-complexe",
       "tipo": "tese",
       "categoria": "tese",
@@ -3273,6 +4344,32 @@
         "isbn": "9788541503143"
       },
       "editora": "Editora Universitária UFPE"
+    },
+    {
+      "id": "hagedorn-2002-babalu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Katherine J. Hagedorn"
+      ],
+      "titulo": "Long day's journey to Rincón: From suffering to resistance in the procession of San Lázaro/Babalú Ayé",
+      "ano": 2002,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (British Journal of Ethnomusicology); San Lázaro/Babalú Ayé.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/09681220208567328",
+        "https://doi.org/10.1080/09681220208567328"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/09681220208567328"
+      },
+      "periodico": "British Journal of Ethnomusicology"
     },
     {
       "id": "halloy-2005-intimite",
@@ -3429,6 +4526,32 @@
       "editora": "Lexicon Trinidad"
     },
     {
+      "id": "henry-2010-sakpata",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Christine Henry"
+      ],
+      "titulo": "La terre de Sakpata",
+      "ano": 2010,
+      "idioma": "fr",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal des Africanistes, OpenEdition, acesso aberto).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4000/africanistes.2572",
+        "https://doi.org/10.4000/africanistes.2572"
+      ],
+      "url": "https://journals.openedition.org/africanistes/2572",
+      "identificadores": {
+        "doi": "10.4000/africanistes.2572"
+      },
+      "periodico": "Journal des Africanistes"
+    },
+    {
       "id": "herskovits-1938-dahomey",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -3501,6 +4624,32 @@
       }
     },
     {
+      "id": "houlberg-1973-ibeji",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Marilyn Hammersley Houlberg"
+      ],
+      "titulo": "Ibeji Images of the Yoruba",
+      "ano": 1973,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts); estudo de referência sobre Ìbejì.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3334745",
+        "https://doi.org/10.2307/3334745"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3334745"
+      },
+      "periodico": "African Arts"
+    },
+    {
       "id": "idowu-1962-olodumare",
       "tipo": "livro",
       "categoria": "academica",
@@ -3521,6 +4670,33 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "igboin-2014-olodumare",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Benson O. Igboin"
+      ],
+      "titulo": "Is Olodumare, God In Yoruba Belief, God?",
+      "ano": 2014,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); debate filosófico com Layi 2016.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.20871/kpjipm.v4i2.67",
+        "http://journal.sadra.ac.id/index.php/kanzphilosophia/article/view/67",
+        "https://doi.org/10.20871/kpjipm.v4i2.67"
+      ],
+      "url": "http://journal.sadra.ac.id/index.php/kanzphilosophia/article/view/67",
+      "identificadores": {
+        "doi": "10.20871/kpjipm.v4i2.67"
+      },
+      "periodico": "Kanz Philosophia : A Journal for Islamic Philosophy and Mysticism"
     },
     {
       "id": "iphan-terreiros",
@@ -3549,6 +4725,107 @@
       "identificadores": {}
     },
     {
+      "id": "jesus-2024-cromatica",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Raphael De Jesus"
+      ],
+      "titulo": "Cromática dos orixás: uma análise da nomenclatura e atribuição das cores aos orixás do candomblé ketu",
+      "ano": 2024,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Sacrilegens, UFJF); cores dos orixás no Ketu.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.34019/2237-6151.2024.v21.43378",
+        "https://doi.org/10.34019/2237-6151.2024.v21.43378"
+      ],
+      "url": "https://periodicos.ufjf.br/index.php/sacrilegens/article/view/43378",
+      "identificadores": {
+        "doi": "10.34019/2237-6151.2024.v21.43378"
+      },
+      "periodico": "Sacrilegens"
+    },
+    {
+      "id": "joao-do-rio-1904-religioes",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "João do Rio"
+      ],
+      "titulo": "As religiões no Rio",
+      "ano": 1904,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Reportagens de Paulo Barreto (João do Rio, m. 1921: domínio público) na Gazeta de Notícias, reunidas em livro (Rio de Janeiro, 1904; ed. Garnier, 1906). Digitalização da Biblioteca Brasiliana (USP) espelhada no Wikimedia Commons (faltam as pp. 9–12). Abre com 'No mundo dos feitiços': casas de orixás e alufás no Rio de 1904. Jornalismo sensacionalista de época; tradição 'candomble_ketu' é aproximação a confirmar (a obra fala de cultos africanos no Rio sem nação).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://digital.bbm.usp.br/handle/bbm/976",
+        "https://digital.bbm.usp.br/handle/bbm/2680",
+        "https://commons.wikimedia.org/wiki/File:As_religi%C3%B5es_no_Rio_(1904).pdf"
+      ],
+      "url": "https://commons.wikimedia.org/wiki/File:As_religi%C3%B5es_no_Rio_(1904).pdf",
+      "identificadores": {},
+      "editora": "Gazeta de Notícias",
+      "local": "Rio de Janeiro"
+    },
+    {
+      "id": "jock-2020-oduduwa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Agai M. Jock"
+      ],
+      "titulo": "Samuel Johnson’s view about Oduduwa in connection with the origins of the Yoruba",
+      "ano": 2020,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (HTS Teologiese Studies).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4102/hts.v76i4.6013",
+        "https://hts.org.za/index.php/hts/article/view/6013"
+      ],
+      "url": "https://hts.org.za/index.php/hts/article/view/6013",
+      "identificadores": {
+        "doi": "10.4102/hts.v76i4.6013"
+      },
+      "periodico": "HTS Teologiese Studies/Theological Studies"
+    },
+    {
+      "id": "joffroy-2004-osun-osogbo",
+      "tipo": "documento",
+      "categoria": "patrimonio",
+      "autores": [
+        "Thierry Joffroy",
+        "O. J. Eboreime"
+      ],
+      "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+      "ano": 2004,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: hal). Confiabilidade B: dossiê de candidatura do Bosque Sagrado de Ọ̀ṣun-Òṣogbo ao Patrimônio Mundial (CRAterre/NCMM, 2004), depositado no HAL.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://hal.science/hal-03125379v1"
+      ],
+      "url": "https://hal.science/hal-03125379v1",
+      "identificadores": {}
+    },
+    {
       "id": "johnson-1921-history",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -3562,13 +4839,67 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Historiador iorubá; tradições orais de Oyó (Xangô como alafin). | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06). | A Open Library data a 1ª publicação de 1900 (manuscrito concluído em 1897; 1ª ed. impressa em 1921); ano citado mantido.",
+      "observacoes": "Historiador iorubá; tradições orais de Oyó (Xangô como alafin). | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06). | A Open Library data a 1ª publicação de 1900 (manuscrito concluído em 1897; 1ª ed. impressa em 1921); ano citado mantido. | Varredura 4 (2026-11-01): Texto integral no Internet Archive e HathiTrust (inu.39000005818294, pd). Autor morto em 1901, editor (Obadiah Johnson) em 1920: domínio público. Cobre: parte I, cap. III 'Religion' (pp. 26–39); parte II, cap. I (pp. 143–152: Oduduwa, Oranyan, Sango como rei de Oyó) — leitura histórica de Oyó, não teologia.",
       "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://openlibrary.org/works/OL4559044W"
+        "https://openlibrary.org/works/OL4559044W",
+        "https://archive.org/details/historyofyorubas00john",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/3499148.json"
+      ],
+      "url": "https://archive.org/details/historyofyorubas00john",
+      "identificadores": {}
+    },
+    {
+      "id": "kakpo-2013-sakpata",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Mahougnon Kakpo"
+      ],
+      "titulo": "Vodun Sakpata et épidémie de variole dans la littérature orale sacrée du golfe du Benin",
+      "ano": 2013,
+      "idioma": "fr",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ponts-Ponti); literatura oral sacra do golfo do Benim.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.7358/pont-2013-013-kapk",
+        "https://doi.org/10.7358/pont-2013-013-kapk"
       ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "doi": "10.7358/pont-2013-013-kapk"
+      },
+      "periodico": "Ponts-Ponti: Langues littératures civilisations des Pays francophones"
+    },
+    {
+      "id": "kalilu-1991-egungun",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "R. O. Rom Kalilu"
+      ],
+      "titulo": "The Role of Sculptures in Yoruba Egungun Masquerade",
+      "ano": 1991,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal of Black Studies).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1177/002193479102200103",
+        "https://doi.org/10.1177/002193479102200103"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1177/002193479102200103"
+      },
+      "periodico": "Journal of Black Studies"
     },
     {
       "id": "lachatanere-1938-yemaya",
@@ -3684,6 +5015,141 @@
       "identificadores": {}
     },
     {
+      "id": "lawuyi-1992-obatala",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "O. B. Lawuyi"
+      ],
+      "titulo": "The Obatala Factor in Yoruba History",
+      "ano": 1992,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (History in Africa).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3172006",
+        "https://doi.org/10.2307/3172006"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3172006"
+      },
+      "periodico": "History in Africa"
+    },
+    {
+      "id": "layi-2016-olodumare",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Oladipupo Sunday Layi"
+      ],
+      "titulo": "Is Olodumare, God in Yoruba Belief, God?: A Response to Benson O. Igboin",
+      "ano": 2016,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Kanz Philosophia); réplica a Igboin 2014.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.20871/kpjipm.v6i1.169",
+        "http://journal.sadra.ac.id/index.php/kanzphilosophia/article/view/169",
+        "https://doi.org/10.20871/kpjipm.v6i1.169"
+      ],
+      "url": "http://journal.sadra.ac.id/index.php/kanzphilosophia/article/view/169",
+      "identificadores": {
+        "doi": "10.20871/kpjipm.v6i1.169"
+      },
+      "periodico": "Kanz Philosophia : A Journal for Islamic Philosophy and Mysticism"
+    },
+    {
+      "id": "leite-2020-omolu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Gildeci De Oliveira Leite"
+      ],
+      "titulo": "Omolu, Obaluaê, São Lázaro, São Roque, a fé, a medicina do pobre",
+      "ano": 2020,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Fragmentos de Cultura, PUC Goiás). Tradições a confirmar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.18224/frag.v29i4.7748",
+        "https://doi.org/10.18224/frag.v29i4.7748"
+      ],
+      "url": "https://seer.pucgoias.edu.br/index.php/fragmentos/article/view/7748",
+      "identificadores": {
+        "doi": "10.18224/frag.v29i4.7748"
+      },
+      "periodico": "Revista Fragmentos de Cultura - Revista Interdisciplinar de Ciências Humanas"
+    },
+    {
+      "id": "leroy-2002-twins",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Fernand Leroy",
+        "Taiwo Olaleye-Oruene",
+        "Gesina Koeppen-Schomerus",
+        "Elizabeth Bryan"
+      ],
+      "titulo": "Yoruba Customs and Beliefs Pertaining to Twins",
+      "ano": 2002,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Twin Research, CUP).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1375/1369052023009",
+        "https://doi.org/10.1375/1369052023009",
+        "https://doi.org/10.1375/twin.5.2.132"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1375/1369052023009"
+      },
+      "periodico": "Twin Research"
+    },
+    {
+      "id": "lijadu-2010-orunmila",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "E. M. Lijadu"
+      ],
+      "titulo": "A prophet called Orunmila",
+      "ano": 2010,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: reedição/tradução (2010) da obra de E. M. Lijadu (Orunmila!, c. 1908); conferir edição original e tradutor.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL33419306W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789781534232"
+      },
+      "editora": "West African Book Pub. Limited"
+    },
+    {
       "id": "lima-2020-angola",
       "tipo": "artigo",
       "categoria": "academica",
@@ -3734,6 +5200,32 @@
         "doi": "10.30827/digibug.13638"
       },
       "periodico": "Gazeta de Antropología"
+    },
+    {
+      "id": "lindon-1990-oriki",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Thomas Lindon"
+      ],
+      "titulo": "Oriki Orisa: The Yoruba Prayer of Praise",
+      "ano": 1990,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal of Religion in Africa).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/1581369",
+        "https://doi.org/10.2307/1581369"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/1581369"
+      },
+      "periodico": "Journal of Religion in Africa"
     },
     {
       "id": "lins-2004-xango-pe",
@@ -3851,6 +5343,31 @@
       "local": "Rio de Janeiro"
     },
     {
+      "id": "love-2012-divining",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Velma E. Love"
+      ],
+      "titulo": "Divining the Self: A Study in Yoruba Myth and Human Consciousness",
+      "ano": 2012,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica em editora universitária/científica (Penn State UP); cap. 6 sobre Ọ̀ṣun, Yemọja e Ọya.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL16618339W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780271054056"
+      },
+      "editora": "Pennsylvania State University Press"
+    },
+    {
       "id": "lovejoy-2019-lucumi",
       "tipo": "capitulo",
       "categoria": "academica",
@@ -3926,6 +5443,32 @@
       "identificadores": {}
     },
     {
+      "id": "machado-2021-oxala",
+      "tipo": "capitulo",
+      "categoria": "divulgacao",
+      "autores": [
+        "Vanda Machado"
+      ],
+      "titulo": "Oxalá, o criador dos homens e senhor de toda sabedoria",
+      "ano": 2021,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: crossref). Confiabilidade C: reconto educativo de itãs (Prosa de Nagô, Vanda Machado); útil como divulgação, não sustenta ficha.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.7476/9786556304021.0015",
+        "https://doi.org/10.7476/9786556304021.0015"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.7476/9786556304021.0015",
+        "isbn": "9786556304021"
+      }
+    },
+    {
       "id": "machado-vs-cajado-lemba",
       "tipo": "dissertacao",
       "categoria": "tese",
@@ -3999,6 +5542,31 @@
         "doi": "10.1590/0100-85872018v38n2cap08"
       },
       "periodico": "Religião &amp; Sociedade"
+    },
+    {
+      "id": "mason-1996-olookun",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "John Mason"
+      ],
+      "titulo": "Olóòkun",
+      "ano": 1996,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: obra de John Mason, sacerdote e pesquisador lucumí (Yorùbá Theological Archministry); visão de dentro, a cotejar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL554042W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9781881244059"
+      },
+      "editora": "Yorùbá Theological Archministry"
     },
     {
       "id": "mason-1998-beadwork",
@@ -4217,6 +5785,32 @@
       "identificadores": {}
     },
     {
+      "id": "meyerowitz-1944-ibeji",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Eva L. R. Meyerowitz"
+      ],
+      "titulo": "Ibeji Statuettes from Yoruba, Nigeria",
+      "ano": 1944,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade C: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Man, RAI); olhar colonial de 1944, valor documental.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/2791987",
+        "https://doi.org/10.2307/2791987"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/2791987"
+      },
+      "periodico": "Man"
+    },
+    {
       "id": "mischel-1957-shango",
       "tipo": "artigo",
       "categoria": "academica",
@@ -4243,6 +5837,32 @@
       "periodico": "Anthropological Quarterly"
     },
     {
+      "id": "mobolade-1971-ibeji",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Timothy Mobolade"
+      ],
+      "titulo": "Ibeji Custom in Yorubaland",
+      "ano": 1971,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3334423",
+        "https://doi.org/10.2307/3334423"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3334423"
+      },
+      "periodico": "African Arts"
+    },
+    {
       "id": "mones-2024-ocha",
       "tipo": "artigo",
       "categoria": "academica",
@@ -4266,6 +5886,84 @@
       "periodico": "Cuicuilco. Revista de Ciencias Antropológicas"
     },
     {
+      "id": "monteiro-1999-osanyin",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Marcelo Monteiro"
+      ],
+      "titulo": "Oro asa Òsányìn",
+      "ano": 1999,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: CETRAB; editora de nicho.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL32700723W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "CETRAB, Centro de Tradições Afro-Brasileiras"
+    },
+    {
+      "id": "monteiro-2021-iya-mi",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ana Angélica Monteiro de Barros",
+        "Vitor Amorim Moreira de Azevedo"
+      ],
+      "titulo": "Iyá Mi Oxorongá: olhares sagrados do feminino no candomblé",
+      "ano": 2021,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ethnoscientia). Nação a confirmar na leitura.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.18542/ethnoscientia.v6i2.10369",
+        "https://doi.org/10.18542/ethnoscientia.v6i2.10369"
+      ],
+      "url": "https://periodicos.ufpa.br/index.php/ethnoscientia/article/view/10369",
+      "identificadores": {
+        "doi": "10.18542/ethnoscientia.v6i2.10369"
+      },
+      "periodico": "Ethnoscientia - Brazilian Journal of Ethnobiology and Ethnoecology"
+    },
+    {
+      "id": "morton-williams-1966-ifa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Peter Morton-Williams",
+        "William Bascom",
+        "E. M. McClelland"
+      ],
+      "titulo": "Two Studies of Ifa Divination",
+      "ano": 1966,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, CUP).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/1158049",
+        "https://doi.org/10.2307/1158049"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/1158049"
+      },
+      "periodico": "Africa"
+    },
+    {
       "id": "mosaico-2020-oxossi",
       "evidencias": [
         "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
@@ -4287,6 +5985,32 @@
       "confiabilidade_preliminar": "B",
       "status_verificacao": "conferido_web",
       "periodico": "Revista Mosaico (PUC Goiás)"
+    },
+    {
+      "id": "mota-2022-olubaje",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Emília Guimarães Mota"
+      ],
+      "titulo": "“Omolu quer todo mundo no Olubaje”",
+      "ano": 2022,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Equatorial, UFRN). Nação a confirmar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.21680/2446-5674.2022v9n16id26154",
+        "https://doi.org/10.21680/2446-5674.2022v9n16id26154"
+      ],
+      "url": "https://periodicos.ufrn.br/equatorial/article/view/26154",
+      "identificadores": {
+        "doi": "10.21680/2446-5674.2022v9n16id26154"
+      },
+      "periodico": "Equatorial – Revista do Programa de Pós-Graduação em Antropologia Social"
     },
     {
       "id": "motta-1991-transe",
@@ -4647,12 +6371,13 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Artigos de 1896 na Revista Brasileira; edição pt 'O animismo fetichista dos negros baianos'. Olhar racialista/evolucionista: usar com crítica. Domínio público. | Conferido (2026-10-31): Open Library registra a ed. de 1900, editora Reis (Bahia).",
+      "observacoes": "Artigos de 1896 na Revista Brasileira; edição pt 'O animismo fetichista dos negros baianos'. Olhar racialista/evolucionista: usar com crítica. Domínio público. | Conferido (2026-10-31): Open Library registra a ed. de 1900, editora Reis (Bahia). | Varredura 4 (2026-11-01): Texto integral no HathiTrust (coo.31924020011759, pd, Full view); o leitor do HathiTrust tem desafio anti-robô neste ambiente. Edição portuguesa de 1935 com texto aberto no Internet Archive: nina-rodrigues-1935-animismo.",
       "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://openlibrary.org/works/OL42789682W"
+        "https://openlibrary.org/works/OL42789682W",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/14780382.json"
       ],
-      "url": null,
+      "url": "https://babel.hathitrust.org/cgi/pt?id=coo.31924020011759",
       "identificadores": {
         "oclc": "14780382"
       },
@@ -4673,16 +6398,70 @@
         "candomble_jeje"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Póstumo. Viés racialista; valor documental. | Conferido (2026-10-31): 1ª ed. póstuma, São Paulo, Companhia Editora Nacional, 1932.",
+      "observacoes": "Póstumo. Viés racialista; valor documental. | Conferido (2026-10-31): 1ª ed. póstuma, São Paulo, Companhia Editora Nacional, 1932. | Varredura 4 (2026-11-01): Texto integral no Internet Archive (o _djvu.txt deu HTTP 500 em 2026-11-01; tentar de novo ou baixar o PDF). Texto de Nina Rodrigues (m. 1906) em domínio público; revisão e prefácio de Homero Pires (m. 1962) ainda protegidos. Cobre o cap. sobre sobrevivências religiosas (orixás iorubás, voduns jejes, culto malê).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://archive.org/details/osafricanosnobrasil",
         "https://openlibrary.org/works/OL117390W"
       ],
-      "url": null,
+      "url": "https://archive.org/details/osafricanosnobrasil",
       "identificadores": {},
       "editora": "Companhia Editora Nacional",
       "local": "São Paulo"
+    },
+    {
+      "id": "nina-rodrigues-1935-animismo",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Raimundo Nina Rodrigues"
+      ],
+      "titulo": "O animismo fetichista dos negros baianos",
+      "ano": 1935,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). 1ª edição em livro em português (Civilização Brasileira, Biblioteca de Divulgação Científica, v. 2), com prefácio e notas de Arthur Ramos. Texto integral no Internet Archive. Domínio público no Brasil (Nina Rodrigues m. 1906; Ramos m. 1949, 70 anos); na Espanha as notas de Ramos só caem em 2030 (80 anos). HathiTrust marca a edição como 'ic' nos EUA. Cobre terreiros de Salvador na década de 1890: Olorun, Obatalá/Oxalá, Xangô, Ogum, Oxóssi (Odé), Iemanjá ('Yê-man-já'), Exu/Elegbá, Ifá, Dadá, possessão e iniciação. Viés racialista/evolucionista do autor. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/animismofetichista",
+        "https://catalog.hathitrust.org/api/volumes/brief/oclc/2923361.json",
+        "https://openlibrary.org/works/OL22815561W"
+      ],
+      "url": "https://archive.org/details/animismofetichista",
+      "identificadores": {
+        "oclc": "2923361"
+      },
+      "editora": "Civilização Brasileira",
+      "local": "Rio de Janeiro"
+    },
+    {
+      "id": "noguera-2018-orunmila",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Renato Noguera"
+      ],
+      "titulo": "A questão do autoconhecimento na filosofia de Orunmilá",
+      "ano": 2018,
+      "idioma": "pt",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (ODEERE, UESB).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.22481/odeere.v3i6.4328",
+        "https://doi.org/10.22481/odeere.v3i6.4328"
+      ],
+      "url": "http://periodicos2.uesb.br/index.php/odeere/article/view/4328",
+      "identificadores": {
+        "doi": "10.22481/odeere.v3i6.4328"
+      },
+      "periodico": "ODEERE"
     },
     {
       "id": "noleto-2025-montevideu",
@@ -4713,6 +6492,32 @@
       "periodico": "Religião &amp; Sociedade"
     },
     {
+      "id": "ochoa-2020-lazarus",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Todd Ramón Ochoa"
+      ],
+      "titulo": "A Party for Lazarus: Six Generations of Ancestral Devotion in a Cuban Town",
+      "ano": 2020,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: monografia acadêmica em editora universitária/científica (University of California Press, 2020: A Party for Lazarus); capítulo 8 sobre Babalú Ayé. O DOI registrado é o do cap. 8 ('A Bembé for San Lázaro–Babalú Ayé').",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1525/9780520974111-010",
+        "https://doi.org/10.1525/9780520974111-010"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1525/9780520974111-010"
+      },
+      "editora": "University of California Press"
+    },
+    {
       "id": "odonile-2023-ogum",
       "tipo": "dissertacao",
       "categoria": "tese",
@@ -4733,6 +6538,59 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "ofuasia-2023-ifa-hell",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Emmanuel Ofuasia"
+      ],
+      "titulo": "Is There Any Evidence for Hell in the Ifá Literary Corpus?",
+      "ano": 2023,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Religions, MDPI).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.3390/rel14111416",
+        "https://doi.org/10.3390/rel14111416"
+      ],
+      "url": "https://www.mdpi.com/2077-1444/14/11/1416",
+      "identificadores": {
+        "doi": "10.3390/rel14111416"
+      },
+      "periodico": "Religions"
+    },
+    {
+      "id": "ogunbunmi-2026-twins",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Olufunmilola Adedayo Ogunbunmi"
+      ],
+      "titulo": "Tracing the Origin of Twins’ Birth Through the Yoruba Oral Tradition",
+      "ano": 2026,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.32473/ysr.11.1.141497",
+        "https://doi.org/10.32473/ysr.11.1.141497",
+        "https://journals.flvc.org/ysr/article/view/141497"
+      ],
+      "url": "https://doi.org/10.32473/ysr.11.1.141497",
+      "identificadores": {
+        "doi": "10.32473/ysr.11.1.141497"
+      },
+      "periodico": "Yoruba Studies Review"
     },
     {
       "id": "ogundipe-2012-esu",
@@ -4760,6 +6618,34 @@
       "editora": "Kwara State University Press"
     },
     {
+      "id": "ogungbemi-2021-olodumare",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Segun Ogungbemi"
+      ],
+      "titulo": "A Comparative Study of Olodumare, the Yoruba Supreme Being and the Judea-Christian God",
+      "ano": 2021,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Yoruba Studies Review, Univ. da Flórida).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.32473/ysr.v1i1.130014",
+        "https://doi.org/10.32473/ysr.v1i1.130014",
+        "https://journals.flvc.org/ysr/article/view/130014",
+        "https://ojs.test.flvc.org/ysr/article/view/130014"
+      ],
+      "url": "https://doi.org/10.32473/ysr.v1i1.130014",
+      "identificadores": {
+        "doi": "10.32473/ysr.v1i1.130014"
+      },
+      "periodico": "Yoruba Studies Review"
+    },
+    {
       "id": "ogunleye-2015-yemoja",
       "tipo": "artigo",
       "categoria": "academica",
@@ -4784,6 +6670,133 @@
         "doi": "10.4102/ink.v7i1.239"
       },
       "periodico": "Inkanyiso"
+    },
+    {
+      "id": "ogunnaike-2020-deep",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Oludamini Ogunnaike"
+      ],
+      "titulo": "Deep Knowledge: Ways of Knowing in Sufism and Ifa, Two West African Intellectual Traditions",
+      "ano": 2020,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: monografia acadêmica em editora universitária/científica (Penn State UP, 2020: Deep Knowledge); caps. 5–6 e 9 sobre Ifá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1515/9780271087634-008",
+        "https://doi.org/10.1515/9780271087634-008"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1515/9780271087634-008"
+      },
+      "editora": "Penn State University Press"
+    },
+    {
+      "id": "olayemi-1971-ibeji",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Val Ọlayẹmi"
+      ],
+      "titulo": "Orin ìbejì (Songs in praise of twins)",
+      "ano": 1971,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: cantos de louvor aos gêmeos (Institute of African Studies, Univ. de Ibadan, 1971); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL7151210W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "University of Ibadan, Institute of African Studies"
+    },
+    {
+      "id": "oliva-2012-eshu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Anderson Ribeiro Oliva"
+      ],
+      "titulo": "Visões sobre Eshu: Imagens e interpretações da Cosmologia Iorubá na África Ocidental. O olhar dos cientistas sociais (1950-1980)",
+      "ano": 2012,
+      "idioma": "pt",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Brasileira de História & Ciências Sociais, FURG); historiografia da cosmologia iorubá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.63595/rbhcs.v4i8.10501",
+        "https://doi.org/10.63595/rbhcs.v4i8.10501"
+      ],
+      "url": "https://periodicos.furg.br/rbhcs/article/view/10501",
+      "identificadores": {
+        "doi": "10.63595/rbhcs.v4i8.10501"
+      },
+      "periodico": "Revista Brasileira de História &amp; Ciências Sociais"
+    },
+    {
+      "id": "olupona-2010-pluralism",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Jacob K. Olupona"
+      ],
+      "titulo": "Religious Pluralism in Africa: Insights from Ifa Divination Poetry",
+      "ano": 2010,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica (DOI Crossref) (Fortress Press, Ethics That Matters).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/j.ctt22nm96r.8",
+        "https://doi.org/10.2307/j.ctt22nm96r.8"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/j.ctt22nm96r.8",
+        "isbn": "9780800619763"
+      }
+    },
+    {
+      "id": "olupona-2022-ifa-healing",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Jacob K. Olupona"
+      ],
+      "titulo": "Owner of the Day and Regulator of the Universe: Ifa Divination and Healing among the Yoruba of Southwestern Nigeria",
+      "ano": 2022,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica (DOI Crossref) (University of Arizona Press, Divination and Healing).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/j.ctv2vt02wr.8",
+        "https://doi.org/10.2307/j.ctv2vt02wr.8"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/j.ctv2vt02wr.8",
+        "isbn": "9780816523771"
+      }
     },
     {
       "id": "olupona-abiodun-2016-ifa",
@@ -4834,6 +6847,31 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "oluwole-2014-orunmila",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Sophie B. Oluwole"
+      ],
+      "titulo": "Socrates and Ọ̀rúnmìlà",
+      "ano": 2014,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: monografia da filósofa Sophie Oluwole (Ark Publishers, 2014).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL32640633W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789785295259"
+      },
+      "editora": "Ark Publishers"
     },
     {
       "id": "oro-2002-rs",
@@ -4927,6 +6965,30 @@
       "url": "https://periodicos.sbu.unicamp.br/ojs/index.php/csr/article/view/8670191",
       "identificadores": {},
       "periodico": "Ciências Sociais e Religião"
+    },
+    {
+      "id": "ortiz-1906-brujos",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Fernando Ortiz"
+      ],
+      "titulo": "Hampa afro-cubana: los negros brujos (apuntes para un estudio de etnología criminal)",
+      "ano": 1906,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (2026-11-01). Madri, Librería de Fernando Fé, 1906, com carta-prólogo de Lombroso. Edição digital (Fundación Ignacio Larramendi, 2020) com texto integral no Internet Archive. Direitos: domínio público nos EUA (1906) e em Cuba (autor m. 1969, 50 anos); na Espanha (80 anos) só em 2050 — conferir antes de reproduzir trechos (paráfrase e citação são permitidas). Primeira descrição etnográfica dos orixás lucumís (Changó, Obatalá, Yemayá, Elegguá, Ochún etc.) sob o enquadramento da criminologia positivista. Olhar colonial/missionário: documento histórico (confiabilidade C), não descrição neutra; usar só com crítica e cotejo com fontes atuais.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/hampa-afro-cubana-los-negros-brujos"
+      ],
+      "url": "https://archive.org/details/hampa-afro-cubana-los-negros-brujos",
+      "identificadores": {},
+      "editora": "Librería de Fernando Fé",
+      "local": "Madri"
     },
     {
       "id": "ortiz-f-1906-brujos",
@@ -5095,6 +7157,34 @@
       "identificadores": {},
       "editora": "Editora da Unicamp",
       "local": "Campinas"
+    },
+    {
+      "id": "parizi-2020-livro-orixas",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Vicente Galvão Parizi"
+      ],
+      "titulo": "O livro dos Orixás: África e Brasil",
+      "ano": 2020,
+      "idioma": "pt",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: livro em acesso aberto (Editora Fi, DOI 10.22350/9786559170319) de pesquisador doutor; cobre o panteão. Conferir rigor na leitura.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.22350/9786559170319",
+        "https://doi.org/10.22350/9786559170319"
+      ],
+      "url": "https://www.editorafi.org/031orixas",
+      "identificadores": {
+        "doi": "10.22350/9786559170319",
+        "isbn": "9786559170319"
+      },
+      "editora": "Editora Fi"
     },
     {
       "id": "peel-2000-encounter",
@@ -5321,6 +7411,34 @@
       "periodico": "Debates do NER"
     },
     {
+      "id": "pichardo-1984-oduduwa",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "L. Ernesto Pichardo",
+        "Lourdes Nieto Pichardo"
+      ],
+      "titulo": "Oduduwa Obatala",
+      "ano": 1984,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: obra de Ernesto Pichardo, oriaté lucumí (Ediciones Universal); conferir conteúdo.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL13341484M",
+        "https://openlibrary.org/works/OL15792483W",
+        "https://openlibrary.org/works/OL37342434W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789995635190"
+      },
+      "editora": "Ediciones Universal"
+    },
+    {
       "id": "pitta-2011-mitos",
       "tipo": "artigo",
       "categoria": "academica",
@@ -5368,6 +7486,33 @@
         "doi": "10.24193/cechinox.2019.36.13"
       },
       "periodico": "Caietele Echinox"
+    },
+    {
+      "id": "pogoson-2011-ifa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "O. I. Pogoson",
+        "A. O. Akande"
+      ],
+      "titulo": "Ifa Divination Trays from Isale-Oyo",
+      "ano": 2011,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de Estudos Africanos, OpenEdition, acesso aberto).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4000/cea.196",
+        "https://doi.org/10.4000/cea.196"
+      ],
+      "url": "https://journals.openedition.org/cea/196",
+      "identificadores": {
+        "doi": "10.4000/cea.196"
+      },
+      "periodico": "Cadernos de Estudos Africanos"
     },
     {
       "id": "poli-antropologia-orixas",
@@ -5783,6 +7928,32 @@
       "local": "São Paulo"
     },
     {
+      "id": "probst-osun-osogbo",
+      "tipo": "documento",
+      "categoria": "enciclopedia",
+      "autores": [
+        "Peter Probst"
+      ],
+      "titulo": "Osun Osogbo Sacred Grove",
+      "ano": null,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: crossref). Confiabilidade B: verbete de Peter Probst (Routledge); sem ano no registro.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4324/9781135000356-rem377-1",
+        "https://doi.org/10.4324/9781135000356-rem377-1"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.4324/9781135000356-rem377-1",
+        "isbn": "9781135000356"
+      }
+    },
+    {
       "id": "pucsp-2018-exu-abdias",
       "tipo": "tese",
       "categoria": "tese",
@@ -5878,6 +8049,85 @@
         "doi": "10.1590/0100-85872021v42n1cap06"
       },
       "periodico": "Religião e Sociedade"
+    },
+    {
+      "id": "querino-1955-raca",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Manuel Querino"
+      ],
+      "titulo": "A raça africana e os seus costumes",
+      "ano": 1955,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (2026-11-01). Edição póstuma (Salvador, Progresso, 1955, Coleção de Estudos Brasileiros, série Cruzeiro, v. 9) de textos de 1916–1917 do intelectual negro baiano Manuel Querino (m. 1923, domínio público). Texto integral no Internet Archive. Descreve candomblés de Salvador no início do séc. XX. Confiabilidade B como testemunho de época; ano citado = edição lida.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://archive.org/details/aracaafricana",
+        "https://openlibrary.org/works/OL13005073W"
+      ],
+      "url": "https://archive.org/details/aracaafricana",
+      "identificadores": {
+        "oclc": "1292905"
+      },
+      "editora": "Progresso",
+      "local": "Salvador"
+    },
+    {
+      "id": "rabelo-2015-oxum",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Miriam C M Rabelo"
+      ],
+      "titulo": "O presente de Oxum e a construção da multiplicidade no candomblé",
+      "ano": 2015,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Religião e Sociedade, SciELO).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/0100-85872015v35n1cap11",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872015000100237&lng=en&tlng=en"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872015000100237&lng=en&tlng=en",
+      "identificadores": {
+        "doi": "10.1590/0100-85872015v35n1cap11"
+      },
+      "periodico": "Religião e Sociedade"
+    },
+    {
+      "id": "raheem-2024-obatala-olokun",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Oluwafunminiyi Wasiu Raheem",
+        "Ayowole S. Elugbaju"
+      ],
+      "titulo": "Myth, Ritual, and Visible Expressions of Ọbàtálá and Olókun in Ilé-Ifẹ̀",
+      "ano": 2024,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica (Lexington Books, 2024) sobre Ọbàtálá e Olókun em Ilé-Ifẹ̀; registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL39175451W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9781666945355"
+      },
+      "editora": "Lexington Books/Fortress Academic"
     },
     {
       "id": "ramos-1934-negro",
@@ -6024,6 +8274,31 @@
       }
     },
     {
+      "id": "rodrigue-2001-ori-apere",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Maria das Graças de Santana Rodrigué"
+      ],
+      "titulo": "Orí Apéré O",
+      "ano": 2001,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade B: livro (Selo Negro, 2001) sobre as Águas de Oxalá; registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL6055159W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788587478139"
+      },
+      "editora": "Selo Negro Edições"
+    },
+    {
       "id": "romeu-2006-genero",
       "tipo": "artigo",
       "categoria": "academica",
@@ -6047,6 +8322,32 @@
       "periodico": "Revista Mexicana de Ciencias Políticas y Sociales"
     },
     {
+      "id": "roquete-unicamp-oxum",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Paulo Fabrício Lira Roquete"
+      ],
+      "titulo": "O presente de Oxum: bebês em candomblés de Nação Ketu e a construção do pertencimento racial",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: crossref). Confiabilidade B: dissertação (Unicamp) sobre bebês em candomblés Ketu; sem ano no registro.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.47749/t/unicamp.2025.1499880",
+        "https://doi.org/10.47749/t/unicamp.2025.1499880"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.47749/t/unicamp.2025.1499880"
+      },
+      "editora": "Universidade Estadual de Campinas"
+    },
+    {
       "id": "rossbach-orichas-alemania",
       "tipo": "artigo",
       "categoria": "academica",
@@ -6067,6 +8368,34 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "sallum-2006-ossaim",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Marta Heloísa Leuba Salum",
+        "Wagner Souza e Silva"
+      ],
+      "titulo": "Por que das hastes de ossaim brotam pássaros – até flechas brotam! –, mas não folhas???!!!",
+      "ano": 2006,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Revista do Museu de Arqueologia e Etnologia, USP).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.11606/issn.2448-1750.revmae.2006.89723",
+        "https://doi.org/10.11606/issn.2448-1750.revmae.2006.89723"
+      ],
+      "url": "https://revistas.usp.br/revmae/pt_BR/article/view/89723",
+      "identificadores": {
+        "doi": "10.11606/issn.2448-1750.revmae.2006.89723"
+      },
+      "periodico": "Revista do Museu de Arqueologia e Etnologia"
     },
     {
       "id": "sandoval-2007-worldview",
@@ -6147,6 +8476,32 @@
       "local": "Petrópolis"
     },
     {
+      "id": "santos-2008-ia-mi",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Irinéia M. Franco dos Santos"
+      ],
+      "titulo": "Iá Mi Oxorongá: As Mães Ancestrais e o Poder Feminino na Religião Africana",
+      "ano": 2008,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Sankofa, USP, acesso aberto). Nação a confirmar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.11606/issn.1983-6023.sank.2008.88730",
+        "https://doi.org/10.11606/issn.1983-6023.sank.2008.88730"
+      ],
+      "url": "https://revistas.usp.br/sankofa/pt_BR/article/view/88730",
+      "identificadores": {
+        "doi": "10.11606/issn.1983-6023.sank.2008.88730"
+      },
+      "periodico": "Sankofa (São Paulo)"
+    },
+    {
       "id": "santos-2014-esu",
       "tipo": "livro",
       "categoria": "academica",
@@ -6199,6 +8554,58 @@
         "doi": "10.5752/p.2175-5841.2015v13n39p1698"
       },
       "periodico": "HORIZONTE"
+    },
+    {
+      "id": "santos-2023-logunede",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "José Roberto Lima Santos"
+      ],
+      "titulo": "A indumentária de Lógunède e a diversidade de gênero na cosmopercepção Iyorùbá",
+      "ano": 2023,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Revista Calundu, UnB).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.26512/revistacalundu.v7i1.47629",
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629"
+      ],
+      "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629",
+      "identificadores": {
+        "doi": "10.26512/revistacalundu.v7i1.47629"
+      },
+      "periodico": "Revista Calundu"
+    },
+    {
+      "id": "santos-h-2019-osumare",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Hyago Átilla Sousa dos Santos"
+      ],
+      "titulo": "Entre escritos e falados: terreiros de candomblé e a problemática dos lugares de memória – o caso do Ilé Òsùmàrè Aràká Àṣẹ Ògòdó (Casa de Oxumarê)",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Macabéa); terreiro Ilê Axé Oxumarê (Salvador) e lugares de memória.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.47295/mren.v9i1.2204",
+        "https://doi.org/10.47295/mren.v9i1.2204"
+      ],
+      "url": "https://periodicos.urca.br/ojs/index.php/MacREN/article/view/2204",
+      "identificadores": {
+        "doi": "10.47295/mren.v9i1.2204"
+      },
+      "periodico": "Macabéa - Revista Eletrônica do Netlli"
     },
     {
       "id": "santos-ms-1993-tempo",
@@ -6292,6 +8699,32 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "schiltz-1978-egungun",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Marc Schiltz"
+      ],
+      "titulo": "Egungun Masquerades in Iganna",
+      "ano": 1978,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3335413",
+        "https://doi.org/10.2307/3335413"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3335413"
+      },
+      "periodico": "African Arts"
     },
     {
       "id": "schweitzer-2013-bata",
@@ -6430,6 +8863,55 @@
       "identificadores": {}
     },
     {
+      "id": "serra-2018-pureza",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ordep José Trindade Serra"
+      ],
+      "titulo": "Pureza e confusão",
+      "ano": 2018,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: doaj). Confiabilidade B: Anuário Antropológico (UnB, acesso aberto), de Ordep Serra; a DOAJ data 2018, possível digitalização de volume antigo; tema a confirmar.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/anuarioantropologico/article/view/6099"
+      ],
+      "url": "https://periodicos.unb.br/index.php/anuarioantropologico/article/view/6099",
+      "identificadores": {},
+      "periodico": "Anuário Antropológico"
+    },
+    {
+      "id": "seyfeli-2019-ile-ife",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Canan Seyfeli"
+      ],
+      "titulo": "İle-İfe: Geleneksel Yoruba Dininde Yaratılışın ve Dünyanın Merkezi",
+      "ano": 2019,
+      "idioma": "tr",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Artuklu Akademi); em turco, sobre Ilé-Ifẹ̀ e a criação.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.34247/artukluakademi.638802",
+        "https://dergipark.org.tr/tr/download/article-file/909860"
+      ],
+      "url": "https://dergipark.org.tr/tr/download/article-file/909860",
+      "identificadores": {
+        "doi": "10.34247/artukluakademi.638802"
+      },
+      "periodico": "Artuklu Akademi"
+    },
+    {
       "id": "seyfeli-kul-2020-orisha",
       "tipo": "artigo",
       "categoria": "academica",
@@ -6560,6 +9042,33 @@
       "local": "São Paulo"
     },
     {
+      "id": "silva-2022-mina-nago",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Eronildo José da Silva"
+      ],
+      "titulo": "Voduns e Orixás assentados na Casa da Mina Nagô de Iemanjá e Ogum",
+      "ano": 2022,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica (Maringá de todos os santos?), DOI Crossref; panteão de uma casa de Mina Nagô.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.7476/9786587626147.0012",
+        "https://doi.org/10.7476/9786587626147.0012",
+        "https://doi.org/10.7476/9786587626147.0016"
+      ],
+      "url": "https://books.scielo.org/id/zz9yp",
+      "identificadores": {
+        "doi": "10.7476/9786587626147.0012",
+        "isbn": "9786587626147"
+      }
+    },
+    {
       "id": "silva-g-2019-exu-performatividade",
       "tipo": "dissertacao",
       "categoria": "tese",
@@ -6631,6 +9140,32 @@
       "url": null,
       "identificadores": {},
       "editora": "Pallas"
+    },
+    {
+      "id": "silva-unb-ossaim",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Verônica Maria da Silva Gomes"
+      ],
+      "titulo": "“Kò sí ewé, kò sí òrìsà” (sem folha, não há orixá): vivências ecológicas no Ilé Àse Opó Osogunlade",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: crossref). Confiabilidade B: dissertação (UnB) sobre folhas num terreiro; sem ano no registro.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.26512/2015.08.t.19848",
+        "https://doi.org/10.26512/2015.08.t.19848"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.26512/2015.08.t.19848"
+      },
+      "editora": "Biblioteca Central da UNB"
     },
     {
       "id": "silveira-1986-force",
@@ -6748,6 +9283,29 @@
       "identificadores": {}
     },
     {
+      "id": "sobanjo-iwe-ifa",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "J. A. Ṣobanjo"
+      ],
+      "titulo": "Iwe Ifa Orunmila",
+      "ano": 1900,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade C: obra em iorubá de J. A. Ṣobanjo (Remo Syndicate Press); o ano 1900 no registro parece genérico; conferir data e direitos.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL42257139W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Remo Syndicate Press"
+    },
+    {
       "id": "souza-hernandez-1998-echu",
       "tipo": "livro",
       "categoria": "divulgacao",
@@ -6797,6 +9355,32 @@
         "isbn": "9781478013921"
       },
       "editora": "Duke University Press Books"
+    },
+    {
+      "id": "stocklin-1982-sakpata",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Werner H. Stöcklin"
+      ],
+      "titulo": "Sakpata, ein Beitrag afrikanischer Medizinmänner zur Pockeneradikation",
+      "ano": 1982,
+      "idioma": "de",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Gesnerus); história da medicina.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1163/22977953-0390304006",
+        "https://doi.org/10.1163/22977953-0390304006"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1163/22977953-0390304006"
+      },
+      "periodico": "Gesnerus"
     },
     {
       "id": "tabu-sensibilita-candomble",
@@ -7091,6 +9675,37 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "tosoli-2024-cantigas",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Antonio Marcos Tosoli Gomes",
+        "Álvaro Rafael Santana Peixoto",
+        "Ricardo José Oliveira Mouta",
+        "Juliana de Lima Brandão",
+        "Pablo Luiz Santos Couto",
+        "Rafael Moura Coelho Pecly Wolter"
+      ],
+      "titulo": "As representações sociais dos orixás para a comunidade do Candomblé Ketu a partir das letras de suas cantigas",
+      "ano": 2024,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Reflexão); representações a partir das cantigas.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.24220/2447-6803v49a2024e8580",
+        "https://periodicos.puc-campinas.edu.br/reflexao/article/view/8580"
+      ],
+      "url": "https://periodicos.puc-campinas.edu.br/reflexao/article/view/8580",
+      "identificadores": {
+        "doi": "10.24220/2447-6803v49a2024e8580"
+      },
+      "periodico": "Reflexão"
     },
     {
       "id": "toutain-2019-santos",
@@ -7521,6 +10136,29 @@
       "identificadores": {}
     },
     {
+      "id": "verger-1967-osanyin",
+      "tipo": "livro",
+      "categoria": "corpus_oral",
+      "autores": [
+        "Pierre Verger"
+      ],
+      "titulo": "Awo̦n ewé o̦sanyin",
+      "ano": 1967,
+      "idioma": "yo",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade A: textos iorubás de Ọ̀sanyìn recolhidos por Verger (Institute of African Studies, Univ. de Ifẹ̀, 1967); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1163802W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "University of Ife, Institute of African Studies in [Ife?] . "
+    },
+    {
       "id": "verger-1981-orixas",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -7620,6 +10258,31 @@
       "identificadores": {}
     },
     {
+      "id": "verger-2007-high-god",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Pierre Verger"
+      ],
+      "titulo": "The Yorùbá high god",
+      "ano": 2007,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 4 (coleta por API: openlibrary). Confiabilidade B: reedição (Black Madonna Enterprises, 2007) do artigo de Verger sobre o deus supremo iorubá; conferir a publicação original.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL15482105W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780979026416"
+      },
+      "editora": "Black Madonna Enterprises by arrangement with the Fundação Pierre Verger"
+    },
+    {
       "id": "vertovec-1998-shango",
       "tipo": "artigo",
       "categoria": "academica",
@@ -7644,6 +10307,32 @@
         "doi": "10.1177/003776898045002004"
       },
       "periodico": "Social Compass"
+    },
+    {
+      "id": "villepastour-2015-ayan",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Amanda Villepastour (org.)"
+      ],
+      "titulo": "The Yorùbá God of Drumming: Transatlantic Perspectives on the Wood That Talks",
+      "ano": 2015,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (University Press of Mississippi); Àyàn na Nigéria e em Cuba.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL20025880W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9781496803511"
+      },
+      "editora": "University Press of Mississippi"
     },
     {
       "id": "voeks-1997-sacred",
@@ -7700,6 +10389,31 @@
       "periodico": "Africa"
     },
     {
+      "id": "willis-2017-masquerading",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "John Thabiti Willis"
+      ],
+      "titulo": "Masquerading Politics: Kinship, Gender, and Ethnicity in a Yoruba Town",
+      "ano": 2017,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 4 (coleta por API: openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (Indiana University Press); história do Egúngún em Òyó.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL21151814W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780253031440"
+      },
+      "editora": "Indiana University Press"
+    },
+    {
       "id": "witte-1984-ifa-esu",
       "tipo": "livro",
       "categoria": "academica",
@@ -7721,6 +10435,84 @@
       "url": null,
       "identificadores": {},
       "editora": "Kunsthandel Luttik"
+    },
+    {
+      "id": "wolff-1982-egungun",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Norma H. Wolff"
+      ],
+      "titulo": "Egungun Costuming in Abeokuta",
+      "ano": 1982,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3335914",
+        "https://doi.org/10.2307/3335914"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3335914"
+      },
+      "periodico": "African Arts"
+    },
+    {
+      "id": "wyndham-1919-ifa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "J. Wyndham"
+      ],
+      "titulo": "The Divination of Ifa (A Fragment)",
+      "ano": 1919,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "Varredura 4 (coleta por API: crossref). Confiabilidade C: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Man, RAI). Documento colonial de 1919 (domínio público): usar como documento histórico.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/2839981",
+        "https://doi.org/10.2307/2839981"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/2839981"
+      },
+      "periodico": "Man"
+    },
+    {
+      "id": "zacharias-2010-olori",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "José Jorge de Morais Zacharias"
+      ],
+      "titulo": "Olori, o dono da cabeça. Uma tipologia afro-descendente",
+      "ano": 2010,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 4 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API; acesso aberto (Esboços, UFSC); Orí e orixá de cabeça. Nação a confirmar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5007/2175-7976.2010v17n23p151",
+        "https://periodicos.ufsc.br/index.php/esbocos/article/view/14762"
+      ],
+      "url": "https://periodicos.ufsc.br/index.php/esbocos/article/view/14762",
+      "identificadores": {
+        "doi": "10.5007/2175-7976.2010v17n23p151"
+      },
+      "periodico": "Esboços"
     },
     {
       "id": "zander-1981-eshu",
@@ -7746,30 +10538,6 @@
         "isbn": "9783260049101"
       },
       "editora": "Juris Druck + Verlag"
-    },
-    {
-      "id": "bastide-1945-imagens",
-      "tipo": "livro",
-      "categoria": "etno_classica",
-      "autores": [
-        "Roger Bastide"
-      ],
-      "titulo": "Imagens do Nordeste místico em branco e preto",
-      "ano": 1945,
-      "idioma": "pt",
-      "tradicoes": [
-        "candomble_ketu",
-        "xango_pernambuco"
-      ],
-      "confiabilidade_preliminar": "A",
-      "observacoes": "Entrou no catálogo no fichamento-06 como fonte citada por Costa 1980 (não lida no original). Metadados conferidos na Open Library em 2026-11-01. Tradições preliminares (viagem pelo Nordeste).",
-      "status_verificacao": "conferido_web",
-      "evidencias": [
-        "https://openlibrary.org/works/OL6787586W"
-      ],
-      "url": null,
-      "identificadores": {},
-      "editora": "O Cruzeiro (Seção de Livros)"
     }
   ]
 }

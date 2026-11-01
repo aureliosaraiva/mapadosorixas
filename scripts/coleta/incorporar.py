@@ -51,6 +51,8 @@ ORDEM = ["id", "tipo", "categoria", "autores", "titulo", "ano", "idioma", "tradi
          "identificadores", "periodico", "editora", "local"]
 
 
+RODADAS = {"2026-10-31": "Varredura 3", "2026-11-01": "Varredura 4"}
+ROTULO = "Varredura 3"
 UA = "mapadosorixas-coleta/1.0 (https://github.com/aureliosaraiva/mapadosorixas)"
 AUTOPUB = re.compile(r"independently|createspace|lulu|llewellyn|original pub|madras|\beco\b|espiritualista|"
                      r"inner traditions|destiny books|weiser|xlibris|palibrio|oshun publications|panapo|prophet|"
@@ -149,7 +151,7 @@ def montar(c, dec, status):
         ident["doi"] = c["doi"]
     if c.get("isbn"):
         ident["isbn"] = c["isbn"][0]
-    obs = f"Varredura 3 (coleta por API: {', '.join(c['bases'])}). " \
+    obs = f"{ROTULO} (coleta por API: {', '.join(c['bases'])}). " \
           f"Confiabilidade {f['confiabilidade_preliminar']}: {dec['justificativa']}"
     if dec.get("motivo"):
         obs += f" Pertinência: {dec['motivo']}"
@@ -182,6 +184,8 @@ def main():
     ap.add_argument("--seco", action="store_true")
     ap.add_argument("--sem-crossref", action="store_true", help="não reconsulta o Crossref (subtítulos/DOI)")
     a = ap.parse_args()
+    global ROTULO
+    ROTULO = RODADAS.get(a.data, f"Coleta de {a.data}")
     pasta = COLETA / a.data
     cand = json.loads((pasta / "candidatos.json").read_text(encoding="utf-8"))
     tri = json.loads((pasta / "triagem.json").read_text(encoding="utf-8"))
@@ -228,7 +232,7 @@ def main():
         novas = [e for e in ev if e not in (f.get("evidencias") or [])]
         if f["status_verificacao"] in ("a_verificar", "pista") and ev:
             f["status_verificacao"] = "conferido_web"
-            nota = f"Metadados conferidos na varredura 3 ({', '.join(c['bases'])})."
+            nota = f"Metadados conferidos na {ROTULO.lower()} ({', '.join(c['bases'])})."
             if cf.get("nota"):
                 nota += " " + cf["nota"]
             f["observacoes"] = (f.get("observacoes") + " " if f.get("observacoes") else "") + nota

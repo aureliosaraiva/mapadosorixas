@@ -1,0 +1,7962 @@
+{
+ "base": "openlibrary",
+ "data": "2026-11-01",
+ "linhas_por_consulta": 20,
+ "gerado_por": "scripts/coleta/coletar.py",
+ "status": "ok",
+ "erro": null,
+ "consultas": [
+  {
+   "id": "v4-oxala-pt",
+   "q": "Oxalá orixá",
+   "idioma": "pt",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 4,
+   "n": 4,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL10988247W",
+     "titulo": "A linguagem correta dos orixas",
+     "autores": [
+      "Benjy Ainde Kayode Durojayie.* Komolafe"
+     ],
+     "ano": 1978,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL10988247W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "mul",
+     "periodico": null,
+     "editora": "Oxala",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL23260984W",
+     "titulo": "Opinião",
+     "autores": [
+      "Mãe Stella de Oxóssi"
+     ],
+     "ano": 2012,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL23260984W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "A Tarde",
+     "assuntos": [
+      "Social life and customs",
+      "Social conditions",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxala-en",
+   "q": "Obatala Yoruba",
+   "idioma": "en",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 19,
+   "n": 19,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL10338577W",
+     "titulo": "The imprisonment of Obatala",
+     "autores": [
+      "Obotunde Ijimere"
+     ],
+     "ano": 1968,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL10338577W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Heinemann",
+     "assuntos": [
+      "Yoruba drama",
+      "Translations into English"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL19535318W",
+     "titulo": "The adventures of Obatala",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 1989,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL19535318W",
+     "doi": null,
+     "isbn": [
+      "9780916299088",
+      "0916299082"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "A.P.I. Production",
+     "assuntos": [
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL740809W",
+     "titulo": "El Padre Obatalá",
+     "autores": [
+      "Héctor Izaguirre"
+     ],
+     "ano": 1998,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL740809W",
+     "doi": null,
+     "isbn": [
+      "9789803661632",
+      "9803661639"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13843867W",
+     "titulo": "Tratado de Obatalá",
+     "autores": [
+      "Luis Diáz Castrillo"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13843867W",
+     "doi": null,
+     "isbn": [
+      "9789806557116",
+      "9806557115"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Orunmila",
+     "assuntos": [
+      "Obatala (Yoruba deity)",
+      "Orishas"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16798666W",
+     "titulo": "The Adventures of Obàtálá Part 1",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 1989,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16798666W",
+     "doi": null,
+     "isbn": [
+      "0916299082",
+      "9780916299088"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Ara Ifá",
+     "assuntos": [
+      "Yoruba",
+      "Africa"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL9666035W",
+     "titulo": "Obatala",
+     "autores": [
+      "Awo Fa Lokun Fatunmbi"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL9666035W",
+     "doi": null,
+     "isbn": [
+      "0942272307",
+      "9780942272307"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Original Publications,U.S.",
+     "assuntos": [
+      "Obatala (Yoruba deity)",
+      "Ifa (Religion)",
+      "Spiritual life"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL30392625W",
+     "titulo": "Premiers PAS Dans la Santeria",
+     "autores": [
+      "Santera B. I. Ache OMO OBATALA"
+     ],
+     "ano": 2019,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL30392625W",
+     "doi": null,
+     "isbn": [
+      "9781670721518",
+      "1670721515"
+     ],
+     "idioma": "fre",
+     "periodico": null,
+     "editora": "Independently Published",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL11717980W",
+     "titulo": "Obàtálá",
+     "autores": [
+      "Goke O. Okeowo"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL11717980W",
+     "doi": null,
+     "isbn": [
+      "9788067751",
+      "9789788067757"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Nathadex Publishers",
+     "assuntos": [
+      "Drama",
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35611740W",
+     "titulo": "La sabiduría de Obatalá, en sintonía con los orishas",
+     "autores": [
+      "Zaramaira"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35611740W",
+     "doi": null,
+     "isbn": [
+      "9803666282",
+      "9803666286",
+      "9789803666286"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Santeria",
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32601207W",
+     "titulo": "The adventures of Ọbàtálá, Ifá and Santeria god of creativity",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 2016,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32601207W",
+     "doi": null,
+     "isbn": [
+      "9789789512362",
+      "9789512368"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "The Ancient Philosophy International",
+     "assuntos": [
+      "Obatala (Yoruba deity)",
+      "Yoruba (African people)",
+      "Religion",
+      "Yoruba Gods"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria",
+      "ifa",
+      "yoruba religion",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16201612W",
+     "titulo": "Espíritus rumberos",
+     "autores": [
+      "Natalia Bolívar Aróstegui"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16201612W",
+     "doi": null,
+     "isbn": [
+      "1563283360",
+      "9781563283369"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Plaza Mayor",
+     "assuntos": [
+      "Santeria",
+      "Orishas",
+      "Legends"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL40236185W",
+     "titulo": "Ifa y la Creacion",
+     "autores": [
+      "Amadeo Pinero Napoles"
+     ],
+     "ano": 2015,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL40236185W",
+     "doi": null,
+     "isbn": [
+      "9781517410056",
+      "1517410053"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15039613W",
+     "titulo": "The ancient Africans",
+     "autores": [
+      "Virginia Schomp"
+     ],
+     "ano": 2008,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15039613W",
+     "doi": null,
+     "isbn": [
+      "9780761430995",
+      "0761430997"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Marshall Cavendish Benchmark",
+     "assuntos": [
+      "Ethnology",
+      "African Mythology",
+      "Africa",
+      "Civilization",
+      "Juvenile literature",
+      "Africa, social life and customs",
+      "Ethnology, africa",
+      "Ethnology, juvenile literature",
+      "Mythology, juvenile literature",
+      "Africa, history",
+      "Africa, juvenile literature"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13843870W",
+     "titulo": "Tratados de Eshú y Elegwá",
+     "autores": [
+      "Luis Diáz Castrillo"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13843870W",
+     "doi": null,
+     "isbn": [
+      "9789806557116",
+      "9806557115"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Orunmila",
+     "assuntos": [
+      "Venezuelan Mythology",
+      "Eshú (Afro-Caribbean deity)",
+      "Gods, Afro-Caribbean",
+      "Esu (Afro-Caribbean deity)",
+      "Obatala (Yoruba deity)",
+      "Orishas",
+      "Ogun (Yoruba deity)",
+      "Oshosi (Yoruba deity)",
+      "Yoruba (African people)",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "eshu",
+      "ochosi",
+      "oxala",
+      "~ogum",
+      "~exu",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15973213W",
+     "titulo": "The ancient Africans",
+     "autores": [
+      "Virginia Schomp"
+     ],
+     "ano": 2009,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15973213W",
+     "doi": null,
+     "isbn": [
+      "0761430997",
+      "9780761430995"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Marshall Cavendish Benchmark",
+     "assuntos": [
+      "Ethnology",
+      "Civilization",
+      "Juvenile literature",
+      "African Mythology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32072718W",
+     "titulo": "Itan",
+     "autores": [
+      "Oladele Olusanya"
+     ],
+     "ano": 2020,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32072718W",
+     "doi": null,
+     "isbn": [
+      "9785413012",
+      "9789785413014"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Maven Publishing",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Folklore",
+      "Mythology, Yoruba, in literature",
+      "Heroes",
+      "Mythology",
+      "Obatala (Yoruba deity)",
+      "Fiction",
+      "Orunmila (Yoruba deity)",
+      "Ogun (Yoruba deity)",
+      "Olokun (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orunmila",
+      "oxala",
+      "olokun",
+      "~ogum",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL6055159W",
+     "titulo": "Orí Apéré O",
+     "autores": [
+      "Maria das Graças de Santana Rodrigué"
+     ],
+     "ano": 2001,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL6055159W",
+     "doi": null,
+     "isbn": [
+      "8587478133",
+      "9788587478139"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Selo Negro Edições",
+     "assuntos": [
+      "Umbanda (Cult)",
+      "Obatala (Yoruba deity)",
+      "Blacks",
+      "Religion",
+      "Water",
+      "Religious aspects",
+      "Afro-Brazilian cults",
+      "Religious life and customs",
+      "Rituals",
+      "Black people",
+      "Rites and ceremonies",
+      "Mythology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "umbanda",
+      "afro-brasileiro",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL20022417W",
+     "titulo": "World music class (2015)",
+     "autores": [
+      "Teo Vincent"
+     ],
+     "ano": 2015,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL20022417W",
+     "doi": null,
+     "isbn": [
+      "1496110889",
+      "9781496110886"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "ARTTSI Institute",
+     "assuntos": [
+      "Music",
+      "World music",
+      "Musical meter and rhythm",
+      "Instruction and study",
+      "Percussion instruments",
+      "Latin jazz"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxala-yo",
+   "q": "Ọbàtálá",
+   "idioma": "yo",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 47,
+   "n": 20,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL10338577W",
+     "titulo": "The imprisonment of Obatala",
+     "autores": [
+      "Obotunde Ijimere"
+     ],
+     "ano": 1968,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL10338577W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Heinemann",
+     "assuntos": [
+      "Yoruba drama",
+      "Translations into English"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL9361387W",
+     "titulo": "The imprisonment of Obatala, and other plays",
+     "autores": [
+      "Obotunde Ijimere"
+     ],
+     "ano": 1966,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL9361387W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Heinemann",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL9734377W",
+     "titulo": "The Adventure of Obatala Part 2",
+     "autores": [
+      "Ifayemi Elebuibon"
+     ],
+     "ano": 1998,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL9734377W",
+     "doi": null,
+     "isbn": [
+      "9780966313215",
+      "0966313216"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Ara Ifa Publishing",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL19535318W",
+     "titulo": "The adventures of Obatala",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 1989,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL19535318W",
+     "doi": null,
+     "isbn": [
+      "9780916299088",
+      "0916299082"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "A.P.I. Production",
+     "assuntos": [
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL740809W",
+     "titulo": "El Padre Obatalá",
+     "autores": [
+      "Héctor Izaguirre"
+     ],
+     "ano": 1998,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL740809W",
+     "doi": null,
+     "isbn": [
+      "9789803661632",
+      "9803661639"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13843867W",
+     "titulo": "Tratado de Obatalá",
+     "autores": [
+      "Luis Diáz Castrillo"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13843867W",
+     "doi": null,
+     "isbn": [
+      "9789806557116",
+      "9806557115"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Orunmila",
+     "assuntos": [
+      "Obatala (Yoruba deity)",
+      "Orishas"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL9666035W",
+     "titulo": "Obatala",
+     "autores": [
+      "Awo Fa Lokun Fatunmbi"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL9666035W",
+     "doi": null,
+     "isbn": [
+      "0942272307",
+      "9780942272307"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Original Publications,U.S.",
+     "assuntos": [
+      "Obatala (Yoruba deity)",
+      "Ifa (Religion)",
+      "Spiritual life"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL27053931W",
+     "titulo": "Obatala",
+     "autores": [
+      "Obafemi Origunwa"
+     ],
+     "ano": 2018,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL27053931W",
+     "doi": null,
+     "isbn": [
+      "1387662139",
+      "9781387662135"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Lulu.com",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16798666W",
+     "titulo": "The Adventures of Obàtálá Part 1",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 1989,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16798666W",
+     "doi": null,
+     "isbn": [
+      "0916299082",
+      "9780916299088"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Ara Ifá",
+     "assuntos": [
+      "Yoruba",
+      "Africa"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL10338576W",
+     "titulo": "The imprisonment of Obatala, and other plays",
+     "autores": [
+      "Obotunde Ijimere"
+     ],
+     "ano": 1966,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL10338576W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Heinemann",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL25295931W",
+     "titulo": "Obatala",
+     "autores": [
+      "Olayinka Adewuyi"
+     ],
+     "ano": 2013,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL25295931W",
+     "doi": null,
+     "isbn": [
+      "0989348903",
+      "9780989348904"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "River Water",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13341484M",
+     "titulo": "Oduduwa Obatala",
+     "autores": [
+      "L. Ernesto Pichardo",
+      "Lourdes Nieto Pichardo"
+     ],
+     "ano": 1984,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13341484M",
+     "doi": null,
+     "isbn": [
+      "9995635194",
+      "9789995635190"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Ediciones Universal",
+     "assuntos": [
+      "African Religions And Mythologies",
+      "Religious Anthropology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "oduduwa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL37342434W",
+     "titulo": "Oduduwa Obatala",
+     "autores": [
+      "L. Ernesto Pichardo"
+     ],
+     "ano": 1984,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL37342434W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "St. Babalu Aye Church of the Lukumí",
+     "assuntos": [
+      "Santeria"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria",
+      "oxala",
+      "oduduwa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15792483W",
+     "titulo": "Oduduwa Obatala",
+     "autores": [
+      "Ernesto L. Pichardo"
+     ],
+     "ano": 1984,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15792483W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Universal",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "oduduwa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL11717980W",
+     "titulo": "Obàtálá",
+     "autores": [
+      "Goke O. Okeowo"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL11717980W",
+     "doi": null,
+     "isbn": [
+      "9788067751",
+      "9789788067757"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Nathadex Publishers",
+     "assuntos": [
+      "Drama",
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL28112049W",
+     "titulo": "Obatala Orishas Journal",
+     "autores": [
+      "Graphic by Graphic by Mujka",
+      "BlueQuillNotaryServices, LLC., LLC."
+     ],
+     "ano": 2022,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL28112049W",
+     "doi": null,
+     "isbn": [
+      "9798401352316"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Independently Published",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35611740W",
+     "titulo": "La sabiduría de Obatalá, en sintonía con los orishas",
+     "autores": [
+      "Zaramaira"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35611740W",
+     "doi": null,
+     "isbn": [
+      "9803666282",
+      "9803666286",
+      "9789803666286"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Santeria",
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746142W",
+     "titulo": "Obatala",
+     "autores": [
+      "Baba Raul Canizares"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746142W",
+     "doi": null,
+     "isbn": [
+      "0942272633",
+      "9780942272635"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Original Publications",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL29048872W",
+     "titulo": "Ceremonias y Caminos de Obatalá",
+     "autores": [
+      "Ernesto Valdés Jane"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL29048872W",
+     "doi": null,
+     "isbn": [
+      "9781257987870",
+      "1257987879"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Lulu Press, Inc.",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22600829W",
+     "titulo": "Obatala's Daughter Discovers True Friends",
+     "autores": [
+      "Dr Winmilawe",
+      "Virgo Evans"
+     ],
+     "ano": 2015,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22600829W",
+     "doi": null,
+     "isbn": [
+      "9780983931898",
+      "0983931895"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Gazing In Publishing",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxala-es",
+   "q": "Obatalá santería",
+   "idioma": "es",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 10,
+   "n": 10,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16798666W",
+     "titulo": "The Adventures of Obàtálá Part 1",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 1989,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16798666W",
+     "doi": null,
+     "isbn": [
+      "0916299082",
+      "9780916299088"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Ara Ifá",
+     "assuntos": [
+      "Yoruba",
+      "Africa"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL30392625W",
+     "titulo": "Premiers PAS Dans la Santeria",
+     "autores": [
+      "Santera B. I. Ache OMO OBATALA"
+     ],
+     "ano": 2019,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL30392625W",
+     "doi": null,
+     "isbn": [
+      "9781670721518",
+      "1670721515"
+     ],
+     "idioma": "fre",
+     "periodico": null,
+     "editora": "Independently Published",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746142W",
+     "titulo": "Obatala",
+     "autores": [
+      "Baba Raul Canizares"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746142W",
+     "doi": null,
+     "isbn": [
+      "0942272633",
+      "9780942272635"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Original Publications",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32601207W",
+     "titulo": "The adventures of Ọbàtálá, Ifá and Santeria god of creativity",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 2016,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32601207W",
+     "doi": null,
+     "isbn": [
+      "9789789512362",
+      "9789512368"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "The Ancient Philosophy International",
+     "assuntos": [
+      "Obatala (Yoruba deity)",
+      "Yoruba (African people)",
+      "Religion",
+      "Yoruba Gods"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria",
+      "ifa",
+      "yoruba religion",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL39703660W",
+     "titulo": "Adventures of Obatala, Ifa and Santeria God of Creativity, Volume One",
+     "autores": [
+      "Yemi Elebuibon"
+     ],
+     "ano": 2012,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL39703660W",
+     "doi": null,
+     "isbn": [
+      "1477629424",
+      "9781477629420"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria",
+      "ifa",
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL37342434W",
+     "titulo": "Oduduwa Obatala",
+     "autores": [
+      "L. Ernesto Pichardo"
+     ],
+     "ano": 1984,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL37342434W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "St. Babalu Aye Church of the Lukumí",
+     "assuntos": [
+      "Santeria"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria",
+      "oxala",
+      "oduduwa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35611740W",
+     "titulo": "La sabiduría de Obatalá, en sintonía con los orishas",
+     "autores": [
+      "Zaramaira"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35611740W",
+     "doi": null,
+     "isbn": [
+      "9803666282",
+      "9803666286",
+      "9789803666286"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Santeria",
+      "Obatala (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL40236185W",
+     "titulo": "Ifa y la Creacion",
+     "autores": [
+      "Amadeo Pinero Napoles"
+     ],
+     "ano": 2015,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL40236185W",
+     "doi": null,
+     "isbn": [
+      "9781517410056",
+      "1517410053"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15958622W",
+     "titulo": "Igba Layé",
+     "autores": [
+      "René Fernández"
+     ],
+     "ano": 2009,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15958622W",
+     "doi": null,
+     "isbn": [
+      "9597154811",
+      "9789597154815"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Alarcos",
+     "assuntos": [
+      "Santeria",
+      "Drama"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16201612W",
+     "titulo": "Espíritus rumberos",
+     "autores": [
+      "Natalia Bolívar Aróstegui"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16201612W",
+     "doi": null,
+     "isbn": [
+      "1563283360",
+      "9781563283369"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Plaza Mayor",
+     "assuntos": [
+      "Santeria",
+      "Orishas",
+      "Legends"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxum-pt",
+   "q": "Oxum orixá",
+   "idioma": "pt",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31816018W",
+     "titulo": "Macumberos",
+     "autores": [
+      "Susana Andrade"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31816018W",
+     "doi": null,
+     "isbn": [
+      "9789915655413",
+      "991565541X"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Rumbo Editorial",
+     "assuntos": [
+      "Umbanda (Cult)",
+      "Black people",
+      "Social conditions",
+      "Freedom of religion",
+      "Laicism",
+      "Race relations",
+      "Umbanda",
+      "Personnes noires",
+      "Conditions sociales",
+      "Liberté religieuse",
+      "Laïcité"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "umbanda"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxum-en",
+   "q": "Osun goddess Osogbo",
+   "idioma": "en",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxum-es",
+   "q": "Ochún",
+   "idioma": "es",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 21,
+   "n": 20,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163162W",
+     "titulo": "Yemayá y Ochún: Kariocha, Iyalorichas y Olorichas",
+     "autores": [
+      "Lydia Cabrera"
+     ],
+     "ano": 1980,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163162W",
+     "doi": null,
+     "isbn": [
+      "9780897297615",
+      "8440071531",
+      "9788440071538",
+      "089729761X"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Universal",
+     "assuntos": [
+      "Religion",
+      "Blacks",
+      "Blacks, cuba",
+      "Blacks, religion",
+      "Black people"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oricha",
+      "yemoja",
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL9763901W",
+     "titulo": "The Espiritista",
+     "autores": [
+      "Chris Ochun"
+     ],
+     "ano": 2004,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL9763901W",
+     "doi": null,
+     "isbn": [
+      "9780976250609",
+      "0976250608"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "SpiritLands Press",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL6361235W",
+     "titulo": "Hijo de Ochún",
+     "autores": [
+      "Edgar Soberón Torchia"
+     ],
+     "ano": 1999,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL6361235W",
+     "doi": null,
+     "isbn": [
+      "9781881715504",
+      "1881715507"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Isla Negra",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163156W",
+     "titulo": "Yemaya y Ochún",
+     "autores": [
+      "Lydia Cabrera"
+     ],
+     "ano": 1974,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163156W",
+     "doi": null,
+     "isbn": [
+      "8440071531",
+      "9788440071538"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Sine nomine",
+     "assuntos": [
+      "Religion",
+      "Blacks"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yemoja",
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL40666469W",
+     "titulo": "Venganza de Ochun",
+     "autores": [
+      "Angie Gutierrez"
+     ],
+     "ano": 2014,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL40666469W",
+     "doi": null,
+     "isbn": [
+      "9781500992279",
+      "1500992275"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL19590286W",
+     "titulo": "Iemanjá & Oxum",
+     "autores": [
+      "Lydia Cabrera"
+     ],
+     "ano": 2004,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL19590286W",
+     "doi": null,
+     "isbn": [
+      "9788531407420",
+      "8531407427"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "EDUSP",
+     "assuntos": [
+      "Religion",
+      "Blacks"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yemoja",
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL23130015W",
+     "titulo": "El mundo es un silencio",
+     "autores": [
+      "Luz Lescure"
+     ],
+     "ano": 2012,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL23130015W",
+     "doi": null,
+     "isbn": [
+      "9929803793",
+      "9789929803794"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Palo de Hormigo",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL2032013W",
+     "titulo": "Acuara ochun de caracoles verdes",
+     "autores": [
+      "José Sánchez-Boudy"
+     ],
+     "ano": 1987,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL2032013W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Especial para Ediciones Universal",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL11106130W",
+     "titulo": "Acuara Ochún de caracoles verdes (poemas de un Caimán presente)",
+     "autores": [
+      "José Sánchez-Boudy"
+     ],
+     "ano": 1987,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL11106130W",
+     "doi": null,
+     "isbn": [
+      "84866620208"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Betania",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL19614485W",
+     "titulo": "Ochatow©Ł, Chang©đ, Yemay©Ł, Och©ðn, Oy©Ł",
+     "autores": [
+      "Armando Ferrer Castro"
+     ],
+     "ano": 1995,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL19614485W",
+     "doi": null,
+     "isbn": [
+      "9789686125788",
+      "9686125787"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones El Caballito",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Literatura folkl©đrica",
+      "Leyendas",
+      "Folklore",
+      "Religion",
+      "Negros",
+      "Yoruba Mythology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL42428690W",
+     "titulo": "Ochún y Yo : una Historia de Amor y Trenzas : Oshún and Me",
+     "autores": [
+      "Adiba Nelson",
+      "Alleanna Harris",
+      "Issa M. Mas"
+     ],
+     "ano": 2025,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL42428690W",
+     "doi": null,
+     "isbn": [
+      "9781250339546",
+      "1250339545"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Feiwel & Friends",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL38282806W",
+     "titulo": "Acuara Ochun de Caracoles Verdes : Poemas de un Caiman Presente: (Canto a mi Habana)",
+     "autores": [
+      "José Sánchez-Boudy"
+     ],
+     "ano": 2001,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL38282806W",
+     "doi": null,
+     "isbn": [
+      "9780897294492",
+      "0897294491"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Universal",
+     "assuntos": [
+      "Poetry (poetic works by one author)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL6392473W",
+     "titulo": "Kyrgyz tilinin tynysh belgileri",
+     "autores": [
+      "A. Tursunov"
+     ],
+     "ano": 1963,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL6392473W",
+     "doi": null,
+     "isbn": [
+      "9789967212190",
+      "9967212195"
+     ],
+     "idioma": "kir",
+     "periodico": null,
+     "editora": "KTMY",
+     "assuntos": [
+      "Kyrgyz language",
+      "Punctuation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL40236185W",
+     "titulo": "Ifa y la Creacion",
+     "autores": [
+      "Amadeo Pinero Napoles"
+     ],
+     "ano": 2015,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL40236185W",
+     "doi": null,
+     "isbn": [
+      "9781517410056",
+      "1517410053"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL20025880W",
+     "titulo": "The Yorùbá god of drumming",
+     "autores": [
+      "Amanda Villepastour",
+      "J. D. Y. Peel",
+      "Amanda Villepastour"
+     ],
+     "ano": 2015,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL20025880W",
+     "doi": null,
+     "isbn": [
+      "9781496818348",
+      "1496803523",
+      "9781496803511",
+      "1496803531",
+      "9781496803535",
+      "9781496803528"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "University Press of Mississippi",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Drum language",
+      "Music",
+      "Songs and music",
+      "Religious aspects",
+      "Orishas",
+      "History and criticism",
+      "Yoruba (african people)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16201612W",
+     "titulo": "Espíritus rumberos",
+     "autores": [
+      "Natalia Bolívar Aróstegui"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16201612W",
+     "doi": null,
+     "isbn": [
+      "1563283360",
+      "9781563283369"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Plaza Mayor",
+     "assuntos": [
+      "Santeria",
+      "Orishas",
+      "Legends"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18858278W",
+     "titulo": "Presencia negra",
+     "autores": [
+      "Armando González-Pérez"
+     ],
+     "ano": 1999,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18858278W",
+     "doi": null,
+     "isbn": [
+      "9788480171113",
+      "8480171111"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Betania",
+     "assuntos": [
+      "History and criticism",
+      "Black authors",
+      "Cuban drama",
+      "African influences",
+      "Black people in literature"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL12452193W",
+     "titulo": "Musica cubana",
+     "autores": [
+      "Omar Vasquez Castillo"
+     ],
+     "ano": 1998,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL12452193W",
+     "doi": null,
+     "isbn": [
+      "9783859900110",
+      "3859900110"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Edition Cosa",
+     "assuntos": [
+      "Popular music",
+      "Musicians",
+      "History and criticism",
+      "Dance music"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22642274W",
+     "titulo": "Yemoja",
+     "autores": [
+      "Solimar Otero",
+      "Toyin Falola"
+     ],
+     "ano": 2013,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22642274W",
+     "doi": null,
+     "isbn": [
+      "9781438448008",
+      "9781438447995",
+      "1438448015",
+      "143844799X",
+      "9781438448015",
+      "1438448007"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "State University of New York Press",
+     "assuntos": [
+      "Sex in art",
+      "Cultural fusion and the arts",
+      "African diaspora in art",
+      "Afro-Caribbean cults",
+      "Orishas in art",
+      "Mother goddesses",
+      "Yemaja (Yoruba deity)",
+      "Goddesses in art",
+      "Gods in art",
+      "Art, african"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "yemoja",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18800830W",
+     "titulo": "Religion as art",
+     "autores": [
+      "Steven Joseph Loza"
+     ],
+     "ano": 2009,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18800830W",
+     "doi": null,
+     "isbn": [
+      "9780826345707",
+      "0826345700"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "University of New Mexico Press",
+     "assuntos": [
+      "Congresses",
+      "Arts and religion",
+      "Our Lady of Guadalupe",
+      "Art and religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxum-en2",
+   "q": "Oshun orisha",
+   "idioma": "en",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 15,
+   "n": 15,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL26651856W",
+     "titulo": "Oshun Orisha Journal",
+     "autores": [
+      "Charity Bliss"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL26651856W",
+     "doi": null,
+     "isbn": [
+      "9798481985008"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Independently Published",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL28110255W",
+     "titulo": "Orisha Collection - Oshun",
+     "autores": [
+      "Shelley Henderson"
+     ],
+     "ano": 2022,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL28110255W",
+     "doi": null,
+     "isbn": [
+      "9798986389028",
+      "9798986389035"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "READY Nationwide, DBA NewSuns",
+     "assuntos": [
+      "Spirituality",
+      "Self-help techniques"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746144W",
+     "titulo": "Oshun",
+     "autores": [
+      "Baba Raul Canizares"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746144W",
+     "doi": null,
+     "isbn": [
+      "0942272692",
+      "9780942272697"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Original Publications",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL26435675W",
+     "titulo": "Seven African Powers",
+     "autores": [
+      "Monique Joiner Siedlak"
+     ],
+     "ano": 2016,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL26435675W",
+     "doi": null,
+     "isbn": [
+      "9781956319958",
+      "9781956319965",
+      "1956319956",
+      "9781956319972",
+      "1956319972",
+      "1956319964"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Oshun Publications",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL29119534W",
+     "titulo": "Adimu",
+     "autores": [
+      "Oshun Ala Erinle"
+     ],
+     "ano": 2017,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL29119534W",
+     "doi": null,
+     "isbn": [
+      "9781979747066",
+      "1979747067",
+      "1387366106",
+      "9781387366101"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Lulu Press, Inc.",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL39243691W",
+     "titulo": "Getting touched by Oshun",
+     "autores": [
+      "Franziska Lienert Bühler"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL39243691W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35611739W",
+     "titulo": "El poder y la dulzura de Oshun, en sintonía con los orishas",
+     "autores": [
+      "Zaramaira"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35611739W",
+     "doi": null,
+     "isbn": [
+      "9803666637",
+      "9789803666637",
+      "9803666630"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Santeria",
+      "Osun (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "oxum",
+      "~yoruba",
+      "~osun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL29534098W",
+     "titulo": "Adimú",
+     "autores": [
+      "Oshun Ala erinle",
+      "Oshun Ala Erinle"
+     ],
+     "ano": 2017,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL29534098W",
+     "doi": null,
+     "isbn": [
+      "1973314177",
+      "9781973314172"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Independently Published",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL36855154W",
+     "titulo": "Oshun",
+     "autores": [
+      "Mari Silva"
+     ],
+     "ano": 2023,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL36855154W",
+     "doi": null,
+     "isbn": [
+      "1638182558",
+      "9781638182559"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Byzine",
+     "assuntos": [
+      "Spirituality",
+      "Mind and body"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13843868W",
+     "titulo": "Tratado de Oshún",
+     "autores": [
+      "Luis Diáz Castrillo"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13843868W",
+     "doi": null,
+     "isbn": [
+      "9806557123",
+      "9789806557123"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Orunmila",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Venezuelan Mythology",
+      "Religion",
+      "Yoruba Goddesses",
+      "Osun (Yoruba deity)",
+      "Orishas"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "yoruba religion",
+      "oxum",
+      "~yoruba",
+      "~osun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL3609686W",
+     "titulo": "La venus lukumí",
+     "autores": [
+      "Heriberto Feraudy Espino"
+     ],
+     "ano": 2002,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL3609686W",
+     "doi": null,
+     "isbn": [
+      "9789687669861",
+      "9590612490",
+      "9687669861",
+      "9789590612497"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial de Ciencias Sociales",
+     "assuntos": [
+      "Blacks",
+      "Dioses yorubas",
+      "Gods, Yoruba",
+      "Negros",
+      "Orishas",
+      "Religion",
+      "Religión",
+      "Yoruba (African people)",
+      "Yoruba (Pueblo africano)",
+      "Yoruba Gods",
+      "Black people",
+      "Virgen de la Caridad de Cartagena"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL37783915W",
+     "titulo": "Orishas of Trinidad",
+     "autores": [
+      "Monique Joiner Siedlak"
+     ],
+     "ano": 2020,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL37783915W",
+     "doi": null,
+     "isbn": [
+      "9781950378289",
+      "1950378284"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Oshun Publications, LLC",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL17745180W",
+     "titulo": "The way of the Orisa: Empowering your life through the ancient African religion of Ifa",
+     "autores": [
+      "Philip John Neimark"
+     ],
+     "ano": null,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL17745180W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "HarperSanFrancisco",
+     "assuntos": [
+      "ifa",
+      "orisha",
+      "oya",
+      "shango",
+      "chango",
+      "obatala",
+      "yemoya",
+      "Oshun",
+      "ori"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "shango",
+      "oxala",
+      "oxum",
+      "iansa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16618339W",
+     "titulo": "Divining the self",
+     "autores": [
+      "Velma E. Love"
+     ],
+     "ano": 2012,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16618339W",
+     "doi": null,
+     "isbn": [
+      "9780271054056",
+      "0271054050"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Pennsylvania State University Press",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Religious life",
+      "Religion",
+      "African Americans",
+      "Influence",
+      "Orishas",
+      "African americans, religion",
+      "Yoruba (african people), religion",
+      "United states, religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18816627W",
+     "titulo": "Memoria ritual",
+     "autores": [
+      "Ángel B. Alfaro Echevarría"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18816627W",
+     "doi": null,
+     "isbn": [
+      "9588247977",
+      "9789588247977"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Universidad Distrital Francisco José de Caldas",
+     "assuntos": [
+      "Art and religion",
+      "Yoruba Mythology",
+      "Folklore",
+      "Orishas",
+      "Santeria",
+      "Rites and ceremonies"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-iansa-pt",
+   "q": "Iansã orixá",
+   "idioma": "pt",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31816018W",
+     "titulo": "Macumberos",
+     "autores": [
+      "Susana Andrade"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31816018W",
+     "doi": null,
+     "isbn": [
+      "9789915655413",
+      "991565541X"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Rumbo Editorial",
+     "assuntos": [
+      "Umbanda (Cult)",
+      "Black people",
+      "Social conditions",
+      "Freedom of religion",
+      "Laicism",
+      "Race relations",
+      "Umbanda",
+      "Personnes noires",
+      "Conditions sociales",
+      "Liberté religieuse",
+      "Laïcité"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "umbanda"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-iansa-en",
+   "q": "Oya Yoruba",
+   "idioma": "en",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 9,
+   "n": 9,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL4128861W",
+     "titulo": "Oya",
+     "autores": [
+      "Judith Illsley Gleason"
+     ],
+     "ano": 1987,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL4128861W",
+     "doi": null,
+     "isbn": [
+      "0877734305",
+      "9780062504616",
+      "0062504614",
+      "9780877734307"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Shambhala",
+     "assuntos": [
+      "Oya (Yoruba deity)",
+      "Religion",
+      "Yoruba (African people)",
+      "New age movement"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yoruba religion",
+      "iansa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13843869W",
+     "titulo": "Tratado de Oyá, Obba y Yewá",
+     "autores": [
+      "Luis Diáz Castrillo"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13843869W",
+     "doi": null,
+     "isbn": [
+      "9789806557123",
+      "9806557123"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Orunmila",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Venezuelan Mythology",
+      "Yewa (Yoruba deity)",
+      "Oba (Yoruba deity)",
+      "Religion",
+      "Oya (Yoruba deity)",
+      "Osun (Yoruba deity)",
+      "Yoruba Goddesses",
+      "Orishas",
+      "Yemaja (Yoruba deity)",
+      "Oxum (Afro-Brazilian deity)",
+      "Yoruba Gods"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "oxum",
+      "iansa",
+      "ewa",
+      "~yoruba",
+      "~osun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746116W",
+     "titulo": "Oya: Ifa and the Spirit of the Wind",
+     "autores": [
+      "Awo Fa'Lokun Fatunmbi"
+     ],
+     "ano": 1993,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746116W",
+     "doi": null,
+     "isbn": [
+      "094227234X",
+      "9780942272345"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Original Publications",
+     "assuntos": [
+      "Religions",
+      "Ifa (Religion)",
+      "Yoruba Gods"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "iansa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16512857W",
+     "titulo": "THE RISE AND FALL OF THE YORUBA RACE 2",
+     "autores": [
+      "A. O. Olubunmi"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16512857W",
+     "doi": null,
+     "isbn": [
+      "9782459712",
+      "9789782459718"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "THE 199 PUBLISHING PALACE",
+     "assuntos": [
+      "IJESA",
+      "OYO EMPIRE",
+      "SNIDER RIFLE",
+      "RACE",
+      "IN AFRIC'S FORST AND JUNGLE",
+      "YORUBA",
+      "FULANI",
+      "JIHAD",
+      "USMAN DAN FODIO",
+      "ILESA",
+      "EKITI",
+      "AIDS",
+      "HOMO ERECTUS",
+      "EVOLUTION",
+      "UNITED NATIONS"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~yoruba",
+      "~oyo"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35611736W",
+     "titulo": "La magnificencia de Oyá, en sintonía con los orishas",
+     "autores": [
+      "Zaramaira"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35611736W",
+     "doi": null,
+     "isbn": [
+      "9789803666644",
+      "9803666644",
+      "9803666649"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Santeria",
+      "Oya (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "iansa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16618339W",
+     "titulo": "Divining the self",
+     "autores": [
+      "Velma E. Love"
+     ],
+     "ano": 2012,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16618339W",
+     "doi": null,
+     "isbn": [
+      "9780271054056",
+      "0271054050"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Pennsylvania State University Press",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Religious life",
+      "Religion",
+      "African Americans",
+      "Influence",
+      "Orishas",
+      "African americans, religion",
+      "Yoruba (african people), religion",
+      "United states, religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL24760550W",
+     "titulo": "The Architects of Existence",
+     "autores": [
+      "Teresa N Washington"
+     ],
+     "ano": 2014,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL24760550W",
+     "doi": null,
+     "isbn": [
+      "0991073010",
+      "9780991073016"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Oya's Tornado",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL19614485W",
+     "titulo": "Ochatow©Ł, Chang©đ, Yemay©Ł, Och©ðn, Oy©Ł",
+     "autores": [
+      "Armando Ferrer Castro"
+     ],
+     "ano": 1995,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL19614485W",
+     "doi": null,
+     "isbn": [
+      "9789686125788",
+      "9686125787"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones El Caballito",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Literatura folkl©đrica",
+      "Leyendas",
+      "Folklore",
+      "Religion",
+      "Negros",
+      "Yoruba Mythology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18816627W",
+     "titulo": "Memoria ritual",
+     "autores": [
+      "Ángel B. Alfaro Echevarría"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18816627W",
+     "doi": null,
+     "isbn": [
+      "9588247977",
+      "9789588247977"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Universidad Distrital Francisco José de Caldas",
+     "assuntos": [
+      "Art and religion",
+      "Yoruba Mythology",
+      "Folklore",
+      "Orishas",
+      "Santeria",
+      "Rites and ceremonies"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-iansa-es",
+   "q": "Oyá santería",
+   "idioma": "es",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746145W",
+     "titulo": "Oya, santeria and the orisha of the winds",
+     "autores": [
+      "Baba Raul Canizares"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746145W",
+     "doi": null,
+     "isbn": [
+      "9780942272871",
+      "0942272870"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Original Publications",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "iansa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35611736W",
+     "titulo": "La magnificencia de Oyá, en sintonía con los orishas",
+     "autores": [
+      "Zaramaira"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35611736W",
+     "doi": null,
+     "isbn": [
+      "9789803666644",
+      "9803666644",
+      "9803666649"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Santeria",
+      "Oya (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "iansa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18816627W",
+     "titulo": "Memoria ritual",
+     "autores": [
+      "Ángel B. Alfaro Echevarría"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18816627W",
+     "doi": null,
+     "isbn": [
+      "9588247977",
+      "9789588247977"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Universidad Distrital Francisco José de Caldas",
+     "assuntos": [
+      "Art and religion",
+      "Yoruba Mythology",
+      "Folklore",
+      "Orishas",
+      "Santeria",
+      "Rites and ceremonies"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-nana-pt",
+   "q": "Nanã orixá",
+   "idioma": "pt",
+   "alvo": "nana",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-nana-en",
+   "q": "Nana Buruku",
+   "idioma": "en",
+   "alvo": "nana",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-omolu-pt",
+   "q": "Omolu Obaluaê",
+   "idioma": "pt",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-omolu-en",
+   "q": "Sakpata Obaluaye",
+   "idioma": "en",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-omolu-es",
+   "q": "Babalú Ayé",
+   "idioma": "es",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 19,
+   "n": 19,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL2032012W",
+     "titulo": "Aché, babalú ayé",
+     "autores": [
+      "José Sánchez-Boudy"
+     ],
+     "ano": 1975,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL2032012W",
+     "doi": null,
+     "isbn": [
+      "9788439944904",
+      "843994490X"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Universal",
+     "assuntos": [
+      "Romance literature"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "omolu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL45625117W",
+     "titulo": "Babalú-Ayé",
+     "autores": [
+      "Monique Joiner Siedlak"
+     ],
+     "ano": 2026,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL45625117W",
+     "doi": null,
+     "isbn": [
+      "9798950421006"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Oshun Publications",
+     "assuntos": [
+      "Spirituality"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL41079000W",
+     "titulo": "Girasoles para Babalu Aye",
+     "autores": [
+      "Maria Cutino Duran"
+     ],
+     "ano": 2017,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL41079000W",
+     "doi": null,
+     "isbn": [
+      "1517692938",
+      "9781517692933"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "omolu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746136W",
+     "titulo": "Babalu Aye",
+     "autores": [
+      "Baba Raul Canizares"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746136W",
+     "doi": null,
+     "isbn": [
+      "9780942272628",
+      "0942272625"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Original Publications",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "omolu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35914149W",
+     "titulo": "Babalú Ayé",
+     "autores": [
+      "Nazco, Aidi Bestina, Sr.",
+      "Myrna De Bárbara González"
+     ],
+     "ano": 2023,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35914149W",
+     "doi": null,
+     "isbn": [
+      "9798988489351"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "CALIOPE ARTS AND PUBLICATIONS, LLC",
+     "assuntos": [
+      "Poetry, collections",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "omolu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15215171W",
+     "titulo": "Animal Sacrifice and Religious Freedom: Church of the Lukumi Babalu Aye v. City of Hialeah",
+     "autores": [
+      "David M. O'Brien"
+     ],
+     "ano": 2004,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15215171W",
+     "doi": null,
+     "isbn": [
+      "9780700613038",
+      "070061303X",
+      "0700613021",
+      "9780700613021"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "University Press of Kansas",
+     "assuntos": [
+      "Church of the Lukumi Babalu Aye (Hialeah, Fla.)",
+      "Trials, litigation",
+      "Legal status, laws",
+      "Freedom of religion",
+      "Law and legislation",
+      "Animal sacrifice",
+      "Religious minorities",
+      "Procès, instances",
+      "Minorités religieuses",
+      "Droit",
+      "Sacrifice d'animaux",
+      "Liberté religieuse",
+      "Trials",
+      "Sacrifice",
+      "Lawyers, florida"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "omolu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35611737W",
+     "titulo": "El orisha de la sanación Babalú Ayé",
+     "autores": [
+      "Zaramaira"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35611737W",
+     "doi": null,
+     "isbn": [
+      "9803666665",
+      "9803666668",
+      "9789803666668"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Panapo",
+     "assuntos": [
+      "Santeria",
+      "Obaluaiê (Afro-Brazilian deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "afro-brasileiro",
+      "omolu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL29047365W",
+     "titulo": "Ceremonias y Caminos de Asowano, --Babalú Ayé - San Lázaro--",
+     "autores": [
+      "Ernesto Valdés Jane"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL29047365W",
+     "doi": null,
+     "isbn": [
+      "9781257992676",
+      "1257992678"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Lulu Press, Inc.",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "omolu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1732507W",
+     "titulo": "Los orishas",
+     "autores": [
+      "Mirta Pernas Gómez"
+     ],
+     "ano": 1996,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1732507W",
+     "doi": null,
+     "isbn": [
+      "9789591200105",
+      "9591200102"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial \"Pablo de la Torriente\"",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL7988677W",
+     "titulo": "Religious Liberty (Issues on Trial)",
+     "autores": [
+      "Sylvia Engdahl"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL7988677W",
+     "doi": null,
+     "isbn": [
+      "9780737738551",
+      "0737738553"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Greenhaven Press",
+     "assuntos": [
+      "Freedom of religion",
+      "Cases",
+      "Juvenile literature"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32297033W",
+     "titulo": "Painting constitutional law",
+     "autores": [
+      "Matthew C. Mirow",
+      "Howard M. Wasserman"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32297033W",
+     "doi": null,
+     "isbn": [
+      "9789004364301",
+      "9789004445598",
+      "9004445595",
+      "9004364307"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Brill Nijhoff",
+     "assuntos": [
+      "Constitutional law",
+      "Civil rights",
+      "Cases",
+      "Decision making",
+      "United States. Supreme Court",
+      "United States"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16201612W",
+     "titulo": "Espíritus rumberos",
+     "autores": [
+      "Natalia Bolívar Aróstegui"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16201612W",
+     "doi": null,
+     "isbn": [
+      "1563283360",
+      "9781563283369"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Plaza Mayor",
+     "assuntos": [
+      "Santeria",
+      "Orishas",
+      "Legends"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL23429997W",
+     "titulo": "Poesía hispana en los Estados Unidos",
+     "autores": [
+      "Ana Valverde Osan"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL23429997W",
+     "doi": null,
+     "isbn": [
+      "9780983650805",
+      "0983650802"
+     ],
+     "idioma": "eng,spa",
+     "periodico": null,
+     "editora": "ALDEEU",
+     "assuntos": [
+      "Hispanic American poetry (Spanish)",
+      "History and criticism"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18784260W",
+     "titulo": "Law and religion",
+     "autores": [
+      "Leslie C. Griffin"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18784260W",
+     "doi": null,
+     "isbn": [
+      "0735578192",
+      "9780735578197"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Aspen Publishers",
+     "assuntos": [
+      "Freedom of religion",
+      "Cases",
+      "Church and state",
+      "Church and state, united states"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15934022W",
+     "titulo": "The little book of hunting and fishing law",
+     "autores": [
+      "Cecil C. Kuhne"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15934022W",
+     "doi": null,
+     "isbn": [
+      "1616328916",
+      "9781616328917"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "American Bar Association",
+     "assuntos": [
+      "Wildlife conservation",
+      "Cases",
+      "Law and legislation",
+      "Game laws",
+      "Fishery law and legislation",
+      "Wildlife conservation, law and legislation",
+      "Law, united states"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18816627W",
+     "titulo": "Memoria ritual",
+     "autores": [
+      "Ángel B. Alfaro Echevarría"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18816627W",
+     "doi": null,
+     "isbn": [
+      "9588247977",
+      "9789588247977"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Universidad Distrital Francisco José de Caldas",
+     "assuntos": [
+      "Art and religion",
+      "Yoruba Mythology",
+      "Folklore",
+      "Orishas",
+      "Santeria",
+      "Rites and ceremonies"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL6246622W",
+     "titulo": "El culto de San Lázaro en Cuba",
+     "autores": [
+      "Laciel Zamora"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL6246622W",
+     "doi": null,
+     "isbn": [
+      "9789597091219",
+      "9597091216"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Fundación Fernando Ortiz",
+     "assuntos": [
+      "Afro-Caribbean cults",
+      "Babalú-Ayé (Yoruba deity)",
+      "Cult",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL37342434W",
+     "titulo": "Oduduwa Obatala",
+     "autores": [
+      "L. Ernesto Pichardo"
+     ],
+     "ano": 1984,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL37342434W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "St. Babalu Aye Church of the Lukumí",
+     "assuntos": [
+      "Santeria"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria",
+      "oxala",
+      "oduduwa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16934231W",
+     "titulo": "U.S. Supreme Court",
+     "autores": [
+      "Thomas T. Lewis"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16934231W",
+     "doi": null,
+     "isbn": [
+      "9781587653643",
+      "1587653664",
+      "158765363X",
+      "1587653648",
+      "9781587653636",
+      "9781587653667"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Salem Press",
+     "assuntos": [
+      "United States",
+      "United States. Supreme Court",
+      "History",
+      "Government",
+      "Federal",
+      "LAW",
+      "United States Supreme Court"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxumare-pt",
+   "q": "Oxumarê",
+   "idioma": "pt",
+   "alvo": "oxumare",
+   "status": "ok",
+   "erro": null,
+   "total": 4,
+   "n": 4,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL39393425W",
+     "titulo": "Oxumaré, o arco-íris sagrado",
+     "autores": [
+      "Lurdes de Campos Vieira"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL39393425W",
+     "doi": null,
+     "isbn": [
+      "8537000868",
+      "9788537000861"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Madras",
+     "assuntos": [
+      "Orishas",
+      "Gods, Afro-Brazilian",
+      "Umbanda (Cult)",
+      "Afro-Brazilian cults",
+      "Religion",
+      "African influences"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "umbanda",
+      "afro-brasileiro",
+      "oxumare"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1005193W",
+     "titulo": "Poemas do barco sem nome",
+     "autores": [
+      "Carlos Eduardo da Rocha"
+     ],
+     "ano": 1977,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1005193W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Edições Oxumaré",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oxumare-en",
+   "q": "Osumare Dan rainbow serpent",
+   "idioma": "en",
+   "alvo": "oxumare",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ossaim-pt",
+   "q": "Ossaim folhas candomblé",
+   "idioma": "pt",
+   "alvo": "ossaim",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22652375W",
+     "titulo": "A floresta sagrada de Ossaim",
+     "autores": [
+      "José Flávio Pessoa de Barros"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22652375W",
+     "doi": null,
+     "isbn": [
+      "9788534704571",
+      "8534704570"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Pallas",
+     "assuntos": [
+      "Plants",
+      "Candomblé (Religion)",
+      "Therapeutic use",
+      "Religious aspects"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "candomble",
+      "ossaim"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-ossaim-en",
+   "q": "Osanyin Yoruba",
+   "idioma": "en",
+   "alvo": "ossaim",
+   "status": "ok",
+   "erro": null,
+   "total": 5,
+   "n": 5,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163802W",
+     "titulo": "Awo̦n ewé o̦sanyin",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1967,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163802W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "University of Ife, Institute of African Studies in [Ife?] . ",
+     "assuntos": [
+      "Plants",
+      "Yoruba (African people)",
+      "Ethnology",
+      "Folklore"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ossaim",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL671001W",
+     "titulo": "Eshu-Osanyin",
+     "autores": [
+      "Anthony Ferreira"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL671001W",
+     "doi": null,
+     "isbn": [
+      "1890157163",
+      "9781890157166"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Athelia Henrietta Press",
+     "assuntos": [
+      "Ethnobotany",
+      "Religion",
+      "Traditional medicine",
+      "Yoruba (African people)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "eshu",
+      "ossaim",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32700723W",
+     "titulo": "Oro asa Òsányìn",
+     "autores": [
+      "Marcelo Monteiro"
+     ],
+     "ano": 1999,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32700723W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "CETRAB, Centro de Tradições Afro-Brasileiras",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Religion",
+      "Medicine",
+      "Rites and ceremonies",
+      "Ethnopharmacology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ossaim",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL19218026W",
+     "titulo": "Four new world Yorùbá rituals",
+     "autores": [
+      "John Mason"
+     ],
+     "ano": 1993,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL19218026W",
+     "doi": null,
+     "isbn": [
+      "1881244032",
+      "9781881244035"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Yorùbá Theological Archministry",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Rites and ceremonies",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL39285972W",
+     "titulo": "Arts in the service of traditional medicine",
+     "autores": [
+      "Dele Layiwola"
+     ],
+     "ano": 1998,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL39285972W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng,yor",
+     "periodico": null,
+     "editora": "Institute of African Studies, University of Ibadan",
+     "assuntos": [
+      "Traditional medicine",
+      "Yoruba (African people)",
+      "Medicine",
+      "Ifa (Religion)",
+      "Religious aspects"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-logunede-pt",
+   "q": "Logunedé",
+   "idioma": "pt",
+   "alvo": "logunede",
+   "status": "ok",
+   "erro": null,
+   "total": 9,
+   "n": 9,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL41427389W",
+     "titulo": "Logunedé",
+     "autores": [
+      "Nei Lopes"
+     ],
+     "ano": 2002,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL41427389W",
+     "doi": null,
+     "isbn": [
+      "8534703396",
+      "9788534703390"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Pallas",
+     "assuntos": [
+      "Orishas",
+      "Gods, Afro-Brazilian",
+      "Religious life and customs"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "logunede"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1005158W",
+     "titulo": "Logunedé",
+     "autores": [
+      "Nei Lopes"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1005158W",
+     "doi": null,
+     "isbn": [
+      "8534702101",
+      "9788534702102"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Pallas",
+     "assuntos": [
+      "Orishas",
+      "Gods, Afro-Brazilian",
+      "Religious life and customs"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "logunede"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1005159W",
+     "titulo": "Logunede",
+     "autores": [
+      "Nei Lopes"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1005159W",
+     "doi": null,
+     "isbn": [
+      "8534702101",
+      "9788534702102"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Pallas",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "logunede"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL40092251W",
+     "titulo": "Double Whamming",
+     "autores": [
+      "Logunede Jones"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL40092251W",
+     "doi": null,
+     "isbn": [
+      "9781465769732",
+      "1465769730"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Smashwords",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13851063W",
+     "titulo": "Na fé de Vivaldo de Logunedé",
+     "autores": [
+      "Claudia Alexandre"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13851063W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Secretaria Municipal de Cultura, Santos, Prefeitura Municipal",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "logunede"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18586976W",
+     "titulo": "Na fé de Vivaldo de Logunedé",
+     "autores": [
+      "Claudia Alexandre"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18586976W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Secretaria Municipal de Cultura, Santos, Prefeitura Municipal",
+     "assuntos": [
+      "Candomblé (Religion)",
+      "Rituals",
+      "Biography",
+      "History"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "candomble",
+      "logunede"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18572965W",
+     "titulo": "Na fé de Vivaldo de Logunedé",
+     "autores": [
+      "Claudia Alexandre"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18572965W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Secretaria Municipal de Cultura, Santos, Prefeitura Municipal",
+     "assuntos": [
+      "Candomblé (Religion)",
+      "Rituals",
+      "Biography",
+      "History"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "candomble",
+      "logunede"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31524482W",
+     "titulo": "Coleção Gilberto Gil",
+     "autores": [
+      "Gilberto Gil"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31524482W",
+     "doi": null,
+     "isbn": [
+      "9788564625457",
+      "856462558X",
+      "9788564625426",
+      "8564625679",
+      "8564625415",
+      "8564625652"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Innovant Editora Ltda.",
+     "assuntos": [
+      "Biography",
+      "Popular music"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oba-pt",
+   "q": "Obá orixá",
+   "idioma": "pt",
+   "alvo": "oba",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL1163820W",
+     "titulo": "Orixás",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 1981,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL1163820W",
+     "doi": null,
+     "isbn": [
+      "9788588971158",
+      "9782864240174",
+      "8588971151",
+      "2864240173"
+     ],
+     "idioma": "fre,por",
+     "periodico": null,
+     "editora": "A.M. Metailie",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Orishas",
+      "Africa, West",
+      "Yoruba Gods",
+      "West Africa",
+      "Religiao (africa)",
+      "Religiao afro-brasileira",
+      "Dieux yorouba",
+      "Yorouba (Peuple d'Afrique)",
+      "Religion",
+      "Yorouba (peuple d'Afrique",
+      "Dieux africains",
+      "Culte",
+      "Exhibitions",
+      "Criticism and interpretation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-ewa-pt",
+   "q": "Ewá orixá",
+   "idioma": "pt",
+   "alvo": "ewa",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ibeji-pt",
+   "q": "Ibeji orixá",
+   "idioma": "pt",
+   "alvo": "ibeji",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-ibeji-en",
+   "q": "ibeji twins Yoruba",
+   "idioma": "en",
+   "alvo": "ibeji",
+   "status": "ok",
+   "erro": null,
+   "total": 10,
+   "n": 10,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL5775629W",
+     "titulo": "Ibeji",
+     "autores": [
+      "George Chemeche",
+      "John Pemberton III",
+      "John Picton",
+      "Lamidi O. Fakeye"
+     ],
+     "ano": 2003,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL5775629W",
+     "doi": null,
+     "isbn": [
+      "8874390602",
+      "9788874390601"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "5 Continents",
+     "assuntos": [
+      "Rites and ceremonies",
+      "Twins in art",
+      "Wood-carving, Yoruba",
+      "Yoruba (African people)",
+      "Ethnic or tribal religions",
+      "Religious subjects depicted in art",
+      "Cults",
+      "Africa - General",
+      "Art",
+      "Religion - World Religions",
+      "Subjects & Themes - Religious",
+      "Africa",
+      "Ethnic & Tribal",
+      "Art / General",
+      "Religion / Cults, Demonism, the Occult"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL38788760W",
+     "titulo": "Ibeji",
+     "autores": [
+      "Mareidi Stoll"
+     ],
+     "ano": 1980,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL38788760W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng,ger",
+     "periodico": null,
+     "editora": "The Authors",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Yoruba Sculpture",
+      "Primitive Sculpture",
+      "Twins",
+      "Folklore"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL33362448W",
+     "titulo": "Ere Ibeji Yoruba",
+     "autores": [
+      "Gian Carlo Matta"
+     ],
+     "ano": 2009,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL33362448W",
+     "doi": null,
+     "isbn": [
+      "8875411816",
+      "9788875411817"
+     ],
+     "idioma": "ita",
+     "periodico": null,
+     "editora": "P. Gaspari",
+     "assuntos": [
+      "Yoruba Sculpture",
+      "Yoruba (African people)",
+      "Social life and customs"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL7151210W",
+     "titulo": "Orin ìbejì (Songs in praise of twins)",
+     "autores": [
+      "Val Ọlayẹmi",
+      "Val Olayemi"
+     ],
+     "ano": 1971,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL7151210W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng,yor",
+     "periodico": null,
+     "editora": "University of Ibadan, Institute of African Studies",
+     "assuntos": [
+      "Songs and music",
+      "Yoruba (African people)",
+      "Yoruba poetry"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL27392259W",
+     "titulo": "Ibeji",
+     "autores": [
+      "Hélène Joubert",
+      "Xavier Richer"
+     ],
+     "ano": 2016,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL27392259W",
+     "doi": null,
+     "isbn": [
+      "9782757210727",
+      "2757210726"
+     ],
+     "idioma": "fre",
+     "periodico": null,
+     "editora": "Somogy Editions d'Art",
+     "assuntos": [
+      "Wood-carved figurines",
+      "Yoruba Art"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL23552932W",
+     "titulo": "Doppel-Leben",
+     "autores": [
+      "Ludwig Bertsch"
+     ],
+     "ano": 1993,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL23552932W",
+     "doi": null,
+     "isbn": [
+      "9783777462608",
+      "3777462608"
+     ],
+     "idioma": "ger",
+     "periodico": null,
+     "editora": "Hirmer",
+     "assuntos": [
+      "Yoruba Wood sculpture",
+      "Exhibitions",
+      "Twins in art",
+      "Yoruba Sculpture",
+      "Primitive Sculpture",
+      "Wood-carving, Yoruba"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL36975125W",
+     "titulo": "Catalogue of the Ibeji",
+     "autores": [
+      "Fausto Polo"
+     ],
+     "ano": 2001,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL36975125W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Galerie Walu",
+     "assuntos": [
+      "Yoruba Wood sculpture",
+      "Catalogs",
+      "Twins in art"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL33030184W",
+     "titulo": "Encyclopedia of the Ibeji",
+     "autores": [
+      "Fausto Polo"
+     ],
+     "ano": 2008,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL33030184W",
+     "doi": null,
+     "isbn": [
+      "9781606438145",
+      "160643814X"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Ibeji Art",
+     "assuntos": [
+      "Yoruba Wood sculpture",
+      "Yoruba Sculpture",
+      "Wood-carving, Yoruba",
+      "Wood-carved figurines",
+      "Yoruba (African people)",
+      "Folklore",
+      "Twins in art"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32838408W",
+     "titulo": "Ere ibeji",
+     "autores": [
+      "Bruno Claessens"
+     ],
+     "ano": 2013,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32838408W",
+     "doi": null,
+     "isbn": [
+      "9789038922027",
+      "9038922027"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Elmar",
+     "assuntos": [
+      "Yoruba Sculpture",
+      "Wood-carving, Yoruba",
+      "Twins in art",
+      "Art collections"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16126114W",
+     "titulo": "Twins in African and diaspora cultures",
+     "autores": [
+      "Philip M. Peek"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16126114W",
+     "doi": null,
+     "isbn": [
+      "9780253356246",
+      "0253356245",
+      "9780253223074",
+      "0253001633",
+      "9780253001634",
+      "0253223075"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Indiana University Press",
+     "assuntos": [
+      "African diaspora",
+      "Religious aspects",
+      "Twins",
+      "Twins in art",
+      "Social aspects",
+      "Superstition",
+      "Blacks",
+      "Social life and customs"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-iroko-pt",
+   "q": "Iroko orixá",
+   "idioma": "pt",
+   "alvo": "iroko",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31870576W",
+     "titulo": "Contos de axé",
+     "autores": [
+      "Marcelo Moutinho",
+      "Antonio Gonzaga",
+      "Aidil Araújo Lima"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31870576W",
+     "doi": null,
+     "isbn": [
+      "6587746535",
+      "9786587746531"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Malê",
+     "assuntos": [
+      "Orishas",
+      "Fiction",
+      "Tales",
+      "Goddesses, Afro-Brazilian",
+      "Orisha",
+      "Romans, nouvelles",
+      "Contes",
+      "Brazilian Short stories"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "afro-brasileiro",
+      "axe"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-orunmila-pt",
+   "q": "Orunmilá Ifá",
+   "idioma": "pt",
+   "alvo": "orunmila",
+   "status": "ok",
+   "erro": null,
+   "total": 34,
+   "n": 20,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL24857715W",
+     "titulo": "Orunmila's Words Don't Touch the Floor",
+     "autores": [
+      "Orunmila's Servant"
+     ],
+     "ano": 2017,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL24857715W",
+     "doi": null,
+     "isbn": [
+      "1525514474",
+      "9781525514463",
+      "1525514466",
+      "9781525514470"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "FriesenPress",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orunmila"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL41056307W",
+     "titulo": "Ifa Awo Training Manual",
+     "autores": [
+      "Ifa Orunmila"
+     ],
+     "ano": 2015,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL41056307W",
+     "doi": null,
+     "isbn": [
+      "9781507829264",
+      "1507829264"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL9734376W",
+     "titulo": "Ijo Orunmila",
+     "autores": [
+      "Fasina Falade"
+     ],
+     "ano": 1998,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL9734376W",
+     "doi": null,
+     "isbn": [
+      "0966313208",
+      "9780966313208"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Ara Ifa Publishing",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Yoruba (African people)",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "orunmila",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32640633W",
+     "titulo": "Socrates and Ọ̀rúnmìlà",
+     "autores": [
+      "Sophie B. Oluwole"
+     ],
+     "ano": 2014,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32640633W",
+     "doi": null,
+     "isbn": [
+      "9789295251",
+      "9789789295258",
+      "9789785295259"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Ark Publishers",
+     "assuntos": [
+      "African Philosophy",
+      "Ifa (Religion)",
+      "Comparative Philosophy"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "orunmila"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL42257139W",
+     "titulo": "Iwe Ifa Orunmila",
+     "autores": [
+      "J. A. Ṣobanjo"
+     ],
+     "ano": 1900,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL42257139W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "Remo Syndicate Press",
+     "assuntos": [
+      "Ifa (Religion)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "orunmila"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8802040W",
+     "titulo": "Practitioner's Handbook for the IFA Professional",
+     "autores": [
+      "Aina Adewale-Somadhi"
+     ],
+     "ano": 2004,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8802040W",
+     "doi": null,
+     "isbn": [
+      "0971494932",
+      "9780971494930"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Ile Orunmila Communications",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL3006729W",
+     "titulo": "Ìwé odù Ifá",
+     "autores": [
+      "Awópéjú Bógunḿbẹ̀"
+     ],
+     "ano": 1995,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL3006729W",
+     "doi": null,
+     "isbn": [
+      "0964424711",
+      "9780964424715"
+     ],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "Ilé Ọ̀rúnmìlà Communications",
+     "assuntos": [
+      "Folklore",
+      "Mythology, Yoruba",
+      "Religion",
+      "Texts",
+      "Yoruba (African people)",
+      "Yoruba Mythology",
+      "Yoruba language"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "yoruba religion",
+      "odu",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8908409W",
+     "titulo": "Ifa Theology volume2 Family Spirit:The Ifa Concept of Egun (Ifa Theology)",
+     "autores": [
+      "Awo Falokun Fatunmbi"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8908409W",
+     "doi": null,
+     "isbn": [
+      "1890157406",
+      "9781890157401"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Athelia Henrietta Press, Publishing In The Name Of Orunmila",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "egungun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL35522085W",
+     "titulo": "Iwe ifa",
+     "autores": [
+      "D. Ọnadele Epega"
+     ],
+     "ano": 1951,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL35522085W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "Imọlẹ Oluwa Institute",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL536389W",
+     "titulo": "Ìyẹ̀rẹ̀ Ifá",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 1999,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL536389W",
+     "doi": null,
+     "isbn": [
+      "0964424762",
+      "9780964424760"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Ilé Ọ̀rúnmìlà Communications",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Religion",
+      "Texts",
+      "Yoruba (African people)",
+      "Yoruba Songs",
+      "Yoruba language",
+      "Yoruba poetry"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL4718218W",
+     "titulo": "Ifism",
+     "autores": [
+      "C. Osamaro Ibiè"
+     ],
+     "ano": 1986,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL4718218W",
+     "doi": null,
+     "isbn": [
+      "1890157090",
+      "096387876X",
+      "9781890157098",
+      "9780963878762"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "C.O. Ibie",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Religion",
+      "Yoruba (African people)",
+      "Orunmila (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "yoruba religion",
+      "orunmila",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL28992205W",
+     "titulo": "Awó de Orunmila",
+     "autores": [
+      "Ernesto Valdés Jane"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL28992205W",
+     "doi": null,
+     "isbn": [
+      "0557560233",
+      "9781257990184",
+      "1257990187",
+      "9780557560233"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Lulu Press, Inc.",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orunmila"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32142121W",
+     "titulo": "O jardim de Ossain no reino de Orunmilá",
+     "autores": [
+      "Murilo Sebe Bon Meihy"
+     ],
+     "ano": 2021,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32142121W",
+     "doi": null,
+     "isbn": [
+      "9786586174120",
+      "6586174120"
+     ],
+     "idioma": "por",
+     "periodico": null,
+     "editora": "Arole Cultural",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Medicinal plants",
+      "Handbooks, manuals",
+      "Plants",
+      "Religious aspects",
+      "Black people",
+      "Ethnobotany",
+      "Plantes médicinales",
+      "Guides, manuels",
+      "Ifa",
+      "Noirs",
+      "Ethnobotanique"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "orunmila",
+      "ossaim"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL881226W",
+     "titulo": "Le tambour d'Orunmila",
+     "autores": [
+      "Louis Camara"
+     ],
+     "ano": 2003,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL881226W",
+     "doi": null,
+     "isbn": [
+      "2723615529",
+      "9782723615525"
+     ],
+     "idioma": "fre",
+     "periodico": null,
+     "editora": "Nouvelles éditions africaines du Sénégal",
+     "assuntos": [
+      "Tales",
+      "Yoruba (African people)",
+      "Folklore",
+      "Ifa (Religion)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "orunmila",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15523079W",
+     "titulo": "La naturaleza de los òriś̲á",
+     "autores": [
+      "Ifa Orilana Aworeni Odúmola Sowunmi"
+     ],
+     "ano": 2009,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15523079W",
+     "doi": null,
+     "isbn": [
+      "9974967708",
+      "9789974967700"
+     ],
+     "idioma": "spa,yor",
+     "periodico": null,
+     "editora": "Rosebud",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Orishas",
+      "Afro-Brazilian cults"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL845898W",
+     "titulo": "Sixteen mythological stories of Ifá",
+     "autores": [
+      "Chief Fama"
+     ],
+     "ano": 1994,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL845898W",
+     "doi": null,
+     "isbn": [
+      "096442472X",
+      "9780964424722"
+     ],
+     "idioma": "yor,eng",
+     "periodico": null,
+     "editora": "Ilé Ọrúnmilà Communications",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Yoruba (African people)",
+      "Religion",
+      "Poetry (poetic works by one author)",
+      "Mythology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8802036W",
+     "titulo": "Sixteen Mythological Stories of Ifa (Ita Merindinlogun)",
+     "autores": [
+      "Fama"
+     ],
+     "ano": 1995,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8802036W",
+     "doi": null,
+     "isbn": [
+      "096442472X",
+      "9780964424722"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Ile Orunmila Communications",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "itan"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22320540W",
+     "titulo": "Ifa divination, knowledge, power, and performance",
+     "autores": [
+      "Jacob K. Olupona",
+      "Rowland Abiodun"
+     ],
+     "ano": 2016,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22320540W",
+     "doi": null,
+     "isbn": [
+      "025301882X",
+      "9780253018908",
+      "025301896X",
+      "0253018900",
+      "9780253018823",
+      "9780253018960"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Indiana University Press",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Orisha religion",
+      "Art",
+      "Religion",
+      "Afro-Caribbean cults",
+      "Divination",
+      "Yoruba (african people), religion",
+      "Cults",
+      "Ifa (Religion) in art"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL33419306W",
+     "titulo": "A prophet called Orunmila",
+     "autores": [
+      "E. M. Lijadu"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL33419306W",
+     "doi": null,
+     "isbn": [
+      "9781534230",
+      "9789781534232"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "West African Book Pub. Limited",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Yoruba (African people)",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "orunmila",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL33020714W",
+     "titulo": "Tratado de los Odu de Ifá",
+     "autores": [
+      "Marcelo Madan"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL33020714W",
+     "doi": null,
+     "isbn": [
+      "9806557166",
+      "9789806557161"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Òrúnmìlà",
+     "assuntos": [
+      "Gods, Afro-Caribbean",
+      "Orishas",
+      "Ifa (Religion)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "odu"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-orunmila-en",
+   "q": "Orunmila Ifa divination",
+   "idioma": "en",
+   "alvo": "orunmila",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL536389W",
+     "titulo": "Ìyẹ̀rẹ̀ Ifá",
+     "autores": [
+      "Ifayemi Eleburuibon"
+     ],
+     "ano": 1999,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL536389W",
+     "doi": null,
+     "isbn": [
+      "0964424762",
+      "9780964424760"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Ilé Ọ̀rúnmìlà Communications",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Religion",
+      "Texts",
+      "Yoruba (African people)",
+      "Yoruba Songs",
+      "Yoruba language",
+      "Yoruba poetry"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22320540W",
+     "titulo": "Ifa divination, knowledge, power, and performance",
+     "autores": [
+      "Jacob K. Olupona",
+      "Rowland Abiodun"
+     ],
+     "ano": 2016,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22320540W",
+     "doi": null,
+     "isbn": [
+      "025301882X",
+      "9780253018908",
+      "025301896X",
+      "0253018900",
+      "9780253018823",
+      "9780253018960"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Indiana University Press",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Orisha religion",
+      "Art",
+      "Religion",
+      "Afro-Caribbean cults",
+      "Divination",
+      "Yoruba (african people), religion",
+      "Cults",
+      "Ifa (Religion) in art"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL34552906W",
+     "titulo": "Las Tres Mujeres De Orula.estudio De Orula.deidad Africana.",
+     "autores": [
+      "armando ferrer castro"
+     ],
+     "ano": 2014,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL34552906W",
+     "doi": null,
+     "isbn": [
+      "9590904432",
+      "9789590904431"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "editorial jose marti",
+     "assuntos": [
+      "Orunmila (Yoruba deity)",
+      "Yoruba Goddesses",
+      "Orishas",
+      "Ifa (Religion)",
+      "Santeria",
+      "Afro-Caribbean cults",
+      "Divination"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "ifa",
+      "orunmila",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-oduduwa-en",
+   "q": "Oduduwa Ile-Ife",
+   "idioma": "en",
+   "alvo": "oduduwa",
+   "status": "ok",
+   "erro": null,
+   "total": 11,
+   "n": 11,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL24129754W",
+     "titulo": "Fishes",
+     "autores": [
+      "Esther A. Adesulu"
+     ],
+     "ano": 2008,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL24129754W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Limited",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL5932479W",
+     "titulo": "Explorations into the person",
+     "autores": [
+      "A. A. Olowu"
+     ],
+     "ano": 2000,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL5932479W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Ltd.",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16653350W",
+     "titulo": "A foray into poultry nutrition",
+     "autores": [
+      "Irene Opesibhari Matami"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16653350W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Limited",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16653348W",
+     "titulo": "Retire retirement through effective planning",
+     "autores": [
+      "Ogubameru Abiona Olakunle"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16653348W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Limited",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL33211246W",
+     "titulo": "Foreign policy cooperation in developing states",
+     "autores": [
+      "Olusola Akinrinade"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL33211246W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press",
+     "assuntos": [
+      "Cooperation",
+      "Foreign relations"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16653351W",
+     "titulo": "Pain",
+     "autores": [
+      "Matthew O.B. Olaogun"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16653351W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Limited",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL33440919W",
+     "titulo": "Voyage of global discovery via the food engineering pathway",
+     "autores": [
+      "Taiwo Olusegun Omobuwajo"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL33440919W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Limited",
+     "assuntos": [
+      "Food industry and trade",
+      "Appropriate technology"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22719308W",
+     "titulo": "Thespians and cineasters as engineers of the Nigerian soul",
+     "autores": [
+      "Foluke Matilda Ogunleye"
+     ],
+     "ano": 2012,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22719308W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL18637705W",
+     "titulo": "Arise and walk; upright in stance, forthright in swing",
+     "autores": [
+      "Lawrence Magbagbeola Oginni"
+     ],
+     "ano": 2008,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL18637705W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Limited",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16646999W",
+     "titulo": "English language usage, uses and misuse(s) in a non-host second language context, Nigeria",
+     "autores": [
+      "Adewale Bandele Adegbite"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16646999W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Obafemi Awolowo University Press Limited",
+     "assuntos": [
+      "Usage",
+      "English language",
+      "Variation"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL4578822W",
+     "titulo": "The problems and prospects of free education for all",
+     "autores": [
+      "L. K. Jakande"
+     ],
+     "ano": 1987,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL4578822W",
+     "doi": null,
+     "isbn": [
+      "9789781630729",
+      "9781630728"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "John West Publications Ltd.",
+     "assuntos": [
+      "Education",
+      "Educational equalization",
+      "Finance",
+      "History"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-olokun-en",
+   "q": "Olokun",
+   "idioma": "en",
+   "alvo": "olokun",
+   "status": "ok",
+   "erro": null,
+   "total": 26,
+   "n": 20,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13351382W",
+     "titulo": "Ibú-olókun",
+     "autores": [
+      "J. O. Ogundele"
+     ],
+     "ano": 1956,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13351382W",
+     "doi": null,
+     "isbn": [
+      "0340069457",
+      "9780340069455"
+     ],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "University of London Press",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL4191848W",
+     "titulo": "Fermina Gómez y la casa olvidada de Olókun",
+     "autores": [
+      "Armando Ferrer Castro"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL4191848W",
+     "doi": null,
+     "isbn": [
+      "9789803962043",
+      "9803962043"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ministerio de la Cultura",
+     "assuntos": [
+      "Afro-Caribbean cults",
+      "Santeria",
+      "Religious life and customs",
+      "Olokun (Yoruba deity)",
+      "Cult",
+      "Yoruba Goddesses",
+      "Yemaja (Yoruba deity)",
+      "Orishas"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "olokun",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746117W",
+     "titulo": "Yemoja / Olokun",
+     "autores": [
+      "Awo Fa'Lokun Fatunmbi"
+     ],
+     "ano": 1993,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746117W",
+     "doi": null,
+     "isbn": [
+      "9780942272338",
+      "0942272331"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Original Publications",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yemoja",
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL17988416W",
+     "titulo": "Olokun",
+     "autores": [
+      "Alfred Omokaro Izevbigie"
+     ],
+     "ano": 1978,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL17988416W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "UMI International",
+     "assuntos": [
+      "Religion",
+      "Bini Art",
+      "Bini (African people)"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL37344241W",
+     "titulo": "Olokun, the divinity of fortune",
+     "autores": [
+      "Osadolor Imasogie"
+     ],
+     "ano": 1980,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL37344241W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Tokopa Enterprises",
+     "assuntos": [
+      "Bini (African people)",
+      "Religious life and customs"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15536581W",
+     "titulo": "The freedom fight",
+     "autores": [
+      "Adébáyọ̀ Fálétí"
+     ],
+     "ano": 1993,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15536581W",
+     "doi": null,
+     "isbn": [
+      "9781292318",
+      "1592217532",
+      "1592217540",
+      "9781592217533",
+      "9789781292316",
+      "9781592217540"
+     ],
+     "idioma": "yor,eng",
+     "periodico": null,
+     "editora": "Africa World Press",
+     "assuntos": [
+      "Fiction, historical, general",
+      "Nigeria, fiction",
+      "Yoruba (African people)",
+      "Fiction",
+      "History",
+      "Yoruba language",
+      "Texts"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL42257137W",
+     "titulo": "Olókun",
+     "autores": [
+      "I. A. Akinjogbin"
+     ],
+     "ano": 1964,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL42257137W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "Yoruba Historical Research Scheme",
+     "assuntos": [
+      "Yoruba literature",
+      "Yoruba language",
+      "Texts"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15125320W",
+     "titulo": "Ikú olókùn-ẹsịn",
+     "autores": [
+      "Wole Soyinka"
+     ],
+     "ano": 1994,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15125320W",
+     "doi": null,
+     "isbn": [
+      "9782679771",
+      "9789782679772"
+     ],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "Fountain Publications",
+     "assuntos": [
+      "Fiction",
+      "Social conditions"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL11656054W",
+     "titulo": "Olokun",
+     "autores": [
+      "Alfred Omokaro Izevbigie"
+     ],
+     "ano": 2003,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL11656054W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "UMI Dissertation Services",
+     "assuntos": [
+      "Olokun (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL24360848W",
+     "titulo": "Olokun of the Galaxy",
+     "autores": [
+      "Esther Iverem"
+     ],
+     "ano": 2017,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL24360848W",
+     "doi": null,
+     "isbn": [
+      "9780692968208",
+      "0692968202"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "Seeing Black Press",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL41311147W",
+     "titulo": "You Can Afford to Be Healthy",
+     "autores": [
+      "Samantha Salmon",
+      "Akin Olokun"
+     ],
+     "ano": 2017,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL41311147W",
+     "doi": null,
+     "isbn": [
+      "1545123373",
+      "9781545123379"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "CreateSpace Independent Publishing Platform",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL34295520W",
+     "titulo": "Ceremonias y Caminos de Olokun",
+     "autores": [
+      "Ernesto Valdés Jane"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL34295520W",
+     "doi": null,
+     "isbn": [
+      "9781257990238",
+      "1257990233"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Lulu Press, Inc.",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL28805782W",
+     "titulo": "Jujuland : Koku Akanbi and the Heart of Olokun",
+     "autores": [
+      "Maria Motunrayo Adebisi"
+     ],
+     "ano": 2023,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL28805782W",
+     "doi": null,
+     "isbn": [
+      "1510111433",
+      "9781510111431"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Hachette Children's Group",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL39175451W",
+     "titulo": "Myth, Ritual, and Visible Expressions of o?bàtálá and Olókun in Ilé-If?`",
+     "autores": [
+      "Oluwafunminiyi Wasiu Raheem",
+      "Ayowole S. Elugbaju"
+     ],
+     "ano": 2024,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL39175451W",
+     "doi": null,
+     "isbn": [
+      "1666945358",
+      "9781666945355"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Lexington Books/Fortress Academic",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL3660750W",
+     "titulo": "Ondo kingdom",
+     "autores": [
+      "M. C. Adeyemi"
+     ],
+     "ano": 1993,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL3660750W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Bounty Press Limited",
+     "assuntos": [
+      "History"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL33020640W",
+     "titulo": "Theatre in Nigeria",
+     "autores": [
+      "Foluke Ogunleye"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL33020640W",
+     "doi": null,
+     "isbn": [
+      "9783626671",
+      "9789783626676"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Humanities Publishers",
+     "assuntos": [
+      "Theater",
+      "African drama",
+      "History and criticism"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL554042W",
+     "titulo": "Olóòkun",
+     "autores": [
+      "John Mason"
+     ],
+     "ano": 1996,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL554042W",
+     "doi": null,
+     "isbn": [
+      "1881244059",
+      "9781881244059"
+     ],
+     "idioma": "yor,eng",
+     "periodico": null,
+     "editora": "Yorùbá Theological Archministry",
+     "assuntos": [
+      "Cult",
+      "Olokun (Yoruba deity)",
+      "Puerto Rico",
+      "Religion",
+      "Yoruba (African people)",
+      "Rites and ceremonies",
+      "Bini (African people)",
+      "Religious life and customs"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yoruba religion",
+      "olokun",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL45941775W",
+     "titulo": "De cubanos y religiones",
+     "autores": [
+      "Armando Ferrer Castro",
+      "Nieves Cárdenas",
+      "Arisel Arce Burguera"
+     ],
+     "ano": 2013,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL45941775W",
+     "doi": null,
+     "isbn": [
+      "9590906478",
+      "9789590906473"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial José Martí",
+     "assuntos": [
+      "Religion",
+      "Religious life and customs",
+      "Afro-Caribbean cults",
+      "Black people",
+      "Blacks"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL32072718W",
+     "titulo": "Itan",
+     "autores": [
+      "Oladele Olusanya"
+     ],
+     "ano": 2020,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL32072718W",
+     "doi": null,
+     "isbn": [
+      "9785413012",
+      "9789785413014"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Maven Publishing",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Folklore",
+      "Mythology, Yoruba, in literature",
+      "Heroes",
+      "Mythology",
+      "Obatala (Yoruba deity)",
+      "Fiction",
+      "Orunmila (Yoruba deity)",
+      "Ogun (Yoruba deity)",
+      "Olokun (Yoruba deity)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orunmila",
+      "oxala",
+      "olokun",
+      "~ogum",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16201612W",
+     "titulo": "Espíritus rumberos",
+     "autores": [
+      "Natalia Bolívar Aróstegui"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16201612W",
+     "doi": null,
+     "isbn": [
+      "1563283360",
+      "9781563283369"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Plaza Mayor",
+     "assuntos": [
+      "Santeria",
+      "Orishas",
+      "Legends"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-olodumare",
+   "q": "Olodumare Yoruba God",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 10,
+   "n": 10,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL4839149W",
+     "titulo": "Olódùmarè",
+     "autores": [
+      "E. Bọlaji Idowu"
+     ],
+     "ano": 1962,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL4839149W",
+     "doi": null,
+     "isbn": [
+      "9780582608030",
+      "0582608031"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Longmans",
+     "assuntos": [
+      "Religion",
+      "Yoruba (African people)",
+      "Yoruba Gods",
+      "Olodumare (Yoruba deity)"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "yoruba religion",
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL12938369W",
+     "titulo": "Olódùmarè",
+     "autores": [
+      "E. Bọlaji Idowu"
+     ],
+     "ano": 1994,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL12938369W",
+     "doi": null,
+     "isbn": [
+      "1881316963",
+      "9780942272413",
+      "0942272412",
+      "9781881316961"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "A & B Books",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Religion",
+      "Yoruba Gods"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yoruba religion",
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL13708714W",
+     "titulo": "Olódùmarè",
+     "autores": [
+      "E. Bọlaji Idowu"
+     ],
+     "ano": 1975,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL13708714W",
+     "doi": null,
+     "isbn": [
+      "0942272412",
+      "9780942272413"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Longman",
+     "assuntos": [
+      "Gods, Yoruba",
+      "Religion",
+      "Yoruba (African people)",
+      "Yoruba Gods"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yoruba religion",
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL7146977W",
+     "titulo": "Olodumare",
+     "autores": [
+      "E. Bọlaji Idowu"
+     ],
+     "ano": 1994,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL7146977W",
+     "doi": null,
+     "isbn": [
+      "1886832005",
+      "9781886832008"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Wazobia",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olodumare"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL7146980W",
+     "titulo": "Olódùmarè",
+     "autores": [
+      "E. Bọlaji Idowu"
+     ],
+     "ano": 1962,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL7146980W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Longmans",
+     "assuntos": [
+      "Religion",
+      "Yoruba (African people)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yoruba religion",
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8746121W",
+     "titulo": "Olodumare",
+     "autores": [
+      "Bolasi E. Idowu"
+     ],
+     "ano": 1995,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8746121W",
+     "doi": null,
+     "isbn": [
+      "9780942272413",
+      "0942272412"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Original Pubns",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olodumare"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL12938367W",
+     "titulo": "Oloḋumare",
+     "autores": [
+      "E. Bọlaji Idowu"
+     ],
+     "ano": 1962,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL12938367W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Longmans",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olodumare"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL9843538W",
+     "titulo": "Olodumare",
+     "autores": [
+      "E. Bolayiidowu"
+     ],
+     "ano": 1994,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL9843538W",
+     "doi": null,
+     "isbn": [
+      "1881316963",
+      "9781881316961"
+     ],
+     "idioma": null,
+     "periodico": null,
+     "editora": "A & B Book Dist Inc",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olodumare"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL31454814W",
+     "titulo": "Olodumare God in Yoruba Belief",
+     "autores": [],
+     "ano": null,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL31454814W",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL15482105W",
+     "titulo": "The Yorùbá high god",
+     "autores": [
+      "Pierre Verger"
+     ],
+     "ano": 2007,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL15482105W",
+     "doi": null,
+     "isbn": [
+      "9780979026416",
+      "0979026415"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Black Madonna Enterprises by arrangement with the Fundação Pierre Verger",
+     "assuntos": [
+      "Olodumare (Yoruba deity)",
+      "Yoruba (African people)",
+      "Iyami Osoronga (Yoruba deity)",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "olodumare",
+      "iyami",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-orun",
+   "q": "orun aiye cosmologia iorubá",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-egungun-pt",
+   "q": "Egungun culto Itaparica",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-egungun-en",
+   "q": "Egungun masquerade",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 4,
+   "n": 4,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL21151814W",
+     "titulo": "Masquerading Politics",
+     "autores": [
+      "John Thabiti Willis"
+     ],
+     "ano": 2017,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL21151814W",
+     "doi": null,
+     "isbn": [
+      "9780253031457",
+      "025303146X",
+      "0253031451",
+      "9780253031440",
+      "9780253031464",
+      "0253031443"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Indiana University Press",
+     "assuntos": [
+      "Yoruba (african people)",
+      "Masks",
+      "Nigeria, history",
+      "Yoruba (African people)",
+      "Rites and ceremonies",
+      "History",
+      "Politics and government",
+      "Yoruba Masks",
+      "Masquerades",
+      "Egúngún (Cult)",
+      "Gelede (Yoruba rite)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "egungun",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL4461855W",
+     "titulo": "African Ceremonies: 2009 Wall Calendar",
+     "autores": [
+      "Carol Beckwith"
+     ],
+     "ano": 1999,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL4461855W",
+     "doi": null,
+     "isbn": [
+      "0789317265",
+      "0810942054",
+      "9780789317261",
+      "9780810942059",
+      "9780810934849",
+      "0810934841"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "H.N. Abrams",
+     "assuntos": [
+      "Social life and customs",
+      "Initiation rites",
+      "Ritual",
+      "Rites and ceremonies",
+      "Religious life and customs",
+      "Marriage customs and rites",
+      "Africa, social life and customs",
+      "Africa, religion",
+      "Pictorial works",
+      "Funeral rites and ceremonies"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16571092W",
+     "titulo": "Maske",
+     "autores": [
+      "Phyllis Galembo"
+     ],
+     "ano": 2010,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16571092W",
+     "doi": null,
+     "isbn": [
+      "1905712170",
+      "9781905712175"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Distribution in USA & Canada by D.A.P./Distributed Art Publishers",
+     "assuntos": [
+      "Social life and customs",
+      "Carnival masks",
+      "Pictorial works",
+      "Carnival",
+      "Masks"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16214876W",
+     "titulo": "Central Nigeria unmasked",
+     "autores": [
+      "Marla Berns",
+      "Richard Fardon",
+      "Sidney Littlefield Kasfir",
+      "Jörg Adelberger"
+     ],
+     "ano": 2011,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16214876W",
+     "doi": null,
+     "isbn": [
+      "9780977834464",
+      "097783445X",
+      "9780977834457",
+      "0977834468"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Fowler Museum at UCLA",
+     "assuntos": [
+      "Social life and customs",
+      "Exhibitions",
+      "Nigerian Art",
+      "Masks",
+      "Art, nigerian",
+      "Art, exhibitions",
+      "Nigeria, social life and customs",
+      "Cameroon, history",
+      "Manners and customs",
+      "Brauchtum",
+      "Kultur",
+      "Kunst",
+      "Maske"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-iyami",
+   "q": "Iyami Oxorongá",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-iyami-en",
+   "q": "Iyami Aje Yoruba witchcraft",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-funfun",
+   "q": "orixás funfun",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-ori",
+   "q": "Ori orixá cabeça",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-pt",
+   "q": "itãs mitologia dos orixás",
+   "idioma": "pt",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-odu",
+   "q": "odu Ifá corpus",
+   "idioma": "pt",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-ifa-en",
+   "q": "Ifa literary corpus odu",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-oriki",
+   "q": "oriki orisa",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL27859489W",
+     "titulo": "Oriki Awon Orisa",
+     "autores": [
+      "Obafemi Origunwa",
+      "Ifayemi Fakayode Abidemi"
+     ],
+     "ano": 2014,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL27859489W",
+     "doi": null,
+     "isbn": [
+      "9781312097292",
+      "1312097299"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Lulu Press, Inc.",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "oriki"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22342628W",
+     "titulo": "Ifá y Orisa",
+     "autores": [
+      "Antonio Jesús Ávila González"
+     ],
+     "ano": 2013,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22342628W",
+     "doi": null,
+     "isbn": [
+      "8415146590",
+      "9788415146599"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Editorial Comte d'Aure",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Orisha religion",
+      "Divination",
+      "Afro-Caribbean cults"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-ita-abimbola",
+   "q": "Abimbola Ifa",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 10,
+   "n": 10,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL19643101W",
+     "titulo": "Ifa divination poetry (Traditional African literature)",
+     "autores": [
+      "Wande Abimbola"
+     ],
+     "ano": 1977,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL19643101W",
+     "doi": null,
+     "isbn": [
+      "0883570475",
+      "0883570238",
+      "9780883570234",
+      "9780883570470"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "NOK Publishers",
+     "assuntos": [
+      "Poetry (poetic works by one author)"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL24068863W",
+     "titulo": "Ìjìnlè Ohùn Enu Ifá",
+     "autores": [
+      "ʼWande Abimbọla"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL24068863W",
+     "doi": null,
+     "isbn": [
+      "9789780697723",
+      "9789780690502",
+      "9780690506",
+      "9780697721"
+     ],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "University Press PLC",
+     "assuntos": [
+      "Yoruba poetry",
+      "Yoruba language",
+      "Texts"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22714355W",
+     "titulo": "Sixteen great poems of Ifá",
+     "autores": [
+      "ʼWande Abimbọla"
+     ],
+     "ano": 1975,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22714355W",
+     "doi": null,
+     "isbn": [
+      "9789780697501",
+      "9780697500"
+     ],
+     "idioma": "eng,yor",
+     "periodico": null,
+     "editora": "University Press PLC",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Poetry"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL6593832W",
+     "titulo": "Ifá",
+     "autores": [
+      "ʼWande Abimbọla"
+     ],
+     "ano": 1976,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL6593832W",
+     "doi": null,
+     "isbn": [
+      "0195753259",
+      "019575199X",
+      "9780195753257",
+      "9780195751994"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Oxford University Press Nigeria",
+     "assuntos": [
+      "Ifa (Religion)",
+      "Cults, africa"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL10524052W",
+     "titulo": "Ifá will mend our broken world",
+     "autores": [
+      "'Wande Abimbola"
+     ],
+     "ano": 1997,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL10524052W",
+     "doi": null,
+     "isbn": [
+      "9780965973908",
+      "0965973905"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Aim books",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL8804967W",
+     "titulo": "Ifa Will Mend Our Broken World",
+     "autores": [
+      "Wande Abimbola"
+     ],
+     "ano": 1997,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL8804967W",
+     "doi": null,
+     "isbn": [
+      "1483565971",
+      "0965973905",
+      "9781483565972",
+      "9780965973908"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "BookBaby",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22609275W",
+     "titulo": "Ìjìnlẹ̀ Ohùn Ẹnu Ifá",
+     "autores": [
+      "ʼWande Abimbọla"
+     ],
+     "ano": 2006,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22609275W",
+     "doi": null,
+     "isbn": [
+      "9780690514",
+      "9789780690519"
+     ],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "University Press PLC",
+     "assuntos": [
+      "Texts",
+      "Yoruba poetry",
+      "Yoruba language"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16484047W",
+     "titulo": "Ifá will mend our broken world",
+     "autores": [
+      "Ẃande Abimbọla"
+     ],
+     "ano": 1997,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16484047W",
+     "doi": null,
+     "isbn": [],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Aim Books",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL22320540W",
+     "titulo": "Ifa divination, knowledge, power, and performance",
+     "autores": [
+      "Jacob K. Olupona",
+      "Rowland Abiodun"
+     ],
+     "ano": 2016,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL22320540W",
+     "doi": null,
+     "isbn": [
+      "025301882X",
+      "9780253018908",
+      "025301896X",
+      "0253018900",
+      "9780253018823",
+      "9780253018960"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Indiana University Press",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Ifa (Religion)",
+      "Orisha religion",
+      "Art",
+      "Religion",
+      "Afro-Caribbean cults",
+      "Divination",
+      "Yoruba (african people), religion",
+      "Cults",
+      "Ifa (Religion) in art"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL20993264M",
+     "titulo": "Sixteen great poems of Ifá",
+     "autores": [],
+     "ano": 1975,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL20993264M",
+     "doi": null,
+     "isbn": [],
+     "idioma": "yor",
+     "periodico": null,
+     "editora": "Unesco",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "ifa"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-ita-merindilogun",
+   "q": "merindilogun dilogun",
+   "idioma": "es",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-pateo-pt",
+   "q": "patakí orishas",
+   "idioma": "es",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 4,
+   "n": 4,
+   "itens": [
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL4157323W",
+     "titulo": "Pataki, leyendas y misterios de orishas africanos",
+     "autores": [
+      "Julio García Cortez"
+     ],
+     "ano": 1980,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL4157323W",
+     "doi": null,
+     "isbn": [
+      "0897292367",
+      "9780897292368"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Ediciones Universal",
+     "assuntos": [
+      "Folklore",
+      "Legends",
+      "Religion",
+      "Yoruba (African people)",
+      "Folklore, africa"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "yoruba religion",
+      "itan",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL17779638W",
+     "titulo": "Leyendas de la Santeri a",
+     "autores": [
+      "Migene González-Wippler"
+     ],
+     "ano": 2002,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL17779638W",
+     "doi": null,
+     "isbn": [
+      "9781567182941",
+      "0738718998",
+      "1567182941",
+      "9780738718996"
+     ],
+     "idioma": "spa",
+     "periodico": null,
+     "editora": "Llewellyn Publications",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Folklore",
+      "Yoruba (Pueblo africano)",
+      "Santeri a (Culto)",
+      "Santeria",
+      "Orishas",
+      "Santería",
+      "Witchcraft"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "santeria",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL14855876W",
+     "titulo": "ORISA: Yoruba Gods and Spiritual Identity in Africa and the Diaspora",
+     "autores": [
+      "Toyin Falola",
+      "Ann Genova"
+     ],
+     "ano": 2005,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL14855876W",
+     "doi": null,
+     "isbn": [
+      "159221374X",
+      "1592213731",
+      "9781592213740",
+      "9781592213733"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Africa World Press, Inc.",
+     "assuntos": [
+      "Yoruba (African people)",
+      "Congresses",
+      "Orishas",
+      "Religion",
+      "Yoruba (african people), religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "openlibrary",
+     "id_base": "/works/OL16600085W",
+     "titulo": "Sacrificial ceremonies of Santería",
+     "autores": [
+      "Ócha'ni Lele"
+     ],
+     "ano": 2012,
+     "tipo_base": "book",
+     "url": "https://openlibrary.org/works/OL16600085W",
+     "doi": null,
+     "isbn": [
+      "9781594775000",
+      "9781594774553",
+      "1594775001",
+      "1594774552"
+     ],
+     "idioma": "eng",
+     "periodico": null,
+     "editora": "Destiny Books",
+     "assuntos": [
+      "Sacrifice",
+      "Rituals",
+      "Customs and practices",
+      "Santeria",
+      "Animal sacrifice",
+      "Africa, religion"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  }
+ ]
+}

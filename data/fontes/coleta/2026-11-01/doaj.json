@@ -1,0 +1,4140 @@
+{
+ "base": "doaj",
+ "data": "2026-11-01",
+ "linhas_por_consulta": 20,
+ "gerado_por": "scripts/coleta/coletar.py",
+ "status": "ok",
+ "erro": null,
+ "consultas": [
+  {
+   "id": "v4-oxala-pt",
+   "q": "Oxalá orixá",
+   "idioma": "pt",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "a6604e64d23d477a940c5ab83527d959",
+     "titulo": "Olori, o dono da cabeça. Uma tipologia afro-descendente",
+     "autores": [
+      "José Jorge de Morais Zacharias"
+     ],
+     "ano": 2010,
+     "tipo_base": "article",
+     "url": "https://periodicos.ufsc.br/index.php/esbocos/article/view/14762",
+     "doi": "10.5007/2175-7976.2010v17n23p151",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Esboços",
+     "editora": "Universidade Federal de Santa Catarina",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orixa",
+      "oxala",
+      "~ogum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxala-en",
+   "q": "Obatala Yoruba",
+   "idioma": "en",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 4,
+   "n": 4,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "4fe913b650c54986ba3468ab7fd9a9bb",
+     "titulo": "Heritage, Memory, and the Manifestation of Tradition: The Olufon Festival in the Historical Narrative of Yorubaland",
+     "autores": [
+      "Ayowole S. ELUGBAJU",
+      "Inioluwa T. TOLUWALOPE"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://journals.abuad.edu.ng/index.php/agidigbo/article/view/2257",
+     "doi": "10.53982/agidigbo.2025.1302.11-j",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "ABUAD Journal of the Humanities-AGIDIGBO",
+     "editora": "Department of General Studies, Afe Babalola University, Ado-Ekiti",
+     "assuntos": [
+      "Olufon",
+      "Ile-Ife",
+      "Ifon",
+      "Ritual",
+      "Yoruba Heritage"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "67052fd45f484a6795a7a3a06dc0c23e",
+     "titulo": "İle-İfe: Geleneksel Yoruba Dininde Yaratılışın ve Dünyanın Merkezi",
+     "autores": [
+      "Canan Seyfeli"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://dergipark.org.tr/tr/download/article-file/909860",
+     "doi": "10.34247/artukluakademi.638802",
+     "isbn": [],
+     "idioma": "AR,EN,TR",
+     "periodico": "Artuklu Akademi",
+     "editora": "Mardin Artuklu University",
+     "assuntos": [
+      "geleneksel yoruba dini",
+      "i̇le-i̇fe",
+      "merkez simgeciliği",
+      "yaratılış",
+      "oduduva",
+      "traditional yoruba religion",
+      "ile-ife",
+      "center symbolism",
+      "creation",
+      "oduduwa"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "yoruba religion",
+      "oduduwa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "oxala",
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "d0f9e556810d4b2fbc225a37e957030d",
+     "titulo": "Disability and Human Diversity: A Reinterpretation of Ẹni-òòṣà1 Philosophy in Yorùbá Belief",
+     "autores": [
+      "Omotade  Adegbindin"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/129917",
+     "doi": "10.32473/ysr.v3i1.129917",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "keywords: disability, ẹni-òòṣà, human dignity, ọbàtálá, abnormality"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "fa4c9bf921a24ea78af72386c738f4a3",
+     "titulo": "Disability and Human Diversity: A Reinterpretation of Ẹni-òòṣà1 Philosophy in Yorùbá Belief",
+     "autores": [
+      "Omotade  Adegbindin"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/129917",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "Keywords: Disability, Ẹni-òòṣà, Human dignity, Ọbàtálá, Abnormality"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxala-yo",
+   "q": "Ọbàtálá",
+   "idioma": "yo",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 9,
+   "n": 9,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "4fe913b650c54986ba3468ab7fd9a9bb",
+     "titulo": "Heritage, Memory, and the Manifestation of Tradition: The Olufon Festival in the Historical Narrative of Yorubaland",
+     "autores": [
+      "Ayowole S. ELUGBAJU",
+      "Inioluwa T. TOLUWALOPE"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://journals.abuad.edu.ng/index.php/agidigbo/article/view/2257",
+     "doi": "10.53982/agidigbo.2025.1302.11-j",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "ABUAD Journal of the Humanities-AGIDIGBO",
+     "editora": "Department of General Studies, Afe Babalola University, Ado-Ekiti",
+     "assuntos": [
+      "Olufon",
+      "Ile-Ife",
+      "Ifon",
+      "Ritual",
+      "Yoruba Heritage"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "50911f31342b4cdfae0e4ac4223d93e5",
+     "titulo": "Obatalá. Asociación cultural",
+     "autores": [
+      "Agustín González Plasencia"
+     ],
+     "ano": 2014,
+     "tipo_base": "article",
+     "url": "https://revistas.upcomillas.es/index.php/revistamigraciones/article/view/2901",
+     "doi": null,
+     "isbn": [],
+     "idioma": "ES",
+     "periodico": "Migraciones",
+     "editora": "Universidad Pontificia Comillas",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "5c334648bd6d46628b114745882e29e7",
+     "titulo": "New species and records of spiders (Arachnida: Araneae) from Ecuador",
+     "autores": [
+      "Alireza Zamani",
+      "Yuri M. Marusik"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "http://jibs.modares.ac.ir/article-36-75948-en.pdf",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Journal of Insect Biodiversity and Systematics",
+     "editora": "Tarbiat Modares University",
+     "assuntos": [
+      "amazonia",
+      "anapidae",
+      "hersiliidae",
+      "orellana",
+      "symphytognathidae",
+      "tiputini",
+      "yasuní national park"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oxala"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "67052fd45f484a6795a7a3a06dc0c23e",
+     "titulo": "İle-İfe: Geleneksel Yoruba Dininde Yaratılışın ve Dünyanın Merkezi",
+     "autores": [
+      "Canan Seyfeli"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://dergipark.org.tr/tr/download/article-file/909860",
+     "doi": "10.34247/artukluakademi.638802",
+     "isbn": [],
+     "idioma": "AR,EN,TR",
+     "periodico": "Artuklu Akademi",
+     "editora": "Mardin Artuklu University",
+     "assuntos": [
+      "geleneksel yoruba dini",
+      "i̇le-i̇fe",
+      "merkez simgeciliği",
+      "yaratılış",
+      "oduduva",
+      "traditional yoruba religion",
+      "ile-ife",
+      "center symbolism",
+      "creation",
+      "oduduwa"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "yoruba religion",
+      "oduduwa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "oxala",
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "bd1df98c864c481b80bbaf7bdaff5344",
+     "titulo": "From Eshu to Obatala: animals used in sacrificial rituals at Candomblé \"terreiros\" in Brazil",
+     "autores": [
+      "Brooks Sharon E",
+      "Alves Rômulo RN",
+      "Léo Neto Nivaldo A"
+     ],
+     "ano": 2009,
+     "tipo_base": "article",
+     "url": "http://www.ethnobiomed.com/content/5/1/23",
+     "doi": "10.1186/1746-4269-5-23",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Journal of Ethnobiology and Ethnomedicine",
+     "editora": "BMC",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble",
+      "terreiro",
+      "eshu",
+      "oxala"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "candomble",
+      "terreiro",
+      "afro-brasileiro"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "cc778bcf9e8249ea9d84dbf8a03afc49",
+     "titulo": "أسطورة الخلق ونشأة حضارة ايفي فى غرب أفريقيا: دراسة تحليلية",
+     "autores": [
+      "أسماء عبدالعليم علي"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://jocr.journals.ekb.eg/article_533468_21cc9f618e492b43d3f3b1547e8eeaa9.pdf",
+     "doi": "10.21608/jocr.2026.531653.1276",
+     "isbn": [],
+     "idioma": "AR,EN",
+     "periodico": "Mağallaẗ Markaz Al-H̲idmaẗ Lil Istišarāt Al-Baḥṯiyyaẗ wa Al-Luġāt",
+     "editora": "Menofia University, Faculty of Arts",
+     "assuntos": [
+      "ولودوماري",
+      "أودودوا",
+      "أوباتالا",
+      "أسطورة الخلق"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oxala",
+      "oduduwa"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "d0f9e556810d4b2fbc225a37e957030d",
+     "titulo": "Disability and Human Diversity: A Reinterpretation of Ẹni-òòṣà1 Philosophy in Yorùbá Belief",
+     "autores": [
+      "Omotade  Adegbindin"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/129917",
+     "doi": "10.32473/ysr.v3i1.129917",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "keywords: disability, ẹni-òòṣà, human dignity, ọbàtálá, abnormality"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "fa4c9bf921a24ea78af72386c738f4a3",
+     "titulo": "Disability and Human Diversity: A Reinterpretation of Ẹni-òòṣà1 Philosophy in Yorùbá Belief",
+     "autores": [
+      "Omotade  Adegbindin"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/129917",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "Keywords: Disability, Ẹni-òòṣà, Human dignity, Ọbàtálá, Abnormality"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "oxala",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "fb42de43730a4e858308d50d2e3273e6",
+     "titulo": "Identity and the absent mother in Atta's Everything Good will Come",
+     "autores": [
+      "Sola Emmanuel Owonibi",
+      "Olufunmilayo Gaji"
+     ],
+     "ano": 2017,
+     "tipo_base": "article",
+     "url": "https://journals.assaf.org.za/index.php/tvl/article/view/1093",
+     "doi": "10.17159/2309-9070/tvl.v.54i2.1093",
+     "isbn": [],
+     "idioma": "AF,EN,FR,NL",
+     "periodico": "Tydskrif vir Letterkunde",
+     "editora": "Tydskrif vir Letterkunde Association",
+     "assuntos": [
+      "absence",
+      "Ala",
+      "Sefi Atta",
+      "Everything good will come",
+      "identity",
+      "Obatala"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala"
+     ],
+     "termos_resumo": [
+      "oxala"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxala-es",
+   "q": "Obatalá santería",
+   "idioma": "es",
+   "alvo": "oxala",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oxum-pt",
+   "q": "Oxum orixá",
+   "idioma": "pt",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 9,
+   "n": 9,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "0c5885e1198848058a668254d80516a7",
+     "titulo": "MULHERES NEGRAS E RESILIÊNCIA",
+     "autores": [
+      "Gilmara Santos Mariosa",
+      "Sônia Maria Corrêa Lages"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "http://periodicos.pucminas.br/index.php/interacoes/article/view/25752",
+     "doi": "10.5752/p.1983-2478.2022v17n1p33-53",
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Interações",
+     "editora": "Pontifícia Universidade Católica de Minas Gerais",
+     "assuntos": [
+      "Mulher negra",
+      "Candomblé",
+      "Resiliência",
+      "Oxum"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble",
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "afro-brasileiro",
+      "oxum"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "1d68183dc96f4b11b225fb78dce5705c",
+     "titulo": "Oxum e ekedis:",
+     "autores": [
+      "Cristiano Sant'Anna",
+      "Isadora Souza da Silva"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://periodicos.uem.br/ojs/index.php/EspacoAcademico/article/view/54040",
+     "doi": null,
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Revista Espaço Acadêmico",
+     "editora": "Universidade Estadual de Maringá",
+     "assuntos": [
+      "terreiros, Oxum, ekedis, feminismo, redes sociais da internet"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "terreiro",
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "terreiro",
+      "oxum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "527d35a5e3dc4f16bf48642f8d370e5f",
+     "titulo": "Das Águas Ìyá Oxum: saberes ancestrais femininos em poesias negras diaspóricas",
+     "autores": [
+      "Cristian Sales"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/34575",
+     "doi": null,
+     "isbn": [],
+     "idioma": "ES,PT",
+     "periodico": "Revista Calundu",
+     "editora": "Grupo Calundu",
+     "assuntos": [
+      "Palavras-chave: Poesia negra feminina. Oxum. Saberes ancestrais. Epistemologia negra"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "oxum",
+      "iansa"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "6995b7db0e3848cdbe44dd74e8c4198c",
+     "titulo": "O presente de Oxum e a construção da multiplicidade no candomblé",
+     "autores": [
+      "Miriam C M Rabelo"
+     ],
+     "ano": 2015,
+     "tipo_base": "article",
+     "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872015000100237&lng=en&tlng=en",
+     "doi": "10.1590/0100-85872015v35n1cap11",
+     "isbn": [],
+     "idioma": "EN,ES,PT",
+     "periodico": "Religião e Sociedade",
+     "editora": "Instituto de Estudos da Religião",
+     "assuntos": [
+      "candomblé",
+      "oferenda",
+      "práticas de ocultamento e exibição",
+      "práticas visuais"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble",
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "terreiro",
+      "oxum"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "98230ec7677b40a6abe5e7db7e4462ce",
+     "titulo": "Violências e Instituição Maternidade: uma Reflexão Feminista Decolonial",
+     "autores": [
+      "Paula Rita Bacellar Gonzaga",
+      "Claudia Mayorga"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-98932019000600307&tlng=pt",
+     "doi": "10.1590/1982-3703003225712",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Psicologia: Ciência e Profissão",
+     "editora": "Conselho Federal de Psicologia",
+     "assuntos": [
+      "Maternidade",
+      "Feminismo decolonial",
+      "Colonialidade de gênero"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orixa",
+      "oxum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c7548cdc5b59497da048b97e5d25a27e",
+     "titulo": "Das Águas Ìyá Oxum: saberes ancestrais femininos em poesias negras diaspóricas",
+     "autores": [
+      "Cristian Sales"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://www.periodicos.unb.br/index.php/revistacalundu/article/view/34575",
+     "doi": "10.26512/revistacalundu.v4i2.34575",
+     "isbn": [],
+     "idioma": "ES,PT",
+     "periodico": "Revista Calundu",
+     "editora": "Grupo Calundu",
+     "assuntos": [
+      "Palavras-chave: Poesia negra feminina. Oxum. Saberes ancestrais. Epistemologia negra"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "oxum",
+      "iansa"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "d1de57ec8c244fb68ba930a32597c52a",
+     "titulo": "A Dança Sagrada: uma discussão de Memória Bergsoniana em movimento",
+     "autores": [
+      "Wermerson Meira  Silva",
+      "João Diogenes Ferreira dos Santos"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://periodicos2.uesb.br/index.php/odeere/article/view/9784",
+     "doi": "10.22481/odeere.v6i2.9784",
+     "isbn": [],
+     "idioma": "EN,ES,PT",
+     "periodico": "Revista Odeere",
+     "editora": "Universidade Estadual do Sudoeste da Bahia (UESB)",
+     "assuntos": [
+      "Memória",
+      "Bergson",
+      "Oxum",
+      "Corpo",
+      "Candomblé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble",
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "terreiro",
+      "oxum"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "da5bf86f6ff04971bf9d686d049a692d",
+     "titulo": "“Princesa negra” e “Oxum vai levantar”: representações do feminino nos cantos Umbandistas e Candomblecistas",
+     "autores": [
+      "Ana Flávia Furtado",
+      "Alleid Ribeiro Machado"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://dadolinuntl.com/index.php/rev/article/view/52",
+     "doi": "10.62929/30078261.v2i2.52",
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Dadolin",
+     "editora": "Universidade Nacional Timor Lorosa'e",
+     "assuntos": [
+      "Mitologia Iorubá",
+      "Representação feminina",
+      "Mulheres marginalizadas",
+      "Cantos umbandistas e candomblecistas"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble",
+      "umbanda",
+      "oxum",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "umbanda",
+      "oxum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "ee4d14b47288476da6326cf4232e5466",
+     "titulo": "“Havia um segredo que só Halima sabia”: confluências entre literatura afro-brasileira e mitologia dos Orixás",
+     "autores": [
+      "Oluwa Seyi Salles Bento",
+      "Emerson da Cruz Inácio"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://periodicos.ufsc.br/index.php/literatura/article/view/62861",
+     "doi": "10.5007/2175-7917.2019v24n1p70",
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Anuário de Literatura",
+     "editora": "Universidade Federal de Santa Catarina",
+     "assuntos": [
+      "Oxum",
+      "Conceição Evaristo",
+      "Produção literária afro-brasileira",
+      "Textos mitológicos"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "afro-brasileiro",
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "afro-brasileiro",
+      "oxum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxum-en",
+   "q": "Osun goddess Osogbo",
+   "idioma": "en",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "21be061c42bc4f658d7532b7a9f2df38",
+     "titulo": "The Application of Multinomial Regression Analysis to Heritage Tourism.",
+     "autores": [
+      "Semiu Ayinla Alayande (Ph.D)"
+     ],
+     "ano": 2018,
+     "tipo_base": "article",
+     "url": "https://www.ajhtl.com/uploads/7/1/6/3/7163688/article_29_vol_7__3__2018.pdf",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "African Journal of Hospitality, Tourism and Leisure",
+     "editora": "AfricaJournals",
+     "assuntos": [
+      "Nigeria",
+      "Osun Sacred Grove",
+      "Yoruba people",
+      "heritage tourism"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~yoruba",
+      "~osun"
+     ],
+     "termos_resumo": [
+      "~yoruba",
+      "~osun",
+      "!excluir"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxum-es",
+   "q": "Ochún",
+   "idioma": "es",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "9dfad63271a14ac7963dfd1ee3f26708",
+     "titulo": "Estructura y discurso de género en tres deidades del panteón afrocubano",
+     "autores": [
+      "Vivian Romeu"
+     ],
+     "ano": 2013,
+     "tipo_base": "article",
+     "url": "https://www.journals.unam.mx/index.php/rmcpys/article/view/42531",
+     "doi": "10.22201/fcpys.2448492xe.2006.197.42531",
+     "isbn": [],
+     "idioma": "EN,ES",
+     "periodico": "Revista Mexicana de Ciencias Políticas y Sociales",
+     "editora": "Universidad Nacional Autónoma de México",
+     "assuntos": [
+      "Orichas",
+      "mito",
+      "discurso",
+      "religión afrocubana",
+      "roles de género",
+      "Ochún"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oricha",
+      "afro-cubano",
+      "oxum"
+     ],
+     "termos_resumo": [
+      "afro-cubano"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxum-en2",
+   "q": "Oshun orisha",
+   "idioma": "en",
+   "alvo": "oxum",
+   "status": "ok",
+   "erro": null,
+   "total": 4,
+   "n": 4,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "50e1b19bb93a4beb898db79abe9fe8fc",
+     "titulo": "Hablando de altares afrodescendientes y su pedagogía decolonial encimarronía interestética",
+     "autores": [
+      "Marisol Cárdenas Oñate"
+     ],
+     "ano": 2017,
+     "tipo_base": "article",
+     "url": "http://revistanuestramerica.cl/ojs/index.php/nuestramerica/article/view/27",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,PT",
+     "periodico": "Revista nuestrAmérica",
+     "editora": "Ediciones nuestrAmérica desde Abajo",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orisha",
+      "oxum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "6d797aaf5ce14383a6e85ad4af1e2bbb",
+     "titulo": "The Proliferation of Yorùbá Religion in the Atlantic during the Nineteenth Century: The Portability of the Orisha",
+     "autores": [
+      "Sheneese   Thompson"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/132800",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "shango",
+      "oxum",
+      "~ogum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "860f2a27bdd34b1494eadbad2d8587a3",
+     "titulo": "Elementos y simbolismo del arquetipo filosófico afrocaribeño de Oshún en la obra Del amor y otros demonios",
+     "autores": [
+      "Katia De la Cruz García"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://revistas.unal.edu.co/index.php/lthc/article/view/78644",
+     "doi": "10.15446/lthc.v21n2.78644",
+     "isbn": [],
+     "idioma": "ES",
+     "periodico": "Literatura: Teoría, Historia, Crítica",
+     "editora": "Universidad Nacional de Colombia",
+     "assuntos": [
+      "arquetipos",
+      "filosofía de ifá",
+      "teoría critica africana",
+      "caribe",
+      "gabriel garcía márquez."
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "ifa",
+      "oxum"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "ifa",
+      "oxum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "db5d2d04b17440ba92918993f3314290",
+     "titulo": "The Proliferation of Yorùbá Religion in the Atlantic during the Nineteenth Century: The Portability of the Orisha",
+     "autores": [
+      "Sheneese   Thompson"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/132800",
+     "doi": "10.32473/ysr.7.2.132800",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "shango",
+      "oxum",
+      "~ogum",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-iansa-pt",
+   "q": "Iansã orixá",
+   "idioma": "pt",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "5f7e3e86a3d444c88fe768cee005311d",
+     "titulo": "Das forças literárias à essencialidade da literatura: os conceitos do texto literário em “O sumiço da Santa”",
+     "autores": [
+      "Amauri Salvador"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://periodicos.cfs.ifmt.edu.br/periodicos/index.php/alembra/article/view/1014",
+     "doi": "10.47270/ra.v6i13.1014",
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Revista Alembra",
+     "editora": "IFMT",
+     "assuntos": [
+      "Literatura",
+      "Texto Literário",
+      "O sumiço da Santa",
+      "Jorge Amado"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "iansa"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "9d5d95ae4e1e419ab7d44543d67199f8",
+     "titulo": "Devir macumbeiro e a corporeidade  de Oiá-Iansã",
+     "autores": [
+      "Eduardo Bonine"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://periodicos.puc-campinas.edu.br/reflexao/article/view/14903",
+     "doi": "10.24220/2447-6803v50a2025e14903",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Reflexão",
+     "editora": "Pontificia Universidade Católica de Campinas",
+     "assuntos": [
+      "Devir macumbeiro",
+      "Religião e carnaval",
+      "Rito da brasilidade"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "iansa"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "iansa"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "bd1dfa20bb3e4905b0f611cf55dccb46",
+     "titulo": "Filosofias em diáspora",
+     "autores": [
+      "Luís Thiago Freire Dantas"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://revistas.marilia.unesp.br/index.php/transformacao/article/view/10765",
+     "doi": "10.1590/0101-3173.2022.v45esp.10.p169",
+     "isbn": [],
+     "idioma": "EN,ES,IT,PT",
+     "periodico": "Trans/Form/Ação",
+     "editora": "Universidade Estadual Paulista",
+     "assuntos": [
+      "Filosofia Africana",
+      "Diáspora",
+      "Terreiro",
+      "Corpo"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "terreiro"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "terreiro",
+      "iansa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-iansa-en",
+   "q": "Oya Yoruba",
+   "idioma": "en",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "158adc7a7d334b8799a8692e655ee0d7",
+     "titulo": "Yorùbá and Medieval Plague: Could Sòpònná Originate as a Black Death Deity?",
+     "autores": [
+      "Noël Amherd"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/143210",
+     "doi": "10.32473/ysr.11.2.143210",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "Sòpònná",
+      "òrìsà",
+      "plague",
+      "yersinia pestis",
+      "Yorùbá",
+      " Ifá"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "ifa",
+      "iansa",
+      "egungun",
+      "oriki",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "4d85839c32ad4794ad3771e5ef2a704d",
+     "titulo": "“Oshύn frente al espejo: la defensa del territorio cuerpo-tierra de sí misma, en claves afro-políticas”.",
+     "autores": [
+      "Maydi Estrada Bayona"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://liminar.cesmeca.mx/index.php/r1/article/view/998",
+     "doi": "10.29043/liminar.v21i2.998",
+     "isbn": [],
+     "idioma": "ES",
+     "periodico": "Liminar: Estudios Sociales y Humanísticos",
+     "editora": "Universidad de Ciencias y Artes de Chiapas",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "yemoja",
+      "iansa",
+      "itan",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "fa11ce6ae915477eb62ba351a83c9445",
+     "titulo": "Against Feminine Erasure in Yoruba Ritual Archives: Theorizing Oya, the Mystical Deity Across the Black Atlantic World",
+     "autores": [
+      "Niyi Afolabi"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/141483",
+     "doi": "10.32473/ysr.11.1.141483",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "Ọya as a mystical deity",
+      "Ọya as multifaceted",
+      "iconic deity",
+      "against erasure of Ọya",
+      "Ọya as a mystical deity; Ọya as multifaceted; iconic deity; against erasure of Ọya; reimagination of Ọya as mystical; Ọya as protective mother.",
+      "Ọya as protective mother"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "iansa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "santeria",
+      "vodou",
+      "yemoja",
+      "iansa",
+      "~ogum",
+      "~yoruba",
+      "~osun"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-iansa-es",
+   "q": "Oyá santería",
+   "idioma": "es",
+   "alvo": "iansa",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "fa11ce6ae915477eb62ba351a83c9445",
+     "titulo": "Against Feminine Erasure in Yoruba Ritual Archives: Theorizing Oya, the Mystical Deity Across the Black Atlantic World",
+     "autores": [
+      "Niyi Afolabi"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/141483",
+     "doi": "10.32473/ysr.11.1.141483",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "Ọya as a mystical deity",
+      "Ọya as multifaceted",
+      "iconic deity",
+      "against erasure of Ọya",
+      "Ọya as a mystical deity; Ọya as multifaceted; iconic deity; against erasure of Ọya; reimagination of Ọya as mystical; Ọya as protective mother.",
+      "Ọya as protective mother"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "iansa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "santeria",
+      "vodou",
+      "yemoja",
+      "iansa",
+      "~ogum",
+      "~yoruba",
+      "~osun"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-nana-pt",
+   "q": "Nanã orixá",
+   "idioma": "pt",
+   "alvo": "nana",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-nana-en",
+   "q": "Nana Buruku",
+   "idioma": "en",
+   "alvo": "nana",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "3c224d06ea514f25a4e17a37336377b1",
+     "titulo": "Orixás",
+     "autores": [
+      "Cledi Marília Caivano Pedroso de  Albuquerque"
+     ],
+     "ano": 2016,
+     "tipo_base": "article",
+     "url": "https://ojs.sites.ufsc.br/index.php/naui/article/view/6424",
+     "doi": null,
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Cadernos NAUI",
+     "editora": "Universidade Federal de Santa Catarina",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "ochosi",
+      "yemoja",
+      "shango",
+      "oxala",
+      "oxum",
+      "nana",
+      "oxumare",
+      "ossaim",
+      "~exu",
+      "~nana"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "ee3e7d0a8ffb485382f7d4f73f9077dc",
+     "titulo": "Orixás",
+     "autores": [
+      "Cleidi Marília Caivano Pedroso de Albuquerque"
+     ],
+     "ano": 2016,
+     "tipo_base": "article",
+     "url": "https://repositorio.ufsc.br/xmlui/handle/123456789/176340",
+     "doi": null,
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Cadernos NAUI",
+     "editora": "Universidade Federal de Santa Catarina",
+     "assuntos": [
+      "orixás"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "ochosi",
+      "yemoja",
+      "shango",
+      "oxala",
+      "oxum",
+      "nana",
+      "oxumare",
+      "ossaim",
+      "~exu",
+      "~nana"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-omolu-pt",
+   "q": "Omolu Obaluaê",
+   "idioma": "pt",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-omolu-en",
+   "q": "Sakpata Obaluaye",
+   "idioma": "en",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-omolu-es",
+   "q": "Babalú Ayé",
+   "idioma": "es",
+   "alvo": "omolu",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "838126ddff374e579498cf0fe46bccf8",
+     "titulo": "La velada de San Lázaro en la localidad de Caonao.",
+     "autores": [
+      "Atabey Medina García",
+      "Carmen María Quintana Borges",
+      "Niurka García Maró"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://rccd.ucf.edu.cu/index.php/aes/article/view/183/220",
+     "doi": null,
+     "isbn": [],
+     "idioma": "ES",
+     "periodico": "Revista Científica Cultura, Comunicación y Desarrollo",
+     "editora": "Universidad de Cienfuegos",
+     "assuntos": [
+      "velada",
+      "comunidad"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "afro-cubano"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c524144057804812af35ecbe41989f26",
+     "titulo": "Religious Exemptions",
+     "autores": [
+      "Anne Zimmerman"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.library.columbia.edu/index.php/bioethics/article/view/8814",
+     "doi": "10.52214/vib.v7i.8814",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Voices in Bioethics",
+     "editora": "Columbia University Libraries",
+     "assuntos": [
+      "Vaccine mandate",
+      "religious exemption",
+      "bioethics",
+      "strict scrutiny",
+      "free exercise"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "omolu"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c853858a965a42fb902394aa412d8ec7",
+     "titulo": "Strategies of Justification in Resolving Conflicts of Values and Interests. A Comparative Analysis of Constitutional Argumentation in Cases of Animal Sacrifice",
+     "autores": [
+      "Stanisław Goźdź-Roszkowski"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://tidsskrift.dk/her/article/view/140129",
+     "doi": "10.7146/hjlcb.vi63.140129",
+     "isbn": [],
+     "idioma": "DE,EN,ES,FR",
+     "periodico": "Hermes",
+     "editora": "Aarhus University",
+     "assuntos": [
+      "justification",
+      "constitutional argumentation",
+      "animal sacrifice",
+      "values",
+      "incompletely theorized agreement",
+      "pragmatic argumentation"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "omolu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxumare-pt",
+   "q": "Oxumarê",
+   "idioma": "pt",
+   "alvo": "oxumare",
+   "status": "ok",
+   "erro": null,
+   "total": 9,
+   "n": 9,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "05c00e60d5bd4a3ab972bac4f5da19fc",
+     "titulo": "As representações sociais dos orixás para a comunidade do Candomblé Ketu a partir das letras de suas cantigas",
+     "autores": [
+      "Antonio Marcos Tosoli Gomes",
+      "Álvaro Rafael Santana Peixoto",
+      "Ricardo José Oliveira Mouta",
+      "Juliana de Lima Brandão",
+      "Pablo Luiz Santos Couto",
+      "Rafael Moura Coelho Pecly Wolter",
+      "Carla Marins Silva"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://periodicos.puc-campinas.edu.br/reflexao/article/view/8580",
+     "doi": "10.24220/2447-6803v49a2024e8580",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Reflexão",
+     "editora": "Pontificia Universidade Católica de Campinas",
+     "assuntos": [
+      "Candomblé",
+      "Crenças religiosas",
+      "Espiritualidade",
+      "Religiosidade",
+      "Representação social"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "ochosi",
+      "yemoja",
+      "shango",
+      "oxala",
+      "oxum",
+      "iansa",
+      "oxumare",
+      "ossaim",
+      "~ogum",
+      "~exu",
+      "~nana"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "202e4447cb314deca6f1c6bc378a2803",
+     "titulo": "“Eu respeito seu amém, você respeita meu axé?”: um estudo etnográfico sobre terreiros de candomblé como organizações de resistência à luz de um olhar decolonial",
+     "autores": [
+      "JEFFERSON RODRIGUES PEREIRA",
+      "JOSÉ VITOR PALHARES DOS SANTOS",
+      "ALICE DE FREITAS OLETO"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1679-39512023000400606&tlng=pt",
+     "doi": "10.1590/1679-395120220149",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Cadernos EBAPE.BR",
+     "editora": "Fundação Getulio Vargas, Escola Brasileira de Administração Pública e de Empresas",
+     "assuntos": [
+      "Decolonialidade",
+      "Resistência",
+      "Candomblé",
+      "Etnografia",
+      "Racismo religioso"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble",
+      "terreiro",
+      "axe"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "terreiro",
+      "afro-brasileiro",
+      "axe",
+      "oxumare"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "2f8bcea2755942c3b134385248142a6e",
+     "titulo": "La voz del gagá: Un análisis de sus recursos vocales",
+     "autores": [
+      "Sarina Alonzo Ortiz"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://revistas.unphu.edu.do/index.php/aula/article/view/395",
+     "doi": "10.33413/aulahcs.2025.71i1.395",
+     "isbn": [],
+     "idioma": "ES",
+     "periodico": "AULA Revista de Humanidades y Ciencias Sociales",
+     "editora": "Universidad Nacional Pedro Henríquez Ureña",
+     "assuntos": [
+      "Gagá",
+      "manifestación religiosa",
+      "tradición",
+      "recursos vocales",
+      "canto"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oxumare"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "3c224d06ea514f25a4e17a37336377b1",
+     "titulo": "Orixás",
+     "autores": [
+      "Cledi Marília Caivano Pedroso de  Albuquerque"
+     ],
+     "ano": 2016,
+     "tipo_base": "article",
+     "url": "https://ojs.sites.ufsc.br/index.php/naui/article/view/6424",
+     "doi": null,
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Cadernos NAUI",
+     "editora": "Universidade Federal de Santa Catarina",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "ochosi",
+      "yemoja",
+      "shango",
+      "oxala",
+      "oxum",
+      "nana",
+      "oxumare",
+      "ossaim",
+      "~exu",
+      "~nana"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "49927dc952d548dd882c3f2685d90fcf",
+     "titulo": "Unveiling cryptic diversity: integrative taxonomy discovers eight new species of moths and exposes biodiversity shortfalls in a Neotropical region",
+     "autores": [
+      "Simeão de Souza Moraes",
+      "Patricia Avelino Machado",
+      "Mariana Alves Stanton",
+      "Georgette Paola Ancajima",
+      "Lydia Fumiko Yamaguchi",
+      "Luiza de Moraes Magaldi",
+      "Massuo Jorge Kato",
+      "André Victor Lucci Freitas"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://doi.org/10.1038/s41598-026-41222-x",
+     "doi": "10.1038/s41598-026-41222-x",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Scientific Reports",
+     "editora": "Nature Portfolio",
+     "assuntos": [
+      "Host plant",
+      "Morphology",
+      "COI",
+      "DNA barcode",
+      "Cryptic species complex",
+      "Taxonomic impediment"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "yemoja",
+      "oxumare",
+      "logunede",
+      "ibeji"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "8c6230cc2113436c960ce7ec40e77371",
+     "titulo": "Gênero e sexualidade nas comunidades tradicionais de terreiro: tensões e resistências à cisheteronormatividade",
+     "autores": [
+      "Antônio Pedro Lima Júnior"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/55864",
+     "doi": "10.26512/revistacalundu.v8i2.55864",
+     "isbn": [],
+     "idioma": "ES,PT",
+     "periodico": "Revista Calundu",
+     "editora": "Grupo Calundu",
+     "assuntos": [
+      "cisheteronormatividade",
+      "terreiros",
+      "fluidez de gênero",
+      "inclusão LGBTQIAPN+",
+      "resistência cultural"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "terreiro"
+     ],
+     "termos_resumo": [
+      "terreiro",
+      "oxumare",
+      "logunede",
+      "~exu"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "90e10cdecdce4dbd9376d1179b4de856",
+     "titulo": "OXUMARÉ E XANGÔ: A INFLUÊNCIA RELIGIOSA NA SUBSTITUIÇÃO DOS TOPÔNIMOS DAS RUAS DO BAIRRO JARDIM SUCUPIRA EM FEIRA DE SANTANA-BA",
+     "autores": [
+      "Natália Oliveira Nascimento",
+      "Rita de Cássia Ribeiro de Queiroz"
+     ],
+     "ano": 2018,
+     "tipo_base": "article",
+     "url": "https://periodicos.ufs.br/revec/article/view/11192",
+     "doi": "10.32748/revec.v4i2.11192",
+     "isbn": [],
+     "idioma": "EN,ES,PT",
+     "periodico": "Revista de Estudos de Cultura",
+     "editora": "Universidade Federal de Sergipe",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "shango",
+      "oxumare"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "afro-brasileiro",
+      "shango",
+      "oxumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c83173684a17479c9eae69c9111e13b2",
+     "titulo": "Education in the oral tradition of the African matrix in Brazil: Ancestry, resistance and human constitution",
+     "autores": [
+      "Daniela Barros",
+      "Saulo Pequeno",
+      "Patrícia Lima Martins Pederiva"
+     ],
+     "ano": 2018,
+     "tipo_base": "article",
+     "url": "https://epaa.asu.edu/ojs/article/view/3518",
+     "doi": "10.14507/epaa.26.3518",
+     "isbn": [],
+     "idioma": "EN,ES,PT",
+     "periodico": "Education Policy Analysis Archives",
+     "editora": "Arizona State University",
+     "assuntos": [
+      "Educação",
+      "Constituição Humana",
+      "Tradição Oral",
+      "Culturas Populares",
+      "Povos e Comunidades Tradicionais"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oxumare"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "ee3e7d0a8ffb485382f7d4f73f9077dc",
+     "titulo": "Orixás",
+     "autores": [
+      "Cleidi Marília Caivano Pedroso de Albuquerque"
+     ],
+     "ano": 2016,
+     "tipo_base": "article",
+     "url": "https://repositorio.ufsc.br/xmlui/handle/123456789/176340",
+     "doi": null,
+     "isbn": [],
+     "idioma": "PT",
+     "periodico": "Cadernos NAUI",
+     "editora": "Universidade Federal de Santa Catarina",
+     "assuntos": [
+      "orixás"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "ochosi",
+      "yemoja",
+      "shango",
+      "oxala",
+      "oxum",
+      "nana",
+      "oxumare",
+      "ossaim",
+      "~exu",
+      "~nana"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oxumare-en",
+   "q": "Osumare Dan rainbow serpent",
+   "idioma": "en",
+   "alvo": "oxumare",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ossaim-pt",
+   "q": "Ossaim folhas candomblé",
+   "idioma": "pt",
+   "alvo": "ossaim",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ossaim-en",
+   "q": "Osanyin Yoruba",
+   "idioma": "en",
+   "alvo": "ossaim",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-logunede-pt",
+   "q": "Logunedé",
+   "idioma": "pt",
+   "alvo": "logunede",
+   "status": "ok",
+   "erro": null,
+   "total": 5,
+   "n": 5,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "30c2280accdc4fbb9c574f41db126470",
+     "titulo": "Vidante: apresentação de um filosofar de candomblé",
+     "autores": [
+      "Adeir Ferreira Alves"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://periodicos.ufrb.edu.br/index.php/griot/article/view/5254",
+     "doi": "10.31977/grirfi.v25i1.5254",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Griot",
+     "editora": "Universidade Federal do Recôncavo da Bahia",
+     "assuntos": [
+      "Vidante; Encantamento; Filosofar de candomblé; Ancestralidade; Cosmopercepção africana."
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "logunede",
+      "~exu",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "40f02a5a4e3043929bd2b24687e06ba0",
+     "titulo": "A indumentária de Lógunède e a diversidade de gênero na cosmopercepção Iyorùbá",
+     "autores": [
+      "José Roberto Lima Santos"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/47629",
+     "doi": "10.26512/revistacalundu.v7i1.47629",
+     "isbn": [],
+     "idioma": "ES,PT",
+     "periodico": "Revista Calundu",
+     "editora": "Grupo Calundu",
+     "assuntos": [
+      "Cosmopercepção Iyorùbá",
+      "Diversidade de Gênero.",
+      "Candomblé Reafricanizado",
+      "Indumentárias de orixás",
+      "Indumentária de Lógunède"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble",
+      "logunede",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "logunede",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "49927dc952d548dd882c3f2685d90fcf",
+     "titulo": "Unveiling cryptic diversity: integrative taxonomy discovers eight new species of moths and exposes biodiversity shortfalls in a Neotropical region",
+     "autores": [
+      "Simeão de Souza Moraes",
+      "Patricia Avelino Machado",
+      "Mariana Alves Stanton",
+      "Georgette Paola Ancajima",
+      "Lydia Fumiko Yamaguchi",
+      "Luiza de Moraes Magaldi",
+      "Massuo Jorge Kato",
+      "André Victor Lucci Freitas"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://doi.org/10.1038/s41598-026-41222-x",
+     "doi": "10.1038/s41598-026-41222-x",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Scientific Reports",
+     "editora": "Nature Portfolio",
+     "assuntos": [
+      "Host plant",
+      "Morphology",
+      "COI",
+      "DNA barcode",
+      "Cryptic species complex",
+      "Taxonomic impediment"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "yemoja",
+      "oxumare",
+      "logunede",
+      "ibeji"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "8c6230cc2113436c960ce7ec40e77371",
+     "titulo": "Gênero e sexualidade nas comunidades tradicionais de terreiro: tensões e resistências à cisheteronormatividade",
+     "autores": [
+      "Antônio Pedro Lima Júnior"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/55864",
+     "doi": "10.26512/revistacalundu.v8i2.55864",
+     "isbn": [],
+     "idioma": "ES,PT",
+     "periodico": "Revista Calundu",
+     "editora": "Grupo Calundu",
+     "assuntos": [
+      "cisheteronormatividade",
+      "terreiros",
+      "fluidez de gênero",
+      "inclusão LGBTQIAPN+",
+      "resistência cultural"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "terreiro"
+     ],
+     "termos_resumo": [
+      "terreiro",
+      "oxumare",
+      "logunede",
+      "~exu"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "d11f16002c3c4b8b83947601702c8391",
+     "titulo": "O tempo dos orixás: mẹta mẹta como tradução de temporalidades corpóreas desobedientes",
+     "autores": [
+      "Cleberson Diego Gonçalves Maddox"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/58023",
+     "doi": "10.26512/revistacalundu.v9i2.58023",
+     "isbn": [],
+     "idioma": "ES,PT",
+     "periodico": "Revista Calundu",
+     "editora": "Grupo Calundu",
+     "assuntos": [
+      "Identidade plural",
+      "Orixás",
+      "Mẹta Mẹta",
+      "Tradução",
+      "Epistemologias afro-diaspóricas"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "afro-diasporico"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "afro-brasileiro",
+      "afro-diasporico",
+      "oxum",
+      "logunede",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-oba-pt",
+   "q": "Obá orixá",
+   "idioma": "pt",
+   "alvo": "oba",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "bf4b0b888c5343ccaa9463d48a79545a",
+     "titulo": "OS ESCRITOS REUNIDOS DO ANTROPÓLOGO E OBÁ\nVIVALDO DA COSTA LIMA. RESEÑA DE \"LESSÉ ORIXÁ - NOS PÉS DO SANTO\" DE  LIMA, Vivaldo da Costa",
+     "autores": [
+      "Vagner Gon\\u00E7alves da Silva"
+     ],
+     "ano": 2012,
+     "tipo_base": "article",
+     "url": "http://www.redalyc.org/articulo.oa?id=77023550007",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Afro-Ásia",
+     "editora": "Universidade Federal da Bahia - Centro de Estudos Afro-Orientais",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-ewa-pt",
+   "q": "Ewá orixá",
+   "idioma": "pt",
+   "alvo": "ewa",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ibeji-pt",
+   "q": "Ibeji orixá",
+   "idioma": "pt",
+   "alvo": "ibeji",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "2f778989832544f48d61f06623b9e756",
+     "titulo": "Pureza e confusão",
+     "autores": [
+      "Ordep José Trindade Serra"
+     ],
+     "ano": 2018,
+     "tipo_base": "article",
+     "url": "https://periodicos.unb.br/index.php/anuarioantropologico/article/view/6099",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Anuário Antropológico",
+     "editora": "Programa de Pós-Graduação em Antropologia Social da Universidade de Brasília (PPGAS/UnB)",
+     "assuntos": [
+      "Antropologia"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "terreiro",
+      "ibeji"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-ibeji-en",
+   "q": "ibeji twins Yoruba",
+   "idioma": "en",
+   "alvo": "ibeji",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "871e05dc2e6b480cbabad2d7ef62bb60",
+     "titulo": "Tracing the Origin of Twins’ Birth Through the Yoruba Oral Tradition",
+     "autores": [
+      "Olufunmilola Adedayo Ogunbunmi"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/141497",
+     "doi": "10.32473/ysr.11.1.141497",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "twins' birth",
+      "oral tradition",
+      "Twins' praise name",
+      "Isokun quarters"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "ibeji",
+      "oriki",
+      "~yoruba",
+      "~oyo"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "d651cbc4a77a4cfa878a13f8c7511bb5",
+     "titulo": "If Bronze, Why Not Wood? A Case for the Repatriation of the Yoruba Ere Ibeji",
+     "autores": [
+      "Kehinde Adewumi"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://journals.dut.ac.za/index.php/ajims/article/view/954",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "African Journal of Inter-Multidisciplinary Studies",
+     "editora": "Azure Academic Publishers",
+     "assuntos": [
+      "ere ibeji",
+      "Yoruba",
+      "repatriation",
+      "looted",
+      "artefacts"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "ibeji",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "ibeji",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-iroko-pt",
+   "q": "Iroko orixá",
+   "idioma": "pt",
+   "alvo": "iroko",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-orunmila-pt",
+   "q": "Orunmilá Ifá",
+   "idioma": "pt",
+   "alvo": "orunmila",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "1c040bd4b81042bebca62b8c7b123de7",
+     "titulo": "¡Si esa piedra está ahí, es porque cumple una función!: aproximaciones al Antropoceno desde la cosmología de ifá-Òrúnmìlà",
+     "autores": [
+      "ANGÉLICA MARÍA RIVERA LÓPEZ",
+      "HANS CARRILLO GUACH"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://revistas.uniandes.edu.co/index.php/nys/article/view/7998",
+     "doi": "10.53010/nys6.02",
+     "isbn": [],
+     "idioma": "EN,ES,PT",
+     "periodico": "Naturaleza y Sociedad: Desafíos Medioambientales",
+     "editora": "Universidad de los Andes (Bogotá)",
+     "assuntos": [
+      "Antropoceno",
+      "ifá-òrìsà",
+      "naturaleza",
+      "odù",
+      "ontología",
+      "regla de osha-ifá"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "orunmila",
+      "odu"
+     ],
+     "termos_resumo": [
+      "ifa",
+      "orunmila"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "cd3f3c15ea5746c489d40f71b12bd7d3",
+     "titulo": "Na encruzilhada do destino: a liberdade como aquilo que define o significado de ser humano, segundo a filosofia de Òrúnmìlà",
+     "autores": [
+      "Carlos Rocha"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://periodicos.ufrb.edu.br/index.php/griot/article/view/6056",
+     "doi": "10.31977/grirfi.v26i3.6056",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT",
+     "periodico": "Griot",
+     "editora": "Universidade Federal do Recôncavo da Bahia",
+     "assuntos": [
+      "Orí; Destino; Livre-vontade; Fatalismo; Ènìyàn."
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orunmila"
+     ],
+     "termos_resumo": [
+      "ifa",
+      "legba",
+      "orunmila",
+      "egungun"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-orunmila-en",
+   "q": "Orunmila Ifa divination",
+   "idioma": "en",
+   "alvo": "orunmila",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-oduduwa-en",
+   "q": "Oduduwa Ile-Ife",
+   "idioma": "en",
+   "alvo": "oduduwa",
+   "status": "ok",
+   "erro": null,
+   "total": 19,
+   "n": 19,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "12c808117cee42499b9ff22ba4b7d6e1",
+     "titulo": "Anti-Hyperlipidemic Activity of Polyphenol-Rich Extract of Cochlospermum Planchonii Roots in Triton x-100 Induced Rats",
+     "autores": [
+      "M. O. Nafiu",
+      "M. O. Salawu",
+      "A. O. Idowu",
+      "M. A. Akanji"
+     ],
+     "ano": 2020,
+     "tipo_base": "article",
+     "url": "https://www.fountainjournals.com/index.php/FUJNAS/article/view/258",
+     "doi": "10.53704/fujnas.v9i1.258",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Fountain Journal of Natural and Applied Sciences (FUJNAS)",
+     "editora": "Fountain University Osogbo",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "15ee45ac6e494d35b4004ba11ce6135b",
+     "titulo": "Nano-CaO<sub>2</sub>-Modified Biochar for Enhancing Thermophilic Anaerobic Digestion of Tofu Wastewater: A Review of Risk Mitigation and Resource Recovery Strategies",
+     "autores": [
+      "Xingzhong Zheng",
+      "Ndungutse Jean Maurice",
+      "Halima Niyilolawa Giwa",
+      "Abdulmoseen Segun Giwa"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://www.mdpi.com/1420-3049/31/11/1882",
+     "doi": "10.3390/molecules31111882",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Molecules",
+     "editora": "MDPI AG",
+     "assuntos": [
+      "tofu wastewater",
+      "nano-calcium-peroxide-modified biochar",
+      "thermophilic anaerobic digestion",
+      "risk management",
+      "failure mode and effects analysis",
+      "resource recovery"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "35f17f964aa1484c9674639941b36e85",
+     "titulo": "Samuel Johnson’s view about Oduduwa in connection with the origins of the Yoruba",
+     "autores": [
+      "Agai M. Jock"
+     ],
+     "ano": 2020,
+     "tipo_base": "article",
+     "url": "https://hts.org.za/index.php/hts/article/view/6013",
+     "doi": "10.4102/hts.v76i4.6013",
+     "isbn": [],
+     "idioma": "AF,EN",
+     "periodico": "HTS Teologiese Studies/Theological Studies",
+     "editora": "AOSIS",
+     "assuntos": [
+      "africa",
+      "ancestor",
+      "ancient near east",
+      "ile-ife",
+      "migrant legend",
+      "myth",
+      "oduduwa",
+      "oral tradition",
+      "yorubaland"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oduduwa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "oduduwa",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "3a107ad66b0c4d099880fa23345b485a",
+     "titulo": "Leveraging blockchain technology for cost efficiency of renewable energy",
+     "autores": [
+      "Nnamdi Nwulu",
+      "Love David",
+      "Tayo Uthman Badrudeen",
+      "Tayo Uthman Badrudeen"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://www.frontiersin.org/articles/10.3389/fenrg.2025.1640117/full",
+     "doi": "10.3389/fenrg.2025.1640117",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Frontiers in Energy Research",
+     "editora": "Frontiers Media S.A.",
+     "assuntos": [
+      "auctioneering",
+      "blockchain technology",
+      "cost",
+      "cost efficiency",
+      "renewable energy",
+      "smart contract"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "40dadd89954f4ba59650010874ad2e1c",
+     "titulo": "From Twitter to Aso-Rock: A sentiment analysis framework for understanding Nigeria 2023 presidential election",
+     "autores": [
+      "Olusola Olabanjo",
+      "Ashiribo Wusu",
+      "Oseni Afisi",
+      "Mauton Asokere",
+      "Rebecca Padonu",
+      "Olufemi Olabanjo",
+      "Oluwafolake Ojo",
+      "Olusegun Folorunso",
+      "Benjamin Aribisala",
+      "Manuel Mazzara"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "http://www.sciencedirect.com/science/article/pii/S2405844023032929",
+     "doi": "10.1016/j.heliyon.2023.e16085",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Heliyon",
+     "editora": "Elsevier",
+     "assuntos": [
+      "NLP",
+      "NLU",
+      "Twitter",
+      "Sentiment analysis",
+      "Opinion mining",
+      "Nigeria"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "493c643ae5d24f349dd8ee5670df1d54",
+     "titulo": "Coupled Black Soldier Fly Larvae Processing and Anaerobic Digestion Technologies for Enhanced Vacuum Blackwater Treatment and Resource Recovery: A Review",
+     "autores": [
+      "Zelong Wang",
+      "Yunjuan Ruan",
+      "Ndungutse Jean Maurice",
+      "Halima Niyilolawa Giwa",
+      "Abdulmoseen Segun Giwa"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://www.mdpi.com/2311-5637/12/1/23",
+     "doi": "10.3390/fermentation12010023",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Fermentation",
+     "editora": "MDPI AG",
+     "assuntos": [
+      "vacuum blackwater",
+      "black soldier fly larvae (<i>Hermetia illucens</i>)",
+      "anaerobic digestion",
+      "thermophilic condition",
+      "circular bioeconomy"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "66a1564fb37141e3b7d16707f702165c",
+     "titulo": "Control strategy for renewable energy driven self-excited induction generator",
+     "autores": [
+      "Tayo Uthman Badrudeen",
+      "Oluwafemi Omojola",
+      "Ayodeji Olalekan Salau",
+      "Sepiribo Lucky Braide",
+      "Joy Nnenna Eneh"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://www.tandfonline.com/doi/10.1080/25765299.2024.2383050",
+     "doi": "10.1080/25765299.2024.2383050",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Arab Journal of Basic and Applied Sciences",
+     "editora": "Taylor & Francis Group",
+     "assuntos": [
+      "Artificial neural network",
+      "electronic load controller",
+      "frequency stability",
+      "renewable energy, self-excited induction generator (SEIG)"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "67052fd45f484a6795a7a3a06dc0c23e",
+     "titulo": "İle-İfe: Geleneksel Yoruba Dininde Yaratılışın ve Dünyanın Merkezi",
+     "autores": [
+      "Canan Seyfeli"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://dergipark.org.tr/tr/download/article-file/909860",
+     "doi": "10.34247/artukluakademi.638802",
+     "isbn": [],
+     "idioma": "AR,EN,TR",
+     "periodico": "Artuklu Akademi",
+     "editora": "Mardin Artuklu University",
+     "assuntos": [
+      "geleneksel yoruba dini",
+      "i̇le-i̇fe",
+      "merkez simgeciliği",
+      "yaratılış",
+      "oduduva",
+      "traditional yoruba religion",
+      "ile-ife",
+      "center symbolism",
+      "creation",
+      "oduduwa"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "yoruba religion",
+      "oduduwa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "oxala",
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "76b755ef5381415fa8b54913aad48cbb",
+     "titulo": "Anti-Hyperlipidemic Activity of Polyphenol-Rich Extract of Cochlospermum Planchonii Roots in Triton x-100 Induced Rats",
+     "autores": [
+      "M. O. Nafiu",
+      "M. O. Salawu",
+      "A. O. Idowu",
+      "M. A. Akanji"
+     ],
+     "ano": 2020,
+     "tipo_base": "article",
+     "url": "https://fountainjournals.com/index.php/FUJNAS/article/view/258",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Fountain Journal of Natural and Applied Sciences (FUJNAS)",
+     "editora": "Fountain University Osogbo",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "85580ec4903d4abdb0fbdaa4d85d7839",
+     "titulo": "The historical development and challenges of Islam in Ila-Orangun, Nigeria",
+     "autores": [
+      "R Ibrahim Adebayo"
+     ],
+     "ano": 2015,
+     "tipo_base": "article",
+     "url": "http://ijims.iainsalatiga.ac.id/index.php/ijims/article/view/255",
+     "doi": "10.18326/ijims.v5i1.1-28",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Indonesian Journal of Islam and Muslim Societies",
+     "editora": "IAIN Salatiga",
+     "assuntos": [
+      "Islam",
+      "Ila-Orangun",
+      "Oba",
+      "Development",
+      "Challenges"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oduduwa",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "861058bf2e2349f797a6a09fc230abeb",
+     "titulo": "Immune boosting and ameliorative properties of aqueous extract of Vernonia amygdalina Delile against MSG-induced genotoxicity: An in silico and in vivo approach",
+     "autores": [
+      "Temitope Abiola",
+      "Emmanuel O. John",
+      "Ibukun Temitope Sossou",
+      "Benedict Charles Callistus"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "http://www.sciencedirect.com/science/article/pii/S2405844023104348",
+     "doi": "10.1016/j.heliyon.2023.e23226",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Heliyon",
+     "editora": "Elsevier",
+     "assuntos": [
+      "Vernonia amygdalina",
+      "Genotoxicity",
+      "Monosodium glutamate",
+      "In silico",
+      "Micronucleus"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "8d8d874c029f4dfb97b11e27332e193e",
+     "titulo": "Témoins africains de crises sanitaires ?",
+     "autores": [
+      "Cécile Chapelain de Seréville-Niel",
+      "Gérard Chouin"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://journals.openedition.org/nda/14255",
+     "doi": "10.4000/nda.14255",
+     "isbn": [],
+     "idioma": "FR",
+     "periodico": "Les Nouvelles de l’Archéologie",
+     "editora": "Editions de la Maison des Sciences de l'Homme",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oduduwa"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "9270ba636fb94775ad2a9173dcc038a5",
+     "titulo": "Low-inertia control of a large-scale renewable energy penetration in power grids: A systematic review with taxonomy and bibliometric analysis",
+     "autores": [
+      "Tayo Uthman Badrudeen",
+      "Nnamdi I. Nwulu",
+      "Saheed Lekan Gbadamosi"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "http://www.sciencedirect.com/science/article/pii/S2211467X24000440",
+     "doi": "10.1016/j.esr.2024.101337",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Energy Strategy Reviews",
+     "editora": "Elsevier",
+     "assuntos": [
+      "Low inertia",
+      "Frequency control",
+      "Renewable energy",
+      "Frequency stability",
+      "Microgrid",
+      "Rate of change of frequency (Rocof)"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "9f7df633f12b4c7693ae986ac88e085f",
+     "titulo": "A Novel Classification of the 330 kV Nigerian Power Network Using a New Voltage Stability Pointer",
+     "autores": [
+      "Tayo Uthman Badrudeen",
+      "Funso Kehinde Ariyo",
+      "Saheed Lekan Gbadamosi",
+      "Nnamdi I. Nwulu"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://www.mdpi.com/1996-1073/15/19/7247",
+     "doi": "10.3390/en15197247",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Energies",
+     "editora": "MDPI AG",
+     "assuntos": [
+      "voltage stability",
+      "new voltage stability pointer (NVSP)",
+      "contingency",
+      "support vector machine",
+      "Nigerian power network (NGP)",
+      "critical lines"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "ccebfcdcd5fa4f3d8ec3508f0d4d0a57",
+     "titulo": "Optimal sizing of FACTS controller through hybrid metaheuristic algorithm for static security enhancement in transmission power systems",
+     "autores": [
+      "Tayo Uthman Badrudeen",
+      "Funso K. Ariyo",
+      "Nnamdi Nwulu"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "http://www.sciencedirect.com/science/article/pii/S2468227625000146",
+     "doi": "10.1016/j.sciaf.2025.e02543",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Scientific African",
+     "editora": "Elsevier",
+     "assuntos": [
+      "FACTS devices",
+      "Power stability",
+      "STATCOM",
+      "Voltage profile",
+      "Congestion management",
+      "Dynamic stability"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "d2a3c97136a1460f87f0ef7cba28d0a6",
+     "titulo": "Predicting stroke with machine learning techniques in a sub-Saharan African population",
+     "autores": [
+      "Benjamin Segun Aribisala",
+      "Deirdre Edward",
+      "Godwin Ogbole",
+      "Onoja M. Akpa",
+      "Segun Ayilara",
+      "Fred Sarfo",
+      "Olusola Olabanjo",
+      "Adekunle Fakunle",
+      "Babafemi Oluropo Macaulay",
+      "Joseph Yaria",
+      "Joshua Akinyemi",
+      "Albert Akpalu",
+      "Kolawole Wahab",
+      "Reginald Obiako",
+      "Morenikeji Komolafe",
+      "Lukman Owolabi",
+      "Godwin Osaigbovo",
+      "Akinkunmi Paul Okekunle",
+      "Arti Singh",
+      "Philip Ibinaye",
+      "Osahon Osawata",
+      "Adeniyi Sunday",
+      "Ijezie Chukwuonye",
+      "Carolyn Jenkins",
+      "Hemant K. Tiwari",
+      "Okechukwu Ogah",
+      "Ruth Y. Laryea",
+      "Daniel T. Lackland",
+      "Oyedunni Arulogun",
+      "Omotolani Ajala",
+      "Rufus Akinyemi",
+      "Bruce Ovbiagele",
+      "Steffen Sammet",
+      "Mayowa Owolabi"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "http://www.sciencedirect.com/science/article/pii/S2772528625000317",
+     "doi": "10.1016/j.neuri.2025.100216",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Neuroscience Informatics",
+     "editora": "Elsevier",
+     "assuntos": [
+      "Stroke",
+      "SIREN",
+      "Sub-Sahara Africa",
+      "Risk factors",
+      "Machine learning",
+      "Artificial neural network"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "d40ea63209d74de08d5a9fa4d1665875",
+     "titulo": "Purification and erythrocyte-membrane perturbing activity of a ketose-specific lectin from Moringa oleifera seeds",
+     "autores": [
+      "Tolulope Nubi",
+      "Taiwo Scholes Adewole",
+      "Titilayo Oluwaseun Agunbiade",
+      "Olukemi Adetutu Osukoya",
+      "Adenike Kuku"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "http://www.sciencedirect.com/science/article/pii/S2215017X21000667",
+     "doi": "10.1016/j.btre.2021.e00650",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Biotechnology Reports",
+     "editora": "Elsevier",
+     "assuntos": [
+      "Moringa oleifera",
+      "Ketose-Specific Lectin",
+      "Chemical modification",
+      "Erythrocyte-membrane perturbing"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "e1be781efeb140b582a77abb8b13bf82",
+     "titulo": "Retour sur l’archéologie mortuaire d’époque médiévale dans le sud-ouest du Nigéria",
+     "autores": [
+      "Cécile Chapelain de Seréville-Niel",
+      "Gérard Chouin",
+      "Adisa Ogunfolakan"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://journals.openedition.org/aaa/5237",
+     "doi": "10.4000/12meo",
+     "isbn": [],
+     "idioma": "EN,FR",
+     "periodico": "Afrique Archéologie Arts",
+     "editora": "OpenEdition",
+     "assuntos": [
+      "burial",
+      "black death",
+      "mass grave",
+      "human remains"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "oduduwa",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "f954ca2724004978aedd8e4c214a0cda",
+     "titulo": "Students’ Housing in Private Universities in Nigeria: Influencing Factors and Effect on Academic Performance",
+     "autores": [
+      "Joshua Ugbede Adama",
+      "Douglas Omoregie Aghimien",
+      "Christopher Odunmorayo Fabunmi"
+     ],
+     "ano": 2018,
+     "tipo_base": "article",
+     "url": "http://www.ijbes.utm.my/index.php/ijbes/article/view/242",
+     "doi": "10.11113/ijbes.v5.n1.242",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "International Journal of Built Environment and Sustainability",
+     "editora": "Universiti Teknologi Malaysia",
+     "assuntos": [
+      "Academic Performance",
+      "Cumulative Grade Point Average",
+      "Education",
+      "Private Universities",
+      "Student Housing"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-olokun-en",
+   "q": "Olokun",
+   "idioma": "en",
+   "alvo": "olokun",
+   "status": "ok",
+   "erro": null,
+   "total": 23,
+   "n": 20,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "1dc142d4b92c40b3a8de0479e889350c",
+     "titulo": "Excerpts from The Freedom Fight: A Novel of Resistance and Freedom.",
+     "autores": [
+      "Pamela J. Olubunmi    Smith"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/130009",
+     "doi": "10.32473/ysr.v3i2.130009",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "20bb09bbf9ca40179b5024b0936690ae",
+     "titulo": "Intertextuality in Selected Narrative Poems of Adébáyọ̀ Fálétí",
+     "autores": [
+      "Arinpe  Adejumo ",
+      "Adefemi  Akinseloyin "
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/129986",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~ogum",
+      "~yoruba",
+      "~oyo"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "211b96d58a91468aaa087735a639fe79",
+     "titulo": "Cuerpos híbridos. Cuerpos culpables. Cuerpos Bienaventurados.",
+     "autores": [
+      "Maguy Blancofombona"
+     ],
+     "ano": 2010,
+     "tipo_base": "article",
+     "url": "http://journals.openedition.org/cher/8339",
+     "doi": "10.4000/cher.8339",
+     "isbn": [],
+     "idioma": "EN,ES,FR,IT,RO",
+     "periodico": "Recherches",
+     "editora": "OpenEdition",
+     "assuntos": [
+      "société",
+      "Église",
+      "exaltation",
+      "femme"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "2bd57326e821448ebad65a3bcb2aa48a",
+     "titulo": "Excerpts from The Freedom Fight: A Novel of Resistance and Freedom.",
+     "autores": [
+      "Pamela J. Olubunmi    Smith"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/130009",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "342b600503ab436bb1695c156c80012e",
+     "titulo": "Growth Performance, Blood Profile, and Carcass Characteristics of Weaned Pigs Fed Low Crude Protein Diets Supplemented with Lysine",
+     "autores": [
+      "T. K. Ojediran",
+      " E. O. Babatunde",
+      " S. O. Olokun",
+      " O. K.  Adigun",
+      " B. B.\t Ajao",
+      " F.\t\t Emaye",
+      "M. D. Shittu",
+      "F. A. Adejoro"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journal.ipb.ac.id/index.php/tasj/article/view/34796",
+     "doi": "10.5398/tasj.2021.44.4.434",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Tropical Animal Science Journal",
+     "editora": "IPB University",
+     "assuntos": [
+      "lysine",
+      "crude protein",
+      "feed cost",
+      "growth performance",
+      "meat quality"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "437bcd61066f40cda79bd84f6b029da8",
+     "titulo": "Local Shock Properties Measurement Using Time-Resolved Raman Spectroscopy",
+     "autores": [
+      "Dhiman Abhijeet",
+      "Lewis Nolan S.",
+      "Olokun Ayotomi",
+      "Tomar Vikas"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://www.epj-conferences.org/articles/epjconf/pdf/2021/04/epjconf_dymat2021_01023.pdf",
+     "doi": "10.1051/epjconf/202125001023",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "EPJ Web of Conferences",
+     "editora": "EDP Sciences",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "5750ee692e9347eaaa9993ed252ebb0a",
+     "titulo": "Intertextuality in Selected Narrative Poems of Adébáyọ̀ Fálétí",
+     "autores": [
+      "Arinpe  Adejumo",
+      "Adefemi  Akinseloyin"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/129986",
+     "doi": "10.32473/ysr.v3i2.129986",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~ogum",
+      "~yoruba",
+      "~oyo"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "65a4157269c14c508e59927f46e2fe0a",
+     "titulo": "The Freedom Fight: A Novel of Resistance and Freedom. A Translation by Pamela J. Olubunmi Smith of Adébáyọ̀ Fálétí’s Ọmọ Olókùn Ẹṣin",
+     "autores": [
+      "Michael Oladejo  Afolayan"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/129996",
+     "doi": "10.32473/ysr.v3i2.129996",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": [
+      "olokun",
+      "~ogum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "900b7f9320f543849f46a125e651ddc4",
+     "titulo": "Small-Scale Fisheries (SSF) Characteristics and Governance Challenges in Lagos State, Nigeria",
+     "autores": [
+      "Shehu L Akintola",
+      "Akinkunmi S Ojo",
+      "Rosheedah A Adeniji",
+      "Olubukola O Sogbesan"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://davaoresearchjournal.ph/index.php/main/article/view/445",
+     "doi": "10.59120/drj.v16i3.445",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Davao Research Journal",
+     "editora": "Davao Oriental State University",
+     "assuntos": [
+      "conflict resolution",
+      " fisher participation",
+      "lagos state",
+      "small-scale fisheries",
+      "sustainability"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "90d598ddcbd74f6bb0edfe10800eedf1",
+     "titulo": "Thermo-mechanical behavior measurement of polymer-bonded sugar under shock compression using in-situ time-resolved Raman spectroscopy",
+     "autores": [
+      "Abhijeet Dhiman",
+      "Nolan S. Lewis",
+      "Ayotomi Olokun",
+      "Dana D. Dlott",
+      "Vikas Tomar"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://doi.org/10.1038/s41598-022-05834-3",
+     "doi": "10.1038/s41598-022-05834-3",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Scientific Reports",
+     "editora": "Nature Portfolio",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "93554cf5b3a34b8c93e4bcfc3869b8f9",
+     "titulo": "The Freedom Fight: A Novel of Resistance and Freedom. A Translation by Pamela J. Olubunmi Smith of Adébáyọ̀ Fálétí’s Ọmọ Olókùn Ẹṣin",
+     "autores": [
+      "Michael Oladejo  Afolayan"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/129996",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": [
+      "olokun",
+      "~ogum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "a6a616f82ed246f2a0300f8bfa635eff",
+     "titulo": "Design and Implementation of Stock Market Prediction System for Used Cars in Nigeria",
+     "autores": [
+      "A. A. Ibrahim",
+      "A. A. Alabi",
+      "O. A. Ayilara-Adewale",
+      "F. R. Olokun-Olukotun"
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://www.ajol.info/index.php/jasem/article/view/291691",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Journal of Applied Sciences and Environmental Management",
+     "editora": "Joint Coordination Centre of the World Bank assisted National Agricultural Research Programme (NARP)",
+     "assuntos": [
+      "Tokunbo; Used cars; Extra tree; Machine learning; Stock market"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "adc7352685014ce98185fd6cbe9ad1fd",
+     "titulo": "Decolonial Myths and Demi-gods of the Tropics:  The More-than-Human Worlds of Manasa and Olokun",
+     "autores": [
+      "Sunu Rose Joseph",
+      "Shashikantha Koudur"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://journals.jcu.edu.au/etropic/article/view/3980",
+     "doi": "10.25120/etropic.22.1.2023.3980",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "eTropic: electronic journal of studies in the tropics",
+     "editora": "James Cook University",
+     "assuntos": [
+      "Decolonisation",
+      "Myth",
+      "Demigod",
+      "Anthropocene",
+      "Climate Crisis",
+      "Posthumanism"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "b442530f7a2d4ec4b2afca6d8fed2bc7",
+     "titulo": "Wole Soyinka’s Ori Olokun Emprise and Autobiography",
+     "autores": [
+      "Adetayo   Alabi"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/132801",
+     "doi": "10.32473/ysr.7.2.132801",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "b4c714d2b525490ab9ae573882e951d5",
+     "titulo": "Experimental study of anisotropic constitutive behavior of β-HMX crystals via nanoindentation and small-scale dynamic impact",
+     "autores": [
+      "Ayotomi Olokun",
+      "Tyler Dillard",
+      "Abhijeet Dhiman",
+      "Vikas Tomar"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://doi.org/10.1007/s42452-021-04862-4",
+     "doi": "10.1007/s42452-021-04862-4",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "SN Applied Sciences",
+     "editora": "Springer",
+     "assuntos": [
+      "HMX",
+      "Energetic materials",
+      "Anisotropy",
+      "Nanoindentation",
+      "Hardness"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "b567127a48ed414fb06a041892173c8a",
+     "titulo": "Fálétí’s Philosophical Sensibility",
+     "autores": [
+      "Adeshina  Afolayan"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/129978",
+     "doi": "10.32473/ysr.v3i2.129978",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba",
+      "~oyo"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c2d8a5f19dd6428eb955c8a6071f8454",
+     "titulo": "Introduction",
+     "autores": [
+      "Adeola Adijat  Faleye"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/131436",
+     "doi": "10.32473/ysr.v7i1.131436",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~ogum",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c74c27e4befd45189c0caa5a7c312a3f",
+     "titulo": "Fálétí’s Philosophical Sensibility",
+     "autores": [
+      "Adeshina  Afolayan"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/129978",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~yoruba",
+      "~oyo"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c9a29471473d47159a87e3f1b3220c1b",
+     "titulo": "Where Is the Money? The Intersectionality of the Spirit World and the Acquisition of Wealth",
+     "autores": [
+      "Suleman Lazarus"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://www.mdpi.com/2077-1444/10/3/146",
+     "doi": "10.3390/rel10030146",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Religions",
+     "editora": "MDPI AG",
+     "assuntos": [
+      "sociology of religion",
+      "spiritual and magical powers",
+      "economic anthropology",
+      "gospel of prosperity",
+      "Mami Wata or Olokun",
+      "digital spiritualization",
+      "spiritual manipulation of victims",
+      "Nigerian cybercriminals and scams",
+      "occult economy",
+      "Yahoo Boys and money rituals"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olokun"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "e67e021dc3e54b6c926ecc800496c7bb",
+     "titulo": "Introduction",
+     "autores": [
+      "Adeola Adijat  Faleye"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/131436",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "olokun",
+      "~ogum",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-olodumare",
+   "q": "Olodumare Yoruba God",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 10,
+   "n": 10,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "1cc185d4cb16453b8826da2473307e9f",
+     "titulo": "Is Olodumare, God in Yoruba Belief, God?: A Response to Benson O. Igboin",
+     "autores": [
+      "Oladipupo Sunday Layi"
+     ],
+     "ano": 2016,
+     "tipo_base": "article",
+     "url": "http://journal.sadra.ac.id/index.php/kanzphilosophia/article/view/169",
+     "doi": "10.20871/kpjipm.v6i1.169",
+     "isbn": [],
+     "idioma": "EN,ID",
+     "periodico": "Kanz Philosophia: A Journal for Islamic Philosophy and Mysticism",
+     "editora": "Sekolah Tinggi Agama Islam Sadra",
+     "assuntos": [
+      "Supreme Being",
+      "Olodumare",
+      "Yoruba",
+      "Esu",
+      "Benson O. Igboin"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olodumare",
+      "~exu",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "olodumare",
+      "~exu",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "224bf30f309b409181aa8bd2b6d6bfde",
+     "titulo": "The concept of monotheism in the Book of Proverbs and an African (Yoruba) perspective",
+     "autores": [
+      "David T. Adamo"
+     ],
+     "ano": 2022,
+     "tipo_base": "article",
+     "url": "https://verbumetecclesia.org.za/index.php/ve/article/view/2262",
+     "doi": "10.4102/ve.v43i1.2262",
+     "isbn": [],
+     "idioma": "AF,DE,EN,NL",
+     "periodico": "Verbum et Ecclesia",
+     "editora": "AOSIS",
+     "assuntos": [
+      "monotheism",
+      "yahweh",
+      "africa",
+      "proverbs",
+      "yoruba"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "yoruba religion",
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "31ee45cbeb20452881f60b3a9b0516a0",
+     "titulo": "A Comparative Study of Olodumare, the Yoruba Supreme Being and the Judea-Christian God",
+     "autores": [
+      "Segun Ogungbemi"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/130014",
+     "doi": "10.32473/ysr.v1i1.130014",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "724802aac12b4549a261aa7dc7028d4e",
+     "titulo": "Olodumare: God In Yoruba Belief And The Theistic Problem of Evil",
+     "autores": [
+      "John A. I. Bewaji"
+     ],
+     "ano": 1998,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ASQ/article/view/136485",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "African Studies Quarterly",
+     "editora": "University of Florida",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "yoruba religion",
+      "olodumare",
+      "~exu",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "977c62c6b41a4aa28ed61b74bff70104",
+     "titulo": "Translating the Hebrew Name יהוה into the Yoruba language of Nigeria in the Yoruba Bible",
+     "autores": [
+      "David T. Adamo"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://indieskriflig.org.za/index.php/skriflig/article/view/2410",
+     "doi": "10.4102/ids.v53i1.2410",
+     "isbn": [],
+     "idioma": "AF,DE,EN,NL",
+     "periodico": "In die Skriflig",
+     "editora": "AOSIS",
+     "assuntos": [
+      "Old Testament",
+      "Yahweh",
+      "African traditional religion",
+      "Olodumare",
+      "Oluwa",
+      "Translation",
+      "Yoruba language"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "9aa80966bd104c92ade31fc5e26c2c05",
+     "titulo": "A Comparative Study of Olodumare, the Yoruba Supreme Being and the Judea-Christian God",
+     "autores": [
+      "Segun Ogungbemi"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/130014",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "9bca9e7bf6c44cb0b6c838b5d6bf59d2",
+     "titulo": "SOCIO-ECONOMIC EFFECTS OF RITUAL IN RELIGIOUSLY PLURALISTIC SOCIETY IN IFE, OSUN, NIGERIA",
+     "autores": [
+      "OLUWASEUN FUNMI ABILAWON "
+     ],
+     "ano": 2025,
+     "tipo_base": "article",
+     "url": "https://wissjournals.com.ng/index.php/wiss/article/view/551",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "International Studies Journal",
+     "editora": "Federal University Wukari",
+     "assuntos": [
+      "Socio economic",
+      "Religion pluralistic",
+      "Traditional sacrifice",
+      "traditional religion",
+      "Christianity",
+      "Islam"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~osun"
+     ],
+     "termos_resumo": [
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "9f3ec1f551bb49819302c8d479ad202e",
+     "titulo": "Is Olodumare, God In Yoruba Belief, God?",
+     "autores": [
+      "Benson O. Igboin"
+     ],
+     "ano": 2014,
+     "tipo_base": "article",
+     "url": "http://journal.sadra.ac.id/index.php/kanzphilosophia/article/view/67",
+     "doi": "10.20871/kpjipm.v4i2.67",
+     "isbn": [],
+     "idioma": "EN,ID",
+     "periodico": "Kanz Philosophia: A Journal for Islamic Philosophy and Mysticism",
+     "editora": "Sekolah Tinggi Agama Islam Sadra",
+     "assuntos": [
+      "Olodumare",
+      "Esu",
+      "Problem of evil",
+      "God",
+      "Yoruba"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "olodumare",
+      "~exu",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "olodumare",
+      "~exu",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "cec516f9ba1b418788cd8f82a356db2d",
+     "titulo": "Beyond Presumption: Proof of Olódùmarè’s Existence Using Afẹ́fẹ́ (Air), Ilẹ̀ (Soil) and Omi (Water) among the Yoruba",
+     "autores": [
+      "Akinmayowa Akin-Otiko"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://www.njrcs.org/akin-otiko-2024/",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Nsukka Journal of Religion and Cultural Studies",
+     "editora": "Department of Religion and Cultural Studies, University of Nigeria, Nsukka",
+     "assuntos": [
+      "afẹ́fẹ́ (air); ifá (divination corpus); ilẹ̀ (soil); olódùmarè (god); omi (water); yoruba",
+      "yoruba"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "ifa",
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "ifa",
+      "olodumare",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "f5ce85156f0d4975bef2c670218122e8",
+     "titulo": "Beyond Presumption: Proof of Olódùmarè’s Existence Using Afẹ́fẹ́ (Air), Ilẹ̀ (Soil) and Omi (Water) among the Yoruba",
+     "autores": [
+      "Akinmayowa Akin-Otiko"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://journal.njrcs.org/index.php/njrcs/article/view/45",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Nsukka Journal of Religion and Cultural Studies",
+     "editora": "Department of Religion and Cultural Studies, University of Nigeria, Nsukka",
+     "assuntos": [
+      "Afẹ́fẹ́ (air); Ifá (divination corpus); Ilẹ̀ (soil); Olódùmarè (God); Omi (water); Yoruba"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "ifa",
+      "olodumare",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "ifa",
+      "olodumare",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-orun",
+   "q": "orun aiye cosmologia iorubá",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-egungun-pt",
+   "q": "Egungun culto Itaparica",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-egungun-en",
+   "q": "Egungun masquerade",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "3965b6e0ce5a4ee5827b4af95f75f171",
+     "titulo": "The Tragedies of Yorùbá’s Spiritual Space",
+     "autores": [
+      "Daniela-Irina DARIE"
+     ],
+     "ano": 2015,
+     "tipo_base": "article",
+     "url": "https://b00e8ea91c.clvaw-cdnwnd.com/4fb470e8cbb34a32a0dc1701f8d7322d/200000252-6eda26eda5/32-41%20Darie%20-%20The%20Tragedies%20of%20Yor%C3%B9b%C3%A1%E2%80%99s%20Spiritual%20Space.pdf",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Cultural Intertexts",
+     "editora": "Casa Cărții de Știință",
+     "assuntos": [
+      "obatala’s myth",
+      "chtonic space",
+      "african tragedy",
+      "christianity",
+      "egungun masquerade"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "oxala",
+      "egungun",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "doaj",
+     "id_base": "f9f2c6e4fc0c4fe2bf6d112c815ad267",
+     "titulo": "<i>Ará Òrun Kìn-ìn Kin-in:</i> Òyó-Yòrùbá <i>Egúngún</i> Masquerade in Communion and Maintenance of Ontological Balance <xref rid=\"fn1-genealogy-398950\" ref-type=\"fn\">†</xref>",
+     "autores": [
+      "Abiodun  Olasupo Akande"
+     ],
+     "ano": 2019,
+     "tipo_base": "article",
+     "url": "https://www.mdpi.com/2313-5778/3/1/7",
+     "doi": "10.3390/genealogy3010007",
+     "isbn": [],
+     "idioma": "EN",
+     "periodico": "Genealogy",
+     "editora": "MDPI AG",
+     "assuntos": [
+      "<i>egúngún</i>",
+      "Òyó",
+      "<i>alálè</i>",
+      "life-after-death",
+      "Yorùbá",
+      "<i>Ará Òrun Kìn-ìn kin-in</i>"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "egungun",
+      "~yoruba",
+      "~oyo"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "v4-cosmo-iyami",
+   "q": "Iyami Oxorongá",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-iyami-en",
+   "q": "Iyami Aje Yoruba witchcraft",
+   "idioma": "en",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-funfun",
+   "q": "orixás funfun",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-cosmo-ori",
+   "q": "Ori orixá cabeça",
+   "idioma": "pt",
+   "alvo": "cosmologia",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "ec3738c4dd644407b8388cc76821331e",
+     "titulo": "Cada Cabeça uma Sentença: coberturas de cabeça como identidade religiosa e étnico-cultural afro diaspórica",
+     "autores": [
+      "Ademir Barbosa Junior",
+      "Jorge Luís da Hora de Jesus"
+     ],
+     "ano": 2023,
+     "tipo_base": "article",
+     "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/47208",
+     "doi": "10.26512/revistacalundu.v7i1.47208",
+     "isbn": [],
+     "idioma": "ES,PT",
+     "periodico": "Revista Calundu",
+     "editora": "Grupo Calundu",
+     "assuntos": [
+      "Orí",
+      "Corpo",
+      "Afro diáspora",
+      "Vestimenta",
+      "Axé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "afro-diasporico",
+      "axe"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "afro-diasporico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-ita-pt",
+   "q": "itãs mitologia dos orixás",
+   "idioma": "pt",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "857561e799de4a79abf286b6a8cc82fe",
+     "titulo": "Transtorno de personalidade borderline",
+     "autores": [
+      "Renata Canal"
+     ],
+     "ano": 2024,
+     "tipo_base": "article",
+     "url": "https://self.emnuvens.com.br/self/article/view/204",
+     "doi": "10.21901/2448-3060/self-2024.vol09.204",
+     "isbn": [],
+     "idioma": "EN,ES,PT",
+     "periodico": "Self",
+     "editora": "Instituto Junguiano de São Paulo",
+     "assuntos": [
+      "personalidade antissocial",
+      "psicologia junguiana",
+      "automutilação",
+      " mitos"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "umbanda",
+      "terreiro",
+      "yemoja",
+      "oxala",
+      "itan",
+      "~yoruba",
+      "~nana"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-ita-odu",
+   "q": "odu Ifá corpus",
+   "idioma": "pt",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-ifa-en",
+   "q": "Ifa literary corpus odu",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-oriki",
+   "q": "oriki orisa",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "doaj",
+     "id_base": "158adc7a7d334b8799a8692e655ee0d7",
+     "titulo": "Yorùbá and Medieval Plague: Could Sòpònná Originate as a Black Death Deity?",
+     "autores": [
+      "Noël Amherd"
+     ],
+     "ano": 2026,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/143210",
+     "doi": "10.32473/ysr.11.2.143210",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [
+      "Sòpònná",
+      "òrìsà",
+      "plague",
+      "yersinia pestis",
+      "Yorùbá",
+      " Ifá"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "ifa",
+      "iansa",
+      "egungun",
+      "oriki",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "c08bd1bcd0354e4a9928b1b5a08a4fbe",
+     "titulo": "Èdè Àyàn: The Language of Àyàn in Yorùbá Art and Ritual of Egúngún",
+     "autores": [
+      "Oláwọlé  Fámúlẹ̀"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://ojs.test.flvc.org/ysr/article/view/129886",
+     "doi": null,
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "egungun",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "egungun",
+      "oriki",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "doaj",
+     "id_base": "e604e80ebeac486d899f184dde3efc4e",
+     "titulo": "Èdè Àyàn: The Language of Àyàn in Yorùbá Art and Ritual of Egúngún",
+     "autores": [
+      "Oláwọlé  Fámúlẹ̀"
+     ],
+     "ano": 2021,
+     "tipo_base": "article",
+     "url": "https://journals.flvc.org/ysr/article/view/129886",
+     "doi": "10.32473/ysr.v2i2.129886",
+     "isbn": [],
+     "idioma": "EN,ES,FR,PT,YO",
+     "periodico": "Yoruba Studies Review",
+     "editora": "LibraryPress@UF",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "egungun",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "egungun",
+      "oriki",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v4-ita-abimbola",
+   "q": "Abimbola Ifa",
+   "idioma": "en",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-ita-merindilogun",
+   "q": "merindilogun dilogun",
+   "idioma": "es",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "v4-pateo-pt",
+   "q": "patakí orishas",
+   "idioma": "es",
+   "alvo": "itas",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  }
+ ]
+}
