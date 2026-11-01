@@ -243,6 +243,14 @@ Sessão lote B, 2026-11-01 ([relatório](lote-B.md)). 176 registros com as fonte
 | 🔴 | Registros retidos (tabus e alimentos) do lote B: 9 (ibeji-004, -020, -029, -038; logunede-021, -025; oxumare-033; oba-018; ewa-008) | conselho decide o que é público | P3 |
 | 🔴 | Bastide pp. 157–161 descreve a colheita ritual das ervas pelo babalosaim (cantos, horas, pagamento a Ossaim, número de folhas na iniciação): **não fichado**, por tocar em fundamento | conselho decide se algo entra | P3 |
 
+## 3e. Capítulos narrativos (sessão cap01, 2026-11-01)
+
+| Status | O quê | Depende de | Prioridade |
+|:-:|---|---|:-:|
+| 🔴 | Anti-cópia dos capítulos sem o texto integral de 3 das 32 obras lidas que eles citam: `santos-2023-logunede` (SSLError em periodicos.unb.br; **nova**), `pitta-2011-mitos` (ProxyError; ver §1 e §1b) e `ogungbemi-2021-olodumare` (PDF sem camada de texto; ver §1b) | autor salvar os PDFs em `/tmp/refs-pdf/<source_id>.pdf` (ou no acervo) e rodar `baixar_refs.py --so-converter` | P2 |
+| 🔴 | Revisão dos 5 capítulos (Exu, Ogum, Oxóssi, Xangô, Iemanjá) por praticantes/pesquisadores: o capítulo só sai do rascunho quando todos os registros citados estiverem `revisado` | conselho (§3c) | P1 com o site público |
+| 🟡 | Saudações (Laroiê, Ogunhê, Kaô, Odoyá…) seguem sem registro fichado; os capítulos dizem isso nas lacunas | exemplar de Cacciatore/Beniste (§2) | P1 |
+
 ## 4. Resolvidos
 
 | Data | Item | Como |
