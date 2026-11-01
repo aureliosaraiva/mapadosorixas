@@ -3,7 +3,7 @@
     "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
     "esquema": "schemas/entidade.schema.json",
     "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
-    "total": 40
+    "total": 53
   },
   "entidades": [
     {
@@ -64,6 +64,105 @@
           "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
           "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
           "registro": "oxum-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:hongolo",
+      "rotulo": "Hongolo / Angoro",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxumare",
+          "aresta": "equivalencia:inquice:hongolo>oxumare"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Hongolo / Angoro, inquice de rio e de arco-íris",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 41",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 41",
+          "parafrase": "No angola-congo, Hongolo (Angoro ou Angoroméa), ligada à água doce e ao arco-íris, é posta em correspondência com Oxumaré.",
+          "nota": null,
+          "registro": "oxumare-031",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:katende",
+      "rotulo": "Katende / Mpanzu",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iroko",
+          "aresta": "equivalencia:inquice:katende>iroko"
+        },
+        {
+          "orixa": "ossaim",
+          "aresta": "equivalencia:inquice:katende>ossaim"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Katende (aproximação feita por alguns estudiosos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 40",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 40",
+          "parafrase": "Botão registra que Bastide e Carneiro aproximam o inquice Katende de Irocô, embora os adeptos o liguem a Ossain.",
+          "nota": "Aproximação atribuída por Botão a Bastide (1973) e Carneiro (1937).",
+          "registro": "iroko-012",
+          "status": "fichado"
+        },
+        {
+          "valor": "Katende/Mpanzu (inquice dos encantos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 40",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 40",
+          "parafrase": "Segundo Botão, o inquice Katende (Mpanzu em quicongo), ligado aos encantos, é associado a Ossain, dono das folhas no queto; alguns estudiosos o aproximam antes de Irocô.",
+          "nota": null,
+          "registro": "ossaim-037",
           "status": "fichado"
         }
       ]
@@ -138,6 +237,43 @@
           "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
           "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
           "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:kitembo",
+      "rotulo": "Kitembo / Tembu",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iroko",
+          "aresta": "equivalencia:inquice:kitembo>iroko"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Kitembo/Tembu, ligado aos ventos e à cura",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 42",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 42",
+          "parafrase": "No angola-congo, Kitembo (Tembu) é associado a Irocô ou Tempo, deus dos ventos, e age na cura de doenças.",
+          "nota": null,
+          "registro": "iroko-011",
           "status": "fichado"
         }
       ]
@@ -353,6 +489,80 @@
           "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
           "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
           "registro": "oxum-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:tere-kompenso",
+      "rotulo": "Tere-Kompenso / Gongobira",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "logunede",
+          "aresta": "equivalencia:inquice:tere-kompenso>logunede"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Tere-Kompenso / Gongobira, inquice protetor de quem pesca e caça (só em certos terreiros)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 42",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 42",
+          "parafrase": "Botão registra que, em alguns terreiros angola-congo, o inquice Tere-Kompenso (Ngongobila ou Gongobira), protetor de pescadores e caçadores, é associado a Logun Edé.",
+          "nota": null,
+          "registro": "logunede-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:vunji",
+      "rotulo": "Vunji",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ibeji",
+          "aresta": "equivalencia:ibeji>inquice:vunji"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Vunji (inquice da justiça, ligado ao nascimento)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 41",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 41",
+          "parafrase": "Vunji, deus da justiça que atua no nascimento das crianças, é aproximado dos Ibeji pela maioria dos sacerdotes angola-congo ouvidos por Botão.",
+          "nota": null,
+          "registro": "ibeji-039",
           "status": "fichado"
         }
       ]
@@ -800,6 +1010,82 @@
       ]
     },
     {
+      "id": "vodum:alogue",
+      "rotulo": "Alogué",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ossaim",
+          "aresta": "equivalencia:ossaim>vodum:alogue"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "vodum Alogué (jeje)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No quadro de correspondências do terreiro de Dona Jarina, o vodum jeje Alogué corresponde ao orixá Ossaim, sem santo católico indicado.",
+          "nota": null,
+          "registro": "ossaim-039",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:anyiewo",
+      "rotulo": "Anyiewo (ewe)",
+      "tipo": "vodum",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxumare",
+          "aresta": "equivalencia:oxumare>vodum:anyiewo"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Anyiewo, dos povos ewe",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "pp. 81–82",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "pp. 81–82",
+          "parafrase": "Ellis diz que o mesmo deus existe entre os ewe com o nome de Anyiewo.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "oxumare-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:averequete",
       "rotulo": "Averequete",
       "tipo": "vodum",
@@ -1064,6 +1350,117 @@
       ]
     },
     {
+      "id": "vodum:bocalabe",
+      "rotulo": "Boçalabê",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ewa",
+          "aresta": "equivalencia:ewa>vodum:bocalabe"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns Boçalabê (jeje) e Eowá (jeje-nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Euá corresponde ao vodum jeje Boçalabê e ao vodum Eowá, classificado como jeje-nagô.",
+          "nota": null,
+          "registro": "ewa-003",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:boco-jara",
+      "rotulo": "Boço Jara",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "logunede",
+          "aresta": "equivalencia:logunede>vodum:boco-jara"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "vodum Boço Jara (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, o vodum Boço Jara corresponde ao orixá Logun-Edé.",
+          "nota": null,
+          "registro": "logunede-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:dangbe",
+      "rotulo": "Dangbê",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxumare",
+          "aresta": "equivalencia:oxumare>vodum:dangbe"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns Dangbê (jeje) e Idarço (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Oxumarê corresponde ao vodum jeje Dangbê e ao nagô Idarço.",
+          "nota": null,
+          "registro": "oxumare-029",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:docu",
       "rotulo": "Doçu",
       "tipo": "vodum",
@@ -1138,6 +1535,43 @@
       ]
     },
     {
+      "id": "vodum:eowa",
+      "rotulo": "Eowá",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ewa",
+          "aresta": "equivalencia:ewa>vodum:eowa"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns Boçalabê (jeje) e Eowá (jeje-nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Euá corresponde ao vodum jeje Boçalabê e ao vodum Eowá, classificado como jeje-nagô.",
+          "nota": null,
+          "registro": "ewa-003",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:gu",
       "rotulo": "Gu",
       "tipo": "vodum",
@@ -1172,6 +1606,82 @@
           "parafrase": "Segundo Castillo, Ogum recebe culto, com atributos iguais e sob o nome de Gu, dos povos que no Brasil se chamam jejes. No Daomé, Gu ganhou importância por sua ligação com ferreiros e ofícios do ferro e, na cosmologia fon, integra um grupo de voduns tidos como de origem nagô.",
           "nota": "A classificação de Gu entre os voduns \"nagôs\" é de Le Hérissé (1911), citado pela autora. Equivalência não é identidade.",
           "registro": "ogum-046",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:hoho",
+      "rotulo": "Hoho (ewe)",
+      "tipo": "vodum",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ibeji",
+          "aresta": "equivalencia:ibeji>vodum:hoho"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Hoho, dos povos ewe",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 80",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "p. 80",
+          "parafrase": "Segundo Ellis, Ibeji corresponde ao deus Hoho dos ewe.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "ibeji-028",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:idarco",
+      "rotulo": "Idarço",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxumare",
+          "aresta": "equivalencia:oxumare>vodum:idarco"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns Dangbê (jeje) e Idarço (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Oxumarê corresponde ao vodum jeje Dangbê e ao nagô Idarço.",
+          "nota": null,
+          "registro": "oxumare-029",
           "status": "fichado"
         }
       ]

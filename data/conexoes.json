@@ -2,14 +2,14 @@
   "_meta": {
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
-    "total_nos": 85,
-    "total_arestas": 104,
+    "total_nos": 111,
+    "total_arestas": 139,
     "por_tipo": {
-      "associacao": 1,
+      "associacao": 3,
       "companheiro_de_culto": 3,
-      "equivalencia": 46,
-      "parentesco": 20,
-      "sincretismo": 34
+      "equivalencia": 60,
+      "parentesco": 33,
+      "sincretismo": 40
     }
   },
   "nos": [
@@ -27,6 +27,16 @@
       "id": "entidade:rei-dos-mestres",
       "rotulo": "Rei dos Mestres",
       "tipo": "entidade"
+    },
+    {
+      "id": "erinle",
+      "rotulo": "Erinlé / Inlé",
+      "tipo": "orixa"
+    },
+    {
+      "id": "ewa",
+      "rotulo": "Ewá",
+      "tipo": "orixa"
     },
     {
       "id": "exu",
@@ -59,6 +69,11 @@
       "tipo": "orixa"
     },
     {
+      "id": "ibeji",
+      "rotulo": "Ibeji",
+      "tipo": "orixa"
+    },
+    {
       "id": "iemanja",
       "rotulo": "Iemanjá",
       "tipo": "orixa"
@@ -69,6 +84,16 @@
       "tipo": "inquice"
     },
     {
+      "id": "inquice:hongolo",
+      "rotulo": "Hongolo / Angoro",
+      "tipo": "inquice"
+    },
+    {
+      "id": "inquice:katende",
+      "rotulo": "Katende / Mpanzu",
+      "tipo": "inquice"
+    },
+    {
       "id": "inquice:kavungu",
       "rotulo": "Kavungu / Kingongo / Insumbo",
       "tipo": "inquice"
@@ -76,6 +101,11 @@
     {
       "id": "inquice:kayala",
       "rotulo": "Kayala",
+      "tipo": "inquice"
+    },
+    {
+      "id": "inquice:kitembo",
+      "rotulo": "Kitembo / Tembu",
       "tipo": "inquice"
     },
     {
@@ -97,6 +127,26 @@
       "id": "inquice:quissimbe",
       "rotulo": "Quissimbe / Kissimbi",
       "tipo": "inquice"
+    },
+    {
+      "id": "inquice:tere-kompenso",
+      "rotulo": "Tere-Kompenso / Gongobira",
+      "tipo": "inquice"
+    },
+    {
+      "id": "inquice:vunji",
+      "rotulo": "Vunji",
+      "tipo": "inquice"
+    },
+    {
+      "id": "iroko",
+      "rotulo": "Iroko / Tempo",
+      "tipo": "orixa"
+    },
+    {
+      "id": "logunede",
+      "rotulo": "Logunedé",
+      "tipo": "orixa"
     },
     {
       "id": "nana",
@@ -149,13 +199,28 @@
       "tipo": "orixa"
     },
     {
+      "id": "odudua",
+      "rotulo": "Odudua",
+      "tipo": "orixa"
+    },
+    {
       "id": "ogum",
       "rotulo": "Ogum",
       "tipo": "orixa"
     },
     {
+      "id": "olokun",
+      "rotulo": "Olokun",
+      "tipo": "orixa"
+    },
+    {
       "id": "omolu",
       "rotulo": "Omolu / Obaluaê",
+      "tipo": "orixa"
+    },
+    {
+      "id": "ossaim",
+      "rotulo": "Ossaim",
       "tipo": "orixa"
     },
     {
@@ -209,6 +274,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:ns-carmo",
+      "rotulo": "Nossa Senhora do Carmo",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:ns-conceicao",
       "rotulo": "Nossa Senhora da (Imaculada) Conceição",
       "tipo": "santo_catolico"
@@ -244,6 +314,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:santa-teresa",
+      "rotulo": "Santa Teresa",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:santana",
       "rotulo": "Sant'Ana",
       "tipo": "santo_catolico"
@@ -254,6 +329,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "santo:santo-expedito",
+      "rotulo": "Santo Expedito",
+      "tipo": "santo_catolico"
+    },
+    {
       "id": "santo:sao-bartolomeu",
       "rotulo": "São Bartolomeu",
       "tipo": "santo_catolico"
@@ -261,6 +341,16 @@
     {
       "id": "santo:sao-benedito",
       "rotulo": "São Benedito",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-cosme-damiao",
+      "rotulo": "São Cosme e São Damião",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:sao-crispim-crispiniano",
+      "rotulo": "São Crispim e São Crispiniano",
       "tipo": "santo_catolico"
     },
     {
@@ -319,6 +409,16 @@
       "tipo": "vodum"
     },
     {
+      "id": "vodum:alogue",
+      "rotulo": "Alogué",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:anyiewo",
+      "rotulo": "Anyiewo (ewe)",
+      "tipo": "vodum"
+    },
+    {
       "id": "vodum:arronovissava",
       "rotulo": "Arronovissavá",
       "tipo": "vodum"
@@ -354,6 +454,21 @@
       "tipo": "vodum"
     },
     {
+      "id": "vodum:bocalabe",
+      "rotulo": "Boçalabê",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:boco-jara",
+      "rotulo": "Boço Jara",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:dangbe",
+      "rotulo": "Dangbê",
+      "tipo": "vodum"
+    },
+    {
       "id": "vodum:docu",
       "rotulo": "Doçu",
       "tipo": "vodum"
@@ -364,8 +479,23 @@
       "tipo": "vodum"
     },
     {
+      "id": "vodum:eowa",
+      "rotulo": "Eowá",
+      "tipo": "vodum"
+    },
+    {
       "id": "vodum:gu",
       "rotulo": "Gu",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:hoho",
+      "rotulo": "Hoho (ewe)",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:idarco",
+      "rotulo": "Idarço",
       "tipo": "vodum"
     },
     {
@@ -440,6 +570,69 @@
     }
   ],
   "arestas": [
+    {
+      "id": "associacao:iroko>nana",
+      "origem": "iroko",
+      "destino": "nana",
+      "tipo": "associacao",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "no Recife, a gameleira é relacionada a Nanã",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 165",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 165",
+          "parafrase": "Bastide anota que, no Recife, a gameleira se liga a Nanã.",
+          "nota": null,
+          "registro": "iroko-002",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "associacao:ossaim>oxossi",
+      "origem": "ossaim",
+      "destino": "oxossi",
+      "tipo": "associacao",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "muito associado a Oxóssi, com quem partilha plantas; teria ensinado a ele o segredo das folhas",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "pp. 256, 258–259",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "pp. 256, 258–259",
+          "parafrase": "Ossãe aparece muitas vezes ligado a Oxóssi: é o orixá que mais divide plantas com ele, e, numa história contada por Papai, foi Ossãe quem, na floresta, ensinou a Oxóssi o segredo das plantas.",
+          "nota": null,
+          "registro": "ossaim-034",
+          "status": "fichado"
+        }
+      ]
+    },
     {
       "id": "associacao:senhor_de:oxossi>entidade:caboclos",
       "origem": "oxossi",
@@ -593,6 +786,68 @@
           "parafrase": "M. Ferretti relata que Pai Euclides começou, no terreiro do Egito, a receber Rei dos Mestres, como ali eram chamadas Tó-Alapong e Tó-Alaby; para ele, trata-se de Oxalá, que mais tarde ele também recebeu no candomblé, e do vodum Lissá da Casa das Minas.",
           "nota": "A identificação com Oxalufã e Oxaguiã vem com ponto de interrogação no texto da autora.",
           "registro": "oxala-037",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:ewa>vodum:bocalabe",
+      "origem": "ewa",
+      "destino": "vodum:bocalabe",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "voduns Boçalabê (jeje) e Eowá (jeje-nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Euá corresponde ao vodum jeje Boçalabê e ao vodum Eowá, classificado como jeje-nagô.",
+          "nota": null,
+          "registro": "ewa-003",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:ewa>vodum:eowa",
+      "origem": "ewa",
+      "destino": "vodum:eowa",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "voduns Boçalabê (jeje) e Eowá (jeje-nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Euá corresponde ao vodum jeje Boçalabê e ao vodum Eowá, classificado como jeje-nagô.",
+          "nota": null,
+          "registro": "ewa-003",
           "status": "fichado"
         }
       ]
@@ -1026,6 +1281,69 @@
       ]
     },
     {
+      "id": "equivalencia:ibeji>inquice:vunji",
+      "origem": "ibeji",
+      "destino": "inquice:vunji",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Vunji (inquice da justiça, ligado ao nascimento)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 41",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 41",
+          "parafrase": "Vunji, deus da justiça que atua no nascimento das crianças, é aproximado dos Ibeji pela maioria dos sacerdotes angola-congo ouvidos por Botão.",
+          "nota": null,
+          "registro": "ibeji-039",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:ibeji>vodum:hoho",
+      "origem": "ibeji",
+      "destino": "vodum:hoho",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Hoho, dos povos ewe",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 80",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "p. 80",
+          "parafrase": "Segundo Ellis, Ibeji corresponde ao deus Hoho dos ewe.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "ibeji-028",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "equivalencia:iemanja>inquice:dandalunda",
       "origem": "iemanja",
       "destino": "inquice:dandalunda",
@@ -1233,6 +1551,99 @@
       ]
     },
     {
+      "id": "equivalencia:inquice:hongolo>oxumare",
+      "origem": "inquice:hongolo",
+      "destino": "oxumare",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Hongolo / Angoro, inquice de rio e de arco-íris",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 41",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 41",
+          "parafrase": "No angola-congo, Hongolo (Angoro ou Angoroméa), ligada à água doce e ao arco-íris, é posta em correspondência com Oxumaré.",
+          "nota": null,
+          "registro": "oxumare-031",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:katende>iroko",
+      "origem": "inquice:katende",
+      "destino": "iroko",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Katende (aproximação feita por alguns estudiosos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 40",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 40",
+          "parafrase": "Botão registra que Bastide e Carneiro aproximam o inquice Katende de Irocô, embora os adeptos o liguem a Ossain.",
+          "nota": "Aproximação atribuída por Botão a Bastide (1973) e Carneiro (1937).",
+          "registro": "iroko-012",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:katende>ossaim",
+      "origem": "inquice:katende",
+      "destino": "ossaim",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Katende/Mpanzu (inquice dos encantos)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 40",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 40",
+          "parafrase": "Segundo Botão, o inquice Katende (Mpanzu em quicongo), ligado aos encantos, é associado a Ossain, dono das folhas no queto; alguns estudiosos o aproximam antes de Irocô.",
+          "nota": null,
+          "registro": "ossaim-037",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "equivalencia:inquice:kavungu>omolu",
       "origem": "inquice:kavungu",
       "destino": "omolu",
@@ -1259,6 +1670,37 @@
           "parafrase": "Botão apresenta Kavungu, também chamado Kingongo ou Insumbo, como divindade das pestes e doenças, que também mexe com a sorte, associada ao Obaluaiê/Omulu do ketu; sugere que Ntoto, ligado à terra, talvez seja da mesma família.",
           "nota": "Sobre Ntoto o autor diz não ter achado equivalente e fala em hipótese.",
           "registro": "omolu-027",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:kitembo>iroko",
+      "origem": "inquice:kitembo",
+      "destino": "iroko",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Kitembo/Tembu, ligado aos ventos e à cura",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 42",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 42",
+          "parafrase": "No angola-congo, Kitembo (Tembu) é associado a Irocô ou Tempo, deus dos ventos, e age na cura de doenças.",
+          "nota": null,
+          "registro": "iroko-011",
           "status": "fichado"
         }
       ]
@@ -1394,6 +1836,68 @@
           "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
           "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
           "registro": "oxum-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:inquice:tere-kompenso>logunede",
+      "origem": "inquice:tere-kompenso",
+      "destino": "logunede",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Tere-Kompenso / Gongobira, inquice protetor de quem pesca e caça (só em certos terreiros)",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Candomblé angola-congo (terreiros estudados pelo autor, São Paulo)",
+          "sources": [
+            {
+              "id": "botao-2007-angola",
+              "loc": "p. 42",
+              "via": null
+            }
+          ],
+          "source_id": "botao-2007-angola",
+          "via_source_id": null,
+          "localizacao": "p. 42",
+          "parafrase": "Botão registra que, em alguns terreiros angola-congo, o inquice Tere-Kompenso (Ngongobila ou Gongobira), protetor de pescadores e caçadores, é associado a Logun Edé.",
+          "nota": null,
+          "registro": "logunede-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:logunede>vodum:boco-jara",
+      "origem": "logunede",
+      "destino": "vodum:boco-jara",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "vodum Boço Jara (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, o vodum Boço Jara corresponde ao orixá Logun-Edé.",
+          "nota": null,
+          "registro": "logunede-022",
           "status": "fichado"
         }
       ]
@@ -1804,6 +2308,37 @@
       ]
     },
     {
+      "id": "equivalencia:ossaim>vodum:alogue",
+      "origem": "ossaim",
+      "destino": "vodum:alogue",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "vodum Alogué (jeje)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "No quadro de correspondências do terreiro de Dona Jarina, o vodum jeje Alogué corresponde ao orixá Ossaim, sem santo católico indicado.",
+          "nota": null,
+          "registro": "ossaim-039",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "equivalencia:oxaguia>vodum:lissa",
       "origem": "oxaguia",
       "destino": "vodum:lissa",
@@ -2017,6 +2552,100 @@
           "parafrase": "No terreiro de Pai Francelino, Naveorualim, vodum jeje, e Navezuarina, nagô, têm Oxum como orixá correspondente; somados ao assentamento da própria orixá, chegam a 37 casos, o maior total do quadro de frequências.",
           "nota": "Prandi (p. 14) liga a frequência dos voduns à popularidade dos orixás correspondentes.",
           "registro": "oxum-019",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxumare>vodum:anyiewo",
+      "origem": "oxumare",
+      "destino": "vodum:anyiewo",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Anyiewo, dos povos ewe",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "pp. 81–82",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "pp. 81–82",
+          "parafrase": "Ellis diz que o mesmo deus existe entre os ewe com o nome de Anyiewo.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "oxumare-023",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxumare>vodum:dangbe",
+      "origem": "oxumare",
+      "destino": "vodum:dangbe",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "voduns Dangbê (jeje) e Idarço (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Oxumarê corresponde ao vodum jeje Dangbê e ao nagô Idarço.",
+          "nota": null,
+          "registro": "oxumare-029",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:oxumare>vodum:idarco",
+      "origem": "oxumare",
+      "destino": "vodum:idarco",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "voduns Dangbê (jeje) e Idarço (nagô)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "No terreiro de Dona Jarina, Oxumarê corresponde ao vodum jeje Dangbê e ao nagô Idarço.",
+          "nota": null,
+          "registro": "oxumare-029",
           "status": "fichado"
         }
       ]
@@ -2498,6 +3127,28 @@
           "nota": null,
           "registro": "omolu-019",
           "status": "fichado"
+        },
+        {
+          "valor": "em algumas versões, esposa de Omulu, depois de repudiada por Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 270",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 270",
+          "parafrase": "Na seção sobre Omulu, Chiousse anota que a mulher dele é Nanã (ou seu lado feminino) e, em outros casos, Obá, a esposa que Xangô repudiou.",
+          "nota": null,
+          "registro": "oba-007",
+          "status": "fichado"
         }
       ]
     },
@@ -2571,6 +3222,143 @@
           "parafrase": "Segundo Halloy, Xangô teria tido como mulheres Obá, Oiá e Oxum. Em nota, mostra que a ordem varia: em alguns relatos Obá é a primeira esposa, em outros Iansã; na maioria o casamento com Iansã vem antes do encontro com Oxum, que às vezes aparece como concubina.",
           "nota": "Concorda com xango-014 e xango-022 quanto às três esposas; diverge na ordem.",
           "registro": "xango-041",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposa de Xangô (com Iansã e Oxum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 122",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "parafrase": "Na explicação dos dias da semana, Bastide lembra que, além de Iansã, Xangô tem outras duas mulheres, Obá e Oxum.",
+          "nota": null,
+          "registro": "oba-001",
+          "status": "fichado"
+        },
+        {
+          "valor": "esposa de Xangô, com Iansã e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 239",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 239",
+          "parafrase": "Nos terreiros de Chiousse, Xangô é dado como marido de Iansã, Obá e Oxum.",
+          "nota": null,
+          "registro": "oba-006",
+          "status": "fichado"
+        },
+        {
+          "valor": "uma das esposas de Xangô; a ordem das esposas varia entre as narrativas",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 167 e nota 364",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 167 e nota 364",
+          "parafrase": "Obá é descrita como uma das mulheres de Xangô. Em nota, Halloy mostra que a ordem muda: João do Rio (1904) a faz primeira esposa; em Verger (1985) ela é a terceira, depois de Iansã e Oxum.",
+          "nota": null,
+          "registro": "oba-009",
+          "status": "fichado"
+        },
+        {
+          "valor": "terceira esposa de Shango",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 77",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "p. 77",
+          "parafrase": "Para Ellis, Oba é a terceira mulher de Shango.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "oba-012",
+          "status": "fichado"
+        },
+        {
+          "valor": "uma das três irmãs com quem Shango se casou; leva o arco ou a espada dele",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 48",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "p. 48",
+          "parafrase": "Ellis conta que Shango desposou três irmãs, Oya, Oshun e Oba, todas identificadas com rios; quando ele sai, as três o acompanham, e Oshun e Oba levam seu arco e sua espada.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "oba-013",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:conjuge_de:odudua>olokun",
+      "origem": "odudua",
+      "destino": "olokun",
+      "tipo": "parentesco",
+      "subtipo": "conjuge_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "esposo de Olokun, deusa do oceano; pai de Oranmiyan e Isedale; avô de Ogum",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "mitologia de Ifẹ̀ segundo Johnson",
+          "sources": [
+            {
+              "id": "johnson-1921-history",
+              "loc": "p. 143",
+              "via": null
+            }
+          ],
+          "source_id": "johnson-1921-history",
+          "via_source_id": null,
+          "localizacao": "p. 143",
+          "parafrase": "No mesmo resumo da mitologia de Ifẹ̀, Johnson dá Olokun, deusa do oceano, como mulher de Oduduwa, Oranmiyan e Isedale como filhos do casal e Ogum como neto.",
+          "nota": "Diverge de Ellis, que faz de Olokun um deus masculino nascido de Yemaja (olokun-002). Arestas propostas no relatório lote-C §8.",
+          "registro": "odudua-007",
           "status": "fichado"
         }
       ]
@@ -2733,6 +3521,101 @@
       ]
     },
     {
+      "id": "parentesco:filho_de:ibeji>iemanja",
+      "origem": "ibeji",
+      "destino": "iemanja",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "para alguns, filhos de Iemanjá com Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 236",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 236",
+          "parafrase": "Entre as versões sobre os filhos de Iemanjá, há quem diga que ela também gerou os Ibejis, de uma união proibida com Xangô.",
+          "nota": null,
+          "registro": "ibeji-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:ibeji>oxum",
+      "origem": "ibeji",
+      "destino": "oxum",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Oxum é considerada sua mãe; assentamento aos pés do de Oxum",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 167",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 167",
+          "parafrase": "No Recife o assentamento dos Ibeji fica sempre aos pés do de Oxum, tida como mãe deles.",
+          "nota": null,
+          "registro": "ibeji-022",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:ibeji>xango",
+      "origem": "ibeji",
+      "destino": "xango",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "para alguns, filhos de Iemanjá com Xangô",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 236",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 236",
+          "parafrase": "Entre as versões sobre os filhos de Iemanjá, há quem diga que ela também gerou os Ibejis, de uma união proibida com Xangô.",
+          "nota": null,
+          "registro": "ibeji-021",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "parentesco:filho_de:iemanja>oxala",
       "origem": "iemanja",
       "destino": "oxala",
@@ -2780,6 +3663,351 @@
           "parafrase": "Ao discutir se a semana segue uma ordem genealógica, Bastide observa que Oxalá, pai de Iemanjá, vem logo antes dela.",
           "nota": null,
           "registro": "oxala-025",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:logunede>erinle",
+      "origem": "logunede",
+      "destino": "erinle",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filho de Inlé e Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 204",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 204",
+          "parafrase": "Bastide registra Logunedê como filho de Inlé e Oxum.",
+          "nota": null,
+          "registro": "logunede-002",
+          "status": "fichado"
+        },
+        {
+          "valor": "pai: Erinlé (forma de Oxóssi)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé Casa das Águas (Itapevi, SP), foto comentada por Sallum & Silva",
+          "sources": [
+            {
+              "id": "sallum-2006-ossaim",
+              "loc": "p. 301",
+              "via": null
+            }
+          ],
+          "source_id": "sallum-2006-ossaim",
+          "via_source_id": null,
+          "localizacao": "p. 301",
+          "parafrase": "Comentando uma foto de Logum Edé dançando, os autores dizem, com base em informação verbal de Reginaldo Prandi, que seu pai é Erinlé, uma das formas de Oxóssi.",
+          "nota": null,
+          "registro": "logunede-005",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:logunede>iansa",
+      "origem": "logunede",
+      "destino": "iansa",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "versão rara: filho de Ogum e Oyá; criado por Ogum, coroado por Oyá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "sources": [
+            {
+              "id": "santos-2023-logunede",
+              "loc": "p. 76",
+              "via": null
+            }
+          ],
+          "source_id": "santos-2023-logunede",
+          "via_source_id": null,
+          "localizacao": "p. 76",
+          "parafrase": "Em versões bem menos comuns, ele é filho de Ogum e Oyá. Numa delas, Oxum o abandona para viver com Xangô, ele cresce com Ogum, aprende a guerra e o ferro, e Oyá o coroa príncipe dos orixás.",
+          "nota": null,
+          "registro": "logunede-008",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:logunede>ogum",
+      "origem": "logunede",
+      "destino": "ogum",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "versão rara: filho de Ogum e Oyá; criado por Ogum, coroado por Oyá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "sources": [
+            {
+              "id": "santos-2023-logunede",
+              "loc": "p. 76",
+              "via": null
+            }
+          ],
+          "source_id": "santos-2023-logunede",
+          "via_source_id": null,
+          "localizacao": "p. 76",
+          "parafrase": "Em versões bem menos comuns, ele é filho de Ogum e Oyá. Numa delas, Oxum o abandona para viver com Xangô, ele cresce com Ogum, aprende a guerra e o ferro, e Oyá o coroa príncipe dos orixás.",
+          "nota": null,
+          "registro": "logunede-008",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:logunede>oxossi",
+      "origem": "logunede",
+      "destino": "oxossi",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "provavelmente filho de Oxóssi e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 259",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 259",
+          "parafrase": "Chiousse acrescenta que Logunêdê seria, sem dúvida, filho de Oxóssi e Oxum.",
+          "nota": "DIVERGÊNCIA quanto ao pai: Inlé (Bastide, Lopes) × Oxóssi (Chiousse, Santos) × Erinlé (Sallum & Silva).",
+          "registro": "logunede-004",
+          "status": "fichado"
+        },
+        {
+          "valor": "filho de Oxum e Oxóssi (versão mais comum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "sources": [
+            {
+              "id": "santos-2023-logunede",
+              "loc": "pp. 74, 76",
+              "via": null
+            }
+          ],
+          "source_id": "santos-2023-logunede",
+          "via_source_id": null,
+          "localizacao": "pp. 74, 76",
+          "parafrase": "Santos apresenta Lógunède como filho de Oxum e Oxóssi, príncipe que junta traços do caçador e da deusa da beleza; diz que essa é a filiação da maioria dos mitos.",
+          "nota": null,
+          "registro": "logunede-007",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:logunede>oxum",
+      "origem": "logunede",
+      "destino": "oxum",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "filho de Inlé e Oxum",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 204",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 204",
+          "parafrase": "Bastide registra Logunedê como filho de Inlé e Oxum.",
+          "nota": null,
+          "registro": "logunede-002",
+          "status": "fichado"
+        },
+        {
+          "valor": "provavelmente filho de Oxóssi e Oxum",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 259",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 259",
+          "parafrase": "Chiousse acrescenta que Logunêdê seria, sem dúvida, filho de Oxóssi e Oxum.",
+          "nota": "DIVERGÊNCIA quanto ao pai: Inlé (Bastide, Lopes) × Oxóssi (Chiousse, Santos) × Erinlé (Sallum & Silva).",
+          "registro": "logunede-004",
+          "status": "fichado"
+        },
+        {
+          "valor": "filho de Oxum e Oxóssi (versão mais comum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "sources": [
+            {
+              "id": "santos-2023-logunede",
+              "loc": "pp. 74, 76",
+              "via": null
+            }
+          ],
+          "source_id": "santos-2023-logunede",
+          "via_source_id": null,
+          "localizacao": "pp. 74, 76",
+          "parafrase": "Santos apresenta Lógunède como filho de Oxum e Oxóssi, príncipe que junta traços do caçador e da deusa da beleza; diz que essa é a filiação da maioria dos mitos.",
+          "nota": null,
+          "registro": "logunede-007",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:oba>iemanja",
+      "origem": "oba",
+      "destino": "iemanja",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "nascida do corpo de Yemaja",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Costa dos Escravos (iorubás), relato colonial de 1894",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "p. 45",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "p. 45",
+          "parafrase": "No mito de Orungan e Yemaja narrado por Ellis, entre os seres que saem do corpo de Yemaja está Oba, deusa do rio de mesmo nome.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "oba-014",
+          "status": "fichado"
+        },
+        {
+          "valor": "filha de Yemoja, entre os orixás do casamento (com Shango, Oya e Oshun)",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia (informantes de Dennett), relato colonial de 1910",
+          "sources": [
+            {
+              "id": "dennett-1910-nigerian",
+              "loc": "p. 168",
+              "via": null
+            }
+          ],
+          "source_id": "dennett-1910-nigerian",
+          "via_source_id": null,
+          "localizacao": "p. 168",
+          "parafrase": "Um informante de Dennett, Bala Mimi, diz que, dos filhos de Yemoja, só Shango e suas mulheres Oya, Oba e Oshun são orixás do casamento.",
+          "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
+          "registro": "oba-015",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:olokun>iemanja",
+      "origem": "olokun",
+      "destino": "iemanja",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "nascido do corpo de Yemaja; casado com Olokun-su (Elusu) e com a irmã Olosa, deusa da laguna",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Lagos e laguna de Lagos, c. 1880–1890",
+          "sources": [
+            {
+              "id": "ellis-1894-yoruba",
+              "loc": "pp. 45, 70–72",
+              "via": null
+            }
+          ],
+          "source_id": "ellis-1894-yoruba",
+          "via_source_id": null,
+          "localizacao": "pp. 45, 70–72",
+          "parafrase": "Na genealogia que Ellis colheu, Olokun está entre os deuses que saíram do corpo de Yemaja. Tem por mulher Olokun-su, deusa local da barra de Lagos, e por esposa principal Olosa, deusa da laguna e sua irmã.",
+          "nota": "Documento histórico (confiabilidade C): oficial do exército britânico que lê a religião iorubá em chave evolucionista e comparada (Grécia, Índia); não sustenta o atributo sozinho — comparar com as demais versões. Diverge de Johnson (Olokun deusa, mulher de Oduduwa: odudua-007). Arestas propostas no relatório lote-C §8.",
+          "registro": "olokun-002",
+          "status": "fichado"
+        },
+        {
+          "valor": "filho de Yemoja, que leva aos filhos Olokun e Olosa as oferendas dos pescadores",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "pescadores da costa iorubá, c. 1900–1910",
+          "sources": [
+            {
+              "id": "dennett-1910-nigerian",
+              "loc": "p. 113",
+              "via": null
+            }
+          ],
+          "source_id": "dennett-1910-nigerian",
+          "via_source_id": null,
+          "localizacao": "p. 113",
+          "parafrase": "Dennett conta que o pescador bem-sucedido agradece a Yemaja, mãe de Olokun e de Olosa, deixando no rio uma panela de milho cozido com noz-de-cola; ela se encarregaria de entregar a oferenda aos filhos.",
+          "nota": "Documento histórico (confiabilidade C): administrador colonial com esquema interpretativo próprio (quaternidades, Jakuta como 'deus-pai'); não sustenta o atributo sozinho.",
+          "registro": "olokun-004",
           "status": "fichado"
         }
       ]
@@ -3043,6 +4271,48 @@
           "status": "fichado"
         },
         {
+          "valor": "filho de Nanã, irmão de Obaluaiê; origem comum distinta da dos outros orixás",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "pp. 165–166, 169",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "pp. 165–166, 169",
+          "parafrase": "Os membros do candomblé do Recife sabem que Nanã, Obaluaiê e Oxumaré têm uma origem comum, diferente da dos demais, e que Nanã é mãe dos outros dois; por isso não são filhos do casal Orixalá–Iemanjá.",
+          "nota": null,
+          "registro": "oxumare-017",
+          "status": "fichado"
+        },
+        {
+          "valor": "filho de Nanã, que entrou com os filhos no panteão iorubá ainda na África",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 7",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 7",
+          "parafrase": "Ao tratar da família de Quevioçô na Mina, Prandi nota que, dela, só Nanã tem culto nos candomblés; ela e os filhos, Omulu e Oxumarê, já faziam parte do panteão iorubá antes da vinda para o Brasil.",
+          "nota": null,
+          "registro": "oxumare-028",
+          "status": "fichado"
+        },
+        {
           "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
           "tradicoes": [
             "candomble_ketu"
@@ -3236,6 +4506,37 @@
       ]
     },
     {
+      "id": "parentesco:irmao_de:ibeji>xango",
+      "origem": "ibeji",
+      "destino": "xango",
+      "tipo": "parentesco",
+      "subtipo": "irmao_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "em Cuba, os gêmeos (jimaguas) são Dada e Ogun, irmãos de Xangô",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Cuba, segundo F. Ortiz (Los negros brujos), citado por Bastide",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 261, nota 30",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 261, nota 30",
+          "parafrase": "Bastide cita Ortiz: em Cuba os gêmeos (jimaguas) são identificados com Dada e Ogun, tidos por irmãos de Xangô, daí a veste vermelha que os une.",
+          "nota": null,
+          "registro": "ibeji-013",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "parentesco:irmao_de:ogum>oxossi",
       "origem": "ogum",
       "destino": "oxossi",
@@ -3326,6 +4627,99 @@
           "parafrase": "Halloy registra Odé como deus caçador e irmão mais novo de Ogum; como este, liga-se a uma atividade humana, a caça, e não a um elemento natural, e seu domínio é a mata.",
           "nota": "Concorda com oxossi-010 e ogum-045.",
           "registro": "oxossi-028",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:irmao_de:omolu>oxumare",
+      "origem": "omolu",
+      "destino": "oxumare",
+      "tipo": "parentesco",
+      "subtipo": "irmao_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "filho de Nanã, irmão de Obaluaiê; origem comum distinta da dos outros orixás",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "pp. 165–166, 169",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "pp. 165–166, 169",
+          "parafrase": "Os membros do candomblé do Recife sabem que Nanã, Obaluaiê e Oxumaré têm uma origem comum, diferente da dos demais, e que Nanã é mãe dos outros dois; por isso não são filhos do casal Orixalá–Iemanjá.",
+          "nota": null,
+          "registro": "oxumare-017",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:ewa>santo:ns-carmo",
+      "origem": "ewa",
+      "destino": "santo:ns-carmo",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santa Teresa (via Boçalabê) e N. S. do Carmo (via Eowá)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "Pelo quadro da casa, Euá tem dois santos conforme o vodum: Santa Teresa, por Boçalabê, e Nossa Senhora do Carmo, por Eowá.",
+          "nota": null,
+          "registro": "ewa-004",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:ewa>santo:santa-teresa",
+      "origem": "ewa",
+      "destino": "santo:santa-teresa",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santa Teresa (via Boçalabê) e N. S. do Carmo (via Eowá)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, p. 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "parafrase": "Pelo quadro da casa, Euá tem dois santos conforme o vodum: Santa Teresa, por Boçalabê, e Nossa Senhora do Carmo, por Eowá.",
+          "nota": null,
+          "registro": "ewa-004",
           "status": "fichado"
         }
       ]
@@ -3748,6 +5142,132 @@
       ]
     },
     {
+      "id": "sincretismo:ibeji>santo:sao-cosme-damiao",
+      "origem": "ibeji",
+      "destino": "santo:sao-cosme-damiao",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "S. Cosme e S. Damião",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, pp. 255–256",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, pp. 255–256",
+          "parafrase": "A devoção portuguesa aos santos gêmeos Cosme e Damião chegou cedo ao Brasil; com os africanos escravizados, fundiu-se ao culto dos gêmeos (mabaça), a ponto de hoje ser difícil separar o que veio de cada lado.",
+          "nota": null,
+          "registro": "ibeji-002",
+          "status": "fichado"
+        },
+        {
+          "valor": "S. Cosme e S. Damião",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "sources": [
+            {
+              "id": "chiousse-1995-divins",
+              "loc": "p. 280",
+              "via": null
+            }
+          ],
+          "source_id": "chiousse-1995-divins",
+          "via_source_id": null,
+          "localizacao": "p. 280",
+          "parafrase": "Chiousse define os Ibejis como crianças gêmeas que o sincretismo identifica com Cosme e Damião, patronos medievais dos médicos.",
+          "nota": null,
+          "registro": "ibeji-014",
+          "status": "fichado"
+        },
+        {
+          "valor": "S. Cosme e S. Damião, festejados por volta de 27 de setembro",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 276",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 276",
+          "parafrase": "Halloy vê no Recife um sincretismo ainda vivo entre os Ibeji, orixás crianças, e Cosme e Damião, celebrados por volta de 27 de setembro.",
+          "nota": null,
+          "registro": "ibeji-026",
+          "status": "fichado"
+        },
+        {
+          "valor": "linha de Ibeji = Tenda Cosme e Damião (Umbanda de Diamantino Trindade)",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Umbanda: esquema de Diamantino Trindade, resumido por Nogueira",
+          "sources": [
+            {
+              "id": "ufg-2017-exu-umbanda",
+              "loc": "pp. 311, 324",
+              "via": null
+            }
+          ],
+          "source_id": "ufg-2017-exu-umbanda",
+          "via_source_id": null,
+          "localizacao": "pp. 311, 324",
+          "parafrase": "Nogueira resume as sete linhas propostas por Diamantino Trindade, cada uma ligada a uma das tendas de Zélio de Moraes; a de Ibeji corresponde à Tenda Cosme e Damião.",
+          "nota": null,
+          "registro": "ibeji-040",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:ibeji>santo:sao-crispim-crispiniano",
+      "origem": "ibeji",
+      "destino": "santo:sao-crispim-crispiniano",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "S. Crispim e S. Crispiniano (às vezes)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE) — xangôs descritos por Bastide",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 259, nota 22",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 259, nota 22",
+          "parafrase": "Bastide nota que os ibeji às vezes são identificados com Crispim e Crispiniano, cuja festa é em 25 de outubro.",
+          "nota": null,
+          "registro": "ibeji-012",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:iemanja>santo:nossa-senhora",
       "origem": "iemanja",
       "destino": "santo:nossa-senhora",
@@ -4030,6 +5550,37 @@
           "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
           "nota": null,
           "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:logunede>santo:santo-expedito",
+      "origem": "logunede",
+      "destino": "santo:santo-expedito",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santo Expedito",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "Na mesma casa, Boço Jara e Logun-Edé têm como santo católico Santo Expedito.",
+          "nota": null,
+          "registro": "logunede-023",
           "status": "fichado"
         }
       ]
@@ -4609,6 +6160,59 @@
           "parafrase": "Na tabela do calendário católico africanizado, a Purificação traz a festa de Oxum e Iemanjá, e o dia da Imaculada Conceição a de Oxum ou de Iemanjá; Bastide diz que a tabela se aplica mais a Pernambuco e aos candomblés bantos baianos.",
           "nota": "Correspondência pela data da festa. A fonte não nomeia a invocação de Nossa Senhora da Purificação.",
           "registro": "oxum-017",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxumare>santo:sao-bartolomeu",
+      "origem": "oxumare",
+      "destino": "santo:sao-bartolomeu",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "S. Bartolomeu",
+          "tradicoes": [
+            "xango_pernambuco",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Pernambuco e candomblés bantos da Bahia, segundo Bastide",
+          "sources": [
+            {
+              "id": "bastide-1958-candomble",
+              "loc": "ed. pt 1961, p. 104",
+              "via": null
+            }
+          ],
+          "source_id": "bastide-1958-candomble",
+          "via_source_id": null,
+          "localizacao": "ed. pt 1961, p. 104",
+          "parafrase": "No calendário que associa festas de orixás a dias de santos, Oxunmarê fica com São Bartolomeu (24 de agosto).",
+          "nota": null,
+          "registro": "oxumare-008",
+          "status": "fichado"
+        },
+        {
+          "valor": "S. Bartolomeu",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "sources": [
+            {
+              "id": "prandi-2005-pegadas-voduns",
+              "loc": "versão do autor, pp. 14, 25 (Quadro 1)",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-2005-pegadas-voduns",
+          "via_source_id": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "parafrase": "Na mesma casa, Dangbê, Idarço e Oxumarê têm São Bartolomeu como santo católico.",
+          "nota": null,
+          "registro": "oxumare-030",
           "status": "fichado"
         }
       ]
