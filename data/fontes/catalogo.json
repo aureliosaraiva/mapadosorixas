@@ -1,8 +1,8 @@
 {
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
-    "atualizado_em": "2026-10-31",
-    "total": 315
+    "atualizado_em": "2026-11-01",
+    "total": 316
   },
   "fontes": [
     {
@@ -626,9 +626,11 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Versos de Ifá transcritos e traduzidos.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Versos de Ifá transcritos e traduzidos. | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL4124315W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -693,9 +695,11 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Ed. pt 'As religiões africanas no Brasil' (1971).",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Ed. pt 'As religiões africanas no Brasil' (1971). | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1754600W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -1495,7 +1499,7 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Yoruba Studies Review); etimologia do nome.",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Yoruba Studies Review); etimologia do nome. | Lido integralmente em 2026-11-01 (fichamento-06; xango-035 a xango-039). Yoruba Studies Review v. 10, n. 1; paginação própria do artigo (pp. 1–10).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.32473/ysr.10.1.139147",
@@ -1795,7 +1799,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de História, USP); história de um culto familiar a Ogum em Salvador.",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de História, USP); história de um culto familiar a Ogum em Salvador. | Lido integralmente em 2026-11-01 (fichamento-06; ogum-034 a ogum-052). Rev. História (USP) n. 181, a01221, 2022; paginação própria do artigo (pp. 1–37), igual à do PDF. Texto integral aberto.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://www.revistas.usp.br/revhistoria/article/view/180892"
@@ -2036,7 +2040,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia).",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia). | Lido integralmente em 2026-11-01 (fichamento-06; exu-065 a exu-072). O PDF da Afro-Ásia n. 13 (19 p.) não traz números de página impressos nem a OJS informa o intervalo: registros citam a página do PDF. Texto redigido em julho de 1971.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.9771/aa.v0i13.20812",
@@ -2710,7 +2714,7 @@
         "tambor_de_mina"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); Legba na Mina e no Terecô.",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); Legba na Mina e no Terecô. | Leitura bloqueada em 2026-11-01: periodicos.unb.br responde 403 e a cópia do CORE pede desafio anti-bot (PENDENCIAS).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.26512/revistacalundu.v1i1.7621",
@@ -3206,7 +3210,7 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade). Tradições a confirmar na leitura.",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade). Tradições a confirmar na leitura. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e não há cópia em repositório aberto alternativo localizada (PENDENCIAS).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872023000300201&tlng=pt"
@@ -3432,9 +3436,11 @@
         "vodun_benim"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Base para voduns (equivalências jeje).",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Base para voduns (equivalências jeje). | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1135889W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -3502,9 +3508,11 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06). | Capo Chichi 2025 cita a ed. revista de 1995 (Original Publications).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL4839149W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -3548,9 +3556,11 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Historiador iorubá; tradições orais de Oyó (Xangô como alafin).",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Historiador iorubá; tradições orais de Oyó (Xangô como alafin). | Metadados conferidos na Open Library em 2026-11-01 (fonte primária de registro de 2ª mão no fichamento-06). | A Open Library data a 1ª publicação de 1900 (manuscrito concluído em 1897; 1ª ed. impressa em 1921); ano citado mantido.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL4559044W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -4532,11 +4542,12 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Psicologia em Estudo); útil para a distinção Exu orixá × exus da umbanda.",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Psicologia em Estudo); útil para a distinção Exu orixá × exus da umbanda. | Lido integralmente em 2026-11-01 (fichamento-06; exu-073 a exu-076), pela cópia do repositório da UFES (dspace5.ufes.br), porque o SciELO responde com desafio anti-bot neste ambiente. Psicologia em Estudo v. 6, n. 2, pp. 107–113.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.1590/s1413-73722001000200015",
-        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-73722001000200015"
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-73722001000200015",
+        "https://dspace5.ufes.br/items/74b0829a-5d5b-4b6e-be7d-96e66d1e9a23"
       ],
       "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-73722001000200015",
       "identificadores": {
@@ -4682,7 +4693,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Tradição a confirmar na leitura.",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Tradição a confirmar na leitura. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e não há cópia em repositório aberto alternativo localizada (PENDENCIAS).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.1590/1984-04382025e450102",
@@ -5568,7 +5579,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos); autor de referência. A DOAJ data o registro em 2026, mas o identificador SciELO (S0104-71831995…) indica 1995.",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos); autor de referência. A DOAJ data o registro em 2026, mas o identificador SciELO (S0104-71831995…) indica 1995. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e o PDF do número 3 de Horizontes Antropológicos no LUME/UFRGS corta a conexão. O DOI do catálogo (…000300002) não resolve no Crossref, e o pid S0104-71831995000300010 citado na varredura 3 corresponde a outro artigo (Augé, \"L'Anthropologie aujourd'hui\"); conferir DOI/pid corretos (PENDENCIAS).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.1590/s0104-71831995000300002",
@@ -7381,7 +7392,7 @@
         "vodun_benim"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: hal). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cahiers d'études africaines).",
+      "observacoes": "Varredura 3 (coleta por API: hal). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cahiers d'études africaines). | Lido em 2026-11-01 (pp. 811–831, sem a bibliografia; fichamento-06; exu-077 a exu-082), pela versão HAL com a paginação impressa da revista (Cahiers d'études africaines LI (4), 204, pp. 811–845).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.4000/etudesafricaines.14299",
@@ -7727,6 +7738,30 @@
         "isbn": "9783260049101"
       },
       "editora": "Juris Druck + Verlag"
+    },
+    {
+      "id": "bastide-1945-imagens",
+      "tipo": "livro",
+      "categoria": "etno_classica",
+      "autores": [
+        "Roger Bastide"
+      ],
+      "titulo": "Imagens do Nordeste místico em branco e preto",
+      "ano": 1945,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Entrou no catálogo no fichamento-06 como fonte citada por Costa 1980 (não lida no original). Metadados conferidos na Open Library em 2026-11-01. Tradições preliminares (viagem pelo Nordeste).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL6787586W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "O Cruzeiro (Seção de Livros)"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "_meta": {
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
-    "total_nos": 40,
-    "total_arestas": 43,
+    "total_nos": 41,
+    "total_arestas": 46,
     "por_tipo": {
       "associacao": 1,
       "companheiro_de_culto": 3,
-      "equivalencia": 11,
-      "parentesco": 8,
-      "sincretismo": 20
+      "equivalencia": 12,
+      "parentesco": 9,
+      "sincretismo": 21
     }
   },
   "nos": [
@@ -202,6 +202,11 @@
       "id": "santo:virgem-maria",
       "rotulo": "Virgem Maria",
       "tipo": "santo_catolico"
+    },
+    {
+      "id": "vodum:gu",
+      "rotulo": "Gu",
+      "tipo": "vodum"
     },
     {
       "id": "vodum:legba",
@@ -639,6 +644,28 @@
           "nota": "Generalização da autora; em Cuba o nome mais usual é Elegguá — conferir em fontes lucumís.",
           "registro": "exu-044",
           "status": "fichado"
+        },
+        {
+          "valor": "Legba, equivalente fon de Èṣù-Elégbá \"sob certos aspectos rituais\"",
+          "tradicoes": [
+            "vodun_benim",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "vallier-2011-esu",
+              "loc": "p. 820, nota 29",
+              "via": null
+            }
+          ],
+          "source_id": "vallier-2011-esu",
+          "via_source_id": null,
+          "localizacao": "p. 820, nota 29",
+          "parafrase": "Vallier trata Legba como o equivalente fon de Èṣù-Elégbá apenas sob alguns aspectos rituais e remete a autores que propõem distinguir os dois (Ogundipe, Kukoyi, Lawuyi, Badejo).",
+          "nota": "Equivalência parcial; comparar com exu-001 e exu-066 (Bastide, via Costa: não identificar Legba e Exu).",
+          "registro": "exu-080",
+          "status": "fichado"
         }
       ]
     },
@@ -731,6 +758,38 @@
           "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
           "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
           "registro": "iemanja-042",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:ogum>vodum:gu",
+      "origem": "ogum",
+      "destino": "vodum:gu",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Gu (vodum dos jejes/fons), cultuado com os mesmos atributos",
+          "tradicoes": [
+            "candomble_jeje",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "castillo-2022-ogum",
+              "loc": "pp. 24–25",
+              "via": null
+            }
+          ],
+          "source_id": "castillo-2022-ogum",
+          "via_source_id": null,
+          "localizacao": "pp. 24–25",
+          "parafrase": "Segundo Castillo, Ogum é cultuado com os mesmos atributos, sob o nome de Gu, pelos povos chamados jejes no Brasil. No Daomé, Gu ganhou importância por sua ligação com ferreiros e ofícios do ferro e, na cosmologia fon, integra um grupo de voduns tidos como de origem nagô.",
+          "nota": "A classificação de Gu entre os voduns \"nagôs\" é de Le Hérissé (1911), citado pela autora. Equivalência não é identidade.",
+          "registro": "ogum-046",
           "status": "fichado"
         }
       ]
@@ -1044,6 +1103,59 @@
       ]
     },
     {
+      "id": "parentesco:irmao_de:exu>ogum",
+      "origem": "exu",
+      "destino": "ogum",
+      "tipo": "parentesco",
+      "subtipo": "irmao_de",
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Exu-orixá, irmão mais novo de Ogum (filho caçula do rei do Congo)",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Rio de Janeiro, 1970 (pai de santo da nação Omolocô); terreiros nordestinos segundo Bastide (1945)",
+          "sources": [
+            {
+              "id": "costa-1980-exu-umbanda",
+              "loc": "PDF pp. 5, 10–11",
+              "via": null
+            }
+          ],
+          "source_id": "costa-1980-exu-umbanda",
+          "via_source_id": null,
+          "localizacao": "PDF pp. 5, 10–11",
+          "parafrase": "O pai de santo Omolocô citado por Costa definia Exu como orixá e irmão mais novo de Ogum. Costa relaciona a fala ao mito que Bastide ouviu no Nordeste, no qual Exu é o caçula agitado de um rei do Congo e irmão de Ogum e de Xangô, e conclui que a narrativa também era conhecida nos terreiros Omolocô do Rio.",
+          "nota": "Bastide (Imagens do Nordeste místico, 1945, p. 115) é citado por Costa. Comparar com ogum-044 (Exu e Ogum irmãos, Ketu/Jeje).",
+          "registro": "exu-070",
+          "status": "fichado"
+        },
+        {
+          "valor": "irmão de Exu; ambos orixás \"de rua\" que abrem caminhos juntos",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "pares-2006-formacao",
+              "loc": "p. 8 (Parés 2006, pp. 335–340)",
+              "via": "castillo-2022-ogum"
+            }
+          ],
+          "source_id": "pares-2006-formacao",
+          "via_source_id": "castillo-2022-ogum",
+          "localizacao": "p. 8 (Parés 2006, pp. 335–340)",
+          "parafrase": "Ao explicar por que um assentamento de Exu foi instalado ao lado do de Ogum no Candeal, Castillo, apoiada em Parés, diz que os dois orixás partilham várias características, são muitas vezes descritos como irmãos e considerados orixás de rua que atuam juntos para abrir caminhos.",
+          "nota": "Comparar com exu-070 (Umbanda Omolocô: Exu irmão mais novo de Ogum).",
+          "registro": "ogum-044",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "parentesco:irmao_de:ogum>oxossi",
       "origem": "ogum",
       "destino": "oxossi",
@@ -1070,6 +1182,28 @@
           "parafrase": "Ogum e Oxóssi são irmãos segundo um mito citado por Bastide.",
           "nota": "Mito em Ribeiro (1952, p. 49).",
           "registro": "ogum-013",
+          "status": "fichado"
+        },
+        {
+          "valor": "irmão de Oxóssi (na África e no Brasil); ambos senhores das florestas",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "verger-1981-orixas",
+              "loc": "p. 21 (Verger, ed. 2018, pp. 118–119)",
+              "via": "castillo-2022-ogum"
+            }
+          ],
+          "source_id": "verger-1981-orixas",
+          "via_source_id": "castillo-2022-ogum",
+          "localizacao": "p. 21 (Verger, ed. 2018, pp. 118–119)",
+          "parafrase": "Castillo afirma, com base em Verger e Dennett, que tanto na África quanto no Brasil Ogum e Oxóssi são tidos como irmãos; ambos reinam sobre a mata, razão pela qual são consultados quando se escolhe o lugar de novas povoações e roças.",
+          "nota": "Concorda com ogum-013 e oxossi-010.",
+          "registro": "ogum-045",
           "status": "fichado"
         },
         {
@@ -1700,6 +1834,37 @@
           "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
           "nota": null,
           "registro": "iemanja-045",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:ogum>santo:santo-antonio",
+      "origem": "ogum",
+      "destino": "santo:santo-antonio",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Santo Antônio (de Lisboa)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador (BA): Candeal Pequeno, desde 1950",
+          "sources": [
+            {
+              "id": "castillo-2022-ogum",
+              "loc": "pp. 8–9",
+              "via": null
+            }
+          ],
+          "source_id": "castillo-2022-ogum",
+          "via_source_id": null,
+          "localizacao": "pp. 8–9",
+          "parafrase": "No Candeal, a festa de Ogum no primeiro dia do ano passou a incluir, a partir de 1950, uma missa para Santo Antônio, santo que a autora identifica como associado a Ogum no sincretismo afro-católico baiano. A prática segue o costume de terreiros históricos de Salvador de abrir festas de orixá com missa e procissão de imagens.",
+          "nota": "Para a associação Ogum–Santo Antônio a autora cita Gadêlha 2004 e Verger (ed. 2018, p. 100). Comparar com ogum-006, ogum-014 e ogum-019 (São Jorge).",
+          "registro": "ogum-035",
           "status": "fichado"
         }
       ]

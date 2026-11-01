@@ -3,7 +3,7 @@
     "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
     "esquema": "schemas/entidade.schema.json",
     "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
-    "total": 11
+    "total": 12
   },
   "entidades": [
     {
@@ -391,6 +391,45 @@
       ]
     },
     {
+      "id": "vodum:gu",
+      "rotulo": "Gu",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_jeje",
+        "vodun_benim"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ogum",
+          "aresta": "equivalencia:ogum>vodum:gu"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Gu (vodum dos jejes/fons), cultuado com os mesmos atributos",
+          "tradicoes": [
+            "candomble_jeje",
+            "vodun_benim"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "castillo-2022-ogum",
+              "loc": "pp. 24–25",
+              "via": null
+            }
+          ],
+          "source_id": "castillo-2022-ogum",
+          "via_source_id": null,
+          "localizacao": "pp. 24–25",
+          "parafrase": "Segundo Castillo, Ogum é cultuado com os mesmos atributos, sob o nome de Gu, pelos povos chamados jejes no Brasil. No Daomé, Gu ganhou importância por sua ligação com ferreiros e ofícios do ferro e, na cosmologia fon, integra um grupo de voduns tidos como de origem nagô.",
+          "nota": "A classificação de Gu entre os voduns \"nagôs\" é de Le Hérissé (1911), citado pela autora. Equivalência não é identidade.",
+          "registro": "ogum-046",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:legba",
       "rotulo": "Legba / Elegbara",
       "tipo": "vodum",
@@ -475,6 +514,28 @@
           "parafrase": "Na África, em Cuba e no Haiti, Exu é reconhecido sobretudo sob o nome de Legba.",
           "nota": "Generalização da autora; em Cuba o nome mais usual é Elegguá — conferir em fontes lucumís.",
           "registro": "exu-044",
+          "status": "fichado"
+        },
+        {
+          "valor": "Legba, equivalente fon de Èṣù-Elégbá \"sob certos aspectos rituais\"",
+          "tradicoes": [
+            "vodun_benim",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "sources": [
+            {
+              "id": "vallier-2011-esu",
+              "loc": "p. 820, nota 29",
+              "via": null
+            }
+          ],
+          "source_id": "vallier-2011-esu",
+          "via_source_id": null,
+          "localizacao": "p. 820, nota 29",
+          "parafrase": "Vallier trata Legba como o equivalente fon de Èṣù-Elégbá apenas sob alguns aspectos rituais e remete a autores que propõem distinguir os dois (Ogundipe, Kukoyi, Lawuyi, Badejo).",
+          "nota": "Equivalência parcial; comparar com exu-001 e exu-066 (Bastide, via Costa: não identificar Legba e Exu).",
+          "registro": "exu-080",
           "status": "fichado"
         }
       ]

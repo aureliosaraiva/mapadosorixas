@@ -14,6 +14,7 @@
     "oba": {"rotulo": "Obá", "tipo": "orixa"},
     "oxum": {"rotulo": "Oxum", "tipo": "orixa"},
     "vodum:legba": {"rotulo": "Legba / Elegbara", "tipo": "vodum"},
+    "vodum:gu": {"rotulo": "Gu", "tipo": "vodum"},
     "inquice:dandalunda": {"rotulo": "Dandalunda", "tipo": "inquice"},
     "inquice:quissimbe": {"rotulo": "Quissimbe", "tipo": "inquice"},
     "inquice:kayala": {"rotulo": "Kayala", "tipo": "inquice"},
@@ -128,6 +129,12 @@
       {"tipo": "sincretismo", "destino": "santo:ns-piedade"},
       {"tipo": "sincretismo", "destino": "santo:ns-cabecas"},
       {"tipo": "sincretismo", "destino": "santo:virgem-maria"}
-    ]
+    ],
+    "exu-070": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "ogum"}],
+    "exu-080": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
+    "ogum-035": [{"tipo": "sincretismo", "destino": "santo:santo-antonio"}],
+    "ogum-044": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "exu"}],
+    "ogum-045": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "oxossi"}],
+    "ogum-046": [{"tipo": "equivalencia", "destino": "vodum:gu"}]
   }
 }

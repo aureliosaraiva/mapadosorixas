@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/exu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 63,
+    "registros_usados": 81,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -205,6 +205,27 @@
         "nota": null,
         "registro": "exu-058",
         "status": "fichado"
+      },
+      {
+        "valor": "ruas, encruzilhadas e cemitérios como lugares onde ficam quase todos os exus e pombas-giras",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "nascimento-2001-exus",
+            "loc": "pp. 109–111",
+            "via": null
+          }
+        ],
+        "source_id": "nascimento-2001-exus",
+        "via_source_id": null,
+        "localizacao": "pp. 109–111",
+        "parafrase": "Os autores registram que a ligação de exus e pombas-giras com ruas, encruzilhadas e cemitérios é quase constante nos pontos, mas ressalvam que isso não indica morada: as entidades estariam nesses lugares por afinidade ou pelo tipo de trabalho que fazem ali.",
+        "nota": "Comparar com exu-058 (Silva 2012).",
+        "registro": "exu-076",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -358,6 +379,69 @@
         "parafrase": "Apoiado na obra de Ruth Landes (escrita em 1947), Nogueira aponta como nova função de Exu a de vigia do terreiro e dos fiéis: seu assentamento junto à entrada da casa serviria para barrar espíritos ruins que perturbassem os rituais.",
         "nota": "2ª mão: Nogueira cita Landes pela ed. brasileira de 2002 (A cidade das mulheres), sem página. Converge com exu-039 (Bastide).",
         "registro": "exu-064",
+        "status": "fichado"
+      },
+      {
+        "valor": "na Umbanda, Exu como \"empregado\" dos orixás e das entidades (pretos-velhos, caboclos), encarregado da \"limpeza\" material",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Rio de Janeiro, c. 1970 (terreiro de Umbanda em Botafogo)",
+        "sources": [
+          {
+            "id": "costa-1980-exu-umbanda",
+            "loc": "PDF pp. 12–14",
+            "via": null
+          }
+        ],
+        "source_id": "costa-1980-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "PDF pp. 12–14",
+        "parafrase": "Numa conversa reproduzida por Costa, um casal de dirigentes de terreiro de Umbanda definia Exu não como orixá, mas como mensageiro e empregado das entidades: quando o Preto-Velho ou o Caboclo aceita um pedido, é o Exu quem vai limpar a perturbação. Cada orixá teria seus exus, mas os orixás pouco se envolveriam nos pedidos materiais, atendidos pelas almas de pretos-velhos e caboclos.",
+        "nota": "Costa lê isso como rebaixamento do antigo papel de mensageiro. Comparar com exu-011 e exu-062.",
+        "registro": "exu-071",
+        "status": "fichado"
+      },
+      {
+        "valor": "nos pontos cantados: trabalho, vitória em demandas, vigilância, recados, despacho de ebó, sustentação da gira, defesa e magia",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "nascimento-2001-exus",
+            "loc": "p. 109",
+            "via": null
+          }
+        ],
+        "source_id": "nascimento-2001-exus",
+        "via_source_id": null,
+        "localizacao": "p. 109",
+        "parafrase": "Na análise de 221 letras de pontos cantados de Exu e Pomba-Gira recolhidas em livros e discos, a categoria mais frequente nos pontos de Exu descreve o que ele faz e pode: trabalha, vence demandas, vigia, leva recados, despacha ebó, sustenta a gira, defende, guia e faz magia. Os pontos de Pomba-Gira atribuem a ela tarefas muito parecidas.",
+        "nota": "Corpus: pontos publicados em livros e discos vendidos em lojas de artigos religiosos, não observação de terreiro.",
+        "registro": "exu-074",
+        "status": "fichado"
+      },
+      {
+        "valor": "mensageiro entre o òrun e o aiyé, entre humanos e òrìṣà; recebe a primeira parte dos sacrifícios e pune quem negligencia os deuses",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "vallier-2011-esu",
+            "loc": "pp. 819–820",
+            "via": null
+          }
+        ],
+        "source_id": "vallier-2011-esu",
+        "via_source_id": null,
+        "localizacao": "pp. 819–820",
+        "parafrase": "Segundo Vallier, a principal função de Èṣù no panteão iorubá é servir de mensageiro entre o céu e a terra, entre humanos e entidades, e relatar seus atos ao Ser supremo. Ele recebe sempre a primeira parte dos sacrifícios e disciplina quem ofende o Ser supremo, negligencia os òrìṣà ou recusa os sacrifícios necessários; também pode dar filhos a mulheres estéreis e bons negócios às comerciantes que o invocam.",
+        "nota": "Concorda com exu-011, exu-024 e exu-050.",
+        "registro": "exu-078",
         "status": "fichado"
       }
     ],
@@ -627,6 +711,93 @@
         "nota": "DIVERGÊNCIA de contagem com Chiousse (pelo menos 21, segundo terreiros) e com a lista de Ferreira/Prandi.",
         "registro": "exu-057",
         "status": "fichado"
+      },
+      {
+        "valor": "Exu-coroado (orixá, que nunca teve corpo) × Exu-batizado (egum, espírito de morto: Tranca-Rua, Caveira, Mulambo)",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Rio de Janeiro, 1970 (pai de santo da nação Omolocô)",
+        "sources": [
+          {
+            "id": "costa-1980-exu-umbanda",
+            "loc": "PDF pp. 10–11",
+            "via": null
+          }
+        ],
+        "source_id": "costa-1980-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "PDF pp. 10–11",
+        "parafrase": "Um pai de santo Omolocô entrevistado em jornal de 1970, citado por Costa, separava o Exu-coroado, orixá que não teve corpo físico, do Exu-batizado, espírito de pessoa morta que na Umbanda recebe nomes como Tranca-Rua ou Caveira. Costa observa que o uso do mesmo nome para os dois mostra o egum já aceito como uma categoria de Exu, e que o sentido de \"batizado\" e \"coroado\" varia de terreiro para terreiro.",
+        "nota": "Comparar com exu-034, exu-062 e exu-063 (Exu-egum na Umbanda).",
+        "registro": "exu-068",
+        "status": "fichado"
+      },
+      {
+        "valor": "escala de exus na Umbanda: pagão (obsessor) → batizado → traçado (com Preto-Velho ou Caboclo) → coroado (chefe de falange) → Preto-Velho ou Caboclo \"puro\"",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Rio de Janeiro, c. 1970",
+        "sources": [
+          {
+            "id": "costa-1980-exu-umbanda",
+            "loc": "PDF pp. 16–18",
+            "via": null
+          }
+        ],
+        "source_id": "costa-1980-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "PDF pp. 16–18",
+        "parafrase": "Costa descreve, com base em entrevistas, uma hierarquia de exus inspirada na ideia espírita de purificação dos mortos: o exu pagão ou obsessor ainda não aceita a própria morte; pela caridade feita nas consultas pode passar a batizado, depois a traçado, misto de exu com Preto-Velho ou Caboclo, e a coroado, chefe de falange; alguns chegariam a Preto-Velho ou Caboclo, deixando de ser exus.",
+        "nota": "O autor atribui a escala à influência do kardecismo; a classificação varia entre terreiros e entre Umbanda e Quimbanda.",
+        "registro": "exu-069",
+        "status": "fichado"
+      },
+      {
+        "valor": "Pomba-Gira: exu feminino; nome ligado ao \"pombo-ngira\", correspondente de Exu na nação Angola",
+        "tradicoes": [
+          "umbanda",
+          "candomble_angola"
+        ],
+        "casa_ou_regiao": "Rio de Janeiro, c. 1970",
+        "sources": [
+          {
+            "id": "costa-1980-exu-umbanda",
+            "loc": "PDF pp. 15–16",
+            "via": null
+          }
+        ],
+        "source_id": "costa-1980-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "PDF pp. 15–16",
+        "parafrase": "Costa apresenta a Pomba-Gira como o exu feminino habitual nas sessões de exus e, citando Kochmeyer, aproxima o nome do correspondente de Exu na nação Angola. Na versão corrente entre os pais de santo ouvidos, ela teria sido em vida mulher de sete exus e é procurada sobretudo para questões amorosas e sexuais.",
+        "nota": "A aproximação com a nação Angola é de Kochmeyer, citado por Costa (não conferido). Comparar com exu-061.",
+        "registro": "exu-072",
+        "status": "fichado"
+      }
+    ],
+    "parentesco": [
+      {
+        "valor": "Exu-orixá, irmão mais novo de Ogum (filho caçula do rei do Congo)",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Rio de Janeiro, 1970 (pai de santo da nação Omolocô); terreiros nordestinos segundo Bastide (1945)",
+        "sources": [
+          {
+            "id": "costa-1980-exu-umbanda",
+            "loc": "PDF pp. 5, 10–11",
+            "via": null
+          }
+        ],
+        "source_id": "costa-1980-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "PDF pp. 5, 10–11",
+        "parafrase": "O pai de santo Omolocô citado por Costa definia Exu como orixá e irmão mais novo de Ogum. Costa relaciona a fala ao mito que Bastide ouviu no Nordeste, no qual Exu é o caçula agitado de um rei do Congo e irmão de Ogum e de Xangô, e conclui que a narrativa também era conhecida nos terreiros Omolocô do Rio.",
+        "nota": "Bastide (Imagens do Nordeste místico, 1945, p. 115) é citado por Costa. Comparar com ogum-044 (Exu e Ogum irmãos, Ketu/Jeje).",
+        "registro": "exu-070",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -718,6 +889,28 @@
         "parafrase": "Na África, em Cuba e no Haiti, Exu é reconhecido sobretudo sob o nome de Legba.",
         "nota": "Generalização da autora; em Cuba o nome mais usual é Elegguá — conferir em fontes lucumís.",
         "registro": "exu-044",
+        "status": "fichado"
+      },
+      {
+        "valor": "Legba, equivalente fon de Èṣù-Elégbá \"sob certos aspectos rituais\"",
+        "tradicoes": [
+          "vodun_benim",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "vallier-2011-esu",
+            "loc": "p. 820, nota 29",
+            "via": null
+          }
+        ],
+        "source_id": "vallier-2011-esu",
+        "via_source_id": null,
+        "localizacao": "p. 820, nota 29",
+        "parafrase": "Vallier trata Legba como o equivalente fon de Èṣù-Elégbá apenas sob alguns aspectos rituais e remete a autores que propõem distinguir os dois (Ogundipe, Kukoyi, Lawuyi, Badejo).",
+        "nota": "Equivalência parcial; comparar com exu-001 e exu-066 (Bastide, via Costa: não identificar Legba e Exu).",
+        "registro": "exu-080",
         "status": "fichado"
       }
     ],
@@ -854,6 +1047,27 @@
         "parafrase": "Segundo o mito, Exu circula pelo tempo e pelo espaço, nas quatro direções, por meio do bastão que carrega; por isso a encruzilhada é lugar preferido de suas oferendas.",
         "nota": null,
         "registro": "exu-060",
+        "status": "fichado"
+      },
+      {
+        "valor": "o gorro de duas cores que faz brigar dois amigos (verso de Ifá Òdí Méjì); cores variam entre versões",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Ifé (Modakeke), Oyó e Imeko (Nigéria); versões de Frobenius e dos Herskovits",
+        "sources": [
+          {
+            "id": "bascom-1969-ifa",
+            "loc": "pp. 824–825 (Bascom 1969, p. 311)",
+            "via": "vallier-2011-esu"
+          }
+        ],
+        "source_id": "bascom-1969-ifa",
+        "via_source_id": "vallier-2011-esu",
+        "localizacao": "pp. 824–825 (Bascom 1969, p. 311)",
+        "parafrase": "Vallier cita de Bascom um verso de Ifá: Èṣù, ao ouvir dois amigos dizerem que nunca brigavam, passa entre eles com um gorro preto de um lado e branco do outro, e os dois discutem sobre a cor até brigar. Informantes de outras cidades contavam a mesma história com gorro vermelho e preto ou com quatro cores; o verso prescreve sacrifício para afastar a discórdia.",
+        "nota": "Mesmo mito de exu-009 (Prandi). Paráfrase de resumo de 2ª mão; sem detalhar a oferenda prescrita.",
+        "registro": "exu-082",
         "status": "fichado"
       }
     ],
@@ -1112,6 +1326,28 @@
         "parafrase": "Nogueira propõe que o Exu entendido como espírito de morto se formou nas primeiras décadas do século XX, na troca entre os terreiros baianos, de onde vinham os orixás, e as macumbas do Rio, onde circulavam ideias espíritas. Quando Leal de Souza publicou a primeira codificação umbandista, em 1933, Exu já aparecia como entidade, ligado a uma 'linha negra' que o autor separava da Umbanda; mesmo assim, em muitos terreiros cariocas Exu era cultuado junto de pretos-velhos e caboclos.",
         "nota": "Hipótese do autor ('é provável', 'teria se formado'). Leal de Souza (1933) e João de Freitas (1941) não estão no catálogo.",
         "registro": "exu-063",
+        "status": "fichado"
+      },
+      {
+        "valor": "símbolo e culto de Èṣù/Legba não só nas encruzilhadas, mas em cada habitação, clã, aldeia, mercado, palácio e templo",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "vodun_benim"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "herskovits-1938-dahomey",
+            "loc": "p. 820 (Herskovits 1938, pp. 202–229)",
+            "via": "vallier-2011-esu"
+          }
+        ],
+        "source_id": "herskovits-1938-dahomey",
+        "via_source_id": "vallier-2011-esu",
+        "localizacao": "p. 820 (Herskovits 1938, pp. 202–229)",
+        "parafrase": "Vallier afirma que se enganaram os primeiros autores que situavam Èṣù sempre e apenas nas encruzilhadas: desde os Herskovits sabe-se que seu símbolo e seu culto, ou os de Legba, seu homólogo fon, estão presentes no plano coletivo e no individual, em todas as habitações das concessões familiares, clãs, aldeias e mercados, no palácio e em todos os templos e entre os devotos.",
+        "nota": "Comparar com exu-020 e exu-053.",
+        "registro": "exu-079",
         "status": "fichado"
       }
     ],
@@ -1398,6 +1634,156 @@
         "nota": "A fonte fala em 'candomblés' sem indicar nação; 'candomble_ketu' é aproximação, a conferir na revisão.",
         "registro": "exu-062",
         "status": "fichado"
+      },
+      {
+        "valor": "de Nina Rodrigues a Bastide, Exu passa de orixá a mensageiro; perde o caráter fálico; é sincretizado com o diabo e depois diferenciado dele; é identificado com alma de morto",
+        "tradicoes": [
+          "candomble_ketu",
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Bahia e Rio de Janeiro (literatura de 1896 a 1960)",
+        "sources": [
+          {
+            "id": "costa-1980-exu-umbanda",
+            "loc": "PDF pp. 1–7",
+            "via": null
+          }
+        ],
+        "source_id": "costa-1980-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "PDF pp. 1–7",
+        "parafrase": "Costa resume a trajetória de Exu na literatura: em Nina Rodrigues aparece como divindade malévola e fálica, confundida com o diabo por influência católica; em Arthur Ramos o aspecto fálico já é dado como desaparecido e surge a ressalva de que, para os fiéis, Exu não é mau; em Bastide, Exu desce de orixá a intermediário, ganha ambivalência e começa a ser associado a almas de mortos e a uma espécie de anjo da guarda.",
+        "nota": "Síntese do autor (jesuíta, PUC-Rio; texto de 1971 publicado em 1980). O arquivo da Afro-Ásia não traz paginação impressa: citar pela página do PDF.",
+        "registro": "exu-065",
+        "status": "fichado"
+      },
+      {
+        "valor": "Legba daomeano e Exu iorubá não devem ser identificados; no Ketu Exu segue intermediário e trapaceiro, e entre os bantos o elemento demoníaco cresceu",
+        "tradicoes": [
+          "candomble_ketu",
+          "candomble_angola",
+          "vodun_benim"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "bastide-1960-religions",
+            "loc": "PDF pp. 6–7 (Bastide 1960, pp. 350–352)",
+            "via": "costa-1980-exu-umbanda"
+          }
+        ],
+        "source_id": "bastide-1960-religions",
+        "via_source_id": "costa-1980-exu-umbanda",
+        "localizacao": "PDF pp. 6–7 (Bastide 1960, pp. 350–352)",
+        "parafrase": "Costa relata a síntese de Bastide em Les religions africaines au Brésil: o Legba dos daomeanos não deveria ser confundido com o Exu iorubano, embora parte do caráter fálico daquele se encontre neste. No Ketu ainda se acharia o Exu intermediário que fala pelo jogo de búzios, orientador e trapaceiro; nas nações bantas, onde a magia era mais desenvolvida, o lado demoníaco teria crescido até predominar na macumba carioca.",
+        "nota": "Diverge de exu-001, exu-040 e exu-044, que tratam Legba como equivalente de Exu.",
+        "registro": "exu-066",
+        "status": "fichado"
+      },
+      {
+        "valor": "Exu como anjo decaído (Lúcifer) em parte da Umbanda carioca; outros pais de santo rejeitam a identificação com o diabo",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": "Rio de Janeiro, c. 1970 (terreiro de Umbanda em Botafogo; terreiro Omolocô em Rocha Miranda)",
+        "sources": [
+          {
+            "id": "costa-1980-exu-umbanda",
+            "loc": "PDF pp. 8–10",
+            "via": null
+          }
+        ],
+        "source_id": "costa-1980-exu-umbanda",
+        "via_source_id": null,
+        "localizacao": "PDF pp. 8–10",
+        "parafrase": "Costa registra duas posições em terreiros do Rio por volta de 1970: um pai de santo umbandista ensinava aos médiuns que Exu seria o nome dado a Lúcifer e aos anjos rebeldes expulsos do céu, enquanto um pai de santo da nação Omolocô negava com veemência que Exu fosse o diabo e criticava as imagens com chifres.",
+        "nota": "O autor comenta a versão do \"anjo rebelde\" do ponto de vista da teologia católica; esse comentário não foi fichado.",
+        "registro": "exu-067",
+        "status": "fichado"
+      },
+      {
+        "valor": "na Umbanda, os exus formam a categoria dos \"espíritos das trevas\", em oposição aos espíritos de luz (caboclos, crianças e pretos-velhos)",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "ortiz-r-1978-morte",
+            "loc": "p. 108 (Ortiz, ed. 1991, p. 71)",
+            "via": "nascimento-2001-exus"
+          }
+        ],
+        "source_id": "ortiz-r-1978-morte",
+        "via_source_id": "nascimento-2001-exus",
+        "localizacao": "p. 108 (Ortiz, ed. 1991, p. 71)",
+        "parafrase": "Nascimento e colegas retomam Ortiz: o panteão umbandista se dividiria entre espíritos de luz, os caboclos, pretos-velhos e crianças, e espíritos das trevas, os exus, numa ordem que é também de valor. Os autores lembram que justamente as entidades de posição subalterna são as que dão consultas e ficam mais próximas dos fiéis.",
+        "nota": null,
+        "registro": "exu-073",
+        "status": "fichado"
+      },
+      {
+        "valor": "Exu representado pela força, liberdade, rua e trabalho braçal; Pomba-Gira por beleza, sensualidade e trabalho: estereótipos de gênero, raça e classe",
+        "tradicoes": [
+          "umbanda"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "nascimento-2001-exus",
+            "loc": "pp. 107, 110–111",
+            "via": null
+          }
+        ],
+        "source_id": "nascimento-2001-exus",
+        "via_source_id": null,
+        "localizacao": "pp. 107, 110–111",
+        "parafrase": "Os autores concluem que os pontos atribuem a Exu traços tidos como masculinos, como força, liberdade, vida noturna e sobretudo trabalho, que leem como braçal e de classe baixa; a Pomba-Gira recebe atributos tidos como femininos, beleza e sensualidade, além do trabalho. Ela aparece como companheira dos exus e associada à rua, o que a aproximaria do estereótipo da prostituta, embora os pontos não o digam explicitamente.",
+        "nota": null,
+        "registro": "exu-075",
+        "status": "fichado"
+      },
+      {
+        "valor": "Èṣù não é o diabo cristão nem o shaitan muçulmano; a religião iorubá não tem dualismo absoluto entre bem e mal",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "vallier-2011-esu",
+            "loc": "pp. 818–821",
+            "via": null
+          }
+        ],
+        "source_id": "vallier-2011-esu",
+        "via_source_id": null,
+        "localizacao": "pp. 818–821",
+        "parafrase": "Vallier critica os primeiros missionários e autores que fizeram de Èṣù o princípio do mal: para ele, o mundo iorubá não conhece forças totalmente opostas, uma boa e outra má, e Èṣù integra e ultrapassa os contrários, sem ser nem o mal nem o bem exclusivos. Traduzi-lo por \"diabo\" seria transpor um sistema religioso para outro sem correspondência termo a termo.",
+        "nota": "O autor discute Dennett, Lucas, Idowu e Herskovits. Concorda com exu-010 e exu-028; contrasta com exu-015 e exu-016.",
+        "registro": "exu-077",
+        "status": "fichado"
+      },
+      {
+        "valor": "o rótulo \"trickster\" é redutor: Èṣù é temido e respeitado, não ridículo, e representa a incerteza do destino no corpus de Ifá",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "vallier-2011-esu",
+            "loc": "pp. 817, 821–824, 829–831",
+            "via": null
+          }
+        ],
+        "source_id": "vallier-2011-esu",
+        "via_source_id": null,
+        "localizacao": "pp. 817, 821–824, 829–831",
+        "parafrase": "Vallier propõe abandonar a noção de \"trickster divino\" aplicada a Èṣù: comparado à tartaruga dos contos iorubás e ao Turé zande, Èṣù é sábio, poderoso e central na vida religiosa, e ninguém ousa rir dele. No Ifá ele representaria o fato de que ninguém conhece com certeza o próprio destino; o autor conclui que o trickster é uma construção dos observadores.",
+        "nota": "Diverge de leituras que tratam Exu como trickster (ver exu-050 e exu-056, Silva 2012).",
+        "registro": "exu-081",
+        "status": "fichado"
       }
     ]
   },
@@ -1406,8 +1792,7 @@
       "origem",
       "elementos",
       "saudacao",
-      "alimentos",
-      "parentesco"
+      "alimentos"
     ],
     "so_pre_fichamento": {},
     "retidos_ate_conselho": {

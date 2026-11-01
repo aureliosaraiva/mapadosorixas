@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 34,
+    "total": 39,
     "por_status": {
-      "fichado": 30,
+      "fichado": 35,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -667,6 +667,101 @@
         "https://bdor.sibi.ufrj.br/handle/doc/361"
       ],
       "id": "xango-034"
+    },
+    {
+      "id": "xango-035",
+      "orixa": "xango",
+      "atributo": "origem",
+      "valor": "o nome Xangô viria do gbari ɛtswaʃɛ̰gʷo (\"governante do céu\"), via nupe; não teria havido um rei histórico divinizado",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "capo-chichi-2025-shango",
+      "via_source_id": null,
+      "localizacao": "pp. 1–2, 7–9",
+      "parafrase": "Capo Chichi propõe, por argumentos de fonologia e morfologia comparadas, que o teônimo Xangô seja empréstimo do gbari, onde o nome do deus supremo significa \"governante do céu\", passando pelo nupe, onde a primeira parte foi entendida como \"rei\", até o iorubá de Oyó antigo. Daí viria a ligação de Xangô com a realeza; a figura do rei de Oyó divinizado teria sido criada pela tradição para explicar o título.",
+      "nota": "Hipótese linguística recente; diverge de xango-001 e xango-021 (rei divinizado). O autor também descarta as etimologias iorubá (Ellis) e nupe direta (Idowu).",
+      "status": "fichado",
+      "evidencias": [
+        "https://journals.flvc.org/ysr/article/view/139147"
+      ]
+    },
+    {
+      "id": "xango-036",
+      "orixa": "xango",
+      "atributo": "itans",
+      "valor": "tradição de Oyó: alafin tirânico que manipulava o raio, destruiu o próprio palácio, deixou Oyó e se enforcou; foi divinizado pelos seguidores",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó (Nigéria)",
+      "source_id": "johnson-1921-history",
+      "via_source_id": "capo-chichi-2025-shango",
+      "localizacao": "p. 3",
+      "parafrase": "Capo Chichi resume a versão de Johnson: Xangô, governante tirânico que cuspia fogo, teria destruído o próprio palácio ao manipular o trovão, matando mulheres e filhos; envergonhado, partiu para a terra nupe da mãe, foi abandonado pelos seguidores e se enforcou, sendo então divinizado. Numa variante registrada por Hethersett (1941), a partida resulta de uma guerra entre dois generais, e os seguidores negam a morte com a frase \"o rei não se enforcou\".",
+      "nota": "Paráfrase de resumo de 2ª mão. Johnson é citado pela ed. de 1960; Hethersett não está no catálogo. O autor mostra que Isola e Akinyemi apontaram inconsistências nessas versões (ver xango-037).",
+      "status": "fichado",
+      "evidencias": [
+        "https://journals.flvc.org/ysr/article/view/139147"
+      ]
+    },
+    {
+      "id": "xango-037",
+      "orixa": "xango",
+      "atributo": "interpretacao_academica",
+      "valor": "Akinyemi: o deus Xangô é anterior ao Estado de Oyó e foi instalado como divindade tutelar do alafin",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "tishken-2009-sango",
+      "via_source_id": "capo-chichi-2025-shango",
+      "localizacao": "p. 4 (Akinyemi 2009)",
+      "parafrase": "Capo Chichi relata o argumento de Akinyemi, no volume organizado por Tishken, Falola e Akinyemi: um alafin só seria divinizado se enterrado no mausoléu real e o enforcamento seria proibido em Oyó, o que torna improvável a divinização do rei de Koso. Com base nos versos de Ifá, Akinyemi conclui que o deus é anterior a Oyó e que chamar de Xangô todos os alafins divinizados levou à leitura errada de que o culto começou com um rei. Capo Chichi concorda com a anterioridade do deus.",
+      "nota": "Capítulo de Akinyemi em Tishken et al. 2009, lido de 2ª mão. Diverge de xango-001 e xango-021.",
+      "status": "fichado",
+      "evidencias": [
+        "https://journals.flvc.org/ysr/article/view/139147"
+      ]
+    },
+    {
+      "id": "xango-038",
+      "orixa": "xango",
+      "atributo": "historia_culto",
+      "valor": "originalmente específico dos iorubás do norte (Oyó); difundido pela expansão do império de Oyó a partir do séc. XVI",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó antigo (centro-oeste da Nigéria), perto de territórios nupe",
+      "source_id": "capo-chichi-2025-shango",
+      "via_source_id": null,
+      "localizacao": "pp. 2–3",
+      "parafrase": "Segundo Capo Chichi, o culto a Xangô era originalmente próprio dos iorubás do norte, em Oyó, e se espalhou por grande parte da Iorubalândia com a expansão do império de Oyó a partir do séc. XVI; antes disso seria desconhecido dos demais povos iorubás. Hoje é cultuado na Nigéria e no Benim e é muito popular no Candomblé e na Lucumí.",
+      "nota": "Comparar com xango-003 (Tishken, pre_fichamento: Xangô visto como estrangeiro no leste).",
+      "status": "fichado",
+      "evidencias": [
+        "https://journals.flvc.org/ysr/article/view/139147"
+      ]
+    },
+    {
+      "id": "xango-039",
+      "orixa": "xango",
+      "atributo": "nomes",
+      "valor": "Jakuta (\"atirador de pedras\"), hoje epíteto de Xangô; grafias Ṣàngó e Ṣọ̀ngó",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": null,
+      "source_id": "idowu-1962-olodumare",
+      "via_source_id": "capo-chichi-2025-shango",
+      "localizacao": "pp. 2–3 (Idowu, ed. 1995)",
+      "parafrase": "Capo Chichi registra as grafias Ṣàngó e Ṣọ̀ngó e relata a explicação de Idowu: um alafin chamado Xangô teria sido identificado, ao ser divinizado, com uma divindade anterior e benévola chamada Jakuta, \"atirador de pedras\", nome que sobreviveu como epíteto; isso explicaria o caráter aparentemente contraditório do deus.",
+      "nota": "Frobenius, também citado pelo autor, explicava os \"dois Xangôs\" por origens distintas (nupe e borgu).",
+      "status": "fichado",
+      "evidencias": [
+        "https://journals.flvc.org/ysr/article/view/139147"
+      ]
     }
   ]
 }

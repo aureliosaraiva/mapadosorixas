@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 32
+    "total": 33
   },
   "divergencias": [
     {
@@ -107,6 +107,18 @@
           "via": null,
           "localizacao": "p. 289",
           "registro": "exu-044"
+        },
+        {
+          "valor": "Legba, equivalente fon de Èṣù-Elégbá \"sob certos aspectos rituais\"",
+          "tradicoes": [
+            "vodun_benim",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "vallier-2011-esu",
+          "via": null,
+          "localizacao": "p. 820, nota 29",
+          "registro": "exu-080"
         }
       ]
     },
@@ -176,6 +188,17 @@
           "via": null,
           "localizacao": "p. 1100",
           "registro": "exu-060"
+        },
+        {
+          "valor": "o gorro de duas cores que faz brigar dois amigos (verso de Ifá Òdí Méjì); cores variam entre versões",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Ifé (Modakeke), Oyó e Imeko (Nigéria); versões de Frobenius e dos Herskovits",
+          "fonte": "bascom-1969-ifa",
+          "via": "vallier-2011-esu",
+          "localizacao": "pp. 824–825 (Bascom 1969, p. 311)",
+          "registro": "exu-082"
         }
       ]
     },
@@ -217,6 +240,40 @@
           "via": null,
           "localizacao": "p. 1089",
           "registro": "exu-057"
+        },
+        {
+          "valor": "Exu-coroado (orixá, que nunca teve corpo) × Exu-batizado (egum, espírito de morto: Tranca-Rua, Caveira, Mulambo)",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Rio de Janeiro, 1970 (pai de santo da nação Omolocô)",
+          "fonte": "costa-1980-exu-umbanda",
+          "via": null,
+          "localizacao": "PDF pp. 10–11",
+          "registro": "exu-068"
+        },
+        {
+          "valor": "escala de exus na Umbanda: pagão (obsessor) → batizado → traçado (com Preto-Velho ou Caboclo) → coroado (chefe de falange) → Preto-Velho ou Caboclo \"puro\"",
+          "tradicoes": [
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Rio de Janeiro, c. 1970",
+          "fonte": "costa-1980-exu-umbanda",
+          "via": null,
+          "localizacao": "PDF pp. 16–18",
+          "registro": "exu-069"
+        },
+        {
+          "valor": "Pomba-Gira: exu feminino; nome ligado ao \"pombo-ngira\", correspondente de Exu na nação Angola",
+          "tradicoes": [
+            "umbanda",
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "Rio de Janeiro, c. 1970",
+          "fonte": "costa-1980-exu-umbanda",
+          "via": null,
+          "localizacao": "PDF pp. 15–16",
+          "registro": "exu-072"
         }
       ]
     },
@@ -748,6 +805,47 @@
     },
     {
       "orixa": "ogum",
+      "atributo": "parentesco",
+      "versoes": [
+        {
+          "valor": "irmão de Oxóssi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 123, nota 91",
+          "registro": "ogum-013"
+        },
+        {
+          "valor": "irmão de Exu; ambos orixás \"de rua\" que abrem caminhos juntos",
+          "tradicoes": [
+            "candomble_ketu",
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "pares-2006-formacao",
+          "via": "castillo-2022-ogum",
+          "localizacao": "p. 8 (Parés 2006, pp. 335–340)",
+          "registro": "ogum-044"
+        },
+        {
+          "valor": "irmão de Oxóssi (na África e no Brasil); ambos senhores das florestas",
+          "tradicoes": [
+            "ioruba_nigeria",
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "verger-1981-orixas",
+          "via": "castillo-2022-ogum",
+          "localizacao": "p. 21 (Verger, ed. 2018, pp. 118–119)",
+          "registro": "ogum-045"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
       "atributo": "qualidades",
       "versoes": [
         {
@@ -782,6 +880,29 @@
           "via": "ufpb-2011-sao-jorge",
           "localizacao": "p. 83",
           "registro": "ogum-033"
+        },
+        {
+          "valor": "sete qualidades no Ketu/nagô, entre elas Ogunjá, ligado a Exu; o nome Ogunjá também aparece em tradições orais do leste iorubá",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Salvador (BA); Akure e Ile-Oluji (estado de Ondo, Nigéria)",
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "pp. 26–28",
+          "registro": "ogum-051"
+        },
+        {
+          "valor": "Ogum Xoroquê, única qualidade de Ogum registrada na literatura sobre o candomblé jeje",
+          "tradicoes": [
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "pp. 7, 26",
+          "registro": "ogum-052"
         }
       ]
     },
@@ -845,6 +966,40 @@
           "via": null,
           "localizacao": "p. 71",
           "registro": "ogum-032"
+        },
+        {
+          "valor": "assentamento: em geral de ferro no Brasil; na África a pedra é elemento central, muitas vezes com objetos de ferro",
+          "tradicoes": [
+            "candomble_ketu",
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "p. 8",
+          "registro": "ogum-040"
+        },
+        {
+          "valor": "mariô (franja de folhas desfiadas do dendezeiro): enfeite da roupa do orixá e proteção sobre portas e janelas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador (BA)",
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "pp. 10, 20",
+          "registro": "ogum-041"
+        },
+        {
+          "valor": "plantas prediletas: aroeira, espada-de-Ogum (espada-de-São-Jorge) e peregun (Dracaena fragrans)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador (BA): Candeal Pequeno",
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "p. 7",
+          "registro": "ogum-042"
         }
       ]
     },
@@ -885,6 +1040,17 @@
           "via": null,
           "localizacao": "p. 266",
           "registro": "ogum-019"
+        },
+        {
+          "valor": "Santo Antônio (de Lisboa)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Salvador (BA): Candeal Pequeno, desde 1950",
+          "fonte": "castillo-2022-ogum",
+          "via": null,
+          "localizacao": "pp. 8–9",
+          "registro": "ogum-035"
         }
       ]
     },
@@ -1231,6 +1397,17 @@
           "via": "bastide-1958-candomble",
           "localizacao": "ed. pt 1961, p. 123",
           "registro": "xango-016"
+        },
+        {
+          "valor": "tradição de Oyó: alafin tirânico que manipulava o raio, destruiu o próprio palácio, deixou Oyó e se enforcou; foi divinizado pelos seguidores",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Oyó (Nigéria)",
+          "fonte": "johnson-1921-history",
+          "via": "capo-chichi-2025-shango",
+          "localizacao": "p. 3",
+          "registro": "xango-036"
         }
       ]
     },
@@ -1261,6 +1438,17 @@
           "via": null,
           "localizacao": "p. 240",
           "registro": "xango-021"
+        },
+        {
+          "valor": "o nome Xangô viria do gbari ɛtswaʃɛ̰gʷo (\"governante do céu\"), via nupe; não teria havido um rei histórico divinizado",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": null,
+          "fonte": "capo-chichi-2025-shango",
+          "via": null,
+          "localizacao": "pp. 1–2, 7–9",
+          "registro": "xango-035"
         }
       ]
     },

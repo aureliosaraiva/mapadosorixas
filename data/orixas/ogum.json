@@ -3,13 +3,59 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ogum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 28,
+    "registros_usados": 47,
     "registros_pre_fichamento_excluidos": 5,
     "registros_retidos": 0
   },
   "id": "ogum",
   "rotulo": "Ogum",
   "atributos": {
+    "nomes": [
+      {
+        "valor": "Onirê (\"senhor de Iré\")",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "p. 27",
+        "parafrase": "Segundo a autora, no candomblé ketu/nagô é comum chamar Ogum de Onirê, título que ela explica como senhor de Iré, a cidade apontada como berço do culto.",
+        "nota": null,
+        "registro": "ogum-050",
+        "status": "fichado"
+      }
+    ],
+    "origem": [
+      {
+        "valor": "culto nascido no leste iorubá, em Iré (reino de Ekiti); forte também em Ijexá e Ondo",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia oriental (Ekiti, Ijexá, Ondo)",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 26–27",
+        "parafrase": "Castillo afirma que Ogum está entre os poucos orixás cultuados historicamente em todas as regiões iorubás, mas que seus oríkì e os versos de Ifá apontam a origem do culto em Iré, no reino de Ekiti, no leste; o culto também seria especialmente forte nos reinos vizinhos de Ijexá e Ondo.",
+        "nota": "A autora apoia-se em Peel (1997) e Verger (1998), não conferidos nesta rodada.",
+        "registro": "ogum-049",
+        "status": "fichado"
+      }
+    ],
     "dominios": [
       {
         "valor": "patrono dos ferreiros; divindade 'do ar livre'",
@@ -52,6 +98,52 @@
         "parafrase": "Ogum é o orixá do ferro e do aço e de todos que trabalham com instrumentos de metal, de ferreiros e agricultores a cirurgiões.",
         "nota": null,
         "registro": "ogum-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "guerra e proteção contra inimigos; domínio do ferro: patrono de guerreiros, soldados, ferreiros, caçadores e ofícios que usam ferro",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 7–8",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 7–8",
+        "parafrase": "Para Castillo, Ogum é invocado como caçador e guerreiro contra inimigos humanos e espirituais, mas a raiz dessa força é o domínio do trabalho com o ferro. Por isso seria patrono não só de soldados, mas também de ferreiros, caçadores e de todas as profissões que dependem de objetos de ferro.",
+        "nota": "Síntese da autora. Comparar com ogum-012 e ogum-017.",
+        "registro": "ogum-036",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "abrir caminhos e afastar o mal: no Ketu a abertura de caminhos cabe a Exu; no Jeje, Legba e Ogum (sobretudo a qualidade Xoroquê) dividem a tarefa de repelir o mal",
+        "tradicoes": [
+          "candomble_ketu",
+          "candomble_jeje"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "pares-2006-formacao",
+            "loc": "p. 7 (Parés 2006, pp. 335–337; Verger, ed. 2018, pp. 82–85)",
+            "via": "castillo-2022-ogum"
+          }
+        ],
+        "source_id": "pares-2006-formacao",
+        "via_source_id": "castillo-2022-ogum",
+        "localizacao": "p. 7 (Parés 2006, pp. 335–337; Verger, ed. 2018, pp. 82–85)",
+        "parafrase": "Castillo explica que, embora a proteção e a abertura estejam associadas a Ogum, no candomblé ketu a capacidade de abrir caminhos costuma ser atribuída a Exu. Na nação jeje, Legba, equivalente de Exu, dividiria com Ogum, em especial com a qualidade Xoroquê, a função de repelir o mal.",
+        "nota": null,
+        "registro": "ogum-043",
         "status": "fichado"
       }
     ],
@@ -338,6 +430,70 @@
         "nota": null,
         "registro": "ogum-032",
         "status": "fichado"
+      },
+      {
+        "valor": "assentamento: em geral de ferro no Brasil; na África a pedra é elemento central, muitas vezes com objetos de ferro",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "p. 8",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "p. 8",
+        "parafrase": "Segundo Castillo, por causa do vínculo com o ferro, os assentamentos de Ogum no Brasil costumam ser feitos desse metal; na África, porém, as pedras ocupam o centro dos assentamentos, ainda que o ferro também apareça. No Candeal o assentamento é uma pedra rodeada de ferramentas de ferro.",
+        "nota": "A autora apoia a parte africana em Barnes & Ben-Amos, Babalola, Pemberton e Peel (todos em Barnes, org., Africa's Ogun, 2ª ed. 1997). Sem detalhar a composição ritual do assentamento.",
+        "registro": "ogum-040",
+        "status": "fichado"
+      },
+      {
+        "valor": "mariô (franja de folhas desfiadas do dendezeiro): enfeite da roupa do orixá e proteção sobre portas e janelas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA)",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 10, 20",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 10, 20",
+        "parafrase": "Castillo descreve o mariô, palavra iorubá usada no candomblé para a franja de folhas de dendezeiro desfiadas, como um dos símbolos centrais de Ogum: adorna a roupa do orixá em transe e, pendurado sobre portas e janelas dos terreiros, chama sua proteção contra espíritos e energias ruins.",
+        "nota": null,
+        "registro": "ogum-041",
+        "status": "fichado"
+      },
+      {
+        "valor": "plantas prediletas: aroeira, espada-de-Ogum (espada-de-São-Jorge) e peregun (Dracaena fragrans)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA): Candeal Pequeno",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "p. 7",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "p. 7",
+        "parafrase": "No terreno murado do Candeal, a autora registra espécies tidas como prediletas de Ogum: aroeira, espada-de-Ogum, também chamada espada-de-São-Jorge, e o arbusto que o candomblé chama pelo nome iorubá peregun.",
+        "nota": "Para as plantas a autora cita Voeks 1997. Comparar com ogum-023, ogum-027 e ogum-029.",
+        "registro": "ogum-042",
+        "status": "fichado"
       }
     ],
     "qualidades": [
@@ -403,6 +559,49 @@
         "nota": "2ª mão: Pinheiro cita Ortiz pela ed. de 1999, sem página para a lista. Ortiz (1978) está 'a_verificar' no catálogo.",
         "registro": "ogum-033",
         "status": "fichado"
+      },
+      {
+        "valor": "sete qualidades no Ketu/nagô, entre elas Ogunjá, ligado a Exu; o nome Ogunjá também aparece em tradições orais do leste iorubá",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Salvador (BA); Akure e Ile-Oluji (estado de Ondo, Nigéria)",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 26–28",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 26–28",
+        "parafrase": "Castillo informa que o candomblé ketu/nagô reconhece sete qualidades de Ogum, entre as quais Ogunjá, de laços estreitos com Exu, e que é essa a qualidade atribuída ao Ogum do Candeal. Na Nigéria, Ogunjá aparece como nome de um rei de Akure no séc. XVII e como figura ancestral, filho do caçador Ijá, nos mitos de fundação de Ile-Oluji. Em Salvador, ficou conhecido como a qualidade do babalorixá Procópio (Ilê Ogunjá).",
+        "nota": "Comparar com ogum-002 (Carneiro, via Prandi: Ogunjá mora com Oxóssi e Exu). A autora diz que Ogunjá não consta da literatura sobre o Daomé nem sobre o Jeje no Brasil.",
+        "registro": "ogum-051",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ogum Xoroquê, única qualidade de Ogum registrada na literatura sobre o candomblé jeje",
+        "tradicoes": [
+          "candomble_jeje"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 7, 26",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 7, 26",
+        "parafrase": "Castillo afirma que a única qualidade de Ogum de que a literatura etnográfica sobre o candomblé jeje dá notícia é Ogum Xoroquê, que no Jeje divide com Legba o poder de afastar o mal.",
+        "nota": "Comparar com ogum-001 (Prandi: Xoroquê ligado a Exu, no Ketu).",
+        "registro": "ogum-052",
+        "status": "fichado"
       }
     ],
     "parentesco": [
@@ -425,6 +624,74 @@
         "parafrase": "Ogum e Oxóssi são irmãos segundo um mito citado por Bastide.",
         "nota": "Mito em Ribeiro (1952, p. 49).",
         "registro": "ogum-013",
+        "status": "fichado"
+      },
+      {
+        "valor": "irmão de Exu; ambos orixás \"de rua\" que abrem caminhos juntos",
+        "tradicoes": [
+          "candomble_ketu",
+          "candomble_jeje"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "pares-2006-formacao",
+            "loc": "p. 8 (Parés 2006, pp. 335–340)",
+            "via": "castillo-2022-ogum"
+          }
+        ],
+        "source_id": "pares-2006-formacao",
+        "via_source_id": "castillo-2022-ogum",
+        "localizacao": "p. 8 (Parés 2006, pp. 335–340)",
+        "parafrase": "Ao explicar por que um assentamento de Exu foi instalado ao lado do de Ogum no Candeal, Castillo, apoiada em Parés, diz que os dois orixás partilham várias características, são muitas vezes descritos como irmãos e considerados orixás de rua que atuam juntos para abrir caminhos.",
+        "nota": "Comparar com exu-070 (Umbanda Omolocô: Exu irmão mais novo de Ogum).",
+        "registro": "ogum-044",
+        "status": "fichado"
+      },
+      {
+        "valor": "irmão de Oxóssi (na África e no Brasil); ambos senhores das florestas",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "verger-1981-orixas",
+            "loc": "p. 21 (Verger, ed. 2018, pp. 118–119)",
+            "via": "castillo-2022-ogum"
+          }
+        ],
+        "source_id": "verger-1981-orixas",
+        "via_source_id": "castillo-2022-ogum",
+        "localizacao": "p. 21 (Verger, ed. 2018, pp. 118–119)",
+        "parafrase": "Castillo afirma, com base em Verger e Dennett, que tanto na África quanto no Brasil Ogum e Oxóssi são tidos como irmãos; ambos reinam sobre a mata, razão pela qual são consultados quando se escolhe o lugar de novas povoações e roças.",
+        "nota": "Concorda com ogum-013 e oxossi-010.",
+        "registro": "ogum-045",
+        "status": "fichado"
+      }
+    ],
+    "equivalencias": [
+      {
+        "valor": "Gu (vodum dos jejes/fons), cultuado com os mesmos atributos",
+        "tradicoes": [
+          "candomble_jeje",
+          "vodun_benim"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 24–25",
+        "parafrase": "Segundo Castillo, Ogum é cultuado com os mesmos atributos, sob o nome de Gu, pelos povos chamados jejes no Brasil. No Daomé, Gu ganhou importância por sua ligação com ferreiros e ofícios do ferro e, na cosmologia fon, integra um grupo de voduns tidos como de origem nagô.",
+        "nota": "A classificação de Gu entre os voduns \"nagôs\" é de Le Hérissé (1911), citado pela autora. Equivalência não é identidade.",
+        "registro": "ogum-046",
         "status": "fichado"
       }
     ],
@@ -491,6 +758,50 @@
         "parafrase": "Ogum é geralmente associado a São Jorge.",
         "nota": null,
         "registro": "ogum-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "Santo Antônio (de Lisboa)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA): Candeal Pequeno, desde 1950",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 8–9",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 8–9",
+        "parafrase": "No Candeal, a festa de Ogum no primeiro dia do ano passou a incluir, a partir de 1950, uma missa para Santo Antônio, santo que a autora identifica como associado a Ogum no sincretismo afro-católico baiano. A prática segue o costume de terreiros históricos de Salvador de abrir festas de orixá com missa e procissão de imagens.",
+        "nota": "Para a associação Ogum–Santo Antônio a autora cita Gadêlha 2004 e Verger (ed. 2018, p. 100). Comparar com ogum-006, ogum-014 e ogum-019 (São Jorge).",
+        "registro": "ogum-035",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "mito daomeano: o Criador trouxe Gu à Terra como espada cerimonial (gubasa) e com ela ensinou a desbravar, construir e cultivar",
+        "tradicoes": [
+          "vodun_benim"
+        ],
+        "casa_ou_regiao": "Daomé (atual Benim)",
+        "sources": [
+          {
+            "id": "barnes-1989-ogun",
+            "loc": "pp. 24–25 (Barnes & Ben-Amos, ed. 1997, pp. 53–54)",
+            "via": "castillo-2022-ogum"
+          }
+        ],
+        "source_id": "barnes-1989-ogun",
+        "via_source_id": "castillo-2022-ogum",
+        "localizacao": "pp. 24–25 (Barnes & Ben-Amos, ed. 1997, pp. 53–54)",
+        "parafrase": "Castillo resume um mito de criação daomeano relatado por Barnes e Ben-Amos: o Criador teria vindo à Terra segurando Gu na forma de uma espada cerimonial e, com ela, abriu o mato e ensinou as pessoas a erguer casas, plantar e trabalhar o metal. A autora liga o mito às miniaturas de enxadas e ferramentas nos altares de Gu.",
+        "nota": "Paráfrase de resumo de 2ª mão. Castillo cita a 2ª ed. (1997) de Africa's Ogun; o catálogo registra a 1ª (1989).",
+        "registro": "ogum-047",
         "status": "fichado"
       }
     ],
@@ -560,6 +871,92 @@
         "nota": "Nina Rodrigues, Animismo, pp. 47–49. Bastide acrescenta que antigamente se ofereciam ao peji de Ogum as armas usadas em crimes.",
         "registro": "ogum-026",
         "status": "fichado"
+      },
+      {
+        "valor": "culto familiar a Ogum no Candeal Pequeno (Salvador), mantido por descendentes de um casal africano desde o séc. XIX",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA): Candeal Pequeno, bairro de Brotas",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 3, 5, 7, 9–10",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 3, 5, 7, 9–10",
+        "parafrase": "Castillo reconstrói a história de um altar de Ogum no Candeal Pequeno, atribuído pela memória oral a um casal africano do início do séc. XIX. O assentamento teria como base uma pedra que o marido trouxe da África num amuleto de guerra; o zelo passou por gerações de mulheres da família. A autora destaca que o culto ficou sempre doméstico: não virou terreiro, não iniciou filhos de santo nem ampliou o calendário.",
+        "nota": "Tradição aproximada: a autora situa o caso no candomblé da Bahia e descreve influências jeje e hauçá na fundação e nagô/ijexá no séc. XX; o culto é familiar, fora de terreiro. Dados de documentos (testamento, batismos, inventários) cruzados com a tradição oral da família.",
+        "registro": "ogum-034",
+        "status": "fichado"
+      },
+      {
+        "valor": "no Brasil, Ogum teria perdido o papel de protetor dos agricultores, e Oxóssi o teria substituído como deus dos caçadores",
+        "tradicoes": [
+          "candomble_ketu",
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "verger-1981-orixas",
+            "loc": "p. 22 (Verger, ed. 2018, p. 100)",
+            "via": "castillo-2022-ogum"
+          }
+        ],
+        "source_id": "verger-1981-orixas",
+        "via_source_id": "castillo-2022-ogum",
+        "localizacao": "p. 22 (Verger, ed. 2018, p. 100)",
+        "parafrase": "Castillo resume a tese de Verger: na África Ogum também protegia os lavradores, mas no Brasil ficou conhecido sobretudo como deus da guerra, porque os escravizados não teriam interesse próprio nas colheitas; pelo mesmo motivo o culto de Orixá Okô teria minguado, e Oxóssi teria tomado de Ogum o lugar de deus dos caçadores.",
+        "nota": "Castillo nota que Bastide (1978) diz o mesmo. Divergência: ver ogum-038.",
+        "registro": "ogum-037",
+        "status": "fichado"
+      },
+      {
+        "valor": "assentamentos ao ar livre na África, nas entradas de palácios, mercados e templos; em muitos terreiros, em casinhas fechadas",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "verger-1981-orixas",
+            "loc": "p. 7 (Verger, ed. 2018, p. 93)",
+            "via": "castillo-2022-ogum"
+          }
+        ],
+        "source_id": "verger-1981-orixas",
+        "via_source_id": "castillo-2022-ogum",
+        "localizacao": "p. 7 (Verger, ed. 2018, p. 93)",
+        "parafrase": "Castillo observa que, em boa parte dos terreiros, Ogum é assentado dentro de pequenas casas fechadas, ao passo que na África, segundo Verger, seus altares estão sempre a céu aberto, à entrada de palácios, mercados e templos, lugar que reforçaria seu papel de barrar forças maléficas.",
+        "nota": "A parte sobre os terreiros é observação da autora; a parte africana é de Verger.",
+        "registro": "ogum-039",
+        "status": "fichado"
+      },
+      {
+        "valor": "no Haiti, Ogou está entre as divindades principais e se liga aos heróis da independência (Ogou Desalin)",
+        "tradicoes": [
+          "vodou_haiti"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "barnes-1989-ogun",
+            "loc": "p. 25 (Cosentino, ed. 1997, pp. 298–301, 312)",
+            "via": "castillo-2022-ogum"
+          }
+        ],
+        "source_id": "barnes-1989-ogun",
+        "via_source_id": "castillo-2022-ogum",
+        "localizacao": "p. 25 (Cosentino, ed. 1997, pp. 298–301, 312)",
+        "parafrase": "Como indício de que o culto a Gu já era difundido no Daomé no séc. XVIII, Castillo lembra que no Haiti, para onde foram muitos cativos de língua gbe, Ogou figura entre as divindades principais e se liga aos heróis da independência; o espírito do general Dessalines é cultuado como uma qualidade do deus, Ogou Desalin.",
+        "nota": "Fonte: capítulo de Cosentino na 2ª ed. de Africa's Ogun (1997). Relaciona-se com ogum-003 e ogum-004 (pre_fichamento, Brown 1989).",
+        "registro": "ogum-048",
+        "status": "fichado"
       }
     ],
     "iconografia": [
@@ -628,25 +1025,38 @@
         "nota": null,
         "registro": "ogum-028",
         "status": "fichado"
+      },
+      {
+        "valor": "Castillo contesta Verger: libertos lavradores cultuavam Ogum como padroeiro da lavoura no séc. XIX",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA): Candeal e terreiros em roças de africanos libertos",
+        "sources": [
+          {
+            "id": "castillo-2022-ogum",
+            "loc": "pp. 8, 22",
+            "via": null
+          }
+        ],
+        "source_id": "castillo-2022-ogum",
+        "via_source_id": null,
+        "localizacao": "pp. 8, 22",
+        "parafrase": "A autora argumenta que africanos libertos que assentaram orixás em seus pomares tinham interesse direto nas safras, e que até cativos cultivavam hortas. O caso do Candeal, onde Ogum foi padroeiro de uma família de lavradores por mais de um século, sugere que a mudança apontada por Verger ainda não tinha ocorrido naquela época.",
+        "nota": "Diverge de ogum-037. A autora lembra que Orixá Okô ainda é cultuado no Alaketu.",
+        "registro": "ogum-038",
+        "status": "fichado"
       }
     ]
   },
   "pendencias": {
     "sem_registro": [
-      "nomes",
-      "origem",
-      "funcoes",
       "saudacao",
       "alimentos",
       "animais",
-      "itans",
       "tabus"
     ],
-    "so_pre_fichamento": {
-      "equivalencias": [
-        "ogum-003"
-      ]
-    },
+    "so_pre_fichamento": {},
     "retidos_ate_conselho": {}
   },
   "revisao": []

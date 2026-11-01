@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/xango.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 30,
+    "registros_usados": 35,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -30,6 +30,27 @@
         "parafrase": "Costa explica que, em Pernambuco, a palavra xangô ganhou vários sentidos: nomeia a religião de culto aos orixás, o próprio orixá do trovão, o terreiro e também as festas ou toques ali realizados. Acrescenta que no Nordeste (Alagoas, Paraíba, Rio Grande do Norte e Pernambuco) a religião recebeu esse nome, enquanto na Bahia e no Sudeste prevaleceu 'candomblé'.",
         "nota": "Segundo a autora (p. 199, nota 1), muitos adeptos, sobretudo os mais jovens, também passaram a usar 'candomblé', porque 'xangô' ficou estigmatizado pela repressão policial dos anos 1930.",
         "registro": "xango-005",
+        "status": "fichado"
+      },
+      {
+        "valor": "Jakuta (\"atirador de pedras\"), hoje epíteto de Xangô; grafias Ṣàngó e Ṣọ̀ngó",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "idowu-1962-olodumare",
+            "loc": "pp. 2–3 (Idowu, ed. 1995)",
+            "via": "capo-chichi-2025-shango"
+          }
+        ],
+        "source_id": "idowu-1962-olodumare",
+        "via_source_id": "capo-chichi-2025-shango",
+        "localizacao": "pp. 2–3 (Idowu, ed. 1995)",
+        "parafrase": "Capo Chichi registra as grafias Ṣàngó e Ṣọ̀ngó e relata a explicação de Idowu: um alafin chamado Xangô teria sido identificado, ao ser divinizado, com uma divindade anterior e benévola chamada Jakuta, \"atirador de pedras\", nome que sobreviveu como epíteto; isso explicaria o caráter aparentemente contraditório do deus.",
+        "nota": "Frobenius, também citado pelo autor, explicava os \"dois Xangôs\" por origens distintas (nupe e borgu).",
+        "registro": "xango-039",
         "status": "fichado"
       }
     ],
@@ -76,6 +97,27 @@
         "parafrase": "Xangô é um dos raros orixás com vida humana conhecida: teria sido o terceiro ou o quarto alafin (rei) de Oyó, divinizado por seus feitos de guerreiro.",
         "nota": "A própria fonte registra a dúvida 3º/4º.",
         "registro": "xango-021",
+        "status": "fichado"
+      },
+      {
+        "valor": "o nome Xangô viria do gbari ɛtswaʃɛ̰gʷo (\"governante do céu\"), via nupe; não teria havido um rei histórico divinizado",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "capo-chichi-2025-shango",
+            "loc": "pp. 1–2, 7–9",
+            "via": null
+          }
+        ],
+        "source_id": "capo-chichi-2025-shango",
+        "via_source_id": null,
+        "localizacao": "pp. 1–2, 7–9",
+        "parafrase": "Capo Chichi propõe, por argumentos de fonologia e morfologia comparadas, que o teônimo Xangô seja empréstimo do gbari, onde o nome do deus supremo significa \"governante do céu\", passando pelo nupe, onde a primeira parte foi entendida como \"rei\", até o iorubá de Oyó antigo. Daí viria a ligação de Xangô com a realeza; a figura do rei de Oyó divinizado teria sido criada pela tradição para explicar o título.",
+        "nota": "Hipótese linguística recente; diverge de xango-001 e xango-021 (rei divinizado). O autor também descarta as etimologias iorubá (Ellis) e nupe direta (Idowu).",
+        "registro": "xango-035",
         "status": "fichado"
       }
     ],
@@ -588,6 +630,27 @@
         "nota": "Ribeiro (1952, pp. 50–1). Resumo próprio.",
         "registro": "xango-016",
         "status": "fichado"
+      },
+      {
+        "valor": "tradição de Oyó: alafin tirânico que manipulava o raio, destruiu o próprio palácio, deixou Oyó e se enforcou; foi divinizado pelos seguidores",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Oyó (Nigéria)",
+        "sources": [
+          {
+            "id": "johnson-1921-history",
+            "loc": "p. 3",
+            "via": "capo-chichi-2025-shango"
+          }
+        ],
+        "source_id": "johnson-1921-history",
+        "via_source_id": "capo-chichi-2025-shango",
+        "localizacao": "p. 3",
+        "parafrase": "Capo Chichi resume a versão de Johnson: Xangô, governante tirânico que cuspia fogo, teria destruído o próprio palácio ao manipular o trovão, matando mulheres e filhos; envergonhado, partiu para a terra nupe da mãe, foi abandonado pelos seguidores e se enforcou, sendo então divinizado. Numa variante registrada por Hethersett (1941), a partida resulta de uma guerra entre dois generais, e os seguidores negam a morte com a frase \"o rei não se enforcou\".",
+        "nota": "Paráfrase de resumo de 2ª mão. Johnson é citado pela ed. de 1960; Hethersett não está no catálogo. O autor mostra que Isola e Akinyemi apontaram inconsistências nessas versões (ver xango-037).",
+        "registro": "xango-036",
+        "status": "fichado"
       }
     ],
     "festas": [
@@ -635,6 +698,27 @@
         "nota": null,
         "registro": "xango-034",
         "status": "fichado"
+      },
+      {
+        "valor": "originalmente específico dos iorubás do norte (Oyó); difundido pela expansão do império de Oyó a partir do séc. XVI",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Oyó antigo (centro-oeste da Nigéria), perto de territórios nupe",
+        "sources": [
+          {
+            "id": "capo-chichi-2025-shango",
+            "loc": "pp. 2–3",
+            "via": null
+          }
+        ],
+        "source_id": "capo-chichi-2025-shango",
+        "via_source_id": null,
+        "localizacao": "pp. 2–3",
+        "parafrase": "Segundo Capo Chichi, o culto a Xangô era originalmente próprio dos iorubás do norte, em Oyó, e se espalhou por grande parte da Iorubalândia com a expansão do império de Oyó a partir do séc. XVI; antes disso seria desconhecido dos demais povos iorubás. Hoje é cultuado na Nigéria e no Benim e é muito popular no Candomblé e na Lucumí.",
+        "nota": "Comparar com xango-003 (Tishken, pre_fichamento: Xangô visto como estrangeiro no leste).",
+        "registro": "xango-038",
+        "status": "fichado"
       }
     ],
     "iconografia": [
@@ -680,6 +764,29 @@
         "registro": "xango-032",
         "status": "fichado"
       }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "Akinyemi: o deus Xangô é anterior ao Estado de Oyó e foi instalado como divindade tutelar do alafin",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "tishken-2009-sango",
+            "loc": "p. 4 (Akinyemi 2009)",
+            "via": "capo-chichi-2025-shango"
+          }
+        ],
+        "source_id": "tishken-2009-sango",
+        "via_source_id": "capo-chichi-2025-shango",
+        "localizacao": "p. 4 (Akinyemi 2009)",
+        "parafrase": "Capo Chichi relata o argumento de Akinyemi, no volume organizado por Tishken, Falola e Akinyemi: um alafin só seria divinizado se enterrado no mausoléu real e o enforcamento seria proibido em Oyó, o que torna improvável a divinização do rei de Koso. Com base nos versos de Ifá, Akinyemi conclui que o deus é anterior a Oyó e que chamar de Xangô todos os alafins divinizados levou à leitura errada de que o culto começou com um rei. Capo Chichi concorda com a anterioridade do deus.",
+        "nota": "Capítulo de Akinyemi em Tishken et al. 2009, lido de 2ª mão. Diverge de xango-001 e xango-021.",
+        "registro": "xango-037",
+        "status": "fichado"
+      }
     ]
   },
   "pendencias": {
@@ -690,11 +797,7 @@
       "equivalencias",
       "tabus"
     ],
-    "so_pre_fichamento": {
-      "interpretacao_academica": [
-        "xango-006"
-      ]
-    },
+    "so_pre_fichamento": {},
     "retidos_ate_conselho": {}
   },
   "revisao": []
