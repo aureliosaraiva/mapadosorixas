@@ -146,7 +146,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O mar é o domínio mais citado. No mito de repartição dos elementos contado em terreiros de Salvador e São Paulo, o mar fica com Iemanjá, enquanto os rios cabem a Oxum e a chuva a Nanã. Na Bahia, o sábado celebra a água sob duas formas, a do mar, com Iemanjá, e a dos rios, com Oxum, unidas sem esforço num mesmo culto; as duas deusas são vaidosas, e daí vêm os presentes que lhes são oferecidos. Na Nigéria e na Bahia, nenhum orixá teria mais poder que Iemanjá, porque rege as águas de que depende toda ação "
+              "v": "O mar é o domínio mais citado. No mito de repartição dos elementos contado em terreiros de Salvador e São Paulo, o mar fica com Iemanjá, enquanto os rios cabem a Oxum e a chuva a Nanã. Na Bahia, o sábado celebra a água sob duas formas, a do mar, com Iemanjá, e a dos rios, com Oxum, unidas sem esforço num mesmo culto; as duas deusas são vaidosas, e daí vêm os presentes que lhes são oferecidos. Há também quem diga que nenhum orixá teria mais poder que Iemanjá, porque rege as águas de que depende toda ação "
             },
             {
               "t": "nota",
@@ -163,7 +163,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "A maternidade vem junto. Nos terreiros de Salvador e São Paulo, Iemanjá governa os mares, ampara quem vive de pescar e de navegar e encarna antes de tudo a figura materna, possessiva a ponto de, como se diz, poder arrastar os filhos para o afogamento. Como mãe, é chamada de orixá do bom conselho e de mãe curandeira, com cuidado especial com a respiração "
+              "v": "A maternidade vem junto. Nos terreiros de Salvador e São Paulo, Iemanjá governa os mares, ampara quem vive de pescar e de navegar e encarna antes de tudo a figura materna, possessiva a ponto de, como se diz, poder arrastar os filhos para o afogamento. Como mãe, é chamada de orixá do bom conselho e de mãe curandeira, e lhe atribuem o cuidado dos pulmões e de quem sofre de asma "
             },
             {
               "t": "nota",
@@ -188,7 +188,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Na dança, na Bahia, Iemanjá surge como quem penteia os cabelos de algas. Sua pedra consagrada é um seixo do mar, e a folha conhecida como olhos-de-santa-luzia lhe pertence porque suas flores parecem pequenos pedaços de mar espelhando o céu. Em Salvador e São Paulo, a prata é sua matéria e, como emblema, ela tem uma lua crescente com uma estrela em cima. No Rio Vermelho, no pátio da casa de Iemanjá, uma obra do escultor Manoel do Bonfim lhe dá forma de sereia "
+              "v": "Na dança, na Bahia, Iemanjá surge como quem penteia os cabelos de algas, e em Salvador e São Paulo quem a recebe em transe reproduz o vaivém das ondas. Sua pedra consagrada é um seixo do mar, e a folha conhecida como olhos-de-santa-luzia lhe pertence porque suas flores parecem pequenos pedaços de mar espelhando o céu. Em Salvador e São Paulo, a prata é sua matéria e, como emblema, ela tem uma lua crescente com uma estrela em cima. No Rio Vermelho, no pátio da casa de Iemanjá, uma obra do escultor Manoel do Bonfim lhe dá forma de sereia "
             },
             {
               "t": "nota",
@@ -400,6 +400,14 @@
             },
             {
               "t": "texto",
+              "v": ". Sua festa no Recife é em dezembro, perto da Conceição, mas no terreiro de Júnior ela cai cerca de um mês depois do dia de São Jorge "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
               "v": "."
             }
           ]
@@ -427,7 +435,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -448,7 +456,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -456,7 +464,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -487,7 +495,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -495,7 +503,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -512,11 +520,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Na santería do central Méjico, em Matanzas, o neófito recebe na iniciação Yemayá junto de outros orixás maiores, como Obatalá, Changó e Ochún "
+              "v": "Na santería do central Méjico, em Matanzas, o neófito recebe na iniciação Yemayá junto de outros orixás maiores, como Obatalá, Changó e Ochún. Longe do mar, conta-se ali que, no tempo da escravidão, o que era de Yemayá seguia para o rio, junto à ponte grande, lugar onde ainda estão santos parados dela e de Ochún; hoje se diz que o mar é de Yemayá e o rio de Ochún "
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -539,7 +547,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 30
             },
             {
               "t": "texto",
@@ -547,7 +555,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 31
             },
             {
               "t": "texto",
@@ -564,7 +572,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 32
             },
             {
               "t": "texto",
@@ -572,7 +580,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 33
             },
             {
               "t": "texto",
@@ -595,7 +603,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 34
             },
             {
               "t": "texto",
@@ -603,7 +611,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 35
             },
             {
               "t": "texto",
@@ -626,7 +634,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 36
             },
             {
               "t": "texto",
@@ -634,7 +642,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 37
             },
             {
               "t": "texto",
@@ -642,7 +650,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 38
             },
             {
               "t": "texto",
@@ -650,7 +658,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 39
             },
             {
               "t": "texto",
@@ -788,6 +796,10 @@
         {
           "tipo": "registro",
           "registro": "iemanja-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-061"
         }
       ]
     },
@@ -806,6 +818,10 @@
         {
           "tipo": "registro",
           "registro": "iemanja-023"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-062"
         },
         {
           "tipo": "registro",
@@ -985,7 +1001,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "iemanja-009"
+          "registro": "iemanja-063"
         }
       ]
     },
@@ -994,12 +1010,21 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "iemanja-056"
+          "registro": "iemanja-009"
         }
       ]
     },
     {
       "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-056"
+        }
+      ]
+    },
+    {
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -1016,7 +1041,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1025,7 +1050,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1038,16 +1063,20 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
           "registro": "iemanja-054"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-064"
         }
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1064,7 +1093,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1077,7 +1106,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1086,7 +1115,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1103,7 +1132,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1120,7 +1149,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1133,7 +1162,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1146,7 +1175,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "itens": [
         {
           "tipo": "pendencia",
@@ -1163,7 +1192,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1172,7 +1201,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "itens": [
         {
           "tipo": "lacuna",

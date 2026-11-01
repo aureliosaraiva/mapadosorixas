@@ -187,16 +187,7 @@
             },
             {
               "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "Nos terreiros de Salvador e São Paulo, entre os símbolos, está o oxê, espécie de machado que Xangô sempre leva, e as matérias que lhe pertencem, o cobre e a pedra; na Bahia, sua pedra consagrada é uma pedra de raio. O carneiro é o animal que lhe é sacrificado "
+              "v": ". Em terreiros de Salvador e São Paulo, é colérico e até tirânico, avesso à feitiçaria e à mentira, mas defende os fracos e fulmina quem agiu mal; na Nigéria, num tribunal iorubá, jura-se por ele ou por Ogum "
             },
             {
               "t": "nota",
@@ -213,7 +204,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "As cores variam pouco. Em terreiros de Salvador e São Paulo se fala do vermelho; na Bahia, o colar dos fiéis alterna contas brancas e vermelhas, e na dança pública o orixá veste vermelho e branco, como no nagô do Recife "
+              "v": "Nos terreiros de Salvador e São Paulo, entre os símbolos, está o oxê, espécie de machado que Xangô sempre leva, e as matérias que lhe pertencem, o cobre e a pedra; na Bahia, sua pedra consagrada é uma pedra de raio. O carneiro é o animal que lhe é sacrificado "
             },
             {
               "t": "nota",
@@ -221,11 +212,28 @@
             },
             {
               "t": "texto",
-              "v": ". Uma das explicações baianas para o branco nas cores de Xangô está num mito contado adiante "
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As cores variam pouco. Em terreiros de Salvador e São Paulo se fala do vermelho; na Bahia, o colar dos fiéis alterna contas brancas e vermelhas, e na dança pública o orixá veste vermelho e branco, como no nagô do Recife "
             },
             {
               "t": "nota",
               "n": 14
+            },
+            {
+              "t": "texto",
+              "v": ". Uma das explicações baianas para o branco nas cores de Xangô está num mito contado adiante "
+            },
+            {
+              "t": "nota",
+              "n": 15
             },
             {
               "t": "texto",
@@ -242,7 +250,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 16
             },
             {
               "t": "texto",
@@ -250,7 +258,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 17
             },
             {
               "t": "texto",
@@ -263,11 +271,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "As datas de festa também variam: nos terreiros de Salvador e São Paulo, Xangô é celebrado em 24 de junho, em 30 de setembro ou em 6 de janeiro, conforme a casa "
+              "v": "As datas de festa também variam: nos terreiros de Salvador e São Paulo, Xangô é celebrado em 24 de junho, em 30 de setembro ou em 6 de janeiro, conforme a casa. No Recife, a festa fica em torno do dia de São João, mas uma filha de santo ligada à jurema dizia que o verdadeiro dia dele é o de Reis, e outros o ligam a São Jerônimo "
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 18
             },
             {
               "t": "texto",
@@ -300,7 +308,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 19
             },
             {
               "t": "texto",
@@ -327,7 +335,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 20
             },
             {
               "t": "texto",
@@ -345,7 +353,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -372,7 +380,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -380,7 +388,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -398,7 +406,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -421,7 +429,7 @@
             },
             {
               "t": "texto",
-              "v": "); é a ele que Ogum distrai com quiabos para recuperar Oxum ("
+              "v": "); é a ele, seu irmão numa das versões, que Ogum distrai com quiabos para recuperar Oxum ("
             },
             {
               "t": "link",
@@ -455,7 +463,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -472,7 +480,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -499,7 +507,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -520,7 +528,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -551,7 +559,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -582,7 +590,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 30
             },
             {
               "t": "texto",
@@ -603,7 +611,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 31
             },
             {
               "t": "texto",
@@ -611,7 +619,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 32
             },
             {
               "t": "texto",
@@ -642,7 +650,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 33
             },
             {
               "t": "texto",
@@ -663,7 +671,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 34
             },
             {
               "t": "texto",
@@ -686,7 +694,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 35
             },
             {
               "t": "texto",
@@ -694,7 +702,15 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": ". Na santería cubana, Changó é festejado com Santa Bárbara em 4 de dezembro; em Banagüises, perto do central Méjico, duas casas de Changó se revezavam, um ano cada, para tocar nesse dia "
+            },
+            {
+              "t": "nota",
+              "n": 37
             },
             {
               "t": "texto",
@@ -717,7 +733,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 38
             },
             {
               "t": "texto",
@@ -725,7 +741,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 39
             },
             {
               "t": "texto",
@@ -733,7 +749,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 40
             },
             {
               "t": "texto",
@@ -741,7 +757,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 41
             },
             {
               "t": "texto",
@@ -758,7 +774,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 42
             },
             {
               "t": "texto",
@@ -777,15 +793,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nenhum registro fichado traz a saudação de Xangô, que aparece em dicionários ainda não consultados; também não há registro que descreva as funções do orixá separadas de seus domínios "
+              "v": "Nenhum registro fichado traz a saudação de Xangô, que aparece em dicionários ainda não consultados. "
             },
             {
               "t": "nota",
-              "n": 41
-            },
-            {
-              "t": "texto",
-              "v": "."
+              "n": 43
             }
           ]
         },
@@ -798,7 +810,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 44
             },
             {
               "t": "texto",
@@ -974,6 +986,15 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "xango-054"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "xango-025"
         },
         {
@@ -987,7 +1008,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -1008,7 +1029,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -1017,7 +1038,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -1038,7 +1059,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -1047,20 +1068,15 @@
       ]
     },
     {
-      "n": 17,
-      "itens": [
-        {
-          "tipo": "registro",
-          "registro": "xango-027"
-        }
-      ]
-    },
-    {
       "n": 18,
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-036"
+          "registro": "xango-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-055"
         }
       ]
     },
@@ -1069,7 +1085,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-015"
+          "registro": "xango-036"
         }
       ]
     },
@@ -1078,7 +1094,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-016"
+          "registro": "xango-015"
         }
       ]
     },
@@ -1087,7 +1103,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-043"
+          "registro": "xango-016"
         }
       ]
     },
@@ -1096,7 +1112,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oxala-029"
+          "registro": "xango-043"
         }
       ]
     },
@@ -1105,12 +1121,21 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oxala-030"
+          "registro": "oxala-029"
         }
       ]
     },
     {
       "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-030"
+        }
+      ]
+    },
+    {
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -1126,6 +1151,10 @@
         },
         {
           "tipo": "registro",
+          "registro": "xango-053"
+        },
+        {
+          "tipo": "registro",
           "registro": "ossaim-017"
         },
         {
@@ -1135,7 +1164,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -1152,7 +1181,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1161,7 +1190,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1170,7 +1199,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1195,7 +1224,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1204,7 +1233,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1221,7 +1250,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1234,7 +1263,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1252,7 +1281,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1261,7 +1290,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1278,7 +1307,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1287,7 +1316,16 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-056"
+        }
+      ]
+    },
+    {
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1300,7 +1338,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1309,7 +1347,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1322,7 +1360,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1331,7 +1369,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1344,7 +1382,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 43,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1354,16 +1392,11 @@
         {
           "tipo": "pendencia",
           "ancora": "Beniste, *Dicionário yorubá-português*"
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "funcoes",
-          "tradicao": null
         }
       ]
     },
     {
-      "n": 42,
+      "n": 44,
       "itens": [
         {
           "tipo": "pendencia",

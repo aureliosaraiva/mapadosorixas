@@ -17,6 +17,13 @@ const paginas = [
   ['glossario', '/glossario/'],
   ['tradicoes', '/tradicoes/'],
   ['sobre', '/sobre/'],
+  ['livro', '/livro/'],
+  ['capitulo-exu', '/orixas/exu/capitulo/'],
+  ['capitulo-ogum', '/orixas/ogum/capitulo/'],
+  ['capitulo-oxossi', '/orixas/oxossi/capitulo/'],
+  ['capitulo-xango', '/orixas/xango/capitulo/'],
+  ['capitulo-iemanja', '/orixas/iemanja/capitulo/'],
+  ['capitulo-exu-notas', '/orixas/exu/capitulo/#notas'],
 ];
 (async () => {
   const browser = await chromium.launch();
@@ -26,7 +33,7 @@ const paginas = [
     page.on('pageerror', (e) => erros.push(`${page.url()}: ${e.message}`));
     page.on('console', (m) => { if (m.type() === 'error') erros.push(`${page.url()}: ${m.text()}`); });
     for (const [nome, p] of paginas) {
-      if (sufixo && !['inicio', 'ficha-xango', 'grafo', 'glossario', 'tradicoes'].includes(nome)) continue;
+      if (sufixo && !['inicio', 'ficha-xango', 'grafo', 'glossario', 'tradicoes', 'livro', 'capitulo-ogum'].includes(nome)) continue;
       await page.goto(BASE + p, { waitUntil: 'networkidle' });
       await page.waitForTimeout(nome === 'grafo' || nome.includes('conexoes') ? 1500 : 300);
       await page.screenshot({ path: `${SAIDA}/${nome}${sufixo}.png`, fullPage: nome !== 'grafo' && nome !== 'fontes' && !p.includes('#') });

@@ -275,7 +275,7 @@
             },
             {
               "t": "texto",
-              "v": "): Oxóssi teria sido médico na cidade e, depois de perder os pais, foi viver na floresta, e lá Ossaim lhe revelou os segredos das folhas "
+              "v": "): Oxóssi teria sido médico na cidade e, depois de perder os pais, foi viver na floresta, e lá Ossaim lhe revelou os segredos das folhas. No nagô do Recife ainda se lembra, de forma breve, um mito vizinho: Ossaim recebe Odé na mata, ou, em outras versões, o seduz e o prende, e lhe ensina a caça e o saber das plantas, o que ajuda a explicar por que os assentamentos de Ossaim, Ogum e Odé ficam lado a lado "
             },
             {
               "t": "nota",
@@ -496,6 +496,14 @@
             },
             {
               "t": "texto",
+              "v": ". No nagô do Recife, as pessoas hesitam mais quanto ao santo de Odé, e às vezes o associam a Santo Expedito "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
               "v": "."
             }
           ]
@@ -515,7 +523,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -538,7 +546,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -555,7 +563,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -779,6 +787,10 @@
         {
           "tipo": "registro",
           "registro": "oxossi-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-036"
         }
       ]
     },
@@ -956,6 +968,15 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "oxossi-035"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "ogum-037"
         },
         {
@@ -973,7 +994,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1007,7 +1028,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "pendencia",

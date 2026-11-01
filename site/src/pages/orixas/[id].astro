@@ -9,6 +9,7 @@ import {
   marcarGlossario, termoPorId, linhaRevisao, fichaRevisada, versoesRevisadas,
   entidadePorId, ROTULO_TIPO_ENTIDADE, itaDoRegistro,
 } from '../../lib/dados.js';
+import { capituloPorId } from '../../lib/capitulos.js';
 import { elementosCytoscape, vizinhanca, FORMA_NO, CORES_ARESTA, ROTULO_LINHA } from '../../lib/grafo.js';
 
 export function getStaticPaths() {
@@ -60,6 +61,7 @@ const nRevisadas = versoesRevisadas(ficha);
     ? <p class="selo-revisado" role="note">Todas as versões desta ficha foram revisadas por praticantes ou pesquisadores, cada uma em nome da sua tradição. Quem revisou e quando aparece abaixo de cada versão.</p>
     : <Selo />}
 
+  {capituloPorId[id] && <p class="nota-caixa link-capitulo"><strong>Capítulo:</strong> <a href={url(`orixas/${id}/capitulo`)}>{capituloPorId[id].titulo}</a> — texto corrido sobre {ficha.rotulo}, escrito a partir destas versões, com notas de rodapé.</p>}
   {ent.tipo !== 'orixa' && <p class="tipo-entidade">Tipo (classificação de trabalho): {ROTULO_TIPO_ENTIDADE[ent.tipo]}</p>}
   {ent.sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: esta ficha traz só o que é público em fonte acadêmica, sem fundamento iniciático.</p>}
   <p>{totalVersoes(ficha)} versões, cada uma com nota para a fonte (autor, ano e página). Quando há mais de uma versão para o mesmo atributo, todas são mostradas, com a tradição e a casa ou região indicadas pela fonte, <strong>sem hierarquia entre elas</strong>.</p>

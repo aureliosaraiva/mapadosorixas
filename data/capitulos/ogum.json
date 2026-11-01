@@ -180,7 +180,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Guerreiro, porém, não quer dizer descontrolado. Nos terreiros baianos e paulistas, Ogum encarna uma força disciplinada e obediente, e seu senso de justiça faz com que seja invocado em processos judiciais. Na dança e no transe, na Bahia, o orixá chega tomado de cólera, com o rosto fechado em traços duros, e no xiré costuma ser cantado entre os primeiros, junto das divindades jovens e impetuosas, antes das mais velhas e serenas "
+              "v": "Guerreiro, porém, não quer dizer descontrolado. Nos terreiros baianos e paulistas, Ogum encarna uma força disciplinada e obediente, e seu senso de justiça faz com que seja invocado em processos judiciais, com menos rigor que Iansã ou Xangô. Sua ligação com a saúde seria indireta: hoje é chamado sobretudo nas cirurgias, e alguns chefes de culto o fazem agir nas doenças dos nervos ou no peito. Na dança e no transe, na Bahia, o orixá chega tomado de cólera, com o rosto fechado em traços duros, e no xiré costuma ser cantado entre os primeiros, junto das divindades jovens e impetuosas, antes das mais velhas e serenas "
             },
             {
               "t": "nota",
@@ -347,7 +347,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Outras histórias tocam Ogum de passagem. Numa versão baiana, Ogum, por ciúme, atira Oxum na água durante a travessia de um rio; Xangô a salva e a leva consigo, e Ogum só a recupera depois de distrair o rival com um presente de quiabos ("
+              "v": "Outras histórias tocam Ogum de passagem. Numa versão contada na Bahia e em terreiros paulistas, em que Ogum e Xangô são irmãos, Ogum, por ciúme, atira Oxum na água durante a travessia de um rio; Xangô a salva e a leva consigo, e Ogum só a recupera depois de distrair o rival com um presente de quiabos ("
             },
             {
               "t": "link",
@@ -585,7 +585,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O santo mais lembrado é São Jorge. Em João Pessoa, imagens dele ficam nos gongás das casas de Umbanda, misturadas a outros santos e orixás, e uma filha de Ogum resume a relação dizendo que os dois são o mesmo. Na casa de Tambor de Mina de Diadema, o orixá também se liga a São Jorge, mas os voduns que lhe correspondem têm santos próprios: os Santos Reis para Doçu e Bedigá, Santo Antônio para Doçupé "
+              "v": "O santo mais lembrado é São Jorge, tanto em Salvador e São Paulo quanto no nagô do Recife, onde o sacrifício anual de Ogum costuma coincidir com a obrigação de Iemanjá. Em João Pessoa, imagens dele ficam nos gongás das casas de Umbanda, misturadas a outros santos e orixás, e uma filha de Ogum resume a relação dizendo que os dois são o mesmo. Na casa de Tambor de Mina de Diadema, o orixá também se liga a São Jorge, mas os voduns que lhe correspondem têm santos próprios: os Santos Reis para Doçu e Bedigá, Santo Antônio para Doçupé "
             },
             {
               "t": "nota",
@@ -741,6 +741,10 @@
         {
           "tipo": "registro",
           "registro": "ogum-059"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-039"
         }
       ]
     },
@@ -846,6 +850,10 @@
         {
           "tipo": "registro",
           "registro": "ogum-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-065"
         },
         {
           "tipo": "registro",
@@ -1020,6 +1028,10 @@
         },
         {
           "tipo": "registro",
+          "registro": "xango-053"
+        },
+        {
+          "tipo": "registro",
           "registro": "logunede-026"
         },
         {
@@ -1142,6 +1154,10 @@
         {
           "tipo": "registro",
           "registro": "ogum-019"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-066"
         },
         {
           "tipo": "registro",

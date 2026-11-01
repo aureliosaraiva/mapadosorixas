@@ -23,11 +23,11 @@ A passagem de Iemanjá a Nossa Senhora está entre os resultados da cristianiza�
 
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
-O mar é o domínio mais citado. No mito de repartição dos elementos contado em terreiros de Salvador e São Paulo, o mar fica com Iemanjá, enquanto os rios cabem a Oxum e a chuva a Nanã. Na Bahia, o sábado celebra a água sob duas formas, a do mar, com Iemanjá, e a dos rios, com Oxum, unidas sem esforço num mesmo culto; as duas deusas são vaidosas, e daí vêm os presentes que lhes são oferecidos. Na Nigéria e na Bahia, nenhum orixá teria mais poder que Iemanjá, porque rege as águas de que depende toda ação {{ref:iemanja-014,iemanja-010,iemanja-030,iemanja-036}}.
+O mar é o domínio mais citado. No mito de repartição dos elementos contado em terreiros de Salvador e São Paulo, o mar fica com Iemanjá, enquanto os rios cabem a Oxum e a chuva a Nanã. Na Bahia, o sábado celebra a água sob duas formas, a do mar, com Iemanjá, e a dos rios, com Oxum, unidas sem esforço num mesmo culto; as duas deusas são vaidosas, e daí vêm os presentes que lhes são oferecidos. Há também quem diga que nenhum orixá teria mais poder que Iemanjá, porque rege as águas de que depende toda ação {{ref:iemanja-014,iemanja-010,iemanja-030,iemanja-036}}.
 
-A maternidade vem junto. Nos terreiros de Salvador e São Paulo, Iemanjá governa os mares, ampara quem vive de pescar e de navegar e encarna antes de tudo a figura materna, possessiva a ponto de, como se diz, poder arrastar os filhos para o afogamento. Como mãe, é chamada de orixá do bom conselho e de mãe curandeira, com cuidado especial com a respiração {{ref:iemanja-017,iemanja-022}}. No nagô do Recife, é a senhora da água salgada e o modelo da mãe que dá a vida e cuida, mas também sabe ser severa, com um caráter duplo que já foi destacado por outros estudos {{ref:iemanja-048}}.
+A maternidade vem junto. Nos terreiros de Salvador e São Paulo, Iemanjá governa os mares, ampara quem vive de pescar e de navegar e encarna antes de tudo a figura materna, possessiva a ponto de, como se diz, poder arrastar os filhos para o afogamento. Como mãe, é chamada de orixá do bom conselho e de mãe curandeira, e lhe atribuem o cuidado dos pulmões e de quem sofre de asma {{ref:iemanja-017,iemanja-022,iemanja-061}}. No nagô do Recife, é a senhora da água salgada e o modelo da mãe que dá a vida e cuida, mas também sabe ser severa, com um caráter duplo que já foi destacado por outros estudos {{ref:iemanja-048}}.
 
-Na dança, na Bahia, Iemanjá surge como quem penteia os cabelos de algas. Sua pedra consagrada é um seixo do mar, e a folha conhecida como olhos-de-santa-luzia lhe pertence porque suas flores parecem pequenos pedaços de mar espelhando o céu. Em Salvador e São Paulo, a prata é sua matéria e, como emblema, ela tem uma lua crescente com uma estrela em cima. No Rio Vermelho, no pátio da casa de Iemanjá, uma obra do escultor Manoel do Bonfim lhe dá forma de sereia {{ref:iemanja-023,iemanja-024,iemanja-026,iemanja-021,iemanja-035}}.
+Na dança, na Bahia, Iemanjá surge como quem penteia os cabelos de algas, e em Salvador e São Paulo quem a recebe em transe reproduz o vaivém das ondas. Sua pedra consagrada é um seixo do mar, e a folha conhecida como olhos-de-santa-luzia lhe pertence porque suas flores parecem pequenos pedaços de mar espelhando o céu. Em Salvador e São Paulo, a prata é sua matéria e, como emblema, ela tem uma lua crescente com uma estrela em cima. No Rio Vermelho, no pátio da casa de Iemanjá, uma obra do escultor Manoel do Bonfim lhe dá forma de sereia {{ref:iemanja-023,iemanja-062,iemanja-024,iemanja-026,iemanja-021,iemanja-035}}.
 
 A cor é azul, em tons distintos: azul-claro nos terreiros de Salvador e São Paulo, azul profundo no nagô do Recife {{ref:iemanja-020,iemanja-050}}.
 
@@ -53,7 +53,7 @@ No cancioneiro aparecem nomes angola como Dandalunda e Quissimbe, além de Kayal
 
 ### Xangô de Pernambuco
 
-No [Xangô de Pernambuco](tradicao:xango_pernambuco), Iemanjá é a mãe dos orixás, senhora das águas salgadas, de cor azul profunda. Nos mitos dos xangôs do Recife e de Olinda, o masculino não é ativo diante de um feminino passivo: as três grandes mães, Iemanjá, Iansã e Oxum, guerreiam e agem, além de afetuosas, e Iemanjá toma parte ativa na criação do universo {{ref:iemanja-048,iemanja-049,iemanja-050,iemanja-051,iemanja-053}}.
+No [Xangô de Pernambuco](tradicao:xango_pernambuco), Iemanjá é a mãe dos orixás, senhora das águas salgadas, de cor azul profunda. Nos mitos dos xangôs do Recife e de Olinda, o masculino não é ativo diante de um feminino passivo: as três grandes mães, Iemanjá, Iansã e Oxum, guerreiam e agem, além de afetuosas, e Iemanjá toma parte ativa na criação do universo {{ref:iemanja-048,iemanja-049,iemanja-050,iemanja-051,iemanja-053}}. Sua festa no Recife é em dezembro, perto da Conceição, mas no terreiro de Júnior ela cai cerca de um mês depois do dia de São Jorge {{ref:iemanja-063}}.
 
 ### Batuque
 
@@ -69,7 +69,7 @@ A [Umbanda](tradicao:umbanda), religião distinta do Candomblé, teve papel deci
 
 ### Santería cubana
 
-Na santería do central Méjico, em Matanzas, o neófito recebe na iniciação Yemayá junto de outros orixás maiores, como Obatalá, Changó e Ochún {{ref:iemanja-054}}.
+Na santería do central Méjico, em Matanzas, o neófito recebe na iniciação Yemayá junto de outros orixás maiores, como Obatalá, Changó e Ochún. Longe do mar, conta-se ali que, no tempo da escravidão, o que era de Yemayá seguia para o rio, junto à ponte grande, lugar onde ainda estão santos parados dela e de Ochún; hoje se diz que o mar é de Yemayá e o rio de Ochún {{ref:iemanja-054,iemanja-064}}.
 
 ## Sincretismo {#sincretismo}
 

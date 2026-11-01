@@ -25,7 +25,7 @@ No Recife, o "Rei Xangô" é o orixá mais popular da cidade {{ref:xango-040}}.
 
 O raio é o centro. No mito de distribuição dos elementos contado em terreiros de Salvador e São Paulo, Oxalá entrega a Xangô o trovão, o fogo e o raio, e o orixá é dono do fogo, do relâmpago e do raio, imagem do homem, da virilidade e da força. Na Bahia, é o deus do raio, e a quarta-feira, seu dia, é chamada de dia do fogo. Nos xangôs do Recife e de Olinda, ele governa as tempestades, o trovão, o raio e a eletricidade do ar {{ref:xango-020,xango-023,xango-018,xango-007,xango-044}}.
 
-A justiça vem junto. Tanto na Bahia como na África iorubá, a morte por raio é vista como castigo por más ações, e aqui o orixá é venerado como deus da justiça. No Recife, é o guerreiro vivo e impetuoso, orixá de uma justiça que não hesita em punir com dureza, e também o sedutor {{ref:xango-017,xango-040}}.
+A justiça vem junto. Tanto na Bahia como na África iorubá, a morte por raio é vista como castigo por más ações, e aqui o orixá é venerado como deus da justiça. No Recife, é o guerreiro vivo e impetuoso, orixá de uma justiça que não hesita em punir com dureza, e também o sedutor {{ref:xango-017,xango-040}}. Em terreiros de Salvador e São Paulo, é colérico e até tirânico, avesso à feitiçaria e à mentira, mas defende os fracos e fulmina quem agiu mal; na Nigéria, num tribunal iorubá, jura-se por ele ou por Ogum {{ref:xango-054}}.
 
 Nos terreiros de Salvador e São Paulo, entre os símbolos, está o oxê, espécie de machado que Xangô sempre leva, e as matérias que lhe pertencem, o cobre e a pedra; na Bahia, sua pedra consagrada é uma pedra de raio. O carneiro é o animal que lhe é sacrificado {{ref:xango-025,xango-033,xango-029}}.
 
@@ -33,7 +33,7 @@ As cores variam pouco. Em terreiros de Salvador e São Paulo se fala do vermelho
 
 O dia da semana muda de lugar para lugar. Na distribuição mais comum dos candomblés baianos e no Ilê Axé Opô Afonjá, Xangô divide a quarta-feira com Iansã, associação que existiria também na região iorubá. Em Porto Alegre, a terça-feira é do casal Xangô e Oiá. No Recife, o casal passa para a quinta e deixa a quarta para os Ibeji, com variações de casa para casa {{ref:xango-007,xango-008,xango-009,xango-010}}. Num esquema de quatro dias proposto por um etnólogo alemão em 1912, documento de época, Xangô ficaria com o dia do oeste {{ref:xango-019}}.
 
-As datas de festa também variam: nos terreiros de Salvador e São Paulo, Xangô é celebrado em 24 de junho, em 30 de setembro ou em 6 de janeiro, conforme a casa {{ref:xango-027}}.
+As datas de festa também variam: nos terreiros de Salvador e São Paulo, Xangô é celebrado em 24 de junho, em 30 de setembro ou em 6 de janeiro, conforme a casa. No Recife, a festa fica em torno do dia de São João, mas uma filha de santo ligada à jurema dizia que o verdadeiro dia dele é o de Reis, e outros o ligam a São Jerônimo {{ref:xango-027,xango-055}}.
 
 ## Mitos {#mitos}
 
@@ -43,7 +43,7 @@ Na Bahia se conta que Xangô soltava fogo pela boca até que Iansã lhe roubou a
 
 Um dos mitos mais contados envolve Oxalá ([A viagem de Oxalá velho para ver Xangô](ita:ita-010)). Na versão dos xangôs de Olinda e do Recife, Oxalá velho resolve ir ver o filho Xangô apesar do aviso do babalaô, é maltratado e preso pelos servidores do rei, e o reino mergulha em tristeza e esterilidade até que o adivinho revela a injustiça {{ref:xango-043}}. A versão da Bahia acrescenta as provas a que Exu submete o velho no caminho {{ref:oxala-029}}. Outra explicação corrente na Bahia para o branco nas cores de Xangô diz que ele só pôde casar com Oxum depois de carregar até a festa o pai dela, Oxalá, velho e sem forças para andar ([Xangô carrega Oxalá para poder casar com Oxum](ita:ita-011)) {{ref:oxala-030}}.
 
-Xangô atravessa ainda histórias de outros orixás, contadas na Bahia e nos terreiros de Salvador e São Paulo. Por ele, Obá corta a própria orelha, enganada por Oxum ([A orelha de Obá](ita:ita-015)); é a ele que Ogum distrai com quiabos para recuperar Oxum ([Ogum joga Oxum no rio e a recupera com quiabos](ita:ita-016)); numa briga com ele, Ossaim perde a perna ([Ossaim perde a perna na luta com Xangô](ita:ita-018)); e é a queixa dele a Iansã que faz o vento espalhar as folhas guardadas por Ossaim ([Iansã sacode as saias e espalha as folhas de Ossaim](ita:ita-017)) {{ref:oxum-028,oba-003,oxum-029,ossaim-017,ossaim-018}}.
+Xangô atravessa ainda histórias de outros orixás, contadas na Bahia e nos terreiros de Salvador e São Paulo. Por ele, Obá corta a própria orelha, enganada por Oxum ([A orelha de Obá](ita:ita-015)); é a ele, seu irmão numa das versões, que Ogum distrai com quiabos para recuperar Oxum ([Ogum joga Oxum no rio e a recupera com quiabos](ita:ita-016)); numa briga com ele, Ossaim perde a perna ([Ossaim perde a perna na luta com Xangô](ita:ita-018)); e é a queixa dele a Iansã que faz o vento espalhar as folhas guardadas por Ossaim ([Iansã sacode as saias e espalha as folhas de Ossaim](ita:ita-017)) {{ref:oxum-028,oba-003,oxum-029,xango-053,ossaim-017,ossaim-018}}.
 
 Sobre a família de Xangô, os registros concordam em alguns pontos e divergem em outros. Nos terreiros de Salvador e São Paulo, pela filiação mais citada, ele é filho de Iemanjá e de Oxalá. As três esposas aparecem em quase todas as versões, Iansã, Obá e Oxum, mas a ordem muda: na Bahia, Iansã é a primeira delas e lança raios ao lado do marido, enquanto no Recife, conforme o relato, Obá ou Iansã pode ser a primeira, e Oxum às vezes aparece como concubina {{ref:xango-022,xango-014,xango-041}}.
 
@@ -79,7 +79,7 @@ Na santería do central Méjico, Changó está entre os orixás maiores recebido
 
 ## Sincretismo {#sincretismo}
 
-Na Bahia, o santo mais citado é São Jerônimo, um dos equivalentes católicos de Xangô no Gantois. Nos terreiros de Salvador e São Paulo, a escolha se explica pelo carneiro com que o santo costuma ser representado, animal ligado ao orixá; em algumas casas, Xangô é associado a São João, e esses dois santos correspondem, para um pai de santo, às duas qualidades do orixá {{ref:xango-012,xango-026,xango-028}}. No Tambor de Mina de Diadema, Xangô e Badé ficam com São Pedro, e os outros voduns correspondentes com São Benedito, Santo Antônio e São José {{ref:xango-051}}.
+Na Bahia, o santo mais citado é São Jerônimo, um dos equivalentes católicos de Xangô no Gantois. Nos terreiros de Salvador e São Paulo, a escolha se explica pelo carneiro com que o santo costuma ser representado, animal ligado ao orixá; em algumas casas, Xangô é associado a São João, e esses dois santos correspondem, para um pai de santo, às duas qualidades do orixá {{ref:xango-012,xango-026,xango-028}}. No Tambor de Mina de Diadema, Xangô e Badé ficam com São Pedro, e os outros voduns correspondentes com São Benedito, Santo Antônio e São José {{ref:xango-051}}. Na santería cubana, Changó é festejado com Santa Bárbara em 4 de dezembro; em Banagüises, perto do central Méjico, duas casas de Changó se revezavam, um ano cada, para tocar nesse dia {{ref:xango-056}}.
 
 ## Leituras acadêmicas {#leituras-academicas}
 
@@ -89,6 +89,6 @@ Outras leituras são de menor escala. Danielle Perin Rocha Pitta lê o mito de O
 
 ## O que as fontes não dizem {#lacunas}
 
-Nenhum registro fichado traz a saudação de Xangô, que aparece em dicionários ainda não consultados; também não há registro que descreva as funções do orixá separadas de seus domínios {{lacuna:saudacao}}{{pendencia:Beniste, *Dicionário yorubá-português*}}{{lacuna:funcoes}}.
+Nenhum registro fichado traz a saudação de Xangô, que aparece em dicionários ainda não consultados. {{lacuna:saudacao}}{{pendencia:Beniste, *Dicionário yorubá-português*}}
 
 O volume sobre Xangô na África e na diáspora organizado por Tishken, Falola e Akinyemi foi lido só por citações, e o livro de Idowu ainda não foi aberto. Os mitos de Xangô nas coletâneas de Prandi e de Verger seguem à espera de exemplar. Por fim, o nome que Xangô recebe nos candomblés de nação Angola não aparece em nenhum registro {{pendencia:Tishken, Falola & Akinyemi (orgs.)}}{{pendencia:Idowu, *Olódùmarè* (1962)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{lacuna:equivalencias@candomble_angola}}.

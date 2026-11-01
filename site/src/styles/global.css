@@ -144,3 +144,13 @@ a.termo-gl { text-decoration-style: dotted; text-decoration-thickness: 2px; }
 .pendente-fonte { border: 2px dashed var(--aviso-borda); background: var(--aviso-fundo); color: #3d3000; padding: .5rem .7rem; border-radius: var(--raio); }
 a.etiqueta { text-decoration: none; }
 a.etiqueta:hover { text-decoration: underline; color: var(--texto); }
+
+/* capítulos (livro) */
+.sobretitulo { text-transform: uppercase; letter-spacing: .06em; font-size: .85rem; margin-bottom: 0; }
+.capitulo { max-width: 42rem; }
+.capitulo .paragrafo-capitulo { line-height: 1.7; margin: 0 0 1rem; }
+.capitulo h2 { margin-top: 2rem; }
+.capitulo sup.ref a { font-weight: 600; font-size: .8em; }
+.notas-capitulo .item-nota { margin-right: .2em; }
+.lista-capitulos li { margin: .6rem 0; }
+.bibliografia li { margin: .25rem 0; }

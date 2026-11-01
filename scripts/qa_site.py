@@ -56,6 +56,10 @@ absoluto fora do prefixo conta como quebrado.
    acervo (indice.json, INDICE.md, LEIAME.md, urls_extras.json); e, se
    acervo/txt tiver textos, nenhuma sequência de 20 palavras de um deles aparece
    no texto do site (descontadas as que estão no catálogo de fontes: títulos).
+12. Capítulos narrativos (data/capitulos/*.json): uma página por capítulo, com
+   selo; parágrafos e chamadas de nota idênticos ao JSON; notas com exatamente os
+   itens do JSON e cada registro publicável, com autor, ano, página e link para a
+   fonte; página Livro lista todos; a ficha linka para o capítulo.
 10. Publicação (rascunho): faixa "Rascunho — aguardando revisão…" em TODAS as
    páginas; Início com o aviso de versão inicial em revisão e link para as
    issues; nenhum <link rel=canonical>/sitemap que convide indexação.
@@ -803,6 +807,93 @@ def conferir_modelo2(dist: Path, fichas: dict, fontes: dict) -> tuple[int, int, 
     return len(lista), nv, nh
 
 
+# ----------------------------------------------------------------- 12: capítulos narrativos
+
+def conferir_capitulos(dist: Path, fichas: dict, fontes: dict, registros: list) -> tuple[int, int]:
+    """Capítulos (data/capitulos/*.json) × HTML: página gerada para cada um, com selo,
+    parágrafos idênticos ao JSON (texto, links e chamadas de nota na ordem), notas com
+    exatamente os registros/lacunas/pendências do JSON, cada registro fichado/revisado
+    e não retido, com autor, ano e página da fonte; livro lista todos; ficha linka."""
+    sys.path.insert(0, str(RAIZ / "scripts"))
+    caps = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "capitulos").glob("*.json"))]
+    regs = {r["id"]: r for r in registros}
+    retidos = {r for f in fichas.values() for ids in f["pendencias"].get("retidos_ate_conselho", {}).values() for r in ids}
+    livro = dist / "livro" / "index.html"
+    if not livro.exists():
+        erro("[capítulos] página livro/ não foi gerada")
+    else:
+        listados = {n.attrs.get("data-capitulo") for n in parse(livro).busca("li") if n.attrs.get("data-capitulo")}
+        if listados != {c["orixa"] for c in caps}:
+            erro(f"[capítulos] livro lista {sorted(listados)}, JSON tem {sorted(c['orixa'] for c in caps)}")
+    npar = 0
+    for c in caps:
+        oid = c["orixa"]
+        onde = f"[capítulo] {oid}"
+        arq = dist / "orixas" / oid / "capitulo" / "index.html"
+        if not arq.exists():
+            erro(f"{onde}: página não gerada")
+            continue
+        doc = parse(arq)
+        if doc.primeiro("p", "selo") is None:
+            erro(f"{onde}: falta o selo de rascunho")
+        h1 = doc.primeiro("h1")
+        if h1 is None or norm(h1.texto()) != norm(c["titulo"]):
+            erro(f"{onde}: título difere do JSON")
+        ficha = dist / "orixas" / oid / "index.html"
+        if ficha.exists() and not any((a.attrs.get("href") or "").rstrip("/").endswith(f"/orixas/{oid}/capitulo")
+                                      for a in parse(ficha).busca("a")):
+            erro(f"{onde}: a ficha não linka para o capítulo")
+        # parágrafos
+        esperados = []
+        for sec in c["secoes"]:
+            for b in sec["blocos"]:
+                if b["tipo"] == "paragrafo":
+                    txt = "".join(t["v"].replace("*", "") if t["t"] == "texto" else t["rotulo"] if t["t"] == "link" else str(t["n"])
+                                  for t in b["tokens"])
+                    notas = [t["n"] for t in b["tokens"] if t["t"] == "nota"]
+                    esperados.append((norm(txt), notas))
+        ps = list(doc.busca("p", "paragrafo-capitulo"))
+        if len(ps) != len(esperados):
+            erro(f"{onde}: {len(ps)} parágrafos no HTML, {len(esperados)} no JSON")
+        for i, (p_, (txt, notas)) in enumerate(zip(ps, esperados)):
+            npar += 1
+            if norm(p_.texto()) != txt:
+                erro(f"{onde}: parágrafo {i + 1} difere do JSON: “{norm(p_.texto())[:60]}”")
+            vistos = [int(a.attrs.get("href", "#nota-0").split("-")[-1]) for sup in p_.busca("sup", "ref") for a in sup.busca("a")]
+            if vistos != notas:
+                erro(f"{onde}: chamadas de nota do parágrafo {i + 1} diferem do JSON ({vistos} × {notas})")
+        # notas
+        lis = {li.attrs.get("id"): li for li in doc.busca("li") if (li.attrs.get("id") or "").startswith("nota-")}
+        if len(lis) != len(c["notas"]):
+            erro(f"{onde}: {len(lis)} notas no HTML, {len(c['notas'])} no JSON")
+        for n in c["notas"]:
+            li = lis.get(f"nota-{n['n']}")
+            if li is None:
+                erro(f"{onde}: nota {n['n']} ausente")
+                continue
+            exib = [x.attrs.get("data-registro") or ("lacuna:" + x.attrs["data-lacuna"] if x.attrs.get("data-lacuna") else None)
+                    or ("pendencia:" + x.attrs.get("data-pendencia", "")) for x in li.busca("span", "item-nota")]
+            esp = [it["registro"] if it["tipo"] == "registro" else
+                   ("lacuna:" + it["atributo"] + ("@" + it["tradicao"] if it.get("tradicao") else "")) if it["tipo"] == "lacuna" else
+                   "pendencia:" + it["ancora"] for it in n["itens"]]
+            if exib != esp:
+                erro(f"{onde}: itens da nota {n['n']} diferem do JSON")
+            for it, x in zip(n["itens"], li.busca("span", "item-nota")):
+                if it["tipo"] != "registro":
+                    continue
+                r = regs.get(it["registro"])
+                if r is None or r["status"] not in LIDOS or r["id"] in retidos:
+                    erro(f"{onde}: nota {n['n']} cita {it['registro']}, que não é publicável")
+                    continue
+                f = fontes.get(r["source_id"], {})
+                t = norm(x.texto())
+                hrefs = [a.attrs.get("href", "") for a in x.busca("a")]
+                if str(f.get("ano") or "s.d.") not in t or norm(r["localizacao"]) not in t \
+                        or not any(h.endswith(f"fontes#fonte-{r['source_id']}") for h in hrefs):
+                    erro(f"{onde}: nota {n['n']} ({r['id']}) sem autor/ano/página ou sem link para a fonte")
+    return len(caps), npar
+
+
 # ----------------------------------------------------------------- 10: publicação em rascunho
 
 ISSUES = re.compile(r"github\.com/[^/]+/[^/]+/issues")
@@ -930,6 +1021,7 @@ def main():
     conferir_publicacao(dist)
     nrevisores = conferir_revisores(dist)
     nents, nvitans, nhier = conferir_modelo2(dist, fichas, fontes)
+    ncaps, npars = conferir_capitulos(dist, fichas, fontes, registros)
     nnomes_acervo, nrefs_acervo = conferir_acervo(dist)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
     nrev_vers = sum(1 for f in fichas.values() for vs in f["atributos"].values() for v in vs if v.get("revisoes"))
@@ -938,7 +1030,7 @@ def main():
           f"{ndados} arquivos em dados/; glossário: {ntermos} termos, {nligados} links de termo nas páginas; "
           f"tradições: {ntrad} exibidas, {nrasc} com descrição pendente de fonte (texto ausente do site); "
           f"revisão: {nrevisores} revisor(es) cadastrado(s), {nrev_vers} versão(ões) com revisão exibida; "
-          f"lista-mestra: {nents} entidades no catálogo; itãs: {nvitans} versões conferidas; cosmologia: {nhier} versões de hierarquia; "
+          f"capítulos: {ncaps} ({npars} parágrafos conferidos); lista-mestra: {nents} entidades no catálogo; itãs: {nvitans} versões conferidas; cosmologia: {nhier} versões de hierarquia; "
           f"acervo: {nnomes_acervo} nomes de arquivo e {nrefs_acervo} texto(s) de acervo/txt procurados (0 vazamentos se ok); "
           f"prefixo: {site_base() or '/'}")
     if erros:

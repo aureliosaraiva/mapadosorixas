@@ -45,6 +45,8 @@ jobs:
         run: |
           python3 scripts/divergencias.py
           git diff --exit-code data/fichamento/divergencias.json
+      - name: Capítulos narrativos (referências, lacunas, heurística, divergências, Candomblé × Umbanda, JSON em dia)
+        run: python3 scripts/validar_capitulos.py
       - name: Anti-cópia
         run: python3 scripts/anticopia.py
 

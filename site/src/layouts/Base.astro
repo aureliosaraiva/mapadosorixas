@@ -9,6 +9,7 @@ const atual = Astro.url.pathname.replace(/\/$/, '');
 const menu = [
   ['', 'Início'],
   ['catalogo', 'Catálogo'],
+  ['livro', 'Livro'],
   ['itans', 'Itãs'],
   ['cosmologia', 'Cosmologia'],
   ['grafo', 'Grafo'],
@@ -21,7 +22,7 @@ const menu = [
 ];
 const ativo = (p: string) => {
   const alvo = url(p).replace(/\/$/, '');
-  return alvo === atual || (p !== '' && atual.startsWith(alvo + '/')) || (p === 'catalogo' && atual.includes('/orixas/'));
+  return alvo === atual || (p !== '' && atual.startsWith(alvo + '/')) || (p === 'catalogo' && atual.includes('/orixas/') && !atual.endsWith('/capitulo')) || (p === 'livro' && atual.endsWith('/capitulo'));
 };
 ---
 <!doctype html>

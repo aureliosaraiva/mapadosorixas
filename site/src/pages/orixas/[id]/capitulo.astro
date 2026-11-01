@@ -1,0 +1,131 @@
+---
+// Capítulo narrativo de um orixá: texto do projeto (data/capitulos/<id>.json),
+// com notas de rodapé que remetem a registros do fichamento.
+import Base from '../../../layouts/Base.astro';
+import Selo from '../../../components/Selo.astro';
+import TextoGlossario from '../../../components/TextoGlossario.astro';
+import { capitulos, capituloPorId, TITULO_SECAO, registro, bibliografia, italicos, hrefLink, textoLacuna, PENDENCIAS_URL, registrosCitados } from '../../../lib/capitulos.js';
+import { fontePorId, autorCurto, fichaPorId, url, marcarGlossario, termoPorId, itaDoRegistro } from '../../../lib/dados.js';
+
+export function getStaticPaths() {
+  return capitulos.map((c) => ({ params: { id: c.orixa } }));
+}
+const { id } = Astro.params;
+const cap = capituloPorId[id];
+const ficha = fichaPorId[id];
+const secoes = cap.secoes;
+const comTitulo = secoes.filter((s) => s.slug !== 'abertura');
+
+// glossário: primeira ocorrência de cada termo no texto (fora dos links)
+const vistos = new Set();
+const render = secoes.map((s) => ({
+  ...s,
+  blocos: s.blocos.map((b) => b.tipo !== 'paragrafo' ? b : {
+    ...b,
+    tokens: b.tokens.map((t) => t.t !== 'texto' ? t : {
+      ...t,
+      pedacos: italicos(t.v).map((p) => ({ ...p, partes: p.italico ? [{ texto: p.texto }] : marcarGlossario(p.texto, vistos) })),
+    }),
+  }),
+}));
+const termosUsados = [...vistos].map((t) => termoPorId[t]).sort((a, b) => a.termo.localeCompare(b.termo, 'pt-BR'));
+const itansCitados = [...new Set([...registrosCitados(cap)].map((r) => itaDoRegistro[r]).filter(Boolean))];
+const biblio = bibliografia(cap);
+const nRegistros = registrosCitados(cap).size;
+const naFicha = (rid) => Object.values(ficha.atributos).some((vs) => vs.some((v) => v.registro === rid));
+---
+<Base titulo={`${ficha.rotulo} — capítulo`} descricao={`Capítulo narrativo sobre ${ficha.rotulo}, escrito a partir do fichamento de fontes, com notas de rodapé.`} indexar>
+  <p class="trilha"><a href={url('livro')}>← Livro</a> · <a href={url(`orixas/${id}`)}>Ficha de {ficha.rotulo}</a></p>
+  <p class="sobretitulo">Capítulo · {ficha.rotulo}</p>
+  <h1>{cap.titulo}</h1>
+  <Selo texto="Este capítulo foi escrito pelo projeto a partir do fichamento de fontes escritas, sem conteúdo novo. Ainda não passou pelo conselho de revisão; erros e lacunas são esperados." />
+  <p class="nota-caixa como-ler">Texto corrido, montado só com os {nRegistros} registros do fichamento citados nas notas. Os números sobrescritos levam à nota com autor, ano e página; quando as tradições divergem, as versões aparecem lado a lado, sem eleger uma correta. Para a lista de versões com a fonte de cada uma, veja a <a href={url(`orixas/${id}`)}>ficha</a>. Atualizado em {cap.atualizado.split('-').reverse().join('/')}.</p>
+
+  <nav aria-label="Seções do capítulo">
+    <ol class="sumario sumario-capitulo">
+      {comTitulo.map((s) => <li><a href={`#${s.slug}`}>{s.titulo ?? TITULO_SECAO[s.slug]}</a></li>)}
+      <li><a href="#notas">Notas</a></li>
+      <li><a href="#bibliografia">Fontes citadas</a></li>
+    </ol>
+  </nav>
+
+  <article class="capitulo">
+    {render.map((s) => (
+      <section aria-labelledby={s.slug !== 'abertura' ? s.slug : undefined} class={`secao-capitulo secao-${s.slug}`} data-secao={s.slug}>
+        {s.slug !== 'abertura' && <h2 id={s.slug}>{s.titulo ?? TITULO_SECAO[s.slug]}</h2>}
+        {s.blocos.map((b) => b.tipo === 'subtitulo'
+          ? <h3>{b.texto}</h3>
+          : (
+            <p class="paragrafo-capitulo">
+              {b.tokens.map((t) => t.t === 'texto'
+                ? t.pedacos.map((p) => p.italico ? <em>{p.texto}</em> : <TextoGlossario partes={p.partes} />)
+                : t.t === 'link'
+                  ? <a href={hrefLink(t)} class={`link-${t.tipo}`}>{t.rotulo}</a>
+                  : <sup class="ref"><a href={`#nota-${t.n}`} id={`ref-${t.n}`} aria-label={`Nota ${t.n}`}>{t.n}</a></sup>)}
+            </p>
+          ))}
+      </section>
+    ))}
+  </article>
+
+  <section aria-labelledby="ver-tambem">
+    <h2 id="ver-tambem">Ver também</h2>
+    <ul>
+      <li><a href={url(`orixas/${id}`)}>Ficha de {ficha.rotulo}</a>: todas as versões, divergências e pendências.</li>
+      <li><a href={url(`orixas/${id}#conexoes`)}>Conexões de {ficha.rotulo} no grafo</a> e o <a href={url('grafo')}>grafo completo</a>.</li>
+      {itansCitados.length > 0 && <li>Itãs citados: {itansCitados.map((it, i) => <>{i > 0 && ', '}<a href={url(`itans/${it.id}`)}>{it.titulo}</a></>)}.</li>}
+      <li><a href={url('glossario')}>Glossário</a> e <a href={url('tradicoes')}>tradições</a>.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="notas">
+    <h2 id="notas">Notas</h2>
+    <ol class="notas notas-capitulo">
+      {cap.notas.map((n) => (
+        <li id={`nota-${n.n}`} data-nota={n.n}>
+          {n.itens.map((it) => {
+            if (it.tipo === 'registro') {
+              const r = registro(it.registro);
+              const f = fontePorId[r.source_id];
+              const via = r.via_source_id ? fontePorId[r.via_source_id] : null;
+              return (
+                <span class="item-nota" data-registro={r.id}>
+                  <a href={url(`fontes#fonte-${r.source_id}`)}>{autorCurto(f)} ({f?.ano ?? 's.d.'})</a>
+                  {via && <>, citado por <a href={url(`fontes#fonte-${r.via_source_id}`)}>{autorCurto(via)} ({via.ano ?? 's.d.'})</a></>}
+                  , {r.localizacao}
+                  {naFicha(r.id) ? <> (<a href={url(`orixas/${r.orixa}#v-${r.id}`)}><code>{r.id}</code></a>)</> : <> (<code>{r.id}</code>)</>}.{' '}
+                </span>
+              );
+            }
+            if (it.tipo === 'lacuna') return <span class="item-nota lacuna" data-lacuna={`${it.atributo}${it.tradicao ? '@' + it.tradicao : ''}`}>Lacuna: {textoLacuna(it, cap)} <a href={url(`orixas/${id}#pendencias`)}>Pendências da ficha</a>.{' '}</span>;
+            return <span class="item-nota pendencia" data-pendencia={it.ancora}>Obra pendente: {italicos(it.ancora).map((p) => p.italico ? <em>{p.texto}</em> : p.texto)} (<a href={PENDENCIAS_URL}>registro de pendências</a>).{' '}</span>;
+          })}
+          <a href={`#ref-${n.n}`} aria-label={`Voltar ao texto da nota ${n.n}`}>↩</a>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section aria-labelledby="bibliografia">
+    <h2 id="bibliografia">Fontes citadas</h2>
+    <ul class="bibliografia">
+      {biblio.map((f) => (
+        <li data-fonte={f.id}><a href={url(`fontes#fonte-${f.id}`)}>{(f.autores || []).join('; ')} ({f.ano ?? 's.d.'})</a>. <cite>{f.titulo}</cite>.{f.confiabilidade_preliminar === 'C' && ' Documento de época ou fonte de nível C: lido com cautela.'}</li>
+      ))}
+    </ul>
+  </section>
+
+  {termosUsados.length > 0 && (
+    <section aria-labelledby="termos">
+      <h2 id="termos">Termos do glossário neste capítulo</h2>
+      <dl class="termos-pagina">
+        {termosUsados.map((t) => (
+          <>
+            <dt><a href={url(`glossario#termo-${t.id}`)}>{t.termo}</a></dt>
+            <dd id={`def-${t.id}`}>{t.definicao}</dd>
+          </>
+        ))}
+      </dl>
+    </section>
+  )}
+</Base>
