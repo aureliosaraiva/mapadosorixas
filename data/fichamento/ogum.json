@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 65,
+    "total": 66,
     "por_status": {
-      "fichado": 60,
+      "fichado": 61,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -1265,6 +1265,25 @@
       "status": "fichado",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "ogum-066",
+      "orixa": "ogum",
+      "atributo": "sincretismo",
+      "valor": "São Jorge",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 277",
+      "parafrase": "Ogum é associado a São Jorge; seu sacrifício anual no terreiro de Júnior costuma ocorrer na obrigação de Iemanjá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

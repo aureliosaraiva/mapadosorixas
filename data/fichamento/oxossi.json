@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 34,
+    "total": 36,
     "por_status": {
-      "fichado": 31,
+      "fichado": 33,
       "pre_fichamento": 3,
       "revisado": 0
     }
@@ -668,6 +668,44 @@
       "status": "fichado",
       "evidencias": [
         "https://www.reginaldoprandi.fflch.usp.br/sites/reginaldoprandi.fflch.usp.br/files/inline-files/Nas_pegadas_dos_voduns.pdf"
+      ]
+    },
+    {
+      "id": "oxossi-035",
+      "orixa": "oxossi",
+      "atributo": "sincretismo",
+      "valor": "às vezes Santo Expedito; o sincretismo de Odé é hesitante no Recife",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 277",
+      "parafrase": "Para Odé, as pessoas hesitam mais quanto ao santo; às vezes o associam a Santo Expedito.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "oxossi-036",
+      "orixa": "oxossi",
+      "atributo": "itans",
+      "valor": "Ossaim acolhe (ou seduz, prende) Odé na floresta e o inicia na caça e no saber das plantas",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 323 e nota 746",
+      "parafrase": "Um mito ainda conhecido no nagô do Recife diz que Ossaim recebeu Odé na mata (em outras versões, o seduziu, prendeu ou capturou) e lhe ensinou a caça e o conhecimento das plantas. Halloy diz que essas narrativas são lembradas de forma elíptica, para justificar algum aspecto do ritual, como a vizinhança dos assentamentos de Ossaim, Ogum e Odé.",
+      "nota": "Versão do mito já em Ribeiro (1978, pp. 50–51), segundo Halloy.",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

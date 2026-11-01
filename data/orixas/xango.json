@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/xango.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 50,
+    "registros_usados": 51,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -996,6 +996,27 @@
         "parafrase": "O calendário da casa marca o tambor de Badé nos dias 28, 29 e 30 de junho, em torno de São Pedro, e o de Badé Zorogama em 29 de setembro, dia de São Jerônimo. Xangô não aparece com festa própria na lista.",
         "nota": "Comparar com xango-046 (São Pedro no Ilê Axé Ita Olé).",
         "registro": "xango-052",
+        "status": "fichado"
+      },
+      {
+        "valor": "perto do dia de São João; para uma informante, 6 de janeiro (Reis); há quem o associe a São Jerônimo",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276 e nota 649",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276 e nota 649",
+        "parafrase": "A festa de Xangô no Recife fica em torno de São João. Uma filha de santo ligada à jurema disse que o verdadeiro dia dele é 6 de janeiro, dos Reis, e há quem o associe a São Jerônimo.",
+        "nota": null,
+        "registro": "xango-055",
         "status": "fichado"
       }
     ],

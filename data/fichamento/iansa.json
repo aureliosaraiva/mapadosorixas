@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iansa",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 30,
+    "total": 38,
     "por_status": {
-      "fichado": 30,
+      "fichado": 38,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -591,6 +591,158 @@
       "status": "fichado",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iansa-031",
+      "orixa": "iansa",
+      "atributo": "nomes",
+      "valor": "Oyá e Yansã, usados indiferentemente",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 168 e nota 365",
+      "parafrase": "Oyá e Yansã são os dois nomes comuns do orixá das tempestades, e Halloy os usa como equivalentes.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-032",
+      "orixa": "iansa",
+      "atributo": "dominios",
+      "valor": "tempestades; para alguns, também o fogo do raio; guerreira",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 168; p. 324",
+      "parafrase": "Yansã é orixá feminina das tempestades e guerreira feroz; seu elemento é o vento, e há quem a associe também ao fogo do raio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-033",
+      "orixa": "iansa",
+      "atributo": "parentesco",
+      "valor": "foi esposa de Xangô",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 168",
+      "parafrase": "Oyá foi mulher de Xangô.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-034",
+      "orixa": "iansa",
+      "atributo": "itans",
+      "valor": "Oyá tem relação privilegiada com os eguns, enquanto Xangô foi expulso do balé por falar demais",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 168 e nota 366",
+      "parafrase": "Oyá mantém laço especial com os eguns. Já Xangô, segundo uma narrativa muito conhecida, teria sido posto para fora do balé, onde \"moram\" os eguns, por ser indiscreto e contar segredos até então bem guardados.",
+      "nota": "Halloy diz que a narrativa também aparece em Segato (1995, p. 398).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-035",
+      "orixa": "iansa",
+      "atributo": "cores",
+      "valor": "vermelho, podendo puxar para o marrom ou o rosa",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 168",
+      "parafrase": "A cor de Oyá é o vermelho, que pode tender ao marrom ou ao rosa.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-036",
+      "orixa": "iansa",
+      "atributo": "festas",
+      "valor": "em muitos terreiros, perto de 4 de dezembro (Santa Bárbara); na família estudada, início de novembro, junto com os eguns",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 276",
+      "parafrase": "O sincretismo de Yansã com Santa Bárbara é forte e muitos terreiros a festejam por volta de 4 de dezembro. Na família de santo de Halloy, porém, ela é festejada com frequência no começo de novembro, junto com os eguns, pelo vínculo com os mortos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-037",
+      "orixa": "iansa",
+      "atributo": "sincretismo",
+      "valor": "Santa Bárbara",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 276",
+      "parafrase": "O sincretismo entre Yansã e Santa Bárbara é descrito como marcante no Recife.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "iansa-038",
+      "orixa": "iansa",
+      "atributo": "tabus",
+      "valor": "interdito ritual (quizila) que a opõe a Xangô e afasta os dois assentamentos",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 325",
+      "parafrase": "Halloy explica que um interdito de Oyá, oposto à preferência sacrificial de Xangô, justifica que os dois fiquem afastados no peji, apesar das semelhanças.",
+      "nota": "Detalhe do interdito retido até decisão do conselho (tabus e alimentos não são detalhados).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxossi.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 30,
+    "registros_usados": 32,
     "registros_pre_fichamento_excluidos": 3,
     "registros_retidos": 1
   },
@@ -516,6 +516,27 @@
         "nota": null,
         "registro": "oxossi-034",
         "status": "fichado"
+      },
+      {
+        "valor": "às vezes Santo Expedito; o sincretismo de Odé é hesitante no Recife",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 277",
+        "parafrase": "Para Odé, as pessoas hesitam mais quanto ao santo; às vezes o associam a Santo Expedito.",
+        "nota": null,
+        "registro": "oxossi-035",
+        "status": "fichado"
       }
     ],
     "itans": [
@@ -582,6 +603,27 @@
         "parafrase": "Na versão de Verger, uma ave enorme pousa no palácio de Olofin durante a festa dos inhames novos; caçadores com vinte, quarenta e cinquenta flechas falham e são punidos; um caçador de Iremã, com uma só flecha e protegido por oferenda feita pela mãe, abate a ave.",
         "nota": null,
         "registro": "oxossi-026",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ossaim acolhe (ou seduz, prende) Odé na floresta e o inicia na caça e no saber das plantas",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 323 e nota 746",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 323 e nota 746",
+        "parafrase": "Um mito ainda conhecido no nagô do Recife diz que Ossaim recebeu Odé na mata (em outras versões, o seduziu, prendeu ou capturou) e lhe ensinou a caça e o conhecimento das plantas. Halloy diz que essas narrativas são lembradas de forma elíptica, para justificar algum aspecto do ritual, como a vizinhança dos assentamentos de Ossaim, Ogum e Odé.",
+        "nota": "Versão do mito já em Ribeiro (1978, pp. 50–51), segundo Halloy.",
+        "registro": "oxossi-036",
         "status": "fichado"
       }
     ],

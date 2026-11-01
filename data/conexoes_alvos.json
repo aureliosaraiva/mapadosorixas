@@ -119,7 +119,8 @@
     "santo:santa-catarina": {"rotulo": "Santa Catarina", "tipo": "santo_catolico"},
     "figura:joana-darc": {"rotulo": "Joana d’Arc", "tipo": "figura_crista"},
     "santo:sao-lazaro": {"rotulo": "São Lázaro", "tipo": "santo_catolico"},
-    "orunmila": {"rotulo": "Orunmilá / Ifá", "tipo": "orixa"}
+    "orunmila": {"rotulo": "Orunmilá / Ifá", "tipo": "orixa"},
+    "santo:ns-penha": {"rotulo": "Nossa Senhora da Penha", "tipo": "santo_catolico"}
   },
   "registros": {
     "exu-001": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
@@ -358,6 +359,18 @@
     "iansa-029": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "xango"}],
     "omolu-030": [{"tipo": "sincretismo", "destino": "santo:sao-lazaro"}],
     "omolu-037": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "nana"}, {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oba"}],
-    "nana-024": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "nana", "origem": "omolu"}]
+    "nana-024": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "nana", "origem": "omolu"}],
+    "nana-029": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "nana", "origem": "omolu"}, {"tipo": "parentesco", "subtipo": "filho_de", "destino": "nana", "origem": "oxumare"}],
+    "nana-034": [{"tipo": "sincretismo", "destino": "santo:santana"}],
+    "omolu-043": [{"tipo": "sincretismo", "destino": "santo:sao-sebastiao"}],
+    "iansa-033": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "xango"}],
+    "iansa-037": [{"tipo": "sincretismo", "destino": "santo:santa-barbara"}],
+    "oxum-044": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "ogum"}, {"tipo": "parentesco", "subtipo": "filho_de", "destino": "orunmila"}],
+    "oxum-048": [{"tipo": "sincretismo", "destino": "santo:ns-carmo"}, {"tipo": "sincretismo", "destino": "santo:ns-penha"}],
+    "oxum-049": [{"tipo": "parentesco", "subtipo": "filho_de", "destino": "oxum", "origem": "ibeji"}],
+    "oxala-056": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "iemanja"}],
+    "ogum-066": [{"tipo": "sincretismo", "destino": "santo:sao-jorge"}],
+    "oxossi-035": [{"tipo": "sincretismo", "destino": "santo:santo-expedito"}],
+    "exu-095": [{"tipo": "sincretismo", "destino": "santo:santo-antonio"}]
   }
 }

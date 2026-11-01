@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 93,
+    "total": 95,
     "por_status": {
-      "fichado": 93,
+      "fichado": 95,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1842,6 +1842,25 @@
       "status": "fichado",
       "evidencias": [
         "https://periodicos.sbu.unicamp.br/ojs/index.php/csr/article/download/8669436/28738"
+      ]
+    },
+    {
+      "id": "exu-095",
+      "orixa": "exu",
+      "atributo": "sincretismo",
+      "valor": "Santo Antônio, no meio da jurema; homenageado em agosto, sobretudo na jurema",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 276",
+      "parafrase": "Exu é honrado em agosto, mas sobretudo no culto da jurema, onde costuma ser associado a Santo Antônio; na família de Halloy não há toque para o Exu orixá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

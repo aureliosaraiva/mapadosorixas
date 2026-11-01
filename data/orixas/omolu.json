@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/omolu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 39,
+    "registros_usados": 44,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -162,6 +162,27 @@
         "nota": null,
         "registro": "omolu-028",
         "status": "fichado"
+      },
+      {
+        "valor": "doença, sobretudo doenças de pele; relação com o mundo dos eguns",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166 e nota 359",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166 e nota 359",
+        "parafrase": "Obaluaiê é temido por sua ligação com a doença, em especial as de pele, comuns entre os pobres. Tem também uma relação com os eguns, pouco definida, que Halloy atribui à invocação dele nas obrigações para os mortos.",
+        "nota": null,
+        "registro": "omolu-040",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -230,6 +251,27 @@
         "parafrase": "As cores de Omulu são o preto e o branco.",
         "nota": null,
         "registro": "omolu-031",
+        "status": "fichado"
+      },
+      {
+        "valor": "poucos lhe dão cor; quando dão: vermelho, preto e branco, as mesmas de Exu",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166",
+        "parafrase": "Pouca gente associa uma cor a Obaluaiê; quem o faz repete as de Exu: vermelho, preto e branco.",
+        "nota": null,
+        "registro": "omolu-042",
         "status": "fichado"
       }
     ],
@@ -426,6 +468,27 @@
         "parafrase": "A matéria de Omulu é a palha, com que ele se cobre.",
         "nota": null,
         "registro": "omolu-035",
+        "status": "fichado"
+      },
+      {
+        "valor": "para alguns chefes de culto, \"orixá de ferro\", como Odé, Ogum e Ossaim",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 323",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 323",
+        "parafrase": "Certos chefes de culto incluem Obaluaiê entre os \"orixás de ferro\" (cujo objeto principal no assentamento é de ferro), como Odé, Ogum e Ossaim, embora isso não apareça em todos os assentamentos dele.",
+        "nota": null,
+        "registro": "omolu-044",
         "status": "fichado"
       }
     ],
@@ -673,6 +736,27 @@
         "nota": null,
         "registro": "omolu-030",
         "status": "fichado"
+      },
+      {
+        "valor": "São Sebastião",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 277",
+        "parafrase": "Obaluaiê é em geral associado a São Sebastião.",
+        "nota": null,
+        "registro": "omolu-043",
+        "status": "fichado"
       }
     ],
     "itans": [
@@ -808,6 +892,27 @@
         "parafrase": "Na primeira estadia baiana, Bastide contou 13 casas de Omolu entre 86 santuários, mais do que de qualquer outro orixá. A casa dele fica obrigatoriamente fora da construção principal do terreiro, como, na Nigéria, os templos de Buku e os conventos de Xankanna ficam fora da aldeia.",
         "nota": null,
         "registro": "omolu-016",
+        "status": "fichado"
+      },
+      {
+        "valor": "pode ser recebido em possessão, mas tem pouquíssimos iniciados",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166",
+        "parafrase": "Embora Obaluaiê possa se manifestar, seus iniciados são muito raros no nagô do Recife.",
+        "nota": null,
+        "registro": "omolu-041",
         "status": "fichado"
       }
     ],

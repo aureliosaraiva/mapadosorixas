@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ogum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 60,
+    "registros_usados": 61,
     "registros_pre_fichamento_excluidos": 5,
     "registros_retidos": 0
   },
@@ -969,6 +969,27 @@
         "parafrase": "O quadro associa o orixá Ogum, assentado na casa, a São Jorge. Os voduns que lhe correspondem têm outros santos: Doçu e Bedigá ficam com os Santos Reis, e Doçupé com Santo Antônio.",
         "nota": null,
         "registro": "ogum-063",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Jorge",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 277",
+        "parafrase": "Ogum é associado a São Jorge; seu sacrifício anual no terreiro de Júnior costuma ocorrer na obrigação de Iemanjá.",
+        "nota": null,
+        "registro": "ogum-066",
         "status": "fichado"
       }
     ],

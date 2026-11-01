@@ -2,14 +2,14 @@
   "_meta": {
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
-    "total_nos": 116,
-    "total_arestas": 147,
+    "total_nos": 117,
+    "total_arestas": 149,
     "por_tipo": {
       "associacao": 3,
       "companheiro_de_culto": 3,
       "equivalencia": 60,
       "parentesco": 36,
-      "sincretismo": 45
+      "sincretismo": 47
     }
   },
   "nos": [
@@ -301,6 +301,11 @@
     {
       "id": "santo:ns-navegantes",
       "rotulo": "Nossa Senhora dos Navegantes",
+      "tipo": "santo_catolico"
+    },
+    {
+      "id": "santo:ns-penha",
+      "rotulo": "Nossa Senhora da Penha",
       "tipo": "santo_catolico"
     },
     {
@@ -3017,6 +3022,27 @@
           "nota": null,
           "registro": "iansa-029",
           "status": "fichado"
+        },
+        {
+          "valor": "foi esposa de Xangô",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 168",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 168",
+          "parafrase": "Oyá foi mulher de Xangô.",
+          "nota": null,
+          "registro": "iansa-033",
+          "status": "fichado"
         }
       ]
     },
@@ -3090,6 +3116,27 @@
           "parafrase": "Segundo a versão baiana recolhida por Bastide, Oxalá teve duas mulheres: com Nanã Buruku gerou Omolu, Lôko e Oxumarê, e com Iemanjá os demais orixás de destaque.",
           "nota": "Lôko não foi identificado com Iroko sem fonte. Ver iemanja-012 (Iemanjá filha de Oxalá, p. 125).",
           "registro": "oxala-024",
+          "status": "fichado"
+        },
+        {
+          "valor": "\"pai dos orixás\": com Iemanjá forma o casal demiurgo que gerou os demais, exceto Nanã, Obaluaiê e Oxumaré",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 169; p. 324 e nota 750",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 169; p. 324 e nota 750",
+          "parafrase": "Orixalá é o pai dos orixás. Com Iemanjá, forma o casal criador de onde vêm as outras divindades, menos Nanã, Obaluaiê e Oxumaré, que têm outra origem.",
+          "nota": null,
+          "registro": "oxala-056",
           "status": "fichado"
         }
       ]
@@ -3492,6 +3539,27 @@
           "nota": "Ver xango-014.",
           "registro": "oxum-024",
           "status": "fichado"
+        },
+        {
+          "valor": "esposa de Ogum (Segato) ou filha de Orunmilá (Ribeiro)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 168",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 168",
+          "parafrase": "Halloy registra duas versões dos seus informantes e da literatura: Oxum ora é esposa de Ogum (como em Segato 1995), ora filha de Orunmilá (como em Ribeiro 1978).",
+          "nota": null,
+          "registro": "oxum-044",
+          "status": "fichado"
         }
       ]
     },
@@ -3715,6 +3783,27 @@
       "subtipo": "filho_de",
       "direcionada": true,
       "versoes": [
+        {
+          "valor": "mãe dos Ibejis, para alguns participantes, laço criado pela posição dos assentamentos",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 324",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 324",
+          "parafrase": "Alguns participantes chamam Oxum de mãe dos Ibejis, cujo assentamento fica diante do dela. Halloy observa que nenhum mito conhecido dos participantes conta esse parentesco: a vizinhança no peji parece criá-lo.",
+          "nota": null,
+          "registro": "oxum-049",
+          "status": "fichado"
+        },
         {
           "valor": "Oxum é considerada sua mãe; assentamento aos pés do de Oxum",
           "tradicoes": [
@@ -4282,6 +4371,27 @@
           "status": "fichado"
         },
         {
+          "valor": "mãe de Obaluaiê e de Oxumaré",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 166; p. 323",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 166; p. 323",
+          "parafrase": "Os participantes sabem que os três orixás são parentes: Nanã é a mãe de Obaluaiê e de Oxumaré.",
+          "nota": null,
+          "registro": "nana-029",
+          "status": "fichado"
+        },
+        {
           "valor": "esposas: Nanã Buruku (mãe de Omolu, Lôko e Oxumarê) e Iemanjá (mãe dos outros orixás importantes)",
           "tradicoes": [
             "candomble_ketu"
@@ -4416,6 +4526,27 @@
           "nota": null,
           "registro": "oxum-041",
           "status": "fichado"
+        },
+        {
+          "valor": "esposa de Ogum (Segato) ou filha de Orunmilá (Ribeiro)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 168",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 168",
+          "parafrase": "Halloy registra duas versões dos seus informantes e da literatura: Oxum ora é esposa de Ogum (como em Segato 1995), ora filha de Orunmilá (como em Ribeiro 1978).",
+          "nota": null,
+          "registro": "oxum-044",
+          "status": "fichado"
         }
       ]
     },
@@ -4477,6 +4608,27 @@
           "parafrase": "Na versão baiana das famílias divinas, Oxalá tem duas esposas, e Nanã Buruku é a que lhe deu Omolu, Lôko e Oxumarê.",
           "nota": "Lôko não foi identificado com Iroko sem fonte.",
           "registro": "nana-011",
+          "status": "fichado"
+        },
+        {
+          "valor": "mãe de Obaluaiê e de Oxumaré",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 166; p. 323",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 166; p. 323",
+          "parafrase": "Os participantes sabem que os três orixás são parentes: Nanã é a mãe de Obaluaiê e de Oxumaré.",
+          "nota": null,
+          "registro": "nana-029",
           "status": "fichado"
         },
         {
@@ -5122,6 +5274,27 @@
           "nota": null,
           "registro": "exu-055",
           "status": "fichado"
+        },
+        {
+          "valor": "Santo Antônio, no meio da jurema; homenageado em agosto, sobretudo na jurema",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 276",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 276",
+          "parafrase": "Exu é honrado em agosto, mas sobretudo no culto da jurema, onde costuma ser associado a Santo Antônio; na família de Halloy não há toque para o Exu orixá.",
+          "nota": null,
+          "registro": "exu-095",
+          "status": "fichado"
         }
       ]
     },
@@ -5400,6 +5573,27 @@
           "parafrase": "Guerreira e amazona, Iansã é associada a Santa Bárbara e, às vezes, a Joana d’Arc. Em nota, a autora lembra que Santa Bárbara era antes ligada a Xangô, dono do raio.",
           "nota": null,
           "registro": "iansa-025",
+          "status": "fichado"
+        },
+        {
+          "valor": "Santa Bárbara",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 276",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 276",
+          "parafrase": "O sincretismo entre Yansã e Santa Bárbara é descrito como marcante no Recife.",
+          "nota": null,
+          "registro": "iansa-037",
           "status": "fichado"
         }
       ]
@@ -5898,6 +6092,27 @@
           "nota": null,
           "registro": "nana-018",
           "status": "fichado"
+        },
+        {
+          "valor": "Sant'Ana",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 277",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 277",
+          "parafrase": "Entre os santos \"assentados\" do nagô, Nanã costuma ser associada a Santa Ana.",
+          "nota": null,
+          "registro": "nana-034",
+          "status": "fichado"
         }
       ]
     },
@@ -6055,6 +6270,27 @@
           "nota": null,
           "registro": "ogum-063",
           "status": "fichado"
+        },
+        {
+          "valor": "São Jorge",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 277",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 277",
+          "parafrase": "Ogum é associado a São Jorge; seu sacrifício anual no terreiro de Júnior costuma ocorrer na obrigação de Iemanjá.",
+          "nota": null,
+          "registro": "ogum-066",
+          "status": "fichado"
         }
       ]
     },
@@ -6118,6 +6354,27 @@
           "parafrase": "No calendário católico africanizado, a festa de Obaluaiê (Omolu) cai no dia de São Sebastião; no Centro Africano S. Jorge do Recife, 20 de janeiro reúne Obaluaê e São Sebastião, e num terreiro pernambucano descrito por Gonçalves Fernandes a data é de 'Abaluaci'.",
           "nota": "Bastide cita P. Cavalcanti e Gonçalves Fernandes.",
           "registro": "omolu-020",
+          "status": "fichado"
+        },
+        {
+          "valor": "São Sebastião",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 277",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 277",
+          "parafrase": "Obaluaiê é em geral associado a São Sebastião.",
+          "nota": null,
+          "registro": "omolu-043",
           "status": "fichado"
         }
       ]
@@ -6356,6 +6613,37 @@
       ]
     },
     {
+      "id": "sincretismo:oxossi>santo:santo-expedito",
+      "origem": "oxossi",
+      "destino": "santo:santo-expedito",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "às vezes Santo Expedito; o sincretismo de Odé é hesitante no Recife",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 277",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 277",
+          "parafrase": "Para Odé, as pessoas hesitam mais quanto ao santo; às vezes o associam a Santo Expedito.",
+          "nota": null,
+          "registro": "oxossi-035",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "sincretismo:oxossi>santo:sao-sebastiao",
       "origem": "oxossi",
       "destino": "santo:sao-sebastiao",
@@ -6447,6 +6735,27 @@
           "nota": null,
           "registro": "oxum-034",
           "status": "fichado"
+        },
+        {
+          "valor": "Nossa Senhora do Carmo; para algumas mães de santo, Nossa Senhora da Penha",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 276 e nota 648",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 276 e nota 648",
+          "parafrase": "Oxum é associada a Nossa Senhora do Carmo e, por algumas mães de santo, a Nossa Senhora da Penha.",
+          "nota": null,
+          "registro": "oxum-048",
+          "status": "fichado"
         }
       ]
     },
@@ -6509,6 +6818,37 @@
           "parafrase": "No quadro da casa paulista, a orixá Oxum aparece ligada a Nossa Senhora da Glória; dos voduns que lhe correspondem, Naveorualim também tem N. S. da Glória e Navezuarina tem Santa Luzia.",
           "nota": null,
           "registro": "oxum-018",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:oxum>santo:ns-penha",
+      "origem": "oxum",
+      "destino": "santo:ns-penha",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Nossa Senhora do Carmo; para algumas mães de santo, Nossa Senhora da Penha",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 276 e nota 648",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 276 e nota 648",
+          "parafrase": "Oxum é associada a Nossa Senhora do Carmo e, por algumas mães de santo, a Nossa Senhora da Penha.",
+          "nota": null,
+          "registro": "oxum-048",
           "status": "fichado"
         }
       ]

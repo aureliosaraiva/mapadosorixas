@@ -3,9 +3,9 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxala.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 53,
+    "registros_usados": 60,
     "registros_pre_fichamento_excluidos": 0,
-    "registros_retidos": 1
+    "registros_retidos": 2
   },
   "id": "oxala",
   "rotulo": "Oxalá",
@@ -74,6 +74,27 @@
         "parafrase": "A autora registra os três nomes. Para Orixalá a leitura iorubá é direta (o orixá grande, importante); para Obatalá ela não acha etimologia segura e descarta ligar a primeira sílaba a oba, \"rei\", por diferença de tom.",
         "nota": null,
         "registro": "oxala-041",
+        "status": "fichado"
+      },
+      {
+        "valor": "Orixalá; aspectos Orixálufã e Orixáogiã",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169",
+        "parafrase": "Halloy chama o orixá de Orixalá (também Oxalá) e seus dois aspectos de Orixálufã e Orixáogiã.",
+        "nota": null,
+        "registro": "oxala-055",
         "status": "fichado"
       }
     ],
@@ -274,6 +295,27 @@
         "nota": null,
         "registro": "oxala-045",
         "status": "fichado"
+      },
+      {
+        "valor": "branco imaculado",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169",
+        "parafrase": "A cor de Orixalá é o branco sem mistura.",
+        "nota": null,
+        "registro": "oxala-058",
+        "status": "fichado"
       }
     ],
     "dia_semana": [
@@ -360,6 +402,27 @@
         "parafrase": "O dia varia com o grau de sincretismo do terreiro: alguns o cultuam no domingo, por referência cristã; muitos mantêm a sexta-feira, que a autora atribui à influência do islã no mundo iorubá.",
         "nota": null,
         "registro": "oxala-047",
+        "status": "fichado"
+      },
+      {
+        "valor": "sexta-feira, com oferenda semanal",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169; p. 164, nota 353",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169; p. 164, nota 353",
+        "parafrase": "O dia de Orixalá é a sexta-feira, quando recebe uma oferenda toda semana; é uma das poucas associações de dia que pesam na prática local.",
+        "nota": "O prato da oferenda foi retido (alimentos não são detalhados).",
+        "registro": "oxala-059",
         "status": "fichado"
       }
     ],
@@ -561,6 +624,27 @@
         "nota": "Atribuição de idade inversa à de Bastide (oxala-022) e de Halloy (Orixálufã velho, Orixáogiã jovem); registrada como está na fonte, sem correção.",
         "registro": "oxala-051",
         "status": "fichado"
+      },
+      {
+        "valor": "Orixálufã, o velho (encarna um ancião na possessão), e Orixáogiã, o jovem, fogoso, de força comparável à de Xangô; cada pessoa pertence a um só",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169",
+        "parafrase": "O orixá tem dois aspectos bem distintos: Orixálufã, a versão velha, que se manifesta como um ancião, e Orixáogiã, a versão jovem e impetuosa, com força parecida à de Xangô. Um mesmo filho só pertence a um dos dois.",
+        "nota": "Comparar com oxala-022 (Bastide) e com a versão de Chiousse (idades invertidas).",
+        "registro": "oxala-057",
+        "status": "fichado"
       }
     ],
     "parentesco": [
@@ -625,6 +709,27 @@
         "parafrase": "Num mito ouvido na Bahia, Oxum é apresentada como filha de Oxalá.",
         "nota": "Mito em oxala-030.",
         "registro": "oxala-026",
+        "status": "fichado"
+      },
+      {
+        "valor": "\"pai dos orixás\": com Iemanjá forma o casal demiurgo que gerou os demais, exceto Nanã, Obaluaiê e Oxumaré",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169; p. 324 e nota 750",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169; p. 324 e nota 750",
+        "parafrase": "Orixalá é o pai dos orixás. Com Iemanjá, forma o casal criador de onde vêm as outras divindades, menos Nanã, Obaluaiê e Oxumaré, que têm outra origem.",
+        "nota": null,
+        "registro": "oxala-056",
         "status": "fichado"
       }
     ],
@@ -1041,6 +1146,27 @@
         "nota": "Lissá corresponde a Oxaguiã nesta casa (oxala-035).",
         "registro": "oxala-038",
         "status": "fichado"
+      },
+      {
+        "valor": "para quem o liga a Cristo, idealmente 25 de dezembro; na família estudada, em janeiro, para abrir o ano com o orixá da paz",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276",
+        "parafrase": "Poucos veem Oxalá pelo sincretismo; os que o associam a Cristo o festejariam em 25 de dezembro. Na família de Halloy, a festa costuma ser em janeiro, porque é bom começar o ano com o orixá da paz e pai de todos.",
+        "nota": null,
+        "registro": "oxala-060",
+        "status": "fichado"
       }
     ],
     "historia_culto": [
@@ -1176,6 +1302,27 @@
         "nota": "Bastide remete a Parrinder, Frobenius, Nina Rodrigues (Animismo, p. 39) e A. Ramos para a substituição de Olorun por Oxalá. Na p. 192, Oxalá também é chamado 'divindade suprema'.",
         "registro": "oxala-004",
         "status": "fichado"
+      },
+      {
+        "valor": "assentamento separado, no fim da fileira, junto de Iemanjá: posição de patriarca",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 324; p. 326",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 324; p. 326",
+        "parafrase": "No peji estudado, Oxalá fica no fim da sequência, um pouco afastado, perto de Iemanjá, com quem forma o casal que gerou os outros orixás; Halloy lê essa posição como sinal de hierarquia superior. Em outro terreiro, Júnior pôs seu Orixáogiã no centro, maior que todos.",
+        "nota": null,
+        "registro": "oxala-062",
+        "status": "fichado"
       }
     ]
   },
@@ -1190,7 +1337,8 @@
     "so_pre_fichamento": {},
     "retidos_ate_conselho": {
       "tabus": [
-        "oxala-049"
+        "oxala-049",
+        "oxala-061"
       ]
     }
   },

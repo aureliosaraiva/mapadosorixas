@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 62,
+    "total": 63,
     "por_status": {
-      "fichado": 58,
+      "fichado": 59,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1208,6 +1208,25 @@
       "status": "fichado",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "iemanja-063",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "em dezembro (Nossa Senhora da Conceição, 8 de dezembro); no terreiro de Júnior, cerca de um mês depois de São Jorge",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 276 e nota 647; p. 277",
+      "parafrase": "Iemanjá é festejada em dezembro, época da Conceição, celebrada no Recife em 8 de dezembro. No terreiro de Júnior, porém, sua festa cai mais ou menos um mês depois de São Jorge (23 de abril), data ligada ao aniversário de um antigo filho dela.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

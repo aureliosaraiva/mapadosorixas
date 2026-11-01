@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 54,
+    "total": 55,
     "por_status": {
-      "fichado": 50,
+      "fichado": 51,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1049,6 +1049,25 @@
       "status": "fichado",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "xango-055",
+      "orixa": "xango",
+      "atributo": "festas",
+      "valor": "perto do dia de São João; para uma informante, 6 de janeiro (Reis); há quem o associe a São Jerônimo",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 276 e nota 649",
+      "parafrase": "A festa de Xangô no Recife fica em torno de São João. Uma filha de santo ligada à jurema disse que o verdadeiro dia dele é 6 de janeiro, dos Reis, e há quem o associe a São Jerônimo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

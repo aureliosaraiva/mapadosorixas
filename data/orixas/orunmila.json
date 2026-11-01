@@ -3,13 +3,36 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/orunmila.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 4,
+    "registros_usados": 9,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
   "id": "orunmila",
   "rotulo": "Orunmilá / Ifá",
   "atributos": {
+    "nomes": [
+      {
+        "valor": "Orunmilá ou Ifá; nos anos 1980 os nomes não eram equivalentes (Ifá só em \"consultar Ifá\")",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169",
+        "parafrase": "Halloy usa Orunmilá e Ifá para a mesma divindade. Lembra que J. J. de Carvalho (1984) achou os dois nomes distintos na época: Ifá quase só na expressão \"consultar Ifá\", ou seja, o oráculo, enquanto Orunmilá tinha presença concreta no culto.",
+        "nota": "Carvalho 1984 é citado por Halloy (fora do catálogo).",
+        "registro": "orunmila-005",
+        "status": "fichado"
+      }
+    ],
     "funcoes": [
       {
         "valor": "orixá da adivinhação: responde ao babalaô pelo opelê e conhece o destino de cada um",
@@ -31,6 +54,29 @@
         "parafrase": "Ifá é o orixá que responde às perguntas do babalaô no jogo do opelê e que sabe o destino de cada pessoa; a autora deixa em aberto se ele também o determina.",
         "nota": null,
         "registro": "orunmila-001",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "amarelo e verde",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 170",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 170",
+        "parafrase": "As cores de Orunmilá são o amarelo e o verde.",
+        "nota": null,
+        "registro": "orunmila-008",
         "status": "fichado"
       }
     ],
@@ -58,6 +104,29 @@
         "status": "fichado"
       }
     ],
+    "festas": [
+      {
+        "valor": "sem santo católico; antes em 25 de dezembro, depois no último fim de semana de setembro",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276",
+        "parafrase": "Halloy não achou correspondência católica para Orunmilá. Ele era festejado em 25 de dezembro, sem que os chefes de culto soubessem explicar a data, e todos frisaram que Orunmilá e Cristo nada têm em comum; durante a estadia do autor, a festa caiu no último fim de semana de setembro.",
+        "nota": null,
+        "registro": "orunmila-009",
+        "status": "fichado"
+      }
+    ],
     "historia_culto": [
       {
         "valor": "pouco se fala dele: Papai não pode falar porque Ifá é o orixá da sua família; não tem imagem, santo católico nem parte do corpo",
@@ -79,6 +148,27 @@
         "parafrase": "Quando a autora perguntou a Papai sobre Ifá, ouviu que era o orixá consagrado da família dele e que por isso não podia falar; os demais chefes de culto só disseram que é o orixá da adivinhação. Ela não achou estátuas dele, nem correspondente católico, nem ação sobre o corpo.",
         "nota": null,
         "registro": "orunmila-003",
+        "status": "fichado"
+      },
+      {
+        "valor": "obrigação a cada dois ou três anos nos anos 1980; hoje anual, depois que Paulo retomou o jogo de Ifá com ikin e opelê",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169",
+        "parafrase": "Carvalho registrou uma obrigação para Orunmilá a cada dois ou três anos e poucos assentamentos \"autênticos\". Na família de Halloy, a retomada por Paulo da adivinhação de Ifá, com nozes de palmeira (ikin) e opelê, deu novo peso ao orixá, cuja obrigação passou a ser anual; a complexidade do culto ainda freia sua expansão.",
+        "nota": null,
+        "registro": "orunmila-007",
         "status": "fichado"
       }
     ],
@@ -104,16 +194,35 @@
         "nota": null,
         "registro": "orunmila-002",
         "status": "fichado"
+      },
+      {
+        "valor": "considerado \"superior\" aos outros orixás; assentamento à parte, no alto, junto de Oxum",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 169; pp. 325–326",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 169; pp. 325–326",
+        "parafrase": "No nagô do Recife, Orunmilá tem estatuto próprio e é tido como superior aos demais orixás. No peji, não fica no chão: está num nível mais alto, isolado, à altura das Oxuns, e \"come sozinho\" numa obrigação anual, mas acompanhado de Oxum.",
+        "nota": null,
+        "registro": "orunmila-006",
+        "status": "fichado"
       }
     ]
   },
   "pendencias": {
     "sem_registro": [
-      "nomes",
       "origem",
       "dominios",
       "elementos",
-      "cores",
       "dia_semana",
       "saudacao",
       "simbolos",
@@ -124,7 +233,6 @@
       "equivalencias",
       "sincretismo",
       "tabus",
-      "festas",
       "iconografia",
       "interpretacao_academica"
     ],

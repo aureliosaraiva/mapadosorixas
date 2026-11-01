@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "orunmila",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 4,
+    "total": 9,
     "por_status": {
-      "fichado": 4,
+      "fichado": 9,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -88,6 +88,101 @@
       "status": "fichado",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "orunmila-005",
+      "orixa": "orunmila",
+      "atributo": "nomes",
+      "valor": "Orunmilá ou Ifá; nos anos 1980 os nomes não eram equivalentes (Ifá só em \"consultar Ifá\")",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 169",
+      "parafrase": "Halloy usa Orunmilá e Ifá para a mesma divindade. Lembra que J. J. de Carvalho (1984) achou os dois nomes distintos na época: Ifá quase só na expressão \"consultar Ifá\", ou seja, o oráculo, enquanto Orunmilá tinha presença concreta no culto.",
+      "nota": "Carvalho 1984 é citado por Halloy (fora do catálogo).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "orunmila-006",
+      "orixa": "orunmila",
+      "atributo": "hierarquia",
+      "valor": "considerado \"superior\" aos outros orixás; assentamento à parte, no alto, junto de Oxum",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 169; pp. 325–326",
+      "parafrase": "No nagô do Recife, Orunmilá tem estatuto próprio e é tido como superior aos demais orixás. No peji, não fica no chão: está num nível mais alto, isolado, à altura das Oxuns, e \"come sozinho\" numa obrigação anual, mas acompanhado de Oxum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "orunmila-007",
+      "orixa": "orunmila",
+      "atributo": "historia_culto",
+      "valor": "obrigação a cada dois ou três anos nos anos 1980; hoje anual, depois que Paulo retomou o jogo de Ifá com ikin e opelê",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 169",
+      "parafrase": "Carvalho registrou uma obrigação para Orunmilá a cada dois ou três anos e poucos assentamentos \"autênticos\". Na família de Halloy, a retomada por Paulo da adivinhação de Ifá, com nozes de palmeira (ikin) e opelê, deu novo peso ao orixá, cuja obrigação passou a ser anual; a complexidade do culto ainda freia sua expansão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "orunmila-008",
+      "orixa": "orunmila",
+      "atributo": "cores",
+      "valor": "amarelo e verde",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 170",
+      "parafrase": "As cores de Orunmilá são o amarelo e o verde.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "orunmila-009",
+      "orixa": "orunmila",
+      "atributo": "festas",
+      "valor": "sem santo católico; antes em 25 de dezembro, depois no último fim de semana de setembro",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 276",
+      "parafrase": "Halloy não achou correspondência católica para Orunmilá. Ele era festejado em 25 de dezembro, sem que os chefes de culto soubessem explicar a data, e todos frisaram que Orunmilá e Cristo nada têm em comum; durante a estadia do autor, a festa caiu no último fim de semana de setembro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

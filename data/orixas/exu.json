@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/exu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 93,
+    "registros_usados": 94,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -1149,6 +1149,27 @@
         "parafrase": "Segundo o texto, na Casa das Minas Legba fica sem culto organizado e é associado a Satanás, ao mal; lá ele não exerce a função de mensageiro, que pertence aos voduns jovens chamados toqüéns. Restam poucos gestos rituais, como cantigas no começo de cada tambor pedindo que ele se afaste. Em outros terreiros importantes de São Luís, porém, Legba tem lugar de destaque.",
         "nota": "Diverge de exu-093 (casa paulista derivada da mina, onde Legbara é assentado e propiciado).",
         "registro": "exu-092",
+        "status": "fichado"
+      },
+      {
+        "valor": "Santo Antônio, no meio da jurema; homenageado em agosto, sobretudo na jurema",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276",
+        "parafrase": "Exu é honrado em agosto, mas sobretudo no culto da jurema, onde costuma ser associado a Santo Antônio; na família de Halloy não há toque para o Exu orixá.",
+        "nota": null,
+        "registro": "exu-095",
         "status": "fichado"
       }
     ],

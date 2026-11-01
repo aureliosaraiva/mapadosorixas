@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "omolu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 39,
+    "total": 44,
     "por_status": {
-      "fichado": 39,
+      "fichado": 44,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -767,6 +767,101 @@
       "status": "fichado",
       "evidencias": [
         "https://halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf"
+      ]
+    },
+    {
+      "id": "omolu-040",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "doença, sobretudo doenças de pele; relação com o mundo dos eguns",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 166 e nota 359",
+      "parafrase": "Obaluaiê é temido por sua ligação com a doença, em especial as de pele, comuns entre os pobres. Tem também uma relação com os eguns, pouco definida, que Halloy atribui à invocação dele nas obrigações para os mortos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "omolu-041",
+      "orixa": "omolu",
+      "atributo": "historia_culto",
+      "valor": "pode ser recebido em possessão, mas tem pouquíssimos iniciados",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 166",
+      "parafrase": "Embora Obaluaiê possa se manifestar, seus iniciados são muito raros no nagô do Recife.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "omolu-042",
+      "orixa": "omolu",
+      "atributo": "cores",
+      "valor": "poucos lhe dão cor; quando dão: vermelho, preto e branco, as mesmas de Exu",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 166",
+      "parafrase": "Pouca gente associa uma cor a Obaluaiê; quem o faz repete as de Exu: vermelho, preto e branco.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "omolu-043",
+      "orixa": "omolu",
+      "atributo": "sincretismo",
+      "valor": "São Sebastião",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 277",
+      "parafrase": "Obaluaiê é em geral associado a São Sebastião.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "omolu-044",
+      "orixa": "omolu",
+      "atributo": "simbolos",
+      "valor": "para alguns chefes de culto, \"orixá de ferro\", como Odé, Ogum e Ossaim",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 323",
+      "parafrase": "Certos chefes de culto incluem Obaluaiê entre os \"orixás de ferro\" (cujo objeto principal no assentamento é de ferro), como Odé, Ogum e Ossaim, embora isso não apareça em todos os assentamentos dele.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
       ]
     }
   ]

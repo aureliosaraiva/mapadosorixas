@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iemanja.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 58,
+    "registros_usados": 59,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -1042,6 +1042,27 @@
         "parafrase": "No calendário da casa paulista, 8 de dezembro, dia de Nossa Senhora da Conceição, reúne Abê, Naité e Iemanjá; em 2 de fevereiro, dia de Nossa Senhora das Candeias, há o presente de Abê, vodum que corresponde a Iemanjá.",
         "nota": null,
         "registro": "iemanja-059",
+        "status": "fichado"
+      },
+      {
+        "valor": "em dezembro (Nossa Senhora da Conceição, 8 de dezembro); no terreiro de Júnior, cerca de um mês depois de São Jorge",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276 e nota 647; p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276 e nota 647; p. 277",
+        "parafrase": "Iemanjá é festejada em dezembro, época da Conceição, celebrada no Recife em 8 de dezembro. No terreiro de Júnior, porém, sua festa cai mais ou menos um mês depois de São Jorge (23 de abril), data ligada ao aniversário de um antigo filho dela.",
+        "nota": null,
+        "registro": "iemanja-063",
         "status": "fichado"
       }
     ],

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/nana.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 27,
+    "registros_usados": 34,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -120,6 +120,27 @@
         "nota": "Converge com nana-008 (Bastide).",
         "registro": "nana-009",
         "status": "fichado"
+      },
+      {
+        "valor": "origem comum com Obaluaiê e Oxumaré, distinta da dos demais orixás; segundo Verger, de Mahi (Benim)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 165 e nota 357; p. 323, nota 748",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 165 e nota 357; p. 323, nota 748",
+        "parafrase": "No nagô do Recife a maioria sabe que Nanã, Obaluaiê e Oxumaré vêm de uma origem própria, diferente da dos outros orixás, embora não saiba situá-la. Em nota, Halloy cita Verger, para quem os três viriam de Mahi, no Benim, e não da Nigéria.",
+        "nota": "A origem em Mahi é de Verger (2002), citado por Halloy; os participantes não a localizam.",
+        "registro": "nana-028",
+        "status": "fichado"
       }
     ],
     "dominios": [
@@ -165,6 +186,27 @@
         "parafrase": "Nanã Buruku é orixá feminina das águas, como Iemanjá e Oxum, a mais idosa delas, e reina sobre as chuvas e as águas do dilúvio. Na partilha original, recebeu a água das chuvas.",
         "nota": "A autora registra que C. Araujo (1993) a descreve como sereia.",
         "registro": "nana-023",
+        "status": "fichado"
+      },
+      {
+        "valor": "associada à morte; entre os orixás mais temidos",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166",
+        "parafrase": "Nanã está entre os orixás mais temidos do panteão do Recife, por sua ligação com a morte.",
+        "nota": null,
+        "registro": "nana-030",
         "status": "fichado"
       }
     ],
@@ -234,6 +276,27 @@
         "parafrase": "A cor de Nanã é o violeta, e por isso lhe cabem as plantas de flor violeta.",
         "nota": null,
         "registro": "nana-027",
+        "status": "fichado"
+      },
+      {
+        "valor": "violeta",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166",
+        "parafrase": "A cor associada a Nanã é o violeta; não há dia da semana fixo para ela.",
+        "nota": null,
+        "registro": "nana-033",
         "status": "fichado"
       }
     ],
@@ -411,6 +474,27 @@
         "nota": null,
         "registro": "nana-024",
         "status": "fichado"
+      },
+      {
+        "valor": "mãe de Obaluaiê e de Oxumaré",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166; p. 323",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166; p. 323",
+        "parafrase": "Os participantes sabem que os três orixás são parentes: Nanã é a mãe de Obaluaiê e de Oxumaré.",
+        "nota": null,
+        "registro": "nana-029",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -478,6 +562,27 @@
         "parafrase": "No quadro da casa paulista, Nanã, vodum jeje-nagô da família de Quevioçô cuja orixá correspondente é a própria Nanã, é sincretizada com Senhora Santana.",
         "nota": null,
         "registro": "nana-018",
+        "status": "fichado"
+      },
+      {
+        "valor": "Sant'Ana",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 277",
+        "parafrase": "Entre os santos \"assentados\" do nagô, Nanã costuma ser associada a Santa Ana.",
+        "nota": null,
+        "registro": "nana-034",
         "status": "fichado"
       }
     ],
@@ -568,6 +673,27 @@
         "nota": null,
         "registro": "nana-025",
         "status": "fichado"
+      },
+      {
+        "valor": "não toma posse dos seus filhos no nagô do Recife (em outras nações, sim); costuma só receber cânticos no xirê",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166 e nota 360; p. 277",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166 e nota 360; p. 277",
+        "parafrase": "No nagô do Recife, Nanã não se manifesta em possessão, e os participantes sabem que nas nações xambá, ketu e jeje ela se manifesta. Raramente há toque em sua honra: em geral, canta-se para ela no xirê.",
+        "nota": null,
+        "registro": "nana-031",
+        "status": "fichado"
       }
     ],
     "hierarquia": [
@@ -611,6 +737,27 @@
         "parafrase": "No panteão da Casa das Minas resumido por Prandi, Nanã é a mais velha entre os nagôs e quem os trouxe; diz-se que pertence à família de Davice, mas ajuda a de Quevioçô.",
         "nota": null,
         "registro": "nana-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá velha, talvez a mais velha: \"mais velha que Orixálufã, porque dança de joelhos\"",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 166 e nota 361",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 166 e nota 361",
+        "parafrase": "Nanã é tida como orixá muito velha, talvez a mais velha. Um informante, Bino, disse que ela é ainda mais idosa que Orixálufã, pois dança ajoelhada; Halloy estranha o comentário, já que ela não se manifesta no nagô local, e o atribui ao contato com terreiros de outras nações.",
+        "nota": null,
+        "registro": "nana-032",
         "status": "fichado"
       }
     ]

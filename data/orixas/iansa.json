@@ -3,9 +3,9 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iansa.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 30,
+    "registros_usados": 37,
     "registros_pre_fichamento_excluidos": 0,
-    "registros_retidos": 0
+    "registros_retidos": 1
   },
   "id": "iansa",
   "rotulo": "Iansã",
@@ -53,6 +53,27 @@
         "parafrase": "Segundo Mãe Bia, o nome antigo era Oyá. Depois de ter nove filhos (nove é o seu número), ela passou a ser chamada iya omo mesan, a mãe dos nove filhos, forma que deu Iyansan.",
         "nota": null,
         "registro": "iansa-023",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oyá e Yansã, usados indiferentemente",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168 e nota 365",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168 e nota 365",
+        "parafrase": "Oyá e Yansã são os dois nomes comuns do orixá das tempestades, e Halloy os usa como equivalentes.",
+        "nota": null,
+        "registro": "iansa-031",
         "status": "fichado"
       }
     ],
@@ -120,6 +141,27 @@
         "parafrase": "Iansã é a entidade das tempestades e do relâmpago e senhora dos ventos; depois da partilha original, ficou também com os mortos, os eguns.",
         "nota": null,
         "registro": "iansa-022",
+        "status": "fichado"
+      },
+      {
+        "valor": "tempestades; para alguns, também o fogo do raio; guerreira",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168; p. 324",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168; p. 324",
+        "parafrase": "Yansã é orixá feminina das tempestades e guerreira feroz; seu elemento é o vento, e há quem a associe também ao fogo do raio.",
+        "nota": null,
+        "registro": "iansa-032",
         "status": "fichado"
       }
     ],
@@ -189,6 +231,27 @@
         "parafrase": "A cor de Iansã é o rosa; certas casas preferem um tom coral ou salmão.",
         "nota": null,
         "registro": "iansa-026",
+        "status": "fichado"
+      },
+      {
+        "valor": "vermelho, podendo puxar para o marrom ou o rosa",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168",
+        "parafrase": "A cor de Oyá é o vermelho, que pode tender ao marrom ou ao rosa.",
+        "nota": null,
+        "registro": "iansa-035",
         "status": "fichado"
       }
     ],
@@ -390,6 +453,27 @@
         "nota": null,
         "registro": "iansa-029",
         "status": "fichado"
+      },
+      {
+        "valor": "foi esposa de Xangô",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168",
+        "parafrase": "Oyá foi mulher de Xangô.",
+        "nota": null,
+        "registro": "iansa-033",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -522,6 +606,27 @@
         "nota": null,
         "registro": "iansa-025",
         "status": "fichado"
+      },
+      {
+        "valor": "Santa Bárbara",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276",
+        "parafrase": "O sincretismo entre Yansã e Santa Bárbara é descrito como marcante no Recife.",
+        "nota": null,
+        "registro": "iansa-037",
+        "status": "fichado"
       }
     ],
     "itans": [
@@ -567,6 +672,27 @@
         "nota": "O interdito alimentar que o babalaô prescreve no mito foi retido (tabus esperam o conselho).",
         "registro": "iansa-024",
         "status": "fichado"
+      },
+      {
+        "valor": "Oyá tem relação privilegiada com os eguns, enquanto Xangô foi expulso do balé por falar demais",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168 e nota 366",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168 e nota 366",
+        "parafrase": "Oyá mantém laço especial com os eguns. Já Xangô, segundo uma narrativa muito conhecida, teria sido posto para fora do balé, onde \"moram\" os eguns, por ser indiscreto e contar segredos até então bem guardados.",
+        "nota": "Halloy diz que a narrativa também aparece em Segato (1995, p. 398).",
+        "registro": "iansa-034",
+        "status": "fichado"
       }
     ],
     "festas": [
@@ -610,6 +736,27 @@
         "parafrase": "No calendário da casa paulista, o dia de Santa Bárbara reúne Sobô, Oiá, Dona Servana e as outras nochês, os voduns femininos.",
         "nota": null,
         "registro": "iansa-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "em muitos terreiros, perto de 4 de dezembro (Santa Bárbara); na família estudada, início de novembro, junto com os eguns",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276",
+        "parafrase": "O sincretismo de Yansã com Santa Bárbara é forte e muitos terreiros a festejam por volta de 4 de dezembro. Na família de santo de Halloy, porém, ela é festejada com frequência no começo de novembro, junto com os eguns, pelo vínculo com os mortos.",
+        "nota": null,
+        "registro": "iansa-036",
         "status": "fichado"
       }
     ],
@@ -691,11 +838,14 @@
       "saudacao",
       "alimentos",
       "animais",
-      "tabus",
       "iconografia"
     ],
     "so_pre_fichamento": {},
-    "retidos_ate_conselho": {}
+    "retidos_ate_conselho": {
+      "tabus": [
+        "iansa-038"
+      ]
+    }
   },
   "revisao": []
 }

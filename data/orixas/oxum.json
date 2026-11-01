@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 41,
+    "registros_usados": 49,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -52,6 +52,27 @@
         "parafrase": "Oxum é deusa das águas doces. Se Iemanjá representa a mãe, Oxum representa a esposa e o amor carnal. É invocada pela fartura das colheitas e contra a esterilidade, e a maioria dos chefes de culto a vê como especialista dos problemas femininos e do baixo-ventre.",
         "nota": null,
         "registro": "oxum-031",
+        "status": "fichado"
+      },
+      {
+        "valor": "águas doces; feminilidade, fecundidade e maternidade",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168",
+        "parafrase": "Oxum é a divindade das águas doces, muito associada à feminilidade, à fertilidade e à maternidade.",
+        "nota": null,
+        "registro": "oxum-042",
         "status": "fichado"
       }
     ],
@@ -144,6 +165,27 @@
         "nota": null,
         "registro": "oxum-035",
         "status": "fichado"
+      },
+      {
+        "valor": "amarelo-ouro",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168",
+        "parafrase": "A cor de Oxum é o amarelo-ouro.",
+        "nota": null,
+        "registro": "oxum-045",
+        "status": "fichado"
       }
     ],
     "dia_semana": [
@@ -230,6 +272,27 @@
         "parafrase": "Oxum é cultuada aos sábados.",
         "nota": null,
         "registro": "oxum-038",
+        "status": "fichado"
+      },
+      {
+        "valor": "sábado (preferência para as oferendas, com Iemanjá)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 164, nota 353",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 164, nota 353",
+        "parafrase": "O dia da semana pesa pouco no culto estudado; uma das exceções é o sábado, preferido para as oferendas a Oxum e Iemanjá, por costume e não por regra.",
+        "nota": null,
+        "registro": "oxum-046",
         "status": "fichado"
       }
     ],
@@ -473,6 +536,48 @@
         "nota": null,
         "registro": "oxum-041",
         "status": "fichado"
+      },
+      {
+        "valor": "esposa de Ogum (Segato) ou filha de Orunmilá (Ribeiro)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168",
+        "parafrase": "Halloy registra duas versões dos seus informantes e da literatura: Oxum ora é esposa de Ogum (como em Segato 1995), ora filha de Orunmilá (como em Ribeiro 1978).",
+        "nota": null,
+        "registro": "oxum-044",
+        "status": "fichado"
+      },
+      {
+        "valor": "mãe dos Ibejis, para alguns participantes, laço criado pela posição dos assentamentos",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 324",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 324",
+        "parafrase": "Alguns participantes chamam Oxum de mãe dos Ibejis, cujo assentamento fica diante do dela. Halloy observa que nenhum mito conhecido dos participantes conta esse parentesco: a vizinhança no peji parece criá-lo.",
+        "nota": null,
+        "registro": "oxum-049",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -626,6 +731,27 @@
         "parafrase": "A autora associa Oxum a Santa Catarina ou a Nossa Senhora do Carmo.",
         "nota": null,
         "registro": "oxum-034",
+        "status": "fichado"
+      },
+      {
+        "valor": "Nossa Senhora do Carmo; para algumas mães de santo, Nossa Senhora da Penha",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276 e nota 648",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276 e nota 648",
+        "parafrase": "Oxum é associada a Nossa Senhora do Carmo e, por algumas mães de santo, a Nossa Senhora da Penha.",
+        "nota": null,
+        "registro": "oxum-048",
         "status": "fichado"
       }
     ],
@@ -801,6 +927,27 @@
         "nota": null,
         "registro": "oxum-037",
         "status": "fichado"
+      },
+      {
+        "valor": "idealmente em julho, com Nossa Senhora do Carmo, padroeira do Recife (16 de julho)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 276 e nota 648",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 276 e nota 648",
+        "parafrase": "Oxum é idealmente festejada em julho, quando o Recife celebra Nossa Senhora do Carmo, sua padroeira, no dia 16. Algumas mães de santo também a associam a Nossa Senhora da Penha.",
+        "nota": null,
+        "registro": "oxum-047",
+        "status": "fichado"
       }
     ],
     "historia_culto": [
@@ -914,6 +1061,27 @@
         "parafrase": "Oxum é descrita como bonita, vaidosa e cheia de artimanhas, e o truque que pregou em Obá é contado com frequência.",
         "nota": null,
         "registro": "oxum-040",
+        "status": "fichado"
+      },
+      {
+        "valor": "\"vaidosa\" (no sentido de gosto pela sedução, não de orgulho); aprecia perfumes e joias de ouro",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168 e nota 367",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168 e nota 367",
+        "parafrase": "Oxum é chamada de vaidosa, palavra que, explica Halloy, não carrega a ideia de soberba e indica o prazer de ser bela e seduzir; gosta de perfumes e joias, sobretudo de ouro.",
+        "nota": null,
+        "registro": "oxum-043",
         "status": "fichado"
       }
     ]

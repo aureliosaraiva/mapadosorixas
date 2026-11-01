@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 121
+    "total": 123
   },
   "divergencias": [
     {
@@ -643,6 +643,17 @@
           "via": "prandi-2005-pegadas-voduns",
           "localizacao": "versão do autor, p. 8 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
           "registro": "exu-092"
+        },
+        {
+          "valor": "Santo Antônio, no meio da jurema; homenageado em agosto, sobretudo na jurema",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276",
+          "registro": "exu-095"
         }
       ]
     },
@@ -672,6 +683,17 @@
           "via": null,
           "localizacao": "p. 251",
           "registro": "iansa-026"
+        },
+        {
+          "valor": "vermelho, podendo puxar para o marrom ou o rosa",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 168",
+          "registro": "iansa-035"
         }
       ]
     },
@@ -778,6 +800,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 16",
           "registro": "iansa-017"
+        },
+        {
+          "valor": "em muitos terreiros, perto de 4 de dezembro (Santa Bárbara); na família estudada, início de novembro, junto com os eguns",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276",
+          "registro": "iansa-036"
         }
       ]
     },
@@ -807,6 +840,17 @@
           "via": null,
           "localizacao": "p. 251",
           "registro": "iansa-024"
+        },
+        {
+          "valor": "Oyá tem relação privilegiada com os eguns, enquanto Xangô foi expulso do balé por falar demais",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 168 e nota 366",
+          "registro": "iansa-034"
         }
       ]
     },
@@ -847,6 +891,17 @@
           "via": null,
           "localizacao": "p. 251",
           "registro": "iansa-029"
+        },
+        {
+          "valor": "foi esposa de Xangô",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 168",
+          "registro": "iansa-033"
         }
       ]
     },
@@ -918,6 +973,17 @@
           "via": null,
           "localizacao": "p. 251",
           "registro": "iansa-025"
+        },
+        {
+          "valor": "Santa Bárbara",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276",
+          "registro": "iansa-037"
         }
       ]
     },
@@ -1479,6 +1545,17 @@
           "via": null,
           "localizacao": "versão do autor, pp. 15–16",
           "registro": "iemanja-059"
+        },
+        {
+          "valor": "em dezembro (Nossa Senhora da Conceição, 8 de dezembro); no terreiro de Júnior, cerca de um mês depois de São Jorge",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276 e nota 647; p. 277",
+          "registro": "iemanja-063"
         }
       ]
     },
@@ -1944,6 +2021,17 @@
           "via": null,
           "localizacao": "p. 277",
           "registro": "nana-027"
+        },
+        {
+          "valor": "violeta",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 166",
+          "registro": "nana-033"
         }
       ]
     },
@@ -2028,6 +2116,17 @@
           "via": "prandi-2005-pegadas-voduns",
           "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
           "registro": "nana-007"
+        },
+        {
+          "valor": "orixá velha, talvez a mais velha: \"mais velha que Orixálufã, porque dança de joelhos\"",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 166 e nota 361",
+          "registro": "nana-032"
         }
       ]
     },
@@ -2058,6 +2157,17 @@
           "via": "prandi-2005-pegadas-voduns",
           "localizacao": "versão do autor, p. 7 (panteão da Casa das Minas segundo S. Ferretti 1989, 1996)",
           "registro": "nana-009"
+        },
+        {
+          "valor": "origem comum com Obaluaiê e Oxumaré, distinta da dos demais orixás; segundo Verger, de Mahi (Benim)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165 e nota 357; p. 323, nota 748",
+          "registro": "nana-028"
         }
       ]
     },
@@ -2109,6 +2219,17 @@
           "via": null,
           "localizacao": "p. 277",
           "registro": "nana-024"
+        },
+        {
+          "valor": "mãe de Obaluaiê e de Oxumaré",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 166; p. 323",
+          "registro": "nana-029"
         }
       ]
     },
@@ -2167,6 +2288,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "nana-018"
+        },
+        {
+          "valor": "Sant'Ana",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 277",
+          "registro": "nana-034"
         }
       ]
     },
@@ -2922,6 +3054,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "ogum-063"
+        },
+        {
+          "valor": "São Jorge",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 277",
+          "registro": "ogum-066"
         }
       ]
     },
@@ -3128,6 +3271,46 @@
           "via": null,
           "localizacao": "p. 113",
           "registro": "olokun-004"
+        }
+      ]
+    },
+    {
+      "orixa": "omolu",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "preto e branco",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 198",
+          "registro": "omolu-009"
+        },
+        {
+          "valor": "preto e branco",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 270",
+          "registro": "omolu-031"
+        },
+        {
+          "valor": "poucos lhe dão cor; quando dão: vermelho, preto e branco, as mesmas de Exu",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 166",
+          "registro": "omolu-042"
         }
       ]
     },
@@ -3385,6 +3568,17 @@
           "via": null,
           "localizacao": "p. 270",
           "registro": "omolu-035"
+        },
+        {
+          "valor": "para alguns chefes de culto, \"orixá de ferro\", como Odé, Ogum e Ossaim",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 323",
+          "registro": "omolu-044"
         }
       ]
     },
@@ -3415,6 +3609,17 @@
           "via": null,
           "localizacao": "p. 270",
           "registro": "omolu-030"
+        },
+        {
+          "valor": "São Sebastião",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 277",
+          "registro": "omolu-043"
         }
       ]
     },
@@ -3599,6 +3804,35 @@
           "via": null,
           "localizacao": "p. 158",
           "registro": "orum-009"
+        }
+      ]
+    },
+    {
+      "orixa": "orunmila",
+      "atributo": "hierarquia",
+      "versoes": [
+        {
+          "valor": "personagem central do panteão que, como Olorun, não lida diretamente com os humanos",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 285",
+          "registro": "orunmila-002"
+        },
+        {
+          "valor": "considerado \"superior\" aos outros orixás; assentamento à parte, no alto, junto de Oxum",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 169; pp. 325–326",
+          "registro": "orunmila-006"
         }
       ]
     },
@@ -3809,6 +4043,17 @@
           "via": null,
           "localizacao": "p. 227",
           "registro": "oxala-045"
+        },
+        {
+          "valor": "branco imaculado",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 169",
+          "registro": "oxala-058"
         }
       ]
     },
@@ -3860,6 +4105,17 @@
           "via": null,
           "localizacao": "p. 227",
           "registro": "oxala-047"
+        },
+        {
+          "valor": "sexta-feira, com oferenda semanal",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 169; p. 164, nota 353",
+          "registro": "oxala-059"
         }
       ]
     },
@@ -3961,6 +4217,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 16",
           "registro": "oxala-038"
+        },
+        {
+          "valor": "para quem o liga a Cristo, idealmente 25 de dezembro; na família estudada, em janeiro, para abrir o ano com o orixá da paz",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276",
+          "registro": "oxala-060"
         }
       ]
     },
@@ -3990,6 +4257,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, pp. 115–116 (nota 73), 124, 243",
           "registro": "oxala-004"
+        },
+        {
+          "valor": "assentamento separado, no fim da fileira, junto de Iemanjá: posição de patriarca",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 324; p. 326",
+          "registro": "oxala-062"
         }
       ]
     },
@@ -4105,6 +4383,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 199",
           "registro": "oxala-026"
+        },
+        {
+          "valor": "\"pai dos orixás\": com Iemanjá forma o casal demiurgo que gerou os demais, exceto Nanã, Obaluaiê e Oxumaré",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 169; p. 324 e nota 750",
+          "registro": "oxala-056"
         }
       ]
     },
@@ -4156,6 +4445,17 @@
           "via": null,
           "localizacao": "p. 228",
           "registro": "oxala-051"
+        },
+        {
+          "valor": "Orixálufã, o velho (encarna um ancião na possessão), e Orixáogiã, o jovem, fogoso, de força comparável à de Xangô; cada pessoa pertence a um só",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 169",
+          "registro": "oxala-057"
         }
       ]
     },
@@ -4456,6 +4756,17 @@
           "via": "mosaico-2020-oxossi",
           "localizacao": "p. 58–59 (Souza); Verger, Lendas africanas dos orixás, 4ª ed. 1997",
           "registro": "oxossi-026"
+        },
+        {
+          "valor": "Ossaim acolhe (ou seduz, prende) Odé na floresta e o inicia na caça e no saber das plantas",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 323 e nota 746",
+          "registro": "oxossi-036"
         }
       ]
     },
@@ -4552,6 +4863,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "oxossi-034"
+        },
+        {
+          "valor": "às vezes Santo Expedito; o sincretismo de Odé é hesitante no Recife",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 277",
+          "registro": "oxossi-035"
         }
       ]
     },
@@ -4581,6 +4903,17 @@
           "via": null,
           "localizacao": "p. 247",
           "registro": "oxum-035"
+        },
+        {
+          "valor": "amarelo-ouro",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 168",
+          "registro": "oxum-045"
         }
       ]
     },
@@ -4632,6 +4965,17 @@
           "via": null,
           "localizacao": "p. 247",
           "registro": "oxum-038"
+        },
+        {
+          "valor": "sábado (preferência para as oferendas, com Iemanjá)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 164, nota 353",
+          "registro": "oxum-046"
         }
       ]
     },
@@ -4712,6 +5056,17 @@
           "via": null,
           "localizacao": "p. 247",
           "registro": "oxum-037"
+        },
+        {
+          "valor": "idealmente em julho, com Nossa Senhora do Carmo, padroeira do Recife (16 de julho)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276 e nota 648",
+          "registro": "oxum-047"
         }
       ]
     },
@@ -4826,6 +5181,28 @@
           "via": null,
           "localizacao": "p. 286",
           "registro": "oxum-041"
+        },
+        {
+          "valor": "esposa de Ogum (Segato) ou filha de Orunmilá (Ribeiro)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 168",
+          "registro": "oxum-044"
+        },
+        {
+          "valor": "mãe dos Ibejis, para alguns participantes, laço criado pela posição dos assentamentos",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 324",
+          "registro": "oxum-049"
         }
       ]
     },
@@ -4970,6 +5347,17 @@
           "via": null,
           "localizacao": "p. 246",
           "registro": "oxum-034"
+        },
+        {
+          "valor": "Nossa Senhora do Carmo; para algumas mães de santo, Nossa Senhora da Penha",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276 e nota 648",
+          "registro": "oxum-048"
         }
       ]
     },
@@ -5465,6 +5853,17 @@
           "via": null,
           "localizacao": "versão do autor, pp. 15–16",
           "registro": "xango-052"
+        },
+        {
+          "valor": "perto do dia de São João; para uma informante, 6 de janeiro (Reis); há quem o associe a São Jerônimo",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 276 e nota 649",
+          "registro": "xango-055"
         }
       ]
     },
