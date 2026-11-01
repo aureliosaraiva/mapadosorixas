@@ -53,7 +53,7 @@ Para resolver: em **Network access**, nas configurações do ambiente, adicionar
 | 🔴 | `periodicos2.uesb.br`, `periodicos.ufpa.br` | 503 / página de bloqueio do servidor (2026-11-01) | Noguera 2018, Orunmilá (`noguera-2018-orunmila`); Monteiro & Azevedo 2021, Iyá Mi Oxorongá (`monteiro-2021-iya-mi`) | P3 |
 | 🟡 | `digibug.ugr.es` | erro de protocolo HTTP/2 no curl (2026-11-01) | Fernández Cano 2005, Oyá e Santa Teresa (`fernandez-cano-2005-oya`) | P3 |
 | 🔴 | `www.mdpi.com` (de novo) | 403 | Akande 2019, Egúngún (`akande-2019-egungun`); Ofuasia 2023, Ifá (`ofuasia-2023-ifa-hell`): acesso aberto, **lote C/D** | P2 |
-| 🔴 | `hal.science` (de novo) | Anubis | **Chiousse 1995, pp. 225–291: os perfis dos orixás além dos 5 sustentam o lote A da expansão** ([varredura 4](relatorio-varredura-04.md) §5); dossiê Ọ̀ṣun-Òṣogbo (Joffroy 2004). O autor salva o PDF em `/tmp/refs-pdf/chiousse-1995-divins.pdf` | **P1 (expansão)** |
+| 🟡 | `hal.science` (de novo) | Anubis na página do registro; **em 2026-11-01 (lote B) o `curl` direto no arquivo baixou os PDFs de Chiousse 1995 (`halshs.archives-ouvertes.fr/tel-00003395v1/file/tel-00003395.pdf`) e de Halloy 2005 (`hal.science/tel-04260456/file/…`)**; `baixar_refs.py` (requests) continua recebendo a página do desafio. Os PDFs ficam em `/tmp/refs-pdf/` só durante a sessão: a próxima sessão repete o `curl` e usa `--so-converter` | **Chiousse 1995, pp. 225–291: os perfis dos orixás além dos 5 sustentam o lote A da expansão** ([varredura 4](relatorio-varredura-04.md) §5); dossiê Ọ̀ṣun-Òṣogbo (Joffroy 2004). O autor salva o PDF em `/tmp/refs-pdf/chiousse-1995-divins.pdf` | **P1 (expansão)** |
 
 ## 2. Obras impressas ou pagas (precisam de exemplar)
 
@@ -185,6 +185,24 @@ Material pronto em [`docs/conselho/`](../conselho/). **Nenhuma pessoa ou institu
 | 🔴 | Página Créditos | gerar de `data/revisores.json` (sem anônimos nem quem revogou) quando houver o primeiro revisor (proposta, passo 6) | P3 |
 | 🔴 | Tombamentos não confirmados | Sítio de Pai Adão (Recife) e Tumba Junsara (Salvador): conferir no portal do IPHAN (junto com as datas do §3) | P3 |
 | 🔴 | Lacunas de diversidade | sem caminho institucional verificado para Umbanda (federação nacional), sacerdotisas lucumís e casas lucumís na Espanha; pedir indicação aos primeiros conselheiros | P2 |
+
+## 3d. Lote B (Ossaim, Obá, Ibeji, Iroko, Logunedé, Oxumarê, Ewá): o que falta
+
+Sessão lote B, 2026-11-01 ([relatório](lote-B.md)). 176 registros com as fontes abertas; o que segue depende de exemplar, de decisão ou de outra sessão.
+
+| Status | Item | O que falta | Prioridade |
+|:-:|---|---|:-:|
+| 🔴 | **Ewá**: só 8 registros, todos de casas específicas (Recife, Mina em São Paulo, Maranhão, angola-congo); nenhum sobre domínios, cores, dia, símbolos, itãs ou origem | Verger, *Orixás* (1981); Prandi, *Mitologia* (2001); obras da Coleção Orixás (Pallas). Nenhuma fonte acadêmica dedicada achada nas varreduras 3 e 4 | **P1 (expansão)** |
+| 🔴 | **Oxumarê**: 33 registros, mas nenhum itã de Prandi/Verger, nem saudação; a qualidade/cobra Dã (Bessém) do jeje baiano não tem fonte aberta | Verger 1981; Prandi 2001; Santos 2019 (Casa de Oxumarê, OJS com 403); Parés, *A formação do candomblé* (2006), para Bessém/Dã | P1 |
+| 🔴 | **Ossaim**: falta a monografia de Barros (2011, *A floresta sagrada de Ossaim*) e Verger 1967/1995 (*Ewé*); mitos de Ossaim em Prandi 2001 (pp. 152–161) e Verger 2000 (pp. 228–230) só conhecidos por citação de Sallum & Silva | exemplar | P2 |
+| 🔴 | **Logunedé**: Lopes (*Logunedé: santo menino que velho respeita*) só via Santos 2023, que cita a ed. de 2019 (o catálogo tem a de 2006) | exemplar; a sessão do catálogo anota a reedição em `observacoes` de `lopes-2006-logunede` | P2 |
+| 🔴 | **Ibeji**: Houlberg (1973), Mobolade (1971), Chappel (1974) e Renne (2001), citados por Ogunbunmi; Thompson (1971, "Sons of thunder") | exemplar ou JSTOR; Thompson 1983 (`thompson-1983-flash`) segue `a_verificar` e por isso entrou só como citação de Sallum & Silva (ossaim-030) | P2 |
+| 🔴 | **Iroko/Tempo**: nenhum registro de Tempo como nome (o agrupamento Iroko/Tempo da lista-mestra só é sustentado por Botão, p. 42, para o inquice Kitembo); nada sobre cores, dia, festas | exemplar (Verger 1981; Barros); autor decide se mantém o agrupamento | P2 |
+| 🔴 | **Obá**: Sandoval 2007 (cap. "Oshún, Oyá e Obba") e Verger 1981 | exemplar | P3 |
+| 🔴 | "Yewá" em Santos 2023 (amiga de Logunedé, logunede-009) e "Euá ou Yewá" como nome de Iemanjá em Queiroga & Nascimento 2019 (p. 8, nota 5): não se sabe se é Ewá ou Iyewa | autor decide; ver [lote-B](lote-B.md) §5 | P2 |
+| 🔴 | Arestas e itãs do lote B não integrados: os registros de parentesco, equivalência e sincretismo geram aviso `sem_mapa`, e os itãs não estão em `data/itans.json` (fora do escopo desta sessão) | sessão de integração usa [lote-B](lote-B.md) §6–§7 para `conexoes_alvos.json` e `itans.json` | P1 |
+| 🔴 | Registros retidos (tabus e alimentos) do lote B: 9 (ibeji-004, -020, -029, -038; logunede-021, -025; oxumare-033; oba-018; ewa-008) | conselho decide o que é público | P3 |
+| 🔴 | Bastide pp. 157–161 descreve a colheita ritual das ervas pelo babalosaim (cantos, horas, pagamento a Ossaim, número de folhas na iniciação): **não fichado**, por tocar em fundamento | conselho decide se algo entra | P3 |
 
 ## 4. Resolvidos
 
