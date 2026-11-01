@@ -2,7 +2,7 @@
 
 > Arquivo de passagem entre sessões. **Toda sessão começa lendo este arquivo e termina atualizando-o.** Mantenha-o curto, com no máximo uma página: o detalhe fica nos relatórios linkados.
 
-**Última atualização:** 2026-11-01 (sessão trad02)
+**Última atualização:** 2026-11-01 (sessões trad02 e fichamento-06)
 
 ## Onde estamos
 
@@ -10,29 +10,29 @@
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
-| Fontes no catálogo | 315 (220 `conferido_web`, 68 `a_verificar`, 27 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima**. Varredura 3 (coleta por API): +129 `conferido_web`, +17 `pista`, 11 promovidas ([relatório](pesquisa/relatorio-varredura-03.md)) | `python3 scripts/validar_fontes.py` |
-| Registros de fichamento | 205 (189 `fichado`, 16 `pre_fichamento`, 0 `revisado`) | `python3 scripts/validar_fichamento.py` |
-| Atributos com versões divergentes | 32 | `python3 scripts/divergencias.py` |
-| Fichas geradas (`data/orixas/`) | 5 fichas, 187 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
-| Grafo (`data/conexoes.json`) | 40 nós, 43 arestas (20 sincretismo, 11 equivalência, 8 parentesco, 3 companheiro de culto, 1 associação) | idem |
-| Entidades equivalentes (`data/entidades_equivalentes.json`) | 11 (1 vodum, 3 inquices, 7 nomes fon/banto não classificados) | idem |
+| Fontes no catálogo | 316 (226 `conferido_web`, 63 `a_verificar`, 27 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima**. Varredura 3 (coleta por API): +129 `conferido_web`, +17 `pista`, 11 promovidas ([relatório](pesquisa/relatorio-varredura-03.md)) | `python3 scripts/validar_fontes.py` |
+| Registros de fichamento | 247 (231 `fichado`, 16 `pre_fichamento`, 0 `revisado`); fichamento-06: +42 ([relatório](pesquisa/fichamento-06.md)) | `python3 scripts/validar_fichamento.py` |
+| Atributos com versões divergentes | 33 | `python3 scripts/divergencias.py` |
+| Fichas geradas (`data/orixas/`) | 5 fichas, 229 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
+| Grafo (`data/conexoes.json`) | 41 nós, 46 arestas (21 sincretismo, 12 equivalência, 9 parentesco, 3 companheiro de culto, 1 associação) | idem |
+| Entidades equivalentes (`data/entidades_equivalentes.json`) | 12 (2 voduns: Legba e Gu; 3 inquices; 7 nomes fon/banto não classificados) | idem |
 | Tradições (`data/tradicoes.json`) | 19: 15 `com_fonte`, 4 `rascunho_sem_fonte` (benim, efon, arara, orisha_trinidad). Sessão trad02: palo_monte e xango_sergipe ganharam fonte; 7 reforçadas ([relatório](pesquisa/tradicoes-02.md)) | idem |
 | Glossário (`data/glossario.json`) | 54 termos com fonte e página (+7 na trad02: Regla de Ocha, Palo Monte, nfumbi, mpungu, cabildo, Xambá, abatá); 6 pendentes em `_meta.pendentes` | idem |
-| Anti-cópia | 0 erros, também contra o texto das 8 obras lidas na rodada do glossário (4 paráfrases antigas reescritas) e das 8 lidas na trad02; 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
+| Anti-cópia | 0 erros, também contra o texto das 8 obras lidas na rodada do glossário, das 8 lidas na trad02 e das 5 do fichamento-06 (11 trechos novos reescritos); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
 | Site (`site/`) | 14 páginas: início com busca, catálogo, 5 fichas (com mini-grafo e termos do glossário ligados), grafo, tradições, glossário, fontes, metodologia, baixar dados, sobre (+ 12 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
-| QA do site | 187/187 versões batem com `data/orixas`; 54/54 termos do glossário e 19/19 tradições conferidos contra os dados (fontes, ano e página); texto das 4 tradições sem fonte ausente do site; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1760 links e âncoras internos sem 404; axe-core sem violações (14 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
-| Idiomas no catálogo | pt 158 · en 94 · fr 36 · es 18 · de 6 · it 2 · yo 1 | — |
+| QA do site | 229/229 versões batem com `data/orixas`; 54/54 termos do glossário e 19/19 tradições conferidos contra os dados (fontes, ano e página); texto das 4 tradições sem fonte ausente do site; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1760 links e âncoras internos sem 404; axe-core sem violações (14 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
+| Idiomas no catálogo | pt 159 · en 94 · fr 36 · es 18 · de 6 · it 2 · yo 1 | — |
 
-Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 27.
+Registros por orixá: Exu 82 · Ogum 52 · Iemanjá 47 · Xangô 39 · Oxóssi 27.
 
-**Fontes já lidas no original:** Prandi 2001; Bastide 1961 (pp. 26–32, 89–128, 165, 182–192); Chiousse 1995 (pp. 225–291); Silva 2012 (parcial); Blass 2007; Seixas 2018; Queiroga & Nascimento 2019; Souza 2020; resumos de Cardoso Filho 2015 e Teixeira 2021; Nogueira 2017 (pp. 9, 16–22, 195–197, 382–385); Pinheiro 2011 (pp. 28–41, 61–72, 83–84); Costa 2007 (integral); Oro 2008 (pp. 11–14); Botão 2007 (p. 15 e glossário); Tomba 2019 (pp. 25, 91–92); Prandi 2005, *Nas pegadas dos voduns* (pp. 1–2 da versão do autor); glossários de Bastide (pp. 353–358) e Chiousse (pp. 371–380); **trad02:** Halloy 2005 (pp. 24–31, 84–86, 96–98, 115–121, 163–170), Pitta 1985 (integral), M. Ferretti 2001 (pp. 75–84), S. Ferretti 2011 (integral), Oro 2012 (integral), Toutain 2019 (pp. 2, 6–11, 18–21, 107–112), Argyriadis 2005 (pp. 153–157, 175–176), Cerqueira 2015 (pp. 82–83, 88, 132, 155, 165). Ver [`fichamento-04`](pesquisa/fichamento-04.md), [`fichamento-05`](pesquisa/fichamento-05.md) e [`tradicoes-02`](pesquisa/tradicoes-02.md).
+**Fontes já lidas no original:** Prandi 2001; Bastide 1961 (pp. 26–32, 89–128, 165, 182–192); Chiousse 1995 (pp. 225–291); Silva 2012 (parcial); Blass 2007; Seixas 2018; Queiroga & Nascimento 2019; Souza 2020; resumos de Cardoso Filho 2015 e Teixeira 2021; Nogueira 2017 (pp. 9, 16–22, 195–197, 382–385); Pinheiro 2011 (pp. 28–41, 61–72, 83–84); Costa 2007 (integral); Oro 2008 (pp. 11–14); Botão 2007 (p. 15 e glossário); Tomba 2019 (pp. 25, 91–92); Prandi 2005, *Nas pegadas dos voduns* (pp. 1–2 da versão do autor); glossários de Bastide (pp. 353–358) e Chiousse (pp. 371–380); **trad02:** Halloy 2005 (pp. 24–31, 84–86, 96–98, 115–121, 163–170), Pitta 1985 (integral), M. Ferretti 2001 (pp. 75–84), S. Ferretti 2011 (integral), Oro 2012 (integral), Toutain 2019 (pp. 2, 6–11, 18–21, 107–112), Argyriadis 2005 (pp. 153–157, 175–176), Cerqueira 2015 (pp. 82–83, 88, 132, 155, 165); **fichamento-06:** Castillo 2022 (integral), Costa 1980 (integral), Nascimento et al. 2001 (integral), Vallier 2011 (pp. 811–831), Capo Chichi 2025 (integral). Ver [`fichamento-04`](pesquisa/fichamento-04.md), [`fichamento-05`](pesquisa/fichamento-05.md), [`tradicoes-02`](pesquisa/tradicoes-02.md) e [`fichamento-06`](pesquisa/fichamento-06.md).
 
 ## Próximas tarefas (em ordem)
 
 1. **Saudações, itãs e origem africana** dos 5 orixás. Depende de Verger, Prandi (*Mitologia*), Cacciatore e Beniste, que precisam de exemplar → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §2.
 2. **Equivalências com inquices e voduns.** Depende de Castro 2001, Parés 2006 e Lopes 1988 (exemplar).
 3. **Resolver os 16 `pre_fichamento`.** As fontes são pagas, impressas ou estão fora do ar: Tishken 2009 (3), Brown 1989 (2), Silva & Silva Neto 2025 (2), Verger 1954 (2), Pérez 2013 (2), Ribas 2010 (1, oasisbr fora do ar), Beier 1970, Barnes 1989, Verger 1981 e Carneiro 1948 (1 cada).
-4. **Procurar texto aberto para os `pre_fichamento` restantes**, por exemplo a dissertação de Ribas 2010 em outro espelho e capítulos de Tishken 2009 e Barnes 1989 em repositórios de autores. *(Leitura de Nogueira 2017, Pinheiro 2011 e Costa 2007: feita em 2026-10-31; exu-034 e xango-005 confirmados, ogum-006 corrigido, 7 registros novos.)*
+4. **Fontes P1 bloqueadas do fichamento-06** (Iemanjá ficou sem registro novo): Prandi 1995, Giumbelli & Lima 2024 e Noleto & Negrão 2025 (SciELO com desafio anti-robô) e Ferreira 2017 (UnB 403). O autor baixa e anexa, ou libera o acesso → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §1. Ribas 2010 (ogum-005) tem PDF no repositório da PUC-SP, também atrás de desafio anti-robô. *(Busca de texto aberto para os 16 `pre_fichamento`: feita em 2026-11-01, nenhum acessível; ver [`fichamento-06`](pesquisa/fichamento-06.md).)*
 5. **Fase 2 (restante):** as 4 tradições sem fonte (Efon, Arará, Orisha de Trinidad e o rótulo `benim`) e os termos pendentes do glossário. Dependem de Barnet 1995, Cabrera 1954 e de uma obra sobre o Orisha de Trinidad. Dantas 1988 ampliaria o Xangô de Sergipe, que hoje só tem descrição mínima; Mones 2024 e Arango 2018 estão bloqueados neste ambiente → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md). *(Tradições com fonte (13) e glossário (47 termos): feitos em 2026-10-31, ver [`fichamento-05`](pesquisa/fichamento-05.md). Sessão trad02 (2026-11-01): 15 tradições com fonte e 54 termos, ver [`tradicoes-02`](pesquisa/tradicoes-02.md).)*
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
 7. **Site (Fase 5, restante):** versões es/en (Fase 7). *(Mini-grafo, Baixar dados, QA, e — na sessão site2 — páginas Glossário, Tradições e Sobre/Créditos com termos ligados nas fichas: feitos em 2026-10-31.)* Deploy, domínio, licenças e texto final dos créditos dependem do autor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
@@ -42,9 +42,9 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 - **(P1)** Encaminhar a uma sessão de fichamento as afirmações sobre os 5 orixás listadas em [`tradicoes-02`](pesquisa/tradicoes-02.md) §4. Halloy dá cores, dias e domínios no nagô do Recife; Toutain cobre a santería de Matanzas; Cerqueira traz Sobo ↔ Xangô e Legba no Jeje.
 - A sessão do catálogo deve anotar as correções do §5 do mesmo relatório: Pitta é de 1985 e M. Ferretti de 2001.
 - Baixar manualmente Santana 2023, Mendes 2014, Niell 2023, S. Ferretti 1996 e Corrêa 1996, bloqueados no ambiente.
-- **QA do site falhando após o rebase sobre a fich06:** `qa_site.py` acusa 3 erros porque notas de registros novos citam ids `pre_fichamento` (ogum-003, ogum-004 e xango-003), que então aparecem nas fichas publicadas. A correção cabe à sessão do fichamento: tirar os ids das notas ou citar só a fonte. A trad02 não edita `data/fichamento/`.
+- ~~QA do site falhando após o rebase sobre a fich06 (ids `pre_fichamento` em notas)~~: corrigido no commit final do fichamento-06 (notas de ogum-048 e xango-038 reescritas); `qa_site.py` sem erros.
 
-**Sugestões da varredura 3:** fichar primeiro as fontes abertas listadas no [relatório 3](pesquisa/relatorio-varredura-03.md) (Exu × exus da Umbanda: Nascimento 2001, Costa 1980; Legba na Mina: Ferreira 2017; Ogum: Castillo 2022; Xangô de Pernambuco: Halloy 2005, Pitta 2011; Tambor de Mina: M. Ferretti 2020). Repetir a coleta para BDTD e OpenAlex quando estiverem acessíveis (`scripts/coleta/coletar.py --bases bdtd,openalex`).
+**Sugestões da varredura 3:** P1 fichadas em 2026-11-01, menos as 4 bloqueadas (tarefa 4). Halloy, Pitta, M. Ferretti, Argyriadis, Toutain e Cerqueira foram lidos na trad02 para as tradições; as afirmações sobre os 5 orixás neles estão no §4 de [`tradicoes-02`](pesquisa/tradicoes-02.md) e são a próxima tarefa de fichamento. **Sugestão do fichamento-06:** Castillo 2022 (p. 28, nota 54) é pista para a tradição `candomble_efon`. Repetir a coleta para BDTD e OpenAlex quando estiverem acessíveis (`scripts/coleta/coletar.py --bases bdtd,openalex`).
 
 **Sugestões da sessão do glossário:** (a) ler Prandi 2005, *Nas pegadas dos voduns*, inteiro (36 p., aberto): pode adiantar a tarefa 2 (voduns equivalentes no Tambor de Mina); (b) repetir o anti-cópia com referências para as obras das rodadas 1–4 que ainda não passaram por ele (Nogueira 2017, Pinheiro 2011, Costa 2007, Blass 2007 etc.); (c) ~~glossário no site com links a partir das fichas~~ (feito na sessão site2).
 
@@ -72,6 +72,7 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 - **Coleta por API (varredura 3):** `scripts/coleta/` é o caminho padrão para novas varreduras. A saída bruta vai para `data/fontes/coleta/<data>/`, sem resumos (texto de terceiros). As decisões de triagem ficam num script legível (`triagem_<data>.py`) e só entram no catálogo itens sobre orixás ou religiões afro-diaspóricas, com metadado de API. Autopublicação e editoras esotéricas ficam de fora. Candidatos pertinentes mas periféricos continuam em `candidatos.json`, sem entrar no catálogo.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
 - **Página nos registros é a página impressa**, não a do PDF. Quando as duas diferem, a relação é anotada no relatório da rodada.
+- **Página sem número impresso** (ex.: PDF da *Afro-Ásia* antiga): citar "PDF p. N" e registrar em PENDENCIAS para conversão. **Desafio anti-robô** (SciELO, CORE, PUC-SP, arquivo): não contornar; registrar e pedir o arquivo ao autor. Espelhos legítimos (repositório institucional dos autores, HAL) valem.
 - **Tradição só entra se a fonte disser.** Exemplo: ogum-006 perdeu `candomble_ketu` porque Pinheiro documenta o sincretismo em casas de Umbanda e a casa de Candomblé estudada é Jeje. Se a fonte diz "candomblé" sem nação, o registro anota a aproximação em `nota`.
 - Fonte primária de registro de 2ª mão (`source_id` com `via_source_id`) também é conferida em catálogo (Open Library etc.) antes de entrar como `fichado`.
 - **Glossário** (`data/glossario.json`, esquema `schemas/glossario.schema.json`): só entra termo com fonte lida (`conferido_web` ou acima) e página; sentidos diferentes vão em `divergencias`, lado a lado. Definição em nível público, sem fundamento iniciático; termos ligados a tabu ou iniciação (quizila, bori, kelê) esperam o conselho. `validar_fichas.py` valida glossário e tradições; `anticopia.py` confere definições e notas.
