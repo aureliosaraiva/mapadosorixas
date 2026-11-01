@@ -2,7 +2,11 @@
 
 **URL prevista:** <https://aureliosaraiva.github.io/mapadosorixas/>
 
-**Estado (2026-11-01, sessão pages): NÃO publicado — o GitHub Pages não está habilitado no repositório.** O push foi feito com autorização do autor e o workflow rodou ([execução nº 1](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41289606381)): validadores, build com o prefixo e `qa_site.py` passaram no runner; o passo **Configurar Pages** falhou com `Get Pages site failed: Not Found` e `Create Pages site failed: Resource not accessible by integration` — o `GITHUB_TOKEN` do workflow não tem permissão para habilitar o Pages (`enablement: true` não basta). Além disso, **o repositório é privado** (API: `private: true`, `has_pages: false`). Não foi contornado. **Atualização (2026-11-01):** o autor tornou o repositório público; a execução nº 3 (push) ainda falhou com `Get Pages site failed: Not Found`, porque a fonte do Pages não tinha sido gravada (`has_pages: false`). Depois o autor gravou **Source: GitHub Actions** e a API passou a mostrar `has_pages: true`. O disparo manual pela API desta sessão dá 403 (a integração não pode usar `workflow_dispatch` nem reexecutar), então cada nova execução vem de um push na `main` (ou do botão Run workflow, pelo autor). O que o autor precisava fazer está em [Primeira publicação](#primeira-publicação-passos-do-autor) e em [`pesquisa/PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
+**Estado (2026-11-01, sessão pages): PUBLICADO como rascunho público** em <https://aureliosaraiva.github.io/mapadosorixas/> pela [execução nº 4](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41292757137) do workflow (validadores, build, QA e deploy ok).
+
+Histórico: as execuções nº 1–3 pararam em "Configurar Pages" (`Get Pages site failed: Not Found` / `Create Pages site failed: Resource not accessible by integration`): o `GITHUB_TOKEN` não consegue habilitar o Pages, nem com `enablement: true`, e o repositório era privado. O autor tornou o repositório público e gravou **Settings → Pages → Source: GitHub Actions**; a partir daí o deploy passou. Pela API desta sessão, `workflow_dispatch` e reexecução dão 403: as execuções vêm de push na `main` ou do botão Run workflow, pelo autor.
+
+**Conferência da URL publicada (Playwright, 2026-11-01):** Início (faixa de rascunho, aviso de versão inicial, `noindex`), ficha de Exu, grafo (Cytoscape renderizado), busca do Pagefind ("Ogum" → 5 resultados, links com o prefixo) e os 12 arquivos de Baixar dados (todos 200; `LEIAME.txt` com "licença a definir pelo autor"); nenhum erro de rede ou de JavaScript. Screenshots em [`screenshots/pages/`](screenshots/pages/).
 
 ## O que é publicado
 
@@ -29,10 +33,10 @@ Permissões: `contents: read`, `pages: write`, `id-token: write`; `concurrency: 
 
 ## Primeira publicação (passos do autor)
 
-1. ~~Autorizar o push~~ (feito em 2026-11-01).
+1. ~~Autorizar o push~~ (feito em 2026-11-01). **Todos os passos abaixo foram feitos; ficam como referência para um repositório novo.**
 2. ~~**Repositório privado:**~~ (feito: repositório público em 2026-11-01) em conta pessoal, o Pages para repositório privado exige GitHub Pro. Escolher: (a) tornar o repositório público (Settings → General → Danger Zone → Change visibility) ou (b) assinar o Pro. Atenção: mesmo com o repositório privado, **o site do Pages é público** (só o Enterprise Cloud permite Pages privado), e o link "issues do repositório" que o site exibe só funciona para quem tem acesso ao repo — com o repo privado, o canal de correções não funciona para o público.
 3. ~~**Habilitar o Pages:**~~ (feito pelo autor em 2026-11-01) **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-4. Rodar de novo: **Actions → "Publicar no GitHub Pages (rascunho)" → Run workflow** (branch `main`).
+4. ~~Rodar de novo~~ (feito: execução nº 4): **Actions → "Publicar no GitHub Pages (rascunho)" → Run workflow** (branch `main`).
 5. Conferir a URL; a sessão seguinte salva screenshots em `docs/screenshots/pages/` (`BASE=https://aureliosaraiva.github.io/mapadosorixas node site/scripts/screenshots.cjs`, ajustando a pasta de saída).
 
 ## Como reverter ou despublicar
@@ -46,7 +50,6 @@ Permissões: `contents: read`, `pages: write`, `id-token: write`; `concurrency: 
 
 | Item | Situação |
 |---|---|
-| Primeira publicação | workflow rodou e parou em "Configurar Pages" ([execução](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41289606381)): repo privado e Pages não habilitado; o autor decide a visibilidade e habilita o Pages (PENDENCIAS §3b) |
 | Licença de código, textos e dados | **a definir pelo autor**; até lá, "licença a definir" no site e nos dados |
 | Domínio próprio | a escolher (`.org`/`.com`; ver PENDENCIAS §3b). Ao apontar: `SITE_BASE=/` e `SITE_URL=https://<domínio>` no workflow, arquivo `CNAME` em `site/public/` e domínio em Settings → Pages |
 | Revisão por praticantes e pesquisadores | conselho ainda a formar (PENDENCIAS §3c). Só depois retirar a faixa de rascunho e o `noindex` |
