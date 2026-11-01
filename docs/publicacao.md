@@ -2,7 +2,7 @@
 
 **URL prevista:** <https://aureliosaraiva.github.io/mapadosorixas/>
 
-**Estado (2026-11-01, sessão pages):** configuração e workflow prontos e testados localmente com o prefixo `/mapadosorixas`. **A primeira publicação ainda não aconteceu**: o push para a `main` (que dispara o deploy) foi bloqueado pela política de permissões da sessão, por ser um deploy de produção, e aguarda autorização do autor. Ver [`pesquisa/PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
+**Estado (2026-11-01, sessão pages): NÃO publicado — o GitHub Pages não está habilitado no repositório.** O push foi feito com autorização do autor e o workflow rodou ([execução nº 1](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41289606381)): validadores, build com o prefixo e `qa_site.py` passaram no runner; o passo **Configurar Pages** falhou com `Get Pages site failed: Not Found` e `Create Pages site failed: Resource not accessible by integration` — o `GITHUB_TOKEN` do workflow não tem permissão para habilitar o Pages (`enablement: true` não basta). Além disso, **o repositório é privado** (API: `private: true`, `has_pages: false`). Não foi contornado. O que o autor precisa fazer está em [Primeira publicação](#primeira-publicação-passos-do-autor) e em [`pesquisa/PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
 
 ## O que é publicado
 
@@ -29,10 +29,11 @@ Permissões: `contents: read`, `pages: write`, `id-token: write`; `concurrency: 
 
 ## Primeira publicação (passos do autor)
 
-1. Autorizar o push desta sessão (ou fazer `git push origin main` com os commits locais).
-2. Se o passo "Configurar Pages" falhar com "Resource not accessible by integration" / "Create Pages site failed" (o `GITHUB_TOKEN` não pode habilitar o Pages), ou se o repositório for privado num plano sem Pages: **Settings → Pages → Build and deployment → Source: GitHub Actions**. Para repositório privado, o Pages exige plano pago (Pro/Team) ou tornar o repositório público.
-3. Rodar de novo: **Actions → "Publicar no GitHub Pages (rascunho)" → Run workflow** (branch `main`).
-4. Conferir a URL; a sessão seguinte salva screenshots em `docs/screenshots/pages/` (`BASE=https://aureliosaraiva.github.io/mapadosorixas node site/scripts/screenshots.cjs`, ajustando a pasta de saída).
+1. ~~Autorizar o push~~ (feito em 2026-11-01).
+2. **Repositório privado:** em conta pessoal, o Pages para repositório privado exige GitHub Pro. Escolher: (a) tornar o repositório público (Settings → General → Danger Zone → Change visibility) ou (b) assinar o Pro. Atenção: mesmo com o repositório privado, **o site do Pages é público** (só o Enterprise Cloud permite Pages privado), e o link "issues do repositório" que o site exibe só funciona para quem tem acesso ao repo — com o repo privado, o canal de correções não funciona para o público.
+3. **Habilitar o Pages:** **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+4. Rodar de novo: **Actions → "Publicar no GitHub Pages (rascunho)" → Run workflow** (branch `main`).
+5. Conferir a URL; a sessão seguinte salva screenshots em `docs/screenshots/pages/` (`BASE=https://aureliosaraiva.github.io/mapadosorixas node site/scripts/screenshots.cjs`, ajustando a pasta de saída).
 
 ## Como reverter ou despublicar
 
@@ -45,8 +46,12 @@ Permissões: `contents: read`, `pages: write`, `id-token: write`; `concurrency: 
 
 | Item | Situação |
 |---|---|
-| Primeira execução do deploy | aguardando autorização do push / habilitação do Pages (PENDENCIAS §3b) |
+| Primeira publicação | workflow rodou e parou em "Configurar Pages" ([execução](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41289606381)): repo privado e Pages não habilitado; o autor decide a visibilidade e habilita o Pages (PENDENCIAS §3b) |
 | Licença de código, textos e dados | **a definir pelo autor**; até lá, "licença a definir" no site e nos dados |
 | Domínio próprio | a escolher (`.org`/`.com`; ver PENDENCIAS §3b). Ao apontar: `SITE_BASE=/` e `SITE_URL=https://<domínio>` no workflow, arquivo `CNAME` em `site/public/` e domínio em Settings → Pages |
 | Revisão por praticantes e pesquisadores | conselho ainda a formar (PENDENCIAS §3c). Só depois retirar a faixa de rascunho e o `noindex` |
 | Créditos e autoria na página Sobre | a confirmar pelo autor (PENDENCIAS §3b) |
+
+## Observações
+
+- O runner avisou que `actions/checkout@v4`, `setup-node@v4`, `setup-python@v5` e `configure-pages@v5` usam Node.js 20 (descontinuado; hoje forçados a Node 24). Funciona, mas vale atualizar as versões das actions quando houver nova major (vale também para `validar.yml`).
