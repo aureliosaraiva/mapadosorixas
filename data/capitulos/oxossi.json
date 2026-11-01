@@ -1,0 +1,1267 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/oxossi.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "oxossi",
+  "titulo": "Oxóssi, o caçador, a mata e o reino de Ketu",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Oxóssi chega às fontes deste projeto como caçador e senhor da mata, mas também como rei: nas casas de candomblé baianas e paulistas pesquisadas por Sylvie Chiousse, o itã mais lembrado faz dele o soberano de Ketu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                1
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O material ainda é menor do que o de outros orixás, e boa parte das lacunas é dita no fim do capítulo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                2
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O orixá aparece nas fontes com dois nomes principais. Oxóssi é a forma mais usada nos candomblés baianos estudados por Roger Bastide e Chiousse "
+            },
+            {
+              "t": "notas",
+              "n": [
+                3,
+                4
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", enquanto no Batuque de Porto Alegre e no nagô do Recife a mesma figura é chamada de Odé, o caçador "
+            },
+            {
+              "t": "notas",
+              "n": [
+                5,
+                6
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, Ochosí é um dos santos guerreiros da santería "
+            },
+            {
+              "t": "notas",
+              "n": [
+                7
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Sobre a origem, as fontes se dividem entre uma narrativa de realeza e uma de façanha. Chiousse ouviu que Oxóssi reinou sobre uma vasta terra na África, que certas casas identificam com Ketu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                1
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e João Marcos Souza parte dessa mesma narrativa do caçador que reinou em Ketu, recontada nos terreiros "
+            },
+            {
+              "t": "notas",
+              "n": [
+                8
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". A outra explicação, ligada ao próprio nome do orixá, está no mito do caçador de uma flecha só, contado adiante "
+            },
+            {
+              "t": "notas",
+              "n": [
+                9
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os registros mais antigos sobre Oxóssi na Bahia são de calendário. No ciclo de festas do Gantois que Nina Rodrigues registrou no fim do século XIX, e que Bastide retoma, a quinta-feira pertencia a Oxóssi "
+            },
+            {
+              "t": "notas",
+              "n": [
+                10
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide, que pesquisou em Salvador em meados do século passado, coloca Oxóssi, com Ogum, entre as divindades cujos objetos sagrados ficam fora do peji, ao ar livre "
+            },
+            {
+              "t": "notas",
+              "n": [
+                11
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; no Recife e em Porto Alegre ele sempre ouviu que Odé estava entre os três orixás a serem adorados fora do prédio principal, ao lado de Bará e de Ossaim "
+            },
+            {
+              "t": "notas",
+              "n": [
+                12
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A força do culto varia muito de região para região. Arnaud Halloy observa que, no nagô do Recife, Odé raramente se manifesta nos filhos, mais raramente até que Ogum, e contrasta isso com a Bahia, onde o orixá tem grande popularidade e numerosos filhos de santo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                13
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Uma das explicações acadêmicas para o lugar que ele ocupa no Brasil é a tese de Pierre Verger, resumida por Lisa Earl Castillo: aqui, Oxóssi teria assumido de Ogum a posição de deus dos caçadores, numa reorganização do panteão que a própria Castillo discute no "
+            },
+            {
+              "t": "link",
+              "rotulo": "capítulo de Ogum",
+              "tipo": "orixa",
+              "alvo": "ogum"
+            },
+            {
+              "t": "texto",
+              "v": " "
+            },
+            {
+              "t": "notas",
+              "n": [
+                14,
+                15
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros de Salvador e São Paulo pesquisados por Chiousse, Oxóssi reina sobre a caça e a floresta, com poder sobre os bichos e as plantas que nela vivem "
+            },
+            {
+              "t": "notas",
+              "n": [
+                4
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". A própria autora nota que a floresta não estava no mito original de distribuição dos domínios e foi atribuída a ele depois "
+            },
+            {
+              "t": "notas",
+              "n": [
+                16
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide o apresenta como protetor dos caçadores "
+            },
+            {
+              "t": "notas",
+              "n": [
+                11
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e Halloy, no Recife, observa que Odé, como Ogum, está ligado a um ofício humano, o de caçar, e não a uma força da natureza, e que seu território é a mata "
+            },
+            {
+              "t": "notas",
+              "n": [
+                6
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Daí também a proximidade com Ossaim, o dono das folhas: Chiousse registra que é com Oxóssi que Ossãe mais reparte plantas "
+            },
+            {
+              "t": "notas",
+              "n": [
+                17
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O temperamento atribuído ao orixá é o da juventude. Chiousse encontrou consenso entre seus informantes: Oxóssi tem a juventude, a impulsividade, o gosto pelo novo e a independência como marcas, e por isso é chamado quando se quer apressar um negócio ou uma cura "
+            },
+            {
+              "t": "notas",
+              "n": [
+                18
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O arco e flecha é seu emblema, e ele carrega também o eruquerê, espanta-moscas feito de rabo de boi que funciona como insígnia de rei "
+            },
+            {
+              "t": "notas",
+              "n": [
+                19
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". A cor é quase sempre o verde: assim registram Chiousse "
+            },
+            {
+              "t": "notas",
+              "n": [
+                20
+              ]
+            },
+            {
+              "t": "texto",
+              "v": " e Bastide, nas contas do colar dos fiéis baianos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                21
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, Halloy anota o verde como cor principal de Odé, ao qual algumas pessoas somam o vermelho ou o branco; quando se manifesta, o orixá pode vir inteiramente coberto de peles de animais "
+            },
+            {
+              "t": "notas",
+              "n": [
+                22
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O dia da semana mostra diferenças maiores. Na distribuição mais comum dos candomblés baianos, Bastide dá a quinta-feira a Oxóssi e a Ogum "
+            },
+            {
+              "t": "notas",
+              "n": [
+                3
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; no Ilê Axé Opô Afonjá, a quinta é só de Oxóssi "
+            },
+            {
+              "t": "notas",
+              "n": [
+                23
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e Chiousse também a dá como dia dele "
+            },
+            {
+              "t": "notas",
+              "n": [
+                24
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na lista de Porto Alegre que chegou a Bastide, Odé aparece duas vezes: fica na segunda-feira junto de Bará, de Ossaim e de Otim, e volta na sexta, como filho de Iemanjá "
+            },
+            {
+              "t": "notas",
+              "n": [
+                5
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, segundo Halloy, não há dia fixo para Odé "
+            },
+            {
+              "t": "notas",
+              "n": [
+                25
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A festa de Oxóssi, nos terreiros pesquisados por Chiousse, é celebrada no dia de São Sebastião, 20 de janeiro "
+            },
+            {
+              "t": "notas",
+              "n": [
+                26
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O itã mais difundido explica o nome do orixá ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O caçador de uma flecha só",
+              "tipo": "ita",
+              "alvo": "ita-006"
+            },
+            {
+              "t": "texto",
+              "v": "). Na versão de Verger, lida por Chiousse e por Souza, um pássaro enorme ameaça a festa dos inhames novos no palácio do rei, Olofin; caçadores armados com dezenas de flechas erram o alvo e são castigados, até que um caçador de Iremã, com uma única flecha e protegido por uma oferenda feita por sua mãe, derruba a ave "
+            },
+            {
+              "t": "notas",
+              "n": [
+                9,
+                27
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Chiousse registra que desse feito viria o nome Oxóssi, o caçador de uma flecha só, e também que um pai de santo de sua pesquisa, a quem chamava Papai, recusava essa versão escrita "
+            },
+            {
+              "t": "notas",
+              "n": [
+                9
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Os números de flechas variam entre as duas leituras, e a página do itã mostra as versões lado a lado "
+            },
+            {
+              "t": "notas",
+              "n": [
+                27
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Esse mesmo pai de santo contava a Chiousse outra história ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Oxóssi, o médico que aprende com Ossaim",
+              "tipo": "ita",
+              "alvo": "ita-005"
+            },
+            {
+              "t": "texto",
+              "v": "): Oxóssi teria sido médico na cidade e, depois de perder os pais, foi viver na floresta, e lá Ossaim lhe revelou os segredos das folhas "
+            },
+            {
+              "t": "notas",
+              "n": [
+                28
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os laços de família são contados de modos diferentes. Com Ogum, Oxóssi forma um par de irmãos num mito citado por Bastide "
+            },
+            {
+              "t": "notas",
+              "n": [
+                29
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", irmandade que Castillo diz ser reconhecida na África e no Brasil "
+            },
+            {
+              "t": "notas",
+              "n": [
+                30
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; no Recife, Odé é o irmão mais novo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                6
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Em Porto Alegre, como se viu, ele é tido como filho de Iemanjá "
+            },
+            {
+              "t": "notas",
+              "n": [
+                5
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Sobre o casamento, Bastide anota que os sacerdotes discordavam: uns uniam Oxóssi a Oxum, outros o consideravam solteiro "
+            },
+            {
+              "t": "notas",
+              "n": [
+                31
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". E as narrativas sobre Logunedé o põem ora como pai desse orixá, com Oxum, ora como companheiro de caça: José Roberto Lima Santos registra mitos em que Logunedé divide o ano entre seis meses de caça na mata, com o pai, e seis meses de pesca no rio, com a mãe ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Logunedé entre a mata de Oxóssi e o rio de Oxum",
+              "tipo": "ita",
+              "alvo": "ita-021"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "notas",
+              "n": [
+                32,
+                33
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As formas de Oxóssi dividem os informantes. Alguns ouvidos por Chiousse distinguiam quatro, Oxóssi, Odé, Inlé e Logunedé, este último visto provavelmente como filho de Oxóssi e Oxum "
+            },
+            {
+              "t": "notas",
+              "n": [
+                34
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide recolheu a mesma lista de quatro, observando que Inlé ia sendo esquecido porque não descia em transe no Brasil "
+            },
+            {
+              "t": "notas",
+              "n": [
+                35
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Nas casas em que Logunedé é um orixá à parte, a filiação também varia: Santos o apresenta como filho de Oxum e Oxóssi, filiação que diz ser a da maioria dos mitos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                32
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", enquanto Sallum e Silva, a partir de informação de Reginaldo Prandi, dão como pai Erinlé, uma das formas de Oxóssi "
+            },
+            {
+              "t": "notas",
+              "n": [
+                36
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, Edison Carneiro já descrevia Oxóssi assentado junto de Ogunjá e de Exu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                37
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé de caboclo e Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Chiousse observa que, nos candomblés de caboclo, Oxóssi passa a comandar os caboclos, espíritos indígenas que habitam a floresta "
+            },
+            {
+              "t": "notas",
+              "n": [
+                38
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". No Recife, Bastide cita René Ribeiro: ali os caboclos se ligam ao domínio da caça, de Odé e Oxóssi, e ao da vegetação, de Irôko e Ossaim "
+            },
+            {
+              "t": "notas",
+              "n": [
+                39
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Muitos registros de Chiousse valem, segundo ela, tanto para o Candomblé quanto para a Umbanda dos terreiros que estudou "
+            },
+            {
+              "t": "notas",
+              "n": [
+                4,
+                40
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O fichamento, porém, ainda não tem nenhum registro sobre Oxóssi próprio só da Umbanda, distinto do Candomblé "
+            },
+            {
+              "t": "notas",
+              "n": [
+                41,
+                42
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque e Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, Odé é filho de Iemanjá e divide dias com outras divindades "
+            },
+            {
+              "t": "notas",
+              "n": [
+                5
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", Halloy descreve o caçador da mata, de cor verde, sem dia fixo e de possessão rara "
+            },
+            {
+              "t": "notas",
+              "n": [
+                6,
+                22,
+                25,
+                13
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na casa de Pai Francelino, em Diadema, que segue a mina-jeje e a mina-nagô, Prandi registra dois voduns da família de Savaluno, Agüê e Azacá, que têm Oxóssi como orixá correspondente; correspondência, não identidade "
+            },
+            {
+              "t": "notas",
+              "n": [
+                43
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na santería do central Méjico, em Matanzas, Maxime Toutain inclui Ochosí no trio dos santos guerreiros recebidos por quem entra no culto, ao lado de Elegguá e Oggún "
+            },
+            {
+              "t": "notas",
+              "n": [
+                7
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O santo mais associado a Oxóssi é São Sebastião. Chiousse explica a aproximação pelo arco e pelas flechas: o mártir costuma ser representado amarrado a uma árvore, atravessado por flechas "
+            },
+            {
+              "t": "notas",
+              "n": [
+                40
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". A data da festa, 20 de janeiro, segue o calendário do santo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                26
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na casa de Tambor de Mina de Diadema, o quadro é outro: Odé e o vodum Agüê ficam com Santa Helena, e só Azacá, o outro vodum correspondente, fica com São Sebastião "
+            },
+            {
+              "t": "notas",
+              "n": [
+                44
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As leituras sobre Oxóssi fichadas até aqui são poucas e quase todas tratam do lugar dele no panteão brasileiro. A tese de Verger sobre a passagem do posto de caçador de Ogum para Oxóssi, e a crítica de Castillo a ela, ficam registradas no capítulo de Ogum "
+            },
+            {
+              "t": "notas",
+              "n": [
+                14,
+                15
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Chiousse chama atenção para atribuições que se somaram ao orixá depois do mito original, como a floresta "
+            },
+            {
+              "t": "notas",
+              "n": [
+                16
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e Halloy para o contraste entre a raridade de Odé no Recife e sua popularidade na Bahia "
+            },
+            {
+              "t": "notas",
+              "n": [
+                13
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento ainda não tem registro sobre os nomes de Oxóssi em outras línguas e nações, nem sobre suas funções, um elemento da natureza ou a iconografia da dança "
+            },
+            {
+              "t": "notas",
+              "n": [
+                2,
+                45,
+                46,
+                47
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Também não há registro de sua saudação "
+            },
+            {
+              "t": "notas",
+              "n": [
+                48
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", que depende de dicionários ainda não consultados "
+            },
+            {
+              "t": "notas",
+              "n": [
+                49
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A obra de referência mais recente sobre o orixá, de Silva e Silva Neto, e as coletâneas de itãs de Prandi e de Verger só existem impressas e aguardam exemplar "
+            },
+            {
+              "t": "notas",
+              "n": [
+                50,
+                51
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O nome que Oxóssi recebe nos candomblés de nação Angola e Jeje também não aparece em nenhum registro "
+            },
+            {
+              "t": "notas",
+              "n": [
+                52,
+                53
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "tipo": "registro",
+      "registro": "oxossi-020"
+    },
+    {
+      "n": 2,
+      "tipo": "lacuna",
+      "atributo": "nomes",
+      "tradicao": null
+    },
+    {
+      "n": 3,
+      "tipo": "registro",
+      "registro": "oxossi-005"
+    },
+    {
+      "n": 4,
+      "tipo": "registro",
+      "registro": "oxossi-012"
+    },
+    {
+      "n": 5,
+      "tipo": "registro",
+      "registro": "oxossi-007"
+    },
+    {
+      "n": 6,
+      "tipo": "registro",
+      "registro": "oxossi-028"
+    },
+    {
+      "n": 7,
+      "tipo": "registro",
+      "registro": "oxossi-032"
+    },
+    {
+      "n": 8,
+      "tipo": "registro",
+      "registro": "oxossi-027"
+    },
+    {
+      "n": 9,
+      "tipo": "registro",
+      "registro": "oxossi-023"
+    },
+    {
+      "n": 10,
+      "tipo": "registro",
+      "registro": "oxossi-008"
+    },
+    {
+      "n": 11,
+      "tipo": "registro",
+      "registro": "oxossi-009"
+    },
+    {
+      "n": 12,
+      "tipo": "registro",
+      "registro": "ossaim-013"
+    },
+    {
+      "n": 13,
+      "tipo": "registro",
+      "registro": "oxossi-031"
+    },
+    {
+      "n": 14,
+      "tipo": "registro",
+      "registro": "ogum-037"
+    },
+    {
+      "n": 15,
+      "tipo": "registro",
+      "registro": "ogum-038"
+    },
+    {
+      "n": 16,
+      "tipo": "registro",
+      "registro": "oxossi-011"
+    },
+    {
+      "n": 17,
+      "tipo": "registro",
+      "registro": "ossaim-034"
+    },
+    {
+      "n": 18,
+      "tipo": "registro",
+      "registro": "oxossi-024"
+    },
+    {
+      "n": 19,
+      "tipo": "registro",
+      "registro": "oxossi-014"
+    },
+    {
+      "n": 20,
+      "tipo": "registro",
+      "registro": "oxossi-013"
+    },
+    {
+      "n": 21,
+      "tipo": "registro",
+      "registro": "oxossi-025"
+    },
+    {
+      "n": 22,
+      "tipo": "registro",
+      "registro": "oxossi-029"
+    },
+    {
+      "n": 23,
+      "tipo": "registro",
+      "registro": "oxossi-006"
+    },
+    {
+      "n": 24,
+      "tipo": "registro",
+      "registro": "oxossi-017"
+    },
+    {
+      "n": 25,
+      "tipo": "registro",
+      "registro": "oxossi-030"
+    },
+    {
+      "n": 26,
+      "tipo": "registro",
+      "registro": "oxossi-016"
+    },
+    {
+      "n": 27,
+      "tipo": "registro",
+      "registro": "oxossi-026"
+    },
+    {
+      "n": 28,
+      "tipo": "registro",
+      "registro": "oxossi-022"
+    },
+    {
+      "n": 29,
+      "tipo": "registro",
+      "registro": "oxossi-010"
+    },
+    {
+      "n": 30,
+      "tipo": "registro",
+      "registro": "ogum-045"
+    },
+    {
+      "n": 31,
+      "tipo": "registro",
+      "registro": "oxum-025"
+    },
+    {
+      "n": 32,
+      "tipo": "registro",
+      "registro": "logunede-007"
+    },
+    {
+      "n": 33,
+      "tipo": "registro",
+      "registro": "logunede-010"
+    },
+    {
+      "n": 34,
+      "tipo": "registro",
+      "registro": "oxossi-019"
+    },
+    {
+      "n": 35,
+      "tipo": "registro",
+      "registro": "logunede-001"
+    },
+    {
+      "n": 36,
+      "tipo": "registro",
+      "registro": "logunede-005"
+    },
+    {
+      "n": 37,
+      "tipo": "registro",
+      "registro": "oxossi-001"
+    },
+    {
+      "n": 38,
+      "tipo": "registro",
+      "registro": "oxossi-021"
+    },
+    {
+      "n": 39,
+      "tipo": "registro",
+      "registro": "iroko-006"
+    },
+    {
+      "n": 40,
+      "tipo": "registro",
+      "registro": "oxossi-015"
+    },
+    {
+      "n": 41,
+      "tipo": "lacuna",
+      "atributo": "qualidades",
+      "tradicao": "umbanda"
+    },
+    {
+      "n": 42,
+      "tipo": "lacuna",
+      "atributo": "historia_culto",
+      "tradicao": "umbanda"
+    },
+    {
+      "n": 43,
+      "tipo": "registro",
+      "registro": "oxossi-033"
+    },
+    {
+      "n": 44,
+      "tipo": "registro",
+      "registro": "oxossi-034"
+    },
+    {
+      "n": 45,
+      "tipo": "lacuna",
+      "atributo": "funcoes",
+      "tradicao": null
+    },
+    {
+      "n": 46,
+      "tipo": "lacuna",
+      "atributo": "elementos",
+      "tradicao": null
+    },
+    {
+      "n": 47,
+      "tipo": "lacuna",
+      "atributo": "iconografia",
+      "tradicao": null
+    },
+    {
+      "n": 48,
+      "tipo": "lacuna",
+      "atributo": "saudacao",
+      "tradicao": null
+    },
+    {
+      "n": 49,
+      "tipo": "pendencia",
+      "ancora": "Cacciatore, *Dicionário de cultos afro-brasileiros*"
+    },
+    {
+      "n": 50,
+      "tipo": "pendencia",
+      "ancora": "Silva & Silva Neto, *Oxóssi: o caçador divino*"
+    },
+    {
+      "n": 51,
+      "tipo": "pendencia",
+      "ancora": "Verger, *Lendas africanas dos orixás* (Corrupio)"
+    },
+    {
+      "n": 52,
+      "tipo": "lacuna",
+      "atributo": "equivalencias",
+      "tradicao": "candomble_angola"
+    },
+    {
+      "n": 53,
+      "tipo": "lacuna",
+      "atributo": "equivalencias",
+      "tradicao": "candomble_jeje"
+    }
+  ]
+}

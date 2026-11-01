@@ -72,6 +72,13 @@ HISTORICO = ("missionári", "viajante", "oficial", "colonial", "documento", "sé
 DIAS = {"segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"}
 CORES = {"vermelho", "vermelha", "vermelhos", "preto", "preta", "pretos", "branco", "branca", "brancas", "brancos",
          "azul", "verde", "verdes", "amarelo", "amarela", "prata", "dourado", "rosa", "roxo", "marrom", "azuis"}
+# geografia implícita na tradição (por grupo ou id): "no Brasil" é sustentado por
+# registro de Candomblé, Umbanda ou religião afro-brasileira regional, e assim por diante
+GEO_TRADICAO = {
+    "candomble": "Brasil", "afro_brasileira_regional": "Brasil", "umbanda": "Brasil",
+    "culto_africano": "África", "ioruba_nigeria": "África Nigéria iorubás", "vodun_benim": "África Daomé Benim fons",
+    "lucumi": "Cuba cubana", "palo_monte": "Cuba", "arara": "Cuba", "vodou_haiti": "Haiti", "orisha_trinidad": "Trinidad",
+}
 # palavras que começam frase ou nomeiam coisas genéricas; nunca contam como "entidade"
 STOP = set("""
 a à ao aos as às o os um uma uns umas e é em no na nos nas num numa do da dos das de dum duma
@@ -142,7 +149,8 @@ class Ctx:
     def corpus_registro(self, r):
         partes = [r["valor"], r["parafrase"], r.get("nota") or "", r.get("casa_ou_regiao") or "", r["localizacao"]]
         for t in r["tradicoes"]:
-            partes += [t.replace("_", " "), self.trad.get(t, {}).get("nome", "")]
+            partes += [t.replace("_", " "), self.trad.get(t, {}).get("nome", ""), GEO_TRADICAO.get(self.trad.get(t, {}).get("grupo"), ""),
+                       GEO_TRADICAO.get(t, "")]
         for fid in (r["source_id"], r.get("via_source_id")):
             f = self.catalogo.get(fid) if fid else None
             if f:
@@ -349,8 +357,8 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
                 faltam = sorted({c for c in candidatos(txt, ctx) if not casa(c, idx) and not casa(c, nome_orixa)})
                 if faltam:
                     erros.append(f"{onde}: heurística — {', '.join(faltam)} não aparece(m) nos registros citados no trecho “{txt[:70]}…”")
-                # cópia do fichamento
-                ws = palavras(txt)
+                # cópia do fichamento (rótulos de link ficam de fora: são títulos já conferidos)
+                ws = palavras(cap.texto_simples([t for t in tks if t["t"] != "link"]))
                 for g in ngramas(ws, 8):
                     if g in grams8 and not eh_referencia(g):
                         erros.append(f"{onde}: 8+ palavras iguais a {grams8[g]}: “{g}”")

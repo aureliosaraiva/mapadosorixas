@@ -1,0 +1,2150 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/exu.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "exu",
+  "titulo": "Exu, o mensageiro entre mundos e as leituras que o cercaram",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum outro orixá deste projeto reúne tantos registros, e nenhum foi lido de maneiras tão opostas. Para os antigos iorubás, segundo Reginaldo Prandi, Exu é quem leva as oferendas dos humanos até os orixás e traz de volta as respostas, de modo que sem ele nada se cumpre "
+            },
+            {
+              "t": "notas",
+              "n": [
+                1
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Ao longo de pouco mais de um século de escritos sobre a Bahia e o Rio de Janeiro, porém, a mesma figura foi tratada como divindade fálica, confundida com o diabo, rebaixada a intermediário e, por fim, identificada com almas de mortos, como mostra o balanço de Valdeli Carvalho da Costa. Este capítulo segue esse percurso e põe lado a lado o que cada tradição e cada autor dizem "
+            },
+            {
+              "t": "notas",
+              "n": [
+                2
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre os fons, o orixá iorubá corresponde ao vodum chamado Legba ou Elegbara, observa Prandi "
+            },
+            {
+              "t": "notas",
+              "n": [
+                3
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, Bastide anotou que Legba era o nome daomeano de Exu em uso nos terreiros "
+            },
+            {
+              "t": "notas",
+              "n": [
+                4
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e para Sylvie Chiousse é por esse nome que Exu se faz conhecer, sobretudo, em terras africanas, cubanas e haitianas "
+            },
+            {
+              "t": "notas",
+              "n": [
+                5
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Outros autores pedem cautela. Gilles-Félix Vallier, antropólogo que estudou o sistema religioso iorubá, vê Legba como equivalente fon de Èṣù-Elégbá apenas em certos aspectos rituais e lembra autores que propõem separar os dois "
+            },
+            {
+              "t": "notas",
+              "n": [
+                6
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; e Costa relata que Bastide, num livro de 1960, também recomendava não confundir o Legba dos daomeanos com o Exu iorubano, embora reconhecesse no segundo parte do caráter fálico do primeiro. As duas posições convivem nas fontes "
+            },
+            {
+              "t": "notas",
+              "n": [
+                7,
+                3
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os nomes do orixá se contam às dezenas. Pierre Verger recolheu na África e no Brasil formas como Alaquetu, que liga Exu à cidade de Ketu, e Aquessam, ligado ao mercado de Oyó "
+            },
+            {
+              "t": "notas",
+              "n": [
+                8
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Prandi reproduz a lista de um ogã, Gilberto de Exu, em que cada nome traz uma atribuição, do primeiro ser criado ao senhor dos caminhos, das encruzilhadas, do oráculo e do dendê, até Iná, a quem se dirige o padê "
+            },
+            {
+              "t": "notas",
+              "n": [
+                9
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Para os cultos brasileiros de origem fon e banto, Verger dá como equivalentes de Exu, entre outros, Mavambo e Sinza Muzila "
+            },
+            {
+              "t": "notas",
+              "n": [
+                10
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Uma parte desses nomes chegou até nós filtrada por missionários oitocentistas, e esses textos valem como documento histórico, não como explicação. O pastor Bowen, em 1857, escreveu que em iorubá o diabo se chamava Exu e traduziu Elegbara como \"o poderoso\"; o abade Bouche, em 1885, afirmou que Elegbara era o nome que os africanos davam a Satã "
+            },
+            {
+              "t": "notas",
+              "n": [
+                11
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O missionário Baudin, em 1884, anotou os nomes Exu, Elegbá e Ogongo Ogó, traduzindo-os a seu modo, e fez do orixá o líder dos espíritos do mal "
+            },
+            {
+              "t": "notas",
+              "n": [
+                12
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O efeito dessa leitura alcançou a própria língua: segundo Vagner Gonçalves da Silva, \"Exu\" passou a traduzir \"Demônio\" na Bíblia em iorubá "
+            },
+            {
+              "t": "notas",
+              "n": [
+                13
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os relatos europeus mais antigos sobre o culto na África Ocidental vêm carregados de repulsa e precisam ser lidos como documentos de época. Viajantes que passaram pelo Daomé, como Pommegorge em 1789 e Duncan em 1847, descreveram estátuas de Legba modeladas em terra, com o sexo exagerado "
+            },
+            {
+              "t": "notas",
+              "n": [
+                14
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Baudin, em 1884, descreveu a imagem de Exu posta diante de casas, praças e caminhos: uma figura de barro sentada, de cabeça grande, com búzios no lugar dos olhos e dos dentes, banhada em dendê nas grandes ocasiões, ao lado de bastões nodosos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                15
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O mesmo missionário situava o principal templo do orixá em Woro, perto de Badagry, num bosque à beira de uma lagoa "
+            },
+            {
+              "t": "notas",
+              "n": [
+                16
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Estudos posteriores alargaram esse quadro. Silva descreve, na África Ocidental, suportes de culto variados: a laterita, um montículo de terra com feição de cabeça humana e um falo, ou ainda uma estátua coberta de búzios, além do cajado com que o orixá se desloca "
+            },
+            {
+              "t": "notas",
+              "n": [
+                17
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". E Vallier, apoiado nos estudos de Melville Herskovits sobre o Daomé, insiste que Èṣù não vive só nas encruzilhadas: ele, ou seu homólogo fon Legba, está presente em cada moradia, clã, aldeia e mercado, no palácio e nos templos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                18
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Brasil, os primeiros registros vêm da Bahia. Em 1900, o médico Nina Rodrigues viu entre os afro-baianos a tendência de tomar Exu, a quem também chamavam Bará ou Elegbará, pelo diabo, e pôs essa confusão na conta da catequese católica "
+            },
+            {
+              "t": "notas",
+              "n": [
+                19
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na festa anual do Gantois que ele descreveu, o ciclo se abria com um sacrifício ao orixá, dono também da primeira segunda-feira "
+            },
+            {
+              "t": "notas",
+              "n": [
+                20
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Décadas depois, Edison Carneiro anotou que ninguém se dizia filho de Exu: o que se tinha era um \"carrego\" dele, obrigação vitalícia confiada a Ogunjá, forma de Ogum "
+            },
+            {
+              "t": "notas",
+              "n": [
+                21
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Prandi acrescenta que quem os búzios apontavam como filho de Exu acabava iniciado para outro orixá, sobretudo Ogum Xoroquê, para não ser tomado por filho do diabo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                22
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide, em meados do século passado, via a possessão por Exu como rara e violenta, algo a afastar "
+            },
+            {
+              "t": "notas",
+              "n": [
+                23
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Ainda nos terreiros de Salvador e São Paulo pesquisados por Chiousse até 1993, Exu raramente era tratado como orixá pleno, quase não tinha filhos de santo e se falava numa \"carga\" de sete anos em vez de iniciação "
+            },
+            {
+              "t": "notas",
+              "n": [
+                24
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O papel de guardião também aparece cedo. A partir do livro de Ruth Landes sobre a Bahia dos anos 1930, Léo Carrer Nogueira destaca o assentamento de Exu junto à entrada do terreiro como barreira contra espíritos que perturbassem os ritos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                25
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Em Porto Alegre, a tradição oral conta que um assentamento de Bará foi enterrado no cruzamento dos corredores do Mercado Público, construído por escravizados no século XIX; até hoje fiéis deixam ali uma moeda "
+            },
+            {
+              "t": "notas",
+              "n": [
+                26
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Mais recentemente, Prandi registrou o uso da imagem de Exu como diabo por igrejas neopentecostais, em sessões de exorcismo transmitidas pela televisão que culpam exus e pombagiras por desgraças como o desemprego "
+            },
+            {
+              "t": "notas",
+              "n": [
+                27
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O núcleo das descrições é a mediação. Prandi resume as funções que os nomes africanos de Exu guardam em cinco verbos: levar recados, transportar, transformar, repor e doar "
+            },
+            {
+              "t": "notas",
+              "n": [
+                28
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". A transformação, para ele, é o traço mais próprio: Exu questiona regras, provoca mudança e é o princípio do movimento, por isso inspira temor "
+            },
+            {
+              "t": "notas",
+              "n": [
+                29
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Vallier descreve o mensageiro entre o céu e a terra que recebe sempre a primeira porção dos sacrifícios, corrige quem esquece os orixás e pode conceder gravidez a quem não consegue ter filhos e prosperidade a quem vende no mercado "
+            },
+            {
+              "t": "notas",
+              "n": [
+                30
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Silva o vê, entre fons e iorubás, como guardião da ordem e, ao mesmo tempo, da desordem, presente já na criação do mundo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                31
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Prandi liga ainda Exu ao ato sexual que gera filhos e garante a continuidade das linhagens, vínculo tornado visível nos emblemas fálicos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                32
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os lugares de Exu são os de passagem. Na África Ocidental, segundo Silva, o culto se faz sobretudo nas encruzilhadas, nas fronteiras das moradias e nos mercados "
+            },
+            {
+              "t": "notas",
+              "n": [
+                33
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; no Brasil a lista cresce e inclui matas, cemitérios, estradas de terra, praias e portas de loja "
+            },
+            {
+              "t": "notas",
+              "n": [
+                34
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Para Bastide, cabe a Exu iniciar a semana por ser o deus de tudo o que se abre: ele guarda a porta do terreiro e também a do tempo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                35
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Exu é também múltiplo, e aqui as contagens divergem. Prandi, apoiado em Santos (1976), escreve que há um guardião para cada casa, rua, cidade e mercado, e um Exu particular para cada pessoa "
+            },
+            {
+              "t": "notas",
+              "n": [
+                36
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros pesquisados por Chiousse, cada pessoa e cada orixá teria o seu, num total de pelo menos 21 segundo algumas casas "
+            },
+            {
+              "t": "notas",
+              "n": [
+                37
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Silva conta menos de dez avatares no candomblé, como Tiriri, Lonã e Marabô, e legiões inteiras na Umbanda "
+            },
+            {
+              "t": "notas",
+              "n": [
+                38
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre os símbolos, Prandi aponta o tridente de ferro dos assentamentos do candomblé, e os \"garfos\" com que os exus são assentados nas tronqueiras da Umbanda "
+            },
+            {
+              "t": "notas",
+              "n": [
+                39
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Chiousse descreve duas representações correntes em Salvador e São Paulo: uma figura negra com chifres e o sexo à mostra, à maneira do diabo, ou um simples monte de terra em forma de falo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                40
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As cores mais citadas são o vermelho e o preto, registradas por Chiousse "
+            },
+            {
+              "t": "notas",
+              "n": [
+                41
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, Arnaud Halloy anota vermelho, preto e branco, este só em certas oferendas "
+            },
+            {
+              "t": "notas",
+              "n": [
+                42
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e na santería de Matanzas o colar de Elegguá combina preto e vermelho, segundo Maxime Toutain "
+            },
+            {
+              "t": "notas",
+              "n": [
+                43
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A segunda-feira é o dia mais citado, mas com companhias e pesos distintos. Na distribuição baiana mais comum descrita por Bastide e também no Ilê Axé Opô Afonjá, ela é de Exu e de Omolu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                44,
+                45
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; Bastide explica a dupla pelo perigo que ambos representam para quem os despreza e por serem divindades da terra "
+            },
+            {
+              "t": "notas",
+              "n": [
+                46
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Em Porto Alegre, informaram-lhe que Bará abre a semana na segunda "
+            },
+            {
+              "t": "notas",
+              "n": [
+                47
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, Halloy diz que a segunda é preferida para os trabalhos de Exu, mas sem obrigação "
+            },
+            {
+              "t": "notas",
+              "n": [
+                48
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O etnólogo Leo Frobenius, num esquema de 1912 que é documento de época, punha Exu a leste numa semana iorubá de quatro dias "
+            },
+            {
+              "t": "notas",
+              "n": [
+                49
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Toda cerimônia do candomblé começa com uma homenagem a Exu, o padê, que Bastide explicava pela função de mensageiro, ainda que alguns a justificassem pelo receio de que Exu perturbasse a festa "
+            },
+            {
+              "t": "notas",
+              "n": [
+                50
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Chiousse confirma que festa nenhuma se inicia sem essa oferenda "
+            },
+            {
+              "t": "notas",
+              "n": [
+                51
+              ]
+            },
+            {
+              "t": "texto",
+              "v": " e registra o 24 de agosto como data de celebração particular de Exu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                52
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mito mais conhecido é o do gorro de duas cores ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O gorro de duas cores que faz brigar dois amigos",
+              "tipo": "ita",
+              "alvo": "ita-001"
+            },
+            {
+              "t": "texto",
+              "v": "). Na versão que Prandi comenta, registrada por Baudin, Exu, a quem desagrada que dois vizinhos sejam tão amigos, desfila entre eles com um gorro metade branco, metade vermelho; cada um jura ter visto uma cor, e a discussão acaba em briga feia "
+            },
+            {
+              "t": "notas",
+              "n": [
+                53
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Vallier cita de William Bascom outra versão, um verso de Ifá ligado ao odu Òdí Méjì, em que o gorro é preto e branco; informantes de outras cidades da Nigéria contavam a mesma história com vermelho e preto ou com quatro cores, e o verso prescreve sacrifício para evitar a discórdia. As versões ficam juntas na página do itã "
+            },
+            {
+              "t": "notas",
+              "n": [
+                54
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Silva registra outra narrativa breve: é com o bastão que leva consigo que Exu viaja pelo tempo e pelo espaço, rumo aos quatro pontos, e por isso a encruzilhada, onde os caminhos se cruzam, recebe suas oferendas ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Exu e o bastão com que percorre as quatro direções",
+              "tipo": "ita",
+              "alvo": "ita-002"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "notas",
+              "n": [
+                55
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Exu aparece ainda em mitos centrados em outros orixás. Na viagem de Oxalufã ao reino de Xangô, contada por Bastide, é ele quem, por três vezes, pede ajuda ao velho com uma carga e o deixa sujo, pondo à prova a paciência de Oxalá ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A viagem de Oxalá velho para ver Xangô",
+              "tipo": "ita",
+              "alvo": "ita-010"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "notas",
+              "n": [
+                56
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Num mito recolhido na Bahia, Ifá pede a Elegba que responda pelos coquinhos de dendê com que Oxum aprende a consultar a sorte; ele concorda a contragosto e, como preço, passa a importunar mais os filhos dela ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ifá ensina Oxum a jogar e Elegba responde a contragosto",
+              "tipo": "ita",
+              "alvo": "ita-013"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "notas",
+              "n": [
+                57
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". E a irmandade com Ogum, de que se fala no "
+            },
+            {
+              "t": "link",
+              "rotulo": "capítulo de Ogum",
+              "tipo": "orixa",
+              "alvo": "ogum"
+            },
+            {
+              "t": "texto",
+              "v": ", é afirmada no Candomblé por Lisa Earl Castillo, a partir de Parés, e na Umbanda por um pai de santo da nação Omolocô ouvido por Costa no Rio de Janeiro de 1970 "
+            },
+            {
+              "t": "notas",
+              "n": [
+                58,
+                59
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Antes de percorrer as nações, convém uma distinção que Nogueira resume bem. Exu tem três estatutos conforme a religião: é orixá entre os iorubás e em alguns candomblés; na maioria das casas de candomblé ocupa a posição de escravo, de quem serve aos orixás; e, para a Umbanda e a Quimbanda, é um egum, espírito de morto "
+            },
+            {
+              "t": "notas",
+              "n": [
+                60
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O Exu do Candomblé e os exus da Umbanda não são a mesma coisa, e as páginas a seguir os tratam separadamente "
+            },
+            {
+              "t": "notas",
+              "n": [
+                61
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Prandi observa que só em poucos candomblés antigos, mais próximos das raízes africanas, Exu é visto como o mensageiro dos deuses, com laço apenas discreto com o diabo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                62
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Com a dessincretização, diz ele, abre-se para Exu a possibilidade de voltar a ser apenas o orixá do movimento que anda pelos caminhos e guarda as portas, sem ser santo nem demônio "
+            },
+            {
+              "t": "notas",
+              "n": [
+                63
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé jeje"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Seja Hundê, em Cachoeira, Hildebrando Almeida Cerqueira descreve Legba, ou Lebabimibome, como o vodum que tem sob seu controle o terreiro inteiro, e apresenta seu culto como fusão entre a figura do macaco de tradições orais africanas e Exu-Legba "
+            },
+            {
+              "t": "notas",
+              "n": [
+                64
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Um ogã da casa contou ao pesquisador que Legba e Ogum Xoroquê guardam o terreiro juntos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                65
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os nomes de origem banto anotados por Verger, como Mavambo, já foram mencionados "
+            },
+            {
+              "t": "notas",
+              "n": [
+                10
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide, na síntese relatada por Costa, achava que nas nações bantas, onde a magia teria mais peso, o lado demoníaco de Exu cresceu até predominar na macumba carioca "
+            },
+            {
+              "t": "notas",
+              "n": [
+                7
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". E Costa, citando Kochmeyer, aproxima o nome Pomba-Gira do correspondente de Exu na nação Angola "
+            },
+            {
+              "t": "notas",
+              "n": [
+                66
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Batuque e Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, Exu é Bará, dono da segunda-feira e do assentamento do Mercado "
+            },
+            {
+              "t": "notas",
+              "n": [
+                47,
+                26
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", Halloy registra que se distingue o Exu do peji, orixá mensageiro a quem se recorre antes de qualquer rito, e o Exu da rua, guardião das soleiras, que na tradição nagô de Salvador se chama Exu do portão "
+            },
+            {
+              "t": "notas",
+              "n": [
+                67
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Seus interlocutores diziam que Exu é o mais humano dos orixás, nem bom nem mau, e que pode atuar como orixá, sem possuir os filhos, ou como espírito da jurema, culto de origem indígena, quando é incorporado e procurado para magia ofensiva "
+            },
+            {
+              "t": "notas",
+              "n": [
+                68
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Tambor de Mina, o quadro muda de casa para casa. Na síntese que Prandi faz da Casa das Minas a partir de Sérgio Ferretti, Legba, ou Legbara, é o nome que outras nações dão a Exu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                69
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; lá ele não tem culto organizado, é ligado a Satanás e não leva mensagens, tarefa dos voduns jovens chamados toqüéns, restando cantigas que pedem que ele se afaste "
+            },
+            {
+              "t": "notas",
+              "n": [
+                70
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Mundicarmo Ferretti confirma que na mina-jeje de São Luís não há culto a Exu nem jogo de búzios, e atribui a presença dessas práticas na Casa Fanti-Ashanti a contatos de fora da tradição local "
+            },
+            {
+              "t": "notas",
+              "n": [
+                71
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Em São Paulo, na casa de Pai Francelino, derivada da mina, Legbara tem quarto próprio, assentamentos da casa e de muitos filhos e propiciação nas obrigações maiores "
+            },
+            {
+              "t": "notas",
+              "n": [
+                72
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": ", que surge no primeiro quartel do século XX e adota a moral cristã da caridade, Exu foi empurrado para a quimbanda, o campo do que as entidades \"da direita\" se recusam a fazer; ali os exus, agora no plural, viraram almas de gente que viveu à margem, e Pombagira apareceu como seu lado feminino "
+            },
+            {
+              "t": "notas",
+              "n": [
+                73
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Nogueira propõe que esse Exu espírito de morto tomou forma no início do século, no trânsito entre os terreiros baianos e as macumbas cariocas, onde circulavam ideias espíritas; em 1933, quando Leal de Souza publicou o primeiro texto que codificava a Umbanda, Exu já figurava como entidade "
+            },
+            {
+              "t": "notas",
+              "n": [
+                74
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Incorporado, ele veste capa preta e vermelha, empunha tridente, gargalha, bebe e fuma "
+            },
+            {
+              "t": "notas",
+              "n": [
+                75
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Costa ouviu no Rio, por volta de 1970, posições opostas: um pai de santo umbandista ensinava que Exu era o nome de Lúcifer e dos anjos rebeldes, enquanto um pai de santo Omolocô recusava com força a ideia de que Exu fosse o diabo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                76
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Este último separava o Exu coroado, orixá que nunca teve corpo, do Exu batizado, alma de morto com nomes como Tranca-Rua ou Caveira "
+            },
+            {
+              "t": "notas",
+              "n": [
+                77
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Costa descreve também uma escada de purificação inspirada no espiritismo, do exu pagão, que ainda não aceitou a morte, ao batizado, ao traçado e ao coroado, chefe de falange "
+            },
+            {
+              "t": "notas",
+              "n": [
+                78
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e um casal de dirigentes que via Exu como empregado das entidades, encarregado de \"limpar\" o que pretos-velhos e caboclos aceitam resolver "
+            },
+            {
+              "t": "notas",
+              "n": [
+                79
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na mesma linha, a Pomba-Gira aparece como o exu feminino das sessões, procurada sobretudo em assuntos de amor "
+            },
+            {
+              "t": "notas",
+              "n": [
+                66
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Renato Ortiz, retomado por Adriano Roberto Afonso do Nascimento e colegas, divide o panteão umbandista entre espíritos de luz e espíritos das trevas, estes os exus; os autores notam que justamente as entidades de posição mais baixa são as que dão consulta e ficam mais perto dos fiéis "
+            },
+            {
+              "t": "notas",
+              "n": [
+                80
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na análise de 221 pontos cantados publicados em livros e discos, eles mostram Exu sempre em ação, trabalhando, vencendo demandas, vigiando e levando recados "
+            },
+            {
+              "t": "notas",
+              "n": [
+                81
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", quase sempre ligado a ruas, encruzilhadas e cemitérios, sem que isso queira dizer que more ali "
+            },
+            {
+              "t": "notas",
+              "n": [
+                82
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na Umbanda, diz-se ainda que a encruzilhada em X é de Exu e a em T, de Pombagira "
+            },
+            {
+              "t": "notas",
+              "n": [
+                83
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na santería do central Méjico, em Matanzas, Toutain conta que quem entra no culto recebe primeiro os santos guerreiros, entre eles Elegguá "
+            },
+            {
+              "t": "notas",
+              "n": [
+                84
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Todo mês de outubro, um grupo de Ifá sediado nas Ilhas Canárias vai até lá para a festa de Elegguá "
+            },
+            {
+              "t": "notas",
+              "n": [
+                85
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Prandi lembra que o sincretismo não foi uma simples tabela de equivalências. Ao encaixar os orixás no esquema cristão do bem contra o mal, Olorum ficou com o lugar de Deus Pai, Oxalá com o de Jesus, os outros orixás com o de santos, e o lugar vago do demônio coube a Exu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                86
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Num ambiente católico que reprimia o sexo, o lado fálico de Exu foi esquecido e suas imagens passaram a exibir chifres, rabo e cascos de bode "
+            },
+            {
+              "t": "notas",
+              "n": [
+                87
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide recorda que Nina Rodrigues, diante dessa identificação, chegou a falar num dualismo baiano que opunha Oxalá, o bem, a Exu, o mal, dualismo que ele mesmo julgava rudimentar "
+            },
+            {
+              "t": "notas",
+              "n": [
+                88
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Mas o diabo não é o único par católico registrado. Silva mostra que, quando prevaleceu a face mensageira, Exu foi aproximado de santos que abrem caminhos, como São Pedro, São Benedito, São Gabriel e Santo Antônio no Brasil, e do Menino Jesus em Cuba "
+            },
+            {
+              "t": "notas",
+              "n": [
+                89
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; quando prevaleceu a face de trickster, foi associado ao diabo e a espíritos de mortos que \"fecham caminhos\" "
+            },
+            {
+              "t": "notas",
+              "n": [
+                90
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros pesquisados por Chiousse em Salvador e São Paulo, a escolha variava entre São Bartolomeu, Santo Antônio, São Gabriel e até São Pedro "
+            },
+            {
+              "t": "notas",
+              "n": [
+                91
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na Casa das Minas, como já se viu, Legba é ligado a Satanás "
+            },
+            {
+              "t": "notas",
+              "n": [
+                70
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A história das interpretações de Exu é, em boa parte, a história de um mal-entendido apontado pelos próprios estudiosos. Prandi conta que os primeiros europeus o associaram a Príapo, por causa dos altares fálicos, e ao diabo, pela moral transgressora dos mitos, embora não se conheça mito que o identifique com o diabo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                92
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Verger, citado por Prandi, descrevia o temperamento de Exu como irritável, astuto e indecente e atribuía aos missionários a decisão de fazer dele o símbolo do mal "
+            },
+            {
+              "t": "notas",
+              "n": [
+                93
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Bastide chamou Exu de divindade caluniada, e Juana Elbein dos Santos foi, segundo Prandi, a pioneira no esforço de recuperar seus atributos africanos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                94
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Costa acompanha a sequência de autores, de Nina Rodrigues a Arthur Ramos e Bastide, em que Exu perde o caráter fálico, deixa de ser tido como mau pelos fiéis e passa a ser associado a almas de mortos "
+            },
+            {
+              "t": "notas",
+              "n": [
+                2
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Vallier rejeita a tradução de Èṣù por \"diabo\": o mundo iorubá, diz ele, não opõe uma força totalmente boa a outra totalmente má, e Èṣù reúne e ultrapassa os contrários "
+            },
+            {
+              "t": "notas",
+              "n": [
+                95
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na mesma direção, Bewaji argumenta contra autores como Idowu e Mbiti, que teriam visto em Olodumare o Deus dos cristãos e em Exu o diabo "
+            },
+            {
+              "t": "notas",
+              "n": [
+                96
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Há divergência, porém, sobre a noção de trickster. Silva a usa para descrever a face transgressora de Exu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                31,
+                90
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", enquanto Vallier propõe abandoná-la: Èṣù é sábio, poderoso e temido, ninguém se atreve a rir dele, e no Ifá ele representaria a incerteza que cada um tem sobre o próprio destino "
+            },
+            {
+              "t": "notas",
+              "n": [
+                97
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Prandi também critica uma ideia hoje corrente no Brasil, e que se encontra igualmente na África e em Cuba: a de que a primeira oferenda vai para Exu só para que ele não perturbe o rito; para o autor, isso é um desvio do seu papel de levar as oferendas aos orixás "
+            },
+            {
+              "t": "notas",
+              "n": [
+                98
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Na Umbanda, Nascimento e colegas leem os pontos cantados como portadores de estereótipos de gênero, raça e classe: força, rua e trabalho braçal para Exu, beleza e sensualidade para a Pomba-Gira "
+            },
+            {
+              "t": "notas",
+              "n": [
+                99
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro fichado traz a saudação de Exu "
+            },
+            {
+              "t": "notas",
+              "n": [
+                100
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Verger inclui Laroiê numa lista de nomes do orixá, mas a relação entre esse nome e a saudação ainda não foi conferida "
+            },
+            {
+              "t": "notas",
+              "n": [
+                8
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "; os dicionários que podem esclarecer o ponto dependem de exemplar "
+            },
+            {
+              "t": "notas",
+              "n": [
+                101
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também falta um registro sobre a origem africana de Exu, isto é, a região ou cidade de onde seu culto teria partido "
+            },
+            {
+              "t": "notas",
+              "n": [
+                102
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ", e sobre um elemento da natureza associado a ele "
+            },
+            {
+              "t": "notas",
+              "n": [
+                103
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". O livro de Juana Elbein dos Santos, em que Prandi se apoia para falar da multiplicidade de Exu, e as notas de Verger sobre Exu ainda não foram lidos no original "
+            },
+            {
+              "t": "notas",
+              "n": [
+                104,
+                105
+              ]
+            },
+            {
+              "t": "texto",
+              "v": ". Os itãs registrados são poucos, e as coletâneas de Prandi e de Verger seguem impressas "
+            },
+            {
+              "t": "notas",
+              "n": [
+                106
+              ]
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "tipo": "registro",
+      "registro": "exu-011"
+    },
+    {
+      "n": 2,
+      "tipo": "registro",
+      "registro": "exu-065"
+    },
+    {
+      "n": 3,
+      "tipo": "registro",
+      "registro": "exu-001"
+    },
+    {
+      "n": 4,
+      "tipo": "registro",
+      "registro": "exu-040"
+    },
+    {
+      "n": 5,
+      "tipo": "registro",
+      "registro": "exu-044"
+    },
+    {
+      "n": 6,
+      "tipo": "registro",
+      "registro": "exu-080"
+    },
+    {
+      "n": 7,
+      "tipo": "registro",
+      "registro": "exu-066"
+    },
+    {
+      "n": 8,
+      "tipo": "registro",
+      "registro": "exu-022"
+    },
+    {
+      "n": 9,
+      "tipo": "registro",
+      "registro": "exu-021"
+    },
+    {
+      "n": 10,
+      "tipo": "registro",
+      "registro": "exu-023"
+    },
+    {
+      "n": 11,
+      "tipo": "registro",
+      "registro": "exu-005"
+    },
+    {
+      "n": 12,
+      "tipo": "registro",
+      "registro": "exu-006"
+    },
+    {
+      "n": 13,
+      "tipo": "registro",
+      "registro": "exu-054"
+    },
+    {
+      "n": 14,
+      "tipo": "registro",
+      "registro": "exu-004"
+    },
+    {
+      "n": 15,
+      "tipo": "registro",
+      "registro": "exu-007"
+    },
+    {
+      "n": 16,
+      "tipo": "registro",
+      "registro": "exu-008"
+    },
+    {
+      "n": 17,
+      "tipo": "registro",
+      "registro": "exu-051"
+    },
+    {
+      "n": 18,
+      "tipo": "registro",
+      "registro": "exu-079"
+    },
+    {
+      "n": 19,
+      "tipo": "registro",
+      "registro": "exu-016"
+    },
+    {
+      "n": 20,
+      "tipo": "registro",
+      "registro": "exu-038"
+    },
+    {
+      "n": 21,
+      "tipo": "registro",
+      "registro": "exu-031"
+    },
+    {
+      "n": 22,
+      "tipo": "registro",
+      "registro": "exu-030"
+    },
+    {
+      "n": 23,
+      "tipo": "registro",
+      "registro": "exu-032"
+    },
+    {
+      "n": 24,
+      "tipo": "registro",
+      "registro": "exu-047"
+    },
+    {
+      "n": 25,
+      "tipo": "registro",
+      "registro": "exu-064"
+    },
+    {
+      "n": 26,
+      "tipo": "registro",
+      "registro": "exu-059"
+    },
+    {
+      "n": 27,
+      "tipo": "registro",
+      "registro": "exu-029"
+    },
+    {
+      "n": 28,
+      "tipo": "registro",
+      "registro": "exu-024"
+    },
+    {
+      "n": 29,
+      "tipo": "registro",
+      "registro": "exu-013"
+    },
+    {
+      "n": 30,
+      "tipo": "registro",
+      "registro": "exu-078"
+    },
+    {
+      "n": 31,
+      "tipo": "registro",
+      "registro": "exu-050"
+    },
+    {
+      "n": 32,
+      "tipo": "registro",
+      "registro": "exu-014"
+    },
+    {
+      "n": 33,
+      "tipo": "registro",
+      "registro": "exu-053"
+    },
+    {
+      "n": 34,
+      "tipo": "registro",
+      "registro": "exu-058"
+    },
+    {
+      "n": 35,
+      "tipo": "registro",
+      "registro": "exu-039"
+    },
+    {
+      "n": 36,
+      "tipo": "registro",
+      "registro": "exu-020"
+    },
+    {
+      "n": 37,
+      "tipo": "registro",
+      "registro": "exu-048"
+    },
+    {
+      "n": 38,
+      "tipo": "registro",
+      "registro": "exu-057"
+    },
+    {
+      "n": 39,
+      "tipo": "registro",
+      "registro": "exu-025"
+    },
+    {
+      "n": 40,
+      "tipo": "registro",
+      "registro": "exu-043"
+    },
+    {
+      "n": 41,
+      "tipo": "registro",
+      "registro": "exu-042"
+    },
+    {
+      "n": 42,
+      "tipo": "registro",
+      "registro": "exu-085"
+    },
+    {
+      "n": 43,
+      "tipo": "registro",
+      "registro": "exu-088"
+    },
+    {
+      "n": 44,
+      "tipo": "registro",
+      "registro": "exu-035"
+    },
+    {
+      "n": 45,
+      "tipo": "registro",
+      "registro": "exu-036"
+    },
+    {
+      "n": 46,
+      "tipo": "registro",
+      "registro": "omolu-002"
+    },
+    {
+      "n": 47,
+      "tipo": "registro",
+      "registro": "exu-037"
+    },
+    {
+      "n": 48,
+      "tipo": "registro",
+      "registro": "exu-086"
+    },
+    {
+      "n": 49,
+      "tipo": "registro",
+      "registro": "exu-041"
+    },
+    {
+      "n": 50,
+      "tipo": "registro",
+      "registro": "exu-026"
+    },
+    {
+      "n": 51,
+      "tipo": "registro",
+      "registro": "exu-049"
+    },
+    {
+      "n": 52,
+      "tipo": "registro",
+      "registro": "exu-046"
+    },
+    {
+      "n": 53,
+      "tipo": "registro",
+      "registro": "exu-009"
+    },
+    {
+      "n": 54,
+      "tipo": "registro",
+      "registro": "exu-082"
+    },
+    {
+      "n": 55,
+      "tipo": "registro",
+      "registro": "exu-060"
+    },
+    {
+      "n": 56,
+      "tipo": "registro",
+      "registro": "oxala-029"
+    },
+    {
+      "n": 57,
+      "tipo": "registro",
+      "registro": "oxum-026"
+    },
+    {
+      "n": 58,
+      "tipo": "registro",
+      "registro": "ogum-044"
+    },
+    {
+      "n": 59,
+      "tipo": "registro",
+      "registro": "exu-070"
+    },
+    {
+      "n": 60,
+      "tipo": "registro",
+      "registro": "exu-062"
+    },
+    {
+      "n": 61,
+      "tipo": "registro",
+      "registro": "exu-034"
+    },
+    {
+      "n": 62,
+      "tipo": "registro",
+      "registro": "exu-028"
+    },
+    {
+      "n": 63,
+      "tipo": "registro",
+      "registro": "exu-033"
+    },
+    {
+      "n": 64,
+      "tipo": "registro",
+      "registro": "exu-090"
+    },
+    {
+      "n": 65,
+      "tipo": "registro",
+      "registro": "ogum-061"
+    },
+    {
+      "n": 66,
+      "tipo": "registro",
+      "registro": "exu-072"
+    },
+    {
+      "n": 67,
+      "tipo": "registro",
+      "registro": "exu-083"
+    },
+    {
+      "n": 68,
+      "tipo": "registro",
+      "registro": "exu-084"
+    },
+    {
+      "n": 69,
+      "tipo": "registro",
+      "registro": "exu-091"
+    },
+    {
+      "n": 70,
+      "tipo": "registro",
+      "registro": "exu-092"
+    },
+    {
+      "n": 71,
+      "tipo": "registro",
+      "registro": "exu-094"
+    },
+    {
+      "n": 72,
+      "tipo": "registro",
+      "registro": "exu-093"
+    },
+    {
+      "n": 73,
+      "tipo": "registro",
+      "registro": "exu-018"
+    },
+    {
+      "n": 74,
+      "tipo": "registro",
+      "registro": "exu-063"
+    },
+    {
+      "n": 75,
+      "tipo": "registro",
+      "registro": "exu-019"
+    },
+    {
+      "n": 76,
+      "tipo": "registro",
+      "registro": "exu-067"
+    },
+    {
+      "n": 77,
+      "tipo": "registro",
+      "registro": "exu-068"
+    },
+    {
+      "n": 78,
+      "tipo": "registro",
+      "registro": "exu-069"
+    },
+    {
+      "n": 79,
+      "tipo": "registro",
+      "registro": "exu-071"
+    },
+    {
+      "n": 80,
+      "tipo": "registro",
+      "registro": "exu-073"
+    },
+    {
+      "n": 81,
+      "tipo": "registro",
+      "registro": "exu-074"
+    },
+    {
+      "n": 82,
+      "tipo": "registro",
+      "registro": "exu-076"
+    },
+    {
+      "n": 83,
+      "tipo": "registro",
+      "registro": "exu-061"
+    },
+    {
+      "n": 84,
+      "tipo": "registro",
+      "registro": "exu-087"
+    },
+    {
+      "n": 85,
+      "tipo": "registro",
+      "registro": "exu-089"
+    },
+    {
+      "n": 86,
+      "tipo": "registro",
+      "registro": "exu-015"
+    },
+    {
+      "n": 87,
+      "tipo": "registro",
+      "registro": "exu-017"
+    },
+    {
+      "n": 88,
+      "tipo": "registro",
+      "registro": "oxala-009"
+    },
+    {
+      "n": 89,
+      "tipo": "registro",
+      "registro": "exu-055"
+    },
+    {
+      "n": 90,
+      "tipo": "registro",
+      "registro": "exu-056"
+    },
+    {
+      "n": 91,
+      "tipo": "registro",
+      "registro": "exu-045"
+    },
+    {
+      "n": 92,
+      "tipo": "registro",
+      "registro": "exu-002"
+    },
+    {
+      "n": 93,
+      "tipo": "registro",
+      "registro": "exu-003"
+    },
+    {
+      "n": 94,
+      "tipo": "registro",
+      "registro": "exu-010"
+    },
+    {
+      "n": 95,
+      "tipo": "registro",
+      "registro": "exu-077"
+    },
+    {
+      "n": 96,
+      "tipo": "registro",
+      "registro": "olodumare-013"
+    },
+    {
+      "n": 97,
+      "tipo": "registro",
+      "registro": "exu-081"
+    },
+    {
+      "n": 98,
+      "tipo": "registro",
+      "registro": "exu-027"
+    },
+    {
+      "n": 99,
+      "tipo": "registro",
+      "registro": "exu-075"
+    },
+    {
+      "n": 100,
+      "tipo": "lacuna",
+      "atributo": "saudacao",
+      "tradicao": null
+    },
+    {
+      "n": 101,
+      "tipo": "pendencia",
+      "ancora": "Beniste, *Dicionário yorubá-português*"
+    },
+    {
+      "n": 102,
+      "tipo": "lacuna",
+      "atributo": "origem",
+      "tradicao": null
+    },
+    {
+      "n": 103,
+      "tipo": "lacuna",
+      "atributo": "elementos",
+      "tradicao": null
+    },
+    {
+      "n": 104,
+      "tipo": "pendencia",
+      "ancora": "Santos, *Os Nàgô e a morte* (1976)"
+    },
+    {
+      "n": 105,
+      "tipo": "pendencia",
+      "ancora": "Verger, *Notas sobre o culto aos orixás e voduns*"
+    },
+    {
+      "n": 106,
+      "tipo": "pendencia",
+      "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+    }
+  ]
+}
