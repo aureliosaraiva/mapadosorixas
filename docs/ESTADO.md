@@ -2,7 +2,7 @@
 
 > Arquivo de passagem entre sessões. **Toda sessão começa lendo este arquivo e termina atualizando-o.** Mantenha-o curto, com no máximo uma página: o detalhe fica nos relatórios linkados.
 
-**Última atualização:** 2026-10-31
+**Última atualização:** 2026-11-01
 
 ## Onde estamos
 
@@ -10,7 +10,7 @@
 
 | Indicador | Valor | Como conferir |
 |---|---:|---|
-| Fontes no catálogo | 169 (80 `conferido_web`, 79 `a_verificar`, 10 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima** | `python3 scripts/validar_fontes.py` |
+| Fontes no catálogo | 315 (220 `conferido_web`, 68 `a_verificar`, 27 `pista`); **todas as fontes usadas no fichamento estão `conferido_web` ou acima**. Varredura 3 (coleta por API): +129 `conferido_web`, +17 `pista`, 11 promovidas ([relatório](pesquisa/relatorio-varredura-03.md)) | `python3 scripts/validar_fontes.py` |
 | Registros de fichamento | 205 (189 `fichado`, 16 `pre_fichamento`, 0 `revisado`) | `python3 scripts/validar_fichamento.py` |
 | Atributos com versões divergentes | 32 | `python3 scripts/divergencias.py` |
 | Fichas geradas (`data/orixas/`) | 5 fichas, 187 versões (2 registros retidos: tabus/alimentos) | `python3 scripts/validar_fichas.py` |
@@ -21,7 +21,7 @@
 | Anti-cópia | 0 erros, também contra o texto das 8 obras lidas na rodada do glossário (4 paráfrases antigas reescritas); 3 citações curtas (≤7 palavras) e 1 repetição interna como aviso | `python3 scripts/anticopia.py` |
 | Site (`site/`) | 14 páginas: início com busca, catálogo, 5 fichas (com mini-grafo e termos do glossário ligados), grafo, tradições, glossário, fontes, metodologia, baixar dados, sobre (+ 12 arquivos em `/dados/`). Screenshots em `docs/screenshots/` | `cd site && npm ci && npm run build` |
 | QA do site | 187/187 versões batem com `data/orixas`; 47/47 termos do glossário e 19/19 tradições conferidos contra os dados (fontes, ano e página); texto das 6 tradições sem fonte ausente do site; 0 vazamento de pré-fichamento/retidos; selo e `noindex` em tudo; ~1760 links e âncoras internos sem 404; axe-core sem violações (14 páginas × 2 larguras) | `python3 scripts/qa_site.py`; `node site/scripts/acessibilidade.cjs` |
-| Idiomas no catálogo | pt, en, es, fr, de, it, yo | — |
+| Idiomas no catálogo | pt 158 · en 94 · fr 36 · es 18 · de 6 · it 2 · yo 1 | — |
 
 Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 27.
 
@@ -37,6 +37,8 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 6. **Fase 3:** redigir os resumos de itãs e a tabela de equivalências por orixá, conforme o fichamento avançar (tarefas 1 e 2).
 7. **Site (Fase 5, restante):** versões es/en (Fase 7). *(Mini-grafo, Baixar dados, QA, e — na sessão site2 — páginas Glossário, Tradições e Sobre/Créditos com termos ligados nas fichas: feitos em 2026-10-31.)* Deploy, domínio, licenças e texto final dos créditos dependem do autor → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3b.
 8. **Conselho consultivo:** o autor contata os candidatos ([`conselho/candidatos.md`](conselho/candidatos.md): 29 pesquisadores e caminhos institucionais para praticantes) com os modelos de [`conselho/kit-revisao.md`](conselho/kit-revisao.md). Antes da primeira revisão, implementar os passos 1–3 de [`conselho/proposta-registro-revisao.md`](conselho/proposta-registro-revisao.md) (campo `revisoes` por registro, `revisores.json`, regras no validador) → [`PENDENCIAS.md`](pesquisa/PENDENCIAS.md) §3c. *(Preparação: feita em 2026-10-31.)*
+
+**Sugestões da varredura 3:** fichar primeiro as fontes abertas listadas no [relatório 3](pesquisa/relatorio-varredura-03.md) (Exu × exus da Umbanda: Nascimento 2001, Costa 1980; Legba na Mina: Ferreira 2017; Ogum: Castillo 2022; Xangô de Pernambuco: Halloy 2005, Pitta 2011; Tambor de Mina: M. Ferretti 2020). Repetir a coleta para BDTD e OpenAlex quando estiverem acessíveis (`scripts/coleta/coletar.py --bases bdtd,openalex`).
 
 **Sugestões da sessão do glossário:** (a) ler Prandi 2005, *Nas pegadas dos voduns*, inteiro (36 p., aberto): pode adiantar a tarefa 2 (voduns equivalentes no Tambor de Mina); (b) repetir o anti-cópia com referências para as obras das rodadas 1–4 que ainda não passaram por ele (Nogueira 2017, Pinheiro 2011, Costa 2007, Blass 2007 etc.); (c) ~~glossário no site com links a partir das fichas~~ (feito na sessão site2).
 
@@ -61,6 +63,7 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 - **Baixar dados:** `/dados/` publica só dados públicos gerados (fichas, grafo, entidades, divergências, catálogo) `glossario.json` e `tradicoes.json` (sem as descrições ainda `rascunho_sem_fonte`); **nunca** o fichamento bruto. Licença "a definir pelo autor".
 - **Site:** Astro 7 (Node ≥ 22.23), saída estática, `SITE_BASE` para subcaminho. Selo "Rascunho — aguardando revisão de praticantes e pesquisadores" em todas as fichas e `noindex` em todas as páginas até a revisão. Etiquetas de Umbanda com borda tracejada, para distinguir de Candomblé sem depender de cor. Filtros e grafo são aprimoramento progressivo: sem JS, aparecem tabelas e listas completas.
 - **Conferência de metadados:** Open Library, Internet Archive, Crossref e repositórios institucionais valem como evidência para `conferido_web`; a URL vai em `evidencias`. Divergência de edição ou ano é anotada em `observacoes`, sem trocar o ano citado. WorldCat (429), Gallica (403) e Google Books (cota) não respondem neste ambiente.
+- **Coleta por API (varredura 3):** `scripts/coleta/` é o caminho padrão para novas varreduras. A saída bruta vai para `data/fontes/coleta/<data>/`, sem resumos (texto de terceiros). As decisões de triagem ficam num script legível (`triagem_<data>.py`) e só entram no catálogo itens sobre orixás ou religiões afro-diaspóricas, com metadado de API. Autopublicação e editoras esotéricas ficam de fora. Candidatos pertinentes mas periféricos continuam em `candidatos.json`, sem entrar no catálogo.
 - PDFs baixados ficam fora do repositório. No repo entram só metadados e paráfrase.
 - **Página nos registros é a página impressa**, não a do PDF. Quando as duas diferem, a relação é anotada no relatório da rodada.
 - **Tradição só entra se a fonte disser.** Exemplo: ogum-006 perdeu `candomble_ketu` porque Pinheiro documenta o sincretismo em casas de Umbanda e a casa de Candomblé estudada é Jeje. Se a fonte diz "candomblé" sem nação, o registro anota a aproximação em `nota`.
@@ -85,7 +88,9 @@ Registros por orixá: Exu 64 · Iemanjá 47 · Xangô 34 · Ogum 33 · Oxóssi 2
 | `docs/PLANO.md` | plano completo (fases 0–7) |
 | `docs/ESTADO.md` | este arquivo |
 | `docs/pesquisa/PENDENCIAS.md` | bloqueios a resolver pelo autor |
-| `docs/pesquisa/relatorio-varredura-0*.md` | rodadas de busca de fontes |
+| `docs/pesquisa/relatorio-varredura-0*.md` | rodadas de busca de fontes (a nº 3 é automatizada) |
+| `scripts/coleta/` | coleta por API, deduplicação, triagem e incorporação ao catálogo (ver `README.md`) |
+| `data/fontes/coleta/<data>/` | saída bruta da coleta por base, `candidatos.json`, `triagem.json`, `triagem_resumo.json` |
 | `docs/pesquisa/fichamento-0*.md` | rodadas de fichamento (fontes lidas, correções, divergências) |
 | `data/fontes/catalogo.json` | catálogo de fontes (esquema em `schemas/fonte.schema.json`) |
 | `data/fichamento/<orixa>.json` | registros atômicos por orixá (esquema em `schemas/fichamento.schema.json`) |

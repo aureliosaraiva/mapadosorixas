@@ -18,14 +18,17 @@ Para resolver: em **Network access**, nas configurações do ambiente, adicionar
 | 🔴 | `scielo.org.mx` / `www.scielo.org.mx` | conexão cortada (curl) e 503 (busca web), confirmado de novo em 2026-10-31 | Mones Guevara 2024, *Cuicuilco* (Santería): fonte para a tradição `lucumi` e para termos da Ocha (aché, moyugba) | P2 |
 | 🔴 | `core.ac.uk` | 403 | verbete acadêmico sobre Yemọja (core.ac.uk/download/213811235.pdf); artigo em português sobre os sistemas afro-cubanos segundo Fernando Ortiz: Ocha, Arará, Abakuá, Palo Monte (core.ac.uk/download/51396375.pdf), que daria fonte a `palo_monte` e `arara` | P2 |
 | 🔴 | `bibliotecadigital.udea.edu.co` | 403 + verificação anti-robô | Arango 2018, dissertação sobre Ocha na Colômbia (`arango-2018-ache`). Baixar manualmente e anexar | P2 |
-| 🔴 | `dialnet.unirioja.es` | erro de SSL na conexão | Ferretti 2011, "Comida ritual em festas de Tambor de Mina", *Horizonte* v. 9, n. 21 (DOI 10.5752/P.2175-5841.2011v9n21p242). Tentar o site da PUC Minas | P3 |
+| 🟡 | `dialnet.unirioja.es` | erro de SSL na conexão | nada no momento: Ferretti 2011 (*Horizonte*) foi achado aberto no site da PUC Minas pela DOAJ (`ferretti-2011-comida`) | P3 |
 | 🟡 | `seer.ufrgs.br` | curl tem a conexão cortada; o PDF veio pela ferramenta de busca web | Debates do NER (Oro 2008 já lido). Para outros artigos do NER, usar o mesmo caminho | P3 |
 | 🔴 | `muse.jhu.edu` | 403 (provável paywall) | Brown 1989, "Ogou in Haiti" (cap. de *Africa's Ogun*) | P1 |
 | 🔴 | `www.religion.ucsb.edu` | 404 (arquivo removido) | Pérez 2013, "Nobody's Mammy" (Yemayá em Cuba). Buscar outra cópia | P2 |
-| 🟡 | `bdtd.ibict.br` (páginas de registro) | 500 | nada no momento: a tese UFG 2017 foi lida direto no repositório da UFG | P3 |
+| 🔴 | `bdtd.ibict.br` (API VuFind e páginas) | API: `HTTP 400 Problem connecting to Solr` nas 61 consultas da varredura 3 (2026-10-31); páginas: 500. Problema do servidor da BDTD, não do ambiente | **teses e dissertações brasileiras recentes** sobre os 5 orixás e sobre Angola, Jeje, Batuque e Mina (lacuna da varredura 3). Repetir `python3 scripts/coleta/coletar.py --bases bdtd` mais tarde | P2 |
 | 🟡 | `oasisbr.ibict.br` | 503 | dissertação Ribas 2010 (*Saravá Ogum*, sustenta ogum-005, ainda `pre_fichamento`); teses PUC-SP sobre Exu | P2 |
 | 🟡 | `revistas.usp.br` | falha de DNS intermitente | artigos da USP (funcionou na 2ª tentativa) | — |
-| 🟡 | `api.openalex.org` | 429 (limite de requisições) | coleta automatizada de metadados; tentar mais tarde ou com chave/e-mail | P3 |
+| 🔴 | `api.openalex.org` | 429 mesmo com `mailto`: o orçamento diário sem chave é compartilhado pelo IP do ambiente e estava esgotado (2026-10-31) | coleta OpenAlex da varredura 3. **Para resolver:** o autor cria uma chave gratuita (help.openalex.org/api/authentication) e a coloca como variável `OPENALEX_API_KEY` nas configurações do ambiente; depois rodar `coletar.py --bases openalex` | P3 |
+| 🔴 | `api.datacite.org`, `www.base-search.net` | desafio anti-robô ("Making sure you're not a bot") | metadados DataCite (DOIs do HAL e de repositórios) e o agregador BASE | P3 |
+| 🔴 | `search.scielo.org`, `api.core.ac.uk` | 403 / redirecionamento para login (o CORE exige chave) | busca SciELO direta (os artigos SciELO vieram pelo Crossref e pela DOAJ) e CORE | P3 |
+| 🟡 | `api.crossref.org` | 429 intermitente depois de ~300 requisições seguidas; o backoff do coletor resolve | nada bloqueado | — |
 
 ## 2. Obras impressas ou pagas (precisam de exemplar)
 
@@ -63,7 +66,9 @@ Para resolver: fotografar ou escanear as páginas indicadas e anexar na conversa
 | Status | Item | Como resolver | Prioridade |
 |:-:|---|---|:-:|
 | 🔴 | Datas de tombamento do IPHAN (Alaketu: 2004, 2005 ou 2008; Gantois, Bate Folha, Casa das Minas: 2005 ou 2006) | consultar Livro do Tombo / banco de pareceres do IPHAN | P2 |
-| 🟡 | 79 fontes `a_verificar` e 10 `pista` no catálogo, nenhuma usada no fichamento (as 19 usadas foram conferidas em 2026-10-31) | conferir no WorldCat, ISBN ou DOI quando entrarem no fichamento | P3 |
+| 🟡 | 68 fontes `a_verificar` e 27 `pista` no catálogo, nenhuma usada no fichamento. A varredura 3 promoveu 11 a `conferido_web` e acrescentou 17 pistas (8 dissertações ou teses sem ano no registro, possível resenha em *Afro-Ásia* 2007, Segato com ano a conferir etc.) | conferir no WorldCat, ISBN ou DOI quando entrarem no fichamento | P3 |
+| 🔴 | Varredura 3: tradição e confiabilidade das 129 fontes novas foram atribuídas por título e resumo, **sem leitura**. Nação não explícita está anotada em `observacoes` ("nação a confirmar") | confirmar na leitura, ao fichar | P3 |
+| 🔴 | Orisha de Trinidad: as fontes centrais achadas na varredura 3 (Simpson 1962/1965, Henry 1983, Trotman 1976/2007, Aiyejina & Gibbons 1999, Houk 2024, Castor 2017, Stewart 2022) são pagas ou impressas | exemplar ou PDF de biblioteca, para dar fonte a `orisha_trinidad` | P3 |
 | 🔴 | Vallado, *Iemanjá: a grande mãe africana do Brasil*: Open Library registra a ed. de 2002 (ISBN 85-347-0246-2); Queiroga & Nascimento citam 2008 | conferir no exemplar ou na Pallas se 2008 é reedição; ajustar `ano`/id se for a mesma edição | P3 |
 | 🔴 | Capítulos de Augras (1989) e Ferreira (2000): obras coletivas conferidas, mas título e páginas dos capítulos não | sumário das obras (exemplar ou catálogo de biblioteca) | P3 |
 | 🔴 | Lista completa da Coleção Orixás (Pallas) | site ou contato com a editora | P2 |
@@ -109,6 +114,8 @@ Material pronto em [`docs/conselho/`](../conselho/). **Nenhuma pessoa ou institu
 
 | Data | Item | Como |
 |---|---|---|
+| 2026-10-31 | Ferretti 2011, "Comida ritual em festas de Tambor de Mina" (antes atrás do Dialnet) | texto aberto no site da PUC Minas, achado pela DOAJ na varredura 3 |
+| 2026-10-31 | Coleta automatizada de metadados (antes impossível por bloqueio de API) | Crossref, Open Library, theses.fr, HAL e DOAJ respondem; `scripts/coleta/` ([relatório 3](relatorio-varredura-03.md)) |
 | 2026-10-31 | Descrições de 13 tradições com fonte e página; glossário com 47 termos | Bastide 1961, Chiousse 1995, Prandi 2001 e 2005, Silva 2012, Oro 2008, Botão 2007, Tomba 2019 ([fichamento-05](fichamento-05.md)) |
 | 2026-10-31 | Leitura de Nogueira 2017 (UFG), Pinheiro 2011 (UFPB) e Costa 2007 (*Afro-Ásia*): exu-034, ogum-006 e xango-005 passaram a `fichado` | PDFs nos repositórios UFG e UFPB e no portal de periódicos da UFBA ([fichamento-04](fichamento-04.md)) |
 | 2026-10-31 | Metadados de Ortiz 1978 e Landes 1947, usados como fonte primária de registros de 2ª mão | Open Library → `conferido_web` |

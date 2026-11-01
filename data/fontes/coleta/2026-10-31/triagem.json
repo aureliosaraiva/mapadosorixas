@@ -1,0 +1,2262 @@
+{
+ "_meta": {
+  "descricao": "Decisões da triagem da varredura nº 3, geradas por scripts/coleta/triagem_2026-10-31.py. Aplicar com scripts/coleta/incorporar.py.",
+  "data": "2026-10-31"
+ },
+ "decisoes": {
+  "c7125a1d183": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "correa-1996-cozinha",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos)."
+  },
+  "c56f74a58b4": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "polvora-1995-batuque",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API."
+  },
+  "c2dc943ac79": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "bem-2010-reafricanizacao",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Apontamentos sobre formas alternativas de reafricanização em terreiros de batuque no Rio Grande do Sul, Argentina e Uruguai"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Debates do NER)."
+  },
+  "c4d6522eb59": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pernambuco-2019-batuque",
+    "tipo": "artigo",
+    "categoria": "praticante",
+    "tradicoes": [
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "As religiões africanas no Rio Grande do Sul (batuque)"
+   },
+   "justificativa": "texto de sacerdote do batuque publicado em periódico acadêmico (Debates do NER); visão de dentro, a cotejar com etnografias."
+  },
+  "c7c96b97a54": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "braga-1998-batuque",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Batuque jêje-ijexá em Porto Alegre: a música no culto aos orixás"
+   },
+   "justificativa": "etnomusicologia do batuque; registro na Open Library e resenha em Horizontes Antropológicos (1999, DOI 10.1590/s0104-71831999000200014) confirmam a obra."
+  },
+  "ccfc4d432b9": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "tadvald-2016-batuque",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Notas históricas e antropológicas sobre o batuque no Rio Grande do Sul"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API."
+  },
+  "c0edda38d7a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "oro-2012-campo",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "batuque_rs",
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Civitas); autor é referência no tema."
+  },
+  "c00f796dd0d": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "muchnik-2006-tango",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "batuque_rs",
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "livro derivado de tese de doutorado (theses.fr, 2004) sobre religiões afro-brasileiras em Buenos Aires."
+  },
+  "ce09458d1f3": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "moura-2019-ogum-bage",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (PROA, Unicamp); tradição tirada do resumo (umbanda)."
+  },
+  "cec3124c0a2": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "mendes-2014-angola-caboclo",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_angola"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Candomblé angola e o culto a caboclo: de como João da Pedra Preta se tornou o rei nagô"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API."
+  },
+  "c6c86eb9bd2": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "vatin-2001-nations",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_angola",
+     "candomble_ketu",
+     "candomble_jeje"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL); comparação explícita entre nações."
+  },
+  "c4818103275": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "hass-2019-angola",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_angola"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Mouseion)."
+  },
+  "c76701f62e5": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "lima-2020-angola",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_angola"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Sobre sincretismo e pureza: uma perspectiva do candomblé angola"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API."
+  },
+  "ce2f33d0eb9": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "santos-2015-triade-bantu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_angola",
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas)."
+  },
+  "c13e552af92": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferreira-2026-vodunsi",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_jeje"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (ouvirOUver, UFU)."
+  },
+  "c74820cc0ee": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pares-2001-jeje",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_jeje",
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Slavery & Abolition); autor é referência sobre a nação jeje."
+  },
+  "c932f87b7b0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "dias-2016-candomble-africa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_jeje",
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "“Candomblé é a África”: esquecimento e utopia no candomblé jeje-nagô"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de História, PUC Minas)."
+  },
+  "ce8b59796a1": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "cerqueira-2015-lebabimibome",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_jeje"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL)."
+  },
+  "c503e233e24": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "barbier-2002-golfe",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "vodun_benim"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API."
+  },
+  "c73e2059e2e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "tall-2009-patrimoine",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "vodun_benim"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Lusotopie)."
+  },
+  "cd6823320db": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "brivio-2013-verger",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "vodun_benim",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (History in Africa); estudo sobre a obra de Verger."
+  },
+  "cec859c1742": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "capone-2010-searching",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Duke University Press); trata Exu no candomblé e na umbanda."
+  },
+  "c92e46d3058": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "allison-1964-eshu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "A Carved Stone Figure of Eshu from Igbajo, Western Nigeria"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Man, RAI)."
+  },
+  "c45b3000bb2": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "costa-1980-exu-umbanda",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia)."
+  },
+  "c1da4af85a4": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "sandoval-2007-worldview",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (University Press of Florida); capítulos por orixá com DOI no Crossref."
+  },
+  "cca81d1f8cb": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "zander-1981-eshu",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica (tese impressa) registrada na Open Library."
+  },
+  "c4b0bfe9357": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ogundipe-2012-esu",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "edição universitária (Kwara State University Press) da tese do autor sobre Èṣù (Indiana, 1978)."
+  },
+  "c7f724d59cc": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "capone-1997-esu",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL)."
+  },
+  "c84c09dcb30": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "trindade-1985-simbolo",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "publicação do Centro de Estudos da Religião (USP) por pesquisadora do tema."
+  },
+  "c8462e9cfd6": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "nascimento-2001-exus",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Exus e Pombas-Giras: o masculino e o feminino nos pontos cantados da umbanda"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Psicologia em Estudo); útil para a distinção Exu orixá × exus da umbanda."
+  },
+  "cf45d7bab06": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pitta-2019-exu-recife",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API. O título diz 'Candomblé de Recife'; a tradição xango_pernambuco é aproximação a conferir na leitura."
+  },
+  "c5a065c477e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pelton-1980-legba",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "vodun_benim"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Legba: Master of the Fon Dialectic",
+    "autores": [
+     "Robert D. Pelton"
+    ]
+   },
+   "justificativa": "capítulo em obra acadêmica de editora universitária (DOI Crossref): cap. 3 de Robert D. Pelton, The Trickster in West Africa (University of California Press)."
+  },
+  "cca86b79944": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "witte-1984-ifa-esu",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "catálogo iconográfico de Hans Witte; registro na Open Library."
+  },
+  "c704c5e3e1e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "boyer-1991-compagnons",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "umbanda",
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL) (Umbanda e Mina em Belém)."
+  },
+  "c244336bff3": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "queiroz-2022-exu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade); tradições tiradas do resumo, nação do candomblé não especificada."
+  },
+  "cbf5b0f9e75": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "giumbelli-2021-quimbanda",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de Antropologia, USP)."
+  },
+  "c77ca18c7b2": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "campos-2016-exu-umbanda",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Debates do NER)."
+  },
+  "c961b8c85b3": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "veiga-2021-exu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); tradições a confirmar na leitura."
+  },
+  "c885a0f6c41": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "wescott-1962-eshu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, IAI); estudo clássico citado na literatura sobre Èṣù."
+  },
+  "c30aa6f1bc6": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "santos-2014-esu",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A",
+    "autores": [
+     "Juana Elbein dos Santos",
+     "Deoscóredes Maximiliano dos Santos"
+    ],
+    "idioma": "pt"
+   },
+   "justificativa": "monografia de Juana Elbein dos Santos e Deoscóredes M. dos Santos (Corrupio), autores de referência sobre Exu."
+  },
+  "cae8ce47022": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "vallier-2011-esu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria",
+     "vodun_benim"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cahiers d'études africaines)."
+  },
+  "cb5910cf45a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "toutain-2019-santos",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL)."
+  },
+  "c130f693dc3": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pemberton-1975-eshu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts); estudo clássico."
+  },
+  "c9278a5a2fc": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "oyelaran-2020-esu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, Cambridge)."
+  },
+  "c9ab0e5377c": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "barber-1990-proliferation",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A",
+    "titulo": "Oríkì, women and the proliferation and merging of òrìṣà"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa); sustenta a variação local do panteão iorubá."
+  },
+  "c797bccfa17": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "santana-2023-xamba",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Educação & Formação, UECE)."
+  },
+  "c6a22920195": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "prandi-1995-deuses",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "A",
+    "ano": 1995
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos); autor de referência. A DOAJ data o registro em 2026, mas o identificador SciELO (S0104-71831995…) indica 1995."
+  },
+  "c25889eabd0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "marques-2018-fazendo",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Nação do candomblé não especificada nos metadados (aproximação)."
+  },
+  "ccd026f8139": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "silveira-1986-force",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL)."
+  },
+  "c98cffd11f0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "houk-2024-orisha",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B",
+    "autores": [
+     "James Houk"
+    ],
+    "idioma": "en"
+   },
+   "justificativa": "capítulo em obra acadêmica de editora universitária (DOI Crossref) (The Oxford Handbook of Caribbean Religions)."
+  },
+  "c4c8672d278": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "voeks-1997-sacred",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "A",
+    "titulo": "Sacred Leaves of Candomblé: African Magic, Medicine, and Religion in Brazil",
+    "autores": [
+     "Robert A. Voeks"
+    ]
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (University of Texas Press)."
+  },
+  "cc9007d53ec": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "mason-1998-beadwork",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Yorùbá Beadwork in the Americas: Òrìṣà and Bead Color"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts); trata cores de contas por orixá."
+  },
+  "c261fe8638f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "capone-2011-religion",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Hermann)."
+  },
+  "c2ab8c2f30f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "halloy-2005-intimite",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife."
+  },
+  "cbff937102f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "segato-1988-iemanja",
+    "tipo": "documento",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "texto da Série Antropologia (UnB) de pesquisadora do Xangô do Recife; registro na Open Library."
+  },
+  "c6987fc6f5d": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "giumbelli-2024-monumentos",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda",
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade). Tradições a confirmar na leitura."
+  },
+  "ce3eb7fcd5e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ogunleye-2015-yemoja",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Inkanyiso)."
+  },
+  "cdb8f1abbde": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "noleto-2025-montevideu",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Tradição a confirmar na leitura."
+  },
+  "c7e9bdd47c5": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pordeus-2011-festa",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "publicação do Museu do Ceará por antropólogo da UFC; tradição a confirmar."
+  },
+  "cf42749a9ac": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "niell-2023-regla",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religions, MDPI)."
+  },
+  "c2cda1ee416": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "lovejoy-2019-lucumi",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "capítulo em obra acadêmica de editora universitária (DOI Crossref): cap. de Henry B. Lovejoy, Prieto: Yorùbá Kingship in Colonial Cuba (University of North Carolina Press)."
+  },
+  "c2a41871f00": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "castor-2013-trinidad",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Shifting Multicultural Citizenship: Trinidad Orisha Opens the Road"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cultural Anthropology)."
+  },
+  "cbbcbb6d625": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "carneiro-2026-osun-yemoja",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de Antropologia da UFSCar); o subtítulo no Crossref indica Xangô do Recife."
+  },
+  "cd94ae12ccf": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "schweitzer-2013-bata",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (University Press of Mississippi)."
+  },
+  "cd0c80593b7": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "fernandez-olmos-2022-orisha-cuba",
+    "tipo": "capitulo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "The Orisha Tradition in Cuba: Santería/Regla de Ocha",
+    "autores": [
+     "Margarite Fernández Olmos",
+     "Lizabeth Paravisini-Gebert"
+    ]
+   },
+   "justificativa": "capítulo em obra acadêmica de editora universitária (DOI Crossref): cap. 2 de Margarite Fernández Olmos e Lizabeth Paravisini-Gebert, Creole Religions of the Caribbean, 3ª ed. (New York University Press)."
+  },
+  "cb933270810": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "castillo-2016-bamboxe",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Tempo, UFF)."
+  },
+  "c8477707b77": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "perez-2011-cooking",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religion)."
+  },
+  "c6c1d3cdff6": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "dianteill-2000-dieux",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Éditions de l'EHESS)."
+  },
+  "cf000841fa8": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "dianteill-1997-oricha",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Archives de sciences sociales des religions)."
+  },
+  "cdd1c173294": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "olupona-abiodun-2016-ifa",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A",
+    "autores": [
+     "Jacob K. Olupona",
+     "Rowland O. Abiodun"
+    ]
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Indiana University Press)."
+  },
+  "c86233ab0d4": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "testa-2006-santeria",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL)."
+  },
+  "c5183c720a6": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "argyriadis-2005-ramas",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal de la Société des américanistes)."
+  },
+  "c2111d71c9e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "linares-1993-santeria",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Gazeta de Antropología); autora é etnomusicóloga cubana."
+  },
+  "c0d5d1f5f2e": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "balbuena-2003-celebraciones",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "publicação do CIDMUC (Havana), centro de pesquisa musical cubano."
+  },
+  "c131c5f8552": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "arguelles-1997-sistemas",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "Editorial Academia (Havana); autor pesquisador cubano."
+  },
+  "c59a22bf653": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "dominguez-2005-necklaces",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (BEADS); cores de colares por oricha."
+  },
+  "cb7b8bbbdab": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "bolivar-1994-opolopo",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "Editorial de Ciencias Sociales (Havana); autora de referência (Bolívar, Los orishas en Cuba)."
+  },
+  "c71722e4727": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "fernandez-olmos-1997-sacred",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi",
+     "vodou_haiti"
+    ],
+    "confiabilidade_preliminar": "A",
+    "autores": [
+     "Margarite Fernández Olmos",
+     "Lizabeth Paravisini-Gebert"
+    ]
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Rutgers University Press)."
+  },
+  "c7829ffdeb9": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "rauhut-2012-santeria",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Ergon); tese publicada."
+  },
+  "c3e5d75065a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "gobin-2012-complexe",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese de doutorado registrada em base nacional de teses (theses.fr/HAL)."
+  },
+  "c8f6d1fc00f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "campos-2019-jorge",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "umbanda"
+    ],
+    "confiabilidade_preliminar": "B",
+    "idioma": "pt"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (PROA, Unicamp)."
+  },
+  "c7074e01e70": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "castillo-2022-ogum",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de História, USP); história de um culto familiar a Ogum em Salvador."
+  },
+  "ce415b37e6c": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ramos-2010-boi",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Resgate, Unicamp). Nação não especificada nos metadados."
+  },
+  "cdc15dd4da0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "fontes-2021-orixa-desaparecido",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Orixá desaparecido: descobertas através de um museu silencioso"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia). Nação a confirmar."
+  },
+  "c3dda88ec6b": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "poynor-2012-ogun",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Nova Religio)."
+  },
+  "cbff8c771d9": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "mischel-1957-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Anthropological Quarterly)."
+  },
+  "c009bab9222": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "vertovec-1998-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Social Compass)."
+  },
+  "cbde42a8c03": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "henry-2008-power",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "biografia de um líder do Orisha de Trinidad por antropóloga de referência (Frances Henry)."
+  },
+  "c95c07a1f91": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "stewart-2022-orisa",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Duke University Press)."
+  },
+  "c6e527b4c27": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "aiyejina-1999-orisa",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Caribbean Quarterly)."
+  },
+  "cc295ff1277": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "lum-2000-praising",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Harwood/Taylor & Francis)."
+  },
+  "cc1c9942666": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "trotman-2007-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Slavery & Abolition)."
+  },
+  "c97d93c1de8": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "henry-1983-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Caribbean Quarterly)."
+  },
+  "c5882a41b4f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "castor-2017-spiritual",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Duke University Press)."
+  },
+  "c5e6360d6f7": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pollak-eltz-1993-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Caribbean Quarterly)."
+  },
+  "c89f4a8cba7": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "simpson-1962-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "The Shango Cult in Nigeria and in Trinidad"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (American Anthropologist)."
+  },
+  "cf8dee25170": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "trotman-1976-yoruba",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Studies Review)."
+  },
+  "c6bf81e4646": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "simpson-1965-shango",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia clássica (Institute of Caribbean Studies, Universidade de Porto Rico); registro na Open Library."
+  },
+  "c8a27997c12": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "bazinet-2017-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "orisha_trinidad"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ethnomusicology)."
+  },
+  "c37b68b8aef": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "santos-ms-2016-impressoes",
+    "tipo": "artigo",
+    "categoria": "praticante",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "“Impressões” de Mãe Stella de Oxóssi, Iya Odé Kayode, 5ª iyalorixá do Ilê Axé Opô Afonjá, sobre o Atlas Geográfico África-Brasil de autoria do geógrafo Rafael Sanzio dos Anjos",
+    "autores": [
+     "Maria Stella de Azevedo Santos (Mãe Stella de Oxóssi)"
+    ]
+   },
+   "justificativa": "texto da iyalorixá do Ilê Axé Opô Afonjá em periódico da UnB; voz de praticante."
+  },
+  "cd05f891735": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "santos-ms-2006-ososi",
+    "tipo": "livro",
+    "categoria": "praticante",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "autores": [
+     "Maria Stella de Azevedo Santos (Mãe Stella de Oxóssi)"
+    ]
+   },
+   "justificativa": "livro da iyalorixá do Ilê Axé Opô Afonjá sobre Oxóssi; obra de praticante."
+  },
+  "cf40bc9a8e8": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "verger-1981-oxossi",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu",
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "obra de Pierre Verger (Corrupio); registro na Open Library."
+  },
+  "c76fd96db19": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "cavalcanti-2019-casa-minas",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "A Casa das Minas de São Luís do Maranhão e a saga de Nã Agontimé"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Sociologia & Antropologia)."
+  },
+  "c19dce656c8": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "almeida-2019-mina",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Ao ritmo de tambores e maracás: tambor de mina e pajelança no Maranhão de meados do século XX"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Projeto História, PUC-SP)."
+  },
+  "c6692cad10a": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-m-2014-brinquedo",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B",
+    "idioma": "pt"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista do IEB, USP); autora é referência no tema."
+  },
+  "c92f9884939": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-2011-comida",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Comida ritual em festas de Tambor de Mina no Maranhão"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas); acesso aberto pelo DOAJ, contornando o bloqueio do Dialnet."
+  },
+  "c7cd8896b67": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferreira-2017-legba",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B",
+    "idioma": "pt"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); Legba na Mina e no Terecô."
+  },
+  "c30567e1ab4": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-m-1993-guma",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia de Mundicarmo Ferretti (SIOGE, São Luís), referência sobre o caboclo no Tambor de Mina."
+  },
+  "ce491220203": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-1996-acossi",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos)."
+  },
+  "c0298496f01": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-m-2020-pureza",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ciencias Sociales y Religión)."
+  },
+  "cf066e619c0": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-1995-sincretismo",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "monografia acadêmica em editora universitária/científica (Edusp/FAPEMA); estudo da Casa das Minas."
+  },
+  "c9a5f4205a6": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-m-1992-turco",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia)."
+  },
+  "c4abd3fa026": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-1998-sincretismo",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos)."
+  },
+  "c489b8249a7": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "barros-1999-fogueira",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "A fogueira de Xangô, o orixá do fogo"
+   },
+   "justificativa": "publicação acadêmica (Intercon/UERJ) de José Flávio Pessoa de Barros, pesquisador do candomblé."
+  },
+  "c4e5f3da187": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pereira-2013-xango-candomble",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "De Xangô a Candomblé: transformações no mundo afro-pernambucano"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas)."
+  },
+  "c16e299c043": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "halloy-2012-gods",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ethnos)."
+  },
+  "c565dc33d95": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "capo-chichi-2025-shango",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "ioruba_nigeria"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Yoruba Studies Review); etimologia do nome."
+  },
+  "c30adf15d9b": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "costa-lima-1966-obas",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia); estudo clássico do Opô Afonjá."
+  },
+  "c4a033baa85": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "motta-2011-sexo",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B",
+    "titulo": "Sexo, culpa, sacrifício e expiação no Xangô de Pernambuco"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Esboços, UFSC)."
+  },
+  "c8a71222329": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "carvalho-1993-cantos",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "edição de cantos pelo etnomusicólogo José Jorge de Carvalho (Fundação Cultural Palmares)."
+  },
+  "c54f5b1ff26": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "mendonca-2016-familia",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "editora universitária (EDUA, UFAM); registro na Open Library."
+  },
+  "ccb4df95a65": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "motta-2003-sacrifice",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Social Compass)."
+  },
+  "c86d13457c9": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "valente-1954-marcas",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "estudo clássico (Universidade do Recife); registro na Open Library."
+  },
+  "c11081ee76f": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "pitta-2011-mitos",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de Estudos Sociais, Fundaj)."
+  },
+  "cb65352bdf5": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "motta-1998-util",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos)."
+  },
+  "c4cae12929b": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "lacourse-1997-nago",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Anthropologie et Sociétés)."
+  },
+  "c2db6f6bac8": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "motta-1991-transe",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de Antropologia, USP)."
+  },
+  "c7a3800fb81": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "guerra-2013-xamba",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B",
+    "autores": [
+     "Lucia Helena Barbosa Guerra"
+    ]
+   },
+   "justificativa": "editora universitária (UFPE); registro na Open Library."
+  },
+  "c26116f2970": {
+   "decisao": "entra",
+   "motivo": null,
+   "fonte": {
+    "id": "fernandes-1937-xangos",
+    "tipo": "livro",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "A"
+   },
+   "justificativa": "estudo clássico (Civilização Brasileira, Biblioteca de Divulgação Científica); registro na Open Library."
+  },
+  "c8be10474eb": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "silva-mb-orixas-ecologia",
+    "tipo": "dissertacao",
+    "categoria": "tese",
+    "tradicoes": [
+     "batuque_rs"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dissertação USP sem ano no registro Crossref; ano e orientador a conferir."
+  },
+  "c996ab5f6d0": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "ferreira-ta-nzo-ia-nkisi",
+    "tipo": "dissertacao",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_angola"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dissertação UnB sem ano no registro; conferir no repositório."
+  },
+  "cb0bdb0f4df": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "machado-vs-cajado-lemba",
+    "tipo": "dissertacao",
+    "categoria": "tese",
+    "tradicoes": [
+     "candomble_angola"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dissertação USP sobre o tempo no candomblé angola; ano a conferir."
+  },
+  "c5be3626f71": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "costa-1989-angola",
+    "tipo": "livro",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "candomble_angola"
+    ],
+    "confiabilidade_preliminar": "C",
+    "idioma": "pt"
+   },
+   "justificativa": "livro de divulgação (Pallas); autoria e conteúdo a avaliar."
+  },
+  "cff65815465": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "porto-filho-2009-dois-fevereiro",
+    "tipo": "livro",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "memória local (Acirv); pode ajudar na divergência sobre a origem da festa (1923 ou c. 1910)."
+  },
+  "c2a1cb92515": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "ramos-m-lucumi-reevaluation",
+    "tipo": "dissertacao",
+    "categoria": "tese",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dissertação (FIU) sem ano no registro; conferir."
+  },
+  "ce60995e385": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "prandi-2000-ogum-faces",
+    "tipo": "livro",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "C",
+    "autores": [
+     "Reginaldo Prandi"
+    ]
+   },
+   "justificativa": "livro infantojuvenil de Reginaldo Prandi (Cia. das Letras); autor ausente no registro."
+  },
+  "c07e2c6b2f9": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "ferretti-m-caboclo-dissertacao",
+    "tipo": "dissertacao",
+    "categoria": "tese",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "dissertação de Mundicarmo Ferretti (USP) sem ano no registro."
+  },
+  "cabae6c466f": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "cousin-tambor-mina-these",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "tambor_de_mina"
+    ],
+    "confiabilidade_preliminar": "B",
+    "idioma": "fr"
+   },
+   "justificativa": "tese (etnomusicologia) sem ano no registro; conferir em theses.fr."
+  },
+  "c739d938d08": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "lins-2004-xango-pe",
+    "tipo": "livro",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "livro de divulgação (Pallas) sobre a tradição; autoria a avaliar."
+  },
+  "c14d795385a": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "donatien-nago-lento",
+    "tipo": "tese",
+    "categoria": "tese",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "tese (etnomusicologia) sobre o xangô; ano a conferir."
+  },
+  "c32a4c0647e": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "souza-hernandez-1998-echu",
+    "tipo": "livro",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "lucumi"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "Ediciones Unión (Havana); obra de autor ligado à prática, a avaliar."
+  },
+  "c119a02df02": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "nangetu-2026-angola",
+    "tipo": "artigo",
+    "categoria": "praticante",
+    "tradicoes": [
+     "candomble_angola"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "texto de mam'etu (sacerdotisa) em periódico; venue a avaliar."
+  },
+  "ccf206dbb62": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "medeiros-1957-candomble",
+    "tipo": "livro",
+    "categoria": "divulgacao",
+    "tradicoes": [
+     "candomble_ketu"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "fotorreportagem (O Cruzeiro) de valor histórico; não é fonte para atributos."
+  },
+  "c50ff2d3f57": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "nascimento-2007-jeje",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_jeje"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "Afro-Ásia; possivelmente resenha de Parés 2006 (DOI não respondeu na conferência)."
+  },
+  "c7cf0e6055f": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "pereira-2025-voduns",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "candomble_jeje"
+    ],
+    "confiabilidade_preliminar": "C"
+   },
+   "justificativa": "periódico pouco conhecido; avaliar antes de usar."
+  },
+  "c5117663af1": {
+   "decisao": "pista",
+   "motivo": null,
+   "fonte": {
+    "id": "segato-iemanja-familia",
+    "tipo": "artigo",
+    "categoria": "academica",
+    "tradicoes": [
+     "xango_pernambuco"
+    ],
+    "confiabilidade_preliminar": "B"
+   },
+   "justificativa": "Anuário Antropológico (UnB); a DOAJ data 2018, provável digitalização de volume antigo; ano original a conferir."
+  },
+  "c4f7c75a5d0": {
+   "decisao": "descarta",
+   "motivo": "duplicata de barros-2000-kimbundu (dissertação já no catálogo)"
+  },
+  "c13a3b553cd": {
+   "decisao": "descarta",
+   "motivo": "duplicata de silva-2012-exu-brasil"
+  },
+  "cb6276d52ad": {
+   "decisao": "descarta",
+   "motivo": "duplicata de lachatanere-1938-yemaya"
+  },
+  "c31680671cf": {
+   "decisao": "descarta",
+   "motivo": "duplicata de otero-falola-2013-yemoja"
+  },
+  "cd54e36604e": {
+   "decisao": "descarta",
+   "motivo": "duplicata de mosaico-2020-oxossi"
+  },
+  "cfa5e50aa66": {
+   "decisao": "descarta",
+   "motivo": "duplicata de ferretti-1985-querebenta"
+  },
+  "c071877b662": {
+   "decisao": "descarta",
+   "motivo": "duplicata (reedição) de ferretti-1985-querebenta"
+  },
+  "ce923a46de6": {
+   "decisao": "descarta",
+   "motivo": "reedição de houk-1995-spirits"
+  },
+  "c2d649e66ca": {
+   "decisao": "descarta",
+   "motivo": "tradução inglesa de pares-2006-formacao (já no catálogo)"
+  },
+  "c0d1af056b5": {
+   "decisao": "descarta",
+   "motivo": "edição francesa (Métailié) de verger-1981-orixas"
+  },
+  "c9646b784e1": {
+   "decisao": "descarta",
+   "motivo": "tradução alemã de barnet-1995-cultos"
+  },
+  "cebae425b43": {
+   "decisao": "descarta",
+   "motivo": "tradução brasileira de cabrera-1974-yemaya"
+  },
+  "c2abd22d022": {
+   "decisao": "descarta",
+   "motivo": "provável resenha de disco (Cahiers de musiques traditionnelles)"
+  },
+  "c0a3955f74d": {
+   "decisao": "descarta",
+   "motivo": "tese já representada pelo livro muchnik-2006-tango"
+  },
+  "cde2691a29c": {
+   "decisao": "descarta",
+   "motivo": "já no catálogo como falola-genova-2005-orisa (usado para conferência)"
+  },
+  "c30f1184937": {
+   "decisao": "descarta",
+   "motivo": "já no catálogo como cabrera-1954-monte (usado para conferência)"
+  },
+  "c593951d611": {
+   "decisao": "descarta",
+   "motivo": "já no catálogo como cabrera-1974-yemaya (usado para conferência)"
+  }
+ },
+ "conferencias": {
+  "carybe-1980-iconografia": {
+   "chave": "cac8a5962f9",
+   "nota": null
+  },
+  "prandi-2005-segredos": {
+   "chave": "c961c1692bd",
+   "nota": null
+  },
+  "silva-1994-candomble-umbanda": {
+   "chave": "c02c2c7853d",
+   "nota": null
+  },
+  "matory-2005-black": {
+   "chave": "c012136c42b",
+   "nota": null
+  },
+  "brown-dh-2003-santeria": {
+   "chave": "c251c5212cf",
+   "nota": null
+  },
+  "henry-2003-reclaiming": {
+   "chave": "cd74a9d7d8b",
+   "nota": null
+  },
+  "houk-1995-spirits": {
+   "chave": "c71739c93cb",
+   "nota": null
+  },
+  "seyfeli-kul-2020-orisha": {
+   "chave": "c53aba4f447",
+   "nota": "Título no Crossref em turco e inglês."
+  },
+  "falola-genova-2005-orisa": {
+   "chave": "cde2691a29c",
+   "nota": null,
+   "isbn": true
+  },
+  "cabrera-1954-monte": {
+   "chave": "c30f1184937",
+   "nota": "Open Library registra Ediciones C. R., Havana, 1954; reedições de 1971 e 1975 (Ediciones Universal).",
+   "isbn": true
+  },
+  "cabrera-1974-yemaya": {
+   "chave": "c593951d611",
+   "nota": "Open Library registra a edição de 1980 (Ediciones Universal); a 1ª edição (1974) não aparece no registro; ano citado mantido.",
+   "isbn": false
+  }
+ }
+}

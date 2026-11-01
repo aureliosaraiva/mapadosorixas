@@ -1,0 +1,4353 @@
+{
+ "base": "hal",
+ "data": "2026-10-31",
+ "linhas_por_consulta": 20,
+ "gerado_por": "scripts/coleta/coletar.py",
+ "status": "ok",
+ "erro": null,
+ "consultas": [
+  {
+   "id": "exu-pt-1",
+   "q": "Exu orixá",
+   "idioma": "pt",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-05484612",
+     "titulo": "Jung na encruzilhada ou lendo Jung a partir de Exu",
+     "autores": [
+      "Adriana Facina"
+     ],
+     "ano": 2024,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05484612v1",
+     "doi": "10.70435/junguiana.v41i3.53",
+     "isbn": [],
+     "idioma": "pt",
+     "periodico": "Junguiana",
+     "editora": null,
+     "assuntos": [
+      "Exu",
+      "Crossroad",
+      "Analitycal psychology"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~exu"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "orisha",
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-01778552",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-01778552v1",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Afro-brazilians",
+      "Slavery",
+      "Spiritual inventions",
+      "Folk tales",
+      "Candomblé",
+      "Bahia",
+      "Jeje",
+      "Resistance",
+      "Animalization",
+      "Hybridization",
+      "Orisha",
+      "Eshu",
+      "Vudu",
+      "Vudum",
+      "Axé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "afro-brasileiro",
+      "axe",
+      "eshu"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "yoruba religion",
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba",
+      "~dahomey"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exu-pt-2",
+   "q": "Exu candomblé",
+   "idioma": "pt",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "tel-01778552",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-01778552v1",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Afro-brazilians",
+      "Slavery",
+      "Spiritual inventions",
+      "Folk tales",
+      "Candomblé",
+      "Bahia",
+      "Jeje",
+      "Resistance",
+      "Animalization",
+      "Hybridization",
+      "Orisha",
+      "Eshu",
+      "Vudu",
+      "Vudum",
+      "Axé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "afro-brasileiro",
+      "axe",
+      "eshu"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "yoruba religion",
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba",
+      "~dahomey"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exu-pt-3",
+   "q": "Exu umbanda",
+   "idioma": "pt",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-05637920",
+     "titulo": "Points tracés",
+     "autores": [
+      "Carolina Noury",
+      "Barbara Szaniecki",
+      "Samuel Bianchini"
+     ],
+     "ano": 2026,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05637920v1",
+     "doi": "10.69564/able.fr.26033.pointstraces",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": ".able",
+     "editora": null,
+     "assuntos": [
+      "Anthropologie visuelle",
+      "Exu",
+      "Design",
+      "Umbanda",
+      "Orisha",
+      "Ancestralité",
+      "Décolonialité",
+      "Narration visuelle",
+      "Anthropologie",
+      "Territoire",
+      "Colonisation",
+      "Écritures ethnographiques"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "umbanda",
+      "~exu"
+     ],
+     "termos_resumo": [
+      "umbanda",
+      "terreiro",
+      "~exu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exu-yo-1",
+   "q": "Èṣù",
+   "idioma": "yo",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 682,
+   "n": 20,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-05320973",
+     "titulo": "Physicochemical Characteristics and Heavy Metal Levels of Four Rivers in Nkanu West and Nkanu East Local Government Areas of Enugu State Nigeria",
+     "autores": [
+      "Melford C Egbujor",
+      "Ogechi J Ogbodo",
+      "Jacob A David",
+      "Eramus O Anieze",
+      "Ifeanyi S Amasiatu",
+      "Pius I Egwuatu"
+     ],
+     "ano": 2020,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05320973v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Journal of Chemical Sciences",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02679596",
+     "titulo": "An esterase gene from Lactobacillus casei cotranscribed with genes encoding a phosphoenolpyruvate:sugar phosphotransferase system and regulated by a LevR-like activator and sigma54 factor",
+     "autores": [
+      "M.J. Yebra",
+      "R. Viana",
+      "Vincente Monedero",
+      "Josef J. Deutscher"
+     ],
+     "ano": 2004,
+     "tipo_base": "ART",
+     "url": "https://hal.inrae.fr/hal-02679596v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Journal of Molecular Microbiology and Biotechnology",
+     "editora": null,
+     "assuntos": [
+      "LEV OPERON",
+      "CATABOLITE REPRESSION",
+      "PHOSPHOTRANSFERASE SYSTEM",
+      "ESTERASE-ENCODING GENE",
+      "PTS",
+      "PHOSPHOENOLPYRUVATE"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-00375411",
+     "titulo": "Porphyre, lecteur et citateur du traité de Plutarque Manger de la viande",
+     "autores": [
+      "Fabienne Jourdan"
+     ],
+     "ano": 2005,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-00375411v1",
+     "doi": "10.3406/reg.2005.4634",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Revue des Études Grecques",
+     "editora": null,
+     "assuntos": [
+      "Plutarque",
+      "Porphyre",
+      "Végétarisme",
+      "De Esu Carnium",
+      "Platonisme",
+      "Plutarch",
+      "Porphyry",
+      "Vegetarianism",
+      "Platonism"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~exu"
+     ],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04257445",
+     "titulo": "Second-Order Nonlinearity of Graphene Quantum Dots Measured by Hyper-Rayleigh Scattering",
+     "autores": [
+      "Manoel Leonardo Neto",
+      "Renato Silva",
+      "Georges Boudebs",
+      "Cid de Araújo"
+     ],
+     "ano": 2023,
+     "tipo_base": "UNDEFINED",
+     "url": "https://univ-angers.hal.science/hal-04257445v1",
+     "doi": "10.20944/preprints202310.1461.v1",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-00981957",
+     "titulo": "Volants thermiques cryogéniques liquide vapeur pour applications spatiales",
+     "autores": [
+      "Josiana Prado Afonso"
+     ],
+     "ano": 2013,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-00981957v1",
+     "doi": "10.70675/72780ed0zec31z4232zbf2fz8eb09df098de",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Cryogenics",
+      "Spatial application",
+      "Temperature",
+      "Cryogenie",
+      "Application spatiale",
+      "Temperature",
+      "Unidades de armazenamento de energia",
+      "Azoto",
+      "Hélio",
+      "Transferência de calor",
+      "Meio poroso",
+      "Capilaridade"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02443068",
+     "titulo": "Le concept du héros imprévisible. Système religieux yorùbá (Bénin-Nigeria) Èṣù, l’improbable Trickster",
+     "autores": [
+      "Gilles-Félix Vallier"
+     ],
+     "ano": 2011,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-02443068v1",
+     "doi": "10.4000/etudesafricaines.14299",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Cahiers d'études africaines",
+     "editora": null,
+     "assuntos": [
+      "Geomantic Oracle",
+      "Legba",
+      "Myth",
+      "Nigeria",
+      "Oral Tradition",
+      "Ritual",
+      "Tortoise",
+      "Yoruba",
+      "Cognition",
+      "Demonism",
+      "Eshu",
+      "Benin",
+      "Animal Tale",
+      "Récepteur",
+      "Cognition"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04309968",
+     "titulo": "Second-Order Nonlinearity of Graphene Quantum Dots Measured by Hyper-Rayleigh Scattering",
+     "autores": [
+      "Manoel L Silva-Neto",
+      "Renato Barbosa-Silva",
+      "Georges Boudebs",
+      "Cid B de Araújo"
+     ],
+     "ano": 2023,
+     "tipo_base": "ART",
+     "url": "https://univ-angers.hal.science/hal-04309968v1",
+     "doi": "10.3390/ma16237376",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Materials",
+     "editora": null,
+     "assuntos": [
+      "Second-harmonic generation",
+      "Graphene quantum dots",
+      "Hyper-Rayleigh scattering",
+      "Hyper-Rayleigh scattering graphene quantum dots second-harmonic generation"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-00266080",
+     "titulo": "Democrazia partecipativa e partecipazione dell'isomorfismo istituzionale : Quale tipo di contributo studentesco è realmente ascoltato dalle instituzioni europee nell'ambito del Processo di Bologna ?",
+     "autores": [
+      "Geneviève Myriam Jacqueline Madeleine Désirée Genicot"
+     ],
+     "ano": 2007,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-00266080v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "it",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Démocratie participative",
+      "Mouvements sociaux",
+      "Isomorphisme institutionnel",
+      "Mouvements étudiants",
+      "Processus de Bologne"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03541366",
+     "titulo": "Why we need a European Social Union. A free standing political justification",
+     "autores": [
+      "Maurizio Ferrera"
+     ],
+     "ano": 2019,
+     "tipo_base": "UNDEFINED",
+     "url": "https://sciencespo.hal.science/hal-03541366v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Social Europe",
+      "European social policy",
+      "Social Rights",
+      "EU institutions"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04731888",
+     "titulo": "Evolution des interactions eaux de surface - eaux souterraines dans un contexte de changement climatique à l'échelle de la France",
+     "autores": [
+      "Lisa Baulon",
+      "Delphine Allier",
+      "Clara Fischer",
+      "Jean-Baptiste Charlier",
+      "Yvan Caballero",
+      "Claire Magand"
+     ],
+     "ano": 2024,
+     "tipo_base": "COMM",
+     "url": "https://brgm.hal.science/hal-04731888v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Liens ESO-ESU",
+      "Changement climatique"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~exu"
+     ],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04936251",
+     "titulo": "La Lectura Mellicensis de Nicholas de Dinkelsbühl dans le sillage de l'esprit réformateur de Jean Gerson",
+     "autores": [
+      "Monica Brinzei"
+     ],
+     "ano": 2015,
+     "tipo_base": "COUV",
+     "url": "https://hal.science/hal-04936251v1",
+     "doi": null,
+     "isbn": [
+      "978-2-503-56281-0"
+     ],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "Brepols",
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05531484",
+     "titulo": "Four species but only three apomictic evolutionary significant units in the Limonium confusum aggregate (Viridiplantae, Plumbaginaceae)",
+     "autores": [
+      "Cyllène Chatellier",
+      "Christine Tollon",
+      "Alex Baumel",
+      "James Molina",
+      "Bouchaib Khadari"
+     ],
+     "ano": 2026,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05531484v1",
+     "doi": "10.1007/s10592-026-01759-w",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Conservation Genetics",
+     "editora": null,
+     "assuntos": [
+      "Genetic diversity",
+      "Microsatellite",
+      "Limonium",
+      "Evolutionary Significant Units",
+      "Apomixis",
+      "Mediterranean",
+      "Endemism",
+      "Genetic diversity"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-00258015",
+     "titulo": "Ritualisation du rapport entre les âges",
+     "autores": [
+      "Alexis Ferrand"
+     ],
+     "ano": 1979,
+     "tipo_base": "COUV",
+     "url": "https://shs.hal.science/halshs-00258015v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": "Anthropos",
+     "assuntos": [
+      "Age group",
+      "Biography",
+      "Identity",
+      "Local community",
+      "Groupe d'âge",
+      "Biographie",
+      "Identité",
+      "Localité"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04156028",
+     "titulo": "Synthesis, Linear, and Quadratic-Nonlinear Optical Properties of Octupolar D 3 and D 2 d Bipyridyl Metal Complexes",
+     "autores": [
+      "Olivier Maury",
+      "Lydie Viau",
+      "Katell Sénéchal",
+      "Brigitte Corre",
+      "Jean-Paul Guégan",
+      "Thierry Renouard",
+      "Isabelle Ledoux",
+      "Joseph Zyss",
+      "Hubert Le Bozec"
+     ],
+     "ano": 2004,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-04156028v1",
+     "doi": "10.1002/chem.200400012",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Chemistry - A European Journal",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01505446",
+     "titulo": "La parole et la ville",
+     "autores": [
+      "Henry Torgue",
+      "Alain Pessin"
+     ],
+     "ano": 1975,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01505446v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Espaces & Sociétés",
+     "editora": null,
+     "assuntos": [
+      "Méthode qualitative",
+      "Ville",
+      "Imaginaire"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03423254",
+     "titulo": "Hyper Rayleigh Scattering of Adenine, Thymine and Cytosine in Neat Water",
+     "autores": [
+      "Christian Jonin",
+      "Estelle Salmon",
+      "Pierre-Francois Brevet"
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03423254v1",
+     "doi": "10.1063/5.0069623",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "The Journal of Chemical Physics",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02780330",
+     "titulo": "Echo level segmentation on echo-integration of fisheries acoustics data",
+     "autores": [
+      "Yannick Perrot",
+      "Patrice Brehmer",
+      "Nolwenn Behagle",
+      "Anne Mouget",
+      "Chloé Migayrou",
+      "Gildas Roudaut",
+      "Ndague Diogoul",
+      "Abdoulaye Sarré",
+      "Anne Lebourges-Dhaussy"
+     ],
+     "ano": 2018,
+     "tipo_base": "POSTER",
+     "url": "https://hal.science/hal-02780330v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "SRFC/CSRP, IRD",
+     "assuntos": [
+      "ATLANTIQUE",
+      "AFRIQUE DE L'OUEST"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04483636",
+     "titulo": "Indications priorisées du lait de lactarium issu de don anonyme",
+     "autores": [
+      "Pierre Tourneux",
+      "C Chazal"
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-04483636v1",
+     "doi": "10.1016/j.perped.2021.09.005",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Perfectionnement en Pédiatrie",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-00258008",
+     "titulo": "Anciens combattants : les vivants et les morts",
+     "autores": [
+      "Alexis Ferrand"
+     ],
+     "ano": 1981,
+     "tipo_base": "COMM",
+     "url": "https://shs.hal.science/halshs-00258008v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": "Grenoble, ESU et Institut Culturel Italien",
+     "assuntos": [
+      "Friendship",
+      "Biography",
+      "Identity",
+      "Risks",
+      "Veterans",
+      "Anciens combattants",
+      "Risques",
+      "Identité",
+      "Biographie",
+      "Amitié"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02120201",
+     "titulo": "Integrating intraspecific differentiation in species distribution models: Consequences on projections of current and future climatically suitable areas of species",
+     "autores": [
+      "Thomas Lecocq",
+      "Alexander Harpke",
+      "Pierre Rasmont",
+      "Oliver Schweiger"
+     ],
+     "ano": 2019,
+     "tipo_base": "ART",
+     "url": "https://hal.univ-lorraine.fr/hal-02120201v1",
+     "doi": "10.1111/ddi.12916",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Diversity and Distributions",
+     "editora": null,
+     "assuntos": [
+      "Intraspecific variability",
+      "Climate change",
+      "Species distribution model",
+      "Model performance",
+      "Bubumblebee",
+      "Evolutionary significant unit"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~exu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exu-en-1",
+   "q": "Eshu Yoruba",
+   "idioma": "en",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-02443068",
+     "titulo": "Le concept du héros imprévisible. Système religieux yorùbá (Bénin-Nigeria) Èṣù, l’improbable Trickster",
+     "autores": [
+      "Gilles-Félix Vallier"
+     ],
+     "ano": 2011,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-02443068v1",
+     "doi": "10.4000/etudesafricaines.14299",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Cahiers d'études africaines",
+     "editora": null,
+     "assuntos": [
+      "Geomantic Oracle",
+      "Legba",
+      "Myth",
+      "Nigeria",
+      "Oral Tradition",
+      "Ritual",
+      "Tortoise",
+      "Yoruba",
+      "Cognition",
+      "Demonism",
+      "Eshu",
+      "Benin",
+      "Animal Tale",
+      "Récepteur",
+      "Cognition"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-01778552",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-01778552v1",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Afro-brazilians",
+      "Slavery",
+      "Spiritual inventions",
+      "Folk tales",
+      "Candomblé",
+      "Bahia",
+      "Jeje",
+      "Resistance",
+      "Animalization",
+      "Hybridization",
+      "Orisha",
+      "Eshu",
+      "Vudu",
+      "Vudum",
+      "Axé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "afro-brasileiro",
+      "axe",
+      "eshu"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "yoruba religion",
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba",
+      "~dahomey"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exu-en-2",
+   "q": "Esu Elegbara",
+   "idioma": "en",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "exu-es-1",
+   "q": "Elegguá",
+   "idioma": "es",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-01792040",
+     "titulo": "La filosofía de la liberación y sus avatares descoloniales en clave de africanía",
+     "autores": [
+      "Agustín Lào-Montes"
+     ],
+     "ano": 2017,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01792040v1",
+     "doi": "10.5281/zenodo.1246959",
+     "isbn": [],
+     "idioma": "es",
+     "periodico": "Analysis. Claves de Pensamiento Contemporáneo",
+     "editora": null,
+     "assuntos": [
+      "African philosophy",
+      "Philosophy liberation",
+      "Africania",
+      "Africa",
+      "Filosofía africana",
+      "Filosofía liberación",
+      "Caliban"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "afro-diasporico",
+      "elegua",
+      "~exu"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-03191332",
+     "titulo": "Santos parados : ethnohistoire et régimes mémoriels des maisons de culte du central Méjico (Matanzas, Cuba)",
+     "autores": [
+      "Maxime Toutain"
+     ],
+     "ano": 2019,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-03191332v1",
+     "doi": "10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Memorial regime",
+      "Ethnohistory",
+      "Slavery",
+      "Cuba",
+      "Santería",
+      "Cuba",
+      "Santería",
+      "Esclavitud",
+      "Etnohistoria",
+      "Régimen memorial",
+      "Régime mémoriel",
+      "Ethnohistoire",
+      "Esclavage",
+      "Santería",
+      "Cuba"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": [
+      "oricha",
+      "santeria",
+      "elegua"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exu-es-2",
+   "q": "Eleguá santería",
+   "idioma": "es",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "exu-fr-1",
+   "q": "Legba vodou",
+   "idioma": "fr",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "exu-fr-2",
+   "q": "Legba dieu fon",
+   "idioma": "fr",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-pt-1",
+   "q": "Ogum orixá",
+   "idioma": "pt",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-pt-2",
+   "q": "Ogum São Jorge",
+   "idioma": "pt",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-yo-1",
+   "q": "Ògún òrìṣà",
+   "idioma": "yo",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-en-1",
+   "q": "Ogun Yoruba god iron",
+   "idioma": "en",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-es-1",
+   "q": "Ogún oricha",
+   "idioma": "es",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-fr-1",
+   "q": "Ogou vodou",
+   "idioma": "fr",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-pt-1",
+   "q": "Oxóssi",
+   "idioma": "pt",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-pt-2",
+   "q": "Oxóssi caçador orixá",
+   "idioma": "pt",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-yo-1",
+   "q": "Ọ̀ṣọ́ọ̀sì",
+   "idioma": "yo",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-es-1",
+   "q": "Ochosi",
+   "idioma": "es",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-en-1",
+   "q": "Oshosi orisha",
+   "idioma": "en",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "xango-pt-1",
+   "q": "Xangô orixá",
+   "idioma": "pt",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "tel-05328775",
+     "titulo": "Nagô é lento! (Nagô, c'est lent !) : force, identités et dynamique musico-rituelle dans le xangô de Recife (religion afro-brésilienne)",
+     "autores": [
+      "Julie Donatien"
+     ],
+     "ano": 2024,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-05328775v1",
+     "doi": "10.70675/6f20d07ez0b15z4c0az9939z125d61f99fa5",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Xangô cult of Recife",
+      "Afro-Brazilian religions",
+      "Ritual efficiency",
+      "Identity",
+      "Musico-Ritual dynamics",
+      "Xangô de Recife",
+      "Religions afro-Brésiliennes",
+      "Efficacité rituelle",
+      "Identité",
+      "Dynamique musico-Rituelle"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "afro-brasileiro",
+      "shango"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "afro-brasileiro",
+      "shango"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01797335",
+     "titulo": "Gods in the Flesh: Learning Emotions in the Xangô Possession Cult (Brazil)",
+     "autores": [
+      "Arnaud Halloy"
+     ],
+     "ano": 2012,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01797335v1",
+     "doi": "10.1080/00141844.2011.586465",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Ethnos",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "shango"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "afro-brasileiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03963415",
+     "titulo": "Um orixá desaparecido: descobertas através de um museu silencioso",
+     "autores": [
+      "Larissa Fontes"
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03963415v1",
+     "doi": "10.9771/aa.v0i64.42090",
+     "isbn": [],
+     "idioma": "pt",
+     "periodico": "Afro-Ásia",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "terreiro",
+      "shango"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "xango-yo-1",
+   "q": "Ṣàngó",
+   "idioma": "yo",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 106,
+   "n": 20,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "tel-04905986",
+     "titulo": "Comparaison de deux créoles indianocéaniques avec le sango : le cas des particules préverbales",
+     "autores": [
+      "Véronique Hummel"
+     ],
+     "ano": 2024,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-04905986v1",
+     "doi": "10.70675/3d24b9e7z9009z4646zb3bbz936c10130038",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Preverbal marker",
+      "Predicate marker",
+      "Ngbandi",
+      "Sango",
+      "Seychelles Creole",
+      "Reunion Creole",
+      "Marqueur prédicatif",
+      "Marqueur préverbal",
+      "Ngbandi",
+      "Sango",
+      "Créole seychellois",
+      "Créole réunionnais"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": [
+      "~sango"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-01321279",
+     "titulo": "Contact de langues et alternance codique sängö-français à Bangui",
+     "autores": [
+      "Moussa Abdoulaye"
+     ],
+     "ano": 2016,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-01321279v1",
+     "doi": "10.70675/99513fe8z65bcz4a9dzafbez9d67d1bf92c5",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "EL islands",
+      "ML islands",
+      "Embedded Language",
+      "Matrix Language",
+      "Bilingualism",
+      "Ilots en LE",
+      "Ilots en LM",
+      "Langue Enchâssée",
+      "Langue Matrice",
+      "Bilinguisme"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": [
+      "~sango"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-00789349",
+     "titulo": "Prosodie et contact de langues: le cas du système tonal du français centrafricain",
+     "autores": [
+      "Bordal Guri"
+     ],
+     "ano": 2012,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-00789349v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Prosody",
+      "Language contact",
+      "Lexical tones",
+      "Central Africa",
+      "French",
+      "Prosodie",
+      "Contact de langues",
+      "Tons lexicaux",
+      "Centrafrique",
+      "Sango",
+      "Français"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": [
+      "~sango"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01493409",
+     "titulo": "Le sango",
+     "autores": [
+      "Marcel Diki-Kidiri"
+     ],
+     "ano": 2017,
+     "tipo_base": "UNDEFINED",
+     "url": "https://hal.science/hal-01493409v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Sango",
+      "Français Langue Seconde"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": [
+      "~sango"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-04774252",
+     "titulo": "Les pratiques d'enseignement des formes verbales en classe de sixième en France et en République centrafricaine",
+     "autores": [
+      "Auguste Crepin Mbiom Ondoua"
+     ],
+     "ano": 2024,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-04774252v1",
+     "doi": "10.70675/ca76d728zd9fcz4a54z9ce6za0fc6b7f2f86",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Verb forms",
+      "Interlanguage",
+      "Secondary school",
+      "Sango",
+      "French language",
+      "Central African Republic",
+      "Interlangue",
+      "Formes verbales",
+      "Collège",
+      "Sango",
+      "Langue française",
+      "République centrafricaine"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": [
+      "~sango"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-01073859",
+     "titulo": "Dictionnaire français-lingala-sango, Bagó lifalansé-lingála-sángó, Bakarî farânzi-lingäla-sängö,",
+     "autores": [
+      "Musanji Ngalasso-Mwatha"
+     ],
+     "ano": 2014,
+     "tipo_base": "OUV",
+     "url": "https://shs.hal.science/halshs-01073859v1",
+     "doi": null,
+     "isbn": [
+      "978-92902-8-376-8"
+     ],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": "Organisation Internationale de la Francophonie (OIF)",
+     "assuntos": [
+      "Afrique",
+      "Sango",
+      "Lingala",
+      "Linguistique",
+      "Dictionnaire"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04651022",
+     "titulo": "FREE-BREATHING IN VIVO MAGNETIC RESONANCE ELASTOGRAPHY OF MOUSE LIVER: PROSPECTIVE VS RETROSPECTIVE SYNCHRONIZATION.",
+     "autores": [
+      "Tiffany Bakir Ageron",
+      "Kevin Tse-Ve-Koon",
+      "Pilar Sango Solanas",
+      "Olivier Beuf"
+     ],
+     "ano": 2024,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-04651022v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "MRE",
+      "In vivo",
+      "Mouse",
+      "Free-breathing"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05215358",
+     "titulo": "Market Handling Practices Effect on the Nutritional Profiles of Honey-beans and Groundnuts from Three Different Markets in Ibadan, Nigeria",
+     "autores": [
+      "Mosuro, Aderonke Olufunmilola",
+      "Ogundele, Abimbola Eniola",
+      "Ayodele, Folasade",
+      "Ladokun, Olusola Abiola",
+      "Obiodiaka, Chinoso Esther"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05215358v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Asian Food Science Journal",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "~sango"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03160656",
+     "titulo": "CONTROLE OPTIMAL APPLIQUE A L'ELASTOGRAPHIE PAR RM MULTIFREQUENCE SIMULTANEE",
+     "autores": [
+      "Pilar Sango Solanas",
+      "Kevin Tse-Ve-Koon",
+      "Eric van Reeth",
+      "Cyrielle Caussy",
+      "Olivier Beuf"
+     ],
+     "ano": 2021,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-03160656v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02866021",
+     "titulo": "Ultra-short echo time Magnetic Resonance Elastography",
+     "autores": [
+      "Pilar Sango Solanas",
+      "Kevin Tse-Ve-Koon",
+      "Eric van Reeth",
+      "Cyrielle Caussy",
+      "O. Beuf"
+     ],
+     "ano": 2020,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-02866021v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05799967",
+     "titulo": "Optimal Control MR Elastography in a murine model of hepatic iron overload: preliminary results",
+     "autores": [
+      "Tiffany Bakir Ageron",
+      "Pilar Sango-Solanas",
+      "Kevin Tse Ve Koon",
+      "Olivier Beuf"
+     ],
+     "ano": 2026,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-05799967v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "MRE Mice Iron overload optimal control in vivo"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04628384",
+     "titulo": "DEVELOPPEMENT D'UN BANC EXPERIMENTAL POUR L'ERM HEPATIQUE : EVALUATION IN VIVO SUR SOURIS",
+     "autores": [
+      "Tiffany Bakir Ageron",
+      "Pilar Sango Solanas",
+      "Denis Grenier",
+      "Kevin Tse-Ve-Koon",
+      "Olivier Beuf"
+     ],
+     "ano": 2024,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-04628384v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "In vivo",
+      "Souris",
+      "ERM"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03648911",
+     "titulo": "MR Elastography of short T2 samples with Optimal Control-based RF pulses demonstrated on Achilles tendon",
+     "autores": [
+      "Pilar Sango Solanas",
+      "Kevin Tse-Ve-Koon",
+      "Eric van Reeth van Reeth",
+      "Cyrielle Caussy",
+      "Olivier Beuf"
+     ],
+     "ano": 2022,
+     "tipo_base": "POSTER",
+     "url": "https://hal.science/hal-03648911v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05323268",
+     "titulo": "In vivo test-retest study of liver stiffness in male and female mice using two motion encoding MR Elastography methods",
+     "autores": [
+      "Tiffany Bakir Ageron",
+      "Pilar Sango-Solanas",
+      "Kevin Tse Ve Koon",
+      "Olivier Beuf"
+     ],
+     "ano": 2025,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-05323268v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Mice",
+      "Test Retest",
+      "Optimal control",
+      "In vivo",
+      "MRE"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04628369",
+     "titulo": "In vivo MR Elastography of mice liver: Comparison of motion encoding strategies between RF optimal control and oscillating gradients.",
+     "autores": [
+      "Tiffany Bakir Ageron",
+      "Kevin Tse-Ve-Koon",
+      "Pilar Sango Solanas",
+      "Eric van Reeth",
+      "Olivier Beuf"
+     ],
+     "ano": 2024,
+     "tipo_base": "POSTER",
+     "url": "https://hal.science/hal-04628369v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "MRE",
+      "In vivo",
+      "Liver",
+      "Mice",
+      "Optimal control"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05298116",
+     "titulo": "Using subscores from the high-stakes assessment to explain first-year performance in Mathematics courses",
+     "autores": [
+      "Tatiana Sango"
+     ],
+     "ano": 2025,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-05298116v1",
+     "doi": null,
+     "isbn": [
+      "9791221086553"
+     ],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Subscores",
+      "High-stakes tests",
+      "Relative importance analysis",
+      "IRT",
+      "Test scores"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04255507",
+     "titulo": "Non Linear Inversion applied to preclinical multifrequency magnetic resonance elastography data",
+     "autores": [
+      "Pilar Sango Solanas",
+      "Elijah van Houten",
+      "Olivier Beuf",
+      "Kevin Tse-Ve-Koon"
+     ],
+     "ano": 2023,
+     "tipo_base": "POSTER",
+     "url": "https://hal.science/hal-04255507v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03125379",
+     "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+     "autores": [
+      "Thierry Joffroy",
+      "O. J. Eboreime"
+     ],
+     "ano": 2004,
+     "tipo_base": "REPORT",
+     "url": "https://hal.science/hal-03125379v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "World heritage",
+      "World heritage",
+      "Patrimoine mondial",
+      "Nigeria",
+      "Environnement naturel",
+      "Conservation du patrimoine",
+      "Patrimoine mondial"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orisha",
+      "yemoja",
+      "~sango",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04124034",
+     "titulo": "Elastographie par Résonance Magnétique en respiration libre en IRM préclinique – Etude Préliminaire",
+     "autores": [
+      "Tiffany Bakir Ageron",
+      "Kevin Tse-Ve-Koon",
+      "Pilar Sango Solanas",
+      "Olivier Beuf"
+     ],
+     "ano": 2023,
+     "tipo_base": "POSTER",
+     "url": "https://hal.science/hal-04124034v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Elastographie par Résonance Magnétique ERM",
+      "IG FLASH",
+      "Respiration libre"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05800272",
+     "titulo": "From lignocellulosic by-products to biobased materials: concrete examples of progress in R&D",
+     "autores": [
+      "Morgan Lecoublet",
+      "Nathalie Leblanc",
+      "Thomas Sango",
+      "Bilel Bouaziz",
+      "Mohamed Ragoubi",
+      "Ahmed Koubaa"
+     ],
+     "ano": 2026,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-05800272v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "xango-en-1",
+   "q": "Shango Oyo",
+   "idioma": "en",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "xango-en-2",
+   "q": "Sango Yoruba thunder",
+   "idioma": "en",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-03125379",
+     "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+     "autores": [
+      "Thierry Joffroy",
+      "O. J. Eboreime"
+     ],
+     "ano": 2004,
+     "tipo_base": "REPORT",
+     "url": "https://hal.science/hal-03125379v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "World heritage",
+      "World heritage",
+      "Patrimoine mondial",
+      "Nigeria",
+      "Environnement naturel",
+      "Conservation du patrimoine",
+      "Patrimoine mondial"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orisha",
+      "yemoja",
+      "~sango",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "xango-es-1",
+   "q": "Changó santería",
+   "idioma": "es",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "iemanja-pt-1",
+   "q": "Iemanjá",
+   "idioma": "pt",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-05389067",
+     "titulo": "La foule et la foi",
+     "autores": [
+      "Angèle Proust"
+     ],
+     "ano": 2019,
+     "tipo_base": "IMG",
+     "url": "https://media.hal.science/hal-05389067v2",
+     "doi": null,
+     "isbn": [],
+     "idioma": "und",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Images recentes",
+      "Photos de terrain de Prodig",
+      "Brésil",
+      "Ville",
+      "Foule",
+      "Fête",
+      "Religion",
+      "Salvador de Bahia"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "umbanda",
+      "afro-brasileiro",
+      "yoruba religion",
+      "yemoja",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04315212",
+     "titulo": "La fête d'Iemanja (religions afro-brésiliennes)",
+     "autores": [
+      "Larissa C. Fontes"
+     ],
+     "ano": 2023,
+     "tipo_base": "NOTICE",
+     "url": "https://hal.science/hal-04315212v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": "CNRS Editions",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "afro-brasileiro",
+      "yemoja"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "iemanja-pt-2",
+   "q": "festa de Iemanjá",
+   "idioma": "pt",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "iemanja-yo-1",
+   "q": "Yemọja",
+   "idioma": "yo",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-03125379",
+     "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+     "autores": [
+      "Thierry Joffroy",
+      "O. J. Eboreime"
+     ],
+     "ano": 2004,
+     "tipo_base": "REPORT",
+     "url": "https://hal.science/hal-03125379v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "World heritage",
+      "World heritage",
+      "Patrimoine mondial",
+      "Nigeria",
+      "Environnement naturel",
+      "Conservation du patrimoine",
+      "Patrimoine mondial"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orisha",
+      "yemoja",
+      "~sango",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iemanja-en-1",
+   "q": "Yemoja orisha",
+   "idioma": "en",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-03125379",
+     "titulo": "Nomination to the World Heritage List, Osun-Osogbo sacred grove",
+     "autores": [
+      "Thierry Joffroy",
+      "O. J. Eboreime"
+     ],
+     "ano": 2004,
+     "tipo_base": "REPORT",
+     "url": "https://hal.science/hal-03125379v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "World heritage",
+      "World heritage",
+      "Patrimoine mondial",
+      "Nigeria",
+      "Environnement naturel",
+      "Conservation du patrimoine",
+      "Patrimoine mondial"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orisha",
+      "yemoja",
+      "~sango",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iemanja-es-1",
+   "q": "Yemayá",
+   "idioma": "es",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-01295008",
+     "titulo": "Ritual en el mar Yemaya. puerto de Veracruz, primero de noviembre de 2005",
+     "autores": [
+      "Renée de La Torre",
+      "Kali Argyriadis"
+     ],
+     "ano": 2012,
+     "tipo_base": "COUV",
+     "url": "https://hal.science/hal-01295008v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "es",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Ritual",
+      "Mar",
+      "Yemaya",
+      "Puerto",
+      "Veracruz"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "yemoja"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03561632",
+     "titulo": "La playa como espacio ritual",
+     "autores": [
+      "Gabriela Torres-Ramos"
+     ],
+     "ano": 2019,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03561632v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "es",
+     "periodico": "Plural. Antropologías desde América Latina y el Caribe",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orisha",
+      "santeria",
+      "regla de ocha",
+      "yemoja"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-02303754",
+     "titulo": "Narco-satanisation et corps en morceaux au Mexique",
+     "autores": [
+      "Kali Argyriadis"
+     ],
+     "ano": 2018,
+     "tipo_base": "ART",
+     "url": "https://shs.hal.science/halshs-02303754v1",
+     "doi": "10.4000/etudesafricaines.22598",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Cahiers d'études africaines",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "iemanja-fr-1",
+   "q": "Yemanja déesse",
+   "idioma": "fr",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "angola-pt-1",
+   "q": "candomblé de Angola",
+   "idioma": "pt",
+   "alvo": "candomble_angola",
+   "status": "ok",
+   "erro": null,
+   "total": 8,
+   "n": 8,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-04689690",
+     "titulo": "Jexa or Jeja",
+     "autores": [
+      "Deirdre Molloy",
+      "Gustavo Gusmão Souza Marques"
+     ],
+     "ano": 2024,
+     "tipo_base": "VIDEO",
+     "url": "https://hal.science/hal-04689690v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "terreiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04689709",
+     "titulo": "Barra Vento",
+     "autores": [
+      "Deirdre Molloy",
+      "Gustavo Gusmão Souza Marques"
+     ],
+     "ano": 2024,
+     "tipo_base": "VIDEO",
+     "url": "https://hal.science/hal-04689709v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "terreiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04536226",
+     "titulo": "Between Ubuntu and milonga: the Bantu legacy in Brazil",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 2024,
+     "tipo_base": "BLOG",
+     "url": "https://hal.science/hal-04536226v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Buntu philosophy",
+      "Angola Candomblé",
+      "Capoeira"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04689691",
+     "titulo": "Cabula",
+     "autores": [
+      "Deirdre Molloy",
+      "Gustavo Gusmão Souza Marques"
+     ],
+     "ano": 2024,
+     "tipo_base": "VIDEO",
+     "url": "https://hal.science/hal-04689691v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "terreiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04689711",
+     "titulo": "Samba de Roda",
+     "autores": [
+      "Deirdre Molloy",
+      "Gustavo Gusmão Souza Marques"
+     ],
+     "ano": 2024,
+     "tipo_base": "VIDEO",
+     "url": "https://hal.science/hal-04689711v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "terreiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04689722",
+     "titulo": "Iuna Funebre",
+     "autores": [
+      "Deirdre Molloy",
+      "Gustavo Gusmão Souza Marques"
+     ],
+     "ano": 2024,
+     "tipo_base": "VIDEO",
+     "url": "https://hal.science/hal-04689722v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "terreiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04689717",
+     "titulo": "Benguela",
+     "autores": [
+      "Deirdre Molloy",
+      "Gustavo Gusmão Souza Marques"
+     ],
+     "ano": 2024,
+     "tipo_base": "VIDEO",
+     "url": "https://hal.science/hal-04689717v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "terreiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04689718",
+     "titulo": "Santa Maria",
+     "autores": [
+      "Deirdre Molloy",
+      "Gustavo Gusmão Souza Marques"
+     ],
+     "ano": 2024,
+     "tipo_base": "VIDEO",
+     "url": "https://hal.science/hal-04689718v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "terreiro"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "angola-pt-2",
+   "q": "inquice candomblé",
+   "idioma": "pt",
+   "alvo": "candomble_angola",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "angola-pt-3",
+   "q": "nkisi candomblé congo angola",
+   "idioma": "pt",
+   "alvo": "candomble_angola",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "jeje-pt-1",
+   "q": "candomblé jeje vodum",
+   "idioma": "pt",
+   "alvo": "candomble_jeje",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "jeje-fr-1",
+   "q": "vodun Bénin culte",
+   "idioma": "fr",
+   "alvo": "vodun_benim",
+   "status": "ok",
+   "erro": null,
+   "total": 11,
+   "n": 11,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-02946713",
+     "titulo": "Les rites, l’oralité et le verbe à travers la musique de Pépé Oléka.",
+     "autores": [
+      "Ezin Pierre Dognon Dognon"
+     ],
+     "ano": 2019,
+     "tipo_base": "COMM",
+     "url": "https://hal.science/hal-02946713v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "vodou"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "ird-01533822",
+     "titulo": "Guerre de succession et concurrence mémorielle à Ouidah, ancien comptoir de la traite",
+     "autores": [
+      "Kadya Emmanuelle Tall"
+     ],
+     "ano": 2009,
+     "tipo_base": "ART",
+     "url": "https://ird.hal.science/ird-01533822v1",
+     "doi": "10.3917/polaf.115.015",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Politique africaine",
+     "editora": null,
+     "assuntos": [
+      "LIGNAGE",
+      "RELIGION",
+      "RITUEL",
+      "CROYANCE",
+      "TRADITION ORALE",
+      "PATRIMOINE CULTUREL",
+      "POUVOIR",
+      "CONCURRENCE",
+      "HISTOIRE COLONIALE",
+      "TRAITE DES ESCLAVES",
+      "FESTIVAL",
+      "CHEF DE CULTE",
+      "CULTE VODUN",
+      "DIASPORA",
+      "POLITIQUE CULTURELLE"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": [
+      "vodou"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01435644",
+     "titulo": "ON REPRESENTATION AND POWER: PORTRAIT OF A VODUN LEADER IN PRESENT-DAY BENIN",
+     "autores": [
+      "Emmanuelle Kadya Tall"
+     ],
+     "ano": 2014,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01435644v1",
+     "doi": "10.1017/s0001972013000764",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Africa [Journal of the International African Institute / Journal de l'Institut Africain International]",
+     "editora": null,
+     "assuntos": [
+      "Power",
+      "Representation",
+      "Vodun leader",
+      "Benin"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": [
+      "vodou"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-00069347",
+     "titulo": "Processus de réactivation de sites sacrés dans le Sud du Bénin.",
+     "autores": [
+      "Dominique Juhé-Beaulaton"
+     ],
+     "ano": 2003,
+     "tipo_base": "COUV",
+     "url": "https://shs.hal.science/halshs-00069347v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Lieux de culture, culture de lieux. Production(s) culturelle(s) locale(s) et émergence des lieux : dynamiques, acteurs, enjeux.",
+     "editora": null,
+     "assuntos": [
+      "Heritage",
+      "Sacred groves",
+      "Patrimony",
+      "Africa",
+      "Cultural identity",
+      "Identité culturelle",
+      "Sites sacrés",
+      "Afrique",
+      "Religion",
+      "Forêt",
+      "Patrimoine",
+      "Bénin"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "vodou"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05754989",
+     "titulo": "Recension de l'ouvrage \" L'Afrique des religions : à l'épreuve des chiffres et des catégorisations",
+     "autores": [
+      "Christian Lochon"
+     ],
+     "ano": 2027,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05754989v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Mondes et Cultures : comptes rendus trimestriels des séances de l'Académie des sciences d'outre-mer",
+     "editora": null,
+     "assuntos": [
+      "Pluralisme religieux",
+      "Aspect politique",
+      "Afrique",
+      "Sociologie religieuse"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "vodou"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "ird-01535099",
+     "titulo": "Les nouveaux entrepreneurs en religion : la génération montante des chefs de cultes de possession à Cotonou (Bénin) et Salvador (Brésil)",
+     "autores": [
+      "Kadya Emmanuelle Tall"
+     ],
+     "ano": 2003,
+     "tipo_base": "ART",
+     "url": "https://ird.hal.science/ird-01535099v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Autrepart - Revue de sciences sociales au Sud",
+     "editora": null,
+     "assuntos": [
+      "SALVADOR",
+      "BENIN SUD",
+      "BAHIA",
+      "BRESIL",
+      "COTONOU",
+      "BENIN",
+      "CHANGEMENT RELIGIEUX",
+      "AFRICANITE",
+      "MOUVEMENT RELIGIEUX",
+      "CHEF DE CULTE",
+      "SORCELLERIE",
+      "RELIGION",
+      "MONDIALISATION",
+      "CHRISTIANISME",
+      "EGLISE PROTESTANTE"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "ird-01535116",
+     "titulo": "Dynamique des cultes voduns et du christianisme céleste au Sud-Bénin",
+     "autores": [
+      "Kadya Emmanuelle Tall"
+     ],
+     "ano": 1995,
+     "tipo_base": "ART",
+     "url": "https://ird.hal.science/ird-01535116v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Cahiers des Sciences Humaines",
+     "editora": null,
+     "assuntos": [
+      "CULTE ANTISORCELLERIE",
+      "BENIN SUD",
+      "NIGERIA",
+      "TOGO",
+      "MOUVEMENT RELIGIEUX",
+      "CHRISTIANISME CELESTE",
+      "VODUN",
+      "SOCIETE URBAINE",
+      "CHANGEMENT SOCIAL",
+      "POUVOIR",
+      "POLITIQUE",
+      "SYNCRETISME",
+      "SORCELLERIE",
+      "RELIGION",
+      "ANTHROPOLOGIE RELIGIEUSE"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": [
+      "vodou"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01073979",
+     "titulo": "Extension du domaine de la restauration",
+     "autores": [
+      "Saskia Cousin"
+     ],
+     "ano": 2013,
+     "tipo_base": "COUV",
+     "url": "https://u-paris.hal.science/hal-01073979v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": "Publications de la Sorbonne/École du patrimoine africain",
+     "assuntos": [
+      "Patrimoine",
+      "Vodun",
+      "Tourisme",
+      "Benin"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": [
+      "vodou",
+      "afro-brasileiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04729723",
+     "titulo": "1984, Desjeux D., Les religions agraires en Afrique au Sud du Sahara",
+     "autores": [
+      "Dominique Desjeux"
+     ],
+     "ano": 1984,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-04729723v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Le mois en Afrique. Revues d'études politiques et économiques africaines",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "vodou"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "ird-01535083",
+     "titulo": "Imaginaire national et mise en patrimoine dans l'Atlantique Sud : Candomblé de Bahia et cultes vodun au Sud-Bénin",
+     "autores": [
+      "Kadya Emmanuelle Tall"
+     ],
+     "ano": 2009,
+     "tipo_base": "ART",
+     "url": "https://ird.hal.science/ird-01535083v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Lusotopie",
+     "editora": null,
+     "assuntos": [
+      "MEMOIRE COLLECTIVE",
+      "NIGERIA",
+      "BENIN",
+      "BAHIA",
+      "BRESIL NORDESTE",
+      "BRESIL",
+      "PATRIMONIALISATION",
+      "DIVINITE",
+      "CANDOMBLE",
+      "VAUDOU",
+      "RELATIONS INTERETHNIQUES",
+      "HISTOIRE POLITIQUE",
+      "IMAGINAIRE NATIONAL",
+      "ETUDE COMPARATIVE",
+      "PATRIMOINE CULTUREL"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "candomble",
+      "vodou"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "ird-01535115",
+     "titulo": "De la démocratie et des cultes voduns au Bénin",
+     "autores": [
+      "Emmanuelle Kadya Tall"
+     ],
+     "ano": 1995,
+     "tipo_base": "ART",
+     "url": "https://ird.hal.science/ird-01535115v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Cahiers d'études africaines",
+     "editora": null,
+     "assuntos": [
+      "CULTE VODUN",
+      "BENIN",
+      "TRADIPRATICIEN",
+      "MOUVEMENT RELIGIEUX",
+      "HISTOIRE",
+      "CONFLIT POLITIQUE",
+      "EGLISE CATHOLIQUE",
+      "ETAT",
+      "POUVOIR",
+      "RELIGION",
+      "DEMOCRATIE",
+      "VIE POLITIQUE",
+      "POLITIQUE"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": [
+      "vodou"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jeje-en-1",
+   "q": "vodun Fon Dahomey religion",
+   "idioma": "en",
+   "alvo": "vodun_benim",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "batuque-pt-1",
+   "q": "batuque Rio Grande do Sul religião",
+   "idioma": "pt",
+   "alvo": "batuque_rs",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "batuque-pt-2",
+   "q": "batuque orixás Porto Alegre",
+   "idioma": "pt",
+   "alvo": "batuque_rs",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "xangope-pt-1",
+   "q": "Xangô do Recife",
+   "idioma": "pt",
+   "alvo": "xango_pernambuco",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-00717948",
+     "titulo": "Para uma cooperação da escuta e do movimento",
+     "autores": [
+      "Emmanuel Bigand",
+      "Jean-Pierre Estival",
+      "Farid Matallah"
+     ],
+     "ano": 2010,
+     "tipo_base": "UNDEFINED",
+     "url": "https://hal.science/hal-00717948v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "pt",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Musical Cognition",
+      "Ethnomusicology",
+      "Musical Rhythm",
+      "African-Brazilian Music",
+      "Cognição musical",
+      "Etnomusicologia",
+      "Ritmo musical",
+      "Música afro-brasileira"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "afro-brasileiro"
+     ],
+     "termos_resumo": [
+      "afro-brasileiro",
+      "shango"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "xangope-pt-2",
+   "q": "Xangô de Pernambuco terreiro",
+   "idioma": "pt",
+   "alvo": "xango_pernambuco",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "mina-pt-1",
+   "q": "Tambor de Mina",
+   "idioma": "pt",
+   "alvo": "tambor_de_mina",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "tel-00903580",
+     "titulo": "Tambor de crioula et tambor de mina, expressions musicales rituelles afro-descendantes de São Luis do Maranhão (Brésil) : créolité, identité, \"culture de résistance",
+     "autores": [
+      "Marie Cousin"
+     ],
+     "ano": 2013,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-00903580v1",
+     "doi": "10.70675/96ca4c74z3256z45fbzb2bfzfb66f43ce458",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Vodun",
+      "Patrimonialization",
+      "Ethnomusicology",
+      "Tambor de mina",
+      "Tambor de crioula",
+      "Criolity",
+      "Brazil",
+      "Maranhão",
+      "São Luís",
+      "Créolité",
+      "São Luís",
+      "Maranhão",
+      "Brésil",
+      "Vodun",
+      "Ethnomusicologie"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "vodou",
+      "tambor de mina"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "vodou",
+      "tambor de mina"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05452742",
+     "titulo": "Cartographies de l’invisible : Topographies mythiques et géographie sacrée dans les chants rituels du Tambor de Mina (Maranhão, Brésil)",
+     "autores": [
+      "Rosuel Lima-Pereira"
+     ],
+     "ano": 2025,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-05452742v1",
+     "doi": "10.4000/1568y",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Revue de Géographie Historique",
+     "editora": null,
+     "assuntos": [
+      "Cultural resistance",
+      "Afro-Amazonian syncretism",
+      "Collective memory",
+      "Ritual orality",
+      "Sacred geography",
+      "Résistance culturelle",
+      "Syncrétisme afro-amazonien",
+      "Mémoire collective",
+      "Oralité rituelle",
+      "Géographie sacrée",
+      "Geografia sagrada",
+      "Oralidade ritual",
+      "Memória coletiva",
+      "Sincretismo afro-amazônico",
+      "Resistência cultural"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "tambor de mina"
+     ],
+     "termos_resumo": [
+      "tambor de mina",
+      "afro-brasileiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-00802219",
+     "titulo": "Mythogenèse, syncrétisme et pérennité du sébastianisme dans l'identité brésilienne du XXème et du début du XXIème siècle (l'état du Maranhao et ses manifestations socioreligieuses)",
+     "autores": [
+      "Rosuel Lima-Pereira"
+     ],
+     "ano": 2012,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-00802219v1",
+     "doi": "10.70675/fcc1a7b7z3f05z4475z89cfz5d41e9050047",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Imaginary",
+      "Identity",
+      "Brazil",
+      "Encantaria",
+      "Syncretism",
+      "Sebastianism",
+      "Imaginaire",
+      "Identité",
+      "Brésil",
+      "Encantaria",
+      "Syncrétisme",
+      "Sébastianisme"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "tambor de mina",
+      "afro-brasileiro"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mina-pt-2",
+   "q": "Casa das Minas São Luís",
+   "idioma": "pt",
+   "alvo": "tambor_de_mina",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "lucumi-es-1",
+   "q": "Regla de Ocha",
+   "idioma": "es",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-03561632",
+     "titulo": "La playa como espacio ritual",
+     "autores": [
+      "Gabriela Torres-Ramos"
+     ],
+     "ano": 2019,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03561632v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "es",
+     "periodico": "Plural. Antropologías desde América Latina y el Caribe",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orisha",
+      "santeria",
+      "regla de ocha",
+      "yemoja"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lucumi-es-2",
+   "q": "lucumí orichas Cuba",
+   "idioma": "es",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "lucumi-en-1",
+   "q": "Lucumí religion",
+   "idioma": "en",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "lucumi-en-2",
+   "q": "Santería orishas Cuba",
+   "idioma": "en",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "trinidad-en-1",
+   "q": "Orisha Trinidad",
+   "idioma": "en",
+   "alvo": "orisha_trinidad",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-04850099",
+     "titulo": "Orishas and Duption: interview with Ade Ola of TnT in 2021",
+     "autores": [
+      "Deirdre Molloy"
+     ],
+     "ano": 2021,
+     "tipo_base": "OTHER",
+     "url": "https://hal.science/hal-04850099v1",
+     "doi": "10.34847/nkl.1c879oms",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "NAKALA - https://nakala.fr (Huma-Num - CNRS)",
+     "assuntos": [
+      "Diaspora",
+      "Intangible",
+      "Heritage",
+      "Duption",
+      "Orisha",
+      "Dancer",
+      "Trini",
+      "Trinidad et Tobago"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "trinidad-en-2",
+   "q": "Shango Trinidad cult",
+   "idioma": "en",
+   "alvo": "orisha_trinidad",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "trinidad-en-3",
+   "q": "Spiritual Baptists Trinidad Orisha",
+   "idioma": "en",
+   "alvo": "orisha_trinidad",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-fr-1",
+   "q": "candomblé orixás",
+   "idioma": "fr",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 12,
+   "n": 12,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "halshs-01835959",
+     "titulo": "El candomblé uruguayo",
+     "autores": [
+      "Jacques Barou"
+     ],
+     "ano": 2018,
+     "tipo_base": "OTHER",
+     "url": "https://shs.hal.science/halshs-01835959v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "es",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "candomble"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05470598",
+     "titulo": "Candomble",
+     "autores": [
+      "Erika Thomas",
+      "Bernard Thomas"
+     ],
+     "ano": 2026,
+     "tipo_base": "OTHER",
+     "url": "https://hal.science/hal-05470598v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "Alternatives Artistiques",
+     "assuntos": [
+      "Brazil",
+      "Orixás",
+      "Religion",
+      "Candomblé",
+      "Documentary",
+      "Orixas",
+      "Religion",
+      "Brésil",
+      "Candomble",
+      "Documentaire"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "candomble"
+     ],
+     "termos_resumo": [
+      "candomble"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01276039",
+     "titulo": "Orixas on line. Les divinités yoruba sur Internet",
+     "autores": [
+      "Sylvie Chiousse"
+     ],
+     "ano": 1998,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01276039v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Cahiers du Brésil Contemporain",
+     "editora": null,
+     "assuntos": [
+      "Candomblé",
+      "Cultes afro-brésiliens",
+      "Numérique",
+      "Internet",
+      "Web",
+      "Orixa",
+      "Religion",
+      "Brésil"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble",
+      "afro-brasileiro",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "santeria",
+      "vodou",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-04260456",
+     "titulo": "Dans l’intimité des orixás. Corps, rituel et apprentissage religieux dans une famille-de-saint de Recife (Brésil)",
+     "autores": [
+      "Arnaud Halloy"
+     ],
+     "ano": 2005,
+     "tipo_base": "THESE",
+     "url": "https://hal.science/tel-04260456v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Recife",
+      "Candomblé",
+      "Ritual",
+      "Emotions",
+      "Learning processes",
+      "Tradition",
+      "Transmission",
+      "Apprentissage",
+      "Recife",
+      "Xangô",
+      "Candomblé",
+      "Rituel",
+      "Émotions",
+      "Tradition",
+      "Transmission"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble",
+      "shango"
+     ],
+     "termos_resumo": [
+      "afro-brasileiro",
+      "shango",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01276088",
+     "titulo": "Le traitement par les Ewés",
+     "autores": [
+      "Sylvie Chiousse"
+     ],
+     "ano": 2005,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01276088v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Bastidiana : Cahiers d'études bastidiennes",
+     "editora": null,
+     "assuntos": [
+      "Brésil",
+      "Transe",
+      "Thérapie",
+      "Religion",
+      "Culte afro-brésilien",
+      "Candomblé",
+      "Orixas",
+      "Ewés"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": [
+      "candomble"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01276035",
+     "titulo": "Les performances du divin sur Internet : us et abus de l'universalisation du culte des Orixas",
+     "autores": [
+      "Sylvie Chiousse"
+     ],
+     "ano": 2003,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01276035v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Esprit Critique : Revue Internationale de Sociologie et de Sciences sociales",
+     "editora": null,
+     "assuntos": [
+      "Brésil",
+      "Cultes afro-brésiliens",
+      "Candomblé",
+      "Web",
+      "Religion",
+      "Numérique",
+      "Internet"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-01403555",
+     "titulo": "La possession dans le Candomblé au Brésil",
+     "autores": [
+      "Sylvie Chiousse"
+     ],
+     "ano": 2016,
+     "tipo_base": "COUV",
+     "url": "https://shs.hal.science/halshs-01403555v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": "éditions du Cosmogone",
+     "assuntos": [
+      "Embodiment",
+      "Adorcisme",
+      "Orixas",
+      "Initiation",
+      "Possession"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble"
+     ],
+     "termos_resumo": [
+      "candomble"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-00003395",
+     "titulo": "Divins thérapeutes - La santé au Brésil revue et corrigée par les orixas",
+     "autores": [
+      "Sylvie Chiousse"
+     ],
+     "ano": 1995,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-00003395v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Candomblé",
+      "Anthropologie",
+      "Ewé",
+      "Phitothérapie",
+      "Transe",
+      "Initiation",
+      "Orixas",
+      "Umbanda",
+      "Sociologie religieuse",
+      "Cultes afro-brésiliens",
+      "Maladie",
+      "Santé",
+      "Religion",
+      "Yoruba",
+      "Afrique"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble",
+      "umbanda",
+      "afro-brasileiro",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orixa",
+      "afro-brasileiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-01778552",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-01778552v1",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Afro-brazilians",
+      "Slavery",
+      "Spiritual inventions",
+      "Folk tales",
+      "Candomblé",
+      "Bahia",
+      "Jeje",
+      "Resistance",
+      "Animalization",
+      "Hybridization",
+      "Orisha",
+      "Eshu",
+      "Vudu",
+      "Vudum",
+      "Axé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "afro-brasileiro",
+      "axe",
+      "eshu"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "yoruba religion",
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba",
+      "~dahomey"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05433610",
+     "titulo": "La Légende de l'homme aux souliers d'argent",
+     "autores": [
+      "Fabien Liquori"
+     ],
+     "ano": 2021,
+     "tipo_base": "OUV",
+     "url": "https://hal.science/hal-05433610v1",
+     "doi": null,
+     "isbn": [
+      "9782342357530"
+     ],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": "EDILIVRE",
+     "assuntos": [
+      "Ilê Axé Opô Aganju",
+      "Photography",
+      "Afroi Brazilian story",
+      "Negritude",
+      "Pierre FATUMBI Verger",
+      "Bahia",
+      "Orishás",
+      "Candomblé",
+      "Négritude",
+      "Candomblé",
+      "Orixás",
+      "Bahia",
+      "Pierre FATUMBI Verger",
+      "Ilê Axé Opô Aganjú",
+      "Photographie"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "candomble",
+      "axe"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "afro-brasileiro"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05389067",
+     "titulo": "La foule et la foi",
+     "autores": [
+      "Angèle Proust"
+     ],
+     "ano": 2019,
+     "tipo_base": "IMG",
+     "url": "https://media.hal.science/hal-05389067v2",
+     "doi": null,
+     "isbn": [],
+     "idioma": "und",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Images recentes",
+      "Photos de terrain de Prodig",
+      "Brésil",
+      "Ville",
+      "Foule",
+      "Fête",
+      "Religion",
+      "Salvador de Bahia"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "orixa",
+      "candomble",
+      "umbanda",
+      "afro-brasileiro",
+      "yoruba religion",
+      "yemoja",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "medihal-02104934",
+     "titulo": "LES XANGÔS DANS LA VILLE",
+     "autores": [
+      "Larissa Fontes"
+     ],
+     "ano": 2017,
+     "tipo_base": "IMG",
+     "url": "https://hal.science/medihal-02104934v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "und",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Umbanda",
+      "Brésil",
+      "Orixás",
+      "Candomblé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orixa",
+      "candomble",
+      "umbanda",
+      "shango"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "geral-fr-2",
+   "q": "religion des orisha",
+   "idioma": "fr",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 10,
+   "n": 10,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-03681519",
+     "titulo": "The Orisha Religion in a Transnational Perspective",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 2022,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03681519v1",
+     "doi": "10.1177/00377686221083515",
+     "isbn": [],
+     "idioma": "en",
+     "periodico": "Social Compass",
+     "editora": null,
+     "assuntos": [
+      "Transnationalization",
+      "Religious immobilities",
+      "Orisha religion",
+      "Diaspora",
+      "Afro-Atlantic religions",
+      "Diaspora",
+      "Immobilités religieuses",
+      "Religion des Orisha",
+      "Religions afro-atlantiques",
+      "Transnationalisation"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-04294804",
+     "titulo": "Yoruba Religion",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 2019,
+     "tipo_base": "COUV",
+     "url": "https://hal.science/hal-04294804v1",
+     "doi": "10.1007/978-3-319-27078-4",
+     "isbn": [
+      "331927077X"
+     ],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "Springer",
+     "assuntos": [
+      "Yoruba Orisha Afro-Atlantic Religions Ifá transnationalism syncretism Definition",
+      "Syncretism Definition",
+      "Transnationalism",
+      "Ifá",
+      "Afro-Atlantic Religions",
+      "Orisha",
+      "Yoruba"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "ifa",
+      "yoruba religion",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "lucumi",
+      "ifa",
+      "babalorixa",
+      "yoruba religion",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-00007676",
+     "titulo": "Les dieux sur le Net",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 1999,
+     "tipo_base": "ART",
+     "url": "https://shs.hal.science/halshs-00007676v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "L'Homme - Revue française d'anthropologie",
+     "editora": null,
+     "assuntos": [
+      "ÉTATS-UNIS",
+      "YORUBA",
+      "INTERNET",
+      "RELIGION AFRO-AMERICAINE",
+      "TRADITION",
+      "SANTERIA",
+      "CULTES AFRO-CUBAINS"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "santeria",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "santeria",
+      "vodou",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02973748",
+     "titulo": "Nouveaux enjeux de la \"religion des orisha\" Newsletter CNRS Rio 5",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 2019,
+     "tipo_base": "OTHER",
+     "url": "https://hal.science/hal-02973748v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Nouvelles du CNRS de Río. Sciences Brésil & Cöne Sud",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01292513",
+     "titulo": "La ‘religion des orisha’. Les réseaux transnationaux des religions afro-américaines",
+     "autores": [
+      "Kali Argyriadis",
+      "Stefania Capone"
+     ],
+     "ano": 2013,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01292513v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Religions & Histoire",
+     "editora": null,
+     "assuntos": [
+      "Religion",
+      "Afro-américaines"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orisha"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "halshs-00007678",
+     "titulo": "Cubanía et santería",
+     "autores": [
+      "Stefania Capone",
+      "Kali Argyriadis"
+     ],
+     "ano": 2004,
+     "tipo_base": "ART",
+     "url": "https://shs.hal.science/halshs-00007678v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Civilisations - revue internationale d'Antropologie et de sciences humaines",
+     "editora": null,
+     "assuntos": [
+      "Cuba",
+      "États-Unis",
+      "Santería",
+      "Castrisme",
+      "Transnationalisation",
+      "Ifá"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "santeria",
+      "ifa"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "santeria",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05838130",
+     "titulo": "Entre féerie et macabre, les religions afro-cubaines en Espagne",
+     "autores": [
+      "Caterina Pasqualino"
+     ],
+     "ano": 2011,
+     "tipo_base": "COUV",
+     "url": "https://hal.science/hal-05838130v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "Kali Argyriadis ; Stefania Capone",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "santeria",
+      "afro-cubano"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "tel-01778552",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "THESE",
+     "url": "https://theses.hal.science/tel-01778552v1",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": null,
+     "editora": null,
+     "assuntos": [
+      "Afro-brazilians",
+      "Slavery",
+      "Spiritual inventions",
+      "Folk tales",
+      "Candomblé",
+      "Bahia",
+      "Jeje",
+      "Resistance",
+      "Animalization",
+      "Hybridization",
+      "Orisha",
+      "Eshu",
+      "Vudu",
+      "Vudum",
+      "Axé"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "afro-brasileiro",
+      "axe",
+      "eshu"
+     ],
+     "termos_resumo": [
+      "candomble",
+      "yoruba religion",
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba",
+      "~dahomey"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "ird-01535109",
+     "titulo": "La transe dans tous ses états : voduns, orixas, caboclos et erês : quelques aspects psychologiques de la transe de possession au Sud-Bénin et à Bahia",
+     "autores": [
+      "Kadya Emmanuelle Tall"
+     ],
+     "ano": 1998,
+     "tipo_base": "ART",
+     "url": "https://ird.hal.science/ird-01535109v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Gradhiva : revue d'histoire et d'archives de l'anthropologie",
+     "editora": null,
+     "assuntos": [
+      "ORIXA",
+      "BENIN SUD",
+      "BENIN",
+      "BAHIA",
+      "BRESIL NORDESTE",
+      "BRESIL",
+      "CABOCLO",
+      "ORISHA",
+      "VODOU",
+      "CULTE AFROBRESILIEN",
+      "CULTE DES SAINTS",
+      "TRANSE",
+      "MEDIUM",
+      "DIVINITE",
+      "SORCELLERIE"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "vodou"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-02443068",
+     "titulo": "Le concept du héros imprévisible. Système religieux yorùbá (Bénin-Nigeria) Èṣù, l’improbable Trickster",
+     "autores": [
+      "Gilles-Félix Vallier"
+     ],
+     "ano": 2011,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-02443068v1",
+     "doi": "10.4000/etudesafricaines.14299",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Cahiers d'études africaines",
+     "editora": null,
+     "assuntos": [
+      "Geomantic Oracle",
+      "Legba",
+      "Myth",
+      "Nigeria",
+      "Oral Tradition",
+      "Ritual",
+      "Tortoise",
+      "Yoruba",
+      "Cognition",
+      "Demonism",
+      "Eshu",
+      "Benin",
+      "Animal Tale",
+      "Récepteur",
+      "Cognition"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geral-fr-3",
+   "q": "santería cubaine",
+   "idioma": "fr",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 6,
+   "n": 6,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "halshs-00007678",
+     "titulo": "Cubanía et santería",
+     "autores": [
+      "Stefania Capone",
+      "Kali Argyriadis"
+     ],
+     "ano": 2004,
+     "tipo_base": "ART",
+     "url": "https://shs.hal.science/halshs-00007678v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Civilisations - revue internationale d'Antropologie et de sciences humaines",
+     "editora": null,
+     "assuntos": [
+      "Cuba",
+      "États-Unis",
+      "Santería",
+      "Castrisme",
+      "Transnationalisation",
+      "Ifá"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "santeria",
+      "ifa"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "santeria",
+      "~yoruba"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-01292505",
+     "titulo": "La santeria cubaine",
+     "autores": [
+      "Kali Argyriadis"
+     ],
+     "ano": 2013,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-01292505v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Religions & Histoire",
+     "editora": null,
+     "assuntos": [
+      "Cuba",
+      "Santeria"
+     ],
+     "acesso_aberto": false,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-05838130",
+     "titulo": "Entre féerie et macabre, les religions afro-cubaines en Espagne",
+     "autores": [
+      "Caterina Pasqualino"
+     ],
+     "ano": 2011,
+     "tipo_base": "COUV",
+     "url": "https://hal.science/hal-05838130v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "en",
+     "periodico": null,
+     "editora": "Kali Argyriadis ; Stefania Capone",
+     "assuntos": [],
+     "acesso_aberto": false,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "santeria",
+      "afro-cubano"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03679443",
+     "titulo": "Les “points vitaux” de la sucrerie Méjico. Secrets de famille et mémoire dans une santería cubaine",
+     "autores": [
+      "Maxime Toutain"
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03679443v1",
+     "doi": "10.4000/revss.7215",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Revue des Sciences sociales",
+     "editora": null,
+     "assuntos": [],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03890287",
+     "titulo": "La maison aux esprits : configurations spatiales, pluralité religieuse et syncrétismes dans l’espace domestique afro-cubain",
+     "autores": [
+      "Katerina Kerestetzi"
+     ],
+     "ano": 2018,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03890287v1",
+     "doi": "10.4000/jsa.15667",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Journal de la Société des américanistes",
+     "editora": null,
+     "assuntos": [
+      "Spatiality",
+      "Ritual",
+      "Aesthetics",
+      "Religious plurality",
+      "Afro-Cuban religions",
+      "Pluralidad religiosa",
+      "Religiones afrocubanas",
+      "Espacialidad",
+      "Estética",
+      "Ritual",
+      "Pluralité religieuse",
+      "Religions afro-cubaines",
+      "Spatialité",
+      "Esthétique",
+      "Rituel"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "afro-cubano"
+     ],
+     "termos_resumo": [
+      "santeria",
+      "afro-cubano"
+     ]
+    },
+    {
+     "base": "hal",
+     "id_base": "hal-03498313",
+     "titulo": "Coprésences et subjectivation dans les religions afro-atlantiques",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 2021,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-03498313v1",
+     "doi": null,
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Lusotopie",
+     "editora": null,
+     "assuntos": [
+      "Agentivité",
+      "Subjectivation",
+      "Assemblage",
+      "Transnationalisation",
+      "Agentivité"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [],
+     "termos_resumo": [
+      "candomble",
+      "santeria",
+      "ifa",
+      "~yoruba"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geral-de-1",
+   "q": "Candomblé Religion Brasilien",
+   "idioma": "de",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-de-2",
+   "q": "Orisha Yoruba Religion Götter",
+   "idioma": "de",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-de-3",
+   "q": "Santería Kuba Religion",
+   "idioma": "de",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-it-1",
+   "q": "candomblé religione",
+   "idioma": "it",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-it-2",
+   "q": "santería culto orisha",
+   "idioma": "it",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-yo-1",
+   "q": "ẹ̀sìn òrìṣà",
+   "idioma": "yo",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-yo-2",
+   "q": "òrìṣà Yorùbá",
+   "idioma": "yo",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "hal",
+     "id_base": "hal-02443068",
+     "titulo": "Le concept du héros imprévisible. Système religieux yorùbá (Bénin-Nigeria) Èṣù, l’improbable Trickster",
+     "autores": [
+      "Gilles-Félix Vallier"
+     ],
+     "ano": 2011,
+     "tipo_base": "ART",
+     "url": "https://hal.science/hal-02443068v1",
+     "doi": "10.4000/etudesafricaines.14299",
+     "isbn": [],
+     "idioma": "fr",
+     "periodico": "Cahiers d'études africaines",
+     "editora": null,
+     "assuntos": [
+      "Geomantic Oracle",
+      "Legba",
+      "Myth",
+      "Nigeria",
+      "Oral Tradition",
+      "Ritual",
+      "Tortoise",
+      "Yoruba",
+      "Cognition",
+      "Demonism",
+      "Eshu",
+      "Benin",
+      "Animal Tale",
+      "Récepteur",
+      "Cognition"
+     ],
+     "acesso_aberto": true,
+     "termos_titulo": [
+      "legba",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ],
+     "termos_resumo": [
+      "orisha",
+      "yoruba religion",
+      "eshu",
+      "~exu",
+      "~yoruba"
+     ]
+    }
+   ]
+  }
+ ]
+}

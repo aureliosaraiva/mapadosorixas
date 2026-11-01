@@ -2,7 +2,7 @@
   "_meta": {
     "descricao": "Catálogo de fontes do projeto (Fase 1). Status: pista → a_verificar → conferido_web → verificado → fichado → revisado. 'conferido_web' = metadados confirmados por ao menos uma página de catálogo/editora/periódico (ver 'evidencias'), ainda sem conferência humana.",
     "atualizado_em": "2026-10-31",
-    "total": 169
+    "total": 315
   },
   "fontes": [
     {
@@ -112,6 +112,85 @@
       "identificadores": {}
     },
     {
+      "id": "aiyejina-1999-orisa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Funso Aiyejina",
+        "Rawle Gibbons"
+      ],
+      "titulo": "Orisa (Orisha) Tradition in Trinidad",
+      "ano": 1999,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Caribbean Quarterly).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/00086495.1999.11671867",
+        "https://doi.org/10.1080/00086495.1999.11671867"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/00086495.1999.11671867"
+      },
+      "periodico": "Caribbean Quarterly"
+    },
+    {
+      "id": "allison-1964-eshu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Philip A. Allison"
+      ],
+      "titulo": "A Carved Stone Figure of Eshu from Igbajo, Western Nigeria",
+      "ano": 1964,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Man, RAI).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/2797360",
+        "https://doi.org/10.2307/2797360"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/2797360"
+      },
+      "periodico": "Man"
+    },
+    {
+      "id": "almeida-2019-mina",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Antonio Evaldo Almeida Almeida Barros"
+      ],
+      "titulo": "Ao ritmo de tambores e maracás: tambor de mina e pajelança no Maranhão de meados do século XX",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Projeto História, PUC-SP).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.23925/2176-2767.2019v65p130-167",
+        "https://revistas.pucsp.br/index.php/revph/article/view/42115"
+      ],
+      "url": "https://revistas.pucsp.br/index.php/revph/article/view/42115",
+      "identificadores": {
+        "doi": "10.23925/2176-2767.2019v65p130-167"
+      },
+      "periodico": "Projeto História"
+    },
+    {
       "id": "amaral-silva-2006-musica",
       "tipo": "artigo",
       "categoria": "academica",
@@ -157,6 +236,58 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "arguelles-1997-sistemas",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Aníbal Argüelles Mederos"
+      ],
+      "titulo": "Los sistemas adivinatorios de la Regla Ocha",
+      "ano": 1997,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: Editorial Academia (Havana); autor pesquisador cubano.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL12681707W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789590201097"
+      },
+      "editora": "Editorial Academia"
+    },
+    {
+      "id": "argyriadis-2005-ramas",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Kali Argyriadis"
+      ],
+      "titulo": "Ramas, familles, réseaux. Les supports sociaux de la diffusion de la santería cubaine (Cuba-Mexique)",
+      "ano": 2005,
+      "idioma": "fr",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Journal de la Société des américanistes).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4000/jsa.3022",
+        "https://doi.org/10.4000/jsa.3022",
+        "https://journals.openedition.org/jsa/3022"
+      ],
+      "url": "https://doi.org/10.4000/jsa.3022",
+      "identificadores": {
+        "doi": "10.4000/jsa.3022"
+      },
+      "periodico": "Journal de la société des américanistes"
     },
     {
       "id": "athayde-2025-ossaim",
@@ -250,6 +381,32 @@
       "identificadores": {}
     },
     {
+      "id": "balbuena-2003-celebraciones",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Bárbara Balbuena Gutiérrez"
+      ],
+      "titulo": "Las celebraciones rituales festivas en la regla de Ocha",
+      "ano": 2003,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: publicação do CIDMUC (Havana), centro de pesquisa musical cubano.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL13608426W",
+        "https://openlibrary.org/works/OL19272982W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789592420656"
+      },
+      "editora": "Centro de Investigación y Desarrollo de la Cultura Cubana Juan Marinello"
+    },
+    {
       "id": "barba-2020-santi",
       "tipo": "livro",
       "categoria": "academica",
@@ -276,6 +433,32 @@
       "editora": "Odoya"
     },
     {
+      "id": "barber-1990-proliferation",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Karin Barber"
+      ],
+      "titulo": "Oríkì, women and the proliferation and merging of òrìṣà",
+      "ano": 1990,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa); sustenta a variação local do panteão iorubá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/1160110",
+        "https://doi.org/10.2307/1160110"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/1160110"
+      },
+      "periodico": "Africa"
+    },
+    {
       "id": "barber-1991-oriki",
       "tipo": "livro",
       "categoria": "corpus_oral",
@@ -297,6 +480,33 @@
       "url": null,
       "identificadores": {},
       "editora": "Edinburgh University Press"
+    },
+    {
+      "id": "barbier-2002-golfe",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Jean-Claude Barbier",
+        "Elisabeth Dorier-Apprill"
+      ],
+      "titulo": "Cohabitations et concurrences religieuses dans le Golfe de Guinée. Le Sud-Bénin, entre vodun, islam et christianismes (Religious cohabitation and rivalry in the Gulf of Guinea. Southern Benin between vodun, Islam and Christianity)",
+      "ano": 2002,
+      "idioma": "fr",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.3406/bagf.2002.2272",
+        "https://doi.org/10.3406/bagf.2002.2272"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.3406/bagf.2002.2272"
+      },
+      "periodico": "Bulletin de l'Association de géographes français"
     },
     {
       "id": "barnes-1989-ogun",
@@ -353,6 +563,32 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "barros-1999-fogueira",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "José Flávio Pessoa de Barros"
+      ],
+      "titulo": "A fogueira de Xangô, o orixá do fogo",
+      "ano": 1999,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: publicação acadêmica (Intercon/UERJ) de José Flávio Pessoa de Barros, pesquisador do candomblé.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1004752W",
+        "https://openlibrary.org/works/OL13563362W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788590113218"
+      },
+      "editora": "Intercon, UERJ"
     },
     {
       "id": "barros-2000-kimbundu",
@@ -513,6 +749,32 @@
       "editora": "Séminaire des Missions Africaines – Bureau des Missions Catholiques"
     },
     {
+      "id": "bazinet-2017-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ryan J. Bazinet"
+      ],
+      "titulo": "When Field Recordings Meet Field Research: Examining Change in the Shango Drumming of Postwar Trinidad",
+      "ano": 2017,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ethnomusicology).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5406/ethnomusicology.61.2.0287",
+        "https://doi.org/10.5406/ethnomusicology.61.2.0287"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5406/ethnomusicology.61.2.0287"
+      },
+      "periodico": "Ethnomusicology"
+    },
+    {
       "id": "beier-1970-poetry",
       "tipo": "livro",
       "categoria": "corpus_oral",
@@ -554,6 +816,32 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "bem-2010-reafricanizacao",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Daniel Francisco De Bem"
+      ],
+      "titulo": "Apontamentos sobre formas alternativas de reafricanização em terreiros de batuque no Rio Grande do Sul, Argentina e Uruguai",
+      "ano": 2010,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Debates do NER).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.22456/1982-8136.12208",
+        "https://doi.org/10.22456/1982-8136.12208"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.22456/1982-8136.12208"
+      },
+      "periodico": "Debates do NER"
     },
     {
       "id": "beniste-1997-orun",
@@ -697,6 +985,31 @@
       "local": "La Habana"
     },
     {
+      "id": "bolivar-1994-opolopo",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Natalia Bolívar Aróstegui"
+      ],
+      "titulo": "Opolopo owó",
+      "ano": 1994,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: Editorial de Ciencias Sociales (Havana); autora de referência (Bolívar, Los orishas en Cuba).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL639625W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789590601385"
+      },
+      "editora": "Editorial de Ciencias Sociales"
+    },
+    {
       "id": "botao-2007-angola",
       "tipo": "dissertacao",
       "categoria": "tese",
@@ -769,6 +1082,80 @@
       "observacoes": "Pastor batista; identifica Exu ao diabo. Reed. Londres, Cass, 1968. Domínio público. | Conferido (2026-10-31): título completo começa por 'Central Africa' (Internet Archive, ed. 1857)."
     },
     {
+      "id": "boyer-1991-compagnons",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Véronique Boyer-Araújo"
+      ],
+      "titulo": "Les Compagnons invisibles : femmes et cultes de possession Umbanda et Mina (Belém, Brésil)",
+      "ano": 1991,
+      "idioma": "fr",
+      "tradicoes": [
+        "umbanda",
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL) (Umbanda e Mina em Belém).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://theses.fr/1991EHES0038"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Paris, EHESS"
+    },
+    {
+      "id": "braga-1998-batuque",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Reginaldo Gil Braga"
+      ],
+      "titulo": "Batuque jêje-ijexá em Porto Alegre: a música no culto aos orixás",
+      "ano": 1998,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: etnomusicologia do batuque; registro na Open Library e resenha em Horizontes Antropológicos (1999, DOI 10.1590/s0104-71831999000200014) confirmam a obra.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL7804923W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "FUMPROARTE, Prefeitura Municipal de Porto Alegre, Secretaria Municipal da Cultura"
+    },
+    {
+      "id": "brivio-2013-verger",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Alessandra Brivio"
+      ],
+      "titulo": "Notes sur le Culte des Orisa et Vodun: Pierre Fatumbi Verger and the Study of “African Traditional Religion”",
+      "ano": 2013,
+      "idioma": "fr",
+      "tradicoes": [
+        "vodun_benim",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (History in Africa); estudo sobre a obra de Verger.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1017/hia.2013.13",
+        "https://doi.org/10.1017/hia.2013.13"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1017/hia.2013.13"
+      },
+      "periodico": "History in Africa"
+    },
+    {
       "id": "brivio-2024-making-vodun",
       "tipo": "artigo",
       "categoria": "academica",
@@ -825,11 +1212,15 @@
         "lucumi"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL11633704W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9780226076096"
+      }
     },
     {
       "id": "brown-k-1989-ogou",
@@ -943,9 +1334,11 @@
         "arara"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Obra fundamental da Santería e do Palo.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Obra fundamental da Santería e do Palo. Metadados conferidos na varredura 3 (openlibrary). Open Library registra Ediciones C. R., Havana, 1954; reedições de 1971 e 1975 (Ediciones Universal).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1163158W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -983,11 +1376,12 @@
         "lucumi"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Ano 1974 confirmado em várias fontes; local/editora divergentes (bibliografia cita 'New York: Ediciones C.R.'; não confirmado Madrid). Reed. Ediciones Universal (Miami, 1996). Conferir no WorldCat/BNE.",
-      "status_verificacao": "a_verificar",
+      "observacoes": "Ano 1974 confirmado em várias fontes; local/editora divergentes (bibliografia cita 'New York: Ediciones C.R.'; não confirmado Madrid). Reed. Ediciones Universal (Miami, 1996). Conferir no WorldCat/BNE. Metadados conferidos na varredura 3 (openlibrary). Open Library registra a edição de 1980 (Ediciones Universal); a 1ª edição (1974) não aparece no registro; ano citado mantido.",
+      "status_verificacao": "conferido_web",
       "evidencias": [
         "https://www.ecured.cu/Lydia_Cabrera",
-        "https://guides.library.miami.edu/lydiacabrera"
+        "https://guides.library.miami.edu/lydiacabrera",
+        "https://openlibrary.org/works/OL1163162W"
       ],
       "url": null,
       "identificadores": {}
@@ -1015,6 +1409,57 @@
       "identificadores": {}
     },
     {
+      "id": "campos-2016-exu-umbanda",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ana Paula de Souza Campos",
+        "Cleiton Machado Maia"
+      ],
+      "titulo": "O self-service do proibido: a festa de exu em um terreiro de umbanda na Zona Oeste da cidade do Rio de Janeiro",
+      "ano": 2016,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Debates do NER).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.22456/1982-8136.58616",
+        "https://doi.org/10.22456/1982-8136.58616"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.22456/1982-8136.58616"
+      },
+      "periodico": "Debates do NER"
+    },
+    {
+      "id": "campos-2019-jorge",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ana Paula de Souza Campos",
+        "Cleiton Machado Maia"
+      ],
+      "titulo": "Domingo 23 é Dia de Jorge",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (PROA, Unicamp).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.ifch.unicamp.br/ojs/index.php/proa/article/view/2951"
+      ],
+      "url": "https://www.ifch.unicamp.br/ojs/index.php/proa/article/view/2951",
+      "identificadores": {},
+      "periodico": "PROA: Revista de Antropologia e Arte"
+    },
+    {
       "id": "candomble-food-italy-brazil",
       "tipo": "artigo",
       "categoria": "academica",
@@ -1035,6 +1480,118 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "capo-chichi-2025-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Sandro Capo Chichi "
+      ],
+      "titulo": "On the Etymology of the Yoruba Theonym Shango",
+      "ano": 2025,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Yoruba Studies Review); etimologia do nome.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.32473/ysr.10.1.139147",
+        "https://journals.flvc.org/ysr/article/view/139147"
+      ],
+      "url": "https://journals.flvc.org/ysr/article/view/139147",
+      "identificadores": {
+        "doi": "10.32473/ysr.10.1.139147"
+      },
+      "periodico": "Yoruba Studies Review"
+    },
+    {
+      "id": "capone-1997-esu",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Stefania Capone"
+      ],
+      "titulo": "Esu ma se mi o : le pouvoir de la tradition dans le candomblé brésilien",
+      "ano": 1997,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://theses.fr/1997PA100031"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Paris 10"
+    },
+    {
+      "id": "capone-2010-searching",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Stefania Capone"
+      ],
+      "titulo": "Searching for Africa in Brazil: power and tradition in candomblé",
+      "ano": 2010,
+      "idioma": "en",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: crossref, openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (Duke University Press); trata Exu no candomblé e na umbanda.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1215/9780822392040-007",
+        "https://doi.org/10.1215/9780822392040-002",
+        "https://doi.org/10.1215/9780822392040-003",
+        "https://doi.org/10.1215/9780822392040-007",
+        "https://openlibrary.org/works/OL15027350W"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1215/9780822392040-007",
+        "isbn": "9780822346258"
+      },
+      "editora": "Duke University Press"
+    },
+    {
+      "id": "capone-2011-religion",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Stefania Capone",
+        "Kali Argyriadis",
+        "Stefania Capone"
+      ],
+      "titulo": "La Religion des orisha",
+      "ano": 2011,
+      "idioma": "fr",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, openlibrary). Confiabilidade B: monografia acadêmica em editora universitária/científica (Hermann).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.3917/herm.argyr.2011.01.0209",
+        "https://doi.org/10.3917/herm.argyr.2011.01",
+        "https://doi.org/10.3917/herm.argyr.2011.01.0005",
+        "https://doi.org/10.3917/herm.argyr.2011.01.0007",
+        "https://doi.org/10.3917/herm.argyr.2011.01.0009"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.3917/herm.argyr.2011.01.0209",
+        "isbn": "9782705682125"
+      },
+      "editora": "Hermann"
     },
     {
       "id": "cardoso-filho-2015-iemanja",
@@ -1107,6 +1664,55 @@
       }
     },
     {
+      "id": "carneiro-2026-osun-yemoja",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Tom Jones da Silva Carneiro"
+      ],
+      "titulo": "Nas águas de Ọ̀ṣun e Yemọja: Traduções “ficcionais” do Xangô do Recife",
+      "ano": 2026,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de Antropologia da UFSCar).; o subtítulo no Crossref indica Xangô do Recife.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.14244/rau.v17i1.512",
+        "https://doi.org/10.14244/rau.v17i1.512"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.14244/rau.v17i1.512"
+      },
+      "periodico": "Revista de Antropologia da UFSCar"
+    },
+    {
+      "id": "carvalho-1993-cantos",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "José Jorge de Carvalho"
+      ],
+      "titulo": "Cantos sagrados do xangô do Recife",
+      "ano": 1993,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: edição de cantos pelo etnomusicólogo José Jorge de Carvalho (Fundação Cultural Palmares).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3018277W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Fundação Cultural Palmares"
+    },
+    {
       "id": "carybe-1980-iconografia",
       "tipo": "livro",
       "categoria": "iconografia",
@@ -1120,9 +1726,11 @@
         "candomble_ketu"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Iconografia; direitos autorais sobre imagens.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Iconografia; direitos autorais sobre imagens. Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3710067W"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -1147,6 +1755,107 @@
       "identificadores": {}
     },
     {
+      "id": "castillo-2016-bamboxe",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Lisa Castillo"
+      ],
+      "titulo": "Bamboxê Obitikô e a expansão do culto aos orixás (século XIX): uma rede religiosa afroatlântica",
+      "ano": 2016,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Tempo, UFF).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.20509/tem-1980-542x2016v223907",
+        "https://doi.org/10.20509/tem-1980-542x2016v223907"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.20509/tem-1980-542x2016v223907"
+      },
+      "periodico": "Tempo"
+    },
+    {
+      "id": "castillo-2022-ogum",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Lisa Earl Castillo"
+      ],
+      "titulo": "Foi lá no Candeal que plantei a minha mata. Um culto familiar a Ogum. Salvador c. 1813-c.1970",
+      "ano": 2022,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de História, USP); história de um culto familiar a Ogum em Salvador.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.revistas.usp.br/revhistoria/article/view/180892"
+      ],
+      "url": "https://www.revistas.usp.br/revhistoria/article/view/180892",
+      "identificadores": {},
+      "periodico": "Revista de História"
+    },
+    {
+      "id": "castor-2013-trinidad",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "N. FADEKE CASTOR"
+      ],
+      "titulo": "Shifting Multicultural Citizenship: Trinidad Orisha Opens the Road",
+      "ano": 2013,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cultural Anthropology).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1111/cuan.12015",
+        "https://doi.org/10.1111/cuan.12015"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1111/cuan.12015"
+      },
+      "periodico": "Cultural Anthropology"
+    },
+    {
+      "id": "castor-2017-spiritual",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "N. Fadeke Castor"
+      ],
+      "titulo": "Spiritual Citizenship",
+      "ano": 2017,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica em editora universitária/científica (Duke University Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL20211230W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780822368731"
+      },
+      "editora": "Duke University Press"
+    },
+    {
       "id": "castro-2001-falares",
       "tipo": "livro",
       "categoria": "academica",
@@ -1167,6 +1876,59 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "cavalcanti-2019-casa-minas",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Maria Laura Viveiros de Castro Cavalcanti"
+      ],
+      "titulo": "A Casa das Minas de São Luís do Maranhão e a saga de Nã Agontimé",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Sociologia & Antropologia).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/2238-38752019v923",
+        "https://doi.org/10.1590/2238-38752019v923"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1590/2238-38752019v923"
+      },
+      "periodico": "Sociologia &amp; Antropologia"
+    },
+    {
+      "id": "cerqueira-2015-lebabimibome",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Hildebrando Almeida Cerqueira"
+      ],
+      "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+      "ano": 2015,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+        "https://theses.fr/2015USPCB181",
+        "https://theses.hal.science/tel-01778552v1"
+      ],
+      "url": "https://theses.fr/2015USPCB181",
+      "identificadores": {
+        "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f"
+      },
+      "editora": "Sorbonne Paris Cité"
     },
     {
       "id": "chiousse-1995-divins",
@@ -1212,6 +1974,33 @@
       "identificadores": {}
     },
     {
+      "id": "correa-1996-cozinha",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Norton F. Corrêa"
+      ],
+      "titulo": "“A cozinha é a base da religião”: a culinária ritual no batuque do Rio Grande do Sul",
+      "ano": 1996,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/s0104-71831996000100006",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831996000400049&lng=pt&tlng=pt",
+        "https://doi.org/10.1590/s0104-71831996000100006"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831996000400049&lng=pt&tlng=pt",
+      "identificadores": {
+        "doi": "10.1590/s0104-71831996000100006"
+      },
+      "periodico": "Horizontes Antropológicos"
+    },
+    {
       "id": "correia-2011-goiania",
       "tipo": "dissertacao",
       "categoria": "tese",
@@ -1232,6 +2021,58 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "costa-1980-exu-umbanda",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "P. Valdeli Carvalho Da Costa"
+      ],
+      "titulo": "Alguns marcos na evolução histórica e situação atual de Exu na Umbanda do Rio Janeiro",
+      "ano": 1980,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.9771/aa.v0i13.20812",
+        "https://doi.org/10.9771/aa.v0i13.20812",
+        "https://periodicos.ufba.br/index.php/afroasia/article/view/20812"
+      ],
+      "url": "https://doi.org/10.9771/aa.v0i13.20812",
+      "identificadores": {
+        "doi": "10.9771/aa.v0i13.20812"
+      },
+      "periodico": "Afro-Ásia"
+    },
+    {
+      "id": "costa-1989-angola",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "José Rodrigues da Costa"
+      ],
+      "titulo": "Candomblé de Angola",
+      "ano": 1989,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: openlibrary). Confiabilidade C: livro de divulgação (Pallas); autoria e conteúdo a avaliar.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL12419704W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788534701136"
+      },
+      "editora": "Pallas"
     },
     {
       "id": "costa-2007-xango-pe",
@@ -1257,6 +2098,32 @@
       ],
       "confiabilidade_preliminar": "A",
       "status_verificacao": "conferido_web",
+      "periodico": "Afro-Ásia"
+    },
+    {
+      "id": "costa-lima-1966-obas",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Vivaldo Da Costa Lima"
+      ],
+      "titulo": "Os Obás de Xangô",
+      "ano": 1966,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia); estudo clássico do Opô Afonjá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.9771/aa.v0i2-3.20246",
+        "https://doi.org/10.9771/aa.v0i2-3.20246"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.9771/aa.v0i2-3.20246"
+      },
       "periodico": "Afro-Ásia"
     },
     {
@@ -1301,6 +2168,34 @@
       "url": null,
       "identificadores": {},
       "periodico": "Cahiers d'études africaines"
+    },
+    {
+      "id": "cousin-tambor-mina-these",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Marie Cousin"
+      ],
+      "titulo": "Tambor de crioula et tambor de mina, expressions musicales rituelles afro-descendantes de São Luis do Maranhão (Brésil) : créolité, identité, \"culture de résistance\"",
+      "ano": null,
+      "idioma": "fr",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref, hal, thesesfr). Confiabilidade B: tese (etnomusicologia) sem ano no registro; conferir em theses.fr.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.70675/96ca4c74z3256z45fbzb2bfzfb66f43ce458",
+        "https://doi.org/10.70675/96ca4c74z3256z45fbzb2bfzfb66f43ce458",
+        "https://theses.fr/2013NICE2017",
+        "https://theses.hal.science/tel-00903580v1"
+      ],
+      "url": "https://doi.org/10.70675/96ca4c74z3256z45fbzb2bfzfb66f43ce458",
+      "identificadores": {
+        "doi": "10.70675/96ca4c74z3256z45fbzb2bfzfb66f43ce458"
+      },
+      "editora": "Agence Bibliographique de l'Enseignement Supérieur"
     },
     {
       "id": "dantas-1988-vovo",
@@ -1372,6 +2267,139 @@
       "url": null,
       "identificadores": {},
       "editora": "Grandvaux"
+    },
+    {
+      "id": "dianteill-1997-oricha",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Erwan Dianteill"
+      ],
+      "titulo": "Les Trois visages de l'Oricha. La relation entre homme et dieu dans la Santería cubaine / The Three Faces of Oricha. The relationship between Man and God in the Cuban Santería",
+      "ano": 1997,
+      "idioma": "fr",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Archives de sciences sociales des religions).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.3406/assr.1997.1176",
+        "https://doi.org/10.3406/assr.1997.1176"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.3406/assr.1997.1176"
+      },
+      "periodico": "Archives de sciences sociales des religions"
+    },
+    {
+      "id": "dianteill-2000-dieux",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Erwan Dianteill"
+      ],
+      "titulo": "Des dieux et des signes",
+      "ano": 2000,
+      "idioma": "fr",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (Éditions de l'EHESS).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL12764500W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9782713213588"
+      },
+      "editora": "Editions de lÉcole des hautes études en sciences sociales"
+    },
+    {
+      "id": "dias-2016-candomble-africa",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "João Ferreira Dias"
+      ],
+      "titulo": "“Candomblé é a África”: esquecimento e utopia no candomblé jeje-nagô",
+      "ano": 2016,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_jeje",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de História, PUC Minas).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5752/p.2237-8871.2016v17n26p64",
+        "https://doi.org/10.5752/p.2237-8871.2016v17n26p64"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5752/p.2237-8871.2016v17n26p64"
+      },
+      "periodico": "Cadernos de História"
+    },
+    {
+      "id": "dominguez-2005-necklaces",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Lourdes\tS. Domínguez",
+        "Jayson Rubio"
+      ],
+      "titulo": "Necklaces Used in the Santería of Cuba",
+      "ano": 2005,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (BEADS); cores de colares por oricha.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.7264/nmxb4n74",
+        "https://doi.org/10.7264/nmxb4n74"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.7264/nmxb4n74"
+      },
+      "periodico": "BEADS: Journal of the Society of Bead Researchers"
+    },
+    {
+      "id": "donatien-nago-lento",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Julie Donatien"
+      ],
+      "titulo": "Nagô é lento! (Nagô, c'est lent !) : force, identités et dynamique musico-rituelle dans le xangô de Recife (religion afro-brésilienne)",
+      "ano": null,
+      "idioma": "fr",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref, hal, thesesfr). Confiabilidade B: tese (etnomusicologia) sobre o xangô; ano a conferir.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.70675/6f20d07ez0b15z4c0az9939z125d61f99fa5",
+        "https://doi.org/10.70675/6f20d07ez0b15z4c0az9939z125d61f99fa5",
+        "https://theses.fr/2024PA100129",
+        "https://theses.hal.science/tel-05328775v1"
+      ],
+      "url": "https://doi.org/10.70675/6f20d07ez0b15z4c0az9939z125d61f99fa5",
+      "identificadores": {
+        "doi": "10.70675/6f20d07ez0b15z4c0az9939z125d61f99fa5"
+      },
+      "editora": "Agence Bibliographique de l'Enseignement Supérieur"
     },
     {
       "id": "dopamu-1990-esu",
@@ -1553,11 +2581,92 @@
         "orisha_trinidad"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL14855876W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9781592213733"
+      }
+    },
+    {
+      "id": "fernandes-1937-xangos",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Gonçalves Fernandes"
+      ],
+      "titulo": "Xangôs do Nordeste",
+      "ano": 1937,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: estudo clássico (Civilização Brasileira, Biblioteca de Divulgação Científica); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL44325345W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Civilização Brasileira"
+    },
+    {
+      "id": "fernandez-olmos-1997-sacred",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Margarite Fernández Olmos",
+        "Lizabeth Paravisini-Gebert"
+      ],
+      "titulo": "Sacred possessions",
+      "ano": 1997,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi",
+        "vodou_haiti"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (Rutgers University Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL18387248W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780813523606"
+      },
+      "editora": "Rutgers Univ Pr"
+    },
+    {
+      "id": "fernandez-olmos-2022-orisha-cuba",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Margarite Fernández Olmos",
+        "Lizabeth Paravisini-Gebert"
+      ],
+      "titulo": "The Orisha Tradition in Cuba: Santería/Regla de Ocha",
+      "ano": 2022,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica de editora universitária (DOI Crossref): cap. 2 de Margarite Fernández Olmos e Lizabeth Paravisini-Gebert, Creole Religions of the Caribbean, 3ª ed. (New York University Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.18574/nyu/9781479803538.003.0009",
+        "https://doi.org/10.18574/nyu/9781479803538.003.0009"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.18574/nyu/9781479803538.003.0009",
+        "isbn": "9781479803538"
+      }
     },
     {
       "id": "ferreira-2000-exu",
@@ -1588,6 +2697,85 @@
       "observacoes": "Em Cléo Martins e Raul Lody (orgs.), Faraimará: o caçador traz alegria, pp. 15–23. Ogã; lista de nomes-qualidades de Exu. | Conferido (2026-10-31): a obra coletiva existe — Faraimará, o caçador traz alegria: Mãe Stella, 60 anos de iniciação (Pallas, 2000). Páginas do capítulo ainda não conferidas no sumário."
     },
     {
+      "id": "ferreira-2017-legba",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Luís Augusto Ferreira Saraiva"
+      ],
+      "titulo": "De vodum a caboclo: Trajetória de legbá no terreiro de Tambor de Mina e Terecô",
+      "ano": 2017,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); Legba na Mina e no Terecô.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.26512/revistacalundu.v1i1.7621",
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/7621",
+        "https://www.periodicos.unb.br/index.php/revistacalundu/article/view/7621"
+      ],
+      "url": "https://periodicos.unb.br/index.php/revistacalundu/article/view/7621",
+      "identificadores": {
+        "doi": "10.26512/revistacalundu.v1i1.7621"
+      },
+      "periodico": "Revista Calundu"
+    },
+    {
+      "id": "ferreira-2026-vodunsi",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Leandro Tiago Ferreira"
+      ],
+      "titulo": "Nascer vodunsi: ritos estéticos iniciáticos no Candomblé Jeje-Mahi",
+      "ano": 2026,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (ouvirOUver, UFU).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.14393/ouv-v21n1a2025-76487",
+        "https://doi.org/10.14393/ouv-v21n1a2025-76487"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.14393/ouv-v21n1a2025-76487"
+      },
+      "periodico": "ouvirOUver"
+    },
+    {
+      "id": "ferreira-ta-nzo-ia-nkisi",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Tiago Alves Ferreira"
+      ],
+      "titulo": "Nzo ia Nkis : uma análise experiencial do protagonismo negro na fundação de um terreiro de Candomblé Angola",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref). Confiabilidade B: dissertação UnB sem ano no registro; conferir no repositório.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.26512/2020.04.d.40288",
+        "https://doi.org/10.26512/2020.04.d.40288"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.26512/2020.04.d.40288"
+      },
+      "editora": "Biblioteca Central da UNB"
+    },
+    {
       "id": "ferretti-1985-querebenta",
       "tipo": "livro",
       "categoria": "academica",
@@ -1611,6 +2799,240 @@
       "identificadores": {},
       "editora": "EDUFMA",
       "local": "São Luís"
+    },
+    {
+      "id": "ferretti-1995-sincretismo",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Sérgio Figueiredo Ferretti"
+      ],
+      "titulo": "Repensando o sincretismo",
+      "ano": 1995,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (Edusp/FAPEMA); estudo da Casa das Minas.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1756511W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788531402890"
+      },
+      "editora": "Edusp"
+    },
+    {
+      "id": "ferretti-1996-acossi",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Sérgio Figueiredo Ferretti"
+      ],
+      "titulo": "Festa de Acossi e o arrambã: elementos do simbolismo da comida no Tambor de Mina",
+      "ano": 1996,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/s0104-71831996000100007",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831996000400061&lng=pt&tlng=pt",
+        "https://doi.org/10.1590/s0104-71831996000100007"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831996000400061&lng=pt&tlng=pt",
+      "identificadores": {
+        "doi": "10.1590/s0104-71831996000100007"
+      },
+      "periodico": "Horizontes Antropológicos"
+    },
+    {
+      "id": "ferretti-1998-sincretismo",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Sérgio E. Ferretti"
+      ],
+      "titulo": "Sincretismo afro-brasileiro e resistência cultural",
+      "ano": 1998,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/s0104-71831998000100010",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831998000100182&lng=en&tlng=en"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831998000100182&lng=en&tlng=en",
+      "identificadores": {
+        "doi": "10.1590/s0104-71831998000100010"
+      },
+      "periodico": "Horizontes Antropológicos"
+    },
+    {
+      "id": "ferretti-2011-comida",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Sérgio Figueiredo Ferretti"
+      ],
+      "titulo": "Comida ritual em festas de Tambor de Mina no Maranhão",
+      "ano": 2011,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas); acesso aberto pelo DOAJ, contornando o bloqueio do Dialnet.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5752/p.2175-5841.2011v9n21p242",
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092",
+        "https://doi.org/10.5752/p.2175-5841.2011v9n21p242"
+      ],
+      "url": "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092",
+      "identificadores": {
+        "doi": "10.5752/p.2175-5841.2011v9n21p242"
+      },
+      "periodico": "HORIZONTE"
+    },
+    {
+      "id": "ferretti-m-1992-turco",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Mundicarmo Ferretti"
+      ],
+      "titulo": "Repensando o turco no tambor de mina",
+      "ano": 1992,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.9771/aa.v0i15.20834",
+        "https://doi.org/10.9771/aa.v0i15.20834"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.9771/aa.v0i15.20834"
+      },
+      "periodico": "Afro-Ásia"
+    },
+    {
+      "id": "ferretti-m-1993-guma",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Mundicarmo Maria Rocha Ferretti"
+      ],
+      "titulo": "Desceu na guma",
+      "ano": 1993,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia de Mundicarmo Ferretti (SIOGE, São Luís), referência sobre o caboclo no Tambor de Mina.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL2595475W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788585048075"
+      },
+      "editora": "SIOGE"
+    },
+    {
+      "id": "ferretti-m-2014-brinquedo",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Mundicarmo Ferretti"
+      ],
+      "titulo": "Brinquedo de Cura em terreiro de Mina",
+      "ano": 2014,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista do IEB, USP); autora é referência no tema.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.11606/issn.2316-901x.v0i59p57-78",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0020-38742014000200057&tlng=pt"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0020-38742014000200057&tlng=pt",
+      "identificadores": {
+        "doi": "10.11606/issn.2316-901x.v0i59p57-78"
+      },
+      "periodico": "Revista do Instituto de Estudos Brasileiros"
+    },
+    {
+      "id": "ferretti-m-2020-pureza",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Mundicarmo Ferretti"
+      ],
+      "titulo": "Pureza nagô e nações africanas no tambor de Mina do Maranhão",
+      "ano": 2020,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ciencias Sociales y Religión).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.22456/1982-2650.2170",
+        "https://econtents.bc.unicamp.br/inpec/index.php/csr/article/view/13302"
+      ],
+      "url": "https://econtents.bc.unicamp.br/inpec/index.php/csr/article/view/13302",
+      "identificadores": {
+        "doi": "10.22456/1982-2650.2170"
+      },
+      "periodico": "Ciencias Sociales y Religión"
+    },
+    {
+      "id": "ferretti-m-caboclo-dissertacao",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Mundicarmo Maria Rocha Ferretti"
+      ],
+      "titulo": "O cabloco no \"Tambor de Mina\" e na dinâmica de um terreiro de São Luiz: a casa de Fanti-Ashanti",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref). Confiabilidade B: dissertação de Mundicarmo Ferretti (USP) sem ano no registro.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.11606/t.8.1991.tde-20260615-093547",
+        "https://doi.org/10.11606/t.8.1991.tde-20260615-093547"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.11606/t.8.1991.tde-20260615-093547"
+      },
+      "editora": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
     },
     {
       "id": "fichte-1976-xango",
@@ -1665,6 +3087,34 @@
       "identificadores": {}
     },
     {
+      "id": "fontes-2021-orixa-desaparecido",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Larissa Fontes"
+      ],
+      "titulo": "Orixá desaparecido: descobertas através de um museu silencioso",
+      "ano": 2021,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj, hal). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Afro-Ásia). Nação a confirmar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.9771/aa.v0i64.42090",
+        "https://doi.org/10.9771/aa.v0i64.42090",
+        "https://hal.science/hal-03963415v1",
+        "https://periodicos.ufba.br/index.php/afroasia/article/view/42090"
+      ],
+      "url": "https://doi.org/10.9771/aa.v0i64.42090",
+      "identificadores": {
+        "doi": "10.9771/aa.v0i64.42090"
+      },
+      "periodico": "Afro-Ásia"
+    },
+    {
       "id": "frobenius-1912-afrika",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -1717,6 +3167,209 @@
       "periodico": "Relegens Thréskeia (UFPR)"
     },
     {
+      "id": "giumbelli-2021-quimbanda",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Emerson Alessandro Giumbelli",
+        "Leonardo Oliveira de Almeida"
+      ],
+      "titulo": "O enigma da quimbanda: formas de existência e de exposição de uma modalidade religiosa afro-brasileira no Rio Grande do Sul",
+      "ano": 2021,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de Antropologia, USP).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.revistas.usp.br/ra/article/view/186652"
+      ],
+      "url": "https://www.revistas.usp.br/ra/article/view/186652",
+      "identificadores": {},
+      "periodico": "Revista de Antropologia"
+    },
+    {
+      "id": "giumbelli-2024-monumentos",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Emerson Giumbelli",
+        "Greilson Lima"
+      ],
+      "titulo": "Cristo, Bíblia e Iemanjá: monumentos e diversidade religiosa no Brasil",
+      "ano": 2024,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade). Tradições a confirmar na leitura.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872023000300201&tlng=pt"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872023000300201&tlng=pt",
+      "identificadores": {
+        "doi": "10.1590/0100-85872023v43n3cap07"
+      },
+      "periodico": "Religião e Sociedade"
+    },
+    {
+      "id": "gobin-2012-complexe",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Emma Gobin"
+      ],
+      "titulo": "Un complexe sacerdotal cubain : les santeros, les babalaos et la réflexivité critique",
+      "ano": 2012,
+      "idioma": "fr",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://theses.fr/2012PA100145"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Paris 10"
+    },
+    {
+      "id": "guerra-2013-xamba",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Lucia Helena Barbosa Guerra"
+      ],
+      "titulo": "Xangô rezado baixo. Xambá tocando alto",
+      "ano": 2013,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: editora universitária (UFPE); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL43915099W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788541503143"
+      },
+      "editora": "Editora Universitária UFPE"
+    },
+    {
+      "id": "halloy-2005-intimite",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Arnaud Halloy"
+      ],
+      "titulo": "Dans l'intimité des orixás : corps, rituel et apprentissage religieux dans une famille-de-saint de Recife, Brésil",
+      "ano": 2005,
+      "idioma": "fr",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1",
+        "https://theses.fr/2005EHES0198"
+      ],
+      "url": "https://hal.science/tel-04260456v1",
+      "identificadores": {},
+      "editora": "Paris, EHESS"
+    },
+    {
+      "id": "halloy-2012-gods",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Arnaud Halloy"
+      ],
+      "titulo": "Gods in the Flesh: Learning Emotions in the Xangô Possession Cult (Brazil)",
+      "ano": 2012,
+      "idioma": "en",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: hal). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Ethnos).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/00141844.2011.586465",
+        "https://hal.science/hal-01797335v1"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/00141844.2011.586465"
+      },
+      "periodico": "Ethnos"
+    },
+    {
+      "id": "hass-2019-angola",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Janaína Gonçalves Hasselmann",
+        "Roberta Barros Meira",
+        "Mariluci Neis Carelli"
+      ],
+      "titulo": "Nas trilhas do patrimônio afro-brasileiro: o apagamento do candomblé angola nas políticas culturais",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Mouseion).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.18316/mouseion.v0i33.6046",
+        "https://doi.org/10.18316/mouseion.v0i33.6046"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.18316/mouseion.v0i33.6046"
+      },
+      "periodico": "Mouseion"
+    },
+    {
+      "id": "henry-1983-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Frances Henry"
+      ],
+      "titulo": "Religion and Ideology in Trinidad: The Resurgence of the Shango Religion",
+      "ano": 1983,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Caribbean Quarterly).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/00086495.1983.11829343",
+        "https://doi.org/10.1080/00086495.1983.11829343"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/00086495.1983.11829343"
+      },
+      "periodico": "Caribbean Quarterly"
+    },
+    {
       "id": "henry-2003-reclaiming",
       "tipo": "livro",
       "categoria": "academica",
@@ -1730,11 +3383,40 @@
         "orisha_trinidad"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3108340W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9789766401290"
+      }
+    },
+    {
+      "id": "henry-2008-power",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Frances Henry"
+      ],
+      "titulo": "He had the power",
+      "ano": 2008,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: biografia de um líder do Orisha de Trinidad por antropóloga de referência (Frances Henry).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL22402438W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789766310479"
+      },
+      "editora": "Lexicon Trinidad"
     },
     {
       "id": "herskovits-1938-dahomey",
@@ -1770,11 +3452,41 @@
         "orisha_trinidad"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3525956W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9781566393492"
+      }
+    },
+    {
+      "id": "houk-2024-orisha",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "James Houk"
+      ],
+      "titulo": "Orisha Religion",
+      "ano": 2024,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica de editora universitária (DOI Crossref) (The Oxford Handbook of Caribbean Religions).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1093/oxfordhb/9780190916961.013.14",
+        "https://doi.org/10.1093/oxfordhb/9780190916961.013.14"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1093/oxfordhb/9780190916961.013.14",
+        "isbn": "9780190916961"
+      }
     },
     {
       "id": "idowu-1962-olodumare",
@@ -1888,6 +3600,32 @@
       "identificadores": {}
     },
     {
+      "id": "lacourse-1997-nago",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Josée Lacourse"
+      ],
+      "titulo": "Si la tradition nagô m'était contée. Une comparaison de différentes tendances du Xangô de Recife (note de recherche)",
+      "ano": 1997,
+      "idioma": "fr",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Anthropologie et Sociétés).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.7202/015486ar",
+        "https://doi.org/10.7202/015486ar"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.7202/015486ar"
+      },
+      "periodico": "Anthropologie et Sociétés"
+    },
+    {
       "id": "landes-1947-city",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -1928,6 +3666,83 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "lima-2020-angola",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ari Lima"
+      ],
+      "titulo": "Sobre sincretismo e pureza: uma perspectiva do candomblé angola",
+      "ano": 2020,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.35499/tl.v14i1.8249",
+        "https://doi.org/10.35499/tl.v14i1.8249"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.35499/tl.v14i1.8249"
+      },
+      "periodico": "Tabuleiro de Letras"
+    },
+    {
+      "id": "linares-1993-santeria",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "María Teresa Linares"
+      ],
+      "titulo": "La santería en Cuba",
+      "ano": 1993,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Gazeta de Antropología); autora é etnomusicóloga cubana.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.30827/digibug.13638",
+        "https://doi.org/10.30827/digibug.13638"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.30827/digibug.13638"
+      },
+      "periodico": "Gazeta de Antropología"
+    },
+    {
+      "id": "lins-2004-xango-pe",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "Anilson Lins"
+      ],
+      "titulo": "Xangô de Pernambuco",
+      "ano": 2004,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: openlibrary). Confiabilidade C: livro de divulgação (Pallas) sobre a tradição; autoria a avaliar.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL13635096W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788534703703"
+      },
+      "editora": "Pallas"
     },
     {
       "id": "lopes-1988-bantos",
@@ -2020,6 +3835,61 @@
       "local": "Rio de Janeiro"
     },
     {
+      "id": "lovejoy-2019-lucumi",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Henry B. Lovejoy"
+      ],
+      "titulo": "New Lucumí from Ọ̀yọ́",
+      "ano": 2019,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica de editora universitária (DOI Crossref): cap. de Henry B. Lovejoy, Prieto: Yorùbá Kingship in Colonial Cuba (University of North Carolina Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5149/northcarolina/9781469645391.003.0006",
+        "https://doi.org/10.1525/9780520958838-003",
+        "https://doi.org/10.5149/northcarolina/9781469645391.003.0001",
+        "https://doi.org/10.5149/northcarolina/9781469645391.003.0006",
+        "https://doi.org/10.5149/northcarolina/9781469645391.003.0007"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5149/northcarolina/9781469645391.003.0006",
+        "isbn": "9781469645391"
+      }
+    },
+    {
+      "id": "lum-2000-praising",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Kenneth Anthony Lum"
+      ],
+      "titulo": "Praising his name in the dance",
+      "ano": 2000,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica em editora universitária/científica (Harwood/Taylor & Francis).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL5999738W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780203822661"
+      },
+      "editora": "Taylor & Francis Group"
+    },
+    {
       "id": "macgaffey-1986-religion",
       "tipo": "livro",
       "categoria": "academica",
@@ -2038,6 +3908,32 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "machado-vs-cajado-lemba",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Veridiana Silva Machado"
+      ],
+      "titulo": "O cajado de Lemba: o tempo no candomblé de nação Angola",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref). Confiabilidade B: dissertação USP sobre o tempo no candomblé angola; ano a conferir.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.11606/d.59.2016.tde-11052016-110936",
+        "https://doi.org/10.11606/d.59.2016.tde-11052016-110936"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.11606/d.59.2016.tde-11052016-110936"
+      },
+      "editora": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
     },
     {
       "id": "malagrino-2017-angola",
@@ -2060,6 +3956,60 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "marques-2018-fazendo",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Lucas Marques"
+      ],
+      "titulo": "Fazendo orixás: sobre o modo de existência das coisas no candomblé",
+      "ano": 2018,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Nação do candomblé não especificada nos metadados (aproximação).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/0100-85872018v38n2cap08",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872018000200221&lng=en&tlng=en",
+        "https://doi.org/10.1590/0100-85872018v38n2cap08"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872018000200221&lng=en&tlng=en",
+      "identificadores": {
+        "doi": "10.1590/0100-85872018v38n2cap08"
+      },
+      "periodico": "Religião &amp; Sociedade"
+    },
+    {
+      "id": "mason-1998-beadwork",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "John Mason"
+      ],
+      "titulo": "Yorùbá Beadwork in the Americas: Òrìṣà and Bead Color",
+      "ano": 1998,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts); trata cores de contas por orixá.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3337621",
+        "https://doi.org/10.2307/3337621"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3337621"
+      },
+      "periodico": "African Arts"
     },
     {
       "id": "matory-1994-sex",
@@ -2096,11 +4046,15 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3948682W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9780691059433"
+      }
     },
     {
       "id": "mau-1976-xango",
@@ -2152,6 +4106,81 @@
       "identificadores": {}
     },
     {
+      "id": "medeiros-1957-candomble",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "José Medeiros"
+      ],
+      "titulo": "Candomblé",
+      "ano": 1957,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: openlibrary). Confiabilidade C: fotorreportagem (O Cruzeiro) de valor histórico; não é fonte para atributos.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL4404320W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Edições O Cruzeiro"
+    },
+    {
+      "id": "mendes-2014-angola-caboclo",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Andrea Mendes"
+      ],
+      "titulo": "Candomblé angola e o culto a caboclo: de como João da Pedra Preta se tornou o rei nagô",
+      "ano": 2014,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.12957/periferia.2014.17276",
+        "http://www.e-publicacoes.uerj.br/index.php/periferia/article/view/17276",
+        "https://doi.org/10.12957/periferia.2014.17276"
+      ],
+      "url": "http://www.e-publicacoes.uerj.br/index.php/periferia/article/view/17276",
+      "identificadores": {
+        "doi": "10.12957/periferia.2014.17276"
+      },
+      "periodico": "Periferia"
+    },
+    {
+      "id": "mendonca-2016-familia",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Maria Sílvia de Mendonça"
+      ],
+      "titulo": "Família de santo em alguns terreiros de Xangô em Pernambuco no final do século XX",
+      "ano": 2016,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: editora universitária (EDUA, UFAM); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL32723516W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788574018331"
+      },
+      "editora": "EDUA"
+    },
+    {
       "id": "metraux-1958-vaudou",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -2170,6 +4199,32 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "mischel-1957-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Frances Mischel"
+      ],
+      "titulo": "African \"Powers\" in Trinidad: The Shango Cult",
+      "ano": 1957,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Anthropological Quarterly).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3316896",
+        "https://doi.org/10.2307/3316896"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3316896"
+      },
+      "periodico": "Anthropological Quarterly"
     },
     {
       "id": "mones-2024-ocha",
@@ -2216,6 +4271,161 @@
       "confiabilidade_preliminar": "B",
       "status_verificacao": "conferido_web",
       "periodico": "Revista Mosaico (PUC Goiás)"
+    },
+    {
+      "id": "motta-1991-transe",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Roberto Motta"
+      ],
+      "titulo": "Transe, sacrifício, comunhão e poder no Xangô de Pernambuco",
+      "ano": 1991,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista de Antropologia, USP).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.11606/2179-0892.ra.1991.111293",
+        "https://doi.org/10.11606/2179-0892.ra.1991.111293"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.11606/2179-0892.ra.1991.111293"
+      },
+      "periodico": "Revista de Antropologia"
+    },
+    {
+      "id": "motta-1998-util",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Roberto Motta"
+      ],
+      "titulo": "O útil, o sagrado e o mais-que-sagrado no Xangô de Pernambuco",
+      "ano": 1998,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/s0104-71831998000100009",
+        "https://doi.org/10.1590/s0104-71831998000100009"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1590/s0104-71831998000100009"
+      },
+      "periodico": "Horizontes Antropológicos"
+    },
+    {
+      "id": "motta-2003-sacrifice",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Roberto Motta"
+      ],
+      "titulo": "Le Sacrifice Xangô à Recife",
+      "ano": 2003,
+      "idioma": "fr",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Social Compass).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1177/0037768603050002007",
+        "https://doi.org/10.1177/0037768603050002007"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1177/0037768603050002007"
+      },
+      "periodico": "Social Compass"
+    },
+    {
+      "id": "motta-2011-sexo",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Roberto Motta"
+      ],
+      "titulo": "Sexo, culpa, sacrifício e expiação no Xangô de Pernambuco",
+      "ano": 2011,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Esboços, UFSC).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5007/2175-7976.2010v17n23p119",
+        "https://doi.org/10.5007/2175-7976.2010v17n23p119"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5007/2175-7976.2010v17n23p119"
+      },
+      "periodico": "Esboços - Revista do Programa de Pós-Graduação em História da UFSC"
+    },
+    {
+      "id": "moura-2019-ogum-bage",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Lisandro Lucas de Lima Moura",
+        "Carlos Eduardo Gusmão",
+        "Thais Rodrigues dos Santos"
+      ],
+      "titulo": "Expressões da devoção na Festa de Ogum em Bagé",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (PROA, Unicamp); tradição tirada do resumo (umbanda).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://www.ifch.unicamp.br/ojs/index.php/proa/article/view/3072"
+      ],
+      "url": "https://www.ifch.unicamp.br/ojs/index.php/proa/article/view/3072",
+      "identificadores": {},
+      "periodico": "PROA: Revista de Antropologia e Arte"
+    },
+    {
+      "id": "muchnik-2006-tango",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Maïra Muchnik"
+      ],
+      "titulo": "Le tango des Orixàs",
+      "ano": 2006,
+      "idioma": "fr",
+      "tradicoes": [
+        "batuque_rs",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: livro derivado de tese de doutorado (theses.fr, 2004) sobre religiões afro-brasileiras em Buenos Aires.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL12912116W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9782296012981"
+      },
+      "editora": "Harmattan"
     },
     {
       "id": "murphy-1988-santeria",
@@ -2281,6 +4491,86 @@
       "identificadores": {}
     },
     {
+      "id": "nangetu-2026-angola",
+      "tipo": "artigo",
+      "categoria": "praticante",
+      "autores": [
+        "Mam’etu Nangetu"
+      ],
+      "titulo": "História de Vida, Saberes e Apredizagens da Tradição de Candomblé de Angola – Instituto Nangetu de Tradição Afro-Religiosa e de Desenvolvimento Social",
+      "ano": 2026,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref). Confiabilidade C: texto de mam'etu (sacerdotisa) em periódico; venue a avaliar.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.18542/rcga.v0i28.19979",
+        "https://doi.org/10.18542/rcga.v0i28.19979"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.18542/rcga.v0i28.19979"
+      },
+      "periodico": "Revista Científica Gênero na Amazônia"
+    },
+    {
+      "id": "nascimento-2001-exus",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Adriano Roberto Afonso do Nascimento",
+        "Lídio de Souza",
+        "Zeidi Araújo Trindade"
+      ],
+      "titulo": "Exus e Pombas-Giras: o masculino e o feminino nos pontos cantados da umbanda",
+      "ano": 2001,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Psicologia em Estudo); útil para a distinção Exu orixá × exus da umbanda.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/s1413-73722001000200015",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-73722001000200015"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-73722001000200015",
+      "identificadores": {
+        "doi": "10.1590/s1413-73722001000200015"
+      },
+      "periodico": "Psicologia em Estudo"
+    },
+    {
+      "id": "nascimento-2007-jeje",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Luiz Cláudio Nascimento"
+      ],
+      "titulo": "A formação do candomblé e a Nação Jeje",
+      "ano": 2007,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref). Confiabilidade B: Afro-Ásia; possivelmente resenha de Parés 2006 (DOI não respondeu na conferência).",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.9771/aa.v0i35.21136",
+        "https://doi.org/10.9771/aa.v0i35.21136"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.9771/aa.v0i35.21136"
+      },
+      "periodico": "Afro-Ásia"
+    },
+    {
       "id": "negrao-1996-cruz",
       "tipo": "livro",
       "categoria": "academica",
@@ -2299,6 +4589,32 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "niell-2023-regla",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Paul Barrett Niell"
+      ],
+      "titulo": "Sacred Pathway, Devotional Praxis: Actors, Aché, and Landscape at the Sanctuary of Regla, Cuba",
+      "ano": 2023,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religions, MDPI).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.3390/rel14121545",
+        "https://www.mdpi.com/2077-1444/14/12/1545"
+      ],
+      "url": "https://www.mdpi.com/2077-1444/14/12/1545",
+      "identificadores": {
+        "doi": "10.3390/rel14121545"
+      },
+      "periodico": "Religions"
     },
     {
       "id": "nina-rodrigues-1900-animisme",
@@ -2352,6 +4668,34 @@
       "local": "São Paulo"
     },
     {
+      "id": "noleto-2025-montevideu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Rafael da Silva Noleto",
+        "Marcus Vinícius Nascimento Negrão"
+      ],
+      "titulo": "Encruzilhadas do Mercosul: transnacionalização religiosa na festa de Iemanjá em Montevidéu (UY)",
+      "ano": 2025,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Tradição a confirmar na leitura.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/1984-04382025e450102",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872025000100101&lng=pt&tlng=pt",
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872025000100101&lng=pt&tlng=pt",
+      "identificadores": {
+        "doi": "10.1590/1984-04382025e450102"
+      },
+      "periodico": "Religião &amp; Sociedade"
+    },
+    {
       "id": "odonile-2023-ogum",
       "tipo": "dissertacao",
       "categoria": "tese",
@@ -2372,6 +4716,83 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "ogundipe-2012-esu",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Ayodele Ogundipe"
+      ],
+      "titulo": "Èșù Elegbára",
+      "ano": 2012,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: edição universitária (Kwara State University Press) da tese do autor sobre Èṣù (Indiana, 1978).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL32458178W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789789275908"
+      },
+      "editora": "Kwara State University Press"
+    },
+    {
+      "id": "ogunleye-2015-yemoja",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Adetunbi R. Ogunleye"
+      ],
+      "titulo": "Cultural identity in the throes of modernity: an appraisal of Yemoja among the Yoruba in Nigeria",
+      "ano": 2015,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Inkanyiso).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4102/ink.v7i1.239",
+        "https://inkanyisojournal.org/index.php/ink/article/view/239"
+      ],
+      "url": "https://inkanyisojournal.org/index.php/ink/article/view/239",
+      "identificadores": {
+        "doi": "10.4102/ink.v7i1.239"
+      },
+      "periodico": "Inkanyiso"
+    },
+    {
+      "id": "olupona-abiodun-2016-ifa",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Jacob K. Olupona",
+        "Rowland O. Abiodun"
+      ],
+      "titulo": "Ifa divination, knowledge, power, and performance",
+      "ano": 2016,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (Indiana University Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL22320540W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780253018823"
+      },
+      "editora": "Indiana University Press"
     },
     {
       "id": "olupona-rey-2008-orisa",
@@ -2441,6 +4862,30 @@
       "url": null,
       "identificadores": {},
       "periodico": "Debates do NER"
+    },
+    {
+      "id": "oro-2012-campo",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Oro, Ari Pedro"
+      ],
+      "titulo": "O atual campo afro-religioso gaúcho",
+      "ano": 2012,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Civitas); autor é referência no tema.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://revistaseletronicas.pucrs.br/ojs/index.php/civitas/article/viewFile/13015/8684"
+      ],
+      "url": "https://revistaseletronicas.pucrs.br/ojs/index.php/civitas/article/viewFile/13015/8684",
+      "identificadores": {},
+      "periodico": "Civitas - Revista de Ciências Sociais"
     },
     {
       "id": "oro-2020-cabinda",
@@ -2536,6 +4981,32 @@
       "local": "Albany"
     },
     {
+      "id": "oyelaran-2020-esu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Ọlásopé O. Oyèláràn"
+      ],
+      "titulo": "Èṣù and ethics in the Yorùbá world view",
+      "ano": 2020,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, Cambridge).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1017/s0001972019001098",
+        "https://doi.org/10.1017/s0001972019001098"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1017/s0001972019001098"
+      },
+      "periodico": "Africa"
+    },
+    {
       "id": "palmie-2013-cooking",
       "tipo": "livro",
       "categoria": "academica",
@@ -2554,6 +5025,33 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "pares-2001-jeje",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Luis Nicolau Parés"
+      ],
+      "titulo": "The Jeje in the Tambor de Mina of Maranhão and in the Candomblé of Bahia",
+      "ano": 2001,
+      "idioma": "en",
+      "tradicoes": [
+        "candomble_jeje",
+        "tambor_de_mina"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Slavery & Abolition); autor é referência sobre a nação jeje.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/714005186",
+        "https://doi.org/10.1080/714005186"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/714005186"
+      },
+      "periodico": "Slavery &amp; Abolition"
     },
     {
       "id": "pares-2006-formacao",
@@ -2625,6 +5123,139 @@
       "editora": "University of California Press"
     },
     {
+      "id": "pelton-1980-legba",
+      "tipo": "capitulo",
+      "categoria": "academica",
+      "autores": [
+        "Robert D. Pelton"
+      ],
+      "titulo": "Legba: Master of the Fon Dialectic",
+      "ano": 1980,
+      "idioma": "en",
+      "tradicoes": [
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: capítulo em obra acadêmica de editora universitária (DOI Crossref): cap. 3 de Robert D. Pelton, The Trickster in West Africa (University of California Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1525/9780520341487-003",
+        "https://doi.org/10.1525/9780520341487-003",
+        "https://doi.org/10.2307/jj.2711530.6"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1525/9780520341487-003",
+        "isbn": "9780520067912"
+      }
+    },
+    {
+      "id": "pemberton-1975-eshu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "John Pemberton"
+      ],
+      "titulo": "Eshu-Elegba: The Yoruba Trickster God",
+      "ano": 1975,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Arts); estudo clássico.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/3334976",
+        "https://doi.org/10.2307/3334976"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/3334976"
+      },
+      "periodico": "African Arts"
+    },
+    {
+      "id": "pereira-2013-xango-candomble",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Zuleica Dantas Pereira Campos"
+      ],
+      "titulo": "De Xangô a Candomblé: transformações no mundo afro-pernambucano",
+      "ano": 2013,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5752/p.2175-5841.2013v11n29p13",
+        "https://doi.org/10.5752/p.2175-5841.2013v11n29p13"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5752/p.2175-5841.2013v11n29p13"
+      },
+      "periodico": "HORIZONTE"
+    },
+    {
+      "id": "pereira-2025-voduns",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "França Helena Elias Pereira",
+        "Antonio  Marcos Tosoli Gomes",
+        "Carla Cristina  Gonçalves"
+      ],
+      "titulo": "Representações sociais de voduns: expressões do sagrado no candomblé da tradição Jeje Mahi",
+      "ano": 2025,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: doaj). Confiabilidade C: periódico pouco conhecido; avaliar antes de usar.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.21727/rpu.v16i3.5603",
+        "https://editora.univassouras.edu.br/index.php/RPU/article/view/5603"
+      ],
+      "url": "https://editora.univassouras.edu.br/index.php/RPU/article/view/5603",
+      "identificadores": {
+        "doi": "10.21727/rpu.v16i3.5603"
+      },
+      "periodico": "Revista Pró-UniverSUS"
+    },
+    {
+      "id": "perez-2011-cooking",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Elizabeth Pérez"
+      ],
+      "titulo": "Cooking for the gods: sensuous ethnography, sensory knowledge, and the kitchen in Lucumí tradition",
+      "ano": 2011,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religion).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/0048721x.2011.619585",
+        "https://doi.org/10.1080/0048721x.2011.619585"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/0048721x.2011.619585"
+      },
+      "periodico": "Religion"
+    },
+    {
       "id": "perez-2013-nobodys-mammy",
       "tipo": "capitulo",
       "categoria": "academica",
@@ -2645,6 +5276,81 @@
       ],
       "url": "https://www.religion.ucsb.edu/wp-content/uploads/Perez-Nobodys-Mammy.pdf",
       "identificadores": {}
+    },
+    {
+      "id": "pernambuco-2019-batuque",
+      "tipo": "artigo",
+      "categoria": "praticante",
+      "autores": [
+        "Adalberto Ojuobá Pernambuco"
+      ],
+      "titulo": "As religiões africanas no Rio Grande do Sul (batuque)",
+      "ano": 2019,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: texto de sacerdote do batuque publicado em periódico acadêmico (Debates do NER); visão de dentro, a cotejar com etnografias.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.22456/1982-8136.95692",
+        "https://doi.org/10.22456/1982-8136.95692"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.22456/1982-8136.95692"
+      },
+      "periodico": "Debates do NER"
+    },
+    {
+      "id": "pitta-2011-mitos",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Danielle Perin Rocha Pitta"
+      ],
+      "titulo": "Mitos e símbolos nos xangôs de Pernambuco",
+      "ano": 2011,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de Estudos Sociais, Fundaj).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://fundaj.emnuvens.com.br/CAD/article/view/977"
+      ],
+      "url": "https://fundaj.emnuvens.com.br/CAD/article/view/977",
+      "identificadores": {},
+      "periodico": "Cadernos de Estudos Sociais"
+    },
+    {
+      "id": "pitta-2019-exu-recife",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Danielle Perin Rocha Pitta"
+      ],
+      "titulo": "Frontières et altérités : Exu. L’altérité vécue dans le Candomblé de Recife (Brésil)",
+      "ano": 2019,
+      "idioma": "fr",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API. O título diz 'Candomblé de Recife'; a tradição xango_pernambuco é aproximação a conferir na leitura.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.24193/cechinox.2019.36.13",
+        "https://doi.org/10.24193/cechinox.2019.36.13"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.24193/cechinox.2019.36.13"
+      },
+      "periodico": "Caietele Echinox"
     },
     {
       "id": "poli-antropologia-orixas",
@@ -2669,6 +5375,58 @@
       "url": null,
       "identificadores": {},
       "editora": "Pallas"
+    },
+    {
+      "id": "pollak-eltz-1993-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Angelina Pollak-Eltz"
+      ],
+      "titulo": "The Shango Cult and Other African Rituals in Trinidad, Grenada, and Carriacou and their Possible Influence on the Spiritual Baptist Faith",
+      "ano": 1993,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Caribbean Quarterly).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/00086495.1993.11671791",
+        "https://doi.org/10.1080/00086495.1993.11671791"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/00086495.1993.11671791"
+      },
+      "periodico": "Caribbean Quarterly"
+    },
+    {
+      "id": "polvora-1995-batuque",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Jacqueline Britto Pólvora"
+      ],
+      "titulo": "A experiência de antropologia visual em uma casa de batuque em Porto Alegre",
+      "ano": 1995,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/s0104-71831995000200010",
+        "https://doi.org/10.1590/s0104-71831995000200010"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1590/s0104-71831995000200010"
+      },
+      "periodico": "Horizontes Antropológicos"
     },
     {
       "id": "pommegorge-1789-nigritie",
@@ -2699,6 +5457,82 @@
       "editora": "Maradan"
     },
     {
+      "id": "pordeus-2011-festa",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Ismael Pordeus Jr."
+      ],
+      "titulo": "Festa de Iemanjá",
+      "ano": 2011,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: publicação do Museu do Ceará por antropólogo da UFC; tradição a confirmar.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL23386339W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788575637654"
+      },
+      "editora": "Museu do Ceará"
+    },
+    {
+      "id": "porto-filho-2009-dois-fevereiro",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "Ubaldo Marques Porto Filho"
+      ],
+      "titulo": "Dois de Fevereiro no Rio Vermelho",
+      "ano": 2009,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: openlibrary). Confiabilidade C: memória local (Acirv); pode ajudar na divergência sobre a origem da festa (1923 ou c. 1910).",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL18644885W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788590337867"
+      },
+      "editora": "Acirv"
+    },
+    {
+      "id": "poynor-2012-ogun",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Robin Poynor"
+      ],
+      "titulo": "The Many and Changing Faces of Ògún",
+      "ano": 2012,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Nova Religio).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1525/nr.2012.16.1.13",
+        "https://doi.org/10.1525/nr.2012.16.1.13"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1525/nr.2012.16.1.13"
+      },
+      "periodico": "Nova Religio"
+    },
+    {
       "id": "prandi-1991-sp",
       "tipo": "livro",
       "categoria": "academica",
@@ -2718,6 +5552,58 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "prandi-1995-deuses",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Deuses africanos no Brasil contemporâneo (introdução sociológica ao candomblé de hoje)",
+      "ano": 1995,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos); autor de referência. A DOAJ data o registro em 2026, mas o identificador SciELO (S0104-71831995…) indica 1995.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/s0104-71831995000300002",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831995000300010&lng=pt&tlng=pt"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-71831995000300010&lng=pt&tlng=pt",
+      "identificadores": {
+        "doi": "10.1590/s0104-71831995000300002"
+      },
+      "periodico": "Horizontes Antropológicos"
+    },
+    {
+      "id": "prandi-2000-ogum-faces",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "Reginaldo Prandi"
+      ],
+      "titulo": "Ogum, o rei de muitas faces e outras histórias dos orixás",
+      "ano": 2000,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: openlibrary). Confiabilidade C: livro infantojuvenil de Reginaldo Prandi (Cia. das Letras); autor ausente no registro.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL18284568W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788571649392"
+      },
+      "editora": "Cia. das Letras"
     },
     {
       "id": "prandi-2001-exu-diabo",
@@ -2842,11 +5728,15 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1754339W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9788535906271"
+      }
     },
     {
       "id": "prandi-2025-orixas",
@@ -2946,6 +5836,33 @@
       ]
     },
     {
+      "id": "queiroz-2022-exu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Vítor Queiroz"
+      ],
+      "titulo": "Na rua, no meio do redemoinho: das mediações de Exu no espaço público à ação político-ritual em dois contextos afro-religiosos",
+      "ano": 2022,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade); tradições tiradas do resumo, nação do candomblé não especificada.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1590/0100-85872021v42n1cap06",
+        "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872022000100127&tlng=pt"
+      ],
+      "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872022000100127&tlng=pt",
+      "identificadores": {
+        "doi": "10.1590/0100-85872021v42n1cap06"
+      },
+      "periodico": "Religião e Sociedade"
+    },
+    {
       "id": "ramos-1934-negro",
       "tipo": "livro",
       "categoria": "etno_classica",
@@ -2965,6 +5882,83 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "ramos-2010-boi",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Cleidiana Ramos"
+      ],
+      "titulo": "O sacrifício do boi para Ogum: explorando três fotografias sobre Candomblé no acervo do jornal A Tarde",
+      "ano": 2010,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Resgate, Unicamp). Nação não especificada nos metadados.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.20396/resgate.v18i19.8645683",
+        "https://periodicos.sbu.unicamp.br/ojs/index.php/resgate/article/view/8645683"
+      ],
+      "url": "https://periodicos.sbu.unicamp.br/ojs/index.php/resgate/article/view/8645683",
+      "identificadores": {
+        "doi": "10.20396/resgate.v18i19.8645683"
+      },
+      "periodico": "Resgate"
+    },
+    {
+      "id": "ramos-m-lucumi-reevaluation",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Miguel Ramos"
+      ],
+      "titulo": "Lucumí (Yoruba) Culture in Cuba: A Reevaluation (1830S -1940s)",
+      "ano": null,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref). Confiabilidade B: dissertação (FIU) sem ano no registro; conferir.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.25148/etd.fi13120402",
+        "https://doi.org/10.25148/etd.fi13120402"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.25148/etd.fi13120402"
+      },
+      "editora": "Florida International University"
+    },
+    {
+      "id": "rauhut-2012-santeria",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Claudia Rauhut"
+      ],
+      "titulo": "Santería und ihre Globalisierung in Kuba",
+      "ano": 2012,
+      "idioma": "de",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica em editora universitária/científica (Ergon); tese publicada.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL23154635W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9783899139464"
+      },
+      "editora": "Ergon"
     },
     {
       "id": "ribas-2010-sarava-ogum",
@@ -3058,6 +6052,59 @@
       "identificadores": {}
     },
     {
+      "id": "sandoval-2007-worldview",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Mercedes Cros Sandoval"
+      ],
+      "titulo": "Worldview, the Orichas, and Santeria",
+      "ano": 2007,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica em editora universitária/científica (University Press of Florida); capítulos por orixá com DOI no Crossref.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL6491023W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9780813030203"
+      },
+      "editora": "University Press of Florida"
+    },
+    {
+      "id": "santana-2023-xamba",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Tayanne Adrian Santana Morais da Silva",
+        "Raylane Andreza Dias Navarro Barreto"
+      ],
+      "titulo": "A formação pela experiência: o caso da primeira ialorixá do Terreiro da Nação Xambá (PE)",
+      "ano": 2023,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Educação & Formação, UECE).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.25053/redufor.v8.e11423",
+        "https://revistas.uece.br/index.php/redufor/article/view/11423"
+      ],
+      "url": "https://revistas.uece.br/index.php/redufor/article/view/11423",
+      "identificadores": {
+        "doi": "10.25053/redufor.v8.e11423"
+      },
+      "periodico": "Educação & Formação"
+    },
+    {
       "id": "santos-1976-nago",
       "tipo": "livro",
       "categoria": "academica",
@@ -3083,6 +6130,60 @@
       "local": "Petrópolis"
     },
     {
+      "id": "santos-2014-esu",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Juana Elbein dos Santos",
+        "Deoscóredes Maximiliano dos Santos"
+      ],
+      "titulo": "Èṣù",
+      "ano": 2014,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia de Juana Elbein dos Santos e Deoscóredes M. dos Santos (Corrupio), autores de referência sobre Exu.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL43825507W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9788586551475"
+      },
+      "editora": "Corrupio"
+    },
+    {
+      "id": "santos-2015-triade-bantu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Guaraci Maximiniano dos Santos"
+      ],
+      "titulo": "Umbanda, Reinado e Candomblé de Angola: uma tríade Bantu na promoção da vida responsável",
+      "ano": 2015,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_angola",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5752/p.2175-5841.2015v13n39p1698",
+        "https://doi.org/10.5752/p.2175-5841.2015v13n39p1698"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5752/p.2175-5841.2015v13n39p1698"
+      },
+      "periodico": "HORIZONTE"
+    },
+    {
       "id": "santos-ms-1993-tempo",
       "tipo": "livro",
       "categoria": "praticante",
@@ -3103,6 +6204,55 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "santos-ms-2006-ososi",
+      "tipo": "livro",
+      "categoria": "praticante",
+      "autores": [
+        "Maria Stella de Azevedo Santos (Mãe Stella de Oxóssi)"
+      ],
+      "titulo": "Òsósi: o caçador de alegrias",
+      "ano": 2006,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: livro da iyalorixá do Ilê Axé Opô Afonjá sobre Oxóssi; obra de praticante.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL13843829W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Funcultura, Fundo de Cultura da Bahia, Governo da Bahia, Secretaria da Fazenda [e] Secretaria da Cultura e Turismo"
+    },
+    {
+      "id": "santos-ms-2016-impressoes",
+      "tipo": "artigo",
+      "categoria": "praticante",
+      "autores": [
+        "Maria Stella de Azevedo Santos (Mãe Stella de Oxóssi)"
+      ],
+      "titulo": "“Impressões” de Mãe Stella de Oxóssi, Iya Odé Kayode, 5ª iyalorixá do Ilê Axé Opô Afonjá, sobre o Atlas Geográfico África-Brasil de autoria do geógrafo Rafael Sanzio dos Anjos",
+      "ano": 2016,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: texto da iyalorixá do Ilê Axé Opô Afonjá em periódico da UnB; voz de praticante.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.26512/ciga.v5i1.22174",
+        "https://doi.org/10.26512/ciga.v5i1.22174"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.26512/ciga.v5i1.22174"
+      },
+      "periodico": "Revista Eletrônica: Tempo - Técnica - Território / Eletronic Magazine: Time - Technique - Territory"
     },
     {
       "id": "sao-bernardo-kalunga-direito",
@@ -3127,6 +6277,53 @@
       "identificadores": {}
     },
     {
+      "id": "schweitzer-2013-bata",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Kenneth George Schweitzer"
+      ],
+      "titulo": "The artistry of Afro-Cuban batá drumming",
+      "ano": 2013,
+      "idioma": "en",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica em editora universitária/científica (University Press of Mississippi).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL19965210W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9781617036699"
+      },
+      "editora": "University Press of Mississippi"
+    },
+    {
+      "id": "segato-1988-iemanja",
+      "tipo": "documento",
+      "categoria": "academica",
+      "autores": [
+        "Rita Laura Segato"
+      ],
+      "titulo": "A vida privada de Iemanjá e seus filhos",
+      "ano": 1988,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: texto da Série Antropologia (UnB) de pesquisadora do Xangô do Recife; registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3207094W"
+      ],
+      "url": null,
+      "identificadores": {}
+    },
+    {
       "id": "segato-1995-santos",
       "tipo": "livro",
       "categoria": "academica",
@@ -3145,6 +6342,29 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "segato-iemanja-familia",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Rita Laura Segato"
+      ],
+      "titulo": "Iemanjá em família",
+      "ano": 2018,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: doaj). Confiabilidade B: Anuário Antropológico (UnB); a DOAJ data 2018, provável digitalização de volume antigo; ano original a conferir.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://periodicos.unb.br/index.php/anuarioantropologico/article/view/6394"
+      ],
+      "url": "https://periodicos.unb.br/index.php/anuarioantropologico/article/view/6394",
+      "identificadores": {},
+      "periodico": "Anuário Antropológico"
     },
     {
       "id": "seixas-2018-maria-iemanja",
@@ -3207,10 +6427,12 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Título e nomes completos a conferir.",
-      "status_verificacao": "a_verificar",
+      "observacoes": "Título e nomes completos a conferir. Metadados conferidos na varredura 3 (crossref). Título no Crossref em turco e inglês.",
+      "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://dergipark.org.tr/tr/download/article-file/1030100"
+        "https://dergipark.org.tr/tr/download/article-file/1030100",
+        "https://api.crossref.org/works/10.33415/daad.630586",
+        "https://doi.org/10.33415/daad.630586"
       ],
       "url": null,
       "identificadores": {
@@ -3234,11 +6456,15 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": null,
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Metadados conferidos na varredura 3 (openlibrary).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3204914W"
+      ],
       "url": null,
-      "identificadores": {}
+      "identificadores": {
+        "isbn": "9788508046850"
+      }
     },
     {
       "id": "silva-2012-exu-brasil",
@@ -3339,6 +6565,32 @@
       "identificadores": {}
     },
     {
+      "id": "silva-mb-orixas-ecologia",
+      "tipo": "dissertacao",
+      "categoria": "tese",
+      "autores": [
+        "Marina Barbosa e Silva"
+      ],
+      "titulo": "\"Orixás, guardiões da ecologia\": um estudo sobre conflito e legitimação das práticas religiosas afro-brasileiras em Porto Alegre",
+      "ano": null,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: crossref). Confiabilidade B: dissertação USP sem ano no registro Crossref; ano e orientador a conferir.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://api.crossref.org/works/10.11606/d.8.2012.tde-15042013-115440",
+        "https://doi.org/10.11606/d.8.2012.tde-15042013-115440"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.11606/d.8.2012.tde-15042013-115440"
+      },
+      "editora": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+    },
+    {
       "id": "silva-silvaneto-2025-oxossi",
       "tipo": "livro",
       "categoria": "academica",
@@ -3364,6 +6616,29 @@
       "editora": "Pallas"
     },
     {
+      "id": "silveira-1986-force",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Renato Da Silveira"
+      ],
+      "titulo": "La Force et la douceur de la force : structures et dynamisme afro-brésilien à Salvador de Bahia",
+      "ano": 1986,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://theses.fr/1986EHES0086"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Paris, EHESS"
+    },
+    {
       "id": "silveira-2006-barroquinha",
       "tipo": "livro",
       "categoria": "academica",
@@ -3382,6 +6657,56 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "simpson-1962-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "GEORGE EATON SIMPSON"
+      ],
+      "titulo": "The Shango Cult in Nigeria and in Trinidad",
+      "ano": 1962,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (American Anthropologist).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1525/aa.1962.64.6.02a00050",
+        "https://doi.org/10.1525/aa.1962.64.6.02a00050"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1525/aa.1962.64.6.02a00050"
+      },
+      "periodico": "American Anthropologist"
+    },
+    {
+      "id": "simpson-1965-shango",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "George Eaton Simpson"
+      ],
+      "titulo": "The shango cult in Trinidad",
+      "ano": 1965,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia clássica (Institute of Caribbean Studies, Universidade de Porto Rico); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL15128422W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Institute of Caribbean Studies, University of Puerto Rico"
     },
     {
       "id": "soares-2008-exu-educacao",
@@ -3406,6 +6731,57 @@
       "identificadores": {}
     },
     {
+      "id": "souza-hernandez-1998-echu",
+      "tipo": "livro",
+      "categoria": "divulgacao",
+      "autores": [
+        "Adrián de Souza Hernández"
+      ],
+      "titulo": "Echu-Elegguá",
+      "ano": 1998,
+      "idioma": "es",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "C",
+      "observacoes": "PISTA — Varredura 3 (coleta por API: openlibrary). Confiabilidade C: Ediciones Unión (Havana); obra de autor ligado à prática, a avaliar.",
+      "status_verificacao": "pista",
+      "evidencias": [
+        "https://openlibrary.org/works/OL2251595W",
+        "https://openlibrary.org/works/OL38561666W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9789592091986"
+      },
+      "editora": "Ediciones UNION"
+    },
+    {
+      "id": "stewart-2022-orisa",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Dianne M. Stewart"
+      ],
+      "titulo": "Obeah, Orisa, and Religious Identity in Trinidad, Volume 2, Orisa",
+      "ano": 2022,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (Duke University Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL27280068W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9781478013921"
+      },
+      "editora": "Duke University Press Books"
+    },
+    {
       "id": "tabu-sensibilita-candomble",
       "tipo": "artigo",
       "categoria": "academica",
@@ -3426,6 +6802,60 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "tadvald-2016-batuque",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Marcelo Tadvald"
+      ],
+      "titulo": "Notas históricas e antropológicas sobre o batuque no Rio Grande do Sul",
+      "ano": 2016,
+      "idioma": "pt",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.5380/rt.v5i1.45867",
+        "https://doi.org/10.5380/rt.v5i1.45867"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.5380/rt.v5i1.45867"
+      },
+      "periodico": "Revista Relegens Thréskeia"
+    },
+    {
+      "id": "tall-2009-patrimoine",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Kadya Emmanuelle Tall"
+      ],
+      "titulo": "Imaginaire national et mise en patrimoine dans l'Atlantique Sud : Candomblé de Bahia et cultes vodun au Sud-Bénin",
+      "ano": 2009,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_ketu",
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, hal). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Lusotopie).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1163/17683084-01602009",
+        "https://doi.org/10.1163/17683084-01602009",
+        "https://ird.hal.science/ird-01535083v1"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1163/17683084-01602009"
+      },
+      "periodico": "Lusotopie"
     },
     {
       "id": "tavares-2006-xango",
@@ -3494,6 +6924,29 @@
       ],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "testa-2006-santeria",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Silvina Testa"
+      ],
+      "titulo": "La conquête de l’est : reconfigurations régionales de la santería cubaine (La Havane – Sagua la Grande)",
+      "ano": 2006,
+      "idioma": "fr",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://theses.fr/2006PA100163"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Paris 10"
     },
     {
       "id": "theodoro-2010-iansa",
@@ -3623,6 +7076,33 @@
       "identificadores": {}
     },
     {
+      "id": "toutain-2019-santos",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Maxime Toutain"
+      ],
+      "titulo": "Santos parados : ethnohistoire et régimes mémoriels des maisons de culte du central Méjico (Matanzas, Cuba)",
+      "ano": 2019,
+      "idioma": "fr",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",
+        "https://theses.fr/2019TOU20076",
+        "https://theses.hal.science/tel-03191332v1"
+      ],
+      "url": "https://theses.fr/2019TOU20076",
+      "identificadores": {
+        "doi": "10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e"
+      },
+      "editora": "Toulouse 2"
+    },
+    {
       "id": "trindade-1985-exu",
       "evidencias": [
         "https://revistas.usp.br/revusp/article/download/35275/37995/41553"
@@ -3646,6 +7126,81 @@
       ],
       "confiabilidade_preliminar": "A",
       "observacoes": "Exu como herói trickster; ambiguidade moral."
+    },
+    {
+      "id": "trindade-1985-simbolo",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Liana Salvia Trindade"
+      ],
+      "titulo": "Exu, símbolo e função",
+      "ano": 1985,
+      "idioma": "pt",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: publicação do Centro de Estudos da Religião (USP) por pesquisadora do tema.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL4922002W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Centro de Estudos da Religião, Departamento de Ciências Sociais, FFLCH/USP"
+    },
+    {
+      "id": "trotman-1976-yoruba",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "David V. Trotman"
+      ],
+      "titulo": "The Yoruba and Orisha Worship in Trinidad and British Guinea: 1838-1870",
+      "ano": 1976,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (African Studies Review).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/523560",
+        "https://doi.org/10.2307/523560"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/523560"
+      },
+      "periodico": "African Studies Review"
+    },
+    {
+      "id": "trotman-2007-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "David V. Trotman"
+      ],
+      "titulo": "Reflections on the Children of Shango: An Essay on a History of Orisa Worship in Trinidad",
+      "ano": 2007,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Slavery & Abolition).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1080/01440390701428022",
+        "https://doi.org/10.1080/01440390701428022"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1080/01440390701428022"
+      },
+      "periodico": "Slavery &amp; Abolition"
     },
     {
       "id": "ufg-2017-exu-umbanda",
@@ -3760,6 +7315,29 @@
       "identificadores": {}
     },
     {
+      "id": "valente-1954-marcas",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Waldemar Valente"
+      ],
+      "titulo": "Marcas muçulmanas nos xangôs de Pernambuco",
+      "ano": 1954,
+      "idioma": "pt",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: estudo clássico (Universidade do Recife); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3874222W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Universidade do Recife, Faculdade de Filosofia de Pernambuco"
+    },
+    {
       "id": "vallado-2008-iemanja",
       "url": null,
       "identificadores": {
@@ -3787,6 +7365,87 @@
         "https://periodicos.ufmg.br/index.php/memorandum/article/download/6845/10744/35888",
         "https://openlibrary.org/works/OL6054663W"
       ]
+    },
+    {
+      "id": "vallier-2011-esu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Gilles-Félix Vallier"
+      ],
+      "titulo": "Le concept du héros imprévisible. Système religieux yorùbá (Bénin-Nigeria) Èṣù, l’improbable Trickster",
+      "ano": 2011,
+      "idioma": "fr",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "vodun_benim"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: hal). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cahiers d'études africaines).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.4000/etudesafricaines.14299",
+        "https://hal.science/hal-02443068v1"
+      ],
+      "url": "https://hal.science/hal-02443068v1",
+      "identificadores": {
+        "doi": "10.4000/etudesafricaines.14299"
+      },
+      "periodico": "Cahiers d'études africaines"
+    },
+    {
+      "id": "vatin-2001-nations",
+      "tipo": "tese",
+      "categoria": "tese",
+      "autores": [
+        "Xavier Vatin"
+      ],
+      "titulo": "Etude comparative de différentes nations de candomblé à Bahia, Brésil",
+      "ano": 2001,
+      "idioma": "fr",
+      "tradicoes": [
+        "candomble_angola",
+        "candomble_ketu",
+        "candomble_jeje"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); comparação explícita entre nações.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://theses.fr/2001EHES0223"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Paris, EHESS"
+    },
+    {
+      "id": "veiga-2021-exu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Rychelmy Imbiriba Veiga"
+      ],
+      "titulo": "Orixá ou Diabo: a construção imagética de exu no brasil",
+      "ano": 2021,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Revista Calundu, UnB); tradições a confirmar na leitura.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.26512/revistacalundu.v4i2.35815",
+        "https://doi.org/10.26512/revistacalundu.v4i2.35815",
+        "https://periodicos.unb.br/index.php/revistacalundu/article/view/35815",
+        "https://www.periodicos.unb.br/index.php/revistacalundu/article/view/35815"
+      ],
+      "url": "https://doi.org/10.26512/revistacalundu.v4i2.35815",
+      "identificadores": {
+        "doi": "10.26512/revistacalundu.v4i2.35815"
+      },
+      "periodico": "Revista Calundu"
     },
     {
       "id": "verger-1954-dieux",
@@ -3870,6 +7529,30 @@
       "local": "Salvador"
     },
     {
+      "id": "verger-1981-oxossi",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Pierre Verger"
+      ],
+      "titulo": "Oxossi, o caçador",
+      "ano": 1981,
+      "idioma": "pt",
+      "tradicoes": [
+        "candomble_ketu",
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade A: obra de Pierre Verger (Corrupio); registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL1163823W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Corrupio"
+    },
+    {
       "id": "verger-1985-lendas",
       "url": null,
       "identificadores": {
@@ -3916,6 +7599,134 @@
       "evidencias": [],
       "url": null,
       "identificadores": {}
+    },
+    {
+      "id": "vertovec-1998-shango",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Steven VERTOVEC"
+      ],
+      "titulo": "Ethnic Distance and Religious Convergence: Shango, Spiritual Baptist, and Kali Mai Traditions in Trinidad",
+      "ano": 1998,
+      "idioma": "en",
+      "tradicoes": [
+        "orisha_trinidad"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Social Compass).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.1177/003776898045002004",
+        "https://doi.org/10.1177/003776898045002004"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.1177/003776898045002004"
+      },
+      "periodico": "Social Compass"
+    },
+    {
+      "id": "voeks-1997-sacred",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Robert A. Voeks"
+      ],
+      "titulo": "Sacred Leaves of Candomblé: African Magic, Medicine, and Religion in Brazil",
+      "ano": 1997,
+      "idioma": "en",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: crossref, openlibrary). Confiabilidade A: monografia acadêmica em editora universitária/científica (University of Texas Press).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.7560/787308",
+        "https://doi.org/10.7560/787308",
+        "https://openlibrary.org/works/OL3355556W"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.7560/787308",
+        "isbn": "9780292787308"
+      },
+      "editora": "University of Texas Press"
+    },
+    {
+      "id": "wescott-1962-eshu",
+      "tipo": "artigo",
+      "categoria": "academica",
+      "autores": [
+        "Joan Wescott"
+      ],
+      "titulo": "The Sculpture and Myths of Eshu-Elegba, the Yoruba Trickster: Definition and Interpretation in Yoruba Iconography",
+      "ano": 1962,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "A",
+      "observacoes": "Varredura 3 (coleta por API: crossref). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Africa, IAI); estudo clássico citado na literatura sobre Èṣù.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://api.crossref.org/works/10.2307/1157438",
+        "https://doi.org/10.2307/1157438"
+      ],
+      "url": null,
+      "identificadores": {
+        "doi": "10.2307/1157438"
+      },
+      "periodico": "Africa"
+    },
+    {
+      "id": "witte-1984-ifa-esu",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Witte, Hans Dr."
+      ],
+      "titulo": "Ifa and Eṣu",
+      "ano": 1984,
+      "idioma": "en",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: catálogo iconográfico de Hans Witte; registro na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL3702274W"
+      ],
+      "url": null,
+      "identificadores": {},
+      "editora": "Kunsthandel Luttik"
+    },
+    {
+      "id": "zander-1981-eshu",
+      "tipo": "livro",
+      "categoria": "academica",
+      "autores": [
+        "Leonie Zander-Giacomuzzi"
+      ],
+      "titulo": "Eshu, ein Numen in der Vorstellungswelt der Yoruba",
+      "ano": 1981,
+      "idioma": "de",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "confiabilidade_preliminar": "B",
+      "observacoes": "Varredura 3 (coleta por API: openlibrary). Confiabilidade B: monografia acadêmica (tese impressa) registrada na Open Library.",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL12742141W"
+      ],
+      "url": null,
+      "identificadores": {
+        "isbn": "9783260049101"
+      },
+      "editora": "Juris Druck + Verlag"
     }
   ]
 }

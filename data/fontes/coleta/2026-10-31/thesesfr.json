@@ -1,0 +1,3816 @@
+{
+ "base": "thesesfr",
+ "data": "2026-10-31",
+ "linhas_por_consulta": 20,
+ "gerado_por": "scripts/coleta/coletar.py",
+ "status": "ok",
+ "erro": null,
+ "consultas": [
+  {
+   "id": "exu-pt-1",
+   "q": "Exu orixá",
+   "idioma": "pt",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "1991EHES0038",
+     "titulo": "Les Compagnons invisibles : femmes et cultes de possession Umbanda et Mina (Belém, Brésil)",
+     "autores": [
+      "Véronique Boyer-Araújo"
+     ],
+     "ano": 1991,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1991EHES0038",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Femmes et religion",
+      "Brésil",
+      "Belém (Brésil)",
+      "Possession (anthropologie)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "umbanda"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015USPCB181",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015USPCB181",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Sorbonne Paris Cité",
+     "assuntos": [
+      "Esclavage -- Religion",
+      "Esclavage",
+      "Brésil",
+      "Esclavage",
+      "Inventions spirituelles",
+      "Contes populaires",
+      "Afro-brésilien",
+      "Bahia",
+      "Candomblé",
+      "Jeje",
+      "Résistance",
+      "Animalisation",
+      "Hybridation",
+      "Vudu",
+      "Vudum"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "exu-pt-2",
+   "q": "Exu candomblé",
+   "idioma": "pt",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "1997PA100031",
+     "titulo": "Esu ma se mi o : le pouvoir de la tradition dans le candomblé brésilien",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 1997,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1997PA100031",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "~exu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015USPCB181",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015USPCB181",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Sorbonne Paris Cité",
+     "assuntos": [
+      "Esclavage -- Religion",
+      "Esclavage",
+      "Brésil",
+      "Esclavage",
+      "Inventions spirituelles",
+      "Contes populaires",
+      "Afro-brésilien",
+      "Bahia",
+      "Candomblé",
+      "Jeje",
+      "Résistance",
+      "Animalisation",
+      "Hybridation",
+      "Vudu",
+      "Vudum"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "exu-pt-3",
+   "q": "Exu umbanda",
+   "idioma": "pt",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "1997PA100031",
+     "titulo": "Esu ma se mi o : le pouvoir de la tradition dans le candomblé brésilien",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 1997,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1997PA100031",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "~exu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1991EHES0038",
+     "titulo": "Les Compagnons invisibles : femmes et cultes de possession Umbanda et Mina (Belém, Brésil)",
+     "autores": [
+      "Véronique Boyer-Araújo"
+     ],
+     "ano": 1991,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1991EHES0038",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Femmes et religion",
+      "Brésil",
+      "Belém (Brésil)",
+      "Possession (anthropologie)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "umbanda"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "exu-yo-1",
+   "q": "Èṣù",
+   "idioma": "yo",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 38,
+   "n": 20,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2012VALE0029",
+     "titulo": "Etude expérimentale et théorique du début de l'atomisation des films liquides cisaillés horizontaux en présence d'un changement brusque de géométrie : application aux essuie-glaces",
+     "autores": [
+      "Evangelos Bacharoudis"
+     ],
+     "ano": 2012,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2012VALE0029",
+     "doi": "10.70675/a5e7b562zb782z433azb789zbacdef933f8b",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Mécanique",
+     "editora": "Valenciennes",
+     "assuntos": [
+      "Essuie-glaces",
+      "Visibilité (transport)",
+      "Équilibre solide-liquide",
+      "Automobiles -- Dispositifs de sécurité",
+      "Conditions de conduite à risque",
+      "Ballais essuie-glaces",
+      "Sécurité passagers",
+      "Overspray",
+      "Interaction air/liquide",
+      "Hazard driving conditions",
+      "Wiper blades",
+      "Safety of passengers",
+      "Overspray",
+      "Air/liquid interaction"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2017ISAR0028",
+     "titulo": "Energy efficiency-spectral efficiency tradeoff in interference-limited wireless networks",
+     "autores": [
+      "Ahmad Mahbubul Alam"
+     ],
+     "ano": 2017,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2017ISAR0028",
+     "doi": "10.70675/96d84806ze750z49b7z9f8cz681be38572b5",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Traitement du Signal et de l'Image",
+     "editora": "Rennes, INSA",
+     "assuntos": [
+      "Systèmes à entrées multiples et à sorties multiples",
+      "Processus de Poisson",
+      "Économies d'énergie",
+      "Systèmes de communication sans fil",
+      "Matrices aléatoires",
+      "Efficacité spectrale",
+      "MIMO systems",
+      "Poisson processes",
+      "Energy efficiency",
+      "Area spectral efficiency",
+      "Cellular network",
+      "Random matrix theory"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2011VALE0025",
+     "titulo": "Étude d’un film d’eau cisaillé par un écoulement d’air turbulent dans le sillage d’un obstacle 2D : application aux essuie-glaces",
+     "autores": [
+      "François Touron"
+     ],
+     "ano": 2011,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2011VALE0025",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Mécanique",
+     "editora": "Valenciennes",
+     "assuntos": [
+      "Essuie-glaces",
+      "Sécurité routière",
+      "Automobiles -- Dispositifs de sécurité"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2013GRENI013",
+     "titulo": "Volants thermiques cryogéniques liquide vapeur pour applications spatiales",
+     "autores": [
+      "Josiana Prado Afonso"
+     ],
+     "ano": 2013,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2013GRENI013",
+     "doi": "10.70675/72780ed0zec31z4232zbf2fz8eb09df098de",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Mécanique, génie mécanique",
+     "editora": "Grenoble",
+     "assuntos": [
+      "Cryotechnique",
+      "Cryogenie",
+      "Application spatiale",
+      "Temperature",
+      "Cryogenics",
+      "Spatial application",
+      "Temperature",
+      "Unidades de armazenamento de energia",
+      "Azoto",
+      "Hélio",
+      "Transferência de calor",
+      "Meio poroso",
+      "Capilaridade"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2022BORD0334",
+     "titulo": "Apprentissage et structuration d’une stratégie d’innovation sociale dans une Entreprise Solidaire d’utilité Sociale : le cas de ReSanté-Vous",
+     "autores": [
+      "Benjamin Le Fustec"
+     ],
+     "ano": 2022,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2022BORD0334",
+     "doi": "10.70675/1cdc38c0z0b9cz4e54z9dc6z6de7befc1784",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences de gestion",
+     "editora": "Bordeaux",
+     "assuntos": [
+      "Apprentissage organisationnel",
+      "Entreprises d'économie sociale et solidaire",
+      "Changement social",
+      "Entrepreneuriat social",
+      "Structuration",
+      "Innovation sociale",
+      "Apprentissage organisationnel",
+      "Business model",
+      "Social innovation",
+      "Business model",
+      "Socila entrepreneurship",
+      "Organizational learning",
+      "Structuration"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2018LIMO0017",
+     "titulo": "Synthesis, structure and optical properties of new tellurium oxide-based glasses within the TeO₂-TiO₂-WO₃ and TeO₂-NbO₂̩ ̩₅-WO₃ systems",
+     "autores": [
+      "Mohammed Reda Zaki"
+     ],
+     "ano": 2018,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2018LIMO0017",
+     "doi": "10.70675/78e310aaze433z449azaee2z00ff7d0ebb22",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Matériaux Céramiques et Traitements de Surface",
+     "editora": "Limoges",
+     "assuntos": [
+      "Verre d'oxydes",
+      "Propriétés optiques",
+      "Tellure -- Composés",
+      "Spectroscopie Raman",
+      "Ellipsométrie",
+      "Verres à base de TeO2",
+      "Théorie de force de champ cationique",
+      "Transmission optique",
+      "TeO1-based glasses",
+      "Cationic field strength theory",
+      "Optical transmission"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2017PSLEP001",
+     "titulo": "Phylogéographie de deux reptiles iraniens (le complexe Montivipera raddei et Ophisops elegans) et implication pour la conservation",
+     "autores": [
+      "Roozbeh Behrooz"
+     ],
+     "ano": 2017,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2017PSLEP001",
+     "doi": "10.70675/2b0af3b4z9826z466az9681z718471a946cf",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Systèmes intégrés, environnement et biodiversité",
+     "editora": "Paris Sciences et Lettres (ComUE)",
+     "assuntos": [
+      "Phylogéographie",
+      "Iran",
+      "Reptiles",
+      "ADN mitochondrial",
+      "Sky-Islands",
+      "Groupe d’espèces Montivipera raddei",
+      "Ophisops elegans",
+      "Fluctuations climatiques de Pléistocène",
+      "Refuges interglaciaires",
+      "Spéciation",
+      "ESU",
+      "Génétique de la conservation",
+      "Taxonomie",
+      "Zagros",
+      "Alborz"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~exu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1997PA100031",
+     "titulo": "Esu ma se mi o : le pouvoir de la tradition dans le candomblé brésilien",
+     "autores": [
+      "Stefania Capone"
+     ],
+     "ano": 1997,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1997PA100031",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "~exu"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2007PA066055",
+     "titulo": "Chromophores et polymères à architecture contrôlée pour l'optique non linéaire quadratique : stratégies, synthèses et propriétés",
+     "autores": [
+      "Anne-Lise Roy"
+     ],
+     "ano": 2007,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2007PA066055",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Chimie et physicochimie des polymères",
+     "editora": "Paris 6",
+     "assuntos": [
+      "Optique non linéaire quadratique",
+      "Thiophène",
+      "3,3'-bipyridine",
+      "Ferrocène",
+      "Polymérisation radicalaire contrôlée",
+      "RAFT [Transfert réversible par addition-fragmentation]",
+      "Poly(styrène-co-DR19)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2001PA120022",
+     "titulo": "Synthese et proprietes optiques non lineaires de nouveaux chromophores mesogenes et de polymeres en peigne les incorporant",
+     "autores": [
+      "NOELLA LEMAITRE"
+     ],
+     "ano": 2001,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2001PA120022",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences et techniques",
+     "editora": "Paris 12",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2009BOR13832",
+     "titulo": "Unfolding based verification of concurrent infinite-state systems",
+     "autores": [
+      "Thế Quang Trần"
+     ],
+     "ano": 2009,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2009BOR13832",
+     "doi": "10.70675/6f70422fze58az4f05z958cz34abe13a7c6c",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Informatique",
+     "editora": "Bordeaux 1",
+     "assuntos": [
+      "Systèmes informatiques",
+      "Algorithmes",
+      "Algorithme de dépliage",
+      "Ordre partiel",
+      "Préordre",
+      "Produit synchronisé",
+      "Structure d'événements",
+      "Préfixe fini",
+      "Système infini",
+      "Bornitude",
+      "Terminaison",
+      "Quasi-vivacité",
+      "Unfolding algorithm",
+      "Partial order",
+      "Preordre"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015BESA1012",
+     "titulo": "De la disparition d'une méthode : l'analyse entre philosophies du contrat social et sociologies classiques. Étude d'épistémologie",
+     "autores": [
+      "Jan Marsalek"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015BESA1012",
+     "doi": "10.70675/ed6e1b9cz35a0z420azb25bz72a6c5f057f2",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Philosophie",
+     "editora": "Besançon",
+     "assuntos": [
+      "Épistémologie",
+      "Contrat social",
+      "Analyse (philosophie)",
+      "Sociologie et philosophie",
+      "Rousseau, Jean-Jacques (1712-1778)",
+      "Philosophie politique",
+      "Hobbes, Thomas (1588-1679)",
+      "Durkheim, Émile (1858-1917)",
+      "Contribution à la sociologie",
+      "Spencer, Herbert (1820-1903 ; philosophe et sociologue)",
+      "Sociologie",
+      "Épistémologie",
+      "Analyse",
+      "Disparition",
+      "Lumières"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2008PA066475",
+     "titulo": "Diversité et évolution des Mytilidae (Mollusca : Bivalvia) associés aux substrats organiques coulés",
+     "autores": [
+      "Julien Lorion"
+     ],
+     "ano": 2008,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2008PA066475",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Diversité du vivant",
+     "editora": "Paris 6",
+     "assuntos": [
+      "Idas",
+      "Adipicola",
+      "Bathymodiolinae",
+      "Taxonomie intégrative",
+      "Symbiose",
+      "Allopatrie"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2018REN20061",
+     "titulo": "Influences des jeux d’actions et de rétroaction des sous-systèmes sociaux sur les variables de bien-être professionnel : le cas des chefs d’exploitation agricole costarmoricains",
+     "autores": [
+      "Élodie Jimenez"
+     ],
+     "ano": 2018,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2018REN20061",
+     "doi": "10.70675/ee124afdzea9fz4326z8a20z61aa82d86889",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sociologie",
+     "editora": "Rennes 2",
+     "assuntos": [
+      "Agriculteurs français",
+      "France",
+      "Côtes-d'Armor (France)",
+      "Société",
+      "Agriculture paysanne",
+      "Conditions sociales",
+      "Qualité de la vie",
+      "Et l'agriculture",
+      "Conditions de travail",
+      "Bien-être professionnel",
+      "Système sociaux",
+      "Agriculteur",
+      "Professional well-being",
+      "Social system",
+      "Farmer"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2005NANT2059",
+     "titulo": "Synthèse de nouveaux matériaux organiques et organo-métalliques pour l'optique non-linéaire du deuxième-ordre",
+     "autores": [
+      "Cyrille Monnereau"
+     ],
+     "ano": 2005,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2005NANT2059",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Chimie fine, chimie organique, matériaux organiques",
+     "editora": "Nantes",
+     "assuntos": [
+      "Polymères organométalliques",
+      "Optique non linéaire"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "s376994",
+     "titulo": "Essais sur l'économie de la compensation carbone volontaire",
+     "autores": [
+      "Tara L'horty"
+     ],
+     "ano": null,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s376994",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences Economiques",
+     "editora": "Université de Lorraine",
+     "assuntos": [
+      "Compensation carbone",
+      "Marché volontaire du carbone",
+      "Crédits carbone",
+      "Défaillances de marché",
+      "Carbon offsetting",
+      "Voluntary carbon market",
+      "Carbon certificates",
+      "Market failures"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2012NANT3054",
+     "titulo": "La politique arabo-musulmane de l'Union indienne (1947-1974), Moyen-Orient et Afrique du Nord",
+     "autores": [
+      "Magali Grolleau-Couton"
+     ],
+     "ano": 2012,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2012NANT3054",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Histoire contemporaine",
+     "editora": "Nantes",
+     "assuntos": [
+      "Relations",
+      "Inde",
+      "Pays arabes",
+      "XXe siècle 1901 2000"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2011MNHN0026",
+     "titulo": "Diversité moléculaire, phylogéographie et phylogénie des Crinoïdes (Échinodermes) dans un environnement extrême, l'océan Austral",
+     "autores": [
+      "Lenaïg Hemery"
+     ],
+     "ano": 2011,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2011MNHN0026",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences de la nature et de l'homme. Écologie et Évolution",
+     "editora": "Paris, Muséum national d'histoire naturelle",
+     "assuntos": [
+      "Crinoïdes",
+      "Analyse cladistique",
+      "Classification",
+      "Distribution géographique",
+      "Austral, Océan",
+      "Écologie"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1993CLF21512",
+     "titulo": "Analyse et specification de systemes de production pour l'evaluation des performances et la recherche d'ordonnancements",
+     "autores": [
+      "Christophe Caux"
+     ],
+     "ano": 1993,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1993CLF21512",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences appliquées",
+     "editora": "Clermont-Ferrand 2",
+     "assuntos": [
+      "Ordonnancement (gestion)",
+      "Production -- Gestion"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2018REN1S065",
+     "titulo": "Synthèse de complexes organométalliques de type Push-Pull et étude de leurs propriétés optiques et électroniques",
+     "autores": [
+      "Raphaël Durand"
+     ],
+     "ano": 2018,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2018REN1S065",
+     "doi": "10.70675/8fa5dcf2zfe92z4a29z8795z207dff560b6f",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Chimie moléculaire et macromoléculaire",
+     "editora": "Rennes 1",
+     "assuntos": [
+      "Composés organométalliques",
+      "Optique non linéaire",
+      "Complexes push-Pull",
+      "Diacétylure métallique",
+      "Platine",
+      "Ruthénium",
+      "Ferrocène",
+      "Méthylènepyrane",
+      "Pyrimidine",
+      "Optique non linéaire du second ordre",
+      "Push-Pull complexes",
+      "Metal dialkynyl",
+      "Platinum",
+      "Ruthenium",
+      "Ferrocene"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "exu-en-1",
+   "q": "Eshu Yoruba",
+   "idioma": "en",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2015USPCB181",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015USPCB181",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Sorbonne Paris Cité",
+     "assuntos": [
+      "Esclavage -- Religion",
+      "Esclavage",
+      "Brésil",
+      "Esclavage",
+      "Inventions spirituelles",
+      "Contes populaires",
+      "Afro-brésilien",
+      "Bahia",
+      "Candomblé",
+      "Jeje",
+      "Résistance",
+      "Animalisation",
+      "Hybridation",
+      "Vudu",
+      "Vudum"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "exu-en-2",
+   "q": "Esu Elegbara",
+   "idioma": "en",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "exu-es-1",
+   "q": "Elegguá",
+   "idioma": "es",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2019TOU20076",
+     "titulo": "Santos parados : ethnohistoire et régimes mémoriels des maisons de culte du central Méjico (Matanzas, Cuba)",
+     "autores": [
+      "Maxime Toutain"
+     ],
+     "ano": 2019,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2019TOU20076",
+     "doi": "10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et historique",
+     "editora": "Toulouse 2",
+     "assuntos": [
+      "Cultes afro-cubains",
+      "Rites et cérémonies",
+      "Cuba",
+      "Mémoire collective",
+      "Ethnohistoire",
+      "Cuba",
+      "Santería",
+      "Esclavage",
+      "Ethnohistoire",
+      "Régime mémoriel",
+      "Cuba",
+      "Santería",
+      "Slavery",
+      "Ethnohistory",
+      "Memorial regime"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "exu-es-2",
+   "q": "Eleguá santería",
+   "idioma": "es",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2019TOU20076",
+     "titulo": "Santos parados : ethnohistoire et régimes mémoriels des maisons de culte du central Méjico (Matanzas, Cuba)",
+     "autores": [
+      "Maxime Toutain"
+     ],
+     "ano": 2019,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2019TOU20076",
+     "doi": "10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et historique",
+     "editora": "Toulouse 2",
+     "assuntos": [
+      "Cultes afro-cubains",
+      "Rites et cérémonies",
+      "Cuba",
+      "Mémoire collective",
+      "Ethnohistoire",
+      "Cuba",
+      "Santería",
+      "Esclavage",
+      "Ethnohistoire",
+      "Régime mémoriel",
+      "Cuba",
+      "Santería",
+      "Slavery",
+      "Ethnohistory",
+      "Memorial regime"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "exu-fr-1",
+   "q": "Legba vodou",
+   "idioma": "fr",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "exu-fr-2",
+   "q": "Legba dieu fon",
+   "idioma": "fr",
+   "alvo": "exu",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-pt-1",
+   "q": "Ogum orixá",
+   "idioma": "pt",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-pt-2",
+   "q": "Ogum São Jorge",
+   "idioma": "pt",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-yo-1",
+   "q": "Ògún òrìṣà",
+   "idioma": "yo",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-en-1",
+   "q": "Ogun Yoruba god iron",
+   "idioma": "en",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "1991MON30011",
+     "titulo": "La route : réalité et représentation dans l'oeuvre de Wole Soyinka",
+     "autores": [
+      "Christiane Fioupou"
+     ],
+     "ano": 1991,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1991MON30011",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études africaines",
+     "editora": "Montpellier 3",
+     "assuntos": [
+      "Soyinka, Wole (1934-....) -- traducteur, poète et romancier",
+      "Critique et interprétation",
+      "Etudes africaines",
+      "Litterature d'expression anglaise",
+      "Route",
+      "Soyinka wole"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "ogum-es-1",
+   "q": "Ogún oricha",
+   "idioma": "es",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "ogum-fr-1",
+   "q": "Ogou vodou",
+   "idioma": "fr",
+   "alvo": "ogum",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-pt-1",
+   "q": "Oxóssi",
+   "idioma": "pt",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-pt-2",
+   "q": "Oxóssi caçador orixá",
+   "idioma": "pt",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-yo-1",
+   "q": "Ọ̀ṣọ́ọ̀sì",
+   "idioma": "yo",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-es-1",
+   "q": "Ochosi",
+   "idioma": "es",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "oxossi-en-1",
+   "q": "Oshosi orisha",
+   "idioma": "en",
+   "alvo": "oxossi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "xango-pt-1",
+   "q": "Xangô orixá",
+   "idioma": "pt",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2005EHES0198",
+     "titulo": "Dans l'intimité des orixás : corps, rituel et apprentissage religieux dans une famille-de-saint de Recife, Brésil",
+     "autores": [
+      "Arnaud Halloy"
+     ],
+     "ano": 2005,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2005EHES0198",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie et anthropologie sociale",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Umbanda",
+      "Rites et cérémonies",
+      "Brésil",
+      "Recife (Brésil)",
+      "Orisha",
+      "Yoruba (peuple d'Afrique)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orixa",
+      "orisha",
+      "umbanda",
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2024PA100129",
+     "titulo": "Nagô é lento! (Nagô, c'est lent !) : force, identités et dynamique musico-rituelle dans le xangô de Recife (religion afro-brésilienne)",
+     "autores": [
+      "Julie Donatien"
+     ],
+     "ano": 2024,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2024PA100129",
+     "doi": "10.70675/6f20d07ez0b15z4c0az9939z125d61f99fa5",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnomusicologie",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Cultes afro-brésiliens",
+      "Identité (psychologie)",
+      "Recife (Brésil)",
+      "Rites et cérémonies",
+      "Musique",
+      "Dynamique musico-Rituelle",
+      "Identité",
+      "Efficacité rituelle",
+      "Religions afro-Brésiliennes",
+      "Xangô de Recife",
+      "Musico-Ritual dynamics",
+      "Identity",
+      "Ritual efficiency",
+      "Afro-Brazilian religions",
+      "Xangô cult of Recife"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "afro-brasileiro",
+      "shango"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "xango-yo-1",
+   "q": "Ṣàngó",
+   "idioma": "yo",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 18,
+   "n": 18,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2016NICE2001",
+     "titulo": "Contact de langues et alternance codique sängö-français à Bangui",
+     "autores": [
+      "Moussa Abdoulaye"
+     ],
+     "ano": 2016,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2016NICE2001",
+     "doi": "10.70675/99513fe8z65bcz4a9dzafbez9d67d1bf92c5",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences du langage",
+     "editora": "Nice",
+     "assuntos": [
+      "Alternance de codes (linguistique)",
+      "République centrafricaine",
+      "Bangui (République centrafricaine)",
+      "Sango (langue)",
+      "Français (langue)",
+      "Bilinguisme",
+      "Langue Matrice",
+      "Langue Enchâssée",
+      "Ilots en LM",
+      "Ilots en LE",
+      "Bilingualism",
+      "Matrix Language",
+      "Embedded Language",
+      "ML islands",
+      "EL islands"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2012PA100162",
+     "titulo": "Prosodie et contact de langues : le cas du système tonal du français centrafricain",
+     "autores": [
+      "Guri Bordal Steien"
+     ],
+     "ano": 2012,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2012PA100162",
+     "doi": "10.70675/97ff2e20zc60az425ez9186z2e04e6f03a50",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences du langage",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Sango (langue)",
+      "République centrafricaine",
+      "Français (langue)",
+      "Ton (linguistique)",
+      "France",
+      "Prosodie (linguistique)",
+      "Théorie de l'optimalité (linguistique)",
+      "Linguistique comparée",
+      "Langues en contact",
+      "Prosodie",
+      "Contact de langues",
+      "Tons lexicaux",
+      "Français centrafricain",
+      "Théorie métrico-autosegmentale",
+      "Théorie d’optimalité"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1986PA077215",
+     "titulo": "Etude de la numeration dans certaines langues centrafricaines et applications dans l'enseignement elementaire",
+     "autores": [
+      "Mada Nalimbi"
+     ],
+     "ano": 1986,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1986PA077215",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Didactique des mathématiques",
+     "editora": "Paris 7",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2024LARE0018",
+     "titulo": "Comparaison de deux créoles indianocéaniques avec le sango : le cas des particules préverbales",
+     "autores": [
+      "Véronique Hummel"
+     ],
+     "ano": 2024,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2024LARE0018",
+     "doi": "10.70675/3d24b9e7z9009z4646zb3bbz936c10130038",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences du langage : linguistique et phonétique générales",
+     "editora": "La Réunion",
+     "assuntos": [
+      "Créole réunionnais (langue)",
+      "Créole seychellois (langue)",
+      "Sango (langue)",
+      "Ngbandi (langue)",
+      "Créole réunionnais",
+      "Créole seychellois",
+      "Sango",
+      "Ngbandi",
+      "Marqueur préverbal",
+      "Marqueur prédicatif",
+      "Reunion Creole",
+      "Seychelles Creole",
+      "Sango",
+      "Ngbandi",
+      "Preverbal marker"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2003AIX10023",
+     "titulo": "La créativité lexicale en français de Centrafique",
+     "autores": [
+      "Jean Daloba"
+     ],
+     "ano": 2003,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2003AIX10023",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Lettres modernes",
+     "editora": "Aix-Marseille 1",
+     "assuntos": [
+      "Français (langue) -- À l'étranger",
+      "République centrafricaine",
+      "Langues",
+      "Français (langue)",
+      "Société",
+      "République centrafricaine",
+      "Compétence de communication (linguistique)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1999AIX10048",
+     "titulo": "La variation linguistique en français de Centrafrique : du basilecte au mesolecte",
+     "autores": [
+      "Bruno Blaise Ngoumalet"
+     ],
+     "ano": 1999,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1999AIX10048",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Lettres",
+     "editora": "Aix-Marseille 1",
+     "assuntos": [
+      "Français (langue)",
+      "République centrafricaine",
+      "Variation linguistique",
+      "Langues en contact"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "s340309",
+     "titulo": "Gender, Power, and Space in the Performance of Yorùbá Arugbá Rituals in Southwestern Nigeria",
+     "autores": [
+      "Adekunmi Adeleke"
+     ],
+     "ano": 2025,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s340309",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études africaines",
+     "editora": "Paris, INALCO",
+     "assuntos": [
+      "Rituels yorùbá",
+      "Performances d’arugbá",
+      "Espaces genrés",
+      "Culture yorùbá",
+      "Yoruba rituals",
+      "Arugba performances",
+      "Gender spaces",
+      "Yoruba culture"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2024REN20019",
+     "titulo": "Les pratiques d'enseignement des formes verbales en classe de sixième en France et en République centrafricaine",
+     "autores": [
+      "Auguste crepin Mbiom ondoua"
+     ],
+     "ano": 2024,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2024REN20019",
+     "doi": "10.70675/ca76d728zd9fcz4a54z9ce6za0fc6b7f2f86",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Didactique des langues",
+     "editora": "Rennes 2",
+     "assuntos": [
+      "Enseignement secondaire",
+      "République centrafricaine",
+      "France",
+      "Français (langue)",
+      "Morphologie (linguistique)",
+      "Enseignement -- Français (langue)",
+      "Enseignants",
+      "Pratique",
+      "Sango (langue)",
+      "Étude et enseignement",
+      "Interlangue (enseignement des langues)",
+      "République centrafricaine",
+      "Langue française",
+      "Sango",
+      "Collège"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2014AIXM3069",
+     "titulo": "Dynamique des langues et politique linguistique en République Centrafricaine : vers une intégration du plurilinguisme dans le système éducatif centrafricain",
+     "autores": [
+      "Gervais N'zapali-Te-Komongo"
+     ],
+     "ano": 2014,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2014AIXM3069",
+     "doi": "10.70675/d3a8bf87zd69dz43e2zb4edz7e5b340ae8d0",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences du langage",
+     "editora": "Aix-Marseille",
+     "assuntos": [
+      "Politique linguistique",
+      "République centrafricaine",
+      "Multilinguisme",
+      "Langue d'enseignement",
+      "Enseignement du français",
+      "Enseignants -- Formation",
+      "Représentations",
+      "Élèves",
+      "Enseignants",
+      "Sango",
+      "Français",
+      "Ethnie",
+      "Didactique",
+      "Langues",
+      "Appropriation"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2013DIJOD009",
+     "titulo": "L'accès au droit et à la justice des citoyens en République centrafricaine",
+     "autores": [
+      "Jocelyn Ngoumbango Kohetto"
+     ],
+     "ano": 2013,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2013DIJOD009",
+     "doi": "10.70675/d8307647z3574z4074z8cecz884f05e61355",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Droit",
+     "editora": "Dijon",
+     "assuntos": [
+      "Accès à la justice",
+      "République centrafricaine",
+      "Justice -- Administration",
+      "Citoyenneté",
+      "Administration publique -- Réforme",
+      "Aide juridique",
+      "Accès",
+      "Citoyens",
+      "Droit",
+      "Justice",
+      "Accès",
+      "Citizens",
+      "Right (law)",
+      "Justice"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2004PA040106",
+     "titulo": "Contribution à une étude sur la littérature orale : chants et chansons modernes en République Centrafricaine: valeur expressive, valeur didactique",
+     "autores": [
+      "Anne Gresenguet"
+     ],
+     "ano": 2004,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2004PA040106",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Littérature",
+     "editora": "Paris 4",
+     "assuntos": [
+      "Littérarité",
+      "Tradition orale",
+      "République centrafricaine",
+      "République centrafricaine",
+      "Langues",
+      "Sango (langue)",
+      "Didactique"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2024REN20011",
+     "titulo": "Les pratiques de l'enseignement de l’œuvre littéraire complète au lycée en France et en République Centrafricaine",
+     "autores": [
+      "Remy Mbata sogou"
+     ],
+     "ano": 2024,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2024REN20011",
+     "doi": "10.70675/352d8a58z679fz42edz83a2z24a59a62d18c",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Didactique des langues",
+     "editora": "Rennes 2",
+     "assuntos": [
+      "Écoles secondaires",
+      "République centrafricaine",
+      "Enseignement secondaire",
+      "France",
+      "Identité professionnelle",
+      "Enseignants",
+      "Sango (langue)",
+      "Pratique",
+      "République centrafricaine",
+      "Lycée",
+      "Littérature",
+      "Représentation professionnelle",
+      "Pratiques d’enseignement",
+      "Central African Republic",
+      "High school"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~sango"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015TOU20025",
+     "titulo": "Le ''roman confession'' au XIXe siècle",
+     "autores": [
+      "Sophie Sango"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015TOU20025",
+     "doi": "10.70675/587329b7z06e0z4ff2z9506z54f071b72b02",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Lettres modernes",
+     "editora": "Toulouse 2",
+     "assuntos": [
+      "Littérature -- 19e siècle",
+      "Thèmes, motifs",
+      "Confession",
+      "Dans la littérature",
+      "Égotisme",
+      "Autobiographie",
+      "Confession",
+      "Mal",
+      "Pardon",
+      "Faute",
+      "Autobiofraphy",
+      "Confession",
+      "Evil",
+      "Forgiveness",
+      "Fault"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1998VALE0033",
+     "titulo": "Valeurs propres et vecteurs propres de problèmes elliptiques non-autoadjoints avec un poids indéfini pour des systèmes d'équations aux dérivées partielles",
+     "autores": [
+      "Mamadou Sango"
+     ],
+     "ano": 1998,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1998VALE0033",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Mathématiques",
+     "editora": "Valenciennes",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015LIL10067",
+     "titulo": "Traceability of concerns and observer-based verification for railway safety-critical software",
+     "autores": [
+      "Marc Sango"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015LIL10067",
+     "doi": "10.70675/77ea8727z9983z49f1zb2dfzc928ed49379a",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Informatique",
+     "editora": "Lille 1",
+     "assuntos": [
+      "Ingénierie dirigée par les modèles",
+      "Composants logiciels",
+      "Ingénierie des exigences",
+      "Logiciels -- Vérification",
+      "Théorie des machines séquentielles",
+      "Signalisation ferroviaire",
+      "Logiciels",
+      "Systèmes critiques",
+      "Traçabilité des préoccupations"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2025NORMR022",
+     "titulo": "Cοmpοsites Ηybrides à Base de Μatrices Ροlymères Biοsοurcées.",
+     "autores": [
+      "Thomas Sango"
+     ],
+     "ano": 2025,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2025NORMR022",
+     "doi": "10.70675/e694cc45zc810z4eaazb613z9b636c3f8e06",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sciences agronomiques, biotechnologies agro-alimentaires",
+     "editora": "Normandie",
+     "assuntos": [
+      "Matériaux hybrides",
+      "Perméabilité",
+      "Acétate de cellulose",
+      "Cristallisation",
+      "Extrusion",
+      "Moulage par injection",
+      "Nucléation",
+      "Polyesters",
+      "Propriétés électriques",
+      "Propriétés mécaniques",
+      "Propriétés thermiques",
+      "Thermogravimétrie",
+      "Absorption d’eau",
+      "Acétate de cellulose",
+      "Cellulose microcristalline"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2014BORD0321",
+     "titulo": "Epidémiologie et surveillance des accidents corporels de la route dans un pays en développement : cas du Mali (Bamako)",
+     "autores": [
+      "Hammadoun Aly Sango"
+     ],
+     "ano": 2014,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2014BORD0321",
+     "doi": "10.70675/0f382c54z4ceaz44a3z8197zf677e9bc87a1",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Santé publique. Option : Epidémiologie",
+     "editora": "Bordeaux",
+     "assuntos": [
+      "Accidents de la route",
+      "Mali",
+      "Bamako (Mali)",
+      "Surveillance",
+      "Mortalité",
+      "Capture-recapture",
+      "Létalité",
+      "Gravité",
+      "Bamako",
+      "Surveillance",
+      "Mortality",
+      "Captures-recapture",
+      "Lethality",
+      "Gravity",
+      "Bamako"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2021LYSEI096",
+     "titulo": "Elastographie par résonance magnétique : Contrôle optimal pour l’encodage du mouvement à temps d’écho court et acquisitions multifréquence simultanée",
+     "autores": [
+      "Pilar Sango Solanas"
+     ],
+     "ano": 2021,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2021LYSEI096",
+     "doi": "10.70675/98801c9bzbcbcz492dz8be0z209572f81f51",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ingénierie pour le vivant",
+     "editora": "Lyon",
+     "assuntos": [
+      "Imagerie médicale",
+      "Imagerie par résonance magnétique",
+      "Imagerie médicale",
+      "Elastographie par résonance magnétique",
+      "Acquisition multifréquence",
+      "Contrôle optimal",
+      "Sous-Échantillonnage",
+      "IRM",
+      "Acquisition IRM",
+      "Medical Imaging",
+      "Magnetic resonance elastography",
+      "Multi-Frequency acquisition",
+      "Optimal control",
+      "Undersampling",
+      "Magnetic Resonance Image - MRI"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "xango-en-1",
+   "q": "Shango Oyo",
+   "idioma": "en",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "xango-en-2",
+   "q": "Sango Yoruba thunder",
+   "idioma": "en",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "xango-es-1",
+   "q": "Changó santería",
+   "idioma": "es",
+   "alvo": "xango",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "iemanja-pt-1",
+   "q": "Iemanjá",
+   "idioma": "pt",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "iemanja-pt-2",
+   "q": "festa de Iemanjá",
+   "idioma": "pt",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "iemanja-yo-1",
+   "q": "Yemọja",
+   "idioma": "yo",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "s340309",
+     "titulo": "Gender, Power, and Space in the Performance of Yorùbá Arugbá Rituals in Southwestern Nigeria",
+     "autores": [
+      "Adekunmi Adeleke"
+     ],
+     "ano": 2025,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s340309",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études africaines",
+     "editora": "Paris, INALCO",
+     "assuntos": [
+      "Rituels yorùbá",
+      "Performances d’arugbá",
+      "Espaces genrés",
+      "Culture yorùbá",
+      "Yoruba rituals",
+      "Arugba performances",
+      "Gender spaces",
+      "Yoruba culture"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "s399639",
+     "titulo": "Yemoja, Aflekete, Yemaya  Spiritualités transatlantiques et gyres des mémoires. Heritages Yoruba et Fon à Cuba.",
+     "autores": [
+      "Laeïla Adjovi"
+     ],
+     "ano": null,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s399639",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Pratique et theorie de la creation litteraire et artistique",
+     "editora": "Aix-Marseille",
+     "assuntos": [
+      "Spiritualité africaine",
+      "Cuba",
+      "Vodun",
+      "Atlantique noir",
+      "Orisha",
+      "Transculturation",
+      "African Spirituality",
+      "Cuba",
+      "Vodun",
+      "Back Atlantic",
+      "Orisha",
+      "Transculturation"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "vodou",
+      "yemoja",
+      "~yoruba",
+      "~dahomey"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1988GRE39021",
+     "titulo": "Le Symbolisme aquatique dans les oeuvres de Wole Soyinka, Ayi Kwei Armah et Kofi Awoonor",
+     "autores": [
+      "Amadou Ouedraogo"
+     ],
+     "ano": 1988,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1988GRE39021",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études anglophones",
+     "editora": "Université Stendhal (Grenoble ; 1970-2015)",
+     "assuntos": [
+      "Etudes africaines",
+      "Litterature d'expression anglaise",
+      "Eau",
+      "Imaginaire",
+      "Soyinka wole",
+      "Armah ayi kwei",
+      "Awoornor kofi",
+      "Symbolisme"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "iemanja-en-1",
+   "q": "Yemoja orisha",
+   "idioma": "en",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "s399639",
+     "titulo": "Yemoja, Aflekete, Yemaya  Spiritualités transatlantiques et gyres des mémoires. Heritages Yoruba et Fon à Cuba.",
+     "autores": [
+      "Laeïla Adjovi"
+     ],
+     "ano": null,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s399639",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Pratique et theorie de la creation litteraire et artistique",
+     "editora": "Aix-Marseille",
+     "assuntos": [
+      "Spiritualité africaine",
+      "Cuba",
+      "Vodun",
+      "Atlantique noir",
+      "Orisha",
+      "Transculturation",
+      "African Spirituality",
+      "Cuba",
+      "Vodun",
+      "Back Atlantic",
+      "Orisha",
+      "Transculturation"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "vodou",
+      "yemoja",
+      "~yoruba",
+      "~dahomey"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "iemanja-es-1",
+   "q": "Yemayá",
+   "idioma": "es",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "s399639",
+     "titulo": "Yemoja, Aflekete, Yemaya  Spiritualités transatlantiques et gyres des mémoires. Heritages Yoruba et Fon à Cuba.",
+     "autores": [
+      "Laeïla Adjovi"
+     ],
+     "ano": null,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s399639",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Pratique et theorie de la creation litteraire et artistique",
+     "editora": "Aix-Marseille",
+     "assuntos": [
+      "Spiritualité africaine",
+      "Cuba",
+      "Vodun",
+      "Atlantique noir",
+      "Orisha",
+      "Transculturation",
+      "African Spirituality",
+      "Cuba",
+      "Vodun",
+      "Back Atlantic",
+      "Orisha",
+      "Transculturation"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "vodou",
+      "yemoja",
+      "~yoruba",
+      "~dahomey"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "iemanja-fr-1",
+   "q": "Yemanja déesse",
+   "idioma": "fr",
+   "alvo": "iemanja",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "angola-pt-1",
+   "q": "candomblé de Angola",
+   "idioma": "pt",
+   "alvo": "candomble_angola",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2001EHES0223",
+     "titulo": "Etude comparative de différentes nations de candomblé à Bahia, Brésil",
+     "autores": [
+      "Xavier Vatin"
+     ],
+     "ano": 2001,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2001EHES0223",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie et anthropologie sociale",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Candomblé",
+      "Brésil",
+      "Salvador (Brésil)",
+      "Cultes afro-brésiliens",
+      "Brésiliens",
+      "Musique traditionnelle",
+      "Ethnomusicologie",
+      "Études comparatives",
+      "Religion",
+      "Bahia (Brésil ; État)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "angola-pt-2",
+   "q": "inquice candomblé",
+   "idioma": "pt",
+   "alvo": "candomble_angola",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "angola-pt-3",
+   "q": "nkisi candomblé congo angola",
+   "idioma": "pt",
+   "alvo": "candomble_angola",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "jeje-pt-1",
+   "q": "candomblé jeje vodum",
+   "idioma": "pt",
+   "alvo": "candomble_jeje",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "jeje-fr-1",
+   "q": "vodun Bénin culte",
+   "idioma": "fr",
+   "alvo": "vodun_benim",
+   "status": "ok",
+   "erro": null,
+   "total": 7,
+   "n": 7,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2007EHES0282",
+     "titulo": "Chevauchés par les dieux : Initiations des Occidentaux aux cultes Vodun béninois : pratiques culturelles et trajectoires identitaires",
+     "autores": [
+      "Jung Ran Forte"
+     ],
+     "ano": 2007,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2007EHES0282",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Ethnologie",
+      "Vaudou africain",
+      "Rites et cérémonies",
+      "Rites d'initiation",
+      "Religions africaines",
+      "Africains -- À l'étranger",
+      "Moeurs et coutumes",
+      "Bénin"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "s193773",
+     "titulo": "Devenir objet de musée : biographie sociale du botchio au Bénin et en France.",
+     "autores": [
+      "Mihena Maamouri"
+     ],
+     "ano": null,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s193773",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Botchio",
+      "Bénin",
+      "Vodun",
+      "Musée d'Aquitaine",
+      "Fétiche",
+      "Bordeaux",
+      "Traite",
+      "Biographie sociale",
+      "Botchio",
+      "Benin",
+      "Vodun",
+      "Musée d'Aquitaine",
+      "Fetish",
+      "Bordeaux",
+      "Slave trade"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1991PA05H027",
+     "titulo": "La société Wéménu, son dynamisme, son contrôle : approche ethno-sociologique d'une société du sud Bénin",
+     "autores": [
+      "Roger Brand"
+     ],
+     "ano": 1991,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1991PA05H027",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 5",
+     "assuntos": [
+      "Ouémènou (peuple d'Afrique)",
+      "Bénin (sud)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2022NORMC036",
+     "titulo": "La passion de l'ambivalence. Sorcellerie et médecine dans la religion vodun : sorcellerie et médecine dans la religion vodun",
+     "autores": [
+      "Ayayi Hounkpe"
+     ],
+     "ano": 2022,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2022NORMC036",
+     "doi": "10.70675/0c88dd74zd62az4740zac64z363ed2934d50",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sociologie, démographie",
+     "editora": "Normandie",
+     "assuntos": [
+      "Vaudou africain",
+      "Ethnologie -- Togo",
+      "Ethnologie -- Bénin",
+      "Ethnopharmacologie",
+      "Sorcellerie",
+      "Ethnomédecine",
+      "Médecine populaire",
+      "Ambivalence",
+      "Envoûtement",
+      "Désenvoûtement",
+      "Méfiance",
+      "Pharmacologie",
+      "Pharmac/kologie",
+      "Pharmakologie",
+      "Thérapie"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2022EHES0092",
+     "titulo": "Cotonou, le vodun et la part des anges : le cas exemplaire d’Atingali, un culte structuré à la mesure de la ville",
+     "autores": [
+      "Jeremy Cordon"
+     ],
+     "ano": 2022,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2022EHES0092",
+     "doi": "10.70675/7328244bzd793z4368za87dzf8de71f20c4a",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Vaudou africain",
+      "Cotonou (Bénin)",
+      "Cultes",
+      "Sorcellerie",
+      "Lutte contre",
+      "Urbanisation",
+      "Vodun",
+      "Urbain",
+      "Vodun",
+      "Urban"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "vodou"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "s439600",
+     "titulo": "Biographie sociale des collections missionnaires yoruba du Dahomey entre altérisation, patrimonialisation  et restitutions",
+     "autores": [
+      "Sèmako Ahoton"
+     ],
+     "ano": null,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s439600",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sociologie",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Collections missionnaires",
+      "Yoruba du dahomey",
+      "Restitution",
+      "Altérisation",
+      "Patrimonialisation",
+      "Missionnary collections",
+      "Yoruba from Dahomey",
+      "Restitution",
+      "Othering",
+      "Heritage-making"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~yoruba",
+      "~dahomey"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2023LYO30053",
+     "titulo": "Le rôle politique des missionnaires catholiques au Dahomey (1841-1913) : catholicisme et construction d’espace étatique",
+     "autores": [
+      "Kokou Clément Nonfodji"
+     ],
+     "ano": 2023,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2023LYO30053",
+     "doi": "10.70675/6e32e9a4zab16z40dfz9575z1d884e2cfa58",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Histoire mention histoire religieuse, politique et culturelle",
+     "editora": "Lyon 3",
+     "assuntos": [
+      "Missions catholiques",
+      "Aspect politique",
+      "Bénin",
+      "XIXe siècle 1801 1900",
+      "XXe siècle 1901 2000",
+      "Évangélisation",
+      "Église catholique",
+      "Inculturation",
+      "Christianisme et politique -- Église catholique",
+      "Rôle politique",
+      "Dahomey",
+      "Royaume",
+      "Catholicisme",
+      "Colonisation",
+      "Missionnaire"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~dahomey"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "jeje-en-1",
+   "q": "vodun Fon Dahomey religion",
+   "idioma": "en",
+   "alvo": "vodun_benim",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "batuque-pt-1",
+   "q": "batuque Rio Grande do Sul religião",
+   "idioma": "pt",
+   "alvo": "batuque_rs",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "batuque-pt-2",
+   "q": "batuque orixás Porto Alegre",
+   "idioma": "pt",
+   "alvo": "batuque_rs",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2004EHES0015",
+     "titulo": "Le tango des Orixás : sociologie des religions d'origine brésilienne à Buenos Aires",
+     "autores": [
+      "Maïra Muchnik"
+     ],
+     "ano": 2004,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2004EHES0015",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sociologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Cultes afro-brésiliens",
+      "Société",
+      "Argentine",
+      "1945-....",
+      "Umbanda",
+      "Multiculturalisme",
+      "Appartenance religieuse",
+      "Conflit culturel",
+      "Religion"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orixa",
+      "umbanda",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "xangope-pt-1",
+   "q": "Xangô do Recife",
+   "idioma": "pt",
+   "alvo": "xango_pernambuco",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "xangope-pt-2",
+   "q": "Xangô de Pernambuco terreiro",
+   "idioma": "pt",
+   "alvo": "xango_pernambuco",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "mina-pt-1",
+   "q": "Tambor de Mina",
+   "idioma": "pt",
+   "alvo": "tambor_de_mina",
+   "status": "ok",
+   "erro": null,
+   "total": 3,
+   "n": 3,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2013NICE2017",
+     "titulo": "Tambor de crioula et tambor de mina, expressions musicales rituelles afro-descendantes de São Luis do Maranhão (Brésil) : créolité, identité, ''culture de résistance''",
+     "autores": [
+      "Marie Cousin"
+     ],
+     "ano": 2013,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2013NICE2017",
+     "doi": "10.70675/96ca4c74z3256z45fbzb2bfzfb66f43ce458",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnomusicologie",
+     "editora": "Nice",
+     "assuntos": [
+      "Musique traditionnelle",
+      "Ethnomusicologie",
+      "Brésil",
+      "Tambour (famille d'instruments), Musique de",
+      "Patrimonialisation",
+      "Créolité",
+      "Tambor de crioula",
+      "Tambor de mina",
+      "Ethnomusicologie",
+      "Vodun",
+      "Brésil",
+      "Maranhão",
+      "São Luís",
+      "Patrimonialization",
+      "Criolity"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "vodou",
+      "tambor de mina"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015PA100093",
+     "titulo": "Culture populaire et communication contemporaine au Brésil : la télévision et le téléjournalisme à bahia et Maranhao-années : années 2001/2012",
+     "autores": [
+      "Gisélia Castro Silva"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015PA100093",
+     "doi": "10.70675/41a1150ezb3e3z4cd4z9fb7zb7b83628addc",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Langues littératures et civilisations romanes : Portugais",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Communication audiovisuelle",
+      "Brésil",
+      "Candomblé",
+      "Cultes afro-brésiliens",
+      "Culture populaire",
+      "À la télévision",
+      "Bahia (Brésil ; État)",
+      "Maranhão (Brésil ; État)",
+      "Culture populaire afro-Brésilienne",
+      "Télévision",
+      "Narrations audiovisuelles",
+      "Candomblé",
+      "Tambour de Mina",
+      "Afro-Brazilian popular culture",
+      "Television"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2012BOR30037",
+     "titulo": "Mythogenèse, syncrétisme et pérennité du sébastianisme dans l'identité brésilienne du XXème et du début du XXIème siècle (l'état du Maranhao et ses manifestations socioreligieuses)",
+     "autores": [
+      "Rosuel Lima-Pereira"
+     ],
+     "ano": 2012,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2012BOR30037",
+     "doi": "10.70675/fcc1a7b7z3f05z4475z89cfz5d41e9050047",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études ibériques et ibéro-américaines",
+     "editora": "Bordeaux 3",
+     "assuntos": [
+      "Sébastianisme",
+      "Religion populaire",
+      "Maranhão (Brésil ; État)",
+      "Identité collective",
+      "Brésil",
+      "Sébastianisme",
+      "Syncrétisme",
+      "Encantaria",
+      "Brésil",
+      "Identité",
+      "Imaginaire",
+      "Sebastianism",
+      "Syncretism",
+      "Encantaria",
+      "Brazil"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "mina-pt-2",
+   "q": "Casa das Minas São Luís",
+   "idioma": "pt",
+   "alvo": "tambor_de_mina",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "lucumi-es-1",
+   "q": "Regla de Ocha",
+   "idioma": "es",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2018SORUL132",
+     "titulo": "Les orichas dans l'art cubain. Une généalogie de l’image des dieux noirs à travers les œuvres de Wifredo Lam, René Portocarrero, Manuel Mendive et Santiago Rodríguez Olazábal",
+     "autores": [
+      "David Castaner"
+     ],
+     "ano": 2018,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2018SORUL132",
+     "doi": "10.70675/a7db0414z7c9ez4861z9c95z63c2f3366ded",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études romanes espagnoles",
+     "editora": "Sorbonne université",
+     "assuntos": [
+      "Art",
+      "Cuba",
+      "Orisha",
+      "Dans l'art",
+      "Syncrétisme",
+      "Santeria",
+      "Lam, Wifredo (1902-1982)",
+      "Critique et interprétation",
+      "Portocarrero, René (1912-1985)",
+      "Mendive, Manuel (1944-...)",
+      "Rodríguez Olazabal, Santiago (1955-....)",
+      "Cuba",
+      "Art contemporain",
+      "Orichas",
+      "Santería"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "oricha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "lucumi-es-2",
+   "q": "lucumí orichas Cuba",
+   "idioma": "es",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "lucumi-en-1",
+   "q": "Lucumí religion",
+   "idioma": "en",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "lucumi-en-2",
+   "q": "Santería orishas Cuba",
+   "idioma": "en",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "1986PA040080",
+     "titulo": "Le conte populaire noir a cuba et au bresil a travers la tradition de la santeria et du candomble (recueils de lydia cabrera et de mestre didi)",
+     "autores": [
+      "CELESTINE D'ALMEIDA"
+     ],
+     "ano": 1986,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1986PA040080",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études latino-américaines",
+     "editora": "Paris 4",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "trinidad-en-1",
+   "q": "Orisha Trinidad",
+   "idioma": "en",
+   "alvo": "orisha_trinidad",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "trinidad-en-2",
+   "q": "Shango Trinidad cult",
+   "idioma": "en",
+   "alvo": "orisha_trinidad",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "trinidad-en-3",
+   "q": "Spiritual Baptists Trinidad Orisha",
+   "idioma": "en",
+   "alvo": "orisha_trinidad",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-fr-1",
+   "q": "candomblé orixás",
+   "idioma": "fr",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 4,
+   "n": 4,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2021UNIP7041",
+     "titulo": "Etude comparée d'un terreiro de candomblé à Rio de Janeiro 1981/2019 sous l'angle de la migration de ses membres",
+     "autores": [
+      "Laura Calcagno"
+     ],
+     "ano": 2021,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2021UNIP7041",
+     "doi": "10.70675/5d6e5e31z82b6z4fd9z81e4zba63113c6ded",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie et sociologie",
+     "editora": "Université Paris Cité",
+     "assuntos": [
+      "Anthropologie religieuse",
+      "Anthropologie urbaine",
+      "Candomblé",
+      "Rio de Janeiro (Brésil)",
+      "1970-....",
+      "Migrations intérieures",
+      "Brésil",
+      "Orisha",
+      "Afro-descendants",
+      "Discrimination",
+      "Divination",
+      "Ethnocide",
+      "Mouvements politiques",
+      "African descent",
+      "Religious Anthropology"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "terreiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1999STR20034",
+     "titulo": "Des plantes et des dieux dans les cultes afro-bresiliens, essai d'ethnobotanique comparative afrique/bresil.",
+     "autores": [
+      "MING LI ANTHONY"
+     ],
+     "ano": 1999,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1999STR20034",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sociologie",
+     "editora": "Université Marc Bloch (Strasbourg) (1971-2008)",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1998PA100089",
+     "titulo": "Maladies du corps et recomposition de l'identité culturelle : étude sur la dimension thérapeutique des cultes de possession en Uruguay",
+     "autores": [
+      "Karina Fares Pawlowski"
+     ],
+     "ano": 1998,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1998PA100089",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Cultes",
+      "Uruguay",
+      "Possession (anthropologie)",
+      "Rites et cérémonies"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015USPCB181",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015USPCB181",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Sorbonne Paris Cité",
+     "assuntos": [
+      "Esclavage -- Religion",
+      "Esclavage",
+      "Brésil",
+      "Esclavage",
+      "Inventions spirituelles",
+      "Contes populaires",
+      "Afro-brésilien",
+      "Bahia",
+      "Candomblé",
+      "Jeje",
+      "Résistance",
+      "Animalisation",
+      "Hybridation",
+      "Vudu",
+      "Vudum"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "geral-fr-2",
+   "q": "religion des orisha",
+   "idioma": "fr",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 2,
+   "n": 2,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "2021UNIP7041",
+     "titulo": "Etude comparée d'un terreiro de candomblé à Rio de Janeiro 1981/2019 sous l'angle de la migration de ses membres",
+     "autores": [
+      "Laura Calcagno"
+     ],
+     "ano": 2021,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2021UNIP7041",
+     "doi": "10.70675/5d6e5e31z82b6z4fd9z81e4zba63113c6ded",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie et sociologie",
+     "editora": "Université Paris Cité",
+     "assuntos": [
+      "Anthropologie religieuse",
+      "Anthropologie urbaine",
+      "Candomblé",
+      "Rio de Janeiro (Brésil)",
+      "1970-....",
+      "Migrations intérieures",
+      "Brésil",
+      "Orisha",
+      "Afro-descendants",
+      "Discrimination",
+      "Divination",
+      "Ethnocide",
+      "Mouvements politiques",
+      "African descent",
+      "Religious Anthropology"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "terreiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2018SORUL132",
+     "titulo": "Les orichas dans l'art cubain. Une généalogie de l’image des dieux noirs à travers les œuvres de Wifredo Lam, René Portocarrero, Manuel Mendive et Santiago Rodríguez Olazábal",
+     "autores": [
+      "David Castaner"
+     ],
+     "ano": 2018,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2018SORUL132",
+     "doi": "10.70675/a7db0414z7c9ez4861z9c95z63c2f3366ded",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études romanes espagnoles",
+     "editora": "Sorbonne université",
+     "assuntos": [
+      "Art",
+      "Cuba",
+      "Orisha",
+      "Dans l'art",
+      "Syncrétisme",
+      "Santeria",
+      "Lam, Wifredo (1902-1982)",
+      "Critique et interprétation",
+      "Portocarrero, René (1912-1985)",
+      "Mendive, Manuel (1944-...)",
+      "Rodríguez Olazabal, Santiago (1955-....)",
+      "Cuba",
+      "Art contemporain",
+      "Orichas",
+      "Santería"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "oricha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "geral-fr-3",
+   "q": "santería cubaine",
+   "idioma": "fr",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 7,
+   "n": 7,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "1997PA100137",
+     "titulo": "L'écriture des dieux et la parole des morts : modalités de la relation spirituelle dans les religions afro-cubaines",
+     "autores": [
+      "Erwan Dianteill"
+     ],
+     "ano": 1997,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1997PA100137",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Cultes afro-cubains",
+      "Sacré",
+      "Anthropologie",
+      "Religions",
+      "Cuba"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2012PA100145",
+     "titulo": "Un complexe sacerdotal cubain : les santeros, les babalaos et la réflexivité critique",
+     "autores": [
+      "Emma Gobin"
+     ],
+     "ano": 2012,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2012PA100145",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Santeria",
+      "Cuba",
+      "Rites et cérémonies",
+      "Ifa -- divinité africaine"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "santeria",
+      "ifa",
+      "babalorixa"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2006PA100163",
+     "titulo": "La conquête de l’est : reconfigurations régionales de la santería cubaine (La Havane – Sagua la Grande)",
+     "autores": [
+      "Silvina Testa"
+     ],
+     "ano": 2006,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2006PA100163",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Santeria",
+      "Cuba",
+      "Cultes afro-cubains",
+      "Religions"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2018SORUL132",
+     "titulo": "Les orichas dans l'art cubain. Une généalogie de l’image des dieux noirs à travers les œuvres de Wifredo Lam, René Portocarrero, Manuel Mendive et Santiago Rodríguez Olazábal",
+     "autores": [
+      "David Castaner"
+     ],
+     "ano": 2018,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2018SORUL132",
+     "doi": "10.70675/a7db0414z7c9ez4861z9c95z63c2f3366ded",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études romanes espagnoles",
+     "editora": "Sorbonne université",
+     "assuntos": [
+      "Art",
+      "Cuba",
+      "Orisha",
+      "Dans l'art",
+      "Syncrétisme",
+      "Santeria",
+      "Lam, Wifredo (1902-1982)",
+      "Critique et interprétation",
+      "Portocarrero, René (1912-1985)",
+      "Mendive, Manuel (1944-...)",
+      "Rodríguez Olazabal, Santiago (1955-....)",
+      "Cuba",
+      "Art contemporain",
+      "Orichas",
+      "Santería"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "oricha",
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1986TOU20069",
+     "titulo": "Histoire et création littéraire chez Alejo Carpentier : recherches sur ecue-yamba-o",
+     "autores": [
+      "Jean-Pierre Paute"
+     ],
+     "ano": 1986,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1986TOU20069",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études latino-américaines",
+     "editora": "Toulouse 2",
+     "assuntos": [
+      "Carpentier, Alejo (1904-1980) -- Ecué-Yamba-O",
+      "Carpentier, Alejo (1904-1980)",
+      "Critique et interprétation",
+      "Etudes latino-americaines"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2019TOU20076",
+     "titulo": "Santos parados : ethnohistoire et régimes mémoriels des maisons de culte du central Méjico (Matanzas, Cuba)",
+     "autores": [
+      "Maxime Toutain"
+     ],
+     "ano": 2019,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2019TOU20076",
+     "doi": "10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et historique",
+     "editora": "Toulouse 2",
+     "assuntos": [
+      "Cultes afro-cubains",
+      "Rites et cérémonies",
+      "Cuba",
+      "Mémoire collective",
+      "Ethnohistoire",
+      "Cuba",
+      "Santería",
+      "Esclavage",
+      "Ethnohistoire",
+      "Régime mémoriel",
+      "Cuba",
+      "Santería",
+      "Slavery",
+      "Ethnohistory",
+      "Memorial regime"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1987TOU20101",
+     "titulo": "Un syncrétisme religieux vénézuélien : le culte à maria lionza",
+     "autores": [
+      "Alesia Ramirez"
+     ],
+     "ano": 1987,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1987TOU20101",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études latino-américaines",
+     "editora": "Toulouse 2",
+     "assuntos": [
+      "Syncrétisme",
+      "Venezuela",
+      "Lionza, María (personnage légendaire)"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "geral-de-1",
+   "q": "Candomblé Religion Brasilien",
+   "idioma": "de",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-de-2",
+   "q": "Orisha Yoruba Religion Götter",
+   "idioma": "de",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-de-3",
+   "q": "Santería Kuba Religion",
+   "idioma": "de",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-it-1",
+   "q": "candomblé religione",
+   "idioma": "it",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 13,
+   "n": 13,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "1988PA080226",
+     "titulo": "Le candomble. Les fonctions therapeutiques d'une pratique sociale",
+     "autores": [
+      "SVETLANA VASCONCELOS VASCONCELOS"
+     ],
+     "ano": 1987,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1988PA080226",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sociologie",
+     "editora": "Paris 8",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015PA100093",
+     "titulo": "Culture populaire et communication contemporaine au Brésil : la télévision et le téléjournalisme à bahia et Maranhao-années : années 2001/2012",
+     "autores": [
+      "Gisélia Castro Silva"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015PA100093",
+     "doi": "10.70675/41a1150ezb3e3z4cd4z9fb7zb7b83628addc",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Langues littératures et civilisations romanes : Portugais",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Communication audiovisuelle",
+      "Brésil",
+      "Candomblé",
+      "Cultes afro-brésiliens",
+      "Culture populaire",
+      "À la télévision",
+      "Bahia (Brésil ; État)",
+      "Maranhão (Brésil ; État)",
+      "Culture populaire afro-Brésilienne",
+      "Télévision",
+      "Narrations audiovisuelles",
+      "Candomblé",
+      "Tambour de Mina",
+      "Afro-Brazilian popular culture",
+      "Television"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2002EHES0073",
+     "titulo": "Images en mouvement : une lecture non-binaire du Candomble, São Paulo - Bresil",
+     "autores": [
+      "Carmen Opipari"
+     ],
+     "ano": 2002,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2002EHES0073",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie et anthropologie sociale",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Candomblé",
+      "Brésil",
+      "São Paulo (Brésil)",
+      "Cultes afro-brésiliens"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2017EHES0019",
+     "titulo": "La couleur de la foi ''identité noire'' et religion",
+     "autores": [
+      "Rosenilton Silva de Oliveira"
+     ],
+     "ano": 2017,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2017EHES0019",
+     "doi": "10.70675/d95e4115zbeccz43a5z808cz32929b2200ca",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Négritude",
+      "Brésil",
+      "Afro-brésiliens",
+      "Rites et cérémonies",
+      "Relations interethniques -- Religion",
+      "Identité noire",
+      "Religion afro-Brésiliennes",
+      "Catholicisme",
+      "Protestantisme",
+      "Black identity",
+      "Afro-Brazilians religions",
+      "Catholicism",
+      "Protestantism",
+      "Identidade negra",
+      "Religiões afro-Brasileiras"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2025EHES0034",
+     "titulo": "Les religions afro-brésiliennes au Portugal : pratiques, traditions et histoires transnationales depuis la région de Lisbonne",
+     "autores": [
+      "Maïa Guillot-Huetter"
+     ],
+     "ano": 2025,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2025EHES0034",
+     "doi": "10.70675/04c10fe2zdb7fz4b89z9b9dz9be162c1171c",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Cultes afro-brésiliens",
+      "Portugal",
+      "Médiumnité",
+      "Identité collective",
+      "Pays de langue portugaise",
+      "Migrations",
+      "Religions afro-Brésiliennes",
+      "Lusotropicalisme",
+      "Imaginaires (trans)nationaux",
+      "Afro-Brazilian religions",
+      "Portugal",
+      "Mediumship",
+      "Migrations",
+      "Lusotropicalism",
+      "(Trans)national imaginaries"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1986PA040080",
+     "titulo": "Le conte populaire noir a cuba et au bresil a travers la tradition de la santeria et du candomble (recueils de lydia cabrera et de mestre didi)",
+     "autores": [
+      "CELESTINE D'ALMEIDA"
+     ],
+     "ano": 1986,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1986PA040080",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études latino-américaines",
+     "editora": "Paris 4",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "santeria"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2021UNIP7041",
+     "titulo": "Etude comparée d'un terreiro de candomblé à Rio de Janeiro 1981/2019 sous l'angle de la migration de ses membres",
+     "autores": [
+      "Laura Calcagno"
+     ],
+     "ano": 2021,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2021UNIP7041",
+     "doi": "10.70675/5d6e5e31z82b6z4fd9z81e4zba63113c6ded",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie et sociologie",
+     "editora": "Université Paris Cité",
+     "assuntos": [
+      "Anthropologie religieuse",
+      "Anthropologie urbaine",
+      "Candomblé",
+      "Rio de Janeiro (Brésil)",
+      "1970-....",
+      "Migrations intérieures",
+      "Brésil",
+      "Orisha",
+      "Afro-descendants",
+      "Discrimination",
+      "Divination",
+      "Ethnocide",
+      "Mouvements politiques",
+      "African descent",
+      "Religious Anthropology"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "orisha",
+      "candomble",
+      "terreiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2013EHES0127",
+     "titulo": "Intolérance et reconnaissance religieuse à Salvador de Bahia : le face-à-face des Eglises néopentecôtistes et des religions de matrice africaine en ce début de XXIe siècle",
+     "autores": [
+      "Serge Péchiné"
+     ],
+     "ano": 2013,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2013EHES0127",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Sociologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Prosélytisme",
+      "Brésil",
+      "1990-2020",
+      "Églises pentecôtistes",
+      "Fanatisme",
+      "Candomblé",
+      "Controverses religieuses",
+      "Intolérance",
+      "Reconnaissance",
+      "Néopentecôtiste",
+      "Candomblé",
+      "Diabolisation",
+      "Religion",
+      "Eglise universelle du Royaume de Dieu"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2020EHES0129",
+     "titulo": "La transnationalisation des religions afro-brésiliennes et la nouvelle géographie religieuse européenne",
+     "autores": [
+      "Sara Clamor"
+     ],
+     "ano": 2020,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2020EHES0129",
+     "doi": "10.70675/d75555d7zc184z4bd7z84a8zd5595c99369d",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie sociale et ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [
+      "Candomblé",
+      "Umbanda",
+      "Mondialisation",
+      "Religion",
+      "Géographie religieuse",
+      "Europe",
+      "Candomblé",
+      "Umbanda",
+      "Transnationalisation",
+      "Relocalisation religieuse",
+      "Europe",
+      "Candomblé",
+      "Umbanda",
+      "Transnationalization",
+      "Religious Reterritorialization"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "umbanda",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2025UPSLP076",
+     "titulo": "Candomblé et parenté : Ethnographie transnationale d'une famille-de-saint (Brésil, Portugal, Italie)",
+     "autores": [
+      "Diane De Morais"
+     ],
+     "ano": 2025,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2025UPSLP076",
+     "doi": "10.70675/8e4f9810z3d5ez4dedz89c6z91490dafafb2",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Anthropologie",
+     "editora": "Université Paris sciences et lettres",
+     "assuntos": [
+      "Candomblé",
+      "Parenté",
+      "Émotions",
+      "Rites et cérémonies",
+      "Légitimité",
+      "Domestique",
+      "Personnalisation",
+      "Candomblé",
+      "Kinship",
+      "Legitimacy",
+      "Emotions",
+      "Domestic life",
+      "Personalization"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1986EHES0086",
+     "titulo": "La Force et la douceur de la force : structures et dynamisme afro-brésilien à Salvador de Bahia",
+     "autores": [
+      "Renato Da Silveira"
+     ],
+     "ano": 1986,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1986EHES0086",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris, EHESS",
+     "assuntos": [],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "2015USPCB181",
+     "titulo": "Esclavage et inventions spirituelles afro-brésiliennes : du Vudum Lebabimibome aux contes populaires",
+     "autores": [
+      "Hildebrando Almeida Cerqueira"
+     ],
+     "ano": 2015,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/2015USPCB181",
+     "doi": "10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Sorbonne Paris Cité",
+     "assuntos": [
+      "Esclavage -- Religion",
+      "Esclavage",
+      "Brésil",
+      "Esclavage",
+      "Inventions spirituelles",
+      "Contes populaires",
+      "Afro-brésilien",
+      "Bahia",
+      "Candomblé",
+      "Jeje",
+      "Résistance",
+      "Animalisation",
+      "Hybridation",
+      "Vudu",
+      "Vudum"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "candomble",
+      "afro-brasileiro"
+     ],
+     "termos_resumo": []
+    },
+    {
+     "base": "thesesfr",
+     "id_base": "1998PA100089",
+     "titulo": "Maladies du corps et recomposition de l'identité culturelle : étude sur la dimension thérapeutique des cultes de possession en Uruguay",
+     "autores": [
+      "Karina Fares Pawlowski"
+     ],
+     "ano": 1998,
+     "tipo_base": "these (soutenue)",
+     "url": "https://theses.fr/1998PA100089",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Ethnologie",
+     "editora": "Paris 10",
+     "assuntos": [
+      "Cultes",
+      "Uruguay",
+      "Possession (anthropologie)",
+      "Rites et cérémonies"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [],
+     "termos_resumo": []
+    }
+   ]
+  },
+  {
+   "id": "geral-it-2",
+   "q": "santería culto orisha",
+   "idioma": "it",
+   "alvo": "lucumi",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-yo-1",
+   "q": "ẹ̀sìn òrìṣà",
+   "idioma": "yo",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 0,
+   "n": 0,
+   "itens": []
+  },
+  {
+   "id": "geral-yo-2",
+   "q": "òrìṣà Yorùbá",
+   "idioma": "yo",
+   "alvo": "geral",
+   "status": "ok",
+   "erro": null,
+   "total": 1,
+   "n": 1,
+   "itens": [
+    {
+     "base": "thesesfr",
+     "id_base": "s340309",
+     "titulo": "Gender, Power, and Space in the Performance of Yorùbá Arugbá Rituals in Southwestern Nigeria",
+     "autores": [
+      "Adekunmi Adeleke"
+     ],
+     "ano": 2025,
+     "tipo_base": "these (enCours)",
+     "url": "https://theses.fr/s340309",
+     "doi": null,
+     "isbn": [],
+     "idioma": null,
+     "periodico": "Études africaines",
+     "editora": "Paris, INALCO",
+     "assuntos": [
+      "Rituels yorùbá",
+      "Performances d’arugbá",
+      "Espaces genrés",
+      "Culture yorùbá",
+      "Yoruba rituals",
+      "Arugba performances",
+      "Gender spaces",
+      "Yoruba culture"
+     ],
+     "acesso_aberto": null,
+     "termos_titulo": [
+      "~yoruba"
+     ],
+     "termos_resumo": []
+    }
+   ]
+  }
+ ]
+}
