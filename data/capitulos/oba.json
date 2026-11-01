@@ -1,0 +1,832 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/oba.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "oba",
+  "titulo": "Obá, a esposa da orelha cortada",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Obá é conhecida no Brasil sobretudo por um mito: o da esposa de Xangô que, enganada por Oxum, corta a própria orelha para reconquistar o marido. Fora dele, o culto é pequeno, e as fontes lidas dizem pouco sobre os seus domínios, que nos documentos africanos antigos passam por um rio e pelas nuvens de tempestade "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um documento de 1894, escrito por um oficial britânico na Costa dos Escravos, apresentava Oba como a deusa do rio de mesmo nome, também chamado Ibu, e a contava entre os seres nascidos do corpo de Yemaja; um relato de 1910, de outro britânico, ouviu de um informante que ela era filha de Yemoja. Ambos são documentos de época, com o olhar colonial que lhes é próprio "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". O fichamento não tem registro sobre outros nomes de Obá, nem sobre a cidade ou região de origem do culto "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros de Salvador e São Paulo pesquisados até 1993, Obá era muito pouco cultuada, ao contrário de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". No nagô do Recife, ela ocupa hoje uma posição intermediária: tem assentamento em alguns terreiros e não em outros, recebe mais cantos que Ewá e Oxumarê e pode tomar seus iniciados em transe. A comparação com uma pesquisa feita ali em 1984, quando ela ainda não era assentada nem recebia oferenda de sangue, mostra um culto que cresceu, e que hoje tem até ritmo próprio "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre os iorubás, os documentos coloniais a ligavam às águas e ao céu. O de 1894 fazia de Oya, Oshun e Oba três irmãs, todas identificadas com rios, que acompanhavam Shango quando ele saía, as duas últimas levando seu arco e sua espada. No relato de 1910, um devoto de Shango descrevia as mulheres do deus como partes da tempestade: Oya seria o vento que avança diante do marido, Oshun o escuro que vai se fechando, e Oba o ajuntamento das nuvens agitadas; as duas últimas ficam em casa "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Recife, Obá veste o amarelo-ouro, o mesmo de Oxum, ou um amarelo que puxa para o laranja "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". No Batuque de Porto Alegre, ela divide a quarta-feira com Xapanã, identificado com Omolu "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". Quando Obá se manifesta, nos terreiros de Salvador e São Paulo, quem a recebe dança com a mão tapando a orelha, para ocultar a ferida que o mito conta "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O itã de Obá é contado no Brasil a partir do lado de Oxum ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A orelha de Obá",
+              "tipo": "ita",
+              "alvo": "ita-015"
+            },
+            {
+              "t": "texto",
+              "v": "). Nos terreiros de Salvador e São Paulo, conta-se que Xangô tinha três mulheres e que Obá era a mais esquecida. Ela quis saber de Oxum, a preferida, como prender o amor do marido, e Oxum mentiu: disse ter posto um pedaço da própria orelha na comida dele. Obá fez o mesmo; Xangô, enojado diante da carne, mandou-a embora, e Oxum saiu vitoriosa "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, a versão registrada em meados do século passado põe Oxum de turbante, a orelha cozida no caruru e um Xangô furioso; ali, quando Obá desce, esconde a orelha esquerda e se desentende com as filhas de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". O truque contra Obá é das histórias mais lembradas quando se fala da astúcia de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Obá aparece ainda num mito iorubá de origem das águas, conhecido por um documento colonial de 1894 ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iemanjá e o nascimento das águas",
+              "tipo": "ita",
+              "alvo": "ita-003"
+            },
+            {
+              "t": "texto",
+              "v": "): do corpo de Yemaja, depois da violência sofrida, saíram vários orixás, e entre eles a deusa do rio Oba "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O lugar de Obá entre as esposas de Xangô muda de versão para versão. Nos candomblés baianos de meados do século passado, Xangô tinha Iansã e mais duas mulheres, Obá e Oxum, e nos mitos baianos Iansã vinha à frente das outras duas. Nos terreiros de Salvador e São Paulo pesquisados até 1993, ele era o marido de Iansã, de Obá e de Oxum. No nagô do Recife, Obá é uma das mulheres de Xangô, mas a ordem varia: um cronista do Rio de 1904 a fazia primeira esposa, e uma obra de 1985 a coloca em terceiro lugar, depois de Iansã e de Oxum. O documento colonial de 1894 também a dava como terceira mulher de Shango "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": ". Para um informante iorubá ouvido em 1910, entre os filhos de Yemoja, os orixás do casamento eram apenas Shango e as três esposas, Oya, Oba e Oshun "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Depois de repudiada, Obá às vezes muda de casa. Em algumas versões dos terreiros de Salvador e São Paulo, ela se torna mulher de Omulu, que em outros casos tem Nanã por esposa ou como o seu lado feminino; e há quem conte que Xangô, por ter tomado as mulheres de outros, teve de enfrentar Omolu, Ogum e Oxóssi "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos e nos terreiros de Salvador e São Paulo, Obá é uma das três mulheres de Xangô, pouco cultuada, reconhecível pela mão sobre a orelha "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife e Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", seu culto ganhou espaço nas últimas décadas, com assentamento em parte das casas, cor amarela e ritmo próprio. No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Batuque",
+              "tipo": "tradicao",
+              "alvo": "batuque_rs"
+            },
+            {
+              "t": "texto",
+              "v": " de Porto Alegre, tem a quarta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros angola-congo de São Paulo, não se encontrou divindade correspondente a Obá "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. No esquema de sete linhas de Rubens Saraceni, um autor umbandista, cada linha tem um orixá que a comanda e outro que o auxilia, e Obá aparece como apoio de Oxóssi na linha do Conhecimento; o esquema não vale para o Candomblé "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Culto iorubá"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos documentos coloniais da Costa dos Escravos e nos informantes iorubás ouvidos em 1910, Oba é deusa de rio, irmã de Oya e de Oshun, filha de Yemoja e esposa de Shango "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem nenhum registro de santo católico associado a Obá "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Arnaud Halloy, ao estudar o nagô do Recife, confrontou o que observou com o trabalho feito ali em 1984 por J. J. de Carvalho e mostrou como Obá passou, em duas décadas, de divindade sem assentamento a orixá que toma iniciados e tem ritmo próprio. Na mesma obra, lembrou que a ordem das esposas de Xangô muda conforme a narrativa e o autor "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Não há registro de saudação, símbolos, festas, funções ou qualidades de Obá, nem de sincretismo "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". O material que a descreve com mais vagar, nas obras de Verger, nas coletâneas de mitos de Prandi e na literatura de praticantes da Pallas, está impresso e aguarda exemplar "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-016"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-015"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "nomes",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-005"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-008"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-016"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-010"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-004"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-004"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-003"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-028"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-040"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-060"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-012"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-015"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-019"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-004"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-002"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-017"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-019"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-015"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-009"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "funcoes",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "qualidades",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (1981)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Literatura de praticantes da Pallas (Coleção Orixás)"
+        }
+      ]
+    }
+  ]
+}

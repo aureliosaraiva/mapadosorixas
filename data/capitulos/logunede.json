@@ -1,0 +1,812 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/logunede.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "logunede",
+  "titulo": "Logunedé, o príncipe entre a mata e o rio",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Logunedé reúne dois mundos: o do caçador, que a maioria das versões contadas num candomblé ketu de São Paulo dá como seu pai, e o das águas doces de Oxum, sua mãe. Nos terreiros brasileiros ele costuma aparecer jovem e bonito; na Nigéria, guerreiro de gênio forte. Entre uma imagem e outra, as fontes registram muitas discordâncias, a começar pela de quem é o pai "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em iorubá o nome tem três formas registradas, Ológún-ẹ̀dẹ, Lógunède e Lógun-Ẹ̀dẹ, e entre os títulos que o louvam estão Ólògún Ode e Asíwájú Òrìṣà, que o exaltam como guerreiro que caça, cabeça dos orixás, dono da pesca e da caça e quem guarda o segredo das batalhas. No Brasil, as grafias variam: Logunedê nos candomblés baianos de meados do século passado, Logum Edé ou Logun-Edé em casas paulistas "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Nigéria, Lógunède é caçador e guerreiro, ligado a Edé e a Ilesa, no estado de Osun, e tem culto também em Ibadan. Uma sacerdotisa nigeriana, falando em São Paulo em 2019, situou sua origem em Éfọn Aláayè "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Brasil, o culto de Logunedé é associado sobretudo à nação ijexá, mas está presente também no ketu e no efon, e se espalhou pelo Sudeste e pelo Nordeste "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". Nos candomblés baianos de meados do século passado, alguns informantes o contavam entre as quatro formas de Oxóssi, ao lado de Oxóssi, Odé e Inlé, e o mesmo se ouvia em parte dos terreiros de Salvador e São Paulo pesquisados até 1993 "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em São Paulo, a chamada reafricanização do candomblé ketu deixou marcas nas insígnias do orixá, que passaram a incluir o Àdá Idẹ, facão feito de bronze, e também brincos e um chapéu de penas "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Nigéria, insiste o estudo que serviu de base a estas páginas, Lógunède não tem nada de frágil: é um guerreiro que caça, de gênio difícil de domar. Para a sacerdotisa nigeriana citada acima, ele traz dinheiro, dá filhos às mulheres que não conseguem tê-los, dá paz e endireita a cabeça de quem anda sem sorte "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A roupa conta a dupla filiação. Nas casas ketu de São Paulo, ela se divide ao meio: o lado paterno vai em azul-claro, com peles de animal ou tecido estampado, e o materno, em dourado e no amarelo vivo chamado canário; nos tecidos aparecem ainda o verde, o branco, o azul, o amarelo e o dourado "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". As insígnias também somam os dois lados: a balança, o ofá, que é o arco e flecha, o erukerê e o abebé, além de capangas que imitam peixe, coração ou chifre, e ainda a aljava, a coroa e um chapéu feito de couro "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". Na Casa das Águas, em Itapevi, uma pena de faisão no capacete do orixá foi lida como emblema do pai caçador "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Por unir traços de Oxum e de Oxóssi, Logunedé costuma ser representado como menino ou adolescente, traço que a tradição oral atribui à sua afinidade com os Ibêjis "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mito mais citado divide o ano de Logunedé entre os pais ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Logunedé entre a mata de Oxóssi e o rio de Oxum",
+              "tipo": "ita",
+              "alvo": "ita-021"
+            },
+            {
+              "t": "texto",
+              "v": "). Num candomblé ketu de São Paulo, conta-se que ele passa seis meses caçando no mato com Oxóssi e os outros seis pescando no rio com Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Uma versão bem mais rara, contada no mesmo candomblé ketu de São Paulo, dá a ele outra família ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Logunedé criado por Ogum e coroado por Oyá",
+              "tipo": "ita",
+              "alvo": "ita-022"
+            },
+            {
+              "t": "texto",
+              "v": "). Oxum o deixa para viver com Xangô; o menino cresce junto de Ogum, que lhe ensina a combater e a forjar, e Oyá o coroa príncipe dos orixás. Nessa versão, ele é filho de Ogum e de Oyá "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quanto ao pai, as casas discordam. Nos candomblés baianos de meados do século passado, Logunedê era filho de Inlé e Oxum. Nos terreiros de Salvador e São Paulo estudados até 1993, seria filho de Oxóssi e Oxum, e essa é também a filiação da maioria dos mitos num candomblé ketu de São Paulo. Na Casa das Águas, em Itapevi, o pai seria Erinlé, que é Oxóssi sob outra forma "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": ". Na mesma casa ketu paulista, diz-se ainda que Logunedé tem grande intimidade com Yewá, e que um completa o outro "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu, ijexá e efon"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos, Logunedê aparecia como uma das formas de Oxóssi; nas casas paulistas é um orixá próprio, filho do caçador e de Oxum, com roupa e insígnias que somam os dois lados. O culto é lembrado sobretudo na nação "
+            },
+            {
+              "t": "link",
+              "rotulo": "ijexá",
+              "tipo": "tradicao",
+              "alvo": "candomble_ijexa"
+            },
+            {
+              "t": "texto",
+              "v": ", mas existe também no ketu e no "
+            },
+            {
+              "t": "link",
+              "rotulo": "efon",
+              "tipo": "tradicao",
+              "alvo": "candomble_efon"
+            },
+            {
+              "t": "texto",
+              "v": " "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em alguns terreiros angola-congo de São Paulo, o inquice Tere-Kompenso, também chamado Ngongobila ou Gongobira, que protege quem vive da pesca e da caça, é associado a Logunedé "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tambor de Mina"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No terreiro de Dona Jarina, em São Paulo, de origem maranhense, o vodum nagô Boço Jara corresponde a Logun-Edé "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Parte dos registros dos terreiros de Salvador e São Paulo vale tanto para o Candomblé quanto para a Umbanda que ali se praticava, outra religião, e não uma nação do Candomblé. O fichamento não tem nenhum registro sobre Logunedé que seja próprio só da Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O único registro de sincretismo vem do terreiro de Mina de São Paulo, onde Boço Jara e Logun-Edé têm Santo Expedito como santo católico "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "José Roberto Lima Santos, que estudou a roupa do orixá num candomblé paulista, considera equivocada a crença, passada de boca em boca, de que Lógunède é homem metade do ano e mulher na outra metade, e também recusa vê-lo como andrógino ou hermafrodita: a dualidade, para ele, está no jeito, doce como a mãe, sério como o pai "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Apoiado em Nei Lopes, lembra que metá-metá, expressão pouco compreendida, quer dizer três ao mesmo tempo: em Logunedé conviveriam a natureza de Oxum, a de Inlê e a dele próprio. Com Oyěwùmí, propõe pensar o orixá sem o binarismo de gênero do Ocidente "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro do dia da semana, das festas, da saudação, do elemento da natureza ou das funções de Logunedé "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": ". Também não se decidiu se a Yewá próxima dele é Ewá ou outra divindade, a Iyewa, que a lista do projeto mantém separada "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O livro de Nei Lopes sobre Logunedé só foi lido por meio de citação, e um itã das coletâneas de Prandi, transcrito no estudo paulista, ainda não foi fichado porque deve ser conferido no exemplar "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-015"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-020"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-022"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-014"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-016"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-003"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-019"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-015"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-017"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-018"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-006"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-020"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-010"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-026"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-008"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-005"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-009"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-016"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-024"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-022"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-004"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": "umbanda"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-023"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-011"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-012"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "elementos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "funcoes",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "\"Yewá\" em Santos 2023"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Lopes, *Logunedé* (2006)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Santos 2023 (pp. 82–85) transcreve um itã de Prandi 2001"
+        }
+      ]
+    }
+  ]
+}
