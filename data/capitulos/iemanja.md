@@ -17,7 +17,7 @@ Uma descrição deixada no século XIX por um explorador britânico deve ser lid
 
 Os primeiros a trazer o culto à Bahia foram os ebás, seguidos por oyós e ijexás, até meados do século XIX. Nos terreiros baianos de meados do século passado, o quarto da orixá podia ser chamado de sala do tanque {{ref:iemanja-041,iemanja-025}}.
 
-A grande festa de Salvador tem história própria. As descrições das festas da cidade em meados do século XIX não falam de nenhuma dedicada só a Iemanjá. Hoje quem a promove é a Colônia de Pescadores do Rio Vermelho, cujos membros, pelas mesmas razões de proteção no mar, também comparecem, a cada 29 de junho, à missa de São Pedro celebrada na igreja ao lado {{ref:iemanja-034,iemanja-033}}. A festa do presente de Iemanjá existira também no Recife e em Porto Alegre, mas tinha caído em desuso; foi retomada pela Umbanda, ganhando força no Rio de Janeiro e em Porto Alegre até alcançar Santos nos anos 1950 {{ref:iemanja-029}}.
+A grande festa de Salvador tem história própria. As descrições das festas da cidade em meados do século XIX não falam de nenhuma dedicada só a Iemanjá. Hoje quem a promove é a Colônia de Pescadores do Rio Vermelho, cujos membros, pelas mesmas razões de proteção no mar, também comparecem, a cada 29 de junho, à missa de São Pedro celebrada na igreja ao lado {{ref:iemanja-034,iemanja-033}}. A festa do presente de Iemanjá existira também no Recife e em Porto Alegre, onde fora abandonada; foi retomada pela Umbanda, ganhando força no Rio de Janeiro e em Porto Alegre até alcançar Santos nos anos 1950 {{ref:iemanja-029}}.
 
 A passagem de Iemanjá a Nossa Senhora está entre os resultados da cristianização a que os orixás foram submetidos no país, e muitos traços das Grandes Mães africanas, Iemanjá e Oxum entre elas, foram atenuados aqui e acabaram deslocados, no Candomblé e na Umbanda, para a figura de Pombagira {{ref:iemanja-001,iemanja-002}}.
 
@@ -31,7 +31,7 @@ Na dança, na Bahia, Iemanjá surge como quem penteia os cabelos de algas, e em 
 
 A cor é azul, em tons distintos: azul-claro nos terreiros de Salvador e São Paulo, azul profundo no nagô do Recife {{ref:iemanja-020,iemanja-050}}.
 
-O sábado é o dia mais citado. Na distribuição mais comum da Bahia e no Ilê Axé Opô Afonjá, Iemanjá o divide com Oxum, e o mesmo dia lhe cabe nos terreiros de Salvador e São Paulo. Em Porto Alegre, porém, a sexta-feira é de Iemanjá e de Odé, o filho que ela traz ao colo {{ref:iemanja-007,iemanja-008,iemanja-018,iemanja-009}}.
+O sábado é o dia mais citado. Na distribuição mais comum da Bahia e no Ilê Axé Opô Afonjá, Iemanjá o divide com Oxum, e o mesmo dia lhe cabe nos terreiros de Salvador e São Paulo. Em Porto Alegre, porém, a sexta-feira é de Iemanjá e de Odé, filho que se diz levado no colo por ela {{ref:iemanja-007,iemanja-008,iemanja-018,iemanja-009}}.
 
 ## Mitos {#mitos}
 

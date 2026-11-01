@@ -9,7 +9,7 @@ Quem procura Ogum encontra, quase sempre, três imagens sobrepostas: o ferreiro 
 
 ## Nomes e origem {#nomes-e-origem}
 
-Ogum está entre os raros orixás com culto antigo em todas as regiões de língua iorubá. Os oríkì e os versos de Ifá, porém, situam o berço desse culto no leste, na cidade de Iré, no reino de Ekiti, e lhe dão força também nos reinos vizinhos de Ijexá e Ondo. Daí um dos títulos com que o orixá é chamado nos candomblés de nação ketu e nagô: Onirê, "senhor de Iré" {{ref:ogum-049,ogum-050}}.
+Ogum está entre os raros orixás com culto antigo em todas as regiões de língua iorubá. Os oríkì e os versos de Ifá, porém, situam o berço desse culto no leste, na cidade de Iré, no reino de Ekiti, e apontam presença forte do culto em Ijexá e Ondo, reinos próximos. Daí um dos títulos com que o orixá é chamado nos candomblés de nação ketu e nagô: Onirê, "senhor de Iré" {{ref:ogum-049,ogum-050}}.
 
 Entre os povos de língua fon, que no Brasil foram chamados de jejes, a mesma figura recebe o nome de Gu e conserva atributos muito parecidos. No antigo Daomé, Gu ganhou prestígio pela relação com os ferreiros e com quem lida com o metal, e a cosmologia fon o incluía num grupo de voduns tidos como de procedência nagô. Trata-se de uma equivalência registrada pelas fontes, não de uma identidade {{ref:ogum-046}}.
 
@@ -39,7 +39,7 @@ As datas de festa trazem a marca do calendário católico. Em terreiros de Salva
 
 ## Mitos {#mitos}
 
-As narrativas sobre Ogum que já passaram pelo fichamento são poucas, e a mais desenvolvida vem do Daomé. Num mito de criação fon, o Criador desce à Terra trazendo Gu na forma de uma espada cerimonial, a gubasa; com ela abre o mato e ensina às pessoas a erguer casas, a lavrar o chão e a usar o metal. Desse relato viriam as pequenas enxadas e ferramentas que aparecem nos altares de Gu ([Gu trazido à Terra como espada cerimonial](ita:ita-004)) {{ref:ogum-047}}.
+As narrativas sobre Ogum que já passaram pelo fichamento são poucas, e a mais desenvolvida vem do Daomé. Num mito de criação fon, o Criador desce à Terra trazendo Gu sob o aspecto de espada de cerimônia, a gubasa; com ela abre o mato e ensina às pessoas a erguer casas, a lavrar o chão e a usar o metal. Desse relato viriam as pequenas enxadas e ferramentas que aparecem nos altares de Gu ([Gu trazido à Terra como espada cerimonial](ita:ita-004)) {{ref:ogum-047}}.
 
 Os laços de família contados nos mitos aproximam Ogum de dois outros orixás. Com Oxóssi, ele forma um par de irmãos, irmandade reconhecida tanto na África quanto no Brasil: os dois reinam sobre a mata e, por isso, seriam ouvidos na escolha do lugar de novas aldeias e roças. No nagô do Recife, Odé, o caçador, é o irmão mais novo {{ref:ogum-013,ogum-045,oxossi-028}}. Com Exu, o parentesco aparece de outro jeito. No Candomblé, os dois costumam ser descritos como irmãos e como orixás "de rua" que agem em conjunto para abrir caminhos; na Umbanda, um pai de santo da nação Omolocô, no Rio de Janeiro de 1970, chamava Exu de irmão caçula de Ogum, eco de um mito ouvido no Nordeste em que ambos são filhos de um rei do Congo {{ref:ogum-044,exu-070}}.
 

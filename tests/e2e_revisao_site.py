@@ -126,6 +126,13 @@ def main():
         r = rodar([py, "scripts/validar_fichamento.py", "--sem-historico"], raiz)
         assert "revisao_desatualizada" in r.stdout and "nao_publicar" in r.stdout, r.stdout[-2000:]
         rodar([py, "scripts/validar_fichas.py"], raiz)
+        # o capítulo de Exu cita o registro que o revisor pediu para não publicar:
+        # o validador de capítulos precisa acusar; depois os capítulos saem da cópia
+        # (não são o assunto deste teste)
+        r = subprocess.run([py, "scripts/validar_capitulos.py"], cwd=raiz, capture_output=True, text=True)
+        if any(ids["nao_publicar"] in t for t in (raiz / "data/capitulos").glob("*.md") for t in [t.read_text(encoding="utf-8")]):
+            assert r.returncode == 1 and "retido" in r.stdout, r.stdout[-2000:]
+        shutil.rmtree(raiz / "data/capitulos")
 
         exu, oxossi = ler(raiz / "data/orixas/exu.json"), ler(raiz / "data/orixas/oxossi.json")
         vex = {v["registro"]: v for vs in exu["atributos"].values() for v in vs}

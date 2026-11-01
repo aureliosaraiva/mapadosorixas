@@ -79,7 +79,7 @@ Na santería do central Méjico, Changó está entre os orixás maiores recebido
 
 ## Sincretismo {#sincretismo}
 
-Na Bahia, o santo mais citado é São Jerônimo, um dos equivalentes católicos de Xangô no Gantois. Nos terreiros de Salvador e São Paulo, a escolha se explica pelo carneiro com que o santo costuma ser representado, animal ligado ao orixá; em algumas casas, Xangô é associado a São João, e esses dois santos correspondem, para um pai de santo, às duas qualidades do orixá {{ref:xango-012,xango-026,xango-028}}. No Tambor de Mina de Diadema, Xangô e Badé ficam com São Pedro, e os outros voduns correspondentes com São Benedito, Santo Antônio e São José {{ref:xango-051}}. Na santería cubana, Changó é festejado com Santa Bárbara em 4 de dezembro; em Banagüises, perto do central Méjico, duas casas de Changó se revezavam, um ano cada, para tocar nesse dia {{ref:xango-056}}.
+Na Bahia, o santo mais citado é São Jerônimo, que no Gantois figura entre os pares católicos do orixá. Nos terreiros de Salvador e São Paulo, a escolha se explica pelo carneiro com que o santo costuma ser representado, animal ligado ao orixá; em algumas casas, Xangô é associado a São João, e esses dois santos correspondem, para um pai de santo, às duas qualidades do orixá {{ref:xango-012,xango-026,xango-028}}. No Tambor de Mina de Diadema, Xangô e Badé ficam com São Pedro, e os outros voduns correspondentes com São Benedito, Santo Antônio e São José {{ref:xango-051}}. Na santería cubana, Changó é festejado com Santa Bárbara em 4 de dezembro; em Banagüises, perto do central Méjico, duas casas de Changó se revezavam, um ano cada, para tocar nesse dia {{ref:xango-056}}.
 
 ## Leituras acadêmicas {#leituras-academicas}
 

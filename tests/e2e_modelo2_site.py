@@ -19,6 +19,7 @@ Uso: python3 tests/e2e_modelo2_site.py   (precisa de site/node_modules)
 import json
 import re
 import sys
+import shutil
 import tempfile
 from pathlib import Path
 
@@ -60,6 +61,7 @@ def main():
         raiz = Path(tmp)
         copiar_repo(raiz)
         injetar(raiz)
+        shutil.rmtree(raiz / "data/capitulos", ignore_errors=True)  # capítulos não são o assunto deste teste
         py = sys.executable
         rodar([py, "scripts/gerar_fichas.py"], raiz)
         rodar([py, "scripts/divergencias.py"], raiz)

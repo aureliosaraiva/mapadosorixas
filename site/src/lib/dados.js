@@ -187,7 +187,7 @@ export const ROTULO_CONFIABILIDADE = {
 // ---------------------------------------------------------------- citações
 
 function sobrenome(nome) {
-  const partes = nome.trim().split(/\s+/);
+  const partes = nome.replace(/\(orgs?\.\)/g, '').trim().split(/\s+/);
   return partes[partes.length - 1];
 }
 
