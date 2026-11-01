@@ -1,9 +1,49 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 33
+    "total": 37
   },
   "divergencias": [
+    {
+      "orixa": "exu",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "vermelho e preto",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 289",
+          "registro": "exu-042"
+        },
+        {
+          "valor": "vermelho, preto e branco (os dois primeiros dominantes)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 164",
+          "registro": "exu-085"
+        },
+        {
+          "valor": "preto e vermelho (colar de Elegguá)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 8, nota 18",
+          "registro": "exu-088"
+        }
+      ]
+    },
     {
       "orixa": "exu",
       "atributo": "dia_semana",
@@ -51,6 +91,17 @@
           "via": "bastide-1958-candomble",
           "localizacao": "ed. pt 1961, p. 127",
           "registro": "exu-041"
+        },
+        {
+          "valor": "segunda-feira (preferência, não regra)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 164, nota 353",
+          "registro": "exu-086"
         }
       ]
     },
@@ -159,6 +210,17 @@
           "via": null,
           "localizacao": "p. 289",
           "registro": "exu-046"
+        },
+        {
+          "valor": "\"fiesta de Elegguá\" em outubro, com viagem anual de uma associação de Ifá das Canárias a Matanzas",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 11",
+          "registro": "exu-089"
         }
       ]
     },
@@ -274,6 +336,28 @@
           "via": null,
           "localizacao": "PDF pp. 15–16",
           "registro": "exu-072"
+        },
+        {
+          "valor": "Exu do peji (orixá mensageiro) × Exu da rua (guardião das soleiras); em Salvador, \"Exu do portão\"",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 163",
+          "registro": "exu-083"
+        },
+        {
+          "valor": "duas naturezas: orixá (não toma posse dos filhos) ou espírito da jurema (incorporado, procurado para magia ofensiva); \"o mais humano dos orixás\", ambivalente",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "pp. 163–164",
+          "registro": "exu-084"
         }
       ]
     },
@@ -370,6 +454,35 @@
           "via": null,
           "localizacao": "p. 1088",
           "registro": "exu-056"
+        }
+      ]
+    },
+    {
+      "orixa": "iemanja",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "azul-claro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 237",
+          "registro": "iemanja-020"
+        },
+        {
+          "valor": "azul profundo",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 168",
+          "registro": "iemanja-050"
         }
       ]
     },
@@ -560,6 +673,17 @@
           "via": null,
           "localizacao": "Resumo",
           "registro": "iemanja-047"
+        },
+        {
+          "valor": "dezembro",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "p. 261",
+          "registro": "iemanja-055"
         }
       ]
     },
@@ -589,6 +713,28 @@
           "via": null,
           "localizacao": "p. 236",
           "registro": "iemanja-015"
+        },
+        {
+          "valor": "mulher de Oxalá e \"mãe de todos os orixás\"; com Orixalá, casal demiurgo que gerou os demais (exceto Nanã, Obaluaiê e Oxumarê)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "pp. 168–169",
+          "registro": "iemanja-049"
+        },
+        {
+          "valor": "mãe de todos os orixás; Oxum é sua filha",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+          "fonte": "pitta-2011-mitos",
+          "via": null,
+          "localizacao": "p. 263",
+          "registro": "iemanja-051"
         }
       ]
     },
@@ -721,6 +867,28 @@
           "via": null,
           "localizacao": "pp. 69–70",
           "registro": "ogum-031"
+        },
+        {
+          "valor": "vermelho e verde",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165",
+          "registro": "ogum-054"
+        },
+        {
+          "valor": "verde e preto (colar de Oggún)",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 8, nota 18",
+          "registro": "ogum-059"
         }
       ]
     },
@@ -771,6 +939,17 @@
           "via": "bastide-1958-candomble",
           "localizacao": "ed. pt 1961, p. 127",
           "registro": "ogum-015"
+        },
+        {
+          "valor": "terça-feira",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165, nota 353",
+          "registro": "ogum-055"
         }
       ]
     },
@@ -800,6 +979,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 26",
           "registro": "ogum-025"
+        },
+        {
+          "valor": "23 ou 24 de abril",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "p. 261",
+          "registro": "ogum-060"
         }
       ]
     },
@@ -903,6 +1093,17 @@
           "via": null,
           "localizacao": "pp. 7, 26",
           "registro": "ogum-052"
+        },
+        {
+          "valor": "Ogum Xoroquê, guardião da casa em parceria com Legba; Ogum Metametá reúne traços de Xoroquê e de Exu",
+          "tradicoes": [
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": "Cachoeira (BA): Seja Hundê",
+          "fonte": "cerqueira-2015-lebabimibome",
+          "via": null,
+          "localizacao": "p. 88",
+          "registro": "ogum-061"
         }
       ]
     },
@@ -1080,6 +1281,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 32",
           "registro": "oxossi-025"
+        },
+        {
+          "valor": "verde, às vezes com vermelho e/ou branco; pode vir vestido de peles",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165",
+          "registro": "oxossi-029"
         }
       ]
     },
@@ -1142,6 +1354,17 @@
           "via": null,
           "localizacao": "p. 259",
           "registro": "oxossi-017"
+        },
+        {
+          "valor": "nenhum dia fixo",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165",
+          "registro": "oxossi-030"
         }
       ]
     },
@@ -1239,6 +1462,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 123, nota 91",
           "registro": "oxossi-010"
+        },
+        {
+          "valor": "irmão mais novo de Ogum",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165",
+          "registro": "oxossi-028"
         }
       ]
     },
@@ -1268,6 +1502,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 32",
           "registro": "xango-030"
+        },
+        {
+          "valor": "vermelho e branco",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 168",
+          "registro": "xango-042"
         }
       ]
     },
@@ -1374,6 +1619,63 @@
     },
     {
       "orixa": "xango",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Badé (vodum), emparelhado com Xangô (\"Xangô ou Badé\")",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "pp. 260, 262",
+          "registro": "xango-047"
+        },
+        {
+          "valor": "Sobo (vodum maior do Seja Hundê)",
+          "tradicoes": [
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": "Cachoeira (BA): Seja Hundê",
+          "fonte": "cerqueira-2015-lebabimibome",
+          "via": null,
+          "localizacao": "p. 82",
+          "registro": "xango-048"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "festas",
+      "versoes": [
+        {
+          "valor": "24 de junho, 30 de setembro ou 6 de janeiro, conforme o terreiro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 240",
+          "registro": "xango-027"
+        },
+        {
+          "valor": "dia de São Pedro (oferendas a Xangô e festa de Badé)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+          "fonte": "ferretti-2011-comida",
+          "via": null,
+          "localizacao": "pp. 260–261",
+          "registro": "xango-046"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
       "atributo": "itans",
       "versoes": [
         {
@@ -1408,6 +1710,17 @@
           "via": "capo-chichi-2025-shango",
           "localizacao": "p. 3",
           "registro": "xango-036"
+        },
+        {
+          "valor": "Oxalá velho viaja para ver o filho Xangô, é preso injustamente pelos servidores deste e libertado depois de consulta ao babalaô",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+          "fonte": "pitta-2011-mitos",
+          "via": null,
+          "localizacao": "pp. 264–265",
+          "registro": "xango-043"
         }
       ]
     },
@@ -1449,6 +1762,17 @@
           "via": null,
           "localizacao": "pp. 1–2, 7–9",
           "registro": "xango-035"
+        },
+        {
+          "valor": "Changó: antigo aláàfin (rei) de Oyó e, ao mesmo tempo, ligado ao raio, ao fogo, aos tambores e à guerra",
+          "tradicoes": [
+            "lucumi"
+          ],
+          "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+          "fonte": "toutain-2019-santos",
+          "via": null,
+          "localizacao": "p. 7, nota 13",
+          "registro": "xango-045"
         }
       ]
     },
@@ -1478,6 +1802,17 @@
           "via": null,
           "localizacao": "p. 239",
           "registro": "xango-022"
+        },
+        {
+          "valor": "esposas: Obá, Oiá e Oxum (ordem varia entre mitos e tradições)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 167, nota 364",
+          "registro": "xango-041"
         }
       ]
     },

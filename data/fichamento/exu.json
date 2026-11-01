@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 82,
+    "total": 90,
     "por_status": {
-      "fichado": 82,
+      "fichado": 90,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1614,6 +1614,158 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/hal-02443068v1"
+      ]
+    },
+    {
+      "id": "exu-083",
+      "orixa": "exu",
+      "atributo": "qualidades",
+      "valor": "Exu do peji (orixá mensageiro) × Exu da rua (guardião das soleiras); em Salvador, \"Exu do portão\"",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 163",
+      "parafrase": "Halloy registra entre os participantes uma distinção entre o Exu do peji, orixá que leva mensagens entre humanos e orixás e a quem se deve recorrer antes de qualquer ação ritual, e o Exu da rua, que também é mensageiro mas sobretudo protege o terreiro de ameaças externas, como guardião das soleiras. Em nota, informa que na tradição nagô de Salvador este último é chamado Exu do portão.",
+      "nota": "Página impressa (no PDF do HAL, impressa = PDF − 1; a trad02 citou a página do PDF).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "exu-084",
+      "orixa": "exu",
+      "atributo": "qualidades",
+      "valor": "duas naturezas: orixá (não toma posse dos filhos) ou espírito da jurema (incorporado, procurado para magia ofensiva); \"o mais humano dos orixás\", ambivalente",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "pp. 163–164",
+      "parafrase": "Segundo os interlocutores de Halloy, Exu é o mais humano dos orixás, vive entre as pessoas, gosta de semear discórdia e não é nem bom nem mau. Ele pode atuar como orixá ou como espírito da jurema, categorias que não se confundem: como orixá não possui seus filhos; como espírito é incorporado com frequência e procurado para trabalhos de magia ofensiva, por isso é temido. Seus lugares preferidos são as encruzilhadas e a rua.",
+      "nota": "Jurema: culto de origem indígena e regional, distinto dos orixás. Comparar com exu-034 e exu-068 (Exu-egum na Umbanda).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "exu-085",
+      "orixa": "exu",
+      "atributo": "cores",
+      "valor": "vermelho, preto e branco (os dois primeiros dominantes)",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 164",
+      "parafrase": "Halloy anota que as cores de Exu no nagô do Recife são vermelho, preto e branco; as duas primeiras predominam, e o branco só aparece em certas oferendas.",
+      "nota": "Comparar com exu-042 (Chiousse: vermelho e preto).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "exu-086",
+      "orixa": "exu",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira (preferência, não regra)",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 164, nota 353",
+      "parafrase": "O dia de Exu é a segunda-feira. Halloy observa que, na casa estudada, a ligação entre orixás e dias da semana pesa pouco na prática; as exceções são a segunda para os trabalhos de Exu, a sexta para Oxalá e o sábado para Oxum e Iemanjá, e mesmo assim são preferências.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "exu-087",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "a entrada na santería começa pela recepção dos \"santos guerreiros\": Elegguá, Oggún e Ochosí (com Osún)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 7",
+      "parafrase": "Toutain descreve que, na santería do central Méjico, a entrada no culto começa quando o praticante recebe os chamados santos guerreiros, Elegguá, Oggún e Ochosí, junto com Osún, ligado ao destino da pessoa; nessa cerimônia uma consulta divinatória identifica o orixá tutelar.",
+      "nota": "Paginação: impressa = PDF − 11 na parte em algarismos arábicos. Ver também ogum-058 e oxossi-032.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "exu-088",
+      "orixa": "exu",
+      "atributo": "cores",
+      "valor": "preto e vermelho (colar de Elegguá)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 8, nota 18",
+      "parafrase": "Ao explicar que cada recepção de santo vem com uma pulseira e um colar nas cores do orixá, Toutain dá como exemplo o preto e o vermelho de Elegguá.",
+      "nota": "Comparar com exu-042 e exu-085.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "exu-089",
+      "orixa": "exu",
+      "atributo": "festas",
+      "valor": "\"fiesta de Elegguá\" em outubro, com viagem anual de uma associação de Ifá das Canárias a Matanzas",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 11",
+      "parafrase": "Toutain conta que uma associação de Ifá das Ilhas Canárias viaja todo ano, em outubro, ao central Méjico para realizar iniciações e participar da festa de Elegguá; a viagem é organizada pelo único babalao nascido na localidade, que vive nas Canárias.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "exu-090",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "no Jeje do Seja Hundê, o vodum guardião Lebabimibome resulta de uma fusão com Exu-Legba",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "casa_ou_regiao": "Cachoeira (BA): Seja Hundê",
+      "source_id": "cerqueira-2015-lebabimibome",
+      "via_source_id": null,
+      "localizacao": "pp. 82–83",
+      "parafrase": "Cerqueira descreve Legba/Lebabimibome como o vodum que controla toda a área do terreiro e os filhos dos voduns maiores, e apresenta seu culto, com ritos próprios, como resultado de um processo de fusão entre a figura do macaco de mitos e tradições orais africanas e Exu-Legba.",
+      "nota": "Paginação: impressa = PDF − 1. Tese de antropologia; o autor relata reticência dos membros em partilhar conhecimentos da casa.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-01778552"
       ]
     }
   ]

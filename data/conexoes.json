@@ -2,13 +2,13 @@
   "_meta": {
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
-    "total_nos": 41,
-    "total_arestas": 46,
+    "total_nos": 43,
+    "total_arestas": 49,
     "por_tipo": {
       "associacao": 1,
       "companheiro_de_culto": 3,
-      "equivalencia": 12,
-      "parentesco": 9,
+      "equivalencia": 14,
+      "parentesco": 10,
       "sincretismo": 21
     }
   },
@@ -204,6 +204,11 @@
       "tipo": "santo_catolico"
     },
     {
+      "id": "vodum:bade",
+      "rotulo": "Badé",
+      "tipo": "vodum"
+    },
+    {
       "id": "vodum:gu",
       "rotulo": "Gu",
       "tipo": "vodum"
@@ -211,6 +216,11 @@
     {
       "id": "vodum:legba",
       "rotulo": "Legba / Elegbara",
+      "tipo": "vodum"
+    },
+    {
+      "id": "vodum:sobo",
+      "rotulo": "Sobo",
       "tipo": "vodum"
     },
     {
@@ -795,6 +805,68 @@
       ]
     },
     {
+      "id": "equivalencia:vodum:bade>xango",
+      "origem": "vodum:bade",
+      "destino": "xango",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Badé (vodum), emparelhado com Xangô (\"Xangô ou Badé\")",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+          "sources": [
+            {
+              "id": "ferretti-2011-comida",
+              "loc": "pp. 260, 262",
+              "via": null
+            }
+          ],
+          "source_id": "ferretti-2011-comida",
+          "via_source_id": null,
+          "localizacao": "pp. 260, 262",
+          "parafrase": "Nos relatos da mesma casa de Tambor de Mina, Xangô aparece emparelhado ao vodum Badé, referido como \"Xangô ou Badé\", e a festa de Badé coincide com o dia de São Pedro.",
+          "nota": "Equivalência na prática de uma casa; não é identidade. Detalhes de oferenda omitidos.",
+          "registro": "xango-047",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "equivalencia:vodum:sobo>xango",
+      "origem": "vodum:sobo",
+      "destino": "xango",
+      "tipo": "equivalencia",
+      "subtipo": null,
+      "direcionada": false,
+      "versoes": [
+        {
+          "valor": "Sobo (vodum maior do Seja Hundê)",
+          "tradicoes": [
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": "Cachoeira (BA): Seja Hundê",
+          "sources": [
+            {
+              "id": "cerqueira-2015-lebabimibome",
+              "loc": "p. 82",
+              "via": null
+            }
+          ],
+          "source_id": "cerqueira-2015-lebabimibome",
+          "via_source_id": null,
+          "localizacao": "p. 82",
+          "parafrase": "Cerqueira afirma que os voduns maiores do Seja Hundê, Bessem, Sobo e Azançu, correspondem aos orixás iorubás Oxumarê, Xangô e Obaluaê, numa reinterpretação brasileira de trilogias da cosmologia ewé.",
+          "nota": "Equivalência proposta pelo autor; não é identidade.",
+          "registro": "xango-048",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "parentesco:conjuge_de:iansa>xango",
       "origem": "iansa",
       "destino": "xango",
@@ -844,6 +916,27 @@
           "nota": null,
           "registro": "xango-022",
           "status": "fichado"
+        },
+        {
+          "valor": "esposas: Obá, Oiá e Oxum (ordem varia entre mitos e tradições)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 167, nota 364",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 167, nota 364",
+          "parafrase": "Segundo Halloy, Xangô teria tido como mulheres Obá, Oiá e Oxum. Em nota, mostra que a ordem varia: em alguns relatos Obá é a primeira esposa, em outros Iansã; na maioria o casamento com Iansã vem antes do encontro com Oxum, que às vezes aparece como concubina.",
+          "nota": "Concorda com xango-014 e xango-022 quanto às três esposas; diverge na ordem.",
+          "registro": "xango-041",
+          "status": "fichado"
         }
       ]
     },
@@ -875,6 +968,27 @@
           "parafrase": "Iemanjá aparece como esposa de Oxalá e mãe de Xangô; em alguns mitos, todos os dezesseis orixás teriam nascido dela — Exu raramente incluído.",
           "nota": "DIVERGÊNCIA: outras versões fazem dela mãe dos Ibeji, fruto de incesto com Xangô (mesma página). Comparar com Bastide (filha de Oxalá).",
           "registro": "iemanja-015",
+          "status": "fichado"
+        },
+        {
+          "valor": "mulher de Oxalá e \"mãe de todos os orixás\"; com Orixalá, casal demiurgo que gerou os demais (exceto Nanã, Obaluaiê e Oxumarê)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "pp. 168–169",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "pp. 168–169",
+          "parafrase": "No nagô do Recife, Iemanjá é tida como mulher de Oxalá e mãe de todos os orixás; com Orixalá, forma o casal criador que deu origem às outras divindades, com exceção de Nanã, Obaluaiê e Oxumarê, que os membros da casa reconhecem como de origem distinta.",
+          "nota": "Halloy frisa que descreve as concepções da sua família de santo, sem julgar se correspondem às africanas.",
+          "registro": "iemanja-049",
           "status": "fichado"
         }
       ]
@@ -929,6 +1043,27 @@
           "nota": null,
           "registro": "xango-022",
           "status": "fichado"
+        },
+        {
+          "valor": "esposas: Obá, Oiá e Oxum (ordem varia entre mitos e tradições)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 167, nota 364",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 167, nota 364",
+          "parafrase": "Segundo Halloy, Xangô teria tido como mulheres Obá, Oiá e Oxum. Em nota, mostra que a ordem varia: em alguns relatos Obá é a primeira esposa, em outros Iansã; na maioria o casamento com Iansã vem antes do encontro com Oxum, que às vezes aparece como concubina.",
+          "nota": "Concorda com xango-014 e xango-022 quanto às três esposas; diverge na ordem.",
+          "registro": "xango-041",
+          "status": "fichado"
         }
       ]
     },
@@ -982,6 +1117,27 @@
           "nota": null,
           "registro": "xango-022",
           "status": "fichado"
+        },
+        {
+          "valor": "esposas: Obá, Oiá e Oxum (ordem varia entre mitos e tradições)",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 167, nota 364",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 167, nota 364",
+          "parafrase": "Segundo Halloy, Xangô teria tido como mulheres Obá, Oiá e Oxum. Em nota, mostra que a ordem varia: em alguns relatos Obá é a primeira esposa, em outros Iansã; na maioria o casamento com Iansã vem antes do encontro com Oxum, que às vezes aparece como concubina.",
+          "nota": "Concorda com xango-014 e xango-022 quanto às três esposas; diverge na ordem.",
+          "registro": "xango-041",
+          "status": "fichado"
         }
       ]
     },
@@ -1012,6 +1168,37 @@
           "parafrase": "Bastide menciona Oxalá como pai de Iemanjá e observa que 'todos os filhos de Iemanjá' aparecem antes dela na semana.",
           "nota": null,
           "registro": "iemanja-012",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "parentesco:filho_de:oxum>iemanja",
+      "origem": "oxum",
+      "destino": "iemanja",
+      "tipo": "parentesco",
+      "subtipo": "filho_de",
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "mãe de todos os orixás; Oxum é sua filha",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+          "sources": [
+            {
+              "id": "pitta-2011-mitos",
+              "loc": "p. 263",
+              "via": null
+            }
+          ],
+          "source_id": "pitta-2011-mitos",
+          "via_source_id": null,
+          "localizacao": "p. 263",
+          "parafrase": "Segundo o resumo de Pitta para os xangôs do Recife e de Olinda, Iemanjá governa o mar e é a mãe dos orixás em geral; Oxum, dona dos rios, é apontada como filha dela.",
+          "nota": null,
+          "registro": "iemanja-051",
           "status": "fichado"
         }
       ]
@@ -1225,6 +1412,27 @@
           "parafrase": "Oxóssi e Ogum são irmãos segundo mito citado por Bastide.",
           "nota": "Mito em Ribeiro (1952, p. 49).",
           "registro": "oxossi-010",
+          "status": "fichado"
+        },
+        {
+          "valor": "irmão mais novo de Ogum",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "sources": [
+            {
+              "id": "halloy-2005-intimite",
+              "loc": "p. 165",
+              "via": null
+            }
+          ],
+          "source_id": "halloy-2005-intimite",
+          "via_source_id": null,
+          "localizacao": "p. 165",
+          "parafrase": "Halloy registra Odé como deus caçador e irmão mais novo de Ogum; como este, liga-se a uma atividade humana, a caça, e não a um elemento natural, e seu domínio é a mata.",
+          "nota": "Concorda com oxossi-010 e ogum-045.",
+          "registro": "oxossi-028",
           "status": "fichado"
         }
       ]

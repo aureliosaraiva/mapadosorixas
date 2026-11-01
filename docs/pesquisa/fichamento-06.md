@@ -5,7 +5,7 @@ Tarefa: fichar as fontes abertas P1 do [relatório da varredura 3](relatorio-var
 ## Resumo
 
 - **5 de 9 fontes P1 lidas no original** (Castillo 2022, Costa 1980, Nascimento et al. 2001, Vallier 2011, Capo Chichi 2025), com **42 registros novos `fichado`**: Ogum 19, Exu 18, Xangô 5.
-- **4 fontes P1 bloqueadas:** Prandi 1995, Giumbelli & Lima 2024, Noleto & Negrão 2025 e Ferreira 2017. SciELO e UnB respondem com desafio anti-robô, que não foi contornado. Por isso **Iemanjá não ganhou registros** nesta rodada.
+- **4 fontes P1 bloqueadas:** Prandi 1995, Giumbelli & Lima 2024, Noleto & Negrão 2025 e Ferreira 2017. SciELO e UnB respondem com desafio anti-robô, que não foi contornado. Por isso Iemanjá não ganhou registros das fontes P1. Ela recebeu 8 registros no adendo: as afirmações da trad02, conferidas e fichadas, somam **39 registros**, e o total da rodada fica em **81**.
 - **Tarefa 4:** nenhum dos 16 `pre_fichamento` tem texto aberto acessível daqui. Detalhes abaixo.
 - Catálogo: +1 fonte (`bastide-1945-imagens`) e 5 fontes primárias de 2ª mão promovidas a `conferido_web` pela Open Library: Bastide 1960, Bascom 1969, Herskovits 1938, Idowu 1962 e Johnson 1921.
 - Grafo: novo nó `vodum:gu`. Três arestas novas: Ogum–Santo Antônio (sincretismo), Ogum–Gu (equivalência) e Exu–Ogum (irmãos). As demais versões novas reforçam arestas que já existiam: Exu–Legba e Ogum–Oxóssi.
@@ -125,3 +125,43 @@ Com o texto das 5 obras em `ANTICOPIA_REFS`, a checagem achou 11 trechos com 8 p
 - Costa 1980: falta a paginação impressa.
 - Fontes de 2ª mão citadas pelas lidas e não conferidas no original. A lista está em PENDENCIAS §3.
 - Pista: Castillo cita uma casa de **nação Efon** em Salvador e remete a Lima 2014, p. 148. Pode servir para dar fonte a `candomble_efon`, por uma sessão autorizada a editar `tradicoes.json`.
+
+## Adendo: afirmações da sessão trad02 conferidas e fichadas
+
+A orquestradora encaminhou para esta rodada as afirmações sobre os 5 orixás do §4 de [`tradicoes-02`](tradicoes-02.md). Conferi cada uma na fonte original, página por página. **39 registros novos `fichado`**: Exu 8, Ogum 9, Oxóssi 5, Xangô 9, Iemanjá 8. Iemanjá ganhou aqui seus primeiros registros da rodada.
+
+| Fonte | Acesso | Páginas conferidas | Registros |
+|---|---|---|---|
+| Halloy 2005 (`halloy-2005-intimite`), nagô do Recife | PDF integral no HAL | 163–169 (impressas) | exu-083 a 086, ogum-053 a 056, oxossi-028 a 031, xango-040 a 042, iemanja-048 a 050 |
+| Pitta 1985 (`pitta-2011-mitos`), xangôs do Recife e de Olinda | periodicos.fundaj.gov.br | 263–267 | ogum-057, xango-043 e 044, iemanja-051 a 053 |
+| Toutain 2019 (`toutain-2019-santos`), santería de Matanzas | PDF integral no HAL | 7, 8 (nota 18), 11 | exu-087 a 089, ogum-058 e 059, oxossi-032, xango-045, iemanja-054 |
+| S. Ferretti 2011 (`ferretti-2011-comida`), Tambor de Mina | PUC Minas | 260–262 | ogum-060, xango-046 e 047, iemanja-055 |
+| Cerqueira 2015 (`cerqueira-2015-lebabimibome`), Jeje do Seja Hundê | PDF integral no HAL | 82–83, 88 | exu-090, ogum-061, xango-048 |
+
+**Correção de paginação.** Em Halloy, a página impressa é a do PDF menos 1. O PDF 164 traz o número 163. A trad02 tinha anotado "impressa = PDF" e citado as páginas do PDF (164–170). Nos registros vale a impressa (163–169), e o catálogo ganhou essa nota. As páginas de Pitta, Toutain, Ferretti e Cerqueira conferem com o que a trad02 informou.
+
+**O que ficou de fora, e por quê:**
+- **Oro 2012, p. 557, nota 3:** a frase só lista os doze orixás do Batuque. Ela junta "Odé/Otim" numa mesma entrada, o que não sustenta registro por orixá sem interpretação. A nota fala de animais sacrificados, que esperam o conselho.
+- **Halloy, p. 168:** o mito de Xangô expulso do balé por revelar segredos dos eguns é de 2ª mão (Segato 1995) e toca segredo de culto. Fica para o conselho.
+- **Ferretti 2011:** o conteúdo das oferendas foi omitido, por ser alimento ritual. Ficaram só as datas e o par Xangô–Badé.
+
+**Grafo.**
+- Dois voduns novos: Badé (equivalente a Xangô no Tambor de Mina, xango-047) e Sobo (equivalente a Xangô no Seja Hundê, xango-048).
+- Nova aresta de parentesco: Oxum filha de Iemanjá (iemanja-051).
+- As outras versões reforçam arestas que já existiam: Oxóssi–Ogum irmãos, Xangô e suas três esposas, Iemanjá–Oxalá.
+- Totais: 43 nós, 49 arestas, 14 entidades equivalentes.
+
+**Divergências novas.** O total vai a 37 atributos (eram 33). Os quatro novos:
+- **Exu, cores:** vermelho e preto, com branco no Recife (exu-085) × preto e vermelho em Cuba (exu-088), além de exu-042.
+- **Iemanjá, cores:** azul-claro (iemanja-020) × azul profundo no Recife (iemanja-050).
+- **Xangô, equivalências:** Badé no Tambor de Mina × Sobo no Jeje.
+- **Xangô, festas:** dia de São Pedro no Tambor de Mina × as datas da Bahia.
+
+Também se ampliaram divergências já listadas:
+- dia de Ogum: terça-feira no Recife × quinta-feira na Bahia e no Batuque;
+- dia de Oxóssi: nenhum dia fixo no Recife;
+- origem de Xangô: rei de Oyó na santería (xango-045) × as hipóteses de Capo Chichi e de Akinyemi.
+
+**Jurema e Umbanda.** exu-084 registra a dupla natureza de Exu no nagô do Recife: orixá ou espírito da jurema, culto regional distinto dos orixás. Ficou sob `xango_pernambuco`, como a fonte diz, sem marcar Umbanda.
+
+Anti-cópia com o texto das 5 obras: 3 trechos de Pitta foram reescritos, e o resultado final é 0 erros.

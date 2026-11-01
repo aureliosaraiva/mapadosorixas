@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxossi.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 23,
+    "registros_usados": 28,
     "registros_pre_fichamento_excluidos": 3,
     "registros_retidos": 1
   },
@@ -164,6 +164,27 @@
         "nota": null,
         "registro": "oxossi-025",
         "status": "fichado"
+      },
+      {
+        "valor": "verde, às vezes com vermelho e/ou branco; pode vir vestido de peles",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 165",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 165",
+        "parafrase": "A cor principal de Odé no nagô do Recife é o verde; algumas pessoas acrescentam vermelho ou branco, e o orixá pode aparecer todo vestido de peles de animais quando se manifesta.",
+        "nota": null,
+        "registro": "oxossi-029",
+        "status": "fichado"
       }
     ],
     "dia_semana": [
@@ -272,6 +293,27 @@
         "nota": null,
         "registro": "oxossi-017",
         "status": "fichado"
+      },
+      {
+        "valor": "nenhum dia fixo",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 165",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 165",
+        "parafrase": "Segundo Halloy, no nagô do Recife não há dia da semana sistematicamente associado a Odé.",
+        "nota": "Diverge dos registros com dia definido (ver divergências de oxossi.dia_semana).",
+        "registro": "oxossi-030",
+        "status": "fichado"
       }
     ],
     "simbolos": [
@@ -362,6 +404,27 @@
         "parafrase": "Oxóssi e Ogum são irmãos segundo mito citado por Bastide.",
         "nota": "Mito em Ribeiro (1952, p. 49).",
         "registro": "oxossi-010",
+        "status": "fichado"
+      },
+      {
+        "valor": "irmão mais novo de Ogum",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 165",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 165",
+        "parafrase": "Halloy registra Odé como deus caçador e irmão mais novo de Ogum; como este, liga-se a uma atividade humana, a caça, e não a um elemento natural, e seu domínio é a mata.",
+        "nota": "Concorda com oxossi-010 e ogum-045.",
+        "registro": "oxossi-028",
         "status": "fichado"
       }
     ],
@@ -504,6 +567,50 @@
         "status": "fichado"
       }
     ],
+    "historia_culto": [
+      {
+        "valor": "possessão por Odé ainda mais rara que a de Ogum no Recife, ao contrário da Bahia",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 165, nota 356",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 165, nota 356",
+        "parafrase": "Halloy observa que Odé pode se manifestar em seus filhos, mas isso é ainda mais raro do que com Ogum no nagô do Recife; em nota, contrasta com a Bahia, onde Oxóssi é muito popular e tem muitos filhos.",
+        "nota": null,
+        "registro": "oxossi-031",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ochosí entre os \"santos guerreiros\" recebidos na entrada da santería",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 7",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 7",
+        "parafrase": "Na santería do central Méjico, Ochosí integra, com Elegguá e Oggún, o grupo dos santos guerreiros recebidos na entrada do culto, segundo Toutain.",
+        "nota": "Ver exu-087.",
+        "registro": "oxossi-032",
+        "status": "fichado"
+      }
+    ],
     "interpretacao_academica": [
       {
         "valor": "jovem, impulsivo, independente; orixá das questões urgentes",
@@ -539,11 +646,7 @@
       "tabus",
       "iconografia"
     ],
-    "so_pre_fichamento": {
-      "historia_culto": [
-        "oxossi-004"
-      ]
-    },
+    "so_pre_fichamento": {},
     "retidos_ate_conselho": {
       "alimentos": [
         "oxossi-018"

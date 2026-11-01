@@ -3,7 +3,7 @@
     "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
     "esquema": "schemas/entidade.schema.json",
     "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
-    "total": 12
+    "total": 14
   },
   "entidades": [
     {
@@ -391,6 +391,43 @@
       ]
     },
     {
+      "id": "vodum:bade",
+      "rotulo": "Badé",
+      "tipo": "vodum",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "xango",
+          "aresta": "equivalencia:vodum:bade>xango"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Badé (vodum), emparelhado com Xangô (\"Xangô ou Badé\")",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+          "sources": [
+            {
+              "id": "ferretti-2011-comida",
+              "loc": "pp. 260, 262",
+              "via": null
+            }
+          ],
+          "source_id": "ferretti-2011-comida",
+          "via_source_id": null,
+          "localizacao": "pp. 260, 262",
+          "parafrase": "Nos relatos da mesma casa de Tambor de Mina, Xangô aparece emparelhado ao vodum Badé, referido como \"Xangô ou Badé\", e a festa de Badé coincide com o dia de São Pedro.",
+          "nota": "Equivalência na prática de uma casa; não é identidade. Detalhes de oferenda omitidos.",
+          "registro": "xango-047",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:gu",
       "rotulo": "Gu",
       "tipo": "vodum",
@@ -536,6 +573,43 @@
           "parafrase": "Vallier trata Legba como o equivalente fon de Èṣù-Elégbá apenas sob alguns aspectos rituais e remete a autores que propõem distinguir os dois (Ogundipe, Kukoyi, Lawuyi, Badejo).",
           "nota": "Equivalência parcial; comparar com exu-001 e exu-066 (Bastide, via Costa: não identificar Legba e Exu).",
           "registro": "exu-080",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:sobo",
+      "rotulo": "Sobo",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "xango",
+          "aresta": "equivalencia:vodum:sobo>xango"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "Sobo (vodum maior do Seja Hundê)",
+          "tradicoes": [
+            "candomble_jeje"
+          ],
+          "casa_ou_regiao": "Cachoeira (BA): Seja Hundê",
+          "sources": [
+            {
+              "id": "cerqueira-2015-lebabimibome",
+              "loc": "p. 82",
+              "via": null
+            }
+          ],
+          "source_id": "cerqueira-2015-lebabimibome",
+          "via_source_id": null,
+          "localizacao": "p. 82",
+          "parafrase": "Cerqueira afirma que os voduns maiores do Seja Hundê, Bessem, Sobo e Azançu, correspondem aos orixás iorubás Oxumarê, Xangô e Obaluaê, numa reinterpretação brasileira de trilogias da cosmologia ewé.",
+          "nota": "Equivalência proposta pelo autor; não é identidade.",
+          "registro": "xango-048",
           "status": "fichado"
         }
       ]

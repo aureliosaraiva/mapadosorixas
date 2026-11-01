@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 27,
+    "total": 32,
     "por_status": {
-      "fichado": 24,
+      "fichado": 29,
       "pre_fichamento": 3,
       "revisado": 0
     }
@@ -536,6 +536,101 @@
         "https://seer.pucgoias.edu.br/index.php/mosaico/article/download/7553/pdf/30585"
       ],
       "id": "oxossi-027"
+    },
+    {
+      "id": "oxossi-028",
+      "orixa": "oxossi",
+      "atributo": "parentesco",
+      "valor": "irmão mais novo de Ogum",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "Halloy registra Odé como deus caçador e irmão mais novo de Ogum; como este, liga-se a uma atividade humana, a caça, e não a um elemento natural, e seu domínio é a mata.",
+      "nota": "Concorda com oxossi-010 e ogum-045.",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "oxossi-029",
+      "orixa": "oxossi",
+      "atributo": "cores",
+      "valor": "verde, às vezes com vermelho e/ou branco; pode vir vestido de peles",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "A cor principal de Odé no nagô do Recife é o verde; algumas pessoas acrescentam vermelho ou branco, e o orixá pode aparecer todo vestido de peles de animais quando se manifesta.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "oxossi-030",
+      "orixa": "oxossi",
+      "atributo": "dia_semana",
+      "valor": "nenhum dia fixo",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "Segundo Halloy, no nagô do Recife não há dia da semana sistematicamente associado a Odé.",
+      "nota": "Diverge dos registros com dia definido (ver divergências de oxossi.dia_semana).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "oxossi-031",
+      "orixa": "oxossi",
+      "atributo": "historia_culto",
+      "valor": "possessão por Odé ainda mais rara que a de Ogum no Recife, ao contrário da Bahia",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165, nota 356",
+      "parafrase": "Halloy observa que Odé pode se manifestar em seus filhos, mas isso é ainda mais raro do que com Ogum no nagô do Recife; em nota, contrasta com a Bahia, onde Oxóssi é muito popular e tem muitos filhos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "oxossi-032",
+      "orixa": "oxossi",
+      "atributo": "historia_culto",
+      "valor": "Ochosí entre os \"santos guerreiros\" recebidos na entrada da santería",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 7",
+      "parafrase": "Na santería do central Méjico, Ochosí integra, com Elegguá e Oggún, o grupo dos santos guerreiros recebidos na entrada do culto, segundo Toutain.",
+      "nota": "Ver exu-087.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
     }
   ]
 }

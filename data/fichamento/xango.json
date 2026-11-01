@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 39,
+    "total": 48,
     "por_status": {
-      "fichado": 35,
+      "fichado": 44,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -761,6 +761,177 @@
       "status": "fichado",
       "evidencias": [
         "https://journals.flvc.org/ysr/article/view/139147"
+      ]
+    },
+    {
+      "id": "xango-040",
+      "orixa": "xango",
+      "atributo": "dominios",
+      "valor": "\"o Rei Xangô\": raio e trovão; guerreiro impetuoso; justiça que pune com severidade; o orixá mais popular do Recife",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167",
+      "parafrase": "Halloy apresenta Xangô, chamado de Rei Xangô, como sem dúvida o orixá mais popular do Recife. É a divindade do raio e do trovão, guerreiro vivo e impetuoso, e orixá da justiça que não hesita em punir com rigor; encarna também o sedutor.",
+      "nota": "Em nota, retoma Bastide: a popularidade explicaria o nome \"xangô\" dado ao culto em Pernambuco (ver xango-005).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "xango-041",
+      "orixa": "xango",
+      "atributo": "parentesco",
+      "valor": "esposas: Obá, Oiá e Oxum (ordem varia entre mitos e tradições)",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 167, nota 364",
+      "parafrase": "Segundo Halloy, Xangô teria tido como mulheres Obá, Oiá e Oxum. Em nota, mostra que a ordem varia: em alguns relatos Obá é a primeira esposa, em outros Iansã; na maioria o casamento com Iansã vem antes do encontro com Oxum, que às vezes aparece como concubina.",
+      "nota": "Concorda com xango-014 e xango-022 quanto às três esposas; diverge na ordem.",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "xango-042",
+      "orixa": "xango",
+      "atributo": "cores",
+      "valor": "vermelho e branco",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 168",
+      "parafrase": "Halloy registra vermelho e branco como as cores de Xangô no nagô do Recife.",
+      "nota": "Concorda com xango-030.",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "xango-043",
+      "orixa": "xango",
+      "atributo": "itans",
+      "valor": "Oxalá velho viaja para ver o filho Xangô, é preso injustamente pelos servidores deste e libertado depois de consulta ao babalaô",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+      "source_id": "pitta-2011-mitos",
+      "via_source_id": null,
+      "localizacao": "pp. 264–265",
+      "parafrase": "Pitta analisa um mito de renovação citado nos xangôs do Recife e de Olinda: Oxalá velho, contra o conselho do babalaô, viaja para rever o filho Xangô; no caminho é maltratado e preso pelos servidores de Xangô, e o reino cai em tristeza e esterilidade até que o babalaô revela a injustiça; Oxalá é libertado e recebido com festa pelo outro filho, Oxalá jovem. A autora lê o mito como ciclo de morte e renovação da natureza.",
+      "nota": "No mito, Xangô aparece como filho de Oxalá (comparar com xango-022).",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.fundaj.gov.br/CAD/article/view/977"
+      ]
+    },
+    {
+      "id": "xango-044",
+      "orixa": "xango",
+      "atributo": "dominios",
+      "valor": "tempestades, raios, trovões e eletricidade da atmosfera",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+      "source_id": "pitta-2011-mitos",
+      "via_source_id": null,
+      "localizacao": "p. 263",
+      "parafrase": "Entre os orixás cujos mitos são mais citados no Recife e em Olinda, Pitta define Xangô como senhor das tempestades, do raio, do trovão e da eletricidade do ar.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.fundaj.gov.br/CAD/article/view/977"
+      ]
+    },
+    {
+      "id": "xango-045",
+      "orixa": "xango",
+      "atributo": "origem",
+      "valor": "Changó: antigo aláàfin (rei) de Oyó e, ao mesmo tempo, ligado ao raio, ao fogo, aos tambores e à guerra",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 7, nota 13",
+      "parafrase": "Toutain cita Changó, um dos orixás maiores recebidos na iniciação da santería, como exemplo de leitura evemerista: é tido como antigo rei de Oyó e, ao mesmo tempo, associado ao raio, ao fogo, aos tambores e à guerra.",
+      "nota": "Diverge de xango-035 e xango-037 (sem rei histórico; deus anterior a Oyó).",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "xango-046",
+      "orixa": "xango",
+      "atributo": "festas",
+      "valor": "dia de São Pedro (oferendas a Xangô e festa de Badé)",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "pp. 260–261",
+      "parafrase": "Na casa de Pai Itaparandi, as oferendas para Xangô acontecem no dia de São Pedro, que é também a data da festa de Badé, segundo os relatos colhidos por S. Ferretti.",
+      "nota": "Conteúdo das oferendas omitido (alimento ritual).",
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "xango-047",
+      "orixa": "xango",
+      "atributo": "equivalencias",
+      "valor": "Badé (vodum), emparelhado com Xangô (\"Xangô ou Badé\")",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "pp. 260, 262",
+      "parafrase": "Nos relatos da mesma casa de Tambor de Mina, Xangô aparece emparelhado ao vodum Badé, referido como \"Xangô ou Badé\", e a festa de Badé coincide com o dia de São Pedro.",
+      "nota": "Equivalência na prática de uma casa; não é identidade. Detalhes de oferenda omitidos.",
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "xango-048",
+      "orixa": "xango",
+      "atributo": "equivalencias",
+      "valor": "Sobo (vodum maior do Seja Hundê)",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "casa_ou_regiao": "Cachoeira (BA): Seja Hundê",
+      "source_id": "cerqueira-2015-lebabimibome",
+      "via_source_id": null,
+      "localizacao": "p. 82",
+      "parafrase": "Cerqueira afirma que os voduns maiores do Seja Hundê, Bessem, Sobo e Azançu, correspondem aos orixás iorubás Oxumarê, Xangô e Obaluaê, numa reinterpretação brasileira de trilogias da cosmologia ewé.",
+      "nota": "Equivalência proposta pelo autor; não é identidade.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-01778552"
       ]
     }
   ]

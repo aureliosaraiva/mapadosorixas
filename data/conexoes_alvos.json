@@ -15,6 +15,8 @@
     "oxum": {"rotulo": "Oxum", "tipo": "orixa"},
     "vodum:legba": {"rotulo": "Legba / Elegbara", "tipo": "vodum"},
     "vodum:gu": {"rotulo": "Gu", "tipo": "vodum"},
+    "vodum:bade": {"rotulo": "Badé", "tipo": "vodum"},
+    "vodum:sobo": {"rotulo": "Sobo", "tipo": "vodum"},
     "inquice:dandalunda": {"rotulo": "Dandalunda", "tipo": "inquice"},
     "inquice:quissimbe": {"rotulo": "Quissimbe", "tipo": "inquice"},
     "inquice:kayala": {"rotulo": "Kayala", "tipo": "inquice"},
@@ -135,6 +137,12 @@
     "ogum-035": [{"tipo": "sincretismo", "destino": "santo:santo-antonio"}],
     "ogum-044": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "exu"}],
     "ogum-045": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "oxossi"}],
-    "ogum-046": [{"tipo": "equivalencia", "destino": "vodum:gu"}]
+    "ogum-046": [{"tipo": "equivalencia", "destino": "vodum:gu"}],
+    "oxossi-028": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "ogum"}],
+    "xango-041": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oba"}, {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "iansa"}, {"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oxum"}],
+    "xango-047": [{"tipo": "equivalencia", "destino": "vodum:bade"}],
+    "xango-048": [{"tipo": "equivalencia", "destino": "vodum:sobo"}],
+    "iemanja-049": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "oxala"}],
+    "iemanja-051": [{"tipo": "parentesco", "subtipo": "filho_de", "origem": "oxum", "destino": "iemanja"}]
   }
 }

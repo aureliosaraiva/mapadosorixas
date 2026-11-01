@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 52,
+    "total": 61,
     "por_status": {
-      "fichado": 47,
+      "fichado": 56,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -1017,6 +1017,177 @@
       "status": "fichado",
       "evidencias": [
         "https://www.revistas.usp.br/revhistoria/article/view/180892"
+      ]
+    },
+    {
+      "id": "ogum-053",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "deus ferreiro, \"dono do ferro\" (inclusive da faca ritual); guerreiro impetuoso; mata e rua; abridor de caminhos",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "pp. 164–165",
+      "parafrase": "No nagô do Recife, Ogum é descrito como o deus ferreiro, dono do ferro e responsável por todos os utensílios desse metal, inclusive a faca usada nos ritos. É o arquétipo do guerreiro, de temperamento fogoso; seus domínios são a mata e também a rua, e as pessoas o associam à violência que nela acontece. É visto ainda como batedor, o que abre caminhos.",
+      "nota": "Comparar com ogum-012, ogum-017 e ogum-036.",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "ogum-054",
+      "orixa": "ogum",
+      "atributo": "cores",
+      "valor": "vermelho e verde",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "Halloy registra vermelho e verde como as cores de Ogum no nagô do Recife.",
+      "nota": "Comparar com ogum-021 e ogum-030 (verde e vermelho) e ogum-031 (azul).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "ogum-055",
+      "orixa": "ogum",
+      "atributo": "dia_semana",
+      "valor": "terça-feira",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165, nota 353",
+      "parafrase": "O dia geralmente associado a Ogum no nagô do Recife é a terça-feira; Halloy ressalva que, na casa, os dias são preferências.",
+      "nota": "Diverge de ogum-009 e ogum-011 (quinta-feira).",
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "ogum-056",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "desce em possessão, mas tem poucos filhos no nagô do Recife",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+      "source_id": "halloy-2005-intimite",
+      "via_source_id": null,
+      "localizacao": "p. 165",
+      "parafrase": "Diferente de Exu, Ogum se manifesta em possessão, mas, segundo Halloy, tem relativamente poucos filhos no nagô do Recife.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "ogum-057",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "orixá do ferro e da guerra",
+      "tradicoes": [
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+      "source_id": "pitta-2011-mitos",
+      "via_source_id": null,
+      "localizacao": "p. 263",
+      "parafrase": "Pitta, ao listar os mitos mais citados nos xangôs do Recife e de Olinda, apresenta Ogum como o orixá do ferro e da guerra.",
+      "nota": "O artigo saiu em 1985 (Cadernos de Estudos Sociais, v. 1, n. 2); o catálogo registra 2011, data da versão online.",
+      "status": "fichado",
+      "evidencias": [
+        "https://periodicos.fundaj.gov.br/CAD/article/view/977"
+      ]
+    },
+    {
+      "id": "ogum-058",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "Oggún entre os \"santos guerreiros\" recebidos na entrada da santería",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 7",
+      "parafrase": "Na santería do central Méjico descrita por Toutain, Oggún é um dos santos guerreiros, com Elegguá e Ochosí, que o praticante recebe ao entrar no culto.",
+      "nota": "Ver exu-087.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "ogum-059",
+      "orixa": "ogum",
+      "atributo": "cores",
+      "valor": "verde e preto (colar de Oggún)",
+      "tradicoes": [
+        "lucumi"
+      ],
+      "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+      "source_id": "toutain-2019-santos",
+      "via_source_id": null,
+      "localizacao": "p. 8, nota 18",
+      "parafrase": "Toutain dá o verde e o preto como cores do colar de Oggún na santería de Matanzas.",
+      "nota": "Comparar com ogum-021, ogum-054.",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "ogum-060",
+      "orixa": "ogum",
+      "atributo": "festas",
+      "valor": "23 ou 24 de abril",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+      "source_id": "ferretti-2011-comida",
+      "via_source_id": null,
+      "localizacao": "p. 261",
+      "parafrase": "No calendário de oferendas da casa de Pai Itaparandi, relatado a S. Ferretti, Ogum é homenageado em 23 ou 24 de abril.",
+      "nota": "Conteúdo da oferenda omitido (alimento ritual). 23 de abril é o dia de São Jorge; comparar com ogum-020.",
+      "status": "fichado",
+      "evidencias": [
+        "http://periodicos.pucminas.br/index.php/horizonte/article/view/2092"
+      ]
+    },
+    {
+      "id": "ogum-061",
+      "orixa": "ogum",
+      "atributo": "qualidades",
+      "valor": "Ogum Xoroquê, guardião da casa em parceria com Legba; Ogum Metametá reúne traços de Xoroquê e de Exu",
+      "tradicoes": [
+        "candomble_jeje"
+      ],
+      "casa_ou_regiao": "Cachoeira (BA): Seja Hundê",
+      "source_id": "cerqueira-2015-lebabimibome",
+      "via_source_id": null,
+      "localizacao": "p. 88",
+      "parafrase": "Em entrevista a Cerqueira, um ogã do Seja Hundê descreve Legba e Ogum Xoroquê como parceiros na guarda da casa, um no alto e outro embaixo, cobrindo um ao outro; acrescenta que Ogum Metametá, meio a meio, reúne características de Ogum Xoroquê e de Exu.",
+      "nota": "Depoimento de praticante. Concorda com ogum-043 e ogum-052 (Xoroquê no Jeje).",
+      "status": "fichado",
+      "evidencias": [
+        "https://theses.hal.science/tel-01778552"
       ]
     }
   ]

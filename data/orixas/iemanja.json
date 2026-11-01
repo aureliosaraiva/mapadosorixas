@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iemanja.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 43,
+    "registros_usados": 51,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -142,6 +142,27 @@
         "nota": null,
         "registro": "iemanja-040",
         "status": "fichado"
+      },
+      {
+        "valor": "águas salgadas; arquétipo da mãe que gera e protege, mas pode ser severa com os filhos",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168",
+        "parafrase": "Halloy apresenta Iemanjá como divindade das águas salgadas e arquétipo da mãe que gera e protege, mas que também pode ser dura com seus filhos. Menciona que Segato destaca um caráter duplo da orixá, ponto de vista que ele promete matizar.",
+        "nota": null,
+        "registro": "iemanja-048",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -234,6 +255,27 @@
         "parafrase": "A cor de Iemanjá é o azul-claro.",
         "nota": null,
         "registro": "iemanja-020",
+        "status": "fichado"
+      },
+      {
+        "valor": "azul profundo",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "p. 168",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "p. 168",
+        "parafrase": "A cor associada a Iemanjá no nagô do Recife é um azul profundo, segundo Halloy.",
+        "nota": null,
+        "registro": "iemanja-050",
         "status": "fichado"
       }
     ],
@@ -480,6 +522,48 @@
         "nota": "DIVERGÊNCIA: outras versões fazem dela mãe dos Ibeji, fruto de incesto com Xangô (mesma página). Comparar com Bastide (filha de Oxalá).",
         "registro": "iemanja-015",
         "status": "fichado"
+      },
+      {
+        "valor": "mulher de Oxalá e \"mãe de todos os orixás\"; com Orixalá, casal demiurgo que gerou os demais (exceto Nanã, Obaluaiê e Oxumarê)",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+        "sources": [
+          {
+            "id": "halloy-2005-intimite",
+            "loc": "pp. 168–169",
+            "via": null
+          }
+        ],
+        "source_id": "halloy-2005-intimite",
+        "via_source_id": null,
+        "localizacao": "pp. 168–169",
+        "parafrase": "No nagô do Recife, Iemanjá é tida como mulher de Oxalá e mãe de todos os orixás; com Orixalá, forma o casal criador que deu origem às outras divindades, com exceção de Nanã, Obaluaiê e Oxumarê, que os membros da casa reconhecem como de origem distinta.",
+        "nota": "Halloy frisa que descreve as concepções da sua família de santo, sem julgar se correspondem às africanas.",
+        "registro": "iemanja-049",
+        "status": "fichado"
+      },
+      {
+        "valor": "mãe de todos os orixás; Oxum é sua filha",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+        "sources": [
+          {
+            "id": "pitta-2011-mitos",
+            "loc": "p. 263",
+            "via": null
+          }
+        ],
+        "source_id": "pitta-2011-mitos",
+        "via_source_id": null,
+        "localizacao": "p. 263",
+        "parafrase": "Segundo o resumo de Pitta para os xangôs do Recife e de Olinda, Iemanjá governa o mar e é a mãe dos orixás em geral; Oxum, dona dos rios, é apontada como filha dela.",
+        "nota": null,
+        "registro": "iemanja-051",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -590,6 +674,30 @@
         "parafrase": "Os sincretismos católicos de Iemanjá recolhidos incluem Nossa Senhora das Candeias, dos Navegantes, da Conceição, da Piedade e das Cabeças, além da Virgem Maria.",
         "nota": null,
         "registro": "iemanja-045",
+        "status": "fichado"
+      }
+    ],
+    "itans": [
+      {
+        "valor": "mito cosmogônico: Iemanjá nasce de Odudua e Obatalá; do seu corpo, depois da violência do filho Orungã, nascem as águas e os orixás",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+        "sources": [
+          {
+            "id": "ellis-1894-yoruba",
+            "loc": "pp. 263–264",
+            "via": "pitta-2011-mitos"
+          }
+        ],
+        "source_id": "ellis-1894-yoruba",
+        "via_source_id": "pitta-2011-mitos",
+        "localizacao": "pp. 263–264",
+        "parafrase": "Pitta reproduz, a partir de Ellis, o mito em que Iemanjá e Aganju nascem da união da Terra (Odudua) com o Céu (Obatalá). Orungã, filho de Iemanjá, a agride; ela foge, cai, e de seu corpo brotam as águas e os orixás, além de montes, plantas, astros e outros seres. Pitta vê na figura a união de sedução e fertilidade e nota que os personagens masculinos do mito foram esquecidos, enquanto Iemanjá segue muito cultuada.",
+        "nota": "Mito de 2ª mão (Ellis 1894, autor de olhar colonial, via Pitta). Pitta não diz se a versão foi contada pelos entrevistados.",
+        "registro": "iemanja-052",
         "status": "fichado"
       }
     ],
@@ -787,6 +895,27 @@
         "nota": null,
         "registro": "iemanja-047",
         "status": "fichado"
+      },
+      {
+        "valor": "dezembro",
+        "tradicoes": [
+          "tambor_de_mina"
+        ],
+        "casa_ou_regiao": "Maranhão: terreiro Ilê Axé Ita Olé (Pai Itaparandi), nagô/cambinda com influência do candomblé",
+        "sources": [
+          {
+            "id": "ferretti-2011-comida",
+            "loc": "p. 261",
+            "via": null
+          }
+        ],
+        "source_id": "ferretti-2011-comida",
+        "via_source_id": null,
+        "localizacao": "p. 261",
+        "parafrase": "No calendário da casa de Pai Itaparandi relatado a S. Ferretti, as oferendas para Iemanjá são feitas em dezembro.",
+        "nota": "Conteúdo das oferendas omitido (alimento ritual).",
+        "registro": "iemanja-055",
+        "status": "fichado"
       }
     ],
     "historia_culto": [
@@ -895,6 +1024,27 @@
         "nota": "Citado como Rodrigues (1933/1977), 5ª ed.",
         "registro": "iemanja-041",
         "status": "fichado"
+      },
+      {
+        "valor": "Yemayá entre os orixás maiores recebidos na iniciação da santería (com Obatalá, Changó e Ochún)",
+        "tradicoes": [
+          "lucumi"
+        ],
+        "casa_ou_regiao": "Matanzas (Cuba): central Méjico",
+        "sources": [
+          {
+            "id": "toutain-2019-santos",
+            "loc": "p. 7",
+            "via": null
+          }
+        ],
+        "source_id": "toutain-2019-santos",
+        "via_source_id": null,
+        "localizacao": "p. 7",
+        "parafrase": "Toutain registra que, na iniciação da santería do central Méjico, o neófito recebe também os orixás maiores, entre eles Yemayá, ao lado de Obatalá, Changó e Ochún.",
+        "nota": null,
+        "registro": "iemanja-054",
+        "status": "fichado"
       }
     ],
     "iconografia": [
@@ -962,15 +1112,36 @@
         "registro": "iemanja-037",
         "status": "fichado"
       }
+    ],
+    "interpretacao_academica": [
+      {
+        "valor": "divindades femininas ativas e guerreiras; Iemanjá parte ativa da criação",
+        "tradicoes": [
+          "xango_pernambuco"
+        ],
+        "casa_ou_regiao": "Recife e Olinda (PE): xangôs tradicionais (30 entrevistas com iniciados)",
+        "sources": [
+          {
+            "id": "pitta-2011-mitos",
+            "loc": "p. 267",
+            "via": null
+          }
+        ],
+        "source_id": "pitta-2011-mitos",
+        "via_source_id": null,
+        "localizacao": "p. 267",
+        "parafrase": "Nas conclusões, Pitta afirma que nos mitos estudados não há dicotomia entre homem ativo e mulher passiva: Iemanjá, Oxum e Iansã aparecem como guerreiras e atuantes, também afetuosas, e Iemanjá participa ativamente da criação do universo.",
+        "nota": null,
+        "registro": "iemanja-053",
+        "status": "fichado"
+      }
     ]
   },
   "pendencias": {
     "sem_registro": [
       "alimentos",
       "animais",
-      "itans",
-      "tabus",
-      "interpretacao_academica"
+      "tabus"
     ],
     "so_pre_fichamento": {},
     "retidos_ate_conselho": {}

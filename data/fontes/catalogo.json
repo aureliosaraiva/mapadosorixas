@@ -1921,12 +1921,13 @@
         "candomble_jeje"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL). | Fichamento-06: pp. 82–83 e 88 conferidas no PDF integral (theses.hal.science/tel-01778552). Impressa = PDF − 1.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.70675/1ebf4ca9z3bdez4167zaefezffaa5329417f",
         "https://theses.fr/2015USPCB181",
-        "https://theses.hal.science/tel-01778552v1"
+        "https://theses.hal.science/tel-01778552v1",
+        "https://theses.hal.science/tel-01778552"
       ],
       "url": "https://theses.fr/2015USPCB181",
       "identificadores": {
@@ -2487,9 +2488,12 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "C",
-      "observacoes": "Olhar colonial; domínio público; usar só com crítica.",
-      "status_verificacao": "a_verificar",
-      "evidencias": [],
+      "observacoes": "Olhar colonial; domínio público; usar só com crítica. | Metadados conferidos na Open Library e no Internet Archive em 2026-11-01 (fonte primária de 2ª mão em iemanja-052, via Pitta).",
+      "status_verificacao": "conferido_web",
+      "evidencias": [
+        "https://openlibrary.org/works/OL6254639W",
+        "https://archive.org/details/yorubaspeakingp00elligoog"
+      ],
       "url": null,
       "identificadores": {}
     },
@@ -2896,7 +2900,7 @@
         "tambor_de_mina"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas); acesso aberto pelo DOAJ, contornando o bloqueio do Dialnet.",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizonte, PUC Minas); acesso aberto pelo DOAJ, contornando o bloqueio do Dialnet. | Fichamento-06: pp. 260–262 conferidas (impressa = PDF + 241).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.5752/p.2175-5841.2011v9n21p242",
@@ -3283,7 +3287,7 @@
         "xango_pernambuco"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife.",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL); etnografia de uma família de santo do Xangô do Recife. | Fichamento-06 (2026-11-01): pp. 163–169 conferidas no PDF integral do HAL (hal.science/tel-04260456/file/Th%C3%A8se%20Arnaud%20Halloy.pdf). Página impressa = PDF − 1 (a trad02 anotou impressa = PDF; nos registros vale a impressa).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://hal.science/tel-04260456v1",
@@ -5328,7 +5332,7 @@
         "xango_pernambuco"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de Estudos Sociais, Fundaj).",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Cadernos de Estudos Sociais, Fundaj). | Fichamento-06: pp. 263–267 conferidas (periodicos.fundaj.gov.br). Artigo de 1985: Cadernos de Estudos Sociais, Recife, v. 1, n. 2, pp. 263–268; 2011 é a data da versão online. Ano citado mantido.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://fundaj.emnuvens.com.br/CAD/article/view/977"
@@ -7100,12 +7104,13 @@
         "lucumi"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL).",
+      "observacoes": "Varredura 3 (coleta por API: hal, thesesfr). Confiabilidade B: tese de doutorado registrada em base nacional de teses (theses.fr/HAL). | Fichamento-06: pp. 7, 8 e 11 conferidas no PDF integral (theses.hal.science/tel-03191332). Impressa = PDF − 11.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.70675/72f318f1zda72z4f7az9d38z2d3ea85c855e",
         "https://theses.fr/2019TOU20076",
-        "https://theses.hal.science/tel-03191332v1"
+        "https://theses.hal.science/tel-03191332v1",
+        "https://theses.hal.science/tel-03191332"
       ],
       "url": "https://theses.fr/2019TOU20076",
       "identificadores": {
