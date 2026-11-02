@@ -6,7 +6,7 @@ const path = require('path');
 const { chromium } = require('playwright');
 
 const raiz = path.resolve(__dirname, '..', '..', '..');
-const dir = path.join(raiz, 'site', 'src', 'assets', 'ilustracoes');
+const dir = process.env.IL_DIR || path.join(raiz, 'site', 'src', 'assets', 'ilustracoes');
 const css = fs.readFileSync(path.join(raiz, 'site', 'src', 'styles', 'global.css'), 'utf8');
 const saida = path.resolve(process.argv[2] || 'ilustracoes-png');
 const ids = process.argv.slice(3).length ? process.argv.slice(3)

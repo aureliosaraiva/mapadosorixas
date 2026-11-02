@@ -30,6 +30,7 @@
   /* ilustrações simbólicas (sessão ilustra): fundo, anéis, metal claro e acentos */
   --il-fundo: #f4f0e8; --il-borda: #d9d0bf; --il-claro: #fffdf9; --il-ocre: #b07a3c;
   --il-verde: #4f7a45; --il-vermelho: #b0503c; --il-azul: #4d6fae; --il-ouro: #c19a2e; --il-violeta: #7d5ea3;
+  --il-figura: #2b211b; --il-figura-borda: transparent;
 
   --serifa: 'Literata Variable', Literata, Georgia, 'Times New Roman', serif;
   --sans: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -50,6 +51,7 @@
     --grafo-fundo: #1b1e25; --grafo-texto: #ece8e1;
     --il-fundo: #232731; --il-borda: #3c4352; --il-claro: #3a414f; --il-ocre: #d4a061;
     --il-verde: #84b878; --il-vermelho: #df8672; --il-azul: #8fadea; --il-ouro: #dcbd57; --il-violeta: #b79de0;
+    --il-figura: #2b211b; --il-figura-borda: #ece8e1;
     color-scheme: dark;
   }
 }
@@ -63,6 +65,7 @@
   --grafo-fundo: #1b1e25; --grafo-texto: #ece8e1;
   --il-fundo: #232731; --il-borda: #3c4352; --il-claro: #3a414f; --il-ocre: #d4a061;
   --il-verde: #84b878; --il-vermelho: #df8672; --il-azul: #8fadea; --il-ouro: #dcbd57; --il-violeta: #b79de0;
+    --il-figura: #2b211b; --il-figura-borda: #ece8e1;
   color-scheme: dark;
 }
 

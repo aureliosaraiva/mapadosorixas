@@ -83,3 +83,15 @@ Rodados no fim da sessão: `validar_fontes`, `validar_fichamento`, `divergencias
 ## 9. Publicação
 
 Push direto na `main`. O deploy (`deploy-pages.yml`, execução nº 36, com as 22 ilustrações) terminou com sucesso. **Conferência da URL publicada** (<https://aureliosaraiva.github.io/mapadosorixas/>, Playwright, 2026-11-02): o catálogo mostra 22 ilustrações, todas com texto alternativo; Ogum, Odudua e o capítulo de Iemanjá mostram a sua; Iyami e Ewá não mostram nenhuma; **nenhum erro de rede ou de JavaScript**. Screenshot: `docs/screenshots/ilustracoes/publicado-xango-desktop.jpg`.
+
+## 10. Piloto figurativo de Oxóssi (pedido do autor, em avaliação)
+
+O autor pediu imagens figurativas das entidades, mostrando como exemplo duas pinturas de Oxóssi tiradas da internet. Essas obras têm autor (uma é assinada, a outra traz marca d'água do deviantART), por isso não foram copiadas, decalcadas nem usadas como modelo. Por decisão do autor, foi feito **um piloto de figura estilizada original** que segue **só o que está fichado**:
+
+- arco e flecha e eruquerê (oxossi-014); mata (oxossi-011, oxossi-012); colar de contas verdes e acento verde (oxossi-013, oxossi-025, oxossi-029);
+- **silhueta sem traços de rosto**, num tom escuro fixo (`--il-figura`) que não muda com o tema. Se seguisse a cor do texto, a figura ficaria branca no modo escuro, ou seja, o tema trocaria a cor de pele. No escuro ganha um contorno claro, só por fora da silhueta;
+- a roupa (pano na cintura) é genérica e sem cor, porque não há registro fichado de vestimenta fora do transe ("vestido de peles", oxossi-029, descreve a manifestação). O azul das pinturas de referência não tem fonte para Oxóssi.
+
+Arquivos: `site/scripts/ilustracoes/pilotos_figura.py` → `site/src/assets/ilustracoes/pilotos/oxossi-figura.svg` (**fora do site**: o componente só lê a pasta principal); PNGs em `docs/screenshots/ilustracoes/piloto-figura-oxossi-*.jpg`.
+
+**Limites e riscos:** desenho vetorial feito em código não chega à qualidade de uma pintura, e figura humana estilizada corre risco de parecer pictograma. Algumas casas de Candomblé não aceitam a figuração dos orixás, mais comum na Umbanda e na arte popular: a decisão de publicar figuras deve passar pelo conselho. Para retratos de qualidade, o caminho recomendado continua sendo encomendar ou licenciar obras de artistas, com autorização.
