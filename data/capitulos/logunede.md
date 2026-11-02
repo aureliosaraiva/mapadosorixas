@@ -21,7 +21,7 @@ Em São Paulo, a chamada reafricanização do candomblé ketu deixou marcas nas 
 
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
-Na Nigéria, insiste o estudo que serviu de base a estas páginas, Lógunède não tem nada de frágil: é um guerreiro que caça, de gênio difícil de domar. Para a sacerdotisa nigeriana citada acima, ele traz dinheiro, dá filhos às mulheres que não conseguem tê-los, dá paz e endireita a cabeça de quem anda sem sorte {{ref:logunede-015}}.
+Na Nigéria, insiste um estudo sobre a roupa do orixá, Lógunède não tem nada de frágil: é um guerreiro que caça, de gênio difícil de domar. Para a sacerdotisa nigeriana citada acima, ele traz dinheiro, dá filhos às mulheres que não conseguem tê-los, dá paz e endireita a cabeça de quem anda sem sorte {{ref:logunede-015}}.
 
 A roupa conta a dupla filiação. Nas casas ketu de São Paulo, ela se divide ao meio: o lado paterno vai em azul-claro, com peles de animal ou tecido estampado, e o materno, em dourado e no amarelo vivo chamado canário; nos tecidos aparecem ainda o verde, o branco, o azul, o amarelo e o dourado {{ref:logunede-017}}. As insígnias também somam os dois lados: a balança, o ofá, que é o arco e flecha, o erukerê e o abebé, além de capangas que imitam peixe, coração ou chifre, e ainda a aljava, a coroa e um chapéu feito de couro {{ref:logunede-018}}. Na Casa das Águas, em Itapevi, uma pena de faisão no capacete do orixá foi lida como emblema do pai caçador {{ref:logunede-006}}.
 

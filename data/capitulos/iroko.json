@@ -1,0 +1,743 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/iroko.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "iroko",
+  "titulo": "Iroko, a árvore sagrada, e o nome Tempo",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Iroko é, antes de tudo, uma árvore: a gameleira que os terreiros reverenciam e que, para uns, é o próprio orixá e, para outros, só a sua morada. O material aberto sobre ele é pequeno, e o nome Tempo, que a lista do projeto junta ao de Iroko, aparece num único registro, vindo dos terreiros angola-congo "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos de meados do século passado, a mesma árvore sagrada era chamada Irôko ou Lôko "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros angola-congo de São Paulo, o inquice Kitembo, também dito Tembu, liga-se a Irocô, chamado ainda Tempo, senhor dos ventos "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". O fichamento não tem registro de etimologia nem de origem africana do culto "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O centro da história de Iroko no Recife é uma árvore concreta. No Sítio do Pai Adão, há no fundo do terreno uma grande gameleira branca que, segundo a tradição da casa, a fundadora, tia Inês, plantou com sementes trazidas da África. Para alguns, Iroko se confunde com essa árvore; para outros, ela é apenas a morada do orixá. Antes se faziam oferendas ao pé da gameleira, costume hoje abandonado e até criticado "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Hoje, no nagô do Recife, Iroko não tem mais culto próprio: canta-se para ele, como para Ewá e Oxumarê, só uma ou outra toada nos toques. Ainda assim, ele guarda um estatuto especial "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A gameleira, *Ficus doliaria*, é a árvore adorada como Irôko nos candomblés baianos "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". No Recife, os caboclos se ligam a dois domínios: o da vegetação, de Irôko e de Ossaim, e o da caça, de Odé e de Oxóssi. Também ali, a gameleira se relaciona a Nanã, e figura com o cipreste e o manacá entre as plantas dessa orixá "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Um interlocutor do Recife falou da gameleira como a árvore onde ficam os avós, onde antes se faziam sacrifícios; foi a única vez que essa ligação com os antepassados apareceu na pesquisa, e quem a registrou deixa clara a ressalva "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros angola-congo de São Paulo, o inquice associado a Irocô, ou Tempo, governa os ventos e atua contra as doenças "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de cores, dia da semana, festas ou símbolos de Iroko "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum itã de Iroko foi fichado "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". O que existe são laços de família. Na Bahia, a genealogia dos orixás dá a Oxalá duas esposas, e de Nanã Buruku teriam nascido três filhos: Lôko, Omolu e Oxumarê "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos, Irôko ou Lôko é a gameleira sagrada. No Opô Afonjá, o canto de Lôko vinha logo depois do de Obatalá, ordem que já intrigava os pesquisadores de meados do século passado "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", a ordem dos cantos no terreiro de Pai Adão punha Irôko depois de Exu, de Ogum e de Oxóssi, e antes de Oxumarê, entre as divindades que fazem a ponte entre a natureza e o sobrenatural. Hoje, uns o tratam como orixá, outros como árvore sagrada "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé angola"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros angola-congo de São Paulo, o inquice Kitembo, ou Tembu, é associado a Irocô, ou Tempo. Há também quem aproxime de Irocô o inquice Katende, aproximação feita por estudiosos, enquanto os adeptos ligam Katende a Ossaim "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. O fichamento não tem registro de Iroko na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro associa Iroko a um santo católico "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Roger Bastide apontou, na Bahia, um laço entre o poste central do barracão, a árvore do mundo e Irôko, mais fraco que o observado no Haiti, e lembrou que E. Correia Lopes perguntou, sem resposta, por que Lôko era cantado logo após Obatalá no Opô Afonjá. Ele leu ainda a ordem dos cantos no terreiro de Pai Adão como a das divindades que ligam natureza e sobrenatural, cabendo a Irôko o lugar da árvore do mundo "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": ". Renato Ubirajara dos Santos Botão registrou que Bastide e Carneiro viram em Katende um equivalente de Irocô, ao passo que os adeptos angola-congo o põem ao lado de Ossaim "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro usa Tempo como nome do orixá fora da associação angola-congo com Kitembo, e o projeto ainda precisa decidir se mantém Iroko e Tempo num só verbete "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Não há registros de cores, dia, festas, símbolos, saudação, itãs, sincretismo e origem africana "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O que se sabe além disso está em livros impressos, como o de Verger sobre os orixás e a literatura de praticantes da Pallas, que aguardam exemplar "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-011"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-003"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-011"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-008"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-010"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-001"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-015"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-009"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-011"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-011"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-004"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-007"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-037"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": "umbanda"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iroko-005"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iroko-012"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Agrupamentos provisórios num só identificador"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (1981)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Literatura de praticantes da Pallas (Coleção Orixás)"
+        }
+      ]
+    }
+  ]
+}

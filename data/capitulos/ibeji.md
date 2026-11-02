@@ -5,7 +5,7 @@ status: rascunho
 atualizado: 2026-11-01
 ---
 
-Ibeji são os gêmeos sagrados. Entre os iorubás, os próprios gêmeos são tratados como òrìṣà; na Bahia, o culto se fundiu cedo ao de São Cosme e São Damião, e a festa de fim de setembro, com doces para as crianças, saiu dos terreiros e ganhou a rua. Se os Ibeji são orixás de pleno direito é uma pergunta que as casas respondem de modos diferentes {{ref:ibeji-036,ibeji-002,ibeji-015,ibeji-017}}.
+Ibeji são os gêmeos sagrados. Entre os iorubás, os próprios gêmeos são tratados como òrìṣà; na Bahia, o culto se fundiu cedo ao de São Cosme e São Damião, e a festa de fim de setembro, com doces para as crianças, acontece nos terreiros e também nas ruas. Se os Ibeji são orixás de pleno direito é uma pergunta que as casas respondem de modos diferentes {{ref:ibeji-036,ibeji-002,ibeji-015,ibeji-017}}.
 
 ## Nomes e origem {#nomes-e-origem}
 
@@ -59,7 +59,7 @@ Em Cuba, os gêmeos são chamados jimaguas e ligados a Dada e Ogun, tidos como i
 
 ## Sincretismo {#sincretismo}
 
-Cosme e Damião, médicos e mártires que o sincretismo tornou patronos dos gêmeos, são os santos dos Ibeji na Bahia, no Recife e nos terreiros de Salvador e São Paulo; no Recife, essa associação segue viva e é festejada por volta de 27 de setembro. Às vezes, nos xangôs do Recife, eles foram identificados também com Crispim e Crispiniano, festejados em 25 de outubro {{ref:ibeji-002,ibeji-014,ibeji-026,ibeji-012}}.
+Cosme e Damião, patronos medievais dos médicos, são os santos dos Ibeji na Bahia, no Recife e nos terreiros de Salvador e São Paulo; no Recife, essa associação segue viva e é festejada por volta de 27 de setembro. Às vezes, nos xangôs do Recife, eles foram identificados também com Crispim e Crispiniano, festejados em 25 de outubro {{ref:ibeji-002,ibeji-014,ibeji-026,ibeji-012}}.
 
 ## Leituras acadêmicas {#leituras-academicas}
 
