@@ -11,9 +11,11 @@ Confere, sem rede e só com a biblioteca padrão:
    arquivo publicado (HTML, JSON, TXT): paráfrase, nota e valor (quando o valor
    não coincide com o de um registro publicável). Os ids desses registros só podem
    aparecer na seção "Pendências" das fichas e no campo `pendencias` dos JSON.
-3. Selo de rascunho em toda ficha que tenha alguma versão sem revisão vigente
-   (sem selo, e com o aviso de ficha revisada, só quando TODAS as versões estão
-   'revisado'); `noindex` em todas as páginas.
+3. Selo "Conteúdo em revisão por especialistas" em toda ficha que tenha alguma
+   versão sem revisão vigente (sem selo, e com o aviso de ficha revisada, só quando
+   TODAS as versões estão 'revisado'); estado da revisão em "O que ainda falta"
+   (data-revisadas/data-total); `noindex` em todas as páginas. O registro de cada
+   nota fica no atributo data-registro (o código não aparece no texto).
 4. Links internos (href/src) apontam para arquivos existentes e âncoras (#id)
    existentes na página de destino.
 5. /dados/: cópias idênticas a data/ (exceto tradicoes.json, que só pode perder
@@ -27,8 +29,8 @@ Confere, sem rede e só com a biblioteca padrão:
    idênticas ao JSON; `rascunho_sem_fonte` com o aviso "Descrição pendente de
    fonte" e o texto do rascunho (descrição e nota) ausente de TODAS as páginas.
    Fichas e catálogo linkam para a página Tradições.
-8. Sobre: canal de contribuição pelas issues do repositório, link para Fontes,
-   aviso de que licenças, domínio e autoria dependem do autor e nenhum e-mail.
+8. Sobre: link para Fontes, seção #contribuir, aviso de revisão e de que licenças
+   e autoria dependem do autor; nenhum e-mail em nenhuma página.
 9. Revisão do conselho: cada versão mostra exatamente as linhas "Revisado por …
    (tradição) em …" / "Contestado por …" das suas `revisoes`, com o crédito que o
    consentimento permite (scripts/revisao.py: quem, linha_credito); versão sem
@@ -60,9 +62,14 @@ absoluto fora do prefixo conta como quebrado.
    selo; parágrafos e chamadas de nota idênticos ao JSON; notas com exatamente os
    itens do JSON e cada registro publicável, com autor, ano, página e link para a
    fonte; página Livro lista todos; a ficha linka para o capítulo.
-10. Publicação (rascunho): faixa "Rascunho — aguardando revisão…" em TODAS as
-   páginas; Início com o aviso de versão inicial em revisão e link para as
-   issues; nenhum <link rel=canonical>/sitemap que convide indexação.
+10. Publicação (rascunho): faixa "Conteúdo em revisão por especialistas" em TODAS
+   as páginas; Início com o aviso de versão inicial em revisão e link para
+   Sobre (#revisao); nenhum <link rel=canonical>/sitemap que convide indexação.
+13. Linguagem para leigos (redesign 01): nenhum link para issues do GitHub e,
+   no texto visível da interface, nada de status internos (pre_fichamento,
+   conferido_web…), "fichamento", códigos de confiabilidade, JSON (fora de Dados
+   abertos) nem códigos de registro (ex.: ogum-012). Textos que vêm de data/
+   (capítulos, observações) são descontados: são conteúdo de outras sessões.
 """
 import html
 import json

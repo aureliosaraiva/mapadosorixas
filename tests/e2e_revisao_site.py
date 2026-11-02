@@ -149,7 +149,7 @@ def main():
 
         html_exu = (raiz / "site/dist/orixas/exu/index.html").read_text(encoding="utf-8")
         html_ox = (raiz / "site/dist/orixas/oxossi/index.html").read_text(encoding="utf-8")
-        assert "Rascunho — aguardando revisão" in html_exu
+        assert "Conteúdo em revisão por especialistas" in html_exu
         assert 'class="selo"' not in html_ox and "selo-revisado" in html_ox
         assert "Revisado com ressalva por Nome Fictício Só" in html_exu
         assert "Contestado por revisor/a anônimo/a" in html_exu
@@ -157,7 +157,7 @@ def main():
 
         # o QA precisa acusar adulterações
         casos = {
-            "selo de volta numa ficha revisada": ("oxossi", lambda h: h.replace('<p class="selo-revisado"', '<p class="selo" role="note">Rascunho — aguardando revisão de praticantes e pesquisadores</p><p class="selo-revisado"', 1)),
+            "selo de volta numa ficha revisada": ("oxossi", lambda h: h.replace('<p class="selo-revisado"', '<p class="selo" role="note">Conteúdo em revisão por especialistas</p><p class="selo-revisado"', 1)),
             "linha de revisão removida": ("exu", lambda h: h.replace('class="revisao"', 'class="revisao-x"', 1)),
             "crédito trocado": ("exu", lambda h: h.replace("Nome Fictício Só", "Outro Nome", 1)),
         }

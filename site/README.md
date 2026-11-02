@@ -22,17 +22,22 @@ node scripts/acessibilidade.cjs # axe-core em todas as páginas de dist/ (servid
 Publicação num subcaminho (ex.: GitHub Pages): `SITE_BASE=/mapadosorixas npm run build`.
 Deploy e domínio ainda não estão configurados (ver `docs/pesquisa/PENDENCIAS.md`).
 
-| Página | Arquivo |
+Identidade visual e linguagem: ver `docs/pesquisa/redesign-01.md` (Literata + Inter auto-hospedadas, modo claro/escuro em `src/styles/global.css`, textos para público leigo; jargão interno proibido na interface pelo `qa_site.py` §13).
+
+| Página (rótulo no menu) | Arquivo |
 |---|---|
-| Início (com busca) | `src/pages/index.astro` |
-| Catálogo | `src/pages/catalogo.astro` (toda a lista-mestra `data/entidades.json`; sem ficha = "Em pesquisa", sem texto) |
-| Ficha | `src/pages/orixas/[id].astro` (qualquer entidade com registro lido) |
-| Itãs | `src/pages/itans/index.astro` e `src/pages/itans/[id].astro` (só versões lidas de `data/itans.json`) |
+| Início | `src/pages/index.astro` |
+| Livro | `src/pages/livro.astro`; capítulo em `src/pages/orixas/[id]/capitulo.astro` e panorama em `src/pages/[panorama]/capitulo.astro`, ambos com `src/components/Capitulo.astro` (índice lateral, notas que abrem ao toque: `src/lib/notas-popover.ts`) |
+| Orixás | `src/pages/catalogo.astro` (toda a lista-mestra `data/entidades.json`; sem ficha = "Em pesquisa", sem texto) |
+| Página do orixá | `src/pages/orixas/[id].astro` (resumo, capítulo, "Em cada tradição", variações, mitos, conexões, o que falta, fontes) |
+| Mitos | `src/pages/itans/index.astro` e `src/pages/itans/[id].astro` (só versões lidas de `data/itans.json`) |
 | Cosmologia | `src/pages/cosmologia.astro` (só versões do atributo `hierarquia`; sem nenhuma, aviso de estrutura vazia) |
-| Grafo | `src/pages/grafo.astro` (filtros por tipo de conexão, tipo de entidade e tradição) |
-| Fontes | `src/pages/fontes.astro` |
-| Baixar dados | `src/pages/baixar-dados.astro` + `src/pages/dados/[...arquivo].js` (lista em `src/lib/downloads.js`; não publica o fichamento bruto) |
-| Tradições | `src/pages/tradicoes.astro` (descrição só quando `com_fonte`; sem fonte, "descrição pendente de fonte") |
-| Glossário | `src/pages/glossario.astro`; termos ligados nas fichas por `marcarGlossario` (`src/lib/dados.js`), `TextoGlossario.astro` e a dica `src/lib/dica-glossario.ts` |
-| Sobre e créditos | `src/pages/sobre.astro` (contribuições pelas issues do repositório) |
-| Metodologia e limitações | `src/pages/metodologia.astro` (cita registros via `src/components/Ref.astro`; o build falha se o registro não existir ou não estiver fichado) |
+| Mapa de conexões | `src/pages/grafo.astro` (posições calculadas no build; filtros por tipo de relação, tipo de nome e tradição) |
+| Glossário | `src/pages/glossario.astro`; termos ligados por `marcarGlossario` (`src/lib/dados.js`), `TextoGlossario.astro` e `src/lib/dica-glossario.ts` |
+| Sobre | `src/pages/sobre.astro` (absorveu a antiga Metodologia; cita registros via `src/components/Ref.astro`, e o build falha se o registro não existir ou não estiver fichado) |
+| Rodapé: Fontes | `src/pages/fontes.astro` |
+| Rodapé: Tradições e nações | `src/pages/tradicoes.astro` (descrição só quando `com_fonte`; sem fonte, "Descrição em preparo") |
+| Rodapé: Buscar | `src/pages/buscar.astro` (Pagefind) |
+| Rodapé: Dados abertos | `src/pages/baixar-dados.astro` + `src/pages/dados/[...arquivo].js` (lista em `src/lib/downloads.js`; não publica o fichamento bruto) |
+
+Testes do site (depois do build): `python3 ../scripts/qa_site.py`, `node scripts/acessibilidade.cjs` (axe), `node scripts/teclado.cjs` (teclado e toque), `node scripts/screenshots-redesign.cjs depois`.

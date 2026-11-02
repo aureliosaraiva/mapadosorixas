@@ -10,10 +10,10 @@ Histórico: as execuções nº 1–3 pararam em "Configurar Pages" (`Get Pages s
 
 ## O que é publicado
 
-- O site estático de `site/` (Astro + Cytoscape.js + Pagefind), com as 14 páginas e os arquivos de `/dados/`.
-- **Status de rascunho:** faixa "Rascunho — aguardando revisão de praticantes e pesquisadores" no cabeçalho de **todas** as páginas (com link para as issues), selo nas fichas, aviso de versão inicial em revisão no Início e no Sobre, e `<meta name="robots" content="noindex">` em todas as páginas. Não há sitemap nem `canonical`. (Um `robots.txt` em `/mapadosorixas/robots.txt` não teria efeito: buscadores só leem o da raiz do domínio, que pertence ao GitHub. O que vale é o `noindex`.)
+- O site estático de `site/` (Astro + Cytoscape.js + Pagefind), com Início, Livro, Orixás, páginas de cada orixá e capítulo, Mitos, Cosmologia, Mapa de conexões, Glossário, Tradições, Fontes, Sobre (que absorveu a antiga Metodologia), Buscar e Dados abertos (só no rodapé), mais os arquivos de `/dados/`. Fontes tipográficas Literata e Inter auto-hospedadas (pacotes `@fontsource-variable`, licença OFL), sem chamadas a serviços externos.
+- **Status de rascunho (redesign de 2026-11-02, [relatório](pesquisa/redesign-01.md)):** faixa discreta "Conteúdo em revisão por especialistas" no topo de **todas** as páginas (com link para Sobre → "Conteúdo em revisão"), selo com o mesmo título nas páginas dos orixás, capítulos, mitos e Livro, aviso de versão inicial no Início e no Sobre, e `<meta name="robots" content="noindex">` em todas as páginas. Não há sitemap nem `canonical`. **Sem links de issues do GitHub nem nomes ou contatos de pessoas do projeto** (o canal de correções para leigos está pendente: PENDENCIAS §3b, redesign).
 - **Nada retido nem em pré-fichamento:** tabus/alimentos (`retidos_ate_conselho`) e registros `pre_fichamento` não aparecem; o fichamento bruto não é publicado. O `qa_site.py` confere isso em todos os arquivos do `dist/` antes do deploy.
-- **Licença:** ainda não decidida pelo autor. O rodapé, a página Baixar dados e o `LEIAME.txt` de `/dados/` dizem "licença a definir pelo autor".
+- **Licença:** ainda não decidida pelo autor. O rodapé, a página Dados abertos e o `LEIAME.txt` de `/dados/` dizem "a definir pelo autor".
 
 ## Como o deploy funciona
 

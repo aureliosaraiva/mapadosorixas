@@ -17,6 +17,7 @@ export const FORMA_NO = {
   inquice: { forma: 'triangle', cor: '#1d6b4a', rotulo: 'triângulo' },
   nome_fon_ou_banto: { forma: 'vee', cor: '#4f6b5e', rotulo: 'seta (V)' },
   entidade: { forma: 'octagon', cor: '#8a5a00', rotulo: 'octógono' },
+  qualidade: { forma: 'round-tag', cor: '#a0522d', rotulo: 'etiqueta' },
 };
 export const ROTULO_LINHA = { solid: 'contínua', dashed: 'tracejada', dotted: 'pontilhada' };
 

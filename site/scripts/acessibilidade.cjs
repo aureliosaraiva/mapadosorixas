@@ -1,5 +1,5 @@
 // Acessibilidade básica com axe-core (WCAG 2.1 A/AA + boas práticas) em todas as
-// páginas HTML de dist/, servidas por um servidor estático local embutido.
+// páginas HTML de dist/ (claro, 1280 e 390 px; amostra também no tema escuro), servidas por um servidor estático local embutido.
 // Uso: npm run build && node scripts/acessibilidade.cjs
 // Serve dist/ sob o mesmo prefixo do build (SITE_BASE, padrão /mapadosorixas, como no
 // GitHub Pages): pedido fora do prefixo dá 404, então link sem base aparece como erro.
@@ -43,11 +43,14 @@ function paginas(dir = DIST, base = '') {
   const browser = await chromium.launch();
   let graves = 0;
   const erros404 = [];
-  for (const [larg, alt] of [[1280, 900], [390, 844]]) {
-    const page = await browser.newPage({ viewport: { width: larg, height: alt } });
+  // todas as páginas em 2 larguras (tema claro) e uma amostra no tema escuro
+  const AMOSTRA_ESCURO = ['/', '/catalogo/', '/orixas/xango/', '/orixas/ogum/capitulo/', '/itans/', '/grafo/', '/glossario/', '/fontes/', '/sobre/', '/tradicoes/'];
+  for (const [larg, alt, esquema] of [[1280, 900, 'light'], [390, 844, 'light'], [1280, 900, 'dark']]) {
+    const page = await browser.newPage({ viewport: { width: larg, height: alt }, colorScheme: esquema });
     page.on('response', (r) => { if (r.status() >= 400) erros404.push(`${r.status()} ${r.url()}`); });
     page.on('pageerror', (e) => erros404.push(`erro JS em ${page.url()}: ${e.message}`));
     for (const p of paginas()) {
+      if (esquema === 'dark' && !AMOSTRA_ESCURO.includes(p)) continue;
       await page.goto(`http://localhost:${porta}${PREFIXO}${p}`, { waitUntil: 'networkidle' });
       await page.waitForTimeout(p.includes('grafo') || p.includes('orixas') ? 800 : 200);
       await page.addScriptTag({ path: AXE });
@@ -59,9 +62,9 @@ function paginas(dir = DIST, base = '') {
       for (const v of r) {
         const grave = v.impacto === 'serious' || v.impacto === 'critical';
         if (grave) graves++;
-        console.log(`${grave ? 'ERRO' : 'aviso'} [${larg}px] ${p} ${v.id} (${v.impacto}, ${v.total} nó(s)): ${v.ajuda} — ${v.nos.join(' | ')}`);
+        console.log(`${grave ? 'ERRO' : 'aviso'} [${larg}px${esquema === 'dark' ? ' escuro' : ''}] ${p} ${v.id} (${v.impacto}, ${v.total} nó(s)): ${v.ajuda} — ${v.nos.join(' | ')}`);
       }
-      if (!r.length) console.log(`ok [${larg}px] ${p}`);
+      if (!r.length) console.log(`ok [${larg}px${esquema === 'dark' ? ' escuro' : ''}] ${p}`);
     }
     await page.close();
   }

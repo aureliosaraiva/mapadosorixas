@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Tradicoes from '../components/Tradicoes.astro';
+import cytoscapeBuild from 'cytoscape';
 import {
   conexoes, entidades, fichaPorId, fontePorId, autorCurto, tradicoes, ROTULO_GRUPO,
   ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, rotuloNo, url,
@@ -17,7 +18,15 @@ const grupos = Object.entries(ROTULO_GRUPO)
   .map(([g, rot]) => [rot, tradicoes.filter((t) => t.grupo === g && tradsUsadas.has(t.id))])
   .filter(([, ts]) => ts.length);
 
+// Posições calculadas no build (Cytoscape sem tela, layout 'cose'): o navegador só
+// desenha (layout 'preset'), sem o cálculo pesado que travava a página.
 const elementos = elementosCytoscape(conexoes.nos, conexoes.arestas);
+{
+  const cyBuild = cytoscapeBuild({ headless: true, elements: elementos, styleEnabled: true, style: [{ selector: 'node', style: { width: 22, height: 22 } }, { selector: 'node[tipo = "orixa"]', style: { width: 40, height: 40 } }] });
+  cyBuild.layout({ name: 'cose', animate: false, randomize: true, nodeRepulsion: () => 9000, idealEdgeLength: () => 90, padding: 20 } as any).run();
+  const pos = Object.fromEntries(cyBuild.nodes().map((n) => [n.id(), n.position()]));
+  for (const el of elementos) if (!('source' in el.data)) (el as any).position = { x: Math.round(pos[el.data.id].x), y: Math.round(pos[el.data.id].y) };
+}
 
 const fonteCurta = (v) => {
   const f = fontePorId[v.source_id];
@@ -159,7 +168,7 @@ const fonteCurta = (v) => {
       maxZoom: 3,
       wheelSensitivity: 0.3,
       style: estiloCytoscape(),
-      layout: { name: 'cose', animate: false, nodeRepulsion: () => 9000, idealEdgeLength: () => 90, padding: 20 } as any,
+      layout: { name: 'preset', padding: 20 } as any,
     });
 
     cy.on('tap', 'node', (ev) => {

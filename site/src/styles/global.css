@@ -207,7 +207,7 @@ p.aviso-sensivel.nota-caixa { border: 1px solid var(--borda); border-left: 4px s
   :root:not([data-tema='claro']) .etiqueta.g-afro_brasileira_regional { background: #352222; border-color: #cf8a8a; }
   :root:not([data-tema='claro']) .etiqueta.g-diaspora_caribenha { background: #1f2a38; border-color: #84a8d6; }
 }
-a.etiqueta { text-decoration: none; }
+a.etiqueta { text-decoration: none; display: inline-flex; align-items: center; min-height: 24px; padding: .1rem .6rem; }
 a.etiqueta:hover { text-decoration: underline; color: var(--texto); }
 
 /* ------------------------------------------------------------------ cartões */
@@ -363,7 +363,7 @@ sup.ref a:hover { background: var(--link); color: var(--fundo); }
 .notas li::marker { color: var(--texto-2); font-weight: 600; font-size: .85em; }
 .notas a { color: var(--link); }
 .notas li:target, .versao:target, tr:target, li:target { background: var(--marca-alvo); outline: 2px solid var(--aviso-borda); border-radius: 4px; }
-.voltar-nota { text-decoration: none; margin-left: .2rem; }
+.voltar-nota { margin-left: .2rem; }
 
 details.dobra { border: 1px solid var(--borda); border-radius: var(--raio); background: var(--superficie); margin: 1rem 0; }
 details.dobra > summary { cursor: pointer; padding: .9rem 1.1rem; font-weight: 600; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
@@ -395,24 +395,29 @@ a.termo-gl:hover { color: var(--link); }
 /* ------------------------------------------------------------------ capítulo (leitura) */
 .leitura { display: grid; gap: 2rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 68rem) { .leitura { grid-template-columns: minmax(0, 1fr) 15rem; gap: 4rem; } .leitura .indice-lateral { order: 2; } }
-.cabeca-capitulo { max-width: var(--coluna); margin: 0 auto 2rem 0; }
+.cabeca-capitulo { max-width: var(--coluna); margin: 0 0 1.5rem; }
+.topo-capitulo { margin-bottom: .5rem; }
 .cabeca-capitulo h1 { font-size: clamp(2.2rem, 1.6rem + 3vw, 3.4rem); line-height: 1.1; margin-bottom: 1rem; }
 .info-leitura { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; color: var(--texto-2); font-size: .9rem; align-items: center; }
 .info-leitura span { display: inline-flex; align-items: center; gap: .35rem; }
 .indice-lateral { font-size: .92rem; }
 .indice-lateral nav { position: sticky; top: 1.5rem; }
-.indice-lateral details { border: 1px solid var(--borda); border-radius: var(--raio); background: var(--superficie); }
-.indice-lateral summary { cursor: pointer; padding: .75rem 1rem; font-weight: 600; }
-.indice-lateral ol { list-style: none; margin: 0; padding: 0 1rem .8rem; counter-reset: sec; }
+.titulo-indice { font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--texto-2); font-weight: 600; margin: 0 0 .6rem; }
+.botao-indice { font: inherit; font-weight: 600; width: 100%; justify-content: space-between; align-items: center; min-height: 2.75rem; padding: .6rem 1rem; border: 1px solid var(--borda); border-radius: var(--raio); background: var(--superficie); color: var(--texto); cursor: pointer; }
+.indice-lateral ol { list-style: none; margin: 0; padding: 0; }
 .indice-lateral li { margin: 0; }
 .indice-lateral a { display: block; padding: .38rem 0 .38rem .75rem; border-left: 2px solid var(--borda); color: var(--texto-2); text-decoration: none; line-height: 1.35; }
 .indice-lateral a:hover { color: var(--texto); border-left-color: var(--borda-forte); }
 .indice-lateral a.atual { color: var(--texto); border-left-color: var(--ocre); font-weight: 600; }
+/* celular com JS: título vira botão e a lista fica recolhida */
+.js .titulo-indice { display: none; }
+.js .indice-lateral ol { display: none; padding: .6rem 1rem .2rem; }
+.js .indice-lateral.aberto ol { display: block; }
+.js .indice-lateral.aberto .botao-indice span { display: inline-block; transform: rotate(180deg); }
 @media (min-width: 68rem) {
-  .indice-lateral details { border: 0; background: transparent; }
-  .indice-lateral summary { padding: 0 0 .6rem; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--texto-2); pointer-events: none; list-style: none; }
-  .indice-lateral summary::-webkit-details-marker { display: none; }
-  .indice-lateral ol { padding: 0; }
+  .js .titulo-indice { display: block; }
+  .js .botao-indice { display: none !important; }
+  .js .indice-lateral ol { display: block; padding: 0; }
 }
 .capitulo { max-width: var(--coluna); }
 .capitulo .paragrafo-capitulo { font-family: var(--serifa); font-size: 1.15rem; line-height: 1.78; margin: 0 0 1.25rem; hyphens: auto; -webkit-hyphens: auto; }

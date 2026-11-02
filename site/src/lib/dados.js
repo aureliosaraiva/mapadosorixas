@@ -157,6 +157,7 @@ export const ROTULO_NO = {
   inquice: 'Inquice',
   nome_fon_ou_banto: 'Nome fon ou banto (sem classificação)',
   entidade: 'Entidade',
+  qualidade: 'Qualidade (de um orixá)',
 };
 
 export const ROTULO_TIPO_FONTE = {

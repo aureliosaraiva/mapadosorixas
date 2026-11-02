@@ -10,7 +10,8 @@ export default defineConfig({
   site: process.env.SITE_URL || 'https://aureliosaraiva.github.io',
   base: BASE,
   trailingSlash: 'ignore',
-  build: { format: 'directory' },
+  // CSS embutido no HTML (evita um pedido que bloqueia a primeira pintura)
+  build: { format: 'directory', inlineStylesheets: 'always' },
   vite: {
     // os dados ficam na raiz do repositório, fora de site/
     server: { fs: { allow: ['..'] } },

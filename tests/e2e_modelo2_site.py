@@ -89,8 +89,11 @@ def main():
 
         # adulterações → o QA precisa acusar
         casos = [
-            ("catalogo/index.html", '<h2>Iyami</h2><p class="tipo-entidade">Ancestrais</p>', '<h2>Iyami</h2><p class="tipo-entidade">Ancestrais</p><p>texto inventado</p>', "cartão em pesquisa com texto"),
-            ("cosmologia/index.html", '<h2 id="versoes-hierarquia">Versões com fonte</h2>', '<h2 id="versoes-hierarquia">Versões com fonte</h2><p id="aviso-sem-hierarquia">x</p>', "aviso de estrutura vazia"),
+            ("catalogo/index.html", '<p class="tipo-entidade">Ancestrais</p><h2>Iyami</h2>', '<p class="tipo-entidade">Ancestrais</p><h2>Iyami</h2><p>texto inventado</p>', "cartão em pesquisa com texto"),
+            ("cosmologia/index.html", '<h2 id="versoes-hierarquia">O que cada obra diz</h2>', '<h2 id="versoes-hierarquia">O que cada obra diz</h2><p id="aviso-sem-hierarquia">x</p>', "aviso de estrutura vazia"),
+            # linguagem para leigos: jargão e códigos internos na interface
+            ("catalogo/index.html", "<h1>", '<p>Abra uma <a href="https://github.com/x/y/issues">issue</a></p><h1>', "instrução do GitHub"),
+            ("catalogo/index.html", "<h1>", "<p>Registro olodumare-001, status pre_fichamento.</p><h1>", "código interno de registro"),
             ("itans/ita-002/index.html", 'class="resumo">', 'class="resumo">ADULTERADO ', "resumo difere"),
         ]
         for rel, de, para, msg in casos:
