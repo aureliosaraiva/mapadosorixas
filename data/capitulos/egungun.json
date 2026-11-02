@@ -1,0 +1,1060 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/egungun.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "egungun",
+  "titulo": "Egungun, os ancestrais que voltam",
+  "status": "rascunho",
+  "atualizado": "2026-11-02",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Egungun é o nome que as tradições iorubás dão à presença visível dos antepassados entre os vivos. Nas cidades de origem Ọ̀yọ́, na Nigéria, o egúngún é o espírito ancestral que se mostra, tratado por \"pai\"; na Bahia, o culto dos Egun pertence a uma sociedade própria, com sede na ilha de Itaparica, e os mortos ali não descem em transe como os orixás: aparecem. Este capítulo fica no que as fontes publicadas dizem e o projeto fichou; o que toca ao fundamento do culto ficou de fora, à espera do conselho "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Há duas leituras do nome. Num relato de 1894, um oficial britânico afirmava que egungun quer dizer \"osso\" e, por extensão, \"esqueleto\", e que o mascarado era tido por um falecido de volta ao mundo "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Um estudo recente, feito em comunidades de origem Ọ̀yọ́, decompõe a palavra em três partes e a lê como aquilo que traz estabilidade, união e paz, leitura que os fiéis relacionam a um odù e ao bem-estar esperado do festival anual; o mesmo estudo aproxima o nome de sayégún, os primeiros egúngún do mito "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". Um administrador colonial que trabalhou em Ilaro e Egbado no começo do século passado registra as duas formas, Egun e Egungun, entre os orixás ligados aos antepassados "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". No Brasil, a forma usual é "
+            },
+            {
+              "t": "link",
+              "rotulo": "Egum",
+              "tipo": "glossario",
+              "alvo": "egum"
+            },
+            {
+              "t": "texto",
+              "v": ", e no plural Egun "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": ". Uma origem histórica do culto não aparece nas fontes "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os registros mais antigos vêm de observadores coloniais e devem ser lidos como relatos de época. Em Ilaro, um egun disse ao administrador colonial que era o pai falecido, vindo do céu, e o observador concluiu que venerar os antepassados era costume antigo entre os iorubás "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". O oficial britânico de 1894 notou que muitos africanos libertados de navios negreiros e desembarcados em Serra Leoa eram de origem iorubá, e que os filhos e netos deles, convertidos ao cristianismo, faziam o egungun sair pelas ruas de Freetown, com um traje mais simples "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia, por muito tempo se acreditou extinta no Brasil a veneração dos antepassados, ideia que já tinha sido desmentida antes. Quem o mantém é a Sociedade dos Egun, tão secreta quanto suas congêneres africanas, com centro em Itaparica, onde se fazem as grandes evocações "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". A presença dos Egun nos ritos fúnebres, o "
+            },
+            {
+              "t": "link",
+              "rotulo": "axexê",
+              "tipo": "glossario",
+              "alvo": "axexe"
+            },
+            {
+              "t": "texto",
+              "v": ", varia de nação para nação: é praticada nas casas de linhagem nagô, como o Opô Afonjá; nas Ijexá, o costume é despachar os mortos depressa; os terreiros Jeje e os de Angola dispensam essa aparição, o que se explica em parte por não haver, na terra de onde vieram, sociedades de Egungun "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Os ancestrais entre os vivos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As descrições variam com o lugar e com o observador. No relato do oficial britânico de 1894, o egungun sai da terra dos mortos para observar a conduta dos vivos e castigar quem age mal; o oficial reduzia esse papel, com desdém, a um instrumento de controle social, mas admitia que na origem ele encarnava os mortos e pertencia a um culto aos antepassados "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". Na história de Oyó escrita por um historiador e clérigo iorubá, a festa anual de Egungun, com mascarados que representam parentes mortos, é sinal da crença numa vida depois da morte "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nas cidades de origem Ọ̀yọ́, na Nigéria, o egúngún é a forma visível do espírito ancestral. A ideia se apoia na noção de ìwà, o caráter: quem viveu bem segue existindo e atuando depois da morte, e os filhos chegam a dizer que o genitor morto virou orixá, a quem se presta culto de joelhos "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". Os ancestrais habitam o ọ̀run e de lá podem ser chamados; daí o nome de \"habitantes do céu\", Ará-ọ̀run, dado aos egúngún de origem Ọ̀yọ́, que não se confundem com os mascarados de espetáculo, que circulam ganhando a vida e não são tidos como ancestrais "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés nagôs da Bahia, o cosmos tem quatro partes, e os mortos são uma delas, junto com os orixás, as pessoas e a natureza, cada uma com seu sacerdócio. Os Egun não se manifestam pelo transe: diz-se na Bahia que eles são aparições e os orixás, manifestações, e o rosto do morto fica escondido sob as vestes "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Os antepassados evocados em Itaparica são chamados babá, \"pai\", têm nomes nagôs e representam linhagens que já se extinguiram "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também a festa muda de data. Entre os iorubás da Costa dos Escravos, no relato de 1894, o egungun tinha sua festa todo ano, em junho, por sete dias, em que se choravam os mortos dos últimos anos, comparada pelo oficial a um dia de finados "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, a grande festa dos Egun, cerimônia privada, cai em 2 de novembro, Dia de Finados; a bênção dos campos pelos antepassados, própria das festas agrícolas iorubás, não teria sobrevivido "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre os orixás, Iansã é a que mais se aproxima dos mortos. Na Bahia, ela é a única que não foge da morte, permanece no axexê quando os demais orixás se retiram e dança no meio dos Egun como se os mantivesse sob controle; no Recife, uma imagem de Iansã de Balé guarda o quarto dos mortos "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": ". Numa família de santo nagô do Recife, a festa de Iansã costuma cair no início de novembro, ao lado da dos eguns, e Obaluaiê também tem com eles uma relação, pouco definida, que viria de ele ser chamado nos ritos dedicados aos mortos "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Òkèigbó e noutras comunidades de origem Ọ̀yọ́, um odù de Ifá conta a chegada dos primeiros egúngún ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Os primeiros egúngún descem para firmar o mundo",
+              "tipo": "ita",
+              "alvo": "ita-026"
+            },
+            {
+              "t": "texto",
+              "v": "). O mundo dos vivos corria o risco de desabar, e Ifá mandou que se fizesse uma oferenda a Olódùmarè; recebido o sacrifício, mandou os sayégún para dar firmeza à terra. Eles pararam num bosque, mais tarde chamado igbó-ìgbàlẹ̀, e só o som dos tambores àyàn conseguiu trazê-los até a comunidade "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Outro odù citado pela mesma fonte faz os egúngún descerem do céu junto com os quatrocentos irúnmọlẹ̀ "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Culto iorubá na Nigéria"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "culto iorubá",
+              "tipo": "tradicao",
+              "alvo": "ioruba_nigeria"
+            },
+            {
+              "t": "texto",
+              "v": ", o egúngún é o ancestral tornado visível, chamado \"pai\" e \"habitante do céu\"; os documentos coloniais o descrevem como o morto que volta para vigiar os vivos, e o culto chegou, com os libertos, até Freetown "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos "
+            },
+            {
+              "t": "link",
+              "rotulo": "candomblés nagôs da Bahia",
+              "tipo": "tradicao",
+              "alvo": "candomble_ketu"
+            },
+            {
+              "t": "texto",
+              "v": ", o culto é da Sociedade dos Egun, sediada em Itaparica; os Egun aparecem, sem transe, e a grande festa é no Dia de Finados "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Nas casas "
+            },
+            {
+              "t": "link",
+              "rotulo": "Ijexá",
+              "tipo": "tradicao",
+              "alvo": "candomble_ijexa"
+            },
+            {
+              "t": "texto",
+              "v": ", "
+            },
+            {
+              "t": "link",
+              "rotulo": "Jeje",
+              "tipo": "tradicao",
+              "alvo": "candomble_jeje"
+            },
+            {
+              "t": "texto",
+              "v": " e "
+            },
+            {
+              "t": "link",
+              "rotulo": "Angola",
+              "tipo": "tradicao",
+              "alvo": "candomble_angola"
+            },
+            {
+              "t": "texto",
+              "v": ", a aparição dos mortos nos ritos fúnebres não se pratica "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", os mortos aparecem ligados a Iansã, guardiã do quarto dos mortos e festejada com os eguns no começo de novembro, e a Obaluaiê "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. Nos terreiros de Umbanda, a palavra egum designa o espírito de um falecido que se manifesta em auxílio dos vivos, e é nessa categoria que Exu passou a ser posto, deixando de ser tratado como orixá; o Egungun ancestral do Candomblé, que aparece sem transe, não tem registro fichado na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Lucumí"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Não há registro fichado sobre Egungun na tradição lucumí "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de santo católico associado aos Egun "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": ". O contato com o catolicismo aparece no calendário: na Bahia, a grande festa dos Egun coincide com o Dia de Finados, coincidência atribuída ao sincretismo "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Não há, nas fontes lidas, um debate acadêmico específico sobre Egungun "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": ". O contraste mais nítido está entre as etimologias: a de A. B. Ellis, oficial britânico de 1894, que via em egungun \"osso\" e \"esqueleto\", e a de Oláwọlé Fámúlẹ̀, que a lê a partir da língua e dos devotos como \"o que traz estabilidade\"; a leitura de controle social que o mesmo Ellis propunha é de observador colonial, num relato de época "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": ". Roger Bastide, por sua vez, lembrava que a suposta extinção do culto no Brasil já tinha sido desmentida, e foi apoiado em Frikel que descreveu os babá de Itaparica "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de cores, dia da semana, saudação, símbolos, alimentos ou iconografia dos Egun "
+            },
+            {
+              "t": "nota",
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": ". Parte disso é escolha: as fontes lidas descrevem cargos, objetos e etapas rituais do culto, e o projeto decidiu não fichar esses detalhes até que o conselho diga o que é público "
+            },
+            {
+              "t": "nota",
+              "n": 35
+            },
+            {
+              "t": "texto",
+              "v": ". Faltam ainda obras centrais sobre os ancestrais e a morte entre os nagôs, como o estudo de Juana Elbein dos Santos, e um artigo de acesso aberto sobre o egúngún que o site da editora bloqueou "
+            },
+            {
+              "t": "nota",
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-013"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Lote C — decisões para o conselho"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-001"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-005"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-010"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-005"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-004"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-010"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-012"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-002"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-006"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-007"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orum-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-009"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-013"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-014"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-003"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-011"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-006"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-040"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-004"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-011"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-012"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-040"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-013"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "lucumi"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-011"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "interpretacao_academica",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-002"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-014"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "alimentos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "iconografia",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Lote C — decisões para o conselho"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Santos, *Os Nàgô e a morte* (1976)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Akande 2019, Egúngún"
+        }
+      ]
+    }
+  ]
+}
