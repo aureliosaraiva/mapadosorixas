@@ -61,7 +61,7 @@
 
 - `site/src/components/Ilustracao.astro` + `site/src/lib/ilustracoes.js`: entidade sensível nunca recebe ilustração, mesmo que exista o arquivo (defesa em profundidade).
 - Página do orixá: ilustração à direita do título (abaixo no celular), com legenda. Catálogo: medalhão de 72 px ao lado do nome. Capítulo: medalhão de 104 px com a legenda ao lado, acima do sobretítulo.
-- **`scripts/qa_site.py` §14:** toda ilustração tem `<title>` igual ao texto alternativo do JSON, `role="img"` e `aria-labelledby`; nenhuma para entidade sensível ou listada em `sem_ilustracao`; todo registro citado existe e está fichado; SVG sem imagens externas; a página, o cartão e o capítulo de cada entidade ilustrada mostram a ilustração (com legenda na página e no capítulo); ids de título únicos por página. **Testado por adulteração** (ilustração para Iyami, registro inexistente, título trocado): 10 erros acusados.
+- **`scripts/qa_site.py` §14:** toda ilustração tem `<title>` igual ao texto alternativo do JSON, `role="img"` e `aria-labelledby`; nenhuma para entidade sensível ou listada em `sem_ilustracao`; todo registro citado existe e está fichado (ou revisado); SVG sem imagens externas; a página, o cartão e o capítulo de cada entidade ilustrada mostram a ilustração (com legenda na página e no capítulo); ids de título únicos por página. **Testado por adulteração** (ilustração para Iyami, registro inexistente, título trocado): 10 erros acusados.
 - axe, testes e e2e: ver §7.
 
 ## 6. Screenshots
@@ -70,7 +70,7 @@ Em [`docs/screenshots/ilustracoes/`](../screenshots/ilustracoes/): `galeria-gran
 
 ## 7. Validadores e testes
 
-Ver o fechamento no fim deste relatório.
+Rodados no fim da sessão: `validar_fontes`, `validar_fichamento`, `divergencias`, `gerar_fichas` (sem diferença em `data/`), `validar_fichas`, `anticopia` (0 erros; só avisos antigos), `validar_capitulos`, `python3 -m unittest discover -s tests` (ok), build com `SITE_BASE=/mapadosorixas`, `qa_site.py` (ok, 44 ilustrações exibidas entre páginas, cartões e capítulos), e2e de capítulos, modelo 2 e revisão (ok; o e2e de revisão pegou um erro do próprio QA §14, que só aceitava `fichado` e não `revisado`, corrigido) e **axe** (`site/scripts/acessibilidade.cjs`: 198 verificações, 94 páginas × 1280/390 px + 10 no escuro, **0 violações**). A sessão não usou o acervo nem fichou fontes, por isso o anti-cópia com texto integral não se aplica.
 
 ## 8. Limitações e próximos passos
 

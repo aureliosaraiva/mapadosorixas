@@ -73,7 +73,7 @@ absoluto fora do prefixo conta como quebrado.
 14. Ilustrações simbólicas (sessão ilustra; data/ilustracoes.json): cada
    ilustração tem texto alternativo (<svg role="img"> + <title> igual ao JSON);
    nenhuma para entidade sensível nem para as listadas em `sem_ilustracao`; todo
-   registro que sustenta um elemento ou a cor existe e está 'fichado'; a página
+   registro que sustenta um elemento ou a cor existe e está 'fichado' ou 'revisado'; a página
    da entidade, o cartão do catálogo e a abertura do capítulo mostram a
    ilustração (com legenda na página e no capítulo); ids únicos por página.
 """
@@ -1156,8 +1156,8 @@ def conferir_ilustracoes(dist: Path, registros: list) -> int:
         if not any(el.get("registros") for el in il.get("elementos", [])):
             erro(f"[ilustração] {e}: nenhum registro sustenta os elementos")
         for r in ids:
-            if status.get(r) != "fichado":
-                erro(f"[ilustração] {e}: registro {r} {'inexistente' if r not in status else 'não fichado (' + str(status[r]) + ')'}")
+            if status.get(r) not in ("fichado", "revisado"):
+                erro(f"[ilustração] {e}: registro {r} {'inexistente' if r not in status else 'não publicável (' + str(status[r]) + ')'}")
         svgf = RAIZ / "site" / "src" / "assets" / "ilustracoes" / f"{e}.svg"
         if not svgf.exists():
             erro(f"[ilustração] {e}: falta {svgf.relative_to(RAIZ)}")
