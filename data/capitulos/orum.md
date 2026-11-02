@@ -35,7 +35,7 @@ No [culto iorubá](tradicao:ioruba_nigeria), o òrun é ao mesmo tempo o céu, o
 
 ### Candomblé
 
-Nos [candomblés de nação Ketu](tradicao:candomble_ketu), o Orum forma par com o Aiyê: um é o plano espiritual, o outro o físico, e o ritual mantém a harmonia entre eles; é também o lugar de onde se vem ao renascer {{ref:orum-008,orum-009}}.
+Nos [candomblés de nação Ketu](tradicao:candomble_ketu), o Orum forma par com o Aiyê: um é o plano espiritual, o outro o físico, e o ritual mantém a harmonia entre eles; é também o lugar de onde se vem ao renascer {{ref:orum-008,orum-009}}. Quando morre um iniciado antigo, os ritos fúnebres do axexê devolvem ao Orum, morada divina que corre paralela à terra, o orixá que a iniciação fixou na cabeça, e soltam o espírito do morto para que volte a nascer um dia {{ref:orum-010}}.
 
 ### Umbanda
 

@@ -7,7 +7,7 @@
   "orixa": "exu",
   "titulo": "Exu, o mensageiro entre mundos e as leituras que o cercaram",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -374,6 +374,39 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, os traços mais citados fazem de Exu o mensageiro astuto que abre toda cerimônia com a primeira homenagem, de modo a não se irritar e desandar o rito, e o vigia das encruzilhadas e das portas que dão para a rua; entre seus emblemas estão tridentes de ferro e um porrete fálico, e o cumprimento que recebe é Laroyê "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". Um quadro do candomblé queto põe sob sua proteção a comunicação, a transformação e a potência sexual, dá-lhe o minério de ferro como elemento natural e o fogo com a terra como elemento mítico, as cores vermelha e preta e a segunda-feira "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": ". Na festa afroumbandista de Iemanjá em Montevidéu, pesquisadores observam que as ruas e suas esquinas são a casa de Exu por excelência, e na areia aparece uma imagem de Exu Asa Negra "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -400,7 +433,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 29
             },
             {
               "t": "texto",
@@ -427,7 +460,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 30
             },
             {
               "t": "texto",
@@ -464,7 +497,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 31
             },
             {
               "t": "texto",
@@ -482,7 +515,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 32
             },
             {
               "t": "texto",
@@ -505,7 +538,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 33
             },
             {
               "t": "texto",
@@ -526,7 +559,24 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 34
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, os inquices que respondem a Exu são Bombogira e Aluviá; na coluna dos voduns aparecem Elegbara e também Bara e Eleguá, nomes que outras tradições usam para o próprio Exu "
+            },
+            {
+              "t": "nota",
+              "n": 35
             },
             {
               "t": "texto",
@@ -547,7 +597,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 36
             },
             {
               "t": "texto",
@@ -568,7 +618,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 37
             },
             {
               "t": "texto",
@@ -599,7 +649,15 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": ". No Batuque gaúcho, segundo um quadro do candomblé queto, o nome dele é Bara "
+            },
+            {
+              "t": "nota",
+              "n": 39
             },
             {
               "t": "texto",
@@ -617,7 +675,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 40
             },
             {
               "t": "texto",
@@ -638,7 +696,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 41
             },
             {
               "t": "texto",
@@ -646,7 +704,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 42
             },
             {
               "t": "texto",
@@ -654,7 +712,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 43
             },
             {
               "t": "texto",
@@ -662,7 +720,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 44
             },
             {
               "t": "texto",
@@ -693,7 +751,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 45
             },
             {
               "t": "texto",
@@ -710,7 +768,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 46
             },
             {
               "t": "texto",
@@ -718,7 +776,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 47
             },
             {
               "t": "texto",
@@ -735,7 +793,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 48
             },
             {
               "t": "texto",
@@ -756,7 +814,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 49
             },
             {
               "t": "texto",
@@ -764,7 +822,7 @@
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 50
             },
             {
               "t": "texto",
@@ -772,7 +830,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 51
             },
             {
               "t": "texto",
@@ -795,7 +853,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 52
             },
             {
               "t": "texto",
@@ -812,7 +870,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 53
             },
             {
               "t": "texto",
@@ -820,7 +878,24 @@
             },
             {
               "t": "nota",
-              "n": 49
+              "n": 54
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, o par católico mais citado de Exu continua a ser o Diabo "
+            },
+            {
+              "t": "nota",
+              "n": 55
             },
             {
               "t": "texto",
@@ -843,7 +918,7 @@
             },
             {
               "t": "nota",
-              "n": 50
+              "n": 56
             },
             {
               "t": "texto",
@@ -851,7 +926,7 @@
             },
             {
               "t": "nota",
-              "n": 51
+              "n": 57
             },
             {
               "t": "texto",
@@ -868,7 +943,7 @@
             },
             {
               "t": "nota",
-              "n": 52
+              "n": 58
             },
             {
               "t": "texto",
@@ -876,7 +951,7 @@
             },
             {
               "t": "nota",
-              "n": 53
+              "n": 59
             },
             {
               "t": "texto",
@@ -884,7 +959,7 @@
             },
             {
               "t": "nota",
-              "n": 54
+              "n": 60
             },
             {
               "t": "texto",
@@ -901,7 +976,7 @@
             },
             {
               "t": "nota",
-              "n": 55
+              "n": 61
             },
             {
               "t": "texto",
@@ -920,11 +995,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nenhum registro fichado traz a saudação de Exu. Verger inclui Laroiê numa lista de nomes do orixá, mas a relação entre esse nome e a saudação ainda não foi conferida, e os dicionários que podem esclarecer o ponto dependem de exemplar "
+              "v": "A saudação Laroyê aparece entre os atributos mais citados nos terreiros paulistas de candomblé, e Verger inclui Laroiê numa lista de nomes do orixá; a relação entre o nome e a saudação depende de dicionários que o projeto ainda não consultou "
             },
             {
               "t": "nota",
-              "n": 56
+              "n": 62
             },
             {
               "t": "texto",
@@ -937,11 +1012,27 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Também falta um registro sobre a origem africana de Exu, isto é, a região ou cidade de onde seu culto teria partido, e sobre um elemento da natureza associado a ele. O livro de Juana Elbein dos Santos, em que se apoia a ideia da multiplicidade de Exu, e as notas de Verger sobre Exu ainda não foram lidos no original. Os itãs registrados são poucos, e as coletâneas de Prandi e de Verger seguem impressas "
+              "v": "Também falta um registro sobre a origem africana de Exu, isto é, a região ou cidade de onde seu culto teria partido "
             },
             {
               "t": "nota",
-              "n": 57
+              "n": 63
+            },
+            {
+              "t": "texto",
+              "v": "; o elemento da natureza só aparece num quadro do candomblé queto, que lhe dá o minério de ferro "
+            },
+            {
+              "t": "nota",
+              "n": 64
+            },
+            {
+              "t": "texto",
+              "v": ". O livro de Juana Elbein dos Santos, em que se apoia a ideia da multiplicidade de Exu, e as notas de Verger sobre Exu ainda não foram lidos no original. Os itãs registrados são poucos, e as coletâneas de Prandi e de Verger seguem impressas "
+            },
+            {
+              "t": "nota",
+              "n": 65
             },
             {
               "t": "texto",
@@ -1295,6 +1386,53 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "exu-104"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-105"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-106"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-108"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-109"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-110"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-111"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-114"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "exu-009"
         },
         {
@@ -1304,7 +1442,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1313,7 +1451,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1326,7 +1464,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1339,7 +1477,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1352,7 +1490,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1365,7 +1503,16 @@
       ]
     },
     {
-      "n": 32,
+      "n": 35,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-112"
+        }
+      ]
+    },
+    {
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1378,7 +1525,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1395,7 +1542,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1408,7 +1555,16 @@
       ]
     },
     {
-      "n": 35,
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-113"
+        }
+      ]
+    },
+    {
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1421,7 +1577,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1438,7 +1594,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1451,7 +1607,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1460,7 +1616,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1469,7 +1625,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1486,7 +1642,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1499,7 +1655,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1516,7 +1672,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1537,7 +1693,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1546,7 +1702,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1559,7 +1715,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1572,7 +1728,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1589,7 +1745,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 53,
       "itens": [
         {
           "tipo": "registro",
@@ -1610,7 +1766,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1623,7 +1779,16 @@
       ]
     },
     {
-      "n": 50,
+      "n": 55,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-107"
+        }
+      ]
+    },
+    {
+      "n": 56,
       "itens": [
         {
           "tipo": "registro",
@@ -1636,7 +1801,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 57,
       "itens": [
         {
           "tipo": "registro",
@@ -1649,7 +1814,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 58,
       "itens": [
         {
           "tipo": "registro",
@@ -1662,7 +1827,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 59,
       "itens": [
         {
           "tipo": "registro",
@@ -1679,7 +1844,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 60,
       "itens": [
         {
           "tipo": "registro",
@@ -1692,7 +1857,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 61,
       "itens": [
         {
           "tipo": "registro",
@@ -1705,12 +1870,11 @@
       ]
     },
     {
-      "n": 56,
+      "n": 62,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "saudacao",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "exu-106"
         },
         {
           "tipo": "registro",
@@ -1723,18 +1887,27 @@
       ]
     },
     {
-      "n": 57,
+      "n": 63,
       "itens": [
         {
           "tipo": "lacuna",
           "atributo": "origem",
           "tradicao": null
-        },
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "elementos",
-          "tradicao": null
-        },
+          "tipo": "registro",
+          "registro": "exu-109"
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "itens": [
         {
           "tipo": "pendencia",
           "ancora": "Santos, *Os Nàgô e a morte* (1976)"

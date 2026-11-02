@@ -2,7 +2,7 @@
 orixa: oba
 titulo: Obá, a esposa da orelha cortada
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Obá é conhecida no Brasil sobretudo por um mito: o da esposa de Xangô que, enganada por Oxum, corta a própria orelha para reconquistar o marido. Fora dele, o culto é pequeno, e as fontes lidas dizem pouco sobre os seus domínios, que nos documentos africanos antigos passam por um rio e pelas nuvens de tempestade {{ref:oba-003,oba-005,oba-011,oba-016}}.
@@ -20,6 +20,8 @@ Nos terreiros de Salvador e São Paulo pesquisados até 1993, Obá era muito pou
 Entre os iorubás, os documentos coloniais a ligavam às águas e ao céu. O de 1894 fazia de Oya, Oshun e Oba três irmãs, todas identificadas com rios, que acompanhavam Shango quando ele saía, as duas últimas levando seu arco e sua espada. No relato de 1910, um devoto de Shango descrevia as mulheres do deus como partes da tempestade: Oya seria o vento que avança diante do marido, Oshun o escuro que vai se fechando, e Oba o ajuntamento das nuvens agitadas; as duas últimas ficam em casa {{ref:oba-013,oba-016}}.
 
 No Recife, Obá veste o amarelo-ouro, o mesmo de Oxum, ou um amarelo que puxa para o laranja {{ref:oba-010}}. No Batuque de Porto Alegre, ela divide a quarta-feira com Xapanã, identificado com Omolu {{ref:oba-002,omolu-004}}. Quando Obá se manifesta, nos terreiros de Salvador e São Paulo, quem a recebe dança com a mão tapando a orelha, para ocultar a ferida que o mito conta {{ref:oba-004}}.
+
+No quadro do candomblé queto, Obá é dona dos rios e ampara as lidas da casa e a força feminina; tem os rios e a água como elementos, veste vermelho e dourado, usa contas vermelhas e de amarelo translúcido, leva espada e escudo redondo e fica com a quarta-feira {{ref:oba-020,oba-021,oba-022,oba-024,oba-023}}.
 
 ## Mitos {#mitos}
 
@@ -55,7 +57,7 @@ Nos documentos coloniais da Costa dos Escravos e nos informantes iorubás ouvido
 
 ## Sincretismo {#sincretismo}
 
-O fichamento não tem nenhum registro de santo católico associado a Obá {{lacuna:sincretismo}}.
+Só um quadro do candomblé queto associa Obá a uma figura católica: Santa Joana d'Arc {{ref:oba-025}}.
 
 ## Leituras acadêmicas {#leituras-academicas}
 
@@ -63,4 +65,4 @@ Arnaud Halloy, ao estudar o nagô do Recife, confrontou o que observou com o tra
 
 ## O que as fontes não dizem {#lacunas}
 
-Não há registro de saudação, símbolos, festas, funções ou qualidades de Obá, nem de sincretismo {{lacuna:saudacao}}{{lacuna:simbolos}}{{lacuna:festas}}{{lacuna:funcoes}}{{lacuna:qualidades}}{{lacuna:sincretismo}}. O material que a descreve com mais vagar, nas obras de Verger, nas coletâneas de mitos de Prandi e na literatura de praticantes da Pallas, está impresso e aguarda exemplar {{pendencia:Verger, *Orixás* (1981)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Literatura de praticantes da Pallas (Coleção Orixás)}}.
+Não há registro de saudação, festas, funções ou qualidades de Obá {{lacuna:saudacao}}{{lacuna:festas}}{{lacuna:funcoes}}{{lacuna:qualidades}}, e os símbolos e o santo vêm de um único quadro do candomblé queto {{ref:oba-024,oba-025}}. O material que a descreve com mais vagar, nas obras de Verger, nas coletâneas de mitos de Prandi e na literatura de praticantes da Pallas, está impresso e aguarda exemplar {{pendencia:Verger, *Orixás* (1981)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Literatura de praticantes da Pallas (Coleção Orixás)}}.

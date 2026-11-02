@@ -2,7 +2,7 @@
 orixa: iansa
 titulo: Iansã, os ventos, as tempestades e os mortos
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Iansã, também chamada Oyá, é a senhora dos ventos e das tempestades, guerreira de gênio duro e a única entre os orixás que não teme os mortos. Nos terreiros da Bahia, de São Paulo e do Recife, essas imagens se repetem com poucas variações; mudam a cor, o dia da semana e a data da festa, e em Cuba ela reaparece com o mesmo domínio sobre o vento. Este capítulo acompanha essas versões sem escolher entre elas {{ref:iansa-022,iansa-006,iansa-032,iansa-028,iansa-039}}.
@@ -37,6 +37,8 @@ O dia acompanha o de Xangô, mas não é o mesmo em toda parte. Na distribuiçã
 
 As festas mostram outra variação. Em muitos terreiros do Recife, Iansã é festejada perto de 4 de dezembro, dia de Santa Bárbara, mas a família de santo nagô estudada costuma celebrá-la no início de novembro, ao lado dos eguns, por causa do seu vínculo com os mortos. No terreiro xambá Santa Bárbara, a Louvação de Oyá é a 13 de dezembro. Na casa de Tambor de Mina de Diadema, o dia de Santa Bárbara reúne o vodum Sobô, Oiá e os demais voduns femininos {{ref:iansa-036,iansa-016,iansa-017}}.
 
+Nos terreiros paulistas de candomblé, Iansã, também chamada Oiá, manda nos raios, nos ventos e nas tempestades; é guerreira, leva os mortos para o além, aparece também como deusa do erotismo e é saudada com Eparrei {{ref:iansa-041,iansa-051,iansa-044}}. No quadro do candomblé queto, é a orixá do relâmpago, a quem pertencem os espíritos dos mortos, e protege a sensualidade, o amor carnal e os desastres do tempo; tem relâmpagos, raios, vento e tempestade por elemento natural e ar, água e fogo por mítico, veste marrom e vermelho-escuro ou branco, usa contas marrons ou vermelho-escuras, leva espada e eru e fica com a quarta-feira {{ref:iansa-045,iansa-046,iansa-047,iansa-049,iansa-048}}.
+
 ## Mitos {#mitos}
 
 Um dos mitos mais conhecidos explica por que cada orixá tem suas folhas ([Iansã sacode as saias e espalha as folhas de Ossaim](ita:ita-017)). Numa versão cubana, Ossaim não dividia com ninguém o conhecimento das ervas; Xangô se queixa a Oyá, senhora dos ventos, que sacode a roupa, provoca um vendaval e faz as folhas voarem para os outros orixás {{ref:iansa-021}}. Nos terreiros de Salvador e São Paulo, a história é contada por Papai e Mãe Celeste: Olorun confiara a Ossãe a ciência das plantas, e ele a guardava para si; a pedido de Xangô, Iansã sacode as saias, a cabaça das folhas se abre com o vento e os orixás as dividem, embora Ossãe continue senhor das plantas {{ref:ossaim-018}}.
@@ -47,11 +49,15 @@ Com Xangô, as narrativas são de parceria e de disputa. Na Bahia se conta que I
 
 As alianças variam com a casa. Nos mitos baianos, Iansã é a principal das três mulheres de Xangô, e Obá e Oxum vêm depois dela, mas alguns sacerdotes da Bahia a casavam com Ogum, enquanto outros davam Ogum como celibatário {{ref:iansa-009,xango-014,oxum-024,iansa-010}}. Nos terreiros de Salvador e São Paulo, ela é a esposa legítima de Xangô, ao lado de Obá e Oxum {{ref:iansa-029,oxum-039,xango-022}}. No nagô do Recife, Oyá foi mulher de Xangô, mas a ordem das esposas muda de relato para relato: ora Obá é a primeira, ora Iansã {{ref:iansa-033,xango-041}}. No relato colonial de 1910, Oya, Oba e Oshun aparecem como as mulheres de Shango, filhos de Yemoja {{ref:oba-015}}.
 
+Nos terreiros paulistas de candomblé, Iansã é lembrada como esposa de Xangô e sua parceira nas batalhas {{ref:iansa-042}}.
+
 ## Em cada tradição {#tradicoes}
 
 ### Candomblé ketu
 
 Na Bahia de meados do século passado, Iansã se desdobrava em nove qualidades, entre elas Oya, Benika, Cenou e Bomim, mas uma ialorixá falou em dezessete. Uma única dessas qualidades reinaria sobre os cemitérios, e o seu nome não chegou a ser dito ao pesquisador {{ref:iansa-012}}.
+
+No quadro de correspondências do candomblé queto, Iansã se aproxima do vodum Sobô e dos inquices Matamba e Bumburucema {{ref:iansa-050}}.
 
 ### Candomblé angola
 
@@ -81,6 +87,8 @@ Em Matanzas, Oyá é a senhora dos ventos, das tempestades e da centelha, e o no
 
 Santa Bárbara é a santa de Iansã em quase toda parte. Numa tabela de festas que valeria para Pernambuco e para os candomblés bantos da Bahia, a festa de Iansã cai no dia da santa, 4 de dezembro; um centro do Recife comemora Iansã nesse dia, e um outro leva o próprio nome da santa. No nagô do Recife, o sincretismo com a santa é descrito como forte {{ref:iansa-013,iansa-037}}. Na casa de Tambor de Mina de Diadema, tanto Oiá quanto Sobô se ligam a Santa Bárbara {{ref:iansa-014}}. Nos terreiros de Salvador e São Paulo, Iansã, guerreira e amazona, é aproximada de Santa Bárbara e, em alguns casos, de Joana d'Arc; ali se lembra também que Santa Bárbara já foi santa de Xangô, dono do raio {{ref:iansa-025}}.
 
+Nos terreiros paulistas de candomblé, a santa de Iansã é Santa Bárbara {{ref:iansa-043}}.
+
 ## Leituras acadêmicas {#leituras-academicas}
 
 Roger Bastide fez de Iansã a ponte entre os orixás e os mortos, e chegou a especular que, na Bahia, o número de Iansãs superaria em um o de Oxuns porque ela é a esposa principal de Xangô; a parte numérica é interpretação dele {{ref:iansa-006,iansa-011}}. Danielle Perin Rocha Pitta, ao estudar os xangôs pernambucanos, encontra nos mitos mulheres ativas e guerreiras, Iansã entre elas, e não uma oposição entre homem ativo e mulher passiva {{ref:iemanja-053}}.
@@ -89,7 +97,7 @@ Valéria Gomes Costa observa que a Louvação de Oyá da casa xambá é suficien
 
 ## O que as fontes não dizem {#lacunas}
 
-Nenhum registro fichado traz a saudação de Iansã, que costuma constar dos dicionários especializados ainda não consultados {{lacuna:saudacao}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
+A saudação Eparrei consta dos atributos citados nos terreiros paulistas de candomblé, mas ainda não foi conferida nos dicionários especializados {{ref:iansa-044}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
 
 A origem africana do culto, com a cidade e o rio a que Oyá estaria ligada, não tem registro no fichamento; depende da obra de Verger, só impressa. As coletâneas de mitos de Prandi e de Verger também esperam exemplar. Um interdito ligado à orixá aguarda o parecer do conselho e não entra neste capítulo {{lacuna:origem}}{{pendencia:Verger, *Orixás* (Corrupio, 1981)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}.
 

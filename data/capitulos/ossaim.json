@@ -7,7 +7,7 @@
   "orixa": "ossaim",
   "titulo": "Ossaim, as folhas, o mato e o segredo das ervas",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -281,6 +281,23 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro do candomblé queto, Ossaim é o orixá da vegetação, que dá força aos remédios e à arte de curar; tem as folhas e a terra como elementos, veste verde e branco, com contas alternadas nessas cores, leva uma lança e três cabaças onde guarda as folhas sagradas e fica com a quinta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -307,7 +324,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -325,7 +342,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -352,7 +369,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -379,7 +396,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -406,7 +423,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -433,7 +450,24 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, Ossaim se aproxima do vodum Agué e do inquice Catendê "
+            },
+            {
+              "t": "nota",
+              "n": 27
             },
             {
               "t": "texto",
@@ -474,7 +508,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 28
             },
             {
               "t": "texto",
@@ -495,7 +529,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 29
             },
             {
               "t": "texto",
@@ -503,7 +537,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 30
             },
             {
               "t": "texto",
@@ -524,7 +558,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 31
             },
             {
               "t": "texto",
@@ -545,7 +579,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 32
             },
             {
               "t": "texto",
@@ -566,7 +600,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 33
             },
             {
               "t": "texto",
@@ -585,11 +619,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nenhum registro do fichamento associa Ossaim a um santo católico; no terreiro de Mina de São Paulo, o quadro da casa não indica santo para Alogué "
+              "v": "No terreiro de Mina de São Paulo, o quadro da casa não indica santo para Alogué; no quadro do candomblé queto, o santo de Ossaim é Santo Onofre "
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 34
             },
             {
               "t": "texto",
@@ -612,7 +646,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 35
             },
             {
               "t": "texto",
@@ -629,7 +663,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 36
             },
             {
               "t": "texto",
@@ -646,7 +680,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 37
             },
             {
               "t": "texto",
@@ -665,11 +699,19 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O fichamento não tem registro de origem africana precisa, de festa, de sincretismo, de elementos ou de animais de Ossaim "
+              "v": "O fichamento não tem registro de origem africana precisa, de festa ou de animais de Ossaim "
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": "; o santo e os elementos vêm de um único quadro do candomblé queto "
+            },
+            {
+              "t": "nota",
+              "n": 39
             },
             {
               "t": "texto",
@@ -677,7 +719,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 40
             },
             {
               "t": "texto",
@@ -694,7 +736,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 41
             },
             {
               "t": "texto",
@@ -944,6 +986,31 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "ossaim-041"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-043"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-045"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-044"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "ossaim-018"
         },
         {
@@ -953,7 +1020,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -966,7 +1033,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -975,7 +1042,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -984,7 +1051,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -1001,7 +1068,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -1018,7 +1085,16 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-047"
+        }
+      ]
+    },
+    {
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1043,7 +1119,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1056,7 +1132,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1065,7 +1141,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1074,7 +1150,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1097,7 +1173,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1106,21 +1182,20 @@
       ]
     },
     {
-      "n": 32,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
           "registro": "ossaim-039"
         },
         {
-          "tipo": "lacuna",
-          "atributo": "sincretismo",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "ossaim-046"
         }
       ]
     },
     {
-      "n": 33,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1133,7 +1208,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1146,7 +1221,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1163,7 +1238,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 38,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1177,23 +1252,26 @@
         },
         {
           "tipo": "lacuna",
-          "atributo": "sincretismo",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "elementos",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
           "atributo": "animais",
           "tradicao": null
         }
       ]
     },
     {
-      "n": 37,
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-046"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-042"
+        }
+      ]
+    },
+    {
+      "n": 40,
       "itens": [
         {
           "tipo": "pendencia",
@@ -1202,7 +1280,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 41,
       "itens": [
         {
           "tipo": "pendencia",

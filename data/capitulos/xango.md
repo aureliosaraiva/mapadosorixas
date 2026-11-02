@@ -2,7 +2,7 @@
 orixa: xango
 titulo: Xangô, o raio, a justiça e a realeza
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Raio, trovão e fogo; justiça que pune com rigor; um orgulho de rei que se vê até no rosto de quem o recebe em transe. É assim que Xangô aparece nos candomblés baianos e no nagô do Recife. A origem dessa realeza, porém, é contada de maneiras diferentes nos terreiros e na pesquisa sobre Oyó, na Nigéria, e o capítulo apresenta as respostas lado a lado {{ref:xango-018,xango-032,xango-040,xango-021,xango-035}}.
@@ -35,6 +35,8 @@ O dia da semana muda de lugar para lugar. Na distribuição mais comum dos cando
 
 As datas de festa também variam: nos terreiros de Salvador e São Paulo, Xangô é celebrado em 24 de junho, em 30 de setembro ou em 6 de janeiro, conforme a casa. No Recife, a festa fica em torno do dia de São João, mas uma filha de santo ligada à jurema dizia que o verdadeiro dia dele é o de Reis, e outros o ligam a São Jerônimo {{ref:xango-027,xango-055}}.
 
+Nos terreiros paulistas de candomblé, Xangô governa o trovão e a justiça e é saudado com Kaô kabiesile {{ref:xango-057,xango-059}}. O quadro do candomblé queto amplia seu campo para o governo, os tribunais e os ofícios burocráticos, dá-lhe o trovão e a pedra de raio como elemento natural e o fogo como mítico, vestes vermelhas, marrons e brancas e contas vermelhas e brancas, o oxé de lâmina dupla e o xere de metal, e a quarta-feira {{ref:xango-060,xango-061,xango-062,xango-064,xango-063}}.
+
 ## Mitos {#mitos}
 
 Os mitos fichados sobre Xangô falam de poder, de família e de queda. O mais antigo na bibliografia é uma tradição de Oyó, na Nigéria, registrada em 1921 ([O alafin de Oyó e o palácio destruído pelo raio](ita:ita-009)): Xangô, governante tirânico que cuspia fogo, teria posto abaixo o próprio palácio ao brincar com o trovão, e com ele as esposas e os filhos; envergonhado, refugiou-se entre os nupes, povo de sua mãe, viu-se deixado pelos seus e se enforcou, e só então foi divinizado. Numa variante, a saída do rei decorre do conflito entre dois chefes militares, e os fiéis recusam a notícia da morte dizendo que o rei não se enforcou {{ref:xango-036}}.
@@ -47,11 +49,15 @@ Xangô atravessa ainda histórias de outros orixás, contadas na Bahia e nos ter
 
 Sobre a família de Xangô, os registros concordam em alguns pontos e divergem em outros. Nos terreiros de Salvador e São Paulo, pela filiação mais citada, ele é filho de Iemanjá e de Oxalá. As três esposas aparecem em quase todas as versões, Iansã, Obá e Oxum, mas a ordem muda: na Bahia, Iansã é a primeira delas e lança raios ao lado do marido, enquanto no Recife, conforme o relato, Obá ou Iansã pode ser a primeira, e Oxum às vezes aparece como concubina {{ref:xango-022,xango-014,xango-041}}.
 
+Nos terreiros paulistas de candomblé, lembra-se Oxum como a esposa preferida de Xangô e Iansã como sua companheira nas batalhas {{ref:oxum-054,iansa-042}}.
+
 ## Em cada tradição {#tradicoes}
 
 ### Candomblé ketu
 
 Nos terreiros de Salvador e São Paulo, as qualidades de Xangô aparecem ligadas aos santos. Para um pai de santo, os dois santos católicos ligados ao orixá equivalem a duas qualidades, um Xangô idoso e outro moço, Agodô e Aganju, mas não soube dizer com segurança a qual santo cada um correspondia, mostra de que a tradição oral oscila até na boca de uma só pessoa {{ref:xango-028}}.
+
+No quadro de correspondências do candomblé queto, Xangô se aproxima dos voduns Badé e Queviosô e do inquice Zázi {{ref:xango-065}}.
 
 ### Candomblé jeje
 
@@ -81,6 +87,8 @@ Na santería do central Méjico, Changó está entre os orixás maiores recebido
 
 Na Bahia, o santo mais citado é São Jerônimo, que no Gantois figura entre os pares católicos do orixá. Nos terreiros de Salvador e São Paulo, a escolha se explica pelo carneiro com que o santo costuma ser representado, animal ligado ao orixá; em algumas casas, Xangô é associado a São João, e esses dois santos correspondem, para um pai de santo, às duas qualidades do orixá {{ref:xango-012,xango-026,xango-028}}. No Tambor de Mina de Diadema, Xangô e Badé ficam com São Pedro, e os outros voduns correspondentes com São Benedito, Santo Antônio e São José {{ref:xango-051}}. Na santería cubana, Changó é festejado com Santa Bárbara em 4 de dezembro; em Banagüises, perto do central Méjico, duas casas de Changó se revezavam, um ano cada, para tocar nesse dia {{ref:xango-056}}.
 
+Nos terreiros paulistas de candomblé, o santo de Xangô é São Jerônimo, e o quadro queto acrescenta São João {{ref:xango-058}}.
+
 ## Leituras acadêmicas {#leituras-academicas}
 
 O debate central é o da origem, e três posições ficam lado a lado. A primeira é a do rei divinizado, que vive nos terreiros brasileiros e na santería cubana {{ref:xango-021,xango-045}}. Outra posição vem do linguista Sandro Capo Chichi, que propõe, por comparação fonológica e morfológica, que o nome venha do gbari, língua em que o deus supremo se chama "governante do céu", e tenha chegado ao iorubá de Oyó antigo passando pelo nupe, onde a primeira parte do nome foi entendida como "rei"; a ligação com a realeza viria daí, e o rei divinizado teria sido criado pela tradição para explicar o título. Capo Chichi descarta as etimologias iorubá e nupe direta de autores anteriores {{ref:xango-035}}. Na mesma direção, Akintunde Akinyemi argumenta que um alafin só seria divinizado se recebesse sepultura no mausoléu da realeza, e que em Oyó era vedado o enforcamento, o que tira credibilidade à ideia de que o rei de Koso tenha virado deus; apoiado nos versos de Ifá, situa o deus antes da formação do próprio Estado de Oyó. Ele e Isola apontaram inconsistências nas versões do enforcamento {{ref:xango-037,xango-036}}. A última é a do teólogo E. Bolaji Idowu: um alafin chamado Xangô teria sido fundido, ao ser divinizado, com uma divindade mais antiga e benévola, Jakuta, o que explicaria o caráter aparentemente contraditório do deus {{ref:xango-039}}.
@@ -89,6 +97,6 @@ Outras leituras são de menor escala. Danielle Perin Rocha Pitta lê o mito de O
 
 ## O que as fontes não dizem {#lacunas}
 
-Nenhum registro fichado traz a saudação de Xangô, que aparece em dicionários ainda não consultados. {{lacuna:saudacao}}{{pendencia:Beniste, *Dicionário yorubá-português*}}
+A saudação Kaô kabiesile aparece entre os atributos citados nos terreiros paulistas de candomblé, mas ainda não foi conferida em dicionário {{ref:xango-059}}{{pendencia:Beniste, *Dicionário yorubá-português*}}.
 
 O volume sobre Xangô na África e na diáspora organizado por Tishken, Falola e Akinyemi foi lido só por citações, e o livro de Idowu ainda não foi aberto. Os mitos de Xangô nas coletâneas de Prandi e de Verger seguem à espera de exemplar. Por fim, o nome que Xangô recebe nos candomblés de nação Angola não aparece em nenhum registro {{pendencia:Tishken, Falola & Akinyemi (orgs.)}}{{pendencia:Idowu, *Olódùmarè* (1962)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{lacuna:equivalencias@candomble_angola}}.

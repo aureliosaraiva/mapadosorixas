@@ -7,7 +7,7 @@
   "orixa": "oxala",
   "titulo": "Oxalá, o branco, a criação e os dois tempos da vida",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -349,6 +349,48 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Oxalá é o criador que moldou os primeiros humanos, reverenciado pelos outros orixás e sempre homenageado depois de todos; quem é dele se veste de branco às sextas-feiras, e sua saudação é Epa Babá "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Em transe, mostra duas faces: Oxalufã, velho, curvado e lento, que quase não dança, e Oxaguiã, jovem guerreiro de dança ligeira, a quem se atribui a invenção do pilão para o inhame e, com ela, a criação da cultura material "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O quadro do candomblé queto separa as duas formas. Oxaguiã, criador da cultura material, ampara a sobrevivência, veste branco com um pouco de azul-real e leva a mão de pilão e a espada; Oxalufã, que reúne os dois sexos como princípio criador, faz nascer a humanidade, responde pelo sopro da vida, fica no branco e carrega o opaxorô. Para os dois, o elemento é o ar e o dia é a sexta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -375,7 +417,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 27
             },
             {
               "t": "texto",
@@ -383,7 +425,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 28
             },
             {
               "t": "texto",
@@ -410,7 +452,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 29
             },
             {
               "t": "texto",
@@ -428,7 +470,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 30
             },
             {
               "t": "texto",
@@ -455,7 +497,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 31
             },
             {
               "t": "texto",
@@ -463,7 +505,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 32
             },
             {
               "t": "texto",
@@ -490,7 +532,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 33
             },
             {
               "t": "texto",
@@ -527,7 +569,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 34
             },
             {
               "t": "texto",
@@ -544,7 +586,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 35
             },
             {
               "t": "texto",
@@ -552,7 +594,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 36
             },
             {
               "t": "texto",
@@ -560,7 +602,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 37
             },
             {
               "t": "texto",
@@ -578,7 +620,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 38
             },
             {
               "t": "texto",
@@ -605,7 +647,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 39
             },
             {
               "t": "texto",
@@ -613,7 +655,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 40
             },
             {
               "t": "texto",
@@ -621,7 +663,24 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 41
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, só Oxalufã tem pares, Liçá entre os voduns e Zambi entre os inquices "
+            },
+            {
+              "t": "nota",
+              "n": 42
             },
             {
               "t": "texto",
@@ -642,7 +701,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 43
             },
             {
               "t": "texto",
@@ -673,7 +732,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 44
             },
             {
               "t": "texto",
@@ -704,7 +763,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 45
             },
             {
               "t": "texto",
@@ -735,7 +794,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 46
             },
             {
               "t": "texto",
@@ -743,7 +802,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 47
             },
             {
               "t": "texto",
@@ -774,7 +833,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 48
             },
             {
               "t": "texto",
@@ -782,7 +841,7 @@
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 49
             },
             {
               "t": "texto",
@@ -803,7 +862,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 50
             },
             {
               "t": "texto",
@@ -811,7 +870,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 51
             },
             {
               "t": "texto",
@@ -834,7 +893,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 52
             },
             {
               "t": "texto",
@@ -842,7 +901,7 @@
             },
             {
               "t": "nota",
-              "n": 49
+              "n": 53
             },
             {
               "t": "texto",
@@ -859,7 +918,24 @@
             },
             {
               "t": "nota",
-              "n": 50
+              "n": 54
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Oxalá corresponde a Jesus Cristo; o quadro queto distingue o Menino Jesus, para Oxaguiã, do Cristo crucificado ou Redentor, para Oxalufã "
+            },
+            {
+              "t": "nota",
+              "n": 55
             },
             {
               "t": "texto",
@@ -882,7 +958,7 @@
             },
             {
               "t": "nota",
-              "n": 51
+              "n": 56
             },
             {
               "t": "texto",
@@ -890,7 +966,7 @@
             },
             {
               "t": "nota",
-              "n": 52
+              "n": 57
             },
             {
               "t": "texto",
@@ -898,7 +974,7 @@
             },
             {
               "t": "nota",
-              "n": 53
+              "n": 58
             },
             {
               "t": "texto",
@@ -915,7 +991,7 @@
             },
             {
               "t": "nota",
-              "n": 54
+              "n": 59
             },
             {
               "t": "texto",
@@ -923,7 +999,7 @@
             },
             {
               "t": "nota",
-              "n": 55
+              "n": 60
             },
             {
               "t": "texto",
@@ -931,7 +1007,7 @@
             },
             {
               "t": "nota",
-              "n": 56
+              "n": 61
             },
             {
               "t": "texto",
@@ -939,7 +1015,7 @@
             },
             {
               "t": "nota",
-              "n": 57
+              "n": 62
             },
             {
               "t": "texto",
@@ -958,11 +1034,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nenhum registro fichado traz a saudação de Oxalá, que costuma constar dos dicionários especializados ainda não consultados "
+              "v": "A saudação Epa Babá aparece entre os atributos citados nos terreiros paulistas de candomblé, mas ainda não foi conferida em dicionário "
             },
             {
               "t": "nota",
-              "n": 58
+              "n": 63
             },
             {
               "t": "texto",
@@ -979,7 +1055,7 @@
             },
             {
               "t": "nota",
-              "n": 59
+              "n": 64
             },
             {
               "t": "texto",
@@ -996,7 +1072,7 @@
             },
             {
               "t": "nota",
-              "n": 60
+              "n": 65
             },
             {
               "t": "texto",
@@ -1340,6 +1416,65 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "oxala-065"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-066"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-068"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-071"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-069"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-070"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-072"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-074"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-075"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-073"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-068"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "oxala-031"
         },
         {
@@ -1353,7 +1488,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1370,7 +1505,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1383,7 +1518,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1392,7 +1527,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1405,7 +1540,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1414,7 +1549,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1427,7 +1562,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1444,7 +1579,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1465,7 +1600,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1478,7 +1613,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1495,7 +1630,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1504,7 +1639,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1517,7 +1652,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1526,7 +1661,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1535,7 +1670,16 @@
       ]
     },
     {
-      "n": 39,
+      "n": 42,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-077"
+        }
+      ]
+    },
+    {
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1548,7 +1692,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1561,7 +1705,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1570,7 +1714,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1583,7 +1727,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1592,7 +1736,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1609,7 +1753,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1618,7 +1762,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1631,7 +1775,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1640,7 +1784,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1657,7 +1801,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 53,
       "itens": [
         {
           "tipo": "registro",
@@ -1666,7 +1810,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1683,7 +1827,20 @@
       ]
     },
     {
-      "n": 51,
+      "n": 55,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-067"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-076"
+        }
+      ]
+    },
+    {
+      "n": 56,
       "itens": [
         {
           "tipo": "registro",
@@ -1692,7 +1849,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 57,
       "itens": [
         {
           "tipo": "registro",
@@ -1705,7 +1862,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 58,
       "itens": [
         {
           "tipo": "registro",
@@ -1718,7 +1875,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 59,
       "itens": [
         {
           "tipo": "registro",
@@ -1727,7 +1884,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 60,
       "itens": [
         {
           "tipo": "registro",
@@ -1736,7 +1893,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 61,
       "itens": [
         {
           "tipo": "registro",
@@ -1745,7 +1902,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 62,
       "itens": [
         {
           "tipo": "registro",
@@ -1754,12 +1911,11 @@
       ]
     },
     {
-      "n": 58,
+      "n": 63,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "saudacao",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "oxala-071"
         },
         {
           "tipo": "pendencia",
@@ -1768,7 +1924,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 64,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1790,7 +1946,7 @@
       ]
     },
     {
-      "n": 60,
+      "n": 65,
       "itens": [
         {
           "tipo": "lacuna",

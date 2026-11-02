@@ -7,7 +7,7 @@
   "orixa": "omolu",
   "titulo": "Omolu e Obaluaê, a terra, a doença e a cura",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -405,6 +405,31 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Obaluaiê, também chamado Omulu, governa a varíola, as pestes e as enfermidades, assim como a cura delas, e se liga aos cemitérios, à terra e ao subsolo; seu cumprimento é Atotô "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": ". No quadro do candomblé queto, ele protege a cura das doenças do corpo, tem a terra como elemento natural e mítico, veste vermelho, branco e preto sob um capuz de palha, usa contas das mesmas cores, carrega o xaxará de fibra de dendezeiro com búzios e fica com a segunda-feira "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -431,7 +456,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 34
             },
             {
               "t": "texto",
@@ -448,7 +473,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 35
             },
             {
               "t": "texto",
@@ -456,7 +481,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 36
             },
             {
               "t": "texto",
@@ -464,7 +489,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 37
             },
             {
               "t": "texto",
@@ -472,7 +497,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 38
             },
             {
               "t": "texto",
@@ -499,7 +524,24 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 39
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, Obaluaiê se aproxima dos voduns Acóssi-Sapatá e Xapanã e dos inquices Cafunã e Cavungo "
+            },
+            {
+              "t": "nota",
+              "n": 40
             },
             {
               "t": "texto",
@@ -530,7 +572,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 41
             },
             {
               "t": "texto",
@@ -548,7 +590,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 42
             },
             {
               "t": "texto",
@@ -579,7 +621,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 43
             },
             {
               "t": "texto",
@@ -610,7 +652,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 44
             },
             {
               "t": "texto",
@@ -641,7 +683,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 45
             },
             {
               "t": "texto",
@@ -649,7 +691,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 46
             },
             {
               "t": "texto",
@@ -680,7 +722,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 47
             },
             {
               "t": "texto",
@@ -688,7 +730,7 @@
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 48
             },
             {
               "t": "texto",
@@ -709,7 +751,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 49
             },
             {
               "t": "texto",
@@ -732,7 +774,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 50
             },
             {
               "t": "texto",
@@ -740,7 +782,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 51
             },
             {
               "t": "texto",
@@ -748,7 +790,24 @@
             },
             {
               "t": "nota",
-              "n": 49
+              "n": 52
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, os santos de Obaluaiê são São Lázaro e São Roque "
+            },
+            {
+              "t": "nota",
+              "n": 53
             },
             {
               "t": "texto",
@@ -771,7 +830,7 @@
             },
             {
               "t": "nota",
-              "n": 50
+              "n": 54
             },
             {
               "t": "texto",
@@ -788,7 +847,7 @@
             },
             {
               "t": "nota",
-              "n": 51
+              "n": 55
             },
             {
               "t": "texto",
@@ -796,7 +855,7 @@
             },
             {
               "t": "nota",
-              "n": 52
+              "n": 56
             },
             {
               "t": "texto",
@@ -815,11 +874,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nenhum registro fichado traz a saudação de Omolu, que costuma constar dos dicionários especializados ainda não consultados "
+              "v": "A saudação Atotô aparece entre os atributos citados nos terreiros paulistas de candomblé, mas ainda não foi conferida nos dicionários especializados "
             },
             {
               "t": "nota",
-              "n": 53
+              "n": 57
             },
             {
               "t": "texto",
@@ -836,7 +895,7 @@
             },
             {
               "t": "nota",
-              "n": 54
+              "n": 58
             },
             {
               "t": "texto",
@@ -1228,12 +1287,54 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "omolu-036"
+          "registro": "omolu-047"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-056"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-049"
         }
       ]
     },
     {
       "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "omolu-050"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-051"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-052"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-054"
+        },
+        {
+          "tipo": "registro",
+          "registro": "omolu-053"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "omolu-036"
+        }
+      ]
+    },
+    {
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1250,7 +1351,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1259,7 +1360,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1276,7 +1377,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1293,7 +1394,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1302,7 +1403,16 @@
       ]
     },
     {
-      "n": 38,
+      "n": 40,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "omolu-055"
+        }
+      ]
+    },
+    {
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1311,7 +1421,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1320,7 +1430,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1337,7 +1447,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1346,7 +1456,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1355,7 +1465,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1364,7 +1474,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1373,7 +1483,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1390,7 +1500,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1403,7 +1513,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1416,7 +1526,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1429,7 +1539,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1438,7 +1548,16 @@
       ]
     },
     {
-      "n": 50,
+      "n": 53,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "omolu-048"
+        }
+      ]
+    },
+    {
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1455,7 +1574,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 55,
       "itens": [
         {
           "tipo": "registro",
@@ -1468,7 +1587,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 56,
       "itens": [
         {
           "tipo": "registro",
@@ -1477,12 +1596,11 @@
       ]
     },
     {
-      "n": 53,
+      "n": 57,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "saudacao",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "omolu-049"
         },
         {
           "tipo": "pendencia",
@@ -1491,7 +1609,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 58,
       "itens": [
         {
           "tipo": "pendencia",

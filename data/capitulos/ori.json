@@ -320,6 +320,14 @@
             },
             {
               "t": "texto",
+              "v": ". Nos terreiros paulistas de candomblé, cada pessoa tem um orixá senhor da cabeça, revelado pelos búzios, e um segundo, o juntó, que o completa e em geral é do sexo oposto, como se houvesse um pai e uma mãe divinos; e um provérbio repetido nas casas ensina que, antes de louvar os deuses, é preciso estar bem com a própria cabeça "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
               "v": "."
             }
           ]
@@ -337,7 +345,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -368,7 +376,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -391,7 +399,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -399,7 +407,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -422,7 +430,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -430,7 +438,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -438,7 +446,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -461,7 +469,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -469,7 +477,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -687,6 +695,19 @@
       "n": 20,
       "itens": [
         {
+          "tipo": "registro",
+          "registro": "ori-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-012"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
           "tipo": "lacuna",
           "atributo": "hierarquia",
           "tradicao": "umbanda"
@@ -694,7 +715,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -703,7 +724,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "lacuna",
@@ -713,7 +734,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -726,7 +747,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -735,7 +756,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -752,7 +773,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -761,7 +782,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "lacuna",
@@ -796,7 +817,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "pendencia",

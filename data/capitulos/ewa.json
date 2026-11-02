@@ -7,7 +7,7 @@
   "orixa": "ewa",
   "titulo": "Ewá, uma divindade quase sem registro",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -18,11 +18,19 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Ewá, ou Euá, é a divindade com menos material neste projeto. Os poucos registros abertos vêm de casas específicas, no Recife, num terreiro de Mina de São Paulo e em terreiros angola-congo, e nenhum deles diz quais são seus domínios, suas cores ou seus mitos. Este capítulo é, por isso, curto, e boa parte dele trata do que falta "
+              "v": "Ewá, ou Euá, é uma das divindades com menos material neste projeto. Os registros abertos vêm de casas específicas, no Recife, num terreiro de Mina de São Paulo e em terreiros angola-congo, e de um único quadro de atributos do candomblé queto, que lhe dá as fontes e os riachos "
             },
             {
               "t": "nota",
               "n": 1
+            },
+            {
+              "t": "texto",
+              "v": ". Nenhum mito dela foi fichado, e o capítulo é, por isso, curto "
+            },
+            {
+              "t": "nota",
+              "n": 2
             },
             {
               "t": "texto",
@@ -45,7 +53,7 @@
             },
             {
               "t": "nota",
-              "n": 2
+              "n": 3
             },
             {
               "t": "texto",
@@ -53,7 +61,7 @@
             },
             {
               "t": "nota",
-              "n": 3
+              "n": 4
             },
             {
               "t": "texto",
@@ -76,7 +84,7 @@
             },
             {
               "t": "nota",
-              "n": 4
+              "n": 5
             },
             {
               "t": "texto",
@@ -95,19 +103,36 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O único dado de calendário vem do terreiro de Mina de Dona Jarina, em São Paulo: ali, Euá e o vodum Naveorualim são festejados em 16 de julho, dia de Nossa Senhora do Carmo "
-            },
-            {
-              "t": "nota",
-              "n": 5
-            },
-            {
-              "t": "texto",
-              "v": ". Não há registro de domínios, elementos, cores, dia da semana ou símbolos "
+              "v": "O que se sabe dos seus atributos vem de um quadro do candomblé queto. Ali, Euá é a orixá das fontes, com as nascentes e os riachos como elemento natural e a água como elemento mítico, e cuida da harmonia da casa "
             },
             {
               "t": "nota",
               "n": 6
+            },
+            {
+              "t": "texto",
+              "v": ". Veste vermelho e amarelo, usa fio de búzios, tem o sábado como dia e leva espada, um chocalho feito de matéria vegetal e uma esfera "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O único dado de festa vem do terreiro de Mina de Dona Jarina, em São Paulo: ali, Euá e o vodum Naveorualim são festejados em 16 de julho, dia de Nossa Senhora do Carmo "
+            },
+            {
+              "t": "nota",
+              "n": 8
             },
             {
               "t": "texto",
@@ -130,7 +155,7 @@
             },
             {
               "t": "nota",
-              "n": 7
+              "n": 9
             },
             {
               "t": "texto",
@@ -138,7 +163,7 @@
             },
             {
               "t": "nota",
-              "n": 8
+              "n": 10
             },
             {
               "t": "texto",
@@ -175,7 +200,7 @@
             },
             {
               "t": "nota",
-              "n": 9
+              "n": 11
             },
             {
               "t": "texto",
@@ -196,7 +221,28 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé queto"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de atributos do candomblé queto, Euá tem como correspondente jeje um vodum de mesmo nome, e nenhum inquice banto aparece na sua linha "
+            },
+            {
+              "t": "nota",
+              "n": 13
             },
             {
               "t": "texto",
@@ -217,7 +263,7 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 14
             },
             {
               "t": "texto",
@@ -238,7 +284,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 15
             },
             {
               "t": "texto",
@@ -261,7 +307,15 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". No quadro do candomblé queto, a santa que lhe corresponde é Santa Lúcia "
+            },
+            {
+              "t": "nota",
+              "n": 17
             },
             {
               "t": "texto",
@@ -284,7 +338,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 18
             },
             {
               "t": "texto",
@@ -303,11 +357,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Quase tudo. Não há registros sobre domínios, elementos, cores, dia, saudação, símbolos, funções, a dança e os mitos de Ewá "
+              "v": "Quase tudo. Fora de um único quadro do candomblé queto, que não diz de que casas vem cada dado, não há registros sobre os domínios, as cores ou o dia de Ewá, e em nenhuma tradição há saudação, funções, descrição da dança ou mitos "
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 19
             },
             {
               "t": "texto",
@@ -315,7 +369,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 20
             },
             {
               "t": "texto",
@@ -332,7 +386,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 21
             },
             {
               "t": "texto",
@@ -360,15 +414,14 @@
           "registro": "ewa-007"
         },
         {
-          "tipo": "lacuna",
-          "atributo": "dominios",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "cores",
-          "tradicao": null
-        },
+          "tipo": "registro",
+          "registro": "ewa-009"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
         {
           "tipo": "lacuna",
           "atributo": "itans",
@@ -377,7 +430,7 @@
       ]
     },
     {
-      "n": 2,
+      "n": 3,
       "itens": [
         {
           "tipo": "registro",
@@ -390,7 +443,7 @@
       ]
     },
     {
-      "n": 3,
+      "n": 4,
       "itens": [
         {
           "tipo": "lacuna",
@@ -405,7 +458,7 @@
       ]
     },
     {
-      "n": 4,
+      "n": 5,
       "itens": [
         {
           "tipo": "registro",
@@ -426,7 +479,37 @@
       ]
     },
     {
-      "n": 5,
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-010"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ewa-013"
+        }
+      ]
+    },
+    {
+      "n": 8,
       "itens": [
         {
           "tipo": "registro",
@@ -435,37 +518,7 @@
       ]
     },
     {
-      "n": 6,
-      "itens": [
-        {
-          "tipo": "lacuna",
-          "atributo": "dominios",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "elementos",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "cores",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "dia_semana",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "simbolos",
-          "tradicao": null
-        }
-      ]
-    },
-    {
-      "n": 7,
+      "n": 9,
       "itens": [
         {
           "tipo": "registro",
@@ -479,7 +532,7 @@
       ]
     },
     {
-      "n": 8,
+      "n": 10,
       "itens": [
         {
           "tipo": "registro",
@@ -488,7 +541,7 @@
       ]
     },
     {
-      "n": 9,
+      "n": 11,
       "itens": [
         {
           "tipo": "registro",
@@ -501,7 +554,7 @@
       ]
     },
     {
-      "n": 10,
+      "n": 12,
       "itens": [
         {
           "tipo": "registro",
@@ -510,7 +563,16 @@
       ]
     },
     {
-      "n": 11,
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-015"
+        }
+      ]
+    },
+    {
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -519,7 +581,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 15,
       "itens": [
         {
           "tipo": "lacuna",
@@ -534,7 +596,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -543,7 +605,16 @@
       ]
     },
     {
-      "n": 14,
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ewa-014"
+        }
+      ]
+    },
+    {
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -561,36 +632,15 @@
       ]
     },
     {
-      "n": 15,
+      "n": 19,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "dominios",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "elementos",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "cores",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "dia_semana",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "ewa-009"
         },
         {
           "tipo": "lacuna",
           "atributo": "saudacao",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "simbolos",
           "tradicao": null
         },
         {
@@ -611,7 +661,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 20,
       "itens": [
         {
           "tipo": "pendencia",
@@ -628,7 +678,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 21,
       "itens": [
         {
           "tipo": "pendencia",

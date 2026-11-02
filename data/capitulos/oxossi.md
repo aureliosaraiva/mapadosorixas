@@ -2,10 +2,10 @@
 orixa: oxossi
 titulo: Oxóssi, o caçador, a mata e o reino de Ketu
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
-Oxóssi chega às fontes deste projeto como caçador e senhor da mata, mas também como rei: nos candomblés de Salvador e de São Paulo, o itã mais lembrado faz dele o soberano de Ketu. O material sobre ele ainda é menor do que o de outros orixás, e as lacunas são ditas no fim do capítulo {{ref:oxossi-020,oxossi-012}}{{lacuna:nomes}}.
+Oxóssi chega às fontes deste projeto como caçador e senhor da mata, mas também como rei: nos candomblés de Salvador e de São Paulo, o itã mais lembrado faz dele o soberano de Ketu. O material sobre ele ainda é menor do que o de outros orixás, e as lacunas são ditas no fim do capítulo {{ref:oxossi-020,oxossi-012}}.
 
 ## Nomes e origem {#nomes-e-origem}
 
@@ -31,6 +31,8 @@ O dia da semana mostra diferenças maiores. Na distribuição mais comum dos can
 
 A festa de Oxóssi, nos terreiros de Salvador e São Paulo, é celebrada no dia de São Sebastião, 20 de janeiro {{ref:oxossi-016}}.
 
+Nos terreiros paulistas de candomblé, Oxóssi é o caçador e o orixá da fartura, saudado com Okê arô {{ref:oxossi-037,oxossi-039}}. No quadro do candomblé queto, onde é chamado também de Odê, ele rege a fauna e a abundância de comida, tem as florestas e a terra como elementos, veste azul-turquesa e verde, usa contas azul-turquesa, leva o ofá de metal e o eru de rabo de cavalo e fica com a quinta-feira {{ref:oxossi-040,oxossi-046,oxossi-041,oxossi-042,oxossi-044,oxossi-043}}.
+
 ## Mitos {#mitos}
 
 O itã mais difundido explica o nome do orixá ([O caçador de uma flecha só](ita:ita-006)). Na versão escrita mais conhecida, que circula entre os iorubás e nos candomblés ketu, um pássaro enorme ameaça a festa dos inhames novos no palácio do rei, Olofin; caçadores armados com dezenas de flechas erram o alvo e são castigados, até que um caçador de Iremã, com uma única flecha e protegido por uma oferenda feita por sua mãe, derruba a ave. Desse feito viria o nome Oxóssi, o caçador de uma flecha só. Os números de flechas variam entre as leituras, e a página do itã mostra as versões lado a lado. Num dos terreiros pesquisados em Salvador e São Paulo, porém, o pai de santo conhecido como Papai recusava essa versão {{ref:oxossi-023,oxossi-026}}.
@@ -44,6 +46,8 @@ Os laços de família são contados de modos diferentes. Com Ogum, Oxóssi forma
 ### Candomblé ketu
 
 As formas de Oxóssi dividem os informantes. Em terreiros de Salvador e São Paulo, alguns distinguem quatro, Oxóssi, Odé, Inlé e Logunedé, este último visto provavelmente como filho de Oxóssi e Oxum; nos candomblés baianos de meados do século passado circulava a mesma lista de quatro, com a observação de que Inlé ia sendo esquecido porque não descia em transe no Brasil {{ref:oxossi-019,logunede-001}}. Nas casas em que Logunedé é um orixá à parte, a filiação também varia: num candomblé ketu de São Paulo ele é filho de Oxum e Oxóssi, filiação que seria a da maioria dos mitos, enquanto na Casa das Águas, em Itapevi, o pai seria Erinlé, uma das formas de Oxóssi {{ref:logunede-007,logunede-005}}. Na Bahia, Oxóssi era assentado junto de Ogunjá e de Exu {{ref:oxossi-001}}.
+
+No quadro de correspondências do candomblé queto, Oxóssi se aproxima do vodum Azacá e dos inquices Gongobira e Mutacalombo {{ref:oxossi-045}}.
 
 ### Candomblé de caboclo e Umbanda
 
@@ -65,12 +69,14 @@ Na santería do central Méjico, em Matanzas, Ochosí integra o trio dos santos 
 
 Nos candomblés e na Umbanda de Salvador e São Paulo, o santo mais associado a Oxóssi é São Sebastião, pelo arco e pelas flechas: o mártir costuma ser representado amarrado a uma árvore, atravessado por flechas. A data da festa, 20 de janeiro, segue o calendário do santo. Na casa de Tambor de Mina de Diadema, o quadro é outro: Odé e o vodum Agüê ficam com Santa Helena, e só Azacá, o outro vodum correspondente, fica com São Sebastião {{ref:oxossi-015,oxossi-016,oxossi-034}}. No nagô do Recife, as pessoas hesitam mais quanto ao santo de Odé, e às vezes o associam a Santo Expedito {{ref:oxossi-035}}.
 
+Nos terreiros paulistas de candomblé, Oxóssi tem como santos São Jorge e São Sebastião {{ref:oxossi-038}}.
+
 ## Leituras acadêmicas {#leituras-academicas}
 
 As leituras sobre Oxóssi fichadas até aqui são poucas e quase todas tratam do lugar dele no panteão brasileiro. A tese de Pierre Verger sobre a passagem do posto de caçador de Ogum para Oxóssi, e a crítica de Lisa Earl Castillo a ela, ficam registradas no capítulo de Ogum. Sylvie Chiousse chama atenção para atribuições que se somaram ao orixá depois do mito original, como a floresta, e Arnaud Halloy para o contraste entre a raridade de Odé no Recife e sua popularidade na Bahia {{ref:ogum-037,ogum-038,oxossi-011,oxossi-031}}.
 
 ## O que as fontes não dizem {#lacunas}
 
-O fichamento ainda não tem registro sobre os nomes de Oxóssi em outras línguas e nações, nem sobre suas funções, um elemento da natureza ou a iconografia da dança. Também não há registro de sua saudação, que depende de dicionários ainda não consultados {{lacuna:nomes}}{{lacuna:funcoes}}{{lacuna:elementos}}{{lacuna:iconografia}}{{lacuna:saudacao}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
+O fichamento ainda não tem registro sobre as funções de Oxóssi ou a iconografia da dança {{lacuna:funcoes}}{{lacuna:iconografia}}. Dos nomes em outras línguas e nações, só aparece Odê, e os elementos da natureza vêm de um único quadro do candomblé queto {{ref:oxossi-046,oxossi-041}}. A saudação Okê arô consta dos atributos citados nos terreiros paulistas de candomblé, mas não foi conferida em dicionário {{ref:oxossi-039}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
 
 A obra de referência mais recente sobre o orixá, de Silva e Silva Neto, e as coletâneas de itãs de Prandi e de Verger só existem impressas e aguardam exemplar. O nome que Oxóssi recebe nos candomblés de nação Angola e Jeje também não aparece em nenhum registro {{pendencia:Silva & Silva Neto, *Oxóssi: o caçador divino*}}{{pendencia:Verger, *Lendas africanas dos orixás* (Corrupio)}}{{lacuna:equivalencias@candomble_angola}}{{lacuna:equivalencias@candomble_jeje}}.

@@ -7,7 +7,7 @@
   "orixa": "xango",
   "titulo": "Xangô, o raio, a justiça e a realeza",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -282,6 +282,31 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Xangô governa o trovão e a justiça e é saudado com Kaô kabiesile "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": ". O quadro do candomblé queto amplia seu campo para o governo, os tribunais e os ofícios burocráticos, dá-lhe o trovão e a pedra de raio como elemento natural e o fogo como mítico, vestes vermelhas, marrons e brancas e contas vermelhas e brancas, o oxé de lâmina dupla e o xere de metal, e a quarta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -308,7 +333,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 21
             },
             {
               "t": "texto",
@@ -335,7 +360,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 22
             },
             {
               "t": "texto",
@@ -353,7 +378,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 23
             },
             {
               "t": "texto",
@@ -380,7 +405,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 24
             },
             {
               "t": "texto",
@@ -388,7 +413,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 25
             },
             {
               "t": "texto",
@@ -406,7 +431,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 26
             },
             {
               "t": "texto",
@@ -463,7 +488,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 27
             },
             {
               "t": "texto",
@@ -480,7 +505,24 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, lembra-se Oxum como a esposa preferida de Xangô e Iansã como sua companheira nas batalhas "
+            },
+            {
+              "t": "nota",
+              "n": 29
             },
             {
               "t": "texto",
@@ -507,7 +549,24 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, Xangô se aproxima dos voduns Badé e Queviosô e do inquice Zázi "
+            },
+            {
+              "t": "nota",
+              "n": 31
             },
             {
               "t": "texto",
@@ -528,7 +587,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 32
             },
             {
               "t": "texto",
@@ -559,7 +618,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 33
             },
             {
               "t": "texto",
@@ -590,7 +649,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 34
             },
             {
               "t": "texto",
@@ -611,7 +670,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 35
             },
             {
               "t": "texto",
@@ -619,7 +678,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 36
             },
             {
               "t": "texto",
@@ -650,7 +709,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 37
             },
             {
               "t": "texto",
@@ -671,7 +730,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 38
             },
             {
               "t": "texto",
@@ -694,7 +753,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 39
             },
             {
               "t": "texto",
@@ -702,7 +761,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 40
             },
             {
               "t": "texto",
@@ -710,7 +769,24 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 41
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, o santo de Xangô é São Jerônimo, e o quadro queto acrescenta São João "
+            },
+            {
+              "t": "nota",
+              "n": 42
             },
             {
               "t": "texto",
@@ -733,7 +809,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 43
             },
             {
               "t": "texto",
@@ -741,7 +817,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 44
             },
             {
               "t": "texto",
@@ -749,7 +825,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 45
             },
             {
               "t": "texto",
@@ -757,7 +833,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 46
             },
             {
               "t": "texto",
@@ -774,7 +850,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 47
             },
             {
               "t": "texto",
@@ -793,11 +869,15 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nenhum registro fichado traz a saudação de Xangô, que aparece em dicionários ainda não consultados. "
+              "v": "A saudação Kaô kabiesile aparece entre os atributos citados nos terreiros paulistas de candomblé, mas ainda não foi conferida em dicionário "
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 48
+            },
+            {
+              "t": "texto",
+              "v": "."
             }
           ]
         },
@@ -810,7 +890,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 49
             },
             {
               "t": "texto",
@@ -1085,7 +1165,11 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-036"
+          "registro": "xango-057"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-059"
         }
       ]
     },
@@ -1094,7 +1178,23 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-015"
+          "registro": "xango-060"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-061"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-062"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-064"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-063"
         }
       ]
     },
@@ -1103,7 +1203,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-016"
+          "registro": "xango-036"
         }
       ]
     },
@@ -1112,7 +1212,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "xango-043"
+          "registro": "xango-015"
         }
       ]
     },
@@ -1121,7 +1221,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oxala-029"
+          "registro": "xango-016"
         }
       ]
     },
@@ -1130,12 +1230,30 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oxala-030"
+          "registro": "xango-043"
         }
       ]
     },
     {
       "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-029"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-030"
+        }
+      ]
+    },
+    {
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1164,7 +1282,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1181,7 +1299,20 @@
       ]
     },
     {
-      "n": 27,
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-054"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iansa-042"
+        }
+      ]
+    },
+    {
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1190,7 +1321,16 @@
       ]
     },
     {
-      "n": 28,
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-065"
+        }
+      ]
+    },
+    {
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1199,7 +1339,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1224,7 +1364,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1233,7 +1373,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1250,7 +1390,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1263,7 +1403,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1281,7 +1421,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1290,7 +1430,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1307,7 +1447,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1316,7 +1456,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1325,7 +1465,16 @@
       ]
     },
     {
-      "n": 38,
+      "n": 42,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-058"
+        }
+      ]
+    },
+    {
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1338,7 +1487,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1347,7 +1496,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1360,7 +1509,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1369,7 +1518,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1382,12 +1531,11 @@
       ]
     },
     {
-      "n": 43,
+      "n": 48,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "saudacao",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "xango-059"
         },
         {
           "tipo": "pendencia",
@@ -1396,7 +1544,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 49,
       "itens": [
         {
           "tipo": "pendencia",

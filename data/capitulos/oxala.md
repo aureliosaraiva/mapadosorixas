@@ -2,7 +2,7 @@
 orixa: oxala
 titulo: Oxalá, o branco, a criação e os dois tempos da vida
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Oxalá é o orixá do branco. Nos candomblés da Bahia, no nagô do Recife e nos terreiros de São Paulo, ele aparece como o criador que modelou o ser humano, o dono da abóbada celeste e o pai que ocupa o alto da hierarquia, e quase sempre se desdobra em duas figuras, uma velha e outra jovem. O que muda de casa para casa é muito: o dia da semana, o santo católico, a idade de cada uma dessas figuras e o lugar do assentamento no peji, e este capítulo acompanha essas versões sem escolher entre elas {{ref:oxala-013,oxala-045,oxala-005,oxala-003,oxala-057,oxala-062}}.
@@ -41,6 +41,10 @@ O dia da semana varia de modo instrutivo. Nos candomblés baianos, a distribuiç
 
 As festas mostram o mesmo leque. Nos candomblés baianos, as Águas de Oxalá abrem o ano religioso, no fim de agosto ou em setembro, conforme o terreiro: os objetos do orixá saem do peji por sete dias, as iniciadas, todas de branco e sem dizer palavra, vão buscar a água que os lava e purifica a casa inteira, e uma segunda procissão, desta vez alegre, devolve as pedras ao seu lugar; a cerimônia já foi chamada também de festa do inhame novo. Num candomblé baiano de Ogum, os domingos de festa começam por Oxalá e seguem, no segundo, por Oxaguiã {{ref:oxala-027,oxala-028}}. No nagô do Recife, quem associa Oxalá a Cristo o festejaria em 25 de dezembro, mas a família de santo estudada prefere janeiro, porque é bom abrir o ano sob a proteção do orixá da paz, pai de todos. Na casa de Tambor de Mina de Diadema, as obrigações da tarde de Sexta-Feira Santa vão para Lissá e para os voduns da Criação. E em Matanzas, na festa de Elegguá, a oferenda a Obatalá encerra o ciclo de sacrifícios e é feita no alto, sobre um pano branco esticado pelos presentes, costume que a família diz guardar desde a escravidão {{ref:oxala-060,oxala-038,oxala-064}}.
 
+Nos terreiros paulistas de candomblé, Oxalá é o criador que moldou os primeiros humanos, reverenciado pelos outros orixás e sempre homenageado depois de todos; quem é dele se veste de branco às sextas-feiras, e sua saudação é Epa Babá {{ref:oxala-065,oxala-066,oxala-068,oxala-071}}. Em transe, mostra duas faces: Oxalufã, velho, curvado e lento, que quase não dança, e Oxaguiã, jovem guerreiro de dança ligeira, a quem se atribui a invenção do pilão para o inhame e, com ela, a criação da cultura material {{ref:oxala-069,oxala-070}}.
+
+O quadro do candomblé queto separa as duas formas. Oxaguiã, criador da cultura material, ampara a sobrevivência, veste branco com um pouco de azul-real e leva a mão de pilão e a espada; Oxalufã, que reúne os dois sexos como princípio criador, faz nascer a humanidade, responde pelo sopro da vida, fica no branco e carrega o opaxorô. Para os dois, o elemento é o ar e o dia é a sexta-feira {{ref:oxala-072,oxala-074,oxala-075,oxala-073,oxala-068}}.
+
 ## Mitos {#mitos}
 
 O mito mais conhecido é o da criação ([A criação da terra firme](ita:ita-012)). Na versão contada nos candomblés baianos, Olorum entrega a Oxalá a tarefa de fazer a terra e o mar, mas, no caminho, o vinho de palma o impede de terminar o trabalho; mesmo assim ele toma parte na obra, auxiliado por Odudua, e é ele, sozinho, quem molda o primeiro casal humano. Nos terreiros de Salvador e São Paulo, o episódio da embriaguez é lembrado como uma espécie de pecado original {{ref:oxala-031,odudua-012,oxala-050}}. Na Nigéria, as versões ligadas a Ifẹ̀ dão outro peso a Odudua. Numa versão de Ilê-Ifẹ̀, Olorun manda ao mundo alagado Obatala, Oduduwa e dezesseis imortais, os Oye, chefiados por Obatala; ele se embriaga e Oduduwa assume a liderança, desce com o grupo em Oke Oramfe e espalha a terra. Numa segunda versão iorubá, Olodumare entrega a Obatala terra trazida do céu, uma galinha e um camaleão; os orixás descem do céu presos a uma corrente que Ogum forjou, Obatala dorme embriagado, e Oduduwa, seu irmão mais novo, toma os objetos, faz crescer a terra firme e se torna rei de Ifẹ̀ {{ref:odudua-018,odudua-019,odudua-010}}.
@@ -60,6 +64,8 @@ As genealogias variam com a casa. Numa versão baiana, Oxalá teve duas mulheres
 ### Candomblé ketu
 
 Os dois Oxalás são a marca dessa nação. Nos candomblés baianos de meados do século passado, Oxalufã é o velho e Oxaguiã, o moço, filho do primeiro e senhor do reino onde o pai morava. Uma lista da mesma época fala em três Oxalás, Oxalufã, Oxichalá e Oxaguiã, e anota informantes que davam sete nomes e outro levantamento que chegou a dezesseis; nessa lista, curiosamente, as idades aparecem trocadas {{ref:oxala-022,oxala-021}}. Nos terreiros de Salvador e São Paulo pesquisados até 1993, fala-se em dois aspectos de um mesmo Oxalá, de caráter quase igual, com Oxalufã chamado de jovem e Oxaguiã de velho; a diferença se vê sobretudo na dança, em que o jovem se move com mais vivacidade {{ref:oxala-051}}. Na Bahia, o modo de nascer pode sugerir o orixá da criança, Oxaguiã, por exemplo, quando ela vem com o cordão umbilical enrolado no pescoço, mas a indicação precisa ser confirmada pelo oráculo {{ref:oxala-023}}.
+
+No quadro de correspondências do candomblé queto, só Oxalufã tem pares, Liçá entre os voduns e Zambi entre os inquices {{ref:oxala-077}}.
 
 ### Candomblé angola
 
@@ -91,6 +97,8 @@ O par mais citado é Jesus Cristo, equivalência que dá conta do dia de culto n
 
 Fora da Bahia, as equivalências mudam. Numa lista de datas do Recife, o primeiro de janeiro junta Orixalá ao Padre Eterno, e num calendário de festas que valeria para os iorubás de Pernambuco e para os candomblés bantos da Bahia, a festa de Orixá-lá coincide com a data de São Pedro e São Paulo. Na casa de Tambor de Mina de Diadema, Lissá e Arronovissavá, os voduns ligados aos dois Oxalás, também se associam a Jesus Cristo {{ref:oxala-019,oxala-020,oxala-035}}.
 
+Nos terreiros paulistas de candomblé, Oxalá corresponde a Jesus Cristo; o quadro queto distingue o Menino Jesus, para Oxaguiã, do Cristo crucificado ou Redentor, para Oxalufã {{ref:oxala-067,oxala-076}}.
+
 ## Leituras acadêmicas {#leituras-academicas}
 
 Nina Rodrigues viu na Bahia do fim do século XIX um dualismo rudimentar, com Oxalá como princípio do bem e Exu como princípio do mal, leitura que dependia da identificação de Exu com o diabo; Roger Bastide retomou o ponto para discutir seus limites {{ref:oxala-009}}. O mesmo Bastide sustentou que as oscilações de sexo entre Obatalá e Odudua, homem e mulher no litoral iorubá e o contrário em Ifé, e a crença baiana num Oxalá de dois sexos seriam o vestígio de uma ideia anterior, a de um Oxalá andrógino {{ref:oxala-010,odudua-014}}. Bastide leu ainda as Águas de Oxalá como rito agrário, como início do tempo sagrado e como limpeza de toda a comunidade, e classificou Oxalá, pelo perfume de suas folhas, como divindade da purificação {{ref:oxala-027,ogum-028}}.
@@ -99,7 +107,7 @@ Outras leituras tocam pontos específicos. Sylvie Chiousse atribui a sexta-feira
 
 ## O que as fontes não dizem {#lacunas}
 
-Nenhum registro fichado traz a saudação de Oxalá, que costuma constar dos dicionários especializados ainda não consultados {{lacuna:saudacao}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
+A saudação Epa Babá aparece entre os atributos citados nos terreiros paulistas de candomblé, mas ainda não foi conferida em dicionário {{ref:oxala-071}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
 
 A origem africana do culto, com as cidades e regiões onde ele era mais forte, depende da obra de Verger, que só existe impressa. As grandes coletâneas de itãs, de Prandi e de Verger, também esperam exemplar, e por isso os mitos aqui reunidos vêm de poucas fontes, algumas delas coloniais {{lacuna:origem}}{{pendencia:Verger, *Orixás* (Corrupio, 1981)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Verger, *Lendas africanas dos orixás* (Corrupio)}}.
 

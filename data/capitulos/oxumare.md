@@ -2,14 +2,14 @@
 orixa: oxumare
 titulo: Oxumarê, o arco-íris e a serpente
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Oxumarê é o arco-íris que liga o céu à terra e, ao mesmo tempo, uma serpente. As fontes abertas lidas até aqui falam pouco dele, e por isso este capítulo é curto: diz o que os terreiros e os estudos registram e, no fim, o muito que ainda falta {{ref:oxumare-011,oxumare-013}}.
 
 ## Nomes e origem {#nomes-e-origem}
 
-Nos registros, o nome aparece como Oxumarê, Oxumaré e Oxunmarê; a forma Oshumare vem de documentos coloniais da Costa dos Escravos {{ref:oxumare-003,oxumare-011,oxumare-009,oxumare-022}}{{lacuna:nomes}}.
+Nos registros, o nome aparece como Oxumarê, Oxumaré e Oxunmarê, esta última numa casa de Salvador, na Bahia; a forma Oshumare vem de documentos coloniais da Costa dos Escravos {{ref:oxumare-003,oxumare-011,oxumare-009,oxumare-022}}{{lacuna:nomes}}.
 
 Quanto à origem, as tradições concordam numa procedência jeje, com nuances de lugar. Nos candomblés baianos, Oxumarê e Nanã seriam divindades do Daomé, acolhidas pelos iorubás quando ainda estavam do outro lado do oceano; no nagô do Recife, Oxumarê é dito de origem jeje, e uma leitura citada ali situa a sua terra em Mahi, no atual Benim, fora do território nigeriano. O estudo dos ferros rituais lembra que Oxumarê, como Dã, é entidade jeje, dos povos fon e vizinhos, e que é cultuado também em candomblés nagô {{ref:oxumare-005,oxumare-018,oxumare-027}}.
 
@@ -27,6 +27,8 @@ As cores mudam de lugar para lugar: amarelo e verde nos terreiros de Salvador e 
 
 Nos candomblés e entre os iorubás, segundo o estudo das peças de museu, seu ferro ritual são duas varetas forjadas em forma de serpente, com a cobra e o arco-íris como imagem. A única planta lembrada para ele nos terreiros de Salvador e São Paulo é a palmeira, que não entra em banho nem em remédio e serve de enfeite; uma mãe de santo diz que, dentro de casa, ela guarda a vida {{ref:oxumare-026,oxumare-016}}. Em 24 de agosto, dia de São Bartolomeu, os candomblés da Bahia celebram uma festa na pedra de Oxumarê, que já foi chamada de festa da purificação {{ref:oxumare-007}}.
 
+No quadro do candomblé queto, Oxumarê é o orixá do arco-íris, masculino e feminino ao mesmo tempo, que protege a riqueza das colheitas trazida pela chuva; tem a chuva e o tempo atmosférico como elemento natural e a água como mítico, veste amarelo, verde e preto, usa contas dessas cores ou de búzios, leva espada e cobras de metal e fica com o sábado {{ref:oxumare-034,oxumare-035,oxumare-036,oxumare-038,oxumare-037}}.
+
 ## Mitos {#mitos}
 
 Um só itã de Oxumarê está fichado ([Oxumarê, metade do ano arco-íris e metade serpente](ita:ita-020)). Nos terreiros de Salvador e São Paulo, conta-se que, durante metade do ano, ele é arco-íris e masculino, e na outra metade é serpente e feminino, e por isso é tido como símbolo da continuidade {{ref:oxumare-012}}.
@@ -38,6 +40,8 @@ A família também é narrada. Na versão baiana das famílias divinas, Oxalá t
 ### Candomblé ketu
 
 Nos candomblés baianos, Oxumarê é o arco-íris intercessor, com dia na terça e uma pedra à beira-mar em Salvador; o ilê Maroiá Láji, no Alaketo, é consagrado a ele {{ref:oxumare-001,oxumare-004,oxumare-006,oxumare-010}}.
+
+No quadro de correspondências do candomblé queto, Oxumarê se aproxima dos voduns Dã e Bessém e do inquice Angorô, e o santo que lhe cabe é São Bartolomeu {{ref:oxumare-040,oxumare-039}}.
 
 ### Xangô do Recife
 

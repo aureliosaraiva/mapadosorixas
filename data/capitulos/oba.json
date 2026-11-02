@@ -7,7 +7,7 @@
   "orixa": "oba",
   "titulo": "Obá, a esposa da orelha cortada",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -147,6 +147,23 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro do candomblé queto, Obá é dona dos rios e ampara as lidas da casa e a força feminina; tem os rios e a água como elementos, veste vermelho e dourado, usa contas vermelhas e de amarelo translúcido, leva espada e escudo redondo e fica com a quarta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -173,7 +190,7 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 11
             },
             {
               "t": "texto",
@@ -181,7 +198,7 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 12
             },
             {
               "t": "texto",
@@ -189,7 +206,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 13
             },
             {
               "t": "texto",
@@ -216,7 +233,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 14
             },
             {
               "t": "texto",
@@ -233,7 +250,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 15
             },
             {
               "t": "texto",
@@ -241,7 +258,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 16
             },
             {
               "t": "texto",
@@ -258,7 +275,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 17
             },
             {
               "t": "texto",
@@ -285,7 +302,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 18
             },
             {
               "t": "texto",
@@ -326,7 +343,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 19
             },
             {
               "t": "texto",
@@ -347,7 +364,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 20
             },
             {
               "t": "texto",
@@ -368,7 +385,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -389,7 +406,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -408,11 +425,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O fichamento não tem nenhum registro de santo católico associado a Obá "
+              "v": "Só um quadro do candomblé queto associa Obá a uma figura católica: Santa Joana d'Arc "
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -435,7 +452,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -454,11 +471,19 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Não há registro de saudação, símbolos, festas, funções ou qualidades de Obá, nem de sincretismo "
+              "v": "Não há registro de saudação, festas, funções ou qualidades de Obá "
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": ", e os símbolos e o santo vêm de um único quadro do candomblé queto "
+            },
+            {
+              "t": "nota",
+              "n": 26
             },
             {
               "t": "texto",
@@ -466,7 +491,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 27
             },
             {
               "t": "texto",
@@ -598,7 +623,23 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oba-003"
+          "registro": "oba-020"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-021"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-022"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-023"
         }
       ]
     },
@@ -607,7 +648,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oxum-028"
+          "registro": "oba-003"
         }
       ]
     },
@@ -616,12 +657,21 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oxum-040"
+          "registro": "oxum-028"
         }
       ]
     },
     {
       "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-040"
+        }
+      ]
+    },
+    {
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -634,7 +684,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -659,7 +709,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -668,7 +718,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -685,7 +735,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -702,7 +752,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -719,7 +769,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -728,7 +778,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -737,7 +787,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -754,17 +804,16 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "sincretismo",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "oba-025"
         }
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -777,16 +826,11 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "lacuna",
           "atributo": "saudacao",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "simbolos",
           "tradicao": null
         },
         {
@@ -803,16 +847,24 @@
           "tipo": "lacuna",
           "atributo": "qualidades",
           "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "sincretismo",
-          "tradicao": null
         }
       ]
     },
     {
-      "n": 25,
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oba-024"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oba-025"
+        }
+      ]
+    },
+    {
+      "n": 27,
       "itens": [
         {
           "tipo": "pendencia",

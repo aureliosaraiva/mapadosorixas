@@ -7,7 +7,7 @@
   "orixa": "oxossi",
   "titulo": "Oxóssi, o caçador, a mata e o reino de Ketu",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -226,6 +226,31 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Oxóssi é o caçador e o orixá da fartura, saudado com Okê arô "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". No quadro do candomblé queto, onde é chamado também de Odê, ele rege a fauna e a abundância de comida, tem as florestas e a terra como elementos, veste azul-turquesa e verde, usa contas azul-turquesa, leva o ofá de metal e o eru de rabo de cavalo e fica com a quinta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -252,7 +277,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 15
             },
             {
               "t": "texto",
@@ -279,7 +304,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 16
             },
             {
               "t": "texto",
@@ -296,7 +321,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 17
             },
             {
               "t": "texto",
@@ -314,7 +339,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 18
             },
             {
               "t": "texto",
@@ -341,7 +366,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 19
             },
             {
               "t": "texto",
@@ -349,7 +374,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 20
             },
             {
               "t": "texto",
@@ -357,7 +382,24 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, Oxóssi se aproxima do vodum Azacá e dos inquices Gongobira e Mutacalombo "
+            },
+            {
+              "t": "nota",
+              "n": 22
             },
             {
               "t": "texto",
@@ -378,7 +420,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 23
             },
             {
               "t": "texto",
@@ -386,7 +428,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 24
             },
             {
               "t": "texto",
@@ -427,7 +469,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 25
             },
             {
               "t": "texto",
@@ -448,7 +490,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 26
             },
             {
               "t": "texto",
@@ -469,7 +511,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 27
             },
             {
               "t": "texto",
@@ -492,7 +534,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 28
             },
             {
               "t": "texto",
@@ -500,7 +542,24 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Oxóssi tem como santos São Jorge e São Sebastião "
+            },
+            {
+              "t": "nota",
+              "n": 30
             },
             {
               "t": "texto",
@@ -523,7 +582,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 31
             },
             {
               "t": "texto",
@@ -542,11 +601,27 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O fichamento ainda não tem registro sobre os nomes de Oxóssi em outras línguas e nações, nem sobre suas funções, um elemento da natureza ou a iconografia da dança. Também não há registro de sua saudação, que depende de dicionários ainda não consultados "
+              "v": "O fichamento ainda não tem registro sobre as funções de Oxóssi ou a iconografia da dança "
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": ". Dos nomes em outras línguas e nações, só aparece Odê, e os elementos da natureza vêm de um único quadro do candomblé queto "
+            },
+            {
+              "t": "nota",
+              "n": 33
+            },
+            {
+              "t": "texto",
+              "v": ". A saudação Okê arô consta dos atributos citados nos terreiros paulistas de candomblé, mas não foi conferida em dicionário "
+            },
+            {
+              "t": "nota",
+              "n": 34
             },
             {
               "t": "texto",
@@ -563,7 +638,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 35
             },
             {
               "t": "texto",
@@ -585,11 +660,6 @@
         {
           "tipo": "registro",
           "registro": "oxossi-012"
-        },
-        {
-          "tipo": "lacuna",
-          "atributo": "nomes",
-          "tradicao": null
         }
       ]
     },
@@ -773,6 +843,48 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "oxossi-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-039"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxossi-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-046"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-041"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-044"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-043"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "oxossi-023"
         },
         {
@@ -782,7 +894,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -795,7 +907,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -820,7 +932,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -833,7 +945,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -846,7 +958,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -859,7 +971,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -868,7 +980,16 @@
       ]
     },
     {
-      "n": 20,
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxossi-045"
+        }
+      ]
+    },
+    {
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -881,7 +1002,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -904,7 +1025,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -929,7 +1050,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -938,7 +1059,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -947,7 +1068,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -964,7 +1085,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -973,7 +1094,16 @@
       ]
     },
     {
-      "n": 27,
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxossi-038"
+        }
+      ]
+    },
+    {
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -994,13 +1124,8 @@
       ]
     },
     {
-      "n": 28,
+      "n": 32,
       "itens": [
-        {
-          "tipo": "lacuna",
-          "atributo": "nomes",
-          "tradicao": null
-        },
         {
           "tipo": "lacuna",
           "atributo": "funcoes",
@@ -1008,18 +1133,30 @@
         },
         {
           "tipo": "lacuna",
-          "atributo": "elementos",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
           "atributo": "iconografia",
           "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxossi-046"
         },
         {
-          "tipo": "lacuna",
-          "atributo": "saudacao",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "oxossi-041"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxossi-039"
         },
         {
           "tipo": "pendencia",
@@ -1028,7 +1165,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 35,
       "itens": [
         {
           "tipo": "pendencia",

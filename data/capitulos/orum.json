@@ -314,6 +314,14 @@
             },
             {
               "t": "texto",
+              "v": ". Quando morre um iniciado antigo, os ritos fúnebres do axexê devolvem ao Orum, morada divina que corre paralela à terra, o orixá que a iniciação fixou na cabeça, e soltam o espírito do morto para que volte a nascer um dia "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
               "v": "."
             }
           ]
@@ -331,7 +339,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 19
             },
             {
               "t": "texto",
@@ -352,7 +360,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 20
             },
             {
               "t": "texto",
@@ -375,7 +383,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -398,7 +406,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -406,7 +414,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -414,7 +422,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -437,7 +445,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -445,7 +453,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -681,9 +689,8 @@
       "n": 18,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "hierarquia",
-          "tradicao": "umbanda"
+          "tipo": "registro",
+          "registro": "orum-010"
         }
       ]
     },
@@ -693,12 +700,22 @@
         {
           "tipo": "lacuna",
           "atributo": "hierarquia",
-          "tradicao": "lucumi"
+          "tradicao": "umbanda"
         }
       ]
     },
     {
       "n": 20,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "lucumi"
+        }
+      ]
+    },
+    {
+      "n": 21,
       "itens": [
         {
           "tipo": "lacuna",
@@ -708,7 +725,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "lacuna",
@@ -718,7 +735,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -735,7 +752,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -748,7 +765,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "lacuna",
@@ -773,7 +790,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "itens": [
         {
           "tipo": "pendencia",

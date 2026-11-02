@@ -2,7 +2,7 @@
 orixa: nana
 titulo: Nanã, a mais velha das águas
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Nanã Buruku é a avó dos orixás. Nos terreiros da Bahia, de São Paulo e do Recife, ela aparece como a anciã entre as divindades das águas, cercada de afeto e também de temor, ligada à chuva, à velhice e à morte. Sua origem é daomeana, e por isso ela forma, com os filhos, um grupo à parte no panteão. As fontes concordam no violeta e em Sant'Ana, mas divergem sobre o dia, a família e o próprio transe, e este capítulo acompanha essas versões {{ref:nana-006,nana-023,nana-030,nana-008,nana-027,nana-034}}.
@@ -33,6 +33,8 @@ O dia, ao contrário, varia. Nos candomblés baianos, a distribuição mais usua
 
 As festas seguem o calendário de Sant'Ana. Na casa de Tambor de Mina de Diadema, três Nanãs têm festa própria: no dia de Santa Rita, 24 de maio, celebra-se Nanã Biocô; Nanã Bulucu e Vó Missã em 26 de julho, festa de Santana; e, no dia de Santa Rosa, 30 de agosto, Nanã Bassarodim. No terreiro de Pai Airton, em São Luís, toca-se para Nanã no dia de Sant'Ana {{ref:nana-019,nana-020}}.
 
+No quadro do candomblé queto, Nanã é a orixá do lodo do fundo das águas, ligada à educação, à senioridade e à morte; tem a lama e o pântano como elemento natural e a água como mítico, veste púrpura, azul e branco, usa contas brancas rajadas de azul-cobalto, leva o ibiri e fica com a segunda-feira {{ref:nana-035,nana-036,nana-037,nana-039,nana-038}}.
+
 ## Mitos {#mitos}
 
 Os mitos próprios de Nanã ainda não passaram pelo fichamento, e o que se sabe dela nas narrativas vem das genealogias. Na Bahia, Nanã é mãe de Omolu, e, nas famílias divinas contadas na Bahia, é uma das duas esposas de Oxalá, mãe dos filhos Omolu, Lôko e Oxumarê. Ainda assim, ela vem depois do filho Omolu na ordem dos dias, sinal de que a semana não segue a genealogia {{ref:nana-010,nana-011,oxala-024,omolu-018}}. No Recife, ela é mãe de Abaluaiê, e no terreiro de Pai Adão, Nanã-Buruku é cantada logo depois de Obaluaiê e chamada de mãe dele {{ref:nana-012}}.
@@ -44,6 +46,8 @@ No nagô do Recife, Nanã é mãe de Obaluaiê e de Oxumaré, e os três formam 
 ### Candomblé ketu
 
 Nos candomblés baianos de nação ketu, Nanã é a avó das águas, dona do chachará e do violeta, que dança embalando o filho; a terça-feira é o seu dia, partilhado com Oxumarê e, no Opô Afonjá, também com Ogum {{ref:nana-006,nana-016,nana-014,nana-004,nana-005}}.
+
+No quadro de correspondências do candomblé queto, o vodum que responde a Nanã tem o mesmo nome dela, e a santa que lhe cabe é Santana {{ref:nana-041,nana-040}}.
 
 ### Candomblé angola
 

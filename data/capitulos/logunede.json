@@ -190,6 +190,23 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro do candomblé queto, Logun-Edé é o orixá dos rios que cortam a mata, masculino e feminino em alternância, com o mesmo campo de proteção dos seus pais, Oxum e Oxóssi; tem rios e florestas como elemento natural e água e terra como mítico, veste dourado e azul-turquesa, usa contas de dourado translúcido alternadas com turquesa, leva ofá e abebê e fica com a quinta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -216,7 +233,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 13
             },
             {
               "t": "texto",
@@ -243,7 +260,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 14
             },
             {
               "t": "texto",
@@ -260,7 +277,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 15
             },
             {
               "t": "texto",
@@ -268,7 +285,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 16
             },
             {
               "t": "texto",
@@ -315,7 +332,24 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, Logun-Edé se aproxima do vodum Bosso Jara, e o santo que lhe cabe é São Miguel Arcanjo "
+            },
+            {
+              "t": "nota",
+              "n": 18
             },
             {
               "t": "texto",
@@ -336,7 +370,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 19
             },
             {
               "t": "texto",
@@ -357,7 +391,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 20
             },
             {
               "t": "texto",
@@ -378,7 +412,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 21
             },
             {
               "t": "texto",
@@ -401,7 +435,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 22
             },
             {
               "t": "texto",
@@ -424,7 +458,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 23
             },
             {
               "t": "texto",
@@ -432,7 +466,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 24
             },
             {
               "t": "texto",
@@ -451,11 +485,19 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O fichamento não tem registro do dia da semana, das festas, da saudação, do elemento da natureza ou das funções de Logunedé "
+              "v": "O fichamento não tem registro das festas, da saudação ou das funções de Logunedé "
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "; o dia da semana e os elementos vêm de um único quadro do candomblé queto "
+            },
+            {
+              "t": "nota",
+              "n": 26
             },
             {
               "t": "texto",
@@ -463,7 +505,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 27
             },
             {
               "t": "texto",
@@ -480,7 +522,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 28
             },
             {
               "t": "texto",
@@ -620,12 +662,41 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "logunede-010"
+          "registro": "logunede-027"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-028"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-029"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-030"
         }
       ]
     },
     {
       "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-010"
+        }
+      ]
+    },
+    {
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -638,7 +709,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -659,7 +730,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -668,7 +739,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -689,7 +760,20 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-033"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-032"
+        }
+      ]
+    },
+    {
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -698,7 +782,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -707,7 +791,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -730,7 +814,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -739,7 +823,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -748,7 +832,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -757,13 +841,8 @@
       ]
     },
     {
-      "n": 23,
+      "n": 25,
       "itens": [
-        {
-          "tipo": "lacuna",
-          "atributo": "dia_semana",
-          "tradicao": null
-        },
         {
           "tipo": "lacuna",
           "atributo": "festas",
@@ -776,18 +855,26 @@
         },
         {
           "tipo": "lacuna",
-          "atributo": "elementos",
-          "tradicao": null
-        },
-        {
-          "tipo": "lacuna",
           "atributo": "funcoes",
           "tradicao": null
         }
       ]
     },
     {
-      "n": 24,
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "logunede-030"
+        },
+        {
+          "tipo": "registro",
+          "registro": "logunede-028"
+        }
+      ]
+    },
+    {
+      "n": 27,
       "itens": [
         {
           "tipo": "pendencia",
@@ -796,7 +883,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 28,
       "itens": [
         {
           "tipo": "pendencia",

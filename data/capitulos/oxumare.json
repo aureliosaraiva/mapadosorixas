@@ -7,7 +7,7 @@
   "orixa": "oxumare",
   "titulo": "Oxumarê, o arco-íris e a serpente",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -41,7 +41,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nos registros, o nome aparece como Oxumarê, Oxumaré e Oxunmarê; a forma Oshumare vem de documentos coloniais da Costa dos Escravos "
+              "v": "Nos registros, o nome aparece como Oxumarê, Oxumaré e Oxunmarê, esta última numa casa de Salvador, na Bahia; a forma Oshumare vem de documentos coloniais da Costa dos Escravos "
             },
             {
               "t": "nota",
@@ -206,6 +206,23 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro do candomblé queto, Oxumarê é o orixá do arco-íris, masculino e feminino ao mesmo tempo, que protege a riqueza das colheitas trazida pela chuva; tem a chuva e o tempo atmosférico como elemento natural e a água como mítico, veste amarelo, verde e preto, usa contas dessas cores ou de búzios, leva espada e cobras de metal e fica com o sábado "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -232,7 +249,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 15
             },
             {
               "t": "texto",
@@ -249,7 +266,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 16
             },
             {
               "t": "texto",
@@ -257,7 +274,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 17
             },
             {
               "t": "texto",
@@ -284,7 +301,24 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, Oxumarê se aproxima dos voduns Dã e Bessém e do inquice Angorô, e o santo que lhe cabe é São Bartolomeu "
+            },
+            {
+              "t": "nota",
+              "n": 19
             },
             {
               "t": "texto",
@@ -315,7 +349,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 20
             },
             {
               "t": "texto",
@@ -336,7 +370,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 21
             },
             {
               "t": "texto",
@@ -344,7 +378,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 22
             },
             {
               "t": "texto",
@@ -365,7 +399,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 23
             },
             {
               "t": "texto",
@@ -386,7 +420,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 24
             },
             {
               "t": "texto",
@@ -409,7 +443,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 25
             },
             {
               "t": "texto",
@@ -432,7 +466,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 26
             },
             {
               "t": "texto",
@@ -440,7 +474,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 27
             },
             {
               "t": "texto",
@@ -463,7 +497,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 28
             },
             {
               "t": "texto",
@@ -471,7 +505,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 29
             },
             {
               "t": "texto",
@@ -488,7 +522,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 30
             },
             {
               "t": "texto",
@@ -691,12 +725,37 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "oxumare-012"
+          "registro": "oxumare-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-035"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-038"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-037"
         }
       ]
     },
     {
       "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-012"
+        }
+      ]
+    },
+    {
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -713,7 +772,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -722,7 +781,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -743,7 +802,20 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-040"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxumare-039"
+        }
+      ]
+    },
+    {
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -768,7 +840,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -785,7 +857,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -794,7 +866,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -803,7 +875,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -812,7 +884,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -829,7 +901,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -842,7 +914,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -851,7 +923,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 28,
       "itens": [
         {
           "tipo": "lacuna",
@@ -876,7 +948,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 29,
       "itens": [
         {
           "tipo": "pendencia",
@@ -885,7 +957,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 30,
       "itens": [
         {
           "tipo": "pendencia",

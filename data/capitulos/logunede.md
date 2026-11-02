@@ -27,6 +27,8 @@ A roupa conta a dupla filiação. Nas casas ketu de São Paulo, ela se divide ao
 
 Por unir traços de Oxum e de Oxóssi, Logunedé costuma ser representado como menino ou adolescente, traço que a tradição oral atribui à sua afinidade com os Ibêjis {{ref:logunede-020}}.
 
+No quadro do candomblé queto, Logun-Edé é o orixá dos rios que cortam a mata, masculino e feminino em alternância, com o mesmo campo de proteção dos seus pais, Oxum e Oxóssi; tem rios e florestas como elemento natural e água e terra como mítico, veste dourado e azul-turquesa, usa contas de dourado translúcido alternadas com turquesa, leva ofá e abebê e fica com a quinta-feira {{ref:logunede-027,logunede-034,logunede-028,logunede-029,logunede-031,logunede-030}}.
+
 ## Mitos {#mitos}
 
 O mito mais citado divide o ano de Logunedé entre os pais ([Logunedé entre a mata de Oxóssi e o rio de Oxum](ita:ita-021)). Num candomblé ketu de São Paulo, conta-se que ele passa seis meses caçando no mato com Oxóssi e os outros seis pescando no rio com Oxum {{ref:logunede-010}}.
@@ -40,6 +42,8 @@ Quanto ao pai, as casas discordam. Nos candomblés baianos de meados do século 
 ### Candomblé ketu, ijexá e efon
 
 Nos candomblés baianos, Logunedê aparecia como uma das formas de Oxóssi; nas casas paulistas é um orixá próprio, filho do caçador e de Oxum, com roupa e insígnias que somam os dois lados. O culto é lembrado sobretudo na nação [ijexá](tradicao:candomble_ijexa), mas existe também no ketu e no [efon](tradicao:candomble_efon) {{ref:logunede-001,logunede-007,logunede-017,logunede-016}}.
+
+No quadro de correspondências do candomblé queto, Logun-Edé se aproxima do vodum Bosso Jara, e o santo que lhe cabe é São Miguel Arcanjo {{ref:logunede-033,logunede-032}}.
 
 ### Candomblé angola
 
@@ -63,6 +67,6 @@ José Roberto Lima Santos, que estudou a roupa do orixá num candomblé paulista
 
 ## O que as fontes não dizem {#lacunas}
 
-O fichamento não tem registro do dia da semana, das festas, da saudação, do elemento da natureza ou das funções de Logunedé {{lacuna:dia_semana}}{{lacuna:festas}}{{lacuna:saudacao}}{{lacuna:elementos}}{{lacuna:funcoes}}. Também não se decidiu se a Yewá próxima dele é Ewá ou outra divindade, a Iyewa, que a lista do projeto mantém separada {{pendencia:"Yewá" em Santos 2023}}.
+O fichamento não tem registro das festas, da saudação ou das funções de Logunedé {{lacuna:festas}}{{lacuna:saudacao}}{{lacuna:funcoes}}; o dia da semana e os elementos vêm de um único quadro do candomblé queto {{ref:logunede-030,logunede-028}}. Também não se decidiu se a Yewá próxima dele é Ewá ou outra divindade, a Iyewa, que a lista do projeto mantém separada {{pendencia:"Yewá" em Santos 2023}}.
 
 O livro de Nei Lopes sobre Logunedé só foi lido por meio de citação, e um itã das coletâneas de Prandi, transcrito no estudo paulista, ainda não foi fichado porque deve ser conferido no exemplar {{pendencia:Lopes, *Logunedé* (2006)}}{{pendencia:Santos 2023 (pp. 82–85) transcreve um itã de Prandi 2001}}.

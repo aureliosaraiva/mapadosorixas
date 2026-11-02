@@ -2,7 +2,7 @@
 orixa: omolu
 titulo: Omolu e Obaluaê, a terra, a doença e a cura
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Omolu, também chamado Obaluaê, é o orixá coberto de palha. Nos terreiros da Bahia, de São Paulo e do Recife, ele é temido pela ligação com a varíola e as doenças de pele, mas também procurado como curador dos pobres; sua origem é daomeana, e em toda parte ele se encontra com voduns e nkisis aparentados. Mudam o nome que se pode dizer em voz alta, o dia, a festa e o santo, e este capítulo acompanha essas versões sem escolher entre elas {{ref:omolu-010,omolu-005,omolu-028,omolu-040,omolu-006}}.
@@ -37,6 +37,8 @@ O dia também o aproxima de Exu. Na distribuição mais comum dos candomblés ba
 
 As festas variam bastante. Num calendário que valeria para o Recife e para os candomblés bantos da Bahia, a festa de Obaluaiê é em 20 de janeiro; num candomblé de Ogum da Bahia, o calendário reserva a Omolu um domingo e o dia que vem depois dele; nos terreiros de Salvador e São Paulo, o dia dele é 16 de agosto {{ref:omolu-021,omolu-020,omolu-032}}. No Maranhão, o banquete dos cachorros, promessa feita a São Lázaro em muitas partes do Brasil em honra de Omolu, de Xapanã e dos orixás do seu grupo, acontece na Casa das Minas a 20 de janeiro, em homenagem a Acossi Sakpatá. Na casa de Tambor de Mina de Diadema, as festas dos voduns correspondentes se concentram em janeiro, e no dia de São Sebastião há o banquete dos cachorros e a mesa dos inocentes, enquanto a festa de Acóssi cai na data de São Lázaro {{ref:omolu-022,omolu-023}}. Em Cuba, a festa de Babalú Ayé com São Lázaro, a 17 de dezembro, está entre as mais concorridas da santería, com tronos, tambores e peregrinações {{ref:omolu-046}}.
 
+Nos terreiros paulistas de candomblé, Obaluaiê, também chamado Omulu, governa a varíola, as pestes e as enfermidades, assim como a cura delas, e se liga aos cemitérios, à terra e ao subsolo; seu cumprimento é Atotô {{ref:omolu-047,omolu-056,omolu-049}}. No quadro do candomblé queto, ele protege a cura das doenças do corpo, tem a terra como elemento natural e mítico, veste vermelho, branco e preto sob um capuz de palha, usa contas das mesmas cores, carrega o xaxará de fibra de dendezeiro com búzios e fica com a segunda-feira {{ref:omolu-050,omolu-051,omolu-052,omolu-054,omolu-053}}.
+
 ## Mitos {#mitos}
 
 O único mito de Omolu que já passou pelo fichamento vem dos terreiros de Salvador e São Paulo ([Omulu, o filho expulso que volta para curar a aldeia](ita:ita-030)). Suspeito de feitiçaria, ele é expulso de casa pelo pai e vaga durante anos, sofrendo, até ser dado como morto. Quando volta, tem o corpo coberto de feridas e cicatrizes, mas está vivo, e encontra a aldeia arrasada por uma epidemia; usando o que aprendeu sobre as plantas que curam, salva os moradores e depois é divinizado {{ref:omolu-036}}.
@@ -48,6 +50,8 @@ As genealogias variam com a casa. Na Bahia, Omolu é filho de Nanã e de Oxalá,
 ### Candomblé ketu
 
 Na Bahia de meados do século passado, Omolu se desdobrava em catorze qualidades, das quais as mais conhecidas eram o Omolu jovem e o Omolu velho, chamado Abaluaiê; outro levantamento contou vinte e uma {{ref:omolu-017}}.
+
+No quadro de correspondências do candomblé queto, Obaluaiê se aproxima dos voduns Acóssi-Sapatá e Xapanã e dos inquices Cafunã e Cavungo {{ref:omolu-055}}.
 
 ### Candomblé jeje e angola
 
@@ -77,6 +81,8 @@ Na santería cubana, Babalú Ayé é chamado sobretudo de San Lázaro, e sua fes
 
 Dois santos dividem o sincretismo de Omolu. São Sebastião é o mais lembrado no Recife: num calendário que valeria também para os candomblés bantos da Bahia, a festa de Obaluaiê cai no dia desse santo, 20 de janeiro, e no nagô do Recife ele é em geral associado a São Sebastião {{ref:omolu-020,omolu-043}}. São Lázaro, também ele chagado e vencedor da morte, é o santo de Omulu nos terreiros de Salvador e São Paulo e o de Babalú Ayé em Cuba {{ref:omolu-030,omolu-045}}. Na casa de Tambor de Mina de Diadema, cada vodum correspondente tem o seu santo: São Sebastião para Azonce e Xapanã, São Lázaro para Acóssi, São Roque para Azile e Lepom, São Manoel para Polibogi e os Santos Reis para Zomadônu {{ref:omolu-024}}.
 
+Nos terreiros paulistas de candomblé, os santos de Obaluaiê são São Lázaro e São Roque {{ref:omolu-048}}.
+
 ## Leituras acadêmicas {#leituras-academicas}
 
 Roger Bastide, apoiado num estudo antigo sobre o Daomé, sustentou que Sakpata-Omolu é antes de tudo um deus da terra e que a varíola é apenas o castigo que ele manda; propôs ainda duas razões, compatíveis entre si, para a segunda-feira de Exu e Omolu: os dois são perigosos para quem os despreza e devem ser aplacados no começo da semana, e os dois são divindades da terra. O mesmo autor lia os catorze Omolus como produto do número sete {{ref:omolu-006,omolu-002,omolu-017}}.
@@ -85,6 +91,6 @@ Sylvie Chiousse aproxima a ideia de que Omulu só trata males visíveis do modo 
 
 ## O que as fontes não dizem {#lacunas}
 
-Nenhum registro fichado traz a saudação de Omolu, que costuma constar dos dicionários especializados ainda não consultados {{lacuna:saudacao}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
+A saudação Atotô aparece entre os atributos citados nos terreiros paulistas de candomblé, mas ainda não foi conferida nos dicionários especializados {{ref:omolu-049}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
 
 O fichamento tem um só mito de Omolu. As coletâneas de Prandi e de Verger, onde estariam outros, e a obra de Verger sobre as cidades de culto só existem impressas {{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Verger, *Orixás* (Corrupio, 1981)}}.

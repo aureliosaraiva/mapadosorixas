@@ -35,7 +35,7 @@ No [culto iorubá](tradicao:ioruba_nigeria), Ori é a divindade pessoal e domés
 
 ### Candomblé
 
-Nos [candomblés da Bahia](tradicao:candomble_ketu), as casas mais tradicionais distinguem o Eledá do orixá da cabeça, enquanto nas [casas bantas](tradicao:candomble_angola) se tende a juntá-los; a maioria dos informantes baianos, de todo modo, identificava eledá e orixá pessoal {{ref:ori-006,ori-008}}. Um estudo sobre o candomblé descreve a pessoa como alguém que chega do Orum ao Ayê sob a tutela do orixá que lhe governa a cabeça {{ref:ori-009}}.
+Nos [candomblés da Bahia](tradicao:candomble_ketu), as casas mais tradicionais distinguem o Eledá do orixá da cabeça, enquanto nas [casas bantas](tradicao:candomble_angola) se tende a juntá-los; a maioria dos informantes baianos, de todo modo, identificava eledá e orixá pessoal {{ref:ori-006,ori-008}}. Um estudo sobre o candomblé descreve a pessoa como alguém que chega do Orum ao Ayê sob a tutela do orixá que lhe governa a cabeça {{ref:ori-009}}. Nos terreiros paulistas de candomblé, cada pessoa tem um orixá senhor da cabeça, revelado pelos búzios, e um segundo, o juntó, que o completa e em geral é do sexo oposto, como se houvesse um pai e uma mãe divinos; e um provérbio repetido nas casas ensina que, antes de louvar os deuses, é preciso estar bem com a própria cabeça {{ref:ori-011,ori-012}}.
 
 ### Umbanda
 

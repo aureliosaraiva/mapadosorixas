@@ -7,7 +7,7 @@
   "orixa": "iemanja",
   "titulo": "Iemanjá, as águas, a maternidade e as festas do mar",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -23,6 +23,14 @@
             {
               "t": "nota",
               "n": 1
+            },
+            {
+              "t": "texto",
+              "v": ". A devoção também sai dos terreiros para as praças: há estátuas dela em boa parte das cidades da costa, e sua festa atravessou a fronteira sul e chegou a Montevidéu "
+            },
+            {
+              "t": "nota",
+              "n": 2
             },
             {
               "t": "texto",
@@ -45,7 +53,7 @@
             },
             {
               "t": "nota",
-              "n": 2
+              "n": 3
             },
             {
               "t": "texto",
@@ -62,7 +70,7 @@
             },
             {
               "t": "nota",
-              "n": 3
+              "n": 4
             },
             {
               "t": "texto",
@@ -85,7 +93,7 @@
             },
             {
               "t": "nota",
-              "n": 4
+              "n": 5
             },
             {
               "t": "texto",
@@ -102,7 +110,7 @@
             },
             {
               "t": "nota",
-              "n": 5
+              "n": 6
             },
             {
               "t": "texto",
@@ -110,7 +118,7 @@
             },
             {
               "t": "nota",
-              "n": 6
+              "n": 7
             },
             {
               "t": "texto",
@@ -127,7 +135,181 @@
             },
             {
               "t": "nota",
-              "n": 7
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "As estátuas do litoral"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A sereia é a forma mais conhecida de Iemanjá, e suas estátuas se espalham por quase todo o litoral brasileiro, partilhadas pelo Candomblé e pela Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". O modelo que se popularizou a partir de meados do século XX é o de uma mulher de pele clara, aparentada às imagens de Maria; nas últimas décadas surgiram figuras africanizadas, de pele escura e com outras vestes e adereços. Essas esculturas costumam marcar o ponto onde se fazem as festas, cujas datas não seguem um calendário único e se cruzam com o católico, e muitas delas já foram agredidas e desfiguradas "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "São Luís, entre o Tambor de Mina, a encantaria e a Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na capital do Maranhão, Iemanjá pertence a mais de uma tradição. Nas casas jeje-nagô do "
+            },
+            {
+              "t": "link",
+              "rotulo": "Tambor de Mina",
+              "tipo": "tradicao",
+              "alvo": "tambor_de_mina"
+            },
+            {
+              "t": "texto",
+              "v": " ela convive com os voduns; nas encantarias, aproxima-se dos encantados que moram nas águas, como a Mãe d'Água, os botos e as sereias; e na "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": " aparece à frente de entidades, como em outras regiões do país "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". Uma segunda imagem dela fica no Porto do Itaqui, fechada ao público, já que, para os religiosos, aquele trecho do litoral faz parte do domínio da encantaria "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Praia do Olho d'Água, as caravanas de terreiros chegam no último dia do ano e varam a madrugada entre banhos de mar, presentes e tambores, costume que remonta à década de 1930; no dia 2 de fevereiro é a vez das casas da capital e arredores, que terminam na areia a festa aberta em seus barracões "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". A praça da praia teve três imagens. A primeira, dos anos 1970, deu lugar a outra muito parecida, que caiu, foi enterrada na areia e acabou restaurada por gente de um terreiro em 2019, antes de ser destruída pelas máquinas que alargaram a avenida litorânea; a atual, do escultor Eduardo Sereno, tem rosto de traços negros e indígenas, como a população maranhense, e mantém a coroa, os cabelos longos, o vestido azul e as conchas aos pés "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As lideranças religiosas que acompanharam a obra queixam-se de uma praça acanhada para as multidões das festas, estimadas em cinco mil pessoas, e do esgoto que corre por baixo dela, e dizem que a imagem, por não ter recebido o assentamento ritual, é uma escultura turística. Mesmo assim, flores, comidas e velas aparecem todos os dias no pedestal. Em julho de 2023, um ataque destruiu o rosto da estátua; as lideranças falaram em racismo religioso, e o próprio escultor a restaurou com verba pública "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Do Rio Grande do Sul ao Uruguai"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Uruguai, o culto entrou junto com os cultos afro-brasileiros vindos do Rio Grande do Sul a partir da década de 1950, com sacerdotes uruguaios iniciados em casas gaúchas, sobretudo em Porto Alegre e em Santana do Livramento, e daí seguiu para a Argentina "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". A festa na Playa Ramírez, em Montevidéu, teria começado nos anos 1960 por iniciativa de um vendedor de velas, Constantino Rayol, dono de um programa radiofônico de música umbandista e levava devotos em viagens, até mesmo à praia do Cassino, onde há outra Iemanjá; durante a ditadura uruguaia, uma delas fez as oferendas sob a vigilância de soldados "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": ". A estátua da praça vizinha, ao lado da sede do Mercosul, completou trinta anos em 2024, e as datas da sua história divergem: a prefeitura de Montevidéu diz que a obra de Ulrico Habegger subiu em 1994, a pedido de Pai Armando Ayala, enquanto outro estudo conta um percurso mais lento: proposta em 1988, aval em 1994 e estátua de pé apenas em 1998 "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem também é contada de modos diferentes. Na imprensa uruguaia, o culto aparece como vindo direto da Nigéria pelo tráfico de escravizados, sem passagem pelo Brasil; quem estava na festa admite a importância do Brasil, e Mãe Susana Andrade, liderança afroumbandista, vê a raiz uruguaia como mais afro-brasileira que africana, sem esquecer os ritos das Salas de Nación "
+            },
+            {
+              "t": "nota",
+              "n": 19
             },
             {
               "t": "texto",
@@ -150,7 +332,15 @@
             },
             {
               "t": "nota",
-              "n": 8
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros paulistas de candomblé, ela reina sobre o mar, os oceanos e os rios caudalosos, e um quadro do candomblé queto dá a ela o mar e os grandes rios como elemento natural e a água como elemento mítico "
+            },
+            {
+              "t": "nota",
+              "n": 21
             },
             {
               "t": "texto",
@@ -167,7 +357,7 @@
             },
             {
               "t": "nota",
-              "n": 9
+              "n": 22
             },
             {
               "t": "texto",
@@ -175,7 +365,15 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": ". No mesmo quadro do candomblé queto, ela protege a maternidade, a família e a saúde mental, e nos terreiros paulistas é chamada de grande mãe, do panteão e do próprio país "
+            },
+            {
+              "t": "nota",
+              "n": 24
             },
             {
               "t": "texto",
@@ -192,7 +390,15 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": ". No candomblé queto, seus objetos rituais são um abano de metal branco e uma espada "
+            },
+            {
+              "t": "nota",
+              "n": 26
             },
             {
               "t": "texto",
@@ -209,7 +415,15 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": ". No quadro do candomblé queto, o azul-claro das vestes vem junto do branco e do verde-claro, e as contas são de vidro incolor, intercaladas com azul ou verde "
+            },
+            {
+              "t": "nota",
+              "n": 28
             },
             {
               "t": "texto",
@@ -222,11 +436,19 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O sábado é o dia mais citado. Na distribuição mais comum da Bahia e no Ilê Axé Opô Afonjá, Iemanjá o divide com Oxum, e o mesmo dia lhe cabe nos terreiros de Salvador e São Paulo. Em Porto Alegre, porém, a sexta-feira é de Iemanjá e de Odé, filho que se diz levado no colo por ela "
+              "v": "O sábado é o dia mais citado. Na distribuição mais comum da Bahia e no Ilê Axé Opô Afonjá, Iemanjá o divide com Oxum, e o mesmo dia lhe cabe nos terreiros de Salvador e São Paulo e no quadro do candomblé queto "
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": ". Em Porto Alegre, porém, a sexta-feira é de Iemanjá e de Odé, filho que se diz levado no colo por ela "
+            },
+            {
+              "t": "nota",
+              "n": 30
             },
             {
               "t": "texto",
@@ -259,7 +481,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 31
             },
             {
               "t": "texto",
@@ -276,7 +498,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 32
             },
             {
               "t": "texto",
@@ -293,7 +515,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 33
             },
             {
               "t": "texto",
@@ -301,7 +523,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 34
             },
             {
               "t": "texto",
@@ -309,7 +531,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 35
             },
             {
               "t": "texto",
@@ -336,7 +558,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 36
             },
             {
               "t": "texto",
@@ -344,7 +566,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 37
             },
             {
               "t": "texto",
@@ -365,7 +587,15 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": ". O quadro de correspondências do candomblé queto fica com a primeira leitura e põe ao lado de Iemanjá os inquices Dandalunda e Quissembe, além do vodum Abê "
+            },
+            {
+              "t": "nota",
+              "n": 39
             },
             {
               "t": "texto",
@@ -396,7 +626,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 40
             },
             {
               "t": "texto",
@@ -404,7 +634,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 41
             },
             {
               "t": "texto",
@@ -435,7 +665,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 42
             },
             {
               "t": "texto",
@@ -456,7 +686,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 43
             },
             {
               "t": "texto",
@@ -464,7 +694,15 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 44
+            },
+            {
+              "t": "texto",
+              "v": ". Em São Luís, como se viu, ela divide as casas jeje-nagô com os voduns, e a praia do Olho d'Água recebe terreiros de Mina e de Umbanda na virada do ano e em 2 de fevereiro "
+            },
+            {
+              "t": "nota",
+              "n": 45
             },
             {
               "t": "texto",
@@ -495,7 +733,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 46
             },
             {
               "t": "texto",
@@ -503,7 +741,60 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 47
+            },
+            {
+              "t": "texto",
+              "v": ". Em São Luís, a Umbanda põe Iemanjá no comando de entidades, e a federação maranhense de Umbanda tem organizado o réveillon na praia "
+            },
+            {
+              "t": "nota",
+              "n": 48
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "No Uruguai: Umbanda e Batuque"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Uruguai, onde se fala em religiões afroumbandistas, a Umbanda e o Batuque de origem gaúcha convivem com a quimbanda e o candomblé, e muitas casas se reúnem em federações que, desde a década de 2000, falam por elas diante do Estado "
+            },
+            {
+              "t": "nota",
+              "n": 49
+            },
+            {
+              "t": "texto",
+              "v": ". O calendário dessas casas é quase todo interno, e as únicas festas abertas ao público são a de Iemanjá, em 2 de fevereiro, e a de Oxum, em 8 de dezembro "
+            },
+            {
+              "t": "nota",
+              "n": 50
+            },
+            {
+              "t": "texto",
+              "v": ". Na Playa Ramírez, em Montevidéu, há quem acampe na véspera para garantir o lugar das tendas dos pais e mães de santo; ao longo do dia, os fiéis deixam flores no rio, rezam e se banham, saindo da água de frente para ela, e, quando escurece, crescem os transes e se acendem velas em covas na areia, entre frutas e flores brancas oferecidas "
+            },
+            {
+              "t": "nota",
+              "n": 51
+            },
+            {
+              "t": "texto",
+              "v": ". Nas tendas veem-se imagens da orixá, algumas centenárias, e uma sacerdotisa diz que as melhores vêm de Porto Alegre e da Argentina "
+            },
+            {
+              "t": "nota",
+              "n": 52
             },
             {
               "t": "texto",
@@ -524,7 +815,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 53
             },
             {
               "t": "texto",
@@ -547,7 +838,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 54
             },
             {
               "t": "texto",
@@ -555,7 +846,15 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 55
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros paulistas de candomblé, ao lado da Conceição aparece também a Aparecida, padroeira do país, e um quadro do candomblé queto repete o par com a Conceição "
+            },
+            {
+              "t": "nota",
+              "n": 56
             },
             {
               "t": "texto",
@@ -572,7 +871,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 57
             },
             {
               "t": "texto",
@@ -580,7 +879,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 58
             },
             {
               "t": "texto",
@@ -603,7 +902,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 59
             },
             {
               "t": "texto",
@@ -611,7 +910,32 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 60
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Estudos recentes olham para o espaço público. Emerson Giumbelli e Greilson Lima comparam a Iemanjá de São Luís a um Cristo gaúcho e a uma Bíblia fluminense e concluem que só ela foi pensada para receber culto, sem que ninguém contestasse em nome da laicidade o apoio do governo, embora os símbolos cristãos sigam com os lugares mais vistosos das cidades "
+            },
+            {
+              "t": "nota",
+              "n": 61
+            },
+            {
+              "t": "texto",
+              "v": ". Rafael Noleto e Marcus Negrão, na festa de Montevidéu, mostram como versões uruguaias que buscam uma origem africana direta convivem com o reconhecimento da matriz afro-brasileira "
+            },
+            {
+              "t": "nota",
+              "n": 62
             },
             {
               "t": "texto",
@@ -630,11 +954,19 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "As saudações Odoyá e Odô Fiaba aparecem num levantamento de canções, mas ainda não foram conferidas em fonte etnográfica ou em dicionário "
+              "v": "A saudação Odoyá aparece num levantamento de canções e entre os atributos citados nos terreiros paulistas de candomblé; Odô Fiaba só consta do primeiro, e nenhuma das duas foi conferida em dicionário "
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 63
+            },
+            {
+              "t": "texto",
+              "v": ". As versões africanizadas da imagem de Iemanjá e a cronologia do monumento de Montevidéu se apoiam em estudos ainda não lidos no original "
+            },
+            {
+              "t": "nota",
+              "n": 64
             },
             {
               "t": "texto",
@@ -642,7 +974,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 65
             },
             {
               "t": "texto",
@@ -650,7 +982,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 66
             },
             {
               "t": "texto",
@@ -658,7 +990,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 67
             },
             {
               "t": "texto",
@@ -696,6 +1028,19 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "iemanja-067"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-087"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "iemanja-038"
         },
         {
@@ -709,7 +1054,7 @@
       ]
     },
     {
-      "n": 3,
+      "n": 4,
       "itens": [
         {
           "tipo": "registro",
@@ -718,7 +1063,7 @@
       ]
     },
     {
-      "n": 4,
+      "n": 5,
       "itens": [
         {
           "tipo": "registro",
@@ -731,7 +1076,7 @@
       ]
     },
     {
-      "n": 5,
+      "n": 6,
       "itens": [
         {
           "tipo": "registro",
@@ -744,7 +1089,7 @@
       ]
     },
     {
-      "n": 6,
+      "n": 7,
       "itens": [
         {
           "tipo": "registro",
@@ -753,7 +1098,7 @@
       ]
     },
     {
-      "n": 7,
+      "n": 8,
       "itens": [
         {
           "tipo": "registro",
@@ -766,7 +1111,126 @@
       ]
     },
     {
-      "n": 8,
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-067"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-077"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-079"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-075"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-076"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-085"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-080"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-081"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-078"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-082"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-083"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-084"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-093"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-091"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-092"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-094"
+        }
+      ]
+    },
+    {
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -787,7 +1251,20 @@
       ]
     },
     {
-      "n": 9,
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-065"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-070"
+        }
+      ]
+    },
+    {
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -804,7 +1281,7 @@
       ]
     },
     {
-      "n": 10,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -813,7 +1290,20 @@
       ]
     },
     {
-      "n": 11,
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-069"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-065"
+        }
+      ]
+    },
+    {
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -842,7 +1332,16 @@
       ]
     },
     {
-      "n": 12,
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-073"
+        }
+      ]
+    },
+    {
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -855,7 +1354,16 @@
       ]
     },
     {
-      "n": 13,
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-071"
+        }
+      ]
+    },
+    {
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -871,12 +1379,21 @@
         },
         {
           "tipo": "registro",
+          "registro": "iemanja-072"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "iemanja-009"
         }
       ]
     },
     {
-      "n": 14,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -885,7 +1402,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -894,7 +1411,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -907,7 +1424,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -920,7 +1437,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -933,7 +1450,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -942,7 +1459,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -959,7 +1476,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -972,7 +1489,16 @@
       ]
     },
     {
-      "n": 22,
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-074"
+        }
+      ]
+    },
+    {
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -997,7 +1523,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1006,7 +1532,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1015,7 +1541,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1024,7 +1550,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1041,7 +1567,20 @@
       ]
     },
     {
-      "n": 27,
+      "n": 45,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-075"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-080"
+        }
+      ]
+    },
+    {
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1050,7 +1589,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1063,7 +1602,64 @@
       ]
     },
     {
-      "n": 29,
+      "n": 48,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-076"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-080"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-090"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-088"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-062"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-087"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-089"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-095"
+        }
+      ]
+    },
+    {
+      "n": 53,
       "itens": [
         {
           "tipo": "registro",
@@ -1076,7 +1672,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1093,7 +1689,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 55,
       "itens": [
         {
           "tipo": "registro",
@@ -1106,7 +1702,16 @@
       ]
     },
     {
-      "n": 32,
+      "n": 56,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-066"
+        }
+      ]
+    },
+    {
+      "n": 57,
       "itens": [
         {
           "tipo": "registro",
@@ -1115,7 +1720,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 58,
       "itens": [
         {
           "tipo": "registro",
@@ -1132,7 +1737,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 59,
       "itens": [
         {
           "tipo": "registro",
@@ -1149,7 +1754,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 60,
       "itens": [
         {
           "tipo": "registro",
@@ -1162,11 +1767,33 @@
       ]
     },
     {
-      "n": 36,
+      "n": 61,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-086"
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-094"
+        }
+      ]
+    },
+    {
+      "n": 63,
       "itens": [
         {
           "tipo": "registro",
           "registro": "iemanja-044"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-068"
         },
         {
           "tipo": "pendencia",
@@ -1175,7 +1802,20 @@
       ]
     },
     {
-      "n": 37,
+      "n": 64,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Salomão (2012), dissertação sobre representações artísticas de Iemanjá"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Massonnier (2015), sobre o Monumento a Iemanjá em Montevidéu"
+        }
+      ]
+    },
+    {
+      "n": 65,
       "itens": [
         {
           "tipo": "pendencia",
@@ -1192,7 +1832,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 66,
       "itens": [
         {
           "tipo": "registro",
@@ -1201,7 +1841,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 67,
       "itens": [
         {
           "tipo": "lacuna",

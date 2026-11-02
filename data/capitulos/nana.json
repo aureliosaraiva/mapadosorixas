@@ -7,7 +7,7 @@
   "orixa": "nana",
   "titulo": "Nanã, a mais velha das águas",
   "status": "rascunho",
-  "atualizado": "2026-11-01",
+  "atualizado": "2026-11-02",
   "secoes": [
     {
       "slug": "abertura",
@@ -283,6 +283,23 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro do candomblé queto, Nanã é a orixá do lodo do fundo das águas, ligada à educação, à senioridade e à morte; tem a lama e o pântano como elemento natural e a água como mítico, veste púrpura, azul e branco, usa contas brancas rajadas de azul-cobalto, leva o ibiri e fica com a segunda-feira "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -299,7 +316,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 20
             },
             {
               "t": "texto",
@@ -307,7 +324,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -324,7 +341,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -332,7 +349,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -359,7 +376,24 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No quadro de correspondências do candomblé queto, o vodum que responde a Nanã tem o mesmo nome dela, e a santa que lhe cabe é Santana "
+            },
+            {
+              "t": "nota",
+              "n": 25
             },
             {
               "t": "texto",
@@ -390,7 +424,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 26
             },
             {
               "t": "texto",
@@ -421,7 +455,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 27
             },
             {
               "t": "texto",
@@ -452,7 +486,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 28
             },
             {
               "t": "texto",
@@ -483,7 +517,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 29
             },
             {
               "t": "texto",
@@ -506,7 +540,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 30
             },
             {
               "t": "texto",
@@ -529,7 +563,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 31
             },
             {
               "t": "texto",
@@ -546,7 +580,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 32
             },
             {
               "t": "texto",
@@ -569,7 +603,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 33
             },
             {
               "t": "texto",
@@ -586,7 +620,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 34
             },
             {
               "t": "texto",
@@ -869,6 +903,31 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "nana-035"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-036"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-037"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-039"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-038"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "nana-010"
         },
         {
@@ -886,7 +945,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -895,7 +954,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -916,7 +975,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -933,7 +992,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -958,7 +1017,20 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "nana-041"
+        },
+        {
+          "tipo": "registro",
+          "registro": "nana-040"
+        }
+      ]
+    },
+    {
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -967,7 +1039,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -980,7 +1052,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -997,7 +1069,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1018,7 +1090,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1035,7 +1107,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1052,7 +1124,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1065,7 +1137,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 33,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1079,7 +1151,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 34,
       "itens": [
         {
           "tipo": "lacuna",

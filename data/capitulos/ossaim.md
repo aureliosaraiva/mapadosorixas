@@ -2,7 +2,7 @@
 orixa: ossaim
 titulo: Ossaim, as folhas, o mato e o segredo das ervas
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Sem folha não há rito: banho, iniciação ou cura passam todos pelas plantas, e as plantas pertencem a Ossaim. É um orixá que quase nunca dança na roda, mas de quem a casa inteira depende, e que os terreiros descrevem ao mesmo tempo como dono do mato, curador e figura difícil de definir {{ref:ossaim-001,ossaim-007,ossaim-033}}.
@@ -33,6 +33,8 @@ Na figura do orixá falta uma perna e falta um olho, imagem que se liga à lembr
 
 Nos candomblés, a saudação lembra as folhas: euê ô, sendo ewê a palavra iorubá para folha. No Recife, com reserva, as cores seriam o verde e o vermelho. No Batuque de Porto Alegre, Ossanhe divide a segunda-feira com Bara, Odê e Otum {{ref:ossaim-027,ossaim-036,ossaim-035}}. O fichamento não tem registro de festa própria {{lacuna:festas}}.
 
+No quadro do candomblé queto, Ossaim é o orixá da vegetação, que dá força aos remédios e à arte de curar; tem as folhas e a terra como elementos, veste verde e branco, com contas alternadas nessas cores, leva uma lança e três cabaças onde guarda as folhas sagradas e fica com a quinta-feira {{ref:ossaim-041,ossaim-042,ossaim-043,ossaim-045,ossaim-044}}.
+
 ## Mitos {#mitos}
 
 Três histórias explicam quem é Ossaim. A primeira conta como as folhas, que eram só dele, passaram a ser de todos ([Iansã sacode as saias e espalha as folhas de Ossaim](ita:ita-017)). Na versão dos terreiros de Salvador e São Paulo, Olorun deu a Ossaim o saber das plantas, e ele não o dividia. Xangô se queixou a Iansã, senhora dos ventos, que sacudiu as saias até soprar um vendaval; a cabaça onde as folhas ficavam se abriu, e o que caiu foi apanhado e dividido entre os orixás. Desde então cada orixá tem as suas, sem que Ossaim deixe de ser o senhor das plantas. Em Cuba, a mesma história era contada com Oyá sacudindo as dobras da roupa a pedido de Xangô {{ref:ossaim-018,iansa-021}}. Um mito cubano da criação vai na mesma direção: quando o Pai Eterno repartiu o universo entre os filhos, o segredo das ervas coube a Ossaim. Numa narrativa baiana da partilha, Olorun entrega os elementos a Oxalá para que ele os distribua entre os orixás, e Ossaim está entre os contemplados ([Olorun entrega a Oxalá os elementos](ita:ita-027)) {{ref:olodumare-018,oxala-040}}.
@@ -48,6 +50,8 @@ O laço com Oxóssi também passa pelos mitos. Ossaim é o orixá que mais repar
 ### Candomblé ketu
 
 Nos candomblés baianos, Ossaim é o senhor do mato, sem transe, com pegi ao ar livre e um sacerdote próprio que colhe as ervas; os quatro sacerdócios da casa lhe reservam o plano da natureza {{ref:ossaim-006,ossaim-009,ossaim-012}}.
+
+No quadro de correspondências do candomblé queto, Ossaim se aproxima do vodum Agué e do inquice Catendê {{ref:ossaim-047}}.
 
 ### Xangô do Recife e Batuque
 
@@ -71,7 +75,7 @@ Em Matanzas, Osain tem santo parado na entrada do barracão do central Méjico, 
 
 ## Sincretismo {#sincretismo}
 
-Nenhum registro do fichamento associa Ossaim a um santo católico; no terreiro de Mina de São Paulo, o quadro da casa não indica santo para Alogué {{ref:ossaim-039}}{{lacuna:sincretismo}}.
+No terreiro de Mina de São Paulo, o quadro da casa não indica santo para Alogué; no quadro do candomblé queto, o santo de Ossaim é Santo Onofre {{ref:ossaim-039,ossaim-046}}.
 
 ## Leituras acadêmicas {#leituras-academicas}
 
@@ -83,6 +87,6 @@ A divergência sobre o transe também é acadêmica: Bastide, na Bahia, e Arnaud
 
 ## O que as fontes não dizem {#lacunas}
 
-O fichamento não tem registro de origem africana precisa, de festa, de sincretismo, de elementos ou de animais de Ossaim {{lacuna:origem}}{{lacuna:festas}}{{lacuna:sincretismo}}{{lacuna:elementos}}{{lacuna:animais}}. A colheita ritual das ervas, descrita em detalhe por Bastide, não foi fichada por tocar em fundamento, e aguarda o conselho de revisores {{pendencia:Bastide pp. 157–161 descreve a colheita ritual das ervas pelo babalosaim}}.
+O fichamento não tem registro de origem africana precisa, de festa ou de animais de Ossaim {{lacuna:origem}}{{lacuna:festas}}{{lacuna:animais}}; o santo e os elementos vêm de um único quadro do candomblé queto {{ref:ossaim-046,ossaim-042}}. A colheita ritual das ervas, descrita em detalhe por Bastide, não foi fichada por tocar em fundamento, e aguarda o conselho de revisores {{pendencia:Bastide pp. 157–161 descreve a colheita ritual das ervas pelo babalosaim}}.
 
 A monografia de Barros sobre a floresta sagrada de Ossaim e os estudos de Verger sobre as folhas, assim como as coletâneas de mitos de Prandi e Verger, só existem impressas e esperam exemplar {{pendencia:Barros, *A floresta sagrada de Ossaim* (2011)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Verger, *Orixás* (1981)}}.

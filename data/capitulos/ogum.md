@@ -2,7 +2,7 @@
 orixa: ogum
 titulo: Ogum, o ferro, a guerra e os caminhos
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Quem procura Ogum encontra, quase sempre, três imagens sobrepostas: o ferreiro que domina o metal, o guerreiro de gênio quente e aquele que segue à frente abrindo passagem. Essas imagens não são iguais em toda parte. Mudam as cores, o dia da semana, os santos com que ele é aproximado e até o lugar onde se assenta o orixá, conforme a casa, a nação e o país, da Bahia e do Recife até Cuba, e este capítulo acompanha essas variações sem escolher entre elas {{ref:ogum-036,ogum-053,ogum-021,ogum-031,ogum-054,ogum-059,ogum-039}}.
@@ -37,6 +37,8 @@ O dia da semana varia do mesmo modo. Na distribuição mais comum dos candomblé
 
 As datas de festa trazem a marca do calendário católico. Em terreiros de Salvador e São Paulo, Ogum é festejado ora em 23 de abril, ora em 13 de junho, conforme a casa; numa casa de Tambor de Mina do Maranhão, em 23 ou 24 de abril; e na casa de Pai Francelino, em Diadema, a festa fixa é no dia de São Jorge. No Candeal, a festa da família abre o ano, no primeiro dia de janeiro {{ref:ogum-020,ogum-060,ogum-064,ogum-035}}.
 
+Nos terreiros paulistas de candomblé, Ogum é o senhor da guerra, do ferro, da forja e da técnica, quem abre caminhos e favorece viagens e progresso; é saudado com Ogunhê e se diz irmão de Exu {{ref:ogum-067,ogum-069,ogum-070}}. No quadro do candomblé queto, ele junta à metalurgia a agricultura e a guerra, protege as estradas abertas, os trabalhos manuais, soldados e policiais, tem o ferro forjado e a terra como elementos, veste azul-escuro, verde e branco, usa contas azul-escuro ou verdes, empunha a espada e fica com a terça-feira {{ref:ogum-071,ogum-072,ogum-073,ogum-075,ogum-074}}.
+
 ## Mitos {#mitos}
 
 As narrativas sobre Ogum que já passaram pelo fichamento são poucas, e a mais desenvolvida vem do Daomé. Num mito de criação fon, o Criador desce à Terra trazendo Gu sob o aspecto de espada de cerimônia, a gubasa; com ela abre o mato e ensina às pessoas a erguer casas, a lavrar o chão e a usar o metal. Desse relato viriam as pequenas enxadas e ferramentas que aparecem nos altares de Gu ([Gu trazido à Terra como espada cerimonial](ita:ita-004)) {{ref:ogum-047}}.
@@ -50,6 +52,8 @@ Outras histórias tocam Ogum de passagem. Numa versão contada na Bahia e em ter
 ### Candomblé ketu e nagô
 
 Nas casas de nação ketu e nagô se reconhecem sete qualidades de Ogum, entre elas Ogunjá, muito próxima de Exu e atribuída ao Ogum do Candeal; na Nigéria, o nome Ogunjá aparece num rei de Akure do século XVII e numa figura ancestral dos mitos de fundação de Ile-Oluji. Em meados do século passado, na Bahia, Ogunjá era descrito assentado junto de Oxóssi e de Exu e alimentado com comida crua. Outra qualidade, Ogum Xoroquê, era tão ligada a Exu que recebia na iniciação quem os búzios apontavam como filho do mensageiro. Nessa nação, a tarefa de abrir caminhos cabe mais a Exu do que a Ogum {{ref:ogum-051,ogum-002,ogum-001,ogum-043}}.
+
+No quadro de correspondências do candomblé queto, Ogum se aproxima dos voduns Gun e Doçu e dos inquices Incáci e Roximucumbe {{ref:ogum-076}}.
 
 ### Candomblé jeje
 
@@ -73,6 +77,8 @@ O santo mais lembrado é São Jorge, tanto em Salvador e São Paulo quanto no na
 
 Na Bahia, o quadro é menos uniforme. O calendário de festas do Centro Africano S. Jorge põe Ogum ao lado de São Jorge e também de São João. No Candeal, desde 1950 a festa de primeiro de janeiro inclui uma missa para Santo Antônio, o par de Ogum no sincretismo afro-católico de Salvador, seguindo o costume de terreiros antigos da cidade de abrir as festas de orixá com missa {{ref:ogum-014,ogum-035}}.
 
+Nos terreiros paulistas de candomblé, os santos de Ogum são Santo Antônio e São Jorge, os mesmos do quadro queto {{ref:ogum-068}}.
+
 ## Leituras acadêmicas {#leituras-academicas}
 
 Um debate atravessa a bibliografia sobre Ogum no Brasil, e as duas posições ficam aqui lado a lado. Pierre Verger sustentou que, em terras africanas, Ogum era também protetor de quem lavra a terra, mas que aqui sua fama de guerreiro eclipsou o resto, já que os escravizados não teriam ganho algum com as colheitas; pela mesma razão, Orixá Okô teria perdido seus devotos e Oxóssi teria assumido o posto de deus dos caçadores. A historiadora Lisa Earl Castillo discorda: africanos libertos assentaram orixás em seus pomares e dependiam diretamente das safras, até cativos cultivavam hortas, e o caso do Candeal, onde Ogum amparou por mais de um século uma família de lavradores, indica que a mudança ainda não se dera naquela época {{ref:ogum-037,ogum-038}}.
@@ -81,7 +87,7 @@ Outras leituras são de escala menor. Ao comparar o perfume das folhas usadas no
 
 ## O que as fontes não dizem {#lacunas}
 
-Nenhum registro fichado traz a saudação de Ogum. Ela costuma aparecer em dicionários especializados que o projeto ainda não consultou, como os de Cacciatore e de Beniste {{lacuna:saudacao}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
+A saudação Ogunhê aparece entre os atributos mais citados nos terreiros paulistas de candomblé, mas ainda não foi conferida nos dicionários especializados, como os de Cacciatore e de Beniste {{ref:ogum-069}}{{pendencia:Cacciatore, *Dicionário de cultos afro-brasileiros*}}.
 
 Os mitos de Ogum que constam aqui são poucos e quase todos lidos de segunda mão. As grandes coletâneas de itãs, de Prandi e de Verger, só existem impressas e ainda dependem de exemplar, e o mesmo vale para a coletânea *Africa's Ogun*, conhecida aqui só por citações {{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Barnes (org.), *Africa's Ogun*}}.
 

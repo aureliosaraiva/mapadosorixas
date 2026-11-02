@@ -2,10 +2,10 @@
 orixa: ewa
 titulo: Ewá, uma divindade quase sem registro
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
-Ewá, ou Euá, é a divindade com menos material neste projeto. Os poucos registros abertos vêm de casas específicas, no Recife, num terreiro de Mina de São Paulo e em terreiros angola-congo, e nenhum deles diz quais são seus domínios, suas cores ou seus mitos. Este capítulo é, por isso, curto, e boa parte dele trata do que falta {{ref:ewa-001,ewa-003,ewa-007}}{{lacuna:dominios}}{{lacuna:cores}}{{lacuna:itans}}.
+Ewá, ou Euá, é uma das divindades com menos material neste projeto. Os registros abertos vêm de casas específicas, no Recife, num terreiro de Mina de São Paulo e em terreiros angola-congo, e de um único quadro de atributos do candomblé queto, que lhe dá as fontes e os riachos {{ref:ewa-001,ewa-003,ewa-007,ewa-009}}. Nenhum mito dela foi fichado, e o capítulo é, por isso, curto {{lacuna:itans}}.
 
 ## Nomes e origem {#nomes-e-origem}
 
@@ -17,7 +17,9 @@ Na nação nagô do Recife, Ewá, divindade feminina, não tem assentamento e re
 
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
-O único dado de calendário vem do terreiro de Mina de Dona Jarina, em São Paulo: ali, Euá e o vodum Naveorualim são festejados em 16 de julho, dia de Nossa Senhora do Carmo {{ref:ewa-006}}. Não há registro de domínios, elementos, cores, dia da semana ou símbolos {{lacuna:dominios}}{{lacuna:elementos}}{{lacuna:cores}}{{lacuna:dia_semana}}{{lacuna:simbolos}}.
+O que se sabe dos seus atributos vem de um quadro do candomblé queto. Ali, Euá é a orixá das fontes, com as nascentes e os riachos como elemento natural e a água como elemento mítico, e cuida da harmonia da casa {{ref:ewa-009,ewa-010}}. Veste vermelho e amarelo, usa fio de búzios, tem o sábado como dia e leva espada, um chocalho feito de matéria vegetal e uma esfera {{ref:ewa-011,ewa-012,ewa-013}}.
+
+O único dado de festa vem do terreiro de Mina de Dona Jarina, em São Paulo: ali, Euá e o vodum Naveorualim são festejados em 16 de julho, dia de Nossa Senhora do Carmo {{ref:ewa-006}}.
 
 ## Mitos {#mitos}
 
@@ -33,6 +35,10 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), Ewá não tem assentamento
 
 No terreiro de Dona Jarina, em São Paulo, casa de origem maranhense, Euá corresponde a dois voduns: Boçalabê, jeje, e Eowá, classificado como jeje-nagô {{ref:ewa-003}}.
 
+### Candomblé queto
+
+No quadro de atributos do candomblé queto, Euá tem como correspondente jeje um vodum de mesmo nome, e nenhum inquice banto aparece na sua linha {{ref:ewa-015}}.
+
 ### Candomblé angola
 
 Nos terreiros angola-congo estudados em São Paulo, não se encontrou correspondente para Ewá {{ref:ewa-007}}.
@@ -43,7 +49,7 @@ A Umbanda é outra religião, e não uma nação do Candomblé. O fichamento nã
 
 ## Sincretismo {#sincretismo}
 
-No terreiro de Mina de São Paulo, Euá tem dois santos, conforme o vodum que a representa: por meio de Eowá, Nossa Senhora do Carmo, e por meio de Boçalabê, Santa Teresa {{ref:ewa-004}}.
+No terreiro de Mina de São Paulo, Euá tem dois santos, conforme o vodum que a representa: por meio de Eowá, Nossa Senhora do Carmo, e por meio de Boçalabê, Santa Teresa {{ref:ewa-004}}. No quadro do candomblé queto, a santa que lhe corresponde é Santa Lúcia {{ref:ewa-014}}.
 
 ## Leituras acadêmicas {#leituras-academicas}
 
@@ -51,6 +57,6 @@ Não há debate acadêmico sobre Ewá nas fontes lidas. Arnaud Halloy, no Recife
 
 ## O que as fontes não dizem {#lacunas}
 
-Quase tudo. Não há registros sobre domínios, elementos, cores, dia, saudação, símbolos, funções, a dança e os mitos de Ewá {{lacuna:dominios}}{{lacuna:elementos}}{{lacuna:cores}}{{lacuna:dia_semana}}{{lacuna:saudacao}}{{lacuna:simbolos}}{{lacuna:funcoes}}{{lacuna:iconografia}}{{lacuna:itans}}. Nenhuma fonte acadêmica aberta encontrada até agora trata dela com mais vagar; o que existe está em livros impressos, como os de Verger e Prandi e a literatura de praticantes da Pallas {{pendencia:Verger, *Orixás* (1981)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Literatura de praticantes da Pallas (Coleção Orixás)}}.
+Quase tudo. Fora de um único quadro do candomblé queto, que não diz de que casas vem cada dado, não há registros sobre os domínios, as cores ou o dia de Ewá, e em nenhuma tradição há saudação, funções, descrição da dança ou mitos {{ref:ewa-009}}{{lacuna:saudacao}}{{lacuna:funcoes}}{{lacuna:iconografia}}{{lacuna:itans}}. Nenhuma fonte acadêmica aberta encontrada até agora trata dela com mais vagar; o que existe está em livros impressos, como os de Verger e Prandi e a literatura de praticantes da Pallas {{pendencia:Verger, *Orixás* (1981)}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Literatura de praticantes da Pallas (Coleção Orixás)}}.
 
 Também falta decidir se Ewá e Iyewa são a mesma divindade, questão que o projeto deixou em aberto até haver fonte {{pendencia:separação de Ewá e Iyewa}}.

@@ -2,7 +2,7 @@
 orixa: exu
 titulo: Exu, o mensageiro entre mundos e as leituras que o cercaram
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Nenhum outro orixá deste projeto reúne tantos registros, e nenhum foi lido de maneiras tão opostas. Para os antigos iorubás, Exu é quem leva as oferendas dos humanos até os orixás e traz de volta as respostas, de modo que sem ele nada se cumpre. Ao longo de pouco mais de um século de escritos sobre a Bahia e o Rio de Janeiro, porém, a mesma figura foi tratada como divindade fálica, confundida com o diabo, rebaixada a intermediário e, por fim, identificada com almas de mortos. Este capítulo segue esse percurso e põe lado a lado o que diz cada tradição {{ref:exu-011,exu-065}}.
@@ -43,6 +43,8 @@ A segunda-feira é o dia mais citado, mas com companhias e pesos distintos. Na d
 
 Toda cerimônia do candomblé começa com uma homenagem a Exu, o padê, que na Bahia se explicava pela função de mensageiro, ainda que alguns a justificassem pelo receio de que Exu perturbasse a festa. Nos terreiros de Salvador e São Paulo, festa nenhuma se inicia sem essa oferenda, e o 24 de agosto é data de celebração particular de Exu {{ref:exu-026,exu-049,exu-046}}.
 
+Nos terreiros paulistas de candomblé, os traços mais citados fazem de Exu o mensageiro astuto que abre toda cerimônia com a primeira homenagem, de modo a não se irritar e desandar o rito, e o vigia das encruzilhadas e das portas que dão para a rua; entre seus emblemas estão tridentes de ferro e um porrete fálico, e o cumprimento que recebe é Laroyê {{ref:exu-104,exu-105,exu-106}}. Um quadro do candomblé queto põe sob sua proteção a comunicação, a transformação e a potência sexual, dá-lhe o minério de ferro como elemento natural e o fogo com a terra como elemento mítico, as cores vermelha e preta e a segunda-feira {{ref:exu-108,exu-109,exu-110,exu-111}}. Na festa afroumbandista de Iemanjá em Montevidéu, pesquisadores observam que as ruas e suas esquinas são a casa de Exu por excelência, e na areia aparece uma imagem de Exu Asa Negra {{ref:exu-114}}.
+
 ## Mitos {#mitos}
 
 O mito mais conhecido é o do gorro de duas cores ([O gorro de duas cores que faz brigar dois amigos](ita:ita-001)). Na versão que se tornou conhecida nos candomblés brasileiros, Exu, a quem desagrada que dois vizinhos sejam tão amigos, desfila entre eles com um gorro metade branco, metade vermelho; cada um jura ter visto uma cor, e a discussão acaba em briga feia. Na Nigéria, um verso de Ifá ligado ao odu Òdí Méjì conta a mesma história com um gorro preto e branco; em outras cidades iorubás, ele é vermelho e preto ou tem quatro cores, e o verso prescreve sacrifício para evitar a discórdia. As versões ficam juntas na página do itã {{ref:exu-009,exu-082}}.
@@ -59,6 +61,8 @@ Antes de percorrer as nações, convém uma distinção. Exu tem três estatutos
 
 Só em um punhado de casas antigas, mais presas às raízes africanas, Exu é visto como o mensageiro dos deuses, com laço apenas discreto com o diabo. Com a dessincretização, abre-se para ele a possibilidade de voltar a ser apenas o orixá do movimento que anda pelos caminhos e guarda as portas, sem ser santo nem demônio {{ref:exu-028,exu-033}}.
 
+No quadro de correspondências do candomblé queto, os inquices que respondem a Exu são Bombogira e Aluviá; na coluna dos voduns aparecem Elegbara e também Bara e Eleguá, nomes que outras tradições usam para o próprio Exu {{ref:exu-112}}.
+
 ### Candomblé jeje
 
 No Seja Hundê, em Cachoeira, Legba, ou Lebabimibome, é o vodum que tem sob seu controle o terreiro inteiro, e seu culto resulta da fusão entre a figura do macaco de tradições orais africanas e Exu-Legba. Um ogã da casa conta que Legba e Ogum Xoroquê guardam o terreiro juntos {{ref:exu-090,ogum-061}}.
@@ -69,7 +73,7 @@ Os nomes de origem banto, como Mavambo, já foram mencionados. Nas nações bant
 
 ### Batuque e Xangô do Recife
 
-No [Batuque](tradicao:batuque_rs) de Porto Alegre, Exu é Bará, dono da segunda-feira e do assentamento do Mercado {{ref:exu-037,exu-059}}. No [Xangô de Pernambuco](tradicao:xango_pernambuco), distingue-se o Exu do peji, orixá mensageiro a quem se recorre antes de qualquer rito, e o Exu da rua, guardião das soleiras, que na tradição nagô de Salvador se chama Exu do portão. Numa família de santo nagô do Recife, diz-se que Exu é o mais humano dos orixás, nem bom nem mau, e que pode atuar como orixá, sem possuir os filhos, ou como espírito da jurema, culto de origem indígena, quando é incorporado e procurado para magia ofensiva {{ref:exu-083,exu-084}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, Exu é Bará, dono da segunda-feira e do assentamento do Mercado {{ref:exu-037,exu-059}}. No Batuque gaúcho, segundo um quadro do candomblé queto, o nome dele é Bara {{ref:exu-113}}. No [Xangô de Pernambuco](tradicao:xango_pernambuco), distingue-se o Exu do peji, orixá mensageiro a quem se recorre antes de qualquer rito, e o Exu da rua, guardião das soleiras, que na tradição nagô de Salvador se chama Exu do portão. Numa família de santo nagô do Recife, diz-se que Exu é o mais humano dos orixás, nem bom nem mau, e que pode atuar como orixá, sem possuir os filhos, ou como espírito da jurema, culto de origem indígena, quando é incorporado e procurado para magia ofensiva {{ref:exu-083,exu-084}}.
 
 ### Tambor de Mina
 
@@ -93,6 +97,8 @@ O sincretismo não foi uma simples tabela de equivalências. Ao encaixar os orix
 
 Mas o diabo não é o único par católico registrado. No Candomblé e na Umbanda, quando prevaleceu a face mensageira, Exu foi aproximado de santos que abrem caminhos, como São Pedro, São Benedito, São Gabriel e Santo Antônio no Brasil, e do Menino Jesus em Cuba; quando prevaleceu a face transgressora, foi associado ao diabo e a espíritos de mortos que "fecham caminhos". Nos terreiros de Salvador e São Paulo, a escolha variava entre São Bartolomeu, Santo Antônio, São Gabriel e até São Pedro. Na Casa das Minas, como já se viu, Legba é ligado a Satanás {{ref:exu-055,exu-056,exu-045,exu-092}}. No nagô do Recife, Exu é honrado em agosto, mais ainda na jurema, em que Santo Antônio é seu par, e no central Méjico, em Cuba, Elegguá é associado localmente a São Pedro {{ref:exu-095,exu-098}}.
 
+Nos terreiros paulistas de candomblé, o par católico mais citado de Exu continua a ser o Diabo {{ref:exu-107}}.
+
 ## Leituras acadêmicas {#leituras-academicas}
 
 A história das interpretações de Exu é, em boa parte, a história de um mal-entendido apontado pelos próprios estudiosos. Reginaldo Prandi mostra que os primeiros europeus o associaram a Príapo, por causa dos altares fálicos, e ao diabo, pela moral transgressora dos mitos, embora não se conheça mito que o identifique com o diabo. Pierre Verger atribuía aos missionários, chocados com o temperamento que descreviam como irritável, astuto e indecente, a decisão de fazer dele o símbolo do mal {{ref:exu-002,exu-003}}. Bastide chamou Exu de divindade caluniada, e Juana Elbein dos Santos foi a pioneira no esforço de recuperar seus atributos africanos. Valdeli Carvalho da Costa acompanha a sequência de autores, de Nina Rodrigues a Arthur Ramos e Bastide, em que Exu perde o caráter fálico, deixa de ser tido como mau pelos fiéis e passa a ser associado a almas de mortos {{ref:exu-010,exu-065}}.
@@ -103,6 +109,6 @@ Prandi também critica uma ideia hoje corrente no Brasil, e que se encontra igua
 
 ## O que as fontes não dizem {#lacunas}
 
-Nenhum registro fichado traz a saudação de Exu. Verger inclui Laroiê numa lista de nomes do orixá, mas a relação entre esse nome e a saudação ainda não foi conferida, e os dicionários que podem esclarecer o ponto dependem de exemplar {{lacuna:saudacao}}{{ref:exu-022}}{{pendencia:Beniste, *Dicionário yorubá-português*}}.
+A saudação Laroyê aparece entre os atributos mais citados nos terreiros paulistas de candomblé, e Verger inclui Laroiê numa lista de nomes do orixá; a relação entre o nome e a saudação depende de dicionários que o projeto ainda não consultou {{ref:exu-106,exu-022}}{{pendencia:Beniste, *Dicionário yorubá-português*}}.
 
-Também falta um registro sobre a origem africana de Exu, isto é, a região ou cidade de onde seu culto teria partido, e sobre um elemento da natureza associado a ele. O livro de Juana Elbein dos Santos, em que se apoia a ideia da multiplicidade de Exu, e as notas de Verger sobre Exu ainda não foram lidos no original. Os itãs registrados são poucos, e as coletâneas de Prandi e de Verger seguem impressas {{lacuna:origem}}{{lacuna:elementos}}{{pendencia:Santos, *Os Nàgô e a morte* (1976)}}{{pendencia:Verger, *Notas sobre o culto aos orixás e voduns*}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}.
+Também falta um registro sobre a origem africana de Exu, isto é, a região ou cidade de onde seu culto teria partido {{lacuna:origem}}; o elemento da natureza só aparece num quadro do candomblé queto, que lhe dá o minério de ferro {{ref:exu-109}}. O livro de Juana Elbein dos Santos, em que se apoia a ideia da multiplicidade de Exu, e as notas de Verger sobre Exu ainda não foram lidos no original. Os itãs registrados são poucos, e as coletâneas de Prandi e de Verger seguem impressas {{pendencia:Santos, *Os Nàgô e a morte* (1976)}}{{pendencia:Verger, *Notas sobre o culto aos orixás e voduns*}}{{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}.
