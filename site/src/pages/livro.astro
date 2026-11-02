@@ -1,7 +1,6 @@
 ---
 // Índice do livro: capítulos narrativos, na ordem da lista-mestra, e as visões de conjunto.
 import Base from '../layouts/Base.astro';
-import Selo from '../components/Selo.astro';
 import Icone from '../components/Icone.astro';
 import { capitulos, panoramas, totalPalavras, TITULO_SECAO } from '../lib/capitulos.js';
 import { listaEntidades, fichaPorId, url } from '../lib/dados.js';
@@ -16,7 +15,6 @@ const secoes = (c) => c.secoes.filter((s) => s.slug !== 'abertura').map((s) => s
     <h1>Os orixás em capítulos</h1>
     <p class="chamada">Para ler com calma, do começo ao fim. Cada capítulo conta o que livros e pesquisas registram sobre um orixá: nomes e origem, história do culto, símbolos, mitos, como cada tradição o cultua, o sincretismo e o que as fontes ainda não dizem.</p>
   </header>
-  <Selo texto="Os capítulos foram escritos pelo projeto a partir de livros e pesquisas, sem acrescentar nada que não esteja nas obras citadas. Ainda não foram revistos por sacerdotes, sacerdotisas e pesquisadores." />
   <p class="discreto texto-corrido">As fontes ficam nas notas, com autor, ano e página. Quando as tradições contam de jeitos diferentes (nações do Candomblé, Batuque, Xangô do Recife, Tambor de Mina, Umbanda, Santería cubana), as versões aparecem lado a lado. Candomblé e Umbanda são tratados como religiões distintas.</p>
 
   {panoramas.length > 0 && (

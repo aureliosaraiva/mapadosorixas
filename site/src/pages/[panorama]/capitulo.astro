@@ -18,7 +18,6 @@ const paginaTema = id === 'cosmologia' ? { href: url('cosmologia'), rotulo: 'Cos
 <Base titulo={cap.titulo} descricao="Visão de conjunto em texto corrido, que liga vários capítulos do livro, com notas que indicam as fontes." indexar>
   <Capitulo cap={cap} sobretitulo="Livro · Visão de conjunto"
     trilha={[[url('livro'), 'Livro'], ...(paginaTema ? [[paginaTema.href, paginaTema.rotulo] as [string, string]] : [])]}
-    textoSelo="Visão de conjunto escrita pelo projeto a partir de livros, pesquisas e dos capítulos do livro, sem acrescentar nada que não esteja nas obras citadas. Ainda não foi revista por sacerdotes, sacerdotisas e pesquisadores."
     tituloVerTambem="Capítulos ligados">
     <section aria-labelledby="ver-tambem" slot="ver-tambem">
       <h2 id="ver-tambem">Capítulos ligados a este texto</h2>

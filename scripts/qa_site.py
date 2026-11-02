@@ -11,10 +11,8 @@ Confere, sem rede e só com a biblioteca padrão:
    arquivo publicado (HTML, JSON, TXT): paráfrase, nota e valor (quando o valor
    não coincide com o de um registro publicável). Os ids desses registros só podem
    aparecer na seção "Pendências" das fichas e no campo `pendencias` dos JSON.
-3. Selo "Conteúdo em revisão por especialistas" em toda ficha que tenha alguma
-   versão sem revisão vigente (sem selo, e com o aviso de ficha revisada, só quando
-   TODAS as versões estão 'revisado'); estado da revisão em "O que ainda falta"
-   (data-revisadas/data-total); `noindex` em todas as páginas. O registro de cada
+3. Aviso de ficha revisada só quando TODAS as versões estão 'revisado';
+   `noindex` em todas as páginas. O registro de cada
    nota fica no atributo data-registro (o código não aparece no texto).
 4. Links internos (href/src) apontam para arquivos existentes e âncoras (#id)
    existentes na página de destino.
@@ -29,8 +27,9 @@ Confere, sem rede e só com a biblioteca padrão:
    idênticas ao JSON; `rascunho_sem_fonte` com o aviso "Descrição pendente de
    fonte" e o texto do rascunho (descrição e nota) ausente de TODAS as páginas.
    Fichas e catálogo linkam para a página Tradições.
-8. Sobre: link para Fontes, seção #contribuir, aviso de revisão e de que licenças
-   e autoria dependem do autor; nenhum e-mail em nenhuma página.
+8. Sobre: link para Fontes, seção #contribuir, licença MIT, direitos das obras
+   para os seus autores, nota de autoria (Aurelio Saraiva, praticante, não líder
+   religioso nem especialista) e de agrupamento; nenhum e-mail em nenhuma página.
 9. Revisão do conselho: cada versão mostra exatamente as linhas "Revisado por …
    (tradição) em …" / "Contestado por …" das suas `revisoes`, com o crédito que o
    consentimento permite (scripts/revisao.py: quem, linha_credito); versão sem
@@ -59,12 +58,13 @@ absoluto fora do prefixo conta como quebrado.
    acervo/txt tiver textos, nenhuma sequência de 20 palavras de um deles aparece
    no texto do site (descontadas as que estão no catálogo de fontes: títulos).
 12. Capítulos narrativos (data/capitulos/*.json): uma página por capítulo, com
-   selo; parágrafos e chamadas de nota idênticos ao JSON; notas com exatamente os
+   parágrafos e chamadas de nota idênticos ao JSON; notas com exatamente os
    itens do JSON e cada registro publicável, com autor, ano, página e link para a
    fonte; página Livro lista todos; a ficha linka para o capítulo.
-10. Publicação (rascunho): faixa "Conteúdo em revisão por especialistas" em TODAS
-   as páginas; Início com o aviso de versão inicial em revisão e link para
-   Sobre (#revisao); nenhum <link rel=canonical>/sitemap que convide indexação.
+10. Publicação: nenhum aviso de "conteúdo não revisado" (faixa, selo ou texto),
+   retirados a pedido do autor em 2026-11-02; rodapé de todas as páginas com a nota
+   de agrupamento do que já existe publicado e a licença MIT (direitos das obras
+   para os seus autores); `noindex` mantido, sem <link rel=canonical> nem sitemap.
 13. Linguagem para leigos (redesign 01): nenhum link para issues do GitHub e,
    no texto visível da interface, nada de status internos (pre_fichamento,
    conferido_web…), "fichamento", códigos de confiabilidade, JSON (fora de Dados
@@ -93,9 +93,13 @@ import revisao  # noqa: E402
 
 REVISORES = revisao.por_id(revisao.carregar_revisores(RAIZ))
 NOME_TRAD = {t["id"]: t["nome"] for t in json.loads((DATA / "tradicoes.json").read_text(encoding="utf-8"))["tradicoes"]}
-# aviso de conteúdo em revisão (site/src/lib/textos.js, AVISO_REVISAO): faixa de todas as
-# páginas e selo das fichas, capítulos e itãs
-SELO = "Conteúdo em revisão por especialistas"
+# Avisos de "conteúdo não revisado" foram retirados do site a pedido do autor (2026-11-02):
+# nenhum destes textos pode voltar a aparecer. O rodapé de todas as páginas traz a nota de
+# agrupamento e a licença MIT (com os direitos das obras citadas para os seus autores).
+AVISOS_REVISAO = ("Conteúdo em revisão por especialistas", "Rascunho — aguardando revisão",
+                  "ainda não foi revist", "ainda não foram revist", "aguardando revisão")
+NOTA_AGRUPAMENTO = "agrupamento organizado do que já existe publicado"
+DIREITOS_AUTORES = "pertencem exclusivamente aos seus autores"
 VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 
 erros: list[str] = []
@@ -216,21 +220,14 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
             erro(f"[ficha] {oid}: página {arq.relative_to(dist)} não foi gerada")
             continue
         doc = parse(arq)
-        selo = doc.primeiro("p", "selo")
         versoes = [v for vs in ficha["atributos"].values() for v in vs]
         n_rev = sum(v["status"] == "revisado" for v in versoes)
-        if versoes and n_rev == len(versoes):
-            if selo is not None:
-                erro(f"[selo] {oid}: todas as versões revisadas, mas o selo de rascunho continua")
-            if doc.primeiro("p", "selo-revisado") is None:
-                erro(f"[selo] {oid}: falta o aviso de ficha revisada")
-        elif selo is None or SELO not in norm(selo.texto()):
-            erro(f"[selo] {oid}: selo de rascunho ausente ({n_rev}/{len(versoes)} versões revisadas)")
-        estado = doc.primeiro("dd", id="estado-revisao")
-        esperado_txt = f"{n_rev} de {len(versoes)}" if n_rev else "Ainda não revista"
-        if estado is None or estado.attrs.get("data-revisadas") != str(n_rev) or estado.attrs.get("data-total") != str(len(versoes)) \
-                or esperado_txt not in norm(estado.texto()):
-            erro(f"[revisão] {oid}: estado da revisão em 'O que ainda falta' não diz '{esperado_txt}' ({n_rev}/{len(versoes)})")
+        # aviso de ficha revisada só quando TODAS as versões estão revisadas
+        revisado_html = doc.primeiro("p", "selo-revisado") is not None
+        if versoes and n_rev == len(versoes) and not revisado_html:
+            erro(f"[selo] {oid}: falta o aviso de ficha revisada")
+        if revisado_html and not (versoes and n_rev == len(versoes)):
+            erro(f"[selo] {oid}: aviso de ficha revisada sem todas as versões revisadas ({n_rev}/{len(versoes)})")
 
         esperadas = {v["registro"]: (a, v) for a, vs in ficha["atributos"].items() for v in vs}
         notas = {}
@@ -453,10 +450,10 @@ def conferir_downloads(dist: Path) -> int:
     else:
         erro("[dados] falta dados/tradicoes.json")
     leia = d / "LEIAME.txt"
-    if not leia.exists() or "a definir pelo autor" not in leia.read_text(encoding="utf-8"):
+    if not leia.exists() or "MIT" not in leia.read_text(encoding="utf-8") or DIREITOS_AUTORES not in leia.read_text(encoding="utf-8"):
         erro("[dados] LEIAME.txt ausente ou sem aviso de licença")
     pag = dist / "baixar-dados" / "index.html"
-    if not pag.exists() or "a definir pelo autor" not in pag.read_text(encoding="utf-8"):
+    if not pag.exists() or "licença MIT" not in pag.read_text(encoding="utf-8"):
         erro("[dados] página Baixar dados ausente ou sem aviso de licença")
     publicados = {str(p.relative_to(d)) for p in d.rglob("*") if p.is_file()}
     extras = publicados - set(pares) - {"tradicoes.json", "LEIAME.txt", "entidades.json", "itans.json"}
@@ -659,11 +656,9 @@ def conferir_sobre(dist: Path) -> None:
     if not any(h.rstrip("/").endswith("fontes") for h in hrefs):
         erro("[sobre] falta link para a página Fontes")
     txt = norm(doc.texto())
-    for k in ("licenças", "autoria", "dependem do autor"):
-        if k not in txt.lower():
-            erro(f"[sobre] falta o aviso sobre '{k}'")
-    if SELO not in txt:
-        erro("[sobre] falta o aviso de rascunho")
+    for k in ("licença MIT", DIREITOS_AUTORES, "Aurelio Saraiva", "não é líder religioso nem especialista", NOTA_AGRUPAMENTO):
+        if k not in txt:
+            erro(f"[sobre] falta '{k}'")
     if doc.primeiro("section", id="contribuir") is None and 'id="contribuir"' not in bruto:
         erro("[sobre] falta a seção #contribuir")
     for pag in sorted(dist.rglob("*.html")):
@@ -751,8 +746,6 @@ def conferir_modelo2(dist: Path, fichas: dict, fontes: dict) -> tuple[int, int, 
             erro(f"{onde}: página não gerada")
             continue
         doc = parse(arq)
-        if doc.primeiro("p", "selo") is None:
-            erro(f"{onde}: falta o selo de rascunho")
         h1 = doc.primeiro("h1")
         if h1 is None or norm(h1.texto()) != norm(it["titulo"]):
             erro(f"{onde}: título difere do JSON")
@@ -855,8 +848,6 @@ def conferir_capitulos(dist: Path, fichas: dict, fontes: dict, registros: list) 
             erro(f"{onde}: página não gerada")
             continue
         doc = parse(arq)
-        if doc.primeiro("p", "selo") is None:
-            erro(f"{onde}: falta o selo de rascunho")
         h1 = doc.primeiro("h1")
         if h1 is None or norm(h1.texto()) != norm(c["titulo"]):
             erro(f"{onde}: título difere do JSON")
@@ -941,23 +932,24 @@ def conferir_publicacao(dist: Path) -> None:
     for pag in sorted(dist.rglob("*.html")):
         if "pagefind" in pag.parts:
             continue
+        rel = pag.relative_to(dist)
         doc = parse(pag)
-        faixa = doc.primeiro("div", "faixa-rascunho")
-        if faixa is None or SELO not in norm(faixa.texto()):
-            erro(f"[rascunho] {pag.relative_to(dist)}: falta a faixa de rascunho")
+        txt = norm(doc.texto())
+        for aviso in AVISOS_REVISAO:
+            if aviso.lower() in txt.lower():
+                erro(f"[avisos] {rel}: aviso de conteúdo não revisado ('{aviso}') — retirado do site a pedido do autor")
+        if doc.primeiro("div", "faixa-rascunho") is not None or doc.primeiro("p", "selo") is not None:
+            erro(f"[avisos] {rel}: faixa ou selo de rascunho no HTML")
+        rodape = doc.primeiro("footer", "rodape")
+        trod = norm(rodape.texto()) if rodape is not None else ""
+        if NOTA_AGRUPAMENTO not in trod:
+            erro(f"[rodapé] {rel}: falta a nota de que o conteúdo é um agrupamento do que já existe publicado")
+        if "licença MIT" not in trod or DIREITOS_AUTORES not in trod:
+            erro(f"[rodapé] {rel}: falta a licença MIT ou a nota de direitos dos autores das obras")
         if any("canonical" in l.attrs.get("rel", "") for l in doc.busca("link")):
-            erro(f"[rascunho] {pag.relative_to(dist)}: <link rel=canonical> não deve existir enquanto o site é rascunho")
+            erro(f"[rascunho] {rel}: <link rel=canonical> não deve existir enquanto o site tem noindex")
     if list(dist.glob("sitemap*.xml")):
-        erro("[rascunho] sitemap publicado: não convidar indexação até a revisão")
-    inicio = parse(dist / "index.html")
-    aviso = inicio.primeiro("div", "aviso-versao")
-    if aviso is None:
-        erro("[rascunho] Início: falta o aviso de versão inicial em revisão")
-    else:
-        if SELO not in norm(aviso.texto()).replace(".", ""):
-            erro("[rascunho] Início: o aviso de versão inicial não diz que o conteúdo está em revisão")
-        if not any((a.attrs.get("href") or "").endswith("sobre#revisao") for a in aviso.busca("a")):
-            erro("[rascunho] Início: o aviso de versão inicial não linka para Sobre (#revisao)")
+        erro("[rascunho] sitemap publicado: não convidar indexação enquanto o site tem noindex")
 
 
 # ----------------------------------------------------------------- 13: linguagem para leigos

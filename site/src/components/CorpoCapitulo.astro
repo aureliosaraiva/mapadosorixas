@@ -72,7 +72,7 @@ const naFicha = (r) => {
             );
           }
           if (it.tipo === 'lacuna') return <span class="item-nota lacuna" data-lacuna={`${it.atributo}${it.tradicao ? '@' + it.tradicao : ''}`}>{textoLacuna(it, cap)} {hrefPendenciasFicha && <a href={hrefPendenciasFicha}>O que ainda falta</a>}.{' '}</span>;
-          return <span class="item-nota pendencia" data-pendencia={it.ancora}>Assunto ainda em estudo, à espera de uma obra ou de uma decisão da revisão: {italicos(it.ancora).map((p) => p.italico ? <em>{p.texto}</em> : p.texto)}.{' '}</span>;
+          return <span class="item-nota pendencia" data-pendencia={it.ancora}>Assunto ainda em estudo, à espera de uma obra ou de uma decisão: {italicos(it.ancora).map((p) => p.italico ? <em>{p.texto}</em> : p.texto)}.{' '}</span>;
         })}
         <a class="voltar-nota" href={`#ref-${n.n}`} aria-label={`Voltar ao texto da nota ${n.n}`}>↩</a>
       </li>

@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Selo from '../../components/Selo.astro';
 import Icone from '../../components/Icone.astro';
 import Tradicoes from '../../components/Tradicoes.astro';
 import Citacoes from '../../components/Citacoes.astro';
@@ -25,7 +24,6 @@ const idVersao = (v, i) => (v.registro ? `vi-${v.registro}` : `vi-${id}-${i + 1}
       return <>{i > 0 && (i === it.entidades.length - 1 ? ' e ' : ', ')}{h ? <a href={h}>{rotuloEntidade(e)}</a> : rotuloEntidade(e)}</>;
     })}. {it.versoes.length === 1 ? 'Uma versão registrada.' : `${it.versoes.length} versões, lado a lado, sem que uma seja tomada como a certa.`}</p>
   </header>
-  <Selo />
   <p class="discreto texto-corrido">Cada resumo foi escrito pelo projeto com palavras próprias e indica a obra e a página de onde veio.</p>
   {it.nota_curadoria && <p class="nota-caixa nota-curadoria"><strong>Nota sobre esta história:</strong> {it.nota_curadoria}</p>}
 

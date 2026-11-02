@@ -10,7 +10,7 @@ import path from 'node:path';
 // O build roda dentro de site/; os dados ficam na raiz do repositório.
 const DATA = path.resolve(process.cwd(), '..', 'data');
 
-export const LICENCA = 'Licença dos dados: a definir pelo autor. Enquanto não houver licença, consulte o autor pelo repositório antes de reutilizar.';
+export const LICENCA = 'Licença: MIT (arquivo LICENSE do repositório), para os resumos, a organização do conteúdo e o código. Os direitos sobre as obras consultadas pertencem exclusivamente aos seus autores.';
 
 const ler = (rel) => readFileSync(path.join(DATA, rel));
 
@@ -55,7 +55,7 @@ function leiame(arquivos) {
     '',
     LICENCA,
     '',
-    'Conteúdo ainda NÃO revisado por praticantes (babalorixás, iyalorixás) nem por pesquisadores.',
+    'Todo o conteúdo é um agrupamento organizado do que já existe publicado em fontes públicas, com a indicação da obra de origem.',
     'Cada versão traz fonte (source_id) e página (localizacao); as fontes estão em fontes.json.',
     'Os arquivos são cópias de data/ no repositório https://github.com/aureliosaraiva/mapadosorixas',
     'gerados por scripts/gerar_fichas.py e scripts/divergencias.py. Não incluem o fichamento bruto',
@@ -87,7 +87,7 @@ function montar() {
   add('entidades.json', 'lista de todos os nomes do catálogo (só nome e tipo)', entidadesPublicas(), 'data/entidades.json (filtrado)');
   add('itans.json', 'mitos (itãs), com as versões lado a lado e as fontes', itansPublicos(), 'data/itans.json (filtrado)');
   add('tradicoes.json', 'tradições e nações (descrições sem fonte ficam de fora)', tradicoesPublicas(), 'data/tradicoes.json (filtrado)');
-  add('LEIAME.txt', 'aviso de direitos de uso e descrição técnica dos arquivos', leiame(lista), 'gerado no build');
+  add('LEIAME.txt', 'direitos de uso (MIT) e descrição técnica dos arquivos', leiame(lista), 'gerado no build');
   return lista;
 }
 

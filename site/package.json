@@ -1,6 +1,7 @@
 {
   "name": "mapadosorixas-site",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "astro dev",

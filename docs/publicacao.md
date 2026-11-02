@@ -13,9 +13,9 @@ Histórico: as execuções nº 1–3 pararam em "Configurar Pages" (`Get Pages s
 ## O que é publicado
 
 - O site estático de `site/` (Astro + Cytoscape.js + Pagefind), com Início, Livro, Orixás, páginas de cada orixá e capítulo, Mitos, Cosmologia, Mapa de conexões, Glossário, Tradições, Fontes, Sobre (que absorveu a antiga Metodologia), Buscar e Dados abertos (só no rodapé), mais os arquivos de `/dados/`. Fontes tipográficas Literata e Inter auto-hospedadas (pacotes `@fontsource-variable`, licença OFL), sem chamadas a serviços externos.
-- **Status de rascunho (redesign de 2026-11-02, [relatório](pesquisa/redesign-01.md)):** faixa discreta "Conteúdo em revisão por especialistas" no topo de **todas** as páginas (com link para Sobre → "Conteúdo em revisão"), selo com o mesmo título nas páginas dos orixás, capítulos, mitos e Livro, aviso de versão inicial no Início e no Sobre, e `<meta name="robots" content="noindex">` em todas as páginas. Não há sitemap nem `canonical`. **Sem links de issues do GitHub nem nomes ou contatos de pessoas do projeto** (o canal de correções para leigos está pendente: PENDENCIAS §3b, redesign).
+- **Avisos (2026-11-02, [redesign-02](pesquisa/redesign-02.md)):** os avisos de conteúdo não revisado (faixa, selos, aviso do Início, seção do Sobre) **foram retirados a pedido do autor**. O rodapé de todas as páginas diz que o conteúdo é um agrupamento organizado do que já existe publicado e traz a licença. **`noindex` mantido** em todas as páginas (decisão do autor pendente, PENDENCIAS §3b), sem sitemap nem `canonical`. Sem links de issues do GitHub; o Sobre traz a nota de autoria (Aurelio Saraiva).
 - **Nada retido nem em pré-fichamento:** tabus/alimentos (`retidos_ate_conselho`) e registros `pre_fichamento` não aparecem; o fichamento bruto não é publicado. O `qa_site.py` confere isso em todos os arquivos do `dist/` antes do deploy.
-- **Licença:** ainda não decidida pelo autor. O rodapé, a página Dados abertos e o `LEIAME.txt` de `/dados/` dizem "a definir pelo autor".
+- **Licença:** MIT para o código, os resumos e toda a organização do conteúdo (`LICENSE`); os direitos sobre as obras consultadas pertencem exclusivamente aos seus autores. Dito no rodapé, no Sobre, em Dados abertos e no `LEIAME.txt` de `/dados/`.
 
 ## Como o deploy funciona
 
@@ -52,10 +52,10 @@ Permissões: `contents: read`, `pages: write`, `id-token: write`; `concurrency: 
 
 | Item | Situação |
 |---|---|
-| Licença de código, textos e dados | **a definir pelo autor**; até lá, "licença a definir" no site e nos dados |
+| Licença de código, textos e dados | **MIT** (decidida em 2026-11-02); obras citadas são dos seus autores |
 | Domínio próprio | a escolher (`.org`/`.com`; ver PENDENCIAS §3b). Ao apontar: `SITE_BASE=/` e `SITE_URL=https://<domínio>` no workflow, arquivo `CNAME` em `site/public/` e domínio em Settings → Pages |
 | Revisão por praticantes e pesquisadores | conselho ainda a formar (PENDENCIAS §3c). Só depois retirar a faixa de rascunho e o `noindex` |
-| Créditos e autoria na página Sobre | a confirmar pelo autor (PENDENCIAS §3b) |
+| Créditos e autoria na página Sobre | **feito** (2026-11-02): seção "Quem fez" com a nota do autor |
 
 ## Observações
 

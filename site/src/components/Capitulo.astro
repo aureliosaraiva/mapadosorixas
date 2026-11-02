@@ -1,8 +1,7 @@
 ---
-// Página de leitura de um capítulo (de orixá ou panorama): cabeça, aviso de revisão,
+// Página de leitura de um capítulo (de orixá ou panorama): cabeça,
 // índice lateral (no celular, recolhido no topo), texto em coluna de livro e, depois
 // dele, "ver também", notas, obras citadas e palavras do glossário.
-import Selo from './Selo.astro';
 import Icone from './Icone.astro';
 import Ilustracao from './Ilustracao.astro';
 import CorpoCapitulo from './CorpoCapitulo.astro';
@@ -10,10 +9,10 @@ import { TITULO_SECAO, totalPalavras } from '../lib/capitulos.js';
 import { minutosLeitura } from '../lib/textos.js';
 
 interface Props {
-  cap: any; sobretitulo: string; trilha: [string, string][]; textoSelo: string;
+  cap: any; sobretitulo: string; trilha: [string, string][];
   sensivel?: boolean; hrefPendenciasFicha?: string; tituloVerTambem: string; ilustracao?: string;
 }
-const { cap, sobretitulo, trilha, textoSelo, sensivel = false, hrefPendenciasFicha, tituloVerTambem, ilustracao } = Astro.props;
+const { cap, sobretitulo, trilha, sensivel = false, hrefPendenciasFicha, tituloVerTambem, ilustracao } = Astro.props;
 const comTitulo = cap.secoes.filter((s) => s.slug !== 'abertura');
 const atualizado = cap.atualizado.split('-').reverse().join('/');
 ---
@@ -45,7 +44,6 @@ const atualizado = cap.atualizado.split('-').reverse().join('/');
   </aside>
   <div class="coluna-leitura">
     {sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: este capítulo traz só o que já é público em livros e pesquisas, sem nada dos fundamentos reservados aos iniciados.</p>}
-    <Selo texto={textoSelo} />
     <p class="como-ler discreto">Os números ao lado das frases abrem a nota com a obra e a página de onde veio a informação. Quando as tradições contam de jeitos diferentes, as versões aparecem lado a lado, sem que uma seja tomada como a certa.</p>
     <CorpoCapitulo cap={cap} hrefPendenciasFicha={hrefPendenciasFicha}>
       <slot name="ver-tambem" slot="ver-tambem" />

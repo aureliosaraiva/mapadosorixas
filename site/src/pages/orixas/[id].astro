@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Selo from '../../components/Selo.astro';
 import Icone from '../../components/Icone.astro';
 import Tradicoes from '../../components/Tradicoes.astro';
 import TextoGlossario from '../../components/TextoGlossario.astro';
@@ -82,9 +81,7 @@ const minusc = (a) => rotuloAtributo(a).toLocaleLowerCase('pt-BR');
     <Ilustracao id={id} />
   </header>
   {ent.sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: esta página traz só o que já é público em livros e pesquisas, sem nada dos fundamentos reservados aos iniciados.</p>}
-  {revisada
-    ? <p class="selo-revisado" role="note">Todas as informações desta página foram revistas por sacerdotes, sacerdotisas ou pesquisadores, cada um em nome da sua tradição. Quem revisou aparece junto de cada informação.</p>
-    : <Selo />}
+  {revisada && <p class="selo-revisado" role="note">Todas as informações desta página foram revistas por sacerdotes, sacerdotisas ou pesquisadores, cada um em nome da sua tradição. Quem revisou aparece junto de cada informação.</p>}
 
   {resumo.length > 0 && (
     <section class="resumo-orixa" aria-labelledby="resumo">
@@ -268,10 +265,8 @@ const minusc = (a) => rotuloAtributo(a).toLocaleLowerCase('pt-BR');
       <dd>{pend.sem_registro.length ? `${lista(pend.sem_registro.map(minusc))}.` : 'Nenhum.'}</dd>
       <dt>À espera da leitura da obra original</dt>
       <dd>{nPre ? `${nPre} ${nPre === 1 ? 'informação encontrada' : 'informações encontradas'} em outras obras, sobre ${lista(preFich.map(([a]) => minusc(a)))}; só entram depois que a fonte original for lida.` : 'Nenhuma.'}</dd>
-      <dt>Guardados até a revisão</dt>
-      <dd>{nRetidos ? `${nRetidos} ${nRetidos === 1 ? 'informação' : 'informações'} sobre ${lista(retidos.map(([a]) => minusc(a)))}. Temas como tabus e alimentos rituais só serão publicados se os revisores das tradições concordarem.` : 'Nenhum.'}</dd>
-      <dt>Revisão por especialistas</dt>
-      <dd id="estado-revisao" data-revisadas={nRevisadas} data-total={total}>{nRevisadas ? `${nRevisadas} de ${total} informações já revistas.` : 'Ainda não revista.'}</dd>
+      <dt>Guardados fora do site</dt>
+      <dd>{nRetidos ? `${nRetidos} ${nRetidos === 1 ? 'informação' : 'informações'} sobre ${lista(retidos.map(([a]) => minusc(a)))}. Temas como tabus e alimentos rituais ficam fora do site.` : 'Nenhum.'}</dd>
     </dl>
   </section>
 

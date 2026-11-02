@@ -21,7 +21,6 @@ const emPanoramas = panoramas.filter((p) => p.secoes.some((s) => s.blocos.some((
 <Base titulo={cap.titulo} descricao={`${cap.titulo}: capítulo sobre ${ficha.rotulo}, com notas que indicam as obras de onde veio cada informação.`} indexar>
   <Capitulo cap={cap} sobretitulo={`Livro · ${ficha.rotulo}`}
     trilha={[[url('livro'), 'Livro'], [url(`orixas/${id}`), `Página de ${ficha.rotulo}`]]}
-    textoSelo="Texto escrito pelo projeto a partir de livros e pesquisas, sem acrescentar nada que não esteja nas obras citadas. Ainda não foi revisto por sacerdotes, sacerdotisas e pesquisadores."
     sensivel={!!ent?.sensivel} hrefPendenciasFicha={url(`orixas/${id}#pendencias`)} tituloVerTambem="Continue lendo" ilustracao={id}>
     <section aria-labelledby="ver-tambem" slot="ver-tambem">
       <h2 id="ver-tambem">Continue lendo</h2>
