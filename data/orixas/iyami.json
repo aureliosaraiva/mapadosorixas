@@ -3,13 +3,36 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iyami.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 4,
+    "registros_usados": 12,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
   "id": "iyami",
   "rotulo": "Iyami",
   "atributos": {
+    "nomes": [
+      {
+        "valor": "designações indiretas: ìyámi òṣòròngà ou só ìyámi (\"minha mãe\"), ẹlẹ́yẹ (\"donas de pássaros\"), àgbà ou ìyá àgbà (\"a anciã\"); o termo genérico é àjẹ́, traduzido como \"feiticeira\"",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia (Oxogbo, campo de 1963–1964)",
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "p. 142",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "p. 142",
+        "parafrase": "Verger relata que não se diz o nome verdadeiro dessas figuras e que se prefere chamá-las de modo familiar: ìyámi òṣòròngà, ou simplesmente ìyámi, \"minha mãe\"; ẹlẹ́yẹ, \"donas de pássaros\"; ou àgbà e ìyá àgbà, termos que remetem à mulher velha e respeitada. O termo genérico que ele traduz por feiticeira é àjẹ́.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). Fichada só a designação; o sentido ritual dos nomes e os gestos que os acompanham não foram fichados.",
+        "registro": "iyami-005",
+        "status": "fichado"
+      }
+    ],
     "historia_culto": [
       {
         "valor": "no Brasil o culto não é difundido, mas as Iá Mi estariam presentes por meio dos orixás femininos mais conhecidos",
@@ -73,6 +96,90 @@
         "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). O artigo é sobre método de pesquisa colaborativa e não revela os segredos do grupo; nada além disso foi fichado.",
         "registro": "iyami-004",
         "status": "fichado"
+      },
+      {
+        "valor": "sociedades Gẹ̀lẹ̀dẹ́ nas regiões de Ketu, Egba e Egbado: máscaras usadas por homens, em sociedades dirigidas por mulheres, com cerimônias e danças para aplacar Iyami; a dirigente leva o título de erelu",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia ocidental: Ketu, Egba, Egbado",
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "pp. 150–151",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "pp. 150–151",
+        "parafrase": "Nas regiões de Ketu, Egba e Egbado existem as máscaras Gẹ̀lẹ̀dẹ́, usadas por homens que pertencem a sociedades controladas e dirigidas por mulheres. Para Verger, nelas Iyami, longe de ser excluída, é tratada com grande respeito: a finalidade das cerimônias e danças é acalmar sua cólera, o oposto do que fazem os caçadores de feiticeiras. A dirigente da sociedade tem o título de erelu.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). Complementa iyami-003. Cerimônias, cantos e objetos não foram fichados.",
+        "registro": "iyami-007",
+        "status": "fichado"
+      },
+      {
+        "valor": "na Bahia, descendentes de gente de Ketu faziam todo ano, até poucos anos antes de 1965, a festa dos Gẹ̀lẹ̀dẹ́ em 8 de dezembro, na Boa Viagem, presidida por Maria Júlia Figueiredo, ialorixá do Engenho Velho, com o título de iyálóde-erelú",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Salvador (BA): Boa Viagem; candomblé do Engenho Velho",
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "p. 151",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "p. 151",
+        "parafrase": "Verger registra que em Salvador os descendentes dos habitantes de Ketu ainda realizavam, poucos anos antes do artigo, a festa anual dos Gẹ̀lẹ̀dẹ́ no dia 8 de dezembro, na Boa Viagem. Quem a presidia era Maria Júlia Figueiredo, uma das ialorixás do candomblé do Engenho Velho, que tinha o título de iyálóde-erelú.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). O artigo diz \"candomblé de Engenho Velho\" e \"descendentes de Ketu\"; candomble_ketu segue a fonte.",
+        "registro": "iyami-008",
+        "status": "fichado"
+      },
+      {
+        "valor": "a Ìyálóde, chefe das mulheres da cidade iorubá, aparece nas histórias à frente das àjẹ́; Verger a compara à lelu dos nupe, cargo que desapareceu antes de 1933 sob influência do islã",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia; país nupe (comparação)",
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "pp. 147–148",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "pp. 147–148",
+        "parafrase": "A Ìyálóde é, numa cidade iorubá, a chefe das mulheres, sobretudo das que vendem no mercado, sua representante no palácio e no conselho e árbitra das disputas entre elas; numa das histórias de Ifá ela é quem dirige as àjẹ́. Verger aproxima esse cargo do de lelu entre os nupe, estudado por Nadel, que em 1933 já não existia havia alguns anos por causa da forte influência do islã.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). O artigo cita Nadel (1933) e Beier (1956), não catalogados; leitura de 2ª mão anotada aqui.",
+        "registro": "iyami-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "no século XX, movimentos de caça às feiticeiras, como o Atinga (criado c. 1940 no sul da Costa do Ouro e chegado à Nigéria c. 1950), acusavam sobretudo mulheres idosas, muitas vezes as guardiãs dos santuários familiares em famílias já convertidas ao cristianismo ou ao islã",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Sudoeste iorubá (Ketu, Egba, Egbado), anos 1950",
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "pp. 149–150",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "pp. 149–150",
+        "parafrase": "Com o abandono progressivo dos cultos aos orixás, diz Verger, a guarda do templo familiar nas famílias convertidas ao cristianismo e ao islã ficou com algumas mulheres idosas, alvo frequente de seitas de profetas curandeiros e caçadores de feiticeiras. Ele resume o estudo de Morton-Williams sobre o Atinga, criado por volta de 1940 no sul da atual Gana e chegado à Nigéria por volta de 1950, em que dançarinos em transe apontavam feiticeiras e muitas idosas confessavam crimes imaginários; o missionário Baudin já anotara acusações semelhantes no século XIX.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). Fontes de 2ª mão (Morton-Williams, Debrunner, Baudin 1884) resumidas por Verger; Baudin é fonte missionária.",
+        "registro": "iyami-010",
+        "status": "fichado"
       }
     ],
     "interpretacao_academica": [
@@ -97,12 +204,74 @@
         "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). A análise parte do mito nº 204 de Prandi, Mitologia dos Orixás (que remete a Verger).",
         "registro": "iyami-001",
         "status": "fichado"
+      },
+      {
+        "valor": "contra a ideia de que a feitiçaria é antissocial e alheia à religião, Verger sustenta que, entre os iorubás, as àjẹ́ estão ligadas aos orixás e aos mitos da criação; a imagem popular da feiticeira seria a forma degradada de uma concepção mais antiga",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "pp. 141–142, 157–158",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "pp. 141–142, 157–158",
+        "parafrase": "Verger parte de histórias de Ifá que gravou com babalaôs e critica o pressuposto de que a feitiçaria, por ser antissocial, ficaria fora da religião de uma comunidade: os textos mostrariam as atividades das àjẹ́ entrelaçadas às dos orixás e às narrativas da criação. A tradição daria de Iyami uma imagem dupla, e a mais difundida, a da feiticeira, seria para ele a forma degenerada, pelo tempo e por outros fatores, de uma concepção antiga; os autores anteriores, sem conhecer bem essa figura, não a associaram ao culto dos orixás.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). Os mitos usados no argumento (versos de Ifá publicados no artigo) não foram fichados (ver PENDENCIAS §3c).",
+        "registro": "iyami-006",
+        "status": "fichado"
+      },
+      {
+        "valor": "leituras sociológicas: confissões de idosas explicadas pela posição precária da mulher casada na sociedade iorubá (Morton-Williams) ou por pressão cultural; Gẹ̀lẹ̀dẹ́ como expressão da passagem de uma sociedade matriarcal a patriarcal (Beier), hipótese que Verger estende a três períodos da história iorubá",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "pp. 150–151, 153",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "pp. 150–151, 153",
+        "parafrase": "Verger reúne explicações para as confissões de feitiçaria: a angústia de mulheres nunca de todo integradas à família do marido nem à de origem (Morton-Williams) ou o orgulho de corresponder à imagem tradicional de Iyami. Retoma a tese de Ulli Beier de que a dança Gẹ̀lẹ̀dẹ́ exprime a má consciência dos homens desde que a sociedade deixou de ser matriarcal, e propõe ler as histórias como reflexo de três épocas: a migração, dominada por guerreiros e caçadores; a sedentarização agrícola, com as \"Mães\" no poder; e a retomada do poder pelos homens, com as mulheres mantendo o controle dele.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). Hipótese histórica do autor, apoiada em mitos que não foram fichados; a hipótese de matriarcado é dele e de Beier.",
+        "registro": "iyami-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "para Verger, a cólera de Iyami funciona como fator de moderação contra excessos de poder e acúmulo de riqueza, e explica os males da sociedade e a angústia, sem recurso à ideia de falta original",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": null,
+        "sources": [
+          {
+            "id": "verger-1965-iyami",
+            "loc": "p. 159",
+            "via": null
+          }
+        ],
+        "source_id": "verger-1965-iyami",
+        "via_source_id": null,
+        "localizacao": "p. 159",
+        "parafrase": "Na conclusão da parte analítica, Verger aproxima a cólera de Iyami da ideia de que a feitiçaria rebaixa quem se eleva demais (Kluckhohn) e da hýbris grega: posta entre as feiticeiras ou entre os deuses da criação, Iyami teria um papel moderador, contribuindo para repartir riquezas e posições e impedindo que alguns as acumulem; sua cólera seria uma explicação das doenças da sociedade e da inquietação metafísica, que o pensamento iorubá tradicional não reduz a uma falta original.",
+        "nota": "Entidade sensível: só leitura acadêmica pública, sem fundamento; registro a confirmar pelo conselho (PENDENCIAS §3c). Interpretação do autor; o conceito de àṣẹ que ele desenvolve na mesma página não foi fichado aqui.",
+        "registro": "iyami-012",
+        "status": "fichado"
       }
     ]
   },
   "pendencias": {
     "sem_registro": [
-      "nomes",
       "origem",
       "dominios",
       "funcoes",
