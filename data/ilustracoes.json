@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "descricao": "Metadados das ilustrações simbólicas do site (sessão ilustra). Cada ilustração é uma composição de símbolos e elementos com registro 'fichado' em data/fichamento/<id>.json; 'registros' lista os ids que sustentam cada elemento, para auditoria. Estes metadados não aparecem no site, exceto o texto alternativo.",
+    "regras": [
+      "Emblemática, não retrato: sem rosto ou corpo da divindade e sem cenas de culto, transe ou ritual.",
+      "Só elementos com registro 'fichado'; cada elemento traz os ids que o sustentam.",
+      "Cor: paleta do site; no máximo um acento, e só quando a cor aparece em mais de uma tradição nos registros de 'cores'; senão, 'neutro' (ocre da paleta do site, sem valor de cor do orixá).",
+      "Nenhuma ilustração para entidade sensível (data/entidades.json, sensivel=true)."
+    ],
+    "fonte_do_desenho": "site/scripts/ilustracoes/desenhos.py (gerado por site/scripts/ilustracoes/gerar.py em site/src/assets/ilustracoes/<id>.svg)",
+    "status": "rascunho do projeto, aguardando revisão de praticantes"
+  },
+  "ilustracoes": [
+    {
+      "entidade": "ogum",
+      "texto_alternativo": "Ilustração simbólica de Ogum: emblema de ferro com sete pontas em leque, entre folhas de espada-de-ogum, com uma franja de folhas desfiadas de dendezeiro (mariô) embaixo.",
+      "elementos": [
+        {"elemento": "emblema de ferro com sete pontas", "como_aparece": "leque de sete hastes de ferro com pontas em lâmina, presas num arco", "registros": ["ogum-022", "ogum-016"]},
+        {"elemento": "espada-de-ogum (Sansevieria)", "como_aparece": "folhas longas e pontudas dos dois lados", "registros": ["ogum-023", "ogum-027", "ogum-042"]},
+        {"elemento": "mariô", "como_aparece": "franja de fios presa num cordão, na parte de baixo", "registros": ["ogum-041"]}
+      ],
+      "cor": {"acento": "verde", "justificativa": "Verde aparece nas cores de Ogum em várias tradições (Ketu/Jeje, Umbanda, Xangô de Pernambuco, Lucumí); usado só nas folhas. O azul-escuro do Ketu e o vermelho de outras casas não foram usados, para não eleger uma combinação.", "registros": ["ogum-021", "ogum-030", "ogum-031", "ogum-054", "ogum-059"]}
+    },
+    {
+      "entidade": "iemanja",
+      "texto_alternativo": "Ilustração simbólica de Iemanjá: lua crescente com uma estrela sobre as ondas do mar, com um seixo arredondado na frente.",
+      "elementos": [
+        {"elemento": "lua crescente com estrela (emblema; metal: prata)", "como_aparece": "crescente e estrela no alto, em tom claro de metal", "registros": ["iemanja-021"]},
+        {"elemento": "águas do mar", "como_aparece": "faixas de ondas", "registros": ["iemanja-014", "iemanja-017", "iemanja-010"]},
+        {"elemento": "otá: seixo marítimo", "como_aparece": "seixo oval na frente das ondas", "registros": ["iemanja-024"]}
+      ],
+      "cor": {"acento": "azul", "justificativa": "Azul aparece em mais de uma tradição (azul-claro no Ketu e na Umbanda; azul profundo no Xangô de Pernambuco); usado só na faixa de mar de baixo, num tom médio que não escolhe entre claro e profundo.", "registros": ["iemanja-020", "iemanja-050"]}
+    },
+    {
+      "entidade": "xango",
+      "texto_alternativo": "Ilustração simbólica de Xangô: um raio cai sobre uma pedra, ao lado de um machado de cabo longo (oxê).",
+      "elementos": [
+        {"elemento": "oxê (machado)", "como_aparece": "machado de cabo longo, de uma lâmina (o fichamento diz só 'uma espécie de machado')", "registros": ["xango-025"]},
+        {"elemento": "raio", "como_aparece": "raio em zigue-zague", "registros": ["xango-018", "xango-020", "xango-023", "xango-044"]},
+        {"elemento": "otá: pedra de raio; matéria: pedra", "como_aparece": "pedra facetada onde o raio cai", "registros": ["xango-033", "xango-025"]}
+      ],
+      "cor": {"acento": "vermelho", "justificativa": "Vermelho aparece no Ketu, na Umbanda e no Xangô de Pernambuco (sozinho ou com branco); usado só no raio. O branco das contas alternadas fica no tom claro do machado e da pedra, sem afirmar combinação.", "registros": ["xango-024", "xango-030", "xango-042"]}
+    }
+  ],
+  "sem_ilustracao": []
+}

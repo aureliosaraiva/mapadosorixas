@@ -1,0 +1,16 @@
+---
+// Ilustração simbólica de uma entidade (sem retrato nem cena de culto).
+// variante "cabeca": grande, com legenda; "cartao": pequena, sem legenda.
+import { ilustracaoPorId, LEGENDA_ILUSTRACAO } from '../lib/ilustracoes.js';
+interface Props { id: string; variante?: 'cabeca' | 'cartao' | 'capitulo' }
+const { id, variante = 'cabeca' } = Astro.props;
+const il = ilustracaoPorId[id];
+---
+{il && (variante === 'cartao'
+  ? <div class="ilustracao ilustracao-cartao" data-ilustracao={id} set:html={il.svg} />
+  : (
+    <figure class={`ilustracao ilustracao-${variante}`} data-ilustracao={id}>
+      <Fragment set:html={il.svg} />
+      <figcaption>{LEGENDA_ILUSTRACAO}</figcaption>
+    </figure>
+  ))}

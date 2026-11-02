@@ -4,21 +4,23 @@
 // dele, "ver também", notas, obras citadas e palavras do glossário.
 import Selo from './Selo.astro';
 import Icone from './Icone.astro';
+import Ilustracao from './Ilustracao.astro';
 import CorpoCapitulo from './CorpoCapitulo.astro';
 import { TITULO_SECAO, totalPalavras } from '../lib/capitulos.js';
 import { minutosLeitura } from '../lib/textos.js';
 
 interface Props {
   cap: any; sobretitulo: string; trilha: [string, string][]; textoSelo: string;
-  sensivel?: boolean; hrefPendenciasFicha?: string; tituloVerTambem: string;
+  sensivel?: boolean; hrefPendenciasFicha?: string; tituloVerTambem: string; ilustracao?: string;
 }
-const { cap, sobretitulo, trilha, textoSelo, sensivel = false, hrefPendenciasFicha, tituloVerTambem } = Astro.props;
+const { cap, sobretitulo, trilha, textoSelo, sensivel = false, hrefPendenciasFicha, tituloVerTambem, ilustracao } = Astro.props;
 const comTitulo = cap.secoes.filter((s) => s.slug !== 'abertura');
 const atualizado = cap.atualizado.split('-').reverse().join('/');
 ---
 <div class="topo-capitulo">
   <p class="trilha">{trilha.map(([href, rotulo], i) => <a href={href}>{i === 0 && <Icone nome="voltar" tamanho={16} />}{rotulo}</a>)}</p>
   <header class="cabeca-capitulo">
+    {ilustracao && !sensivel && <Ilustracao id={ilustracao} variante="capitulo" />}
     <p class="sobretitulo">{sobretitulo}</p>
     <h1>{cap.titulo}</h1>
     <p class="info-leitura">

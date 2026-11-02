@@ -4,6 +4,8 @@ import Selo from '../../components/Selo.astro';
 import Icone from '../../components/Icone.astro';
 import Tradicoes from '../../components/Tradicoes.astro';
 import TextoGlossario from '../../components/TextoGlossario.astro';
+import Ilustracao from '../../components/Ilustracao.astro';
+import { ilustracaoPorId } from '../../lib/ilustracoes.js';
 import {
   fichas, fontePorId, divergencias, ORDEM_ATRIBUTOS, rotuloAtributo, autorCurto,
   tradicoesDaFicha, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, url,
@@ -71,12 +73,13 @@ const minusc = (a) => rotuloAtributo(a).toLocaleLowerCase('pt-BR');
 ---
 <Base titulo={ficha.rotulo} descricao={`${ficha.rotulo}: resumo, o que cada tradição registra, mitos e conexões, com a fonte de cada informação.`} indexar>
   <p class="trilha"><a href={url('catalogo')}><Icone nome="voltar" tamanho={16} />Orixás e entidades</a></p>
-  <header class="cabeca-orixa">
+  <header class={`cabeca-orixa ${ilustracaoPorId[id] ? 'com-ilustracao' : ''}`}>
     <div>
       <p class="sobretitulo">{ROTULO_TIPO_ENTIDADE[ent.tipo]}</p>
       <h1>{ficha.rotulo}</h1>
       <p class="tradicoes-citadas">Registrado em: <Tradicoes ids={tradicoesDaFicha(ficha)} link /> <a href={url('tradicoes')}>o que é cada tradição</a></p>
     </div>
+    <Ilustracao id={id} />
   </header>
   {ent.sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: esta página traz só o que já é público em livros e pesquisas, sem nada dos fundamentos reservados aos iniciados.</p>}
   {revisada

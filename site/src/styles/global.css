@@ -27,6 +27,9 @@
   --sombra-forte: 0 2px 6px rgba(40, 30, 15, .1), 0 12px 32px rgba(40, 30, 15, .12);
   --grafo-fundo: #fffdf9;
   --grafo-texto: #1f1d1a;
+  /* ilustrações simbólicas (sessão ilustra): fundo, anéis, metal claro e acentos */
+  --il-fundo: #f4f0e8; --il-borda: #d9d0bf; --il-claro: #fffdf9; --il-ocre: #b07a3c;
+  --il-verde: #4f7a45; --il-vermelho: #b0503c; --il-azul: #4d6fae; --il-ouro: #c19a2e; --il-violeta: #7d5ea3;
 
   --serifa: 'Literata Variable', Literata, Georgia, 'Times New Roman', serif;
   --sans: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -45,6 +48,8 @@
     --sombra: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
     --sombra-forte: 0 2px 6px rgba(0, 0, 0, .4), 0 12px 32px rgba(0, 0, 0, .45);
     --grafo-fundo: #1b1e25; --grafo-texto: #ece8e1;
+    --il-fundo: #232731; --il-borda: #3c4352; --il-claro: #3a414f; --il-ocre: #d4a061;
+    --il-verde: #84b878; --il-vermelho: #df8672; --il-azul: #8fadea; --il-ouro: #dcbd57; --il-violeta: #b79de0;
     color-scheme: dark;
   }
 }
@@ -56,6 +61,8 @@
   --sombra: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
   --sombra-forte: 0 2px 6px rgba(0, 0, 0, .4), 0 12px 32px rgba(0, 0, 0, .45);
   --grafo-fundo: #1b1e25; --grafo-texto: #ece8e1;
+  --il-fundo: #232731; --il-borda: #3c4352; --il-claro: #3a414f; --il-ocre: #d4a061;
+  --il-verde: #84b878; --il-vermelho: #df8672; --il-azul: #8fadea; --il-ouro: #dcbd57; --il-violeta: #b79de0;
   color-scheme: dark;
 }
 
@@ -490,3 +497,20 @@ a.termo-gl:hover { color: var(--link); }
 /* busca (Pagefind) */
 #busca { --pagefind-ui-primary: var(--link); --pagefind-ui-text: var(--texto); --pagefind-ui-background: var(--superficie); --pagefind-ui-border: var(--borda-forte); --pagefind-ui-tag: var(--superficie-2); --pagefind-ui-border-radius: 10px; --pagefind-ui-font: var(--sans); }
 .rotulo-busca { font-weight: 600; margin-bottom: .4rem; display: block; }
+
+/* ------------------------------------------------- ilustrações simbólicas */
+.ilustracao { margin: 0; color: var(--texto); }
+.ilustracao svg { display: block; width: 100%; height: auto; }
+.ilustracao figcaption { margin-top: .5rem; font-size: .78rem; line-height: 1.35; color: var(--texto-2); text-align: center; }
+.ilustracao-cabeca { width: min(11rem, 46vw); }
+.cabeca-orixa.com-ilustracao { grid-template-columns: 1fr; align-items: center; }
+@media (min-width: 40rem) {
+  .cabeca-orixa.com-ilustracao { grid-template-columns: 1fr auto; }
+  .ilustracao-cabeca { width: 13rem; }
+}
+.ilustracao-capitulo { display: flex; align-items: center; gap: .9rem; margin: 0 0 1.1rem; }
+.ilustracao-capitulo svg { width: 6.5rem; flex: none; }
+.ilustracao-capitulo figcaption { margin: 0; text-align: left; max-width: 13rem; }
+.ilustracao-cartao { width: 4.5rem; flex: none; }
+.cartao.com-ilustracao .cartao-topo { display: flex; gap: .9rem; align-items: center; }
+.cartao.com-ilustracao .cartao-topo > div { min-width: 0; display: flex; flex-direction: column; gap: .35rem; }

@@ -2,6 +2,8 @@
 import Base from '../layouts/Base.astro';
 import Tradicoes from '../components/Tradicoes.astro';
 import Icone from '../components/Icone.astro';
+import Ilustracao from '../components/Ilustracao.astro';
+import { ilustracaoPorId, LEGENDA_ILUSTRACAO } from '../lib/ilustracoes.js';
 import {
   fichaPorId, listaEntidades, tradicoes, ROTULO_GRUPO, tradicoesDaFicha,
   fontesDaFicha, url, ROTULO_TIPO_ENTIDADE, ROTULO_GRUPO_ENTIDADE, grupoConfirmado, itans,
@@ -37,7 +39,7 @@ const semAcento = (t) => t.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
     <h1>Orixás e entidades</h1>
     <p class="chamada">{nComPagina} orixás, entidades e conceitos já têm página, com resumo, fontes e as diferenças entre tradições. Outros {nPesquisa} estão em estudo e aparecem só pelo nome até haver obra lida sobre eles.</p>
   </header>
-  <p class="discreto">O tipo de cada entidade (orixá, qualidade, divindade suprema, conceito, ancestrais) serve só para organizar esta lista; não é uma afirmação das tradições. As cores das etiquetas indicam o grupo de tradições: veja <a href={url('tradicoes')}>tradições e nações</a>.</p>
+  <p class="discreto">O tipo de cada entidade (orixá, qualidade, divindade suprema, conceito, ancestrais) serve só para organizar esta lista; não é uma afirmação das tradições. As cores das etiquetas indicam o grupo de tradições: veja <a href={url('tradicoes')}>tradições e nações</a>. As imagens dos cartões são ilustrações simbólicas inspiradas nos elementos descritos nas fontes: objetos, plantas e paisagens, nunca retratos.</p>
 
   <form class="filtros so-js" id="filtros-catalogo" aria-label="Filtrar a lista" onsubmit="return false">
     <div>
@@ -79,9 +81,14 @@ const semAcento = (t) => t.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
     {cartoes.map((c) => {
       const g = grupoConfirmado(c.e);
       return c.f ? (
-        <li class="cartao" id={`e-${c.e.id}`} data-entidade={c.e.id} data-situacao="ficha" data-capitulo={c.cap ? '1' : ''} data-tipo={c.e.tipo} data-tradicoes={c.trads.join(' ')} data-nome={semAcento(c.f.rotulo)}>
-          <p class="tipo-entidade">{ROTULO_TIPO_ENTIDADE[c.e.tipo]}{g && <> · {ROTULO_GRUPO_ENTIDADE[g.rotulo]}</>}</p>
-          <h2><a class="cartao-link" href={url(`orixas/${c.e.id}`)}>{c.f.rotulo}</a></h2>
+        <li class={`cartao ${ilustracaoPorId[c.e.id] ? 'com-ilustracao' : ''}`} id={`e-${c.e.id}`} data-entidade={c.e.id} data-situacao="ficha" data-capitulo={c.cap ? '1' : ''} data-tipo={c.e.tipo} data-tradicoes={c.trads.join(' ')} data-nome={semAcento(c.f.rotulo)}>
+          <div class="cartao-topo">
+            <Ilustracao id={c.e.id} variante="cartao" />
+            <div>
+              <p class="tipo-entidade">{ROTULO_TIPO_ENTIDADE[c.e.tipo]}{g && <> · {ROTULO_GRUPO_ENTIDADE[g.rotulo]}</>}</p>
+              <h2><a class="cartao-link" href={url(`orixas/${c.e.id}`)}>{c.f.rotulo}</a></h2>
+            </div>
+          </div>
           <p class="resumo-cartao"><Tradicoes ids={c.trads.slice(0, MAX_TRADS)} link />{c.trads.length > MAX_TRADS && <span class="discreto"> e mais {c.trads.length - MAX_TRADS}</span>}</p>
           {c.e.sensivel && <p class="aviso-sensivel">Tema sensível: só o que já é público em livros e pesquisas.</p>}
           <p class="rodape-cartao">
