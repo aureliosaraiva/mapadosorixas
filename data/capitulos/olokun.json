@@ -1,0 +1,749 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/olokun.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "olokun",
+  "titulo": "Olokun, o dono do mar",
+  "status": "rascunho",
+  "atualizado": "2026-11-02",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Olokun é o orixá do mar nas tradições iorubás da costa. Quase tudo o que o projeto sabe sobre ele vem de dois documentos coloniais, um de 1894 e outro de 1910, escritos por funcionários britânicos em Lagos e arredores, e por isso deve ser lido como relato de época; a eles se somam uma linha da mitologia de Ifẹ̀ e um mito cubano. Mesmo nesse pouco material, as versões não concordam sobre quem ele é: deus ou deusa, filho de Yemaja ou esposa de Oduduwa "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O relato do oficial britânico de 1894 traduz o nome por \"dono do mar\" "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". As fontes lidas não trazem outras formas do nome nem tratam da origem do culto "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". O administrador colonial de 1910 menciona também um Olokun do Benim, entre os edo, que o projeto deixou fora do recorte por enquanto "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No documento de 1894, Olokun é o deus principal de quem vive do mar, pescadores e navegantes, ao passo que no interior ele mal é cultuado "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": ". O de 1910 descreve um costume dos pescadores da costa iorubá: quem volta com boa pesca agradece a Yemaja pondo no rio um pote com milho cozido e noz-de-cola, e ela se encarregaria de passar a oferenda aos filhos, Olokun e Olosa "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": ". Uma história do culto, com datas e lugares, não aparece nas fontes "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "O mar e as águas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nas descrições do oficial britânico, Olokun tem forma humana, pele escura e cabelos longos, e mora num palácio no fundo das águas, servido por espíritos marinhos; o mar revolto e os naufrágios seriam sinais da sua cólera "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". Na ordem dos orixás aquáticos registrada pelo administrador colonial em Lagos, o mar, com Olokun, ocupa o primeiro posto, e a laguna em segundo, com Olosa "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, num mito sobre a partilha do mundo, o mar coube a Olokun quando o Pai Eterno repartiu o mundo entre seus filhos "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As genealogias divergem com a região. Em Lagos, na laguna e na costa iorubá, segundo os dois documentos coloniais, Olokun nasceu de Yemaja: na versão de 1894, saiu do corpo dela, casou-se com Olokun-su, divindade da barra de Lagos, e tem como esposa principal a própria irmã, Olosa, deusa da laguna; na de 1910, é filho de Yemaja junto com Olosa "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". Na mitologia de Ifẹ̀, Olokun é uma deusa, senhora do oceano e mulher de Oduduwa, com quem teve Oranmiyan e Isedale "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Dois mitos colhidos em Lagos e na Costa dos Escravos pelo oficial britânico de 1894 contam a cólera de Olokun ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O dilúvio de Olokun",
+              "tipo": "ita",
+              "alvo": "ita-025"
+            },
+            {
+              "t": "texto",
+              "v": "). No primeiro, magoado com o esquecimento dos homens, ele alaga a terra e afoga muitos, até que Obatala o empurra de volta para a morada submarina e o amarra com sete correntes de ferro, das quais só sai quando cede. Na variante ligada a Ifá, o dilúvio vem depois que Ifá, cansado do mundo, sobe ao firmamento com Obatala e deixa os homens sem entender o que os deuses querem; Obatala salva uns poucos içando-os ao céu presos a uma corrente de ferro; a terra só volta a ser habitável quando Ifá desce e a refaz com Odudua "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". O primeiro relato reaparece, repetido, num documento colonial posterior "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Olokun aparece ainda no grande mito de origem das águas registrado em Lagos pelo mesmo oficial, em 1894, em que vários deuses nascem do corpo de Yemaja, filha de Obatala e de Odudua ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iemanjá e o nascimento das águas",
+              "tipo": "ita",
+              "alvo": "ita-003"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Culto iorubá na Nigéria"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "culto iorubá",
+              "tipo": "tradicao",
+              "alvo": "ioruba_nigeria"
+            },
+            {
+              "t": "texto",
+              "v": ", Olokun é o grande orixá do mar dos povos da costa, venerado sobretudo por pescadores e navegantes; os registros vêm quase todos de documentos coloniais de Lagos, e a mitologia de Ifẹ̀ dá dele uma imagem feminina "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de Olokun nos candomblés "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. Também nela não há registro fichado de Olokun "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Lucumí"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na "
+            },
+            {
+              "t": "link",
+              "rotulo": "tradição lucumí",
+              "tipo": "tradicao",
+              "alvo": "lucumi"
+            },
+            {
+              "t": "texto",
+              "v": ", o mito cubano da partilha do universo dá o mar a Olokun "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de santo católico associado a Olokun "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Não há debate acadêmico sobre Olokun nas fontes lidas "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". O que existe são as interpretações dos próprios documentos de época: o oficial A. B. Ellis via no mito do dilúvio a memória das vezes em que o mar invadiu o litoral baixo e supunha uma origem muçulmana para a variante ligada a Ifá; o administrador R. E. Dennett se limitou a repetir o primeiro relato "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de cores, dia da semana, saudação, símbolos, festas ou funções de Olokun, nem de sua presença nos terreiros "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": ". A decisão de incluir ou não o Olokun do Benim, que tem bibliografia própria, cabe ao autor ou ao conselho "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-005"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-001"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "nomes",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-003"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Olokun do Benim (Edo)"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-001"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-004"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-001"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-003"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olodumare-018"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-004"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-007"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-007"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-006"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-060"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-002"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-007"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "dominios",
+          "tradicao": "candomble_ketu"
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "candomble_ketu"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "dominios",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-005"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "interpretacao_academica",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-007"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "funcoes",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Olokun do Benim (Edo)"
+        }
+      ]
+    }
+  ]
+}

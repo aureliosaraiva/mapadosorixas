@@ -1,0 +1,956 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/odudua.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "odudua",
+  "titulo": "Odudua, a terra, o fundador e o criador",
+  "status": "rascunho",
+  "atualizado": "2026-11-02",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Poucas figuras das tradições iorubás têm tantos rostos quanto Odudua. Em certas narrativas, a começar por um relato colonial de 1894, ela é a deusa da terra, metade de baixo do casal primordial; em outras, ele é o herói que chegou de longe e fundou as dinastias iorubás; em outras ainda, o criador que fez a terra firme sobre as águas. As três imagens convivem nas tradições, e no Brasil o culto já tinha desaparecido da Bahia em meados do século passado "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Num relato de 1894, escrito por um oficial britânico que ouviu sacerdotes da Costa dos Escravos, o nome aparece como Odudua ou Odua, com o título Iya agbe, \"a mãe que recebe\"; o oficial derivava o nome da palavra iorubá para \"preto\" e descrevia a imagem da deusa como uma mulher sentada que amamenta "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Os historiadores da corte de Oyó, na versão de um historiador e clérigo iorubá, liam em Oduduwa \"o grande recipiente\", fonte da existência, e um articulista iorubá cujo artigo um administrador colonial transcreveu em 1910 o lia como \"o que existe por si\" "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A origem é disputada. Pelas tradições dos historiadores da corte de Oyó, o povo iorubá vem de Lamurudu, soberano de Meca, e o príncipe Oduduwa, banido por incentivar a adoração de imagens, teria caminhado até Ilê-Ifẹ̀; o mesmo cronista, porém, tratava-o como personagem mítico, morto em Ifẹ̀ e depois divinizado "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". No artigo de jornal transcrito pelo administrador colonial, Odudua é um homem que conduziu imigrantes vindos do Bornu por volta dos séculos XI e XII e de quem descenderiam as dinastias de Ketu, de Benim e de Oyó; o próprio transcritor anotava que o articulista fazia de Odudua um homem, enquanto outras fontes, o bispo Crowther entre elas, e as pessoas ouvidas em Ilobe falavam de uma mulher "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": ". Hoje há acordo entre os iorubás sobre Oduduwa como antepassado, mas eles apontam para lugares diferentes como ponto de partida, de Meca ao Egito e a Israel "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia, as pistas são poucas e antigas. Em Salvador, no fim do século XIX, reconheceu-se a representação que um relato colonial descrevera: um par de metades de cabaça, ou então uma vasilha branca com tampa, figurando o céu e a terra unidos na linha do horizonte "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". Em meados do século passado, o culto de Odudua já não existia na Bahia, mas persistia a noção de um Obatalá ao mesmo tempo homem e mulher, característica que Odudua também teria tido "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No território iorubá, a história do culto se mistura à da realeza. Numa tradição que um filósofo iorubá retoma de outro autor, Oduduwa, depois de criar a terra firme, torna-se o primeiro soberano divino de Ilê-Ifẹ̀, e a passagem do deus ao rei daria fundamento à monarquia iorubá, espelho da ordem de Olodumare "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "A terra e o casal primordial",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No relato colonial de 1894, colhido entre sacerdotes de Lagos e arredores, Odudua é a principal deusa e esposa de Obatala. Ele teria sido feito por Olorun; ela existiria desde o princípio, ao lado dele, embora outros informantes lhe dessem a mesma origem dos outros deuses, em Ifẹ̀. O casal figura o céu e a terra, e o símbolo são duas cabaças sobrepostas que, uma vez fechadas, não voltam a se abrir. Alguns sacerdotes chegaram a dizer ao oficial que Obatala e Odudua formariam uma única divindade, masculina e feminina, mas a maioria os via como dois "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, o mesmo par reaparece: o céu cabe a Obatalá e a terra, a Odudua, e nos candomblés nagôs de Salvador ela é quem ajuda Oxalá a terminar a criação "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Nigéria, o sexo e o posto de Odudua variam com a região e com a narrativa. No litoral iorubá, ele é homem e ela, mulher; em Ifẹ̀, inverte-se a ordem "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". Na mitologia de Ifẹ̀, Oduduwa é filho de Olodumare, enviado lá de cima com a missão de formar a terra "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". Há tradições iorubás em que ele é tão antigo quanto Olorun e não foi criado por ninguém, e outras que põem Obatala e Oduduwa como servidores de Olorun; nos relatos de criação, é Olorun quem o envia, e Ilê-Ifẹ̀ passa a ser o eixo do mundo "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": ". Numa outra tradição iorubá, ele é o mensageiro do Ser Supremo que toma para si a tarefa que cabia a Orixanlá "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As genealogias também divergem. Na mitologia de Ifẹ̀, Oduduwa tem por esposa Olokun, senhora do oceano; Oranmiyan e Isedale são filhos do casal, e Ogum, neto "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". Na genealogia colhida em Lagos pelo oficial britânico de 1894, Olokun é um deus masculino, nascido do corpo de Yemaja, e esta, filha de Obatala e de Odudua ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Iemanjá e o nascimento das águas",
+              "tipo": "ita",
+              "alvo": "ita-003"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mito mais difundido é o da criação da terra firme ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A criação da terra firme",
+              "tipo": "ita",
+              "alvo": "ita-012"
+            },
+            {
+              "t": "texto",
+              "v": "), e as versões iorubás mudam justamente o papel de Odudua. Numa tradição iorubá de Ilê-Ifẹ̀, Olorun faz Oduduwa descer ao mundo ainda alagado levando um punhado de terra, um galo e o fruto do dendezeiro; ele lança a terra, o galo a espalha, e o coquinho vira uma palmeira de dezesseis ramos, os 16 reinos iorubás. Em outra, Olorun envia Obatala à frente de dezesseis imortais, os Oye, com Oduduwa entre eles; Obatala bebe demais pelo caminho, e Oduduwa assume o comando e desce com o grupo em Oke Oramfe. Numa terceira, Olodumare entrega a Obatala pó do céu, um camaleão e uma galinha de cinco dedos; os orixás descem por uma corrente que Ogum forjou, Obatala adormece embriagado, e Oduduwa, seu irmão mais novo, toma os objetos, faz a terra crescer e vira rei de Ifẹ̀ "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, a mesma história é contada a partir de Oxalá, que só completa a obra com a ajuda de Odudua "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os outros mitos vêm de documentos coloniais e pedem a cautela devida a relatos de época. No de 1894, o primeiro casal fica longo tempo espremido no escuro de uma cabaça; Odudua culpa o marido, na discussão, ele lhe tira os olhos, e ela, em troca, o amaldiçoa a ter só caramujos por alimento, e daí viria o costume de lhe oferecer caramujos, embora os fiéis não tratem Odudua como cega ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O casal primordial preso na cabaça",
+              "tipo": "ita",
+              "alvo": "ita-023"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": ". No relato de Ilobe, na região de Egbado, colhido por um administrador colonial, quem faz o mundo são Yemuhu e o marido, Orishala, que depois viram pedras; o administrador tomava Yemuhu por outro nome de Odudua ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A criação em Ilobe",
+              "tipo": "ita",
+              "alvo": "ita-024"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". E numa variante do dilúvio de Olokun registrada em 1894, a terra fica coberta de lama até que Ifá desça e, com Odudua, a torne de novo habitável ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O dilúvio de Olokun",
+              "tipo": "ita",
+              "alvo": "ita-025"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Culto iorubá na Nigéria"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "culto iorubá",
+              "tipo": "tradicao",
+              "alvo": "ioruba_nigeria"
+            },
+            {
+              "t": "texto",
+              "v": ", Odudua é ao mesmo tempo deusa da terra (sobretudo no relato colonial de 1894), ancestral das dinastias e criador da terra firme, conforme a narrativa; o sexo muda do litoral para Ifẹ̀, e a autonomia diante de Olorun também é discutida "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos "
+            },
+            {
+              "t": "link",
+              "rotulo": "candomblés nagôs da Bahia",
+              "tipo": "tradicao",
+              "alvo": "candomble_ketu"
+            },
+            {
+              "t": "texto",
+              "v": ", Odudua aparece como a terra do casal primordial e como auxiliar de Oxalá na criação, mas seu culto já tinha desaparecido em meados do século passado "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. O fichamento não tem registro de Odudua na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Lucumí"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também não há registro fichado sobre Odudua na tradição lucumí "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de santo católico associado a Odudua "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Agai Jock resume o estado da questão: deusa, herói migrante e criador são três imagens de Oduduwa que convivem nas narrativas, e a disputa sobre a origem, Meca, Egito ou Israel, tem também uma história letrada. O próprio Samuel Johnson, segundo ele, cristianizou a história, ao preferir para os ancestrais o Alto Egito dos coptas "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": ". Entre os documentos coloniais, o missionário Farrow julgava evemeristas e sem corroboração as histórias do articulista que R. E. Dennett transcreveu; são relatos de época, com seus próprios esquemas "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": ". Roger Bastide, por sua vez, via na troca de sexo entre Obatalá e Odudua, de uma região para outra, a marca de uma antiga concepção de Oxalá como andrógino "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de cores, dia da semana, saudação, festas ou iconografia próprios de Odudua, nem de um santo católico "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": ". O projeto marca Odudua, de forma provisória, entre os orixás funfun, \"do branco\", com Oxalá; mas nenhuma fonte lida até agora usa esse termo, e a classificação segue sem confirmação até que se leiam as obras que tratam dela "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-013"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-002"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-004"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-005"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-004"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-008"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-011"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-010"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-010"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-003"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-012"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-014"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-006"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-009"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-010"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-007"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "iemanja-060"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-019"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-031"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-012"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-015"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-016"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-007"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-005"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-009"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-013"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "lucumi"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-005"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-004"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-014"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-010"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "iconografia",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Orixás funfun: seguem sem fonte"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Rótulos provisórios de `grupo`"
+        }
+      ]
+    }
+  ]
+}
