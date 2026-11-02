@@ -1,0 +1,995 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/orunmila.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "orunmila",
+  "titulo": "Orunmilá e Ifá, a adivinhação e o destino",
+  "status": "rascunho",
+  "atualizado": "2026-11-01",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Orunmilá, também chamado Ifá, é o orixá da adivinhação, aquele que conhece o destino de cada pessoa e responde ao babalaô. Ao contrário da maior parte dos orixás, quase não se manifesta, raramente tem imagem e pouco se fala dele, o que faz do seu capítulo um dos mais curtos deste livro. Nos terreiros de Salvador, de São Paulo e do Recife, e na Regla de Ifá cubana, ele aparece como uma figura à parte, respeitada e distante "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No nagô do Recife, Orunmilá e Ifá são hoje nomes da mesma divindade, mas nos anos 1980 não eram equivalentes: Ifá aparecia quase só na expressão \"consultar Ifá\", isto é, para designar o oráculo, ao passo que Orunmilá era uma presença real nos ritos "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, o nome mais usado é Ifá, e Orumilá aparece num mito "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, o orixá da Regla de Ifá é chamado Orula ou Orunmila "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O culto de Ifá é discreto no Brasil. Nos terreiros de Salvador e São Paulo pesquisados até 1993, quando se perguntou a Papai sobre Ifá, ele explicou que, sendo esse o orixá consagrado de sua família, estava proibido de comentar; os outros chefes de culto disseram apenas que era o orixá da adivinhação. Não se encontraram estátuas dele, nem santo católico, nem ação sobre o corpo "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, como Ossaim, ele não se incorpora em transe, e o sacerdócio de Ifá, o do babalaô, era um dos quatro que se distinguiam nos candomblés, ao lado dos de orixá, de Ossaim e dos eguns "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No nagô do Recife, o culto ganhou força recente. Nos anos 1980, a obrigação para Orunmilá era feita a cada dois ou três anos e havia poucos assentamentos considerados autênticos; na família de santo estudada, Paulo retomou a adivinhação de Ifá com as nozes de palmeira, os ikin, e com o opelê, e a obrigação passou a ser anual, embora a complexidade do culto ainda limite sua expansão "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Cuba, a Regla de Ifá tem regras próprias de acesso. Para se tornar babalaô, só um santero homem pode chegar lá, e desde que Changó, na consulta do itá, lhe tenha dado permissão para \"fazer Ifá\"; entre os babalaôs cubanos, discute-se se mulheres podem ser iniciadas, com o título de iyanifá "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". Todo mês de outubro, um grupo de Ifá sediado nas Canárias vai a Matanzas para fazer iniciações e participar da festa de Elegguá, numa viagem organizada pelo único babalaô nascido no central Méjico "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A adivinhação é o seu domínio. Nos terreiros de Salvador e São Paulo, é Ifá quem dá as respostas ao babalaô quando este joga o opelê, e é ele quem conhece o destino de todos, sem que fique claro se também o determina; no mito da repartição dos elementos, coube-lhe o colar de adivinhar ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Olorun entrega a Oxalá os elementos",
+              "tipo": "ita",
+              "alvo": "ita-027"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, Orula é chamado testemunha da criação do mundo, e a Regla de Ifá se apoia na leitura de duzentos e cinquenta e seis signos, os odus ou letras, tirados com o tabuleiro de Ifá ou com a corrente chamada ekuelé; cada odu reúne um conjunto de patakís, histórias cuja interpretação responde à consulta "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Ifá aparece também ligado à fecundação. Na Bahia do fim do século XIX, registrou-se que Obatalá cuidava do crescimento da criança no ventre e Ifá do ato da fecundação; em meados do século passado, a gestação inteira era atribuída a Oxalá, mas se lembrava que os etnógrafos da África ligavam a fecundação ora a Ifá, ora a Oxalá "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As cores, no nagô do Recife, são o amarelo e o verde "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". As festas mudam de lugar para lugar. No Recife, a festa de Orunmilá caía em 25 de dezembro, data que nenhum chefe de culto sabia justificar, e todos insistiam que ele e Cristo nada têm em comum; na época da pesquisa, a festa passou para o último fim de semana de setembro. Em Cuba, a festa de Orula se faz com a de São Francisco de Assis, a 4 de outubro "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mito mais contado explica como a adivinhação chegou a Ifá e por que o babalaô trabalha com uma auxiliar ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ifá ensina Oxum a jogar e Elegba responde a contragosto",
+              "tipo": "ita",
+              "alvo": "ita-013"
+            },
+            {
+              "t": "texto",
+              "v": "). Nos terreiros de Salvador e São Paulo, diz-se que Ifá teve vida humana: era um pescador muito pobre que se pôs a serviço de Exu, num pacto que durou dezesseis anos; Exu o enviou à mata atrás de nozes de dendezeiro e o ensinou a ler a sorte nelas. Quando os consulentes se multiplicaram, Ifá tomou Oxum por mulher; ela quis jogar também, e ele separou nozes para ela, rogando a Exu que falasse por meio delas. Daí a apetebi, filha de Oxum Yaba Omi, que acompanha o babalaô "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Na Bahia, a mesma história faz de Oxum a ajudante de Ifá e conta que Elegba aceitou responder a contragosto e passou a perseguir os filhos dela "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Ifá aparece em outras narrativas. Nos mesmos terreiros de Salvador e São Paulo, quando Oxalá é esmagado pela pedra de Atowoda, é Orumilá, seu amigo, quem recolhe os pedaços numa cabaça e os espalha em Iranje, onde nascem as divindades ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Oxalá despedaçado pela pedra de Atowoda",
+              "tipo": "ita",
+              "alvo": "ita-028"
+            },
+            {
+              "t": "texto",
+              "v": "). Ali também se conta que Ifá comprou Ossãe como escravo para a roça, mas ele se recusava a cortar as ervas, porque cada uma curava alguma coisa; Ifá entendeu o poder das plantas e o manteve a seu lado ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Ossaim, comprado por Ifá",
+              "tipo": "ita",
+              "alvo": "ita-019"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Nigéria, em comunidades de origem oyó, um verso de Ifá conta que, quando o mundo dos vivos ameaçava desabar, Ifá prescreveu uma oferenda a Olódùmarè, e este mandou os primeiros egúngún para firmar o chão ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Os primeiros egúngún descem para firmar o mundo",
+              "tipo": "ita",
+              "alvo": "ita-026"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": ". Os registros coloniais pedem leitura cautelosa. Num relato de 1894, escrito por um oficial britânico, Ifá, cansado do mundo, sobe ao céu, e sem ele os homens deixam de entender os deuses; Olokun manda um dilúvio, e só quando Ifá desce a terra é refeita, com Odudua ("
+            },
+            {
+              "t": "link",
+              "rotulo": "O dilúvio de Olokun",
+              "tipo": "ita",
+              "alvo": "ita-025"
+            },
+            {
+              "t": "texto",
+              "v": "). Num segundo documento de época, de 1910, colhido numa aldeia de Egbado, Eleda vê que Ifá não tem cabeça, derruba-o numa luta e faz surgir nele cabeça, rosto e peito ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A criação em Ilobe",
+              "tipo": "ita",
+              "alvo": "ita-024"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quanto à família, nos terreiros de Salvador e São Paulo, Oxum é ora filha, ora esposa de Ifá, por causa da apetebi; no nagô do Recife, há quem a diga filha de Orunmilá "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé ketu"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés baianos, Ifá não se manifesta, e seu culto cabe ao babalaô, figura distinta do babalorixá "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Nos terreiros de Salvador e São Paulo, ele é tido como personagem central e incontornável do panteão, mas, à maneira de Olorun, não lida com os humanos sem intermediários; os pedidos chegam a Olorun por intermédio dos orixás, de Ifá e de Exu "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": ". Ali, ao contrário de Oxumaré, Ifá não tem filhos de santo "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Xangô do Recife"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "Xangô de Pernambuco",
+              "tipo": "tradicao",
+              "alvo": "xango_pernambuco"
+            },
+            {
+              "t": "texto",
+              "v": ", na família de santo nagô estudada, Orunmilá ocupa um lugar à parte, acima dos outros orixás. No peji, seu assentamento fica acima do chão, num plano elevado, isolado, à altura das Oxuns, e na sua obrigação anual \"come sozinho\", acompanhado apenas de Oxum "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A "
+            },
+            {
+              "t": "link",
+              "rotulo": "Umbanda",
+              "tipo": "tradicao",
+              "alvo": "umbanda"
+            },
+            {
+              "t": "texto",
+              "v": " é outra religião, e não uma nação do Candomblé. O fichamento não tem registro que trate só do Ifá umbandista: a pesquisa em terreiros de Salvador e São Paulo, de onde vem boa parte do que se disse acima, reuniu casas de Candomblé e de Umbanda sem separar o que é de cada uma "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Santería cubana"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Em Cuba, Orula é o centro da Regla de Ifá, sistema de adivinhação com seus duzentos e cinquenta e seis odus, reservado a babalaôs homens autorizados por Changó, e sua festa coincide com a de São Francisco de Assis "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O sincretismo de Orunmilá é o mais ralo entre os orixás deste livro. Nos terreiros de Salvador e São Paulo, não se encontrou santo católico para Ifá, e no nagô do Recife também não, apesar da antiga festa de 25 de dezembro, que os chefes de culto faziam questão de separar de Cristo. Em Cuba, ao contrário, Orula é festejado com São Francisco de Assis "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "John A. I. Bewaji, ao discutir a ideia de um Deus supremo iorubá, observa que há relatos de coisas que escapam a Olodumare e de consultas dele a Orunmilá e a Ifá, o que, a seu ver, não diminui a sabedoria divina "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": ". Gilles-Félix Vallier lê Exu, no corpus de Ifá, como a figura da incerteza do destino "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": ". Arnaud Halloy, retomando uma pesquisa dos anos 1980, mostra como a retomada da adivinhação com ikin e opelê mudou o lugar de Orunmilá numa família de santo do Recife "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum registro fichado traz a saudação de Orunmilá, seus símbolos e ferramentas nos terreiros, o dia da semana ou a sua origem africana. O próprio opelê e os ikin aparecem só de passagem "
+            },
+            {
+              "t": "nota",
+              "n": 31
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O corpus de Ifá, com os seus odus e versos, tem estudos próprios que o projeto ainda não fichou como registros de Orunmilá, e as coletâneas de mitos de Prandi e de Verger só existem impressas "
+            },
+            {
+              "t": "nota",
+              "n": 32
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-011"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-005"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-042"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-010"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-003"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-009"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-007"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-012"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-089"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-040"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-011"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxala-007"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-008"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-013"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-004"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-026"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxala-042"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-019"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-016"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-041"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-044"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ossaim-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ossaim-009"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olodumare-019"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxumare-013"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-006"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-003"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-013"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-013"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-013"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-081"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orunmila-005"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (Corrupio, 1981)"
+        }
+      ]
+    }
+  ]
+}
