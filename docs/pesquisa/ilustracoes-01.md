@@ -79,3 +79,7 @@ Rodados no fim da sessão: `validar_fontes`, `validar_fichamento`, `divergencias
 - **Cores:** o acento escolhido é sempre uma cor que aparece em mais de uma tradição, mas nunca substitui a variação: as páginas continuam mostrando todas as cores, por tradição.
 - **Encomenda a artistas afro-brasileiros:** sugestão ao autor substituir ou complementar esta série por ilustrações encomendadas e pagas a artistas ligados às tradições, com licença clara; `data/ilustracoes.json` serve como briefing (elementos, registros, o que evitar).
 - **Leitor de tela real:** conferir com NVDA/VoiceOver como o texto alternativo é lido no cartão do catálogo (hoje ele é lido antes do nome).
+
+## 9. Publicação
+
+Push direto na `main`. O deploy (`deploy-pages.yml`, execução nº 36, com as 22 ilustrações) terminou com sucesso. **Conferência da URL publicada** (<https://aureliosaraiva.github.io/mapadosorixas/>, Playwright, 2026-11-02): o catálogo mostra 22 ilustrações, todas com texto alternativo; Ogum, Odudua e o capítulo de Iemanjá mostram a sua; Iyami e Ewá não mostram nenhuma; **nenhum erro de rede ou de JavaScript**. Screenshot: `docs/screenshots/ilustracoes/publicado-xango-desktop.jpg`.
