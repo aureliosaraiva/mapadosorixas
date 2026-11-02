@@ -15,31 +15,510 @@
       "entidade": "ogum",
       "texto_alternativo": "Ilustração simbólica de Ogum: emblema de ferro com sete pontas em leque, entre folhas de espada-de-ogum, com uma franja de folhas desfiadas de dendezeiro (mariô) embaixo.",
       "elementos": [
-        {"elemento": "emblema de ferro com sete pontas", "como_aparece": "leque de sete hastes de ferro com pontas em lâmina, presas num arco", "registros": ["ogum-022", "ogum-016"]},
-        {"elemento": "espada-de-ogum (Sansevieria)", "como_aparece": "folhas longas e pontudas dos dois lados", "registros": ["ogum-023", "ogum-027", "ogum-042"]},
-        {"elemento": "mariô", "como_aparece": "franja de fios presa num cordão, na parte de baixo", "registros": ["ogum-041"]}
+        {
+          "elemento": "emblema de ferro com sete pontas",
+          "como_aparece": "leque de sete hastes de ferro com pontas em lâmina, presas num arco",
+          "registros": [
+            "ogum-022",
+            "ogum-016"
+          ]
+        },
+        {
+          "elemento": "espada-de-ogum (Sansevieria)",
+          "como_aparece": "folhas longas e pontudas dos dois lados",
+          "registros": [
+            "ogum-023",
+            "ogum-027",
+            "ogum-042"
+          ]
+        },
+        {
+          "elemento": "mariô",
+          "como_aparece": "franja de fios presa num cordão, na parte de baixo",
+          "registros": [
+            "ogum-041"
+          ]
+        }
       ],
-      "cor": {"acento": "verde", "justificativa": "Verde aparece nas cores de Ogum em várias tradições (Ketu/Jeje, Umbanda, Xangô de Pernambuco, Lucumí); usado só nas folhas. O azul-escuro do Ketu e o vermelho de outras casas não foram usados, para não eleger uma combinação.", "registros": ["ogum-021", "ogum-030", "ogum-031", "ogum-054", "ogum-059"]}
+      "cor": {
+        "acento": "verde",
+        "justificativa": "Verde aparece nas cores de Ogum em várias tradições (Ketu/Jeje, Umbanda, Xangô de Pernambuco, Lucumí); usado só nas folhas. O azul-escuro do Ketu e o vermelho de outras casas não foram usados, para não eleger uma combinação.",
+        "registros": [
+          "ogum-021",
+          "ogum-030",
+          "ogum-031",
+          "ogum-054",
+          "ogum-059"
+        ]
+      }
     },
     {
       "entidade": "iemanja",
       "texto_alternativo": "Ilustração simbólica de Iemanjá: lua crescente com uma estrela sobre as ondas do mar, com um seixo arredondado na frente.",
       "elementos": [
-        {"elemento": "lua crescente com estrela (emblema; metal: prata)", "como_aparece": "crescente e estrela no alto, em tom claro de metal", "registros": ["iemanja-021"]},
-        {"elemento": "águas do mar", "como_aparece": "faixas de ondas", "registros": ["iemanja-014", "iemanja-017", "iemanja-010"]},
-        {"elemento": "otá: seixo marítimo", "como_aparece": "seixo oval na frente das ondas", "registros": ["iemanja-024"]}
+        {
+          "elemento": "lua crescente com estrela (emblema; metal: prata)",
+          "como_aparece": "crescente e estrela no alto, em tom claro de metal",
+          "registros": [
+            "iemanja-021"
+          ]
+        },
+        {
+          "elemento": "águas do mar",
+          "como_aparece": "faixas de ondas",
+          "registros": [
+            "iemanja-014",
+            "iemanja-017",
+            "iemanja-010"
+          ]
+        },
+        {
+          "elemento": "otá: seixo marítimo",
+          "como_aparece": "seixo oval na frente das ondas",
+          "registros": [
+            "iemanja-024"
+          ]
+        }
       ],
-      "cor": {"acento": "azul", "justificativa": "Azul aparece em mais de uma tradição (azul-claro no Ketu e na Umbanda; azul profundo no Xangô de Pernambuco); usado só na faixa de mar de baixo, num tom médio que não escolhe entre claro e profundo.", "registros": ["iemanja-020", "iemanja-050"]}
+      "cor": {
+        "acento": "azul",
+        "justificativa": "Azul aparece em mais de uma tradição (azul-claro no Ketu e na Umbanda; azul profundo no Xangô de Pernambuco); usado só na faixa de mar de baixo, num tom médio que não escolhe entre claro e profundo.",
+        "registros": [
+          "iemanja-020",
+          "iemanja-050"
+        ]
+      }
     },
     {
       "entidade": "xango",
       "texto_alternativo": "Ilustração simbólica de Xangô: um raio cai sobre uma pedra, ao lado de um machado de cabo longo (oxê).",
       "elementos": [
-        {"elemento": "oxê (machado)", "como_aparece": "machado de cabo longo, de uma lâmina (o fichamento diz só 'uma espécie de machado')", "registros": ["xango-025"]},
-        {"elemento": "raio", "como_aparece": "raio em zigue-zague", "registros": ["xango-018", "xango-020", "xango-023", "xango-044"]},
-        {"elemento": "otá: pedra de raio; matéria: pedra", "como_aparece": "pedra facetada onde o raio cai", "registros": ["xango-033", "xango-025"]}
+        {
+          "elemento": "oxê (machado)",
+          "como_aparece": "machado de cabo longo, de uma lâmina (o fichamento diz só 'uma espécie de machado')",
+          "registros": [
+            "xango-025"
+          ]
+        },
+        {
+          "elemento": "raio",
+          "como_aparece": "raio em zigue-zague",
+          "registros": [
+            "xango-018",
+            "xango-020",
+            "xango-023",
+            "xango-044"
+          ]
+        },
+        {
+          "elemento": "otá: pedra de raio; matéria: pedra",
+          "como_aparece": "pedra facetada onde o raio cai",
+          "registros": [
+            "xango-033",
+            "xango-025"
+          ]
+        }
       ],
-      "cor": {"acento": "vermelho", "justificativa": "Vermelho aparece no Ketu, na Umbanda e no Xangô de Pernambuco (sozinho ou com branco); usado só no raio. O branco das contas alternadas fica no tom claro do machado e da pedra, sem afirmar combinação.", "registros": ["xango-024", "xango-030", "xango-042"]}
+      "cor": {
+        "acento": "vermelho",
+        "justificativa": "Vermelho aparece no Ketu, na Umbanda e no Xangô de Pernambuco (sozinho ou com branco); usado só no raio. O branco das contas alternadas fica no tom claro do machado e da pedra, sem afirmar combinação.",
+        "registros": [
+          "xango-024",
+          "xango-030",
+          "xango-042"
+        ]
+      }
+    },
+    {
+      "entidade": "exu",
+      "texto_alternativo": "Ilustração simbólica de Exu: dois caminhos que se cruzam em X, com um montículo de terra avermelhada (laterita) no centro e um búzio em cada canto entre os caminhos.",
+      "elementos": [
+        {
+          "elemento": "encruzilhada, caminhos",
+          "como_aparece": "dois caminhos cruzados em X, com linhas tracejadas",
+          "registros": [
+            "exu-033",
+            "exu-053",
+            "exu-058",
+            "exu-061"
+          ]
+        },
+        {
+          "elemento": "laterita (suporte do culto na África Ocidental)",
+          "como_aparece": "montículo baixo de terra avermelhada no cruzamento, sem figura",
+          "registros": [
+            "exu-051"
+          ]
+        },
+        {
+          "elemento": "búzios",
+          "como_aparece": "quatro búzios entre os caminhos",
+          "registros": [
+            "exu-051",
+            "exu-007"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "vermelho",
+        "justificativa": "Vermelho aparece com preto no Ketu, na Umbanda, no Xangô de Pernambuco e no Lucumí; usado só na terra (laterita), que é avermelhada. O preto não entra como acento para não reforçar a leitura demonizada que as próprias fontes criticam.",
+        "registros": [
+          "exu-042",
+          "exu-085",
+          "exu-088"
+        ]
+      },
+      "excluidos": "Tridente/garfo (exu-025) e figuras com chifres ou falo (exu-004, exu-017, exu-043, exu-051) ficaram de fora: são as imagens da leitura europeia e da associação ao diabo que as fontes registram e discutem (exu-002, exu-005, exu-016, exu-029, exu-077); o montículo é desenhado baixo, sem forma humana nem fálica."
+    },
+    {
+      "entidade": "oxossi",
+      "texto_alternativo": "Ilustração simbólica de Oxóssi: arco com flecha apontada para o alto, um espanta-moscas de rabo de boi (eruquerê) ao lado e folhas da mata embaixo.",
+      "elementos": [
+        {
+          "elemento": "arco e flecha",
+          "como_aparece": "arco com flecha, na diagonal",
+          "registros": [
+            "oxossi-014"
+          ]
+        },
+        {
+          "elemento": "eruquerê (espanta-moscas de rabo de boi, atributo real)",
+          "como_aparece": "cabo com tufo de fios, à direita",
+          "registros": [
+            "oxossi-014"
+          ]
+        },
+        {
+          "elemento": "mata, floresta",
+          "como_aparece": "leque de folhas na base",
+          "registros": [
+            "oxossi-011",
+            "oxossi-012"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "verde",
+        "justificativa": "Verde aparece no Ketu, na Umbanda e no Xangô de Pernambuco; usado só nas folhas.",
+        "registros": [
+          "oxossi-013",
+          "oxossi-025",
+          "oxossi-029"
+        ]
+      }
+    },
+    {
+      "entidade": "oxum",
+      "texto_alternativo": "Ilustração simbólica de Oxum: um leque redondo (abebé) dourado diante de uma cachoeira que cai num poço, com um seixo liso de rio.",
+      "elementos": [
+        {
+          "elemento": "abebé (leque); metal ouro ou latão",
+          "como_aparece": "leque redondo com cabo, no centro, no tom de acento",
+          "registros": [
+            "oxum-007",
+            "oxum-036"
+          ]
+        },
+        {
+          "elemento": "águas doces: rios, cachoeiras, fontes",
+          "como_aparece": "fios de água caindo atrás do leque até um poço com ondulações",
+          "registros": [
+            "oxum-004",
+            "oxum-031",
+            "oxum-042",
+            "oxum-051"
+          ]
+        },
+        {
+          "elemento": "otá: seixo liso tirado do leito de um rio",
+          "como_aparece": "seixo à direita, no poço",
+          "registros": [
+            "oxum-008"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "ouro",
+        "justificativa": "Amarelo e ouro aparecem no Ketu, na Umbanda, no Xangô de Pernambuco e no Lucumí; o metal (ouro ou latão) também é registrado. Usado só no leque.",
+        "registros": [
+          "oxum-006",
+          "oxum-035",
+          "oxum-045",
+          "oxum-050",
+          "oxum-036"
+        ]
+      }
+    },
+    {
+      "entidade": "iansa",
+      "texto_alternativo": "Ilustração simbólica de Iansã: uma espada em pé entre correntes de vento em espiral, com um relâmpago no alto.",
+      "elementos": [
+        {
+          "elemento": "ventos, ventania, tempestade",
+          "como_aparece": "três correntes de vento com volutas",
+          "registros": [
+            "iansa-005",
+            "iansa-022",
+            "iansa-032",
+            "iansa-039"
+          ]
+        },
+        {
+          "elemento": "relâmpago / centelha",
+          "como_aparece": "pequeno relâmpago no alto, à direita",
+          "registros": [
+            "iansa-005",
+            "iansa-022",
+            "iansa-039"
+          ]
+        },
+        {
+          "elemento": "espada (com que imita o relâmpago); armas",
+          "como_aparece": "espada reta, em pé",
+          "registros": [
+            "iansa-005",
+            "iansa-027"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "vermelho",
+        "justificativa": "Vermelho aparece no Ketu e no Xangô de Pernambuco (onde pode puxar para o marrom ou o rosa); o rosa/coral do Ketu e da Umbanda não foi usado. Acento só no relâmpago.",
+        "registros": [
+          "iansa-007",
+          "iansa-035",
+          "iansa-026"
+        ]
+      },
+      "excluidos": "Os mortos e o cemitério (iansa-006, iansa-022) não foram figurados, para não aproximar a imagem do culto aos mortos."
+    },
+    {
+      "entidade": "nana",
+      "texto_alternativo": "Ilustração simbólica de Nanã: um feixe de varetas amarradas (chachará) em pé sobre águas, sob uma chuva fina.",
+      "elementos": [
+        {
+          "elemento": "chachará: feixe de varetas amarradas",
+          "como_aparece": "nove varetas reunidas por duas amarras, no centro",
+          "registros": [
+            "nana-016"
+          ]
+        },
+        {
+          "elemento": "águas das chuvas e do dilúvio",
+          "como_aparece": "traços de chuva e água ondulada embaixo",
+          "registros": [
+            "nana-023"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "violeta",
+        "justificativa": "Violeta aparece no Ketu, na Umbanda e no Xangô de Pernambuco; usado só nas amarras do feixe.",
+        "registros": [
+          "nana-014",
+          "nana-027",
+          "nana-033"
+        ]
+      },
+      "excluidos": "A ligação com a morte e os ritos fúnebres (nana-013, nana-030) não foi figurada; o número de varetas é só gráfico (as fontes não o dão)."
+    },
+    {
+      "entidade": "omolu",
+      "texto_alternativo": "Ilustração simbólica de Omolu: uma franja de palha no alto, um feixe de varetas (xaxará) inclinado sobre a terra e uma pedra cheia de furinhos.",
+      "elementos": [
+        {
+          "elemento": "palha (matéria)",
+          "como_aparece": "franja radial de fios de palha no alto, sem figura",
+          "registros": [
+            "omolu-035",
+            "omolu-010"
+          ]
+        },
+        {
+          "elemento": "xaxará: feixe de varetas, vassoura",
+          "como_aparece": "feixe de varetas amarrado, na diagonal",
+          "registros": [
+            "omolu-012",
+            "nana-016"
+          ]
+        },
+        {
+          "elemento": "otá cheio de buraquinhos",
+          "como_aparece": "pedra com pequenos furos, à direita",
+          "registros": [
+            "omolu-013"
+          ]
+        },
+        {
+          "elemento": "terra (Sakpata-Omolu como 'rei da terra')",
+          "como_aparece": "faixa de chão embaixo",
+          "registros": [
+            "omolu-006"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "As cores registradas são preto e branco (Ketu, Umbanda) e, no Recife, poucos lhe dão cor; sem acento de cor do orixá. O ocre da paleta do site aparece só na palha, como cor do material.",
+        "registros": [
+          "omolu-009",
+          "omolu-031",
+          "omolu-042"
+        ]
+      },
+      "excluidos": "A figura coberta de palha, o rosto marcado e a dança (omolu-010, omolu-011, omolu-029) não foram desenhados: são retrato e cena de culto. Doença e cemitério (omolu-005, omolu-007) não foram figurados."
+    },
+    {
+      "entidade": "oxala",
+      "texto_alternativo": "Ilustração simbólica de Oxalá: duas metades de cabaça encaixadas sob uma abóbada pontilhada, com uma pomba acima, uma vara de metal à esquerda e uma flor de algodão à direita.",
+      "elementos": [
+        {
+          "elemento": "cabaça dupla: duas metades encaixadas, céu e terra",
+          "como_aparece": "duas metades claras encaixadas, no centro",
+          "registros": [
+            "oxala-011"
+          ]
+        },
+        {
+          "elemento": "céu, abóbada celeste",
+          "como_aparece": "arco pontilhado no alto",
+          "registros": [
+            "oxala-006",
+            "oxala-044"
+          ]
+        },
+        {
+          "elemento": "pomba no alto do emblema",
+          "como_aparece": "pomba acima da cabaça",
+          "registros": [
+            "oxala-046"
+          ]
+        },
+        {
+          "elemento": "paxorô (vara de metal)",
+          "como_aparece": "vara vertical à esquerda",
+          "registros": [
+            "oxala-012"
+          ]
+        },
+        {
+          "elemento": "algodão",
+          "como_aparece": "flor de algodão à direita, embaixo",
+          "registros": [
+            "oxala-046",
+            "oxala-032"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "O branco é registrado em todas as tradições (Ketu, Umbanda, Xangô de Pernambuco); a ilustração usa só o tom claro e o traço da página, sem acento.",
+        "registros": [
+          "oxala-013",
+          "oxala-045",
+          "oxala-058"
+        ]
+      },
+      "excluidos": "A pomba fica acima da cabaça, sem afirmar que o emblema e o paxorô sejam o mesmo objeto (as fontes falam deles separadamente)."
+    },
+    {
+      "entidade": "ossaim",
+      "texto_alternativo": "Ilustração simbólica de Ossaim: uma haste de ferro pontuda cravada entre folhas do mato, com ramos abertos para cima e um pássaro no alto.",
+      "elementos": [
+        {
+          "elemento": "ferro de Ossaim: haste pontuda cravada no chão, pássaro no alto, ramos em leque",
+          "como_aparece": "haste central com pássaro e seis ramos abertos para cima",
+          "registros": [
+            "ossaim-020",
+            "ossaim-021",
+            "ossaim-023"
+          ]
+        },
+        {
+          "elemento": "ervas, folhas, mato selvagem",
+          "como_aparece": "folhas espalhadas na base",
+          "registros": [
+            "ossaim-001",
+            "ossaim-002",
+            "ossaim-003",
+            "ossaim-004"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Verde e vermelho só aparecem num registro (Xangô de Pernambuco); sem acento de cor do orixá. As folhas usam o ocre da paleta do site.",
+        "registros": [
+          "ossaim-036"
+        ]
+      },
+      "excluidos": "Seis ramos seguem Sallum & Silva ('muitas vezes seis', ossaim-023); Bastide fala em sete (ossaim-020). A figura de um olho e uma perna (ossaim-030, ossaim-032) não foi desenhada."
+    },
+    {
+      "entidade": "oxumare",
+      "texto_alternativo": "Ilustração simbólica de Oxumarê: um arco-íris em faixas sobre dois ferros ondulados que desenham serpentes.",
+      "elementos": [
+        {
+          "elemento": "arco-íris que liga céu e terra",
+          "como_aparece": "cinco faixas concêntricas em arco",
+          "registros": [
+            "oxumare-003",
+            "oxumare-011",
+            "oxumare-022"
+          ]
+        },
+        {
+          "elemento": "serpente; dois bastões de ferro que figuram cobras",
+          "como_aparece": "duas varetas onduladas com cabeça de serpente",
+          "registros": [
+            "oxumare-026",
+            "oxumare-011",
+            "oxumare-022"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Amarelo e verde (Ketu/Umbanda, num registro) e 'as cores do arco-íris' (Pernambuco) não se repetem entre tradições; o arco-íris é desenhado em faixas alternadas de traço e ocre do site, sem eleger cores.",
+        "registros": [
+          "oxumare-014",
+          "oxumare-020"
+        ]
+      }
+    },
+    {
+      "entidade": "logunede",
+      "texto_alternativo": "Ilustração simbólica de Logunedé: uma pena de ave de caça no alto, um arco com flecha (ofá) e um leque redondo (abebé) cruzados.",
+      "elementos": [
+        {
+          "elemento": "pena de ave de caça (sinal do pai)",
+          "como_aparece": "pena no alto, ao centro",
+          "registros": [
+            "logunede-006"
+          ]
+        },
+        {
+          "elemento": "ofá",
+          "como_aparece": "arco com flecha à esquerda",
+          "registros": [
+            "logunede-018"
+          ]
+        },
+        {
+          "elemento": "abebé",
+          "como_aparece": "leque redondo à direita",
+          "registros": [
+            "logunede-018"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Azul-claro e amarelo-ouro aparecem num só registro (Ketu); sem acento de cor do orixá. O leque usa o ocre do site.",
+        "registros": [
+          "logunede-017"
+        ]
+      }
     }
   ],
   "sem_ilustracao": []
