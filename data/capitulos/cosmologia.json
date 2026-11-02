@@ -1,0 +1,814 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/cosmologia.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "tipo": "panorama",
+  "id": "cosmologia",
+  "titulo": "A cosmologia em resumo: do Ser Supremo aos ancestrais",
+  "status": "rascunho",
+  "atualizado": "2026-11-02",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Este texto costura os sete capítulos sobre cosmologia e hierarquia: "
+            },
+            {
+              "t": "link",
+              "rotulo": "Olodumare",
+              "tipo": "capitulo",
+              "alvo": "olodumare"
+            },
+            {
+              "t": "texto",
+              "v": ", "
+            },
+            {
+              "t": "link",
+              "rotulo": "Orum",
+              "tipo": "capitulo",
+              "alvo": "orum"
+            },
+            {
+              "t": "texto",
+              "v": ", "
+            },
+            {
+              "t": "link",
+              "rotulo": "Aiê",
+              "tipo": "capitulo",
+              "alvo": "aie"
+            },
+            {
+              "t": "texto",
+              "v": ", "
+            },
+            {
+              "t": "link",
+              "rotulo": "Orí",
+              "tipo": "capitulo",
+              "alvo": "ori"
+            },
+            {
+              "t": "texto",
+              "v": ", "
+            },
+            {
+              "t": "link",
+              "rotulo": "Odudua",
+              "tipo": "capitulo",
+              "alvo": "odudua"
+            },
+            {
+              "t": "texto",
+              "v": ", "
+            },
+            {
+              "t": "link",
+              "rotulo": "Olokun",
+              "tipo": "capitulo",
+              "alvo": "olokun"
+            },
+            {
+              "t": "texto",
+              "v": " e "
+            },
+            {
+              "t": "link",
+              "rotulo": "Egungun",
+              "tipo": "capitulo",
+              "alvo": "egungun"
+            },
+            {
+              "t": "texto",
+              "v": ". Não traz nada que eles não contem; apenas os põe lado a lado para que se veja o desenho geral. Esse desenho não é um só: o número e o lugar dos orixás mudam muito de uma tradição para outra, e por isso cada versão vem acompanhada do lugar de onde vem "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hierarquia",
+      "titulo": "Hierarquia",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No topo está um ser de outra natureza, Olodumare ou Olorun na Nigéria, Olorum no Brasil. Nos estudos iorubás recentes, tudo procede dele, e os orixás são seus ministros, que só agem dentro do que ele permite. Nos terreiros de Salvador e São Paulo, diz-se que ele nem sequer é orixá: não tem imagem, não ouve preces diretas, e os pedidos lhe chegam pela mediação de Exu, de Ifá e dos orixás "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O que ele fez depois da criação também varia. Nos candomblés nagôs da Bahia, Olorum repartiu os domínios entre os orixás, deixou a Oxalá a guarda da ordem e a Exu a ligação entre as partes do mundo "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". Outra leitura do candomblé o faz confiar a Oxalá e a Oduduá o feitio do cosmos e das pessoas e ficar de fora; os orixás estariam ligados entre si antes como família do que como degraus de uma escada de postos "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, o Pai Eterno divide o mundo entre os filhos antes de subir ao céu, e o mar fica com Olokun "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os documentos coloniais não se entendem sobre ele. Um oficial britânico, em 1894, recusava a Olorun o mando sobre todas as coisas; um missionário anglicano, em 1926, o colocava sozinho numa classe à parte; um administrador colonial de 1910 o fazia nascer do deus do trovão. A pergunta sobre se Olodumare seria o mesmo Deus dos cristãos passa por esses relatos de época e reaparece entre filósofos iorubás de hoje, como conta o "
+            },
+            {
+              "t": "link",
+              "rotulo": "capítulo de Olodumare",
+              "tipo": "capitulo",
+              "alvo": "olodumare"
+            },
+            {
+              "t": "texto",
+              "v": " "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Abaixo dele, as versões discordam sobre quem fez a terra firme. Nos candomblés nagôs da Bahia, Olorum encarrega Oxalá da tarefa, e Odudua o ajuda a concluí-la; em tradições iorubás de Ilê-Ifẹ̀, é Oduduwa quem desce com a terra e se torna rei; no relato colonial de 1894, colhido em Lagos, Odudua é a deusa da terra, par feminino de Obatala. O "
+            },
+            {
+              "t": "link",
+              "rotulo": "capítulo de Odudua",
+              "tipo": "capitulo",
+              "alvo": "odudua"
+            },
+            {
+              "t": "texto",
+              "v": " apresenta as três imagens juntas "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Com o mar acontece algo parecido. Nos documentos coloniais de Lagos, de 1894 e de 1910, Olokun é um deus nascido de Yemaja e venerado por quem vive da pesca e da navegação; na mitologia de Ifẹ̀, é uma deusa casada com Oduduwa; no mito cubano, recebe o oceano na partilha feita pelo Pai Eterno ("
+            },
+            {
+              "t": "link",
+              "rotulo": "capítulo de Olokun",
+              "tipo": "capitulo",
+              "alvo": "olokun"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "planos-do-mundo",
+      "titulo": "Os planos do mundo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O cosmos tem dois planos. No culto iorubá da Nigéria, o Orum é o de cima, espiritual, domínio de Olodumare e, nas cidades de origem Ọ̀yọ́, morada dos ancestrais; o Aiê é o mundo físico, onde a vida começa e termina. Nos terreiros Ketu do Rio de Janeiro, a harmonia entre os dois só dura enquanto os ritos se mantêm; em outra leitura do candomblé, cada um sai do Orum e chega ao Aiê já feito da substância de um orixá "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quem transita entre os planos é Exu: leva aos orixás as oferendas dos humanos e devolve as respostas, no culto iorubá e no candomblé ketu "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os relatos de época acrescentam outras divisões. Para o missionário anglicano que observou os egbá de Abeokuta, havia um céu bom e outro de castigo; o oficial britânico que ouviu sacerdotes de Lagos em 1894 situava a terra dos mortos debaixo do chão. O mesmo missionário estende a palavra aiye ao universo todo, terra e céus. Os capítulos sobre o "
+            },
+            {
+              "t": "link",
+              "rotulo": "Orum",
+              "tipo": "capitulo",
+              "alvo": "orum"
+            },
+            {
+              "t": "texto",
+              "v": " e o "
+            },
+            {
+              "t": "link",
+              "rotulo": "Aiê",
+              "tipo": "capitulo",
+              "alvo": "aie"
+            },
+            {
+              "t": "texto",
+              "v": " tratam dessas versões "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "a-pessoa",
+      "titulo": "A pessoa e o Orí",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na pessoa, a cosmologia passa pela cabeça. Orí é a cabeça e também a força que governa a sorte de cada um. Na Oyó descrita por um historiador e clérigo iorubá, era a divindade doméstica do destino, honrada em cada casa pelos adultos; o relato colonial de 1894, feito com sacerdotes de Lagos, a punha entre três espíritos que moram em todo ser humano "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos candomblés da Bahia, a ideia se encontrou com a do Eledá e com a do orixá que o iniciado leva na cabeça. As casas mais tradicionais mantinham os dois separados, as casas bantas tendiam a uni-los, e a maioria dos informantes baianos de meados do século passado os tomava por um só; em Cuba, um informante punha todas as cabeças sob Obatalá. O "
+            },
+            {
+              "t": "link",
+              "rotulo": "capítulo de Orí",
+              "tipo": "capitulo",
+              "alvo": "ori"
+            },
+            {
+              "t": "texto",
+              "v": " reúne as versões "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ancestrais",
+      "titulo": "Os ancestrais",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os mortos são outra parte do cosmos. Nas cidades de origem Ọ̀yọ́, na Nigéria, os ancestrais moram no ọ̀run e se tornam visíveis como egúngún, chamados de \"pai\" e de \"habitantes do céu\". Um odù de Ifá conta que Olódùmarè mandou os primeiros deles para firmar a terra ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Os primeiros egúngún descem para firmar o mundo",
+              "tipo": "ita",
+              "alvo": "ita-026"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Bahia, o culto dos Egun pertence a uma sociedade própria, com sede em Itaparica, e os mortos não descem em transe como os orixás: aparecem. A aparição deles nos ritos fúnebres muda de nação para nação, praticada nas casas de linhagem nagô e dispensada nas casas Jeje e Angola "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Na Umbanda, que é outra religião e não uma nação do Candomblé, egum é a alma de um falecido que se manifesta em auxílio dos vivos, e não o ancestral que aparece sem transe "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". O "
+            },
+            {
+              "t": "link",
+              "rotulo": "capítulo de Egungun",
+              "tipo": "capitulo",
+              "alvo": "egungun"
+            },
+            {
+              "t": "texto",
+              "v": " fica no que as fontes publicadas dizem; o fundamento do culto espera o conselho "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O tema das Iyami aguarda a decisão do conselho sobre o que pode ser publicado e não é tratado aqui nem nos capítulos "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O projeto põe, de forma provisória, Oxalá e Odudua entre os orixás funfun, \"do branco\". Nenhuma fonte lida até agora usa esse termo, e o grupo continua como lacuna, sem texto, até que se leiam as obras que tratam dele "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Faltam também as obras que tratam da cosmologia de frente: o *Olódùmarè* de Idowu, o livro de Beniste sobre o Orum e o Aiê e o estudo de Juana Elbein dos Santos sobre os nagôs e a morte "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-010"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olodumare-019"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-016"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-017"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-018"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-005"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olodumare-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olodumare-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olodumare-011"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-012"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-017"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-019"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-001"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "odudua-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "olokun-005"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orum-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orum-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orum-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orum-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-002"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-011"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-078"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orum-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orum-004"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-003"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-001"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-007"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-009"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orum-007"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-010"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-013"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-012"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-034"
+        },
+        {
+          "tipo": "registro",
+          "registro": "egungun-013"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Lote C — decisões para o conselho"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Lote C — decisões para o conselho"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Orixás funfun: seguem sem fonte"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Rótulos provisórios de `grupo`"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Idowu, *Olódùmarè* (1962)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Beniste, *Òrun-Àiyé* (1997)"
+        },
+        {
+          "tipo": "pendencia",
+          "ancora": "Santos, *Os Nàgô e a morte* (1976)"
+        }
+      ]
+    }
+  ]
+}

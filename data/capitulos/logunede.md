@@ -2,7 +2,7 @@
 orixa: logunede
 titulo: Logunedé, o príncipe entre a mata e o rio
 status: rascunho
-atualizado: 2026-11-01
+atualizado: 2026-11-02
 ---
 
 Logunedé reúne dois mundos: o do caçador, que a maioria das versões contadas num candomblé ketu de São Paulo dá como seu pai, e o das águas doces de Oxum, sua mãe. Nos terreiros brasileiros ele costuma aparecer jovem e bonito; na Nigéria, guerreiro de gênio forte. Entre uma imagem e outra, as fontes registram muitas discordâncias, a começar pela de quem é o pai {{ref:logunede-007,logunede-015,logunede-020}}.
@@ -11,7 +11,7 @@ Logunedé reúne dois mundos: o do caçador, que a maioria das versões contadas
 
 Em iorubá o nome tem três formas registradas, Ológún-ẹ̀dẹ, Lógunède e Lógun-Ẹ̀dẹ, e entre os títulos que o louvam estão Ólògún Ode e Asíwájú Òrìṣà, que o exaltam como guerreiro que caça, cabeça dos orixás, dono da pesca e da caça e quem guarda o segredo das batalhas. No Brasil, as grafias variam: Logunedê nos candomblés baianos de meados do século passado, Logum Edé ou Logun-Edé em casas paulistas {{ref:logunede-013,logunede-001,logunede-005,logunede-022}}.
 
-Na Nigéria, Lógunède é caçador e guerreiro, ligado a Edé e a Ilesa, no estado de Osun, e tem culto também em Ibadan. Uma sacerdotisa nigeriana, falando em São Paulo em 2019, situou sua origem em Éfọn Aláayè {{ref:logunede-014}}.
+Na Nigéria, Lógunède é caçador e guerreiro, ligado a Edé e a Ilesa, no estado de Osun, e tem culto também em Ibadan. Uma sacerdotisa nigeriana, falando em São Paulo em 2019, situou sua origem em Éfọ̀n Aláayè {{ref:logunede-014}}.
 
 ## História do culto {#historia-do-culto}
 

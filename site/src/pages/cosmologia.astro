@@ -3,6 +3,9 @@ import Base from '../layouts/Base.astro';
 import Tradicoes from '../components/Tradicoes.astro';
 import Citacoes from '../components/Citacoes.astro';
 import { fichas, listaEntidades, fichaPorId, ROTULO_TIPO_ENTIDADE, hrefEntidade, url } from '../lib/dados.js';
+import { panoramaPorId } from '../lib/capitulos.js';
+
+const panorama = panoramaPorId.cosmologia;
 
 // Só o que tem fonte: versões do atributo 'hierarquia' das fichas geradas.
 const comHierarquia = fichas.filter((f) => f.atributos.hierarquia?.length);
@@ -14,6 +17,7 @@ const cosmo = TIPOS_COSMO.map((t) => [t, listaEntidades.filter((e) => e.tipo ===
 <Base titulo="Cosmologia e hierarquia" descricao="Posição cosmológica das entidades, só com fonte e versões lado a lado.">
   <h1>Cosmologia e hierarquia</h1>
   <p>Esta página reúne o que as fontes dizem sobre a <strong>posição cosmológica</strong> de cada entidade: a relação com a divindade suprema, com o Orum e o Aiê, com os grupos de orixás e com os ancestrais. Não existe um panteão único e idêntico entre as tradições, nem mesmo em território iorubá (ver <a href={url('metodologia')}>Metodologia</a>); por isso cada afirmação aparece como uma versão, com tradição e fonte, ao lado das outras.</p>
+  {panorama && <p class="nota-caixa link-capitulo" id="link-panorama"><strong>Em texto corrido:</strong> <a href={url('cosmologia/capitulo')}>{panorama.titulo}</a> — panorama curto que costura os capítulos de Olodumare, Orum, Aiê, Orí, Odudua, Olokun e Egungun, com notas de rodapé.</p>}
 
   <section aria-labelledby="versoes-hierarquia">
     <h2 id="versoes-hierarquia">Versões com fonte</h2>

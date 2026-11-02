@@ -30,7 +30,12 @@ Marcadores (cada trecho de texto termina num marcador que o sustenta):
 - `{{pendencia:texto}}`  o texto aparece em docs/pesquisa/PENDENCIAS.md (obra
   bloqueada, exemplar a obter) — conferido.
 Links: `[rótulo](ita:ita-006)`, `(orixa:ogum)`, `(glossario:pade)`,
-`(tradicao:candomble_jeje)`, `(grafo:ogum)`. Itálico: `*texto*`.
+`(tradicao:candomble_jeje)`, `(grafo:ogum)`, `(capitulo:ori)` (outro capítulo de
+orixá/entidade). Itálico: `*texto*`.
+
+Capítulo-panorama: `tipo: panorama` e `id: <id>` no lugar de `orixa`; seções de
+SECOES_PANORAMA; não usa `{{lacuna}}` (que é por entidade): o que falta vai em
+`{{pendencia}}` ou em `{{ref}}` de registro que diga a ausência.
 
 O JSON gerado (data/capitulos/<id>.json) é o que o site lê: estrutura, segmentos
 e notas numeradas por ordem de primeira aparição. Gerar: scripts/validar_capitulos.py --gerar.
@@ -55,10 +60,35 @@ SECOES = [
 ]
 SLUGS = [s for s, _, _ in SECOES]
 CAMPOS_FRONT = {"orixa", "titulo", "status", "atualizado"}
-TIPOS_LINK = {"ita", "orixa", "glossario", "tradicao", "grafo"}
+
+# Capítulo-panorama (`tipo: panorama` no frontmatter): costura de vários capítulos
+# sobre um tema (ex.: cosmologia), com id livre no lugar de `orixa`, sem ficha própria
+# e com seções próprias. Mesmas regras de texto, marcadores e notas.
+SECOES_PANORAMA = [
+    ("hierarquia", "Hierarquia", True),
+    ("planos-do-mundo", "Os planos do mundo", True),
+    ("a-pessoa", "A pessoa e o Orí", True),
+    ("ancestrais", "Os ancestrais", True),
+    ("lacunas", "O que as fontes não dizem", True),
+]
+SLUGS_PANORAMA = [s for s, _, _ in SECOES_PANORAMA]
+CAMPOS_FRONT_PANORAMA = {"tipo", "id", "titulo", "status", "atualizado"}
+TIPOS_LINK = {"ita", "orixa", "glossario", "tradicao", "grafo", "capitulo"}
+
+
+def eh_panorama(front):
+    return front.get("tipo") == "panorama"
+
+
+def secoes_de(front):
+    return SECOES_PANORAMA if eh_panorama(front) else SECOES
+
+
+def id_de(front):
+    return front.get("id") if eh_panorama(front) else front.get("orixa")
 
 RE_MARCADOR = re.compile(r"\{\{(ref|lacuna|pendencia):([^}]*)\}\}")
-RE_LINK = re.compile(r"\[([^\]]+)\]\((ita|orixa|glossario|tradicao|grafo):([^)\s]+)\)")
+RE_LINK = re.compile(r"\[([^\]]+)\]\((ita|orixa|glossario|tradicao|grafo|capitulo):([^)\s]+)\)")
 RE_TOKEN = re.compile(RE_MARCADOR.pattern + "|" + RE_LINK.pattern)
 RE_SECAO = re.compile(r"^##\s+(.+?)\s*\{#([a-z0-9-]+)\}\s*$")
 RE_SUB = re.compile(r"^###\s+(.+?)\s*$")
@@ -225,13 +255,14 @@ def gerar_json(estrutura):
             bl.append({"tipo": "paragrafo", "tokens": tks})
         secoes.append({"slug": s["slug"], "titulo": s["titulo"], "blocos": bl})
     f = estrutura["front"]
+    ident = {"tipo": "panorama", "id": f.get("id")} if eh_panorama(f) else {"orixa": f.get("orixa")}
     return {
         "_meta": {
             "gerado_por": "scripts/validar_capitulos.py --gerar",
-            "fonte": f"data/capitulos/{f.get('orixa')}.md",
+            "fonte": f"data/capitulos/{id_de(f)}.md",
             "aviso": "Gerado a partir do .md; não editar à mão.",
         },
-        "orixa": f.get("orixa"),
+        **ident,
         "titulo": f.get("titulo"),
         "status": f.get("status"),
         "atualizado": f.get("atualizado"),

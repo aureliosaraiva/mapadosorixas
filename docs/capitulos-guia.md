@@ -4,7 +4,7 @@ Pedido do autor (sessão cap01, 2026-11-01): **uma página por orixá com texto 
 
 - Fonte do texto: `data/capitulos/<id>.md` (editado à mão).
 - JSON gerado, lido pelo site: `data/capitulos/<id>.json` (`python3 scripts/validar_capitulos.py --gerar`; esquema `schemas/capitulo.schema.json`). Não editar o JSON.
-- Página: `/orixas/<id>/capitulo/`; índice: `/livro/`; a ficha linka para o capítulo.
+- Página: `/orixas/<id>/capitulo/` (com o aviso de tema sensível quando a entidade é `sensivel`, como na ficha); índice: `/livro/`; a ficha linka para o capítulo.
 - Validador: `scripts/validar_capitulos.py` (também no CI e nos testes `tests/test_capitulos.py`); `scripts/anticopia.py` confere os trechos dos capítulos; `scripts/qa_site.py` §12 confere o HTML contra o JSON.
 
 ## 1. Formato do arquivo
@@ -55,7 +55,17 @@ Todo trecho de texto termina num marcador. Um marcador cobre o texto desde o mar
 | `{{lacuna:atributo}}` ou `{{lacuna:atributo@tradicao}}` | o fichamento não tem registro desse atributo (nessa tradição) | que de fato não há registro `fichado`/`revisado` (um registro retido também invalida a lacuna) |
 | `{{pendencia:texto}}` | obra bloqueada ou que depende de exemplar | que o texto está em `docs/pesquisa/PENDENCIAS.md` |
 
-Links: `[rótulo](ita:ita-006)`, `(orixa:ogum)`, `(glossario:pade)`, `(tradicao:candomble_jeje)`, `(grafo:ogum)`; o validador confere que o alvo existe e está publicado.
+Links: `[rótulo](ita:ita-006)`, `(orixa:ogum)`, `(glossario:pade)`, `(tradicao:candomble_jeje)`, `(grafo:ogum)`, `(capitulo:ori)` (outro capítulo de orixá/entidade); o validador confere que o alvo existe e está publicado.
+
+### Capítulo-panorama (sessão cap05)
+
+Um panorama costura vários capítulos sobre um tema (o primeiro é `data/capitulos/cosmologia.md`). Mesmas regras de texto, marcadores, notas e estilo; muda o seguinte:
+
+- Frontmatter: `tipo: panorama` e `id: <id>` (igual ao nome do arquivo, só minúsculas e `_`, e **não** pode ser id da lista-mestra) no lugar de `orixa`; não exige ficha.
+- Seções, nesta ordem, todas obrigatórias: `hierarquia`, `planos-do-mundo`, `a-pessoa` (Orí), `ancestrais`, `lacunas`.
+- Sem `{{lacuna:…}}` (a lacuna é por entidade): o que falta vai em `{{pendencia:…}}` ou no registro que diz a ausência.
+- A distinção Candomblé × Umbanda vale para o texto todo (não há seção de tradições).
+- Página: `/<id>/capitulo/` (ex.: `/cosmologia/capitulo/`); o Livro lista os panoramas antes dos capítulos; `/cosmologia/` linka para o seu; o capítulo que um panorama linka mostra o panorama em "Ver também".
 
 ## 3. Estilo (diretrizes do autor, repassadas pela orquestradora em 2026-11-01)
 
@@ -79,8 +89,8 @@ Outras regras de redação:
 1. Formato, frontmatter, seções obrigatórias na ordem, `orixa` com ficha gerada.
 2. Todo parágrafo tem marcador e nenhum trecho fica sem marcador no fim.
 3. Referências, lacunas, pendências e links válidos (tabela acima).
-4. **Heurística de sustentação:** nomes próprios, números, dias da semana e cores de cada trecho aparecem nos registros citados por ele (valor, paráfrase, nota, casa, tradição, fonte) ou no alvo dos links. A tradição traz sua geografia implícita (Candomblé/Umbanda → Brasil; iorubá → África, Nigéria; Lucumí → Cuba). A heurística não substitui a conferência manual, feita por quem escreve e registrada no relatório da sessão; na sessão cap01 ela acusou, por exemplo, prenomes errados de autores escritos de memória.
-5. Divergências (`data/fichamento/divergencias.json`): o parágrafo que cita uma versão divergente nomeia a tradição, a casa ou a região dela; aviso quando só uma versão de um atributo divergente é narrada.
+4. **Heurística de sustentação** (palavras comparadas sem diacríticos: NFD, marcas `Mn` removidas sem perder letras, de modo que "Éfọ̀n" vale "efon", e não "efo"): nomes próprios, números, dias da semana e cores de cada trecho aparecem nos registros citados por ele (valor, paráfrase, nota, casa, tradição, fonte) ou no alvo dos links. A tradição traz sua geografia implícita (Candomblé/Umbanda → Brasil; iorubá → África, Nigéria; Lucumí → Cuba). A heurística não substitui a conferência manual, feita por quem escreve e registrada no relatório da sessão; na sessão cap01 ela acusou, por exemplo, prenomes errados de autores escritos de memória.
+5. Divergências (`data/fichamento/divergencias.json`): o parágrafo que cita uma versão divergente nomeia a tradição, a casa ou a região dela (palavra de 4+ letras do nome da tradição ou do campo casa/região, ou um nome curto aceito — Oyó, Ifé/Ifẹ̀, fon, ewe e as palavras de 3 letras de `nacao`/`matriz` em `data/tradicoes.json` —, este só como palavra inteira); aviso quando só uma versão de um atributo divergente é narrada.
 6. Candomblé × Umbanda: registro só de Umbanda exige a palavra "Umbanda" no parágrafo; registro só de Umbanda junto de registro só de Candomblé exige os dois nomes; a seção de tradições distingue os dois.
 7. Fontes C anteriores a 1950: o parágrafo marca o caráter de documento histórico.
 8. Estilo: sobrenome de autor de fonte citada no parágrafo fora de `leituras-academicas` e `lacunas` é erro.

@@ -37,6 +37,11 @@ Regras (docs/capitulos-guia.md):
     com o texto das obras fica em scripts/anticopia.py, que inclui os capítulos.)
 11. data/capitulos/<id>.json em dia com o .md (e com schemas/capitulo.schema.json).
 
+Capítulo-panorama (`tipo: panorama`, `id` livre): sem ficha, seções de
+capitulos.SECOES_PANORAMA, sem {{lacuna}}; as demais regras valem igual.
+Palavras comparadas sem diacríticos (sem_marcas: NFD sem perder letras); na
+checagem de divergência, nomes curtos aceitos em TOPONIMOS_CURTOS e Ctx.curtos.
+
 Uso: python3 scripts/validar_capitulos.py            (valida; sai 1 se houver erro)
      python3 scripts/validar_capitulos.py --gerar    (regenera os JSON e valida)
 """
@@ -83,6 +88,12 @@ GEO_TRADICAO = {
     "culto_africano": "África", "ioruba_nigeria": "África Nigéria iorubás", "vodun_benim": "África Daomé Benim fons",
     "lucumi": "Cuba cubana", "palo_monte": "Cuba", "arara": "Cuba", "vodou_haiti": "Haiti", "orisha_trinidad": "Trinidad",
 }
+# Topônimos, nações e povos curtos que valem como "nome de tradição/casa" na checagem de
+# divergência, apesar da regra geral de 4+ letras (que evita casar "de", "rio", "ilê", "pai").
+# Grafias normalizadas (sem acento): Oyó/Ọ̀yọ́ → oyo; Ifé/Ifẹ̀ → ife. Somam-se a esta lista as
+# palavras de 3 letras dos campos 'nacao' e 'matriz' de data/tradicoes.json (ex.: fon) e das
+# variantes dos termos 'religiao_e_grupo' do glossário. Palavra curta só conta inteira.
+TOPONIMOS_CURTOS = {"oyo", "ife", "fon", "ewe", "ketu", "jeje", "efon", "ijexa"}
 # palavras que começam frase ou nomeiam coisas genéricas; nunca contam como "entidade"
 STOP = set("""
 a à ao aos as às o os um uma uns umas e é em no na nos nas num numa do da dos das de dum duma
@@ -100,9 +111,18 @@ nota notas capítulo fontes fonte versão versões leitura leituras mito mitos i
 """.split())
 
 
+def sem_marcas(t):
+    """Remove os diacríticos combinantes (categoria Mn) sem perder letras nem caixa.
+
+    Em NFD, "Éfọ̀n" vira E + ́ + f + o + ̣ + ̀ + n; tirando as marcas sobra "Efon".
+    Sem isso, o regex \\w (que não casa marcas combinantes) partia a palavra no tom
+    grave do iorubá ("Éfọ̀n" → "Éfọ" + "n" → "efo")."""
+    t = unicodedata.normalize("NFD", t)
+    return unicodedata.normalize("NFC", "".join(c for c in t if unicodedata.category(c) != "Mn"))
+
+
 def norm(t):
-    t = unicodedata.normalize("NFD", t.lower())
-    return "".join(c for c in t if unicodedata.category(c) != "Mn")
+    return sem_marcas(t).lower()
 
 
 def palavras(t):
@@ -146,8 +166,21 @@ class Ctx:
         minusc = set()
         for r in self.regs.values():
             for campo in ("parafrase", "nota"):
-                minusc.update(w for w in re.findall(r"\w+", r.get(campo) or "") if w[:1].islower())
+                minusc.update(w for w in re.findall(r"\w+", sem_marcas(r.get(campo) or "")) if w[:1].islower())
         self.comuns = {norm(w) for w in minusc} - self.nomes_entidades - self.sobrenomes
+        # nomes curtos de tradição/casa aceitos na checagem de divergência
+        self.curtos = set(TOPONIMOS_CURTOS)
+        for t in self.trad.values():
+            for campo in ("nacao", "matriz"):
+                self.curtos.update(w for w in palavras(t.get(campo) or "") if len(w) == 3 and w.isalpha() and w not in STOP)
+        for g in self.glos.values():
+            if g.get("categoria") == "religiao_e_grupo":
+                for v in [g["termo"], *g.get("variantes", [])]:
+                    self.curtos.update(w for w in palavras(v) if len(w) == 3 and w.isalpha() and w not in STOP)
+
+    def nome_tradicao(self, w):
+        """Palavra que identifica tradição/casa: 4+ letras (fora STOP) ou curta aceita."""
+        return (len(w) >= 4 and w not in STOP) or w in self.curtos
 
     # ------------------------------------------------------------ corpus de apoio
     def corpus_registro(self, r):
@@ -169,7 +202,7 @@ class Ctx:
         if tipo == "ita" and alvo in self.itans:
             it = self.itans[alvo]
             return " ".join([it["titulo"], *(self.rotulo(e) for e in it["entidades"])])
-        if tipo in ("orixa", "grafo"):
+        if tipo in ("orixa", "grafo", "capitulo"):
             return self.rotulo(alvo)
         if tipo == "glossario" and alvo in self.glos:
             g = self.glos[alvo]
@@ -208,7 +241,7 @@ def casa(token, idx):
 def candidatos(texto, ctx):
     """Nomes próprios, números, dias e cores mencionados no trecho."""
     out = []
-    for m in re.finditer(r"[\w][\w'’-]*", texto):
+    for m in re.finditer(r"[\w][\w'’-]*", sem_marcas(texto)):
         w = m.group(0)
         for parte in re.split(r"[-'’]", w):
             if not parte:
@@ -250,42 +283,58 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
         return None
     erros += [f"{rot}: {e}" for e in errs]
     f = est["front"]
-    faltam = cap.CAMPOS_FRONT - set(f)
-    sobram = set(f) - cap.CAMPOS_FRONT
+    panorama = cap.eh_panorama(f)
+    if "tipo" in f and not panorama:
+        erros.append(f"{rot}: tipo '{f['tipo']}' desconhecido (único aceito: panorama; capítulo de orixá não leva 'tipo')")
+    campos = cap.CAMPOS_FRONT_PANORAMA if panorama else cap.CAMPOS_FRONT
+    faltam = campos - set(f)
+    sobram = set(f) - campos - ({"tipo"} if "tipo" in f and not panorama else set())
     if faltam:
         erros.append(f"{rot}: frontmatter sem {sorted(faltam)}")
     if sobram:
         erros.append(f"{rot}: frontmatter com campos desconhecidos {sorted(sobram)}")
-    oid = f.get("orixa")
-    if oid != p.stem:
-        erros.append(f"{rot}: orixa '{oid}' diferente do nome do arquivo")
-    if oid not in ctx.lista:
-        erros.append(f"{rot}: orixa '{oid}' fora da lista-mestra")
-    elif oid not in ctx.fichas:
-        erros.append(f"{rot}: '{oid}' não tem ficha gerada (sem registro fichado)")
+    oid = cap.id_de(f)
+    if panorama:
+        # id livre, sem ficha; não pode coincidir com entidade (a rota de entidade é outra)
+        if oid != p.stem:
+            erros.append(f"{rot}: id '{oid}' diferente do nome do arquivo")
+        if not re.fullmatch(r"[a-z][a-z_]*", oid or ""):
+            erros.append(f"{rot}: id '{oid}' deve ter só letras minúsculas e _")
+        if oid in ctx.lista:
+            erros.append(f"{rot}: id '{oid}' é entidade da lista-mestra; panorama usa id próprio")
+    else:
+        if oid != p.stem:
+            erros.append(f"{rot}: orixa '{oid}' diferente do nome do arquivo")
+        if oid not in ctx.lista:
+            erros.append(f"{rot}: orixa '{oid}' fora da lista-mestra")
+        elif oid not in ctx.fichas:
+            erros.append(f"{rot}: '{oid}' não tem ficha gerada (sem registro fichado)")
     if f.get("status") not in ("rascunho", "revisado"):
         erros.append(f"{rot}: status deve ser 'rascunho' ou 'revisado'")
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", f.get("atualizado", "")):
         erros.append(f"{rot}: atualizado deve ser AAAA-MM-DD")
 
     # seções
+    secoes_def = cap.secoes_de(f)
+    validos = [s for s, _, _ in secoes_def]
     slugs = [s["slug"] for s in est["secoes"] if s["slug"] != "abertura"]
     for s in slugs:
-        if s not in cap.SLUGS:
-            erros.append(f"{rot}: seção desconhecida {{#{s}}} (válidas: {', '.join(cap.SLUGS)})")
-    conhecidos = [s for s in slugs if s in cap.SLUGS]
+        if s not in validos:
+            erros.append(f"{rot}: seção desconhecida {{#{s}}} (válidas: {', '.join(validos)})")
+    conhecidos = [s for s in slugs if s in validos]
     if len(set(conhecidos)) != len(conhecidos):
         erros.append(f"{rot}: seção repetida")
-    if conhecidos != sorted(conhecidos, key=cap.SLUGS.index):
-        erros.append(f"{rot}: seções fora da ordem {cap.SLUGS}")
-    for s, _, obrig in cap.SECOES:
+    if conhecidos != sorted(conhecidos, key=validos.index):
+        erros.append(f"{rot}: seções fora da ordem {validos}")
+    for s, _, obrig in secoes_def:
         if obrig and s not in slugs:
             erros.append(f"{rot}: falta a seção obrigatória {{#{s}}}")
     for s in est["secoes"]:
         if s["slug"] != "abertura" and not any(b["tipo"] == "paragrafo" for b in s["blocos"]):
             erros.append(f"{rot}: seção {{#{s['slug']}}} sem parágrafo")
 
-    nome_orixa = indice_corpus(ctx.rotulo(oid) if oid else "")
+    rotulo_ent = ctx.rotulo(oid) if oid and not panorama else ""
+    nome_orixa = indice_corpus(rotulo_ent)
     citados = set()
     tem_umbanda = False
     for s in est["secoes"]:
@@ -306,7 +355,7 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
                 erros.append(f"{onde}: expressão que elege versão ou julga fonte na voz do narrador: “{AVALIATIVOS.search(texto_par).group(0)}”")
             refs_par = []
             for tks, marc in segs:
-                corpus = [ctx.rotulo(oid) if oid else ""]
+                corpus = [rotulo_ent]
                 for m in marc:
                     if m["t"] == "ref":
                         for i in m["ids"]:
@@ -323,6 +372,8 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
                             citados.add(i)
                             refs_par.append(r)
                             corpus.append(ctx.corpus_registro(r))
+                    elif m["t"] == "lacuna" and panorama:
+                        erros.append(f"{onde}: panorama não usa {{{{lacuna}}}} (é por entidade); use {{{{pendencia}}}} ou o registro que diz a ausência")
                     elif m["t"] == "lacuna":
                         a, t = m["atributo"], m["tradicao"]
                         if a not in ROTULO_ATRIBUTO:
@@ -350,6 +401,7 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
                             "glossario": lambda a: a in ctx.glos,
                             "tradicao": lambda a: a in ctx.trad,
                             "grafo": lambda a: a in ctx.nos,
+                            "capitulo": lambda a: a in ctx.fichas and (ctx.raiz / "data/capitulos" / f"{a}.md").exists(),
                         }[t["tipo"]](t["alvo"])
                         if not ok:
                             erros.append(f"{onde}: link {t['tipo']}:{t['alvo']} aponta para item inexistente ou não publicado")
@@ -378,14 +430,16 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
                     continue
                 ids = []
                 for t in r["tradicoes"]:
-                    ids += [w for w in palavras(ctx.trad.get(t, {}).get("nome", "")) if len(w) >= 4 and w not in STOP]
-                    ids += [w for w in palavras(t.replace("_", " ")) if len(w) >= 4]
-                ids += [w for w in palavras(r.get("casa_ou_regiao") or "") if len(w) >= 4 and w not in STOP]
+                    ids += [w for w in palavras(ctx.trad.get(t, {}).get("nome", "")) if ctx.nome_tradicao(w)]
+                    ids += [w for w in palavras(t.replace("_", " ")) if ctx.nome_tradicao(w)]
+                ids += [w for w in palavras(r.get("casa_ou_regiao") or "") if ctx.nome_tradicao(w)]
                 for fid in (r["source_id"], r.get("via_source_id")):
                     fo = ctx.catalogo.get(fid) if fid else None
                     for a in (fo or {}).get("autores") or []:
                         ids.append(norm(a.split()[-1].strip("().,")))
-                if not any(re.search(rf"\b{re.escape(w)}", ntexto) for w in ids):
+                # palavra longa casa pelo começo (Bahia → baiano não; Recife → recifense sim);
+                # palavra curta só inteira (oyo não casa em "oyotunji", ife não casa em "ifetayo")
+                if not any(re.search(rf"\b{re.escape(w)}" + (r"\b" if len(w) < 4 else ""), ntexto) for w in ids):
                     erros.append(f"{onde}: {r['id']} é versão divergente de {ctx.divergente[r['id']][1]} e o parágrafo não nomeia tradição, casa ou autor")
             # Candomblé × Umbanda
             trads = [set(r["tradicoes"]) for r in refs_par]
@@ -421,10 +475,12 @@ def validar_arquivo(p, ctx, erros, avisos, grams8, grams6):
 
     # seção de tradições distingue Candomblé e Umbanda
     if tem_umbanda:
-        sec = next((s for s in est["secoes"] if s["slug"] == "tradicoes"), None)
-        txt = norm(" ".join(cap.texto_simples(b["tokens"]) for b in (sec or {"blocos": []})["blocos"] if b["tipo"] == "paragrafo"))
+        # panorama não tem seção de tradições: a distinção vale para o texto todo
+        secs = [s for s in est["secoes"] if panorama or s["slug"] == "tradicoes"]
+        txt = norm(" ".join(cap.texto_simples(b["tokens"]) for s in secs for b in s["blocos"] if b["tipo"] == "paragrafo"))
         if not ("umband" in txt and "candombl" in txt):
-            erros.append(f"{rot}: a seção {{#tradicoes}} precisa distinguir Candomblé e Umbanda (o capítulo cita registros de Umbanda)")
+            onde_sec = "o texto" if panorama else "a seção {#tradicoes}"
+            erros.append(f"{rot}: {onde_sec} precisa distinguir Candomblé e Umbanda (o capítulo cita registros de Umbanda)")
     # status revisado só com todos os registros revisados
     if f.get("status") == "revisado" and any(ctx.regs[i]["status"] != "revisado" for i in citados):
         erros.append(f"{rot}: status 'revisado' exige que todos os registros citados estejam 'revisado'")

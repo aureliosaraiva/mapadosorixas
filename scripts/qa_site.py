@@ -813,23 +813,30 @@ def conferir_capitulos(dist: Path, fichas: dict, fontes: dict, registros: list) 
     """Capítulos (data/capitulos/*.json) × HTML: página gerada para cada um, com selo,
     parágrafos idênticos ao JSON (texto, links e chamadas de nota na ordem), notas com
     exatamente os registros/lacunas/pendências do JSON, cada registro fichado/revisado
-    e não retido, com autor, ano e página da fonte; livro lista todos; ficha linka."""
+    e não retido, com autor, ano e página da fonte; livro lista todos; ficha linka.
+    Entidade sensível: a página do capítulo mostra o aviso 'aviso-sensivel' (como a ficha
+    e o catálogo). Panorama (tipo 'panorama'): página em /<id>/capitulo/, links
+    'capitulo' apontando para capítulos gerados; /cosmologia/ linka para o panorama de
+    mesmo nome."""
     sys.path.insert(0, str(RAIZ / "scripts"))
     caps = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "capitulos").glob("*.json"))]
     regs = {r["id"]: r for r in registros}
     retidos = {r for f in fichas.values() for ids in f["pendencias"].get("retidos_ate_conselho", {}).values() for r in ids}
+    ents = {e["id"]: e for e in json.loads((DATA / "entidades.json").read_text(encoding="utf-8"))["entidades"]}
+    cid = lambda c: c.get("orixa") or c.get("id")  # noqa: E731
     livro = dist / "livro" / "index.html"
     if not livro.exists():
         erro("[capítulos] página livro/ não foi gerada")
     else:
         listados = {n.attrs.get("data-capitulo") for n in parse(livro).busca("li") if n.attrs.get("data-capitulo")}
-        if listados != {c["orixa"] for c in caps}:
-            erro(f"[capítulos] livro lista {sorted(listados)}, JSON tem {sorted(c['orixa'] for c in caps)}")
+        if listados != {cid(c) for c in caps}:
+            erro(f"[capítulos] livro lista {sorted(listados)}, JSON tem {sorted(cid(c) for c in caps)}")
     npar = 0
     for c in caps:
-        oid = c["orixa"]
-        onde = f"[capítulo] {oid}"
-        arq = dist / "orixas" / oid / "capitulo" / "index.html"
+        oid = cid(c)
+        panorama = c.get("tipo") == "panorama"
+        onde = f"[{'panorama' if panorama else 'capítulo'}] {oid}"
+        arq = dist / (oid if panorama else f"orixas/{oid}") / "capitulo" / "index.html"
         if not arq.exists():
             erro(f"{onde}: página não gerada")
             continue
@@ -839,10 +846,27 @@ def conferir_capitulos(dist: Path, fichas: dict, fontes: dict, registros: list) 
         h1 = doc.primeiro("h1")
         if h1 is None or norm(h1.texto()) != norm(c["titulo"]):
             erro(f"{onde}: título difere do JSON")
-        ficha = dist / "orixas" / oid / "index.html"
-        if ficha.exists() and not any((a.attrs.get("href") or "").rstrip("/").endswith(f"/orixas/{oid}/capitulo")
-                                      for a in parse(ficha).busca("a")):
-            erro(f"{onde}: a ficha não linka para o capítulo")
+        if panorama:
+            tema = dist / oid / "index.html"
+            if tema.exists() and not any((a.attrs.get("href") or "").rstrip("/").endswith(f"/{oid}/capitulo")
+                                         for a in parse(tema).busca("a")):
+                erro(f"{onde}: a página /{oid}/ não linka para o panorama")
+        else:
+            ficha = dist / "orixas" / oid / "index.html"
+            if ficha.exists() and not any((a.attrs.get("href") or "").rstrip("/").endswith(f"/orixas/{oid}/capitulo")
+                                          for a in parse(ficha).busca("a")):
+                erro(f"{onde}: a ficha não linka para o capítulo")
+            sens = ents.get(oid, {}).get("sensivel")
+            tem_aviso = doc.primeiro("p", "aviso-sensivel") is not None
+            if sens and not tem_aviso:
+                erro(f"{onde}: entidade sensível sem o aviso 'aviso-sensivel' na página do capítulo")
+            if tem_aviso and not sens:
+                erro(f"{onde}: aviso de tema sensível numa entidade que não é sensível")
+        # links para outros capítulos: apontam para página gerada
+        for a in doc.busca("a", "link-capitulo"):
+            alvo = (a.attrs.get("href") or "").rstrip("/").split("/orixas/")[-1].split("/")[0]
+            if not (dist / "orixas" / alvo / "capitulo" / "index.html").exists():
+                erro(f"{onde}: link para o capítulo de '{alvo}', que não foi gerado")
         # parágrafos
         esperados = []
         for sec in c["secoes"]:
@@ -952,8 +976,13 @@ PALAVRA = re.compile(r"\w+", re.U)
 
 
 def conferir_acervo(dist: Path) -> tuple[int, int]:
-    """Nada de acervo/ no site: caminhos, PDFs, nomes de arquivo e trechos de 20 palavras."""
-    acervo = RAIZ / "acervo"
+    """Nada de acervo/ no site: caminhos, PDFs, nomes de arquivo e trechos de 20 palavras.
+
+    O acervo é o de scripts/acervo_dir.py (ACERVO_DIR, o clone de orixas-fontes ao lado
+    do repositório ou, sem ele, acervo/ local)."""
+    sys.path.insert(0, str(RAIZ / "scripts"))
+    from acervo_dir import acervo_padrao
+    acervo = acervo_padrao()
     nomes = set()
     for sub in ("pdf", "txt"):
         nomes |= {p.name for p in (acervo / sub).glob("*") if p.name != ".gitkeep"}

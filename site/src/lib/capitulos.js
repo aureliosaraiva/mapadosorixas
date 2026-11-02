@@ -7,11 +7,14 @@ const mods = import.meta.glob('../../../data/capitulos/*.json', { eager: true })
 const valor = (m) => (m && m.default ? m.default : m);
 
 const ORDEM = Object.keys(entidadePorId);
-export const capitulos = Object.values(mods)
-  .map(valor)
-  .filter((c) => fichaPorId[c.orixa])
+const todos = Object.values(mods).map(valor);
+export const capitulos = todos
+  .filter((c) => c.orixa && fichaPorId[c.orixa])
   .sort((a, b) => ORDEM.indexOf(a.orixa) - ORDEM.indexOf(b.orixa));
 export const capituloPorId = Object.fromEntries(capitulos.map((c) => [c.orixa, c]));
+// Capítulos-panorama (tipo "panorama"): costura de vários capítulos; rota /<id>/capitulo/
+export const panoramas = todos.filter((c) => c.tipo === 'panorama').sort((a, b) => a.id.localeCompare(b.id));
+export const panoramaPorId = Object.fromEntries(panoramas.map((c) => [c.id, c]));
 
 export const TITULO_SECAO = {
   'nomes-e-origem': 'Nomes e origem',
@@ -22,6 +25,11 @@ export const TITULO_SECAO = {
   sincretismo: 'Sincretismo',
   'leituras-academicas': 'Leituras acadêmicas',
   lacunas: 'O que as fontes não dizem',
+  // panorama
+  hierarquia: 'Hierarquia',
+  'planos-do-mundo': 'Os planos do mundo',
+  'a-pessoa': 'A pessoa e o Orí',
+  ancestrais: 'Os ancestrais',
 };
 
 const regPorId = Object.fromEntries(registros.map((r) => [r.id, r]));
@@ -67,6 +75,7 @@ export function hrefLink(t) {
     case 'glossario': return url(`glossario#termo-${t.alvo}`);
     case 'tradicao': return url(`tradicoes#t-${t.alvo}`);
     case 'grafo': return url('grafo');
+    case 'capitulo': return url(`orixas/${t.alvo}/capitulo`);
     default: throw new Error(`link desconhecido ${t.tipo}`);
   }
 }

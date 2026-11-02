@@ -71,3 +71,5 @@ jobs:
         run: python3 ../tests/e2e_revisao_site.py
       - name: Modelo 2 ponta a ponta (lista-mestra, ficha de entidade nova, itãs, cosmologia)
         run: python3 ../tests/e2e_modelo2_site.py
+      - name: Capítulos ponta a ponta (aviso de entidade sensível, panorama da cosmologia)
+        run: python3 ../tests/e2e_capitulos_site.py

@@ -1,14 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/aureliosaraiva/mapadosorixas/schemas/capitulo.schema.json",
-  "title": "Capítulo narrativo de um orixá (JSON gerado de data/capitulos/<id>.md)",
-  "description": "Texto corrido do projeto, montado só com registros do fichamento. Cada parágrafo é uma lista de tokens: texto, link e chamadas de nota. Cada grupo de marcadores vizinhos vira uma nota de rodapé numerada na ordem do texto, com itens que apontam para um registro de fichamento (fichado/revisado), para uma lacuna conferida (atributo sem registro) ou para uma pendência de docs/pesquisa/PENDENCIAS.md. Gerado por scripts/validar_capitulos.py --gerar; não editar à mão. Formato do .md em docs/capitulos-guia.md.",
+  "title": "Capítulo narrativo de um orixá ou capítulo-panorama (JSON gerado de data/capitulos/<id>.md)",
+  "description": "Texto corrido do projeto, montado só com registros do fichamento. Cada parágrafo é uma lista de tokens: texto, link e chamadas de nota. Cada grupo de marcadores vizinhos vira uma nota de rodapé numerada na ordem do texto, com itens que apontam para um registro de fichamento (fichado/revisado), para uma lacuna conferida (atributo sem registro) ou para uma pendência de docs/pesquisa/PENDENCIAS.md. Gerado por scripts/validar_capitulos.py --gerar; não editar à mão. Formato do .md em docs/capitulos-guia.md. Capítulo-panorama (tipo panorama): costura de vários capítulos sobre um tema, com id livre no lugar de orixa, seções próprias (hierarquia, planos-do-mundo, a-pessoa, ancestrais, lacunas) e sem lacunas por entidade.",
   "type": "object",
-  "required": ["_meta", "orixa", "titulo", "status", "atualizado", "secoes", "notas"],
+  "required": ["_meta", "titulo", "status", "atualizado", "secoes", "notas"],
+  "oneOf": [
+    { "required": ["orixa"], "not": { "anyOf": [{ "required": ["tipo"] }, { "required": ["id"] }] } },
+    { "required": ["tipo", "id"], "not": { "required": ["orixa"] } }
+  ],
   "additionalProperties": false,
   "properties": {
     "_meta": { "type": "object" },
     "orixa": { "type": "string", "pattern": "^[a-z][a-z_]*$", "description": "id da lista-mestra (data/entidades.json), igual ao nome do arquivo" },
+    "tipo": { "const": "panorama", "description": "só no capítulo-panorama" },
+    "id": { "type": "string", "pattern": "^[a-z][a-z_]*$", "description": "id do panorama, igual ao nome do arquivo (não é entidade da lista-mestra)" },
     "titulo": { "type": "string", "minLength": 3 },
     "status": { "enum": ["rascunho", "revisado"], "description": "'revisado' só quando todos os registros citados estão 'revisado'" },
     "atualizado": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
@@ -19,7 +25,7 @@
         "required": ["slug", "titulo", "blocos"],
         "additionalProperties": false,
         "properties": {
-          "slug": { "enum": ["abertura", "nomes-e-origem", "historia-do-culto", "dominios-e-simbolos", "mitos", "tradicoes", "sincretismo", "leituras-academicas", "lacunas"] },
+          "slug": { "enum": ["abertura", "nomes-e-origem", "historia-do-culto", "dominios-e-simbolos", "mitos", "tradicoes", "sincretismo", "leituras-academicas", "lacunas", "hierarquia", "planos-do-mundo", "a-pessoa", "ancestrais"] },
           "titulo": { "type": ["string", "null"] },
           "blocos": { "type": "array", "items": { "$ref": "#/$defs/bloco" } }
         }
@@ -45,7 +51,7 @@
         { "type": "object", "required": ["t", "v"], "additionalProperties": false,
           "properties": { "t": { "const": "texto" }, "v": { "type": "string" } } },
         { "type": "object", "required": ["t", "rotulo", "tipo", "alvo"], "additionalProperties": false,
-          "properties": { "t": { "const": "link" }, "rotulo": { "type": "string" }, "tipo": { "enum": ["ita", "orixa", "glossario", "tradicao", "grafo"] }, "alvo": { "type": "string" } } },
+          "properties": { "t": { "const": "link" }, "rotulo": { "type": "string" }, "tipo": { "enum": ["ita", "orixa", "glossario", "tradicao", "grafo", "capitulo"] }, "alvo": { "type": "string" } } },
         { "type": "object", "required": ["t", "n"], "additionalProperties": false,
           "properties": { "t": { "const": "nota" }, "n": { "type": "integer", "minimum": 1 } } }
       ]

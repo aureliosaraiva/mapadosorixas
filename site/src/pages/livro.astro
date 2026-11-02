@@ -2,7 +2,7 @@
 // Índice do "livro": capítulos narrativos disponíveis, na ordem da lista-mestra.
 import Base from '../layouts/Base.astro';
 import Selo from '../components/Selo.astro';
-import { capitulos, totalPalavras, registrosCitados, TITULO_SECAO } from '../lib/capitulos.js';
+import { capitulos, panoramas, totalPalavras, registrosCitados, TITULO_SECAO } from '../lib/capitulos.js';
 import { listaEntidades, fichaPorId, url } from '../lib/dados.js';
 
 const semCapitulo = listaEntidades.filter((e) => fichaPorId[e.id] && !capitulos.some((c) => c.orixa === e.id));
@@ -11,6 +11,22 @@ const semCapitulo = listaEntidades.filter((e) => fichaPorId[e.id] && !capitulos.
   <h1>Livro</h1>
   <Selo texto="Os capítulos foram escritos pelo projeto a partir do fichamento de fontes escritas, sem conteúdo novo. Ainda não passaram pelo conselho de revisão." />
   <p>Cada capítulo conta, em texto corrido, o que as fontes reunidas pelo projeto dizem sobre um orixá: nomes e origem, história do culto, domínios e símbolos, mitos, o orixá em cada tradição (nações do Candomblé, Batuque, Xangô do Recife, Tambor de Mina, Umbanda, Santería cubana), sincretismo, leituras acadêmicas e o que as fontes ainda não dizem. As referências ficam nas notas de rodapé, com autor, ano e página; quando as tradições divergem, as versões aparecem lado a lado. Candomblé e Umbanda são tratados como religiões distintas.</p>
+
+  {panoramas.length > 0 && (
+    <>
+      <h2 id="panoramas">Panoramas</h2>
+      <p>Textos curtos que costuram vários capítulos sobre um mesmo tema, com links para eles.</p>
+      <ol class="lista-capitulos lista-panoramas">
+        {panoramas.map((p) => (
+          <li data-capitulo={p.id} data-tipo="panorama">
+            <a href={url(`${p.id}/capitulo`)}><strong>{p.titulo}</strong></a>
+            <span class="meta"> · panorama · cerca de {Math.round(totalPalavras(p) / 100) * 100} palavras · {p.notas.length} notas · {registrosCitados(p).size} registros do fichamento · rascunho</span>
+            <br /><span class="meta">{p.secoes.filter((s) => s.slug !== 'abertura').map((s) => s.titulo ?? TITULO_SECAO[s.slug]).join(' · ')}</span>
+          </li>
+        ))}
+      </ol>
+    </>
+  )}
 
   <h2 id="capitulos">Capítulos disponíveis</h2>
   <ol class="lista-capitulos">

@@ -1,0 +1,45 @@
+---
+// Capítulo-panorama (data/capitulos/<id>.json com tipo "panorama"): costura de
+// vários capítulos sobre um tema, publicada em /<id>/capitulo/ (ex.: /cosmologia/capitulo/).
+import Base from '../../layouts/Base.astro';
+import Selo from '../../components/Selo.astro';
+import CorpoCapitulo from '../../components/CorpoCapitulo.astro';
+import { panoramas, panoramaPorId, TITULO_SECAO, registrosCitados, capituloPorId } from '../../lib/capitulos.js';
+import { url, rotuloEntidade } from '../../lib/dados.js';
+
+export function getStaticPaths() {
+  return panoramas.map((p) => ({ params: { panorama: p.id } }));
+}
+const { panorama: id } = Astro.params;
+const cap = panoramaPorId[id];
+const comTitulo = cap.secoes.filter((s) => s.slug !== 'abertura');
+const nRegistros = registrosCitados(cap).size;
+const linkados = [...new Set(cap.secoes.flatMap((s) => s.blocos.flatMap((b) => b.tipo === 'paragrafo'
+  ? b.tokens.filter((t) => t.t === 'link' && t.tipo === 'capitulo').map((t) => t.alvo) : [])))].filter((c) => capituloPorId[c]);
+const paginaTema = id === 'cosmologia' ? { href: url('cosmologia'), rotulo: 'Cosmologia e hierarquia' } : null;
+---
+<Base titulo={cap.titulo} descricao={`Panorama em texto corrido, que costura capítulos do livro, com notas de rodapé.`} indexar>
+  <p class="trilha"><a href={url('livro')}>← Livro</a>{paginaTema && <> · <a href={paginaTema.href}>{paginaTema.rotulo}</a></>}</p>
+  <p class="sobretitulo">Panorama</p>
+  <h1>{cap.titulo}</h1>
+  <Selo texto="Este panorama foi escrito pelo projeto a partir do fichamento de fontes escritas e dos capítulos do livro, sem conteúdo novo. Ainda não passou pelo conselho de revisão; erros e lacunas são esperados." />
+  <p class="nota-caixa como-ler">Visão de conjunto, montada só com os {nRegistros} registros do fichamento citados nas notas; cada parte remete ao capítulo que trata do assunto com mais vagar. Quando as tradições divergem, as versões aparecem lado a lado, sem eleger uma correta. Atualizado em {cap.atualizado.split('-').reverse().join('/')}.</p>
+
+  <nav aria-label="Seções do panorama">
+    <ol class="sumario sumario-capitulo">
+      {comTitulo.map((s) => <li><a href={`#${s.slug}`}>{s.titulo ?? TITULO_SECAO[s.slug]}</a></li>)}
+      <li><a href="#notas">Notas</a></li>
+      <li><a href="#bibliografia">Fontes citadas</a></li>
+    </ol>
+  </nav>
+
+  <CorpoCapitulo cap={cap}>
+    <section aria-labelledby="ver-tambem" slot="ver-tambem">
+      <h2 id="ver-tambem">Capítulos costurados aqui</h2>
+      <ul class="capitulos-do-panorama">
+        {linkados.map((c) => <li data-capitulo-linkado={c}><a href={url(`orixas/${c}/capitulo`)}>{capituloPorId[c].titulo}</a> ({rotuloEntidade(c)})</li>)}
+      </ul>
+      {paginaTema && <p>Versões com fonte, uma a uma: <a href={paginaTema.href}>{paginaTema.rotulo}</a>.</p>}
+    </section>
+  </CorpoCapitulo>
+</Base>
