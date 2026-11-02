@@ -226,7 +226,7 @@ O protótipo em `site/` (Astro) compila no CI. **Sessão pages (2026-11-01): pub
 | 🟡 | **Ewá sem ilustração** | sem símbolos, elementos ou iconografia fichados (só ewa-005, ewa-008); depende das obras de §2 (Verger 1981, Prandi 2001). | P2 |
 | 🟡 | **Egungun e Olodumare sem ilustração (decisão a confirmar)** | Olodumare: as fontes dizem que não tem imagens (olodumare-001); Egungun: só os mascarados do culto reservado estão fichados. Confirmar com o conselho se deve continuar assim. | P3 |
 | 🟡 | **Iyami** | nenhuma ilustração enquanto o tema sensível aguarda o conselho (o QA §14 impede). | P3 |
-| 🟢 | Encomenda a artistas afro-brasileiros | sugestão: substituir ou complementar a série por obras encomendadas e remuneradas a artistas ligados às tradições, com licença clara; os metadados (elementos e registros) servem de briefing. Decisão e orçamento do autor. | P3 |
+| 🔴 | **Retratos figurativos: encomenda a artistas** | o autor quer imagens figurativas; o piloto vetorial de Oxóssi foi recusado. Briefing pronto em [`docs/ilustracoes-briefing-artistas.md`](../ilustracoes-briefing-artistas.md) (elementos e cores com fonte por orixá, cuidados, licença). Falta: decisão do conselho sobre figuração, escolha do artista, orçamento, contrato e licença. Nunca usar imagens da internet sem autorização escrita. | P2 |
 
 ## 3c. Conselho consultivo (Fase 4): depende do autor
 
