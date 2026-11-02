@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ossaim.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 40,
+    "registros_usados": 47,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -163,6 +163,27 @@
         "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
         "registro": "ossaim-005",
         "status": "fichado"
+      },
+      {
+        "valor": "orixá da vegetação (flora); patrono da eficácia de remédios e medicina",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Ossaim é orixá da vegetação (flora); cuida da eficácia de remédios e medicina.",
+        "nota": null,
+        "registro": "ossaim-041",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -231,6 +252,29 @@
         "status": "fichado"
       }
     ],
+    "elementos": [
+      {
+        "valor": "elemento natural: folhas; elemento mítico: terra",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Ossaim no quadro: folhas (natural) e terra (mítico).",
+        "nota": null,
+        "registro": "ossaim-042",
+        "status": "fichado"
+      }
+    ],
     "cores": [
       {
         "valor": "verde e vermelho",
@@ -251,6 +295,27 @@
         "parafrase": "Halloy informa, com reserva, que as cores de Ossaim seriam o verde e o vermelho.",
         "nota": null,
         "registro": "ossaim-036",
+        "status": "fichado"
+      },
+      {
+        "valor": "verde e branco (roupas; contas alternadas)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Ossaim, pelo quadro: verde e branco (roupas; contas alternadas).",
+        "nota": null,
+        "registro": "ossaim-043",
         "status": "fichado"
       }
     ],
@@ -274,6 +339,27 @@
         "parafrase": "Na semana de Porto Alegre que Bastide registra, a segunda-feira é de Bara, Odê, Ossanhe e Otum.",
         "nota": null,
         "registro": "ossaim-035",
+        "status": "fichado"
+      },
+      {
+        "valor": "quinta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Ossaim no quadro: quinta-feira.",
+        "nota": null,
+        "registro": "ossaim-044",
         "status": "fichado"
       }
     ],
@@ -406,6 +492,27 @@
         "nota": null,
         "registro": "ossaim-024",
         "status": "fichado"
+      },
+      {
+        "valor": "lança e três cabaças com as folhas sagradas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Ossaim, segundo o quadro: lança e três cabaças com as folhas sagradas.",
+        "nota": null,
+        "registro": "ossaim-045",
+        "status": "fichado"
       }
     ],
     "parentesco": [
@@ -494,6 +601,50 @@
         "parafrase": "No quadro de correspondências do terreiro de Dona Jarina, o vodum jeje Alogué corresponde ao orixá Ossaim, sem santo católico indicado.",
         "nota": null,
         "registro": "ossaim-039",
+        "status": "fichado"
+      },
+      {
+        "valor": "vodum jeje: Agué; inquice banto: Catendê",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Ossaim no quadro — vodum jeje: Agué; inquice banto: Catendê.",
+        "nota": null,
+        "registro": "ossaim-047",
+        "status": "fichado"
+      }
+    ],
+    "sincretismo": [
+      {
+        "valor": "Santo Onofre",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Santo católico de Ossaim no quadro: Santo Onofre.",
+        "nota": null,
+        "registro": "ossaim-046",
         "status": "fichado"
       }
     ],
@@ -899,11 +1050,9 @@
   "pendencias": {
     "sem_registro": [
       "origem",
-      "elementos",
       "alimentos",
       "animais",
       "qualidades",
-      "sincretismo",
       "tabus",
       "festas"
     ],

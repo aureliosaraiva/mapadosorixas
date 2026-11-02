@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iansa.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 38,
+    "registros_usados": 49,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -74,6 +74,27 @@
         "parafrase": "Oyá e Yansã são os dois nomes comuns do orixá das tempestades, e Halloy os usa como equivalentes.",
         "nota": null,
         "registro": "iansa-031",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oiá ou Iansã",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18; anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18; anexo, p. 23",
+        "parafrase": "A orixá dos raios é nomeada Iansã ou Oiá.",
+        "nota": null,
+        "registro": "iansa-051",
         "status": "fichado"
       }
     ],
@@ -184,6 +205,48 @@
         "nota": "Toutain apoia a distinção em Bolívar Aróstegui (1994 [1990]).",
         "registro": "iansa-039",
         "status": "fichado"
+      },
+      {
+        "valor": "raios, ventos e tempestades; guerreira que leva os mortos ao além; erotismo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Iansã, ou Oiá, comanda os raios, os ventos e as tempestades; é uma orixá guerreira que leva os mortos para o outro mundo e é também descrita como deusa do erotismo.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "iansa-041",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá do relâmpago e senhora dos espíritos dos mortos; patrona da sensualidade, do amor carnal e dos desastres atmosféricos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Oiá/Iansã é orixá do relâmpago e senhora dos espíritos dos mortos; cuida da sensualidade, do amor carnal e dos desastres atmosféricos.",
+        "nota": null,
+        "registro": "iansa-045",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -207,6 +270,29 @@
         "parafrase": "Iansã é o único orixá que não teme os mortos e é chamada para combatê-los. Diz-se que acompanha o filho até o último momento e torna a passagem mais branda; a melhora aparente pouco antes da morte, a \"visita da saúde\", seria obra dela. Para Papai ela cuida do esqueleto e das doenças ósseas; para outros chefes de culto não tem ponto fixo no corpo e age para reanimar o organismo.",
         "nota": null,
         "registro": "iansa-030",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "elemento natural: relâmpagos, raios, vento, tempestade; elemento mítico: ar, água e fogo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Oiá/Iansã no quadro: relâmpagos, raios, vento, tempestade (natural) e ar, água e fogo (mítico).",
+        "nota": null,
+        "registro": "iansa-046",
         "status": "fichado"
       }
     ],
@@ -274,6 +360,27 @@
         "nota": null,
         "registro": "iansa-035",
         "status": "fichado"
+      },
+      {
+        "valor": "roupas marrom e vermelho-escuro, ou branco; contas marrom ou vermelho-escuro",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Oiá/Iansã, pelo quadro: roupas marrom e vermelho-escuro, ou branco; contas marrom ou vermelho-escuro.",
+        "nota": null,
+        "registro": "iansa-047",
+        "status": "fichado"
       }
     ],
     "dia_semana": [
@@ -339,6 +446,50 @@
         "nota": null,
         "registro": "iansa-004",
         "status": "fichado"
+      },
+      {
+        "valor": "quarta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Oiá/Iansã no quadro: quarta-feira.",
+        "nota": null,
+        "registro": "iansa-048",
+        "status": "fichado"
+      }
+    ],
+    "saudacao": [
+      {
+        "valor": "Eparrei!",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Iansã é saudada com Eparrei.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "iansa-044",
+        "status": "fichado"
       }
     ],
     "simbolos": [
@@ -384,6 +535,27 @@
         "parafrase": "Os emblemas de Iansã são um capacete e armas.",
         "nota": null,
         "registro": "iansa-027",
+        "status": "fichado"
+      },
+      {
+        "valor": "espada e eru (espanta-moscas)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Oiá/Iansã, segundo o quadro: espada e eru (espanta-moscas).",
+        "nota": null,
+        "registro": "iansa-049",
         "status": "fichado"
       }
     ],
@@ -495,6 +667,27 @@
         "nota": null,
         "registro": "iansa-033",
         "status": "fichado"
+      },
+      {
+        "valor": "esposa de Xangô e sua companheira na guerra",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Iansã é a mulher de Xangô que vai com ele para a guerra.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "iansa-042",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -559,6 +752,27 @@
         "parafrase": "Botão descreve Matamba como nkisi do fogo, rainha dos raios e dos vendavais, guia dos espíritos e dona do cemitério, associado à Iansã do ketu; Bamburucema, ligada às chuvas, seria uma qualidade dela, e Kaiango é da mesma família.",
         "nota": "Botão anota que Bastide (1973) associa Kaiango a Iansã.",
         "registro": "iansa-020",
+        "status": "fichado"
+      },
+      {
+        "valor": "vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Oiá/Iansã no quadro — vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema.",
+        "nota": null,
+        "registro": "iansa-050",
         "status": "fichado"
       }
     ],
@@ -647,6 +861,27 @@
         "parafrase": "O sincretismo entre Yansã e Santa Bárbara é descrito como marcante no Recife.",
         "nota": null,
         "registro": "iansa-037",
+        "status": "fichado"
+      },
+      {
+        "valor": "Santa Bárbara",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18; anexo, p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18; anexo, p. 27",
+        "parafrase": "Iansã corresponde a Santa Bárbara.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "iansa-043",
         "status": "fichado"
       }
     ],
@@ -855,8 +1090,6 @@
   "pendencias": {
     "sem_registro": [
       "origem",
-      "elementos",
-      "saudacao",
       "alimentos",
       "animais",
       "iconografia"

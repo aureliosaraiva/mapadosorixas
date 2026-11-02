@@ -3,13 +3,128 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ewa.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 7,
+    "registros_usados": 14,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
   "id": "ewa",
   "rotulo": "Ewá",
   "atributos": {
+    "dominios": [
+      {
+        "valor": "orixá das fontes; patrona da harmonia doméstica",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Euá é orixá das fontes; cuida da harmonia doméstica.",
+        "nota": null,
+        "registro": "ewa-009",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "elemento natural: nascentes e riachos; elemento mítico: água",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Euá no quadro: nascentes e riachos (natural) e água (mítico).",
+        "nota": null,
+        "registro": "ewa-010",
+        "status": "fichado"
+      }
+    ],
+    "cores": [
+      {
+        "valor": "roupas vermelho e amarelo; contas de búzios",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Euá, pelo quadro: roupas vermelho e amarelo; contas de búzios.",
+        "nota": null,
+        "registro": "ewa-011",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "sábado",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Euá no quadro: sábado.",
+        "nota": null,
+        "registro": "ewa-012",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "espada, chocalho de matéria vegetal e esfera",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Euá, segundo o quadro: espada, chocalho de matéria vegetal e esfera.",
+        "nota": null,
+        "registro": "ewa-013",
+        "status": "fichado"
+      }
+    ],
     "parentesco": [
       {
         "valor": "Euá, filha do vodum Azonce (lista de voduns da Mina)",
@@ -75,6 +190,27 @@
         "nota": null,
         "registro": "ewa-007",
         "status": "fichado"
+      },
+      {
+        "valor": "vodum jeje de mesmo nome (Euá); sem inquice no quadro",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Euá no quadro — vodum jeje de mesmo nome (Euá); sem inquice no quadro.",
+        "nota": null,
+        "registro": "ewa-015",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -97,6 +233,27 @@
         "parafrase": "Pelo quadro da casa, Euá tem dois santos conforme o vodum: Santa Teresa, por Boçalabê, e Nossa Senhora do Carmo, por Eowá.",
         "nota": null,
         "registro": "ewa-004",
+        "status": "fichado"
+      },
+      {
+        "valor": "Santa Lúcia",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Santo católico de Euá no quadro: Santa Lúcia.",
+        "nota": null,
+        "registro": "ewa-014",
         "status": "fichado"
       }
     ],
@@ -172,13 +329,8 @@
     "sem_registro": [
       "nomes",
       "origem",
-      "dominios",
       "funcoes",
-      "elementos",
-      "cores",
-      "dia_semana",
       "saudacao",
-      "simbolos",
       "animais",
       "qualidades",
       "itans",

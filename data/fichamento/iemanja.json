@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 64,
+    "total": 95,
     "por_status": {
-      "fichado": 60,
+      "fichado": 91,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1246,6 +1246,611 @@
       "status": "fichado",
       "evidencias": [
         "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "iemanja-065",
+      "orixa": "iemanja",
+      "atributo": "dominios",
+      "valor": "grandes rios, mares e oceanos; vista como grande mãe dos orixás e também do país, de que seria padroeira protetora",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 18",
+      "parafrase": "Iemanjá é a deusa dos rios caudalosos, do mar e dos oceanos; no Brasil é cultuada como mãe de muitos orixás e vista como grande mãe, tanto dos orixás quanto do país, de que seria a padroeira protetora.",
+      "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-066",
+      "orixa": "iemanja",
+      "atributo": "sincretismo",
+      "valor": "Nossa Senhora da Conceição; também Nossa Senhora da Conceição Aparecida, padroeira do Brasil",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 18; anexo, p. 27",
+      "parafrase": "O sincretismo de Iemanjá é com Nossa Senhora da Conceição; como padroeira do Brasil, ela é ainda identificada com Nossa Senhora da Conceição Aparecida.",
+      "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-067",
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "muitas vezes representada como sereia; estátuas em quase todas as cidades do litoral brasileiro",
+      "tradicoes": [
+        "candomble_ketu",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Brasil (litoral)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 18",
+      "parafrase": "A imagem mais comum de Iemanjá é a de uma sereia, e estátuas dela se veem em praticamente todas as cidades da costa do Brasil.",
+      "nota": "O autor não diz quem ergue as estátuas; a marca 'umbanda' acompanha o registro porque a imagem pública é partilhada pelas duas religiões (ver Giumbelli & Lima e Noleto & Negrão).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-068",
+      "orixa": "iemanja",
+      "atributo": "saudacao",
+      "valor": "Odoyá!",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 18",
+      "parafrase": "Iemanjá é saudada com Odoyá.",
+      "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-069",
+      "orixa": "iemanja",
+      "atributo": "dominios",
+      "valor": "orixá das águas grandes e do mar; patrona da maternidade, da família e da saúde mental",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, p. 23",
+      "parafrase": "Para o quadro queto, Iemanjá é orixá das águas grandes e do mar; cuida da maternidade, da família e da saúde mental.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-070",
+      "orixa": "iemanja",
+      "atributo": "elementos",
+      "valor": "elemento natural: mar e grandes rios; elemento mítico: água",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 23–25",
+      "parafrase": "Elementos de Iemanjá no quadro: mar e grandes rios (natural) e água (mítico).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-071",
+      "orixa": "iemanja",
+      "atributo": "cores",
+      "valor": "roupas azul-claro, branco e verde-claro; contas de vidro incolor alternadas com azul ou verde",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 24–25",
+      "parafrase": "Vestes e contas de Iemanjá, pelo quadro: roupas azul-claro, branco e verde-claro; contas de vidro incolor alternadas com azul ou verde.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-072",
+      "orixa": "iemanja",
+      "atributo": "dia_semana",
+      "valor": "sábado",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 25–26",
+      "parafrase": "Dia de Iemanjá no quadro: sábado.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-073",
+      "orixa": "iemanja",
+      "atributo": "simbolos",
+      "valor": "abano de metal branco e espada",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 26–27",
+      "parafrase": "Objetos rituais de Iemanjá, segundo o quadro: abano de metal branco e espada.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-074",
+      "orixa": "iemanja",
+      "atributo": "equivalencias",
+      "valor": "vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 26–27",
+      "parafrase": "Correspondências de Iemanjá no quadro — vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "iemanja-075",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "em São Luís, Iemanjá é partilhada por várias vertentes: no Tambor de Mina, orixá ao lado dos voduns; na encantaria, ligada a encantados das águas",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "pp. 215–216",
+      "parafrase": "Na capital maranhense, Iemanjá circula entre tradições diferentes. Nas casas jeje-nagô do Tambor de Mina ela convive com os voduns, e no universo das encantarias se relaciona com seres que viraram espíritos sem morrer, muitos deles moradores das águas (Mãe d'Água, botos, cobras, sereias, marinheiros).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-076",
+      "orixa": "iemanja",
+      "atributo": "hierarquia",
+      "valor": "na Umbanda, Iemanjá comanda entidades",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA) e outras regiões do Brasil",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "p. 216",
+      "parafrase": "Os autores registram que Iemanjá aparece no comando de entidades características da Umbanda, em São Luís como em outras partes do país.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-077",
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "imagem difundida desde meados do séc. XX: mulher branca, próxima das representações marianas; versões africanizadas recentes, de pele escura e outras vestes",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Brasil (esculturas públicas)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "p. 217",
+      "parafrase": "A figura de Iemanjá que se espalhou a partir de meados do século XX mostra uma mulher branca, em diálogo com as imagens de Maria; mais recentemente surgiram versões africanizadas, com a pele escurecida ou com roupas e adornos trocados.",
+      "nota": "Os autores apoiam-se aqui em Salomão (2012), dissertação não catalogada.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-078",
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "estátua de Olho d'Água (2021, Eduardo Sereno): rosto com feições negras e indígenas do povo maranhense; cabelos longos, coroa, brincos, colar, seios fartos, mãos estendidas, vestido azul, quatro conchas aos pés",
+      "tradicoes": [
+        "tambor_de_mina",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "p. 217 e nota 33",
+      "parafrase": "O escultor quis que o rosto seguisse a fisionomia maranhense, de forte presença negra e indígena, e usou como modelo uma jovem que passava pelo local. No resto do corpo manteve as convenções da imagem: cabeleira comprida, coroa, brincos, colar, busto farto, mãos abertas, pernas em movimento, longo vestido pintado de azul e conchas aos pés.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-079",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "estátuas públicas comuns em cidades litorâneas; servem de referência a festas de calendários não unificados que dialogam com datas católicas; alvo frequente de ataques",
+      "tradicoes": [
+        "umbanda",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Brasil (esculturas públicas)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "pp. 217–218",
+      "parafrase": "Por sua ligação com o mar, Iemanjá ganhou estátuas em muitas cidades costeiras. Essas esculturas marcam os lugares de festas cujos calendários variam e conversam com o calendário católico, e muitas vezes sofrem agressões que as mutilam ou desfiguram.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-080",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "Olho d'Água: 31 de dezembro, caravanas de centenas de terreiros, com banhos, oferendas e tambores até a madrugada (festa registrada desde os anos 1930); 2 de fevereiro, obrigações dos terreiros da região metropolitana",
+      "tradicoes": [
+        "tambor_de_mina",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "p. 218",
+      "parafrase": "Na virada do ano, terreiros de todo o Maranhão montam barracas na praia desde cedo e passam o dia e a noite em banhos, oferendas e toques; a festa é documentada desde os anos 1930. Em 2 de fevereiro, os terreiros da região metropolitana encerram na praia, com oferendas e banho de mar, a festa iniciada em suas casas. O réveillon tem sido organizado pela federação maranhense de Umbanda, e um terreiro local lidera os ritos de fevereiro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-081",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "Olho d'Água: imagem dos anos 1970 (de um ex-frade capuchinho), substituída por outra; danificada (2012), enterrada (2018) e restaurada por um terreiro (2019); destruída nas obras da avenida; nova estátua de Eduardo Sereno instalada antes de março de 2022",
+      "tradicoes": [
+        "tambor_de_mina",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "pp. 216, 218–220",
+      "parafrase": "A praça já tinha uma Iemanjá desde os anos 1970, obra de um antigo frade capuchinho, depois trocada por outra parecida. Essa segunda imagem foi achada caída em 2012 e enterrada na areia em 2018; gente de um terreiro a repôs no pedestal e pintou-a de novo em 2019. Com o prolongamento da avenida litorânea, as máquinas a destruíram, e o governo encomendou ao escultor Eduardo Sereno a estátua atual, que já estava no lugar quando a via foi inaugurada, em março de 2022.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-082",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "lideranças do terreiro e da federação criticam a praça: pequena para cerca de 5 mil pessoas, sem estrutura, com esgoto sob ela; a imagem não recebeu assentamento ritual e é vista como 'turística'",
+      "tradicoes": [
+        "tambor_de_mina",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "pp. 220, 222",
+      "parafrase": "Mãe Nonata e Pai Paulo, que acompanharam as negociações, querem um espaço maior e coberto para as cerca de cinco mil pessoas das festas, com banheiros, cozinha e lugar para os ônibus, e reclamam de um cano pluvial que recebe esgoto sob a praça, ofensa a Iemanjá. As condições da instalação não permitiram o assentamento ritual da imagem, e por isso eles a tratam como escultura turística.",
+      "nota": "Sem detalhar o rito: os autores definem o assentamento só como o procedimento que vincula um orixá a um terreiro e a seus devotos.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-083",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "mesmo sem assentamento, a estátua recebe oferendas (flores, comidas, velas) no pedestal e na barra do vestido; nas grandes festas, as esculturas públicas ganham presentes, perfumes e espumante",
+      "tradicoes": [
+        "tambor_de_mina",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "p. 220",
+      "parafrase": "Os pesquisadores viram flores, comida e velas acesas depositadas sobre e junto ao pedestal e na barra do vestido, ao lado de algumas pichações. Isso reproduz em escala menor o que acontece nas festas de multidão, quando as estátuas de Iemanjá são cobertas de presentes, perfumes e brindes com espumante.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-084",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "em 23/07/2023, ataque arrancou o rosto da estátua; lideranças denunciaram racismo religioso; restauração com recursos públicos e pedestal mais alto",
+      "tradicoes": [
+        "tambor_de_mina",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "p. 220, nota 41",
+      "parafrase": "Depois de submetido o artigo, a imagem foi atacada em julho de 2023 por autor desconhecido, que destruiu toda a face. Mãe Nonata, Pai Paulo e outras lideranças protestaram na praça e nas redes, chamando o caso de racismo religioso; em novembro a estátua estava sendo restaurada pelo próprio escultor, com dinheiro público, e anunciou-se um pedestal de pouco mais de dois metros.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-085",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "segunda escultura de Iemanjá no Porto do Itaqui (São Luís), em área restrita, justificada pela territorialidade da encantaria",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Porto do Itaqui",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "p. 216, nota 31",
+      "parafrase": "Há outra Iemanjá em São Luís, no Porto do Itaqui, vista só por funcionários e tripulações, salvo quando religiosos vão lá em grupo fazer um ritual; sua presença se explica porque a área do porto pertence ao território da encantaria.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-086",
+      "orixa": "iemanja",
+      "atributo": "interpretacao_academica",
+      "valor": "diferente do Cristo de Encantado e da Bíblia de Mesquita, a Iemanjá de São Luís foi concebida para ser cultuada; o apoio público não foi contestado em nome da laicidade; objetos cristãos seguem favorecidos no espaço público",
+      "tradicoes": [
+        "tambor_de_mina",
+        "umbanda"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+      "source_id": "giumbelli-2024-monumentos",
+      "via_source_id": null,
+      "localizacao": "pp. 221–222",
+      "parafrase": "Comparando três monumentos recentes, os autores notam que só a Iemanjá maranhense foi pensada como objeto de culto e que ninguém questionou, pela laicidade, o apoio do governo a ela. Ao mesmo tempo, mostram que símbolos cristãos ocupam lugares mais privilegiados nas cidades brasileiras; uma estátua de pedestal baixo, que se pode tocar, convive com marcas que tanto podem ser de ataque quanto de devoção.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/0100-85872023v43n3cap07"
+      ]
+    },
+    {
+      "id": "iemanja-087",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "2 de fevereiro na Playa Ramírez (Montevidéu), festa da comunidade afroumbandista uruguaia",
+      "tradicoes": [
+        "umbanda",
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "p. 1",
+      "parafrase": "Todo 2 de fevereiro, os afroumbandistas de Montevidéu se juntam na Playa Ramírez para festejar Iemanjá, orixá de origem iorubá presente nos cultos de matriz africana do Brasil e dos países do Prata.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-088",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "no Uruguai, apenas Iemanjá (2/2) e Oxum (8/12) têm festas públicas e coletivas; outros orixás e entidades têm celebrações restritas a cada terreiro",
+      "tradicoes": [
+        "umbanda",
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Uruguai: calendário afroumbandista",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "p. 8, nota 6",
+      "parafrase": "O calendário afroumbandista uruguaio é quase todo de ritos internos de cada casa; as únicas festas abertas e coletivas são as de Iemanjá, em fevereiro, e de Oxum, em dezembro.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-089",
+      "orixa": "iemanja",
+      "atributo": "festas",
+      "valor": "acampamento na véspera; tendas de mães e pais de santo ao longo da praia; flores no Río de la Plata, preces e banhos, saindo da água sem dar as costas; atendimento espiritual; possessões à noite; velas em buracos na areia; frutas e flores brancas lançadas às águas; barco azul-celeste e branco",
+      "tradicoes": [
+        "umbanda",
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "pp. 10–12",
+      "parafrase": "Fiéis chegam na noite anterior para garantir lugar às tendas de seus sacerdotes, e a praia enche no fim da tarde. Desde a manhã, devotos jogam flores no rio, rezam, molham-se e voltam à areia sem virar as costas à água; procuram conselhos e bênçãos nas tendas. À noite multiplicam-se os transes e as velas acesas em covas na areia, e as oferendas incluem frutas (melancia, uva, laranja) e flores, em geral brancas. Uma família preparava um barco de madeira pintado de azul-celeste e branco.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-090",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé, muitos filiados a federações afroumbandistas uruguaias que dialogam com o Estado desde os anos 2000",
+      "tradicoes": [
+        "umbanda",
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "p. 10",
+      "parafrase": "Boa parte das casas presentes pertence a duas federações uruguaias que, desde a década de 2000, representam junto ao Estado casas de umbanda, de batuque, de quimbanda e de candomblé.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-091",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "origem da festa na Playa Ramírez nos anos 1960: um vendedor de velas com programa de rádio umbandista organizava excursões, inclusive à Iemanjá da Praia do Cassino (RS); sob a ditadura, uma excursão fez oferendas vigiada por militares",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "pp. 28–29",
+      "parafrase": "Segundo Mãe Susana Andrade, a festa não nasceu dos religiosos, mas de Constantino Rayol, comerciante de velas que tinha um programa de rádio de música umbandista. Ele levava grupos à Iemanjá do Cassino, no Rio Grande do Sul, e trazia gente da fronteira para a Ramírez, praia urbana e cheia; durante a ditadura uruguaia, um ônibus seu desceu à praia para as oferendas sob a mira de soldados. Depois a festa se popularizou.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-092",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "Monumento a Iemanjá na Plaza República Española: 30 anos celebrados em 2/2/2024; datas divergentes (Intendencia: 1994, escultor Ulrico Habegger, iniciativa de Pai Armando Ayala; outra pesquisa: projeto de 1988, aprovação em 1994, estátua erguida em 1998)",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "pp. 16–19, 37–38 e nota 17",
+      "parafrase": "Em 2024 houve uma celebração junto ao monumento, ao lado do prédio do Mercosul, pelos seus 30 anos, com falas de lideranças e números de música e dança afro-uruguaios. Os autores registram duas cronologias: a prefeitura de Montevidéu dá a estátua de Ulrico Habegger como erguida em 1994 por iniciativa de Pai Armando Ayala; um estudo anterior descreve projeto apresentado em 1988, aprovado em 1994 e executado só em 1998. A comunidade teria se apoiado no precedente de uma cruz pública ao papa João Paulo II.",
+      "nota": "A segunda cronologia vem de Massonnier (2015), não catalogado; as duas versões ficam lado a lado no próprio artigo.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-093",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "no Uruguai, o culto chega com as religiões afro-brasileiras levadas a partir do RS (Porto Alegre, Santana do Livramento) a partir dos anos 1950, e segue para a Argentina nos anos 1960",
+      "tradicoes": [
+        "umbanda",
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Uruguai e Argentina (transnacionalização a partir do RS)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "pp. 19–20, 36",
+      "parafrase": "Os autores, apoiados na bibliografia sobre o Prata, situam a chegada ao Uruguai das religiões afro-brasileiras nos anos 1950, a partir de linhagens de Porto Alegre e de Santana do Livramento que iniciaram sacerdotes em Montevidéu, e sua expansão à Argentina na década seguinte; Montevidéu fica a meio caminho desses fluxos.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-094",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "versões sobre a origem do culto no Uruguai: imprensa uruguaia o dá como vindo da Nigéria pelo tráfico, sem passar pelo Brasil; interlocutores e Mãe Susana Andrade reconhecem a matriz afro-brasileira, mas lembram ritos próprios nas Salas de Nación",
+      "tradicoes": [
+        "umbanda",
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "p. 19, nota 11; pp. 26–27",
+      "parafrase": "Uma reportagem uruguaia apresentou o culto a Iemanjá como trazido da Nigéria pelos navios negreiros, sem relação com o Brasil, e outros jornais seguem a mesma linha. Já os devotos ouvidos na festa reconhecem o papel do Brasil; para Mãe Susana, a raiz no Uruguai é mais afro-brasileira que diretamente africana, embora as Salas de Nación já praticassem ritos próprios, e o laço de Iemanjá com o mar também evocaria os escravizados que olhavam o oceano querendo voltar livres.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-095",
+      "orixa": "iemanja",
+      "atributo": "iconografia",
+      "valor": "imagens de Iemanjá nas tendas, algumas centenárias; as melhores feitas no Brasil (Porto Alegre) e na Argentina, segundo uma sacerdotisa",
+      "tradicoes": [
+        "umbanda"
+      ],
+      "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+      "source_id": "noleto-2025-montevideu",
+      "via_source_id": null,
+      "localizacao": "p. 14",
+      "parafrase": "Na tenda de uma sacerdotisa autônoma havia Iemanjás pintadas à mão em tecido e várias esculturas, uma delas herdada da bisavó e com mais de cem anos; ela considera que as melhores imagens vêm do Brasil, sobretudo de Porto Alegre, e da Argentina.",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/1984-04382025e450102"
       ]
     }
   ]

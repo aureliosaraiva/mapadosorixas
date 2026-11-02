@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 124
+    "total": 137
   },
   "divergencias": [
     {
@@ -168,6 +168,45 @@
           "via": null,
           "localizacao": "pp. 44–45",
           "registro": "ewa-007"
+        },
+        {
+          "valor": "vodum jeje de mesmo nome (Euá); sem inquice no quadro",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "ewa-015"
+        }
+      ]
+    },
+    {
+      "orixa": "ewa",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Santa Teresa (via Boçalabê) e N. S. do Carmo (via Eowá)",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, p. 25 (Quadro 1)",
+          "registro": "ewa-004"
+        },
+        {
+          "valor": "Santa Lúcia",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "ewa-014"
         }
       ]
     },
@@ -208,6 +247,17 @@
           "via": null,
           "localizacao": "p. 8, nota 18",
           "registro": "exu-088"
+        },
+        {
+          "valor": "roupas vermelho e preto; contas vermelhas e pretas alternadas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "exu-110"
         }
       ]
     },
@@ -269,6 +319,17 @@
           "via": null,
           "localizacao": "p. 164, nota 353",
           "registro": "exu-086"
+        },
+        {
+          "valor": "segunda-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "exu-111"
         }
       ]
     },
@@ -359,6 +420,17 @@
           "via": null,
           "localizacao": "p. 9",
           "registro": "exu-100"
+        },
+        {
+          "valor": "voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "exu-112"
         }
       ]
     },
@@ -599,6 +671,17 @@
           "via": null,
           "localizacao": "p. 1100",
           "registro": "exu-061"
+        },
+        {
+          "valor": "porrete fálico e tridentes de ferro; ogó (bastão em forma fálica)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 17; anexo, p. 26",
+          "registro": "exu-105"
         }
       ]
     },
@@ -687,6 +770,17 @@
           "via": null,
           "localizacao": "p. 172",
           "registro": "exu-098"
+        },
+        {
+          "valor": "Diabo católico",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 17; anexo, p. 26",
+          "registro": "exu-107"
         }
       ]
     },
@@ -727,6 +821,17 @@
           "via": null,
           "localizacao": "p. 168",
           "registro": "iansa-035"
+        },
+        {
+          "valor": "roupas marrom e vermelho-escuro, ou branco; contas marrom ou vermelho-escuro",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "iansa-047"
         }
       ]
     },
@@ -766,6 +871,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 119, nota 79",
           "registro": "iansa-004"
+        },
+        {
+          "valor": "quarta-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "iansa-048"
         }
       ]
     },
@@ -805,6 +921,17 @@
           "via": null,
           "localizacao": "p. 43 e nota 27",
           "registro": "iansa-020"
+        },
+        {
+          "valor": "vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "iansa-050"
         }
       ]
     },
@@ -924,6 +1051,17 @@
           "via": null,
           "localizacao": "p. 168",
           "registro": "iansa-033"
+        },
+        {
+          "valor": "esposa de Xangô e sua companheira na guerra",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18",
+          "registro": "iansa-042"
         }
       ]
     },
@@ -954,6 +1092,17 @@
           "via": null,
           "localizacao": "p. 251",
           "registro": "iansa-027"
+        },
+        {
+          "valor": "espada e eru (espanta-moscas)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "iansa-049"
         }
       ]
     },
@@ -1006,6 +1155,17 @@
           "via": null,
           "localizacao": "p. 276",
           "registro": "iansa-037"
+        },
+        {
+          "valor": "Santa Bárbara",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18; anexo, p. 27",
+          "registro": "iansa-043"
         }
       ]
     },
@@ -1316,6 +1476,17 @@
           "via": null,
           "localizacao": "p. 168",
           "registro": "iemanja-050"
+        },
+        {
+          "valor": "roupas azul-claro, branco e verde-claro; contas de vidro incolor alternadas com azul ou verde",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "iemanja-071"
         }
       ]
     },
@@ -1367,6 +1538,17 @@
           "via": null,
           "localizacao": "p. 237",
           "registro": "iemanja-018"
+        },
+        {
+          "valor": "sábado",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "iemanja-072"
         }
       ]
     },
@@ -1396,6 +1578,17 @@
           "via": null,
           "localizacao": "p. 226",
           "registro": "iemanja-014"
+        },
+        {
+          "valor": "elemento natural: mar e grandes rios; elemento mítico: água",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 23–25",
+          "registro": "iemanja-070"
         }
       ]
     },
@@ -1435,6 +1628,17 @@
           "via": null,
           "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
           "registro": "iemanja-057"
+        },
+        {
+          "valor": "vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "iemanja-074"
         }
       ]
     },
@@ -1578,6 +1782,54 @@
           "via": null,
           "localizacao": "p. 276 e nota 647; p. 277",
           "registro": "iemanja-063"
+        },
+        {
+          "valor": "Olho d'Água: 31 de dezembro, caravanas de centenas de terreiros, com banhos, oferendas e tambores até a madrugada (festa registrada desde os anos 1930); 2 de fevereiro, obrigações dos terreiros da região metropolitana",
+          "tradicoes": [
+            "tambor_de_mina",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "São Luís (MA): Praia do Olho d'Água; terreiros de Mina e de Umbanda (pesquisa de 2022–2023)",
+          "fonte": "giumbelli-2024-monumentos",
+          "via": null,
+          "localizacao": "p. 218",
+          "registro": "iemanja-080"
+        },
+        {
+          "valor": "2 de fevereiro na Playa Ramírez (Montevidéu), festa da comunidade afroumbandista uruguaia",
+          "tradicoes": [
+            "umbanda",
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+          "fonte": "noleto-2025-montevideu",
+          "via": null,
+          "localizacao": "p. 1",
+          "registro": "iemanja-087"
+        },
+        {
+          "valor": "no Uruguai, apenas Iemanjá (2/2) e Oxum (8/12) têm festas públicas e coletivas; outros orixás e entidades têm celebrações restritas a cada terreiro",
+          "tradicoes": [
+            "umbanda",
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Uruguai: calendário afroumbandista",
+          "fonte": "noleto-2025-montevideu",
+          "via": null,
+          "localizacao": "p. 8, nota 6",
+          "registro": "iemanja-088"
+        },
+        {
+          "valor": "acampamento na véspera; tendas de mães e pais de santo ao longo da praia; flores no Río de la Plata, preces e banhos, saindo da água sem dar as costas; atendimento espiritual; possessões à noite; velas em buracos na areia; frutas e flores brancas lançadas às águas; barco azul-celeste e branco",
+          "tradicoes": [
+            "umbanda",
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+          "fonte": "noleto-2025-montevideu",
+          "via": null,
+          "localizacao": "pp. 10–12",
+          "registro": "iemanja-089"
         }
       ]
     },
@@ -1698,6 +1950,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 191",
           "registro": "iemanja-026"
+        },
+        {
+          "valor": "abano de metal branco e espada",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "iemanja-073"
         }
       ]
     },
@@ -1761,6 +2024,17 @@
           "via": null,
           "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
           "registro": "iemanja-058"
+        },
+        {
+          "valor": "Nossa Senhora da Conceição; também Nossa Senhora da Conceição Aparecida, padroeira do Brasil",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18; anexo, p. 27",
+          "registro": "iemanja-066"
         }
       ]
     },
@@ -1822,6 +2096,34 @@
     },
     {
       "orixa": "logunede",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "azul-claro (lado de Oxóssi) e amarelo-canário e ouro (lado de Oxum)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto de São Paulo (reafricanizado), estudado pelo autor",
+          "fonte": "santos-2023-logunede",
+          "via": null,
+          "localizacao": "p. 77",
+          "registro": "logunede-017"
+        },
+        {
+          "valor": "roupas dourado e azul-turquesa; contas dourado translúcido e turquesa alternadas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "logunede-029"
+        }
+      ]
+    },
+    {
+      "orixa": "logunede",
       "atributo": "equivalencias",
       "versoes": [
         {
@@ -1845,6 +2147,17 @@
           "via": null,
           "localizacao": "p. 42",
           "registro": "logunede-024"
+        },
+        {
+          "valor": "vodum jeje: Bosso Jara",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "logunede-033"
         }
       ]
     },
@@ -1946,6 +2259,17 @@
           "via": null,
           "localizacao": "p. 76",
           "registro": "logunede-009"
+        },
+        {
+          "valor": "filho de Oxum e de Oxóssi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, p. 23",
+          "registro": "logunede-034"
         }
       ]
     },
@@ -2014,6 +2338,45 @@
           "via": null,
           "localizacao": "p. 80",
           "registro": "logunede-019"
+        },
+        {
+          "valor": "ofá e abebê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "logunede-031"
+        }
+      ]
+    },
+    {
+      "orixa": "logunede",
+      "atributo": "sincretismo",
+      "versoes": [
+        {
+          "valor": "Santo Expedito",
+          "tradicoes": [
+            "tambor_de_mina"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiro de tambor-de-mina de Dona Jarina (casa de origem maranhense)",
+          "fonte": "prandi-2005-pegadas-voduns",
+          "via": null,
+          "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
+          "registro": "logunede-023"
+        },
+        {
+          "valor": "São Miguel Arcanjo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "logunede-032"
         }
       ]
     },
@@ -2054,6 +2417,17 @@
           "via": null,
           "localizacao": "p. 166",
           "registro": "nana-033"
+        },
+        {
+          "valor": "roupas púrpura, azul e branco; contas brancas rajadas de azul-cobalto",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "nana-037"
         }
       ]
     },
@@ -2082,6 +2456,45 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 127",
           "registro": "nana-005"
+        },
+        {
+          "valor": "segunda-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "nana-038"
+        }
+      ]
+    },
+    {
+      "orixa": "nana",
+      "atributo": "equivalencias",
+      "versoes": [
+        {
+          "valor": "Nzumba (Zumbarandá, Ngangazumba), nkisi do eclipse e das águas turvas dos pântanos",
+          "tradicoes": [
+            "candomble_angola"
+          ],
+          "casa_ou_regiao": "São Paulo: terreiros angola-congo estudados",
+          "fonte": "botao-2007-angola",
+          "via": null,
+          "localizacao": "p. 44",
+          "registro": "nana-022"
+        },
+        {
+          "valor": "vodum jeje de mesmo nome (Nanã); sem inquice no quadro",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "nana-041"
         }
       ]
     },
@@ -2281,6 +2694,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, pp. 178–179",
           "registro": "nana-016"
+        },
+        {
+          "valor": "ibiri (cetro em arco feito de fibra de dendezeiro e búzios)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "nana-039"
         }
       ]
     },
@@ -2321,6 +2745,101 @@
           "via": null,
           "localizacao": "p. 277",
           "registro": "nana-034"
+        },
+        {
+          "valor": "Santana",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "nana-040"
+        }
+      ]
+    },
+    {
+      "orixa": "oba",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "amarelo-ouro, como Oxum, ou amarelo puxado para o laranja",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 167",
+          "registro": "oba-010"
+        },
+        {
+          "valor": "roupas vermelho e dourado; contas vermelho e amarelo translúcido",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "oba-022"
+        }
+      ]
+    },
+    {
+      "orixa": "oba",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "quarta-feira (com Xapanã/Omolu)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (RS) — batuque, informação pessoal a Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "oba-002"
+        },
+        {
+          "valor": "quarta-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "oba-023"
+        }
+      ]
+    },
+    {
+      "orixa": "oba",
+      "atributo": "elementos",
+      "versoes": [
+        {
+          "valor": "as nuvens revoltas que se encontram; fica em casa com Oshun",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia (informantes de Dennett), relato colonial de 1910",
+          "fonte": "dennett-1910-nigerian",
+          "via": null,
+          "localizacao": "p. 169",
+          "registro": "oba-016"
+        },
+        {
+          "valor": "elemento natural: rios; elemento mítico: água",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 23–25",
+          "registro": "oba-021"
         }
       ]
     },
@@ -2662,6 +3181,17 @@
           "via": null,
           "localizacao": "p. 8, nota 18",
           "registro": "ogum-059"
+        },
+        {
+          "valor": "roupas azul-escuro, verde e branco; contas azul-escuro ou verde",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "ogum-073"
         }
       ]
     },
@@ -2723,6 +3253,46 @@
           "via": null,
           "localizacao": "p. 165, nota 353",
           "registro": "ogum-055"
+        },
+        {
+          "valor": "terça-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "ogum-074"
+        }
+      ]
+    },
+    {
+      "orixa": "ogum",
+      "atributo": "elementos",
+      "versoes": [
+        {
+          "valor": "ferro",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 226",
+          "registro": "ogum-016"
+        },
+        {
+          "valor": "elemento natural: ferro forjado; elemento mítico: terra",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 23–25",
+          "registro": "ogum-072"
         }
       ]
     },
@@ -2752,6 +3322,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "ogum-062"
+        },
+        {
+          "valor": "voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "ogum-076"
         }
       ]
     },
@@ -2844,6 +3425,17 @@
           "via": "castillo-2022-ogum",
           "localizacao": "p. 21 (Verger, ed. 2018, pp. 118–119)",
           "registro": "ogum-045"
+        },
+        {
+          "valor": "irmão de Exu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 17",
+          "registro": "ogum-070"
         }
       ]
     },
@@ -3014,6 +3606,17 @@
           "via": null,
           "localizacao": "p. 7",
           "registro": "ogum-042"
+        },
+        {
+          "valor": "espada",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "ogum-075"
         }
       ]
     },
@@ -3087,6 +3690,17 @@
           "via": null,
           "localizacao": "p. 277",
           "registro": "ogum-066"
+        },
+        {
+          "valor": "Santo Antônio e São Jorge",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 17; anexo, p. 26",
+          "registro": "ogum-068"
         }
       ]
     },
@@ -3333,6 +3947,17 @@
           "via": null,
           "localizacao": "p. 166",
           "registro": "omolu-042"
+        },
+        {
+          "valor": "roupas vermelhas, brancas e pretas, com capuz de palha; contas nas mesmas três cores",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "omolu-052"
         }
       ]
     },
@@ -3384,6 +4009,17 @@
           "via": null,
           "localizacao": "p. 270",
           "registro": "omolu-033"
+        },
+        {
+          "valor": "segunda-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "omolu-053"
         }
       ]
     },
@@ -3435,6 +4071,17 @@
           "via": null,
           "localizacao": "p. 42",
           "registro": "omolu-027"
+        },
+        {
+          "valor": "voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "omolu-055"
         }
       ]
     },
@@ -3612,6 +4259,17 @@
           "via": null,
           "localizacao": "p. 323",
           "registro": "omolu-044"
+        },
+        {
+          "valor": "xaxará (cetro de fibras da folha do dendezeiro, com búzios)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "omolu-054"
         }
       ]
     },
@@ -3664,6 +4322,17 @@
           "via": null,
           "localizacao": "p. 41",
           "registro": "omolu-045"
+        },
+        {
+          "valor": "São Lázaro e São Roque",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 17; anexo, p. 26",
+          "registro": "omolu-048"
         }
       ]
     },
@@ -3726,6 +4395,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 315",
           "registro": "ori-008"
+        },
+        {
+          "valor": "cada pessoa pertence a um orixá, senhor da sua cabeça, e tem um segundo orixá associado (juntó), em geral de sexo oposto",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé (texto do autor, centrado no rito queto)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "pp. 16, 19",
+          "registro": "ori-011"
         }
       ]
     },
@@ -3848,6 +4528,17 @@
           "via": null,
           "localizacao": "p. 158",
           "registro": "orum-009"
+        },
+        {
+          "valor": "mundo paralelo dos deuses, ao qual volta o orixá da pessoa iniciada depois dos ritos fúnebres (axexê)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (texto do autor)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 15",
+          "registro": "orum-010"
         }
       ]
     },
@@ -3910,6 +4601,62 @@
     },
     {
       "orixa": "ossaim",
+      "atributo": "cores",
+      "versoes": [
+        {
+          "valor": "verde e vermelho",
+          "tradicoes": [
+            "xango_pernambuco"
+          ],
+          "casa_ou_regiao": "Recife (PE): nação nagô, família de santo estudada por Halloy (2000s)",
+          "fonte": "halloy-2005-intimite",
+          "via": null,
+          "localizacao": "p. 165",
+          "registro": "ossaim-036"
+        },
+        {
+          "valor": "verde e branco (roupas; contas alternadas)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "ossaim-043"
+        }
+      ]
+    },
+    {
+      "orixa": "ossaim",
+      "atributo": "dia_semana",
+      "versoes": [
+        {
+          "valor": "segunda-feira (com Bara, Odê e Otum)",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (RS) — batuque, informação pessoal a Bastide",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 119, nota 79",
+          "registro": "ossaim-035"
+        },
+        {
+          "valor": "quinta-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "ossaim-044"
+        }
+      ]
+    },
+    {
+      "orixa": "ossaim",
       "atributo": "equivalencias",
       "versoes": [
         {
@@ -3944,6 +4691,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "ossaim-039"
+        },
+        {
+          "valor": "vodum jeje: Agué; inquice banto: Catendê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "ossaim-047"
         }
       ]
     },
@@ -4086,6 +4844,17 @@
           "via": null,
           "localizacao": "p. 806 (glossário)",
           "registro": "ossaim-024"
+        },
+        {
+          "valor": "lança e três cabaças com as folhas sagradas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "ossaim-045"
         }
       ]
     },
@@ -4126,6 +4895,17 @@
           "via": null,
           "localizacao": "p. 169",
           "registro": "oxala-058"
+        },
+        {
+          "valor": "Oxaguiã: roupas brancas com um mínimo de azul-real, contas branco e azul-real; Oxalufã: roupas e contas brancas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, p. 25",
+          "registro": "oxala-074"
         }
       ]
     },
@@ -4188,6 +4968,17 @@
           "via": null,
           "localizacao": "p. 169; p. 164, nota 353",
           "registro": "oxala-059"
+        },
+        {
+          "valor": "sexta-feira (seguidores vestem branco)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18; anexo, p. 25",
+          "registro": "oxala-068"
         }
       ]
     },
@@ -4250,6 +5041,17 @@
           "via": null,
           "localizacao": "p. 81",
           "registro": "oxala-037"
+        },
+        {
+          "valor": "Oxalufã: vodum jeje Liçá; inquice banto Zambi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, p. 27",
+          "registro": "oxala-077"
         }
       ]
     },
@@ -4603,6 +5405,17 @@
           "via": null,
           "localizacao": "pp. 227, 233",
           "registro": "oxala-046"
+        },
+        {
+          "valor": "Oxaguiã: mão de pilão de prata ou branca e espada; Oxalufã: opaxorô (cajado prateado com pingentes que representam a criação do mundo)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, p. 27",
+          "registro": "oxala-075"
         }
       ]
     },
@@ -4667,6 +5480,28 @@
           "via": null,
           "localizacao": "p. 227",
           "registro": "oxala-043"
+        },
+        {
+          "valor": "Jesus Cristo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18",
+          "registro": "oxala-067"
+        },
+        {
+          "valor": "Oxaguiã: Jesus Menino; Oxalufã: Jesus Crucificado ou Redentor",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, p. 27",
+          "registro": "oxala-076"
         }
       ]
     },
@@ -4707,6 +5542,17 @@
           "via": null,
           "localizacao": "p. 165",
           "registro": "oxossi-029"
+        },
+        {
+          "valor": "roupas azul-turquesa e verde; contas azul-turquesa",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "oxossi-042"
         }
       ]
     },
@@ -4780,6 +5626,17 @@
           "via": null,
           "localizacao": "p. 165",
           "registro": "oxossi-030"
+        },
+        {
+          "valor": "quinta-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "oxossi-043"
         }
       ]
     },
@@ -4809,6 +5666,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "oxossi-033"
+        },
+        {
+          "valor": "vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "oxossi-045"
         }
       ]
     },
@@ -4933,6 +5801,35 @@
     },
     {
       "orixa": "oxossi",
+      "atributo": "simbolos",
+      "versoes": [
+        {
+          "valor": "arco e flecha; eruquerê (espanta-moscas de rabo de boi, atributo real)",
+          "tradicoes": [
+            "candomble_ketu",
+            "umbanda"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 259",
+          "registro": "oxossi-014"
+        },
+        {
+          "valor": "ofá (arco e flecha de metal) e eru (espanta-moscas de rabo de cavalo)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "oxossi-044"
+        }
+      ]
+    },
+    {
+      "orixa": "oxossi",
       "atributo": "sincretismo",
       "versoes": [
         {
@@ -4968,6 +5865,17 @@
           "via": null,
           "localizacao": "p. 277",
           "registro": "oxossi-035"
+        },
+        {
+          "valor": "São Jorge e São Sebastião",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 17; anexo, p. 26",
+          "registro": "oxossi-038"
         }
       ]
     },
@@ -5019,6 +5927,17 @@
           "via": null,
           "localizacao": "p. 8, nota 18",
           "registro": "oxum-050"
+        },
+        {
+          "valor": "roupas amarelas ou douradas, com algum azul; contas amarelo translúcido",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "oxum-058"
         }
       ]
     },
@@ -5081,6 +6000,45 @@
           "via": null,
           "localizacao": "p. 164, nota 353",
           "registro": "oxum-046"
+        },
+        {
+          "valor": "sábado",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "oxum-059"
+        }
+      ]
+    },
+    {
+      "orixa": "oxum",
+      "atributo": "elementos",
+      "versoes": [
+        {
+          "valor": "água doce (Iemanjá: água salgada)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia (Salvador)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, pp. 92, 102, 124, 199",
+          "registro": "oxum-004"
+        },
+        {
+          "valor": "elemento natural: rios, lagoas e cachoeiras; elemento mítico: água",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 23–25",
+          "registro": "oxum-057"
         }
       ]
     },
@@ -5121,6 +6079,17 @@
           "via": null,
           "localizacao": "p. 43",
           "registro": "oxum-021"
+        },
+        {
+          "valor": "voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "oxum-061"
         }
       ]
     },
@@ -5172,6 +6141,18 @@
           "via": null,
           "localizacao": "p. 276 e nota 648",
           "registro": "oxum-047"
+        },
+        {
+          "valor": "8 de dezembro, festa pública e coletiva no Uruguai (com a de Iemanjá, a única do calendário afroumbandista)",
+          "tradicoes": [
+            "umbanda",
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Uruguai: calendário afroumbandista",
+          "fonte": "noleto-2025-montevideu",
+          "via": null,
+          "localizacao": "p. 8, nota 6",
+          "registro": "oxum-062"
         }
       ]
     },
@@ -5308,6 +6289,17 @@
           "via": null,
           "localizacao": "p. 324",
           "registro": "oxum-049"
+        },
+        {
+          "valor": "esposa favorita de Xangô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18",
+          "registro": "oxum-054"
         }
       ]
     },
@@ -5400,6 +6392,17 @@
           "via": null,
           "localizacao": "p. 247",
           "registro": "oxum-036"
+        },
+        {
+          "valor": "abebê (leque de metal amarelo) e espada",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "oxum-060"
         }
       ]
     },
@@ -5463,6 +6466,17 @@
           "via": null,
           "localizacao": "p. 276 e nota 648",
           "registro": "oxum-048"
+        },
+        {
+          "valor": "Nossa Senhora das Candeias",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18; anexo, p. 27",
+          "registro": "oxum-053"
         }
       ]
     },
@@ -5492,6 +6506,17 @@
           "via": null,
           "localizacao": "p. 166",
           "registro": "oxumare-020"
+        },
+        {
+          "valor": "roupas amarelo, verde e preto; contas amarelo, verde e preto, ou búzios",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "oxumare-036"
         }
       ]
     },
@@ -5520,6 +6545,45 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 127",
           "registro": "oxumare-002"
+        },
+        {
+          "valor": "sábado",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "oxumare-037"
+        }
+      ]
+    },
+    {
+      "orixa": "oxumare",
+      "atributo": "elementos",
+      "versoes": [
+        {
+          "valor": "arco-íris; divindade das águas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Bahia — candomblés nagô/queto descritos por Bastide (anos 1940–50)",
+          "fonte": "bastide-1958-candomble",
+          "via": null,
+          "localizacao": "ed. pt 1961, p. 122",
+          "registro": "oxumare-003"
+        },
+        {
+          "valor": "elemento natural: chuva e condições atmosféricas; elemento mítico: água",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 23–25",
+          "registro": "oxumare-035"
         }
       ]
     },
@@ -5560,6 +6624,17 @@
           "via": null,
           "localizacao": "p. 41",
           "registro": "oxumare-031"
+        },
+        {
+          "valor": "voduns jeje: Dã, Bessém; inquice banto: Angorô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "oxumare-040"
         }
       ]
     },
@@ -5686,6 +6761,17 @@
           "via": null,
           "localizacao": "pp. 292, 300, 304",
           "registro": "oxumare-026"
+        },
+        {
+          "valor": "espada e cobras de metal",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "oxumare-038"
         }
       ]
     },
@@ -5727,6 +6813,17 @@
           "via": null,
           "localizacao": "versão do autor, pp. 14, 25 (Quadro 1)",
           "registro": "oxumare-030"
+        },
+        {
+          "valor": "São Bartolomeu",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "oxumare-039"
         }
       ]
     },
@@ -5767,6 +6864,17 @@
           "via": null,
           "localizacao": "p. 168",
           "registro": "xango-042"
+        },
+        {
+          "valor": "roupas vermelho, marrom e branco; contas vermelhas e brancas alternadas",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 24–25",
+          "registro": "xango-062"
         }
       ]
     },
@@ -5839,6 +6947,17 @@
           "via": "bastide-1958-candomble",
           "localizacao": "ed. pt 1961, p. 127",
           "registro": "xango-019"
+        },
+        {
+          "valor": "quarta-feira",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 25–26",
+          "registro": "xango-063"
         }
       ]
     },
@@ -5868,6 +6987,17 @@
           "via": null,
           "localizacao": "p. 226",
           "registro": "xango-020"
+        },
+        {
+          "valor": "elemento natural: trovão e pedras (pedra de raio); elemento mítico: fogo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 23–25",
+          "registro": "xango-061"
         }
       ]
     },
@@ -5918,6 +7048,17 @@
           "via": null,
           "localizacao": "versão do autor, p. 25 (Quadro 1)",
           "registro": "xango-050"
+        },
+        {
+          "valor": "voduns jeje: Badé, Queviosô; inquice banto: Zázi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "xango-065"
         }
       ]
     },
@@ -6163,6 +7304,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 90, nota 28",
           "registro": "xango-033"
+        },
+        {
+          "valor": "oxé (machado duplo) e xere (chocalho de metal)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "anexo, pp. 26–27",
+          "registro": "xango-064"
         }
       ]
     },
@@ -6214,6 +7366,17 @@
           "via": null,
           "localizacao": "p. 172 e nota 133",
           "registro": "xango-056"
+        },
+        {
+          "valor": "São Jerônimo (texto); São Jerônimo e São João (quadro)",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+          "fonte": "prandi-1995-deuses",
+          "via": null,
+          "localizacao": "p. 18; anexo, p. 26",
+          "registro": "xango-058"
         }
       ]
     }

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "nana",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 34,
+    "total": 41,
     "por_status": {
-      "fichado": 34,
+      "fichado": 41,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -665,6 +665,139 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "nana-035",
+      "orixa": "nana",
+      "atributo": "dominios",
+      "valor": "orixá do lodo no fundo das águas; patrona da educação, da senioridade e da morte",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, p. 23",
+      "parafrase": "Para o quadro queto, Nanã é orixá do lodo no fundo das águas; cuida da educação, da senioridade e da morte.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "nana-036",
+      "orixa": "nana",
+      "atributo": "elementos",
+      "valor": "elemento natural: lama, pântano; elemento mítico: água",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 23–25",
+      "parafrase": "Elementos de Nanã no quadro: lama, pântano (natural) e água (mítico).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "nana-037",
+      "orixa": "nana",
+      "atributo": "cores",
+      "valor": "roupas púrpura, azul e branco; contas brancas rajadas de azul-cobalto",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 24–25",
+      "parafrase": "Vestes e contas de Nanã, pelo quadro: roupas púrpura, azul e branco; contas brancas rajadas de azul-cobalto.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "nana-038",
+      "orixa": "nana",
+      "atributo": "dia_semana",
+      "valor": "segunda-feira",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 25–26",
+      "parafrase": "Dia de Nanã no quadro: segunda-feira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "nana-039",
+      "orixa": "nana",
+      "atributo": "simbolos",
+      "valor": "ibiri (cetro em arco feito de fibra de dendezeiro e búzios)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 26–27",
+      "parafrase": "Objetos rituais de Nanã, segundo o quadro: ibiri (cetro em arco feito de fibra de dendezeiro e búzios).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "nana-040",
+      "orixa": "nana",
+      "atributo": "sincretismo",
+      "valor": "Santana",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 26–27",
+      "parafrase": "Santo católico de Nanã no quadro: Santana.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "nana-041",
+      "orixa": "nana",
+      "atributo": "equivalencias",
+      "valor": "vodum jeje de mesmo nome (Nanã); sem inquice no quadro",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 26–27",
+      "parafrase": "Correspondências de Nanã no quadro — vodum jeje de mesmo nome (Nanã); sem inquice no quadro.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
       ]
     }
   ]

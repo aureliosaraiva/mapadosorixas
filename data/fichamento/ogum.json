@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 66,
+    "total": 76,
     "por_status": {
-      "fichado": 61,
+      "fichado": 71,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -1284,6 +1284,196 @@
       "status": "fichado",
       "evidencias": [
         "https://hal.science/tel-04260456v1"
+      ]
+    },
+    {
+      "id": "ogum-067",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "guerra, ferro, metalurgia e tecnologia; abre caminhos, favorece viagens e progresso",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 17",
+      "parafrase": "Ogum reina sobre a guerra, o ferro, o trabalho do metal e a técnica; é ele quem abre os caminhos e torna possíveis as viagens e o avanço na vida.",
+      "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-068",
+      "orixa": "ogum",
+      "atributo": "sincretismo",
+      "valor": "Santo Antônio e São Jorge",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 17; anexo, p. 26",
+      "parafrase": "Ogum é associado a Santo Antônio e a São Jorge, tanto no texto quanto no quadro do anexo.",
+      "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-069",
+      "orixa": "ogum",
+      "atributo": "saudacao",
+      "valor": "Ogunhê!",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 17",
+      "parafrase": "Ogum é saudado com Ogunhê.",
+      "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-070",
+      "orixa": "ogum",
+      "atributo": "parentesco",
+      "valor": "irmão de Exu",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 17",
+      "parafrase": "Ao comparar os filhos de Ogum aos de Exu, o autor lembra que Exu é irmão de Ogum.",
+      "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-071",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "orixá da metalurgia, da agricultura e da guerra; patrono das estradas abertas, das ocupações manuais, dos soldados e da polícia",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, p. 23",
+      "parafrase": "Para o quadro queto, Ogum é orixá da metalurgia, da agricultura e da guerra; cuida das estradas abertas, das ocupações manuais, dos soldados e da polícia.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-072",
+      "orixa": "ogum",
+      "atributo": "elementos",
+      "valor": "elemento natural: ferro forjado; elemento mítico: terra",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 23–25",
+      "parafrase": "Elementos de Ogum no quadro: ferro forjado (natural) e terra (mítico).",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-073",
+      "orixa": "ogum",
+      "atributo": "cores",
+      "valor": "roupas azul-escuro, verde e branco; contas azul-escuro ou verde",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 24–25",
+      "parafrase": "Vestes e contas de Ogum, pelo quadro: roupas azul-escuro, verde e branco; contas azul-escuro ou verde.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-074",
+      "orixa": "ogum",
+      "atributo": "dia_semana",
+      "valor": "terça-feira",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 25–26",
+      "parafrase": "Dia de Ogum no quadro: terça-feira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-075",
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "valor": "espada",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 26–27",
+      "parafrase": "Objetos rituais de Ogum, segundo o quadro: espada.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-076",
+      "orixa": "ogum",
+      "atributo": "equivalencias",
+      "valor": "voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "anexo, pp. 26–27",
+      "parafrase": "Correspondências de Ogum no quadro — voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
       ]
     }
   ]

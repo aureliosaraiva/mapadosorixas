@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/exu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 102,
+    "registros_usados": 113,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -116,6 +116,27 @@
         "nota": "Silva apoia-se em Dopamu (1990, p. 20) — fonte a catalogar.",
         "registro": "exu-054",
         "status": "fichado"
+      },
+      {
+        "valor": "Bara (nome usado no Batuque gaúcho)",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Batuque do Rio Grande do Sul (indicação no quadro do autor)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 26",
+        "parafrase": "O quadro anota que, no Batuque gaúcho, Exu é chamado Bara.",
+        "nota": null,
+        "registro": "exu-113",
+        "status": "fichado"
       }
     ],
     "dominios": [
@@ -225,6 +246,49 @@
         "parafrase": "Os autores notam que, nos pontos, exus e pombas-giras aparecem quase sempre ligados a ruas, encruzilhadas e cemitérios, mas advertem que isso não significa que morem ali: estariam nesses lugares por afinidade ou em razão dos trabalhos que neles realizam.",
         "nota": "Comparar com exu-058 (Silva 2012).",
         "registro": "exu-076",
+        "status": "fichado"
+      },
+      {
+        "valor": "mensageiro, guardião dos cruzamentos de caminhos e da porta de entrada das casas; patrono da comunicação, da transformação e da potência sexual",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Exu é mensageiro, guardião dos cruzamentos de caminhos e da porta de entrada das casas; cuida da comunicação, da transformação e da potência sexual.",
+        "nota": null,
+        "registro": "exu-108",
+        "status": "fichado"
+      },
+      {
+        "valor": "a rua e seus cruzamentos de caminhos, morada de Exu",
+        "tradicoes": [
+          "umbanda",
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
+        "sources": [
+          {
+            "id": "noleto-2025-montevideu",
+            "loc": "p. 31",
+            "via": null
+          }
+        ],
+        "source_id": "noleto-2025-montevideu",
+        "via_source_id": null,
+        "localizacao": "p. 31",
+        "parafrase": "Os autores lembram que a festa de Montevidéu se estende às ruas do bairro e que a rua, com seus cruzamentos, é por excelência a casa de Exu; na areia, entre imagens de Iemanjá e de uma Preta Velha, fotografaram uma imagem de Exu Asa Negra.",
+        "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+        "registro": "exu-114",
         "status": "fichado"
       }
     ],
@@ -464,6 +528,50 @@
         "nota": "Toutain cita Cabrera, El Monte (1954), p. 71.",
         "registro": "exu-099",
         "status": "fichado"
+      },
+      {
+        "valor": "mensageiro e trapaceiro; recebe a primeira homenagem de toda cerimônia; guarda encruzilhadas e portas da rua",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17",
+        "parafrase": "Exu é apresentado como deus mensageiro e trickster. Em qualquer rito ele é saudado antes de todos, para não se zangar e estragar a cerimônia, e é o guardião dos cruzamentos de caminhos e das portas que abrem para a rua.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "exu-104",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "elemento natural: minério de ferro; elemento mítico: fogo e terra",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Exu no quadro: minério de ferro (natural) e fogo e terra (mítico).",
+        "nota": null,
+        "registro": "exu-109",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -529,6 +637,27 @@
         "parafrase": "Ao explicar que cada recepção de santo vem com uma pulseira e um colar nas cores do orixá, Toutain dá como exemplo o preto e o vermelho de Elegguá.",
         "nota": "Comparar com exu-042 e exu-085.",
         "registro": "exu-088",
+        "status": "fichado"
+      },
+      {
+        "valor": "roupas vermelho e preto; contas vermelhas e pretas alternadas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Exu, pelo quadro: roupas vermelho e preto; contas vermelhas e pretas alternadas.",
+        "nota": null,
+        "registro": "exu-110",
         "status": "fichado"
       }
     ],
@@ -637,6 +766,50 @@
         "nota": null,
         "registro": "exu-086",
         "status": "fichado"
+      },
+      {
+        "valor": "segunda-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Exu no quadro: segunda-feira.",
+        "nota": null,
+        "registro": "exu-111",
+        "status": "fichado"
+      }
+    ],
+    "saudacao": [
+      {
+        "valor": "Laroyê!",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17",
+        "parafrase": "A saudação dirigida a Exu é Laroyê.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "exu-106",
+        "status": "fichado"
       }
     ],
     "simbolos": [
@@ -703,6 +876,27 @@
         "parafrase": "Na Umbanda costuma-se dizer que as encruzilhadas em X são de Exu e as em T, de Pombagira.",
         "nota": null,
         "registro": "exu-061",
+        "status": "fichado"
+      },
+      {
+        "valor": "porrete fálico e tridentes de ferro; ogó (bastão em forma fálica)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17; anexo, p. 26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17; anexo, p. 26",
+        "parafrase": "Os emblemas de Exu são um porrete de forma fálica e tridentes de ferro; no quadro do anexo, o objeto ritual é o ogó, bastão de feitio fálico.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "exu-105",
         "status": "fichado"
       }
     ],
@@ -1080,6 +1274,27 @@
         "nota": null,
         "registro": "exu-100",
         "status": "fichado"
+      },
+      {
+        "valor": "voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Exu no quadro — voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá.",
+        "nota": "Na coluna 'vodum jeje' o quadro põe também Bara e Eleguá; Bara é o nome de Exu no Batuque (mesmo quadro) e Eleguá é nome usado em Cuba. O mapa do grafo liga só Elegbara e os dois inquices.",
+        "registro": "exu-112",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -1233,6 +1448,27 @@
         "parafrase": "No central Méjico, Elegguá é associado localmente a São Pedro, o que, nota Toutain, não explica por que sua festa caiu um tempo no dia de Santa Bárbara.",
         "nota": null,
         "registro": "exu-098",
+        "status": "fichado"
+      },
+      {
+        "valor": "Diabo católico",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17; anexo, p. 26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17; anexo, p. 26",
+        "parafrase": "No texto e no quadro, Exu aparece sincretizado com o Diabo do catolicismo.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "exu-107",
         "status": "fichado"
       }
     ],
@@ -2233,8 +2469,6 @@
   "pendencias": {
     "sem_registro": [
       "origem",
-      "elementos",
-      "saudacao",
       "alimentos"
     ],
     "so_pre_fichamento": {},

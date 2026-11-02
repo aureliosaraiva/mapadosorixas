@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oba.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 18,
+    "registros_usados": 24,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -31,6 +31,27 @@
         "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
         "registro": "oba-011",
         "status": "fichado"
+      },
+      {
+        "valor": "orixá dos rios; patrona do trabalho doméstico e do poder da mulher",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Obá é orixá dos rios; cuida do trabalho doméstico e do poder da mulher.",
+        "nota": null,
+        "registro": "oba-020",
+        "status": "fichado"
       }
     ],
     "elementos": [
@@ -53,6 +74,27 @@
         "parafrase": "Segundo o devoto de Shango ouvido por Dennett, Oya é o vento que corre à frente do marido na luta, Oshun é a escuridão que se forma e Oba são as nuvens agitadas que se juntam; as duas últimas ficam em casa cuidando dela.",
         "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
         "registro": "oba-016",
+        "status": "fichado"
+      },
+      {
+        "valor": "elemento natural: rios; elemento mítico: água",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Obá no quadro: rios (natural) e água (mítico).",
+        "nota": null,
+        "registro": "oba-021",
         "status": "fichado"
       }
     ],
@@ -77,6 +119,27 @@
         "nota": null,
         "registro": "oba-010",
         "status": "fichado"
+      },
+      {
+        "valor": "roupas vermelho e dourado; contas vermelho e amarelo translúcido",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Obá, pelo quadro: roupas vermelho e dourado; contas vermelho e amarelo translúcido.",
+        "nota": null,
+        "registro": "oba-022",
+        "status": "fichado"
       }
     ],
     "dia_semana": [
@@ -99,6 +162,50 @@
         "parafrase": "Na semana de Porto Alegre registrada por Bastide, a quarta-feira pertence a Xapanã (Omolu) e a Obá.",
         "nota": null,
         "registro": "oba-002",
+        "status": "fichado"
+      },
+      {
+        "valor": "quarta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Obá no quadro: quarta-feira.",
+        "nota": null,
+        "registro": "oba-023",
+        "status": "fichado"
+      }
+    ],
+    "simbolos": [
+      {
+        "valor": "espada e escudo redondo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Obá, segundo o quadro: espada e escudo redondo.",
+        "nota": null,
+        "registro": "oba-024",
         "status": "fichado"
       }
     ],
@@ -297,6 +404,29 @@
         "status": "fichado"
       }
     ],
+    "sincretismo": [
+      {
+        "valor": "Santa Joana d'Arc",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Santo católico de Obá no quadro: Santa Joana d'Arc.",
+        "nota": null,
+        "registro": "oba-025",
+        "status": "fichado"
+      }
+    ],
     "itans": [
       {
         "valor": "enganada por Oxum, cortou a orelha para agradar Xangô e foi repudiada",
@@ -420,10 +550,8 @@
       "origem",
       "funcoes",
       "saudacao",
-      "simbolos",
       "animais",
       "qualidades",
-      "sincretismo",
       "tabus",
       "festas",
       "interpretacao_academica"

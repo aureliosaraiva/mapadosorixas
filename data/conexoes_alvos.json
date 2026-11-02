@@ -121,7 +121,28 @@
     "santo:sao-lazaro": {"rotulo": "São Lázaro", "tipo": "santo_catolico"},
     "orunmila": {"rotulo": "Orunmilá / Ifá", "tipo": "orixa"},
     "santo:ns-penha": {"rotulo": "Nossa Senhora da Penha", "tipo": "santo_catolico"},
-    "santo:sao-francisco": {"rotulo": "São Francisco de Assis", "tipo": "santo_catolico"}
+    "santo:sao-francisco": {"rotulo": "São Francisco de Assis", "tipo": "santo_catolico"},
+    "inquice:bombogira": {"rotulo": "Bombogira", "tipo": "inquice"},
+    "inquice:aluvia": {"rotulo": "Aluviá", "tipo": "inquice"},
+    "inquice:incaci": {"rotulo": "Incáci", "tipo": "inquice"},
+    "inquice:roximucumbe": {"rotulo": "Roximucumbe", "tipo": "inquice"},
+    "inquice:mutacalombo": {"rotulo": "Mutacalombo", "tipo": "inquice"},
+    "vodum:da": {"rotulo": "Dã", "tipo": "vodum"},
+    "vodum:bessem": {"rotulo": "Bessém", "tipo": "vodum"},
+    "inquice:cafuna": {"rotulo": "Cafunã", "tipo": "inquice"},
+    "vodum:queviosso": {"rotulo": "Queviosô", "tipo": "vodum"},
+    "inquice:zazi": {"rotulo": "Zázi", "tipo": "inquice"},
+    "inquice:bumburucema": {"rotulo": "Bumburucema", "tipo": "inquice"},
+    "vodum:aziritobosse": {"rotulo": "Aziritobosse", "tipo": "vodum"},
+    "vodum:nave": {"rotulo": "Navê", "tipo": "vodum"},
+    "inquice:samba": {"rotulo": "Samba", "tipo": "inquice"},
+    "inquice:quissambo": {"rotulo": "Quissambo", "tipo": "inquice"},
+    "inquice:zambi": {"rotulo": "Zambi", "tipo": "inquice"},
+    "santo:santo-onofre": {"rotulo": "Santo Onofre", "tipo": "santo_catolico"},
+    "santo:sao-roque": {"rotulo": "São Roque", "tipo": "santo_catolico"},
+    "santo:sao-miguel": {"rotulo": "São Miguel Arcanjo", "tipo": "santo_catolico"},
+    "santo:santa-lucia": {"rotulo": "Santa Lúcia", "tipo": "santo_catolico"},
+    "santo:ns-aparecida": {"rotulo": "Nossa Senhora da Conceição Aparecida", "tipo": "santo_catolico"}
   },
   "registros": {
     "exu-001": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
@@ -377,6 +398,107 @@
     "omolu-045": [{"tipo": "sincretismo", "destino": "santo:sao-lazaro"}],
     "xango-056": [{"tipo": "sincretismo", "destino": "santo:santa-barbara"}],
     "orunmila-013": [{"tipo": "sincretismo", "destino": "santo:sao-francisco"}],
-    "exu-100": [{"tipo": "equivalencia", "destino": "vodum:legba"}]
+    "exu-100": [{"tipo": "equivalencia", "destino": "vodum:legba"}],
+    "exu-107": [{"tipo": "sincretismo", "destino": "figura:diabo"}],
+    "exu-112": [
+      {"tipo": "equivalencia", "destino": "vodum:legba"},
+      {"tipo": "equivalencia", "destino": "inquice:bombogira"},
+      {"tipo": "equivalencia", "destino": "inquice:aluvia"}
+    ],
+    "ogum-068": [
+      {"tipo": "sincretismo", "destino": "santo:santo-antonio"},
+      {"tipo": "sincretismo", "destino": "santo:sao-jorge"}
+    ],
+    "ogum-070": [{"tipo": "parentesco", "subtipo": "irmao_de", "destino": "exu"}],
+    "ogum-076": [
+      {"tipo": "equivalencia", "destino": "vodum:gu"},
+      {"tipo": "equivalencia", "destino": "vodum:docu"},
+      {"tipo": "equivalencia", "destino": "inquice:incaci"},
+      {"tipo": "equivalencia", "destino": "inquice:roximucumbe"}
+    ],
+    "oxossi-038": [
+      {"tipo": "sincretismo", "destino": "santo:sao-jorge"},
+      {"tipo": "sincretismo", "destino": "santo:sao-sebastiao"}
+    ],
+    "oxossi-045": [
+      {"tipo": "equivalencia", "destino": "vodum:azaca"},
+      {"tipo": "equivalencia", "destino": "inquice:tere-kompenso"},
+      {"tipo": "equivalencia", "destino": "inquice:mutacalombo"}
+    ],
+    "omolu-048": [
+      {"tipo": "sincretismo", "destino": "santo:sao-lazaro"},
+      {"tipo": "sincretismo", "destino": "santo:sao-roque"}
+    ],
+    "omolu-055": [
+      {"tipo": "equivalencia", "destino": "vodum:acossi"},
+      {"tipo": "equivalencia", "destino": "vodum:xapana"},
+      {"tipo": "equivalencia", "destino": "inquice:cafuna"},
+      {"tipo": "equivalencia", "destino": "inquice:kavungu"}
+    ],
+    "xango-058": [
+      {"tipo": "sincretismo", "destino": "santo:sao-jeronimo"},
+      {"tipo": "sincretismo", "destino": "santo:sao-joao"}
+    ],
+    "xango-065": [
+      {"tipo": "equivalencia", "destino": "vodum:bade"},
+      {"tipo": "equivalencia", "destino": "vodum:queviosso"},
+      {"tipo": "equivalencia", "destino": "inquice:zazi"}
+    ],
+    "oxum-053": [{"tipo": "sincretismo", "destino": "santo:ns-candeias"}],
+    "oxum-054": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "xango"}],
+    "oxum-061": [
+      {"tipo": "equivalencia", "destino": "vodum:aziritobosse"},
+      {"tipo": "equivalencia", "destino": "vodum:nave"},
+      {"tipo": "equivalencia", "destino": "vodum:navezuarina"},
+      {"tipo": "equivalencia", "destino": "inquice:samba"},
+      {"tipo": "equivalencia", "destino": "inquice:quissambo"}
+    ],
+    "iansa-042": [{"tipo": "parentesco", "subtipo": "conjuge_de", "destino": "xango"}],
+    "iansa-043": [{"tipo": "sincretismo", "destino": "santo:santa-barbara"}],
+    "iansa-050": [
+      {"tipo": "equivalencia", "destino": "vodum:sobo"},
+      {"tipo": "equivalencia", "destino": "inquice:matamba"},
+      {"tipo": "equivalencia", "destino": "inquice:bumburucema"}
+    ],
+    "iemanja-066": [
+      {"tipo": "sincretismo", "destino": "santo:ns-conceicao"},
+      {"tipo": "sincretismo", "destino": "santo:ns-aparecida"}
+    ],
+    "iemanja-074": [
+      {"tipo": "equivalencia", "destino": "vodum:abe"},
+      {"tipo": "equivalencia", "destino": "inquice:dandalunda"},
+      {"tipo": "equivalencia", "destino": "inquice:quissimbe"}
+    ],
+    "oxala-067": [{"tipo": "sincretismo", "destino": "figura:jesus-cristo"}],
+    "oxala-076": [
+      {"tipo": "sincretismo", "destino": "figura:menino-jesus", "origem": "oxaguia"},
+      {"tipo": "sincretismo", "destino": "figura:jesus-cristo", "origem": "oxalufa"}
+    ],
+    "oxala-077": [
+      {"tipo": "equivalencia", "destino": "vodum:lissa", "origem": "oxalufa"},
+      {"tipo": "equivalencia", "destino": "inquice:zambi", "origem": "oxalufa"}
+    ],
+    "ossaim-046": [{"tipo": "sincretismo", "destino": "santo:santo-onofre"}],
+    "ossaim-047": [
+      {"tipo": "equivalencia", "destino": "vodum:ague"},
+      {"tipo": "equivalencia", "destino": "inquice:katende"}
+    ],
+    "oxumare-039": [{"tipo": "sincretismo", "destino": "santo:sao-bartolomeu"}],
+    "oxumare-040": [
+      {"tipo": "equivalencia", "destino": "vodum:da"},
+      {"tipo": "equivalencia", "destino": "vodum:bessem"},
+      {"tipo": "equivalencia", "destino": "inquice:hongolo"}
+    ],
+    "oba-025": [{"tipo": "sincretismo", "destino": "figura:joana-darc"}],
+    "logunede-032": [{"tipo": "sincretismo", "destino": "santo:sao-miguel"}],
+    "logunede-033": [{"tipo": "equivalencia", "destino": "vodum:boco-jara"}],
+    "logunede-034": [
+      {"tipo": "parentesco", "subtipo": "filho_de", "destino": "oxum"},
+      {"tipo": "parentesco", "subtipo": "filho_de", "destino": "oxossi"}
+    ],
+    "ewa-014": [{"tipo": "sincretismo", "destino": "santo:santa-lucia"}],
+    "ewa-015": [],
+    "nana-040": [{"tipo": "sincretismo", "destino": "santo:santana"}],
+    "nana-041": []
   }
 }

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ori",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 10,
+    "total": 12,
     "por_status": {
-      "fichado": 10,
+      "fichado": 12,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -198,6 +198,44 @@
       "nota": "Interpretação psicológica do autor, não descrição etnográfica. A fonte fala em 'tradição de Orixá', sem nação; candomble_ketu é aproximação.",
       "status": "fichado",
       "evidencias": []
+    },
+    {
+      "id": "ori-011",
+      "orixa": "ori",
+      "atributo": "hierarquia",
+      "valor": "cada pessoa pertence a um orixá, senhor da sua cabeça, e tem um segundo orixá associado (juntó), em geral de sexo oposto",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé (texto do autor, centrado no rito queto)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "pp. 16, 19",
+      "parafrase": "Para o candomblé, todo indivíduo é de um orixá que é senhor da sua cabeça e lhe transmite traços físicos e de temperamento, descoberto pelo jogo de búzios; há ainda um segundo orixá, o juntó, que completa o primeiro e costuma ser do outro sexo, como se a pessoa tivesse pai e mãe divinos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ori-012",
+      "orixa": "ori",
+      "atributo": "funcoes",
+      "valor": "'cabeça ruim não tem orixá': antes dos deuses, louva-se a própria cabeça",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé (texto do autor, centrado no rito queto)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 22",
+      "parafrase": "Um provérbio repetido nos terreiros, em iorubá e em português, ensina que quem está mal com a própria cabeça não terá orixá forte; por isso a cabeça é cultuada antes das divindades.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
     }
   ]
 }

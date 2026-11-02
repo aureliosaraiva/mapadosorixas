@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxumare.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 32,
+    "registros_usados": 39,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -119,6 +119,27 @@
         "nota": "Fonte C (documento histórico, olhar colonial/missionário): vale como registro de época e lugar, nunca sozinha para o atributo.",
         "registro": "oxumare-022",
         "status": "fichado"
+      },
+      {
+        "valor": "orixá do arco-íris, de sexo masculino e feminino (andrógino); patrono da riqueza que vem das colheitas (chuva)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Oxumarê é orixá do arco-íris, de sexo masculino e feminino (andrógino); cuida da riqueza que vem das colheitas (chuva).",
+        "nota": null,
+        "registro": "oxumare-034",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -165,6 +186,27 @@
         "nota": null,
         "registro": "oxumare-003",
         "status": "fichado"
+      },
+      {
+        "valor": "elemento natural: chuva e condições atmosféricas; elemento mítico: água",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Oxumarê no quadro: chuva e condições atmosféricas (natural) e água (mítico).",
+        "nota": null,
+        "registro": "oxumare-035",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -210,6 +252,27 @@
         "nota": null,
         "registro": "oxumare-020",
         "status": "fichado"
+      },
+      {
+        "valor": "roupas amarelo, verde e preto; contas amarelo, verde e preto, ou búzios",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Oxumarê, pelo quadro: roupas amarelo, verde e preto; contas amarelo, verde e preto, ou búzios.",
+        "nota": null,
+        "registro": "oxumare-036",
+        "status": "fichado"
       }
     ],
     "dia_semana": [
@@ -253,6 +316,27 @@
         "parafrase": "No Opô Afonjá, a terça é de Ogum, junto com Nanã Buruku e Oxumarê.",
         "nota": null,
         "registro": "oxumare-002",
+        "status": "fichado"
+      },
+      {
+        "valor": "sábado",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Oxumarê no quadro: sábado.",
+        "nota": null,
+        "registro": "oxumare-037",
         "status": "fichado"
       }
     ],
@@ -299,6 +383,27 @@
         "parafrase": "Os ferros rituais são atribuídos a Exu, Ogum, Oxóssi, Oxumaré e Ossaim; o de Oxumaré são duas varetas forjadas que desenham serpentes, com a serpente e o arco-íris como imagem.",
         "nota": null,
         "registro": "oxumare-026",
+        "status": "fichado"
+      },
+      {
+        "valor": "espada e cobras de metal",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Oxumarê, segundo o quadro: espada e cobras de metal.",
+        "nota": null,
+        "registro": "oxumare-038",
         "status": "fichado"
       }
     ],
@@ -454,6 +559,27 @@
         "nota": null,
         "registro": "oxumare-031",
         "status": "fichado"
+      },
+      {
+        "valor": "voduns jeje: Dã, Bessém; inquice banto: Angorô",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Oxumarê no quadro — voduns jeje: Dã, Bessém; inquice banto: Angorô.",
+        "nota": "Dã e Bessém ficam como nós próprios no grafo: o quadro não diz se correspondem ao Dangbê de outras fontes.",
+        "registro": "oxumare-040",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -520,6 +646,27 @@
         "parafrase": "Na mesma casa, Dangbê, Idarço e Oxumarê têm São Bartolomeu como santo católico.",
         "nota": null,
         "registro": "oxumare-030",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Bartolomeu",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Santo católico de Oxumarê no quadro: São Bartolomeu.",
+        "nota": null,
+        "registro": "oxumare-039",
         "status": "fichado"
       }
     ],

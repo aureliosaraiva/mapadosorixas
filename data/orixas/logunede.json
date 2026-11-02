@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/logunede.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 24,
+    "registros_usados": 32,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 2
   },
@@ -78,6 +78,50 @@
         "nota": null,
         "registro": "logunede-015",
         "status": "fichado"
+      },
+      {
+        "valor": "orixá de rios que atravessam as matas, masculino e feminino alternadamente; patronagem igual à de Oxum e de Oxóssi",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Logun-Edé é orixá de rios que atravessam as matas, masculino e feminino alternadamente; a patronagem repete a de Oxum e a de Oxóssi.",
+        "nota": null,
+        "registro": "logunede-027",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "elemento natural: rios e florestas; elemento mítico: água e terra",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Logun-Edé no quadro: rios e florestas (natural) e água e terra (mítico).",
+        "nota": null,
+        "registro": "logunede-028",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -100,6 +144,50 @@
         "parafrase": "A roupa de Lógunède no candomblé tem duas partes: a do pai, em azul-claro com estampas ou peles de bicho, e a da mãe, em amarelo-canário e dourado; os tecidos variam entre azul, verde, amarelo, branco e dourado.",
         "nota": null,
         "registro": "logunede-017",
+        "status": "fichado"
+      },
+      {
+        "valor": "roupas dourado e azul-turquesa; contas dourado translúcido e turquesa alternadas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Logun-Edé, pelo quadro: roupas dourado e azul-turquesa; contas dourado translúcido e turquesa alternadas.",
+        "nota": null,
+        "registro": "logunede-029",
+        "status": "fichado"
+      }
+    ],
+    "dia_semana": [
+      {
+        "valor": "quinta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Logun-Edé no quadro: quinta-feira.",
+        "nota": null,
+        "registro": "logunede-030",
         "status": "fichado"
       }
     ],
@@ -165,6 +253,27 @@
         "parafrase": "Com a reafricanização paulista, entrou nas insígnias de Lógunède um facão de bronze, o Àdá Idẹ, além de chapéu de penas e brincos.",
         "nota": null,
         "registro": "logunede-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "ofá e abebê",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Logun-Edé, segundo o quadro: ofá e abebê.",
+        "nota": null,
+        "registro": "logunede-031",
         "status": "fichado"
       }
     ],
@@ -340,6 +449,27 @@
         "nota": "A fonte escreve 'Yewá'; a lista-mestra separa Ewá e Iyewa, e não se decidiu aqui a qual delas o nome se refere (ver relatório lote-B).",
         "registro": "logunede-009",
         "status": "fichado"
+      },
+      {
+        "valor": "filho de Oxum e de Oxóssi",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Na coluna de patronagem, Logun-Edé herda o mesmo campo de Oxum e de Oxóssi, que o quadro chama de seus pais.",
+        "nota": null,
+        "registro": "logunede-034",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -384,6 +514,27 @@
         "nota": null,
         "registro": "logunede-024",
         "status": "fichado"
+      },
+      {
+        "valor": "vodum jeje: Bosso Jara",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Logun-Edé no quadro — vodum jeje: Bosso Jara.",
+        "nota": "Bosso Jara está inteiro na coluna de voduns (posição conferida no PDF); não há inquice na linha.",
+        "registro": "logunede-033",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -406,6 +557,27 @@
         "parafrase": "Na mesma casa, Boço Jara e Logun-Edé têm como santo católico Santo Expedito.",
         "nota": null,
         "registro": "logunede-023",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Miguel Arcanjo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Santo católico de Logun-Edé no quadro: São Miguel Arcanjo.",
+        "nota": null,
+        "registro": "logunede-032",
         "status": "fichado"
       }
     ],
@@ -549,8 +721,6 @@
   "pendencias": {
     "sem_registro": [
       "funcoes",
-      "elementos",
-      "dia_semana",
       "saudacao",
       "animais",
       "festas",

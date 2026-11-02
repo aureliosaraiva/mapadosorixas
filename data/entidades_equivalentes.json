@@ -3,15 +3,164 @@
     "descricao": "Gerado por scripts/gerar_fichas.py a partir das arestas de equivalência de data/conexoes.json — não editar à mão. Fichas leves de voduns, inquices e outros nomes equivalentes. Equivalência não é identidade: cada entidade tem culto, mitos e atributos próprios na sua tradição.",
     "esquema": "schemas/entidade.schema.json",
     "aviso": "tipo 'nome_fon_ou_banto': a fonte lista o nome como usado em cultos de origem fon ou banto sem dizer qual; não classificar sem nova fonte.",
-    "total": 53
+    "total": 68
   },
   "entidades": [
+    {
+      "id": "inquice:aluvia",
+      "rotulo": "Aluviá",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>inquice:aluvia"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Exu no quadro — voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá.",
+          "nota": "Na coluna 'vodum jeje' o quadro põe também Bara e Eleguá; Bara é o nome de Exu no Batuque (mesmo quadro) e Eleguá é nome usado em Cuba. O mapa do grafo liga só Elegbara e os dois inquices.",
+          "registro": "exu-112",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:bombogira",
+      "rotulo": "Bombogira",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "exu",
+          "aresta": "equivalencia:exu>inquice:bombogira"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Exu no quadro — voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá.",
+          "nota": "Na coluna 'vodum jeje' o quadro põe também Bara e Eleguá; Bara é o nome de Exu no Batuque (mesmo quadro) e Eleguá é nome usado em Cuba. O mapa do grafo liga só Elegbara e os dois inquices.",
+          "registro": "exu-112",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:bumburucema",
+      "rotulo": "Bumburucema",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "iansa",
+          "aresta": "equivalencia:iansa>inquice:bumburucema"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oiá/Iansã no quadro — vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema.",
+          "nota": null,
+          "registro": "iansa-050",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:cafuna",
+      "rotulo": "Cafunã",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "omolu",
+          "aresta": "equivalencia:inquice:cafuna>omolu"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Obaluaiê/Omulu no quadro — voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo.",
+          "nota": null,
+          "registro": "omolu-055",
+          "status": "fichado"
+        }
+      ]
+    },
     {
       "id": "inquice:dandalunda",
       "rotulo": "Dandalunda",
       "tipo": "inquice",
       "tradicoes": [
-        "candomble_angola"
+        "candomble_angola",
+        "candomble_ketu"
       ],
       "equivale_a": [
         {
@@ -46,6 +195,27 @@
           "status": "fichado"
         },
         {
+          "valor": "vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Iemanjá no quadro — vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe.",
+          "nota": null,
+          "registro": "iemanja-074",
+          "status": "fichado"
+        },
+        {
           "valor": "Dandalunda/Kissimbi, nkisi da água potável: sacerdotes em geral o ligam a Oxum; estudiosos, a Iemanjá",
           "tradicoes": [
             "candomble_angola"
@@ -73,7 +243,8 @@
       "rotulo": "Hongolo / Angoro",
       "tipo": "inquice",
       "tradicoes": [
-        "candomble_angola"
+        "candomble_angola",
+        "candomble_ketu"
       ],
       "equivale_a": [
         {
@@ -102,6 +273,64 @@
           "nota": null,
           "registro": "oxumare-031",
           "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Dã, Bessém; inquice banto: Angorô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxumarê no quadro — voduns jeje: Dã, Bessém; inquice banto: Angorô.",
+          "nota": "Dã e Bessém ficam como nós próprios no grafo: o quadro não diz se correspondem ao Dangbê de outras fontes.",
+          "registro": "oxumare-040",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:incaci",
+      "rotulo": "Incáci",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ogum",
+          "aresta": "equivalencia:inquice:incaci>ogum"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Ogum no quadro — voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe.",
+          "nota": null,
+          "registro": "ogum-076",
+          "status": "fichado"
         }
       ]
     },
@@ -110,7 +339,8 @@
       "rotulo": "Katende / Mpanzu",
       "tipo": "inquice",
       "tradicoes": [
-        "candomble_angola"
+        "candomble_angola",
+        "candomble_ketu"
       ],
       "equivale_a": [
         {
@@ -164,6 +394,27 @@
           "nota": null,
           "registro": "ossaim-037",
           "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Agué; inquice banto: Catendê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Ossaim no quadro — vodum jeje: Agué; inquice banto: Catendê.",
+          "nota": null,
+          "registro": "ossaim-047",
+          "status": "fichado"
         }
       ]
     },
@@ -172,7 +423,8 @@
       "rotulo": "Kavungu / Kingongo / Insumbo",
       "tipo": "inquice",
       "tradicoes": [
-        "candomble_angola"
+        "candomble_angola",
+        "candomble_ketu"
       ],
       "equivale_a": [
         {
@@ -200,6 +452,27 @@
           "parafrase": "Botão apresenta Kavungu, também chamado Kingongo ou Insumbo, como divindade das pestes e doenças, que também mexe com a sorte, associada ao Obaluaiê/Omulu do ketu; sugere que Ntoto, ligado à terra, talvez seja da mesma família.",
           "nota": "Sobre Ntoto o autor diz não ter achado equivalente e fala em hipótese.",
           "registro": "omolu-027",
+          "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Obaluaiê/Omulu no quadro — voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo.",
+          "nota": null,
+          "registro": "omolu-055",
           "status": "fichado"
         }
       ]
@@ -341,7 +614,8 @@
       "rotulo": "Matamba",
       "tipo": "inquice",
       "tradicoes": [
-        "candomble_angola"
+        "candomble_angola",
+        "candomble_ketu"
       ],
       "equivale_a": [
         {
@@ -369,6 +643,64 @@
           "parafrase": "Botão descreve Matamba como nkisi do fogo, rainha dos raios e dos vendavais, guia dos espíritos e dona do cemitério, associado à Iansã do ketu; Bamburucema, ligada às chuvas, seria uma qualidade dela, e Kaiango é da mesma família.",
           "nota": "Botão anota que Bastide (1973) associa Kaiango a Iansã.",
           "registro": "iansa-020",
+          "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oiá/Iansã no quadro — vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema.",
+          "nota": null,
+          "registro": "iansa-050",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:mutacalombo",
+      "rotulo": "Mutacalombo",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxossi",
+          "aresta": "equivalencia:inquice:mutacalombo>oxossi"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxóssi (Odê) no quadro — vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo.",
+          "nota": null,
+          "registro": "oxossi-045",
           "status": "fichado"
         }
       ]
@@ -411,11 +743,49 @@
       ]
     },
     {
+      "id": "inquice:quissambo",
+      "rotulo": "Quissambo",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:inquice:quissambo>oxum"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxum no quadro — voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo.",
+          "nota": "Leitura das colunas conferida pela posição das palavras no PDF (as três primeiras na coluna de voduns, as duas últimas na de inquices).",
+          "registro": "oxum-061",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "inquice:quissimbe",
       "rotulo": "Quissimbe / Kissimbi",
       "tipo": "inquice",
       "tradicoes": [
-        "candomble_angola"
+        "candomble_angola",
+        "candomble_ketu"
       ],
       "equivale_a": [
         {
@@ -447,6 +817,27 @@
           "parafrase": "No levantamento de nomes de Iemanjá no cancioneiro, aparecem os nomes angola Dandalunda e Quissimbe, além de Kayala.",
           "nota": "Lista de nomes de canções, não estudo etnográfico; confirmar inquices equivalentes em Castro (2001).",
           "registro": "iemanja-042",
+          "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Iemanjá no quadro — vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe.",
+          "nota": null,
+          "registro": "iemanja-074",
           "status": "fichado"
         },
         {
@@ -494,16 +885,95 @@
       ]
     },
     {
+      "id": "inquice:roximucumbe",
+      "rotulo": "Roximucumbe",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "ogum",
+          "aresta": "equivalencia:inquice:roximucumbe>ogum"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Ogum no quadro — voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe.",
+          "nota": null,
+          "registro": "ogum-076",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:samba",
+      "rotulo": "Samba",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:inquice:samba>oxum"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxum no quadro — voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo.",
+          "nota": "Leitura das colunas conferida pela posição das palavras no PDF (as três primeiras na coluna de voduns, as duas últimas na de inquices).",
+          "registro": "oxum-061",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "inquice:tere-kompenso",
       "rotulo": "Tere-Kompenso / Gongobira",
       "tipo": "inquice",
       "tradicoes": [
-        "candomble_angola"
+        "candomble_angola",
+        "candomble_ketu"
       ],
       "equivale_a": [
         {
           "orixa": "logunede",
           "aresta": "equivalencia:inquice:tere-kompenso>logunede"
+        },
+        {
+          "orixa": "oxossi",
+          "aresta": "equivalencia:inquice:tere-kompenso>oxossi"
         }
       ],
       "versoes": [
@@ -526,6 +996,27 @@
           "parafrase": "Botão registra que, em alguns terreiros angola-congo, o inquice Tere-Kompenso (Ngongobila ou Gongobira), protetor de pescadores e caçadores, é associado a Logun Edé.",
           "nota": null,
           "registro": "logunede-024",
+          "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxóssi (Odê) no quadro — vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo.",
+          "nota": null,
+          "registro": "oxossi-045",
           "status": "fichado"
         }
       ]
@@ -563,6 +1054,43 @@
           "parafrase": "Vunji, deus da justiça que atua no nascimento das crianças, é aproximado dos Ibeji pela maioria dos sacerdotes angola-congo ouvidos por Botão.",
           "nota": null,
           "registro": "ibeji-039",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "inquice:zazi",
+      "rotulo": "Zázi",
+      "tipo": "inquice",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "xango",
+          "aresta": "equivalencia:inquice:zazi>xango"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Badé, Queviosô; inquice banto: Zázi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Xangô no quadro — voduns jeje: Badé, Queviosô; inquice banto: Zázi.",
+          "nota": null,
+          "registro": "xango-065",
           "status": "fichado"
         }
       ]
@@ -882,6 +1410,7 @@
       "rotulo": "Abê / Abé",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -932,6 +1461,27 @@
           "nota": null,
           "registro": "iemanja-057",
           "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Iemanjá no quadro — vodum jeje: Abê; inquices bantos: Dandalunda, Quissembe.",
+          "nota": null,
+          "registro": "iemanja-074",
+          "status": "fichado"
         }
       ]
     },
@@ -940,6 +1490,7 @@
       "rotulo": "Acóssi / Acóssi Sapatá",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -969,6 +1520,27 @@
           "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
           "registro": "omolu-024",
           "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Obaluaiê/Omulu no quadro — voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo.",
+          "nota": null,
+          "registro": "omolu-055",
+          "status": "fichado"
         }
       ]
     },
@@ -977,15 +1549,41 @@
       "rotulo": "Agüê",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
+        {
+          "orixa": "ossaim",
+          "aresta": "equivalencia:ossaim>vodum:ague"
+        },
         {
           "orixa": "oxossi",
           "aresta": "equivalencia:oxossi>vodum:ague"
         }
       ],
       "versoes": [
+        {
+          "valor": "vodum jeje: Agué; inquice banto: Catendê",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Ossaim no quadro — vodum jeje: Agué; inquice banto: Catendê.",
+          "nota": null,
+          "registro": "ossaim-047",
+          "status": "fichado"
+        },
         {
           "valor": "Agüê e Azacá (família de Savaluno) correspondem a Oxóssi",
           "tradicoes": [
@@ -1127,6 +1725,7 @@
       "rotulo": "Azacá",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -1155,6 +1754,27 @@
           "parafrase": "No mesmo quadro, os voduns Agüê e Azacá, da família de Savaluno, aparecem com Oxóssi como orixá correspondente.",
           "nota": "Na Casa das Minas, Zacá (Azacá) é descrito como vodum caçador, na síntese de S. Ferretti (p. 6). Correspondência estabelecida na casa paulista; não é identidade.",
           "registro": "oxossi-033",
+          "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxóssi (Odê) no quadro — vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo.",
+          "nota": null,
+          "registro": "oxossi-045",
           "status": "fichado"
         }
       ]
@@ -1192,6 +1812,43 @@
           "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
           "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
           "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:aziritobosse",
+      "rotulo": "Aziritobosse",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:oxum>vodum:aziritobosse"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxum no quadro — voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo.",
+          "nota": "Leitura das colunas conferida pela posição das palavras no PDF (as três primeiras na coluna de voduns, as duas últimas na de inquices).",
+          "registro": "oxum-061",
           "status": "fichado"
         }
       ]
@@ -1238,6 +1895,7 @@
       "rotulo": "Badé",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -1309,6 +1967,27 @@
           "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
           "registro": "xango-050",
           "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Badé, Queviosô; inquice banto: Zázi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Xangô no quadro — voduns jeje: Badé, Queviosô; inquice banto: Zázi.",
+          "nota": null,
+          "registro": "xango-065",
+          "status": "fichado"
         }
       ]
     },
@@ -1345,6 +2024,43 @@
           "parafrase": "No quadro dos voduns assentados na casa de Pai Francelino, os voduns jejes Doçu e Bedigá, da família real de Davice, têm Ogum como orixá correspondente, e Doçupé, filho de Doçu, corresponde a Ogunjá.",
           "nota": "Prandi (p. 14) diz que a correspondência entre vodum e orixá veio do Maranhão e ajuda os devotos paulistas a assimilar os voduns. No Quadro 2 (p. 26), Ogum soma 25 assentamentos somando voduns e orixá. Ogunjá é qualidade de Ogum (ver ogum-051).",
           "registro": "ogum-062",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:bessem",
+      "rotulo": "Bessém",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxumare",
+          "aresta": "equivalencia:oxumare>vodum:bessem"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Dã, Bessém; inquice banto: Angorô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxumarê no quadro — voduns jeje: Dã, Bessém; inquice banto: Angorô.",
+          "nota": "Dã e Bessém ficam como nós próprios no grafo: o quadro não diz se correspondem ao Dangbê de outras fontes.",
+          "registro": "oxumare-040",
           "status": "fichado"
         }
       ]
@@ -1391,6 +2107,7 @@
       "rotulo": "Boço Jara",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -1419,6 +2136,64 @@
           "parafrase": "No terreiro de Dona Jarina, o vodum Boço Jara corresponde ao orixá Logun-Edé.",
           "nota": null,
           "registro": "logunede-022",
+          "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Bosso Jara",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Logun-Edé no quadro — vodum jeje: Bosso Jara.",
+          "nota": "Bosso Jara está inteiro na coluna de voduns (posição conferida no PDF); não há inquice na linha.",
+          "registro": "logunede-033",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:da",
+      "rotulo": "Dã",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxumare",
+          "aresta": "equivalencia:oxumare>vodum:da"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Dã, Bessém; inquice banto: Angorô",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxumarê no quadro — voduns jeje: Dã, Bessém; inquice banto: Angorô.",
+          "nota": "Dã e Bessém ficam como nós próprios no grafo: o quadro não diz se correspondem ao Dangbê de outras fontes.",
+          "registro": "oxumare-040",
           "status": "fichado"
         }
       ]
@@ -1465,6 +2240,7 @@
       "rotulo": "Doçu",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -1493,6 +2269,27 @@
           "parafrase": "No quadro dos voduns assentados na casa de Pai Francelino, os voduns jejes Doçu e Bedigá, da família real de Davice, têm Ogum como orixá correspondente, e Doçupé, filho de Doçu, corresponde a Ogunjá.",
           "nota": "Prandi (p. 14) diz que a correspondência entre vodum e orixá veio do Maranhão e ajuda os devotos paulistas a assimilar os voduns. No Quadro 2 (p. 26), Ogum soma 25 assentamentos somando voduns e orixá. Ogunjá é qualidade de Ogum (ver ogum-051).",
           "registro": "ogum-062",
+          "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Ogum no quadro — voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe.",
+          "nota": null,
+          "registro": "ogum-076",
           "status": "fichado"
         }
       ]
@@ -1577,6 +2374,7 @@
       "tipo": "vodum",
       "tradicoes": [
         "candomble_jeje",
+        "candomble_ketu",
         "vodun_benim"
       ],
       "equivale_a": [
@@ -1606,6 +2404,27 @@
           "parafrase": "Segundo Castillo, Ogum recebe culto, com atributos iguais e sob o nome de Gu, dos povos que no Brasil se chamam jejes. No Daomé, Gu ganhou importância por sua ligação com ferreiros e ofícios do ferro e, na cosmologia fon, integra um grupo de voduns tidos como de origem nagô.",
           "nota": "A classificação de Gu entre os voduns \"nagôs\" é de Le Hérissé (1911), citado pela autora. Equivalência não é identidade.",
           "registro": "ogum-046",
+          "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Ogum no quadro — voduns jeje: Gun, Doçu; inquices bantos: Incáci, Roximucumbe.",
+          "nota": null,
+          "registro": "ogum-076",
           "status": "fichado"
         }
       ]
@@ -1837,6 +2656,27 @@
           "nota": null,
           "registro": "exu-100",
           "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Exu no quadro — voduns jeje (coluna do quadro): Elegbara, Bara, Eleguá; inquices bantos: Bombogira, Aluviá.",
+          "nota": "Na coluna 'vodum jeje' o quadro põe também Bara e Eleguá; Bara é o nome de Exu no Batuque (mesmo quadro) e Eleguá é nome usado em Cuba. O mapa do grafo liga só Elegbara e os dois inquices.",
+          "registro": "exu-112",
+          "status": "fichado"
         }
       ]
     },
@@ -1954,6 +2794,43 @@
       ]
     },
     {
+      "id": "vodum:nave",
+      "rotulo": "Navê",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "oxum",
+          "aresta": "equivalencia:oxum>vodum:nave"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxum no quadro — voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo.",
+          "nota": "Leitura das colunas conferida pela posição das palavras no PDF (as três primeiras na coluna de voduns, as duas últimas na de inquices).",
+          "registro": "oxum-061",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
       "id": "vodum:naveorualim",
       "rotulo": "Naveorualim",
       "tipo": "vodum",
@@ -1995,6 +2872,7 @@
       "rotulo": "Navezuarina",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -2023,6 +2901,27 @@
           "parafrase": "No terreiro de Pai Francelino, Naveorualim, vodum jeje, e Navezuarina, nagô, têm Oxum como orixá correspondente; somados ao assentamento da própria orixá, chegam a 37 casos, o maior total do quadro de frequências.",
           "nota": "Prandi (p. 14) liga a frequência dos voduns à popularidade dos orixás correspondentes.",
           "registro": "oxum-019",
+          "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oxum no quadro — voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo.",
+          "nota": "Leitura das colunas conferida pela posição das palavras no PDF (as três primeiras na coluna de voduns, as duas últimas na de inquices).",
+          "registro": "oxum-061",
           "status": "fichado"
         }
       ]
@@ -2060,6 +2959,43 @@
           "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
           "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
           "registro": "omolu-024",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "vodum:queviosso",
+      "rotulo": "Queviosô",
+      "tipo": "vodum",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "equivale_a": [
+        {
+          "orixa": "xango",
+          "aresta": "equivalencia:vodum:queviosso>xango"
+        }
+      ],
+      "versoes": [
+        {
+          "valor": "voduns jeje: Badé, Queviosô; inquice banto: Zázi",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Xangô no quadro — voduns jeje: Badé, Queviosô; inquice banto: Zázi.",
+          "nota": null,
+          "registro": "xango-065",
           "status": "fichado"
         }
       ]
@@ -2109,6 +3045,7 @@
       "tipo": "vodum",
       "tradicoes": [
         "candomble_jeje",
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -2162,6 +3099,27 @@
           "parafrase": "Na lista de comidas do terreiro de Pai Airton, Ferretti identifica Sobô com Iansã ou Oyá ao descrever o prato que as filhas desse vodum preparam para a festa.",
           "nota": "O prato não é detalhado aqui (alimentos retidos).",
           "registro": "iansa-019",
+          "status": "fichado"
+        },
+        {
+          "valor": "vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Oiá/Iansã no quadro — vodum jeje: Sobô; inquices bantos: Matamba, Bumburucema.",
+          "nota": null,
+          "registro": "iansa-050",
           "status": "fichado"
         },
         {
@@ -2266,6 +3224,7 @@
       "rotulo": "Xapanã",
       "tipo": "vodum",
       "tradicoes": [
+        "candomble_ketu",
         "tambor_de_mina"
       ],
       "equivale_a": [
@@ -2294,6 +3253,27 @@
           "parafrase": "No quadro da casa de Pai Francelino, sete voduns, quase todos da família de Dambirá e Zomadônu da de Davice, têm Omulu-Obaluaê como orixá correspondente, cada um com seu santo católico; somados, chegam a 21 assentamentos.",
           "nota": "Não há linha para o orixá Omulu no quadro; por isso os santos ficam no valor, sem aresta de sincretismo (regra do fichamento-07).",
           "registro": "omolu-024",
+          "status": "fichado"
+        },
+        {
+          "valor": "voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+          "sources": [
+            {
+              "id": "prandi-1995-deuses",
+              "loc": "anexo, pp. 26–27",
+              "via": null
+            }
+          ],
+          "source_id": "prandi-1995-deuses",
+          "via_source_id": null,
+          "localizacao": "anexo, pp. 26–27",
+          "parafrase": "Correspondências de Obaluaiê/Omulu no quadro — voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo.",
+          "nota": null,
+          "registro": "omolu-055",
           "status": "fichado"
         }
       ]

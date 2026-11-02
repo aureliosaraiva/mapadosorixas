@@ -3,13 +3,36 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxossi.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 32,
+    "registros_usados": 42,
     "registros_pre_fichamento_excluidos": 3,
     "registros_retidos": 1
   },
   "id": "oxossi",
   "rotulo": "Oxóssi",
   "atributos": {
+    "nomes": [
+      {
+        "valor": "Oxóssi ou Odê",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–27",
+        "parafrase": "O quadro usa para o caçador os dois nomes, Oxóssi e Odê.",
+        "nota": null,
+        "registro": "oxossi-046",
+        "status": "fichado"
+      }
+    ],
     "origem": [
       {
         "valor": "rei de Ketu",
@@ -119,6 +142,71 @@
         "nota": null,
         "registro": "oxossi-012",
         "status": "fichado"
+      },
+      {
+        "valor": "caça; fartura",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17",
+        "parafrase": "Oxóssi é o deus caçador e o orixá da abundância.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxossi-037",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá da caça (fauna); patrono da fartura de alimentos",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Oxóssi (Odê) é orixá da caça (fauna); cuida da fartura de alimentos.",
+        "nota": null,
+        "registro": "oxossi-040",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "elemento natural: florestas; elemento mítico: terra",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Oxóssi (Odê) no quadro: florestas (natural) e terra (mítico).",
+        "nota": null,
+        "registro": "oxossi-041",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -184,6 +272,27 @@
         "parafrase": "A cor principal de Odé no nagô do Recife é o verde; algumas pessoas acrescentam vermelho ou branco, e o orixá pode aparecer todo vestido de peles de animais quando se manifesta.",
         "nota": null,
         "registro": "oxossi-029",
+        "status": "fichado"
+      },
+      {
+        "valor": "roupas azul-turquesa e verde; contas azul-turquesa",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Oxóssi (Odê), pelo quadro: roupas azul-turquesa e verde; contas azul-turquesa.",
+        "nota": null,
+        "registro": "oxossi-042",
         "status": "fichado"
       }
     ],
@@ -314,6 +423,50 @@
         "nota": "Diverge dos registros com dia definido (ver divergências de oxossi.dia_semana).",
         "registro": "oxossi-030",
         "status": "fichado"
+      },
+      {
+        "valor": "quinta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Oxóssi (Odê) no quadro: quinta-feira.",
+        "nota": null,
+        "registro": "oxossi-043",
+        "status": "fichado"
+      }
+    ],
+    "saudacao": [
+      {
+        "valor": "Okê arô!",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17",
+        "parafrase": "A saudação de Oxóssi é Okê arô.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxossi-039",
+        "status": "fichado"
       }
     ],
     "simbolos": [
@@ -337,6 +490,27 @@
         "parafrase": "O emblema de Oxóssi é o arco e flecha; ele também porta o eruquerê, espanta-moscas de rabo de boi que é insígnia real.",
         "nota": null,
         "registro": "oxossi-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "ofá (arco e flecha de metal) e eru (espanta-moscas de rabo de cavalo)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Oxóssi (Odê), segundo o quadro: ofá (arco e flecha de metal) e eru (espanta-moscas de rabo de cavalo).",
+        "nota": null,
+        "registro": "oxossi-044",
         "status": "fichado"
       }
     ],
@@ -471,6 +645,27 @@
         "nota": "Na Casa das Minas, Zacá (Azacá) é descrito como vodum caçador, na síntese de S. Ferretti (p. 6). Correspondência estabelecida na casa paulista; não é identidade.",
         "registro": "oxossi-033",
         "status": "fichado"
+      },
+      {
+        "valor": "vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Oxóssi (Odê) no quadro — vodum jeje: Azacá; inquices bantos: Gongobira, Mutacalombo.",
+        "nota": null,
+        "registro": "oxossi-045",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -536,6 +731,27 @@
         "parafrase": "Para Odé, as pessoas hesitam mais quanto ao santo; às vezes o associam a Santo Expedito.",
         "nota": null,
         "registro": "oxossi-035",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Jorge e São Sebastião",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17; anexo, p. 26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17; anexo, p. 26",
+        "parafrase": "Oxóssi tem como correspondentes católicos São Jorge e São Sebastião.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxossi-038",
         "status": "fichado"
       }
     ],
@@ -722,10 +938,7 @@
   },
   "pendencias": {
     "sem_registro": [
-      "nomes",
       "funcoes",
-      "elementos",
-      "saudacao",
       "animais",
       "tabus",
       "iconografia",

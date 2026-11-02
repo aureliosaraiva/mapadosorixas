@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "orum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 9,
+    "total": 10,
     "por_status": {
-      "fichado": 9,
+      "fichado": 10,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -174,6 +174,25 @@
       "nota": "A fonte fala em 'tradição de Orixá' e candomblé, sem nação; candomble_ketu é aproximação.",
       "status": "fichado",
       "evidencias": []
+    },
+    {
+      "id": "orum-010",
+      "orixa": "orum",
+      "atributo": "hierarquia",
+      "valor": "mundo paralelo dos deuses, ao qual volta o orixá da pessoa iniciada depois dos ritos fúnebres (axexê)",
+      "tradicoes": [
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Candomblé queto (texto do autor)",
+      "source_id": "prandi-1995-deuses",
+      "via_source_id": null,
+      "localizacao": "p. 15",
+      "parafrase": "Na morte de um iniciado sênior, os ritos fúnebres do axexê desprendem do corpo o orixá fixado na iniciação, que regressa ao orum, mundo dos deuses paralelo ao dos vivos, e libertam o espírito do morto (egum) para que um dia renasça.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
     }
   ]
 }

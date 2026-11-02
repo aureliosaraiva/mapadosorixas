@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/xango.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 52,
+    "registros_usados": 61,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -228,6 +228,48 @@
         "nota": null,
         "registro": "xango-044",
         "status": "fichado"
+      },
+      {
+        "valor": "trovão e justiça",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Xangô reina sobre o trovão e sobre a justiça.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "xango-057",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá do trovão; patrono do governo, da justiça, dos tribunais e das ocupações burocráticas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Xangô é orixá do trovão; cuida do governo, da justiça, dos tribunais e das ocupações burocráticas.",
+        "nota": null,
+        "registro": "xango-060",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -298,6 +340,27 @@
         "nota": null,
         "registro": "xango-020",
         "status": "fichado"
+      },
+      {
+        "valor": "elemento natural: trovão e pedras (pedra de raio); elemento mítico: fogo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Xangô no quadro: trovão e pedras (pedra de raio) (natural) e fogo (mítico).",
+        "nota": null,
+        "registro": "xango-061",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -363,6 +426,27 @@
         "parafrase": "Halloy registra vermelho e branco como as cores de Xangô no nagô do Recife.",
         "nota": "Concorda com xango-030.",
         "registro": "xango-042",
+        "status": "fichado"
+      },
+      {
+        "valor": "roupas vermelho, marrom e branco; contas vermelhas e brancas alternadas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "Vestes e contas de Xangô, pelo quadro: roupas vermelho, marrom e branco; contas vermelhas e brancas alternadas.",
+        "nota": null,
+        "registro": "xango-062",
         "status": "fichado"
       }
     ],
@@ -492,6 +576,50 @@
         "nota": "Fonte colonial; conferir.",
         "registro": "xango-019",
         "status": "fichado"
+      },
+      {
+        "valor": "quarta-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Xangô no quadro: quarta-feira.",
+        "nota": null,
+        "registro": "xango-063",
+        "status": "fichado"
+      }
+    ],
+    "saudacao": [
+      {
+        "valor": "Kaô kabiesile!",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Xangô recebe a saudação Kaô kabiesile.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "xango-059",
+        "status": "fichado"
       }
     ],
     "simbolos": [
@@ -557,6 +685,27 @@
         "parafrase": "A pedra consagrada de Xangô é uma pedra de raio.",
         "nota": "Bastide apoia-se em Oneyda Alvarenga.",
         "registro": "xango-033",
+        "status": "fichado"
+      },
+      {
+        "valor": "oxé (machado duplo) e xere (chocalho de metal)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Xangô, segundo o quadro: oxé (machado duplo) e xere (chocalho de metal).",
+        "nota": null,
+        "registro": "xango-064",
         "status": "fichado"
       }
     ],
@@ -757,6 +906,27 @@
         "nota": "Na mesma casa, Sobô corresponde a Oiá-Iansã, ambas ligadas a Santa Bárbara (pp. 14, 25), e não a Xangô como no Seja Hundê (xango-048). Vondereji e Xadantã vêm da Casa de Nagô, não da Casa das Minas (p. 9).",
         "registro": "xango-050",
         "status": "fichado"
+      },
+      {
+        "valor": "voduns jeje: Badé, Queviosô; inquice banto: Zázi",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Xangô no quadro — voduns jeje: Badé, Queviosô; inquice banto: Zázi.",
+        "nota": null,
+        "registro": "xango-065",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -843,6 +1013,27 @@
         "parafrase": "Na santería, 4 de dezembro é dia de Changó com Santa Bárbara; perto do central, em Banagüises, duas casas de Changó tocavam nessa data, em anos alternados.",
         "nota": null,
         "registro": "xango-056",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Jerônimo (texto); São Jerônimo e São João (quadro)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18; anexo, p. 26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18; anexo, p. 26",
+        "parafrase": "No texto, Xangô é sincretizado com São Jerônimo; o quadro do anexo acrescenta São João.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "xango-058",
         "status": "fichado"
       }
     ],
@@ -1155,7 +1346,6 @@
   },
   "pendencias": {
     "sem_registro": [
-      "saudacao",
       "alimentos",
       "tabus",
       "hierarquia"

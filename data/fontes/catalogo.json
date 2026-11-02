@@ -4256,11 +4256,11 @@
       "ano": 2024,
       "idioma": "pt",
       "tradicoes": [
-        "umbanda",
-        "candomble_ketu"
+        "tambor_de_mina",
+        "umbanda"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade). Tradições a confirmar na leitura. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e não há cópia em repositório aberto alternativo localizada (PENDENCIAS).",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião e Sociedade). Tradições a confirmar na leitura. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e não há cópia em repositório aberto alternativo localizada (PENDENCIAS). | Lido no original em 2026-11-02 (sessão fich09; PDF enviado pelo autor, acervo privado): Religião e Sociedade 43(3):201–228, datado de 2023 no fascículo (aprovado em 11/12/2023; publicação online em 2024). Mantido o ano 2024 do id. Trata de Iemanjá em São Luís (MA): Tambor de Mina, encantaria e Umbanda.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-85872023000300201&tlng=pt"
@@ -6476,10 +6476,11 @@
       "ano": 2025,
       "idioma": "pt",
       "tradicoes": [
-        "umbanda"
+        "umbanda",
+        "batuque_rs"
       ],
       "confiabilidade_preliminar": "B",
-      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Tradição a confirmar na leitura. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e não há cópia em repositório aberto alternativo localizada (PENDENCIAS).",
+      "observacoes": "Varredura 3 (coleta por API: crossref, doaj). Confiabilidade B: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Religião & Sociedade). Tradição a confirmar na leitura. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e não há cópia em repositório aberto alternativo localizada (PENDENCIAS). | Lido no original em 2026-11-02 (sessão fich09; PDF enviado pelo autor, acervo privado): Religião & Sociedade 45(1): e450102, 2025, pp. 1–44 (numeração própria do artigo). Campo em Montevidéu (Uruguai), 2024: comunidade afroumbandista (umbanda, batuque, quimbanda, candomblé).",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.1590/1984-04382025e450102",
@@ -6490,7 +6491,7 @@
       "identificadores": {
         "doi": "10.1590/1984-04382025e450102"
       },
-      "periodico": "Religião &amp; Sociedade"
+      "periodico": "Religião & Sociedade"
     },
     {
       "id": "ochoa-2020-lazarus",
@@ -7731,7 +7732,7 @@
         "umbanda"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos); autor de referência. A DOAJ data o registro em 2026, mas o identificador SciELO (S0104-71831995…) indica 1995. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e o PDF do número 3 de Horizontes Antropológicos no LUME/UFRGS corta a conexão. O DOI do catálogo (…000300002) não resolve no Crossref, e o pid S0104-71831995000300010 citado na varredura 3 corresponde a outro artigo (Augé, \"L'Anthropologie aujourd'hui\"); conferir DOI/pid corretos (PENDENCIAS).",
+      "observacoes": "Varredura 3 (coleta por API: doaj). Confiabilidade A: artigo em periódico com revisão por pares; metadados e DOI conferidos na API (Horizontes Antropológicos); autor de referência. A DOAJ data o registro em 2026, mas o identificador SciELO (S0104-71831995…) indica 1995. | Leitura bloqueada em 2026-11-01: SciELO responde com desafio anti-bot e o PDF do número 3 de Horizontes Antropológicos no LUME/UFRGS corta a conexão. O DOI do catálogo (…000300002) não resolve no Crossref, e o pid S0104-71831995000300010 citado na varredura 3 corresponde a outro artigo (Augé, \"L'Anthropologie aujourd'hui\"); conferir DOI/pid corretos (PENDENCIAS). | Lido no original em 2026-11-02 (sessão fich09; PDF enviado pelo autor, acervo privado): Horizontes Antropológicos, ano 1, n. 3, pp. 10–30, 1995. O DOI impresso no PDF é 10.1590/S0104-71831995000300002 (o do catálogo, com maiúscula trocada), o que resolve a dúvida de DOI anotada acima; o pid S0104-71831995000300010 segue sendo de outro artigo. Licença CC BY 4.0. Tradições confirmadas: candomblé (rito queto como referência, quadro do anexo explicitamente 'Nação queto'), com menções a angola, jeje, Batuque e Umbanda.",
       "status_verificacao": "conferido_web",
       "evidencias": [
         "https://api.crossref.org/works/10.1590/s0104-71831995000300002",

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/omolu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 46,
+    "registros_usados": 56,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -52,6 +52,27 @@
         "parafrase": "A autora acrescenta que, na África, ele pode ser chamado Sanponan ou Sakpata, mas que quase não se diz o nome, por receio de que ele se manifeste na pessoa como doença.",
         "nota": "A fonte não especifica povo nem região; a tradição do registro fica a do campo da autora.",
         "registro": "omolu-039",
+        "status": "fichado"
+      },
+      {
+        "valor": "Obaluaiê ou Omulu",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17; anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17; anexo, p. 23",
+        "parafrase": "O texto e o quadro chamam o orixá das doenças de Obaluaiê ou Omulu.",
+        "nota": null,
+        "registro": "omolu-056",
         "status": "fichado"
       }
     ],
@@ -183,6 +204,48 @@
         "nota": null,
         "registro": "omolu-040",
         "status": "fichado"
+      },
+      {
+        "valor": "varíola, pragas e doenças, males físicos e suas curas; cemitérios, solo e subsolo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "pp. 17–18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "pp. 17–18",
+        "parafrase": "Obaluaiê, também chamado Omulu, rege a varíola, as epidemias e as doenças; liga-se a todo mal do corpo e à sua cura, e também aos cemitérios, à terra e ao que está debaixo dela.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "omolu-047",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá da varíola, das pragas e das doenças; patrono da cura das doenças físicas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Obaluaiê/Omulu é orixá da varíola, das pragas e das doenças; cuida da cura das doenças físicas.",
+        "nota": null,
+        "registro": "omolu-050",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -206,6 +269,29 @@
         "parafrase": "Diz-se que Omulu está na entrada dos cemitérios e permite a renovação a partir do que morreu: seu poder começa com a morte do organismo e consiste em soltar o que ainda vive para formar novos corpos.",
         "nota": null,
         "registro": "omolu-038",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "elemento natural: terra, solo; elemento mítico: terra",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Obaluaiê/Omulu no quadro: terra, solo (natural) e terra (mítico).",
+        "nota": null,
+        "registro": "omolu-051",
         "status": "fichado"
       }
     ],
@@ -272,6 +358,27 @@
         "parafrase": "Pouca gente associa uma cor a Obaluaiê; quem o faz repete as de Exu: vermelho, preto e branco.",
         "nota": null,
         "registro": "omolu-042",
+        "status": "fichado"
+      },
+      {
+        "valor": "roupas vermelhas, brancas e pretas, com capuz de palha; contas nas mesmas três cores",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "No quadro, as vestes de Obaluaiê/Omulu combinam vermelho, branco e preto e levam um capuz de palha; o fio de contas usa as mesmas três cores.",
+        "nota": null,
+        "registro": "omolu-052",
         "status": "fichado"
       }
     ],
@@ -359,6 +466,50 @@
         "parafrase": "O dia semanal de Omulu é a segunda-feira.",
         "nota": null,
         "registro": "omolu-033",
+        "status": "fichado"
+      },
+      {
+        "valor": "segunda-feira",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Obaluaiê/Omulu no quadro: segunda-feira.",
+        "nota": null,
+        "registro": "omolu-053",
+        "status": "fichado"
+      }
+    ],
+    "saudacao": [
+      {
+        "valor": "Atotô!",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Obaluaiê/Omulu é saudado com Atotô.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "omolu-049",
         "status": "fichado"
       }
     ],
@@ -489,6 +640,27 @@
         "parafrase": "Certos chefes de culto incluem Obaluaiê entre os \"orixás de ferro\" (cujo objeto principal no assentamento é de ferro), como Odé, Ogum e Ossaim, embora isso não apareça em todos os assentamentos dele.",
         "nota": null,
         "registro": "omolu-044",
+        "status": "fichado"
+      },
+      {
+        "valor": "xaxará (cetro de fibras da folha do dendezeiro, com búzios)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Obaluaiê/Omulu, segundo o quadro: xaxará (cetro de fibras da folha do dendezeiro, com búzios).",
+        "nota": null,
+        "registro": "omolu-054",
         "status": "fichado"
       }
     ],
@@ -690,6 +862,27 @@
         "nota": "Sobre Ntoto o autor diz não ter achado equivalente e fala em hipótese.",
         "registro": "omolu-027",
         "status": "fichado"
+      },
+      {
+        "valor": "voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Obaluaiê/Omulu no quadro — voduns jeje: Acóssi-Sapatá, Xapanã; inquices bantos: Cafunã, Cavungo.",
+        "nota": null,
+        "registro": "omolu-055",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -777,6 +970,27 @@
         "parafrase": "Sob uma ceiba plantada em 1923, segundo Julio-Enrique, fica o santo parado de Babalú Ayé, a quem no central Méjico se chama principalmente de San Lázaro.",
         "nota": null,
         "registro": "omolu-045",
+        "status": "fichado"
+      },
+      {
+        "valor": "São Lázaro e São Roque",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 17; anexo, p. 26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 17; anexo, p. 26",
+        "parafrase": "Obaluaiê/Omulu corresponde a São Lázaro e a São Roque.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "omolu-048",
         "status": "fichado"
       }
     ],
@@ -1028,8 +1242,6 @@
   "pendencias": {
     "sem_registro": [
       "origem",
-      "elementos",
-      "saudacao",
       "alimentos",
       "tabus",
       "interpretacao_academica",

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ori.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 10,
+    "registros_usados": 12,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -30,6 +30,29 @@
         "parafrase": "Zacharias decompõe Olori em olo, dono, e ori, cabeça, e diz que no Brasil o termo foi aproximado de Eledá, entendido como dono do eu espiritual; cada pessoa que volta do Orum ao Ayê fica sob a guarda de um orixá, que rege sua cabeça.",
         "nota": "A fonte fala em 'tradição de Orixá' e candomblé, sem nação; candomble_ketu é aproximação.",
         "registro": "ori-009",
+        "status": "fichado"
+      }
+    ],
+    "funcoes": [
+      {
+        "valor": "'cabeça ruim não tem orixá': antes dos deuses, louva-se a própria cabeça",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé (texto do autor, centrado no rito queto)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 22",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 22",
+        "parafrase": "Um provérbio repetido nos terreiros, em iorubá e em português, ensina que quem está mal com a própria cabeça não terá orixá forte; por isso a cabeça é cultuada antes das divindades.",
+        "nota": null,
+        "registro": "ori-012",
         "status": "fichado"
       }
     ],
@@ -227,6 +250,27 @@
         "nota": "Divergência interna da fonte: nas pp. 184–185 (ori-006), Bastide diz que as casas mais tradicionais não fazem essa identificação. Registrado como está.",
         "registro": "ori-008",
         "status": "fichado"
+      },
+      {
+        "valor": "cada pessoa pertence a um orixá, senhor da sua cabeça, e tem um segundo orixá associado (juntó), em geral de sexo oposto",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé (texto do autor, centrado no rito queto)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "pp. 16, 19",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "pp. 16, 19",
+        "parafrase": "Para o candomblé, todo indivíduo é de um orixá que é senhor da sua cabeça e lhe transmite traços físicos e de temperamento, descoberto pelo jogo de búzios; há ainda um segundo orixá, o juntó, que completa o primeiro e costuma ser do outro sexo, como se a pessoa tivesse pai e mãe divinos.",
+        "nota": null,
+        "registro": "ori-011",
+        "status": "fichado"
       }
     ]
   },
@@ -234,7 +278,6 @@
     "sem_registro": [
       "origem",
       "dominios",
-      "funcoes",
       "elementos",
       "cores",
       "dia_semana",

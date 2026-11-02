@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/orum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 9,
+    "registros_usados": 10,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -200,6 +200,27 @@
         "parafrase": "Segundo Zacharias, cada pessoa que renasce sai do Orum, plano sem matéria, e chega ao Ayê, plano físico, já composta de elementos de um orixá, que governará sua cabeça pela vida inteira.",
         "nota": "A fonte fala em 'tradição de Orixá' e candomblé, sem nação; candomble_ketu é aproximação.",
         "registro": "orum-009",
+        "status": "fichado"
+      },
+      {
+        "valor": "mundo paralelo dos deuses, ao qual volta o orixá da pessoa iniciada depois dos ritos fúnebres (axexê)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (texto do autor)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 15",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 15",
+        "parafrase": "Na morte de um iniciado sênior, os ritos fúnebres do axexê desprendem do corpo o orixá fixado na iniciação, que regressa ao orum, mundo dos deuses paralelo ao dos vivos, e libertam o espírito do morto (egum) para que um dia renasça.",
+        "nota": null,
+        "registro": "orum-010",
         "status": "fichado"
       }
     ]

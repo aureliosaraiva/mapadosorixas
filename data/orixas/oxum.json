@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 51,
+    "registros_usados": 62,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -95,6 +95,48 @@
         "nota": null,
         "registro": "oxum-051",
         "status": "fichado"
+      },
+      {
+        "valor": "água doce, ouro, fertilidade e amor; senhora da vaidade",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Oxum governa as águas doces, o ouro, a fecundidade e o amor, e é tida como dona da vaidade.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxum-052",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixá das águas doces e dos metais preciosos; patrona do amor, do ouro, da fertilidade, da gestação e da vaidade",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "Para o quadro queto, Oxum é orixá das águas doces e dos metais preciosos; cuida do amor, do ouro, da fertilidade, da gestação e da vaidade.",
+        "nota": null,
+        "registro": "oxum-056",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -140,6 +182,27 @@
         "parafrase": "Bastide caracteriza Oxum como deusa da água doce, par de Iemanjá, deusa do mar; na dança, ela imita o murmúrio dos riachos.",
         "nota": null,
         "registro": "oxum-004",
+        "status": "fichado"
+      },
+      {
+        "valor": "elemento natural: rios, lagoas e cachoeiras; elemento mítico: água",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Elementos de Oxum no quadro: rios, lagoas e cachoeiras (natural) e água (mítico).",
+        "nota": null,
+        "registro": "oxum-057",
         "status": "fichado"
       }
     ],
@@ -227,6 +290,27 @@
         "parafrase": "Cada recepção de orixá traz um colar e uma pulseira nas cores dele; para Ochún, amarelo e dourado.",
         "nota": null,
         "registro": "oxum-050",
+        "status": "fichado"
+      },
+      {
+        "valor": "roupas amarelas ou douradas, com algum azul; contas amarelo translúcido",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 24–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 24–25",
+        "parafrase": "No quadro, Oxum veste amarelo ou dourado com um toque de azul e usa contas de um amarelo translúcido.",
+        "nota": null,
+        "registro": "oxum-058",
         "status": "fichado"
       }
     ],
@@ -336,6 +420,50 @@
         "nota": null,
         "registro": "oxum-046",
         "status": "fichado"
+      },
+      {
+        "valor": "sábado",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 25–26",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 25–26",
+        "parafrase": "Dia de Oxum no quadro: sábado.",
+        "nota": null,
+        "registro": "oxum-059",
+        "status": "fichado"
+      }
+    ],
+    "saudacao": [
+      {
+        "valor": "Ora yeyê ô!",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "A saudação de Oxum é Ora yeyê ô.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxum-055",
+        "status": "fichado"
       }
     ],
     "simbolos": [
@@ -444,6 +572,27 @@
         "parafrase": "A matéria de Oxum é o ouro ou o latão.",
         "nota": null,
         "registro": "oxum-036",
+        "status": "fichado"
+      },
+      {
+        "valor": "abebê (leque de metal amarelo) e espada",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Objetos rituais de Oxum, segundo o quadro: abebê (leque de metal amarelo) e espada.",
+        "nota": null,
+        "registro": "oxum-060",
         "status": "fichado"
       }
     ],
@@ -620,6 +769,27 @@
         "nota": null,
         "registro": "oxum-049",
         "status": "fichado"
+      },
+      {
+        "valor": "esposa favorita de Xangô",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Entre as mulheres de Xangô, Oxum teria sido a preferida.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxum-054",
+        "status": "fichado"
       }
     ],
     "equivalencias": [
@@ -685,6 +855,27 @@
         "parafrase": "Botão registra a polêmica: Bastide, Cacciatore e Prandi aproximam Dandalunda, ou Kissimbi, da Iemanjá do ketu, enquanto a maior parte dos sacerdotes consultados e citados a liga a Oxum; o autor fica com a leitura de divindade das águas doces, como Oxum.",
         "nota": "Divergência entre autores e sacerdotes; ver iemanja-042.",
         "registro": "oxum-021",
+        "status": "fichado"
+      },
+      {
+        "valor": "voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 26–27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 26–27",
+        "parafrase": "Correspondências de Oxum no quadro — voduns jeje: Aziritobosse, Navê, Navezuarina; inquices bantos: Samba, Quissambo.",
+        "nota": "Leitura das colunas conferida pela posição das palavras no PDF (as três primeiras na coluna de voduns, as duas últimas na de inquices).",
+        "registro": "oxum-061",
         "status": "fichado"
       }
     ],
@@ -794,6 +985,27 @@
         "parafrase": "Oxum é associada a Nossa Senhora do Carmo e, por algumas mães de santo, a Nossa Senhora da Penha.",
         "nota": null,
         "registro": "oxum-048",
+        "status": "fichado"
+      },
+      {
+        "valor": "Nossa Senhora das Candeias",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18; anexo, p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18; anexo, p. 27",
+        "parafrase": "O correspondente católico de Oxum, no texto e no quadro, é Nossa Senhora das Candeias.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxum-053",
         "status": "fichado"
       }
     ],
@@ -990,6 +1202,28 @@
         "nota": null,
         "registro": "oxum-047",
         "status": "fichado"
+      },
+      {
+        "valor": "8 de dezembro, festa pública e coletiva no Uruguai (com a de Iemanjá, a única do calendário afroumbandista)",
+        "tradicoes": [
+          "umbanda",
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Uruguai: calendário afroumbandista",
+        "sources": [
+          {
+            "id": "noleto-2025-montevideu",
+            "loc": "p. 8, nota 6",
+            "via": null
+          }
+        ],
+        "source_id": "noleto-2025-montevideu",
+        "via_source_id": null,
+        "localizacao": "p. 8, nota 6",
+        "parafrase": "No Uruguai, Oxum é uma das duas divindades com festa pública; a sua cai em 8 de dezembro, e a outra é a de Iemanjá.",
+        "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+        "registro": "oxum-062",
+        "status": "fichado"
       }
     ],
     "historia_culto": [
@@ -1132,7 +1366,6 @@
     "sem_registro": [
       "nomes",
       "origem",
-      "saudacao",
       "alimentos",
       "animais",
       "tabus",

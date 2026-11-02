@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxala.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 62,
+    "registros_usados": 75,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 2
   },
@@ -162,6 +162,69 @@
         "nota": null,
         "registro": "oxala-044",
         "status": "fichado"
+      },
+      {
+        "valor": "deus da criação; modelou os primeiros seres humanos; reverenciado pelos outros orixás",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Oxalá é o deus criador, que deu forma aos primeiros humanos, e recebe a reverência dos demais orixás.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxala-065",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxaguiã inventou o pilão para preparar o inhame, seu prato preferido: criador da cultura material",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 19",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 19",
+        "parafrase": "Atribui-se a Oxaguiã a invenção do pilão, feito para socar o inhame de que mais gosta; por isso é visto como o criador dos objetos e técnicas da cultura material.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxala-070",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxaguiã (Oxalá jovem): criação da cultura material, patrono da sobrevivência; Oxalufã (Oxalá velho): criação da humanidade, masculino e feminino (princípio da criação), patrono do sopro da vida",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 23",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 23",
+        "parafrase": "O quadro separa as duas formas de Oxalá: o jovem Oxaguiã cria a cultura material e protege a sobrevivência; o velho Oxalufã, de sexo masculino e feminino por ser princípio da criação, cria a humanidade e responde pelo sopro vital.",
+        "nota": null,
+        "registro": "oxala-072",
+        "status": "fichado"
       }
     ],
     "funcoes": [
@@ -250,6 +313,50 @@
         "nota": null,
         "registro": "oxala-053",
         "status": "fichado"
+      },
+      {
+        "valor": "último a ser louvado nas cerimônias",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "Nas cerimônias afro-brasileiras Oxalá é sempre o derradeiro a ser homenageado.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxala-066",
+        "status": "fichado"
+      }
+    ],
+    "elementos": [
+      {
+        "valor": "Oxaguiã e Oxalufã: elemento natural e mítico, o ar",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, pp. 23–25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, pp. 23–25",
+        "parafrase": "Para as duas formas de Oxalá, o quadro indica o ar como elemento natural e mítico.",
+        "nota": null,
+        "registro": "oxala-073",
+        "status": "fichado"
       }
     ],
     "cores": [
@@ -315,6 +422,27 @@
         "parafrase": "A cor de Orixalá é o branco sem mistura.",
         "nota": null,
         "registro": "oxala-058",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxaguiã: roupas brancas com um mínimo de azul-real, contas branco e azul-real; Oxalufã: roupas e contas brancas",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 25",
+        "parafrase": "Oxaguiã veste branco com um toque de azul-real e usa contas brancas e azul-real; Oxalufã fica no branco, nas vestes e nas contas.",
+        "nota": null,
+        "registro": "oxala-074",
         "status": "fichado"
       }
     ],
@@ -424,6 +552,50 @@
         "nota": "O prato da oferenda foi retido (alimentos não são detalhados).",
         "registro": "oxala-059",
         "status": "fichado"
+      },
+      {
+        "valor": "sexta-feira (seguidores vestem branco)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18; anexo, p. 25",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18; anexo, p. 25",
+        "parafrase": "Os filhos de Oxalá se vestem de branco às sextas-feiras; no quadro, sexta é o dia de Oxaguiã e de Oxalufã.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxala-068",
+        "status": "fichado"
+      }
+    ],
+    "saudacao": [
+      {
+        "valor": "Epa Babá!",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 19",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 19",
+        "parafrase": "A saudação de Oxalá é Epa Babá.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxala-071",
+        "status": "fichado"
       }
     ],
     "simbolos": [
@@ -512,6 +684,27 @@
         "parafrase": "A matéria de Oxalá é o alumínio e uma pomba fica no alto do seu emblema. Entre as plantas, o algodão (ewé owu) é dele em todos os terreiros que a autora conheceu, no Recife e na Bahia, e ela anota a mesma associação em Cuba.",
         "nota": null,
         "registro": "oxala-046",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxaguiã: mão de pilão de prata ou branca e espada; Oxalufã: opaxorô (cajado prateado com pingentes que representam a criação do mundo)",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 27",
+        "parafrase": "O objeto de Oxaguiã é uma mão de pilão, de prata ou branca, com uma espada; o de Oxalufã é o opaxorô, bastão prateado do qual pendem peças que evocam a criação do mundo.",
+        "nota": null,
+        "registro": "oxala-075",
         "status": "fichado"
       }
     ],
@@ -860,6 +1053,27 @@
         "nota": "A identificação com Oxalufã e Oxaguiã vem com ponto de interrogação no texto da autora.",
         "registro": "oxala-037",
         "status": "fichado"
+      },
+      {
+        "valor": "Oxalufã: vodum jeje Liçá; inquice banto Zambi",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 27",
+        "parafrase": "Só Oxalufã tem correspondências no quadro: o vodum Liçá e o inquice Zambi.",
+        "nota": null,
+        "registro": "oxala-077",
+        "status": "fichado"
       }
     ],
     "sincretismo": [
@@ -969,6 +1183,48 @@
         "parafrase": "No sincretismo afro-católico descrito pela autora, Oxalá ocupa o lugar imediatamente abaixo de Deus Pai, é associado a Jesus Cristo e, dependendo da região, ao Senhor do Bonfim.",
         "nota": null,
         "registro": "oxala-043",
+        "status": "fichado"
+      },
+      {
+        "valor": "Jesus Cristo",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "p. 18",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "p. 18",
+        "parafrase": "No texto, o correspondente católico de Oxalá é Jesus Cristo.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxala-067",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oxaguiã: Jesus Menino; Oxalufã: Jesus Crucificado ou Redentor",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Candomblé queto (quadro de atributos do autor, anexo)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "anexo, p. 27",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "anexo, p. 27",
+        "parafrase": "No quadro, Oxaguiã corresponde ao Menino Jesus e Oxalufã ao Cristo crucificado ou Redentor.",
+        "nota": null,
+        "registro": "oxala-076",
         "status": "fichado"
       }
     ],
@@ -1234,6 +1490,29 @@
         "status": "fichado"
       }
     ],
+    "iconografia": [
+      {
+        "valor": "no transe, Oxalufã velho e encurvado, quase sem dançar; Oxaguiã jovem e guerreiro, de dança rápida",
+        "tradicoes": [
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Terreiros de candomblé de São Paulo (pesquisa do autor em 60 casas; atributos mais citados pelos seguidores)",
+        "sources": [
+          {
+            "id": "prandi-1995-deuses",
+            "loc": "pp. 18–19",
+            "via": null
+          }
+        ],
+        "source_id": "prandi-1995-deuses",
+        "via_source_id": null,
+        "localizacao": "pp. 18–19",
+        "parafrase": "Quando se manifesta em transe, Oxalá tem duas figuras: Oxalufã, o velho cansado e curvado que se move devagar e mal consegue dançar, e Oxaguiã, o moço que dança depressa, como o guerreiro do mito.",
+        "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
+        "registro": "oxala-069",
+        "status": "fichado"
+      }
+    ],
     "interpretacao_academica": [
       {
         "valor": "Nina Rodrigues via na Bahia tendência dualista: Oxalá/Obatalá como bem, Exu como mal; Bastide e Costa relativizam",
@@ -1371,10 +1650,7 @@
   "pendencias": {
     "sem_registro": [
       "origem",
-      "elementos",
-      "saudacao",
-      "alimentos",
-      "iconografia"
+      "alimentos"
     ],
     "so_pre_fichamento": {},
     "retidos_ate_conselho": {
