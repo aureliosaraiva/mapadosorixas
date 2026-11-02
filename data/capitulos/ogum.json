@@ -143,19 +143,13 @@
               "v": "."
             }
           ]
-        }
-      ]
-    },
-    {
-      "slug": "dominios-e-simbolos",
-      "titulo": "Domínios, elementos e símbolos",
-      "blocos": [
+        },
         {
           "tipo": "paragrafo",
           "tokens": [
             {
               "t": "texto",
-              "v": "O ferro é o ponto de partida. No mito da repartição dos elementos contado em terreiros de Salvador e São Paulo, é esse o metal que cabe a Ogum, senhor do ferro e do aço e protetor de quem trabalha com ferramentas de metal, do ferreiro e do lavrador até o cirurgião. Sua força guerreira e protetora, chamada contra inimigos humanos e espirituais, nasceria desse domínio sobre o metal, e por isso ele ampara soldados, ferreiros, caçadores e qualquer ofício que precise de ferramentas de ferro "
+              "v": "Na Iorubalândia oitocentista, os diários dos agentes da Church Missionary Society, em sua maioria catequistas e pastores iorubás, mostram um culto desigual de uma região para outra. No leste, de Ondo a Ilesha e às bordas de Ekiti, Ogum estava entre os orixás mais lembrados, atrás só de Ifá e de Exu; no sudoeste aparecia pouco, e Xangô o superava de longe "
             },
             {
               "t": "nota",
@@ -163,7 +157,7 @@
             },
             {
               "t": "texto",
-              "v": ". No nagô do Recife, Ogum é dono de todo utensílio de ferro, faca ritual incluída; seus territórios são a mata e a rua, as pessoas o associam à violência das ruas, e ele é o batedor, o que vai na frente e abre caminho. Nos xangôs do Recife e de Olinda, em poucas palavras, é o orixá do ferro e da guerra "
+              "v": ". Em Ondo e em Ilesha, sua festa anual reunia a cidade inteira, do soberano aos mais humildes, com os homens marchando em suas milícias de bairro e batalhas encenadas entre os chefes do palácio e os da cidade "
             },
             {
               "t": "nota",
@@ -171,16 +165,7 @@
             },
             {
               "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "Guerreiro, porém, não quer dizer descontrolado. Nos terreiros baianos e paulistas, Ogum encarna uma força disciplinada e obediente, e seu senso de justiça faz com que seja invocado em processos judiciais, com menos rigor que Iansã ou Xangô. Sua ligação com a saúde seria indireta: hoje é chamado sobretudo nas cirurgias, e alguns chefes de culto o fazem agir nas doenças dos nervos ou no peito. Na dança e no transe, na Bahia, o orixá chega tomado de cólera, com o rosto fechado em traços duros, e no xiré costuma ser cantado entre os primeiros, junto das divindades jovens e impetuosas, antes das mais velhas e serenas "
+              "v": ". Nesses relatos missionários aparece ainda uma forma de culto hoje esquecida: em Ijaye, Ibadan, Abeokuta e Oyó, devotas, quase sempre mulheres, andavam pelas ruas carregando enormes cobras e davam bênçãos em nome de Ogum; a prática sumiu no começo do século XX e, em Ondo, foi recebida como coisa de forasteiros "
             },
             {
               "t": "nota",
@@ -197,7 +182,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Entre os símbolos, há uma insígnia de ferro de onde saem pontas de metal, em número de sete, catorze ou vinte e uma. Há também o mariô, franja feita de folhas desfiadas do dendezeiro: adorna a vestimenta de Ogum quando ele se manifesta e, pendurado no alto de portas e janelas do terreiro, pede ao orixá que guarde a casa. No terreno do Candeal crescem plantas tidas como as preferidas dele: a aroeira, o peregun e a espada-de-ogum, que muitos conhecem como espada-de-são-jorge "
+              "v": "Na fala de um babalaô de Ibadan, em 1855, as guerras da época eram castigo pela desobediência humana, executado por Exu e por Ogum a mando de Deus "
             },
             {
               "t": "nota",
@@ -205,7 +190,7 @@
             },
             {
               "t": "texto",
-              "v": ". Sobre esta última, as fontes se completam sem se contradizer. Na Bahia ela entra nos banhos de amaci de quem é filho de Ogum e tem uso diurético, mas pertence ao deus da guerra pelo formato de lâmina, e não por alguma propriedade medicinal; sacerdotes de Salvador e São Paulo não lhe davam virtude terapêutica e a usavam para enfeitar o altar e nos banhos "
+              "v": ". No século XX, enquanto outros cultos de orixá encolhiam na Nigéria iorubá, o de Ogum resistiu melhor, deslocando-se da fundição e da caça para quem usa e conserta o ferro e para a estrada, os motoristas e os mecânicos "
             },
             {
               "t": "nota",
@@ -216,13 +201,19 @@
               "v": "."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios, elementos e símbolos",
+      "blocos": [
         {
           "tipo": "paragrafo",
           "tokens": [
             {
               "t": "texto",
-              "v": "As cores mostram bem a variação entre casas. Nos candomblés ketu aparece o azul-escuro, e verde com vermelho entre os que se diziam nagôs; nas casas baianas das nações nagô, jeje e ketu, prevalecem o azul-marinho e o verde, e o azul se liga a uma conta africana chamada segui "
+              "v": "O ferro é o ponto de partida. No mito da repartição dos elementos contado em terreiros de Salvador e São Paulo, é esse o metal que cabe a Ogum, senhor do ferro e do aço e protetor de quem trabalha com ferramentas de metal, do ferreiro e do lavrador até o cirurgião. Sua força guerreira e protetora, chamada contra inimigos humanos e espirituais, nasceria desse domínio sobre o metal, e por isso ele ampara soldados, ferreiros, caçadores e qualquer ofício que precise de ferramentas de ferro "
             },
             {
               "t": "nota",
@@ -230,7 +221,7 @@
             },
             {
               "t": "texto",
-              "v": ". Num terreiro de Umbanda de João Pessoa, ao contrário, as festas de Ogum se vestem de verde e vermelho e o azul quase desaparece. No nagô do Recife também se usam vermelho e verde, e na santería de Matanzas, em Cuba, o colar de Oggún é verde e preto "
+              "v": ". No nagô do Recife, Ogum é dono de todo utensílio de ferro, faca ritual incluída; seus territórios são a mata e a rua, as pessoas o associam à violência das ruas, e ele é o batedor, o que vai na frente e abre caminho. Nos xangôs do Recife e de Olinda, em poucas palavras, é o orixá do ferro e da guerra "
             },
             {
               "t": "nota",
@@ -247,19 +238,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "O dia da semana varia do mesmo modo. Na distribuição mais comum dos candomblés baianos, Ogum divide a quinta-feira com Oxóssi; no Ilê Axé Opô Afonjá, porém, o dia dele é a terça, compartilhada com Nanã e Oxumarê. Em Porto Alegre, a quinta pertence a Ogum. No nagô do Recife a terça é o dia mais ligado a ele, mas naquela casa a relação entre orixás e dias funciona como preferência, não como regra "
+              "v": "Guerreiro, porém, não quer dizer descontrolado. Nos terreiros baianos e paulistas, Ogum encarna uma força disciplinada e obediente, e seu senso de justiça faz com que seja invocado em processos judiciais, com menos rigor que Iansã ou Xangô. Sua ligação com a saúde seria indireta: hoje é chamado sobretudo nas cirurgias, e alguns chefes de culto o fazem agir nas doenças dos nervos ou no peito. Na dança e no transe, na Bahia, o orixá chega tomado de cólera, com o rosto fechado em traços duros, e no xiré costuma ser cantado entre os primeiros, junto das divindades jovens e impetuosas, antes das mais velhas e serenas "
             },
             {
               "t": "nota",
               "n": 15
-            },
-            {
-              "t": "texto",
-              "v": ". Há ainda o esquema de um etnólogo alemão de 1912, documento de época: numa semana iorubá de quatro dias associada aos pontos cardeais, Ogum ficaria com o norte "
-            },
-            {
-              "t": "nota",
-              "n": 16
             },
             {
               "t": "texto",
@@ -272,7 +255,15 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "As datas de festa trazem a marca do calendário católico. Em terreiros de Salvador e São Paulo, Ogum é festejado ora em 23 de abril, ora em 13 de junho, conforme a casa; numa casa de Tambor de Mina do Maranhão, em 23 ou 24 de abril; e na casa de Pai Francelino, em Diadema, a festa fixa é no dia de São Jorge. No Candeal, a festa da família abre o ano, no primeiro dia de janeiro "
+              "v": "Entre os símbolos, há uma insígnia de ferro de onde saem pontas de metal, em número de sete, catorze ou vinte e uma. Há também o mariô, franja feita de folhas desfiadas do dendezeiro: adorna a vestimenta de Ogum quando ele se manifesta e, pendurado no alto de portas e janelas do terreiro, pede ao orixá que guarde a casa. No terreno do Candeal crescem plantas tidas como as preferidas dele: a aroeira, o peregun e a espada-de-ogum, que muitos conhecem como espada-de-são-jorge "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". Sobre esta última, as fontes se completam sem se contradizer. Na Bahia ela entra nos banhos de amaci de quem é filho de Ogum e tem uso diurético, mas pertence ao deus da guerra pelo formato de lâmina, e não por alguma propriedade medicinal; sacerdotes de Salvador e São Paulo não lhe davam virtude terapêutica e a usavam para enfeitar o altar e nos banhos "
             },
             {
               "t": "nota",
@@ -289,7 +280,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nos terreiros paulistas de candomblé, Ogum é o senhor da guerra, do ferro, da forja e da técnica, quem abre caminhos e favorece viagens e progresso; é saudado com Ogunhê e se diz irmão de Exu "
+              "v": "As cores mostram bem a variação entre casas. Nos candomblés ketu aparece o azul-escuro, e verde com vermelho entre os que se diziam nagôs; nas casas baianas das nações nagô, jeje e ketu, prevalecem o azul-marinho e o verde, e o azul se liga a uma conta africana chamada segui "
             },
             {
               "t": "nota",
@@ -297,11 +288,111 @@
             },
             {
               "t": "texto",
-              "v": ". No quadro do candomblé queto, ele junta à metalurgia a agricultura e a guerra, protege as estradas abertas, os trabalhos manuais, soldados e policiais, tem o ferro forjado e a terra como elementos, veste azul-escuro, verde e branco, usa contas azul-escuro ou verdes, empunha a espada e fica com a terça-feira "
+              "v": ". Num terreiro de Umbanda de João Pessoa, ao contrário, as festas de Ogum se vestem de verde e vermelho e o azul quase desaparece. No nagô do Recife também se usam vermelho e verde, e na santería de Matanzas, em Cuba, o colar de Oggún é verde e preto "
             },
             {
               "t": "nota",
               "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O dia da semana varia do mesmo modo. Na distribuição mais comum dos candomblés baianos, Ogum divide a quinta-feira com Oxóssi; no Ilê Axé Opô Afonjá, porém, o dia dele é a terça, compartilhada com Nanã e Oxumarê. Em Porto Alegre, a quinta pertence a Ogum. No nagô do Recife a terça é o dia mais ligado a ele, mas naquela casa a relação entre orixás e dias funciona como preferência, não como regra "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": ". Há ainda o esquema de um etnólogo alemão de 1912, documento de época: numa semana iorubá de quatro dias associada aos pontos cardeais, Ogum ficaria com o norte "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As datas de festa trazem a marca do calendário católico. Em terreiros de Salvador e São Paulo, Ogum é festejado ora em 23 de abril, ora em 13 de junho, conforme a casa; numa casa de Tambor de Mina do Maranhão, em 23 ou 24 de abril; e na casa de Pai Francelino, em Diadema, a festa fixa é no dia de São Jorge. No Candeal, a festa da família abre o ano, no primeiro dia de janeiro "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Ogum é o senhor da guerra, do ferro, da forja e da técnica, quem abre caminhos e favorece viagens e progresso; é saudado com Ogunhê e se diz irmão de Exu "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": ". No quadro do candomblé queto, ele junta à metalurgia a agricultura e a guerra, protege as estradas abertas, os trabalhos manuais, soldados e policiais, tem o ferro forjado e a terra como elementos, veste azul-escuro, verde e branco, usa contas azul-escuro ou verdes, empunha a espada e fica com a terça-feira "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia oitocentista, Ogum era menos o deus que se representa pelo ferro do que o próprio ferro, cultuado como força pessoal; talvez por isso não se esculpisse sua figura humana, e os objetos de culto eram martelos de ferreiro, armas e a pedra-bigorna da forja. Em Oyó, porém, uma de suas refrações, Alajogun, era figurada como pessoa "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": ". Nas cidades iorubás, Ogum garantia a justiça, invocado nos juramentos sobre o ferro, e a oficina do ferreiro servia de santuário onde quem matara com razão se purificava "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". A festa do inhame novo, presa a Ogum no leste, cabia a Orixá Okô no centro e no oeste e a outros orixás em cidades como Iseyin, Ondo e Ijaye "
+            },
+            {
+              "t": "nota",
+              "n": 27
             },
             {
               "t": "texto",
@@ -334,7 +425,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 28
             },
             {
               "t": "texto",
@@ -351,7 +442,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 29
             },
             {
               "t": "texto",
@@ -359,7 +450,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 30
             },
             {
               "t": "texto",
@@ -406,7 +497,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 31
             },
             {
               "t": "texto",
@@ -414,7 +505,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 32
             },
             {
               "t": "texto",
@@ -441,7 +532,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 33
             },
             {
               "t": "texto",
@@ -458,7 +549,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 34
             },
             {
               "t": "texto",
@@ -489,7 +580,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 35
             },
             {
               "t": "texto",
@@ -506,7 +597,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Do "
+              "v": "No "
             },
             {
               "t": "link",
@@ -516,11 +607,29 @@
             },
             {
               "t": "texto",
-              "v": " de Porto Alegre, o fichamento só guarda, por enquanto, o dia da semana "
+              "v": " de Porto Alegre, Ogum trabalha na forja, faz a guerra e protege os artesãos, e tem dia próprio na semana "
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 36
+            },
+            {
+              "t": "texto",
+              "v": ". Ali se conta que ele recolheu Oxalá caído no barro, quando Xangô o largou para correr atrás de Iansã, e recebeu Iansã como recompensa; a história é encenada no fim das festas, na dança do atã ("
+            },
+            {
+              "t": "link",
+              "rotulo": "o itã",
+              "tipo": "ita",
+              "alvo": "ita-031"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 37
             },
             {
               "t": "texto",
@@ -538,7 +647,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 38
             },
             {
               "t": "texto",
@@ -556,7 +665,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 39
             },
             {
               "t": "texto",
@@ -587,7 +696,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 40
             },
             {
               "t": "texto",
@@ -608,7 +717,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 41
             },
             {
               "t": "texto",
@@ -631,7 +740,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 42
             },
             {
               "t": "texto",
@@ -648,7 +757,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 43
             },
             {
               "t": "texto",
@@ -665,7 +774,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 44
             },
             {
               "t": "texto",
@@ -688,7 +797,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 45
             },
             {
               "t": "texto",
@@ -705,7 +814,24 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 46
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O historiador J. D. Y. Peel tomou Ogum como caso para propor que a religião iorubá do século XIX não formava um panteão único, de atributos fixos e igual em toda parte, e sim um mosaico de cultos locais. Para ele, as grandes festas cívicas ficavam no leste justamente porque ali faltava ferro, trazido de outras regiões, e o culto era antes da cidade que do rei; Peel contesta também a ideia de um Ogum cultuado só por homens, lembrando devotas e possuídas por ele no Egbado e em Ondo "
+            },
+            {
+              "t": "nota",
+              "n": 47
             },
             {
               "t": "texto",
@@ -728,7 +854,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 48
             },
             {
               "t": "texto",
@@ -745,7 +871,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 49
             },
             {
               "t": "texto",
@@ -762,7 +888,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 50
             },
             {
               "t": "texto",
@@ -878,6 +1004,51 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "ogum-080"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-081"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-083"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-087"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-088"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "ogum-016"
         },
         {
@@ -891,7 +1062,7 @@
       ]
     },
     {
-      "n": 9,
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -904,7 +1075,7 @@
       ]
     },
     {
-      "n": 10,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -925,7 +1096,7 @@
       ]
     },
     {
-      "n": 11,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -942,7 +1113,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -959,7 +1130,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -972,7 +1143,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -989,7 +1160,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -1010,7 +1181,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -1019,7 +1190,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -1040,7 +1211,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -1057,7 +1228,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -1082,7 +1253,42 @@
       ]
     },
     {
-      "n": 20,
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-077"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-078"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-079"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-085"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-086"
+        }
+      ]
+    },
+    {
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1091,7 +1297,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1108,7 +1314,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1121,7 +1327,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1142,7 +1348,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1151,7 +1357,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1172,7 +1378,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1181,7 +1387,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1202,8 +1408,12 @@
       ]
     },
     {
-      "n": 28,
+      "n": 36,
       "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-090"
+        },
         {
           "tipo": "registro",
           "registro": "ogum-011"
@@ -1211,7 +1421,16 @@
       ]
     },
     {
-      "n": 29,
+      "n": 37,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "xango-074"
+        }
+      ]
+    },
+    {
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1220,7 +1439,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1229,7 +1448,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1250,7 +1469,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1259,7 +1478,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1280,7 +1499,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1293,7 +1512,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1302,7 +1521,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1315,7 +1534,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1328,7 +1547,24 @@
       ]
     },
     {
-      "n": 38,
+      "n": 47,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ogum-089"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-082"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ogum-084"
+        }
+      ]
+    },
+    {
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1341,7 +1577,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 49,
       "itens": [
         {
           "tipo": "pendencia",
@@ -1354,7 +1590,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 50,
       "itens": [
         {
           "tipo": "lacuna",

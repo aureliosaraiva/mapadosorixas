@@ -55,7 +55,7 @@ No quadro de correspondências do candomblé queto, Ossaim se aproxima do vodum 
 
 ### Xangô do Recife e Batuque
 
-No [Xangô de Pernambuco](tradicao:xango_pernambuco), é o dono das folhas, orixá de ferro que não possui ninguém e ainda assim conduz a iniciação. No [Batuque](tradicao:batuque_rs) de Porto Alegre, aparece como Ossanhe, cultuado fora da casa principal e com dia na segunda-feira {{ref:ossaim-004,ossaim-007,ossaim-024,ossaim-013,ossaim-035}}.
+No [Xangô de Pernambuco](tradicao:xango_pernambuco), é o dono das folhas, orixá de ferro que não possui ninguém e ainda assim conduz a iniciação. No [Batuque](tradicao:batuque_rs) de Porto Alegre, aparece como Ossanhe, cultuado fora da casa principal e com dia na segunda-feira {{ref:ossaim-004,ossaim-007,ossaim-024,ossaim-013,ossaim-035}}. Os batuqueiros o chamam de orixá médico, dono das folhas {{ref:ossaim-048}}.
 
 ### Candomblé angola
 

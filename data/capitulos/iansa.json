@@ -142,6 +142,23 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, Oiá era própria do norte, por estar ligada ao rio Níger e também ao tornado "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -158,7 +175,7 @@
             },
             {
               "t": "nota",
-              "n": 9
+              "n": 10
             },
             {
               "t": "texto",
@@ -166,7 +183,7 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 11
             },
             {
               "t": "texto",
@@ -183,7 +200,7 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 12
             },
             {
               "t": "texto",
@@ -191,7 +208,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 13
             },
             {
               "t": "texto",
@@ -208,7 +225,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 14
             },
             {
               "t": "texto",
@@ -216,7 +233,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 15
             },
             {
               "t": "texto",
@@ -233,7 +250,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 16
             },
             {
               "t": "texto",
@@ -241,7 +258,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 17
             },
             {
               "t": "texto",
@@ -258,28 +275,11 @@
             },
             {
               "t": "nota",
-              "n": 17
-            },
-            {
-              "t": "texto",
-              "v": ". Entre as plantas, na Bahia, o bradamundo e o betis-cheiroso são divididos com Xangô, e a folha-de-fogo, que também leva o nome da orixá, é usada no banho dos seus filhos; no Recife, são dela a dormideira vermelha e a erva-santa "
-            },
-            {
-              "t": "nota",
               "n": 18
             },
             {
               "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "O dia acompanha o de Xangô, mas não é o mesmo em toda parte. Na distribuição mais comum dos candomblés baianos, a quarta-feira, chamada dia do fogo, reúne Xangô e Iansã, sua companheira no ofício de lançar raios; no Ilê Axé Opô Afonjá também. Em Porto Alegre, os dois ficam com a terça-feira "
+              "v": ". Entre as plantas, na Bahia, o bradamundo e o betis-cheiroso são divididos com Xangô, e a folha-de-fogo, que também leva o nome da orixá, é usada no banho dos seus filhos; no Recife, são dela a dormideira vermelha e a erva-santa "
             },
             {
               "t": "nota",
@@ -296,7 +296,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "As festas mostram outra variação. Em muitos terreiros do Recife, Iansã é festejada perto de 4 de dezembro, dia de Santa Bárbara, mas a família de santo nagô estudada costuma celebrá-la no início de novembro, ao lado dos eguns, por causa do seu vínculo com os mortos. No terreiro xambá Santa Bárbara, a Louvação de Oyá é a 13 de dezembro. Na casa de Tambor de Mina de Diadema, o dia de Santa Bárbara reúne o vodum Sobô, Oiá e os demais voduns femininos "
+              "v": "O dia acompanha o de Xangô, mas não é o mesmo em toda parte. Na distribuição mais comum dos candomblés baianos, a quarta-feira, chamada dia do fogo, reúne Xangô e Iansã, sua companheira no ofício de lançar raios; no Ilê Axé Opô Afonjá também. Em Porto Alegre, os dois ficam com a terça-feira "
             },
             {
               "t": "nota",
@@ -313,7 +313,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nos terreiros paulistas de candomblé, Iansã, também chamada Oiá, manda nos raios, nos ventos e nas tempestades; é guerreira, leva os mortos para o além, aparece também como deusa do erotismo e é saudada com Eparrei "
+              "v": "As festas mostram outra variação. Em muitos terreiros do Recife, Iansã é festejada perto de 4 de dezembro, dia de Santa Bárbara, mas a família de santo nagô estudada costuma celebrá-la no início de novembro, ao lado dos eguns, por causa do seu vínculo com os mortos. No terreiro xambá Santa Bárbara, a Louvação de Oyá é a 13 de dezembro. Na casa de Tambor de Mina de Diadema, o dia de Santa Bárbara reúne o vodum Sobô, Oiá e os demais voduns femininos "
             },
             {
               "t": "nota",
@@ -321,11 +321,28 @@
             },
             {
               "t": "texto",
-              "v": ". No quadro do candomblé queto, é a orixá do relâmpago, a quem pertencem os espíritos dos mortos, e protege a sensualidade, o amor carnal e os desastres do tempo; tem relâmpagos, raios, vento e tempestade por elemento natural e ar, água e fogo por mítico, veste marrom e vermelho-escuro ou branco, usa contas marrons ou vermelho-escuras, leva espada e eru e fica com a quarta-feira "
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, Iansã, também chamada Oiá, manda nos raios, nos ventos e nas tempestades; é guerreira, leva os mortos para o além, aparece também como deusa do erotismo e é saudada com Eparrei "
             },
             {
               "t": "nota",
               "n": 22
+            },
+            {
+              "t": "texto",
+              "v": ". No quadro do candomblé queto, é a orixá do relâmpago, a quem pertencem os espíritos dos mortos, e protege a sensualidade, o amor carnal e os desastres do tempo; tem relâmpagos, raios, vento e tempestade por elemento natural e ar, água e fogo por mítico, veste marrom e vermelho-escuro ou branco, usa contas marrons ou vermelho-escuras, leva espada e eru e fica com a quarta-feira "
+            },
+            {
+              "t": "nota",
+              "n": 23
             },
             {
               "t": "texto",
@@ -358,7 +375,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -366,7 +383,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -393,7 +410,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -430,7 +447,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -448,7 +465,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -465,7 +482,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -473,7 +490,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 30
             },
             {
               "t": "texto",
@@ -481,7 +498,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 31
             },
             {
               "t": "texto",
@@ -489,7 +506,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 32
             },
             {
               "t": "texto",
@@ -506,7 +523,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 33
             },
             {
               "t": "texto",
@@ -533,7 +550,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 34
             },
             {
               "t": "texto",
@@ -550,7 +567,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 35
             },
             {
               "t": "texto",
@@ -581,7 +598,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 36
             },
             {
               "t": "texto",
@@ -612,7 +629,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 37
             },
             {
               "t": "texto",
@@ -629,7 +646,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Do "
+              "v": "No "
             },
             {
               "t": "link",
@@ -639,11 +656,29 @@
             },
             {
               "t": "texto",
-              "v": " de Porto Alegre, o fichamento guarda o nome Oiá e a terça-feira dividida com Xangô "
+              "v": " de Porto Alegre, ela é Oiá, e a terça-feira é dividida com Xangô "
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 38
+            },
+            {
+              "t": "texto",
+              "v": ". Ali é a mulher guerreira e sensual, dona dos raios, e uma das mulheres casadas com Xangô; na dança do atã, que encerra as festas, as Iansãs encenam o momento em que ela embebeda Ogum para fugir com Xangô ("
+            },
+            {
+              "t": "link",
+              "rotulo": "o itã",
+              "tipo": "ita",
+              "alvo": "ita-031"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 39
             },
             {
               "t": "texto",
@@ -674,7 +709,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 40
             },
             {
               "t": "texto",
@@ -682,7 +717,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 41
             },
             {
               "t": "texto",
@@ -713,7 +748,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 42
             },
             {
               "t": "texto",
@@ -734,7 +769,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 43
             },
             {
               "t": "texto",
@@ -757,7 +792,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 44
             },
             {
               "t": "texto",
@@ -765,7 +800,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 45
             },
             {
               "t": "texto",
@@ -773,7 +808,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 46
             },
             {
               "t": "texto",
@@ -790,7 +825,7 @@
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 47
             },
             {
               "t": "texto",
@@ -813,7 +848,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 48
             },
             {
               "t": "texto",
@@ -821,7 +856,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 49
             },
             {
               "t": "texto",
@@ -838,7 +873,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 50
             },
             {
               "t": "texto",
@@ -846,7 +881,7 @@
             },
             {
               "t": "nota",
-              "n": 49
+              "n": 51
             },
             {
               "t": "texto",
@@ -869,7 +904,7 @@
             },
             {
               "t": "nota",
-              "n": 50
+              "n": 52
             },
             {
               "t": "texto",
@@ -886,7 +921,7 @@
             },
             {
               "t": "nota",
-              "n": 51
+              "n": 53
             },
             {
               "t": "texto",
@@ -903,7 +938,7 @@
             },
             {
               "t": "nota",
-              "n": 52
+              "n": 54
             },
             {
               "t": "texto",
@@ -1016,6 +1051,15 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "iansa-052"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "iansa-005"
         },
         {
@@ -1029,7 +1073,7 @@
       ]
     },
     {
-      "n": 10,
+      "n": 11,
       "itens": [
         {
           "tipo": "registro",
@@ -1038,7 +1082,7 @@
       ]
     },
     {
-      "n": 11,
+      "n": 12,
       "itens": [
         {
           "tipo": "registro",
@@ -1047,7 +1091,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 13,
       "itens": [
         {
           "tipo": "registro",
@@ -1060,7 +1104,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -1069,7 +1113,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -1078,7 +1122,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -1087,7 +1131,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -1096,7 +1140,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -1113,7 +1157,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -1122,7 +1166,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -1143,7 +1187,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -1160,7 +1204,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -1177,7 +1221,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -1202,7 +1246,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -1211,7 +1255,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -1220,7 +1264,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -1233,7 +1277,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1246,7 +1290,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1259,7 +1303,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1280,7 +1324,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1297,7 +1341,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1310,7 +1354,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1319,7 +1363,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1328,7 +1372,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1337,7 +1381,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1346,7 +1390,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1355,7 +1399,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1372,7 +1416,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1385,7 +1429,24 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iansa-053"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-073"
+        },
+        {
+          "tipo": "registro",
+          "registro": "xango-074"
+        }
+      ]
+    },
+    {
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1394,7 +1455,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1403,7 +1464,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1425,7 +1486,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1438,7 +1499,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1451,7 +1512,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1460,7 +1521,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1469,7 +1530,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1478,7 +1539,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1491,7 +1552,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1500,7 +1561,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1509,7 +1570,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1518,7 +1579,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1531,7 +1592,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 53,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1549,7 +1610,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 54,
       "itens": [
         {
           "tipo": "lacuna",

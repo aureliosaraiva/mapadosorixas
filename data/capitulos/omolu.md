@@ -19,6 +19,8 @@ Nenhum orixá tinha mais casas na Bahia de meados do século passado. Numa prime
 
 No nagô do Recife, a situação é outra: Obaluaiê pode se manifestar em possessão, mas seus iniciados são raríssimos {{ref:omolu-041}}. Na casa de Tambor de Mina de Diadema, a história da própria casa passa por ele: Xapanã, vodum das doenças e das curas, regia a cabeça da mãe de santo que iniciou Pai Francelino {{ref:omolu-008}}. Em Matanzas, Cuba, o santo parado de Babalú Ayé fica sob uma ceiba plantada em 1923, e ali ele é chamado sobretudo pelo nome católico, San Lázaro {{ref:omolu-045}}.
 
+Na Iorubalândia do século XIX, Sopona, o deus da varíola, aparecia na fala de um babalaô de Ibadan entre as divindades que Deus enviava para punir os homens, e figura, com o nome Babaluaye, entre os orixás que atravessaram o Atlântico {{ref:omolu-057,ogum-087}}.
+
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
 A doença é o domínio mais conhecido. Na Bahia, Omolu governa a varíola, as doenças de pele e as epidemias, e ele é lembrado como o médico dos pobres, amparo da gente negra mais humilde. Nos terreiros de Salvador e São Paulo, ele responde pela peste, pela varíola, pelas doenças de pele e pelas que passam de uma pessoa a outra, e só dos males que se veem, não dos de origem psíquica; no mito da repartição dos elementos, coube a Omulu justamente o domínio das doenças ([Olorun entrega a Oxalá os elementos](ita:ita-027)) {{ref:omolu-005,omolu-028,oxala-040}}. No nagô do Recife, Obaluaiê é temido pela ligação com as doenças, sobretudo as de pele, comuns entre os pobres {{ref:omolu-040}}.
@@ -63,11 +65,13 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), na família de santo nagô
 
 ### Batuque
 
-No [Batuque](tradicao:batuque_rs) de Porto Alegre, ele é Xapanã, e a quarta-feira é o seu dia, partilhado com Obá {{ref:omolu-004}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, ele é Xapanã, e a quarta-feira é o seu dia, partilhado com Obá {{ref:omolu-004}}. Ali é um velho feiticeiro, senhor das doenças, e uma de suas formas, Xapanã Velho, tem como santo o Cristo das Chagas {{ref:omolu-061,omolu-062}}.
 
 ### Tambor de Mina
 
 No [Tambor de Mina](tradicao:tambor_de_mina), Omolu se encontra com toda uma família de voduns. Na Casa das Minas de São Luís, a família de Dambirá reúne voduns ligados ao chão, à doença e ao seu remédio, cujo chefe, Acóssi Sapatá, sabe curar qualquer mal e acabou doente de tanto cuidar dos enfermos {{ref:omolu-025}}. Na casa de Pai Francelino, em Diadema, sete voduns correspondem a Omulu-Obaluaê: Azonce, Acóssi, Azile, Lepom, Polibogi e Zomadônu, jejes, e Xapanã, nagô, cada um com seu santo católico, num total de vinte e um assentamentos {{ref:omolu-024}}.
+
+Na Casa das Minas, a família de Acossi reúne os voduns da terra, que curam doenças, sobretudo as de pele {{ref:omolu-058}}. Sua festa, de 19 a 21 de janeiro, é uma festa contra as doenças: os voduns passam mais tempo em terra e conversam com as pessoas, e no dia de São Sebastião dois deles, sentados no chão junto ao altar católico, servem a todos uma comida de obrigação, por ordem de precedência, para dar vida e saúde {{ref:omolu-059}}.
 
 ### Umbanda
 
@@ -82,6 +86,8 @@ Na santería cubana, Babalú Ayé é chamado sobretudo de San Lázaro, e sua fes
 Dois santos dividem o sincretismo de Omolu. São Sebastião é o mais lembrado no Recife: num calendário que valeria também para os candomblés bantos da Bahia, a festa de Obaluaiê cai no dia desse santo, 20 de janeiro, e no nagô do Recife ele é em geral associado a São Sebastião {{ref:omolu-020,omolu-043}}. São Lázaro, também ele chagado e vencedor da morte, é o santo de Omulu nos terreiros de Salvador e São Paulo e o de Babalú Ayé em Cuba {{ref:omolu-030,omolu-045}}. Na casa de Tambor de Mina de Diadema, cada vodum correspondente tem o seu santo: São Sebastião para Azonce e Xapanã, São Lázaro para Acóssi, São Roque para Azile e Lepom, São Manoel para Polibogi e os Santos Reis para Zomadônu {{ref:omolu-024}}.
 
 Nos terreiros paulistas de candomblé, os santos de Obaluaiê são São Lázaro e São Roque {{ref:omolu-048}}.
+
+No Batuque de Porto Alegre, o santo ligado a Xapanã Velho é o Cristo das Chagas {{ref:omolu-062}}.
 
 ## Leituras acadêmicas {#leituras-academicas}
 

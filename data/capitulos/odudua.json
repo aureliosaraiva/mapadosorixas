@@ -141,6 +141,31 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, os reinos iorubás só se uniram politicamente e passaram a partilhar um nome no século XX, mas se reconheciam aparentados porque todos os seus reis diziam descender de Odudua, que teria reinado em Ilê-Ifé; a cidade era tida como o centro do culto e o lugar da criação dos seres humanos "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". No fim do século XX, o Ọọni, soberano de Ifé tido como o próprio Odudua renascido, abriu mão da condição divina, pressionado pelo cristianismo evangélico, enquanto a cidade se tornava destino de peregrinos vindos das Américas "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -157,7 +182,7 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 12
             },
             {
               "t": "texto",
@@ -165,7 +190,7 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 13
             },
             {
               "t": "texto",
@@ -182,7 +207,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 14
             },
             {
               "t": "texto",
@@ -190,7 +215,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 15
             },
             {
               "t": "texto",
@@ -198,7 +223,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 16
             },
             {
               "t": "texto",
@@ -206,7 +231,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 17
             },
             {
               "t": "texto",
@@ -223,7 +248,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 18
             },
             {
               "t": "texto",
@@ -241,7 +266,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 19
             },
             {
               "t": "texto",
@@ -274,7 +299,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 20
             },
             {
               "t": "texto",
@@ -282,7 +307,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 21
             },
             {
               "t": "texto",
@@ -309,7 +334,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 22
             },
             {
               "t": "texto",
@@ -327,7 +352,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 23
             },
             {
               "t": "texto",
@@ -345,7 +370,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 24
             },
             {
               "t": "texto",
@@ -382,7 +407,24 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A própria figura de Odudua varia no território iorubá: no centro-leste é um antepassado, homem e rei de Ifé; no sudoeste, uma deusa, esposa do criador "
+            },
+            {
+              "t": "nota",
+              "n": 26
             },
             {
               "t": "texto",
@@ -413,7 +455,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 27
             },
             {
               "t": "texto",
@@ -434,7 +476,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 28
             },
             {
               "t": "texto",
@@ -455,7 +497,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 29
             },
             {
               "t": "texto",
@@ -478,7 +520,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 30
             },
             {
               "t": "texto",
@@ -501,7 +543,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 31
             },
             {
               "t": "texto",
@@ -509,7 +551,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 32
             },
             {
               "t": "texto",
@@ -517,7 +559,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 33
             },
             {
               "t": "texto",
@@ -540,7 +582,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 34
             },
             {
               "t": "texto",
@@ -548,7 +590,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 35
             },
             {
               "t": "texto",
@@ -670,6 +712,24 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "odudua-020"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-022"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "odudua-001"
         },
         {
@@ -679,7 +739,7 @@
       ]
     },
     {
-      "n": 11,
+      "n": 13,
       "itens": [
         {
           "tipo": "registro",
@@ -692,7 +752,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -701,7 +761,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -710,7 +770,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -719,7 +779,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -728,7 +788,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -737,7 +797,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -750,7 +810,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -767,7 +827,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -780,7 +840,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -789,7 +849,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -798,7 +858,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -807,7 +867,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -828,7 +888,16 @@
       ]
     },
     {
-      "n": 24,
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-021"
+        }
+      ]
+    },
+    {
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -845,7 +914,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 28,
       "itens": [
         {
           "tipo": "lacuna",
@@ -855,7 +924,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 29,
       "itens": [
         {
           "tipo": "lacuna",
@@ -865,7 +934,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 30,
       "itens": [
         {
           "tipo": "lacuna",
@@ -875,7 +944,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -888,7 +957,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -897,7 +966,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -910,7 +979,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 34,
       "itens": [
         {
           "tipo": "lacuna",
@@ -940,7 +1009,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 35,
       "itens": [
         {
           "tipo": "pendencia",

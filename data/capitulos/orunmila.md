@@ -19,6 +19,10 @@ No nagô do Recife, o culto ganhou força recente. Nos anos 1980, a obrigação 
 
 Em Cuba, a Regla de Ifá tem regras próprias de acesso. Para se tornar babalaô, só um santero homem pode chegar lá, e desde que Changó, na consulta do itá, lhe tenha dado permissão para "fazer Ifá"; entre os babalaôs cubanos, discute-se se mulheres podem ser iniciadas, com o título de iyanifá {{ref:orunmila-012}}. Todo mês de outubro, um grupo de Ifá sediado nas Canárias vai a Matanzas para fazer iniciações e participar da festa de Elegguá, numa viagem organizada pelo único babalaô nascido no central Méjico {{ref:exu-089}}.
 
+Na Iorubalândia, Ifá era talvez o mais difundido dos cultos, e um culto de homens e sem transe, enquanto boa parte dos sacerdotes e a maioria dos devotos de orixá eram mulheres {{ref:orunmila-018}}. Os diários de missionários do século XIX registram que os babalaôs às vezes recomendavam ao cliente a conversão ao islã ou ao cristianismo, e que os missionários os respeitavam mais do que a qualquer outro sacerdote {{ref:orunmila-016}}. Em Ilesha, a festa anual de Ifá era, com a de Ogum, uma das duas grandes festas de toda a cidade {{ref:orunmila-021}}. No século XX, clérigos iorubás passaram a tratar Ifá como filosofia e como depósito do saber dos antepassados, e em Lagos surgiu, em 1934, uma Igreja de Orunmilá, que lê um livro dos odus sagrados em vez das escrituras cristãs {{ref:orunmila-020}}.
+
+Nas Américas, os caminhos se inverteram: Ifá quase desapareceu no Brasil, que recebeu bem mais escravizados iorubás, e ganhou raízes em Havana, nas últimas décadas do século XIX, pelo trabalho de cinco babalaôs nascidos na África, tidos como fundadores dos ramos da Regla de Ifá {{ref:orunmila-019}}.
+
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
 A adivinhação é o seu domínio. Nos terreiros de Salvador e São Paulo, é Ifá quem dá as respostas ao babalaô quando este joga o opelê, e é ele quem conhece o destino de todos, sem que fique claro se também o determina; no mito da repartição dos elementos, coube-lhe o colar de adivinhar ([Olorun entrega a Oxalá os elementos](ita:ita-027)) {{ref:orunmila-001,oxala-040}}. Em Cuba, Orula é chamado testemunha da criação do mundo, e a Regla de Ifá se apoia na leitura de duzentos e cinquenta e seis signos, os odus ou letras, tirados com o tabuleiro de Ifá ou com a corrente chamada ekuelé; cada odu reúne um conjunto de patakís, histórias cuja interpretação responde à consulta {{ref:orunmila-011}}.
@@ -26,6 +30,8 @@ A adivinhação é o seu domínio. Nos terreiros de Salvador e São Paulo, é If
 Ifá aparece também ligado à fecundação. Na Bahia do fim do século XIX, registrou-se que Obatalá cuidava do crescimento da criança no ventre e Ifá do ato da fecundação; em meados do século passado, a gestação inteira era atribuída a Oxalá, mas se lembrava que os etnógrafos da África ligavam a fecundação ora a Ifá, ora a Oxalá {{ref:oxala-008,oxala-007}}.
 
 As cores, no nagô do Recife, são o amarelo e o verde {{ref:orunmila-008}}. As festas mudam de lugar para lugar. No Recife, a festa de Orunmilá caía em 25 de dezembro, data que nenhum chefe de culto sabia justificar, e todos insistiam que ele e Cristo nada têm em comum; na época da pesquisa, a festa passou para o último fim de semana de setembro. Em Cuba, a festa de Orula se faz com a de São Francisco de Assis, a 4 de outubro {{ref:orunmila-009,orunmila-013}}.
+
+Na Iorubalândia, o oráculo funciona com 256 figuras, os odus, obtidas pelo babalaô com nozes de palmeira; a cada uma correspondem versos que narram precedentes míticos, e o consulente escolhe entre eles o que corresponde à sua situação. A consulta também podia levar uma pessoa ao culto de determinado orixá {{ref:orunmila-014}}. O próprio corpus de Ifá apresenta Orunmilá acima dos demais orixás, associado a Olodumare desde o princípio e só por ele a sabedoria divina chega aos homens {{ref:orunmila-015}}.
 
 ## Mitos {#mitos}
 
@@ -62,6 +68,8 @@ O sincretismo de Orunmilá é o mais ralo entre os orixás deste livro. Nos terr
 ## Leituras acadêmicas {#leituras-academicas}
 
 John A. I. Bewaji, ao discutir a ideia de um Deus supremo iorubá, observa que há relatos de coisas que escapam a Olodumare e de consultas dele a Orunmilá e a Ifá, o que, a seu ver, não diminui a sabedoria divina {{ref:olodumare-013}}. Gilles-Félix Vallier lê Exu, no corpus de Ifá, como a figura da incerteza do destino {{ref:exu-081}}. Arnaud Halloy, retomando uma pesquisa dos anos 1980, mostra como a retomada da adivinhação com ikin e opelê mudou o lugar de Orunmilá numa família de santo do Recife {{ref:orunmila-007,orunmila-005}}.
+
+Para J. D. Y. Peel, a estrutura de dezesseis opções aparenta Ifá a técnicas de adivinhação nascidas na Ásia ocidental, trazidas à África subsaariana pelo islã, embora o conteúdo seja local; Ifá teria nascido como reação local ao conhecimento dos clérigos muçulmanos, adaptada à cosmologia da antiga Ifé, e sua ênfase em Olodumare o abriria ao monoteísmo {{ref:orunmila-017}}.
 
 ## O que as fontes não dizem {#lacunas}
 

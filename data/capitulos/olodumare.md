@@ -43,6 +43,8 @@ Há também o caso inverso, de um mito que o deixa de fora. O relato de criaçã
 
 No [culto iorubá](tradicao:ioruba_nigeria), as fontes vão dos relatos coloniais de 1894 e 1926 aos estudos iorubás mais recentes. Os documentos de época divergem sobre quase tudo, menos sobre a ausência de culto direto; os estudos recentes descrevem um Ser Supremo de quem tudo procede e de quem os orixás são ministros {{ref:olodumare-001,olodumare-004,olodumare-010,olodumare-012}}.
 
+Na Iorubalândia, Olorum ou Olodumare é a origem de toda a existência, embora intervenha na vida das pessoas principalmente através dos orixás {{ref:olodumare-020}}. Em 1854, em Ibadan, babalaôs que debatiam com missionários explicaram que os orixás estão para Deus como os chefes menores estão para o chefe da cidade, pontes entre as pessoas comuns e a autoridade maior {{ref:olodumare-021}}.
+
 ### Candomblé
 
 Nos candomblés nagôs da Bahia, Olorum é o criador que se retirou e deixou a Oxalá o reino do céu; em terreiros de Salvador e São Paulo, é o ser supremo que não é orixá, não é representado e não desce {{ref:olodumare-015,olodumare-016,olodumare-019}}.

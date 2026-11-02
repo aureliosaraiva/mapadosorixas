@@ -29,6 +29,8 @@ Também a festa muda de data. Entre os iorubás da Costa dos Escravos, no relato
 
 Entre os orixás, Iansã é a que mais se aproxima dos mortos. Na Bahia, ela é a única que não foge da morte, permanece no axexê quando os demais orixás se retiram e dança no meio dos Egun como se os mantivesse sob controle; no Recife, uma imagem de Iansã de Balé guarda o quarto dos mortos {{ref:iansa-006}}. Numa família de santo nagô do Recife, a festa de Iansã costuma cair no início de novembro, ao lado da dos eguns, e Obaluaiê também tem com eles uma relação, pouco definida, que viria de ele ser chamado nos ritos dedicados aos mortos {{ref:iansa-036,omolu-040}}.
 
+No Batuque de Porto Alegre, os eguns, os mortos, pertencem ao plano invisível junto com os orixás e são tidos como muito perigosos para os vivos {{ref:egungun-018}}. Recebem uma cerimônia anual, o aressum ou missa-de-eguns, que inverte em tudo o ritual dos orixás: chama o morto para perto e, no mesmo gesto, o despede, lembrando-lhe que seu lugar agora é entre os mortos {{ref:egungun-019}}.
+
 ## Mitos {#mitos}
 
 Em Òkèigbó e noutras comunidades de origem Ọ̀yọ́, um odù de Ifá conta a chegada dos primeiros egúngún ([Os primeiros egúngún descem para firmar o mundo](ita:ita-026)). O mundo dos vivos corria o risco de desabar, e Ifá mandou que se fizesse uma oferenda a Olódùmarè; recebido o sacrifício, mandou os sayégún para dar firmeza à terra. Eles pararam num bosque, mais tarde chamado igbó-ìgbàlẹ̀, e só o som dos tambores àyàn conseguiu trazê-los até a comunidade {{ref:egungun-015}}. Outro odù citado pela mesma fonte faz os egúngún descerem do céu junto com os quatrocentos irúnmọlẹ̀ {{ref:egungun-015}}.
@@ -38,6 +40,8 @@ Em Òkèigbó e noutras comunidades de origem Ọ̀yọ́, um odù de Ifá conta
 ### Culto iorubá na Nigéria
 
 No [culto iorubá](tradicao:ioruba_nigeria), o egúngún é o ancestral tornado visível, chamado "pai" e "habitante do céu"; os documentos coloniais o descrevem como o morto que volta para vigiar os vivos, e o culto chegou, com os libertos, até Freetown {{ref:egungun-007,egungun-009,egungun-002,egungun-004}}.
+
+Na Iorubalândia, o culto que uma linhagem ou uma cidade presta a seus antepassados comuns, os egungun, se distingue dos outros cultos de ancestrais pelas mascaradas, pelo sacerdócio especializado e pelas festas anuais; entre os egbá, a sociedade Oro ocupa lugar comparável {{ref:egungun-016}}. Nas últimas décadas, as mascaradas egungun viraram alvo de ataques de muçulmanos na Nigéria iorubá {{ref:egungun-017}}.
 
 ### Candomblé
 

@@ -21,6 +21,8 @@ A grande festa de Salvador tem história própria. As descrições das festas da
 
 A passagem de Iemanjá a Nossa Senhora está entre os resultados da cristianização a que os orixás foram submetidos no país, e muitos traços das Grandes Mães africanas, Iemanjá e Oxum entre elas, foram atenuados aqui e acabaram deslocados, no Candomblé e na Umbanda, para a figura de Pombagira {{ref:iemanja-001,iemanja-002}}.
 
+Na Iorubalândia, Iemanjá pertencia sobretudo ao oeste. Hoje, na Nigéria, os escritos pentecostais a atacam, ao lado de Mami Wata e Olokun, como divindade feminina ligada à riqueza {{ref:iemanja-096}}.
+
 ### As estátuas do litoral
 
 A sereia é a forma mais conhecida de Iemanjá, e suas estátuas se espalham por quase todo o litoral brasileiro, partilhadas pelo Candomblé e pela Umbanda {{ref:iemanja-067}}. O modelo que se popularizou a partir de meados do século XX é o de uma mulher de pele clara, aparentada às imagens de Maria; nas últimas décadas surgiram figuras africanizadas, de pele escura e com outras vestes e adereços. Essas esculturas costumam marcar o ponto onde se fazem as festas, cujas datas não seguem um calendário único e se cruzam com o católico, e muitas delas já foram agredidas e desfiguradas {{ref:iemanja-077,iemanja-079}}.
@@ -75,7 +77,7 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), Iemanjá é a mãe dos ori
 
 ### Batuque
 
-No [Batuque](tradicao:batuque_rs) de Porto Alegre, o fichamento guarda o dia de Iemanjá, a sexta-feira partilhada com Odé {{ref:iemanja-009}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, as águas salgadas pertencem a Iemanjá, e seu dia é a sexta-feira, partilhada com Odé {{ref:iemanja-097,iemanja-009}}.
 
 ### Tambor de Mina
 
@@ -85,9 +87,9 @@ Na Casa das Minas de São Luís, o vodum que corresponde a Iemanjá é Abé, da 
 
 A [Umbanda](tradicao:umbanda), religião distinta do Candomblé, teve papel decisivo na difusão da festa do mar fora da Bahia, em cidades como Santos, Porto Alegre e Rio de Janeiro {{ref:iemanja-029}}. Em Belém, desde 1971, o Festival de Iemanjá acontece a cada 8 de dezembro em Outeiro, cujas praias são de água doce, sob a condução de sacerdotes do candomblé, da mina, do omolocô e da umbanda. A festa carioca do Mercadão de Madureira se estende por dezembro inteiro, com oferendas e bilhetes deixados junto à estátua de Iemanjá, e se distingue por não associá-la a santos católicos {{ref:iemanja-046,iemanja-047}}. Em São Luís, a Umbanda põe Iemanjá no comando de entidades, e a federação maranhense de Umbanda tem organizado o réveillon na praia {{ref:iemanja-076,iemanja-080}}.
 
-### No Uruguai: Umbanda e Batuque
+### No Uruguai: as religiões afroumbandistas
 
-No Uruguai, onde se fala em religiões afroumbandistas, a Umbanda e o Batuque de origem gaúcha convivem com a quimbanda e o candomblé, e muitas casas se reúnem em federações que, desde a década de 2000, falam por elas diante do Estado {{ref:iemanja-090}}. O calendário dessas casas é quase todo interno, e as únicas festas abertas ao público são a de Iemanjá, em 2 de fevereiro, e a de Oxum, em 8 de dezembro {{ref:iemanja-088,oxum-062}}. Na Playa Ramírez, em Montevidéu, há quem acampe na véspera para garantir o lugar das tendas dos pais e mães de santo; ao longo do dia, os fiéis deixam flores no rio, rezam e se banham, saindo da água de frente para ela, e, quando escurece, crescem os transes e se acendem velas em covas na areia, entre frutas e flores brancas oferecidas {{ref:iemanja-087,iemanja-089}}. Nas tendas veem-se imagens da orixá, algumas centenárias, e uma sacerdotisa diz que as melhores vêm de Porto Alegre e da Argentina {{ref:iemanja-095}}.
+No Uruguai, onde se fala em [religiões afroumbandistas](tradicao:afroumbanda_uruguai), a Umbanda e o Batuque de origem gaúcha convivem com a quimbanda e o candomblé, e muitas casas se reúnem em federações que, desde a década de 2000, falam por elas diante do Estado {{ref:iemanja-090}}. O calendário dessas casas é quase todo interno, e as únicas festas abertas ao público são a de Iemanjá, em 2 de fevereiro, e a de Oxum, em 8 de dezembro {{ref:iemanja-088,oxum-062}}. Na Playa Ramírez, em Montevidéu, há quem acampe na véspera para garantir o lugar das tendas dos pais e mães de santo; ao longo do dia, os fiéis deixam flores no rio, rezam e se banham, saindo da água de frente para ela, e, quando escurece, crescem os transes e se acendem velas em covas na areia, entre frutas e flores brancas oferecidas {{ref:iemanja-087,iemanja-089}}. Nas tendas veem-se imagens da orixá, algumas centenárias, e uma sacerdotisa diz que as melhores vêm de Porto Alegre e da Argentina {{ref:iemanja-095}}.
 
 ### Santería cubana
 

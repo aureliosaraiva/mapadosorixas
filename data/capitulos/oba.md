@@ -41,7 +41,7 @@ Nos candomblés baianos e nos terreiros de Salvador e São Paulo, Obá é uma da
 
 ### Xangô do Recife e Batuque
 
-No [Xangô de Pernambuco](tradicao:xango_pernambuco), seu culto ganhou espaço nas últimas décadas, com assentamento em parte das casas, cor amarela e ritmo próprio. No [Batuque](tradicao:batuque_rs) de Porto Alegre, tem a quarta-feira {{ref:oba-008,oba-010,oba-002}}.
+No [Xangô de Pernambuco](tradicao:xango_pernambuco), seu culto ganhou espaço nas últimas décadas, com assentamento em parte das casas, cor amarela e ritmo próprio. No [Batuque](tradicao:batuque_rs) de Porto Alegre, tem a quarta-feira {{ref:oba-008,oba-010,oba-002}}. Ali Obá é mulher guerreira, e na dança ela parece socar um pilão, de pé {{ref:oba-026,oba-027}}.
 
 ### Candomblé angola
 

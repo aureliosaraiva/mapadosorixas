@@ -142,6 +142,23 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, Oxum era uma deusa de rio cultuada principalmente no centro-leste. Em Oxogbo, seu santuário à beira do rio é hoje patrimônio mundial da Unesco, num momento em que o próprio rei da cidade é muçulmano "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -158,28 +175,11 @@
             },
             {
               "t": "nota",
-              "n": 9
-            },
-            {
-              "t": "texto",
-              "v": ". No nagô do Recife, é igualmente a divindade das águas doces, e em Matanzas se diz que o rio pertence a Ochún e o mar a Yemayá "
-            },
-            {
-              "t": "nota",
               "n": 10
             },
             {
               "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "O amor vem em seguida. Na Bahia, Oxum rege o amor sensual e é procurada por mulheres que desejam filhos, embora não haja sinal de que atue na hora do parto; entre os aspectos da vida social, o amor é o que lhe corresponde. Nos terreiros de Salvador e São Paulo, a comparação com Iemanjá se repete: se esta é a mãe, Oxum é a esposa e o amor carnal; pedem-lhe colheitas fartas e proteção contra a esterilidade, e quase todos os chefes de culto a veem como especialista nos males femininos e do baixo-ventre. No nagô do Recife, a feminilidade, a fertilidade e a maternidade estão no centro do seu domínio "
+              "v": ". No nagô do Recife, é igualmente a divindade das águas doces, e em Matanzas se diz que o rio pertence a Ochún e o mar a Yemayá "
             },
             {
               "t": "nota",
@@ -196,27 +196,11 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Bela e vaidosa, Oxum gosta de presentes. Na Bahia, ela e Iemanjá recebem sabonetes, perfumes, flores, espelhinhos e pentes, lançados da margem ou de barco "
+              "v": "O amor vem em seguida. Na Bahia, Oxum rege o amor sensual e é procurada por mulheres que desejam filhos, embora não haja sinal de que atue na hora do parto; entre os aspectos da vida social, o amor é o que lhe corresponde. Nos terreiros de Salvador e São Paulo, a comparação com Iemanjá se repete: se esta é a mãe, Oxum é a esposa e o amor carnal; pedem-lhe colheitas fartas e proteção contra a esterilidade, e quase todos os chefes de culto a veem como especialista nos males femininos e do baixo-ventre. No nagô do Recife, a feminilidade, a fertilidade e a maternidade estão no centro do seu domínio "
             },
             {
               "t": "nota",
               "n": 12
-            },
-            {
-              "t": "texto",
-              "v": ". No Recife, chamá-la de vaidosa não quer dizer orgulhosa: a palavra indica o prazer de ser bela e de seduzir, e ela aprecia perfumes e joias, sobretudo as de ouro. Nos terreiros de Salvador e São Paulo, a astúcia é traço lendário "
-            },
-            {
-              "t": "nota",
-              "n": 13
-            },
-            {
-              "t": "texto",
-              "v": ". Na dança baiana, o transe dá ao rosto da filha de santo uma expressão sensual; os gestos de pentear-se e de mirar-se no espelho lembram os de Iemanjá, mas o caráter de cada uma se distingue "
-            },
-            {
-              "t": "nota",
-              "n": 14
             },
             {
               "t": "texto",
@@ -229,7 +213,23 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Há também uma função ritual que a liga à adivinhação. Na Bahia, cada babalaô trabalha com uma auxiliar, a apetebi, obrigatoriamente filha de Yabá Omi, a Oxum mais velha, e por essa filiação as filhas de Oxum podem jogar búzios nos terreiros "
+              "v": "Bela e vaidosa, Oxum gosta de presentes. Na Bahia, ela e Iemanjá recebem sabonetes, perfumes, flores, espelhinhos e pentes, lançados da margem ou de barco "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". No Recife, chamá-la de vaidosa não quer dizer orgulhosa: a palavra indica o prazer de ser bela e de seduzir, e ela aprecia perfumes e joias, sobretudo as de ouro. Nos terreiros de Salvador e São Paulo, a astúcia é traço lendário "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": ". Na dança baiana, o transe dá ao rosto da filha de santo uma expressão sensual; os gestos de pentear-se e de mirar-se no espelho lembram os de Iemanjá, mas o caráter de cada uma se distingue "
             },
             {
               "t": "nota",
@@ -246,7 +246,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "A cor é o amarelo. Na Bahia, as contas do colar são amarelas e a cor de ouro lhe corresponde no quadro de correspondências; nos terreiros de Salvador e São Paulo, a cor é o amarelo; no nagô do Recife, o amarelo-ouro, o mesmo de Obá; em Cuba, colar e pulseira de Ochún são amarelos e dourados "
+              "v": "Há também uma função ritual que a liga à adivinhação. Na Bahia, cada babalaô trabalha com uma auxiliar, a apetebi, obrigatoriamente filha de Yabá Omi, a Oxum mais velha, e por essa filiação as filhas de Oxum podem jogar búzios nos terreiros "
             },
             {
               "t": "nota",
@@ -254,11 +254,28 @@
             },
             {
               "t": "texto",
-              "v": ". O metal, nos terreiros de Salvador e São Paulo, é o ouro ou o latão "
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A cor é o amarelo. Na Bahia, as contas do colar são amarelas e a cor de ouro lhe corresponde no quadro de correspondências; nos terreiros de Salvador e São Paulo, a cor é o amarelo; no nagô do Recife, o amarelo-ouro, o mesmo de Obá; em Cuba, colar e pulseira de Ochún são amarelos e dourados "
             },
             {
               "t": "nota",
               "n": 17
+            },
+            {
+              "t": "texto",
+              "v": ". O metal, nos terreiros de Salvador e São Paulo, é o ouro ou o latão "
+            },
+            {
+              "t": "nota",
+              "n": 18
             },
             {
               "t": "texto",
@@ -275,28 +292,11 @@
             },
             {
               "t": "nota",
-              "n": 18
-            },
-            {
-              "t": "texto",
-              "v": ". As folhas também lhe pertencem: na Bahia, a alfavaquinha, a folha-da-costa e o orepepê entram nos banhos de seus filhos, embora alguns informantes dessem as duas primeiras a Oxóssi; no Recife, o mal-me-quer é dela; e em Salvador a folha de pitanga, que ajuda a trazer prosperidade, também lhe é associada "
-            },
-            {
-              "t": "nota",
               "n": 19
             },
             {
               "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "O sábado é o dia de Oxum em quase toda parte. Na Bahia e no Ilê Axé Opô Afonjá, ela o divide com Iemanjá; em Porto Alegre, fica com ele sozinha, porque Iemanjá passa à sexta-feira com Odé; nos terreiros de Salvador e São Paulo, é também cultuada aos sábados. No nagô do Recife, onde os dias da semana pesam pouco na prática, o sábado é uma das poucas preferências que contam, e serve às oferendas para Oxum e Iemanjá "
+              "v": ". As folhas também lhe pertencem: na Bahia, a alfavaquinha, a folha-da-costa e o orepepê entram nos banhos de seus filhos, embora alguns informantes dessem as duas primeiras a Oxóssi; no Recife, o mal-me-quer é dela; e em Salvador a folha de pitanga, que ajuda a trazer prosperidade, também lhe é associada "
             },
             {
               "t": "nota",
@@ -313,7 +313,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "As festas, por sua vez, variam bastante. Num candomblé de Salvador que descende do Língua de Vaca, a Purificação, em 2 de fevereiro, pertence a Oxum e cai no mesmo dia do presente de Iemanjá; na mesma cidade, a grande festa do Rio Vermelho começa logo depois da meia-noite com uma oferenda a Oxum no Dique do Tororó, entregue só pelos pescadores "
+              "v": "O sábado é o dia de Oxum em quase toda parte. Na Bahia e no Ilê Axé Opô Afonjá, ela o divide com Iemanjá; em Porto Alegre, fica com ele sozinha, porque Iemanjá passa à sexta-feira com Odé; nos terreiros de Salvador e São Paulo, é também cultuada aos sábados. No nagô do Recife, onde os dias da semana pesam pouco na prática, o sábado é uma das poucas preferências que contam, e serve às oferendas para Oxum e Iemanjá "
             },
             {
               "t": "nota",
@@ -321,11 +321,28 @@
             },
             {
               "t": "texto",
-              "v": ". Num centro africano do Recife, o calendário lhe dava duas datas: o nascimento, em 22 de março, e a festa, em 8 de dezembro. Nos terreiros de Salvador e São Paulo, o dia dela é 30 de novembro. Na família de santo nagô do Recife, o ideal é festejá-la em julho, quando a cidade celebra Nossa Senhora do Carmo, no dia 16 "
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "As festas, por sua vez, variam bastante. Num candomblé de Salvador que descende do Língua de Vaca, a Purificação, em 2 de fevereiro, pertence a Oxum e cai no mesmo dia do presente de Iemanjá; na mesma cidade, a grande festa do Rio Vermelho começa logo depois da meia-noite com uma oferenda a Oxum no Dique do Tororó, entregue só pelos pescadores "
             },
             {
               "t": "nota",
               "n": 22
+            },
+            {
+              "t": "texto",
+              "v": ". Num centro africano do Recife, o calendário lhe dava duas datas: o nascimento, em 22 de março, e a festa, em 8 de dezembro. Nos terreiros de Salvador e São Paulo, o dia dela é 30 de novembro. Na família de santo nagô do Recife, o ideal é festejá-la em julho, quando a cidade celebra Nossa Senhora do Carmo, no dia 16 "
+            },
+            {
+              "t": "nota",
+              "n": 23
             },
             {
               "t": "texto",
@@ -342,7 +359,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -350,7 +367,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -383,7 +400,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -410,7 +427,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -418,7 +435,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -445,7 +462,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -472,7 +489,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 30
             },
             {
               "t": "texto",
@@ -490,7 +507,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 31
             },
             {
               "t": "texto",
@@ -507,7 +524,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 32
             },
             {
               "t": "texto",
@@ -515,7 +532,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 33
             },
             {
               "t": "texto",
@@ -523,7 +540,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 34
             },
             {
               "t": "texto",
@@ -531,7 +548,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 35
             },
             {
               "t": "texto",
@@ -558,7 +575,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 36
             },
             {
               "t": "texto",
@@ -576,7 +593,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 37
             },
             {
               "t": "texto",
@@ -584,7 +601,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 38
             },
             {
               "t": "texto",
@@ -601,7 +618,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 39
             },
             {
               "t": "texto",
@@ -628,7 +645,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 40
             },
             {
               "t": "texto",
@@ -636,7 +653,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 41
             },
             {
               "t": "texto",
@@ -653,7 +670,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 42
             },
             {
               "t": "texto",
@@ -684,7 +701,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 43
             },
             {
               "t": "texto",
@@ -702,7 +719,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 44
             },
             {
               "t": "texto",
@@ -733,7 +750,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 45
             },
             {
               "t": "texto",
@@ -750,7 +767,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Do "
+              "v": "No "
             },
             {
               "t": "link",
@@ -760,11 +777,19 @@
             },
             {
               "t": "texto",
-              "v": " de Porto Alegre, o fichamento guarda o sábado, que ali pertence só a Oxum "
+              "v": " de Porto Alegre, o sábado pertence só a Oxum "
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 46
+            },
+            {
+              "t": "texto",
+              "v": ". Ali ela reina sobre a beleza, a riqueza e as águas doces, e, quando dança a Oxum Docô, figura de velha, seus movimentos lembram alguém que mexe massa num alguidar "
+            },
+            {
+              "t": "nota",
+              "n": 47
             },
             {
               "t": "texto",
@@ -795,7 +820,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 48
             },
             {
               "t": "texto",
@@ -826,7 +851,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 49
             },
             {
               "t": "texto",
@@ -834,7 +859,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 50
             },
             {
               "t": "texto",
@@ -851,7 +876,7 @@
             },
             {
               "t": "nota",
-              "n": 49
+              "n": 51
             },
             {
               "t": "texto",
@@ -872,7 +897,7 @@
             },
             {
               "t": "nota",
-              "n": 50
+              "n": 52
             },
             {
               "t": "texto",
@@ -895,7 +920,7 @@
             },
             {
               "t": "nota",
-              "n": 51
+              "n": 53
             },
             {
               "t": "texto",
@@ -903,7 +928,7 @@
             },
             {
               "t": "nota",
-              "n": 52
+              "n": 54
             },
             {
               "t": "texto",
@@ -911,7 +936,7 @@
             },
             {
               "t": "nota",
-              "n": 53
+              "n": 55
             },
             {
               "t": "texto",
@@ -928,7 +953,7 @@
             },
             {
               "t": "nota",
-              "n": 54
+              "n": 56
             },
             {
               "t": "texto",
@@ -951,7 +976,7 @@
             },
             {
               "t": "nota",
-              "n": 55
+              "n": 57
             },
             {
               "t": "texto",
@@ -968,7 +993,7 @@
             },
             {
               "t": "nota",
-              "n": 56
+              "n": 58
             },
             {
               "t": "texto",
@@ -976,7 +1001,24 @@
             },
             {
               "t": "nota",
-              "n": 57
+              "n": 59
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "J. D. Y. Peel observa que, como todo orixá deve dar a seus devotos os mesmos benefícios gerais, Oxum e Iemanjá, deusas de rio vistas como mansas e férteis, às vezes assumem a ferocidade de divindades masculinas "
+            },
+            {
+              "t": "nota",
+              "n": 60
             },
             {
               "t": "texto",
@@ -999,7 +1041,7 @@
             },
             {
               "t": "nota",
-              "n": 58
+              "n": 61
             },
             {
               "t": "texto",
@@ -1007,7 +1049,7 @@
             },
             {
               "t": "nota",
-              "n": 59
+              "n": 62
             },
             {
               "t": "texto",
@@ -1024,7 +1066,7 @@
             },
             {
               "t": "nota",
-              "n": 60
+              "n": 63
             },
             {
               "t": "texto",
@@ -1032,7 +1074,7 @@
             },
             {
               "t": "nota",
-              "n": 61
+              "n": 64
             },
             {
               "t": "texto",
@@ -1153,6 +1195,15 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "oxum-063"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "oxum-004"
         },
         {
@@ -1170,7 +1221,7 @@
       ]
     },
     {
-      "n": 10,
+      "n": 11,
       "itens": [
         {
           "tipo": "registro",
@@ -1183,7 +1234,7 @@
       ]
     },
     {
-      "n": 11,
+      "n": 12,
       "itens": [
         {
           "tipo": "registro",
@@ -1200,7 +1251,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 13,
       "itens": [
         {
           "tipo": "registro",
@@ -1213,7 +1264,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -1226,7 +1277,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -1235,7 +1286,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -1244,7 +1295,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -1269,7 +1320,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -1278,7 +1329,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -1295,7 +1346,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -1308,7 +1359,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -1337,7 +1388,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -1354,7 +1405,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -1371,7 +1422,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -1384,7 +1435,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -1409,7 +1460,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -1426,7 +1477,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1435,7 +1486,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1444,7 +1495,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1457,7 +1508,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1470,7 +1521,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1479,7 +1530,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1504,7 +1555,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1521,7 +1572,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1534,7 +1585,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1543,7 +1594,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1564,7 +1615,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1573,7 +1624,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1586,7 +1637,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1595,7 +1646,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1608,7 +1659,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1617,7 +1668,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1626,7 +1677,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 43,
       "itens": [
         {
           "tipo": "registro",
@@ -1635,7 +1686,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1644,7 +1695,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1661,7 +1712,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1670,7 +1721,20 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-065"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxum-066"
+        }
+      ]
+    },
+    {
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1679,7 +1743,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1688,7 +1752,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1705,7 +1769,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1714,7 +1778,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1727,7 +1791,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 53,
       "itens": [
         {
           "tipo": "registro",
@@ -1744,7 +1808,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1757,7 +1821,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 55,
       "itens": [
         {
           "tipo": "registro",
@@ -1766,7 +1830,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 56,
       "itens": [
         {
           "tipo": "registro",
@@ -1775,7 +1839,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 57,
       "itens": [
         {
           "tipo": "registro",
@@ -1792,7 +1856,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 58,
       "itens": [
         {
           "tipo": "registro",
@@ -1805,7 +1869,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 59,
       "itens": [
         {
           "tipo": "registro",
@@ -1814,7 +1878,16 @@
       ]
     },
     {
-      "n": 58,
+      "n": 60,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "oxum-064"
+        }
+      ]
+    },
+    {
+      "n": 61,
       "itens": [
         {
           "tipo": "registro",
@@ -1823,7 +1896,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 62,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1837,7 +1910,7 @@
       ]
     },
     {
-      "n": 60,
+      "n": 63,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1855,7 +1928,7 @@
       ]
     },
     {
-      "n": 61,
+      "n": 64,
       "itens": [
         {
           "tipo": "lacuna",

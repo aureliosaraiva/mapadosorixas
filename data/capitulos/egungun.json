@@ -291,6 +291,31 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Batuque de Porto Alegre, os eguns, os mortos, pertencem ao plano invisível junto com os orixás e são tidos como muito perigosos para os vivos "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": ". Recebem uma cerimônia anual, o aressum ou missa-de-eguns, que inverte em tudo o ritual dos orixás: chama o morto para perto e, no mesmo gesto, o despede, lembrando-lhe que seu lugar agora é entre os mortos "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -317,7 +342,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 23
             },
             {
               "t": "texto",
@@ -325,7 +350,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 24
             },
             {
               "t": "texto",
@@ -362,7 +387,32 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, o culto que uma linhagem ou uma cidade presta a seus antepassados comuns, os egungun, se distingue dos outros cultos de ancestrais pelas mascaradas, pelo sacerdócio especializado e pelas festas anuais; entre os egbá, a sociedade Oro ocupa lugar comparável "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". Nas últimas décadas, as mascaradas egungun viraram alvo de ataques de muçulmanos na Nigéria iorubá "
+            },
+            {
+              "t": "nota",
+              "n": 27
             },
             {
               "t": "texto",
@@ -393,7 +443,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 28
             },
             {
               "t": "texto",
@@ -431,7 +481,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 29
             },
             {
               "t": "texto",
@@ -462,7 +512,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 30
             },
             {
               "t": "texto",
@@ -483,7 +533,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 31
             },
             {
               "t": "texto",
@@ -504,7 +554,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 32
             },
             {
               "t": "texto",
@@ -527,7 +577,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 33
             },
             {
               "t": "texto",
@@ -535,7 +585,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 34
             },
             {
               "t": "texto",
@@ -558,7 +608,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 35
             },
             {
               "t": "texto",
@@ -566,7 +616,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 36
             },
             {
               "t": "texto",
@@ -574,7 +624,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 37
             },
             {
               "t": "texto",
@@ -597,7 +647,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 38
             },
             {
               "t": "texto",
@@ -605,7 +655,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 39
             },
             {
               "t": "texto",
@@ -613,7 +663,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 40
             },
             {
               "t": "texto",
@@ -835,7 +885,7 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "egungun-015"
+          "registro": "egungun-018"
         }
       ]
     },
@@ -844,12 +894,30 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "egungun-015"
+          "registro": "egungun-019"
         }
       ]
     },
     {
       "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -870,7 +938,25 @@
       ]
     },
     {
-      "n": 24,
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-016"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-017"
+        }
+      ]
+    },
+    {
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -887,7 +973,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -896,7 +982,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -913,7 +999,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -931,7 +1017,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 32,
       "itens": [
         {
           "tipo": "lacuna",
@@ -941,7 +1027,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 33,
       "itens": [
         {
           "tipo": "lacuna",
@@ -951,7 +1037,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -960,7 +1046,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 35,
       "itens": [
         {
           "tipo": "lacuna",
@@ -970,7 +1056,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -987,7 +1073,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1000,7 +1086,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 38,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1035,7 +1121,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 39,
       "itens": [
         {
           "tipo": "pendencia",
@@ -1044,7 +1130,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 40,
       "itens": [
         {
           "tipo": "pendencia",

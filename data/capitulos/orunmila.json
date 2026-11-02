@@ -141,6 +141,64 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, Ifá era talvez o mais difundido dos cultos, e um culto de homens e sem transe, enquanto boa parte dos sacerdotes e a maioria dos devotos de orixá eram mulheres "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". Os diários de missionários do século XIX registram que os babalaôs às vezes recomendavam ao cliente a conversão ao islã ou ao cristianismo, e que os missionários os respeitavam mais do que a qualquer outro sacerdote "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". Em Ilesha, a festa anual de Ifá era, com a de Ogum, uma das duas grandes festas de toda a cidade "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". No século XX, clérigos iorubás passaram a tratar Ifá como filosofia e como depósito do saber dos antepassados, e em Lagos surgiu, em 1934, uma Igreja de Orunmilá, que lê um livro dos odus sagrados em vez das escrituras cristãs "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nas Américas, os caminhos se inverteram: Ifá quase desapareceu no Brasil, que recebeu bem mais escravizados iorubás, e ganhou raízes em Havana, nas últimas décadas do século XIX, pelo trabalho de cinco babalaôs nascidos na África, tidos como fundadores dos ramos da Regla de Ifá "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -167,7 +225,7 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 15
             },
             {
               "t": "texto",
@@ -175,7 +233,7 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 16
             },
             {
               "t": "texto",
@@ -192,7 +250,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 17
             },
             {
               "t": "texto",
@@ -209,7 +267,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 18
             },
             {
               "t": "texto",
@@ -217,7 +275,32 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, o oráculo funciona com 256 figuras, os odus, obtidas pelo babalaô com nozes de palmeira; a cada uma correspondem versos que narram precedentes míticos, e o consulente escolhe entre eles o que corresponde à sua situação. A consulta também podia levar uma pessoa ao culto de determinado orixá "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": ". O próprio corpus de Ifá apresenta Orunmilá acima dos demais orixás, associado a Olodumare desde o princípio e só por ele a sabedoria divina chega aos homens "
+            },
+            {
+              "t": "nota",
+              "n": 21
             },
             {
               "t": "texto",
@@ -250,7 +333,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 22
             },
             {
               "t": "texto",
@@ -258,7 +341,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 23
             },
             {
               "t": "texto",
@@ -295,7 +378,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 24
             },
             {
               "t": "texto",
@@ -322,7 +405,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 25
             },
             {
               "t": "texto",
@@ -350,7 +433,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 26
             },
             {
               "t": "texto",
@@ -367,7 +450,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 27
             },
             {
               "t": "texto",
@@ -394,7 +477,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 28
             },
             {
               "t": "texto",
@@ -402,7 +485,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 29
             },
             {
               "t": "texto",
@@ -410,7 +493,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 30
             },
             {
               "t": "texto",
@@ -441,7 +524,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 31
             },
             {
               "t": "texto",
@@ -472,7 +555,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 32
             },
             {
               "t": "texto",
@@ -493,7 +576,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 33
             },
             {
               "t": "texto",
@@ -516,7 +599,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 34
             },
             {
               "t": "texto",
@@ -539,7 +622,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 35
             },
             {
               "t": "texto",
@@ -547,7 +630,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 36
             },
             {
               "t": "texto",
@@ -555,7 +638,24 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 37
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Para J. D. Y. Peel, a estrutura de dezesseis opções aparenta Ifá a técnicas de adivinhação nascidas na Ásia ocidental, trazidas à África subsaariana pelo islã, embora o conteúdo seja local; Ifá teria nascido como reação local ao conhecimento dos clérigos muçulmanos, adaptada à cosmologia da antiga Ifé, e sua ênfase em Olodumare o abriria ao monoteísmo "
+            },
+            {
+              "t": "nota",
+              "n": 38
             },
             {
               "t": "texto",
@@ -578,7 +678,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 39
             },
             {
               "t": "texto",
@@ -595,7 +695,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 40
             },
             {
               "t": "texto",
@@ -713,6 +813,51 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "orunmila-018"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-016"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-021"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-020"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-019"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "orunmila-001"
         },
         {
@@ -722,7 +867,7 @@
       ]
     },
     {
-      "n": 11,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -731,7 +876,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -744,7 +889,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -753,7 +898,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -766,7 +911,25 @@
       ]
     },
     {
-      "n": 15,
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-014"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-015"
+        }
+      ]
+    },
+    {
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -775,7 +938,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -784,7 +947,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -797,7 +960,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -806,7 +969,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -819,7 +982,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -832,7 +995,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -845,7 +1008,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -858,7 +1021,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -867,7 +1030,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -876,7 +1039,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -889,7 +1052,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -906,7 +1069,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -923,7 +1086,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -932,7 +1095,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -941,7 +1104,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -954,7 +1117,16 @@
       ]
     },
     {
-      "n": 31,
+      "n": 38,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "orunmila-017"
+        }
+      ]
+    },
+    {
+      "n": 39,
       "itens": [
         {
           "tipo": "lacuna",
@@ -979,7 +1151,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 40,
       "itens": [
         {
           "tipo": "pendencia",

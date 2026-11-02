@@ -55,7 +55,7 @@ Nos candomblés de caboclo, Oxóssi passa a comandar os caboclos, espíritos ind
 
 ### Batuque e Xangô do Recife
 
-No [Batuque](tradicao:batuque_rs) de Porto Alegre, Odé é filho de Iemanjá e divide dias com outras divindades. No [Xangô de Pernambuco](tradicao:xango_pernambuco), aparece como o caçador da mata, de cor verde, sem dia fixo e de possessão rara {{ref:oxossi-007,oxossi-028,oxossi-029,oxossi-030,oxossi-031}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, Odé é o caçador, casado com Otim, filho de Iemanjá, e divide dias com outras divindades {{ref:oxossi-047,oxossi-007}}. No [Xangô de Pernambuco](tradicao:xango_pernambuco), aparece como o caçador da mata, de cor verde, sem dia fixo e de possessão rara {{ref:oxossi-007,oxossi-028,oxossi-029,oxossi-030,oxossi-031}}.
 
 ### Tambor de Mina
 

@@ -21,6 +21,8 @@ No Recife, a história de Iansã se confunde com a de uma casa. No começo da d�
 
 Em Cuba, no central Méjico, em Matanzas, conta-se uma história de memória local que não é itã tradicional. Juana Campo, mulher nascida livre que recebia Oyá e Oggún, ficava trancada pelo marido em dia de festa. Um dia Oyá a possuiu, disse que não tinha senhor nem capataz, recebeu nove golpes de facão sem revidar e saiu para a festa; pouco tempo depois, o marido foi lançado do cavalo por uma centelha e fraturou as pernas, e Oyá foi rir dele junto à cama. Para quem conta, a protagonista é a própria Oyá {{ref:iansa-040}}.
 
+Na Iorubalândia, Oiá era própria do norte, por estar ligada ao rio Níger e também ao tornado {{ref:iansa-052}}.
+
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
 O vento e a tempestade são o centro do domínio. Nos candomblés baianos, Iansã governa os temporais, as chuvas fortes e as ventanias; quando dança, reproduz a tormenta e risca no ar, com a espada, círculos que brilham como o raio. Nos terreiros de Salvador e São Paulo, é a dona das tempestades, do relâmpago e dos ventos. No nagô do Recife, é a orixá feminina das tempestades e uma guerreira temível; o vento é o seu elemento, e alguns acrescentam o fogo do raio {{ref:iansa-005,iansa-022,iansa-032}}. Em Matanzas, ventos e tempestades obedecem a Oyá; a centelha lhe pertence, e o raio fica com Changó {{ref:iansa-039}}.
@@ -69,7 +71,7 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), Iansã está presente tant
 
 ### Batuque
 
-Do [Batuque](tradicao:batuque_rs) de Porto Alegre, o fichamento guarda o nome Oiá e a terça-feira dividida com Xangô {{ref:iansa-001,iansa-004}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, ela é Oiá, e a terça-feira é dividida com Xangô {{ref:iansa-001,iansa-004}}. Ali é a mulher guerreira e sensual, dona dos raios, e uma das mulheres casadas com Xangô; na dança do atã, que encerra as festas, as Iansãs encenam o momento em que ela embebeda Ogum para fugir com Xangô ([o itã](ita:ita-031)) {{ref:iansa-053,xango-073,xango-074}}.
 
 ### Tambor de Mina
 

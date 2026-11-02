@@ -425,6 +425,31 @@
           ]
         },
         {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, Olorum ou Olodumare é a origem de toda a existência, embora intervenha na vida das pessoas principalmente através dos orixás "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": ". Em 1854, em Ibadan, babalaôs que debatiam com missionários explicaram que os orixás estão para Deus como os chefes menores estão para o chefe da cidade, pontes entre as pessoas comuns e a autoridade maior "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
           "tipo": "subtitulo",
           "texto": "Candomblé"
         },
@@ -437,7 +462,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 28
             },
             {
               "t": "texto",
@@ -458,7 +483,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 29
             },
             {
               "t": "texto",
@@ -489,7 +514,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 30
             },
             {
               "t": "texto",
@@ -512,7 +537,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 31
             },
             {
               "t": "texto",
@@ -520,7 +545,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 32
             },
             {
               "t": "texto",
@@ -543,7 +568,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 33
             },
             {
               "t": "texto",
@@ -560,7 +585,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 34
             },
             {
               "t": "texto",
@@ -568,7 +593,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 35
             },
             {
               "t": "texto",
@@ -591,7 +616,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 36
             },
             {
               "t": "texto",
@@ -599,7 +624,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 37
             },
             {
               "t": "texto",
@@ -911,6 +936,24 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "olodumare-020"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olodumare-021"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "olodumare-015"
         },
         {
@@ -924,7 +967,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -937,7 +980,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -946,7 +989,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -959,7 +1002,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -968,7 +1011,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -985,7 +1028,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -994,7 +1037,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1003,7 +1046,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 36,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1038,7 +1081,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 37,
       "itens": [
         {
           "tipo": "pendencia",

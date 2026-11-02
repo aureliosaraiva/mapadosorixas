@@ -21,6 +21,8 @@ Na Bahia, os registros mais antigos são de calendário: no ciclo de festas do G
 
 No Recife, o "Rei Xangô" é o orixá mais popular da cidade {{ref:xango-040}}.
 
+No território iorubá, Xangô, lembrado como um antigo alafin de Oyó que se tornou deus do trovão, era uma divindade oyó, tida como estranha ao leste, em Ondo, Ijexá e Ekiti {{ref:xango-066}}. Os diários de missionários da época o mostram, ao lado de Ifá, como o orixá mais citado, com um culto expansivo e temido: seus sacerdotes cobravam taxas de purificação das casas atingidas por raio e, em Ondo, o culto, ainda pequeno em 1877, cresceu muito com as epidemias de varíola de 1879 e 1880 {{ref:xango-067}}. Em Oyó, sua festa ainda encarna a identidade da cidade, e o alafin, mesmo muçulmano, é visto como seu sucessor na terra {{ref:xango-070}}. Nas Américas, o destaque de Xangô chegou ao ponto de seu nome designar o próprio culto em Trinidad e em partes do Brasil {{ref:xango-071}}.
+
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
 O raio é o centro. No mito de distribuição dos elementos contado em terreiros de Salvador e São Paulo, Oxalá entrega a Xangô o trovão, o fogo e o raio, e o orixá é dono do fogo, do relâmpago e do raio, imagem do homem, da virilidade e da força. Na Bahia, é o deus do raio, e a quarta-feira, seu dia, é chamada de dia do fogo. Nos xangôs do Recife e de Olinda, ele governa as tempestades, o trovão, o raio e a eletricidade do ar {{ref:xango-020,xango-023,xango-018,xango-007,xango-044}}.
@@ -37,6 +39,8 @@ As datas de festa também variam: nos terreiros de Salvador e São Paulo, Xangô
 
 Nos terreiros paulistas de candomblé, Xangô governa o trovão e a justiça e é saudado com Kaô kabiesile {{ref:xango-057,xango-059}}. O quadro do candomblé queto amplia seu campo para o governo, os tribunais e os ofícios burocráticos, dá-lhe o trovão e a pedra de raio como elemento natural e o fogo como mítico, vestes vermelhas, marrons e brancas e contas vermelhas e brancas, o oxé de lâmina dupla e o xere de metal, e a quarta-feira {{ref:xango-060,xango-061,xango-062,xango-064,xango-063}}.
 
+Na Iorubalândia, o machado do raio é um dos emblemas que ajudam a lembrar as histórias de Xangô {{ref:xango-068}}. No Batuque de Porto Alegre, ele é o guerreiro senhor do trovão e também o dono do barulho, isto é, dos tambores e demais instrumentos sagrados; diz-se ainda que manda nos mortos, de modo que sua presença numa festa afasta os eguns {{ref:xango-072}}.
+
 ## Mitos {#mitos}
 
 Os mitos fichados sobre Xangô falam de poder, de família e de queda. O mais antigo na bibliografia é uma tradição de Oyó, na Nigéria, registrada em 1921 ([O alafin de Oyó e o palácio destruído pelo raio](ita:ita-009)): Xangô, governante tirânico que cuspia fogo, teria posto abaixo o próprio palácio ao brincar com o trovão, e com ele as esposas e os filhos; envergonhado, refugiou-se entre os nupes, povo de sua mãe, viu-se deixado pelos seus e se enforcou, e só então foi divinizado. Numa variante, a saída do rei decorre do conflito entre dois chefes militares, e os fiéis recusam a notícia da morte dizendo que o rei não se enforcou {{ref:xango-036}}.
@@ -50,6 +54,8 @@ Xangô atravessa ainda histórias de outros orixás, contadas na Bahia e nos ter
 Sobre a família de Xangô, os registros concordam em alguns pontos e divergem em outros. Nos terreiros de Salvador e São Paulo, pela filiação mais citada, ele é filho de Iemanjá e de Oxalá. As três esposas aparecem em quase todas as versões, Iansã, Obá e Oxum, mas a ordem muda: na Bahia, Iansã é a primeira delas e lança raios ao lado do marido, enquanto no Recife, conforme o relato, Obá ou Iansã pode ser a primeira, e Oxum às vezes aparece como concubina {{ref:xango-022,xango-014,xango-041}}.
 
 Nos terreiros paulistas de candomblé, lembra-se Oxum como a esposa preferida de Xangô e Iansã como sua companheira nas batalhas {{ref:oxum-054,iansa-042}}.
+
+No Batuque de Porto Alegre, conta-se que Xangô, noivo de Iansã, levava Oxalá às costas, uma função de prestígio, e o deixou cair no barro quando a viu ao longe. Ogum, que vinha atrás, ergueu o velho e foi recompensado: passou a servi-lo e ganhou Iansã, enquanto Xangô sofria um castigo humilhante. Do alto de uma pedreira, Xangô chamou Iansã para que embebedasse Ogum e fugisse com ele, e os três guerreiros acabaram lutando. A dança do atã, no fim das festas, encena Iansã embriagando Ogum ([o itã](ita:ita-031)) {{ref:xango-074,xango-073}}.
 
 ## Em cada tradição {#tradicoes}
 
@@ -69,7 +75,7 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), o orixá dá nome à próp
 
 ### Batuque
 
-Do [Batuque](tradicao:batuque_rs) de Porto Alegre, o fichamento guarda só o dia da semana, a terça, que Xangô divide com Oiá {{ref:xango-009}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, a terça-feira é de Xangô, que a divide com Oiá {{ref:xango-009}}. Ali ele é o guerreiro do trovão, o dono dos instrumentos e quem manda nos mortos; Iansã é uma de suas esposas, e ele servia a Oxalá, pai dos orixás {{ref:xango-072,xango-073}}.
 
 ### Tambor de Mina
 
@@ -94,6 +100,8 @@ Nos terreiros paulistas de candomblé, o santo de Xangô é São Jerônimo, e o 
 O debate central é o da origem, e três posições ficam lado a lado. A primeira é a do rei divinizado, que vive nos terreiros brasileiros e na santería cubana {{ref:xango-021,xango-045}}. Outra posição vem do linguista Sandro Capo Chichi, que propõe, por comparação fonológica e morfológica, que o nome venha do gbari, língua em que o deus supremo se chama "governante do céu", e tenha chegado ao iorubá de Oyó antigo passando pelo nupe, onde a primeira parte do nome foi entendida como "rei"; a ligação com a realeza viria daí, e o rei divinizado teria sido criado pela tradição para explicar o título. Capo Chichi descarta as etimologias iorubá e nupe direta de autores anteriores {{ref:xango-035}}. Na mesma direção, Akintunde Akinyemi argumenta que um alafin só seria divinizado se recebesse sepultura no mausoléu da realeza, e que em Oyó era vedado o enforcamento, o que tira credibilidade à ideia de que o rei de Koso tenha virado deus; apoiado nos versos de Ifá, situa o deus antes da formação do próprio Estado de Oyó. Ele e Isola apontaram inconsistências nas versões do enforcamento {{ref:xango-037,xango-036}}. A última é a do teólogo E. Bolaji Idowu: um alafin chamado Xangô teria sido fundido, ao ser divinizado, com uma divindade mais antiga e benévola, Jakuta, o que explicaria o caráter aparentemente contraditório do deus {{ref:xango-039}}.
 
 Outras leituras são de menor escala. Danielle Perin Rocha Pitta lê o mito de Oxalá preso no reino de Xangô como um ciclo de morte e renovação da natureza, e Sylvie Chiousse usa a hesitação de um pai de santo ao distinguir Agodô de Aganju como exemplo da variação própria da tradição oral {{ref:xango-043,xango-028}}.
+
+J. D. Y. Peel, ao discutir a mobilidade dos orixás na Iorubalândia, nota que até Xangô, o mais viril dos orixás, pode ganhar figura feminina onde chegou depois de um deus do trovão já estabelecido {{ref:xango-069}}.
 
 ## O que as fontes não dizem {#lacunas}
 

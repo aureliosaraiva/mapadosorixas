@@ -455,7 +455,15 @@
             },
             {
               "t": "texto",
-              "v": " de Porto Alegre, Odé é filho de Iemanjá e divide dias com outras divindades. No "
+              "v": " de Porto Alegre, Odé é o caçador, casado com Otim, filho de Iemanjá, e divide dias com outras divindades "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": ". No "
             },
             {
               "t": "link",
@@ -469,7 +477,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -490,7 +498,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -511,7 +519,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -534,7 +542,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -542,7 +550,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 30
             },
             {
               "t": "texto",
@@ -559,7 +567,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 31
             },
             {
               "t": "texto",
@@ -582,7 +590,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 32
             },
             {
               "t": "texto",
@@ -605,7 +613,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 33
             },
             {
               "t": "texto",
@@ -613,7 +621,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 34
             },
             {
               "t": "texto",
@@ -621,7 +629,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 35
             },
             {
               "t": "texto",
@@ -638,7 +646,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 36
             },
             {
               "t": "texto",
@@ -1029,6 +1037,19 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "oxossi-047"
+        },
+        {
+          "tipo": "registro",
+          "registro": "oxossi-007"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "oxossi-007"
         },
         {
@@ -1050,7 +1071,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1059,7 +1080,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1068,7 +1089,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1085,7 +1106,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1094,7 +1115,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1103,7 +1124,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1124,7 +1145,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1139,7 +1160,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1152,7 +1173,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1165,7 +1186,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "itens": [
         {
           "tipo": "pendencia",

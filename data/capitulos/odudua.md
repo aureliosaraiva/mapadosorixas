@@ -19,6 +19,8 @@ Na Bahia, as pistas são poucas e antigas. Em Salvador, no fim do século XIX, r
 
 No território iorubá, a história do culto se mistura à da realeza. Numa tradição que um filósofo iorubá retoma de outro autor, Oduduwa, depois de criar a terra firme, torna-se o primeiro soberano divino de Ilê-Ifẹ̀, e a passagem do deus ao rei daria fundamento à monarquia iorubá, espelho da ordem de Olodumare {{ref:odudua-010}}.
 
+Na Iorubalândia, os reinos iorubás só se uniram politicamente e passaram a partilhar um nome no século XX, mas se reconheciam aparentados porque todos os seus reis diziam descender de Odudua, que teria reinado em Ilê-Ifé; a cidade era tida como o centro do culto e o lugar da criação dos seres humanos {{ref:odudua-020}}. No fim do século XX, o Ọọni, soberano de Ifé tido como o próprio Odudua renascido, abriu mão da condição divina, pressionado pelo cristianismo evangélico, enquanto a cidade se tornava destino de peregrinos vindos das Américas {{ref:odudua-022}}.
+
 ## A terra e o casal primordial {#dominios-e-simbolos}
 
 No relato colonial de 1894, colhido entre sacerdotes de Lagos e arredores, Odudua é a principal deusa e esposa de Obatala. Ele teria sido feito por Olorun; ela existiria desde o princípio, ao lado dele, embora outros informantes lhe dessem a mesma origem dos outros deuses, em Ifẹ̀. O casal figura o céu e a terra, e o símbolo são duas cabaças sobrepostas que, uma vez fechadas, não voltam a se abrir. Alguns sacerdotes chegaram a dizer ao oficial que Obatala e Odudua formariam uma única divindade, masculina e feminina, mas a maioria os via como dois {{ref:odudua-001,odudua-003}}. Na Bahia, o mesmo par reaparece: o céu cabe a Obatalá e a terra, a Odudua, e nos candomblés nagôs de Salvador ela é quem ajuda Oxalá a terminar a criação {{ref:odudua-011,odudua-012}}.
@@ -38,6 +40,8 @@ Os outros mitos vêm de documentos coloniais e pedem a cautela devida a relatos 
 ### Culto iorubá na Nigéria
 
 No [culto iorubá](tradicao:ioruba_nigeria), Odudua é ao mesmo tempo deusa da terra (sobretudo no relato colonial de 1894), ancestral das dinastias e criador da terra firme, conforme a narrativa; o sexo muda do litoral para Ifẹ̀, e a autonomia diante de Olorun também é discutida {{ref:odudua-001,odudua-005,odudua-014,odudua-009}}.
+
+A própria figura de Odudua varia no território iorubá: no centro-leste é um antepassado, homem e rei de Ifé; no sudoeste, uma deusa, esposa do criador {{ref:odudua-021}}.
 
 ### Candomblé
 

@@ -25,6 +25,8 @@ Os documentos mais antigos sobre a figura africana pedem leitura cautelosa. Um r
 
 Em Cuba, na santería do central Méjico, em Matanzas, Obatalá está entre os orixás maiores que o iniciado recebe, com Yemayá, Changó e Ochún {{ref:iemanja-054}}.
 
+Nos diários de missionários do século XIX, Obatalá é muito citado em Abeokuta e tinha equivalentes locais: em Ilesha, Orixá Onifon; em Ibadan, Ogiyan, um dos orixás brancos, que estava entre os três grandes cultos da cidade {{ref:oxala-079}}. Na mesma época, um babalaô de Ibadan contava Orixalá, com Ifá, entre as divindades que salvam, em oposição às que destroem {{ref:oxala-081}}. Seu pano branco é um dos símbolos que ajudavam a lembrar as histórias dos orixás, e o nome Orixalá é o que ele recebe no Brasil {{ref:oxala-078,oxala-080}}.
+
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
 Oxalá é antes de tudo o criador. Nos candomblés baianos, foi ele quem moldou a terra e o primeiro casal humano, e por isso a maior parte da iniciação, pensada como a formação de uma pessoa nova, fica sob sua regência; as roupas brancas desse período mostram esse amparo. Nos terreiros de Salvador e São Paulo, ele reina sobre a abóbada celeste, coordena a ação dos demais orixás e rege também as atividades da inteligência. Na Bahia, o céu é o aspecto da natureza que lhe corresponde, e o ar, o elemento {{ref:oxala-005,oxala-044,oxala-006}}.
@@ -77,7 +79,7 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), os dois aspectos são bem 
 
 ### Batuque
 
-Do [Batuque](tradicao:batuque_rs) de Porto Alegre, o fichamento só guarda o dia de festa, o domingo {{ref:oxala-016}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, o dia de festa de Oxalá é o domingo {{ref:oxala-016}}. Ali ninguém é mais velho do que ele, e todos os orixás o têm por pai; na história encenada na dança do atã, é o Velho que Xangô deixa cair no barro e que Ogum recolhe ([o itã](ita:ita-031)) {{ref:oxala-082,xango-074}}.
 
 ### Tambor de Mina
 

@@ -217,6 +217,39 @@
               "v": "."
             }
           ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos diários de missionários oitocentistas, Exu só perde para Ifá em número de menções no leste iorubá, e estava entre os principais cultos públicos de Ondo nos anos 1870 "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". Um babalaô de Ibadan explicou em 1855 que as guerras eram castigo divino, levado aos homens por Exu, que é a desordem, e por Ogum, que é a guerra; aquele tempo de conflitos ficou lembrado como uma era de confusão sob Exu, o trapaceiro "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": ". Exu-Elegbá tinha devotos também entre vizinhos de outras etnias e foi um dos que resistiram à travessia para as Américas "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
         }
       ]
     },
@@ -233,7 +266,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 18
             },
             {
               "t": "texto",
@@ -241,7 +274,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 19
             },
             {
               "t": "texto",
@@ -249,62 +282,11 @@
             },
             {
               "t": "nota",
-              "n": 17
-            },
-            {
-              "t": "texto",
-              "v": ". Exu se liga ainda ao sexo que dá origem aos filhos e mantém vivas as linhagens, vínculo tornado visível nos emblemas fálicos "
-            },
-            {
-              "t": "nota",
-              "n": 18
-            },
-            {
-              "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "Os lugares de Exu são os de passagem. Na África Ocidental, o culto se faz sobretudo nas encruzilhadas, nas fronteiras das moradias e nos mercados; no Brasil a lista cresce e inclui matas, cemitérios, estradas de terra, praias e portas de loja. Na Bahia, cabe a Exu iniciar a semana por ser o deus de tudo o que se abre: ele guarda a porta do terreiro e também a do tempo "
-            },
-            {
-              "t": "nota",
-              "n": 19
-            },
-            {
-              "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "Exu é também múltiplo, e aqui as contagens divergem. No Candomblé de raiz iorubá, há um guardião para cada casa, rua, cidade e mercado, e um Exu particular para cada pessoa; nos terreiros de Salvador e São Paulo, cada pessoa e cada orixá teria o seu, num total de pelo menos 21 segundo algumas casas. Outra contagem fala em menos de dez avatares no candomblé, como Tiriri, Lonã e Marabô, e em legiões inteiras na Umbanda "
-            },
-            {
-              "t": "nota",
               "n": 20
             },
             {
               "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "Entre os símbolos estão o tridente de ferro dos assentamentos do candomblé e os \"garfos\" com que os exus são assentados nas tronqueiras da Umbanda. Em Salvador e São Paulo correm duas representações: uma figura negra com chifres e o sexo à mostra, à maneira do diabo, ou um simples monte de terra em forma de falo "
+              "v": ". Exu se liga ainda ao sexo que dá origem aos filhos e mantém vivas as linhagens, vínculo tornado visível nos emblemas fálicos "
             },
             {
               "t": "nota",
@@ -321,7 +303,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "As cores mais citadas, em Salvador e São Paulo, são o vermelho e o preto. No nagô do Recife entram vermelho, preto e branco, este só em certas oferendas, e na santería de Matanzas o colar de Elegguá combina preto e vermelho "
+              "v": "Os lugares de Exu são os de passagem. Na África Ocidental, o culto se faz sobretudo nas encruzilhadas, nas fronteiras das moradias e nos mercados; no Brasil a lista cresce e inclui matas, cemitérios, estradas de terra, praias e portas de loja. Na Bahia, cabe a Exu iniciar a semana por ser o deus de tudo o que se abre: ele guarda a porta do terreiro e também a do tempo "
             },
             {
               "t": "nota",
@@ -338,7 +320,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "A segunda-feira é o dia mais citado, mas com companhias e pesos distintos. Na distribuição baiana mais comum e também no Ilê Axé Opô Afonjá, ela é de Exu e de Omolu, dupla que se explica pelo perigo que ambos representam para quem os despreza e por serem divindades da terra. Em Porto Alegre, Bará abre a semana na segunda. No nagô do Recife, a segunda é preferida para os trabalhos de Exu, mas sem obrigação "
+              "v": "Exu é também múltiplo, e aqui as contagens divergem. No Candomblé de raiz iorubá, há um guardião para cada casa, rua, cidade e mercado, e um Exu particular para cada pessoa; nos terreiros de Salvador e São Paulo, cada pessoa e cada orixá teria o seu, num total de pelo menos 21 segundo algumas casas. Outra contagem fala em menos de dez avatares no candomblé, como Tiriri, Lonã e Marabô, e em legiões inteiras na Umbanda "
             },
             {
               "t": "nota",
@@ -346,7 +328,16 @@
             },
             {
               "t": "texto",
-              "v": ". Um esquema de 1912, de um etnólogo alemão, documento de época, punha Exu a leste numa semana iorubá de quatro dias "
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Entre os símbolos estão o tridente de ferro dos assentamentos do candomblé e os \"garfos\" com que os exus são assentados nas tronqueiras da Umbanda. Em Salvador e São Paulo correm duas representações: uma figura negra com chifres e o sexo à mostra, à maneira do diabo, ou um simples monte de terra em forma de falo "
             },
             {
               "t": "nota",
@@ -363,7 +354,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Toda cerimônia do candomblé começa com uma homenagem a Exu, o padê, que na Bahia se explicava pela função de mensageiro, ainda que alguns a justificassem pelo receio de que Exu perturbasse a festa. Nos terreiros de Salvador e São Paulo, festa nenhuma se inicia sem essa oferenda, e o 24 de agosto é data de celebração particular de Exu "
+              "v": "As cores mais citadas, em Salvador e São Paulo, são o vermelho e o preto. No nagô do Recife entram vermelho, preto e branco, este só em certas oferendas, e na santería de Matanzas o colar de Elegguá combina preto e vermelho "
             },
             {
               "t": "nota",
@@ -380,7 +371,7 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "Nos terreiros paulistas de candomblé, os traços mais citados fazem de Exu o mensageiro astuto que abre toda cerimônia com a primeira homenagem, de modo a não se irritar e desandar o rito, e o vigia das encruzilhadas e das portas que dão para a rua; entre seus emblemas estão tridentes de ferro e um porrete fálico, e o cumprimento que recebe é Laroyê "
+              "v": "A segunda-feira é o dia mais citado, mas com companhias e pesos distintos. Na distribuição baiana mais comum e também no Ilê Axé Opô Afonjá, ela é de Exu e de Omolu, dupla que se explica pelo perigo que ambos representam para quem os despreza e por serem divindades da terra. Em Porto Alegre, Bará abre a semana na segunda. No nagô do Recife, a segunda é preferida para os trabalhos de Exu, mas sem obrigação "
             },
             {
               "t": "nota",
@@ -388,7 +379,7 @@
             },
             {
               "t": "texto",
-              "v": ". Um quadro do candomblé queto põe sob sua proteção a comunicação, a transformação e a potência sexual, dá-lhe o minério de ferro como elemento natural e o fogo com a terra como elemento mítico, as cores vermelha e preta e a segunda-feira "
+              "v": ". Um esquema de 1912, de um etnólogo alemão, documento de época, punha Exu a leste numa semana iorubá de quatro dias "
             },
             {
               "t": "nota",
@@ -396,11 +387,53 @@
             },
             {
               "t": "texto",
-              "v": ". Na festa afroumbandista de Iemanjá em Montevidéu, pesquisadores observam que as ruas e suas esquinas são a casa de Exu por excelência, e na areia aparece uma imagem de Exu Asa Negra "
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Toda cerimônia do candomblé começa com uma homenagem a Exu, o padê, que na Bahia se explicava pela função de mensageiro, ainda que alguns a justificassem pelo receio de que Exu perturbasse a festa. Nos terreiros de Salvador e São Paulo, festa nenhuma se inicia sem essa oferenda, e o 24 de agosto é data de celebração particular de Exu "
             },
             {
               "t": "nota",
               "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros paulistas de candomblé, os traços mais citados fazem de Exu o mensageiro astuto que abre toda cerimônia com a primeira homenagem, de modo a não se irritar e desandar o rito, e o vigia das encruzilhadas e das portas que dão para a rua; entre seus emblemas estão tridentes de ferro e um porrete fálico, e o cumprimento que recebe é Laroyê "
+            },
+            {
+              "t": "nota",
+              "n": 29
+            },
+            {
+              "t": "texto",
+              "v": ". Um quadro do candomblé queto põe sob sua proteção a comunicação, a transformação e a potência sexual, dá-lhe o minério de ferro como elemento natural e o fogo com a terra como elemento mítico, as cores vermelha e preta e a segunda-feira "
+            },
+            {
+              "t": "nota",
+              "n": 30
+            },
+            {
+              "t": "texto",
+              "v": ". Na festa afroumbandista de Iemanjá em Montevidéu, pesquisadores observam que as ruas e suas esquinas são a casa de Exu por excelência, e na areia aparece uma imagem de Exu Asa Negra "
+            },
+            {
+              "t": "nota",
+              "n": 31
             },
             {
               "t": "texto",
@@ -433,7 +466,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 32
             },
             {
               "t": "texto",
@@ -460,7 +493,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 33
             },
             {
               "t": "texto",
@@ -497,7 +530,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 34
             },
             {
               "t": "texto",
@@ -515,7 +548,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 35
             },
             {
               "t": "texto",
@@ -538,7 +571,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 36
             },
             {
               "t": "texto",
@@ -559,7 +592,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 37
             },
             {
               "t": "texto",
@@ -576,7 +609,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 38
             },
             {
               "t": "texto",
@@ -597,7 +630,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 39
             },
             {
               "t": "texto",
@@ -618,7 +651,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 40
             },
             {
               "t": "texto",
@@ -649,7 +682,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 41
             },
             {
               "t": "texto",
@@ -657,7 +690,15 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 42
+            },
+            {
+              "t": "texto",
+              "v": ". Ali Bará manda nas ruas e nas encruzilhadas; há um Bará que vive na rua, o Lodê, e outro que fica no interior da casa, o Jelu; lembra-se também que em quase toda a área de influência nagô ele é chamado Elegbara ou Legba "
+            },
+            {
+              "t": "nota",
+              "n": 43
             },
             {
               "t": "texto",
@@ -675,7 +716,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 44
             },
             {
               "t": "texto",
@@ -696,7 +737,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 45
             },
             {
               "t": "texto",
@@ -704,7 +745,7 @@
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 46
             },
             {
               "t": "texto",
@@ -712,7 +753,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 47
             },
             {
               "t": "texto",
@@ -720,7 +761,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 48
             },
             {
               "t": "texto",
@@ -751,7 +792,7 @@
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 49
             },
             {
               "t": "texto",
@@ -768,7 +809,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 50
             },
             {
               "t": "texto",
@@ -776,7 +817,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 51
             },
             {
               "t": "texto",
@@ -793,7 +834,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 52
             },
             {
               "t": "texto",
@@ -814,7 +855,7 @@
             },
             {
               "t": "nota",
-              "n": 49
+              "n": 53
             },
             {
               "t": "texto",
@@ -822,7 +863,7 @@
             },
             {
               "t": "nota",
-              "n": 50
+              "n": 54
             },
             {
               "t": "texto",
@@ -830,7 +871,7 @@
             },
             {
               "t": "nota",
-              "n": 51
+              "n": 55
             },
             {
               "t": "texto",
@@ -853,7 +894,7 @@
             },
             {
               "t": "nota",
-              "n": 52
+              "n": 56
             },
             {
               "t": "texto",
@@ -870,7 +911,7 @@
             },
             {
               "t": "nota",
-              "n": 53
+              "n": 57
             },
             {
               "t": "texto",
@@ -878,7 +919,7 @@
             },
             {
               "t": "nota",
-              "n": 54
+              "n": 58
             },
             {
               "t": "texto",
@@ -895,7 +936,7 @@
             },
             {
               "t": "nota",
-              "n": 55
+              "n": 59
             },
             {
               "t": "texto",
@@ -918,7 +959,7 @@
             },
             {
               "t": "nota",
-              "n": 56
+              "n": 60
             },
             {
               "t": "texto",
@@ -926,7 +967,7 @@
             },
             {
               "t": "nota",
-              "n": 57
+              "n": 61
             },
             {
               "t": "texto",
@@ -943,7 +984,7 @@
             },
             {
               "t": "nota",
-              "n": 58
+              "n": 62
             },
             {
               "t": "texto",
@@ -951,7 +992,7 @@
             },
             {
               "t": "nota",
-              "n": 59
+              "n": 63
             },
             {
               "t": "texto",
@@ -959,7 +1000,7 @@
             },
             {
               "t": "nota",
-              "n": 60
+              "n": 64
             },
             {
               "t": "texto",
@@ -976,7 +1017,7 @@
             },
             {
               "t": "nota",
-              "n": 61
+              "n": 65
             },
             {
               "t": "texto",
@@ -999,7 +1040,7 @@
             },
             {
               "t": "nota",
-              "n": 62
+              "n": 66
             },
             {
               "t": "texto",
@@ -1016,7 +1057,7 @@
             },
             {
               "t": "nota",
-              "n": 63
+              "n": 67
             },
             {
               "t": "texto",
@@ -1024,7 +1065,7 @@
             },
             {
               "t": "nota",
-              "n": 64
+              "n": 68
             },
             {
               "t": "texto",
@@ -1032,7 +1073,7 @@
             },
             {
               "t": "nota",
-              "n": 65
+              "n": 69
             },
             {
               "t": "texto",
@@ -1227,6 +1268,33 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "exu-115"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-116"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-117"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "exu-024"
         },
         {
@@ -1236,7 +1304,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -1249,7 +1317,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -1258,7 +1326,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -1267,7 +1335,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -1284,7 +1352,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -1301,7 +1369,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -1314,7 +1382,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -1331,7 +1399,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -1356,7 +1424,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1365,7 +1433,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1382,7 +1450,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1399,7 +1467,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1420,7 +1488,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1429,7 +1497,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1442,7 +1510,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1451,7 +1519,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1464,7 +1532,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1477,7 +1545,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1490,7 +1558,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1503,7 +1571,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1512,7 +1580,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1525,7 +1593,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1542,7 +1610,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1555,7 +1623,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1564,7 +1632,24 @@
       ]
     },
     {
-      "n": 40,
+      "n": 43,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-118"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-120"
+        },
+        {
+          "tipo": "registro",
+          "registro": "exu-119"
+        }
+      ]
+    },
+    {
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1577,7 +1662,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1594,7 +1679,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1607,7 +1692,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1616,7 +1701,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1625,7 +1710,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1642,7 +1727,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1655,7 +1740,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1672,7 +1757,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1693,7 +1778,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 53,
       "itens": [
         {
           "tipo": "registro",
@@ -1702,7 +1787,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1715,7 +1800,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 55,
       "itens": [
         {
           "tipo": "registro",
@@ -1728,7 +1813,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 56,
       "itens": [
         {
           "tipo": "registro",
@@ -1745,7 +1830,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 57,
       "itens": [
         {
           "tipo": "registro",
@@ -1766,7 +1851,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 58,
       "itens": [
         {
           "tipo": "registro",
@@ -1779,7 +1864,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 59,
       "itens": [
         {
           "tipo": "registro",
@@ -1788,7 +1873,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 60,
       "itens": [
         {
           "tipo": "registro",
@@ -1801,7 +1886,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 61,
       "itens": [
         {
           "tipo": "registro",
@@ -1814,7 +1899,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 62,
       "itens": [
         {
           "tipo": "registro",
@@ -1827,7 +1912,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 63,
       "itens": [
         {
           "tipo": "registro",
@@ -1844,7 +1929,7 @@
       ]
     },
     {
-      "n": 60,
+      "n": 64,
       "itens": [
         {
           "tipo": "registro",
@@ -1857,7 +1942,7 @@
       ]
     },
     {
-      "n": 61,
+      "n": 65,
       "itens": [
         {
           "tipo": "registro",
@@ -1870,7 +1955,7 @@
       ]
     },
     {
-      "n": 62,
+      "n": 66,
       "itens": [
         {
           "tipo": "registro",
@@ -1887,7 +1972,7 @@
       ]
     },
     {
-      "n": 63,
+      "n": 67,
       "itens": [
         {
           "tipo": "lacuna",
@@ -1897,7 +1982,7 @@
       ]
     },
     {
-      "n": 64,
+      "n": 68,
       "itens": [
         {
           "tipo": "registro",
@@ -1906,7 +1991,7 @@
       ]
     },
     {
-      "n": 65,
+      "n": 69,
       "itens": [
         {
           "tipo": "pendencia",

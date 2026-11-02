@@ -144,6 +144,23 @@
           ]
         },
         {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na Iorubalândia, Iemanjá pertencia sobretudo ao oeste. Hoje, na Nigéria, os escritos pentecostais a atacam, ao lado de Mami Wata e Olokun, como divindade feminina ligada à riqueza "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
           "tipo": "subtitulo",
           "texto": "As estátuas do litoral"
         },
@@ -156,7 +173,7 @@
             },
             {
               "t": "nota",
-              "n": 9
+              "n": 10
             },
             {
               "t": "texto",
@@ -164,7 +181,7 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 11
             },
             {
               "t": "texto",
@@ -205,7 +222,7 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 12
             },
             {
               "t": "texto",
@@ -213,7 +230,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 13
             },
             {
               "t": "texto",
@@ -230,7 +247,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 14
             },
             {
               "t": "texto",
@@ -238,7 +255,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 15
             },
             {
               "t": "texto",
@@ -255,7 +272,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 16
             },
             {
               "t": "texto",
@@ -276,7 +293,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 17
             },
             {
               "t": "texto",
@@ -284,7 +301,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 18
             },
             {
               "t": "texto",
@@ -292,7 +309,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 19
             },
             {
               "t": "texto",
@@ -309,7 +326,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 20
             },
             {
               "t": "texto",
@@ -332,7 +349,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -340,7 +357,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -357,7 +374,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -365,7 +382,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -373,7 +390,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -390,7 +407,7 @@
             },
             {
               "t": "nota",
-              "n": 25
+              "n": 26
             },
             {
               "t": "texto",
@@ -398,7 +415,7 @@
             },
             {
               "t": "nota",
-              "n": 26
+              "n": 27
             },
             {
               "t": "texto",
@@ -415,7 +432,7 @@
             },
             {
               "t": "nota",
-              "n": 27
+              "n": 28
             },
             {
               "t": "texto",
@@ -423,7 +440,7 @@
             },
             {
               "t": "nota",
-              "n": 28
+              "n": 29
             },
             {
               "t": "texto",
@@ -440,7 +457,7 @@
             },
             {
               "t": "nota",
-              "n": 29
+              "n": 30
             },
             {
               "t": "texto",
@@ -448,7 +465,7 @@
             },
             {
               "t": "nota",
-              "n": 30
+              "n": 31
             },
             {
               "t": "texto",
@@ -481,7 +498,7 @@
             },
             {
               "t": "nota",
-              "n": 31
+              "n": 32
             },
             {
               "t": "texto",
@@ -498,7 +515,7 @@
             },
             {
               "t": "nota",
-              "n": 32
+              "n": 33
             },
             {
               "t": "texto",
@@ -515,7 +532,7 @@
             },
             {
               "t": "nota",
-              "n": 33
+              "n": 34
             },
             {
               "t": "texto",
@@ -523,7 +540,7 @@
             },
             {
               "t": "nota",
-              "n": 34
+              "n": 35
             },
             {
               "t": "texto",
@@ -531,7 +548,7 @@
             },
             {
               "t": "nota",
-              "n": 35
+              "n": 36
             },
             {
               "t": "texto",
@@ -558,7 +575,7 @@
             },
             {
               "t": "nota",
-              "n": 36
+              "n": 37
             },
             {
               "t": "texto",
@@ -566,7 +583,7 @@
             },
             {
               "t": "nota",
-              "n": 37
+              "n": 38
             },
             {
               "t": "texto",
@@ -587,7 +604,7 @@
             },
             {
               "t": "nota",
-              "n": 38
+              "n": 39
             },
             {
               "t": "texto",
@@ -595,7 +612,7 @@
             },
             {
               "t": "nota",
-              "n": 39
+              "n": 40
             },
             {
               "t": "texto",
@@ -626,7 +643,7 @@
             },
             {
               "t": "nota",
-              "n": 40
+              "n": 41
             },
             {
               "t": "texto",
@@ -634,7 +651,7 @@
             },
             {
               "t": "nota",
-              "n": 41
+              "n": 42
             },
             {
               "t": "texto",
@@ -661,11 +678,11 @@
             },
             {
               "t": "texto",
-              "v": " de Porto Alegre, o fichamento guarda o dia de Iemanjá, a sexta-feira partilhada com Odé "
+              "v": " de Porto Alegre, as águas salgadas pertencem a Iemanjá, e seu dia é a sexta-feira, partilhada com Odé "
             },
             {
               "t": "nota",
-              "n": 42
+              "n": 43
             },
             {
               "t": "texto",
@@ -686,7 +703,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 44
             },
             {
               "t": "texto",
@@ -694,7 +711,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 45
             },
             {
               "t": "texto",
@@ -702,7 +719,7 @@
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 46
             },
             {
               "t": "texto",
@@ -733,7 +750,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 47
             },
             {
               "t": "texto",
@@ -741,7 +758,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 48
             },
             {
               "t": "texto",
@@ -749,7 +766,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 49
             },
             {
               "t": "texto",
@@ -759,22 +776,24 @@
         },
         {
           "tipo": "subtitulo",
-          "texto": "No Uruguai: Umbanda e Batuque"
+          "texto": "No Uruguai: as religiões afroumbandistas"
         },
         {
           "tipo": "paragrafo",
           "tokens": [
             {
               "t": "texto",
-              "v": "No Uruguai, onde se fala em religiões afroumbandistas, a Umbanda e o Batuque de origem gaúcha convivem com a quimbanda e o candomblé, e muitas casas se reúnem em federações que, desde a década de 2000, falam por elas diante do Estado "
+              "v": "No Uruguai, onde se fala em "
             },
             {
-              "t": "nota",
-              "n": 49
+              "t": "link",
+              "rotulo": "religiões afroumbandistas",
+              "tipo": "tradicao",
+              "alvo": "afroumbanda_uruguai"
             },
             {
               "t": "texto",
-              "v": ". O calendário dessas casas é quase todo interno, e as únicas festas abertas ao público são a de Iemanjá, em 2 de fevereiro, e a de Oxum, em 8 de dezembro "
+              "v": ", a Umbanda e o Batuque de origem gaúcha convivem com a quimbanda e o candomblé, e muitas casas se reúnem em federações que, desde a década de 2000, falam por elas diante do Estado "
             },
             {
               "t": "nota",
@@ -782,7 +801,7 @@
             },
             {
               "t": "texto",
-              "v": ". Na Playa Ramírez, em Montevidéu, há quem acampe na véspera para garantir o lugar das tendas dos pais e mães de santo; ao longo do dia, os fiéis deixam flores no rio, rezam e se banham, saindo da água de frente para ela, e, quando escurece, crescem os transes e se acendem velas em covas na areia, entre frutas e flores brancas oferecidas "
+              "v": ". O calendário dessas casas é quase todo interno, e as únicas festas abertas ao público são a de Iemanjá, em 2 de fevereiro, e a de Oxum, em 8 de dezembro "
             },
             {
               "t": "nota",
@@ -790,11 +809,19 @@
             },
             {
               "t": "texto",
-              "v": ". Nas tendas veem-se imagens da orixá, algumas centenárias, e uma sacerdotisa diz que as melhores vêm de Porto Alegre e da Argentina "
+              "v": ". Na Playa Ramírez, em Montevidéu, há quem acampe na véspera para garantir o lugar das tendas dos pais e mães de santo; ao longo do dia, os fiéis deixam flores no rio, rezam e se banham, saindo da água de frente para ela, e, quando escurece, crescem os transes e se acendem velas em covas na areia, entre frutas e flores brancas oferecidas "
             },
             {
               "t": "nota",
               "n": 52
+            },
+            {
+              "t": "texto",
+              "v": ". Nas tendas veem-se imagens da orixá, algumas centenárias, e uma sacerdotisa diz que as melhores vêm de Porto Alegre e da Argentina "
+            },
+            {
+              "t": "nota",
+              "n": 53
             },
             {
               "t": "texto",
@@ -815,7 +842,7 @@
             },
             {
               "t": "nota",
-              "n": 53
+              "n": 54
             },
             {
               "t": "texto",
@@ -838,7 +865,7 @@
             },
             {
               "t": "nota",
-              "n": 54
+              "n": 55
             },
             {
               "t": "texto",
@@ -846,7 +873,7 @@
             },
             {
               "t": "nota",
-              "n": 55
+              "n": 56
             },
             {
               "t": "texto",
@@ -854,7 +881,7 @@
             },
             {
               "t": "nota",
-              "n": 56
+              "n": 57
             },
             {
               "t": "texto",
@@ -871,7 +898,7 @@
             },
             {
               "t": "nota",
-              "n": 57
+              "n": 58
             },
             {
               "t": "texto",
@@ -879,7 +906,7 @@
             },
             {
               "t": "nota",
-              "n": 58
+              "n": 59
             },
             {
               "t": "texto",
@@ -902,7 +929,7 @@
             },
             {
               "t": "nota",
-              "n": 59
+              "n": 60
             },
             {
               "t": "texto",
@@ -910,7 +937,7 @@
             },
             {
               "t": "nota",
-              "n": 60
+              "n": 61
             },
             {
               "t": "texto",
@@ -927,7 +954,7 @@
             },
             {
               "t": "nota",
-              "n": 61
+              "n": 62
             },
             {
               "t": "texto",
@@ -935,7 +962,7 @@
             },
             {
               "t": "nota",
-              "n": 62
+              "n": 63
             },
             {
               "t": "texto",
@@ -958,7 +985,7 @@
             },
             {
               "t": "nota",
-              "n": 63
+              "n": 64
             },
             {
               "t": "texto",
@@ -966,7 +993,7 @@
             },
             {
               "t": "nota",
-              "n": 64
+              "n": 65
             },
             {
               "t": "texto",
@@ -974,7 +1001,7 @@
             },
             {
               "t": "nota",
-              "n": 65
+              "n": 66
             },
             {
               "t": "texto",
@@ -982,7 +1009,7 @@
             },
             {
               "t": "nota",
-              "n": 66
+              "n": 67
             },
             {
               "t": "texto",
@@ -990,7 +1017,7 @@
             },
             {
               "t": "nota",
-              "n": 67
+              "n": 68
             },
             {
               "t": "texto",
@@ -1115,12 +1142,21 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "iemanja-067"
+          "registro": "iemanja-096"
         }
       ]
     },
     {
       "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-067"
+        }
+      ]
+    },
+    {
+      "n": 11,
       "itens": [
         {
           "tipo": "registro",
@@ -1133,7 +1169,7 @@
       ]
     },
     {
-      "n": 11,
+      "n": 12,
       "itens": [
         {
           "tipo": "registro",
@@ -1146,7 +1182,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 13,
       "itens": [
         {
           "tipo": "registro",
@@ -1155,7 +1191,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -1164,7 +1200,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -1177,7 +1213,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -1194,7 +1230,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -1203,7 +1239,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "itens": [
         {
           "tipo": "registro",
@@ -1212,7 +1248,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "itens": [
         {
           "tipo": "registro",
@@ -1221,7 +1257,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -1230,7 +1266,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "itens": [
         {
           "tipo": "registro",
@@ -1251,7 +1287,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "registro",
@@ -1264,7 +1300,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -1281,7 +1317,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "registro",
@@ -1290,7 +1326,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "registro",
@@ -1303,7 +1339,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "itens": [
         {
           "tipo": "registro",
@@ -1332,7 +1368,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "itens": [
         {
           "tipo": "registro",
@@ -1341,7 +1377,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "itens": [
         {
           "tipo": "registro",
@@ -1354,7 +1390,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "itens": [
         {
           "tipo": "registro",
@@ -1363,7 +1399,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "itens": [
         {
           "tipo": "registro",
@@ -1384,7 +1420,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "itens": [
         {
           "tipo": "registro",
@@ -1393,7 +1429,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "itens": [
         {
           "tipo": "registro",
@@ -1402,7 +1438,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "itens": [
         {
           "tipo": "registro",
@@ -1411,7 +1447,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "itens": [
         {
           "tipo": "registro",
@@ -1424,7 +1460,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "itens": [
         {
           "tipo": "registro",
@@ -1437,7 +1473,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "itens": [
         {
           "tipo": "registro",
@@ -1450,7 +1486,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "itens": [
         {
           "tipo": "registro",
@@ -1459,7 +1495,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "itens": [
         {
           "tipo": "registro",
@@ -1476,7 +1512,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "itens": [
         {
           "tipo": "registro",
@@ -1489,7 +1525,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "itens": [
         {
           "tipo": "registro",
@@ -1498,7 +1534,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "itens": [
         {
           "tipo": "registro",
@@ -1523,7 +1559,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "itens": [
         {
           "tipo": "registro",
@@ -1532,8 +1568,12 @@
       ]
     },
     {
-      "n": 42,
+      "n": 43,
       "itens": [
+        {
+          "tipo": "registro",
+          "registro": "iemanja-097"
+        },
         {
           "tipo": "registro",
           "registro": "iemanja-009"
@@ -1541,7 +1581,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "itens": [
         {
           "tipo": "registro",
@@ -1550,7 +1590,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1567,7 +1607,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1580,7 +1620,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1589,7 +1629,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1602,7 +1642,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1615,7 +1655,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1624,7 +1664,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1637,7 +1677,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1650,7 +1690,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 53,
       "itens": [
         {
           "tipo": "registro",
@@ -1659,7 +1699,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1672,7 +1712,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 55,
       "itens": [
         {
           "tipo": "registro",
@@ -1689,7 +1729,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 56,
       "itens": [
         {
           "tipo": "registro",
@@ -1702,7 +1742,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 57,
       "itens": [
         {
           "tipo": "registro",
@@ -1711,7 +1751,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 58,
       "itens": [
         {
           "tipo": "registro",
@@ -1720,7 +1760,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 59,
       "itens": [
         {
           "tipo": "registro",
@@ -1737,7 +1777,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 60,
       "itens": [
         {
           "tipo": "registro",
@@ -1754,7 +1794,7 @@
       ]
     },
     {
-      "n": 60,
+      "n": 61,
       "itens": [
         {
           "tipo": "registro",
@@ -1767,7 +1807,7 @@
       ]
     },
     {
-      "n": 61,
+      "n": 62,
       "itens": [
         {
           "tipo": "registro",
@@ -1776,7 +1816,7 @@
       ]
     },
     {
-      "n": 62,
+      "n": 63,
       "itens": [
         {
           "tipo": "registro",
@@ -1785,7 +1825,7 @@
       ]
     },
     {
-      "n": 63,
+      "n": 64,
       "itens": [
         {
           "tipo": "registro",
@@ -1802,7 +1842,7 @@
       ]
     },
     {
-      "n": 64,
+      "n": 65,
       "itens": [
         {
           "tipo": "pendencia",
@@ -1815,7 +1855,7 @@
       ]
     },
     {
-      "n": 65,
+      "n": 66,
       "itens": [
         {
           "tipo": "pendencia",
@@ -1832,7 +1872,7 @@
       ]
     },
     {
-      "n": 66,
+      "n": 67,
       "itens": [
         {
           "tipo": "registro",
@@ -1841,7 +1881,7 @@
       ]
     },
     {
-      "n": 67,
+      "n": 68,
       "itens": [
         {
           "tipo": "lacuna",

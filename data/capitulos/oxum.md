@@ -21,6 +21,8 @@ A passagem pelo Brasil também deixou marcas no modo de pensar a orixá. Muitos 
 
 Em Cuba, na santería do central Méjico, em Matanzas, Ochún está entre os orixás maiores que o iniciado recebe. Ali se conta que, no tempo da escravidão, como os cativos estavam presos ao barracão, o que era de Yemayá seguia para o rio, junto a uma ponte grande, com uma parte destinada a Ochún; ainda hoje há santos parados das duas nesse lugar, que funciona como substituto de espaços sagrados fora do alcance {{ref:iemanja-054,iemanja-064}}.
 
+Na Iorubalândia, Oxum era uma deusa de rio cultuada principalmente no centro-leste. Em Oxogbo, seu santuário à beira do rio é hoje patrimônio mundial da Unesco, num momento em que o próprio rei da cidade é muçulmano {{ref:oxum-063}}.
+
 ## Domínios, elementos e símbolos {#dominios-e-simbolos}
 
 A água doce é o seu elemento. Nos candomblés baianos, Oxum forma par com Iemanjá: uma tem o rio, a outra o mar, e o sábado celebra a água sob essas duas formas, que a gente da Bahia une sem dificuldade num só culto. Na dança, Oxum imita o murmúrio dos riachos. No mito de repartição dos elementos contado em terreiros de Salvador e São Paulo, cabem a ela os rios e as cachoeiras {{ref:oxum-004,iemanja-010,oxala-040,iemanja-014}}. No nagô do Recife, é igualmente a divindade das águas doces, e em Matanzas se diz que o rio pertence a Ochún e o mar a Yemayá {{ref:oxum-042,oxum-051}}.
@@ -75,7 +77,7 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), na família de santo nagô
 
 ### Batuque
 
-Do [Batuque](tradicao:batuque_rs) de Porto Alegre, o fichamento guarda o sábado, que ali pertence só a Oxum {{ref:oxum-003}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, o sábado pertence só a Oxum {{ref:oxum-003}}. Ali ela reina sobre a beleza, a riqueza e as águas doces, e, quando dança a Oxum Docô, figura de velha, seus movimentos lembram alguém que mexe massa num alguidar {{ref:oxum-065,oxum-066}}.
 
 ### Tambor de Mina
 
@@ -102,6 +104,8 @@ Nos terreiros paulistas de candomblé, a santa de Oxum é Nossa Senhora das Cand
 Roger Bastide, que estudou os candomblés baianos, classificou Oxum, pelo perfume de suas folhas, como divindade da sensualidade, e leu as duas deusas das águas como senhoras do ventre: Oxum, sobretudo do baixo-ventre, poderia castigar com cólicas, e por isso lhe caberiam plantas que desinfetam e desinflamam. O mesmo autor usou o mito de Oxum Ioni para defender que cada qualidade tem função própria {{ref:ogum-028,oxum-011,oxum-027}}.
 
 Reginaldo Prandi, apoiado em Monique Augras, sustenta que os traços africanos das Grandes Mães foram atenuados no Brasil e deslocados para Pombagira. Danielle Perin Rocha Pitta, ao estudar os xangôs pernambucanos, encontra nos mitos divindades femininas ativas e guerreiras, e Oxum entre elas {{ref:oxum-012,iemanja-053}}. Arnaud Halloy, por fim, observa que, no Recife, o parentesco entre Oxum e os Ibejis parece ter nascido da posição dos assentamentos, e não de um mito {{ref:oxum-049}}.
+
+J. D. Y. Peel observa que, como todo orixá deve dar a seus devotos os mesmos benefícios gerais, Oxum e Iemanjá, deusas de rio vistas como mansas e férteis, às vezes assumem a ferocidade de divindades masculinas {{ref:oxum-064}}.
 
 ## O que as fontes não dizem {#lacunas}
 
