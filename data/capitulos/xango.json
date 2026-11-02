@@ -754,6 +754,14 @@
             },
             {
               "t": "texto",
+              "v": ". Entre as suas formas, os templos gaúchos lembram Aganju, o Xangô jovem "
+            },
+            {
+              "t": "nota",
+              "n": 43
+            },
+            {
+              "t": "texto",
               "v": "."
             }
           ]
@@ -771,7 +779,7 @@
             },
             {
               "t": "nota",
-              "n": 43
+              "n": 44
             },
             {
               "t": "texto",
@@ -779,7 +787,7 @@
             },
             {
               "t": "nota",
-              "n": 44
+              "n": 45
             },
             {
               "t": "texto",
@@ -810,7 +818,7 @@
             },
             {
               "t": "nota",
-              "n": 45
+              "n": 46
             },
             {
               "t": "texto",
@@ -831,7 +839,7 @@
             },
             {
               "t": "nota",
-              "n": 46
+              "n": 47
             },
             {
               "t": "texto",
@@ -854,7 +862,7 @@
             },
             {
               "t": "nota",
-              "n": 47
+              "n": 48
             },
             {
               "t": "texto",
@@ -862,7 +870,7 @@
             },
             {
               "t": "nota",
-              "n": 48
+              "n": 49
             },
             {
               "t": "texto",
@@ -870,7 +878,7 @@
             },
             {
               "t": "nota",
-              "n": 49
+              "n": 50
             },
             {
               "t": "texto",
@@ -887,7 +895,7 @@
             },
             {
               "t": "nota",
-              "n": 50
+              "n": 51
             },
             {
               "t": "texto",
@@ -910,7 +918,7 @@
             },
             {
               "t": "nota",
-              "n": 51
+              "n": 52
             },
             {
               "t": "texto",
@@ -918,7 +926,7 @@
             },
             {
               "t": "nota",
-              "n": 52
+              "n": 53
             },
             {
               "t": "texto",
@@ -926,28 +934,11 @@
             },
             {
               "t": "nota",
-              "n": 53
-            },
-            {
-              "t": "texto",
-              "v": ". A última é a do teólogo E. Bolaji Idowu: um alafin chamado Xangô teria sido fundido, ao ser divinizado, com uma divindade mais antiga e benévola, Jakuta, o que explicaria o caráter aparentemente contraditório do deus "
-            },
-            {
-              "t": "nota",
               "n": 54
             },
             {
               "t": "texto",
-              "v": "."
-            }
-          ]
-        },
-        {
-          "tipo": "paragrafo",
-          "tokens": [
-            {
-              "t": "texto",
-              "v": "Outras leituras são de menor escala. Danielle Perin Rocha Pitta lê o mito de Oxalá preso no reino de Xangô como um ciclo de morte e renovação da natureza, e Sylvie Chiousse usa a hesitação de um pai de santo ao distinguir Agodô de Aganju como exemplo da variação própria da tradição oral "
+              "v": ". A última é a do teólogo E. Bolaji Idowu: um alafin chamado Xangô teria sido fundido, ao ser divinizado, com uma divindade mais antiga e benévola, Jakuta, o que explicaria o caráter aparentemente contraditório do deus "
             },
             {
               "t": "nota",
@@ -964,11 +955,28 @@
           "tokens": [
             {
               "t": "texto",
-              "v": "J. D. Y. Peel, ao discutir a mobilidade dos orixás na Iorubalândia, nota que até Xangô, o mais viril dos orixás, pode ganhar figura feminina onde chegou depois de um deus do trovão já estabelecido "
+              "v": "Outras leituras são de menor escala. Danielle Perin Rocha Pitta lê o mito de Oxalá preso no reino de Xangô como um ciclo de morte e renovação da natureza, e Sylvie Chiousse usa a hesitação de um pai de santo ao distinguir Agodô de Aganju como exemplo da variação própria da tradição oral "
             },
             {
               "t": "nota",
               "n": 56
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "J. D. Y. Peel, ao discutir a mobilidade dos orixás na Iorubalândia, nota que até Xangô, o mais viril dos orixás, pode ganhar figura feminina onde chegou depois de um deus do trovão já estabelecido "
+            },
+            {
+              "t": "nota",
+              "n": 57
             },
             {
               "t": "texto",
@@ -991,7 +999,7 @@
             },
             {
               "t": "nota",
-              "n": 57
+              "n": 58
             },
             {
               "t": "texto",
@@ -1008,7 +1016,7 @@
             },
             {
               "t": "nota",
-              "n": 58
+              "n": 59
             },
             {
               "t": "texto",
@@ -1575,6 +1583,15 @@
       "itens": [
         {
           "tipo": "registro",
+          "registro": "xango-075"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "itens": [
+        {
+          "tipo": "registro",
           "registro": "xango-047"
         },
         {
@@ -1588,7 +1605,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "itens": [
         {
           "tipo": "registro",
@@ -1601,7 +1618,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "itens": [
         {
           "tipo": "registro",
@@ -1619,7 +1636,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "itens": [
         {
           "tipo": "registro",
@@ -1628,7 +1645,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "itens": [
         {
           "tipo": "registro",
@@ -1645,7 +1662,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "itens": [
         {
           "tipo": "registro",
@@ -1654,7 +1671,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 50,
       "itens": [
         {
           "tipo": "registro",
@@ -1663,7 +1680,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 51,
       "itens": [
         {
           "tipo": "registro",
@@ -1672,7 +1689,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 52,
       "itens": [
         {
           "tipo": "registro",
@@ -1685,7 +1702,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 53,
       "itens": [
         {
           "tipo": "registro",
@@ -1694,7 +1711,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 54,
       "itens": [
         {
           "tipo": "registro",
@@ -1707,7 +1724,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 55,
       "itens": [
         {
           "tipo": "registro",
@@ -1716,7 +1733,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 56,
       "itens": [
         {
           "tipo": "registro",
@@ -1729,7 +1746,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 57,
       "itens": [
         {
           "tipo": "registro",
@@ -1738,7 +1755,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 58,
       "itens": [
         {
           "tipo": "registro",
@@ -1751,7 +1768,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 59,
       "itens": [
         {
           "tipo": "pendencia",

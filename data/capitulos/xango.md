@@ -75,7 +75,7 @@ No [Xangô de Pernambuco](tradicao:xango_pernambuco), o orixá dá nome à próp
 
 ### Batuque
 
-No [Batuque](tradicao:batuque_rs) de Porto Alegre, a terça-feira é de Xangô, que a divide com Oiá {{ref:xango-009}}. Ali ele é o guerreiro do trovão, o dono dos instrumentos e quem manda nos mortos; Iansã é uma de suas esposas, e ele servia a Oxalá, pai dos orixás {{ref:xango-072,xango-073}}.
+No [Batuque](tradicao:batuque_rs) de Porto Alegre, a terça-feira é de Xangô, que a divide com Oiá {{ref:xango-009}}. Ali ele é o guerreiro do trovão, o dono dos instrumentos e quem manda nos mortos; Iansã é uma de suas esposas, e ele servia a Oxalá, pai dos orixás {{ref:xango-072,xango-073}}. Entre as suas formas, os templos gaúchos lembram Aganju, o Xangô jovem {{ref:xango-075}}.
 
 ### Tambor de Mina
 

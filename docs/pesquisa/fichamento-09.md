@@ -98,3 +98,12 @@ Paráfrases do anexo que repetiam um mesmo molde entre registros (aviso de repet
 ## Adendo — acessibilidade
 
 `node site/scripts/acessibilidade.cjs` (axe, 1280 px claro e escuro e larguras móveis, com as páginas de capítulo alteradas): **nenhuma violação grave**.
+
+## 9. Complementos Ferretti/Corrêa incorporados após a fich10 (fich09b)
+
+A orquestradora acrescentou depois S. Ferretti 1996 e Corrêa 1996 ao escopo. Fichei os dois, mas a sessão fich10 publicou na `main` o mesmo trabalho antes do meu push (registros, tradição `afroumbanda_uruguai`, itã do atã, capítulos e descrições de Mina e Batuque). Para não duplicar, o meu fichamento ficou fora da `main`. Comparando com o que a fich10 publicou, valem os registros e textos dela e só entraram dois complementos:
+
+- **xango-075** (`qualidades`, Batuque, Corrêa p. 56): "Xangô Aganju, o moço", citado na subseção Batuque do capítulo de Xangô.
+- **`data/tradicoes.json`, `umbanda`:** Umbanda Branca e Linha Cruzada no Rio Grande do Sul (Corrêa p. 52), que a fich10 tinha posto só na nota do `batuque_rs`.
+
+A divergência de datas Corrêa × Oro, o nó do Cristo das Chagas e a subseção do aressum em Egungun já estavam na `main` pela fich10. Validadores, `validar_capitulos --gerar` e anti-cópia com o acervo: 0 erros.

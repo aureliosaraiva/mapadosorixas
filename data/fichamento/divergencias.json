@@ -1,7 +1,7 @@
 {
   "_meta": {
     "descricao": "Gerado por scripts/divergencias.py — não editar à mão. Lista atributos com mais de uma versão registrada; versões NÃO são hierarquizadas.",
-    "total": 137
+    "total": 138
   },
   "divergencias": [
     {
@@ -7458,6 +7458,34 @@
           "via": null,
           "localizacao": "p. 56",
           "registro": "xango-073"
+        }
+      ]
+    },
+    {
+      "orixa": "xango",
+      "atributo": "qualidades",
+      "versoes": [
+        {
+          "valor": "Agodô e Aganju (velho × jovem), ligados a São Jerônimo e São João",
+          "tradicoes": [
+            "candomble_ketu"
+          ],
+          "casa_ou_regiao": "Campo da autora (terreiros de Salvador e São Paulo, até 1993)",
+          "fonte": "chiousse-1995-divins",
+          "via": null,
+          "localizacao": "p. 241",
+          "registro": "xango-028"
+        },
+        {
+          "valor": "Xangô Aganju, o moço",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque estudados pelo autor (1969–1989)",
+          "fonte": "correa-1996-cozinha",
+          "via": null,
+          "localizacao": "p. 56",
+          "registro": "xango-075"
         }
       ]
     },

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/xango.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 70,
+    "registros_usados": 71,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -795,6 +795,27 @@
         "parafrase": "Um pai de santo explicou que as duas associações católicas correspondem a duas qualidades — um Xangô velho e um jovem (Agodô e Aganju) —, mas hesitou ao dizer qual era qual.",
         "nota": "Exemplo, registrado pela autora, de como a tradição oral varia até dentro de uma mesma fala; útil para a página de metodologia.",
         "registro": "xango-028",
+        "status": "fichado"
+      },
+      {
+        "valor": "Xangô Aganju, o moço",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque estudados pelo autor (1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 56",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 56",
+        "parafrase": "Entre as formas de Xangô no Batuque, o autor cita Aganju, que é o jovem.",
+        "nota": null,
+        "registro": "xango-075",
         "status": "fichado"
       }
     ],

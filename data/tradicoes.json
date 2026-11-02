@@ -324,7 +324,7 @@
       "nacao": null,
       "matriz": "mista",
       "regiao": "Brasil",
-      "descricao": "Religião brasileira, distinta do Candomblé, surgida no primeiro quartel do século XX do contato do candomblé com o espiritismo kardecista e o catolicismo popular. Reverencia os orixás, mas o trabalho religioso cabe aos guias, espíritos de humanos que viveram na Terra: caboclos, pretos-velhos e, na chamada esquerda, exus e pombagiras. Halloy a apresenta como a mais difundida das religiões afro-brasileiras, vista pelos adeptos como a religião nacional brasileira. No Rio Grande do Sul, Oro registra ritos em português, sem tambores e sem sacrifício animal, e o culto a caboclos, pretos-velhos e crianças (bejis).",
+      "descricao": "Religião brasileira, distinta do Candomblé, surgida no primeiro quartel do século XX do contato do candomblé com o espiritismo kardecista e o catolicismo popular. Reverencia os orixás, mas o trabalho religioso cabe aos guias, espíritos de humanos que viveram na Terra: caboclos, pretos-velhos e, na chamada esquerda, exus e pombagiras. Halloy a apresenta como a mais difundida das religiões afro-brasileiras, vista pelos adeptos como a religião nacional brasileira. No Rio Grande do Sul, Oro registra ritos em português, sem tambores e sem sacrifício animal, e o culto a caboclos, pretos-velhos e crianças (bejis). Corrêa chama de Umbanda Branca a forma gaúcha que cultua caboclos, pretos-velhos e uma categoria de orixás com oferendas sem sangue, tida pelos batuqueiros como de menor força ritual; a Linha Cruzada junta essas entidades, os orixás do Batuque, Exu e Pombagira.",
       "sources": [
         {
           "id": "prandi-2001-exu-diabo",
@@ -349,6 +349,10 @@
         {
           "id": "halloy-2005-intimite",
           "loc": "p. 29"
+        },
+        {
+          "id": "correa-1996-cozinha",
+          "loc": "p. 52"
         }
       ],
       "nota": "Sobre sacrifício animal: Oro (2008, p. 12; 2012, p. 560) registra que ele não existe na Umbanda gaúcha; Prandi (2001, p. 52) fala de certa prática sacrificial remanescente na Umbanda. Sobre a data de origem: Prandi fala no primeiro quartel do século XX; Halloy (p. 29) situa o surgimento no Rio de Janeiro nos anos 1930. O glossário de Bastide (1961, p. 357) traz definições mais antigas do termo (religião banto; forma africana de espiritismo).",
