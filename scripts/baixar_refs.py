@@ -298,6 +298,12 @@ def main():
         local = ACERVO / "pdf" / f"{i}.pdf"
         if not pdf.exists() and destino != ACERVO.resolve() and local.exists():
             pdf.write_bytes(local.read_bytes())  # já baixado antes no acervo local
+        mesmo = ent.get("mesmo_que")
+        if not pdf.exists() and mesmo and (pdfs / f"{mesmo}.pdf").exists():
+            # fonte de 2ª mão: o PDF é o mesmo de outra fonte; não guardar cópia
+            repetidos.append((i, mesmo))
+            indice[i] = ent
+            continue
         if not pdf.exists() and not a.so_converter:
             erros = []
             for u in candidatos(fonte, extras.get(i, [])):
@@ -326,8 +332,10 @@ def main():
         ent.setdefault("acesso", "PDF salvo à mão em acervo/pdf/")
         if h in hashes:
             txt.unlink(missing_ok=True)
+            pdf.unlink(missing_ok=True)  # deduplicação: guarda só o PDF da fonte lida
             repetidos.append((i, hashes[h]))
-            ent.update(status="repetido", arquivo_txt=f"txt/{hashes[h]}.txt",
+            ent.update(status="repetido", mesmo_que=hashes[h], arquivo_pdf=f"pdf/{hashes[h]}.pdf",
+                       arquivo_txt=f"txt/{hashes[h]}.txt",
                        acesso=f"mesmo PDF que {hashes[h]} (fonte citada de 2ª mão)")
             indice[i] = ent
             continue
