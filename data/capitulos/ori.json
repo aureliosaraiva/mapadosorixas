@@ -1,0 +1,808 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/ori.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "ori",
+  "titulo": "Orí, a cabeça e o destino de cada um",
+  "status": "rascunho",
+  "atualizado": "2026-11-02",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Orí quer dizer cabeça, mas nas tradições de origem iorubá a palavra nomeia também algo que mora nela: uma força pessoal ligada à sorte e ao destino de cada indivíduo. Em Oyó, ela era honrada em cada casa; nos candomblés da Bahia, a ideia se cruzou com a do orixá que o iniciado carrega na cabeça e com a do Eledá, o \"anjo da guarda\" "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Num relato de 1894, escrito por um oficial britânico a partir de conversas com sacerdotes de Lagos, a forma registrada é Olori, traduzida por \"dono da cabeça\" e por vezes encurtada para Ori, palavra que significaria tanto \"cabeça\" quanto \"talento\" "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": ". A mesma decomposição, em olo (\"dono\") mais ori (\"cabeça\"), aparece num estudo brasileiro sobre o candomblé, que acrescenta que no Brasil o termo se aproximou de Eledá, entendido como o dono do eu espiritual "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, um informante chamava a cabeça de Ori ou Eri "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". As fontes não falam de uma origem histórica ou geográfica da noção "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A noção chegou ao Brasil e se manteve mesmo onde o grande jogo de Ifá não sobreviveu: na Bahia de meados do século passado, o Eledá continuava presente entre os afro-brasileiros, na figura do anjo da guarda "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": ". As fontes lidas não trazem, porém, uma história do culto de Orí com datas e lugares "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "Domínios e símbolos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O documento de 1894 fala de três espíritos que moram em todo indivíduo. Na cabeça fica Olori, que guarda e orienta a pessoa e a quem se atribui a fortuna; os outros dois ficariam, um, na barriga e, o outro, no dedo grande do pé. Esse relato de época é a base de quase tudo o que se escreveu depois sobre o tema em inglês "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". Na história de Oyó escrita por um historiador e clérigo iorubá, Ori é a divindade doméstica do destino: cada casa a honra, homens e mulheres, porque a fortuna de alguém seguiria a vontade dela. Kori é quem cuida das crianças; Ori só é cultuada depois da idade adulta "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os objetos que a representam variam com a região iorubá. No relato do oficial britânico, feito com sacerdotes de Lagos em 1894, o símbolo era uma meia cabaça coberta de búzios "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": ". Na tradição de Oyó, era um feixe de 41 búzios montados em forma de coroa e escondidos numa caixa também de búzios, chamada Ile Ori, maior ou menor conforme as posses do dono; quando ele morria, imagem e cofre eram desmanchados "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No Brasil, a questão é a relação entre a cabeça, o Eledá e o orixá. Nas casas mais tradicionais da Bahia, o Eledá era uma realidade à parte, numa posição intermediária entre os deuses e as pessoas, e não se confundia com o orixá que habita o ori; nas casas bantas havia a tendência de identificar os dois "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": ". A maior parte dos informantes baianos de meados do século passado, contudo, tomava o eledá pelo próprio orixá pessoal, aquele cujo nome a iaô ganha ao terminar a iniciação: ele ficaria no ori da pessoa mesmo fora do transe, saindo em certos momentos, como durante o sono, e a acompanharia a vida toda, ajudando, protegendo ou castigando conforme ela cumprisse suas obrigações "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": ". Em Cuba, um informante juntava tudo numa só imagem: o Eleda pensa e conduz a vida, mora na cabeça, e dizer isso equivaleria a falar de Obatalá, a quem pertencem todas as cabeças "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nenhum itã fichado tem Orí como personagem "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": ". O mais próximo é o relato de criação que um administrador colonial ouviu de uma sacerdotisa em Ilobe, na região de Egbado, e que deve ser lido como documento de época: os 16 caramujos que Yemuhu trazia em sua cabaça viraram a cabeça de Eleda, e Eleda, ao notar que faltava a Ifá uma cabeça, lutou com ele, venceu-o e lhe deu cabeça, rosto e peito ("
+            },
+            {
+              "t": "link",
+              "rotulo": "A criação em Ilobe",
+              "tipo": "ita",
+              "alvo": "ita-024"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Culto iorubá na Nigéria"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "culto iorubá",
+              "tipo": "tradicao",
+              "alvo": "ioruba_nigeria"
+            },
+            {
+              "t": "texto",
+              "v": ", Ori é a divindade pessoal e doméstica do destino, cultuada pelos adultos de Oyó; o relato colonial de 1894 a conta entre os três espíritos que residem em todo ser humano. Os dois registros dão símbolos diferentes, a meia cabaça com búzios em Lagos e a coroa de búzios em Oyó "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos "
+            },
+            {
+              "t": "link",
+              "rotulo": "candomblés da Bahia",
+              "tipo": "tradicao",
+              "alvo": "candomble_ketu"
+            },
+            {
+              "t": "texto",
+              "v": ", as casas mais tradicionais distinguem o Eledá do orixá da cabeça, enquanto nas "
+            },
+            {
+              "t": "link",
+              "rotulo": "casas bantas",
+              "tipo": "tradicao",
+              "alvo": "candomble_angola"
+            },
+            {
+              "t": "texto",
+              "v": " se tende a juntá-los; a maioria dos informantes baianos, de todo modo, identificava eledá e orixá pessoal "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": ". Um estudo sobre o candomblé descreve a pessoa como alguém que chega do Orum ao Ayê sob a tutela do orixá que lhe governa a cabeça "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. O fichamento não tem registro de Orí na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Lucumí"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Na "
+            },
+            {
+              "t": "link",
+              "rotulo": "tradição lucumí",
+              "tipo": "tradicao",
+              "alvo": "lucumi"
+            },
+            {
+              "t": "texto",
+              "v": ", o depoimento cubano mistura Eleda, a cabeça e o santo que nela mora, e põe todas as cabeças sob Obatalá "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de sincretismo para Orí "
+            },
+            {
+              "t": "nota",
+              "n": 22
+            },
+            {
+              "t": "texto",
+              "v": ". A única ponte com o vocabulário católico é o nome \"anjo da guarda\", com que o Eledá era chamado na Bahia e em Cuba "
+            },
+            {
+              "t": "nota",
+              "n": 23
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Os primeiros intérpretes leram Orí à luz de seus próprios esquemas. O missionário Stephen Farrow, em 1926, retomou a descrição de Ellis e concluiu que Olori parecia fazer da inteligência e da prudência uma divindade, leitura que é dele e não dos informantes; é um relato de época "
+            },
+            {
+              "t": "nota",
+              "n": 24
+            },
+            {
+              "t": "texto",
+              "v": ". Roger Bastide, por sua vez, registrou a divergência entre o que diziam as casas tradicionais e a maior parte de seus informantes baianos, e atribuiu a mistura do depoimento cubano ao sentido de \"criador\" que a palavra Eleda tem em nagô "
+            },
+            {
+              "t": "nota",
+              "n": 25
+            },
+            {
+              "t": "texto",
+              "v": ". Mais recentemente, José Jorge Zacharias propôs uma leitura junguiana: o Ori, a cabeça e a psique mortal de quem é iniciado, seria o ego pelo qual o orixá, que é coletivo, se torna pessoal, com Olori entre Olorum e o Ori; é uma interpretação psicológica, não uma descrição etnográfica "
+            },
+            {
+              "t": "nota",
+              "n": 26
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de cores, dia da semana, saudação, festas ou iconografia de Orí, nem de oferendas próprias dele "
+            },
+            {
+              "t": "nota",
+              "n": 27
+            },
+            {
+              "t": "texto",
+              "v": ". Faltam também as obras de autores iorubás e brasileiros que tratam da pessoa e da cabeça com mais vagar, como o estudo de Juana Elbein dos Santos sobre os nagôs, ainda não lido "
+            },
+            {
+              "t": "nota",
+              "n": 28
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-008"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-001"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-009"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-007"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-006"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-005"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-003"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-002"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-004"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-006"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-008"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-007"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "odudua-016"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-003"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-004"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-008"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-009"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-007"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-007"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-005"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-006"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-008"
+        },
+        {
+          "tipo": "registro",
+          "registro": "ori-007"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "ori-010"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "iconografia",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "alimentos",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Santos, *Os Nàgô e a morte* (1976)"
+        }
+      ]
+    }
+  ]
+}

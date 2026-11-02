@@ -1,0 +1,652 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/validar_capitulos.py --gerar",
+    "fonte": "data/capitulos/aie.md",
+    "aviso": "Gerado a partir do .md; não editar à mão."
+  },
+  "orixa": "aie",
+  "titulo": "Aiê, o mundo dos vivos",
+  "status": "rascunho",
+  "atualizado": "2026-11-02",
+  "secoes": [
+    {
+      "slug": "abertura",
+      "titulo": null,
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Se o Orum é o plano de cima, o Aiê é o mundo em que se vive: o lugar físico onde as pessoas nascem, passam a vida e morrem. Nos terreiros de nação Ketu, ele só se mantém em ordem enquanto os ritos sustentam a harmonia com o Orum "
+            },
+            {
+              "t": "nota",
+              "n": 1
+            },
+            {
+              "t": "texto",
+              "v": ". Sobre ele há pouco material fichado, e este capítulo é curto na mesma medida; um documento missionário de 1926 dá à palavra um sentido mais largo "
+            },
+            {
+              "t": "nota",
+              "n": 2
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomes-e-origem",
+      "titulo": "Nomes e origem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A palavra aparece nas fontes com grafias diferentes, Aiyê ou Ayê nos trabalhos sobre o candomblé ketu, aiye no documento missionário de 1926 "
+            },
+            {
+              "t": "nota",
+              "n": 3
+            },
+            {
+              "t": "texto",
+              "v": ". Esse relato de época, escrito por um missionário anglicano entre os egbá de Abeokuta, dá a aiye um sentido mais largo que o brasileiro: ao distinguir o título Alaiye, ligado ao mundo, de Alaye, ligado à vida, explica que a palavra cobre o universo inteiro, a terra e também os céus "
+            },
+            {
+              "t": "nota",
+              "n": 4
+            },
+            {
+              "t": "texto",
+              "v": ". Nenhuma fonte trata de uma origem do conceito "
+            },
+            {
+              "t": "nota",
+              "n": 5
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-do-culto",
+      "titulo": "História do culto",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O Aiê é um plano do cosmos, não uma divindade, e não tem culto próprio nas fontes lidas "
+            },
+            {
+              "t": "nota",
+              "n": 6
+            },
+            {
+              "t": "texto",
+              "v": ". Nas tradições iorubá e ketu, quem faz a ligação entre os vivos e o mundo dos orixás é Exu, que leva as oferendas e traz as respostas "
+            },
+            {
+              "t": "nota",
+              "n": 7
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominios-e-simbolos",
+      "titulo": "O mundo de baixo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos terreiros Ketu do Rio de Janeiro, a cosmovisão de origem iorubá opõe o Aiyê, chão material onde a vida humana começa e termina, ao Orum, plano espiritual; o equilíbrio entre os dois se conserva pelo culto "
+            },
+            {
+              "t": "nota",
+              "n": 8
+            },
+            {
+              "t": "texto",
+              "v": ". Em outra leitura do candomblé, o Ayê é a esfera material em que cada um desembarca ao deixar o Orum, já formada com a substância de um orixá que a acompanha por toda a vida "
+            },
+            {
+              "t": "nota",
+              "n": 9
+            },
+            {
+              "t": "texto",
+              "v": ". As duas descrições brasileiras concordam no essencial, o par entre um mundo físico e um mundo espiritual; o documento missionário de 1926 é o único a estender a palavra aos céus "
+            },
+            {
+              "t": "nota",
+              "n": 10
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mitos",
+      "titulo": "Mitos",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O mundo dos vivos é o que está em jogo no mito dos primeiros egúngún, contado em Òkèigbó e noutras cidades de origem Ọ̀yọ́: a terra corria o risco de desmoronar; por conselho de Ifá, os vivos ofereceram sacrifício a Olódùmarè, que enviou os primeiros mascarados ancestrais para lhe dar firmeza ("
+            },
+            {
+              "t": "link",
+              "rotulo": "Os primeiros egúngún descem para firmar o mundo",
+              "tipo": "ita",
+              "alvo": "ita-026"
+            },
+            {
+              "t": "texto",
+              "v": ") "
+            },
+            {
+              "t": "nota",
+              "n": 11
+            },
+            {
+              "t": "texto",
+              "v": ". Nenhum itã fichado tem o Aiê como tema próprio "
+            },
+            {
+              "t": "nota",
+              "n": 12
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tradicoes",
+      "titulo": "Em cada tradição",
+      "blocos": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Culto iorubá na Nigéria"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "No "
+            },
+            {
+              "t": "link",
+              "rotulo": "culto iorubá",
+              "tipo": "tradicao",
+              "alvo": "ioruba_nigeria"
+            },
+            {
+              "t": "texto",
+              "v": ", o único registro fichado é a glosa do documento missionário de 1926, para quem aiye é o mundo inteiro, terra e céus "
+            },
+            {
+              "t": "nota",
+              "n": 13
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Candomblé"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Nos "
+            },
+            {
+              "t": "link",
+              "rotulo": "candomblés de nação Ketu",
+              "tipo": "tradicao",
+              "alvo": "candomble_ketu"
+            },
+            {
+              "t": "texto",
+              "v": ", o Aiyê é o mundo físico em par com o Orum, e a harmonia entre os dois depende dos ritos "
+            },
+            {
+              "t": "nota",
+              "n": 14
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Umbanda"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "A Umbanda é outra religião, e não uma nação do Candomblé. O fichamento não tem registro do Aiê na Umbanda "
+            },
+            {
+              "t": "nota",
+              "n": 15
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Lucumí"
+        },
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Também não há registro fichado sobre o Aiê na tradição lucumí "
+            },
+            {
+              "t": "nota",
+              "n": 16
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sincretismo",
+      "titulo": "Sincretismo",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "O fichamento não tem registro de sincretismo para o Aiê "
+            },
+            {
+              "t": "nota",
+              "n": 17
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leituras-academicas",
+      "titulo": "Leituras acadêmicas",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Não há debate acadêmico sobre o Aiê nas fontes lidas "
+            },
+            {
+              "t": "nota",
+              "n": 18
+            },
+            {
+              "t": "texto",
+              "v": ". As duas descrições brasileiras vêm de Silvia Carvalho e colegas, num artigo sobre pesquisa colaborativa com terreiros, e de José Jorge Zacharias, num estudo de psicologia; a glosa de 1926 é de Stephen Farrow, missionário, e deve ser lida como relato de época "
+            },
+            {
+              "t": "nota",
+              "n": 19
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lacunas",
+      "titulo": "O que as fontes não dizem",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "tokens": [
+            {
+              "t": "texto",
+              "v": "Quase tudo o que uma ficha de orixá pede não se aplica a um plano do cosmos: não há registro de cores, dia, saudação, símbolos ou festas "
+            },
+            {
+              "t": "nota",
+              "n": 20
+            },
+            {
+              "t": "texto",
+              "v": ". Falta sobretudo a obra que trata do par Orum e Aiê como tema central, ainda não lida "
+            },
+            {
+              "t": "nota",
+              "n": 21
+            },
+            {
+              "t": "texto",
+              "v": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "n": 1,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-003"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-003"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-003"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "origem",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "historia_culto",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "exu-011"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orum-008"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "orum-009"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-003"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "egungun-015"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "itans",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-003"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-002"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "umbanda"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "hierarquia",
+          "tradicao": "lucumi"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "sincretismo",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "interpretacao_academica",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "aie-001"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-002"
+        },
+        {
+          "tipo": "registro",
+          "registro": "aie-003"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "itens": [
+        {
+          "tipo": "lacuna",
+          "atributo": "cores",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "dia_semana",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "saudacao",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "simbolos",
+          "tradicao": null
+        },
+        {
+          "tipo": "lacuna",
+          "atributo": "festas",
+          "tradicao": null
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "itens": [
+        {
+          "tipo": "pendencia",
+          "ancora": "Beniste, *Òrun-Àiyé* (1997)"
+        }
+      ]
+    }
+  ]
+}
