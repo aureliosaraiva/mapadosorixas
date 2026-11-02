@@ -247,8 +247,11 @@ Sessão lote B, 2026-11-01 ([relatório](lote-B.md)). 176 registros com as fonte
 
 | Status | O quê | Depende de | Prioridade |
 |:-:|---|---|:-:|
-| 🔴 | Anti-cópia dos capítulos sem o texto integral de 3 das 32 obras lidas que eles citam: `santos-2023-logunede` (SSLError em periodicos.unb.br; **nova**), `pitta-2011-mitos` (ProxyError; ver §1 e §1b) e `ogungbemi-2021-olodumare` (PDF sem camada de texto; ver §1b) | autor salvar os PDFs em `/tmp/refs-pdf/<source_id>.pdf` (ou no acervo) e rodar `baixar_refs.py --so-converter` | P2 |
+| 🔴 | Anti-cópia dos capítulos sem o texto integral de 3 das 32 obras lidas que eles citam: ~~`santos-2023-logunede`~~ (no acervo `orixas-fontes`; comparado na cap03), `pitta-2011-mitos` (ProxyError; ver §1 e §1b) e `ogungbemi-2021-olodumare` (PDF sem camada de texto; ver §1b) | autor salvar os PDFs em `/tmp/refs-pdf/<source_id>.pdf` (ou no acervo) e rodar `baixar_refs.py --so-converter` | P2 |
 | 🔴 | Revisão dos 5 capítulos (Exu, Ogum, Oxóssi, Xangô, Iemanjá) por praticantes/pesquisadores: o capítulo só sai do rascunho quando todos os registros citados estiverem `revisado` | conselho (§3c) | P1 com o site público |
+| 🔴 | Revisão dos 7 capítulos da cap03 (Ossaim, Oxumarê, Logunedé, Obá, Ewá, Ibeji, Iroko/Tempo), em especial as subseções de Umbanda e as versões de família divergentes ([capitulos-03](capitulos-03.md)) | conselho (§3c) | P1 com o site público |
+| 🔴 | Ewá, Iroko e Oxumarê: capítulos curtos por falta de fonte; crescem quando chegarem Verger 1981, Prandi 2001 e a Coleção Orixás (§2, §3d) | exemplar | P2 |
+| 🔴 | Validador de capítulos parte palavras com acento combinante ("Éfọ̀n" → "efo"); em Logunedé o topônimo ficou sem o tom grave | sessão que mexer em `scripts/validar_capitulos.py` (`candidatos()`) | P3 |
 | 🟡 | Saudações (Laroiê, Ogunhê, Kaô, Odoyá…) seguem sem registro fichado; os capítulos dizem isso nas lacunas | exemplar de Cacciatore/Beniste (§2) | P1 |
 
 ## 4. Resolvidos
