@@ -95,11 +95,13 @@ Em [`docs/screenshots/redesign/`](../screenshots/redesign/): `antes-*` (site ant
 
 ## 5. Validadores e testes
 
-Rodados no fim da sessão: `validar_fontes`, `validar_fichamento`, `divergencias`, `gerar_fichas` (sem diferença em `data/`), `validar_fichas`, `anticopia` (0 erros; avisos já existentes), `validar_capitulos`, `python3 -m unittest discover -s tests` (82 testes ok), build com `SITE_BASE=/mapadosorixas`, `qa_site.py` ok, os 3 e2e, axe, teclado e Lighthouse (acima). Conferência da URL publicada: ver §6.
+Rodados no fim da sessão: `validar_fontes`, `validar_fichamento`, `divergencias`, `gerar_fichas` (sem diferença em `data/`), `validar_fichas`, `anticopia` (0 erros; avisos já existentes), `validar_capitulos`, `python3 -m unittest discover -s tests` (82 testes ok), build com `SITE_BASE=/mapadosorixas`, `qa_site.py` ok, os 3 e2e, axe, teclado e Lighthouse (acima). Conferência da URL publicada: ver §6 (ok).
 
 ## 6. Publicação
 
-Push direto na `main`; o workflow `deploy-pages.yml` publica. A conferência da URL publicada com Playwright está registrada no fim deste relatório.
+Push direto na `main`; o workflow `deploy-pages.yml` ([execução nº 34](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41442688455), validadores + build + QA + deploy) terminou com sucesso.
+
+**Conferência da URL publicada** (<https://aureliosaraiva.github.io/mapadosorixas/>, Playwright, 2026-11-02): as 14 páginas principais (Início, Orixás, Xangô, capítulo de Ogum, Livro, Mitos, Cosmologia, Mapa, Glossário, Fontes, Sobre, Tradições, Buscar, Dados abertos) com a faixa "Conteúdo em revisão por especialistas", `noindex`, nenhum link de issues e a fonte Literata carregada; nota do capítulo abre na caixa; mapa desenhado (117 nomes, 150 relações); busca "Ogum" → 5 resultados, links com o prefixo; **nenhum erro de rede ou de JavaScript**. Screenshots `publicado-inicio-desktop.jpg` e `publicado-capitulo-ogum-celular.jpg` na pasta do redesign.
 
 ## 7. Pendências abertas (em PENDENCIAS §3b, "Redesign do site")
 

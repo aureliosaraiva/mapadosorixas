@@ -6,6 +6,8 @@
 
 Histórico: as execuções nº 1–3 pararam em "Configurar Pages" (`Get Pages site failed: Not Found` / `Create Pages site failed: Resource not accessible by integration`): o `GITHUB_TOKEN` não consegue habilitar o Pages, nem com `enablement: true`, e o repositório era privado. O autor tornou o repositório público e gravou **Settings → Pages → Source: GitHub Actions**; a partir daí o deploy passou. Pela API desta sessão, `workflow_dispatch` e reexecução dão 403: as execuções vêm de push na `main` ou do botão Run workflow, pelo autor.
 
+**Redesign (2026-11-02):** conferido na URL publicada após a [execução nº 34](https://github.com/aureliosaraiva/mapadosorixas/actions/runs/41442688455): 14 páginas com a faixa "Conteúdo em revisão por especialistas", `noindex`, sem link de issues, fonte Literata carregada, notas, mapa e busca funcionando, sem erros de rede ou JS ([relatório](pesquisa/redesign-01.md) §6).
+
 **Conferência da URL publicada (Playwright, 2026-11-01):** Início (faixa de rascunho, aviso de versão inicial, `noindex`), ficha de Exu, grafo (Cytoscape renderizado), busca do Pagefind ("Ogum" → 5 resultados, links com o prefixo) e os 12 arquivos de Baixar dados (todos 200; `LEIAME.txt` com "licença a definir pelo autor"); nenhum erro de rede ou de JavaScript. Screenshots em [`screenshots/pages/`](screenshots/pages/).
 
 ## O que é publicado
