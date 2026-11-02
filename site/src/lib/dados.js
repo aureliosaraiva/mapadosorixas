@@ -111,11 +111,13 @@ export const ROTULO_GRUPO = {
   afro_brasileira_regional: 'Religiões afro-brasileiras regionais',
   umbanda: 'Umbanda',
   diaspora_caribenha: 'Diáspora caribenha',
+  diaspora_afro_brasileira: 'Diáspora afro-brasileira',
 };
 
 // Ordem de exibição dos grupos na página Tradições: Candomblé (nações), demais
-// religiões afro-brasileiras, Umbanda, culto na África, diáspora caribenha.
-export const ORDEM_GRUPOS = ['candomble', 'afro_brasileira_regional', 'umbanda', 'culto_africano', 'diaspora_caribenha'];
+// religiões afro-brasileiras, Umbanda, culto na África, diáspora caribenha,
+// diáspora afro-brasileira (Uruguai).
+export const ORDEM_GRUPOS = ['candomble', 'afro_brasileira_regional', 'umbanda', 'culto_africano', 'diaspora_caribenha', 'diaspora_afro_brasileira'];
 
 export const ROTULO_CATEGORIA_GLOSSARIO = {
   divindade_e_entidade: 'Divindades e entidades',

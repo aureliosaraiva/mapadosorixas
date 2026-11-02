@@ -9,8 +9,8 @@
     "id": { "type": "string", "pattern": "^[a-z_]+$" },
     "nome": { "type": "string", "minLength": 1 },
     "grupo": {
-      "enum": ["candomble", "umbanda", "afro_brasileira_regional", "culto_africano", "diaspora_caribenha"],
-      "description": "candomble = Candomblé (uma das nações); umbanda = Umbanda (religião distinta do Candomblé); afro_brasileira_regional = outras religiões afro-brasileiras (Xangô, Tambor de Mina, Batuque); culto_africano = culto na África; diaspora_caribenha = Cuba, Haiti, Trinidad"
+      "enum": ["candomble", "umbanda", "afro_brasileira_regional", "culto_africano", "diaspora_caribenha", "diaspora_afro_brasileira"],
+      "description": "candomble = Candomblé (uma das nações); umbanda = Umbanda (religião distinta do Candomblé); afro_brasileira_regional = outras religiões afro-brasileiras (Xangô, Tambor de Mina, Batuque); culto_africano = culto na África; diaspora_caribenha = Cuba, Haiti, Trinidad; diaspora_afro_brasileira = religiões de matriz afro-brasileira fora do Brasil (Uruguai)"
     },
     "nacao": {
       "type": ["string", "null"],

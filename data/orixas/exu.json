@@ -293,8 +293,7 @@
       {
         "valor": "a rua e seus cruzamentos de caminhos, morada de Exu",
         "tradicoes": [
-          "umbanda",
-          "batuque_rs"
+          "afroumbanda_uruguai"
         ],
         "casa_ou_regiao": "Montevidéu (Uruguai): Playa Ramírez, comunidade afroumbandista (campo de 2024)",
         "sources": [
@@ -308,7 +307,7 @@
         "via_source_id": null,
         "localizacao": "p. 31",
         "parafrase": "Os autores lembram que a festa de Montevidéu se estende às ruas do bairro e que a rua, com seus cruzamentos, é por excelência a casa de Exu; na areia, entre imagens de Iemanjá e de uma Preta Velha, fotografaram uma imagem de Exu Asa Negra.",
-        "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+        "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; a tradição afroumbanda_uruguai reúne essas casas (criada no fichamento-10; antes, umbanda e batuque_rs).",
         "registro": "exu-114",
         "status": "fichado"
       },

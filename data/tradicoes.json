@@ -452,6 +452,27 @@
       "sources": [],
       "nota": null,
       "status": "rascunho_sem_fonte"
+    },
+    {
+      "id": "afroumbanda_uruguai",
+      "nome": "Religiões afroumbandistas do Uruguai",
+      "grupo": "diaspora_afro_brasileira",
+      "nacao": null,
+      "matriz": "mista",
+      "regiao": "Uruguai (Montevidéu e outras cidades)",
+      "descricao": "No Uruguai, afroumbandista é o termo de uso corrente para o conjunto das religiões de matriz afro-brasileira ali praticadas: casas de umbanda, de batuque, de quimbanda e de candomblé, muitas delas filiadas a federações, como a Federación Afro Umbandista del Uruguay e a Institución Federada Afroumbandista del Uruguay, que desde os anos 2000 negociam com o Estado em nome desses templos. A umbanda, consolidada no Rio de Janeiro e em São Paulo, espalhou-se pelo Brasil e chegou também à Argentina e ao Uruguai. Segundo a bibliografia resumida por Noleto e Negrão, as linhagens uruguaias partem de casas de Porto Alegre e de Santana do Livramento, que a partir da década de 1950 iniciaram sacerdotes de Montevidéu; do Uruguai, uma escola própria se estendeu à Argentina. O nome afroumbandista, que substitui afro-brasileira, sublinha a ascendência africana e atenua o papel do Brasil; ainda assim, os rituais conservam categorias em português e pontos de umbanda cantados na língua. As maiores festas públicas são as de Iemanjá, em 2 de fevereiro, e de Oxum, em 8 de dezembro.",
+      "sources": [
+        {
+          "id": "noleto-2025-montevideu",
+          "loc": "pp. 8 (nota 6), 10, 19–20, 23"
+        },
+        {
+          "id": "prandi-1995-deuses",
+          "loc": "p. 12"
+        }
+      ],
+      "nota": "Noleto e Negrão (pp. 19, 22–23) registram também discursos, na imprensa uruguaia e em iniciativas oficiais, que ligam essas práticas diretamente à África pela escravidão, sem passar pelo Brasil; as duas versões sobre a origem estão lado a lado nos registros de Iemanjá. A explicação do termo afroumbandista é de Bem (2012, p. 72), citada pelos autores e ainda não lida. O Batuque gaúcho (batuque_rs) e a Umbanda brasileira (umbanda) seguem como tradições próprias; esta reúne o que as fontes descrevem no Uruguai.",
+      "status": "com_fonte"
     }
   ]
 }

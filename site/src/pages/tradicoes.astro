@@ -16,6 +16,7 @@ const INTRO_GRUPO = {
   umbanda: 'A Umbanda, em grupo próprio. No site, as etiquetas de Umbanda têm borda tracejada.',
   culto_africano: 'O culto aos orixás em terra africana, como aparece nas obras.',
   diaspora_caribenha: 'Religiões de matriz africana no Caribe, como a Santería cubana.',
+  diaspora_afro_brasileira: 'Religiões de matriz afro-brasileira praticadas fora do Brasil, como as afroumbandistas do Uruguai.',
 };
 const grupos = ORDEM_GRUPOS.map((g) => [g, tradicoes.filter((t) => t.grupo === g)]).filter(([, ts]) => ts.length);
 const outros = tradicoes.filter((t) => !ORDEM_GRUPOS.includes(t.grupo));

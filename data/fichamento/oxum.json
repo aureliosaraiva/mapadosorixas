@@ -1191,15 +1191,14 @@
       "atributo": "festas",
       "valor": "8 de dezembro, festa pública e coletiva no Uruguai (com a de Iemanjá, a única do calendário afroumbandista)",
       "tradicoes": [
-        "umbanda",
-        "batuque_rs"
+        "afroumbanda_uruguai"
       ],
       "casa_ou_regiao": "Uruguai: calendário afroumbandista",
       "source_id": "noleto-2025-montevideu",
       "via_source_id": null,
       "localizacao": "p. 8, nota 6",
       "parafrase": "No Uruguai, Oxum é uma das duas divindades com festa pública; a sua cai em 8 de dezembro, e a outra é a de Iemanjá.",
-      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
+      "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; a tradição afroumbanda_uruguai reúne essas casas (criada no fichamento-10; antes, umbanda e batuque_rs).",
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/1984-04382025e450102"
