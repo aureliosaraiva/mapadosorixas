@@ -41,3 +41,13 @@ Identidade visual e linguagem: ver `docs/pesquisa/redesign-01.md` (Literata + In
 | Rodapé: Dados abertos | `src/pages/baixar-dados.astro` + `src/pages/dados/[...arquivo].js` (lista em `src/lib/downloads.js`; não publica o fichamento bruto) |
 
 Testes do site (depois do build): `python3 ../scripts/qa_site.py`, `node scripts/acessibilidade.cjs` (axe), `node scripts/teclado.cjs` (teclado e toque), `node scripts/screenshots-redesign.cjs depois`.
+
+## Ilustrações simbólicas
+
+SVG desenhados em código, um por entidade (sem retrato nem cena de culto; só símbolos com registro fichado):
+
+- metadados, texto alternativo e registros de cada elemento: `../data/ilustracoes.json`;
+- desenhos: `scripts/ilustracoes/desenhos.py` (+ `base.py`, medalhão comum); gerar: `python3 scripts/ilustracoes/gerar.py [ids]` → `src/assets/ilustracoes/<id>.svg`;
+- revisar em PNG (claro/escuro, grande/pequeno): `node scripts/ilustracoes/renderizar.cjs <pasta> [ids]`;
+- screenshots no site: `node scripts/screenshots-ilustracoes.cjs [ids]` (depois do build);
+- o QA (`scripts/qa_site.py` §14) confere texto alternativo, registros fichados e ausência em entidade sensível.

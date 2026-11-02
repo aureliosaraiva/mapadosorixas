@@ -217,6 +217,17 @@ O protótipo em `site/` (Astro) compila no CI. **Sessão pages (2026-11-01): pub
 | 🟡 | Créditos de revisores nas versões | as linhas "Revisado por … (tradição) em …" seguem o consentimento de `data/revisores.json` e continuam no site (garantia do §9 do QA); hoje não há revisor cadastrado, então nada aparece. O autor confirma se o crédito por versão continua quando houver revisores | P3 |
 | 🟡 | Leitor de tela real | axe sem violações graves (claro em 2 larguras e amostra no escuro) e teste de teclado (`site/scripts/teclado.cjs`); falta conferir com NVDA/VoiceOver as caixas de nota e o menu do celular | P3 |
 
+### Ilustrações simbólicas (sessão ilustra, 2026-11-02; [relatório](ilustracoes-01.md))
+
+| Status | Item | O que falta | Prioridade |
+|:-:|---|---|:-:|
+| 🔴 | **Revisão das 22 ilustrações por praticantes** | as ilustrações são composições de símbolos fichados (`data/ilustracoes.json` lista os registros de cada elemento), feitas pelo projeto sem consulta a babalorixás/iyalorixás. Levar a série ao conselho junto com o conteúdo; qualquer símbolo contestado sai (basta apagar o elemento em `site/scripts/ilustracoes/desenhos.py` e regenerar). | P1 |
+| 🟡 | **Oxê de Xangô de uma lâmina** | o fichamento diz só "uma espécie de machado" (xango-025); a forma de duas lâminas, comum na iconografia, não tem registro fichado. Fichar uma descrição do oxê (Verger 1981, Beniste, Cacciatore) e redesenhar se for o caso. | P2 |
+| 🟡 | **Ewá sem ilustração** | sem símbolos, elementos ou iconografia fichados (só ewa-005, ewa-008); depende das obras de §2 (Verger 1981, Prandi 2001). | P2 |
+| 🟡 | **Egungun e Olodumare sem ilustração (decisão a confirmar)** | Olodumare: as fontes dizem que não tem imagens (olodumare-001); Egungun: só os mascarados do culto reservado estão fichados. Confirmar com o conselho se deve continuar assim. | P3 |
+| 🟡 | **Iyami** | nenhuma ilustração enquanto o tema sensível aguarda o conselho (o QA §14 impede). | P3 |
+| 🟢 | Encomenda a artistas afro-brasileiros | sugestão: substituir ou complementar a série por obras encomendadas e remuneradas a artistas ligados às tradições, com licença clara; os metadados (elementos e registros) servem de briefing. Decisão e orçamento do autor. | P3 |
+
 ## 3c. Conselho consultivo (Fase 4): depende do autor
 
 Material pronto em [`docs/conselho/`](../conselho/). **Nenhuma pessoa ou instituição foi contatada.**
