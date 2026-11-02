@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Tradicoes from '../components/Tradicoes.astro';
 import Citacoes from '../components/Citacoes.astro';
+import Icone from '../components/Icone.astro';
 import { fichas, listaEntidades, fichaPorId, ROTULO_TIPO_ENTIDADE, hrefEntidade, url } from '../lib/dados.js';
 import { panoramaPorId } from '../lib/capitulos.js';
 
@@ -14,28 +15,32 @@ const nVersoes = comHierarquia.reduce((n, f) => n + f.atributos.hierarquia.lengt
 const TIPOS_COSMO = ['divindade_suprema', 'conceito_cosmologico', 'ancestral'];
 const cosmo = TIPOS_COSMO.map((t) => [t, listaEntidades.filter((e) => e.tipo === t)]).filter(([, es]) => es.length);
 ---
-<Base titulo="Cosmologia e hierarquia" descricao="Posição cosmológica das entidades, só com fonte e versões lado a lado.">
-  <h1>Cosmologia e hierarquia</h1>
-  <p>Esta página reúne o que as fontes dizem sobre a <strong>posição cosmológica</strong> de cada entidade: a relação com a divindade suprema, com o Orum e o Aiê, com os grupos de orixás e com os ancestrais. Não existe um panteão único e idêntico entre as tradições, nem mesmo em território iorubá (ver <a href={url('metodologia')}>Metodologia</a>); por isso cada afirmação aparece como uma versão, com tradição e fonte, ao lado das outras.</p>
-  {panorama && <p class="nota-caixa link-capitulo" id="link-panorama"><strong>Em texto corrido:</strong> <a href={url('cosmologia/capitulo')}>{panorama.titulo}</a> — panorama curto que costura os capítulos de Olodumare, Orum, Aiê, Orí, Odudua, Olokun e Egungun, com notas de rodapé.</p>}
+<Base titulo="Cosmologia" descricao="Como as tradições descrevem o mundo: Orum e Aiê, a divindade suprema, o Orí e os ancestrais, com fontes e versões lado a lado.">
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Cosmologia</p>
+    <h1>O mundo, os deuses e os ancestrais</h1>
+    <p class="chamada">O que as obras dizem sobre o lugar de cada divindade e de cada conceito no mundo: a relação com a divindade suprema, com o Orum e o Aiê, entre os orixás e com os ancestrais.</p>
+  </header>
+  <p class="discreto texto-corrido">Não existe um panteão único, igual em todas as tradições, nem mesmo em terra iorubá. Por isso cada afirmação aparece como uma versão, com a tradição e a fonte, ao lado das outras.</p>
+  {panorama && <p class="destaque-capitulo link-capitulo" id="link-panorama"><span class="sobretitulo">Para ler em texto corrido</span><a class="botao" href={url('cosmologia/capitulo')}><Icone nome="livro" tamanho={18} />{panorama.titulo}</a><span>Uma visão de conjunto que liga os capítulos de Olodumare, Orum, Aiê, Orí, Odudua, Olokun e Egungun.</span></p>}
 
   <section aria-labelledby="versoes-hierarquia">
-    <h2 id="versoes-hierarquia">Versões com fonte</h2>
+    <h2 id="versoes-hierarquia">O que cada obra diz</h2>
     {nVersoes === 0 ? (
-      <p class="nota-caixa aviso-vazio" id="aviso-sem-hierarquia"><strong>Ainda não há versões com fonte sobre hierarquia.</strong> A estrutura está pronta e será preenchida pelo fichamento (atributo “hierarquia”), com fonte lida e página. Nada aqui é escrito sem fonte.</p>
+      <p class="nota-caixa aviso-vazio" id="aviso-sem-hierarquia"><strong>Ainda não há informações com fonte sobre este tema.</strong> Esta parte será preenchida à medida que as obras forem lidas. Nada aqui é escrito sem fonte.</p>
     ) : (
       <>
-        <p>{nVersoes} versões em {comHierarquia.length} fichas.</p>
+        <p>{nVersoes} informações sobre {comHierarquia.length} divindades e conceitos.</p>
         {comHierarquia.map((f) => (
           <section class="hierarquia-entidade" aria-labelledby={`h-${f.id}`}>
             <h3 id={`h-${f.id}`}><a href={url(`orixas/${f.id}#hierarquia`)}>{f.rotulo}</a></h3>
-            <ul class="versoes">
+            <ul class="versoes duas-colunas">
               {f.atributos.hierarquia.map((v) => (
                 <li class="versao versao-hierarquia" id={`hv-${v.registro}`} data-registro={v.registro}>
                   <span class="valor">{v.valor}</span>
-                  <div class="meta"><Tradicoes ids={v.tradicoes} />{v.casa_ou_regiao && <span> · Casa ou região: {v.casa_ou_regiao}</span>}</div>
+                  <div class="meta"><Tradicoes ids={v.tradicoes} />{v.casa_ou_regiao && <span> · {v.casa_ou_regiao}</span>}</div>
                   <p class="resumo">{v.parafrase}</p>
-                  <p class="fontes-hierarquia"><strong>Fonte:</strong> <Citacoes sources={v.sources} /></p>
+                  <p class="fontes-hierarquia"><strong>De acordo com</strong> <Citacoes sources={v.sources} /></p>
                 </li>
               ))}
             </ul>
@@ -46,16 +51,16 @@ const cosmo = TIPOS_COSMO.map((t) => [t, listaEntidades.filter((e) => e.tipo ===
   </section>
 
   <section aria-labelledby="em-pesquisa">
-    <h2 id="em-pesquisa">Entidades cosmológicas na pauta de pesquisa</h2>
-    <p>Divindade suprema, conceitos cosmológicos e ancestrais que o projeto pretende cobrir. O agrupamento abaixo é uma classificação de trabalho, não uma afirmação sobre a tradição; a lista mostra só os nomes até haver fonte lida.</p>
+    <h2 id="em-pesquisa">Divindades e conceitos deste tema</h2>
+    <p>A divindade suprema, os conceitos sobre o mundo e a pessoa, e os ancestrais que o projeto cobre ou pretende cobrir. O agrupamento só organiza a lista; não é uma afirmação das tradições. Os que estão em estudo aparecem só pelo nome.</p>
     {cosmo.map(([t, es]) => (
       <>
         <h3>{ROTULO_TIPO_ENTIDADE[t]}</h3>
         <ul class="lista-cosmo">
           {es.map((e) => (
             <li data-entidade={e.id}>
-              <a href={hrefEntidade(e.id)}>{e.rotulo}</a> — {fichaPorId[e.id] ? 'com ficha' : 'em pesquisa'}
-              {e.sensivel && <span class="aviso-sensivel"> (tema sensível: só o que for público em fonte acadêmica)</span>}
+              <a href={hrefEntidade(e.id)}>{e.rotulo}</a> — {fichaPorId[e.id] ? 'com página' : 'em estudo'}
+              {e.sensivel && <span class="aviso-sensivel"> (tema sensível: só o que já é público em livros e pesquisas)</span>}
             </li>
           ))}
         </ul>

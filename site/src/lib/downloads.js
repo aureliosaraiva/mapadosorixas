@@ -75,19 +75,19 @@ function montar() {
 
   for (const nome of readdirSync(path.join(DATA, 'orixas')).filter((n) => n.endsWith('.json')).sort()) {
     const rotulo = JSON.parse(ler(`orixas/${nome}`).toString('utf-8')).rotulo;
-    add(`orixas/${nome}`, `ficha de ${rotulo} (versões com fonte e página)`, ler(`orixas/${nome}`), `data/orixas/${nome}`);
+    add(`orixas/${nome}`, `${rotulo}: cada informação com a obra e a página`, ler(`orixas/${nome}`), `data/orixas/${nome}`);
   }
-  add('conexoes.json', 'grafo: nós e arestas com versões e fontes', ler('conexoes.json'), 'data/conexoes.json');
+  add('conexoes.json', 'mapa de conexões: nomes e relações, com as fontes', ler('conexoes.json'), 'data/conexoes.json');
   add('entidades_equivalentes.json', 'voduns, inquices e outros nomes equivalentes', ler('entidades_equivalentes.json'), 'data/entidades_equivalentes.json');
-  add('divergencias.json', 'atributos com mais de uma versão, lado a lado', ler('fichamento/divergencias.json'), 'data/fichamento/divergencias.json');
-  add('fontes.json', 'catálogo de fontes com status de verificação', ler('fontes/catalogo.json'), 'data/fontes/catalogo.json');
+  add('divergencias.json', 'itens com mais de uma versão, lado a lado', ler('fichamento/divergencias.json'), 'data/fichamento/divergencias.json');
+  add('fontes.json', 'bibliografia completa, com a situação de conferência de cada obra', ler('fontes/catalogo.json'), 'data/fontes/catalogo.json');
   if (existsSync(path.join(DATA, 'glossario.json'))) {
-    add('glossario.json', 'glossário de termos, com fonte e página', ler('glossario.json'), 'data/glossario.json');
+    add('glossario.json', 'glossário, com fonte e página', ler('glossario.json'), 'data/glossario.json');
   }
-  add('entidades.json', 'lista-mestra das entidades: só identificadores (sem afirmações factuais)', entidadesPublicas(), 'data/entidades.json (filtrado)');
-  add('itans.json', 'itãs com versões lado a lado, resumos parafraseados e fontes', itansPublicos(), 'data/itans.json (filtrado)');
-  add('tradicoes.json', 'tradições (id, nome e grupo; descrições sem fonte removidas)', tradicoesPublicas(), 'data/tradicoes.json (filtrado)');
-  add('LEIAME.txt', 'aviso de licença e descrição dos arquivos', leiame(lista), 'gerado no build');
+  add('entidades.json', 'lista de todos os nomes do catálogo (só nome e tipo)', entidadesPublicas(), 'data/entidades.json (filtrado)');
+  add('itans.json', 'mitos (itãs), com as versões lado a lado e as fontes', itansPublicos(), 'data/itans.json (filtrado)');
+  add('tradicoes.json', 'tradições e nações (descrições sem fonte ficam de fora)', tradicoesPublicas(), 'data/tradicoes.json (filtrado)');
+  add('LEIAME.txt', 'aviso de direitos de uso e descrição técnica dos arquivos', leiame(lista), 'gerado no build');
   return lista;
 }
 

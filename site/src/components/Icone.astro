@@ -1,0 +1,29 @@
+---
+// Ícones simples de traço (24×24), decorativos: sempre com aria-hidden.
+// Só formas genéricas (livro, grade, folha, órbita, rede…); nada de imagem de divindade.
+interface Props { nome: string; tamanho?: number; classe?: string }
+const { nome, tamanho = 22, classe = '' } = Astro.props;
+const P: Record<string, string> = {
+  livro: 'M4 5.5C4 4.7 4.7 4 5.5 4H11v15H5.5A1.5 1.5 0 0 0 4 20.5v-15ZM20 5.5c0-.8-.7-1.5-1.5-1.5H13v15h5.5c.8 0 1.5.7 1.5 1.5v-15ZM11 19h2',
+  orixas: 'M5 5h5v5H5zM14 5h5v5h-5zM5 14h5v5H5zM14 14h5v5h-5z',
+  mitos: 'M7 4h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7m0-16a2 2 0 0 0-2 2v1h4V6a2 2 0 0 0-2-2Zm0 16a2 2 0 0 1-2-2v-1h10M10 9h5M10 12.5h5',
+  cosmologia: 'M12 12m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M3.5 12a8.5 4 0 1 0 17 0a8.5 4 0 1 0-17 0M12 3.5v2M12 18.5v2',
+  mapa: 'M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M12 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M7.7 7.3l3 7.8M16.4 8.5l-3.2 6.8M8 6.2l8 .6',
+  glossario: 'M5 4h11l3 3v13H5zM9 9h6M9 12.5h6M9 16h4',
+  fontes: 'M6 4h12v16l-6-3.5L6 20z',
+  sobre: 'M12 12m-8.5 0a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0-17 0M12 11v5.5M12 7.6v.4',
+  buscar: 'M10.5 10.5m-6 0a6 6 0 1 0 12 0a6 6 0 1 0-12 0M15 15l5 5',
+  sol: 'M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0-8 0M12 2.5v2M12 19.5v2M4.6 4.6 6 6M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4',
+  lua: 'M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z',
+  menu: 'M4 7h16M4 12h16M4 17h16',
+  fechar: 'M6 6l12 12M18 6 6 18',
+  seta: 'M5 12h14M13 6l6 6-6 6',
+  voltar: 'M19 12H5M11 6l-6 6 6 6',
+  tradicoes: 'M4 18c2-6 5-9 8-9s6 3 8 9M8 18c1-3 2.5-4.5 4-4.5S15 15 16 18M12 4v5',
+  revisao: 'M12 3.5 5 6.5v5c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9v-5zM9 12l2 2 4-4',
+  relogio: 'M12 12m-8.5 0a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0-17 0M12 7.5V12l3 2',
+  dados: 'M12 6m-7 0a7 2.5 0 1 0 14 0a7 2.5 0 1 0-14 0M5 6v12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V6M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5',
+};
+if (!P[nome]) throw new Error(`Ícone desconhecido: ${nome}`);
+---
+<svg class={`icone ${classe}`.trim()} width={tamanho} height={tamanho} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d={P[nome]} /></svg>

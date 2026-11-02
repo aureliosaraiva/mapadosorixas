@@ -3,10 +3,10 @@
 import { registros, fontePorId, autorCurto, fichaPorId, url } from '../lib/dados.js';
 interface Props { registro: string }
 const r = registros.find((x) => x.id === Astro.props.registro);
-if (!r) throw new Error(`Registro inexistente citado na metodologia: ${Astro.props.registro}`);
+if (!r) throw new Error(`Registro inexistente citado no Sobre: ${Astro.props.registro}`);
 if (r.status !== 'fichado' && r.status !== 'revisado') throw new Error(`Registro ${r.id} não está fichado`);
 const f = fontePorId[r.source_id];
 const via = r.via_source_id ? fontePorId[r.via_source_id] : null;
 const naFicha = Object.values(fichaPorId[r.orixa]?.atributos ?? {}).some((vs) => vs.some((v) => v.registro === r.id));
 ---
-<span class="ref-texto">(<a href={url(`fontes#fonte-${r.source_id}`)}>{autorCurto(f)} {f?.ano}</a>{via && <>, via <a href={url(`fontes#fonte-${r.via_source_id}`)}>{autorCurto(via)} {via.ano}</a></>}, {r.localizacao}{naFicha && <>; <a href={url(`orixas/${r.orixa}#v-${r.id}`)}>ver na ficha</a></>})</span>
+<span class="ref-texto">(<a href={url(`fontes#fonte-${r.source_id}`)}>{autorCurto(f)} {f?.ano}</a>{via && <>, citado por <a href={url(`fontes#fonte-${r.via_source_id}`)}>{autorCurto(via)} {via.ano}</a></>}, {r.localizacao}{naFicha && <>; <a href={url(`orixas/${r.orixa}#v-${r.id}`)}>ver no site</a></>})</span>

@@ -15,23 +15,26 @@ const categorias = Object.entries(ROTULO_CATEGORIA_GLOSSARIO)
   .map(([c, r]) => [c, r, glossario.filter((t) => t.categoria === c)])
   .filter(([, , ts]) => ts.length);
 ---
-<Base titulo="Glossário" descricao="Glossário de termos do Candomblé, da Umbanda e do culto aos orixás, com fonte e página para cada definição." indexar>
-  <h1>Glossário</h1>
-  <p>{glossario.length} termos usados nas fichas, no fichamento e nas tradições. Cada definição é uma paráfrase com <strong>fonte e página</strong>; quando as fontes dão sentidos diferentes, eles aparecem lado a lado, sem eleger o “correto”. Nas fichas, a primeira ocorrência de cada termo leva a esta página.</p>
-  <p class="nota-caixa">{glossarioMeta.aviso}</p>
+<Base titulo="Glossário" descricao="As palavras do Candomblé, da Umbanda e do culto aos orixás usadas no site, cada uma com a explicação e a fonte." indexar>
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Glossário</p>
+    <h1>Palavras para entender</h1>
+    <p class="chamada">{glossario.length} palavras que aparecem no site, explicadas em linguagem simples e com a obra de onde veio a explicação. Quando as obras dão sentidos diferentes, eles aparecem lado a lado.</p>
+  </header>
+  <p class="discreto texto-corrido">Nas páginas do site, essas palavras aparecem com sublinhado pontilhado: passe o mouse ou toque para ver a explicação. Nada do que é reservado aos iniciados é explicado aqui.</p>
 
   <nav aria-label="Índice do glossário">
-    <p><strong>Por letra:</strong></p>
-    <ul class="sumario">
+    <p class="rotulo-busca">Por letra</p>
+    <ul class="indice-letras">
       {letras.map((l) => <li><a href={`#letra-${l}`}>{l}</a></li>)}
     </ul>
-    <p><strong>Por categoria:</strong></p>
-    <ul class="sumario">
+    <p class="rotulo-busca">Por assunto</p>
+    <ul class="sumario-pagina">
       {categorias.map(([c, r, ts]) => <li><a href={`#cat-${c}`}>{r} ({ts.length})</a></li>)}
     </ul>
   </nav>
 
-  <h2 id="termos">Termos de A a Z</h2>
+  <h2 id="termos">De A a Z</h2>
   {letras.map((l) => (
     <section aria-labelledby={`letra-${l}`} class="glossario-letra">
       <h3 id={`letra-${l}`}>{l}</h3>
@@ -45,10 +48,10 @@ const categorias = Object.entries(ROTULO_CATEGORIA_GLOSSARIO)
             <dd>
               <p class="meta">{ROTULO_CATEGORIA_GLOSSARIO[t.categoria] ?? t.categoria}{t.tradicoes.length > 0 && <> · <Tradicoes ids={t.tradicoes} /></>}</p>
               <p class="definicao">{t.definicao}</p>
-              <p class="fontes-termo"><strong>Fonte{t.sources.length > 1 ? 's' : ''}:</strong> <Citacoes sources={t.sources} /></p>
+              <p class="fontes-termo"><strong>De acordo com</strong> <Citacoes sources={t.sources} /></p>
               {t.divergencias?.length > 0 && (
                 <div class="divergencias-termo">
-                  <p><strong>Outros sentidos registrados</strong> (lado a lado, sem hierarquia):</p>
+                  <p><strong>Outros sentidos registrados</strong> (lado a lado, sem que um seja o certo):</p>
                   <ul>
                     {t.divergencias.map((d) => (
                       <li class="divergencia-termo"><span class="texto">{d.texto}</span> <span class="fontes-div">(<Citacoes sources={d.sources} />)</span></li>
@@ -56,9 +59,9 @@ const categorias = Object.entries(ROTULO_CATEGORIA_GLOSSARIO)
                   </ul>
                 </div>
               )}
-              {t.nota && <p class="nota"><strong>Nota:</strong> {t.nota}</p>}
+              {t.nota && <p class="nota"><strong>Observação:</strong> {t.nota}</p>}
               {t.ver_tambem.length > 0 && (
-                <p class="ver-tambem"><strong>Ver também:</strong> {t.ver_tambem.map((v, i) => <>{i > 0 && ', '}<a href={`#termo-${v}`}>{termoPorId[v].termo}</a></>)}</p>
+                <p class="ver-tambem"><strong>Veja também:</strong> {t.ver_tambem.map((v, i) => <>{i > 0 && ', '}<a href={`#termo-${v}`}>{termoPorId[v].termo}</a></>)}</p>
               )}
             </dd>
           </div>
@@ -67,7 +70,7 @@ const categorias = Object.entries(ROTULO_CATEGORIA_GLOSSARIO)
     </section>
   ))}
 
-  <h2 id="categorias">Termos por categoria</h2>
+  <h2 id="categorias">Por assunto</h2>
   {categorias.map(([c, r, ts]) => (
     <section aria-labelledby={`cat-${c}`}>
       <h3 id={`cat-${c}`}>{r}</h3>
@@ -75,9 +78,13 @@ const categorias = Object.entries(ROTULO_CATEGORIA_GLOSSARIO)
     </section>
   ))}
 
-  <h2 id="pendentes">Termos pendentes</h2>
-  <p>Termos que ainda não entraram, com o motivo. Nenhum deles tem definição publicada aqui.</p>
-  <ul class="pendentes-glossario">
-    {glossarioMeta.pendentes.map((p) => <li><strong>{p.termo}</strong>: {p.motivo}.</li>)}
-  </ul>
+  <details class="dobra" id="pendentes">
+    <summary>Palavras ainda em preparo</summary>
+    <div class="dobra-corpo">
+      <p>Palavras que ainda não entraram, e por quê. Nenhuma delas tem explicação publicada aqui.</p>
+      <ul class="pendentes-glossario">
+        {glossarioMeta.pendentes.map((p) => <li><strong>{p.termo}</strong>: {p.motivo}.</li>)}
+      </ul>
+    </div>
+  </details>
 </Base>

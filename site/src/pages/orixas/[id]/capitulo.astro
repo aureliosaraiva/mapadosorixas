@@ -1,10 +1,9 @@
 ---
 // Capítulo narrativo de um orixá: texto do projeto (data/capitulos/<id>.json),
-// com notas de rodapé que remetem a registros do fichamento.
+// com notas de rodapé que remetem às obras de onde veio cada informação.
 import Base from '../../../layouts/Base.astro';
-import Selo from '../../../components/Selo.astro';
-import CorpoCapitulo from '../../../components/CorpoCapitulo.astro';
-import { capitulos, capituloPorId, TITULO_SECAO, registrosCitados, panoramas } from '../../../lib/capitulos.js';
+import Capitulo from '../../../components/Capitulo.astro';
+import { capitulos, capituloPorId, registrosCitados, panoramas } from '../../../lib/capitulos.js';
 import { fichaPorId, url, itaDoRegistro, entidadePorId } from '../../../lib/dados.js';
 
 export function getStaticPaths() {
@@ -14,39 +13,25 @@ const { id } = Astro.params;
 const cap = capituloPorId[id];
 const ficha = fichaPorId[id];
 const ent = entidadePorId[id];
-const comTitulo = cap.secoes.filter((s) => s.slug !== 'abertura');
 const itansCitados = [...new Set([...registrosCitados(cap)].map((r) => itaDoRegistro[r]).filter(Boolean))];
-const nRegistros = registrosCitados(cap).size;
 // panoramas que linkam para este capítulo
 const emPanoramas = panoramas.filter((p) => p.secoes.some((s) => s.blocos.some((b) => b.tipo === 'paragrafo'
   && b.tokens.some((t) => t.t === 'link' && t.tipo === 'capitulo' && t.alvo === id))));
 ---
-<Base titulo={`${ficha.rotulo} — capítulo`} descricao={`Capítulo narrativo sobre ${ficha.rotulo}, escrito a partir do fichamento de fontes, com notas de rodapé.`} indexar>
-  <p class="trilha"><a href={url('livro')}>← Livro</a> · <a href={url(`orixas/${id}`)}>Ficha de {ficha.rotulo}</a></p>
-  <p class="sobretitulo">Capítulo · {ficha.rotulo}</p>
-  <h1>{cap.titulo}</h1>
-  {ent?.sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: este capítulo traz só o que é público em fonte acadêmica, sem fundamento iniciático.</p>}
-  <Selo texto="Este capítulo foi escrito pelo projeto a partir do fichamento de fontes escritas, sem conteúdo novo. Ainda não passou pelo conselho de revisão; erros e lacunas são esperados." />
-  <p class="nota-caixa como-ler">Texto corrido, montado só com os {nRegistros} registros do fichamento citados nas notas. Os números sobrescritos levam à nota com autor, ano e página; quando as tradições divergem, as versões aparecem lado a lado, sem eleger uma correta. Para a lista de versões com a fonte de cada uma, veja a <a href={url(`orixas/${id}`)}>ficha</a>. Atualizado em {cap.atualizado.split('-').reverse().join('/')}.</p>
-
-  <nav aria-label="Seções do capítulo">
-    <ol class="sumario sumario-capitulo">
-      {comTitulo.map((s) => <li><a href={`#${s.slug}`}>{s.titulo ?? TITULO_SECAO[s.slug]}</a></li>)}
-      <li><a href="#notas">Notas</a></li>
-      <li><a href="#bibliografia">Fontes citadas</a></li>
-    </ol>
-  </nav>
-
-  <CorpoCapitulo cap={cap} hrefPendenciasFicha={url(`orixas/${id}#pendencias`)}>
+<Base titulo={cap.titulo} descricao={`${cap.titulo}: capítulo sobre ${ficha.rotulo}, com notas que indicam as obras de onde veio cada informação.`} indexar>
+  <Capitulo cap={cap} sobretitulo={`Livro · ${ficha.rotulo}`}
+    trilha={[[url('livro'), 'Livro'], [url(`orixas/${id}`), `Página de ${ficha.rotulo}`]]}
+    textoSelo="Texto escrito pelo projeto a partir de livros e pesquisas, sem acrescentar nada que não esteja nas obras citadas. Ainda não foi revisto por sacerdotes, sacerdotisas e pesquisadores."
+    sensivel={!!ent?.sensivel} hrefPendenciasFicha={url(`orixas/${id}#pendencias`)} tituloVerTambem="Continue lendo">
     <section aria-labelledby="ver-tambem" slot="ver-tambem">
-      <h2 id="ver-tambem">Ver também</h2>
-      <ul>
-        <li><a href={url(`orixas/${id}`)}>Ficha de {ficha.rotulo}</a>: todas as versões, divergências e pendências.</li>
-        <li><a href={url(`orixas/${id}#conexoes`)}>Conexões de {ficha.rotulo} no grafo</a> e o <a href={url('grafo')}>grafo completo</a>.</li>
-        {itansCitados.length > 0 && <li>Itãs citados: {itansCitados.map((it, i) => <>{i > 0 && ', '}<a href={url(`itans/${it.id}`)}>{it.titulo}</a></>)}.</li>}
-        {emPanoramas.map((p) => <li>Panorama: <a href={url(`${p.id}/capitulo`)}>{p.titulo}</a>.</li>)}
-        <li><a href={url('glossario')}>Glossário</a> e <a href={url('tradicoes')}>tradições</a>.</li>
+      <h2 id="ver-tambem">Continue lendo</h2>
+      <ul class="ver-tambem-lista">
+        <li><a href={url(`orixas/${id}`)}>Página de {ficha.rotulo}</a>: resumo, o que cada tradição registra e as variações entre casas e nações.</li>
+        <li><a href={url(`orixas/${id}#conexoes`)}>Com quem {ficha.rotulo} se relaciona</a> e o <a href={url('grafo')}>mapa de conexões completo</a>.</li>
+        {itansCitados.length > 0 && <li>Mitos contados aqui: {itansCitados.map((it, i) => <>{i > 0 && ', '}<a href={url(`itans/${it.id}`)}>{it.titulo}</a></>)}.</li>}
+        {emPanoramas.map((p) => <li>Visão de conjunto: <a href={url(`${p.id}/capitulo`)}>{p.titulo}</a>.</li>)}
+        <li><a href={url('glossario')}>Glossário</a> e <a href={url('tradicoes')}>tradições e nações</a>.</li>
       </ul>
     </section>
-  </CorpoCapitulo>
+  </Capitulo>
 </Base>

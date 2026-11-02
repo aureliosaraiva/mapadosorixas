@@ -40,7 +40,8 @@ export const registro = (id) => {
   return r;
 };
 
-export const PENDENCIAS_URL = 'https://github.com/aureliosaraiva/mapadosorixas/blob/main/docs/pesquisa/PENDENCIAS.md';
+// Obra de nível C no catálogo (documento de época, divulgação): aviso em linguagem simples
+export const CAUTELA = 'Lida com cautela: documento de época ou obra de divulgação, que reflete o olhar de quem a escreveu.';
 
 // Fontes citadas no capítulo (fonte lida e, se houver, a obra citada por ela), por autor
 export function bibliografia(cap) {
@@ -80,4 +81,4 @@ export function hrefLink(t) {
   }
 }
 
-export const textoLacuna = (it, cap) => `Nenhum registro fichado de “${rotuloAtributo(it.atributo)}”${it.tradicao ? ` na tradição ${rotuloTradicao(it.tradicao)}` : ''} para ${fichaPorId[cap.orixa].rotulo} (conferido pelo validador).`;
+export const textoLacuna = (it, cap) => `As obras reunidas até agora não dizem nada sobre “${rotuloAtributo(it.atributo).toLocaleLowerCase('pt-BR')}”${it.tradicao ? ` na tradição ${rotuloTradicao(it.tradicao)}` : ''} de ${fichaPorId[cap.orixa].rotulo}.`;

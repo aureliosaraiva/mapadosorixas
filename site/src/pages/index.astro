@@ -1,87 +1,62 @@
 ---
 import Base from '../layouts/Base.astro';
-import { fichas, fontes, conexoes, divergencias, registros, usoDasFontes, tradicoes, glossario, totalVersoes, url, listaEntidades, itans } from '../lib/dados.js';
+import Icone from '../components/Icone.astro';
+import { fichas, fontes, usoDasFontes, url, listaEntidades, itans, entidadePorId } from '../lib/dados.js';
+import { capitulos, panoramas } from '../lib/capitulos.js';
 
-const versoes = fichas.reduce((n, f) => n + totalVersoes(f), 0);
-const fontesUsadas = Object.keys(usoDasFontes).length;
+const obrasCitadas = Object.keys(usoDasFontes).length;
+const orixas = fichas.filter((f) => entidadePorId[f.id]?.tipo === 'orixa');
+const entradas = [
+  { href: url('livro'), icone: 'livro', titulo: 'Livro', texto: `${capitulos.length} capítulos para ler do começo ao fim, como num livro, com as fontes nas notas.` },
+  { href: url('catalogo'), icone: 'orixas', titulo: 'Orixás', texto: `Uma página para cada orixá e entidade: resumo, o que cada tradição registra e as variações entre casas.` },
+  { href: url('itans'), icone: 'mitos', titulo: 'Mitos', texto: `${itans.length} itãs, as narrativas sobre os orixás, com as versões de cada fonte lado a lado.` },
+  { href: url('cosmologia'), icone: 'cosmologia', titulo: 'Cosmologia', texto: 'Como as tradições descrevem o mundo: o Orum e o Aiê, a divindade suprema, o Orí e os ancestrais.' },
+];
 ---
 <Base titulo="Início" indexar>
-  <h1>Mapa dos Orixás</h1>
-  <p class="selo" role="note">Protótipo em rascunho — nada aqui foi revisado ainda por praticantes ou pesquisadores.</p>
-  <div class="aviso-versao nota-caixa">
-    <p><strong>Versão inicial em revisão.</strong> Este site está publicado como rascunho público para receber correções antes da revisão por praticantes e pesquisadores; erros e lacunas são esperados e as páginas não são indexadas por buscadores. Viu um erro, uma fonte mal citada ou algo que não deveria ser público? Abra uma <a href="https://github.com/aureliosaraiva/mapadosorixas/issues">issue no repositório</a> (veja <a href={url('sobre#contribuir')}>como contribuir</a>).</p>
+  <section class="capa" aria-labelledby="titulo-inicio">
+    <p class="sobretitulo">Enciclopédia em construção</p>
+    <h1 id="titulo-inicio">Os orixás, com as fontes à mão</h1>
+    <p class="chamada">Histórias, símbolos e tradições dos orixás contados a partir de livros e pesquisas. Cada informação diz de onde veio, e quando as casas e nações contam de jeitos diferentes, as versões aparecem lado a lado.</p>
+    <div class="botoes">
+      <a class="botao" href={url('livro')}><Icone nome="livro" tamanho={18} />Começar pelo Livro</a>
+      <a class="botao secundario" href={url('catalogo')}>Ver os orixás</a>
+    </div>
+  </section>
+
+  <div class="aviso-versao" role="note">
+    <Icone nome="revisao" />
+    <p><strong>Conteúdo em revisão por especialistas.</strong> Esta é uma versão inicial, publicada para ser lida e corrigida antes da revisão por sacerdotes, sacerdotisas e pesquisadores. Pode haver erros e lacunas. <a href={url('sobre#revisao')}>Como funciona a revisão</a>.</p>
   </div>
 
-  <p>Uma enciclopédia em construção sobre os orixás que <strong>cita a fonte de cada afirmação</strong> (autor, ano e página) e <strong>mostra lado a lado as versões que divergem</strong> entre tradições, nações e casas, sem eleger uma versão “correta”.</p>
-  <p>O conteúdo vem de um fichamento de livros, teses e artigos. Os trechos são sempre parafraseados, nunca copiados. O Candomblé, em suas nações, e a Umbanda aparecem como religiões distintas.</p>
-
-  <ul class="destaques" aria-label="Números do protótipo">
-    <li><strong>{fichas.length}</strong> entidades com ficha (de {listaEntidades.length} na lista de trabalho)</li>
-    <li><strong>{itans.length}</strong> itãs com versões lado a lado</li>
-    <li><strong>{versoes}</strong> versões com fonte</li>
-    <li><strong>{divergencias.length}</strong> atributos com versões divergentes</li>
-    <li><strong>{fontesUsadas}</strong> fontes citadas nas fichas (de {fontes.length} no catálogo)</li>
+  <h2 id="por-onde">Por onde começar</h2>
+  <ul class="grade grade-4">
+    {entradas.map((e) => (
+      <li class="cartao entrada">
+        <span class="icone-entrada"><Icone nome={e.icone} /></span>
+        <h3><a class="cartao-link" href={e.href}>{e.titulo}</a></h3>
+        <p>{e.texto}</p>
+      </li>
+    ))}
   </ul>
 
-  <h2>Por onde começar</h2>
-  <div class="grade">
-    <section class="cartao">
-      <h3><a href={url('catalogo')}>Catálogo</a></h3>
-      <p>As fichas de {fichas.map((f) => f.rotulo).join(', ')} e as {listaEntidades.length - fichas.length} entidades ainda em pesquisa, com filtros por tipo, tradição e atributo.</p>
-    </section>
-    <section class="cartao">
-      <h3><a href={url('itans')}>Itãs</a></h3>
-      <p>{itans.length} narrativas míticas, cada uma com as versões das fontes lado a lado e resumos parafraseados.</p>
-    </section>
-    <section class="cartao">
-      <h3><a href={url('cosmologia')}>Cosmologia e hierarquia</a></h3>
-      <p>A posição cosmológica das entidades, só com fonte, e as entidades cosmológicas na pauta de pesquisa.</p>
-    </section>
-    <section class="cartao">
-      <h3><a href={url('grafo')}>Grafo de conexões</a></h3>
-      <p>{conexoes.nos.length} nós e {conexoes.arestas.length} conexões: parentesco nos itãs, equivalências entre tradições e sincretismo. Também disponível como tabela.</p>
-    </section>
-    <section class="cartao">
-      <h3><a href={url('fontes')}>Fontes</a></h3>
-      <p>Bibliografia completa com status de verificação, filtrável por idioma, tipo, ano e confiabilidade.</p>
-    </section>
-    <section class="cartao">
-      <h3><a href={url('metodologia')}>Metodologia e limitações</a></h3>
-      <p>Como os dados são levantados e conferidos, o que fica de fora e por quê. São {registros.length} registros de fichamento até agora.</p>
-    </section>
-    <section class="cartao">
-      <h3><a href={url('tradicoes')}>Tradições</a></h3>
-      <p>As {tradicoes.length} tradições citadas nas fichas, agrupadas: nações do Candomblé, Umbanda, outras religiões afro-brasileiras, culto na África e diáspora caribenha.</p>
-    </section>
-    <section class="cartao">
-      <h3><a href={url('glossario')}>Glossário</a></h3>
-      <p>{glossario.length} termos com definição, fonte e página.</p>
-    </section>
-  </div>
+  <h2 id="orixas">Os orixás no site</h2>
+  <p class="intro-secao">Comece por um nome. Outras {listaEntidades.length - orixas.length} entidades e conceitos, incluindo os que ainda estão em estudo, estão na página <a href={url('catalogo')}>Orixás</a>.</p>
+  <ul class="lista-nomes">
+    {orixas.map((f) => <li><a href={url(`orixas/${f.id}`)}>{f.rotulo}</a></li>)}
+  </ul>
 
-  <h2 id="busca-titulo">Buscar</h2>
-  <label for="busca-campo" class="so-js rotulo-busca">Termo de busca (fichas, fontes, glossário, tradições e metodologia)</label>
-  <div id="busca" class="so-js"></div>
-  <noscript><p>A busca precisa de JavaScript. Sem ele, navegue pelo <a href={url('catalogo')}>catálogo</a> ou pelas <a href={url('fontes')}>fontes</a>.</p></noscript>
-  <p class="nota-caixa">A busca é gerada pelo Pagefind no <code>npm run build</code>. No modo de desenvolvimento (<code>npm run dev</code>) ela não aparece.</p>
+  <h2 id="como-ler">Como ler este site</h2>
+  <ul class="principios">
+    <li><strong>Tudo tem fonte</strong><span>Cada informação indica o livro ou a pesquisa de onde veio, com a página. Os textos são resumos com palavras próprias, nunca cópia.</span></li>
+    <li><strong>Não há uma versão única</strong><span>O culto aos orixás passa de geração em geração, sobretudo pela fala, e muda de casa para casa. Por isso as diferenças aparecem lado a lado.</span></li>
+    <li><strong>Respeito às tradições</strong><span>Candomblé e Umbanda são tratados como religiões distintas, e nada do que é reservado aos iniciados é publicado. <a href={url('sobre')}>Saiba mais</a>.</span></li>
+  </ul>
 
-  <Fragment slot="head">
-    <link rel="stylesheet" href={url('pagefind/pagefind-ui.css')} />
-  </Fragment>
-  <script is:inline define:vars={{ base: url('') }}>
-    const s = document.createElement('script');
-    s.src = base + 'pagefind/pagefind-ui.js';
-    s.onload = () => {
-      // eslint-disable-next-line no-undef
-      new PagefindUI({ element: '#busca', showSubResults: true, translations: { placeholder: 'Buscar nas fichas, fontes e metodologia', zero_results: 'Nenhum resultado para [SEARCH_TERM]' } });
-      // rótulo visível ligado ao campo criado pelo Pagefind (axe: label-title-only)
-      const ligar = () => {
-        const campo = document.querySelector('#busca input[type="text"], #busca input:not([type])');
-        if (campo) campo.id = 'busca-campo'; else requestAnimationFrame(ligar);
-      };
-      ligar();
-    };
-    s.onerror = () => { document.getElementById('busca').textContent = 'Índice de busca indisponível (rode npm run build).'; };
-    document.head.appendChild(s);
-  </script>
+  <h2 id="mais">Para ir além</h2>
+  <ul class="grade">
+    <li class="cartao"><h3><a class="cartao-link" href={url('grafo')}>Mapa de conexões</a></h3><p class="resumo-cartao">Quem é filho, irmão ou companheiro de quem nos mitos, e os nomes equivalentes em outras tradições.</p></li>
+    {panoramas[0] && <li class="cartao"><h3><a class="cartao-link" href={url(`${panoramas[0].id}/capitulo`)}>{panoramas[0].titulo}</a></h3><p class="resumo-cartao">Uma visão de conjunto, em texto corrido, que liga vários capítulos do livro.</p></li>}
+    <li class="cartao"><h3><a class="cartao-link" href={url('fontes')}>Fontes</a></h3><p class="resumo-cartao">As {obrasCitadas} obras citadas no site e a bibliografia completa de pesquisa ({fontes.length} títulos).</p></li>
+  </ul>
 </Base>

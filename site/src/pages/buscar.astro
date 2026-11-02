@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/dados.js';
+---
+<Base titulo="Buscar" descricao="Busca em todo o site: orixás, capítulos, mitos, glossário e fontes.">
+  <header class="cabeca-pagina">
+    <h1>Buscar</h1>
+    <p class="chamada">Procure um orixá, um mito, uma palavra do glossário ou o nome de um autor.</p>
+  </header>
+  <label for="busca-campo" class="so-js rotulo-busca">O que você procura?</label>
+  <div id="busca" class="so-js"></div>
+  <noscript><p class="nota-caixa">A busca precisa de JavaScript ligado no navegador. Sem ele, navegue pelos <a href={url('catalogo')}>orixás</a>, pelo <a href={url('livro')}>livro</a> ou pelo <a href={url('glossario')}>glossário</a>.</p></noscript>
+
+  <Fragment slot="head">
+    <link rel="stylesheet" href={url('pagefind/pagefind-ui.css')} />
+  </Fragment>
+  <script is:inline define:vars={{ base: url('') }}>
+    const s = document.createElement('script');
+    s.src = base + 'pagefind/pagefind-ui.js';
+    s.onload = () => {
+      // eslint-disable-next-line no-undef
+      new PagefindUI({
+        element: '#busca', showSubResults: true, showImages: false, autofocus: true,
+        translations: { placeholder: 'Ex.: Ogum, Iemanjá, axé, Verger', zero_results: 'Nada encontrado para [SEARCH_TERM]', clear_search: 'Limpar', load_more: 'Mais resultados', search_label: 'Buscar no site' },
+      });
+      // rótulo visível ligado ao campo criado pelo Pagefind (axe: label-title-only)
+      const ligar = () => {
+        const campo = document.querySelector('#busca input[type="text"], #busca input:not([type])');
+        if (campo) campo.id = 'busca-campo'; else requestAnimationFrame(ligar);
+      };
+      ligar();
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) setTimeout(() => { const c = document.getElementById('busca-campo'); if (c) { c.value = q; c.dispatchEvent(new Event('input')); } }, 50);
+    };
+    s.onerror = () => { document.getElementById('busca').textContent = 'A busca está indisponível no momento.'; };
+    document.head.appendChild(s);
+  </script>
+</Base>

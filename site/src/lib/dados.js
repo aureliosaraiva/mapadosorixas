@@ -91,16 +91,16 @@ export const ROTULO_ATRIBUTO = {
   alimentos: 'Alimentos rituais',
   animais: 'Animais',
   qualidades: 'Qualidades',
-  parentesco: 'Parentesco nos itãs',
-  equivalencias: 'Equivalências entre tradições',
+  parentesco: 'Parentesco nos mitos',
+  equivalencias: 'Nomes em outras tradições',
   sincretismo: 'Sincretismo',
-  itans: 'Itãs (resumos parafraseados)',
+  itans: 'Mitos (itãs)',
   tabus: 'Tabus',
   festas: 'Festas e calendário',
   historia_culto: 'História do culto',
   iconografia: 'Iconografia',
-  interpretacao_academica: 'Interpretação acadêmica',
-  hierarquia: 'Hierarquia e posição cosmológica',
+  interpretacao_academica: 'Leituras de pesquisadores',
+  hierarquia: 'Lugar na cosmologia',
 };
 export const ORDEM_ATRIBUTOS = Object.keys(ROTULO_ATRIBUTO);
 export const rotuloAtributo = (a) => ROTULO_ATRIBUTO[a] || a;
@@ -137,7 +137,7 @@ export const rotuloTradicaoCurto = (id) => rotuloTradicao(id).replace(/\s*\(.*\)
 export const grupoTradicao = (id) => tradicaoPorId[id]?.grupo || 'outro';
 
 export const ROTULO_ARESTA = {
-  parentesco: 'Parentesco (itãs)',
+  parentesco: 'Parentesco nos mitos',
   equivalencia: 'Equivalência entre tradições',
   sincretismo: 'Sincretismo',
   companheiro_de_culto: 'Companheiro de culto',
@@ -155,7 +155,7 @@ export const ROTULO_NO = {
   figura_crista: 'Figura cristã',
   vodum: 'Vodum',
   inquice: 'Inquice',
-  nome_fon_ou_banto: 'Nome fon ou banto (não classificado)',
+  nome_fon_ou_banto: 'Nome fon ou banto (sem classificação)',
   entidade: 'Entidade',
 };
 

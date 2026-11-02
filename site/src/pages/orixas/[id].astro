@@ -1,15 +1,17 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Selo from '../../components/Selo.astro';
+import Icone from '../../components/Icone.astro';
 import Tradicoes from '../../components/Tradicoes.astro';
 import TextoGlossario from '../../components/TextoGlossario.astro';
 import {
-  fichas, fontePorId, divergencias, conexoes, ORDEM_ATRIBUTOS, rotuloAtributo, autorCurto,
-  tradicoesDaFicha, totalVersoes, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, url,
-  marcarGlossario, termoPorId, linhaRevisao, fichaRevisada, versoesRevisadas,
-  entidadePorId, ROTULO_TIPO_ENTIDADE, itaDoRegistro,
+  fichas, fontePorId, divergencias, ORDEM_ATRIBUTOS, rotuloAtributo, autorCurto,
+  tradicoesDaFicha, rotuloNo, fichaPorId, ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, url,
+  marcarGlossario, termoPorId, linhaRevisao, fichaRevisada, versoesRevisadas, totalVersoes,
+  entidadePorId, ROTULO_TIPO_ENTIDADE, itaDoRegistro, itans, fontesDaFicha,
 } from '../../lib/dados.js';
-import { capituloPorId } from '../../lib/capitulos.js';
+import { capituloPorId, TITULO_SECAO, totalPalavras } from '../../lib/capitulos.js';
+import { minutosLeitura } from '../../lib/textos.js';
 import { elementosCytoscape, vizinhanca, FORMA_NO, CORES_ARESTA, ROTULO_LINHA } from '../../lib/grafo.js';
 
 export function getStaticPaths() {
@@ -20,8 +22,9 @@ const { id } = Astro.params;
 const ficha = fichaPorId[id];
 const ent = entidadePorId[id];
 const atributos = ORDEM_ATRIBUTOS.filter((a) => ficha.atributos[a]);
+const cap = capituloPorId[id];
 
-// Numeração das notas: uma por versão, na ordem em que aparecem.
+// Numeração das notas: uma por informação, na ordem em que aparecem.
 const notas = [];
 const notaDoRegistro = {};
 for (const a of atributos) {
@@ -31,7 +34,13 @@ for (const a of atributos) {
   }
 }
 
-// Glossário: primeira ocorrência de cada termo na página (paráfrases e notas, na
+// Resumo em destaque: alguns itens, com no máximo 3 versões cada (na ordem dos dados,
+// sem escolher uma "principal"); todas as versões estão logo abaixo.
+const RESUMO = ['dominios', 'elementos', 'cores', 'dia_semana', 'saudacao', 'simbolos', 'sincretismo', 'hierarquia'];
+const MAX_RESUMO = 3;
+const resumo = RESUMO.filter((a) => ficha.atributos[a]).map((a) => ({ a, vs: ficha.atributos[a].slice(0, MAX_RESUMO), total: ficha.atributos[a].length }));
+
+// Glossário: primeira ocorrência de cada termo na página (resumos e observações, na
 // ordem de exibição) vira link para a página Glossário.
 const vistos = new Set();
 const marcado = {};
@@ -43,6 +52,7 @@ for (const a of atributos) {
 const termosUsados = [...vistos].map((t) => termoPorId[t]).sort((a, b) => a.termo.localeCompare(b.termo, 'pt-BR'));
 
 const divs = divergencias.filter((d) => d.orixa === id);
+const mitos = itans.filter((it) => it.entidades.includes(id));
 const viz = vizinhanca(id);
 const arestas = viz.arestas;
 const elementosMini = elementosCytoscape(viz.nos, viz.arestas);
@@ -51,106 +61,167 @@ const tiposArestaMini = [...new Set(viz.arestas.map((e) => e.tipo))];
 const pend = ficha.pendencias;
 const preFich = Object.entries(pend.so_pre_fichamento);
 const retidos = Object.entries(pend.retidos_ate_conselho);
+const nPre = preFich.reduce((n, [, ids]) => n + ids.length, 0);
+const nRetidos = retidos.reduce((n, [, ids]) => n + ids.length, 0);
 const revisada = fichaRevisada(ficha);
 const nRevisadas = versoesRevisadas(ficha);
+const total = totalVersoes(ficha);
+const lista = (xs) => xs.length <= 1 ? xs.join('') : `${xs.slice(0, -1).join(', ')} e ${xs[xs.length - 1]}`;
+const minusc = (a) => rotuloAtributo(a).toLocaleLowerCase('pt-BR');
 ---
-<Base titulo={ficha.rotulo} descricao={`Ficha de ${ficha.rotulo}: versões por tradição, com fonte, página e divergências.`} indexar>
-  <p><a href={url('catalogo')}>← Catálogo</a></p>
-  <h1>{ficha.rotulo}</h1>
+<Base titulo={ficha.rotulo} descricao={`${ficha.rotulo}: resumo, o que cada tradição registra, mitos e conexões, com a fonte de cada informação.`} indexar>
+  <p class="trilha"><a href={url('catalogo')}><Icone nome="voltar" tamanho={16} />Orixás e entidades</a></p>
+  <header class="cabeca-orixa">
+    <div>
+      <p class="sobretitulo">{ROTULO_TIPO_ENTIDADE[ent.tipo]}</p>
+      <h1>{ficha.rotulo}</h1>
+      <p class="tradicoes-citadas">Registrado em: <Tradicoes ids={tradicoesDaFicha(ficha)} link /> <a href={url('tradicoes')}>o que é cada tradição</a></p>
+    </div>
+  </header>
+  {ent.sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: esta página traz só o que já é público em livros e pesquisas, sem nada dos fundamentos reservados aos iniciados.</p>}
   {revisada
-    ? <p class="selo-revisado" role="note">Todas as versões desta ficha foram revisadas por praticantes ou pesquisadores, cada uma em nome da sua tradição. Quem revisou e quando aparece abaixo de cada versão.</p>
+    ? <p class="selo-revisado" role="note">Todas as informações desta página foram revistas por sacerdotes, sacerdotisas ou pesquisadores, cada um em nome da sua tradição. Quem revisou aparece junto de cada informação.</p>
     : <Selo />}
 
-  {capituloPorId[id] && <p class="nota-caixa link-capitulo"><strong>Capítulo:</strong> <a href={url(`orixas/${id}/capitulo`)}>{capituloPorId[id].titulo}</a> — texto corrido sobre {ficha.rotulo}, escrito a partir destas versões, com notas de rodapé.</p>}
-  {ent.tipo !== 'orixa' && <p class="tipo-entidade">Tipo (classificação de trabalho): {ROTULO_TIPO_ENTIDADE[ent.tipo]}</p>}
-  {ent.sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: esta ficha traz só o que é público em fonte acadêmica, sem fundamento iniciático.</p>}
-  <p>{totalVersoes(ficha)} versões, cada uma com nota para a fonte (autor, ano e página). Quando há mais de uma versão para o mesmo atributo, todas são mostradas, com a tradição e a casa ou região indicadas pela fonte, <strong>sem hierarquia entre elas</strong>.</p>
-  <p><strong>Tradições citadas:</strong> <Tradicoes ids={tradicoesDaFicha(ficha)} link /> (<a href={url('tradicoes')}>o que é cada tradição</a>)</p>
+  {resumo.length > 0 && (
+    <section class="resumo-orixa" aria-labelledby="resumo">
+      <h2 id="resumo">Em resumo</h2>
+      <p>Alguns itens, como as obras os registram. Cada um pode mudar conforme a tradição e a casa; a lista completa está logo abaixo.</p>
+      <dl>
+        {resumo.map(({ a, vs, total: n }) => (
+          <div>
+            <dt>{rotuloAtributo(a)}</dt>
+            <dd>
+              <ul>
+                {vs.map((v) => (
+                  <li>{v.valor} <Tradicoes ids={v.tradicoes} /><sup class="ref"><a href={`#nota-${notaDoRegistro[v.registro]}`} aria-label={`Nota ${notaDoRegistro[v.registro]}: fonte`}>{notaDoRegistro[v.registro]}</a></sup></li>
+                ))}
+              </ul>
+              {n > vs.length && <a class="mais" href={`#${a}`}>ver as {n} versões</a>}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )}
 
-  <nav aria-label="Seções da ficha">
-    <ul class="sumario">
-      {atributos.map((a) => <li><a href={`#${a}`}>{rotuloAtributo(a)} ({ficha.atributos[a].length})</a></li>)}
-      <li><a href="#divergencias">Divergências</a></li>
+  {cap && (
+    <section class="destaque-capitulo link-capitulo" aria-labelledby="capitulo">
+      <p class="sobretitulo">Para ler com calma</p>
+      <h2 id="capitulo">{cap.titulo}</h2>
+      <p>O capítulo do livro sobre {ficha.rotulo}, em texto corrido: {cap.secoes.filter((s) => s.slug !== 'abertura').map((s) => (s.titulo ?? TITULO_SECAO[s.slug]).toLocaleLowerCase('pt-BR')).join(', ')}. Cerca de {minutosLeitura(totalPalavras(cap))} minutos de leitura.</p>
+      <a class="botao" href={url(`orixas/${id}/capitulo`)}><Icone nome="livro" tamanho={18} />Ler o capítulo</a>
+    </section>
+  )}
+
+  <nav aria-label="Nesta página">
+    <ul class="sumario-pagina">
+      <li><a href="#em-cada-tradicao">Em cada tradição</a></li>
+      {divs.length > 0 && <li><a href="#divergencias">Variações entre casas e nações</a></li>}
+      <li><a href="#mitos">Mitos</a></li>
       <li><a href="#conexoes">Conexões</a></li>
-      {termosUsados.length > 0 && <li><a href="#termos">Termos do glossário</a></li>}
-      <li><a href="#pendencias">Pendências</a></li>
-      <li><a href="#notas">Notas e fontes</a></li>
+      {termosUsados.length > 0 && <li><a href="#termos">Palavras</a></li>}
+      <li><a href="#pendencias">O que ainda falta</a></li>
+      <li><a href="#notas">Fontes</a></li>
     </ul>
   </nav>
 
-  {atributos.map((a) => (
-    <section class="atributo" aria-labelledby={a}>
-      <h2 id={a}>{rotuloAtributo(a)}</h2>
-      {ficha.atributos[a].length > 1 && <p class="meta">{ficha.atributos[a].length} versões registradas.</p>}
-      <ul class="versoes">
-        {ficha.atributos[a].map((v) => {
-          const n = notaDoRegistro[v.registro];
-          return (
-            <li class="versao" id={`v-${v.registro}`}>
-              <span class="valor">{v.valor}</span>
-              <sup class="ref"><a href={`#nota-${n}`} id={`ref-${n}`} aria-label={`Nota ${n}: fonte`}>[{n}]</a></sup>
-              <div class="meta">
-                <Tradicoes ids={v.tradicoes} />
-                {v.casa_ou_regiao && <span> · Casa ou região: {v.casa_ou_regiao}</span>}
-              </div>
-              <p><TextoGlossario partes={marcado[v.registro].parafrase} /></p>
-              {v.nota && <p class="nota"><strong>Nota do fichamento:</strong> <TextoGlossario partes={marcado[v.registro].nota} /></p>}
-              {itaDoRegistro[v.registro] && <p class="meta ligacao-ita">Itã: <a href={url(`itans/${itaDoRegistro[v.registro].id}#vi-${v.registro}`)}>{itaDoRegistro[v.registro].titulo}</a> ({itaDoRegistro[v.registro].versoes.length} {itaDoRegistro[v.registro].versoes.length === 1 ? 'versão' : 'versões'} lado a lado)</p>}
-              {v.revisoes && (
-                <ul class="revisoes" aria-label="Revisões desta versão">
-                  {v.revisoes.map((rv) => <li class="revisao" data-parecer={rv.parecer}>{linhaRevisao(rv)}</li>)}
-                </ul>
-              )}
-            </li>
-          );
-        })}
-      </ul>
-    </section>
-  ))}
+  <section class="bloco-secao" aria-labelledby="em-cada-tradicao">
+    <h2 id="em-cada-tradicao">Em cada tradição</h2>
+    <p class="intro-secao">Tudo o que as obras consultadas registram sobre {ficha.rotulo}, item por item ({fontesDaFicha(ficha).size} obras). Cada informação traz a tradição e, quando a obra informa, a casa ou a região. Quando há mais de uma versão, todas aparecem, sem que uma seja tomada como a certa.</p>
+    {atributos.map((a) => (
+      <section class="atributo" aria-labelledby={a}>
+        <h3 id={a}>{rotuloAtributo(a)}</h3>
+        <ul class={`versoes ${ficha.atributos[a].length > 1 ? 'duas-colunas' : ''}`}>
+          {ficha.atributos[a].map((v) => {
+            const n = notaDoRegistro[v.registro];
+            const it = itaDoRegistro[v.registro];
+            return (
+              <li class="versao" id={`v-${v.registro}`}>
+                <span class="valor">{v.valor}</span>
+                <sup class="ref"><a href={`#nota-${n}`} id={`ref-${n}`} aria-label={`Nota ${n}: fonte`}>{n}</a></sup>
+                <div class="meta">
+                  <Tradicoes ids={v.tradicoes} />
+                  {v.casa_ou_regiao && <span> · {v.casa_ou_regiao}</span>}
+                </div>
+                <p><TextoGlossario partes={marcado[v.registro].parafrase} /></p>
+                {v.nota && <p class="nota"><strong>Observação:</strong> <TextoGlossario partes={marcado[v.registro].nota} /></p>}
+                {it && <p class="meta ligacao-ita">Mito: <a href={url(`itans/${it.id}#vi-${v.registro}`)}>{it.titulo}</a>{it.versoes.length > 1 && <> ({it.versoes.length} versões lado a lado)</>}</p>}
+                {v.revisoes && (
+                  <ul class="revisoes" aria-label="Revisões desta informação">
+                    {v.revisoes.map((rv) => <li class="revisao" data-parecer={rv.parecer}>{linhaRevisao(rv)}</li>)}
+                  </ul>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    ))}
+  </section>
 
-  <section aria-labelledby="divergencias">
-    <h2 id="divergencias">Divergências</h2>
-    {divs.length === 0 ? <p>Nenhum atributo com mais de uma versão registrada.</p> : (
+  <section class="bloco-secao" aria-labelledby="divergencias">
+    <h2 id="divergencias">Variações entre casas e nações</h2>
+    {divs.length === 0 ? <p>Nenhum item tem, por enquanto, versões diferentes registradas.</p> : (
       <>
-        <p>Atributos em que as fontes registram mais de uma versão. As linhas estão na ordem do fichamento, não por importância.</p>
-        {divs.map((d) => (
-          <div class="tabela-rolagem">
-            <table>
-              <caption>{rotuloAtributo(d.atributo)}: {d.versoes.length} versões</caption>
-              <thead><tr><th scope="col">Versão</th><th scope="col">Tradição</th><th scope="col">Casa ou região</th><th scope="col">Fonte</th></tr></thead>
-              <tbody>
-                {d.versoes.map((v) => {
-                  const n = notaDoRegistro[v.registro];
-                  return (
-                    <tr>
-                      <td>{v.valor}</td>
-                      <td><Tradicoes ids={v.tradicoes} /></td>
-                      <td>{v.casa_ou_regiao ?? '—'}</td>
-                      <td>
-                        {autorCurto(fontePorId[v.fonte])} ({fontePorId[v.fonte]?.ano ?? 's.d.'}){v.via && <> via {autorCurto(fontePorId[v.via])} ({fontePorId[v.via]?.ano})</>}, {v.localizacao}
-                        {n && <sup class="ref"><a href={`#nota-${n}`} aria-label={`Nota ${n}`}>[{n}]</a></sup>}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
+        <p class="intro-secao">Itens em que as obras registram mais de uma versão, em quadros para comparar. A ordem é a da leitura das obras, não de importância.</p>
+        {divs.map((d, i) => (
+          <details class="dobra" open={i < 2}>
+            <summary>{rotuloAtributo(d.atributo)} <span class="discreto">{d.versoes.length} versões</span></summary>
+            <div class="dobra-corpo">
+              <div class="tabela-rolagem">
+                <table>
+                  <caption class="visualmente-oculto">{rotuloAtributo(d.atributo)}: {d.versoes.length} versões</caption>
+                  <thead><tr><th scope="col">Versão</th><th scope="col">Tradição</th><th scope="col">Casa ou região</th><th scope="col">De acordo com</th></tr></thead>
+                  <tbody>
+                    {d.versoes.map((v) => {
+                      const n = notaDoRegistro[v.registro];
+                      return (
+                        <tr>
+                          <td>{v.valor}</td>
+                          <td><Tradicoes ids={v.tradicoes} /></td>
+                          <td>{v.casa_ou_regiao ?? '—'}</td>
+                          <td>
+                            {autorCurto(fontePorId[v.fonte])} ({fontePorId[v.fonte]?.ano ?? 's.d.'}){v.via && <>, citado por {autorCurto(fontePorId[v.via])} ({fontePorId[v.via]?.ano})</>}, {v.localizacao}
+                            {n && <sup class="ref"><a href={`#nota-${n}`} aria-label={`Nota ${n}`}>{n}</a></sup>}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </details>
         ))}
       </>
     )}
   </section>
 
-  <section aria-labelledby="conexoes">
+  <section class="bloco-secao" aria-labelledby="mitos">
+    <h2 id="mitos">Mitos</h2>
+    {mitos.length === 0
+      ? <p>Ainda não há mito com fonte lida em que {ficha.rotulo} apareça.</p>
+      : (
+        <>
+          <p class="intro-secao">Itãs (narrativas sobre os orixás) em que {ficha.rotulo} aparece. Cada um reúne as versões das obras lado a lado.</p>
+          <ul class="lista-mitos">
+            {mitos.map((it) => <li><a href={url(`itans/${it.id}`)}>{it.titulo}</a> <span class="discreto">· {it.versoes.length} {it.versoes.length === 1 ? 'versão' : 'versões'}</span></li>)}
+          </ul>
+        </>
+      )}
+  </section>
+
+  <section class="bloco-secao" aria-labelledby="conexoes">
     <h2 id="conexoes">Conexões</h2>
-    {arestas.length === 0 ? <p>Nenhuma conexão registrada.</p> : (
+    {arestas.length === 0 ? <p>Nenhuma conexão registrada por enquanto.</p> : (
       <>
-        <p>Conexões com fonte em que {ficha.rotulo} aparece ({arestas.length} conexões com {viz.nos.length - 1} nós vizinhos). Veja todas no <a href={url('grafo')}>grafo completo</a>.</p>
+        <p class="intro-secao">Com quem {ficha.rotulo} se relaciona nos mitos e nas tradições: parentes, companheiros de culto, nomes equivalentes e santos do sincretismo ({arestas.length} conexões). Veja todas no <a href={url('grafo')}>mapa de conexões</a>.</p>
         <div class="grafo-caixa mini so-js">
-          <div id="mini-grafo" role="img" aria-label={`Mini-grafo dos vizinhos diretos de ${ficha.rotulo}. A lista abaixo descreve as mesmas conexões, com as fontes.`}></div>
+          <div id="mini-grafo" role="img" aria-label={`Desenho das conexões de ${ficha.rotulo}. A lista abaixo descreve as mesmas conexões, com as fontes.`}></div>
         </div>
-        <p class="meta so-js">Legenda — nós: {tiposNoMini.map((t) => `${ROTULO_NO[t] ?? t} (${FORMA_NO[t]?.rotulo})`).join('; ')}. Conexões: {tiposArestaMini.map((t) => `${ROTULO_ARESTA[t] ?? t} (linha ${ROTULO_LINHA[CORES_ARESTA[t]?.estilo]})`).join('; ')}. Nós com borda dourada têm ficha: clique para abrir.</p>
-        <h3 id="lista-conexoes">Lista de conexões</h3>
+        <p class="meta so-js">Como ler o desenho — formas: {tiposNoMini.map((t) => `${ROTULO_NO[t] ?? t} (${FORMA_NO[t]?.rotulo})`).join('; ')}. Linhas: {tiposArestaMini.map((t) => `${ROTULO_ARESTA[t] ?? t} (${ROTULO_LINHA[CORES_ARESTA[t]?.estilo]})`).join('; ')}. Nomes com borda dourada têm página própria: toque para abrir.</p>
+        <h3 id="lista-conexoes">As conexões em lista</h3>
         <ul>
           {arestas.map((e) => {
             const no = (x) => (fichaPorId[x] && x !== id ? <a href={url(`orixas/${x}`)}>{rotuloNo(x)}</a> : rotuloNo(x));
@@ -172,9 +243,9 @@ const nRevisadas = versoesRevisadas(ficha);
   </section>
 
   {termosUsados.length > 0 && (
-    <section aria-labelledby="termos">
-      <h2 id="termos">Termos do glossário nesta página</h2>
-      <p>Termos marcados com sublinhado pontilhado no texto acima. A definição completa, com fonte e página, está no <a href={url('glossario')}>glossário</a>.</p>
+    <section class="bloco-secao" aria-labelledby="termos">
+      <h2 id="termos">Palavras desta página</h2>
+      <p class="intro-secao">As palavras com sublinhado pontilhado no texto acima. A explicação completa, com a fonte, está no <a href={url('glossario')}>glossário</a>.</p>
       <dl class="termos-pagina">
         {termosUsados.map((t) => (
           <>
@@ -186,28 +257,29 @@ const nRevisadas = versoesRevisadas(ficha);
     </section>
   )}
 
-  <section aria-labelledby="pendencias">
-    <h2 id="pendencias">Pendências e campos sem fonte</h2>
-    <p>O que ainda falta nesta ficha. Nenhum desses campos foi preenchido sem fonte.</p>
-    <dl>
-      <dt><strong>Sem nenhum registro no fichamento</strong></dt>
-      <dd>{pend.sem_registro.length ? pend.sem_registro.map(rotuloAtributo).join(', ') : '—'}</dd>
-      <dt><strong>Só em pré-fichamento</strong> (afirmação localizada, mas a fonte ainda não foi lida no original; fica fora da ficha)</dt>
-      <dd>{preFich.length ? preFich.map(([a, ids]) => `${rotuloAtributo(a)} (${ids.join(', ')})`).join('; ') : '—'}</dd>
-      <dt><strong>Retidos até decisão do conselho</strong> (fichados, mas não exibidos: tabus e alimentos rituais, ou registros que um revisor pediu para não publicar)</dt>
-      <dd>{retidos.length ? retidos.map(([a, ids]) => `${rotuloAtributo(a)}: ${ids.length} registro(s)`).join('; ') : '—'}</dd>
-      <dt><strong>Revisão por praticantes e pesquisadores</strong></dt>
-      <dd id="estado-revisao">{nRevisadas ? `${nRevisadas} de ${totalVersoes(ficha)} versões com revisão vigente, por ${ficha.revisao.length} combinação(ões) de revisor e tradição.` : 'Ainda não revisada.'}</dd>
+  <section class="bloco-secao" aria-labelledby="pendencias">
+    <h2 id="pendencias">O que ainda falta</h2>
+    <p class="intro-secao">Nada nesta página foi escrito sem fonte. O que ainda não tem obra lida fica de fora, e é listado aqui.</p>
+    <dl class="termos-pagina">
+      <dt>Itens sem nenhuma obra lida</dt>
+      <dd>{pend.sem_registro.length ? `${lista(pend.sem_registro.map(minusc))}.` : 'Nenhum.'}</dd>
+      <dt>À espera da leitura da obra original</dt>
+      <dd>{nPre ? `${nPre} ${nPre === 1 ? 'informação encontrada' : 'informações encontradas'} em outras obras, sobre ${lista(preFich.map(([a]) => minusc(a)))}; só entram depois que a fonte original for lida.` : 'Nenhuma.'}</dd>
+      <dt>Guardados até a revisão</dt>
+      <dd>{nRetidos ? `${nRetidos} ${nRetidos === 1 ? 'informação' : 'informações'} sobre ${lista(retidos.map(([a]) => minusc(a)))}. Temas como tabus e alimentos rituais só serão publicados se os revisores das tradições concordarem.` : 'Nenhum.'}</dd>
+      <dt>Revisão por especialistas</dt>
+      <dd id="estado-revisao" data-revisadas={nRevisadas} data-total={total}>{nRevisadas ? `${nRevisadas} de ${total} informações já revistas.` : 'Ainda não revista.'}</dd>
     </dl>
   </section>
 
-  <section aria-labelledby="notas">
-    <h2 id="notas">Notas e fontes</h2>
+  <section class="bloco-secao" aria-labelledby="notas">
+    <h2 id="notas">Fontes desta página</h2>
+    <p class="intro-secao">Cada número remete à obra, com o ano e a página. A lista completa de obras está em <a href={url('fontes')}>Fontes</a>.</p>
     <ol class="notas">
       {notas.map((v, i) => {
         const n = i + 1;
         return (
-          <li id={`nota-${n}`}>
+          <li id={`nota-${n}`} data-registro={v.registro}>
             {v.sources.map((s) => {
               const f = fontePorId[s.id];
               const via = s.via ? fontePorId[s.via] : null;
@@ -219,8 +291,7 @@ const nRevisadas = versoesRevisadas(ficha);
                 </span>
               );
             })}
-            <span class="meta">Registro <code>{v.registro}</code>.</span>{' '}
-            <a href={`#ref-${n}`} aria-label={`Voltar ao texto da nota ${n}`}>↩</a>
+            <a class="voltar-nota" href={`#ref-${n}`} aria-label={`Voltar ao texto da nota ${n}`}>↩</a>
           </li>
         );
       })}
@@ -231,30 +302,40 @@ const nRevisadas = versoesRevisadas(ficha);
   )}
   <script>
     import '../../lib/dica-glossario';
+    import '../../lib/notas-popover';
   </script>
   <script>
-    import cytoscape from 'cytoscape';
-    import { estiloCytoscape } from '../../lib/estilo-cytoscape';
+    import { estiloCytoscape, coresDoTema } from '../../lib/estilo-cytoscape';
 
     const dados = document.getElementById('dados-mini-grafo');
     const caixa = document.getElementById('mini-grafo');
     if (dados && caixa) {
-      const centro = dados.dataset.centro!;
-      const cy = cytoscape({
-        container: caixa,
-        elements: JSON.parse(dados.textContent!),
-        minZoom: 0.4,
-        maxZoom: 2.5,
-        userZoomingEnabled: false,
-        style: [...estiloCytoscape, { selector: `node[id = "${centro}"]`, style: { 'border-width': 4, 'border-color': '#0b5cad', width: 52, height: 52 } }],
-        layout: { name: 'concentric', concentric: (n: any) => (n.id() === centro ? 2 : 1), levelWidth: () => 1, minNodeSpacing: 40, padding: 24, animate: false } as any,
-      });
-      cy.on('tap', 'node', (ev) => {
-        const href = ev.target.data('href');
-        if (href && ev.target.id() !== centro) window.location.href = href;
-      });
-      cy.on('mouseover', 'node[href != ""]', (ev) => { if (ev.target.id() !== centro) (cy.container() as HTMLElement).style.cursor = 'pointer'; });
-      cy.on('mouseout', 'node', () => { (cy.container() as HTMLElement).style.cursor = ''; });
+      // o desenho só é carregado quando a seção chega perto da tela
+      const desenhar = async () => {
+        const { default: cytoscape } = await import('cytoscape');
+        const centro = dados.dataset.centro!;
+        const destaque = () => ({ selector: `node[id = "${centro}"]`, style: { 'border-width': 4, 'border-color': coresDoTema().foco, width: 52, height: 52 } });
+        const cy = cytoscape({
+          container: caixa,
+          elements: JSON.parse(dados.textContent!),
+          minZoom: 0.4,
+          maxZoom: 2.5,
+          userZoomingEnabled: false,
+          style: [...estiloCytoscape(), destaque()],
+          layout: { name: 'concentric', concentric: (n: any) => (n.id() === centro ? 2 : 1), levelWidth: () => 1, minNodeSpacing: 40, padding: 24, animate: false } as any,
+        });
+        cy.on('tap', 'node', (ev) => {
+          const href = ev.target.data('href');
+          if (href && ev.target.id() !== centro) window.location.href = href;
+        });
+        cy.on('mouseover', 'node[href != ""]', (ev) => { if (ev.target.id() !== centro) (cy.container() as HTMLElement).style.cursor = 'pointer'; });
+        cy.on('mouseout', 'node', () => { (cy.container() as HTMLElement).style.cursor = ''; });
+        window.addEventListener('tema-mudou', () => cy.style([...estiloCytoscape(), destaque()] as any));
+      };
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver((ents) => { if (ents.some((e) => e.isIntersecting)) { io.disconnect(); desenhar(); } }, { rootMargin: '400px' });
+        io.observe(caixa);
+      } else desenhar();
     }
   </script>
 </Base>

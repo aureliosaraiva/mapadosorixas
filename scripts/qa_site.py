@@ -80,7 +80,9 @@ import revisao  # noqa: E402
 
 REVISORES = revisao.por_id(revisao.carregar_revisores(RAIZ))
 NOME_TRAD = {t["id"]: t["nome"] for t in json.loads((DATA / "tradicoes.json").read_text(encoding="utf-8"))["tradicoes"]}
-SELO = "Rascunho — aguardando revisão de praticantes e pesquisadores"
+# aviso de conteúdo em revisão (site/src/lib/textos.js, AVISO_REVISAO): faixa de todas as
+# páginas e selo das fichas, capítulos e itãs
+SELO = "Conteúdo em revisão por especialistas"
 VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 
 erros: list[str] = []
@@ -212,9 +214,10 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
         elif selo is None or SELO not in norm(selo.texto()):
             erro(f"[selo] {oid}: selo de rascunho ausente ({n_rev}/{len(versoes)} versões revisadas)")
         estado = doc.primeiro("dd", id="estado-revisao")
-        esperado_estado = f"{n_rev} de {len(versoes)} versões" if n_rev else "Ainda não revisada."
-        if estado is None or esperado_estado not in norm(estado.texto()):
-            erro(f"[revisão] {oid}: estado da revisão em Pendências não diz '{esperado_estado}'")
+        esperado_txt = f"{n_rev} de {len(versoes)}" if n_rev else "Ainda não revista"
+        if estado is None or estado.attrs.get("data-revisadas") != str(n_rev) or estado.attrs.get("data-total") != str(len(versoes)) \
+                or esperado_txt not in norm(estado.texto()):
+            erro(f"[revisão] {oid}: estado da revisão em 'O que ainda falta' não diz '{esperado_txt}' ({n_rev}/{len(versoes)})")
 
         esperadas = {v["registro"]: (a, v) for a, vs in ficha["atributos"].items() for v in vs}
         notas = {}
@@ -233,9 +236,9 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
                 erro(f"[versão] {oid}: versão '{reg}' exibida mais de uma vez")
             vistas.add(reg)
             atributo, v = esperadas[reg]
-            # a versão precisa estar na seção do seu atributo
+            # a versão precisa estar na seção do seu atributo (título h3, ou h2, com id = atributo)
             secao = li.pai.pai if li.pai is not None else None
-            h2 = secao.primeiro("h2") if secao is not None else None
+            h2 = (secao.primeiro("h3") or secao.primeiro("h2")) if secao is not None else None
             if h2 is None or h2.attrs.get("id") != atributo:
                 erro(f"[versão] {oid}/{reg}: exibida fora da seção '{atributo}'")
             valor = li.primeiro("span", "valor")
@@ -258,8 +261,8 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
                 continue
             nota = notas[int(m.group(1))]
             txt = norm(nota.texto())
-            code = nota.primeiro("code")
-            if code is None or norm(code.texto()) != reg:
+            # o registro da nota fica num atributo (data-registro), não no texto visível
+            if nota.attrs.get("data-registro") != reg:
                 erro(f"[nota] {oid}/{reg}: a nota {m.group(1)} cita outro registro")
             links = {a.attrs.get("href", "").split("#fonte-")[-1] for a in nota.busca("a") if "#fonte-" in a.attrs.get("href", "")}
             for s in v["sources"]:
@@ -294,7 +297,7 @@ def conferir_fichas(dist: Path, fichas: dict, fontes: dict) -> int:
             if not m or int(m.group(1)) not in notas:
                 erro(f"[divergência] {oid}: linha '{norm(tds[0].texto())[:40]}' sem nota válida")
                 continue
-            reg = norm(notas[int(m.group(1))].primeiro("code").texto())
+            reg = notas[int(m.group(1))].attrs.get("data-registro", "")
             _, v = esperadas.get(reg, (None, None))
             if v is None or norm(tds[0].texto()) != norm(v["valor"]) or norm(v["localizacao"]) not in norm(tds[-1].texto()):
                 erro(f"[divergência] {oid}: linha '{norm(tds[0].texto())[:40]}' não corresponde ao registro {reg}")
@@ -338,7 +341,7 @@ def conferir_proibidos(dist: Path, fichas: dict, registros: list) -> int:
                 if len(t) >= 12 and t in txt:
                     erro(f"[{tipo}] {r['id']}: texto do registro aparece em {rel}: '{t[:50]}…'")
             # o id só pode aparecer como lista de pendências
-            if p.suffix == ".html" and re.search(rf'id="v-{re.escape(r["id"])}"|<code>{re.escape(r["id"])}</code>', bruto):
+            if p.suffix == ".html" and re.search(rf'id="v-{re.escape(r["id"])}"|<code>{re.escape(r["id"])}</code>|data-registro="{re.escape(r["id"])}"', bruto):
                 erro(f"[{tipo}] {r['id']}: exibido como versão/nota em {rel}")
             if p.suffix == ".html" and r["id"] in bruto:
                 doc_ok = any(r["id"] in norm(s.texto()) for s in parse(p).busca("section", **{"aria-labelledby": "pendencias"}))
@@ -610,8 +613,8 @@ def conferir_tradicoes(dist: Path, fontes: dict) -> tuple[int, int]:
                 erro(f"{onde}: tradição com fonte marcada como pendente")
         else:
             rascunhos.append(t)
-            if pendente is None or "Descrição pendente de fonte" not in norm(pendente.texto()):
-                erro(f"{onde}: falta o aviso 'Descrição pendente de fonte'")
+            if pendente is None or "Descrição em preparo" not in norm(pendente.texto()):
+                erro(f"{onde}: falta o aviso 'Descrição em preparo' (descrição pendente de fonte)")
             if n.primeiro("span", "citacao") is not None or n.primeiro("p", "nota") is not None:
                 erro(f"{onde}: tradição sem fonte exibe citação ou nota")
     # o texto dos rascunhos não pode aparecer em nenhuma página
@@ -640,12 +643,10 @@ def conferir_sobre(dist: Path) -> None:
     bruto = arq.read_text(encoding="utf-8")
     doc = parse(arq)
     hrefs = [a.attrs.get("href", "") for a in doc.busca("a")]
-    if not any(re.search(r"github\.com/[^/]+/[^/]+/issues", h) for h in hrefs):
-        erro("[sobre] falta link para as issues do repositório")
     if not any(h.rstrip("/").endswith("fontes") for h in hrefs):
         erro("[sobre] falta link para a página Fontes")
     txt = norm(doc.texto())
-    for k in ("licenças", "domínio", "autoria", "dependem do autor"):
+    for k in ("licenças", "autoria", "dependem do autor"):
         if k not in txt.lower():
             erro(f"[sobre] falta o aviso sobre '{k}'")
     if SELO not in txt:
@@ -939,8 +940,86 @@ def conferir_publicacao(dist: Path) -> None:
     aviso = inicio.primeiro("div", "aviso-versao")
     if aviso is None:
         erro("[rascunho] Início: falta o aviso de versão inicial em revisão")
-    elif not any(ISSUES.search(a.attrs.get("href", "")) for a in aviso.busca("a")):
-        erro("[rascunho] Início: o aviso de versão inicial não linka para as issues")
+    else:
+        if SELO not in norm(aviso.texto()).replace(".", ""):
+            erro("[rascunho] Início: o aviso de versão inicial não diz que o conteúdo está em revisão")
+        if not any((a.attrs.get("href") or "").endswith("sobre#revisao") for a in aviso.busca("a")):
+            erro("[rascunho] Início: o aviso de versão inicial não linka para Sobre (#revisao)")
+
+
+# ----------------------------------------------------------------- 13: linguagem para leigos
+
+# Jargão interno do projeto que não pode aparecer no texto visível das páginas
+# (o público é leigo). Ficam de fora os atributos HTML (data-registro etc.), que
+# não são exibidos. A página Dados abertos pode falar em JSON (é o formato).
+JARGAO = [
+    (re.compile(r"\b(pre_fichamento|conferido_web|a_verificar|rascunho_sem_fonte|com_fonte|retidos_ate_conselho)\b"), "status interno"),
+    (re.compile(r"pré-fichamento|fichamento|fichad[oa]s?\b", re.I), "termo interno (fichamento)"),
+    (re.compile(r"\bconfiabilidade\b", re.I), "código de confiabilidade"),
+    (re.compile(r"\bissues?\b|\bpull request\b", re.I), "instrução do GitHub"),
+    (re.compile(r"\b(JSON|schema|registro do fichamento|validador)\b"), "termo técnico"),
+]
+
+
+def textos_de_dados(rx_extra) -> list[str]:
+    """Textos de data/ (conteúdo das fichas, capítulos, itãs, glossário…) que contêm
+    jargão ou código de registro. O conteúdo é de outras sessões e não é conferido
+    aqui: o teste de linguagem vale para o texto da interface (site/)."""
+    achados = set()
+
+    def walk(x):
+        if isinstance(x, dict):
+            for v in x.values():
+                walk(v)
+        elif isinstance(x, list):
+            for v in x:
+                walk(v)
+        elif isinstance(x, str) and len(x.split()) >= 2:
+            # só textos corridos (ids, status e outros valores curtos não descontam nada)
+            t = norm(x.replace("*", ""))
+            if rx_extra.search(t) or any(rx.search(t) for rx, _ in JARGAO):
+                achados.add(t)
+    for arq in DATA.rglob("*.json"):
+        walk(json.loads(arq.read_text(encoding="utf-8")))
+    return sorted(achados, key=len, reverse=True)
+
+
+def conferir_linguagem(dist: Path, registros: list) -> int:
+    ids_registros = {r["id"] for r in registros}
+    re_id = re.compile(r"\b[a-z][a-z_]*-\d{3}\b")
+    de_dados = textos_de_dados(re_id)
+    npags = 0
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        rel = pag.relative_to(dist)
+        bruto = pag.read_text(encoding="utf-8")
+        npags += 1
+        if any(ISSUES.search(h) for h in re.findall(r'href="([^"]+)"', bruto)):
+            erro(f"[linguagem] {rel}: link para issues do GitHub")
+        # texto visível: sem <script>, <style>, comentários e tags
+        vis = re.sub(r"<(script|style)\b.*?</\1>|<!--.*?-->", " ", bruto, flags=re.S)
+        # tags de texto (a, em, span…) somem sem espaço, para o texto ficar igual ao dos dados
+        vis = re.sub(r"</?(?:a|em|strong|span|cite|abbr|code|i|b)\b[^>]*>", "", vis)
+        vis = norm(re.sub(r"<[^>]+>", " ", vis))
+        # trechos que vêm de data/ (descontados): intervalos cobertos por algum texto dos dados
+        cobertos = []
+        for t in de_dados:
+            i = vis.find(t)
+            while i >= 0:
+                cobertos.append((i, i + len(t)))
+                i = vis.find(t, i + 1)
+        da_interface = lambda m: not any(a <= m.start() and m.end() <= b for a, b in cobertos)  # noqa: E731
+        for rx, oque in JARGAO:
+            if rel.parts[0] == "baixar-dados" and oque == "termo técnico":
+                continue
+            m = next((x for x in rx.finditer(vis) if da_interface(x)), None)
+            if m:
+                erro(f"[linguagem] {rel}: {oque} no texto visível: '…{vis[max(0, m.start() - 40):m.end() + 40]}…'")
+        m = next((x for x in re_id.finditer(vis) if x.group(0) in ids_registros and da_interface(x)), None)
+        if m:
+            erro(f"[linguagem] {rel}: código interno de registro '{m.group(0)}' no texto visível")
+    return npags
 
 
 # ----------------------------------------------------------------- 9: revisão (privacidade)
@@ -1052,6 +1131,7 @@ def main():
     nents, nvitans, nhier = conferir_modelo2(dist, fichas, fontes)
     ncaps, npars = conferir_capitulos(dist, fichas, fontes, registros)
     nnomes_acervo, nrefs_acervo = conferir_acervo(dist)
+    nling = conferir_linguagem(dist, registros)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
     nrev_vers = sum(1 for f in fichas.values() for vs in f["atributos"].values() for v in vs if v.get("revisoes"))
     print(f"QA do site: {len(fichas)} fichas, {nv}/{total} versões conferidas contra data/orixas; "
@@ -1061,6 +1141,7 @@ def main():
           f"revisão: {nrevisores} revisor(es) cadastrado(s), {nrev_vers} versão(ões) com revisão exibida; "
           f"capítulos: {ncaps} ({npars} parágrafos conferidos); lista-mestra: {nents} entidades no catálogo; itãs: {nvitans} versões conferidas; cosmologia: {nhier} versões de hierarquia; "
           f"acervo: {nnomes_acervo} nomes de arquivo e {nrefs_acervo} texto(s) de acervo/txt procurados (0 vazamentos se ok); "
+          f"linguagem: {nling} páginas sem jargão interno nem códigos de registro; "
           f"prefixo: {site_base() or '/'}")
     if erros:
         print(f"\n{len(erros)} erro(s):")

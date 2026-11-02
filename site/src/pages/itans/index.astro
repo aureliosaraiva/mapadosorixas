@@ -6,21 +6,24 @@ import { itans, hrefEntidade, rotuloEntidade, tradicoes, url } from '../../lib/d
 const ordemTrad = (a, b) => tradicoes.findIndex((t) => t.id === a) - tradicoes.findIndex((t) => t.id === b);
 const tradsDo = (it) => [...new Set(it.versoes.flatMap((v) => v.tradicoes))].sort(ordemTrad);
 ---
-<Base titulo="Itãs" descricao="Itãs (narrativas míticas) com versões lado a lado, resumos parafraseados e fontes.">
-  <h1>Itãs</h1>
-  <p>Itãs são as narrativas míticas sobre os orixás. Aqui cada itã tem um título próprio do projeto e reúne, <strong>lado a lado e sem hierarquia</strong>, as versões registradas em fontes diferentes, cada uma com a tradição, a casa ou região e a fonte com página. Os resumos são sempre <strong>parafraseados</strong>: nenhum trecho é copiado das obras.</p>
-  <p class="nota-caixa">São {itans.length} itãs com {itans.reduce((n, it) => n + it.versoes.length, 0)} versões, todas lidas na fonte. A lista cresce com o fichamento; um itã só aparece quando há pelo menos uma versão lida no original. O título é descritivo e foi escrito pelo projeto, não é o título de um capítulo de livro.</p>
+<Base titulo="Mitos" descricao="Itãs, as narrativas sobre os orixás, com as versões de cada fonte lado a lado e resumos com palavras próprias.">
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Mitos</p>
+    <h1>Itãs: as histórias dos orixás</h1>
+    <p class="chamada">Itãs são as narrativas que contam a vida, os feitos e as relações dos orixás. Aqui, cada história reúne lado a lado as versões registradas por diferentes obras, sem que uma seja tomada como a certa.</p>
+  </header>
+  <p class="discreto texto-corrido">Os títulos foram dados pelo projeto para descrever cada história. Os resumos são escritos com palavras próprias, nunca copiados dos livros, e cada versão indica a obra e a página. São {itans.length} histórias, e a lista cresce à medida que novas obras são lidas.</p>
 
-  <ul class="grade lista-itans" style="list-style:none;padding:0">
+  <ul class="grade lista-itans">
     {itans.map((it) => (
       <li class="cartao" id={it.id} data-ita={it.id}>
-        <h2><a href={url(`itans/${it.id}`)}>{it.titulo}</a></h2>
-        <p class="numeros">{it.versoes.length} {it.versoes.length === 1 ? 'versão' : 'versões'}{it.arestas.length > 0 && <> · {it.arestas.length} {it.arestas.length === 1 ? 'conexão' : 'conexões'} no grafo</>}</p>
-        <p><strong>Entidades:</strong> {it.entidades.map((e, i) => {
+        <h2><a class="cartao-link" href={url(`itans/${it.id}`)}>{it.titulo}</a></h2>
+        <p class="resumo-cartao">Com {it.entidades.map((e, i) => {
           const h = hrefEntidade(e);
-          return <>{i > 0 && ', '}{h ? <a href={h}>{rotuloEntidade(e)}</a> : rotuloEntidade(e)}</>;
+          return <>{i > 0 && (i === it.entidades.length - 1 ? ' e ' : ', ')}{h ? <a href={h}>{rotuloEntidade(e)}</a> : rotuloEntidade(e)}</>;
         })}</p>
-        <p><strong>Tradições:</strong> <Tradicoes ids={tradsDo(it)} /></p>
+        <p><Tradicoes ids={tradsDo(it)} /></p>
+        <p class="rodape-cartao"><span>{it.versoes.length} {it.versoes.length === 1 ? 'versão' : 'versões'}</span></p>
       </li>
     ))}
   </ul>

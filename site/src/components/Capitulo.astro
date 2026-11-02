@@ -1,0 +1,69 @@
+---
+// Página de leitura de um capítulo (de orixá ou panorama): cabeça, aviso de revisão,
+// índice lateral (no celular, recolhido no topo), texto em coluna de livro e, depois
+// dele, "ver também", notas, obras citadas e palavras do glossário.
+import Selo from './Selo.astro';
+import Icone from './Icone.astro';
+import CorpoCapitulo from './CorpoCapitulo.astro';
+import { TITULO_SECAO, totalPalavras } from '../lib/capitulos.js';
+import { minutosLeitura } from '../lib/textos.js';
+
+interface Props {
+  cap: any; sobretitulo: string; trilha: [string, string][]; textoSelo: string;
+  sensivel?: boolean; hrefPendenciasFicha?: string; tituloVerTambem: string;
+}
+const { cap, sobretitulo, trilha, textoSelo, sensivel = false, hrefPendenciasFicha, tituloVerTambem } = Astro.props;
+const comTitulo = cap.secoes.filter((s) => s.slug !== 'abertura');
+const atualizado = cap.atualizado.split('-').reverse().join('/');
+---
+<div class="leitura">
+  <aside class="indice-lateral" aria-label="Índice do capítulo">
+    <nav aria-label="Seções do capítulo">
+      <details open id="indice-capitulo">
+        <summary>Neste capítulo</summary>
+        <ol class="sumario-capitulo">
+          {comTitulo.map((s) => <li><a href={`#${s.slug}`}>{s.titulo ?? TITULO_SECAO[s.slug]}</a></li>)}
+          <li><a href="#ver-tambem">{tituloVerTambem}</a></li>
+          <li><a href="#notas">Notas</a></li>
+          <li><a href="#bibliografia">Obras citadas</a></li>
+        </ol>
+      </details>
+    </nav>
+  </aside>
+  <div class="coluna-leitura">
+    <p class="trilha">{trilha.map(([href, rotulo], i) => <a href={href}>{i === 0 && <Icone nome="voltar" tamanho={16} />}{rotulo}</a>)}</p>
+    <header class="cabeca-capitulo">
+      <p class="sobretitulo">{sobretitulo}</p>
+      <h1>{cap.titulo}</h1>
+      <p class="info-leitura">
+        <span><Icone nome="relogio" tamanho={16} />cerca de {minutosLeitura(totalPalavras(cap))} min de leitura</span>
+        <span>{cap.notas.length} notas com as fontes</span>
+        <span>atualizado em {atualizado}</span>
+      </p>
+    </header>
+    {sensivel && <p class="aviso-sensivel nota-caixa">Tema sensível: este capítulo traz só o que já é público em livros e pesquisas, sem nada dos fundamentos reservados aos iniciados.</p>}
+    <Selo texto={textoSelo} />
+    <p class="como-ler discreto">Os números ao lado das frases abrem a nota com a obra e a página de onde veio a informação. Quando as tradições contam de jeitos diferentes, as versões aparecem lado a lado, sem que uma seja tomada como a certa.</p>
+    <CorpoCapitulo cap={cap} hrefPendenciasFicha={hrefPendenciasFicha}>
+      <slot name="ver-tambem" slot="ver-tambem" />
+    </CorpoCapitulo>
+  </div>
+</div>
+<script>
+  import '../lib/dica-glossario';
+  import '../lib/notas-popover';
+  // índice: no celular começa recolhido; marca a seção que está na tela
+  const det = document.getElementById('indice-capitulo') as HTMLDetailsElement | null;
+  if (det && !matchMedia('(min-width: 68rem)').matches) det.open = false;
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('.sumario-capitulo a')];
+  const alvos = links.map((a) => document.getElementById(a.hash.slice(1))).filter(Boolean) as HTMLElement[];
+  if ('IntersectionObserver' in window && alvos.length) {
+    const io = new IntersectionObserver((ents) => {
+      for (const e of ents) if (e.isIntersecting) {
+        links.forEach((a) => a.classList.toggle('atual', a.hash === `#${e.target.id}`));
+      }
+    }, { rootMargin: '0px 0px -75% 0px' });
+    alvos.forEach((t) => io.observe(t));
+  }
+  links.forEach((a) => a.addEventListener('click', () => { if (det && !matchMedia('(min-width: 68rem)').matches) det.open = false; }));
+</script>

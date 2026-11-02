@@ -1,70 +1,94 @@
 ---
+// Sobre: o que é o projeto, a revisão, como o conteúdo foi feito (a antiga página
+// Metodologia, em linguagem simples), diferenças entre tradições, respeito, limites,
+// correções, créditos e direitos de uso. Sem nomes de pessoas do projeto nem contatos.
 import Base from '../layouts/Base.astro';
+import Selo from '../components/Selo.astro';
+import Ref from '../components/Ref.astro';
 import {
-  fichas, fontes, usoDasFontes, glossario, tradicoes, conexoes, registros, url, versoesRevisadas,
+  fichas, fontes, usoDasFontes, glossario, conexoes, registros, url, versoesRevisadas, totalVersoes, itans, listaEntidades,
 } from '../lib/dados.js';
+import { capitulos } from '../lib/capitulos.js';
 
-const REPO = 'https://github.com/aureliosaraiva/mapadosorixas';
-const fontesCitadas = Object.keys(usoDasFontes).length;
-// versões com revisão vigente (status efetivo gerado por scripts/gerar_fichas.py)
-const revisados = fichas.reduce((n, f) => n + versoesRevisadas(f), 0);
+const obrasCitadas = Object.keys(usoDasFontes).length;
+const informacoes = fichas.reduce((n, f) => n + totalVersoes(f), 0);
+const revistas = fichas.reduce((n, f) => n + versoesRevisadas(f), 0);
+const guardadas = fichas.reduce((n, f) => n + Object.values(f.pendencias.retidos_ate_conselho).reduce((m, ids) => m + ids.length, 0), 0);
+const aEspera = registros.filter((r) => r.status === 'pre_fichamento').length;
+const secoes = [
+  ['projeto', 'O que é'], ['revisao', 'Conteúdo em revisão'], ['como-foi-feito', 'Como foi feito'],
+  ['divergencias', 'Diferenças entre tradições'], ['candomble-umbanda', 'Candomblé e Umbanda'],
+  ['respeito', 'Respeito e sigilo'], ['limites', 'Limites'], ['contribuir', 'Correções'], ['creditos', 'Créditos e direitos de uso'],
+];
 ---
-<Base titulo="Sobre e créditos" descricao="O que é o Mapa dos Orixás, em que estado está, como sugerir correções e créditos das fontes.">
-  <h1>Sobre e créditos</h1>
-  <p class="selo" role="note">
-    Rascunho — aguardando revisão de praticantes e pesquisadores
-    <small>Todo o conteúdo do site está em fase de rascunho e ainda não foi revisado por babalorixás, iyalorixás ou pesquisadores.</small>
-  </p>
+<Base titulo="Sobre" descricao="O que é o Mapa dos Orixás, como o conteúdo foi feito, a revisão por especialistas, o respeito às tradições e os limites do trabalho." indexar>
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Sobre o projeto</p>
+    <h1>Uma enciclopédia feita com cuidado e com fontes</h1>
+    <p class="chamada">O Mapa dos Orixás reúne o que livros e pesquisas contam sobre os orixás e mostra, lado a lado, as diferenças entre as tradições. Esta página explica como o trabalho foi feito e até onde ele vai.</p>
+  </header>
+  <Selo texto="Todo o conteúdo do site está em construção e ainda não foi revisto por sacerdotes, sacerdotisas e pesquisadores." />
 
-  <nav aria-label="Seções da página">
-    <ul class="sumario">
-      <li><a href="#projeto">O projeto</a></li>
-      <li><a href="#estado">Estado atual</a></li>
-      <li><a href="#contribuir">Como contribuir ou corrigir</a></li>
-      <li><a href="#creditos">Créditos</a></li>
-      <li><a href="#pendente-autor">O que ainda depende do autor</a></li>
+  <nav aria-label="Nesta página">
+    <ul class="sumario-pagina">
+      {secoes.map(([id, r]) => <li><a href={`#${id}`}>{r}</a></li>)}
     </ul>
   </nav>
 
-  <h2 id="projeto">O projeto</h2>
-  <p>O Mapa dos Orixás é uma enciclopédia em construção sobre os orixás. Na avaliação que motivou o projeto, não havia um portal único e organizado que reúna origem, história, itãs, símbolos e variações por nação <strong>citando a fonte de cada afirmação</strong>: os sites de divulgação mais conhecidos eram introdutórios e raramente citavam fontes, e os acervos sérios estavam dispersos.</p>
-  <p>Por isso o projeto segue algumas regras fixas:</p>
-  <ul>
-    <li>toda afirmação factual tem fonte (autor, ano e página) — o que não tem fonte fica como pendência, nunca como texto inventado;</li>
-    <li>nenhum trecho de livro é copiado: o conteúdo é sempre paráfrase com citação;</li>
-    <li>quando as fontes divergem, as versões aparecem lado a lado, com nação ou casa indicada, sem eleger uma “correta”;</li>
-    <li>Candomblé (e suas nações) e Umbanda são tratados como religiões distintas (ver <a href={url('tradicoes')}>Tradições</a>);</li>
-    <li>o tom é respeitoso, e tabus, alimentos rituais e fundamentos iniciáticos não são detalhados até que um conselho de praticantes e pesquisadores decida o que pode ser público.</li>
-  </ul>
-  <p>O formato — catálogo com filtros, grafo de conexões, fichas com fontes e página de metodologia — foi inspirado no <a href="https://mapadelaconsciencia.es/">Mapa de la Conciencia</a>, uma enciclopédia interativa sobre outro tema. Os detalhes do método e das limitações estão em <a href={url('metodologia')}>Metodologia</a>.</p>
+  <div class="texto-corrido">
+    <h2 id="projeto">O que é</h2>
+    <p>Quem procura informação sobre os orixás encontra, em geral, textos introdutórios que raramente dizem de onde vem o que afirmam, ou acervos sérios mas espalhados. O Mapa dos Orixás tenta juntar as duas coisas: um lugar organizado, fácil de ler, em que <strong>cada informação diz de onde veio</strong>.</p>
+    <p>Hoje o site tem {fichas.length} páginas de orixás, entidades e conceitos, {capitulos.length} capítulos de livro, {itans.length} mitos e um glossário de {glossario.length} palavras, a partir de {obrasCitadas} obras citadas. Outros {listaEntidades.length - fichas.length} nomes estão em estudo. Por enquanto, só em português; espanhol e inglês estão nos planos.</p>
 
-  <h2 id="estado">Estado atual</h2>
-  <p>Esta é a <strong>versão inicial</strong>, publicada no GitHub Pages como rascunho público e ainda em revisão: as páginas não são indexadas por buscadores até a revisão do conselho, e correções vão pelas <a href={`${REPO}/issues`}>issues do repositório</a>.</p>
-  <ul>
-    <li><strong>Fichas:</strong> {fichas.length} orixás do MVP ({fichas.map((f) => f.rotulo).join(', ')}). A meta seguinte é chegar a cerca de 15 orixás cultuados no Brasil.</li>
-    <li><strong>Grafo:</strong> {conexoes.nos.length} nós e {conexoes.arestas.length} conexões com fonte.</li>
-    <li><strong>Glossário:</strong> {glossario.length} termos; <strong>Tradições:</strong> {tradicoes.length}, das quais {tradicoes.filter((t) => t.status === 'com_fonte').length} com descrição com fonte.</li>
-    <li><strong>Revisão:</strong> {revisados} versões revisadas até agora. O conselho consultivo ainda está em formação.</li>
-    <li><strong>Idiomas:</strong> só português do Brasil por enquanto; espanhol e inglês estão previstos.</li>
-  </ul>
+    <h2 id="revisao">Conteúdo em revisão</h2>
+    <p>Este é um trabalho em construção, publicado para ser lido e corrigido. <strong>Nada aqui foi revisto ainda</strong> por babalorixás, iyalorixás e outros sacerdotes e sacerdotisas, nem por pesquisadores do tema. Até lá, as páginas mostram o aviso “Conteúdo em revisão por especialistas” e não aparecem nas buscas do Google e de outros buscadores.</p>
+    <p>A revisão será feita por um grupo de praticantes e pesquisadores, ainda em formação. Cada pessoa revisará em nome da sua tradição: uma versão diferente da praticada na sua casa não é tratada como erro, e uma discordância não apaga a informação, fica registrada ao lado dela. {revistas === 0 ? 'Até agora, nenhuma informação foi revista.' : `Até agora, ${revistas} de ${informacoes} informações foram revistas.`}</p>
 
-  <h2 id="contribuir">Como contribuir ou corrigir</h2>
-  <p>Erros e lacunas são esperados neste rascunho. O canal para sugestões e correções são as <a href={`${REPO}/issues`}>issues do repositório no GitHub</a>. Para ajudar quem revisa, inclua:</p>
-  <ul>
-    <li>a página e o trecho (nas fichas, o código do registro aparece em cada nota, por exemplo <code>exu-001</code>);</li>
-    <li>a correção proposta e, se possível, a fonte (autor, ano, página) ou a tradição e a casa em que a prática é diferente;</li>
-    <li>se a informação não deveria ser pública (fundamento, tabu, segredo de iniciação), diga isso: o conteúdo é retirado até a decisão do conselho.</li>
-  </ul>
-  <p>Praticantes (babalorixás, iyalorixás e outros cargos) e pesquisadores que queiram participar da revisão também podem se apresentar pelas issues. Uma versão divergente da sua casa não é tratada como erro: ela pode entrar ao lado das outras, com a indicação da tradição.</p>
+    <h2 id="como-foi-feito">Como foi feito</h2>
+    <ol>
+      <li><strong>Reunir as obras.</strong> Primeiro, uma bibliografia: livros, teses, artigos e documentos sobre os orixás, com a referência de cada um conferida em catálogos de bibliotecas e editoras (veja <a href={url('fontes')}>Fontes</a>). Blogs e sites sem autoria servem, no máximo, como pista para encontrar obras.</li>
+      <li><strong>Ler e anotar, com a página.</strong> Cada leitura vira anotações curtas: uma informação, sobre um orixá, numa obra, numa página. Só entra no site o que foi lido na obra original. O que foi encontrado em outro lugar, mas ainda não conferido na fonte, fica à espera ({aEspera} informações hoje).</li>
+      <li><strong>Resumir com palavras próprias.</strong> Nenhum trecho de livro é copiado. Tudo é resumido e indica a obra e a página. Um programa compara os textos do site com os das obras, quando o texto delas está disponível, para garantir que não há cópia.</li>
+      <li><strong>Organizar por tradição.</strong> Cada informação leva a tradição, a casa ou a região que a obra indica; se a obra não diz, o site também não diz. Assim se formam as páginas dos orixás, os mitos e o mapa de conexões.</li>
+      <li><strong>Contar em capítulos.</strong> Os capítulos do livro recontam essas mesmas informações em texto corrido, sem acrescentar nada, com as fontes nas notas.</li>
+    </ol>
+    <p>O levantamento das obras, as anotações e o código do site foram preparados com a ajuda de uma ferramenta de inteligência artificial (Claude, da Anthropic), com curadoria humana. É mais um motivo para que nenhum texto seja tomado como definitivo antes da revisão por especialistas.</p>
 
-  <h2 id="creditos">Créditos</h2>
-  <h3 id="creditos-fontes">Fontes</h3>
-  <p>O conteúdo das fichas, do glossário e das tradições é paráfrase de obras de pesquisadores, pesquisadoras, sacerdotes e sacerdotisas. As fichas citam hoje {fontesCitadas} obras, de um catálogo de {fontes.length}. A lista completa, com autor, ano, título e status de verificação, está em <a href={url('fontes')}>Fontes</a>. Os créditos de cada afirmação estão nas notas da própria ficha ou do termo.</p>
-  <h3 id="creditos-software">Software</h3>
-  <p>Site feito com <a href="https://astro.build">Astro</a>; grafo com <a href="https://js.cytoscape.org">Cytoscape.js</a>; busca com <a href="https://pagefind.app">Pagefind</a>; testes de acessibilidade com <a href="https://github.com/dequelabs/axe-core">axe-core</a>.</p>
-  <h3 id="creditos-preparo">Preparo do conteúdo</h3>
-  <p>O levantamento de fontes, o fichamento e o código foram preparados com assistência de IA (Claude, da Anthropic), sob a curadoria do autor do repositório. Por isso mesmo, nenhum texto deve ser tomado como definitivo antes da revisão humana por praticantes e pesquisadores.</p>
+    <h2 id="divergencias">Diferenças entre tradições</h2>
+    <p>Não existe um conjunto único e igual de orixás, nem mesmo em terra iorubá. O culto passa de geração em geração, sobretudo pela fala, e muda de nação para nação, de cidade para cidade e de casa para casa. Por isso o site não apresenta uma versão “oficial” de nenhum orixá: quando as obras discordam, as versões aparecem lado a lado. Alguns exemplos:</p>
+    <ul>
+      <li><strong>Os dias da semana mudam.</strong> Em Porto Alegre, Xangô fica com a terça-feira <Ref registro="xango-009" />; no Recife, a quinta-feira aparece no lugar da quarta, com variações entre casas <Ref registro="xango-010" />. E a semana iorubá antiga tinha quatro dias <Ref registro="exu-041" />.</li>
+      <li><strong>A memória também hesita.</strong> Um pai de santo explica que os dois santos católicos associados a Xangô correspondem a duas qualidades, uma velha e uma jovem, mas hesita ao dizer qual é qual <Ref registro="xango-028" />.</li>
+      <li><strong>Uma história, duas versões.</strong> Na mesma pesquisa, um entrevistado recusa a versão de um mito de Oxóssi publicada por Pierre Verger <Ref registro="oxossi-023" /> e conta outra <Ref registro="oxossi-022" />. As duas estão no site.</li>
+    </ul>
+    <p>Veja as <a href={url('orixas/xango#divergencias')}>variações registradas para Xangô</a>.</p>
 
-  <h2 id="pendente-autor">O que ainda depende do autor</h2>
-  <p class="nota-caixa">As <strong>licenças</strong> (código, textos e dados), o <strong>domínio</strong> e a <strong>forma final dos créditos de autoria</strong> ainda não foram definidos e dependem do autor do projeto. Enquanto isso, consulte o <a href={REPO}>repositório</a> antes de reutilizar qualquer conteúdo.</p>
+    <h2 id="candomble-umbanda">Candomblé e Umbanda</h2>
+    <p>O Candomblé, com suas nações, e a Umbanda são religiões distintas, e o site as trata assim (veja <a href={url('tradicoes')}>tradições e nações</a>). As etiquetas de Umbanda têm borda tracejada, para que se distingam também sem depender da cor. Alguns exemplos das diferenças:</p>
+    <ul>
+      <li>Na Umbanda e na Quimbanda, segundo um autor, Exu deixa de ser tratado como orixá e passa a ser visto como espírito de um morto <Ref registro="exu-034" />.</li>
+      <li>Em João Pessoa, um terreiro de Umbanda usa verde e vermelho nas festas de Ogum <Ref registro="ogum-030" />; no candomblé baiano, segundo o mesmo autor, as cores são azul-marinho e verde <Ref registro="ogum-031" />.</li>
+      <li>Em Pernambuco, “xangô” é também o nome de uma religião de culto aos orixás <Ref registro="xango-005" />.</li>
+    </ul>
+
+    <h2 id="respeito">Respeito e sigilo</h2>
+    <p>Parte do conhecimento religioso é reservada aos iniciados, e o site não a publica. Tabus, alimentos rituais e fundamentos de iniciação não são detalhados até que o grupo de revisão decida, com as tradições, o que pode ser público. Hoje, {guardadas} informações desse tipo estão anotadas, mas guardadas fora do site. Entidades e temas mais delicados levam o aviso “Tema sensível”.</p>
+    <p>O site não usa imagens de divindades: a identidade visual é feita só de tipografia, cor e formas geométricas simples.</p>
+
+    <h2 id="limites">Limites</h2>
+    <ul>
+      <li><strong>As fontes são escritas.</strong> A voz das casas chega ao site por meio de pesquisadores, que também têm seu tempo e seu olhar. Muitas pesquisas de campo têm décadas.</li>
+      <li><strong>Há lacunas.</strong> Algumas obras de referência ainda não foram lidas na íntegra, e alguns temas (saudações, origem africana) estão quase vazios. Cada página diz o que ainda falta.</li>
+      <li><strong>O recorte é parcial.</strong> Começou por poucos orixás e cresce aos poucos; nomes equivalentes em outras tradições (voduns, inquices) ainda são poucos.</li>
+      <li><strong>Documentos antigos pedem cautela.</strong> Relatos de viajantes e missionários europeus entram como registro do olhar da sua época, lidos por meio de autores que os criticam <Ref registro="exu-005" />.</li>
+    </ul>
+
+    <h2 id="contribuir">Correções</h2>
+    <p>Erros e lacunas são esperados nesta fase. Um canal simples para enviar correções e sugestões será aberto junto com o grupo de revisão. Quando ele existir, vale indicar a página, o trecho e, se possível, a obra ou a tradição e a casa em que a prática é diferente. Se algo publicado não deveria ser público, isso será tratado com prioridade: o conteúdo sai do site até a decisão da revisão.</p>
+
+    <h2 id="creditos">Créditos e direitos de uso</h2>
+    <p>Todo o conteúdo é resumo de obras de pesquisadoras, pesquisadores, sacerdotes e sacerdotisas, a quem pertence o mérito do conhecimento. Os créditos de cada informação estão nas notas, e a lista completa das obras está em <a href={url('fontes')}>Fontes</a>.</p>
+    <p>O site foi feito com <a href="https://astro.build">Astro</a>; o mapa de conexões, com <a href="https://js.cytoscape.org">Cytoscape.js</a>; a busca, com <a href="https://pagefind.app">Pagefind</a>; as fontes tipográficas são Literata e Inter, de licença aberta.</p>
+    <p class="nota-caixa">Os direitos de uso dos textos e dos dados (as licenças), o endereço definitivo do site e a forma final dos créditos de autoria ainda dependem do autor do projeto. Até lá, consulte antes de reutilizar qualquer conteúdo. Para pesquisadores, há também os <a href={url('baixar-dados')}>dados abertos</a> do site.</p>
+  </div>
 </Base>

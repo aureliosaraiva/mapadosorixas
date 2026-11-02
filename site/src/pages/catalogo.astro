@@ -1,55 +1,54 @@
 ---
 import Base from '../layouts/Base.astro';
 import Tradicoes from '../components/Tradicoes.astro';
+import Icone from '../components/Icone.astro';
 import {
-  fichas, fichaPorId, listaEntidades, tradicoes, ROTULO_GRUPO, ORDEM_ATRIBUTOS, rotuloAtributo, tradicoesDaFicha,
-  totalVersoes, fontesDaFicha, divergencias, url, ROTULO_TIPO_ENTIDADE, ROTULO_GRUPO_ENTIDADE, grupoConfirmado, itans,
+  fichaPorId, listaEntidades, tradicoes, ROTULO_GRUPO, tradicoesDaFicha,
+  fontesDaFicha, url, ROTULO_TIPO_ENTIDADE, ROTULO_GRUPO_ENTIDADE, grupoConfirmado, itans,
 } from '../lib/dados.js';
+import { capituloPorId } from '../lib/capitulos.js';
 
-// Um cartão por entidade da lista-mestra (data/entidades.json), na ordem dela.
-// Sem ficha: só nome, tipo e "Em pesquisa" (nenhum texto sobre a entidade).
+// Um cartão por entidade da lista-mestra (data/entidades.json): primeiro as que têm
+// página, na ordem da lista; depois as que estão em estudo (só nome e tipo, nenhum texto).
+const MAX_TRADS = 4;
 const cartoes = listaEntidades.map((e) => {
   const f = fichaPorId[e.id];
-  if (!f) return { e, f: null, trads: [], atributos: [] };
+  if (!f) return { e, f: null, trads: [] };
   return {
     e, f,
     trads: tradicoesDaFicha(f),
-    atributos: ORDEM_ATRIBUTOS.filter((a) => f.atributos[a]),
-    versoes: totalVersoes(f),
     nFontes: fontesDaFicha(f).size,
-    nDiv: divergencias.filter((d) => d.orixa === f.id).length,
-    semFonte: f.pendencias.sem_registro.length,
     nItans: itans.filter((it) => it.entidades.includes(e.id)).length,
+    cap: !!capituloPorId[e.id],
   };
-});
-const nPesquisa = cartoes.filter((c) => !c.f).length;
+}).sort((a, b) => Number(!a.f) - Number(!b.f));
+const nComPagina = cartoes.filter((c) => c.f).length;
+const nPesquisa = cartoes.length - nComPagina;
 const tiposUsados = Object.keys(ROTULO_TIPO_ENTIDADE).filter((t) => cartoes.some((c) => c.e.tipo === t));
-
 const tradsUsadas = new Set(cartoes.flatMap((c) => c.trads));
 const grupos = Object.entries(ROTULO_GRUPO)
   .map(([g, rot]) => [rot, tradicoes.filter((t) => t.grupo === g && tradsUsadas.has(t.id))])
   .filter(([, ts]) => ts.length);
-const atributosUsados = ORDEM_ATRIBUTOS.filter((a) => cartoes.some((c) => c.atributos.includes(a)));
+const semAcento = (t) => t.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
 ---
-<Base titulo="Catálogo" descricao="Catálogo das entidades do projeto: fichas com fonte e entidades ainda em pesquisa.">
-  <h1>Catálogo</h1>
-  <p>{listaEntidades.length} entidades na lista de trabalho do projeto: <strong>{fichas.length} com ficha</strong> e <strong>{nPesquisa} em pesquisa</strong>. As que estão em pesquisa aparecem só pelo nome, sem nenhum texto, até haver fonte lida. Cada número abaixo conta só versões <strong>lidas na fonte e com página</strong>. Atributos sem fonte aparecem na própria ficha como pendência. As etiquetas de tradição levam à página <a href={url('tradicoes')}>Tradições</a>; termos como orixá, nação e terreiro estão no <a href={url('glossario')}>Glossário</a>.</p>
-  <p class="nota-caixa">O tipo de cada entidade (orixá, qualidade, divindade suprema, conceito cosmológico, ancestrais) é uma classificação de trabalho para organizar o catálogo, não uma afirmação sobre a tradição. A posição de cada uma na cosmologia, quando houver fonte, está na página <a href={url('cosmologia')}>Cosmologia</a>.</p>
+<Base titulo="Orixás" descricao="Os orixás e as demais entidades do Mapa dos Orixás, com filtros por tipo e por tradição.">
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Catálogo</p>
+    <h1>Orixás e entidades</h1>
+    <p class="chamada">{nComPagina} orixás, entidades e conceitos já têm página, com resumo, fontes e as diferenças entre tradições. Outros {nPesquisa} estão em estudo e aparecem só pelo nome até haver obra lida sobre eles.</p>
+  </header>
+  <p class="discreto">O tipo de cada entidade (orixá, qualidade, divindade suprema, conceito, ancestrais) serve só para organizar esta lista; não é uma afirmação das tradições. As cores das etiquetas indicam o grupo de tradições: veja <a href={url('tradicoes')}>tradições e nações</a>.</p>
 
-  <form class="filtros so-js" id="filtros-catalogo" aria-label="Filtrar entidades" onsubmit="return false">
+  <form class="filtros so-js" id="filtros-catalogo" aria-label="Filtrar a lista" onsubmit="return false">
     <div>
-      <label for="f-tipo">Tipo de entidade</label>
+      <label for="f-nome">Nome</label>
+      <input type="search" id="f-nome" autocomplete="off" placeholder="Ex.: Oxum" />
+    </div>
+    <div>
+      <label for="f-tipo">Tipo</label>
       <select id="f-tipo">
         <option value="">Todos</option>
         {tiposUsados.map((t) => <option value={t}>{ROTULO_TIPO_ENTIDADE[t]}</option>)}
-      </select>
-    </div>
-    <div>
-      <label for="f-situacao">Situação</label>
-      <select id="f-situacao">
-        <option value="">Todas</option>
-        <option value="ficha">Com ficha</option>
-        <option value="pesquisa">Em pesquisa</option>
       </select>
     </div>
     <div>
@@ -64,64 +63,73 @@ const atributosUsados = ORDEM_ATRIBUTOS.filter((a) => cartoes.some((c) => c.atri
       </select>
     </div>
     <div>
-      <label for="f-atributo">Tem versão com fonte para</label>
-      <select id="f-atributo">
-        <option value="">Qualquer atributo</option>
-        {atributosUsados.map((a) => <option value={a}>{rotuloAtributo(a)}</option>)}
+      <label for="f-situacao">Mostrar</label>
+      <select id="f-situacao">
+        <option value="">Todos</option>
+        <option value="ficha">Só os que têm página</option>
+        <option value="capitulo">Só os que têm capítulo</option>
+        <option value="pesquisa">Só os que estão em estudo</option>
       </select>
     </div>
-    <button type="reset">Limpar</button>
+    <button type="reset">Limpar filtros</button>
   </form>
-  <p class="contagem" id="contagem" aria-live="polite">{cartoes.length} entidades</p>
+  <p class="contagem" id="contagem" aria-live="polite">{cartoes.length} nomes</p>
 
-  <ul class="grade" id="cartoes" style="list-style:none;padding:0">
+  <ul class="grade" id="cartoes">
     {cartoes.map((c) => {
       const g = grupoConfirmado(c.e);
       return c.f ? (
-        <li class="cartao" id={`e-${c.e.id}`} data-entidade={c.e.id} data-situacao="ficha" data-tipo={c.e.tipo} data-tradicoes={c.trads.join(' ')} data-atributos={c.atributos.join(' ')}>
-          <h2><a href={url(`orixas/${c.e.id}`)}>{c.f.rotulo}</a></h2>
-          <p class="tipo-entidade">{ROTULO_TIPO_ENTIDADE[c.e.tipo]}{g && <> · <a href={url(`orixas/${g.confirmado_por[0].replace(/-\d+$/, '')}#v-${g.confirmado_por[0]}`)}>{ROTULO_GRUPO_ENTIDADE[g.rotulo]}</a></>}</p>
-          <p class="numeros">{c.versoes} versões · {c.nFontes} fontes · {c.nDiv} atributos com divergência · {c.semFonte} atributos ainda sem fonte{c.nItans > 0 && <> · <a href={url('itans')}>{c.nItans} {c.nItans === 1 ? 'itã' : 'itãs'}</a></>}</p>
-          <p><strong>Atributos com fonte:</strong> {c.atributos.map(rotuloAtributo).join(', ')}.</p>
-          <p><strong>Tradições citadas:</strong> <Tradicoes ids={c.trads} link /></p>
-          {c.e.sensivel && <p class="aviso-sensivel">Tema sensível: só o que é público em fonte acadêmica, sem fundamento.</p>}
+        <li class="cartao" id={`e-${c.e.id}`} data-entidade={c.e.id} data-situacao="ficha" data-capitulo={c.cap ? '1' : ''} data-tipo={c.e.tipo} data-tradicoes={c.trads.join(' ')} data-nome={semAcento(c.f.rotulo)}>
+          <p class="tipo-entidade">{ROTULO_TIPO_ENTIDADE[c.e.tipo]}{g && <> · {ROTULO_GRUPO_ENTIDADE[g.rotulo]}</>}</p>
+          <h2><a class="cartao-link" href={url(`orixas/${c.e.id}`)}>{c.f.rotulo}</a></h2>
+          <p class="resumo-cartao"><Tradicoes ids={c.trads.slice(0, MAX_TRADS)} link />{c.trads.length > MAX_TRADS && <span class="discreto"> e mais {c.trads.length - MAX_TRADS}</span>}</p>
+          {c.e.sensivel && <p class="aviso-sensivel">Tema sensível: só o que já é público em livros e pesquisas.</p>}
+          <p class="rodape-cartao">
+            {c.cap && <span class="selo-cap"><Icone nome="livro" tamanho={14} />Capítulo para ler</span>}
+            {c.nItans > 0 && <span>{c.nItans} {c.nItans === 1 ? 'mito' : 'mitos'}</span>}
+            <span>{c.nFontes} {c.nFontes === 1 ? 'obra consultada' : 'obras consultadas'}</span>
+          </p>
         </li>
       ) : (
-        <li class="cartao em-pesquisa" id={`e-${c.e.id}`} data-entidade={c.e.id} data-situacao="pesquisa" data-tipo={c.e.tipo} data-tradicoes="" data-atributos="">
-          <h2>{c.e.rotulo}</h2>
+        <li class="cartao em-pesquisa" id={`e-${c.e.id}`} data-entidade={c.e.id} data-situacao="pesquisa" data-capitulo="" data-tipo={c.e.tipo} data-tradicoes="" data-nome={semAcento(c.e.rotulo)}>
           <p class="tipo-entidade">{ROTULO_TIPO_ENTIDADE[c.e.tipo]}</p>
-          <p class="status-pesquisa"><strong>Em pesquisa</strong> — {c.e.status_conteudo === 'pre' ? 'há afirmações localizadas, mas a fonte ainda não foi lida no original' : 'ainda sem fichamento'}. Nenhum texto é exibido antes de haver fonte lida.</p>
-          {c.e.sensivel && <p class="aviso-sensivel">Tema sensível: só entrará o que for público em fonte acadêmica, sem fundamento.</p>}
+          <h2>{c.e.rotulo}</h2>
+          <p class="status-pesquisa"><strong>Em pesquisa</strong> — {c.e.status_conteudo === 'pre' ? 'há indicações em outras obras, mas a fonte original ainda não foi lida' : 'ainda sem obra lida'}. Nada é publicado antes disso.</p>
+          {c.e.sensivel && <p class="aviso-sensivel">Tema sensível: só entrará o que já for público em livros e pesquisas.</p>}
         </li>
       );
     })}
   </ul>
-  <p id="nenhum" hidden>Nenhuma entidade para essa combinação de filtros.</p>
+  <p id="nenhum" hidden>Nenhum nome para essa combinação de filtros.</p>
 
   <script>
     const sel = (id: string) => document.getElementById(id) as HTMLSelectElement;
+    const nome = document.getElementById('f-nome') as HTMLInputElement;
     const tp = sel('f-tipo');
     const si = sel('f-situacao');
     const tr = sel('f-tradicao');
-    const at = sel('f-atributo');
     const form = document.getElementById('filtros-catalogo') as HTMLFormElement;
     const cont = document.getElementById('contagem')!;
     const nenhum = document.getElementById('nenhum')!;
     const cards = [...document.querySelectorAll<HTMLElement>('#cartoes > li')];
+    const norm = (t: string) => t.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
     function aplicar() {
+      const q = norm(nome.value);
       let n = 0;
       for (const c of cards) {
-        const ok = (!tp.value || c.dataset.tipo === tp.value)
-          && (!si.value || c.dataset.situacao === si.value)
-          && (!tr.value || c.dataset.tradicoes!.split(' ').includes(tr.value))
-          && (!at.value || c.dataset.atributos!.split(' ').includes(at.value));
+        const d = c.dataset;
+        const ok = (!q || d.nome!.includes(q))
+          && (!tp.value || d.tipo === tp.value)
+          && (!si.value || (si.value === 'capitulo' ? d.capitulo === '1' : d.situacao === si.value))
+          && (!tr.value || d.tradicoes!.split(' ').includes(tr.value));
         c.hidden = !ok;
         if (ok) n++;
       }
-      cont.textContent = `${n} ${n === 1 ? 'entidade' : 'entidades'}`;
+      cont.textContent = `${n} ${n === 1 ? 'nome' : 'nomes'}`;
       nenhum.hidden = n > 0;
     }
-    for (const s of [tp, si, tr, at]) s.addEventListener('change', aplicar);
+    form.addEventListener('input', aplicar);
+    form.addEventListener('change', aplicar);
     form.addEventListener('reset', () => setTimeout(aplicar));
   </script>
 </Base>

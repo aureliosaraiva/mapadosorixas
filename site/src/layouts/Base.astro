@@ -1,29 +1,40 @@
 ---
+import '@fontsource-variable/literata/wght.css';
+import '@fontsource-variable/literata/wght-italic.css';
+import '@fontsource-variable/inter/wght.css';
 import '../styles/global.css';
+import Icone from '../components/Icone.astro';
 import { url } from '../lib/dados.js';
+import { AVISO_REVISAO } from '../lib/textos.js';
 
-interface Props { titulo: string; descricao?: string; indexar?: boolean }
-const { titulo, descricao = 'Enciclopédia em construção sobre os orixás, com fontes citadas e divergências entre tradições lado a lado.', indexar = false } = Astro.props;
+interface Props { titulo: string; descricao?: string; indexar?: boolean; largura?: 'normal' | 'leitura' }
+const { titulo, descricao = 'Os orixás contados a partir de livros e pesquisas, com as fontes sempre à mão e as diferenças entre tradições lado a lado.', indexar = false } = Astro.props;
+
 
 const atual = Astro.url.pathname.replace(/\/$/, '');
-const menu = [
-  ['', 'Início'],
-  ['catalogo', 'Catálogo'],
-  ['livro', 'Livro'],
-  ['itans', 'Itãs'],
-  ['cosmologia', 'Cosmologia'],
-  ['grafo', 'Grafo'],
-  ['tradicoes', 'Tradições'],
-  ['glossario', 'Glossário'],
-  ['fontes', 'Fontes'],
-  ['metodologia', 'Metodologia'],
-  ['baixar-dados', 'Baixar dados'],
-  ['sobre', 'Sobre'],
+const menu: [string, string, string][] = [
+  ['livro', 'Livro', 'livro'],
+  ['catalogo', 'Orixás', 'orixas'],
+  ['itans', 'Mitos', 'mitos'],
+  ['cosmologia', 'Cosmologia', 'cosmologia'],
+  ['grafo', 'Mapa de conexões', 'mapa'],
+  ['glossario', 'Glossário', 'glossario'],
+  ['sobre', 'Sobre', 'sobre'],
 ];
 const ativo = (p: string) => {
   const alvo = url(p).replace(/\/$/, '');
-  return alvo === atual || (p !== '' && atual.startsWith(alvo + '/')) || (p === 'catalogo' && atual.includes('/orixas/') && !atual.endsWith('/capitulo')) || (p === 'livro' && atual.endsWith('/capitulo'));
+  const cap = atual.endsWith('/capitulo');
+  return alvo === atual || (atual.startsWith(alvo + '/') && !(p === 'cosmologia' && cap))
+    || (p === 'catalogo' && atual.includes('/orixas/') && !cap)
+    || (p === 'livro' && cap);
 };
+const rodape: [string, string][] = [
+  ['fontes', 'Fontes e bibliografia'],
+  ['tradicoes', 'Tradições e nações'],
+  ['glossario', 'Glossário'],
+  ['sobre', 'Sobre o projeto'],
+  ['buscar', 'Buscar'],
+];
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -32,21 +43,43 @@ const ativo = (p: string) => {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={descricao} />
     <meta name="robots" content="noindex" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#fbf9f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#16181d" media="(prefers-color-scheme: dark)" />
     <link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
-    <title>{titulo} · Mapa dos Orixás (rascunho)</title>
-    <script is:inline>document.documentElement.classList.add('js');</script>
+    <title>{titulo} · Mapa dos Orixás</title>
+    <script is:inline>
+      // tema antes da pintura: escolha salva (claro/escuro) ou a do sistema
+      (function () {
+        var d = document.documentElement; d.classList.add('js');
+        try { var t = localStorage.getItem('tema'); if (t === 'claro' || t === 'escuro') d.dataset.tema = t; } catch (e) {}
+      })();
+    </script>
     <slot name="head" />
   </head>
   <body>
     <a class="pular" href="#conteudo">Pular para o conteúdo</a>
     <header class="cabecalho">
       <div class="faixa-rascunho" role="note">
-        <strong>Rascunho — aguardando revisão de praticantes e pesquisadores</strong>
-        <span>Versão inicial, ainda não revisada. Correções: <a href="https://github.com/aureliosaraiva/mapadosorixas/issues">issues do repositório</a>.</span>
+        <Icone nome="revisao" tamanho={16} />
+        <strong>{AVISO_REVISAO}</strong>
+        <span class="faixa-detalhe">· obra em construção, ainda sem revisão de sacerdotes e pesquisadores. <a href={url('sobre#revisao')}>Saiba mais</a></span>
       </div>
-      <div class="interno">
-        <a class="marca" href={url('')}>Mapa dos Orixás</a>
-        <nav aria-label="Principal">
+      <div class="barra">
+        <a class="marca" href={url('')}>
+          <svg class="marca-simbolo" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="2.2" fill="currentColor"/></svg>
+          <span>Mapa dos Orixás</span>
+        </a>
+        <div class="acoes">
+          <a class="botao-icone" href={url('buscar')} aria-label="Buscar no site" aria-current={atual === url('buscar').replace(/\/$/, '') ? 'page' : undefined}><Icone nome="buscar" /></a>
+          <button type="button" class="botao-icone so-js-inline" id="alternar-tema" aria-label="Alternar tema claro ou escuro" aria-pressed="false">
+            <Icone nome="lua" classe="icone-lua" /><Icone nome="sol" classe="icone-sol" />
+          </button>
+          <button type="button" class="botao-icone botao-menu so-js-inline" id="abrir-menu" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+            <Icone nome="menu" classe="icone-menu" /><Icone nome="fechar" classe="icone-fechar" />
+          </button>
+        </div>
+        <nav aria-label="Principal" id="menu-principal" class="menu">
           <ul>
             {menu.map(([p, r]) => (
               <li><a href={url(p)} aria-current={ativo(p) ? 'page' : undefined}>{r}</a></li>
@@ -55,14 +88,50 @@ const ativo = (p: string) => {
         </nav>
       </div>
     </header>
-    <main id="conteudo" tabindex="-1" data-pagefind-body={indexar ? '' : undefined}>
+    <main id="conteudo" tabindex="-1" class={`principal ${Astro.props.largura === 'leitura' ? 'principal-leitura' : ''}`} data-pagefind-body={indexar ? '' : undefined}>
       <slot />
     </main>
     <footer class="rodape">
-      <div class="interno">
-        <p><strong>Protótipo em rascunho.</strong> Nenhum conteúdo foi revisado ainda por praticantes (babalorixás, iyalorixás) ou pesquisadores. O site só exibe os dados versionados no repositório (<code>data/</code>); cada afirmação remete a uma fonte do catálogo.</p>
-        <p>Licenças de código, textos e dados: a definir pelo autor (ver <a href="https://github.com/aureliosaraiva/mapadosorixas">repositório</a>). Correções e sugestões: <a href={url('sobre#contribuir')}>como contribuir</a>. Cópias dos dados em JSON: <a href={url('baixar-dados')}>Baixar dados</a>.</p>
+      <div class="rodape-interno">
+        <div class="rodape-marca">
+          <p class="rodape-titulo">Mapa dos Orixás</p>
+          <p>Os orixás contados a partir de livros e pesquisas, com a fonte de cada informação e as diferenças entre tradições lado a lado. Obra em construção: o conteúdo ainda será revisado por sacerdotes, sacerdotisas e pesquisadores.</p>
+        </div>
+        <nav aria-label="Rodapé">
+          <ul>
+            {rodape.map(([p, r]) => <li><a href={url(p)}>{r}</a></li>)}
+            <li><a href={url('baixar-dados')}>Dados abertos para pesquisa</a></li>
+          </ul>
+        </nav>
+        <p class="rodape-licenca">Direitos de uso dos textos e dados: a definir pelo autor. Nenhum trecho de livro é reproduzido; os textos são resumos com indicação da obra.</p>
       </div>
     </footer>
+    <script>
+      const raiz = document.documentElement;
+      const botaoTema = document.getElementById('alternar-tema');
+      const escuroAgora = () => raiz.dataset.tema ? raiz.dataset.tema === 'escuro' : matchMedia('(prefers-color-scheme: dark)').matches;
+      const sincronizar = () => botaoTema?.setAttribute('aria-pressed', String(escuroAgora()));
+      sincronizar();
+      botaoTema?.addEventListener('click', () => {
+        const novo = escuroAgora() ? 'claro' : 'escuro';
+        raiz.dataset.tema = novo;
+        try { localStorage.setItem('tema', novo); } catch { /* sem armazenamento: vale só nesta página */ }
+        sincronizar();
+        window.dispatchEvent(new CustomEvent('tema-mudou'));
+      });
+      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { sincronizar(); window.dispatchEvent(new CustomEvent('tema-mudou')); });
+
+      const botaoMenu = document.getElementById('abrir-menu');
+      const menu = document.getElementById('menu-principal');
+      botaoMenu?.addEventListener('click', () => {
+        const aberto = botaoMenu.getAttribute('aria-expanded') === 'true';
+        botaoMenu.setAttribute('aria-expanded', String(!aberto));
+        botaoMenu.setAttribute('aria-label', aberto ? 'Abrir menu' : 'Fechar menu');
+        menu?.classList.toggle('aberto', !aberto);
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && menu?.classList.contains('aberto')) { botaoMenu?.click(); botaoMenu?.focus(); }
+      });
+    </script>
   </body>
 </html>

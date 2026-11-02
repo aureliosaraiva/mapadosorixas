@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Tradicoes from '../components/Tradicoes.astro';
 import {
-  conexoes, entidades, entidadesMeta, fichaPorId, fontePorId, autorCurto, tradicoes, ROTULO_GRUPO,
+  conexoes, entidades, fichaPorId, fontePorId, autorCurto, tradicoes, ROTULO_GRUPO,
   ROTULO_ARESTA, ROTULO_SUBTIPO, ROTULO_NO, rotuloNo, url,
 } from '../lib/dados.js';
 import { CORES_ARESTA, FORMA_NO, ROTULO_LINHA, tradDaAresta, elementosCytoscape, tipoEntidadeNo, rotuloTipoEntidade } from '../lib/grafo.js';
@@ -25,20 +25,28 @@ const fonteCurta = (v) => {
   return { f, via, loc: v.localizacao };
 };
 ---
-<Base titulo="Grafo de conexões" descricao="Grafo de parentesco, equivalências e sincretismo entre orixás, com fontes.">
-  <h1>Grafo de conexões</h1>
-  <p>{conexoes.nos.length} nós e {conexoes.arestas.length} conexões, todas extraídas de versões com fonte. <strong>Equivalência não é identidade</strong>: cada entidade tem culto, mitos e atributos próprios na sua tradição. O sincretismo varia de casa para casa e de região para região.</p>
-  <p>Clique num orixá que tem ficha para abri-la. A <a href="#tabela-conexoes">tabela de conexões</a> abaixo traz as mesmas informações, com as fontes, e pode ser usada sem mouse e sem JavaScript.</p>
+<Base titulo="Mapa de conexões" descricao="Mapa das relações entre orixás nos mitos e nas tradições: parentesco, nomes equivalentes e sincretismo, com fontes.">
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Mapa de conexões</p>
+    <h1>Quem se liga a quem</h1>
+    <p class="chamada">Um desenho das relações que as obras registram: parentes nos mitos, companheiros de culto, nomes equivalentes em outras tradições (voduns, inquices) e santos católicos associados pelo sincretismo.</p>
+  </header>
+  <ol class="passos">
+    <li>Cada ponto é um nome; cada linha, uma relação registrada numa obra. Forma e tipo de linha mudam conforme o tipo (veja a legenda).</li>
+    <li>Toque num orixá com borda dourada para abrir a página dele. Use os filtros para ver só um tipo de relação ou uma tradição.</li>
+    <li>Prefere ler? A <a href="#tabela-conexoes">lista de conexões</a>, mais abaixo, traz tudo em texto, com as fontes.</li>
+  </ol>
+  <p class="nota-caixa"><strong>Equivalente não quer dizer igual.</strong> Cada divindade tem culto, mitos e características próprios na sua tradição, e o sincretismo com santos católicos muda de casa para casa e de região para região.</p>
 
-  <form class="filtros so-js" id="filtros-grafo" aria-label="Filtrar o grafo" onsubmit="return false">
-    <fieldset>
-      <legend>Tipos de conexão</legend>
+  <form class="filtros so-js" id="filtros-grafo" aria-label="Filtrar o mapa" onsubmit="return false">
+    <fieldset class="largo">
+      <legend>Tipos de relação</legend>
       {tiposAresta.map((t) => (
         <label class="opcao"><input type="checkbox" name="tipo" value={t} checked /> {ROTULO_ARESTA[t] ?? t} ({conexoes._meta.por_tipo[t]})</label>
       ))}
     </fieldset>
-    <fieldset>
-      <legend>Tipos de entidade</legend>
+    <fieldset class="largo">
+      <legend>Tipos de nome</legend>
       {tiposEnt.map((t) => (
         <label class="opcao"><input type="checkbox" name="tipo-entidade" value={t} checked /> {rotuloTipoEntidade(t)} ({contaEnt[t]})</label>
       ))}
@@ -53,40 +61,41 @@ const fonteCurta = (v) => {
       </select>
     </div>
     <div>
-      <label for="g-ir">Abrir ficha</label>
+      <label for="g-ir">Ir para a página de</label>
       <select id="g-ir">
-        <option value="">Escolha um orixá…</option>
+        <option value="">Escolha um nome…</option>
         {conexoes.nos.filter((n) => fichaPorId[n.id]).map((n) => <option value={url(`orixas/${n.id}`)}>{n.rotulo}</option>)}
       </select>
     </div>
-    <button type="reset">Limpar</button>
+    <button type="reset">Limpar filtros</button>
   </form>
 
   <div class="grafo-caixa so-js">
-    <div id="grafo" role="img" aria-label="Grafo de conexões entre orixás, santos, voduns, inquices e outras entidades. A tabela abaixo descreve as mesmas conexões."></div>
+    <div id="grafo" role="img" aria-label="Mapa das conexões entre orixás, santos, voduns, inquices e outras entidades. A lista mais abaixo descreve as mesmas conexões."></div>
   </div>
   <p class="contagem so-js" id="g-contagem" aria-live="polite"></p>
-  <noscript><p class="nota-caixa">O desenho do grafo precisa de JavaScript. Todas as conexões estão na tabela abaixo.</p></noscript>
+  <noscript><p class="nota-caixa">O desenho precisa de JavaScript ligado no navegador. Todas as conexões estão na lista abaixo.</p></noscript>
 
   <h2>Legenda</h2>
-  <h3>Nós</h3>
+  <h3>Formas dos nomes</h3>
   <ul class="legenda">
     {tiposNo.map((t) => (
       <li><span class="amostra" style={`background:${FORMA_NO[t]?.cor}`}></span>{ROTULO_NO[t] ?? t} — {FORMA_NO[t]?.rotulo}</li>
     ))}
   </ul>
-  <h3>Conexões</h3>
+  <h3>Linhas das relações</h3>
   <ul class="legenda">
     {tiposAresta.map((t) => (
       <li><span class="linha" style={`border-top-style:${CORES_ARESTA[t].estilo};border-top-color:${CORES_ARESTA[t].cor}`}></span>{ROTULO_ARESTA[t]} — linha {ROTULO_LINHA[CORES_ARESTA[t].estilo]}</li>
     ))}
   </ul>
 
-  <h2 id="tabela-conexoes">Tabela de conexões</h2>
+  <h2 id="tabela-conexoes">As conexões em lista</h2>
+  <p class="intro-secao">{conexoes.arestas.length} relações, agrupadas por tipo, cada uma com a obra e a página de onde veio.</p>
   <div class="tabela-rolagem">
     <table>
-      <caption>{conexoes.arestas.length} conexões, agrupadas por tipo</caption>
-      <thead><tr><th scope="col">Tipo</th><th scope="col">De</th><th scope="col">Relação</th><th scope="col">Para</th><th scope="col">Versões e fontes</th></tr></thead>
+      <caption class="visualmente-oculto">{conexoes.arestas.length} conexões, agrupadas por tipo</caption>
+      <thead><tr><th scope="col">Tipo</th><th scope="col">De</th><th scope="col">Relação</th><th scope="col">Para</th><th scope="col">De acordo com</th></tr></thead>
       <tbody>
         {tiposAresta.flatMap((t) => conexoes.arestas.filter((e) => e.tipo === t)).map((e) => (
           <tr id={`aresta-${e.id.replace(/[^a-z0-9-]/gi, '-')}`}>
@@ -102,7 +111,7 @@ const fonteCurta = (v) => {
                     <li>
                       “{v.valor}” <Tradicoes ids={v.tradicoes} />{v.casa_ou_regiao && <> ({v.casa_ou_regiao})</>} —{' '}
                       <a href={url(`fontes#fonte-${v.source_id}`)}>{autorCurto(f)} ({f?.ano})</a>
-                      {via && <>, via <a href={url(`fontes#fonte-${v.via_source_id}`)}>{autorCurto(via)} ({via.ano})</a></>}, {loc}
+                      {via && <>, citado por <a href={url(`fontes#fonte-${v.via_source_id}`)}>{autorCurto(via)} ({via.ano})</a></>}, {loc}
                     </li>
                   );
                 })}
@@ -114,13 +123,12 @@ const fonteCurta = (v) => {
     </table>
   </div>
 
-  <h2 id="entidades">Entidades equivalentes (voduns, inquices e outros nomes)</h2>
-  <p>{entidadesMeta.descricao.replace(/^Gerado[^.]*\.\s*/, '')}</p>
-  <p class="nota-caixa">{entidadesMeta.aviso}</p>
+  <h2 id="entidades">Nomes equivalentes em outras tradições</h2>
+  <p class="intro-secao">Voduns (tradição jeje), inquices (tradição banto) e outros nomes que as obras aproximam de um orixá. A aproximação é da obra citada, não uma identidade. Alguns aparecem como “fon ou banto (sem classificação)” porque a obra não diz de qual das duas tradições o nome vem.</p>
   <div class="tabela-rolagem">
     <table>
-      <caption>{entidades.length} entidades</caption>
-      <thead><tr><th scope="col">Nome</th><th scope="col">Tipo</th><th scope="col">Tradições</th><th scope="col">Equivale a</th><th scope="col">Fonte</th></tr></thead>
+      <caption class="visualmente-oculto">{entidades.length} nomes equivalentes</caption>
+      <thead><tr><th scope="col">Nome</th><th scope="col">Tipo</th><th scope="col">Tradições</th><th scope="col">Aproximado de</th><th scope="col">De acordo com</th></tr></thead>
       <tbody>
         {entidades.map((en) => (
           <tr>
@@ -130,7 +138,7 @@ const fonteCurta = (v) => {
             <td>{en.equivale_a.map((q, i) => <>{i > 0 && ', '}<a href={url(`orixas/${q.orixa}`)}>{rotuloNo(q.orixa)}</a></>)}</td>
             <td>{en.versoes.map((v, i) => {
               const { f, via, loc } = fonteCurta(v);
-              return <>{i > 0 && '; '}<a href={url(`fontes#fonte-${v.source_id}`)}>{autorCurto(f)} ({f?.ano})</a>{via && <>, via {autorCurto(via)} ({via.ano})</>}, {loc}</>;
+              return <>{i > 0 && '; '}<a href={url(`fontes#fonte-${v.source_id}`)}>{autorCurto(f)} ({f?.ano})</a>{via && <>, citado por {autorCurto(via)} ({via.ano})</>}, {loc}</>;
             })}</td>
           </tr>
         ))}
@@ -150,7 +158,7 @@ const fonteCurta = (v) => {
       minZoom: 0.3,
       maxZoom: 3,
       wheelSensitivity: 0.3,
-      style: estiloCytoscape,
+      style: estiloCytoscape(),
       layout: { name: 'cose', animate: false, nodeRepulsion: () => 9000, idealEdgeLength: () => 90, padding: 20 } as any,
     });
 
@@ -183,11 +191,12 @@ const fonteCurta = (v) => {
       });
       const ne = cy.edges().filter((e) => !e.hasClass('oculto')).length;
       const nn = cy.nodes().filter((n) => !n.hasClass('oculto')).length;
-      cont.textContent = `Mostrando ${nn} nós e ${ne} conexões.`;
+      cont.textContent = `Mostrando ${nn} nomes e ${ne} relações.`;
     }
     form.addEventListener('change', (ev) => { if (ev.target !== selIr) aplicar(); });
     form.addEventListener('reset', () => setTimeout(aplicar));
     selIr.addEventListener('change', () => { if (selIr.value) window.location.href = selIr.value; });
     aplicar();
+    window.addEventListener('tema-mudou', () => cy.style(estiloCytoscape() as any));
   </script>
 </Base>

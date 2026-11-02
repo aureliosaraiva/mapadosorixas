@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Citacoes from '../components/Citacoes.astro';
 import {
-  tradicoes, tradicoesMeta, ROTULO_GRUPO, ORDEM_GRUPOS, fichas, tradicoesDaFicha, url,
+  tradicoes, ROTULO_GRUPO, ORDEM_GRUPOS, fichas, tradicoesDaFicha, url,
 } from '../lib/dados.js';
 
 // Tradição com descrição exibida precisa de fonte; sem fonte, o texto do rascunho
@@ -11,11 +11,11 @@ for (const t of tradicoes) {
   if (t.status === 'com_fonte' && !t.sources?.length) throw new Error(`Tradição com_fonte sem fontes: ${t.id}`);
 }
 const INTRO_GRUPO = {
-  candomble: 'Nações do Candomblé registradas nas fontes. O site trata Candomblé e Umbanda como religiões distintas.',
-  afro_brasileira_regional: 'Outras religiões afro-brasileiras citadas nas fontes, que o site não inclui nem no grupo do Candomblé nem no da Umbanda.',
-  umbanda: 'Umbanda, em grupo próprio. No site, as etiquetas de Umbanda têm borda tracejada.',
-  culto_africano: 'Cultos em território africano citados nas fontes.',
-  diaspora_caribenha: 'Religiões da diáspora no Caribe citadas nas fontes.',
+  candomble: 'As nações do Candomblé que aparecem nas obras. Candomblé e Umbanda são tratados aqui como religiões distintas.',
+  afro_brasileira_regional: 'Outras religiões afro-brasileiras citadas nas obras, que não se confundem nem com o Candomblé nem com a Umbanda.',
+  umbanda: 'A Umbanda, em grupo próprio. No site, as etiquetas de Umbanda têm borda tracejada.',
+  culto_africano: 'O culto aos orixás em terra africana, como aparece nas obras.',
+  diaspora_caribenha: 'Religiões de matriz africana no Caribe, como a Santería cubana.',
 };
 const grupos = ORDEM_GRUPOS.map((g) => [g, tradicoes.filter((t) => t.grupo === g)]).filter(([, ts]) => ts.length);
 const outros = tradicoes.filter((t) => !ORDEM_GRUPOS.includes(t.grupo));
@@ -23,13 +23,16 @@ if (outros.length) throw new Error(`Grupo de tradição sem lugar na página: ${
 const fichasDa = (id) => fichas.filter((f) => tradicoesDaFicha(f).includes(id));
 const nComFonte = tradicoes.filter((t) => t.status === 'com_fonte').length;
 ---
-<Base titulo="Tradições" descricao="As tradições citadas nas fichas: nações do Candomblé, Umbanda, religiões afro-brasileiras regionais, culto na África e diáspora caribenha." indexar>
-  <h1>Tradições</h1>
-  <p>Cada versão das fichas leva a tradição que a fonte indica. Esta página reúne as {tradicoes.length} tradições usadas no projeto, agrupadas. {nComFonte} têm descrição com fonte e página; as outras {tradicoes.length - nComFonte} aparecem só pelo nome, com a descrição <strong>pendente de fonte</strong>.</p>
-  <p class="nota-caixa">{tradicoesMeta.aviso}</p>
+<Base titulo="Tradições e nações" descricao="As tradições citadas no site: nações do Candomblé, Umbanda, outras religiões afro-brasileiras, culto na África e no Caribe." indexar>
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Tradições e nações</p>
+    <h1>Em cada tradição, um jeito de cultuar</h1>
+    <p class="chamada">Cada informação do site indica a tradição de onde vem, como a obra registra. Estas são as {tradicoes.length} tradições citadas, em grupos.</p>
+  </header>
+  <p class="discreto texto-corrido">{nComFonte} já têm uma descrição com fonte; as outras aparecem só pelo nome até haver obra lida sobre elas.</p>
 
   <nav aria-label="Grupos de tradições">
-    <ul class="sumario">
+    <ul class="sumario-pagina">
       {grupos.map(([g, ts]) => <li><a href={`#grupo-${g}`}>{ROTULO_GRUPO[g]} ({ts.length})</a></li>)}
     </ul>
   </nav>
@@ -37,7 +40,7 @@ const nComFonte = tradicoes.filter((t) => t.status === 'com_fonte').length;
   {grupos.map(([g, ts]) => (
     <section aria-labelledby={`grupo-${g}`}>
       <h2 id={`grupo-${g}`}>{ROTULO_GRUPO[g]}</h2>
-      <p>{INTRO_GRUPO[g]}{(g === 'candomble' || g === 'umbanda') && <> Ver <a href={url('metodologia#candomble-umbanda')}>Metodologia, Candomblé × Umbanda</a>.</>}</p>
+      <p class="intro-secao">{INTRO_GRUPO[g]}{(g === 'candomble' || g === 'umbanda') && <> Veja também <a href={url('sobre#candomble-umbanda')}>Candomblé e Umbanda</a>.</>}</p>
       <ul class="tradicoes-lista">
         {ts.map((t) => {
           const fs = fichasDa(t.id);
@@ -47,15 +50,15 @@ const nComFonte = tradicoes.filter((t) => t.status === 'com_fonte').length;
               {t.status === 'com_fonte' ? (
                 <>
                   <p class="descricao">{t.descricao}</p>
-                  <p class="fontes-tradicao"><strong>Fonte{t.sources.length > 1 ? 's' : ''}:</strong> <Citacoes sources={t.sources} /></p>
-                  {t.nota && <p class="nota"><strong>Nota:</strong> {t.nota}</p>}
+                  <p class="fontes-tradicao"><strong>De acordo com</strong> <Citacoes sources={t.sources} /></p>
+                  {t.nota && <p class="nota"><strong>Observação:</strong> {t.nota}</p>}
                 </>
               ) : (
-                <p class="pendente-fonte" role="note"><strong>Descrição pendente de fonte.</strong> Ainda não há fonte aberta lida para descrever esta tradição; o projeto não publica texto sem fonte (ver pendências no repositório).</p>
+                <p class="pendente-fonte" role="note"><strong>Descrição em preparo.</strong> Ainda não há obra lida para descrever esta tradição, e o site não publica texto sem fonte.</p>
               )}
               <p class="meta">{fs.length
-                ? <>Citada nas fichas de {fs.map((f, i) => <>{i > 0 && ', '}<a href={url(`orixas/${f.id}`)}>{f.rotulo}</a></>)}.</>
-                : 'Ainda não citada em nenhuma ficha.'}</p>
+                ? <>Aparece em: {fs.map((f, i) => <>{i > 0 && ', '}<a href={url(`orixas/${f.id}`)}>{f.rotulo}</a></>)}.</>
+                : 'Ainda não aparece em nenhuma página.'}</p>
             </li>
           );
         })}

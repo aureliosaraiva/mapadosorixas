@@ -1,45 +1,57 @@
 ---
-// Índice do "livro": capítulos narrativos disponíveis, na ordem da lista-mestra.
+// Índice do livro: capítulos narrativos, na ordem da lista-mestra, e as visões de conjunto.
 import Base from '../layouts/Base.astro';
 import Selo from '../components/Selo.astro';
-import { capitulos, panoramas, totalPalavras, registrosCitados, TITULO_SECAO } from '../lib/capitulos.js';
+import Icone from '../components/Icone.astro';
+import { capitulos, panoramas, totalPalavras, TITULO_SECAO } from '../lib/capitulos.js';
 import { listaEntidades, fichaPorId, url } from '../lib/dados.js';
+import { minutosLeitura } from '../lib/textos.js';
 
 const semCapitulo = listaEntidades.filter((e) => fichaPorId[e.id] && !capitulos.some((c) => c.orixa === e.id));
+const secoes = (c) => c.secoes.filter((s) => s.slug !== 'abertura').map((s) => s.titulo ?? TITULO_SECAO[s.slug]).join(' · ');
 ---
-<Base titulo="Livro" descricao="Capítulos narrativos sobre os orixás, escritos a partir do fichamento de fontes, com notas de rodapé." indexar>
-  <h1>Livro</h1>
-  <Selo texto="Os capítulos foram escritos pelo projeto a partir do fichamento de fontes escritas, sem conteúdo novo. Ainda não passaram pelo conselho de revisão." />
-  <p>Cada capítulo conta, em texto corrido, o que as fontes reunidas pelo projeto dizem sobre um orixá: nomes e origem, história do culto, domínios e símbolos, mitos, o orixá em cada tradição (nações do Candomblé, Batuque, Xangô do Recife, Tambor de Mina, Umbanda, Santería cubana), sincretismo, leituras acadêmicas e o que as fontes ainda não dizem. As referências ficam nas notas de rodapé, com autor, ano e página; quando as tradições divergem, as versões aparecem lado a lado. Candomblé e Umbanda são tratados como religiões distintas.</p>
+<Base titulo="Livro" descricao="Capítulos em texto corrido sobre os orixás, escritos a partir de livros e pesquisas, com notas que indicam as fontes." indexar>
+  <header class="cabeca-pagina">
+    <p class="sobretitulo">Livro</p>
+    <h1>Os orixás em capítulos</h1>
+    <p class="chamada">Para ler com calma, do começo ao fim. Cada capítulo conta o que livros e pesquisas registram sobre um orixá: nomes e origem, história do culto, símbolos, mitos, como cada tradição o cultua, o sincretismo e o que as fontes ainda não dizem.</p>
+  </header>
+  <Selo texto="Os capítulos foram escritos pelo projeto a partir de livros e pesquisas, sem acrescentar nada que não esteja nas obras citadas. Ainda não foram revistos por sacerdotes, sacerdotisas e pesquisadores." />
+  <p class="discreto texto-corrido">As fontes ficam nas notas, com autor, ano e página. Quando as tradições contam de jeitos diferentes (nações do Candomblé, Batuque, Xangô do Recife, Tambor de Mina, Umbanda, Santería cubana), as versões aparecem lado a lado. Candomblé e Umbanda são tratados como religiões distintas.</p>
 
   {panoramas.length > 0 && (
     <>
-      <h2 id="panoramas">Panoramas</h2>
-      <p>Textos curtos que costuram vários capítulos sobre um mesmo tema, com links para eles.</p>
+      <h2 id="panoramas">Para começar: visões de conjunto</h2>
       <ol class="lista-capitulos lista-panoramas">
         {panoramas.map((p) => (
-          <li data-capitulo={p.id} data-tipo="panorama">
-            <a href={url(`${p.id}/capitulo`)}><strong>{p.titulo}</strong></a>
-            <span class="meta"> · panorama · cerca de {Math.round(totalPalavras(p) / 100) * 100} palavras · {p.notas.length} notas · {registrosCitados(p).size} registros do fichamento · rascunho</span>
-            <br /><span class="meta">{p.secoes.filter((s) => s.slug !== 'abertura').map((s) => s.titulo ?? TITULO_SECAO[s.slug]).join(' · ')}</span>
+          <li class="cartao" data-capitulo={p.id} data-tipo="panorama">
+            <p class="numero-cap">Visão de conjunto</p>
+            <h3><a class="cartao-link" href={url(`${p.id}/capitulo`)}>{p.titulo}</a></h3>
+            <p class="secoes-cap">{secoes(p)}</p>
+            <p class="rodape-cartao"><span><Icone nome="relogio" tamanho={14} /> {minutosLeitura(totalPalavras(p))} min de leitura</span></p>
           </li>
         ))}
       </ol>
     </>
   )}
 
-  <h2 id="capitulos">Capítulos disponíveis</h2>
+  <h2 id="capitulos">Capítulos</h2>
   <ol class="lista-capitulos">
-    {capitulos.map((c) => (
-      <li data-capitulo={c.orixa}>
-        <a href={url(`orixas/${c.orixa}/capitulo`)}><strong>{c.titulo}</strong></a>
-        <span class="meta"> · {fichaPorId[c.orixa].rotulo} · cerca de {Math.round(totalPalavras(c) / 100) * 100} palavras · {c.notas.length} notas · {registrosCitados(c).size} registros do fichamento · rascunho</span>
-        <br /><span class="meta">{c.secoes.filter((s) => s.slug !== 'abertura').map((s) => s.titulo ?? TITULO_SECAO[s.slug]).join(' · ')}</span>
+    {capitulos.map((c, i) => (
+      <li class="cartao" data-capitulo={c.orixa}>
+        <p class="numero-cap">Capítulo {i + 1} · {fichaPorId[c.orixa].rotulo}</p>
+        <h3><a class="cartao-link" href={url(`orixas/${c.orixa}/capitulo`)}>{c.titulo}</a></h3>
+        <p class="secoes-cap">{secoes(c)}</p>
+        <p class="rodape-cartao"><span><Icone nome="relogio" tamanho={14} /> {minutosLeitura(totalPalavras(c))} min de leitura</span><span>{c.notas.length} notas</span></p>
       </li>
     ))}
   </ol>
 
-  <h2 id="em-preparo">Ainda sem capítulo</h2>
-  <p>Estas entidades já têm ficha, mas o capítulo ainda não foi escrito. As demais, sem fichamento, seguem "em pesquisa" no <a href={url('catalogo')}>catálogo</a>.</p>
-  <p>{semCapitulo.map((e, i) => <>{i > 0 && ', '}<a href={url(`orixas/${e.id}`)}>{e.rotulo}</a></>)}.</p>
+  {semCapitulo.length > 0 && (
+    <>
+      <h2 id="em-preparo">Capítulos em preparo</h2>
+      <p>Estes já têm página, com resumo e fontes, mas o capítulo ainda não foi escrito:</p>
+      <ul class="lista-nomes">{semCapitulo.map((e) => <li><a href={url(`orixas/${e.id}`)}>{e.rotulo}</a></li>)}</ul>
+    </>
+  )}
 </Base>
