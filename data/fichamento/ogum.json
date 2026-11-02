@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 76,
+    "total": 89,
     "por_status": {
-      "fichado": 71,
+      "fichado": 84,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -1474,6 +1474,253 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ogum-077",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "deus do ferro e da guerra; mais do que representado pelo ferro, Ogum seria o próprio ferro, cultuado como força pessoal",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 56–57",
+      "parafrase": "Os missionários costumavam chamar Ogum de deus do ferro e da guerra. Peel observa que a ligação com o ferro é a mais direta: Ogum não seria apenas a força por trás da metalurgia, e sim o ferro mesmo, tratado como potência pessoal; um catequista de Ibadan chegou a riscar uma palavra no diário para escrever \"o deus ferro\".",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-078",
+      "orixa": "ogum",
+      "atributo": "iconografia",
+      "valor": "não aparece esculpido em forma humana; Alajogun, desdobramento de Ogum em Oyó, sim",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia; Alajogun em Oyó (anos 1950)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 56, 62",
+      "parafrase": "Embora os mitos deem a Ogum uma personalidade marcada, ele não era representado por imagem humana entalhada; Peel sugere que qualquer figura seria tida como inferior ao próprio ferro. Em Oyó, nos anos 1950, Morton-Williams encontrou Alajogun, uma refração de Ogum ligada à luta, esta sim figurada como pessoa.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-079",
+      "orixa": "ogum",
+      "atributo": "simbolos",
+      "valor": "a pedra-bigorna do ferreiro e ferramentas e armas de ferro como objetos de culto",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 56–57",
+      "parafrase": "Os relatos mostram o culto dirigido a implementos de ferro: os martelos de um ferreiro dispostos em pé, armas enfileiradas, uma espada velha. A pedra que serve de bigorna é um dos emblemas de Ogum, e por isso alguns missionários o chamavam de deus da pedra.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-080",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "culto especialmente forte no leste iorubá (Ondo, Ilesha, bordas de Ekiti); bem mais discreto no sudoeste, onde Xangô aparece quatro vezes mais nos relatos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, 1845–1912: comparação regional (Leste × Centro/Oeste)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 55–56",
+      "parafrase": "Nas menções dos agentes missionários, Ogum responde por 14% dos orixás citados no Leste (da laguna oriental a Ilesha), atrás apenas de Ifá e de Exu; no sudoeste fica em 4%, superado por Xangô na proporção de quatro para um, e em Abeokuta vem depois de Ifá, Obatalá, Exu, Oxum, Orixá Okô e Iemanjá. Em Ibadan e nas cidades oyó chega a 7%.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-081",
+      "orixa": "ogum",
+      "atributo": "festas",
+      "valor": "festa anual de Ogum como grande evento cívico no leste (Ondo, Ilesha), com desfiles das milícias de bairro e combates simulados entre chefes do palácio e da cidade",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Leste iorubá: Ondo e Ilesha (séc. XIX; pesquisa em Ilesha, 1974)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 55, 59–60, 65",
+      "parafrase": "Em Ondo, ao contrário de Abeokuta ou Ibadan, a festa anual de Ogum é descrita como acontecimento central da vida pública. Em Ilesha, um missionário anotou em 1889 que Ifá e Ogum, com festas separadas por cerca de meio ano, eram cultuados por toda a cidade, do rei ao mais pobre; numa pesquisa de Peel em 1974 nos lares de Ilesha, cada um somou 26% dos orixás de culto doméstico. Nessas festas os homens desfilam pela cidade organizados nas milícias de bairro, e há batalhas encenadas entre chefes do palácio e chefes da cidade.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-082",
+      "orixa": "ogum",
+      "atributo": "interpretacao_academica",
+      "valor": "culto cívico mais do que real no leste, onde o ferro era escasso e vinha de fora; nas zonas de mineração e fundição (centro-oeste), menos destaque cívico",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Leste × Centro/Oeste iorubá, séc. XIX",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 58–60, 65",
+      "parafrase": "Peel nota um paradoxo: as grandes festas de Ogum ficam no Leste florestal, onde não se fundia ferro e o metal chegava das regiões de mineração do oeste e do norte; ali, a viabilidade da comunidade dependia do ferro para abrir a mata, e Ogum era associado ao conjunto dos moradores e não só aos que trabalhavam o metal. Apesar dos laços com os ancestrais reais, seu culto era antes cívico que régio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-083",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "culto de Ogum na forma de serpente (píton), sobretudo de mulheres, nas cidades oyó do centro-oeste no séc. XIX; extinto no início do séc. XX",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Centro e oeste iorubá (Ijaye, Ibadan, Abeokuta, Oyó), 1852–1911; recusa em Ondo (1878)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 60–62",
+      "parafrase": "O modo mais frequente de culto feminino a Ogum nos relatos missionários é o de Ogum como cobra: devotos, em geral mulheres, percorriam a cidade com grandes serpentes, abençoando em nome do deus e recebendo búzios. Há registros em Ijaye, Ibadan, Abeokuta e Oyó entre 1852 e 1911. Peel julga que a forma desapareceu depressa no começo do século XX, mais cedo entre os egbá que entre os oyó; em Ondo, em 1878, um casal que exibia cobras como Ogum foi expulso, sinal de que a forma era estranha ao Leste.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-084",
+      "orixa": "ogum",
+      "atributo": "interpretacao_academica",
+      "valor": "Ogum também é cultuado por mulheres, ao contrário do que diz a literatura que o dá como deus só de homens",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (Ondo, 1892; aldeias nagô e Egbado no séc. XX)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 60",
+      "parafrase": "Peel contesta a afirmação, presente no dicionário de Abraham, de que só homens cultuam Ogum: lembra as mulheres consagradas que cantam para Ogum descritas por Verger em aldeias nagô, as possuídas por Ogum vistas por Drewal no Egbado e, nos diários, uma açougueira de Ondo (1892) que consultava Ajé, deusa do dinheiro, por meio de Ogum.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-085",
+      "orixa": "ogum",
+      "atributo": "funcoes",
+      "valor": "sanção da justiça (juramento sobre o ferro) e purificação de quem derramou sangue de forma justa; a oficina do ferreiro como santuário",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 67",
+      "parafrase": "Em toda a Iorubalândia o culto de Ogum girava em torno do nexo entre matar, impureza, purificação e justiça retributiva. O juramento sobre o ferro era a forma mais comum de invocá-lo como garantia da justiça, e quem matava legitimamente podia ser purificado dormindo algumas noites numa oficina de ferreiro, que funcionava como santuário. Peel acrescenta que o culto de Ogum, ao contrário do de Xangô, não era predatório.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-086",
+      "orixa": "ogum",
+      "atributo": "festas",
+      "valor": "a festa do inhame novo ligada a Ogum no leste e a Orixá Okô no centro-oeste, com outras variações locais",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, séc. XIX (variação por cidade)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 64–65",
+      "parafrase": "A festa do inhame novo era presa ao culto de Orixá Okô no Centro/Oeste e ao de Ogum no Leste, mas outras divindades também podiam ocupá-la (Obalufon, Oro em Iseyin, Ifá em Ilesha, Oramfe em Ondo, até Xangô em Ijaye). Nas cidades do Leste, Ogum entrava sempre numa sequência cerimonial que o ligava aos ancestrais coletivos e reais e à renovação anual.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-087",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "no século XIX, guerras atribuídas a Deus ter enviado Exu (desordem) e Ogum (guerra) contra os homens; ao lado de Exu e Sopona, Ogum entre as divindades destruidoras",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Ibadan, 1855 e c. 1875 (conversas de babalaôs com catequistas)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 65–66",
+      "parafrase": "Um babalaô de Ibadan explicou a um catequista, em 1855, que as guerras vinham de Deus ter mandado Exu e Ogum executar sua vingança pela desobediência humana; outro, duas décadas depois, disse que Deus enviara Ogum e Sopona para retribuir a cada um segundo seus atos, e que Ifá e Orixalá pediam a Xangô brandura com seus devotos. Peel lê aí uma divisão entre divindades destruidoras e divindades salvadoras (Ifá e Orixalá).",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-088",
+      "orixa": "ogum",
+      "atributo": "historia_culto",
+      "valor": "adaptação à modernidade: o culto encolheu menos que outros, deslocado para usuários de ferro, motoristas, mecânicos e a estrada",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Nigéria iorubá, séc. XX",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 70",
+      "parafrase": "Enquanto os cultos de orixá em geral declinaram, Ogum teve êxito relativo: perdeu terreno com a caça, a guerra local, a lavoura de subsistência e a fundição, mas ganhou com o uso e o conserto de ferramentas e, sobretudo, com o transporte moderno, que reafirmou seu laço com a estrada. Peel situa nesse deslocamento, do produtor ao usuário do ferro, o fim do culto da serpente.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-089",
+      "orixa": "ogum",
+      "atributo": "interpretacao_academica",
+      "valor": "Ogum como caso para ler a religião iorubá como espectro de complexos de culto locais, e não como panteão único",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 52, 63",
+      "parafrase": "Peel escolhe Ogum, um dos poucos orixás presentes em toda a Iorubalândia, para mostrar que a religião iorubá tradicional era menos um panteão único de divindades com atributos fixos, espalhado por igual, do que uma gama de complexos de culto locais, cada um formado por circunstâncias históricas próprias. O que uma divindade significa num lugar depende também dos outros cultos presentes ali.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

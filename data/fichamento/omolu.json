@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "omolu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 56,
+    "total": 57,
     "por_status": {
-      "fichado": 56,
+      "fichado": 57,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1090,6 +1090,25 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "omolu-057",
+      "orixa": "omolu",
+      "atributo": "nomes",
+      "valor": "Sopona (Babaluaye), deus da varíola, entre os orixás que sobreviveram nas Américas",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia; Américas",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 65, 223",
+      "parafrase": "Peel apresenta Sopona como o deus da varíola e, ao enumerar as divindades que resistiram à travessia do Atlântico, junta a ele, entre parênteses, o nome Babaluaye.",
+      "nota": "A identificação com Omolu passa pelo nome Babaluaye, que omolu-001 registra entre os nomes de Omolu (Babaluayé).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

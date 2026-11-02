@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 95,
+    "total": 96,
     "por_status": {
-      "fichado": 91,
+      "fichado": 92,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1851,6 +1851,25 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "iemanja-096",
+      "orixa": "iemanja",
+      "atributo": "historia_culto",
+      "valor": "divindade de rio própria sobretudo do oeste iorubá; hoje atacada pela literatura pentecostal como divindade feminina da riqueza",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oeste iorubá; Nigéria contemporânea",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 216, 221",
+      "parafrase": "Das divindades de rio, Iemanjá pertencia sobretudo ao oeste da Iorubalândia. Hoje a literatura pentecostal nigeriana ataca divindades femininas associadas à riqueza, como Mami Wata, Iemanjá e Olokun.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/exu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 113,
+    "registros_usados": 116,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -548,6 +548,27 @@
         "parafrase": "Exu é apresentado como deus mensageiro e trickster. Em qualquer rito ele é saudado antes de todos, para não se zangar e estragar a cerimônia, e é o guardião dos cruzamentos de caminhos e das portas que abrem para a rua.",
         "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
         "registro": "exu-104",
+        "status": "fichado"
+      },
+      {
+        "valor": "Exu como desordem, enviado por Deus com Ogum para punir os homens; a era de guerras do séc. XIX lembrada como tempo sob Exu, o trapaceiro",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Ibadan, 1855; memória iorubá das guerras do séc. XIX",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 47, 65–66",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 47, 65–66",
+        "parafrase": "Um babalaô de Ibadan atribuiu em 1855 as guerras a Deus ter enviado Exu, a desordem, e Ogum, a guerra, contra a desobediência humana; Peel o conta entre as divindades destruidoras, ao lado de Ogum e Sopona. O passado recente das guerras era lembrado pelos iorubás como uma Era da Confusão, sob o domínio de Exu, divindade trapaceira.",
+        "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+        "registro": "exu-116",
         "status": "fichado"
       }
     ],
@@ -1983,6 +2004,48 @@
         "parafrase": "Nenhum dos grupos familiares de voduns da casa inclui Legbá e nenhuma vodunsi o recebe. O papel de comunicação fica com os toquéns, voduns jovens de cada família, como Averequete e os gêmeos Toçá e Tocé. Pelo que as filhas da casa relataram a S. Ferretti, Zomadônu não quis Legbá lá, associado a guerra e confusão, e o culto dele é proibido; uma hipótese registrada é que a casa, fundada por pessoas da família real vendidas pelo rei Adandozan, que tinha Legbá como grande deus, o tenha excluído por isso.",
         "nota": "O autor apoia-se em S. Ferretti, Querebentã de Zomadônu (ed. 2009, pp. 124–125; no catálogo como ferretti-1985-querebenta, sem exemplar lido) e em M. A. P. Barreto (1977), fora do catálogo.",
         "registro": "exu-101",
+        "status": "fichado"
+      },
+      {
+        "valor": "no leste iorubá, Exu é o segundo orixá mais citado (17%), atrás de Ifá; em Ondo, um dos principais cultos públicos",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Leste iorubá: Ondo (1870s)",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 55, 216",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 55, 216",
+        "parafrase": "Nas menções dos agentes missionários ao Leste, Exu soma 17% dos orixás citados, logo depois de Ifá; nos anos 1870, os principais cultos públicos de Ondo eram os de Ogum, Exu, Oramfe e dos ancestrais reais.",
+        "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+        "registro": "exu-115",
+        "status": "fichado"
+      },
+      {
+        "valor": "Exu-Elegbá também cultuado por povos vizinhos não iorubás e entre os orixás que sobreviveram nas Américas",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia e vizinhos; Américas",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 216, 223",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 216, 223",
+        "parafrase": "Peel lembra que orixás importantes como Ifá, Ogum e Exu-Elegbá eram encontrados também entre povos vizinhos que não eram iorubás, e põe Exu-Elegbá na lista dos principais orixás que sobreviveram nas Américas.",
+        "nota": null,
+        "registro": "exu-117",
         "status": "fichado"
       }
     ],

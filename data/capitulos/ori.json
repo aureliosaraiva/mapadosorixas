@@ -96,7 +96,7 @@
             },
             {
               "t": "texto",
-              "v": ". As fontes lidas não trazem, porém, uma história do culto de Orí com datas e lugares "
+              "v": ". Na Iorubalândia do século XIX, relatos de missionários mostram o culto de Orí difundido entre mulheres abastadas das regiões central e sudoeste, e aparentemente desconhecido nas cidades do leste "
             },
             {
               "t": "nota",
@@ -556,9 +556,8 @@
       "n": 7,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "historia_culto",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "ori-013"
         }
       ]
     },

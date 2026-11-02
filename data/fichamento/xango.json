@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 65,
+    "total": 71,
     "por_status": {
-      "fichado": 61,
+      "fichado": 67,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1258,6 +1258,121 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "xango-066",
+      "orixa": "xango",
+      "atributo": "historia_culto",
+      "valor": "antigo alafin de Oyó deificado como deus do trovão; culto ligado à realeza de Oyó e considerado estranho ao leste iorubá",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó; Leste iorubá (Ondo, Ijexá, Ekiti)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 65, 216",
+      "parafrase": "Xangô é descrito como um dos primeiros alafins de Oyó, divinizado como deus do trovão; Peel retoma Matory, para quem o culto era o próprio ícone do governo do alafin. Era uma divindade oyó, vista como alheia ao Leste (Ondo, Ijexá, Ekiti), embora seja central no culto aos orixás nas Américas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "xango-067",
+      "orixa": "xango",
+      "atributo": "historia_culto",
+      "valor": "ao lado de Ifá, o orixá mais citado no fim do séc. XIX; culto expansivo, com sacerdotes temidos e multas de purificação após casas atingidas por raio",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, 1845–1912 (Oyó, Ibadan, Abeokuta, Ondo)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 66–67",
+      "parafrase": "Nos relatos da CMS, Xangô é, com Ifá, a divindade mais popular da Iorubalândia no fim do século XIX: 38% das menções nas outras cidades oyó, 27% em Ibadan, 16% em Abeokuta e 8% no Leste. Peel atribui o volume também à visibilidade e ao proselitismo do culto, que cobrava taxas de purificação depois que um raio atingia uma casa; seus sacerdotes eram, depois dos babalaôs e dos alfas muçulmanos, os especialistas mais citados. Em Ondo, onde tinha poucos fiéis em 1877, ganhou muitos durante as epidemias de varíola de 1879–1880.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "xango-068",
+      "orixa": "xango",
+      "atributo": "simbolos",
+      "valor": "o machado do raio",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 76",
+      "parafrase": "Entre os símbolos que serviam de apoio à memória das histórias dos orixás, Peel cita o machado-raio de Xangô, ao lado das contas vermelhas e brancas na testa do devoto de Orixá Okô e do pano branco de Obatalá.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "xango-069",
+      "orixa": "xango",
+      "atributo": "interpretacao_academica",
+      "valor": "onde chega depois de uma divindade masculina do trovão já estabelecida, Xangô pode ser representado como feminino",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (variação local)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 63",
+      "parafrase": "Ao discutir a mobilidade dos orixás, Peel nota que até Xangô, que parece a mais masculina das divindades, pode ser representado como mulher numa comunidade aonde chegou tarde e que já tinha seu próprio deus do trovão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "xango-070",
+      "orixa": "xango",
+      "atributo": "festas",
+      "valor": "festa de Xangô em Oyó, ligada à identidade da cidade; o alafin atual visto como sucessor terreno de Xangô",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Oyó (séc. XX; entrevista com o alafin)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 134, 169",
+      "parafrase": "Algumas festas de orixá encarnavam a identidade de toda a cidade, como a de Xangô em Oyó, e por décadas cristãos e muçulmanos participaram delas. O alafin de Oyó entrevistado por Peel, muçulmano, é tido como sucessor terreno de Xangô, cujo culto é central à realeza; ele sustenta que o próprio Xangô, divinizado por seus poderes, teria sido muçulmano.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "xango-071",
+      "orixa": "xango",
+      "atributo": "historia_culto",
+      "valor": "nas Américas, Xangô ganhou tal destaque que seu nome passou a designar o culto em algumas regiões (Trinidad, partes do Brasil)",
+      "tradicoes": [
+        "orisha_trinidad",
+        "xango_pernambuco"
+      ],
+      "casa_ou_regiao": "Américas: Trinidad e partes do Brasil (comparação)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 223–224",
+      "parafrase": "Entre os orixás que sobreviveram nas Américas, quase todos característicos de Oyó e do centro e noroeste iorubá, Xangô ganhou preeminência a ponto de, em algumas regiões, seu nome eclipsar os demais, como em Trinidad e em partes do Brasil. Peel vê nisso a continuação, além-mar, da dinâmica expansiva do culto depois da queda de Oyó.",
+      "nota": "Peel fala em \"partes do Brasil\" sem nomear o estado; a tradição xango_pernambuco é aproximação (o culto chamado Xangô no Nordeste).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

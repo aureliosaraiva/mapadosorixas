@@ -96,11 +96,19 @@
             },
             {
               "t": "texto",
-              "v": ". Uma história do culto, com datas e lugares, não aparece nas fontes "
+              "v": ". Na Nigéria de hoje, a literatura pentecostal faz de Olokun alvo de ataque, junto com outras divindades femininas ligadas à riqueza, como Mami Wata e Iemanjá "
             },
             {
               "t": "nota",
               "n": 7
+            },
+            {
+              "t": "texto",
+              "v": ". Uma história do culto mais longa, com datas e lugares, não aparece nas fontes lidas "
+            },
+            {
+              "t": "nota",
+              "n": 8
             },
             {
               "t": "texto",
@@ -123,7 +131,7 @@
             },
             {
               "t": "nota",
-              "n": 8
+              "n": 9
             },
             {
               "t": "texto",
@@ -131,7 +139,7 @@
             },
             {
               "t": "nota",
-              "n": 9
+              "n": 10
             },
             {
               "t": "texto",
@@ -139,7 +147,7 @@
             },
             {
               "t": "nota",
-              "n": 10
+              "n": 11
             },
             {
               "t": "texto",
@@ -156,7 +164,7 @@
             },
             {
               "t": "nota",
-              "n": 11
+              "n": 12
             },
             {
               "t": "texto",
@@ -164,7 +172,7 @@
             },
             {
               "t": "nota",
-              "n": 12
+              "n": 13
             },
             {
               "t": "texto",
@@ -197,7 +205,7 @@
             },
             {
               "t": "nota",
-              "n": 13
+              "n": 14
             },
             {
               "t": "texto",
@@ -205,7 +213,7 @@
             },
             {
               "t": "nota",
-              "n": 14
+              "n": 15
             },
             {
               "t": "texto",
@@ -232,7 +240,7 @@
             },
             {
               "t": "nota",
-              "n": 15
+              "n": 16
             },
             {
               "t": "texto",
@@ -269,7 +277,7 @@
             },
             {
               "t": "nota",
-              "n": 16
+              "n": 17
             },
             {
               "t": "texto",
@@ -290,7 +298,7 @@
             },
             {
               "t": "nota",
-              "n": 17
+              "n": 18
             },
             {
               "t": "texto",
@@ -311,7 +319,7 @@
             },
             {
               "t": "nota",
-              "n": 18
+              "n": 19
             },
             {
               "t": "texto",
@@ -342,7 +350,7 @@
             },
             {
               "t": "nota",
-              "n": 19
+              "n": 20
             },
             {
               "t": "texto",
@@ -365,7 +373,7 @@
             },
             {
               "t": "nota",
-              "n": 20
+              "n": 21
             },
             {
               "t": "texto",
@@ -388,7 +396,7 @@
             },
             {
               "t": "nota",
-              "n": 21
+              "n": 22
             },
             {
               "t": "texto",
@@ -396,7 +404,7 @@
             },
             {
               "t": "nota",
-              "n": 22
+              "n": 23
             },
             {
               "t": "texto",
@@ -419,7 +427,7 @@
             },
             {
               "t": "nota",
-              "n": 23
+              "n": 24
             },
             {
               "t": "texto",
@@ -427,7 +435,7 @@
             },
             {
               "t": "nota",
-              "n": 24
+              "n": 25
             },
             {
               "t": "texto",
@@ -523,9 +531,8 @@
       "n": 7,
       "itens": [
         {
-          "tipo": "lacuna",
-          "atributo": "historia_culto",
-          "tradicao": null
+          "tipo": "registro",
+          "registro": "olokun-008"
         }
       ]
     },
@@ -533,8 +540,8 @@
       "n": 8,
       "itens": [
         {
-          "tipo": "registro",
-          "registro": "olokun-001"
+          "tipo": "pendencia",
+          "ancora": "Verger, *Orixás* (1981)"
         }
       ]
     },
@@ -543,12 +550,21 @@
       "itens": [
         {
           "tipo": "registro",
-          "registro": "olokun-003"
+          "registro": "olokun-001"
         }
       ]
     },
     {
       "n": 10,
+      "itens": [
+        {
+          "tipo": "registro",
+          "registro": "olokun-003"
+        }
+      ]
+    },
+    {
+      "n": 11,
       "itens": [
         {
           "tipo": "registro",
@@ -561,7 +577,7 @@
       ]
     },
     {
-      "n": 11,
+      "n": 12,
       "itens": [
         {
           "tipo": "registro",
@@ -574,7 +590,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 13,
       "itens": [
         {
           "tipo": "registro",
@@ -583,7 +599,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 14,
       "itens": [
         {
           "tipo": "registro",
@@ -596,7 +612,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "itens": [
         {
           "tipo": "registro",
@@ -605,7 +621,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "itens": [
         {
           "tipo": "registro",
@@ -618,7 +634,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "itens": [
         {
           "tipo": "registro",
@@ -635,7 +651,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "itens": [
         {
           "tipo": "lacuna",
@@ -650,7 +666,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "itens": [
         {
           "tipo": "lacuna",
@@ -660,7 +676,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "itens": [
         {
           "tipo": "registro",
@@ -669,7 +685,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "itens": [
         {
           "tipo": "lacuna",
@@ -679,7 +695,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "itens": [
         {
           "tipo": "lacuna",
@@ -689,7 +705,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "itens": [
         {
           "tipo": "registro",
@@ -702,7 +718,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "itens": [
         {
           "tipo": "lacuna",
@@ -737,7 +753,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "itens": [
         {
           "tipo": "pendencia",

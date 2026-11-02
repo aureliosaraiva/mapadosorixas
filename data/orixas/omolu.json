@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/omolu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 56,
+    "registros_usados": 57,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -73,6 +73,27 @@
         "parafrase": "O texto e o quadro chamam o orixá das doenças de Obaluaiê ou Omulu.",
         "nota": null,
         "registro": "omolu-056",
+        "status": "fichado"
+      },
+      {
+        "valor": "Sopona (Babaluaye), deus da varíola, entre os orixás que sobreviveram nas Américas",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia; Américas",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 65, 223",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 65, 223",
+        "parafrase": "Peel apresenta Sopona como o deus da varíola e, ao enumerar as divindades que resistiram à travessia do Atlântico, junta a ele, entre parênteses, o nome Babaluaye.",
+        "nota": "A identificação com Omolu passa pelo nome Babaluaye, que omolu-001 registra entre os nomes de Omolu (Babaluayé).",
+        "registro": "omolu-057",
         "status": "fichado"
       }
     ],

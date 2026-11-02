@@ -12,7 +12,7 @@
       "nacao": null,
       "matriz": "iorubá",
       "regiao": "Nigéria (sudoeste) e regiões vizinhas",
-      "descricao": "Culto às divindades chamadas orixás entre os povos de língua iorubá, grupo étnico hoje concentrado sobretudo na Nigéria, no Togo e no Benim. O termo nagô passou a designar esses povos: Bastide atribui o uso aos franceses, para os falantes de iorubá da Costa dos Escravos; Chiousse, aos haussás.",
+      "descricao": "Culto às divindades chamadas orixás entre os povos de língua iorubá, grupo étnico hoje concentrado sobretudo na Nigéria, no Togo e no Benim. O termo nagô passou a designar esses povos: Bastide atribui o uso aos franceses, para os falantes de iorubá da Costa dos Escravos; Chiousse, aos haussás. O nome iorubá, de origem hauçá, designava de início só os oyó e foi estendido pelos missionários anglicanos, a partir dos anos 1840, a povos aparentados (egbá, ijexá, ijebu e outros). No século XIX não havia um panteão único: os cultos variavam de cidade para cidade e do oeste para o leste, formando um conjunto de complexos de culto locais. Nos anos 1870, por exemplo, os principais cultos públicos de Ibadan eram outros que os de Ondo, e Xangô, divindade de Oyó, era tido como estranho ao leste. Os orixás de diferentes cidades não partilhavam templos nem um calendário comum de festas; a ideia de uma religião iorubá unificada e hierarquizada se formou sobretudo nas Américas.",
       "sources": [
         {
           "id": "chiousse-1995-divins",
@@ -21,9 +21,13 @@
         {
           "id": "bastide-1958-candomble",
           "loc": "p. 17"
+        },
+        {
+          "id": "peel-2016-three-traditions",
+          "loc": "pp. 52, 63, 216–217, 224–225"
         }
       ],
-      "nota": "A afirmação de que o culto varia de cidade para cidade e não forma um panteão único estava no rascunho, mas saiu por falta de fonte aberta lida; ver PENDENCIAS.md.",
+      "nota": "Peel (2016, p. 224) observa que falar em \"panteão\" iorubá, por analogia com a religião greco-romana, é enganoso ao menos para o século XIX; o processo de \"panteonização\" (termo de David Brown) ocorreu em Cuba sobretudo pelos babalaôs, e de modo mais espontâneo no Brasil. A frase sobre a ausência de panteão único, que estava no rascunho, voltou à descrição com Peel 2016 (fichamento-10).",
       "status": "com_fonte"
     },
     {

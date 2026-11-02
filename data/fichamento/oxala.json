@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxala",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 77,
+    "total": 81,
     "por_status": {
-      "fichado": 77,
+      "fichado": 81,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1495,6 +1495,83 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "oxala-078",
+      "orixa": "oxala",
+      "atributo": "simbolos",
+      "valor": "o pano branco de Obatalá",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 76",
+      "parafrase": "O pano branco de Obatalá aparece entre os símbolos que serviam de apoio às histórias sobre a origem e os atributos dos orixás.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "oxala-079",
+      "orixa": "oxala",
+      "atributo": "historia_culto",
+      "valor": "Obatalá muito citado em Abeokuta (12% das menções); equivalentes locais, como Orixá Onifon em Ilesha e Ogiyan em Ibadan, um dos orixás brancos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Abeokuta; Ilesha; Ibadan (séc. XIX)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 55, 64",
+      "parafrase": "Obatalá recebe 12% das menções missionárias em Abeokuta. Em Ilesha, Orixá Onifon é o equivalente local de Obatalá; em Ibadan, Ogiyan, um dos orixás brancos aparentado a Obatalá, estava entre as três divindades principais da cidade nos anos 1870.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "oxala-080",
+      "orixa": "oxala",
+      "atributo": "nomes",
+      "valor": "Obatalá, chamado Orixalá no Brasil",
+      "tradicoes": [
+        "ioruba_nigeria",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Iorubalândia; Brasil",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 223",
+      "parafrase": "Na lista dos orixás que sobreviveram nas Américas, Peel escreve Obatalá e anota entre parênteses que no Brasil ele é Orixalá.",
+      "nota": "Peel diz \"Brasil\" sem nação; candomble_ketu é aproximação.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "oxala-081",
+      "orixa": "oxala",
+      "atributo": "funcoes",
+      "valor": "Orixalá (Obatalá), com Ifá, entre as divindades salvadoras, em contraste com as destruidoras",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Ibadan, c. 1875",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 66",
+      "parafrase": "Na fala de um babalaô de Ibadan, por volta de 1875, Ifá e Orixalá aconselhavam Xangô a tratar com brandura os seus devotos; Peel conclui que Ifá e Orixalá (Obatalá) eram vistos como salvadores, em oposição a Exu, Ogum, Xangô e Sopona.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

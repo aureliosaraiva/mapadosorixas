@@ -13,7 +13,7 @@ Num relato de 1894, escrito por um oficial britânico a partir de conversas com 
 
 ## História do culto {#historia-do-culto}
 
-A noção chegou ao Brasil e se manteve mesmo onde o grande jogo de Ifá não sobreviveu: na Bahia de meados do século passado, o Eledá continuava presente entre os afro-brasileiros, na figura do anjo da guarda {{ref:ori-006}}. As fontes lidas não trazem, porém, uma história do culto de Orí com datas e lugares {{lacuna:historia_culto}}.
+A noção chegou ao Brasil e se manteve mesmo onde o grande jogo de Ifá não sobreviveu: na Bahia de meados do século passado, o Eledá continuava presente entre os afro-brasileiros, na figura do anjo da guarda {{ref:ori-006}}. Na Iorubalândia do século XIX, relatos de missionários mostram o culto de Orí difundido entre mulheres abastadas das regiões central e sudoeste, e aparentemente desconhecido nas cidades do leste {{ref:ori-013}}.
 
 ## Domínios e símbolos {#dominios-e-simbolos}
 

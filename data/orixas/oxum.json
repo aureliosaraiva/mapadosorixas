@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 62,
+    "registros_usados": 64,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -1248,6 +1248,27 @@
         "nota": "Na p. 85 (nota 18), Bastide conta 4 casas de Oxum entre 86 santuários baianos.",
         "registro": "oxum-013",
         "status": "fichado"
+      },
+      {
+        "valor": "divindade de rio própria sobretudo do centro-leste iorubá; o santuário à beira-rio em Oxogbo é patrimônio mundial da Unesco",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Centro-leste iorubá; Oxogbo",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 168, 216",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 168, 216",
+        "parafrase": "Entre as divindades de rio, Oxum pertencia sobretudo ao centro-leste da Iorubalândia. Em Oxogbo, o famoso santuário de Oxum à beira do rio tem hoje o título de patrimônio mundial da Unesco e é visto como atração turística, num contexto em que o próprio rei local é muçulmano.",
+        "nota": null,
+        "registro": "oxum-063",
+        "status": "fichado"
       }
     ],
     "iconografia": [
@@ -1358,6 +1379,27 @@
         "parafrase": "Oxum é chamada de vaidosa, palavra que, explica Halloy, não carrega a ideia de soberba e indica o prazer de ser bela e seduzir; gosta de perfumes e joias, sobretudo de ouro.",
         "nota": null,
         "registro": "oxum-043",
+        "status": "fichado"
+      },
+      {
+        "valor": "deusas de rio vistas como gentis e fecundas (Oxum, Iemanjá) também podem assumir ferocidade, pois todo orixá deve dar os mesmos benefícios gerais",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 63",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 63",
+        "parafrase": "Como os devotos esperam de qualquer orixá a mesma gama de benefícios (proteção, saúde, orientação, filhos, riqueza), Peel observa que deusas de rio tidas como gentis e fecundas, como Oxum e Iemanjá, às vezes assumem qualidades tradicionalmente masculinas, como a ferocidade, e que orixás masculinos como Ogum e Xangô também concedem fertilidade às devotas.",
+        "nota": null,
+        "registro": "oxum-064",
         "status": "fichado"
       }
     ]

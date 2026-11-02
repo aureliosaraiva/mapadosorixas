@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "orunmila",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 13,
+    "total": 21,
     "por_status": {
-      "fichado": 13,
+      "fichado": 21,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -259,6 +259,159 @@
       "status": "fichado",
       "evidencias": [
         "https://theses.hal.science/tel-03191332"
+      ]
+    },
+    {
+      "id": "orunmila-014",
+      "orixa": "orunmila",
+      "atributo": "funcoes",
+      "valor": "Ifá: culto oracular dos babalaôs; 256 odus, cada um com poemas (ese) que narram precedentes míticos; a consulta pode encaminhar a pessoa ao culto de um orixá",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 36–37, 77",
+      "parafrase": "Ifá, o culto oracular, era província de Orunmilá. O babalaô manipula nozes de palmeira até obter uma das 256 figuras (odu) e recita os versos ligados a ela; cada verso conta como um consulente arquetípico seguiu ou não o conselho de Ifá, em geral de fazer um sacrifício, e o cliente escolhe o que fala do seu caso. Pela consulta, alguém podia ser dirigido ao culto de uma divindade. Ao contrário de outros oráculos, o babalaô não é possuído: depende da memória de um vasto corpo de versos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "orunmila-015",
+      "orixa": "orunmila",
+      "atributo": "hierarquia",
+      "valor": "Orunmilá representado por Ifá como superior aos demais orixás, coevo de Olodumare e único canal de sua sabedoria",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (o que o corpus de Ifá diz de si)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 77–78, 218",
+      "parafrase": "Embora pertença ao sistema dos cultos de orixá e o sustente, Orunmilá se apresenta como um tanto acima e fora dele, como único canal da sabedoria de Olodumare, de quem viriam os versos de Ifá. Ifá o representa como superior aos outros orixás e até como associado de Olodumare desde o princípio.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "orunmila-016",
+      "orixa": "orunmila",
+      "atributo": "historia_culto",
+      "valor": "babalaôs às vezes aconselhavam clientes a se tornarem muçulmanos ou cristãos; missionários os respeitavam mais que a qualquer outro sacerdote",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 36, 78, 218",
+      "parafrase": "Um traço notável de Ifá é que os babalaôs podiam indicar, como solução, que o cliente se convertesse ao islã ou ao cristianismo, isto é, que cultuasse Deus diretamente. Os missionários, por sua vez, davam aos babalaôs um respeito que não davam a nenhum outro sacerdote; um pastor iorubá de 1899 via Ifá como prenúncio do cristianismo e os orixás como obra de Satanás.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "orunmila-017",
+      "orixa": "orunmila",
+      "atributo": "interpretacao_academica",
+      "valor": "a forma básica de dezesseis opções de Ifá vem de uma família de sistemas de adivinhação da Ásia ocidental, chegada pelo islã e reapropriada pela cosmologia de Ifé",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 218",
+      "parafrase": "Para Peel, a estrutura de dezesseis opções liga Ifá a sistemas divinatórios de origem na Ásia ocidental, que só podem ter chegado à África subsaariana pelo islã; seu conteúdo, porém, é local, e Ifá seria uma resposta ao saber islâmico, que adaptou a técnica à cosmologia da antiga Ifé. A ênfase em Olodumare como fonte última abriria Ifá ao monoteísmo.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "orunmila-018",
+      "orixa": "orunmila",
+      "atributo": "historia_culto",
+      "valor": "culto masculino, sem possessão, num campo religioso em que muitos sacerdotes de orixá e a maioria dos devotos eram mulheres",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 218",
+      "parafrase": "Ifá era um culto fortemente masculino e sem possessão, ao passo que muitos, talvez a maioria, dos sacerdotes de orixá eram mulheres, assim como a grande massa dos devotos ativos. Era também, possivelmente, o mais difundido de todos os cultos iorubás.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "orunmila-019",
+      "orixa": "orunmila",
+      "atributo": "historia_culto",
+      "valor": "nas Américas, Ifá quase desapareceu no Brasil e floresceu em Cuba, onde cinco babalaôs nascidos na Iorubalândia fundaram em Havana, no fim do séc. XIX, os ramos da Regla de Ifá",
+      "tradicoes": [
+        "lucumi",
+        "candomble_ketu"
+      ],
+      "casa_ou_regiao": "Brasil × Cuba (Havana, fim do séc. XIX)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 224",
+      "parafrase": "O destino de Ifá (Orunmilá) se inverteu nas Américas: quase sumiu no Brasil, para onde foram muito mais iorubás, e se firmou em Havana no fim do século XIX graças a cinco babalaôs nascidos na África, reconhecidos como fundadores dos principais ramos da Regla de Ifá em Cuba e na diáspora cubana. Peel diz que as razões não estão de todo explicadas.",
+      "nota": "Peel fala de \"Brasil\" sem nação; candomble_ketu é aproximação.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "orunmila-020",
+      "orixa": "orunmila",
+      "atributo": "historia_culto",
+      "valor": "releitura cristã de Ifá como filosofia e arquivo cultural iorubá; Igreja de Orunmilá (1934) com um livro de odus no lugar da Bíblia",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Lagos e Nigéria iorubá, séc. XX",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 154–155, 222",
+      "parafrase": "Clérigos iorubás trataram Ifá de dois modos: como filosofia e arquivo da sabedoria ancestral e como prenúncio de Cristo (Lijadu traduzia o nome Orunmilá como algo próximo de \"é o céu que conhece a reconciliação\"). Houve quem fosse além: uma igreja de 1918 dizia que cada povo tem seu salvador, e Orunmilá seria o dos africanos; em 1934 surgiu a Ijo Orunmila, organizada como igreja, com um Livro dos Odus Sagrados, que ainda existe.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "orunmila-021",
+      "orixa": "orunmila",
+      "atributo": "festas",
+      "valor": "festa anual de Ifá em Ilesha, uma das duas grandes festas da cidade, ao lado da de Ogum",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Ilesha (1889; ainda no séc. XX)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 55",
+      "parafrase": "O agente missionário de Ilesha registrou em 1889 a festa anual de Ifá, que, com a de Ogum cerca de seis meses depois, formava as duas grandes celebrações comuns a toda a cidade; Peel diz que as duas ainda estruturam o ano dos ijexás.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

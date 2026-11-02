@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 114,
+    "total": 117,
     "por_status": {
-      "fichado": 114,
+      "fichado": 117,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -2223,6 +2223,63 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "exu-115",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "no leste iorubá, Exu é o segundo orixá mais citado (17%), atrás de Ifá; em Ondo, um dos principais cultos públicos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Leste iorubá: Ondo (1870s)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 55, 216",
+      "parafrase": "Nas menções dos agentes missionários ao Leste, Exu soma 17% dos orixás citados, logo depois de Ifá; nos anos 1870, os principais cultos públicos de Ondo eram os de Ogum, Exu, Oramfe e dos ancestrais reais.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "exu-116",
+      "orixa": "exu",
+      "atributo": "funcoes",
+      "valor": "Exu como desordem, enviado por Deus com Ogum para punir os homens; a era de guerras do séc. XIX lembrada como tempo sob Exu, o trapaceiro",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Ibadan, 1855; memória iorubá das guerras do séc. XIX",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 47, 65–66",
+      "parafrase": "Um babalaô de Ibadan atribuiu em 1855 as guerras a Deus ter enviado Exu, a desordem, e Ogum, a guerra, contra a desobediência humana; Peel o conta entre as divindades destruidoras, ao lado de Ogum e Sopona. O passado recente das guerras era lembrado pelos iorubás como uma Era da Confusão, sob o domínio de Exu, divindade trapaceira.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "exu-117",
+      "orixa": "exu",
+      "atributo": "historia_culto",
+      "valor": "Exu-Elegbá também cultuado por povos vizinhos não iorubás e entre os orixás que sobreviveram nas Américas",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia e vizinhos; Américas",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 216, 223",
+      "parafrase": "Peel lembra que orixás importantes como Ifá, Ogum e Exu-Elegbá eram encontrados também entre povos vizinhos que não eram iorubás, e põe Exu-Elegbá na lista dos principais orixás que sobreviveram nas Américas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

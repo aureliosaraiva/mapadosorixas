@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/olokun.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 7,
+    "registros_usados": 8,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -142,6 +142,29 @@
         "status": "fichado"
       }
     ],
+    "historia_culto": [
+      {
+        "valor": "Olokun entre as divindades femininas da riqueza atacadas pela literatura pentecostal na Nigéria",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Nigéria contemporânea",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 221",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 221",
+        "parafrase": "Na Nigéria de hoje, a literatura pentecostal ataca divindades femininas que trazem riqueza, como Mami Wata, Iemanjá e Olokun.",
+        "nota": null,
+        "registro": "olokun-008",
+        "status": "fichado"
+      }
+    ],
     "hierarquia": [
       {
         "valor": "entre os orixás das águas, Olokun (o mar) vem em primeiro lugar e Olosa (a laguna) em segundo",
@@ -183,7 +206,6 @@
       "sincretismo",
       "tabus",
       "festas",
-      "historia_culto",
       "iconografia",
       "interpretacao_academica"
     ],

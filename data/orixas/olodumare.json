@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/olodumare.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 19,
+    "registros_usados": 21,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -413,6 +413,48 @@
         "parafrase": "Para os interlocutores da autora, Olorun é o criador de tudo, mas não é um orixá nem é representado. Não se dirige prece a ele: os pedidos chegam por meio dos orixás, de Ifá e de Exu. No Brasil se diz que ele não vem às festas, por ser velho demais para a viagem, e que, sem interesse pelos homens, passou aos orixás o governo de cada domínio.",
         "nota": null,
         "registro": "olodumare-019",
+        "status": "fichado"
+      },
+      {
+        "valor": "ser supremo, Olorum ou Olodumare, autor de toda a existência, mas que age nos assuntos humanos sobretudo por meio dos orixás",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 217",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 217",
+        "parafrase": "Entre os componentes comuns do culto iorubá, Peel lista um ser supremo, chamado Olorum ou Olodumare, origem de tudo o que existe, mas cuja ação sobre a vida humana passa principalmente pelos orixás.",
+        "nota": null,
+        "registro": "olodumare-020",
+        "status": "fichado"
+      },
+      {
+        "valor": "orixás como intermediários entre as pessoas e Deus, comparados por babalaôs aos chefes menores diante do chefe da cidade",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Ibadan, 1854 (babalaôs em debate com missionários)",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 225",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 225",
+        "parafrase": "Para justificar o culto aos orixás diante de missionários críticos, babalaôs de Ibadan disseram em 1854 que a relação dos orixás com Deus era como a dos titulares menores com o Balẹ da cidade: uns e outros fazem a ponte entre a gente comum e o poder supremo. Peel lê aí uma racionalização em direção a um panteão.",
+        "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+        "registro": "olodumare-021",
         "status": "fichado"
       }
     ]

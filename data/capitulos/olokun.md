@@ -13,7 +13,7 @@ O relato do oficial britânico de 1894 traduz o nome por "dono do mar" {{ref:olo
 
 ## História do culto {#historia-do-culto}
 
-No documento de 1894, Olokun é o deus principal de quem vive do mar, pescadores e navegantes, ao passo que no interior ele mal é cultuado {{ref:olokun-001}}. O de 1910 descreve um costume dos pescadores da costa iorubá: quem volta com boa pesca agradece a Yemaja pondo no rio um pote com milho cozido e noz-de-cola, e ela se encarregaria de passar a oferenda aos filhos, Olokun e Olosa {{ref:olokun-004}}. Uma história do culto, com datas e lugares, não aparece nas fontes {{lacuna:historia_culto}}.
+No documento de 1894, Olokun é o deus principal de quem vive do mar, pescadores e navegantes, ao passo que no interior ele mal é cultuado {{ref:olokun-001}}. O de 1910 descreve um costume dos pescadores da costa iorubá: quem volta com boa pesca agradece a Yemaja pondo no rio um pote com milho cozido e noz-de-cola, e ela se encarregaria de passar a oferenda aos filhos, Olokun e Olosa {{ref:olokun-004}}. Na Nigéria de hoje, a literatura pentecostal faz de Olokun alvo de ataque, junto com outras divindades femininas ligadas à riqueza, como Mami Wata e Iemanjá {{ref:olokun-008}}. Uma história do culto mais longa, com datas e lugares, não aparece nas fontes lidas {{pendencia:Verger, *Orixás* (1981)}}.
 
 ## O mar e as águas {#dominios-e-simbolos}
 

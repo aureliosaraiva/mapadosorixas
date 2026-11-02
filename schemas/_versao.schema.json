@@ -28,7 +28,7 @@
     "localizacao": { "type": "string", "minLength": 1 },
     "parafrase": { "type": "string" },
     "nota": { "type": ["string", "null"] },
-    "registro": { "type": "string", "pattern": "^[a-z]+-[0-9]{3}$", "description": "id do registro de fichamento de origem" },
+    "registro": { "type": "string", "pattern": "^[a-z][a-z_]*-[0-9]{3}$", "description": "id do registro de fichamento de origem" },
     "status": { "enum": ["fichado", "revisado"], "description": "status efetivo: 'revisado' só com aprovação vigente (hash atual); revisão desatualizada volta a 'fichado'" },
     "revisoes": {
       "type": "array",

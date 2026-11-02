@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "olokun",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 7,
+    "total": 8,
     "por_status": {
-      "fichado": 7,
+      "fichado": 8,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -145,6 +145,25 @@
       "evidencias": [
         "https://archive.org/details/yorubaspeakingp00elligoog",
         "https://archive.org/details/b21781370"
+      ]
+    },
+    {
+      "id": "olokun-008",
+      "orixa": "olokun",
+      "atributo": "historia_culto",
+      "valor": "Olokun entre as divindades femininas da riqueza atacadas pela literatura pentecostal na Nigéria",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Nigéria contemporânea",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 221",
+      "parafrase": "Na Nigéria de hoje, a literatura pentecostal ataca divindades femininas que trazem riqueza, como Mami Wata, Iemanjá e Olokun.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxala.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 75,
+    "registros_usados": 79,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 2
   },
@@ -95,6 +95,28 @@
         "parafrase": "Halloy chama o orixá de Orixalá (também Oxalá) e seus dois aspectos de Orixálufã e Orixáogiã.",
         "nota": null,
         "registro": "oxala-055",
+        "status": "fichado"
+      },
+      {
+        "valor": "Obatalá, chamado Orixalá no Brasil",
+        "tradicoes": [
+          "ioruba_nigeria",
+          "candomble_ketu"
+        ],
+        "casa_ou_regiao": "Iorubalândia; Brasil",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 223",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 223",
+        "parafrase": "Na lista dos orixás que sobreviveram nas Américas, Peel escreve Obatalá e anota entre parênteses que no Brasil ele é Orixalá.",
+        "nota": "Peel diz \"Brasil\" sem nação; candomble_ketu é aproximação.",
+        "registro": "oxala-080",
         "status": "fichado"
       }
     ],
@@ -333,6 +355,27 @@
         "parafrase": "Nas cerimônias afro-brasileiras Oxalá é sempre o derradeiro a ser homenageado.",
         "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
         "registro": "oxala-066",
+        "status": "fichado"
+      },
+      {
+        "valor": "Orixalá (Obatalá), com Ifá, entre as divindades salvadoras, em contraste com as destruidoras",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Ibadan, c. 1875",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 66",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 66",
+        "parafrase": "Na fala de um babalaô de Ibadan, por volta de 1875, Ifá e Orixalá aconselhavam Xangô a tratar com brandura os seus devotos; Peel conclui que Ifá e Orixalá (Obatalá) eram vistos como salvadores, em oposição a Exu, Ogum, Xangô e Sopona.",
+        "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+        "registro": "oxala-081",
         "status": "fichado"
       }
     ],
@@ -705,6 +748,27 @@
         "parafrase": "O objeto de Oxaguiã é uma mão de pilão, de prata ou branca, com uma espada; o de Oxalufã é o opaxorô, bastão prateado do qual pendem peças que evocam a criação do mundo.",
         "nota": null,
         "registro": "oxala-075",
+        "status": "fichado"
+      },
+      {
+        "valor": "o pano branco de Obatalá",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 76",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 76",
+        "parafrase": "O pano branco de Obatalá aparece entre os símbolos que serviam de apoio às histórias sobre a origem e os atributos dos orixás.",
+        "nota": null,
+        "registro": "oxala-078",
         "status": "fichado"
       }
     ],
@@ -1487,6 +1551,27 @@
         "parafrase": "Na primeira estadia na Bahia, Bastide contou 6 casas de Oxalá entre 86 santuários. No Opô Afonjá, a casa de Oxalá fica apartada da de Xangô, o que ele relaciona aos templos dos dois orixás estarem em cidades distintas na África, Ifé e Oyó.",
         "nota": null,
         "registro": "oxala-039",
+        "status": "fichado"
+      },
+      {
+        "valor": "Obatalá muito citado em Abeokuta (12% das menções); equivalentes locais, como Orixá Onifon em Ilesha e Ogiyan em Ibadan, um dos orixás brancos",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Abeokuta; Ilesha; Ibadan (séc. XIX)",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 55, 64",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 55, 64",
+        "parafrase": "Obatalá recebe 12% das menções missionárias em Abeokuta. Em Ilesha, Orixá Onifon é o equivalente local de Obatalá; em Ibadan, Ogiyan, um dos orixás brancos aparentado a Obatalá, estava entre as três divindades principais da cidade nos anos 1870.",
+        "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+        "registro": "oxala-079",
         "status": "fichado"
       }
     ],

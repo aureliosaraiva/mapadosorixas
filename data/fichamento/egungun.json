@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "egungun",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 15,
+    "total": 17,
     "por_status": {
-      "fichado": 15,
+      "fichado": 17,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -294,6 +294,44 @@
       "status": "fichado",
       "evidencias": [
         "https://journals.flvc.org/ysr/article/view/129886"
+      ]
+    },
+    {
+      "id": "egungun-016",
+      "orixa": "egungun",
+      "atributo": "historia_culto",
+      "valor": "culto dos ancestrais coletivos da linhagem e da cidade, com mascaradas, sacerdócio especializado e festas anuais; entre os egbá, papel equivalente da sociedade Oro",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia (oyó; egbá)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 76, 217",
+      "parafrase": "No culto aos ancestrais coletivos de uma linhagem ou cidade, chamados egungun, a representação visual pesa mais do que nos outros cultos de ancestrais: há sacerdócios especializados e festas anuais, o que o aproxima dos cultos de orixá. Peel cita a mascarada egungun entre os oyó e, entre os egbá, a sociedade Oro, cuja voz se ouvia no zunido de um instrumento.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "egungun-017",
+      "orixa": "egungun",
+      "atributo": "historia_culto",
+      "valor": "mascaradas egungun como alvo recente de ataques iconoclastas de muçulmanos",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Nigéria iorubá, fim do séc. XX e início do XXI",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 221",
+      "parafrase": "Nas últimas décadas, os ataques diretos ao culto aos orixás vieram mais de muçulmanos, que tomaram como alvo exibições públicas como as mascaradas egungun.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

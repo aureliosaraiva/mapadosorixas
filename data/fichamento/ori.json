@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ori",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 12,
+    "total": 13,
     "por_status": {
-      "fichado": 12,
+      "fichado": 13,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -235,6 +235,25 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "ori-013",
+      "orixa": "ori",
+      "atributo": "historia_culto",
+      "valor": "culto de Orí popular entre mulheres ricas do centro e do sudoeste iorubá, aparentemente ausente no leste",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Centro e sudoeste iorubá, séc. XIX",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 60",
+      "parafrase": "Peel compara o ritual de uma comerciante para Ogum e Ajé ao culto de Orí, que era popular entre mulheres abastadas no centro e no sudoeste da Iorubalândia e parece não ter existido no Leste.",
+      "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 62,
+    "total": 64,
     "por_status": {
-      "fichado": 62,
+      "fichado": 64,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1203,6 +1203,44 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/1984-04382025e450102"
+      ]
+    },
+    {
+      "id": "oxum-063",
+      "orixa": "oxum",
+      "atributo": "historia_culto",
+      "valor": "divindade de rio própria sobretudo do centro-leste iorubá; o santuário à beira-rio em Oxogbo é patrimônio mundial da Unesco",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Centro-leste iorubá; Oxogbo",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "pp. 168, 216",
+      "parafrase": "Entre as divindades de rio, Oxum pertencia sobretudo ao centro-leste da Iorubalândia. Em Oxogbo, o famoso santuário de Oxum à beira do rio tem hoje o título de patrimônio mundial da Unesco e é visto como atração turística, num contexto em que o próprio rei local é muçulmano.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "oxum-064",
+      "orixa": "oxum",
+      "atributo": "interpretacao_academica",
+      "valor": "deusas de rio vistas como gentis e fecundas (Oxum, Iemanjá) também podem assumir ferocidade, pois todo orixá deve dar os mesmos benefícios gerais",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 63",
+      "parafrase": "Como os devotos esperam de qualquer orixá a mesma gama de benefícios (proteção, saúde, orientação, filhos, riqueza), Peel observa que deusas de rio tidas como gentis e fecundas, como Oxum e Iemanjá, às vezes assumem qualidades tradicionalmente masculinas, como a ferocidade, e que orixás masculinos como Ogum e Xangô também concedem fertilidade às devotas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
       ]
     }
   ]

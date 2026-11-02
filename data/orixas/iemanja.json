@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iemanja.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 91,
+    "registros_usados": 92,
     "registros_pre_fichamento_excluidos": 4,
     "registros_retidos": 0
   },
@@ -1750,6 +1750,27 @@
         "parafrase": "Uma reportagem uruguaia apresentou o culto a Iemanjá como trazido da Nigéria pelos navios negreiros, sem relação com o Brasil, e outros jornais seguem a mesma linha. Já os devotos ouvidos na festa reconhecem o papel do Brasil; para Mãe Susana, a raiz no Uruguai é mais afro-brasileira que diretamente africana, embora as Salas de Nación já praticassem ritos próprios, e o laço de Iemanjá com o mar também evocaria os escravizados que olhavam o oceano querendo voltar livres.",
         "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
         "registro": "iemanja-094",
+        "status": "fichado"
+      },
+      {
+        "valor": "divindade de rio própria sobretudo do oeste iorubá; hoje atacada pela literatura pentecostal como divindade feminina da riqueza",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Oeste iorubá; Nigéria contemporânea",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 216, 221",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 216, 221",
+        "parafrase": "Das divindades de rio, Iemanjá pertencia sobretudo ao oeste da Iorubalândia. Hoje a literatura pentecostal nigeriana ataca divindades femininas associadas à riqueza, como Mami Wata, Iemanjá e Olokun.",
+        "nota": null,
+        "registro": "iemanja-096",
         "status": "fichado"
       }
     ],

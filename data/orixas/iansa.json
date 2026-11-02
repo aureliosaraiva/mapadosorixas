@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/iansa.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 49,
+    "registros_usados": 50,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -1036,6 +1036,27 @@
         "parafrase": "Conta-se no central que Juana Campo, mulher nascida livre e médium de Oyá e de Oggún, era trancada pelo marido nos dias de festa. Um dia Oyá a possuiu, declarou que não tinha senhor nem capataz, aguentou nove golpes de facão sem reagir e foi dançar; dias depois uma centelha derrubou o marido do cavalo e ele quebrou as pernas, e Oyá foi rir dele no leito. Toutain lê a história como contestação do poder masculino e insiste que, para os narradores, a protagonista é a própria Oyá.",
         "nota": "Narrativa de memória local (relato de Alexander Berrio), não itã tradicional; por isso fica em historia_culto.",
         "registro": "iansa-040",
+        "status": "fichado"
+      },
+      {
+        "valor": "Oiá, ligada ao rio Níger e ao tornado, própria do norte iorubá",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Norte iorubá",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 216",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 216",
+        "parafrase": "Entre as divindades de rio, Peel situa Oiá no norte da Iorubalândia, por estar ligada ao Níger e também ao tornado.",
+        "nota": null,
+        "registro": "iansa-052",
         "status": "fichado"
       }
     ],

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "odudua",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 19,
+    "total": 22,
     "por_status": {
-      "fichado": 19,
+      "fichado": 22,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -366,6 +366,63 @@
       "nota": "Kola Abimbola, Yoruba Culture (2006), está fora do catálogo. Ver também odudua-010 (mesma passagem, como hierarquia).",
       "status": "fichado",
       "evidencias": []
+    },
+    {
+      "id": "odudua-020",
+      "orixa": "odudua",
+      "atributo": "historia_culto",
+      "valor": "os reis iorubás reivindicam descendência de Odudua, deus que teria reinado em Ilê-Ifé, cidade vista como centro cultual e lugar da criação da humanidade",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Iorubalândia",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 36",
+      "parafrase": "Os muitos reinos iorubás só tiveram unidade política e nome comum no século XX, mas reconheciam o parentesco pela pretensão de todos os reis de descender de Odudua, um deus que reinou em Ilê-Ifé. Mesmo depois de perder peso político, Ifé continuou a ser vista como o centro cultual supremo e o próprio lugar onde a humanidade foi criada.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "odudua-021",
+      "orixa": "odudua",
+      "atributo": "hierarquia",
+      "valor": "ancestral masculino, governante de Ifé, no centro-leste; consorte feminina do deus criador no sudoeste",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Centro-leste iorubá × sudoeste iorubá",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 216 e nota 7 (p. 285)",
+      "parafrase": "Como exemplo da variação regional, Peel registra que Odudua era entendido no centro-leste como um ancestral masculino que governou Ifé, e no sudoeste como a consorte feminina do deus criador. Na nota, contrapõe os autores que o dão como deusa e esposa de Obatalá aos relatos mais convencionais.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "odudua-022",
+      "orixa": "odudua",
+      "atributo": "historia_culto",
+      "valor": "o Ọọni de Ifé, tido como reencarnação de Odudua, renunciou ao status divino sob pressão cristã evangélica",
+      "tradicoes": [
+        "ioruba_nigeria"
+      ],
+      "casa_ou_regiao": "Ilê-Ifé (fim do séc. XX)",
+      "source_id": "peel-2016-three-traditions",
+      "via_source_id": null,
+      "localizacao": "p. 221",
+      "parafrase": "Em Ifé, o Ọọni, visto como a própria reencarnação de Odudua, cedeu à pressão do cristianismo evangélico: Peel registra que o Ọọni Sijuade renunciou ao status divino e ao título que o exprimia, enquanto Ifé se tornava destino de peregrinação de devotos vindos das Américas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1525/luminos.8"
+      ]
     }
   ]
 }

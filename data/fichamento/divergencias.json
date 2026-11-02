@@ -3030,6 +3030,17 @@
           "via": null,
           "localizacao": "ed. pt 1961, p. 290",
           "registro": "odudua-014"
+        },
+        {
+          "valor": "ancestral masculino, governante de Ifé, no centro-leste; consorte feminina do deus criador no sudoeste",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Centro-leste iorubá × sudoeste iorubá",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "p. 216 e nota 7 (p. 285)",
+          "registro": "odudua-021"
         }
       ]
     },
@@ -3384,6 +3395,28 @@
           "via": null,
           "localizacao": "versão do autor, p. 15",
           "registro": "ogum-064"
+        },
+        {
+          "valor": "festa anual de Ogum como grande evento cívico no leste (Ondo, Ilesha), com desfiles das milícias de bairro e combates simulados entre chefes do palácio e da cidade",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Leste iorubá: Ondo e Ilesha (séc. XIX; pesquisa em Ilesha, 1974)",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "pp. 55, 59–60, 65",
+          "registro": "ogum-081"
+        },
+        {
+          "valor": "a festa do inhame novo ligada a Ogum no leste e a Orixá Okô no centro-oeste, com outras variações locais",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia, séc. XIX (variação por cidade)",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "pp. 64–65",
+          "registro": "ogum-086"
         }
       ]
     },
@@ -3617,6 +3650,17 @@
           "via": null,
           "localizacao": "anexo, pp. 26–27",
           "registro": "ogum-075"
+        },
+        {
+          "valor": "a pedra-bigorna do ferreiro e ferramentas e armas de ferro como objetos de culto",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia, século XIX (diários de missionários da CMS)",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "pp. 56–57",
+          "registro": "ogum-079"
         }
       ]
     },
@@ -3851,6 +3895,28 @@
           "via": null,
           "localizacao": "p. 225",
           "registro": "olodumare-019"
+        },
+        {
+          "valor": "ser supremo, Olorum ou Olodumare, autor de toda a existência, mas que age nos assuntos humanos sobretudo por meio dos orixás",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "p. 217",
+          "registro": "olodumare-020"
+        },
+        {
+          "valor": "orixás como intermediários entre as pessoas e Deus, comparados por babalaôs aos chefes menores diante do chefe da cidade",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Ibadan, 1854 (babalaôs em debate com missionários)",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "p. 225",
+          "registro": "olodumare-021"
         }
       ]
     },
@@ -4567,6 +4633,17 @@
           "via": null,
           "localizacao": "p. 172, nota 133",
           "registro": "orunmila-013"
+        },
+        {
+          "valor": "festa anual de Ifá em Ilesha, uma das duas grandes festas da cidade, ao lado da de Ogum",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Ilesha (1889; ainda no séc. XX)",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "p. 55",
+          "registro": "orunmila-021"
         }
       ]
     },
@@ -4596,6 +4673,17 @@
           "via": null,
           "localizacao": "p. 169; pp. 325–326",
           "registro": "orunmila-006"
+        },
+        {
+          "valor": "Orunmilá representado por Ifá como superior aos demais orixás, coevo de Olodumare e único canal de sua sabedoria",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia (o que o corpus de Ifá diz de si)",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "pp. 77–78, 218",
+          "registro": "orunmila-015"
         }
       ]
     },
@@ -5416,6 +5504,17 @@
           "via": null,
           "localizacao": "anexo, p. 27",
           "registro": "oxala-075"
+        },
+        {
+          "valor": "o pano branco de Obatalá",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "p. 76",
+          "registro": "oxala-078"
         }
       ]
     },
@@ -7110,6 +7209,17 @@
           "via": null,
           "localizacao": "p. 276 e nota 649",
           "registro": "xango-055"
+        },
+        {
+          "valor": "festa de Xangô em Oyó, ligada à identidade da cidade; o alafin atual visto como sucessor terreno de Xangô",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Oyó (séc. XX; entrevista com o alafin)",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "pp. 134, 169",
+          "registro": "xango-070"
         }
       ]
     },
@@ -7315,6 +7425,17 @@
           "via": null,
           "localizacao": "anexo, pp. 26–27",
           "registro": "xango-064"
+        },
+        {
+          "valor": "o machado do raio",
+          "tradicoes": [
+            "ioruba_nigeria"
+          ],
+          "casa_ou_regiao": "Iorubalândia",
+          "fonte": "peel-2016-three-traditions",
+          "via": null,
+          "localizacao": "p. 76",
+          "registro": "xango-068"
         }
       ]
     },

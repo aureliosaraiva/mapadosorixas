@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "gerado_por": "scripts/gerar_fichas.py",
+    "fichamento": "data/fichamento/orixa_oko.json",
+    "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
+    "registros_usados": 4,
+    "registros_pre_fichamento_excluidos": 0,
+    "registros_retidos": 0
+  },
+  "id": "orixa_oko",
+  "rotulo": "Orixá Okô",
+  "atributos": {
+    "dominios": [
+      {
+        "valor": "deus da roça; emblema principal um bastão de ferro feito de lâminas de enxada; descrito como homem ou mulher, em geral como caçador que virou lavrador",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Iorubalândia",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 63",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 63",
+        "parafrase": "Orixá Okô é o deus da lavoura, cujo emblema principal era um bastão de ferro feito de lâminas de enxada, o que o aproxima de Ogum na aplicação do ferro à agricultura. É descrito ora como masculino, ora como feminino, e nos mitos aparece sobretudo como um caçador que passou a lavrar a terra.",
+        "nota": null,
+        "registro": "orixa_oko-001",
+        "status": "fichado"
+      }
+    ],
+    "festas": [
+      {
+        "valor": "em Ibadan, uma das três divindades principais da cidade, ligada às festas do inhame novo e às chuvas",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Ibadan (anos 1870–1880)",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 64",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 64",
+        "parafrase": "Em Ibadan, o pastor Olubi considerava Orixá Okô uma das três divindades principais da cidade, porque a cidade inteira participava de sua festa, ligada ao inhame novo; em 1883, a chegada das segundas chuvas foi atribuída a ele por moradores, pouco antes da sua festa.",
+        "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+        "registro": "orixa_oko-003",
+        "status": "fichado"
+      }
+    ],
+    "historia_culto": [
+      {
+        "valor": "centro de culto em Irawo, com santuário para julgar acusações de feitiçaria; em Abeokuta, o orixá mais prestigiado entre as mulheres, com devotos marcados de vermelho e branco na testa",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Irawo; Abeokuta (séc. XIX)",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "pp. 63, 76",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "pp. 63, 76",
+        "parafrase": "O principal centro de Orixá Okô ficava em Irawo, pequena cidade no extremo noroeste, onde havia um santuário importante para resolver acusações de feitiçaria. Segundo um missionário egbá, era em Abeokuta a divindade mais estimada pelas mulheres, transmitida nas famílias; seus devotos, reconhecidos por marcas vermelhas e brancas na testa, tinham privilégios sociais, como não poder ser presos por dívida.",
+        "nota": "Peel trabalha com cerca de 780 menções a orixás nos diários e cartas de agentes da Church Missionary Society (1845–1912), na maioria iorubás; elas mostram o que chamava a atenção dos missionários, não a frequência real do culto (pp. 53–55). Fonte missionária lida por historiador.",
+        "registro": "orixa_oko-002",
+        "status": "fichado"
+      },
+      {
+        "valor": "declínio no séc. XX com a marginalização da agricultura de subsistência",
+        "tradicoes": [
+          "ioruba_nigeria"
+        ],
+        "casa_ou_regiao": "Nigéria iorubá, séc. XX",
+        "sources": [
+          {
+            "id": "peel-2016-three-traditions",
+            "loc": "p. 70",
+            "via": null
+          }
+        ],
+        "source_id": "peel-2016-three-traditions",
+        "via_source_id": null,
+        "localizacao": "p. 70",
+        "parafrase": "Peel registra que Orixá Okô declinou à medida que a agricultura de subsistência foi marginalizada, ao contrário de Ogum, que se adaptou às novas atividades.",
+        "nota": null,
+        "registro": "orixa_oko-004",
+        "status": "fichado"
+      }
+    ]
+  },
+  "pendencias": {
+    "sem_registro": [
+      "nomes",
+      "origem",
+      "funcoes",
+      "elementos",
+      "cores",
+      "dia_semana",
+      "saudacao",
+      "simbolos",
+      "alimentos",
+      "animais",
+      "qualidades",
+      "parentesco",
+      "equivalencias",
+      "sincretismo",
+      "itans",
+      "tabus",
+      "iconografia",
+      "interpretacao_academica",
+      "hierarquia"
+    ],
+    "so_pre_fichamento": {},
+    "retidos_ate_conselho": {}
+  },
+  "revisao": []
+}

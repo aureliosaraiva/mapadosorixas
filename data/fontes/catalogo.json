@@ -7222,13 +7222,16 @@
         "ioruba_nigeria"
       ],
       "confiabilidade_preliminar": "A",
-      "observacoes": "Acesso aberto (CC BY-NC-ND) via OAPEN.",
+      "observacoes": "Acesso aberto (CC BY-NC-ND) via OAPEN. Fichamento-10 (2026-11-02): lido no acervo privado (PDF enviado pelo autor); página impressa = PDF − 15; DOI 10.1525/luminos.8 (sugerido pela própria obra). Lidos caps. 1 (pp. 35–37), 3 (pp. 52–70), 4 (pp. 76–78), 11 (pp. 214–228) e trechos de 2, 7 e 8.",
       "status_verificacao": "conferido_web",
       "evidencias": [
-        "https://opendata.uni-halle.de/handle/1981185920/110554"
+        "https://opendata.uni-halle.de/handle/1981185920/110554",
+        "https://doi.org/10.1525/luminos.8"
       ],
       "url": null,
-      "identificadores": {},
+      "identificadores": {
+        "doi": "10.1525/luminos.8"
+      },
       "editora": "University of California Press"
     },
     {
