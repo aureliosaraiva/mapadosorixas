@@ -3,9 +3,9 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxum.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 64,
+    "registros_usados": 66,
     "registros_pre_fichamento_excluidos": 0,
-    "registros_retidos": 0
+    "registros_retidos": 1
   },
   "id": "oxum",
   "rotulo": "Oxum",
@@ -136,6 +136,27 @@
         "parafrase": "Para o quadro queto, Oxum é orixá das águas doces e dos metais preciosos; cuida do amor, do ouro, da fertilidade, da gestação e da vaidade.",
         "nota": null,
         "registro": "oxum-056",
+        "status": "fichado"
+      },
+      {
+        "valor": "deusa da beleza e da riqueza, dona das águas doces",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 50",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 50",
+        "parafrase": "Oxum é, no Batuque, a deusa da beleza e da riqueza e a dona das águas doces.",
+        "nota": null,
+        "registro": "oxum-065",
         "status": "fichado"
       }
     ],
@@ -1292,6 +1313,27 @@
         "nota": null,
         "registro": "oxum-030",
         "status": "fichado"
+      },
+      {
+        "valor": "Oxum Docô, uma velha, dança como quem mexe massa num alguidar",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 54",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 54",
+        "parafrase": "Na dança da Oxum Docô, que é uma velha, os gestos sugerem alguém que segura um alguidar num braço e mistura uma massa com as mãos; os batuqueiros dizem que é Oxum mexendo o seu fubá.",
+        "nota": null,
+        "registro": "oxum-066",
+        "status": "fichado"
       }
     ],
     "interpretacao_academica": [
@@ -1408,13 +1450,16 @@
     "sem_registro": [
       "nomes",
       "origem",
-      "alimentos",
       "animais",
       "tabus",
       "hierarquia"
     ],
     "so_pre_fichamento": {},
-    "retidos_ate_conselho": {}
+    "retidos_ate_conselho": {
+      "alimentos": [
+        "oxum-067"
+      ]
+    }
   },
   "revisao": []
 }

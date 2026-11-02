@@ -91,4 +91,4 @@ A saudação Ogunhê aparece entre os atributos mais citados nos terreiros pauli
 
 Os mitos de Ogum que constam aqui são poucos e quase todos lidos de segunda mão. As grandes coletâneas de itãs, de Prandi e de Verger, só existem impressas e ainda dependem de exemplar, e o mesmo vale para a coletânea *Africa's Ogun*, conhecida aqui só por citações {{pendencia:Prandi, *Mitologia dos Orixás* (Cia. das Letras, 2001)}}{{pendencia:Barnes (org.), *Africa's Ogun*}}.
 
-Também não há registro do nome que o orixá recebe nos candomblés de nação Angola, tema que depende de obras como a de Castro. Alimentos e tabus não entram neste capítulo {{lacuna:nomes@candomble_angola}}{{lacuna:equivalencias@candomble_angola}}{{pendencia:Castro, *Falares africanos na Bahia*}}{{lacuna:alimentos}}{{lacuna:tabus}}.
+Também não há registro do nome que o orixá recebe nos candomblés de nação Angola, tema que depende de obras como a de Castro. Alimentos e tabus não entram neste capítulo {{lacuna:nomes@candomble_angola}}{{lacuna:equivalencias@candomble_angola}}{{pendencia:Castro, *Falares africanos na Bahia*}}{{pendencia:Decidir o que é público em "tabus" e "alimentos"}}{{lacuna:tabus}}.

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/exu.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 116,
+    "registros_usados": 119,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -136,6 +136,27 @@
         "parafrase": "O quadro anota que, no Batuque gaúcho, Exu é chamado Bara.",
         "nota": null,
         "registro": "exu-113",
+        "status": "fichado"
+      },
+      {
+        "valor": "Bará; em outros lugares de influência nagô, Elegbara ou Legba",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 52",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 52",
+        "parafrase": "Corrêa observa que Bará é conhecido e cultuado em praticamente toda a área de influência nagô, na África e nas Américas, onde é chamado Elegbara ou Legba.",
+        "nota": null,
+        "registro": "exu-119",
         "status": "fichado"
       }
     ],
@@ -289,6 +310,27 @@
         "parafrase": "Os autores lembram que a festa de Montevidéu se estende às ruas do bairro e que a rua, com seus cruzamentos, é por excelência a casa de Exu; na areia, entre imagens de Iemanjá e de uma Preta Velha, fotografaram uma imagem de Exu Asa Negra.",
         "nota": "Fora do Brasil: a festa junta casas de umbanda, de batuque, de quimbanda e de candomblé ligadas a federações uruguaias; 'batuque_rs' marca o Batuque de origem gaúcha praticado no Uruguai (proposta de tradição própria no relatório fichamento-09).",
         "registro": "exu-114",
+        "status": "fichado"
+      },
+      {
+        "valor": "Bará, que tem o mando das ruas e das encruzilhadas",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 50",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 50",
+        "parafrase": "Na lista dos doze orixás principais do Batuque, Bará aparece como o homem que tem o mando das ruas e das encruzilhadas.",
+        "nota": null,
+        "registro": "exu-118",
         "status": "fichado"
       }
     ],
@@ -1115,6 +1157,27 @@
         "parafrase": "Segundo os interlocutores de Halloy, Exu é o mais humano dos orixás, vive entre as pessoas, gosta de semear discórdia e não é nem bom nem mau. Ele pode atuar como orixá ou como espírito da jurema, categorias que não se confundem: como orixá não possui seus filhos; como espírito é incorporado com frequência e procurado para trabalhos de magia ofensiva, por isso é temido. Seus lugares preferidos são as encruzilhadas e a rua.",
         "nota": "Jurema: culto de origem indígena e regional, distinto dos orixás. Comparar com exu-034 e exu-068 (Exu-egum na Umbanda).",
         "registro": "exu-084",
+        "status": "fichado"
+      },
+      {
+        "valor": "Bará Lodê, da rua, e Bará Jelu, de dentro de casa",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "pp. 57–58",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "pp. 57–58",
+        "parafrase": "Ao tratar das oferendas, Corrêa distingue o Bará Lodê, que é da rua, do Bará Jelu, que fica dentro de casa.",
+        "nota": null,
+        "registro": "exu-120",
         "status": "fichado"
       }
     ],

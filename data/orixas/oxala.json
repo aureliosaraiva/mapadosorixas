@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxala.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 79,
+    "registros_usados": 80,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 2
   },
@@ -1728,6 +1728,27 @@
         "parafrase": "No peji estudado, Oxalá fica no fim da sequência, um pouco afastado, perto de Iemanjá, com quem forma o casal que gerou os outros orixás; Halloy lê essa posição como sinal de hierarquia superior. Em outro terreiro, Júnior pôs seu Orixáogiã no centro, maior que todos.",
         "nota": null,
         "registro": "oxala-062",
+        "status": "fichado"
+      },
+      {
+        "valor": "o mais velho de todos os orixás e pai de todos eles",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "pp. 50, 56",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "pp. 50, 56",
+        "parafrase": "Oxalá é, no Batuque, o mais velho de todos os orixás; na narrativa que Corrêa reproduz, ele é o Velho e o pai de todos eles.",
+        "nota": null,
+        "registro": "oxala-082",
         "status": "fichado"
       }
     ]

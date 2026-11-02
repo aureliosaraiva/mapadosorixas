@@ -8,7 +8,7 @@
       "'arestas' é gerado: arestas de data/conexoes.json sustentadas por registros do itã.",
       "Só versões 'fichado'/'revisado' aparecem no site e no download."
     ],
-    "total": 30
+    "total": 31
   },
   "itans": [
     {
@@ -1277,6 +1277,39 @@
       ],
       "arestas": [],
       "nota_curadoria": "Uma versão (Chiousse)."
+    },
+    {
+      "id": "ita-031",
+      "titulo": "Xangô larga Oxalá no barro, e Ogum fica com Iansã",
+      "entidades": [
+        "xango",
+        "iansa",
+        "ogum",
+        "oxala"
+      ],
+      "versoes": [
+        {
+          "registro": "xango-074",
+          "odu": null,
+          "valor": "Xangô abandona Oxalá para correr atrás de Iansã; Ogum recolhe o velho, ganha Iansã e passa a servir Oxalá; Iansã embebeda Ogum e foge com Xangô — mito encenado na dança do atã",
+          "resumo": "Xangô, noivo de Iansã, tinha a honra de carregar Oxalá nas costas. A caminho de uma festa, ao ver Iansã ao longe, larga o velho caído no barro e corre até ela. Os outros orixás passam conversando sem ouvir os gemidos, mas Ogum, que vinha atrás, ergue Oxalá e o carrega. Furioso, Oxalá faz de Ogum seu servo, tira Iansã de Xangô e a entrega a Ogum, e impõe a Xangô um castigo humilhante. Ogum leva Iansã para a mata, onde fica a sua forja; Xangô, de uma pedreira próxima, canta pedindo que ela embebede Ogum e fuja com ele. A fuga é descoberta e os três, guerreiros, lutam. No fim das festas, a dança do atã encena Iansã embriagando Ogum, com garrafinhas para as Iansãs e espadas para os Oguns.",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+          "sources": [
+            {
+              "id": "correa-1996-cozinha",
+              "loc": "pp. 56–57",
+              "via": null
+            }
+          ],
+          "nota": "O castigo de Xangô envolve comida (alimentos retidos) e não é detalhado aqui.",
+          "status": "fichado"
+        }
+      ],
+      "arestas": [],
+      "nota_curadoria": "Versão do Batuque de Porto Alegre, encenada na dança do atã (fichamento-10). O castigo de Xangô envolve comida e fica fora do resumo (alimentos retidos)."
     }
   ]
 }

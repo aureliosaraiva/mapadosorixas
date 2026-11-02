@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "omolu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 57,
+    "total": 62,
     "por_status": {
-      "fichado": 57,
+      "fichado": 62,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1109,6 +1109,101 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "omolu-058",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "a família de Acossi, voduns da terra, cura doenças, sobretudo as de pele",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1996-acossi",
+      "via_source_id": null,
+      "localizacao": "p. 67",
+      "parafrase": "Os voduns que compõem a família de Acossi são, na casa jeje de São Luís, os voduns da terra, com poder de curar doenças, em especial as de pele.",
+      "nota": "Acossi Sakpatá é o vodum da família de Dambirá que corresponde a Omolu na Casa das Minas (omolu-024).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100007"
+      ]
+    },
+    {
+      "id": "omolu-059",
+      "orixa": "omolu",
+      "atributo": "festas",
+      "valor": "festa de Acossi, 19 a 21 de janeiro, contra as doenças; no dia 20 (São Sebastião), comida de obrigação servida por dois voduns, sentados em esteiras junto ao altar católico, a todos os presentes por ordem de precedência",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1996-acossi",
+      "via_source_id": null,
+      "localizacao": "pp. 62, 64, 67–68",
+      "parafrase": "A festa de Acossi acontece todo ano na Casa das Minas de 19 a 21 de janeiro, com toques e danças; nesses dias os voduns permanecem longamente incorporados e conversam com as pessoas. No dia de São Sebastião, dois voduns sentados no chão, ao lado do altar católico, servem uma comida de obrigação, chamando antes os tocadores, em seguida as vodunsis pela antiguidade e por fim amigos e devotos. Come-se pedindo livramento de males e epidemias, pois a comida traz vida e saúde. Dias depois vêm o agradecimento (jonu) e a despedida (nadopé).",
+      "nota": "Acossi Sakpatá é o vodum da família de Dambirá que corresponde a Omolu na Casa das Minas (omolu-024). Os alimentos e as bebidas da festa não são detalhados aqui (alimentos retidos).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100007"
+      ]
+    },
+    {
+      "id": "omolu-060",
+      "orixa": "omolu",
+      "atributo": "alimentos",
+      "valor": "comida de obrigação da festa de Acossi: bebidas fermentadas e pratos de nomes africanos, comidos com a mão em tigelas de barro",
+      "tradicoes": [
+        "tambor_de_mina"
+      ],
+      "casa_ou_regiao": "São Luís (MA): Casa das Minas (jeje)",
+      "source_id": "ferretti-1996-acossi",
+      "via_source_id": null,
+      "localizacao": "p. 67",
+      "parafrase": "Ferretti lista as bebidas e os alimentos sólidos servidos no dia de São Sebastião na festa de Acossi, comidos com a mão em tigelinhas de barro.",
+      "nota": "Acossi Sakpatá é o vodum da família de Dambirá que corresponde a Omolu na Casa das Minas (omolu-024). Registro retido até decisão do conselho; a lista de pratos fica fora da ficha pública.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100007"
+      ]
+    },
+    {
+      "id": "omolu-061",
+      "orixa": "omolu",
+      "atributo": "dominios",
+      "valor": "Xapanã, velho feiticeiro, senhor das doenças",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "No Batuque, Xapanã é um velho feiticeiro que tem o comando das doenças.",
+      "nota": "Xapanã é nome de Omolu no Batuque (omolu-004; omolu-001).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "omolu-062",
+      "orixa": "omolu",
+      "atributo": "sincretismo",
+      "valor": "Cristo das Chagas, santo associado a Xapanã Velho",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 58",
+      "parafrase": "Na lista de pratos rituais, Corrêa anota de passagem que Xapanã Velho é associado ao Cristo das Chagas.",
+      "nota": "Xapanã é nome de Omolu no Batuque (omolu-004; omolu-001). O prato da entrada não é detalhado aqui (alimentos retidos).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

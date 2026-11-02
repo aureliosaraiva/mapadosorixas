@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxala",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 81,
+    "total": 82,
     "por_status": {
-      "fichado": 81,
+      "fichado": 82,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -1572,6 +1572,25 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "oxala-082",
+      "orixa": "oxala",
+      "atributo": "hierarquia",
+      "valor": "o mais velho de todos os orixás e pai de todos eles",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "pp. 50, 56",
+      "parafrase": "Oxalá é, no Batuque, o mais velho de todos os orixás; na narrativa que Corrêa reproduz, ele é o Velho e o pai de todos eles.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iemanja",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 96,
+    "total": 97,
     "por_status": {
-      "fichado": 92,
+      "fichado": 93,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1870,6 +1870,25 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "iemanja-097",
+      "orixa": "iemanja",
+      "atributo": "dominios",
+      "valor": "a água salgada",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "No Batuque, Iemanjá é a dona da água salgada.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

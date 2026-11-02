@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "iansa",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 51,
+    "total": 52,
     "por_status": {
-      "fichado": 51,
+      "fichado": 52,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -990,6 +990,25 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "iansa-053",
+      "orixa": "iansa",
+      "atributo": "dominios",
+      "valor": "Oiá (Iansã), guerreira e sensual, a quem pertencem os raios",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "Oiá, também chamada Iansã, é no Batuque uma mulher guerreira e sensual, a quem pertencem os raios.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/egungun.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 17,
+    "registros_usados": 19,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -118,6 +118,27 @@
         "parafrase": "Bastide informa que na Bahia a principal festa dos Egun, cerimônia privada, cai no dia de finados, coincidência que atribui ao sincretismo católico; a bênção dos campos pelos antepassados, comum nas festas agrícolas iorubás, não teria sobrevivido.",
         "nota": null,
         "registro": "egungun-011",
+        "status": "fichado"
+      },
+      {
+        "valor": "cerimônia anual dos mortos (aressum ou missa-de-eguns), lida pelo autor como imagem invertida do ritual dos orixás, que separa mortos e vivos",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "pp. 54–55",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "pp. 54–55",
+        "parafrase": "O culto aos mortos tem uma cerimônia anual chamada aressum ou missa-de-eguns. Corrêa a descreve como um anti-ritual, reflexo invertido das festas de orixá, cheio de detalhes rigorosos que marcam as fronteiras entre orixás, mortos e vivos: o morto é chamado para participar e, ao mesmo tempo, levado a entender que já não pertence a este mundo.",
+        "nota": "Etapas, objetos e oferendas do rito não são fichados (decisão do lote C; alimentos retidos).",
+        "registro": "egungun-019",
         "status": "fichado"
       }
     ],
@@ -377,6 +398,27 @@
         "parafrase": "Bastide, apoiado em Frikel, informa que os antepassados que aparecem em Itaparica levam o título de babá, pai, e nomes nagôs, representando linhagens já desaparecidas.",
         "nota": null,
         "registro": "egungun-014",
+        "status": "fichado"
+      },
+      {
+        "valor": "os eguns (mortos) fazem parte do mundo sobrenatural do Batuque e são tidos como extremamente perigosos",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 50",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 50",
+        "parafrase": "Além dos orixás, o plano sobrenatural do Batuque inclui os eguns, os mortos, considerados muito perigosos por poderem causar grandes danos aos vivos, até a morte.",
+        "nota": null,
+        "registro": "egungun-018",
         "status": "fichado"
       }
     ]

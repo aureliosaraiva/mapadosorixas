@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oba",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 25,
+    "total": 27,
     "por_status": {
-      "fichado": 25,
+      "fichado": 27,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -488,6 +488,44 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "oba-026",
+      "orixa": "oba",
+      "atributo": "dominios",
+      "valor": "mulher guerreira",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "No Batuque, Obá é descrita como mulher guerreira.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "oba-027",
+      "orixa": "oba",
+      "atributo": "iconografia",
+      "valor": "na dança, Obá imita alguém que, de pé, bate um pilão",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 54",
+      "parafrase": "Entre as danças que, ao fim da mesa dos prontos, dramatizam o universo mítico do Batuque, a de Obá imita uma pessoa em pé batendo um pilão.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

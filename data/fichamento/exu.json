@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "exu",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 117,
+    "total": 120,
     "por_status": {
-      "fichado": 117,
+      "fichado": 120,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -2280,6 +2280,63 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "exu-118",
+      "orixa": "exu",
+      "atributo": "dominios",
+      "valor": "Bará, que tem o mando das ruas e das encruzilhadas",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "Na lista dos doze orixás principais do Batuque, Bará aparece como o homem que tem o mando das ruas e das encruzilhadas.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "exu-119",
+      "orixa": "exu",
+      "atributo": "nomes",
+      "valor": "Bará; em outros lugares de influência nagô, Elegbara ou Legba",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 52",
+      "parafrase": "Corrêa observa que Bará é conhecido e cultuado em praticamente toda a área de influência nagô, na África e nas Américas, onde é chamado Elegbara ou Legba.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "exu-120",
+      "orixa": "exu",
+      "atributo": "qualidades",
+      "valor": "Bará Lodê, da rua, e Bará Jelu, de dentro de casa",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "pp. 57–58",
+      "parafrase": "Ao tratar das oferendas, Corrêa distingue o Bará Lodê, que é da rua, do Bará Jelu, que fica dentro de casa.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

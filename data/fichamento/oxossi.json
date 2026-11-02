@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "oxossi",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 46,
+    "total": 47,
     "por_status": {
-      "fichado": 43,
+      "fichado": 44,
       "pre_fichamento": 3,
       "revisado": 0
     }
@@ -896,6 +896,25 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1590/S0104-71831995000300002"
+      ]
+    },
+    {
+      "id": "oxossi-047",
+      "orixa": "oxossi",
+      "atributo": "dominios",
+      "valor": "Odé, o caçador; Otim é sua mulher",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "Na lista dos orixás do Batuque, Odé é o caçador, e Otim, sua mulher.",
+      "nota": "Odé é o nome de Oxóssi no Batuque, como em oxossi-007.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

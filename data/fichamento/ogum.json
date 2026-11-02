@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "ogum",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 89,
+    "total": 91,
     "por_status": {
-      "fichado": 84,
+      "fichado": 86,
       "pre_fichamento": 5,
       "revisado": 0
     }
@@ -1721,6 +1721,44 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "ogum-090",
+      "orixa": "ogum",
+      "atributo": "dominios",
+      "valor": "ferreiro e guerreiro; padroeiro dos artesãos",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "No Batuque, Ogum é o ferreiro e o guerreiro, padroeiro dos artesãos.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "ogum-091",
+      "orixa": "ogum",
+      "atributo": "alimentos",
+      "valor": "churrasco com farinha de mandioca, como na mesa gaúcha",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 52",
+      "parafrase": "Da contribuição indígena à cozinha gaúcha, Ogum se apropriou do churrasco servido com farinha de mandioca.",
+      "nota": "Registro retido até decisão do conselho. Corrêa usa o caso para mostrar o caráter regional da cozinha ritual do Batuque.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

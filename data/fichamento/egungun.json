@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "egungun",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 17,
+    "total": 19,
     "por_status": {
-      "fichado": 17,
+      "fichado": 19,
       "pre_fichamento": 0,
       "revisado": 0
     }
@@ -332,6 +332,44 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "egungun-018",
+      "orixa": "egungun",
+      "atributo": "hierarquia",
+      "valor": "os eguns (mortos) fazem parte do mundo sobrenatural do Batuque e são tidos como extremamente perigosos",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 50",
+      "parafrase": "Além dos orixás, o plano sobrenatural do Batuque inclui os eguns, os mortos, considerados muito perigosos por poderem causar grandes danos aos vivos, até a morte.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "egungun-019",
+      "orixa": "egungun",
+      "atributo": "festas",
+      "valor": "cerimônia anual dos mortos (aressum ou missa-de-eguns), lida pelo autor como imagem invertida do ritual dos orixás, que separa mortos e vivos",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "pp. 54–55",
+      "parafrase": "O culto aos mortos tem uma cerimônia anual chamada aressum ou missa-de-eguns. Corrêa a descreve como um anti-ritual, reflexo invertido das festas de orixá, cheio de detalhes rigorosos que marcam as fronteiras entre orixás, mortos e vivos: o morto é chamado para participar e, ao mesmo tempo, levado a entender que já não pertence a este mundo.",
+      "nota": "Etapas, objetos e oferendas do rito não são fichados (decisão do lote C; alimentos retidos).",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

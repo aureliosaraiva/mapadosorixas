@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/ossaim.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 47,
+    "registros_usados": 48,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 0
   },
@@ -183,6 +183,27 @@
         "parafrase": "Para o quadro queto, Ossaim é orixá da vegetação (flora); cuida da eficácia de remédios e medicina.",
         "nota": null,
         "registro": "ossaim-041",
+        "status": "fichado"
+      },
+      {
+        "valor": "Ossanhe, chamado orixá médico, dono das folhas",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 50",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 50",
+        "parafrase": "Ossanhe é chamado no Batuque de orixá médico e é o dono das folhas.",
+        "nota": null,
+        "registro": "ossaim-048",
         "status": "fichado"
       }
     ],

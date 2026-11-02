@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oxossi.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 42,
+    "registros_usados": 43,
     "registros_pre_fichamento_excluidos": 3,
     "registros_retidos": 1
   },
@@ -183,6 +183,27 @@
         "parafrase": "Para o quadro queto, Oxóssi (Odê) é orixá da caça (fauna); cuida da fartura de alimentos.",
         "nota": null,
         "registro": "oxossi-040",
+        "status": "fichado"
+      },
+      {
+        "valor": "Odé, o caçador; Otim é sua mulher",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 50",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 50",
+        "parafrase": "Na lista dos orixás do Batuque, Odé é o caçador, e Otim, sua mulher.",
+        "nota": "Odé é o nome de Oxóssi no Batuque, como em oxossi-007.",
+        "registro": "oxossi-047",
         "status": "fichado"
       }
     ],

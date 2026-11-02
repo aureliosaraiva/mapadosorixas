@@ -2,14 +2,14 @@
   "_meta": {
     "descricao": "Gerado por scripts/gerar_fichas.py a partir do fichamento (só 'fichado'/'revisado') e de data/conexoes_alvos.json — não editar à mão. Cada aresta agrupa as versões que a sustentam, sem hierarquia. Equivalência não é identidade; sincretismo varia por casa e região.",
     "esquema": "schemas/conexao.schema.json",
-    "total_nos": 138,
-    "total_arestas": 179,
+    "total_nos": 139,
+    "total_arestas": 180,
     "por_tipo": {
       "associacao": 3,
       "companheiro_de_culto": 3,
       "equivalencia": 79,
       "parentesco": 36,
-      "sincretismo": 58
+      "sincretismo": 59
     }
   },
   "nos": [
@@ -317,6 +317,11 @@
       "id": "oxumare",
       "rotulo": "Oxumarê",
       "tipo": "orixa"
+    },
+    {
+      "id": "santo:cristo-das-chagas",
+      "rotulo": "Cristo das Chagas",
+      "tipo": "santo_catolico"
     },
     {
       "id": "santo:maria-madalena",
@@ -4053,6 +4058,27 @@
           "status": "fichado"
         },
         {
+          "valor": "Iansã é uma das esposas de Xangô; Xangô servia a Oxalá, pai de todos os orixás",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+          "sources": [
+            {
+              "id": "correa-1996-cozinha",
+              "loc": "p. 56",
+              "via": null
+            }
+          ],
+          "source_id": "correa-1996-cozinha",
+          "via_source_id": null,
+          "localizacao": "p. 56",
+          "parafrase": "Corrêa apresenta Iansã como uma das esposas de Xangô e Oxalá como pai de todos os orixás, a quem Xangô servia.",
+          "nota": null,
+          "registro": "xango-073",
+          "status": "fichado"
+        },
+        {
           "valor": "esposa principal de Xangô",
           "tradicoes": [
             "candomble_ketu"
@@ -7738,6 +7764,37 @@
           "parafrase": "Ogum é associado a Santo Antônio e a São Jorge, tanto no texto quanto no quadro do anexo.",
           "nota": "O autor fala de 'candomblé' sem nação nesta seção; queto é aproximação (o artigo toma o rito queto como referência). Diz que os mesmos traços aparecem em Salvador, no Rio e na África, segundo outros autores.",
           "registro": "ogum-068",
+          "status": "fichado"
+        }
+      ]
+    },
+    {
+      "id": "sincretismo:omolu>santo:cristo-das-chagas",
+      "origem": "omolu",
+      "destino": "santo:cristo-das-chagas",
+      "tipo": "sincretismo",
+      "subtipo": null,
+      "direcionada": true,
+      "versoes": [
+        {
+          "valor": "Cristo das Chagas, santo associado a Xapanã Velho",
+          "tradicoes": [
+            "batuque_rs"
+          ],
+          "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+          "sources": [
+            {
+              "id": "correa-1996-cozinha",
+              "loc": "p. 58",
+              "via": null
+            }
+          ],
+          "source_id": "correa-1996-cozinha",
+          "via_source_id": null,
+          "localizacao": "p. 58",
+          "parafrase": "Na lista de pratos rituais, Corrêa anota de passagem que Xapanã Velho é associado ao Cristo das Chagas.",
+          "nota": "Xapanã é nome de Omolu no Batuque (omolu-004; omolu-001). O prato da entrada não é detalhado aqui (alimentos retidos).",
+          "registro": "omolu-062",
           "status": "fichado"
         }
       ]

@@ -2,9 +2,9 @@
   "_meta": {
     "orixa": "xango",
     "descricao": "Fichamento (registros atômicos). 'fichado' = lido na fonte, com página; aguarda revisão humana ('revisado'). 'pre_fichamento' = identificado em busca, NÃO lido na fonte.",
-    "total": 71,
+    "total": 74,
     "por_status": {
-      "fichado": 67,
+      "fichado": 70,
       "pre_fichamento": 4,
       "revisado": 0
     }
@@ -1373,6 +1373,63 @@
       "status": "fichado",
       "evidencias": [
         "https://doi.org/10.1525/luminos.8"
+      ]
+    },
+    {
+      "id": "xango-072",
+      "orixa": "xango",
+      "atributo": "dominios",
+      "valor": "guerreiro que comanda o trovão; dono dos instrumentos sagrados (\"dono do barulho\"); também comanda os mortos",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "pp. 50, 56",
+      "parafrase": "Xangô é o guerreiro que comanda o trovão. Os batuqueiros o chamam de dono do barulho, isto é, dos instrumentos musicais sagrados, e dizem que ele também tem mando sobre os mortos, de modo que sua presença garantida numa festa impede que os eguns se intrometam.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "xango-073",
+      "orixa": "xango",
+      "atributo": "parentesco",
+      "valor": "Iansã é uma das esposas de Xangô; Xangô servia a Oxalá, pai de todos os orixás",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "p. 56",
+      "parafrase": "Corrêa apresenta Iansã como uma das esposas de Xangô e Oxalá como pai de todos os orixás, a quem Xangô servia.",
+      "nota": null,
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
+      ]
+    },
+    {
+      "id": "xango-074",
+      "orixa": "xango",
+      "atributo": "itans",
+      "valor": "Xangô abandona Oxalá para correr atrás de Iansã; Ogum recolhe o velho, ganha Iansã e passa a servir Oxalá; Iansã embebeda Ogum e foge com Xangô — mito encenado na dança do atã",
+      "tradicoes": [
+        "batuque_rs"
+      ],
+      "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+      "source_id": "correa-1996-cozinha",
+      "via_source_id": null,
+      "localizacao": "pp. 56–57",
+      "parafrase": "Xangô, noivo de Iansã, tinha a honra de carregar Oxalá nas costas. A caminho de uma festa, ao ver Iansã ao longe, larga o velho caído no barro e corre até ela. Os outros orixás passam conversando sem ouvir os gemidos, mas Ogum, que vinha atrás, ergue Oxalá e o carrega. Furioso, Oxalá faz de Ogum seu servo, tira Iansã de Xangô e a entrega a Ogum, e impõe a Xangô um castigo humilhante. Ogum leva Iansã para a mata, onde fica a sua forja; Xangô, de uma pedreira próxima, canta pedindo que ela embebede Ogum e fuja com ele. A fuga é descoberta e os três, guerreiros, lutam. No fim das festas, a dança do atã encena Iansã embriagando Ogum, com garrafinhas para as Iansãs e espadas para os Oguns.",
+      "nota": "O castigo de Xangô envolve comida (alimentos retidos) e não é detalhado aqui.",
+      "status": "fichado",
+      "evidencias": [
+        "https://doi.org/10.1590/S0104-71831996000100006"
       ]
     }
   ]

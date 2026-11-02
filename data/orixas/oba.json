@@ -3,7 +3,7 @@
     "gerado_por": "scripts/gerar_fichas.py",
     "fichamento": "data/fichamento/oba.json",
     "aviso": "Gerado automaticamente — não editar à mão. Conteúdo ainda não revisado por praticantes/pesquisadores (status 'fichado').",
-    "registros_usados": 24,
+    "registros_usados": 26,
     "registros_pre_fichamento_excluidos": 0,
     "registros_retidos": 1
   },
@@ -51,6 +51,27 @@
         "parafrase": "Para o quadro queto, Obá é orixá dos rios; cuida do trabalho doméstico e do poder da mulher.",
         "nota": null,
         "registro": "oba-020",
+        "status": "fichado"
+      },
+      {
+        "valor": "mulher guerreira",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 50",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 50",
+        "parafrase": "No Batuque, Obá é descrita como mulher guerreira.",
+        "nota": null,
+        "registro": "oba-026",
         "status": "fichado"
       }
     ],
@@ -517,6 +538,27 @@
         "parafrase": "Quando Obá se manifesta, reconhece-se a divindade porque o iniciado dança com uma das mãos cobrindo a orelha, escondendo a mutilação do mito.",
         "nota": null,
         "registro": "oba-004",
+        "status": "fichado"
+      },
+      {
+        "valor": "na dança, Obá imita alguém que, de pé, bate um pilão",
+        "tradicoes": [
+          "batuque_rs"
+        ],
+        "casa_ou_regiao": "Porto Alegre (RS): templos de Batuque (campo do autor, 1969–1989)",
+        "sources": [
+          {
+            "id": "correa-1996-cozinha",
+            "loc": "p. 54",
+            "via": null
+          }
+        ],
+        "source_id": "correa-1996-cozinha",
+        "via_source_id": null,
+        "localizacao": "p. 54",
+        "parafrase": "Entre as danças que, ao fim da mesa dos prontos, dramatizam o universo mítico do Batuque, a de Obá imita uma pessoa em pé batendo um pilão.",
+        "nota": null,
+        "registro": "oba-027",
         "status": "fichado"
       }
     ],
