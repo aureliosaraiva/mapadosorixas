@@ -519,7 +519,281 @@
           "logunede-017"
         ]
       }
+    },
+    {
+      "entidade": "oba",
+      "texto_alternativo": "Ilustração simbólica de Obá: duas nuvens agitadas que se encontram no alto e um rio sinuoso que desce delas.",
+      "elementos": [
+        {
+          "elemento": "as nuvens revoltas que se encontram",
+          "como_aparece": "duas nuvens espelhadas que se tocam no centro, com uma voluta",
+          "registros": [
+            "oba-016"
+          ]
+        },
+        {
+          "elemento": "o rio Oba",
+          "como_aparece": "rio sinuoso que desce até a borda",
+          "registros": [
+            "oba-011"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Amarelo-ouro/laranja aparece num só registro (Xangô de Pernambuco); sem acento de cor do orixá.",
+        "registros": [
+          "oba-010"
+        ]
+      },
+      "excluidos": "A dança com a mão sobre a orelha e o itã da orelha cortada (oba-003, oba-004) não foram figurados: são cena de culto e corpo."
+    },
+    {
+      "entidade": "iroko",
+      "texto_alternativo": "Ilustração simbólica de Iroko: uma árvore de copa larga e raízes fortes, a gameleira, cuja copa alcança um arco pontilhado que representa o céu.",
+      "elementos": [
+        {
+          "elemento": "a gameleira, adorada como Iroko",
+          "como_aparece": "árvore de copa larga, com raízes e raízes aéreas",
+          "registros": [
+            "iroko-001"
+          ]
+        },
+        {
+          "elemento": "entre as divindades que ligam céu e terra; reino da vegetação",
+          "como_aparece": "copa que toca o arco do céu; raízes no chão",
+          "registros": [
+            "iroko-005",
+            "iroko-006"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Não há registro de cores de Iroko no fichamento; ilustração só com o traço e o tom claro.",
+        "registros": []
+      },
+      "excluidos": "A árvore como morada de antepassados (iroko-009) é depoimento único e não foi figurada; nenhum pano ou oferenda junto à árvore, por não estar fichado."
+    },
+    {
+      "entidade": "ibeji",
+      "texto_alternativo": "Ilustração simbólica dos Ibejis: dois motivos iguais e espelhados, um terceiro menor entre eles e, embaixo, três pratinhos de barro.",
+      "elementos": [
+        {
+          "elemento": "divindade tutelar dos gêmeos",
+          "como_aparece": "dois motivos idênticos e espelhados, sem figura humana",
+          "registros": [
+            "ibeji-027",
+            "ibeji-036"
+          ]
+        },
+        {
+          "elemento": "um terceiro personagem menor entre os dois (Doú)",
+          "como_aparece": "motivo menor entre os dois",
+          "registros": [
+            "ibeji-010",
+            "ibeji-011",
+            "ibeji-016"
+          ]
+        },
+        {
+          "elemento": "assentamento em três pratinhos de barro",
+          "como_aparece": "três pratos rasos, o do meio menor",
+          "registros": [
+            "ibeji-023"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "'Todas as cores, misturadas' aparece num só registro (Pernambuco); sem acento de cor do orixá. O ocre do site fica nos pratos, como cor do barro.",
+        "registros": [
+          "ibeji-025"
+        ]
+      },
+      "excluidos": "As estatuetas e imagens esculpidas (ibeji-011, ibeji-030, ibeji-037) não foram desenhadas, por serem figuras humanas e objetos de culto; o caruru e o macaco (ibeji-004, ibeji-029) ficaram de fora."
+    },
+    {
+      "entidade": "orunmila",
+      "texto_alternativo": "Ilustração simbólica de Orunmilá: um colar de contas em oval (o opelê, colar de Ifá) envolvendo cinco nozes de palmeira.",
+      "elementos": [
+        {
+          "elemento": "opelê, colar de Ifá usado na adivinhação",
+          "como_aparece": "colar oval de contas pequenas, sem figurar o número de peças",
+          "registros": [
+            "orunmila-001"
+          ]
+        },
+        {
+          "elemento": "nozes de palmeira usadas na adivinhação (itã)",
+          "como_aparece": "cinco coquinhos no centro do colar",
+          "registros": [
+            "orunmila-004"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Amarelo e verde aparecem num só registro (Pernambuco); sem acento de cor do orixá. O ocre do site fica nas nozes.",
+        "registros": [
+          "orunmila-008"
+        ]
+      },
+      "excluidos": "A forma exata do opelê (número e tipo de peças) e os sinais dos odus não estão fichados e não foram desenhados; nada de cena de consulta."
+    },
+    {
+      "entidade": "orum",
+      "texto_alternativo": "Ilustração simbólica do Orum: uma abóbada clara e sólida sobre a linha da terra, com estrelas dentro.",
+      "elementos": [
+        {
+          "elemento": "òrun: o céu imaginado como abóbada sólida sobre a terra",
+          "como_aparece": "abóbada clara apoiada na linha do horizonte",
+          "registros": [
+            "orum-001"
+          ]
+        },
+        {
+          "elemento": "céu visível e morada da divindade suprema",
+          "como_aparece": "estrelas dentro da abóbada",
+          "registros": [
+            "orum-002",
+            "orum-006"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Conceito sem cores registradas; só traço e tom claro.",
+        "registros": []
+      },
+      "excluidos": "Os 'dois céus' e a terra dos mortos (orum-003, orum-004) não foram figurados."
+    },
+    {
+      "entidade": "aie",
+      "texto_alternativo": "Ilustração simbólica do Aiê: a terra em camadas sob a linha do horizonte, com uma colina e, acima, um arco pontilhado que representa o céu.",
+      "elementos": [
+        {
+          "elemento": "Aiyê: o mundo físico, em contraponto ao Orum",
+          "como_aparece": "terra em camadas abaixo do horizonte, com o céu só em pontilhado",
+          "registros": [
+            "aie-001",
+            "aie-002"
+          ]
+        },
+        {
+          "elemento": "aiye: 'o mundo', abrangendo a terra e os céus",
+          "como_aparece": "terra e arco do céu na mesma composição",
+          "registros": [
+            "aie-003"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Conceito sem cores registradas; o ocre do site fica na colina, como cor da terra.",
+        "registros": []
+      }
+    },
+    {
+      "entidade": "odudua",
+      "texto_alternativo": "Ilustração simbólica de Odudua: um monte de terra sobre a água, de onde nasce um dendezeiro com dezesseis ramos.",
+      "elementos": [
+        {
+          "elemento": "terra lançada sobre a água (mito da criação)",
+          "como_aparece": "monte de terra sobre ondas",
+          "registros": [
+            "odudua-017"
+          ]
+        },
+        {
+          "elemento": "coquinho de dendê que vira palmeira de 16 ramos laterais",
+          "como_aparece": "dendezeiro com 16 ramos e coquinhos no alto",
+          "registros": [
+            "odudua-017"
+          ]
+        },
+        {
+          "elemento": "a terra, metade inferior do casal primordial",
+          "como_aparece": "a terra como base da composição",
+          "registros": [
+            "odudua-011",
+            "odudua-001"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Sem cores registradas; o ocre do site fica na terra e nos coquinhos.",
+        "registros": []
+      },
+      "excluidos": "O galo do mesmo mito (odudua-017) ficou de fora para não carregar a composição; as versões masculina e feminina (odudua-014) não são figuradas, já que não há figura."
+    },
+    {
+      "entidade": "olokun",
+      "texto_alternativo": "Ilustração simbólica de Olokun: sete correntes de ferro que descem até um mar profundo em camadas de ondas.",
+      "elementos": [
+        {
+          "elemento": "o mar",
+          "como_aparece": "camadas de ondas, a mais funda em ocre",
+          "registros": [
+            "olokun-001",
+            "olokun-005"
+          ]
+        },
+        {
+          "elemento": "sete correntes de ferro (mito do dilúvio)",
+          "como_aparece": "sete correntes descendo até a água",
+          "registros": [
+            "olokun-006"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Sem cores registradas; o azul de Iemanjá não foi emprestado. O ocre do site marca só a camada mais funda.",
+        "registros": []
+      }
+    },
+    {
+      "entidade": "ori",
+      "texto_alternativo": "Ilustração simbólica de Orí: uma meia cabaça coberta de búzios, apoiada numa base.",
+      "elementos": [
+        {
+          "elemento": "meia cabaça coberta de búzios",
+          "como_aparece": "meia cabaça clara com fileiras de búzios",
+          "registros": [
+            "ori-002"
+          ]
+        }
+      ],
+      "cor": {
+        "acento": "neutro",
+        "justificativa": "Sem cores registradas; só traço e tom claro.",
+        "registros": []
+      },
+      "excluidos": "A coroa de 41 búzios guardada no Ile Ori (ori-004) não foi desenhada: a contagem e a forma exigiriam detalhe que é melhor conferir com praticantes; o número de búzios no desenho é só gráfico."
     }
   ],
-  "sem_ilustracao": []
+  "sem_ilustracao": [
+    {
+      "entidade": "iyami",
+      "motivo": "Tema sensível (data/entidades.json, sensivel=true), à espera da decisão do conselho consultivo; o site nunca mostra ilustração de entidade sensível."
+    },
+    {
+      "entidade": "ewa",
+      "motivo": "Sem símbolos, elementos, domínios ou iconografia fichados (só parentesco e alimento: ewa-005, ewa-008). Fica para quando houver obra lida (Verger 1981, Prandi 2001; ver PENDENCIAS)."
+    },
+    {
+      "entidade": "olodumare",
+      "motivo": "As fontes registram que Olodumare não tem imagens, templos nem culto direto (olodumare-001, olodumare-006, olodumare-019); uma ilustração contrariaria o que está fichado."
+    },
+    {
+      "entidade": "egungun",
+      "motivo": "Os únicos elementos visuais fichados são os mascarados do culto (egungun-006, egungun-009), que é reservado; desenhá-los seria figurar cena de culto. Decisão a confirmar com praticantes."
+    },
+    {
+      "entidade": "cosmologia",
+      "motivo": "Capítulo-panorama, não entidade; as ilustrações de Orum, Aiê, Odudua, Olokun e Orí aparecem nas páginas deles."
+    }
+  ]
 }

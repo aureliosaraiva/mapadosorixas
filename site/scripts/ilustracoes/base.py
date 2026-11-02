@@ -15,7 +15,7 @@ import math
 
 ESTILO = ('.il .f{fill:var(--il-fundo,#f4f0e8)}.il .r{fill:none;stroke:var(--il-borda,#d9d0bf)}'
           '.il .c{fill:var(--il-claro,#fffdf9)}.il .a{fill:var(--a,#8c4c0c)}'
-          '.il .sa{stroke:var(--a,#8c4c0c)}.il .n{fill:none}.il .t{fill:currentColor}')
+          '.il .sa{stroke:var(--a,#8c4c0c)}.il .sc{stroke:var(--il-claro,#fffdf9)}.il .sf{stroke:var(--il-fundo,#f4f0e8)}.il .n{fill:none}.il .t{fill:currentColor}')
 
 ACENTOS = {
     # nome: (variável CSS, fallback claro)
@@ -60,8 +60,6 @@ def nervura(x0, y0, x1, y1, k=.8, sw=1.5):
 
 def onda(y, amp=6, comp=40, fase=0, x0=-20, x1=220):
     """Linha ondulada (curvas quadráticas alternadas)."""
-    d = [f'M{f(x0)} {f(y)}']
-    x = x0 + fase
     d = [f'M{f(x0)} {f(y)}']
     meio = comp / 2
     sinal = 1

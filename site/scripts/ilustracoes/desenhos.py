@@ -304,6 +304,166 @@ def logunede():
     return ''.join(s)
 
 
+def _silhueta(formas, cls='c', sw=3):
+    """Desenha a união de formas: contorno de todas e, por cima, o miolo sem traço."""
+    return f'<g class="{cls}" stroke-width="{sw}">{formas}</g><g class="{cls}" stroke="none">{formas}</g>'
+
+
+def oba():
+    s = []
+    # nuvens revoltas que se encontram
+    nuvem = ('<path d="M10 76C8 62 22 54 34 60C38 44 60 40 70 54C78 46 94 50 96 64C102 68 100 78 92 80Q54 90 16 80Z"/>')
+    s.append(_silhueta(nuvem))
+    s.append(f'<g transform="translate(200 0) scale(-1 1)">{_silhueta(nuvem)}</g>')
+    s.append('<path stroke-width="2" d="M40 70c4 -8 14 -8 16 0M144 70c4 -8 14 -8 16 0"/>')
+    # rio Oba
+    rio = 'M100 84C82 106 124 122 104 144C92 158 70 170 58 200'
+    s.append(f'<path stroke-width="28" d="{rio}"/>')
+    s.append(f'<path class="sc" stroke-width="22" d="{rio}"/>')
+    s.append('<path stroke-width="1.6" opacity=".6" d="M100 104q6 6 2 12M98 150q-6 6 -12 8M80 176q-6 6 -8 12"/>')
+    return ''.join(s)
+
+
+def iroko():
+    s = []
+    # céu: arco pontilhado que a árvore alcança
+    a0, a1 = polar(100, 120, 80, 200), polar(100, 120, 80, 340)
+    s.append(f'<path stroke-width="1.8" stroke-dasharray="2 6" d="M{f(a0[0])} {f(a0[1])}A80 80 0 0 1 {f(a1[0])} {f(a1[1])}"/>')
+    # chão e raízes
+    s.append('<path stroke-width="2.6" d="M14 152H186"/>')
+    s.append('<path stroke-width="2.2" d="M92 152C82 162 62 166 40 174M96 152C92 166 80 176 70 188M104 152C108 166 120 176 130 188M108 152C118 162 138 166 160 174M100 152V184"/>')
+    # tronco e galhos
+    s.append('<path class="c" stroke-width="3" d="M88 154C92 132 90 118 80 104L92 100C98 112 100 112 100 112C100 112 102 112 108 100L120 104C110 118 108 132 112 154Z"/>')
+    s.append('<path stroke-width="3" d="M84 102C76 92 66 88 54 88M116 102C124 92 134 88 146 88M100 112V80"/>')
+    # copa larga
+    copa = ''.join(f'<circle cx="{x}" cy="{y}" r="{r}"/>' for x, y, r in ((56, 82, 22), (80, 62, 26), (120, 62, 26), (144, 82, 22), (100, 74, 26), (100, 48, 20)))
+    s.append(_silhueta(copa, 'c'))
+    for (x, y) in ((60, 80), (84, 58), (116, 58), (140, 80), (100, 72), (100, 46), (76, 84), (124, 84)):
+        s.append(f'<path stroke-width="1.6" opacity=".55" d="M{x - 5} {y + 2}q5 -6 10 0"/>')
+    # raízes aéreas
+    s.append('<path stroke-width="1.4" opacity=".7" d="M62 100V128M70 96V120M136 96V122M142 100V130"/>')
+    return ''.join(s)
+
+
+def ibeji():
+    s = []
+    # dois motivos iguais e espelhados (os gêmeos) e um terceiro, menor, entre eles
+    for (x, y, R) in ((66, 76, 22), (134, 76, 22), (100, 108, 13)):
+        s.append(f'<circle class="c" cx="{x}" cy="{y}" r="{R}"/>')
+        s.append(f'<polygon class="a" stroke-width="2" points="{estrela(x, y, R * .72, R * .34, 8)}"/>')
+        s.append(f'<circle class="c" cx="{x}" cy="{y}" r="{f(R * .2)}" stroke-width="1.8"/>')
+    s.append('<path stroke-width="2" stroke-dasharray="3 5" d="M88 76H112"/>')
+    # três pratinhos de barro
+    for (x, w) in ((50, 24), (100, 17), (150, 24)):
+        s.append(f'<path class="a" d="M{x - w} 148H{x + w}C{x + w - 4} 164 {x - w + 4} 164 {x - w} 148Z"/>')
+        s.append(f'<ellipse class="c" cx="{x}" cy="148" rx="{w}" ry="5" stroke-width="2.4"/>')
+    s.append('<path stroke-width="2.4" d="M14 166H186"/>')
+    return ''.join(s)
+
+
+def orunmila():
+    s = []
+    # opelê: colar de adivinhação (contas pequenas, sem contar peças)
+    contas = []
+    for i in range(40):
+        x, y = 100 + 54 * math.cos(math.radians(i * 9)), 86 + 42 * math.sin(math.radians(i * 9))
+        contas.append((x, y))
+    s.append(f'<polygon stroke-width="1.6" points="{pts(contas)}"/>')
+    for (x, y) in contas[::2]:
+        s.append(f'<circle class="c" cx="{f(x)}" cy="{f(y)}" r="3.6" stroke-width="2"/>')
+    # nozes de palmeira (coquinhos), no centro
+    for (x, y, a) in ((88, 80, -20), (104, 76, 10), (118, 86, 30), (94, 96, -40), (110, 98, 0)):
+        s.append(f'<ellipse class="a" cx="{x}" cy="{y}" rx="7" ry="9" transform="rotate({a} {x} {y})" stroke-width="2.4"/>')
+        s.append(f'<path stroke-width="1.3" opacity=".6" d="M{x - 3} {y - 2}q3 -3 6 0" transform="rotate({a} {x} {y})"/>')
+    # chão
+    s.append('<path stroke-width="2.4" d="M30 160H170"/>')
+    for x in range(42, 166, 18):
+        s.append(f'<path stroke-width="1.4" opacity=".5" d="M{x} 170h8"/>')
+    return ''.join(s)
+
+
+def orum():
+    s = []
+    s.append('<path class="c" stroke-width="3" d="M22 140A78 78 0 0 1 178 140Z"/>')
+    s.append('<path stroke-width="1.6" opacity=".6" d="M36 140A64 64 0 0 1 164 140"/>')
+    for (x, y, R) in ((100, 82, 7), (70, 104, 5), (132, 100, 5.5), (84, 120, 3.5), (120, 124, 4), (100, 106, 3)):
+        s.append(f'<polygon class="t" stroke="none" points="{estrela(x, y, R, R * .32, 4)}"/>')
+    s.append('<path stroke-width="3" d="M10 140H190"/>')
+    for (y, op) in ((154, .5), (166, .35)):
+        s.append(f'<path stroke-width="1.6" opacity="{op}" d="M30 {y}H170"/>')
+    return ''.join(s)
+
+
+def aie():
+    s = []
+    a0, a1 = polar(100, 104, 70, 180), polar(100, 104, 70, 360)
+    s.append(f'<path stroke-width="1.8" stroke-dasharray="2 6" d="M{f(a0[0])} {f(a0[1])}A70 70 0 0 1 {f(a1[0])} {f(a1[1])}"/>')
+    s.append('<path class="c" stroke-width="3" d="M10 104H190V200H10Z"/>')
+    s.append('<path stroke-width="3" d="M10 104H190"/>')
+    s.append('<path class="a" stroke-width="2.4" d="M24 104C50 92 74 90 100 98C126 90 150 92 176 104Z"/>')
+    for i, y in enumerate((124, 144, 164, 184)):
+        s.append(f'<path stroke-width="{2 - i * .2}" opacity="{.8 - i * .12}" d="{onda(y, 3, 50 - i * 6)}" transform="translate({i * 7} 0)"/>')
+    return ''.join(s)
+
+
+def odudua():
+    s = []
+    # água
+    s.append(f'<path class="f" stroke-width="2.4" d="{onda(158, 4, 34)}V230H-20Z"/>')
+    s.append(f'<path stroke-width="1.8" opacity=".7" d="{onda(174, 3.5, 34)}" transform="translate(9 0)"/>')
+    # terra lançada sobre a água
+    s.append('<path class="a" stroke-width="2.6" d="M44 160C56 140 80 132 100 132C120 132 144 140 156 160Z"/>')
+    # dendezeiro de 16 ramos
+    s.append('<path stroke-width="4.4" d="M100 136C98 112 104 88 100 62"/>')
+    for y in range(72, 132, 10):
+        s.append(f'<path stroke-width="1.6" d="M96 {y}h8"/>')
+    for i in range(16):
+        lado = -1 if i < 8 else 1
+        k = i % 8
+        ang = (-178 + k * 11) if lado < 0 else (-2 - k * 11)
+        x1, y1 = polar(100, 60, 56 - abs(k - 3.5) * 3, ang)
+        cx_, cy_ = polar(100, 56, 34, ang + (-10 if lado < 0 else 10))
+        s.append(f'<path stroke-width="2.2" d="M100 60Q{f(cx_)} {f(cy_)} {f(x1)} {f(y1 + 8)}"/>')
+    for (x, y) in ((95, 66), (105, 66), (100, 70)):
+        s.append(f'<circle class="a" cx="{x}" cy="{y}" r="3.4" stroke-width="1.8"/>')
+    return ''.join(s)
+
+
+def olokun():
+    s = []
+    # sete correntes de ferro que descem ao fundo do mar
+    for j, x in enumerate(range(40, 161, 20)):
+        topo = 26 + abs(x - 100) * .5
+        y = topo
+        k = 0
+        while y < 120:
+            rx = 4.2 if k % 2 == 0 else 1.6
+            s.append(f'<ellipse cx="{x}" cy="{f(y + 6)}" rx="{rx}" ry="7" stroke-width="2.2"/>')
+            y += 11
+            k += 1
+    # mar profundo: camadas de ondas, a de baixo mais escura
+    s.append(f'<path class="c" stroke-width="2.8" d="{onda(112, 6, 40)}V230H-20Z"/>')
+    s.append(f'<path stroke-width="2.4" d="{onda(132, 5, 40)}" transform="translate(10 0)"/>')
+    s.append(f'<path class="a" stroke-width="2.6" d="{onda(152, 5, 40)}V230H-20Z"/>')
+    s.append(f'<path stroke-width="2" opacity=".7" d="{onda(172, 4, 34)}" transform="translate(6 0)"/>')
+    return ''.join(s)
+
+
+def ori():
+    s = []
+    # meia cabaça coberta de búzios
+    s.append('<path class="c" stroke-width="3" d="M40 140A60 60 0 0 1 160 140Z"/>')
+    s.append('<path stroke-width="3" d="M30 140H170"/>')
+    for (r, n, a0, a1) in ((48, 9, 194, 346), (32, 6, 200, 340), (16, 3, 220, 320)):
+        for i in range(n):
+            ang = a0 + (a1 - a0) * i / (n - 1)
+            x, y = polar(100, 140, r, ang)
+            s.append(buzio(x, y, 13, 8.5, ang + 90, 'f'))
+    s.append(buzio(100, 98, 13, 8.5, 90, 'f'))
+    s.append('<path stroke-width="1.6" opacity=".5" d="M48 152H152M64 162H136"/>')
+    return ''.join(s)
+
+
 DESENHOS = {k: v for k, v in globals().items() if callable(v) and k in (
     'ogum iemanja xango exu oxossi oxum iansa nana omolu oxala ossaim oxumare logunede oba iroko ibeji orunmila '
     'orum aie odudua olokun ori').split()}

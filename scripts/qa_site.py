@@ -70,6 +70,12 @@ absoluto fora do prefixo conta como quebrado.
    conferido_web…), "fichamento", códigos de confiabilidade, JSON (fora de Dados
    abertos) nem códigos de registro (ex.: ogum-012). Textos que vêm de data/
    (capítulos, observações) são descontados: são conteúdo de outras sessões.
+14. Ilustrações simbólicas (sessão ilustra; data/ilustracoes.json): cada
+   ilustração tem texto alternativo (<svg role="img"> + <title> igual ao JSON);
+   nenhuma para entidade sensível nem para as listadas em `sem_ilustracao`; todo
+   registro que sustenta um elemento ou a cor existe e está 'fichado'; a página
+   da entidade, o cartão do catálogo e a abertura do capítulo mostram a
+   ilustração (com legenda na página e no capítulo); ids únicos por página.
 """
 import html
 import json
@@ -1119,6 +1125,91 @@ def conferir_acervo(dist: Path) -> tuple[int, int]:
     return len(nomes), len(refs)
 
 
+# ----------------------------------------------------------------- 14: ilustrações simbólicas
+
+LEGENDA_ILUSTRACAO = "Ilustração simbólica inspirada nos elementos descritos nas fontes"
+
+
+def conferir_ilustracoes(dist: Path, registros: list) -> int:
+    arq = DATA / "ilustracoes.json"
+    if not arq.exists():
+        return 0
+    meta = json.loads(arq.read_text(encoding="utf-8"))
+    ents = {e["id"]: e for e in json.loads((DATA / "entidades.json").read_text(encoding="utf-8"))["entidades"]}
+    sensiveis = {i for i, e in ents.items() if e.get("sensivel")}
+    status = {r["id"]: r.get("status") for r in registros}
+    sem = {x["entidade"] for x in meta.get("sem_ilustracao", [])}
+    alt = {}
+    for il in meta["ilustracoes"]:
+        e = il["entidade"]
+        if e not in ents:
+            erro(f"[ilustração] {e}: entidade fora de data/entidades.json")
+        if e in sensiveis:
+            erro(f"[ilustração] {e}: entidade sensível não pode ter ilustração")
+        if e in sem:
+            erro(f"[ilustração] {e}: está também em sem_ilustracao")
+        if not (il.get("texto_alternativo") or "").strip():
+            erro(f"[ilustração] {e}: sem texto alternativo")
+        if not il.get("elementos"):
+            erro(f"[ilustração] {e}: sem elementos")
+        ids = [r for el in il.get("elementos", []) for r in el.get("registros", [])] + il.get("cor", {}).get("registros", [])
+        if not any(el.get("registros") for el in il.get("elementos", [])):
+            erro(f"[ilustração] {e}: nenhum registro sustenta os elementos")
+        for r in ids:
+            if status.get(r) != "fichado":
+                erro(f"[ilustração] {e}: registro {r} {'inexistente' if r not in status else 'não fichado (' + str(status[r]) + ')'}")
+        svgf = RAIZ / "site" / "src" / "assets" / "ilustracoes" / f"{e}.svg"
+        if not svgf.exists():
+            erro(f"[ilustração] {e}: falta {svgf.relative_to(RAIZ)}")
+        else:
+            t = svgf.read_text(encoding="utf-8")
+            m = re.search(r"<title[^>]*>(.*?)</title>", t, re.S)
+            if 'role="img"' not in t or not m or norm(m.group(1)) != norm(il["texto_alternativo"]):
+                erro(f"[ilustração] {e}: o SVG precisa de role=img e <title> igual ao texto alternativo do JSON")
+            if re.search(r"<image\b|xlink:href=|href=\"(?:https?:|data:)", t):
+                erro(f"[ilustração] {e}: o SVG não pode embutir imagens externas")
+        alt[e] = norm(il["texto_alternativo"])
+    nfig = 0
+    for pag in sorted(dist.rglob("*.html")):
+        if "pagefind" in pag.parts:
+            continue
+        rel = pag.relative_to(dist)
+        bruto = pag.read_text(encoding="utf-8")
+        for m in re.finditer(r'data-ilustracao="([^"]+)"', bruto):
+            e = m.group(1)
+            nfig += 1
+            if e not in alt or e in sensiveis or e in sem:
+                erro(f"[ilustração] {rel}: ilustração indevida '{e}'")
+        svgs = re.findall(r"<svg\b[^>]*\bclass=\"il il-([\w-]+)\"[^>]*>(.*?)</svg>", bruto, re.S)
+        for e, corpo in svgs:
+            abre = re.search(r'<svg\b[^>]*class="il il-' + re.escape(e) + r'"[^>]*>', bruto).group(0)
+            m = re.search(r'<title id="([^"]+)">(.*?)</title>', corpo, re.S)
+            if 'role="img"' not in abre or not m or f'aria-labelledby="{m.group(1)}"' not in abre or norm(m.group(2)) != alt.get(e):
+                erro(f"[ilustração] {rel}: ilustração '{e}' sem texto alternativo correto")
+        ids_titulo = re.findall(r'<title id="(ilt-[^"]+)"', bruto)
+        if len(ids_titulo) != len(set(ids_titulo)):
+            erro(f"[ilustração] {rel}: ids de título de ilustração repetidos")
+    cat = (dist / "catalogo" / "index.html").read_text(encoding="utf-8")
+    for e in alt:
+        pag = dist / "orixas" / e / "index.html"
+        if pag.exists():
+            t = pag.read_text(encoding="utf-8")
+            if f'data-ilustracao="{e}"' not in t or LEGENDA_ILUSTRACAO not in t:
+                erro(f"[ilustração] orixas/{e}/: falta a ilustração ou a legenda")
+            if f'data-ilustracao="{e}"' not in cat:
+                erro(f"[ilustração] catálogo: falta a ilustração de {e} no cartão")
+        cap = dist / "orixas" / e / "capitulo" / "index.html"
+        if cap.exists():
+            t = cap.read_text(encoding="utf-8")
+            if f'data-ilustracao="{e}"' not in t or LEGENDA_ILUSTRACAO not in t:
+                erro(f"[ilustração] orixas/{e}/capitulo/: falta a ilustração ou a legenda")
+    for e in sensiveis:
+        for pag in (dist / "orixas" / e).rglob("*.html") if (dist / "orixas" / e).exists() else []:
+            if "data-ilustracao" in pag.read_text(encoding="utf-8"):
+                erro(f"[ilustração] {pag.relative_to(dist)}: entidade sensível com ilustração")
+    return nfig
+
+
 def main():
     dist = RAIZ / "site" / "dist"
     if "--dist" in sys.argv:
@@ -1139,6 +1230,7 @@ def main():
     ncaps, npars = conferir_capitulos(dist, fichas, fontes, registros)
     nnomes_acervo, nrefs_acervo = conferir_acervo(dist)
     nling = conferir_linguagem(dist, registros)
+    nilus = conferir_ilustracoes(dist, registros)
     total = sum(len(vs) for f in fichas.values() for vs in f["atributos"].values())
     nrev_vers = sum(1 for f in fichas.values() for vs in f["atributos"].values() for v in vs if v.get("revisoes"))
     print(f"QA do site: {len(fichas)} fichas, {nv}/{total} versões conferidas contra data/orixas; "
@@ -1149,6 +1241,7 @@ def main():
           f"capítulos: {ncaps} ({npars} parágrafos conferidos); lista-mestra: {nents} entidades no catálogo; itãs: {nvitans} versões conferidas; cosmologia: {nhier} versões de hierarquia; "
           f"acervo: {nnomes_acervo} nomes de arquivo e {nrefs_acervo} texto(s) de acervo/txt procurados (0 vazamentos se ok); "
           f"linguagem: {nling} páginas sem jargão interno nem códigos de registro; "
+          f"ilustrações: {nilus} exibidas, com texto alternativo e registros fichados; "
           f"prefixo: {site_base() or '/'}")
     if erros:
         print(f"\n{len(erros)} erro(s):")
