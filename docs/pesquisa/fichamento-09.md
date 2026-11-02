@@ -94,3 +94,7 @@ Paráfrases do anexo que repetiam um mesmo molde entre registros (aviso de repet
 1. Decidir a tradição `afroumbanda_uruguai` e, se aprovada, retaguear os 11 registros de Noleto & Negrão e escrever a descrição com fonte.
 2. Fichar Frigerio 2021 (Iemanjá na Argentina, "casi una Virgen del Mar") e Bahia 2018 (Iemanjá no Rio), citados por Noleto & Negrão, para ter festas de Iemanjá no Rio e na Argentina.
 3. O revisor de tradição jeje/angola deve conferir o quadro de correspondências de Prandi, que é síntese do autor e não diz de que casas vem cada par.
+
+## Adendo — acessibilidade
+
+`node site/scripts/acessibilidade.cjs` (axe, 1280 px claro e escuro e larguras móveis, com as páginas de capítulo alteradas): **nenhuma violação grave**.
